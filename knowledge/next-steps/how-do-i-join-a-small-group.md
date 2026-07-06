@@ -33,7 +33,7 @@ Small Groups are a great way to build community, study Scripture, pray with othe
 
 ## Detailed Answer
 
-If you are interested in joining a Small Group, the best first step is to fill out a Connect Card or use the Small Groups link when available. A staff member or ministry leader can help you find a group that fits your stage of life, schedule, and location.
+If you are interested in joining a Small Group, the best first step is to fill out a Connect Card or go to https://urbancrest.churchcenter.com/groups. A staff member or ministry leader can help you find a group that fits your stage of life, schedule, and location.
 
 ## Urbancrest Information
 
