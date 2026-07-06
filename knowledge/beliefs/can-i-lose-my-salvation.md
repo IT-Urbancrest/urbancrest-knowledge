@@ -38,7 +38,7 @@ Those who have genuinely trusted in Jesus Christ are kept by God's power and wil
 
 ## Detailed Answer
 
-The Baptist Faith and Message 2000 teaches that true believers endure to the end and are kept by the power of God through faith unto salvation. This does not mean Christians never sin or struggle. It means God preserves those who truly belong to Him. A person who claims faith but permanently rejects Christ shows reason for serious spiritual concern. A struggling believer should not run from God, but return to Him in repentance, faith, and dependence on grace.
+The bible teaches that true believers endure to the end and are kept by the power of God through faith unto salvation. This does not mean Christians never sin or struggle. It means God preserves those who truly belong to Him. A person who claims faith but permanently rejects Christ shows reason for serious spiritual concern. A struggling believer should not run from God, but return to Him in repentance, faith, and dependence on grace.
 
 ## Urbancrest Information
 
