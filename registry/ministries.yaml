@@ -1,0 +1,78 @@
+version: 1.0
+last_updated: 2026-07-06
+
+ministries:
+  kids:
+    title: Urbancrest Kids
+    category: ministry
+    audience:
+      - children
+      - parents
+      - families
+    description: Ministry for children and families at Urbancrest.
+    related_resources:
+      - church_center.connect_card
+
+  students:
+    title: Student Ministry
+    category: ministry
+    audience:
+      - students
+      - parents
+    description: Ministry for middle school and high school students.
+    related_resources:
+      - church_center.connect_card
+
+  small_groups:
+    title: Small Groups
+    category: discipleship
+    audience:
+      - adults
+      - attendees
+      - members
+    description: Groups that help people build community and grow in faith.
+    related_resources:
+      - church_center.small_groups
+
+  missions:
+    title: Missions
+    category: ministry
+    audience:
+      - everyone
+    description: Ministry focused on local, national, and international mission engagement.
+
+  worship:
+    title: Worship Ministry
+    category: ministry
+    audience:
+      - volunteers
+      - attendees
+    description: Ministry that helps lead the church in worship.
+
+  production:
+    title: Production Ministry
+    category: ministry
+    audience:
+      - volunteers
+    description: Ministry supporting audio, video, lighting, livestream, and worship service technology.
+
+  men:
+    title: Men's Ministry
+    category: ministry
+    audience:
+      - men
+    description: Ministry for men to grow in Christ and community.
+
+  women:
+    title: Women's Ministry
+    category: ministry
+    audience:
+      - women
+    description: Ministry for women to grow in Christ and community.
+
+  legacy_builders:
+    title: Legacy Builders
+    category: ministry
+    audience:
+      - adults 50+
+    description: Ministry for adults age 50 and older.

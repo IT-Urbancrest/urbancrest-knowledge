@@ -1,0 +1,117 @@
+version: 1.0
+last_updated: 2026-07-06
+
+resources:
+  church_center:
+    connect_card:
+      title: Connect Card
+      url: https://urbancrest.churchcenter.com/people/forms/1494
+      description: Primary first step for visitors, questions, prayer requests, and general follow-up.
+      category: next-step
+      audience:
+        - visitor
+        - attendee
+        - seeker
+      recommend_when:
+        - user wants to get connected
+        - user is new to Urbancrest
+        - user has a question and wants follow-up
+        - user wants to submit a prayer request
+      keywords:
+        - connect
+        - next step
+        - contact
+        - follow up
+        - prayer request
+
+    baptism:
+      title: Baptism Interest Form
+      url: https://urbancrest.churchcenter.com/people/forms/1674
+      description: Form for people interested in being baptized at Urbancrest.
+      category: next-step
+      audience:
+        - believer
+        - new believer
+      recommend_when:
+        - user wants to get baptized
+        - user asks about believer's baptism
+        - user says they have trusted Jesus
+      keywords:
+        - baptism
+        - baptized
+        - believer's baptism
+        - immersion
+
+    giving:
+      title: Online Giving
+      url: https://urbancrest.churchcenter.com/giving
+      description: Church Center giving page for online gifts, tithes, and offerings.
+      category: giving
+      audience:
+        - attendee
+        - member
+        - donor
+      recommend_when:
+        - user asks how to give online
+        - user asks about tithes or offerings
+        - user wants to set up giving
+      keywords:
+        - giving
+        - donate
+        - tithe
+        - offering
+        - Church Center giving
+
+    prayer_request:
+      title: Prayer Request
+      url: https://urbancrest.churchcenter.com/people/forms/1494
+      description: Prayer requests are submitted through the Connect Card.
+      category: care
+      audience:
+        - everyone
+      recommend_when:
+        - user asks for prayer
+        - user wants someone to pray with them
+        - user has a care need
+      keywords:
+        - prayer
+        - prayer request
+        - pray for me
+        - care
+
+    small_groups:
+      title: Small Groups
+      url: https://urbancrest.churchcenter.com/groups
+      description: Church Center groups directory for finding or joining a Small Group.
+      category: discipleship
+      audience:
+        - attendee
+        - member
+        - visitor
+      recommend_when:
+        - user wants community
+        - user asks how to join a Small Group
+        - user wants to study the Bible with others
+      keywords:
+        - Small Groups
+        - groups
+        - community
+        - Bible study
+
+    serving:
+      title: Serving or Volunteer Interest
+      url: https://urbancrest.churchcenter.com/people/forms/4085
+      description: Form for people interested in serving or volunteering.
+      category: serving
+      audience:
+        - attendee
+        - member
+      recommend_when:
+        - user wants to serve
+        - user asks about volunteering
+        - user wants to join a ministry team
+      keywords:
+        - serve
+        - volunteer
+        - serving
+        - ministry team

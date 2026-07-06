@@ -1,29 +1,63 @@
 ---
 id: next-steps.baptism.get-baptized
-title: How do I get baptized?
-description: Explains the process for getting baptized at Urbancrest.
-category: Next Steps
+version: 1.0
 status: published
+priority: 100
+
+title: How do I get baptized?
+summary: Explains how someone can begin the baptism process at Urbancrest.
+
+category:
+  - next-steps
+  - baptism
+
+intent:
+  primary: baptism
+  secondary:
+    - next_step
+    - obedience
+
 audience:
-  - everyone
+  - believer
+  - new-believer
+
+answer_style: pastoral
 confidence: high
+
+owner:
+  ministry: pastoral
+
+review:
+  doctrinal: required
+  factual: required
+
 tags:
   - baptism
-  - baptism interest form
+  - believer's baptism
+  - immersion
   - next steps
-  - obedience
+
 search_terms:
   - How do I get baptized?
-  - I want to get baptized
+  - I want to get baptized.
   - Baptism form
   - Can I be baptized at Urbancrest?
-scripture_references:
+
+scripture:
   - Matthew 28:18-20
   - Romans 6:3-4
+
+resources:
+  - church_center.baptism
+
+next_steps:
+  - knowledge/beliefs/what-does-baptism-mean.md
+  - knowledge/beliefs/should-i-get-baptized-again.md
+
 related:
-  - what-does-baptism-mean.md
-  - should-i-get-baptized-again.md
-  - how-do-i-get-saved.md
+  - knowledge/beliefs/how-do-i-get-saved.md
+  - knowledge/beliefs/what-does-baptism-mean.md
+
 last_updated: 2026-07-06
 ---
 
@@ -31,22 +65,24 @@ last_updated: 2026-07-06
 
 ## Short Answer
 
-If you have trusted Jesus as Lord and Savior, the first step toward baptism at Urbancrest is completing the Baptism Interest Form.
+If you have trusted Jesus Christ as Lord and Savior, baptism is your next step of obedience. At Urbancrest, the first step is completing the Baptism Interest Form.
 
 ## Detailed Answer
 
-After you submit the form, a pastor or ministry leader will follow up with you. They will talk with you about your testimony, answer questions, explain what baptism means, and help schedule your baptism. Baptism is for believers and is practiced by immersion as a public declaration of faith in Jesus Christ.
+Baptism is a public declaration of faith in Jesus Christ. It does not save a person. Salvation comes by God's grace through faith in Christ alone. Baptism follows salvation as an act of obedience and a picture of being united with Christ in His death, burial, and resurrection.
+
+Urbancrest practices believer's baptism by immersion.
 
 ## Urbancrest Information
 
-Urbancrest Church wants to help people know Jesus, grow in faith, and live on mission together. When a question involves a personal next step, the best place to begin is usually a Connect Card, contacting a pastor or staff member, or using the appropriate Church Center form.
+After you submit the Baptism Interest Form, a pastor or ministry leader will follow up with you. They will talk with you about your testimony, answer questions, explain what baptism means, and help schedule your baptism.
 
 ## Next Step
 
-Complete the Baptism Interest Form: https://urbancrest.churchcenter.com/people/forms/1674
+Use resource ID `church_center.baptism`.
 
 ## Related Questions
 
-- what-does-baptism-mean.md
-- should-i-get-baptized-again.md
-- how-do-i-get-saved.md
+- What does baptism mean?
+- Should I get baptized again?
+- How do I get saved?

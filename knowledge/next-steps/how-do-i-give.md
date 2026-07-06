@@ -1,29 +1,62 @@
 ---
-id: next-steps.giving.how-to-give
-title: How do I give online?
-description: Explains online giving through Church Center.
-category: Next Steps
+id: next-steps.giving.online
+version: 1.0
 status: published
+priority: 90
+
+title: How do I give online?
+summary: Explains online giving through Church Center.
+
+category:
+  - next-steps
+  - giving
+
+intent:
+  primary: giving
+  secondary:
+    - online_giving
+    - stewardship
+
 audience:
-  - everyone
+  - attendee
+  - member
+  - donor
+
+answer_style: helpful
 confidence: high
+
+owner:
+  ministry: church_office
+
+review:
+  doctrinal: not_required
+  factual: required
+
 tags:
   - giving
   - online giving
   - Church Center
-  - donation
   - tithe
   - offering
+
 search_terms:
   - How do I give online?
   - How do I tithe?
-  - Can I donate online?
+  - Where can I donate?
   - Church Center giving
-scripture_references:
+
+scripture:
   - 2 Corinthians 9:6-7
+
+resources:
+  - church_center.giving
+
+next_steps:
+  - knowledge/resources/church-center-links.md
+
 related:
-  - church-center-links.md
-  - how-do-i-fill-out-a-connect-card.md
+  - knowledge/next-steps/how-do-i-fill-out-a-connect-card.md
+
 last_updated: 2026-07-06
 ---
 
@@ -31,21 +64,23 @@ last_updated: 2026-07-06
 
 ## Short Answer
 
-You can give online through Church Center by choosing a fund, entering your gift amount, and following the secure prompts to complete your donation.
+You can give online through Church Center.
 
 ## Detailed Answer
 
-Online giving is a simple way to support the ministry of Urbancrest Church. Church Center may allow one-time gifts, recurring giving, and different payment methods depending on what is enabled. Giving is an act of worship and stewardship, not a way to earn God's favor. Receipts and giving history are typically available through Church Center.
+Online giving is a simple way to support the ministry of Urbancrest Church. Giving is an act of worship and stewardship. It is not a way to earn salvation or favor with God.
+
+Church Center may allow one-time gifts, recurring giving, and different payment methods depending on what is enabled.
 
 ## Urbancrest Information
 
-Urbancrest Church wants to help people know Jesus, grow in faith, and live on mission together. When a question involves a personal next step, the best place to begin is usually a Connect Card, contacting a pastor or staff member, or using the appropriate Church Center form.
+The official online giving resource is stored as `church_center.giving`.
 
 ## Next Step
 
-Use the Giving link listed in knowledge/resources/church-center-links.md or contact the church office for help.
+Use resource ID `church_center.giving`.
 
 ## Related Questions
 
-- church-center-links.md
-- how-do-i-fill-out-a-connect-card.md
+- How do I fill out a Connect Card?
+- What is stewardship?

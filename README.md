@@ -2,41 +2,25 @@
 
 This repository is the source of truth for Urbancrest Church's website AI search and future digital tools.
 
-## Purpose
+## Current Primary Use
 
-The goal is to provide accurate, biblically faithful, Urbancrest-specific answers for people asking questions about the church, the Gospel, next steps, ministries, and events.
+Agentic AI search on the Urbancrest website.
 
-## Primary Use
+## Architecture
 
-This repository is currently optimized for agentic AI search on the Urbancrest website.
+Release 0.4.0 introduces the Urbancrest Knowledge Object Model.
 
-## Core Principle
+The repository now includes:
+
+- `knowledge/` for user-facing AI knowledge articles
+- `registry/` for canonical structured data such as links, ministries, locations, and staff references
+- `relationships/` for journey and next-step mapping
+- `intents/` for user intent routing
+- `schemas/` for content structure and metadata standards
+- `tests/` for quality assurance prompts
+
+## Core Rule
 
 One question. One answer. One document.
 
-Each Markdown file should answer one primary user intent as clearly as possible.
-
-## Structure
-
-```text
-knowledge/
-  about/
-  beliefs/
-  next-steps/
-  resources/
-templates/
-tests/
-intents/
-```
-
-## Content Standard
-
-Each article should include:
-
-- YAML front matter
-- A clear short answer
-- A more detailed answer
-- Urbancrest-specific next steps
-- Search terms
-- Related articles
-- Scripture references when appropriate
+Knowledge articles should reference registry IDs instead of duplicating URLs or contact information.

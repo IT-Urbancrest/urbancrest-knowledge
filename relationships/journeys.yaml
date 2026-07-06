@@ -1,0 +1,36 @@
+version: 1.0
+last_updated: 2026-07-06
+
+journeys:
+  visitor:
+    title: First-Time Visitor Journey
+    steps:
+      - knowledge/about/who-is-urbancrest.md
+      - knowledge/about/what-time-are-services.md
+      - knowledge/about/where-are-you-located.md
+      - knowledge/about/what-should-i-expect.md
+      - knowledge/faq/is-there-childcare.md
+      - knowledge/next-steps/how-do-i-fill-out-a-connect-card.md
+
+  salvation:
+    title: Following Jesus Journey
+    steps:
+      - knowledge/beliefs/what-is-the-gospel.md
+      - knowledge/beliefs/how-do-i-get-saved.md
+      - knowledge/beliefs/can-i-know-im-saved.md
+      - knowledge/next-steps/how-do-i-get-baptized.md
+      - knowledge/next-steps/how-do-i-join-a-small-group.md
+
+  baptism:
+    title: Baptism Journey
+    steps:
+      - knowledge/beliefs/what-does-baptism-mean.md
+      - knowledge/next-steps/how-do-i-get-baptized.md
+      - knowledge/beliefs/should-i-get-baptized-again.md
+
+  connection:
+    title: Getting Connected Journey
+    steps:
+      - knowledge/next-steps/how-do-i-fill-out-a-connect-card.md
+      - knowledge/next-steps/how-do-i-join-a-small-group.md
+      - knowledge/next-steps/how-do-i-start-serving.md

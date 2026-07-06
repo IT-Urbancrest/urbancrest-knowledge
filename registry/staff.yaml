@@ -1,0 +1,19 @@
+version: 1.0
+last_updated: 2026-07-06
+
+staff:
+  pastor.geoff:
+    name: Geoff Prows
+    role: Pastor
+    public_contact: church_office
+    description: Pastoral leadership contact reference.
+
+  church_office:
+    name: Urbancrest Church Office
+    role: General Contact
+    public_contact: church_office
+    description: General church contact for questions, pastoral follow-up, and ministry information.
+
+notes:
+  - Add public staff emails only when approved for website AI use.
+  - Avoid placing private phone numbers or sensitive staff information in this repository.

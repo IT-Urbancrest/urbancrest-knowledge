@@ -1,0 +1,52 @@
+version: 1.0
+last_updated: 2026-07-06
+
+intents:
+  visitor_info:
+    user_might_say:
+      - What time is church?
+      - Where are you located?
+      - What should I expect?
+      - What should I wear?
+    primary_documents:
+      - knowledge/about/what-time-are-services.md
+      - knowledge/about/where-are-you-located.md
+      - knowledge/about/what-should-i-expect.md
+
+  salvation:
+    user_might_say:
+      - How do I get saved?
+      - How do I become a Christian?
+      - I want to know Jesus.
+    primary_documents:
+      - knowledge/beliefs/how-do-i-get-saved.md
+      - knowledge/beliefs/what-is-the-gospel.md
+
+  baptism:
+    user_might_say:
+      - How do I get baptized?
+      - I want to be baptized.
+      - Should I get baptized again?
+    primary_documents:
+      - knowledge/next-steps/how-do-i-get-baptized.md
+      - knowledge/beliefs/what-does-baptism-mean.md
+
+  giving:
+    user_might_say:
+      - How do I give?
+      - Can I give online?
+      - Where do I tithe?
+    primary_documents:
+      - knowledge/next-steps/how-do-i-give.md
+    resources:
+      - church_center.giving
+
+  prayer:
+    user_might_say:
+      - I need prayer.
+      - Can someone pray for me?
+      - How do I submit a prayer request?
+    primary_documents:
+      - knowledge/next-steps/how-do-i-submit-a-prayer-request.md
+    resources:
+      - church_center.prayer_request

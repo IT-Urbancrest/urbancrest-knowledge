@@ -1,53 +1,71 @@
 ---
 id: resources.church-center.links
-title: Church Center Links
-description: Central location for Urbancrest Church Center links used by AI knowledge articles.
-category: Resources
+version: 1.0
 status: published
+priority: 100
+
+title: Church Center Links
+summary: Explains where official Church Center links are stored and how AI articles should reference them.
+
+category:
+  - resources
+
+intent:
+  primary: resource_lookup
+  secondary:
+    - Church Center
+    - links
+
 audience:
-  - everyone
+  - staff
+  - ai
+
+answer_style: reference
 confidence: high
+
 tags:
   - Church Center
+  - registry
   - links
   - forms
-  - giving
-  - baptism
-  - connect card
+
 search_terms:
   - Church Center links
-  - Urbancrest forms
-  - online giving
-  - baptism form
-  - connect card
-related: []
+  - Connect Card link
+  - Baptism form link
+  - Giving link
+  - Small Groups link
+  - Serving form link
+
+resources:
+  - church_center.connect_card
+  - church_center.baptism
+  - church_center.giving
+  - church_center.prayer_request
+  - church_center.small_groups
+  - church_center.serving
+
+related:
+  - registry/church-center.yaml
+
 last_updated: 2026-07-06
 ---
 
 # Church Center Links
 
-Use this file as the central source for Church Center links. When links change, update them here first.
+Official Church Center links are stored in `registry/church-center.yaml`.
 
-## Baptism Interest Form
+Knowledge articles should reference resource IDs instead of duplicating URLs.
 
-https://urbancrest.churchcenter.com/people/forms/1674
+## Available Resource IDs
 
-## Giving
+- `church_center.connect_card`
+- `church_center.baptism`
+- `church_center.giving`
+- `church_center.prayer_request`
+- `church_center.small_groups`
+- `church_center.serving`
 
-Add the current Church Center giving link here.
+## Usage Rule
 
-## Connect Card
-
-Add the current Connect Card link here.
-
-## Prayer Request
-
-Add the current prayer request link here.
-
-## Small Groups
-
-Add the current Small Groups link here.
-
-## Serving or Volunteer Interest
-
-Add the current serving or volunteer interest link here.
+If a Church Center URL changes, update `registry/church-center.yaml` first.

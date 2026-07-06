@@ -1,29 +1,25 @@
 # Roadmap
 
-## 0.2.0 Visitor Essentials
+## 0.4.0 Registry Architecture
 
-Initial visitor-facing articles.
+Published.
 
-## 0.3.0 Following Jesus and Next Steps
+## 0.5.0 Ministries
 
-Core Gospel, salvation, baptism, and practical next-step articles.
+Add full ministry knowledge articles for Kids, Students, Men, Women, Missions, Worship, Production, and Care.
 
-## 0.4.0 Ministries
+## 0.6.0 FAQ Expansion
 
-Kids, students, men, women, missions, worship, production, and care ministry articles.
+Add high-volume visitor and family questions.
 
-## 0.5.0 FAQ Expansion
+## 0.7.0 Events
 
-Common visitor, family, giving, service, and membership questions.
+Add recurring event knowledge and event templates.
 
-## 0.6.0 Events
+## 0.8.0 Sermons
 
-Recurring event pages and event-specific AI knowledge.
-
-## 0.7.0 Sermons
-
-Sermon summaries, tags, and retrieval-ready teaching notes.
+Add structured sermon summaries and sermon retrieval templates.
 
 ## 1.0.0 Production Knowledge Base
 
-Full visitor, ministry, belief, event, sermon, and pastoral-care knowledge coverage.
+Full AI-ready knowledge repository for website use.

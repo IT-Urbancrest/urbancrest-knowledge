@@ -1,0 +1,25 @@
+version: 1.0
+last_updated: 2026-07-06
+
+events:
+  baptism_sunday:
+    title: Baptism Sunday
+    category: next-step
+    description: Sunday service opportunity for believer's baptism.
+    related_resources:
+      - church_center.baptism
+
+  missions_conference:
+    title: Missions Conference
+    category: missions
+    description: Annual missions emphasis event.
+
+  vbs:
+    title: Vacation Bible School
+    category: kids
+    description: Annual children's ministry outreach event.
+
+  small_group_launch:
+    title: Small Group Launch
+    category: discipleship
+    description: Seasonal emphasis for connecting people to Small Groups.
