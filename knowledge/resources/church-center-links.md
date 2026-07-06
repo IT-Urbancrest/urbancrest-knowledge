@@ -34,20 +34,20 @@ https://urbancrest.churchcenter.com/people/forms/1674
 
 ## Giving
 
-Add the current Church Center giving link here.
+https://urbancrest.churchcenter.com/giving
 
 ## Connect Card
 
-Add the current Connect Card link here.
+https://urbancrest.churchcenter.com/people/forms/1494
 
 ## Prayer Request
 
-Add the current prayer request link here.
+https://urbancrest.churchcenter.com/people/forms/1494
 
 ## Small Groups
 
-Add the current Small Groups link here.
+https://urbancrest.churchcenter.com/groups
 
 ## Serving or Volunteer Interest
 
-Add the current serving or volunteer interest link here.
+https://urbancrest.churchcenter.com/people/forms/4085
