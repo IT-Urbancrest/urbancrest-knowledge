@@ -1,3 +1,0 @@
-# Stewardship
-
-_TODO_

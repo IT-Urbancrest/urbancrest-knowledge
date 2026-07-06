@@ -1,3 +1,0 @@
-# Humanity
-
-_TODO_
