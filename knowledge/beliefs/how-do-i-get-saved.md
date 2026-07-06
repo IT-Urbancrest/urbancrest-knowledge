@@ -43,7 +43,7 @@ You are saved by God's grace through faith in Jesus Christ. Salvation is not ear
 
 ## Detailed Answer
 
-The Bible teaches that every person has sinned and needs forgiveness. Jesus Christ, the Son of God, lived without sin, died on the cross for sinners, and rose again. Because of His finished work, anyone who repents and believes in Him can be forgiven, made right with God, and receive eternal life. Repentance means turning from sin and turning to God. Faith means trusting Christ completely, not your own goodness, to save you. The Baptist Faith and Message 2000 summarizes salvation as God's gracious work that includes regeneration, justification, sanctification, and glorification.
+The Bible teaches that every person has sinned and needs forgiveness. Jesus Christ, the Son of God, lived without sin, died on the cross for sinners, and rose again. Because of His finished work, anyone who repents and believes in Him can be forgiven, made right with God, and receive eternal life. Repentance means turning from sin and turning to God. Faith means trusting Christ completely, not your own goodness, to save you. Salvation is God's gracious work that includes regeneration, justification, sanctification, and glorification.
 
 ## Urbancrest Information
 
