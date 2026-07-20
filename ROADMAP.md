@@ -1,25 +1,17 @@
 # Roadmap
 
-## 0.4.0 Registry Architecture
+## 0.6.0
 
-Published.
+Expand ministry articles with verified schedules, age ranges, locations, and approved public contacts.
 
-## 0.5.0 Ministries
+## 0.7.0
 
-Add full ministry knowledge articles for Kids, Students, Men, Women, Missions, Worship, Production, and Care.
+Add recurring event knowledge and event ingestion standards.
 
-## 0.6.0 FAQ Expansion
+## 0.8.0
 
-Add high-volume visitor and family questions.
+Add sermon transcript, summary, topic, scripture, and retrieval standards.
 
-## 0.7.0 Events
+## 1.0.0
 
-Add recurring event knowledge and event templates.
-
-## 0.8.0 Sermons
-
-Add structured sermon summaries and sermon retrieval templates.
-
-## 1.0.0 Production Knowledge Base
-
-Full AI-ready knowledge repository for website use.
+Complete validation, pastoral review, and production indexing.

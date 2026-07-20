@@ -1,24 +1,18 @@
 version: 1.0
-last_updated: 2026-07-06
-
+last_updated: 2026-07-20
 locations:
   campus:
-    title: Urbancrest Church Campus
-    address: 2634 Drake Rd, Lebanon, OH 45036
-    description: Main Urbancrest Church campus.
-
+    title: Urbancrest Church
+    address: 2634 Drake Road, Lebanon, Ohio 45036
   main_entrance:
     title: Main Entrance
-    description: Primary entrance for guests and Sunday worship services.
-
+    description: Primary entrance for guests.
   foyer:
     title: Foyer
-    description: Main lobby area used for guest connection, event tables, and donation collection.
-
+    description: Main lobby and connection area.
   worship_center:
     title: Worship Center
-    description: Primary worship gathering space.
-
+    description: Main worship gathering space.
   guest_parking:
     title: Guest Parking
-    description: Parking area near the main entrance for first-time guests.
+    description: Designated parking near the main entrance.

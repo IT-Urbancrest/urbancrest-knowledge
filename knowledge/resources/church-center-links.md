@@ -1,42 +1,20 @@
 ---
-id: resources.church-center.links
+id: resources.church-center
 version: 1.0
 status: published
 priority: 100
-
-title: Church Center Links
-summary: Explains where official Church Center links are stored and how AI articles should reference them.
-
-category:
-  - resources
-
-intent:
-  primary: resource_lookup
-  secondary:
-    - Church Center
-    - links
-
-audience:
-  - staff
-  - ai
-
+title: Church Center Resources
+summary: Canonical Church Center resource IDs used throughout the repository.
+category: [resources]
+intent: {primary: resource_lookup, secondary: []}
+audience: [ai, staff]
 answer_style: reference
 confidence: high
-
-tags:
-  - Church Center
-  - registry
-  - links
-  - forms
-
-search_terms:
-  - Church Center links
-  - Connect Card link
-  - Baptism form link
-  - Giving link
-  - Small Groups link
-  - Serving form link
-
+owner: {ministry: church_office}
+review: {doctrinal: not_required, factual: required}
+tags: [Church Center, links, registry]
+search_terms: [Church Center links, forms, giving, groups]
+scripture: []
 resources:
   - church_center.connect_card
   - church_center.baptism
@@ -44,20 +22,16 @@ resources:
   - church_center.prayer_request
   - church_center.small_groups
   - church_center.serving
-
-related:
-  - registry/church-center.yaml
-
-last_updated: 2026-07-06
+next_steps: []
+related: [registry/church-center.yaml]
+last_updated: 2026-07-20
 ---
 
-# Church Center Links
+# Church Center Resources
 
-Official Church Center links are stored in `registry/church-center.yaml`.
+Official URLs are stored in `registry/church-center.yaml`.
 
-Knowledge articles should reference resource IDs instead of duplicating URLs.
-
-## Available Resource IDs
+Articles should use these resource IDs:
 
 - `church_center.connect_card`
 - `church_center.baptism`
@@ -65,7 +39,3 @@ Knowledge articles should reference resource IDs instead of duplicating URLs.
 - `church_center.prayer_request`
 - `church_center.small_groups`
 - `church_center.serving`
-
-## Usage Rule
-
-If a Church Center URL changes, update `registry/church-center.yaml` first.
