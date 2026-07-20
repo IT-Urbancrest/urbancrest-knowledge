@@ -1,0 +1,23 @@
+version: 1.0
+last_updated: 2026-07-20
+
+schedule:
+  weekly:
+    sunday:
+      worship:
+        - "9:30 AM"
+        - "11:00 AM"
+
+    wednesday:
+      dinner:
+        time: "5:30 PM"
+        location: Gymnasium
+
+      awana:
+        time: "6:15 PM"
+
+      students:
+        time: "6:30 PM"
+
+      adult_bible_studies:
+        time: "6:30 PM"
