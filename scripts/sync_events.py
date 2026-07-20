@@ -36,16 +36,14 @@ def clean_text(value: object) -> str:
     return text.strip()
 
 
-def as_local_datetime(value: object, *, end_of_day: bool = False) -> tuple[datetime, bool]:
-    """Return a timezone-aware local datetime and whether the source was all-day."""
+def as_local_datetime(value: object) -> tuple[datetime, bool]:
     if isinstance(value, datetime):
         if value.tzinfo is None:
             value = value.replace(tzinfo=TIMEZONE)
         return value.astimezone(TIMEZONE), False
 
     if isinstance(value, date):
-        local_time = datetime.max.time().replace(microsecond=0) if end_of_day else datetime.min.time()
-        return datetime.combine(value, local_time, tzinfo=TIMEZONE), True
+        return datetime.combine(value, datetime.min.time(), tzinfo=TIMEZONE), True
 
     raise TypeError(f"Unsupported calendar date value: {type(value)!r}")
 
@@ -70,13 +68,20 @@ def format_time(dt: datetime) -> str:
 
 def format_event_time(start: datetime, end: datetime, all_day: bool) -> str:
     if all_day:
-        if end.date() > start.date():
-            return f"{format_day(start)} through {format_day(end - timedelta(days=1))}"
+        final_day = end - timedelta(days=1)
+        if final_day.date() > start.date():
+            return f"{format_day(start)} through {format_day(final_day)}"
         return format_day(start)
 
     if start.date() == end.date():
-        return f"{format_day(start)} at {format_time(start)}"
-    return f"{format_day(start)} at {format_time(start)} through {format_day(end)} at {format_time(end)}"
+        if start.time() == end.time():
+            return f"{format_day(start)} at {format_time(start)}"
+        return f"{format_day(start)}, {format_time(start)}–{format_time(end)}"
+
+    return (
+        f"{format_day(start)} at {format_time(start)} through "
+        f"{format_day(end)} at {format_time(end)}"
+    )
 
 
 def main() -> int:
@@ -96,7 +101,6 @@ def main() -> int:
     response.raise_for_status()
 
     calendar = Calendar.from_ical(response.content)
-
     now = datetime.now(TIMEZONE)
     window_start = now - timedelta(days=1)
     window_end = now + timedelta(days=LOOKAHEAD_DAYS)
@@ -115,12 +119,10 @@ def main() -> int:
         url = clean_text(component.get("URL"))
         uid = clean_text(component.get("UID")) or title
 
-        dtstart = component.decoded("DTSTART")
-        start, all_day = as_local_datetime(dtstart)
+        start, all_day = as_local_datetime(component.decoded("DTSTART"))
 
         if component.get("DTEND") is not None:
-            dtend = component.decoded("DTEND")
-            end, end_all_day = as_local_datetime(dtend, end_of_day=not all_day)
+            end, end_all_day = as_local_datetime(component.decoded("DTEND"))
             all_day = all_day and end_all_day
         elif component.get("DURATION") is not None:
             end = start + component.decoded("DURATION")
@@ -148,12 +150,12 @@ def main() -> int:
 
     events.sort(key=lambda item: item["_start_dt"])
     events = events[:MAX_EVENTS]
-
     generated_at = datetime.now(timezone.utc).isoformat()
 
-    registry_events = []
-    for event in events:
-        registry_events.append({k: v for k, v in event.items() if not k.startswith("_") and v is not None})
+    registry_events = [
+        {k: v for k, v in event.items() if not k.startswith("_") and v is not None}
+        for event in events
+    ]
 
     registry = {
         "version": "1.0",
@@ -209,36 +211,28 @@ def main() -> int:
     ]
 
     if not events:
-        lines.extend(
-            [
-                "There are currently no upcoming events listed in the calendar.",
-                "",
-            ]
-        )
+        lines.extend(["There are currently no upcoming events listed in the calendar.", ""])
     else:
         for event in events:
-            start = event["_start_dt"]
-            end = event["_end_dt"]
-            lines.append(f"## {event['title']}")
-            lines.append("")
-            lines.append(f"**{format_event_time(start, end, bool(event['all_day']))}**")
-            lines.append("")
+            lines.extend(
+                [
+                    f"## {event['title']}",
+                    "",
+                    f"**{format_event_time(event['_start_dt'], event['_end_dt'], bool(event['all_day']))}**",
+                    "",
+                ]
+            )
             if event.get("location"):
-                lines.append(f"**Location:** {event['location']}")
-                lines.append("")
+                lines.extend([f"**Location:** {event['location']}", ""])
             if event.get("description"):
-                lines.append(str(event["description"]))
-                lines.append("")
+                lines.extend([str(event["description"]), ""])
             if event.get("url"):
-                lines.append(f"More information: {event['url']}")
-                lines.append("")
+                lines.extend([f"More information: {event['url']}", ""])
 
     ARTICLE_PATH.parent.mkdir(parents=True, exist_ok=True)
     ARTICLE_PATH.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
 
-    print(f"Wrote {len(events)} events to:")
-    print(f"  {REGISTRY_PATH.relative_to(ROOT)}")
-    print(f"  {ARTICLE_PATH.relative_to(ROOT)}")
+    print(f"Wrote {len(events)} events.")
     return 0
 
 
