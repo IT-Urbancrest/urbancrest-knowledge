@@ -25,24 +25,12 @@ search_terms:
   - Upcoming activities
 resources:
   - events.live
-last_generated: 2026-07-20T22:13:58.802598+00:00
+last_generated: 2026-07-21T03:46:12.234029+00:00
 ---
 
 # Upcoming Events
 
 This page is generated automatically from Urbancrest's live calendar.
-
-## Connie Hollan Small Group: Ladies Bible Study
-
-**Monday, July 20, 2026, 7 PM–8:30 PM**
-
-**Location:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-Connie Hollan
-
-## Steve Gregory Small Group: Steve Gregory
-
-**Monday, July 20, 2026, 7 PM–8:30 PM**
 
 ## Card Ministry
 
@@ -748,3 +736,19 @@ Sunday Morning Youth Service
 **Location:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
 Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+
+## Sunday Morning Services: 11:00 AM Service
+
+**Sunday, September 13, 2026, 11 AM–12:10 PM**
+
+**Location:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+
+## Connie Hollan Small Group: Ladies Bible Study
+
+**Monday, September 14, 2026, 7 PM–8:30 PM**
+
+**Location:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+Connie Hollan

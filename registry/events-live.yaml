@@ -1,24 +1,10 @@
 version: '1.0'
-generated_at: '2026-07-20T22:13:58.802598+00:00'
+generated_at: '2026-07-21T03:46:12.234029+00:00'
 timezone: America/New_York
 source: planning_center_ical
 lookahead_days: 120
 event_count: 75
 events:
-- id: event-49dfee5e997d0718
-  title: 'Connie Hollan Small Group: Ladies Bible Study'
-  start: '2026-07-20T19:00:00-04:00'
-  end: '2026-07-20T20:30:00-04:00'
-  all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Connie Hollan
-  status: confirmed
-- id: event-5dc76733db57c21c
-  title: 'Steve Gregory Small Group: Steve Gregory'
-  start: '2026-07-20T19:00:00-04:00'
-  end: '2026-07-20T20:30:00-04:00'
-  all_day: false
-  status: confirmed
 - id: event-d541ccde3cbc1ada
   title: Card Ministry
   start: '2026-07-22T08:30:00-04:00'
@@ -835,4 +821,20 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  status: confirmed
+- id: event-b87495ce36cf05fb
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  start: '2026-09-13T11:00:00-04:00'
+  end: '2026-09-13T12:10:00-04:00'
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  status: confirmed
+- id: event-bc5862824980ab50
+  title: 'Connie Hollan Small Group: Ladies Bible Study'
+  start: '2026-09-14T19:00:00-04:00'
+  end: '2026-09-14T20:30:00-04:00'
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Connie Hollan
   status: confirmed
