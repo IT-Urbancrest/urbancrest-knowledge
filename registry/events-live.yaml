@@ -1,17 +1,10 @@
 version: '1.0'
-generated_at: '2026-07-22T14:23:02.429434+00:00'
+generated_at: '2026-07-22T16:47:29.314835+00:00'
 timezone: America/New_York
 source: planning_center_ical
 lookahead_days: 120
 event_count: 75
 events:
-- id: event-d541ccde3cbc1ada
-  title: Card Ministry
-  start: '2026-07-22T08:30:00-04:00'
-  end: '2026-07-22T12:00:00-04:00'
-  all_day: false
-  description: Rai Lynn Guidone
-  status: confirmed
 - id: event-2c0ec446c6a21f46
   title: Block Party – Hunter's Run Apartments
   start: '2026-07-22T18:00:00-04:00'
@@ -837,4 +830,10 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Connie Hollan
+  status: confirmed
+- id: event-bf2d9bc66ca0e9f0
+  title: 'Steve Gregory Small Group: Steve Gregory'
+  start: '2026-09-14T19:00:00-04:00'
+  end: '2026-09-14T20:30:00-04:00'
+  all_day: false
   status: confirmed

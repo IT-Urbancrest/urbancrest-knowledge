@@ -25,18 +25,12 @@ search_terms:
   - Upcoming activities
 resources:
   - events.live
-last_generated: 2026-07-22T14:23:02.429434+00:00
+last_generated: 2026-07-22T16:47:29.314835+00:00
 ---
 
 # Upcoming Events
 
 This page is generated automatically from Urbancrest's live calendar.
-
-## Card Ministry
-
-**Wednesday, July 22, 2026, 8:30 AM–12 PM**
-
-Rai Lynn Guidone
 
 ## Block Party – Hunter's Run Apartments
 
@@ -752,3 +746,7 @@ Join us in person or online! For the best online experience, we recommend watchi
 **Location:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
 Connie Hollan
+
+## Steve Gregory Small Group: Steve Gregory
+
+**Monday, September 14, 2026, 7 PM–8:30 PM**
