@@ -25,7 +25,7 @@ search_terms:
   - Upcoming activities
 resources:
   - events.live
-last_generated: 2026-07-23T08:45:14.829265+00:00
+last_generated: 2026-07-23T11:20:35.913955+00:00
 ---
 
 # Upcoming Events
