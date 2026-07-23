@@ -25,37 +25,12 @@ search_terms:
   - Upcoming activities
 resources:
   - events.live
-last_generated: 2026-07-22T22:16:34.115974+00:00
+last_generated: 2026-07-23T03:45:54.351388+00:00
 ---
 
 # Upcoming Events
 
 This page is generated automatically from Urbancrest's live calendar.
-
-## Block Party – Hunter's Run Apartments
-
-**Wednesday, July 22, 2026, 6 PM–7:30 PM**
-
-**Location:** Hunter's Run Apartments - 1030 Hunters Run Dr
-Lebanon, OH 45036
-
-All are invited and welcome to attend a FREE Block Party at Hunter's Run Apartments on Wednesday evening, July 22 at 6:00 PM!
-
-What to Expect:
-At our Block Parties, there is fun in store for the whole family! All can enjoy free food, games, train rides for kids, face painting, and more!
-
-When:
-Wednesday, July 22 at 6:00 PM
-
-Where:
-Hunter's Run Apartments, 1030 Hunters Run Dr, Lebanon, OH 45036
-
-Please reach out to Pastor Darrel with any questions at dschick@urbancrest.org.
-
-If you are an Urbancrest member who would like to volunteer, please sign up HERE ( https://urbancrest.churchcenter.com/registrations/events/3596612 ).
-Register: https://urbancrest.churchcenter.com/registrations/events/3606278
-
-More information: https://urbancrest.churchcenter.com/registrations/events/3606278
 
 ## OPEN GYM Pickleball
 
@@ -750,3 +725,11 @@ Connie Hollan
 ## Steve Gregory Small Group: Steve Gregory
 
 **Monday, September 14, 2026, 7 PM–8:30 PM**
+
+## Monthly Baskets of Hope - Volunteers
+
+**Wednesday, September 16, 2026, 4:30 PM–6:30 PM**
+
+**Location:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.

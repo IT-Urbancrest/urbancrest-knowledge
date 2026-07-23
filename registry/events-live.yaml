@@ -1,44 +1,10 @@
 version: '1.0'
-generated_at: '2026-07-22T22:16:34.115974+00:00'
+generated_at: '2026-07-23T03:45:54.351388+00:00'
 timezone: America/New_York
 source: planning_center_ical
 lookahead_days: 120
 event_count: 75
 events:
-- id: event-2c0ec446c6a21f46
-  title: Block Party – Hunter's Run Apartments
-  start: '2026-07-22T18:00:00-04:00'
-  end: '2026-07-22T19:30:00-04:00'
-  all_day: false
-  location: 'Hunter''s Run Apartments - 1030 Hunters Run Dr
-
-    Lebanon, OH 45036'
-  description: 'All are invited and welcome to attend a FREE Block Party at Hunter''s Run Apartments on Wednesday evening, July 22 at 6:00 PM!
-
-
-    What to Expect:
-
-    At our Block Parties, there is fun in store for the whole family! All can enjoy free food, games, train rides for kids, face painting, and more!
-
-
-    When:
-
-    Wednesday, July 22 at 6:00 PM
-
-
-    Where:
-
-    Hunter''s Run Apartments, 1030 Hunters Run Dr, Lebanon, OH 45036
-
-
-    Please reach out to Pastor Darrel with any questions at dschick@urbancrest.org.
-
-
-    If you are an Urbancrest member who would like to volunteer, please sign up HERE ( https://urbancrest.churchcenter.com/registrations/events/3596612 ).
-
-    Register: https://urbancrest.churchcenter.com/registrations/events/3606278'
-  url: https://urbancrest.churchcenter.com/registrations/events/3606278
-  status: confirmed
 - id: event-d7125be9e77033d7
   title: OPEN GYM Pickleball
   start: '2026-07-23T18:00:00-04:00'
@@ -836,4 +802,12 @@ events:
   start: '2026-09-14T19:00:00-04:00'
   end: '2026-09-14T20:30:00-04:00'
   all_day: false
+  status: confirmed
+- id: event-9faa2448be473491
+  title: Monthly Baskets of Hope - Volunteers
+  start: '2026-09-16T16:30:00-04:00'
+  end: '2026-09-16T18:30:00-04:00'
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
   status: confirmed
