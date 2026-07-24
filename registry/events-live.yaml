@@ -1,18 +1,10 @@
 version: '1.0'
-generated_at: '2026-07-23T22:15:15.472826+00:00'
+generated_at: '2026-07-24T03:44:56.431865+00:00'
 timezone: America/New_York
 source: planning_center_ical
 lookahead_days: 120
 event_count: 75
 events:
-- id: event-d7125be9e77033d7
-  title: OPEN GYM Pickleball
-  start: '2026-07-23T18:00:00-04:00'
-  end: '2026-07-23T20:00:00-04:00'
-  all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.
-  status: confirmed
 - id: event-38ad5c03cbfa37e1
   title: 'Sunday Morning Services: 9:30 AM Service'
   start: '2026-07-26T09:30:00-04:00'
@@ -810,4 +802,11 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
+  status: confirmed
+- id: event-086a2b900a92ea13
+  title: P U R S U E
+  start: '2026-09-16T18:30:00-04:00'
+  end: '2026-09-16T20:30:00-04:00'
+  all_day: false
+  description: Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.
   status: confirmed

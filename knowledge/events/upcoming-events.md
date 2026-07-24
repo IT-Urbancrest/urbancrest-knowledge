@@ -25,20 +25,12 @@ search_terms:
   - Upcoming activities
 resources:
   - events.live
-last_generated: 2026-07-23T22:15:15.472826+00:00
+last_generated: 2026-07-24T03:44:56.431865+00:00
 ---
 
 # Upcoming Events
 
 This page is generated automatically from Urbancrest's live calendar.
-
-## OPEN GYM Pickleball
-
-**Thursday, July 23, 2026, 6 PM–8 PM**
-
-**Location:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.
 
 ## Sunday Morning Services: 9:30 AM Service
 
@@ -733,3 +725,9 @@ Connie Hollan
 **Location:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
 This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
+
+## P U R S U E
+
+**Wednesday, September 16, 2026, 6:30 PM–8:30 PM**
+
+Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.
