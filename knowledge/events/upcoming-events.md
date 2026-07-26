@@ -25,36 +25,12 @@ search_terms:
   - Upcoming activities
 resources:
   - events.live
-last_generated: 2026-07-26T13:57:43.170196+00:00
+last_generated: 2026-07-26T16:14:39.247292+00:00
 ---
 
 # Upcoming Events
 
 This page is generated automatically from Urbancrest's live calendar.
-
-## Sunday Morning Services: 9:30 AM Service
-
-**Sunday, July 26, 2026, 9:30 AM–10:40 AM**
-
-**Location:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
-
-## P U R S U E
-
-**Sunday, July 26, 2026, 9:30 AM–10:30 AM**
-
-**Location:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-Sunday Morning Youth Service
-
-## Sunday Morning Services: 11:00 AM Service
-
-**Sunday, July 26, 2026, 11 AM–12:10 PM**
-
-**Location:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
 
 ## Young Adult Archery Tag
 
@@ -731,3 +707,27 @@ This is a time for volunteers to assemble, pack, and distribute monthly boxes of
 **Wednesday, September 16, 2026, 6:30 PM–8:30 PM**
 
 Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.
+
+## OPEN GYM Pickleball
+
+**Thursday, September 17, 2026, 6 PM–8 PM**
+
+**Location:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.
+
+## P U R S U E
+
+**Sunday, September 20, 2026, 9:30 AM–10:30 AM**
+
+**Location:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+Sunday Morning Youth Service
+
+## Sunday Morning Services: 9:30 AM Service
+
+**Sunday, September 20, 2026, 9:30 AM–10:40 AM**
+
+**Location:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
