@@ -39,7 +39,7 @@ next_for_audiences: []
 all_day: false
 registration_url: "https://urbancrest.churchcenter.com/registrations/events/3609472"
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-27T19:55:29.047018Z
+last_generated: 2026-07-27T22:19:09.889478Z
 ---
 
 # School Supplies Giveaway

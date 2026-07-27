@@ -38,7 +38,7 @@ next_for_ministries: ["women"]
 next_for_audiences: ["women"]
 all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-27T19:55:29.047018Z
+last_generated: 2026-07-27T22:19:09.889478Z
 ---
 
 # Women's Fall Fest

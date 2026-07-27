@@ -21,7 +21,7 @@ next_meeting_end: "2026-07-27T20:30:00-04:00"
 sort_start_utc: "2026-07-27T23:00:00Z"
 sort_end_utc: "2026-07-28T00:30:00Z"
 meeting_count_in_window: 53
-last_generated: 2026-07-27T19:55:29.047018Z
+last_generated: 2026-07-27T22:19:09.889478Z
 ---
 
 # Steve Gregory Small Group: Steve Gregory
