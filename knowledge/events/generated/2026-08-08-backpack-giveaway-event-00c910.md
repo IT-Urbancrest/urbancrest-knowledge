@@ -37,7 +37,7 @@ next_for_ministries: []
 next_for_audiences: []
 all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-27T14:43:24.367230Z
+last_generated: 2026-07-27T15:14:40.102584Z
 ---
 
 # Backpack Giveaway Event

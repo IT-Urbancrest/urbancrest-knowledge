@@ -36,7 +36,7 @@ chronological_rank: 12
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
-last_generated: 2026-07-27T14:43:24.367230Z
+last_generated: 2026-07-27T15:14:40.102584Z
 ---
 
 # Steve Gregory Small Group: Steve Gregory
