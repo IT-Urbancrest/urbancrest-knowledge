@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.6.1
+
+- Added current Global Missions Pastor vacancy and transition guidance.
+- Updated Jennifer Prows routing to identify her as Missions Administrator and recommended current global missions contact.
+- Separated global missions, local missions, and missions administration relationships.
+- Added a focused answer for "Who oversees missions?"
+- Updated retrieval indexing to retain leadership status, open-role, recommended-contact, and answer-guidance metadata.
+- Added regression tests for global missions leadership and local missions routing.
+
 ## 0.6.0
 
 - Added a compiled runtime search index for retrieval-first AI answers.

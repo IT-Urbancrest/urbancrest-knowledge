@@ -152,6 +152,13 @@ def markdown_records() -> list[dict[str, Any]]:
                 audiences=as_list(metadata.get("audience")),
                 resources=as_list(metadata.get("resources")),
                 status=status,
+                staff_key=metadata.get("staff_key"),
+                recommended_contact_staff_key=metadata.get("recommended_contact_staff_key"),
+                related_staff_keys=as_list(metadata.get("related_staff_keys")),
+                leadership_status=metadata.get("leadership_status"),
+                open_role=metadata.get("open_role"),
+                review_trigger=metadata.get("review_trigger"),
+                answer_guidance=metadata.get("answer_guidance"),
             )
         )
     return records
@@ -250,6 +257,16 @@ def staff_records() -> list[dict[str, Any]]:
         aliases = as_list(route.get("aliases"))
         topics = as_list(route.get("topics"))
         ministries = as_list(route.get("ministries"))
+        answer_guidance = str(route.get("answer_guidance") or "")
+        staff_content = (
+            f"Display name: {person.get('display_name', name)}\n"
+            f"Role: {role}\n"
+            f"Ministries: {', '.join(ministries)}\n"
+            f"Topics: {', '.join(topics)}"
+        )
+        if answer_guidance:
+            staff_content += f"\nAnswer guidance: {answer_guidance}"
+
         records.append(
             record_base(
                 record_id=f"staff.{key}",
@@ -257,7 +274,7 @@ def staff_records() -> list[dict[str, Any]]:
                 path="registry/staff-routing.yaml",
                 title=name,
                 summary=f"{name} serves as {role}. Full biography and fun facts are loaded from Base44 Staff when relevant.",
-                content=f"Display name: {person.get('display_name', name)}\nRole: {role}\nMinistries: {', '.join(ministries)}\nTopics: {', '.join(topics)}",
+                content=staff_content,
                 priority=90,
                 category=["staff"],
                 intents=["staff", "staff_details", "staff_routing", "ministry_contact"],
@@ -270,6 +287,7 @@ def staff_records() -> list[dict[str, Any]]:
                 pastoral_staff=person.get("pastoral_staff", False),
                 show_card=route.get("show_card", True),
                 profile_source="base44.Staff",
+                answer_guidance=answer_guidance,
             )
         )
     return records
@@ -309,23 +327,59 @@ def relationship_records() -> list[dict[str, Any]]:
     for relationship in data.get("relationships", []):
         ministry = str(relationship.get("ministry") or "")
         primary = str(relationship.get("primary_staff_key") or "")
+        recommended = str(relationship.get("recommended_contact_staff_key") or "")
+        selected_staff_key = primary or recommended
         related = as_list(relationship.get("related_staff_keys"))
+        leadership_status = str(relationship.get("leadership_status") or "staffed")
+        open_role = str(relationship.get("open_role") or "")
+        answer_guidance = str(relationship.get("answer_guidance") or "")
+
+        summary_parts = [f"Staff relationship for {ministry.replace('_', ' ')}."]
+        if open_role:
+            summary_parts.append(f"Open role: {open_role}.")
+        if selected_staff_key:
+            summary_parts.append(f"Recommended staff key: {selected_staff_key}.")
+        summary = " ".join(summary_parts)
+
+        content_lines = [
+            f"Ministry: {ministry}",
+            f"Leadership status: {leadership_status}",
+            f"Primary staff key: {primary or 'none'}",
+            f"Recommended contact staff key: {recommended or 'none'}",
+            f"Related staff keys: {', '.join(related)}",
+        ]
+        if open_role:
+            content_lines.append(f"Open role: {open_role}")
+        if answer_guidance:
+            content_lines.append(f"Answer guidance: {answer_guidance}")
+
         records.append(
             record_base(
                 record_id=f"relationship.ministry_staff.{ministry}",
                 record_type="relationship",
                 path="relationships/ministry-staff.yaml",
                 title=f"{ministry.replace('_', ' ').title()} staff relationship",
-                summary=f"Primary staff key for {ministry.replace('_', ' ')} is {primary}.",
-                content=f"Ministry: {ministry}\nPrimary staff key: {primary}\nRelated staff keys: {', '.join(related)}",
-                priority=85,
+                summary=summary,
+                content="\n".join(content_lines),
+                priority=95 if leadership_status in {"vacant", "transitional"} else 85,
                 category=["relationship", "staff"],
-                intents=["ministry_contact", "staff_routing"],
-                tags=[ministry, "staff", "ministry"],
-                search_terms=[ministry.replace("_", " "), f"who oversees {ministry.replace('_', ' ')}"],
+                intents=["ministry_contact", "staff_routing", "missions_leadership"],
+                tags=[ministry, "staff", "ministry", leadership_status],
+                search_terms=[
+                    ministry.replace("_", " "),
+                    f"who oversees {ministry.replace('_', ' ')}",
+                    f"who leads {ministry.replace('_', ' ')}",
+                    f"who do I contact about {ministry.replace('_', ' ')}",
+                    open_role,
+                ],
                 ministries=[ministry],
-                staff_key=primary,
+                staff_key=selected_staff_key,
+                primary_staff_key=primary,
+                recommended_contact_staff_key=recommended,
                 related_staff_keys=related,
+                leadership_status=leadership_status,
+                open_role=open_role,
+                answer_guidance=answer_guidance,
             )
         )
     return records

@@ -1,19 +1,21 @@
 ---
 id: ministries.missions
-version: 1.0
+version: 1.1
 status: published
-priority: 65
+priority: 90
 title: What is Missions?
-summary: Missions serves people interested in local, national, and international mission
-  work and supports Urbancrest's mission.
+summary: Urbancrest engages in local and global missions and is currently searching for its next Global Missions Pastor.
 category:
-- ministries
+  - ministries
 intent:
   primary: ministry_info
-  secondary: []
+  secondary:
+    - ministry_contact
+    - missions_leadership
 audience:
-- visitor
-- attendee
+  - visitor
+  - attendee
+  - member
 answer_style: conversational
 confidence: high
 owner:
@@ -22,33 +24,55 @@ review:
   doctrinal: not_required
   factual: required
 tags:
-- ministry
-- Missions
+  - ministry
+  - missions
+  - global missions
+  - local missions
+  - mission trips
+  - missions administration
 search_terms:
-- Missions
-- How do I join Missions?
-scripture: []
+  - What is Missions?
+  - How do I get involved in missions?
+  - Who do I contact about missions?
+  - Who do I contact about mission trips?
+  - Global Missions Pastor
+  - Missions Administrator
+ministries:
+  - missions
+  - global_missions
+  - local_missions
+  - missions_administration
+recommended_contact_staff_key: jennifer_prows
+leadership_status: transitional
+open_role: Global Missions Pastor
 resources:
-- church_center.serving
+  - church_center.serving
 next_steps: []
-related: []
-last_updated: '2026-07-20'
+related:
+  - ministries.missions.leadership
+last_updated: '2026-07-27'
 ---
 
 # What is Missions?
 
 ## Short Answer
 
-Missions is Urbancrest's ministry for people interested in local, national, and international mission work.
+Urbancrest helps people live on mission through local and global mission engagement.
 
-## Detailed Answer
+Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the recommended current contact for global missions questions, mission trips, and missions coordination.
 
-The ministry helps people connect, grow, serve, and live on mission in ways appropriate to its audience and purpose. Current schedules, age ranges, locations, and event details should come from verified Urbancrest sources.
+For local missions and community outreach, Darrel Schick serves as Local Missions Strategist.
+
+## Current Leadership Context
+
+Jennifer should be described as the **Missions Administrator**, not the Global Missions Pastor. She is the recommended contact while the church searches for its next Global Missions Pastor.
+
+Darrel is the primary contact for local missions and community outreach.
 
 ## Urbancrest Information
 
-This article intentionally avoids unverified schedules or contact details.
+Current schedules, trip details, event information, and registration availability should come from verified Urbancrest sources.
 
 ## Next Step
 
-Complete the Serving or Volunteer Interest Form to ask about getting involved.
+Complete the Serving or Volunteer Interest Form to ask about getting involved in missions.

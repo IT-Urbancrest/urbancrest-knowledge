@@ -1,13 +1,60 @@
-version: 1.0
-last_updated: 2026-07-20
+version: '1.1'
+last_updated: '2026-07-27'
 ministries:
-  kids: {title: Urbancrest Kids, description: Ministry for children and families.}
-  students: {title: Student Ministry, description: Ministry for middle school and high school students.}
-  small_groups: {title: Small Groups, description: Groups that help people grow in faith and community., resource: church_center.small_groups}
-  men: {title: Men's Ministry, description: Ministry for men.}
-  women: {title: Women's Ministry, description: Ministry for women.}
-  missions: {title: Missions, description: Local, national, and international mission engagement.}
-  worship: {title: Worship Ministry, description: Ministry that helps lead the church in worship.}
-  production: {title: Production Ministry, description: Audio, video, lighting, livestream, and service technology.}
-  legacy_builders: {title: Legacy Builders, description: Ministry for adults age 50 and older.}
-  care: {title: Care and Prayer, description: Prayer, encouragement, pastoral care, and practical support.}
+  kids:
+    title: Urbancrest Kids
+    description: Ministry for children and families.
+  students:
+    title: Student Ministry
+    description: Ministry for middle school and high school students.
+  small_groups:
+    title: Small Groups
+    description: Groups that help people grow in faith and community.
+    resource: church_center.small_groups
+  men:
+    title: Men's Ministry
+    description: Ministry for men.
+  women:
+    title: Women's Ministry
+    description: Ministry for women.
+  missions:
+    title: Missions
+    description: Local, national, and international mission engagement.
+    leadership_status: transitional
+    open_role: Global Missions Pastor
+    recommended_contact_staff_key: jennifer_prows
+  worship:
+    title: Worship Ministry
+    description: Ministry that helps lead the church in worship.
+  production:
+    title: Production Ministry
+    description: Audio
+    video: null
+    lighting: null
+    livestream: null
+    and service technology.: null
+  legacy_builders:
+    title: Legacy Builders
+    description: Ministry for adults age 50 and older.
+  care:
+    title: Care and Prayer
+    description: Prayer
+    encouragement: null
+    pastoral care: null
+    and practical support.: null
+  global_missions:
+    title: Global Missions
+    description: International mission engagement, mission trips, and global missions coordination.
+    leadership_status: vacant
+    open_role: Global Missions Pastor
+    recommended_contact_staff_key: jennifer_prows
+  missions_administration:
+    title: Missions Administration
+    description: Administrative support and coordination for Urbancrest missions.
+    leadership_status: staffed
+    primary_staff_key: jennifer_prows
+  local_missions:
+    title: Local Missions
+    description: Community outreach and local mission engagement.
+    leadership_status: staffed
+    primary_staff_key: darrel_schick

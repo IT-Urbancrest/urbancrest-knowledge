@@ -1,4 +1,4 @@
-version: '1.0'
+version: '1.1'
 last_updated: '2026-07-27'
 relationships:
 - ministry: pastoral
@@ -21,14 +21,34 @@ relationships:
 - ministry: students
   primary_staff_key: tucker_howard
   related_staff_keys: []
-- ministry: local_missions
-  primary_staff_key: darrel_schick
-  related_staff_keys:
-  - jennifer_prows
 - ministry: missions
-  primary_staff_key: jennifer_prows
+  leadership_status: transitional
+  open_role: Global Missions Pastor
+  primary_staff_key: null
+  recommended_contact_staff_key: jennifer_prows
   related_staff_keys:
   - darrel_schick
+  answer_guidance: Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the recommended current contact for general and global missions questions. Darrel Schick serves as Local Missions Strategist for local missions and community outreach.
+- ministry: global_missions
+  leadership_status: vacant
+  open_role: Global Missions Pastor
+  primary_staff_key: null
+  recommended_contact_staff_key: jennifer_prows
+  related_staff_keys: []
+  answer_guidance: Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the recommended current contact for global missions questions, mission trips, and missions coordination.
+- ministry: missions_administration
+  leadership_status: staffed
+  primary_staff_key: jennifer_prows
+  recommended_contact_staff_key: jennifer_prows
+  related_staff_keys: []
+  answer_guidance: Jennifer Prows serves as Missions Administrator. Do not describe her as the Global Missions Pastor.
+- ministry: local_missions
+  leadership_status: staffed
+  primary_staff_key: darrel_schick
+  recommended_contact_staff_key: darrel_schick
+  related_staff_keys:
+  - jennifer_prows
+  answer_guidance: Darrel Schick serves as Local Missions Strategist and is the primary contact for local missions and community outreach.
 - ministry: kids
   primary_staff_key: sarah_coleman
   related_staff_keys: []
@@ -75,6 +95,10 @@ relationships:
   primary_staff_key: jim_short
   related_staff_keys: []
 selection_rules:
-- Use primary_staff_key when the question is directly about that ministry.
+- Use primary_staff_key when a staffed ministry has one directly responsible staff member.
+- When leadership_status is vacant or transitional, explain the status before recommending a contact.
+- Use recommended_contact_staff_key for the staff card when no primary leader currently fills the role.
+- Do not describe Jennifer Prows as the Global Missions Pastor.
+- For local missions questions, use Darrel Schick as the primary staff contact.
 - Use related_staff_keys only when the question genuinely involves their area.
 - Do not show a staff card for broad questions that are not answered by one specific person.

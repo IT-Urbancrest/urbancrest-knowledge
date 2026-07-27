@@ -1,7 +1,7 @@
 repository: urbancrest-knowledge
-version: 0.6.0
+version: 0.6.1
 last_updated: '2026-07-27'
-document_count: 93
+document_count: 94
 documents:
 - path: .github/workflows/build-search-index.yml
   type: configuration
@@ -169,6 +169,9 @@ documents:
   type: knowledge
   status: published
 - path: knowledge/ministries/missions.md
+  type: knowledge
+  status: published
+- path: knowledge/ministries/who-oversees-missions.md
   type: knowledge
   status: published
 - path: knowledge/ministries/production.md

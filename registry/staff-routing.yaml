@@ -104,19 +104,24 @@ routing:
     - Jennifer Prows
     - Jen Prows
     - Missions Administrator
+    - missions contact
     ministries:
     - missions
-    - global_missions
+    - missions_administration
+    - global_missions_support
     - mission_trips
+    - missions_conference
     - red_barn
     topics:
-    - missions
-    - global missions
+    - missions administration
+    - global missions support
     - mission trips
     - missions conference
     - Red Barn
+    - current missions contact
     show_card: true
     profile_source: base44.Staff
+    answer_guidance: Jennifer Prows serves as Missions Administrator and is the recommended current contact for global missions questions and coordination while Urbancrest searches for its next Global Missions Pastor. Do not identify Jennifer as the Global Missions Pastor.
   sarah_coleman:
     aliases:
     - Sarah

@@ -1,68 +1,89 @@
-version: 1.0
+version: '1.1'
 suite: retrieval_first_runtime
-
 tests:
-  - name: service times use focused knowledge
-    query: What time are Sunday services?
-    expected:
-      required_record_id: about.services.times
-      max_model_context_records: 8
-      action_link: plan_visit
-
-  - name: next men's event uses date order
-    query: What is your next men's ministry event?
-    expected:
-      record_type: event
-      filter_any:
-        ministries: [men]
-        audiences: [men]
-      exclude_past_using: sort_end_utc
-      sort:
-        field: sort_start_utc
-        direction: ascending
-      select: first
-
-  - name: small groups use split collection
-    query: What Small Groups meet this week?
-    expected:
-      record_type: small_group
-      source_registry: registry/small-groups-live.yaml
-
-  - name: missions staff routing
-    query: Who oversees missions?
-    expected:
-      staff_key: jennifer_prows
-      related_staff_keys: [darrel_schick]
-      profile_source: base44.Staff
-
-  - name: David Bickers preaching routing
-    query: Which pastors are involved in preaching?
-    expected:
-      primary_staff_key: geoff_prows
-      related_staff_keys: [david_bickers]
-
-  - name: staff biography remains in Base44
-    query: Tell me about Jennifer Prows.
-    expected:
-      staff_key: jennifer_prows
-      profile_source: base44.Staff
-      must_not: Invent biography or fun facts from routing metadata.
-
-  - name: published admin entry participates
-    query: A question answered only by an approved admin entry
-    expected:
-      base44_filter:
-        status: published
-        approved: true
-
-  - name: unpublished admin entry excluded
-    query: A question matching an unpublished admin entry
-    expected:
-      must_not: Use the unpublished entry.
-
-  - name: analytics do not block response
-    query: Any supported question
-    expected:
-      log_entity: SearchQueryLog
-      non_blocking: true
-      unanswered_created_only_when_low_confidence: true
+- name: service times use focused knowledge
+  query: What time are Sunday services?
+  expected:
+    required_record_id: about.services.times
+    max_model_context_records: 8
+    action_link: plan_visit
+- name: next men's event uses date order
+  query: What is your next men's ministry event?
+  expected:
+    record_type: event
+    filter_any:
+      ministries:
+      - men
+      audiences:
+      - men
+    exclude_past_using: sort_end_utc
+    sort:
+      field: sort_start_utc
+      direction: ascending
+    select: first
+- name: small groups use split collection
+  query: What Small Groups meet this week?
+  expected:
+    record_type: small_group
+    source_registry: registry/small-groups-live.yaml
+- name: missions leadership transition
+  query: Who oversees missions?
+  expected:
+    required_record_id: ministries.missions.leadership
+    answer_must_include:
+    - searching for its next Global Missions Pastor
+    - Jennifer Prows
+    - Missions Administrator
+    staff_key: jennifer_prows
+    related_staff_keys:
+    - darrel_schick
+    profile_source: base44.Staff
+    answer_must_not_include:
+    - Jennifer Prows is the Global Missions Pastor
+    - Jennifer Prows oversees all missions
+- name: global missions pastor vacancy
+  query: Who is the Global Missions Pastor?
+  expected:
+    required_record_id: ministries.missions.leadership
+    leadership_status: transitional
+    open_role: Global Missions Pastor
+    staff_key: jennifer_prows
+    answer_must_include:
+    - currently searching
+    - Jennifer Prows
+    - Missions Administrator
+- name: local missions leadership
+  query: Who oversees local missions?
+  expected:
+    staff_key: darrel_schick
+    answer_must_include:
+    - Darrel Schick
+    - Local Missions Strategist
+- name: David Bickers preaching routing
+  query: Which pastors are involved in preaching?
+  expected:
+    primary_staff_key: geoff_prows
+    related_staff_keys:
+    - david_bickers
+- name: staff biography remains in Base44
+  query: Tell me about Jennifer Prows.
+  expected:
+    staff_key: jennifer_prows
+    profile_source: base44.Staff
+    must_not: Invent biography or fun facts from routing metadata.
+- name: published admin entry participates
+  query: A question answered only by an approved admin entry
+  expected:
+    base44_filter:
+      status: published
+      approved: true
+- name: unpublished admin entry excluded
+  query: A question matching an unpublished admin entry
+  expected:
+    must_not: Use the unpublished entry.
+- name: analytics do not block response
+  query: Any supported question
+  expected:
+    log_entity: SearchQueryLog
+    non_blocking: true
+    unanswered_created_only_when_low_confidence: true

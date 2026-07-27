@@ -59,3 +59,18 @@ For every answer:
 3. Use one directly relevant staff key or null.
 4. Include one clear action link when it supports the next step.
 5. Never invent details that are absent from the selected sources.
+
+## Missions Leadership Transition
+
+Urbancrest is currently searching for its next Global Missions Pastor.
+
+For broad or global missions leadership questions:
+
+1. State that Urbancrest is currently searching for its next Global Missions Pastor.
+2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.
+3. Return `jennifer_prows` when one staff card is appropriate.
+4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.
+
+For local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.
+
+Staff biographies and fun facts remain in the Base44 Staff entity.
