@@ -1,8 +1,8 @@
 id: intents.calendar
-version: 1.0
+version: 1.1
 status: active
 title: Calendar and Event Retrieval
-description: Date-aware retrieval rules for live Urbancrest events.
+description: Date-aware retrieval rules for major, ministry, churchwide, and general events.
 
 source_of_truth:
   registry: registry/events-live.yaml
@@ -12,7 +12,7 @@ source_of_truth:
   authoritative_end_field: sort_end_utc
 
 routing:
-  calendar_intents:
+  use_this_registry_for:
     - next_event
     - next_ministry_event
     - next_audience_event
@@ -25,70 +25,30 @@ routing:
     - event_details
     - event_registration
 
-  date_sensitive_terms:
-    - next
-    - nearest
-    - soonest
-    - upcoming
-    - today
-    - tonight
-    - tomorrow
-    - this week
-    - this weekend
-    - this month
-    - on
-    - before
-    - after
-    - between
+  route_elsewhere:
+    small_group_questions: registry/small-groups-live.yaml
 
 retrieval:
   default_mode: structured_filter_then_sort
   steps:
-    - Load registry/events-live.yaml before selecting an event.
+    - Load registry/events-live.yaml before selecting a main event.
     - Determine the current date and time in America/New_York.
-    - Exclude any event whose sort_end_utc is earlier than the current time.
-    - Apply requested ministry, audience, title, topic, or date-range filters.
-    - Sort all remaining matches by sort_start_utc in ascending order.
-    - For a singular request such as next or soonest, return the first match.
-    - For a plural request, return matching events in ascending date order.
-    - Open the selected event's knowledge_file for description, location, registration, and other details.
-
-matching:
-  ministry_or_audience:
-    rule: Match either ministries or audiences when the user's wording could refer to either.
-    examples:
-      men's ministry: men
-      women's ministry: women
-      kids ministry: [kids, children]
-      student ministry: students
-      families: families
-
-  recurring_events:
-    rule: Treat every occurrence as a separate event.
-    selection: Choose the earliest future occurrence after filtering.
-    never: Do not prefer a later occurrence because its text has a higher semantic similarity score.
+    - Exclude events whose sort_end_utc is earlier than the current time.
+    - Apply requested ministry, audience, category, title, topic, or date-range filters.
+    - Sort remaining matches by sort_start_utc in ascending order.
+    - Return the first match for next or soonest.
+    - Return plural results in ascending date order.
+    - Open the selected knowledge_file for complete details.
 
 ranking:
+  event_priority:
+    purpose: Controls inclusion and broad-event prominence.
+    never: Must not override chronological order after a user's filters are applied.
+
   semantic_relevance:
-    use_for:
-      - identifying the requested ministry
-      - identifying the requested audience
-      - identifying the requested event title or topic
-    do_not_use_for:
-      - choosing between matching future dates
-      - deciding which recurring occurrence is next
+    purpose: Identifies matching topics, ministries, audiences, and titles.
+    never: Must not choose a later recurring occurrence over an earlier matching occurrence.
 
   chronological_order:
-    use_for:
-      - next
-      - soonest
-      - nearest
-      - upcoming
-      - date-range lists
-    direction: ascending
     field: sort_start_utc
-
-fallbacks:
-  - If no event matches, say that no matching upcoming event is currently listed.
-  - Do not substitute a later semantically related event from a different ministry or audience.
-  - Do not invent event dates, locations, registration links, or classifications.
+    direction: ascending

@@ -9,6 +9,7 @@ import re
 import shutil
 import sys
 import unicodedata
+from collections import defaultdict
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlparse
@@ -22,14 +23,26 @@ from icalendar import Calendar
 
 TIMEZONE_NAME = os.getenv("EVENT_TIMEZONE", "America/New_York")
 TIMEZONE = ZoneInfo(TIMEZONE_NAME)
-LOOKAHEAD_DAYS = int(os.getenv("EVENT_LOOKAHEAD_DAYS", "180"))
-MAX_EVENTS = int(os.getenv("EVENT_MAX_EVENTS", "100"))
+LOOKAHEAD_DAYS = int(os.getenv("EVENT_LOOKAHEAD_DAYS", "365"))
+MAX_MAIN_EVENTS = int(
+    os.getenv("EVENT_MAX_MAIN_EVENTS", os.getenv("EVENT_MAX_EVENTS", "150"))
+)
+MAX_SMALL_GROUP_SERIES = int(os.getenv("SMALL_GROUP_MAX_SERIES", "100"))
+MAX_SMALL_GROUP_OCCURRENCES = int(os.getenv("SMALL_GROUP_MAX_OCCURRENCES", "12"))
 DEFAULT_IMAGE = os.getenv("EVENT_DEFAULT_IMAGE", "").strip()
 
 ROOT = Path(__file__).resolve().parents[1]
-REGISTRY_PATH = ROOT / "registry" / "events-live.yaml"
-INDEX_PATH = ROOT / "knowledge" / "events" / "upcoming-events.md"
-GENERATED_DIR = ROOT / "knowledge" / "events" / "generated"
+
+EVENT_REGISTRY_PATH = ROOT / "registry" / "events-live.yaml"
+GROUP_REGISTRY_PATH = ROOT / "registry" / "small-groups-live.yaml"
+CATEGORY_RULES_PATH = ROOT / "registry" / "event-categories.yaml"
+OVERRIDES_PATH = ROOT / "registry" / "event-overrides.yaml"
+
+EVENT_INDEX_PATH = ROOT / "knowledge" / "events" / "upcoming-events.md"
+EVENT_GENERATED_DIR = ROOT / "knowledge" / "events" / "generated"
+
+GROUP_INDEX_PATH = ROOT / "knowledge" / "small-groups" / "upcoming-small-groups.md"
+GROUP_GENERATED_DIR = ROOT / "knowledge" / "small-groups" / "generated"
 
 LOCATION_ALIASES = {
     "urbancrest": "Urbancrest Church",
@@ -49,7 +62,10 @@ MINISTRY_RULES = {
     "men": ["men's", "mens", "men "],
     "women": ["women's", "womens", "women "],
     "worship": ["worship", "choir", "concert", "music"],
-    "small_groups": ["small group", "small groups", "bible study", "bible studies"],
+    "small_groups": [
+        "small group", "small groups", "community group",
+        "life group", "home group", "growth group",
+    ],
     "sports": ["golf", "football", "baseball", "sports", "cruise-in"],
     "care": ["grief", "recovery", "support group", "benevolence"],
 }
@@ -89,6 +105,13 @@ def normalize_for_matching(value: str) -> str:
     )
 
 
+def load_yaml(path: Path, fallback: dict) -> dict:
+    if not path.exists():
+        return fallback
+    parsed = yaml.safe_load(path.read_text(encoding="utf-8"))
+    return parsed if isinstance(parsed, dict) else fallback
+
+
 def as_local_datetime(value: object) -> tuple[datetime, bool]:
     if isinstance(value, datetime):
         if value.tzinfo is None:
@@ -107,9 +130,18 @@ def utc_sort_value(dt: datetime) -> str:
     return dt.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
 
 
+def stable_id(prefix: str, value: str) -> str:
+    digest = hashlib.sha256(value.encode("utf-8")).hexdigest()[:16]
+    return f"{prefix}-{digest}"
+
+
 def stable_event_id(uid: str, recurrence_id: str, start: datetime) -> str:
-    source = f"{uid}|{recurrence_id}|{start.isoformat()}"
-    return "event-" + hashlib.sha256(source.encode("utf-8")).hexdigest()[:16]
+    return stable_id("event", f"{uid}|{recurrence_id}|{start.isoformat()}")
+
+
+def stable_series_id(uid: str, title: str, location: str) -> str:
+    source = uid or f"{normalize_for_matching(title)}|{normalize_for_matching(location)}"
+    return stable_id("group", source)
 
 
 def slugify(value: str, max_length: int = 72) -> str:
@@ -117,7 +149,7 @@ def slugify(value: str, max_length: int = 72) -> str:
     ascii_text = normalized.encode("ascii", "ignore").decode("ascii")
     slug = re.sub(r"[^a-zA-Z0-9]+", "-", ascii_text).strip("-").lower()
     slug = re.sub(r"-{2,}", "-", slug)
-    return slug[:max_length].rstrip("-") or "event"
+    return slug[:max_length].rstrip("-") or "item"
 
 
 def normalize_location(value: str) -> str:
@@ -163,10 +195,11 @@ def extract_image(component, description: str) -> str | None:
         raw = component.get(key)
         if raw:
             values = raw if isinstance(raw, list) else [raw]
-            candidates.extend(str(v) for v in values)
+            candidates.extend(str(value) for value in values)
 
-    x_alt_desc = clean_text(component.get("X-ALT-DESC"))
-    candidates.extend(extract_urls(description, x_alt_desc))
+    candidates.extend(
+        extract_urls(description, clean_text(component.get("X-ALT-DESC")))
+    )
 
     for url in candidates:
         clean = url.strip()
@@ -193,26 +226,78 @@ def infer_labels(title: str, description: str) -> tuple[list[str], list[str]]:
     return ministries or ["churchwide"], audiences or ["everyone"]
 
 
-def annotate_chronology(events: list[dict[str, object]]) -> None:
-    seen_ministries: set[str] = set()
-    seen_audiences: set[str] = set()
+def infer_category(
+    title: str,
+    description: str,
+    ministries: list[str],
+    category_config: dict,
+) -> tuple[str, int, str]:
+    haystack = normalize_for_matching(f"{title}\n{description}")
+    categories = category_config.get("categories", {})
+    order = category_config.get("classification_order", [])
 
-    for rank, event in enumerate(events, start=1):
-        event["chronological_rank"] = rank
-        event["next_for_ministries"] = []
-        event["next_for_audiences"] = []
+    for category_name in order:
+        category = categories.get(category_name, {})
+        terms = category.get("terms", [])
+        if any(normalize_for_matching(str(term)) in haystack for term in terms):
+            return (
+                category_name,
+                int(category.get("priority", 50)),
+                str(category.get("collection", "main_events")),
+            )
 
-        for ministry in event["ministries"]:
-            ministry = str(ministry)
-            if ministry != "churchwide" and ministry not in seen_ministries:
-                event["next_for_ministries"].append(ministry)
-                seen_ministries.add(ministry)
+    fallback_name = (
+        "ministry_event"
+        if any(ministry != "churchwide" for ministry in ministries)
+        else "general_event"
+    )
+    fallback = categories.get(fallback_name, {})
+    return (
+        fallback_name,
+        int(fallback.get("priority", 50)),
+        str(fallback.get("collection", "main_events")),
+    )
 
-        for audience in event["audiences"]:
-            audience = str(audience)
-            if audience != "everyone" and audience not in seen_audiences:
-                event["next_for_audiences"].append(audience)
-                seen_audiences.add(audience)
+
+def title_rule_matches(rule: dict, title: str) -> bool:
+    normalized_title = normalize_for_matching(title)
+
+    if "title_equals" in rule:
+        return normalized_title == normalize_for_matching(str(rule["title_equals"]))
+
+    if "title_contains" in rule:
+        return normalize_for_matching(str(rule["title_contains"])) in normalized_title
+
+    if "title_regex" in rule:
+        return bool(re.search(str(rule["title_regex"]), title, flags=re.IGNORECASE))
+
+    return False
+
+
+def apply_override(event: dict[str, object], overrides: dict) -> None:
+    merged: dict = {}
+
+    uid_overrides = overrides.get("uid_overrides", {})
+    uid_rule = uid_overrides.get(str(event["uid"]))
+    if isinstance(uid_rule, dict):
+        merged.update(uid_rule)
+
+    for rule in overrides.get("title_rules", []):
+        if isinstance(rule, dict) and title_rule_matches(rule, str(event["title"])):
+            merged.update(rule)
+
+    if "event_category" in merged:
+        event["event_category"] = str(merged["event_category"])
+    if "event_priority" in merged:
+        event["event_priority"] = int(merged["event_priority"])
+    if "collection" in merged:
+        event["collection"] = str(merged["collection"])
+    if "ministries" in merged:
+        event["ministries"] = list(merged["ministries"])
+    if "audiences" in merged:
+        event["audiences"] = list(merged["audiences"])
+    if "location" in merged:
+        event["location"] = str(merged["location"])
 
 
 def format_day(dt: datetime) -> str:
@@ -246,7 +331,6 @@ def make_summary(title: str, when: str, location: str, description: str) -> str:
         if len(description) > 220:
             first += "..."
         return first
-
     if location:
         return f"{title} is scheduled for {when} at {location}."
     return f"{title} is scheduled for {when}."
@@ -257,31 +341,98 @@ def yaml_quote(value: str) -> str:
 
 
 def yaml_inline_list(values: list[object]) -> str:
-    return "[" + ", ".join(str(value) for value in values) + "]"
+    return "[" + ", ".join(yaml_quote(str(value)) for value in values) + "]"
+
+
+def select_main_events(events: list[dict[str, object]]) -> list[dict[str, object]]:
+    protected = [
+        event for event in events if int(event["event_priority"]) >= 80
+    ]
+    lower_priority = [
+        event for event in events if int(event["event_priority"]) < 80
+    ]
+
+    protected.sort(
+        key=lambda event: (
+            event["_start_dt"],
+            str(event["title"]).casefold(),
+        )
+    )
+
+    if len(protected) >= MAX_MAIN_EVENTS:
+        selected = protected[:MAX_MAIN_EVENTS]
+        print(
+            "Warning: high-priority events exceeded EVENT_MAX_MAIN_EVENTS.",
+            file=sys.stderr,
+        )
+    else:
+        remaining = MAX_MAIN_EVENTS - len(protected)
+        lower_priority.sort(
+            key=lambda event: (
+                -int(event["event_priority"]),
+                event["_start_dt"],
+                str(event["title"]).casefold(),
+            )
+        )
+        selected = protected + lower_priority[:remaining]
+
+    selected.sort(
+        key=lambda event: (
+            event["_start_dt"],
+            -int(event["event_priority"]),
+            str(event["title"]).casefold(),
+        )
+    )
+    return selected
+
+
+def annotate_chronology(events: list[dict[str, object]]) -> None:
+    seen_ministries: set[str] = set()
+    seen_audiences: set[str] = set()
+
+    for rank, event in enumerate(events, start=1):
+        event["chronological_rank"] = rank
+        event["next_for_ministries"] = []
+        event["next_for_audiences"] = []
+
+        for ministry in event["ministries"]:
+            ministry_name = str(ministry)
+            if ministry_name != "churchwide" and ministry_name not in seen_ministries:
+                event["next_for_ministries"].append(ministry_name)
+                seen_ministries.add(ministry_name)
+
+        for audience in event["audiences"]:
+            audience_name = str(audience)
+            if audience_name != "everyone" and audience_name not in seen_audiences:
+                event["next_for_audiences"].append(audience_name)
+                seen_audiences.add(audience_name)
 
 
 def write_event_article(event: dict[str, object], generated_at: str) -> str:
     start: datetime = event["_start_dt"]
     title = str(event["title"])
-    date_prefix = start.strftime("%Y-%m-%d")
-    slug = f"{date_prefix}-{slugify(title)}-{str(event['id'])[-6:]}"
+    slug = (
+        f"{start.strftime('%Y-%m-%d')}-"
+        f"{slugify(title)}-{str(event['id'])[-6:]}"
+    )
     relative_path = f"knowledge/events/generated/{slug}.md"
     path = ROOT / relative_path
 
-    tags = ["event", "calendar", "upcoming"]
-    tags.extend(str(x) for x in event["ministries"])
-    tags.extend(str(x) for x in event["audiences"])
+    tags = ["event", "calendar", "upcoming", str(event["event_category"])]
+    tags.extend(str(value) for value in event["ministries"])
+    tags.extend(str(value) for value in event["audiences"])
     tags = list(dict.fromkeys(tags))
 
     lines = [
         "---",
         f"id: events.live.{event['id']}",
-        "version: 1.3",
+        "version: 1.4",
         "status: published",
-        "priority: 90",
+        f"priority: {event['event_priority']}",
         f"title: {yaml_quote(title)}",
         f"summary: {yaml_quote(str(event['summary']))}",
         "category: [events]",
+        f"event_category: {yaml_quote(str(event['event_category']))}",
         "intent:",
         "  primary: event_details",
         "  secondary: [upcoming_events, calendar, schedule, registration, next_ministry_event]",
@@ -314,14 +465,9 @@ def write_event_article(event: dict[str, object], generated_at: str) -> str:
         f"all_day: {'true' if event['all_day'] else 'false'}",
     ]
 
-    if event.get("registration_url"):
-        lines.append(f"registration_url: {yaml_quote(str(event['registration_url']))}")
-    if event.get("info_url"):
-        lines.append(f"info_url: {yaml_quote(str(event['info_url']))}")
-    if event.get("image_url"):
-        lines.append(f"image_url: {yaml_quote(str(event['image_url']))}")
-    if event.get("location"):
-        lines.append(f"location: {yaml_quote(str(event['location']))}")
+    for field in ("registration_url", "info_url", "image_url", "location"):
+        if event.get(field):
+            lines.append(f"{field}: {yaml_quote(str(event[field]))}")
 
     lines.extend([
         f"last_generated: {generated_at}",
@@ -355,6 +501,242 @@ def write_event_article(event: dict[str, object], generated_at: str) -> str:
     return relative_path
 
 
+def collapse_small_groups(
+    occurrences: list[dict[str, object]]
+) -> list[dict[str, object]]:
+    grouped: dict[str, list[dict[str, object]]] = defaultdict(list)
+
+    for occurrence in occurrences:
+        series_id = stable_series_id(
+            str(occurrence["uid"]),
+            str(occurrence["title"]),
+            str(occurrence.get("location") or ""),
+        )
+        grouped[series_id].append(occurrence)
+
+    groups: list[dict[str, object]] = []
+
+    for series_id, meetings in grouped.items():
+        meetings.sort(key=lambda meeting: meeting["_start_dt"])
+        first = meetings[0]
+        limited = meetings[:MAX_SMALL_GROUP_OCCURRENCES]
+
+        future_meetings = [
+            {
+                "start": meeting["start"],
+                "end": meeting["end"],
+                "sort_start_utc": meeting["sort_start_utc"],
+                "sort_end_utc": meeting["sort_end_utc"],
+                "display_when": meeting["display_when"],
+                "all_day": meeting["all_day"],
+            }
+            for meeting in limited
+        ]
+
+        groups.append({
+            "id": series_id,
+            "uid": first["uid"],
+            "title": first["title"],
+            "summary": first["summary"],
+            "description": first.get("description"),
+            "location": first.get("location"),
+            "registration_url": first.get("registration_url"),
+            "info_url": first.get("info_url"),
+            "image_url": first.get("image_url"),
+            "ministries": first["ministries"],
+            "audiences": first["audiences"],
+            "event_category": "small_group_meeting",
+            "event_priority": first["event_priority"],
+            "next_meeting": future_meetings[0],
+            "future_meetings": future_meetings,
+            "meeting_count_in_window": len(meetings),
+            "_start_dt": first["_start_dt"],
+        })
+
+    groups.sort(key=lambda group: (group["_start_dt"], str(group["title"]).casefold()))
+    return groups[:MAX_SMALL_GROUP_SERIES]
+
+
+def write_group_article(group: dict[str, object], generated_at: str) -> str:
+    title = str(group["title"])
+    slug = f"{slugify(title)}-{str(group['id'])[-6:]}"
+    relative_path = f"knowledge/small-groups/generated/{slug}.md"
+    path = ROOT / relative_path
+
+    tags = ["small_group", "recurring", "calendar"]
+    tags.extend(str(value) for value in group["audiences"])
+    tags = list(dict.fromkeys(tags))
+
+    next_meeting = group["next_meeting"]
+
+    lines = [
+        "---",
+        f"id: small_groups.live.{group['id']}",
+        "version: 1.4",
+        "status: published",
+        f"priority: {group['event_priority']}",
+        f"title: {yaml_quote(title)}",
+        f"summary: {yaml_quote(str(group['summary']))}",
+        "category: [small_groups]",
+        "event_category: small_group_meeting",
+        "intent:",
+        "  primary: small_group_details",
+        "  secondary: [next_small_group_meeting, small_groups, calendar]",
+        "audience: " + yaml_inline_list(group["audiences"]),
+        "ministries: " + yaml_inline_list(group["ministries"]),
+        "answer_style: helpful",
+        "confidence: high",
+        "tags: " + yaml_inline_list(tags),
+        f"series_id: {group['id']}",
+        f"next_meeting_start: {yaml_quote(str(next_meeting['start']))}",
+        f"next_meeting_end: {yaml_quote(str(next_meeting['end']))}",
+        f"sort_start_utc: {yaml_quote(str(next_meeting['sort_start_utc']))}",
+        f"sort_end_utc: {yaml_quote(str(next_meeting['sort_end_utc']))}",
+        f"meeting_count_in_window: {group['meeting_count_in_window']}",
+    ]
+
+    for field in ("registration_url", "info_url", "image_url", "location"):
+        if group.get(field):
+            lines.append(f"{field}: {yaml_quote(str(group[field]))}")
+
+    lines.extend([
+        f"last_generated: {generated_at}",
+        "---",
+        "",
+        f"# {title}",
+        "",
+        str(group["summary"]),
+        "",
+        f"**Next meeting:** {next_meeting['display_when']}",
+        "",
+    ])
+
+    if group.get("location"):
+        lines.extend([f"**Where:** {group['location']}", ""])
+    if group.get("description"):
+        lines.extend([str(group["description"]), ""])
+    if group.get("registration_url"):
+        lines.extend([f"**Registration:** {group['registration_url']}", ""])
+    elif group.get("info_url"):
+        lines.extend([f"**More information:** {group['info_url']}", ""])
+
+    if len(group["future_meetings"]) > 1:
+        lines.extend(["## Upcoming meetings", ""])
+        for meeting in group["future_meetings"]:
+            lines.append(f"- {meeting['display_when']}")
+        lines.append("")
+
+    lines.extend([
+        "This small group schedule is synchronized automatically from Urbancrest's live calendar.",
+        "",
+    ])
+
+    path.write_text("\n".join(lines), encoding="utf-8")
+    return relative_path
+
+
+def write_event_index(events: list[dict[str, object]], generated_at: str) -> None:
+    lines = [
+        "---",
+        "id: events.upcoming.live",
+        "version: 1.4",
+        "status: published",
+        "priority: 100",
+        "title: Upcoming Events",
+        "summary: Major, ministry, churchwide, and general events synchronized from the Urbancrest calendar.",
+        "category: [events]",
+        "intent:",
+        "  primary: upcoming_events",
+        "  secondary: [calendar, schedule, whats_happening, next_ministry_event]",
+        "audience: [everyone]",
+        "answer_style: helpful",
+        "confidence: high",
+        "tags: [events, calendar, upcoming, schedule]",
+        "resources:",
+        "  - events.live",
+        "calendar_sort_order: sort_start_utc_ascending",
+        f"last_generated: {generated_at}",
+        "---",
+        "",
+        "# Upcoming Events",
+        "",
+        "This index excludes routine Small Group meetings, which are stored separately.",
+        "Events are listed in ascending chronological order.",
+        "",
+    ]
+
+    if not events:
+        lines.extend(["There are currently no upcoming events listed.", ""])
+    else:
+        for event in events:
+            lines.extend([
+                f"## {event['title']}",
+                "",
+                f"**Category:** {str(event['event_category']).replace('_', ' ').title()}",
+                "",
+                f"**When:** {event['display_when']}",
+                "",
+            ])
+            if event.get("location"):
+                lines.extend([f"**Where:** {event['location']}", ""])
+            if event.get("registration_url"):
+                lines.extend([f"**Registration:** {event['registration_url']}", ""])
+            elif event.get("info_url"):
+                lines.extend([f"**More information:** {event['info_url']}", ""])
+            lines.extend([f"Detailed event file: `{event['knowledge_file']}`", ""])
+
+    EVENT_INDEX_PATH.parent.mkdir(parents=True, exist_ok=True)
+    EVENT_INDEX_PATH.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
+
+
+def write_group_index(groups: list[dict[str, object]], generated_at: str) -> None:
+    lines = [
+        "---",
+        "id: small_groups.upcoming.live",
+        "version: 1.4",
+        "status: published",
+        "priority: 70",
+        "title: Upcoming Small Groups",
+        "summary: Recurring Small Group schedules synchronized from the Urbancrest calendar.",
+        "category: [small_groups]",
+        "intent:",
+        "  primary: small_groups",
+        "  secondary: [next_small_group_meeting, group_schedule, calendar]",
+        "audience: [everyone]",
+        "answer_style: helpful",
+        "confidence: high",
+        "tags: [small_groups, groups, calendar, recurring]",
+        "resources:",
+        "  - small_groups.live",
+        "calendar_sort_order: sort_start_utc_ascending",
+        f"last_generated: {generated_at}",
+        "---",
+        "",
+        "# Upcoming Small Groups",
+        "",
+        "Each recurring Small Group appears once with its next meeting and future schedule.",
+        "",
+    ]
+
+    if not groups:
+        lines.extend(["There are currently no Small Group meetings listed.", ""])
+    else:
+        for group in groups:
+            next_meeting = group["next_meeting"]
+            lines.extend([
+                f"## {group['title']}",
+                "",
+                f"**Next meeting:** {next_meeting['display_when']}",
+                "",
+            ])
+            if group.get("location"):
+                lines.extend([f"**Where:** {group['location']}", ""])
+            lines.extend([f"Detailed group file: `{group['knowledge_file']}`", ""])
+
+    GROUP_INDEX_PATH.parent.mkdir(parents=True, exist_ok=True)
+    GROUP_INDEX_PATH.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
+
+
 def main() -> int:
     feed_url = os.getenv("ICAL_FEED_URL", "").strip()
     if not feed_url:
@@ -364,10 +746,13 @@ def main() -> int:
     if feed_url.startswith("webcal://"):
         feed_url = "https://" + feed_url[len("webcal://"):]
 
+    category_config = load_yaml(CATEGORY_RULES_PATH, {"categories": {}})
+    overrides = load_yaml(OVERRIDES_PATH, {})
+
     response = requests.get(
         feed_url,
         timeout=30,
-        headers={"User-Agent": "Urbancrest-Knowledge-Event-Sync/1.3"},
+        headers={"User-Agent": "Urbancrest-Knowledge-Event-Sync/1.4"},
     )
     response.raise_for_status()
 
@@ -377,7 +762,7 @@ def main() -> int:
     window_end = now + timedelta(days=LOOKAHEAD_DAYS)
 
     components = recurring_ical_events.of(calendar).between(window_start, window_end)
-    events: list[dict[str, object]] = []
+    parsed_events: list[dict[str, object]] = []
 
     for component in components:
         status = clean_text(component.get("STATUS", "CONFIRMED")).upper()
@@ -403,19 +788,21 @@ def main() -> int:
         if end < now:
             continue
 
-        component_url = clean_text(component.get("URL"))
         urls = extract_urls(
-            component_url,
+            clean_text(component.get("URL")),
             description,
             clean_text(component.get("X-ALT-DESC")),
         )
         registration_url, info_url = classify_urls(urls)
         image_url = extract_image(component, description)
         ministries, audiences = infer_labels(title, description)
+        event_category, event_priority, collection = infer_category(
+            title, description, ministries, category_config
+        )
         when = display_when(start, end, all_day)
         summary = make_summary(title, when, location, description)
 
-        events.append({
+        event = {
             "id": stable_event_id(uid, recurrence_id, start),
             "uid": uid,
             "title": title,
@@ -433,106 +820,114 @@ def main() -> int:
             "image_url": image_url,
             "ministries": ministries,
             "audiences": audiences,
+            "event_category": event_category,
+            "event_priority": event_priority,
+            "collection": collection,
             "status": status.lower(),
             "_start_dt": start,
             "_end_dt": end,
-        })
+        }
 
-    events.sort(key=lambda item: (item["_start_dt"], str(item["title"]).casefold()))
-    events = events[:MAX_EVENTS]
-    annotate_chronology(events)
-    generated_at = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+        apply_override(event, overrides)
 
-    if GENERATED_DIR.exists():
-        shutil.rmtree(GENERATED_DIR)
-    GENERATED_DIR.mkdir(parents=True, exist_ok=True)
+        if event["collection"] != "exclude":
+            parsed_events.append(event)
 
-    for event in events:
-        event["knowledge_file"] = write_event_article(event, generated_at)
-
-    registry_events = [
-        {k: v for k, v in event.items() if not k.startswith("_") and v is not None}
-        for event in events
+    main_candidates = [
+        event for event in parsed_events if event["collection"] == "main_events"
+    ]
+    small_group_occurrences = [
+        event for event in parsed_events if event["collection"] == "small_groups"
     ]
 
-    registry = {
-        "version": "1.3",
+    main_events = select_main_events(main_candidates)
+    annotate_chronology(main_events)
+    small_groups = collapse_small_groups(small_group_occurrences)
+
+    generated_at = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+
+    for directory in (EVENT_GENERATED_DIR, GROUP_GENERATED_DIR):
+        if directory.exists():
+            shutil.rmtree(directory)
+        directory.mkdir(parents=True, exist_ok=True)
+
+    for event in main_events:
+        event["knowledge_file"] = write_event_article(event, generated_at)
+
+    for group in small_groups:
+        group["knowledge_file"] = write_group_article(group, generated_at)
+
+    event_registry = {
+        "version": "1.4",
         "generated_at": generated_at,
         "timezone": TIMEZONE_NAME,
         "source": "planning_center_ical",
         "source_of_truth_for_calendar_intents": True,
+        "collection": "main_events",
+        "excluded_collection": "small_groups-live.yaml",
         "sort_order": "sort_start_utc_ascending",
         "lookahead_days": LOOKAHEAD_DAYS,
-        "event_count": len(registry_events),
-        "events": registry_events,
+        "selection": {
+            "max_events": MAX_MAIN_EVENTS,
+            "protected_priority_minimum": 80,
+            "policy": "Protect all major and ministry events before lower-priority events.",
+        },
+        "event_count": len(main_events),
+        "events": [
+            {
+                key: value
+                for key, value in event.items()
+                if not key.startswith("_") and value is not None
+            }
+            for event in main_events
+        ],
     }
 
-    REGISTRY_PATH.parent.mkdir(parents=True, exist_ok=True)
-    REGISTRY_PATH.write_text(
-        yaml.safe_dump(registry, sort_keys=False, allow_unicode=True, width=1000),
+    group_registry = {
+        "version": "1.4",
+        "generated_at": generated_at,
+        "timezone": TIMEZONE_NAME,
+        "source": "planning_center_ical",
+        "source_of_truth_for_small_group_intents": True,
+        "collection": "small_groups",
+        "sort_order": "next_meeting.sort_start_utc_ascending",
+        "lookahead_days": LOOKAHEAD_DAYS,
+        "max_series": MAX_SMALL_GROUP_SERIES,
+        "max_occurrences_per_series": MAX_SMALL_GROUP_OCCURRENCES,
+        "group_count": len(small_groups),
+        "source_occurrence_count": len(small_group_occurrences),
+        "groups": [
+            {
+                key: value
+                for key, value in group.items()
+                if not key.startswith("_") and value is not None
+            }
+            for group in small_groups
+        ],
+    }
+
+    EVENT_REGISTRY_PATH.write_text(
+        yaml.safe_dump(event_registry, sort_keys=False, allow_unicode=True, width=1000),
+        encoding="utf-8",
+    )
+    GROUP_REGISTRY_PATH.write_text(
+        yaml.safe_dump(group_registry, sort_keys=False, allow_unicode=True, width=1000),
         encoding="utf-8",
     )
 
-    lines = [
-        "---",
-        "id: events.upcoming.live",
-        "version: 1.3",
-        "status: published",
-        "priority: 100",
-        "title: Upcoming Events",
-        "summary: Live upcoming events synchronized from the Urbancrest calendar.",
-        "category: [events]",
-        "intent:",
-        "  primary: upcoming_events",
-        "  secondary: [calendar, schedule, whats_happening, next_ministry_event]",
-        "audience: [everyone]",
-        "answer_style: helpful",
-        "confidence: high",
-        "owner:",
-        "  ministry: church_office",
-        "review:",
-        "  doctrinal: not_required",
-        "  factual: automated",
-        "tags: [events, calendar, upcoming, schedule]",
-        "resources:",
-        "  - events.live",
-        "calendar_sort_order: sort_start_utc_ascending",
-        f"last_generated: {generated_at}",
-        "---",
-        "",
-        "# Upcoming Events",
-        "",
-        "This page is generated automatically from Urbancrest's live calendar.",
-        "Events are listed in ascending chronological order.",
-        "",
-    ]
+    write_event_index(main_events, generated_at)
+    write_group_index(small_groups, generated_at)
 
-    if not events:
-        lines.extend(["There are currently no upcoming events listed in the calendar.", ""])
-    else:
-        for event in events:
-            lines.extend([
-                f"## {event['title']}",
-                "",
-                str(event["summary"]),
-                "",
-                f"**When:** {event['display_when']}",
-                "",
-            ])
-            if event.get("location"):
-                lines.extend([f"**Where:** {event['location']}", ""])
-            if event.get("registration_url"):
-                lines.extend([f"**Registration:** {event['registration_url']}", ""])
-            elif event.get("info_url"):
-                lines.extend([f"**More information:** {event['info_url']}", ""])
-            lines.extend([f"Detailed event file: `{event['knowledge_file']}`", ""])
-
-    INDEX_PATH.parent.mkdir(parents=True, exist_ok=True)
-    INDEX_PATH.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
-
-    print(f"Wrote {len(events)} events.")
-    print("Calendar registry sort order: sort_start_utc ascending.")
-    print(f"Generated directory: {GENERATED_DIR.relative_to(ROOT)}")
+    print(f"Parsed {len(parsed_events)} future event occurrences.")
+    print(
+        f"Wrote {len(main_events)} main events "
+        f"from {len(main_candidates)} main-event candidates."
+    )
+    print(
+        f"Collapsed {len(small_group_occurrences)} Small Group occurrences "
+        f"into {len(small_groups)} Small Group series."
+    )
+    print("Main calendar sort order: sort_start_utc ascending.")
     return 0
 
 

@@ -1,0 +1,13 @@
+version: '1.4'
+generated_at: null
+timezone: America/New_York
+source: planning_center_ical
+source_of_truth_for_small_group_intents: true
+collection: small_groups
+sort_order: next_meeting.sort_start_utc_ascending
+lookahead_days: 365
+max_series: 100
+max_occurrences_per_series: 12
+group_count: 0
+source_occurrence_count: 0
+groups: []

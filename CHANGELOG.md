@@ -1,12 +1,14 @@
 # Changelog
 
-## 1.3.0
+## 1.4.0
 
-- Added `intents/calendar.yaml` with structured date-aware retrieval rules.
-- Added normalized `sort_start_utc` and `sort_end_utc` fields.
-- Added `chronological_rank`.
-- Added `next_for_ministries` and `next_for_audiences`.
-- Made `registry/events-live.yaml` the explicit source of truth for calendar intents.
-- Added punctuation normalization for curly apostrophes and quotation marks.
-- Added calendar retrieval tests.
-- Included the corrected GitHub Actions commit step that stages generated files before checking for changes.
+- Split routine Small Group meetings into `small-groups-live.yaml`.
+- Added one generated knowledge article per Small Group series.
+- Collapsed recurring Small Group occurrences into a single series record.
+- Added configurable event categories and priority levels.
+- Protected major and ministry events before lower-priority events when applying limits.
+- Added a 365-day default lookahead window.
+- Added `event-overrides.yaml` for title- or UID-based corrections.
+- Added separate Small Group retrieval rules.
+- Updated the workflow to stage additions, changes, and deletions across both collections.
+- Added tests for category priority, Small Group routing, and chronological selection.

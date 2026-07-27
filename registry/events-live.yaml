@@ -1,9 +1,15 @@
-version: '1.3'
+version: '1.4'
 generated_at: null
 timezone: America/New_York
 source: planning_center_ical
 source_of_truth_for_calendar_intents: true
+collection: main_events
+excluded_collection: small-groups-live.yaml
 sort_order: sort_start_utc_ascending
-lookahead_days: 180
+lookahead_days: 365
+selection:
+  max_events: 150
+  protected_priority_minimum: 80
+  policy: Protect all major and ministry events before lower-priority events.
 event_count: 0
 events: []

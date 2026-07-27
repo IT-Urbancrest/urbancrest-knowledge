@@ -1,0 +1,61 @@
+version: '1.0'
+classification_order:
+- major_event
+- small_group_meeting
+- class_or_bible_study
+- churchwide_program
+categories:
+  major_event:
+    priority: 100
+    collection: main_events
+    terms:
+    - conference
+    - retreat
+    - summit
+    - festival
+    - concert
+    - banquet
+    - golf classic
+    - vacation bible school
+    - vbs
+    - cruise-in
+    - cruise in
+    - family fun day
+    - missions conference
+  small_group_meeting:
+    priority: 20
+    collection: small_groups
+    terms:
+    - small group
+    - small groups
+    - community group
+    - life group
+    - home group
+    - growth group
+  class_or_bible_study:
+    priority: 40
+    collection: main_events
+    terms:
+    - bible study
+    - bible studies
+    - class
+    - classes
+    - discipleship study
+  churchwide_program:
+    priority: 60
+    collection: main_events
+    terms:
+    - sunday worship
+    - worship service
+    - wednesday night
+    - awana
+    - church dinner
+    - family service
+  ministry_event:
+    priority: 80
+    collection: main_events
+    terms: []
+  general_event:
+    priority: 50
+    collection: main_events
+    terms: []

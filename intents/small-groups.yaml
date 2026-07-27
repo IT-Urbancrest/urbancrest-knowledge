@@ -1,0 +1,31 @@
+id: intents.small_groups
+version: 1.0
+status: active
+title: Small Group Retrieval
+description: Retrieval rules for recurring Small Group schedules.
+
+source_of_truth:
+  registry: registry/small-groups-live.yaml
+  detail_articles: knowledge/small-groups/generated/
+  timezone: America/New_York
+  authoritative_sort_field: next_meeting.sort_start_utc
+
+routing:
+  use_this_registry_for:
+    - small_groups
+    - next_small_group
+    - small_group_schedule
+    - when_does_a_group_meet
+    - groups_for_an_audience
+
+retrieval:
+  steps:
+    - Load registry/small-groups-live.yaml.
+    - Filter by group title, audience, ministry, topic, or location.
+    - Sort matching groups by next_meeting.sort_start_utc in ascending order.
+    - Use each group's knowledge_file for its future meeting schedule and details.
+
+behavior:
+  - Each recurring Small Group appears once in the registry.
+  - Do not treat every recurring meeting as a separate search result.
+  - Do not mix routine Small Group meetings into broad major-event answers unless the user explicitly asks for Small Groups.

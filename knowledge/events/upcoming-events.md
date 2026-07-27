@@ -1,10 +1,10 @@
 ---
 id: events.upcoming.live
-version: 1.3
+version: 1.4
 status: published
 priority: 100
 title: Upcoming Events
-summary: Live upcoming events synchronized from the Urbancrest calendar.
+summary: Major, ministry, churchwide, and general events synchronized from the Urbancrest calendar.
 category: [events]
 intent:
   primary: upcoming_events
@@ -12,11 +12,6 @@ intent:
 audience: [everyone]
 answer_style: helpful
 confidence: high
-owner:
-  ministry: church_office
-review:
-  doctrinal: not_required
-  factual: automated
 tags: [events, calendar, upcoming, schedule]
 resources:
   - events.live
@@ -26,8 +21,6 @@ last_generated: null
 
 # Upcoming Events
 
-This page is generated automatically from Urbancrest's live calendar.
+This index excludes routine Small Group meetings, which are stored separately.
 
-Events are listed in ascending chronological order.
-
-The first version 1.3 sync has not run yet.
+The first version 1.4 sync has not run yet.
