@@ -21,7 +21,7 @@ next_meeting_end: "2026-08-05T20:30:00-04:00"
 sort_start_utc: "2026-08-05T22:30:00Z"
 sort_end_utc: "2026-08-06T00:30:00Z"
 meeting_count_in_window: 16
-last_generated: 2026-07-27T15:37:20.817603Z
+last_generated: 2026-07-27T17:11:57.091750Z
 ---
 
 # P U R S U E

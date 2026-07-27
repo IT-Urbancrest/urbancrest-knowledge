@@ -37,7 +37,7 @@ chronological_rank: 8
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
-last_generated: 2026-07-27T15:37:20.817603Z
+last_generated: 2026-07-27T17:11:57.091750Z
 ---
 
 # Leah Busick Reception
