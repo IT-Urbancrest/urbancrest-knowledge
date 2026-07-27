@@ -25,18 +25,12 @@ search_terms:
   - Upcoming activities
 resources:
   - events.live
-last_generated: 2026-07-26T22:13:55.688217+00:00
+last_generated: 2026-07-27T04:03:08.657309+00:00
 ---
 
 # Upcoming Events
 
 This page is generated automatically from Urbancrest's live calendar.
-
-## Young Adult Archery Tag
-
-**Sunday, July 26, 2026, 5 PM–8 PM**
-
-Our Young Adults will be going to have a fun time Sunday, July 26th playing archery tag!!! There will be more information and details to come depending on how many sign up!!! So sign up ASAP!!! Deadline to sign up will be July 19th!!!!
 
 ## Connie Hollan Small Group: Ladies Bible Study
 
@@ -727,6 +721,14 @@ Sunday Morning Youth Service
 ## Sunday Morning Services: 9:30 AM Service
 
 **Sunday, September 20, 2026, 9:30 AM–10:40 AM**
+
+**Location:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+
+## Sunday Morning Services: 11:00 AM Service
+
+**Sunday, September 20, 2026, 11 AM–12:10 PM**
 
 **Location:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
