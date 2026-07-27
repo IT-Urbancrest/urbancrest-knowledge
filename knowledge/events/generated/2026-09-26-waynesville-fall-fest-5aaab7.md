@@ -1,6 +1,6 @@
 ---
 id: events.live.event-a33c3a5ecf5aaab7
-version: 1.4.1
+version: 1.4
 status: published
 priority: 50
 title: "Waynesville Fall Fest"
@@ -37,7 +37,7 @@ chronological_rank: 52
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
-last_generated: 2026-07-27T17:22:38.865646Z
+last_generated: 2026-07-27T15:29:17.168565Z
 ---
 
 # Waynesville Fall Fest

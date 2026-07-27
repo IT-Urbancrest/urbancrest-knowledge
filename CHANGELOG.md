@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.6.2
+
+- Made the weekly schedule and service-time article authoritative retrieval sources.
+- Added a dedicated service-time intent.
+- Added an indexed `schedule.weekly` record with Sunday times at 9:30 AM and 11:00 AM.
+- Preserved authority, confidence, and answer-guidance metadata in the search index.
+- Marked routine dated Sunday service occurrences as ineligible for general service-time retrieval.
+- Added regression tests for regular service times and date-specific exceptions.
+
 ## 0.6.1
 
 - Added current Global Missions Pastor vacancy and transition guidance.

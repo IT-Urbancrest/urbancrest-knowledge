@@ -1,6 +1,6 @@
 ---
 id: events.live.event-3d8d12fc8dd1508d
-version: 1.4.1
+version: 1.4
 status: published
 priority: 50
 title: "Card Ministry"
@@ -37,7 +37,7 @@ chronological_rank: 9
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
-last_generated: 2026-07-27T17:22:38.865646Z
+last_generated: 2026-07-27T15:29:17.168565Z
 ---
 
 # Card Ministry

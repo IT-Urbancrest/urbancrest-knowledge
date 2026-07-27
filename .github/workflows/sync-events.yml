@@ -9,8 +9,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: sync-live-events
-  cancel-in-progress: true
+  group: urbancrest-knowledge-writes
+  cancel-in-progress: false
 
 jobs:
   sync:
@@ -25,36 +25,42 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
-          cache-dependency-path: scripts/requirements-events.txt
+          cache-dependency-path: |
+            scripts/requirements-events.txt
+            scripts/requirements-index.txt
 
       - name: Install dependencies
-        run: pip install -r scripts/requirements-events.txt
+        run: |
+          pip install -r scripts/requirements-events.txt
+          pip install -r scripts/requirements-index.txt
 
       - name: Generate live event files
         env:
           ICAL_FEED_URL: ${{ secrets.ICAL_FEED_URL }}
-          EVENT_LOOKAHEAD_DAYS: "120"
-          EVENT_MAX_EVENTS: "75"
+          EVENT_LOOKAHEAD_DAYS: "365"
+          EVENT_MAX_MAIN_EVENTS: "150"
+          SMALL_GROUP_MAX_SERIES: "100"
+          SMALL_GROUP_MAX_OCCURRENCES: "12"
+          EVENT_DEFAULT_IMAGE: ""
         run: python scripts/sync_events.py
 
-      - name: Commit updated event data
+      - name: Rebuild knowledge search index
+        run: python scripts/build_search_index.py
+
+      - name: Commit updated event and index data
         run: |
           git config user.name "urbancrest-events-bot"
           git config user.email "actions@users.noreply.github.com"
 
-          git add -A -- \
-            registry/events-live.yaml \
-            registry/small-groups-live.yaml \
-            knowledge/events \
-            knowledge/small-groups
+          git add -A --             registry/events-live.yaml             registry/small-groups-live.yaml             knowledge/events             knowledge/small-groups             runtime/search-index.json
 
           echo "Files staged for commit:"
           git status --short
 
           if git diff --cached --quiet; then
-            echo "No event changes detected."
+            echo "No event or search-index changes detected."
             exit 0
           fi
 
-          git commit -m "chore: sync live events and small groups"
+          git commit -m "chore: sync live events and search index"
           git push

@@ -1,0 +1,56 @@
+id: intents.service_times
+version: 1.0
+status: active
+title: Service-Time Retrieval
+description: Authoritative retrieval rules for regular Urbancrest service times.
+
+source_of_truth:
+  primary_registry: registry/schedule.yaml
+  primary_article: knowledge/about/what-time-are-services.md
+  supporting_article: knowledge/about/sunday-worship.md
+  timezone: America/New_York
+
+intent_terms:
+  - service times
+  - Sunday service times
+  - Sunday worship times
+  - what time does church start
+  - what time is church
+  - when does Urbancrest meet
+  - when are services
+
+retrieval:
+  general_questions:
+    steps:
+      - Select records where authoritative_for contains service_times or sunday_service_times.
+      - Prefer schedule.weekly and about.services.times.
+      - Ignore routine live-calendar service occurrences.
+      - Return Sunday at 9:30 AM and 11:00 AM.
+      - Include the Plan Your Visit action link.
+      - Use high confidence when the authoritative records agree.
+
+  date_specific_questions:
+    date_terms:
+      - today
+      - tomorrow
+      - this Sunday
+      - next Sunday
+      - holiday
+      - Christmas
+      - Easter
+      - a named calendar date
+    steps:
+      - Start with the regular weekly schedule.
+      - Check registry/events-live.yaml for a documented exception on that date.
+      - If an exception exists, use the dated event record.
+      - Otherwise use the regular schedule.
+
+ranking:
+  authoritative_record_bonus: 200
+  exact_intent_bonus: 100
+  exact_search_term_bonus: 100
+
+confidence:
+  authoritative_match: 98
+  documented_date_exception: 95
+  conflicting_or_missing_data: 45

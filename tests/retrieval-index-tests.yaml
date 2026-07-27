@@ -1,6 +1,30 @@
-version: '1.1'
+version: '1.2'
 suite: retrieval_first_runtime
 tests:
+- name: regular Sunday service times
+  query: What time are Sunday services?
+  expected:
+    required_record_ids:
+    - schedule.weekly
+    - about.services.times
+    answer_must_include:
+    - 9:30 AM
+    - 11:00 AM
+    action_link: plan_visit
+    minimum_confidence: 95
+    must_not: Use a routine dated service occurrence as the sole source.
+- name: general church start time
+  query: What time does church start?
+  expected:
+    required_record_id: schedule.weekly
+    answer_must_include:
+    - 9:30 AM
+    - 11:00 AM
+    minimum_confidence: 95
+- name: specific Sunday exception handling
+  query: What time are services this Sunday?
+  expected:
+    behavior: Use the regular schedule unless registry/events-live.yaml contains a dated exception for the requested Sunday.
 - name: service times use focused knowledge
   query: What time are Sunday services?
   expected:

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
-  "repository_version": "0.6.1",
-  "generated_at": "2026-07-27T18:10:50.835508Z",
+  "repository_version": "0.6.2",
+  "generated_at": "2026-07-27T19:14:14.618632Z",
   "timezone": "America/New_York",
-  "record_count": 248,
+  "record_count": 249,
   "config": {
-    "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership Transition\n\nUrbancrest is currently searching for its next Global Missions Pastor.\n\nFor broad or global missions leadership questions:\n\n1. State that Urbancrest is currently searching for its next Global Missions Pastor.\n2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.\n3. Return `jennifer_prows` when one staff card is appropriate.\n4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n",
+    "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership Transition\n\nUrbancrest is currently searching for its next Global Missions Pastor.\n\nFor broad or global missions leadership questions:\n\n1. State that Urbancrest is currently searching for its next Global Missions Pastor.\n2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.\n3. Return `jennifer_prows` when one staff card is appropriate.\n4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nConfidently answer that Sunday worship services are at **9:30 AM** and **11:00 AM**.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
     "style_guide": "# Style Guide\n\n## Writing\n\n- Use short paragraphs.\n- Prefer plain language.\n- Avoid church jargon unless it is explained.\n- Do not use em dashes.\n- Do not use the word meaningful as a filler.\n- Use Small Groups, never Grow Groups.\n- Refer to Urbancrest Church as Urbancrest after the first use.\n- Use believer's baptism by immersion when describing baptism.\n\n## Theology\n\n- Scripture is the final authority.\n- The Baptist Faith and Message 2000 is a helpful doctrinal summary, not equal to Scripture.\n- Salvation is by grace alone through faith alone in Jesus Christ alone.\n- Baptism follows salvation and does not save.\n",
     "max_retrieval_records": 8,
     "staff_profile_source": "base44.Staff",
@@ -63,6 +63,158 @@
     ]
   },
   "records": [
+    {
+      "id": "about.services.times",
+      "record_type": "knowledge",
+      "path": "knowledge/about/what-time-are-services.md",
+      "title": "What time are your services?",
+      "summary": "Urbancrest has Sunday worship services at 9:30 AM and 11:00 AM, plus Wednesday evening ministries.",
+      "content": "# What time are your services?\n\n## Short Answer\n\nUrbancrest meets every Sunday at **9:30 AM** and **11:00 AM**.\n\n## Sunday Worship\n\nTwo identical worship services are offered each Sunday:\n\n- **9:30 AM**\n- **11:00 AM**\n\n## Wednesday Evenings\n\n- **5:30 PM** — Free Dinner in the Gymnasium\n- **6:15 PM** — AWANA for Kids\n- **6:30 PM** — Student Ministry\n- **6:30 PM** — Adult Bible Studies\n\n## Schedule Authority\n\nThese are Urbancrest's regular weekly service times. If someone asks about a specific holiday or calendar date, check the live event calendar for a documented exception.\n\n## Next Step\n\n[Plan Your Visit](https://urbancrest.church/plan-a-visit)",
+      "priority": 120,
+      "category": [
+        "about",
+        "schedule"
+      ],
+      "intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule",
+        "visit",
+        "schedule"
+      ],
+      "tags": [
+        "service times",
+        "Sunday services",
+        "Sunday worship",
+        "Wednesday",
+        "worship",
+        "schedule"
+      ],
+      "search_terms": [
+        "What time are Sunday services?",
+        "What are your Sunday service times?",
+        "When are Sunday services?",
+        "What time does church start?",
+        "What time is church?",
+        "When does Urbancrest meet?",
+        "Sunday worship times",
+        "Sunday service times",
+        "What time are services?",
+        "Wednesday activities"
+      ],
+      "ministries": [],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "schedule.weekly",
+        "action_link.plan_visit"
+      ],
+      "status": "published",
+      "answer_guidance": "For general questions about regular service times, confidently state that Urbancrest meets every Sunday at 9:30 AM and 11:00 AM. Treat this article and registry/schedule.yaml as authoritative over recurring live-calendar event records. For a question about a specific Sunday or holiday date, check the live event registry for a documented schedule exception.\n",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ]
+    },
+    {
+      "id": "schedule.weekly",
+      "record_type": "schedule",
+      "path": "registry/schedule.yaml",
+      "title": "Urbancrest Weekly Service Schedule",
+      "summary": "Sunday worship services are at 9:30 AM and 11:00 AM.",
+      "content": "Regular weekly schedule:\nSunday worship: 9:30 AM, 11:00 AM\nWednesday Dinner: 5:30 PM at Gymnasium\nWednesday Awana: 6:15 PM\nWednesday Students: 6:30 PM\nWednesday Adult Bible Studies: 6:30 PM",
+      "priority": 120,
+      "category": [
+        "schedule",
+        "about"
+      ],
+      "intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule",
+        "visit"
+      ],
+      "tags": [
+        "service times",
+        "Sunday services",
+        "Sunday worship",
+        "weekly schedule"
+      ],
+      "search_terms": [
+        "What time are Sunday services?",
+        "What are your Sunday service times?",
+        "When are Sunday services?",
+        "What time does church start?",
+        "What time is church?",
+        "When does Urbancrest meet?",
+        "Sunday worship times",
+        "Sunday service times"
+      ],
+      "ministries": [],
+      "audiences": [],
+      "resources": [],
+      "authoritative": true,
+      "authoritative_for": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ],
+      "confidence": "high",
+      "answer_guidance": "For general regular service-time questions, answer Sunday 9:30 AM and 11:00 AM with high confidence. For a specific date, check live events for a documented exception.",
+      "sunday_service_times": [
+        "9:30 AM",
+        "11:00 AM"
+      ],
+      "timezone": "America/New_York"
+    },
+    {
+      "id": "about.sunday.worship",
+      "record_type": "knowledge",
+      "path": "knowledge/about/sunday-worship.md",
+      "title": "What are Sunday worship services like?",
+      "summary": "Urbancrest offers two identical Sunday worship services at 9:30 AM and 11:00 AM.",
+      "content": "# What are Sunday worship services like?\n\nUrbancrest offers two identical Sunday worship services at **9:30 AM** and **11:00 AM**.\n\nEach service includes worship through music, prayer, and biblical preaching.\n\nFor a specific holiday or calendar date, check the live events calendar for any documented schedule exception.\n\n[Plan Your Visit](https://urbancrest.church/plan-a-visit)",
+      "priority": 110,
+      "category": [
+        "about",
+        "schedule"
+      ],
+      "intents": [
+        "sunday_worship",
+        "service_times",
+        "sunday_service_times",
+        "visit"
+      ],
+      "tags": [],
+      "search_terms": [
+        "What are Sunday worship services like?",
+        "What time is Sunday worship?",
+        "Sunday worship times",
+        "Sunday service schedule"
+      ],
+      "ministries": [],
+      "audiences": [
+        "visitor",
+        "attendee"
+      ],
+      "resources": [
+        "schedule.weekly",
+        "action_link.plan_visit"
+      ],
+      "status": "published",
+      "answer_guidance": "For regular Sunday service-time questions, state 9:30 AM and 11:00 AM. Use live event records only when the user asks about a specific date or a documented schedule exception.\n",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "sunday_service_times"
+      ]
+    },
     {
       "id": "action_link.connect_card",
       "record_type": "action_link",
@@ -261,7 +413,8 @@
       "location": "Heatherwoode Golf Club - 88 Heatherwoode Blvd\nSpringboro, OH 45066",
       "info_url": "http://classic.urbancrest.org",
       "knowledge_file": "knowledge/events/generated/2026-08-21-urbancrest-golf-classic-4f4169.md",
-      "chronological_rank": 24
+      "chronological_rank": 24,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-9d496596f1bf84ac",
@@ -311,7 +464,8 @@
       "sort_end_utc": "2026-10-17T18:00:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-10-17-women-s-conference-bf84ac.md",
-      "chronological_rank": 68
+      "chronological_rank": 68,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "beliefs.assurance",
@@ -342,7 +496,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "beliefs.eternal-security",
@@ -373,7 +528,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "resources.church-center",
@@ -413,7 +569,8 @@
         "church_center.small_groups",
         "church_center.serving"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "beliefs.salvation.get-saved",
@@ -444,7 +601,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "beliefs.baptism.again",
@@ -476,7 +634,8 @@
         "church_center.connect_card",
         "church_center.baptism"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "beliefs.baptism.meaning",
@@ -508,7 +667,8 @@
         "church_center.connect_card",
         "church_center.baptism"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "beliefs.repentance",
@@ -539,7 +699,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "beliefs.gospel",
@@ -570,46 +731,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
-    },
-    {
-      "id": "about.services.times",
-      "record_type": "knowledge",
-      "path": "knowledge/about/what-time-are-services.md",
-      "title": "What time are your services?",
-      "summary": "Sunday worship service times and Wednesday evening ministry schedule.",
-      "content": "# What time are your services?\n\n## Short Answer\n\nUrbancrest meets every Sunday at **9:30 AM** and **11:00 AM**.\n\n## Sunday Worship\n\nTwo identical worship services are offered each Sunday:\n\n- 9:30 AM\n- 11:00 AM\n\n## Wednesday Evenings\n\n- 5:30 PM – Free Dinner (Gymnasium)\n- 6:15 PM – AWANA for Kids\n- 6:30 PM – Student Ministry\n- 6:30 PM – Adult Bible Studies\n\n## Next Step\n\nIf you have questions before your visit, complete the Connect Card and someone from our team will be happy to help.",
-      "priority": 100,
-      "category": [
-        "about"
-      ],
-      "intents": [
-        "service_times",
-        "visit",
-        "schedule"
-      ],
-      "tags": [
-        "service times",
-        "Sunday",
-        "Wednesday",
-        "worship",
-        "schedule"
-      ],
-      "search_terms": [
-        "What time are services?",
-        "Sunday service times",
-        "Wednesday activities"
-      ],
-      "ministries": [],
-      "audiences": [
-        "visitor",
-        "attendee"
-      ],
-      "resources": [
-        "schedule.weekly",
-        "church_center.connect_card"
-      ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "beliefs.jesus",
@@ -640,7 +763,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "ministries.missions.leadership",
@@ -698,7 +822,8 @@
       ],
       "leadership_status": "transitional",
       "open_role": "Global Missions Pastor",
-      "review_trigger": "global_missions_pastor_hired"
+      "review_trigger": "global_missions_pastor_hired",
+      "confidence": "high"
     },
     {
       "id": "next-steps.membership",
@@ -727,7 +852,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "next-steps.connect-card",
@@ -756,7 +882,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "next-steps.baptism",
@@ -785,7 +912,8 @@
       "resources": [
         "church_center.baptism"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "next-steps.giving",
@@ -814,7 +942,8 @@
       "resources": [
         "church_center.giving"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "next-steps.small-groups",
@@ -843,7 +972,8 @@
       "resources": [
         "church_center.small_groups"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "next-steps.serving",
@@ -872,7 +1002,8 @@
       "resources": [
         "church_center.serving"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "next-steps.prayer",
@@ -901,7 +1032,8 @@
       "resources": [
         "church_center.prayer_request"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "next-steps.pastor",
@@ -930,7 +1062,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "relationship.ministry_staff.global_missions",
@@ -1180,7 +1313,8 @@
       "status": "published",
       "recommended_contact_staff_key": "jennifer_prows",
       "leadership_status": "transitional",
-      "open_role": "Global Missions Pastor"
+      "open_role": "Global Missions Pastor",
+      "confidence": "high"
     },
     {
       "id": "staff.darrel_schick",
@@ -1848,32 +1982,6 @@
       "profile_source": "base44.Staff"
     },
     {
-      "id": "about.sunday.worship",
-      "record_type": "knowledge",
-      "path": "knowledge/about/sunday-worship.md",
-      "title": "What are Sunday worship services like?",
-      "summary": "Overview of Urbancrest's Sunday worship gatherings.",
-      "content": "# What are Sunday worship services like?\n\nUrbancrest offers two identical Sunday worship services at **9:30 AM** and **11:00 AM**.\n\nEach service includes worship through music, prayer, and biblical preaching.",
-      "priority": 85,
-      "category": [
-        "about"
-      ],
-      "intents": [
-        "sunday_worship",
-        "visit"
-      ],
-      "tags": [],
-      "search_terms": [],
-      "ministries": [],
-      "audiences": [
-        "visitor"
-      ],
-      "resources": [
-        "schedule.weekly"
-      ],
-      "status": "published"
-    },
-    {
       "id": "beliefs.ordinances",
       "record_type": "knowledge",
       "path": "knowledge/beliefs/baptism-lords-supper.md",
@@ -1901,7 +2009,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "beliefs.education",
@@ -1931,7 +2040,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "beliefs.social-order",
@@ -1961,7 +2071,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "beliefs.cooperation",
@@ -1991,7 +2102,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "beliefs.evangelism-missions",
@@ -2021,7 +2133,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "beliefs.god",
@@ -2051,7 +2164,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "beliefs.humanity",
@@ -2081,7 +2195,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "beliefs.peace-war",
@@ -2111,7 +2226,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "beliefs.religious-liberty",
@@ -2141,7 +2257,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "beliefs.salvation",
@@ -2171,7 +2288,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "beliefs.stewardship",
@@ -2201,7 +2319,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "beliefs.scripture",
@@ -2231,7 +2350,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "beliefs.church",
@@ -2261,7 +2381,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "beliefs.family",
@@ -2291,7 +2412,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "beliefs.last-things",
@@ -2321,7 +2443,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "beliefs.kingdom",
@@ -2351,7 +2474,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "beliefs.lords-day",
@@ -2381,7 +2505,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "about.wednesday.nights",
@@ -2437,7 +2562,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "relationship.ministry_staff.creative",
@@ -3423,7 +3549,8 @@
       "location": "KOA Campground - 760 Franklin Rd\nLebanon, OH 45036",
       "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3606310",
       "knowledge_file": "knowledge/events/generated/2026-08-01-block-party-koa-campground-4728eb.md",
-      "chronological_rank": 4
+      "chronological_rank": 4,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-12888d127942b1db",
@@ -3473,7 +3600,8 @@
       "location": "Warren Metropolitan Housing Authority - 990 E Ridge Dr\nLebanon, OH 45036",
       "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3606292",
       "knowledge_file": "knowledge/events/generated/2026-07-29-block-party-warren-metropolitan-housing-authority-42b1db.md",
-      "chronological_rank": 1
+      "chronological_rank": 1,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-4153d613419815ba",
@@ -3520,7 +3648,8 @@
       "sort_end_utc": "2026-08-01T14:00:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-08-01-men-s-breakfast-9815ba.md",
-      "chronological_rank": 3
+      "chronological_rank": 3,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-d7e69dfab7336f62",
@@ -3567,7 +3696,8 @@
       "sort_end_utc": "2026-09-05T14:00:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-09-05-men-s-breakfast-336f62.md",
-      "chronological_rank": 36
+      "chronological_rank": 36,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-5ee7e8f2ebdec2d7",
@@ -3614,7 +3744,8 @@
       "sort_end_utc": "2026-10-03T14:00:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-10-03-men-s-breakfast-dec2d7.md",
-      "chronological_rank": 58
+      "chronological_rank": 58,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-f93e5d4a42b349ea",
@@ -3661,7 +3792,8 @@
       "sort_end_utc": "2026-11-07T15:00:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-11-07-men-s-breakfast-b349ea.md",
-      "chronological_rank": 72
+      "chronological_rank": 72,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-afab721d8e2a753e",
@@ -3708,7 +3840,8 @@
       "sort_end_utc": "2026-10-04T23:30:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-10-04-night-of-worship-choir-2a753e.md",
-      "chronological_rank": 62
+      "chronological_rank": 62,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-3e670c31afa2ffdf",
@@ -3755,7 +3888,8 @@
       "sort_end_utc": "2026-08-02T14:30:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-08-02-p-u-r-s-u-e-a2ffdf.md",
-      "chronological_rank": 5
+      "chronological_rank": 5,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-d648bed5dd9d1d2c",
@@ -3802,7 +3936,8 @@
       "sort_end_utc": "2026-08-09T14:30:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-08-09-p-u-r-s-u-e-9d1d2c.md",
-      "chronological_rank": 13
+      "chronological_rank": 13,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-ab9febfd4e27cc47",
@@ -3849,7 +3984,8 @@
       "sort_end_utc": "2026-08-16T14:30:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-08-16-p-u-r-s-u-e-27cc47.md",
-      "chronological_rank": 18
+      "chronological_rank": 18,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-1d404dab04db0b00",
@@ -3896,7 +4032,8 @@
       "sort_end_utc": "2026-08-23T14:30:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-08-23-p-u-r-s-u-e-db0b00.md",
-      "chronological_rank": 25
+      "chronological_rank": 25,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-53f4a91c8a63faac",
@@ -3943,7 +4080,8 @@
       "sort_end_utc": "2026-08-30T14:30:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-08-30-p-u-r-s-u-e-63faac.md",
-      "chronological_rank": 30
+      "chronological_rank": 30,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-ee5bfd5ead7f42b9",
@@ -3990,7 +4128,8 @@
       "sort_end_utc": "2026-09-06T14:30:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-09-06-p-u-r-s-u-e-7f42b9.md",
-      "chronological_rank": 37
+      "chronological_rank": 37,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-704ef786f2300fb0",
@@ -4037,7 +4176,8 @@
       "sort_end_utc": "2026-09-13T14:30:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-09-13-p-u-r-s-u-e-300fb0.md",
-      "chronological_rank": 42
+      "chronological_rank": 42,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-ffac0db3c7f8f18d",
@@ -4084,7 +4224,8 @@
       "sort_end_utc": "2026-09-20T14:30:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-09-20-p-u-r-s-u-e-f8f18d.md",
-      "chronological_rank": 47
+      "chronological_rank": 47,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-9e2c9a2b0c724217",
@@ -4131,7 +4272,8 @@
       "sort_end_utc": "2026-09-27T14:30:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-09-27-p-u-r-s-u-e-724217.md",
-      "chronological_rank": 53
+      "chronological_rank": 53,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-59d784adbee5c34f",
@@ -4178,7 +4320,8 @@
       "sort_end_utc": "2026-10-04T14:30:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-10-04-p-u-r-s-u-e-e5c34f.md",
-      "chronological_rank": 59
+      "chronological_rank": 59,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-335555bbce8f8f87",
@@ -4225,7 +4368,8 @@
       "sort_end_utc": "2026-10-11T14:30:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-10-11-p-u-r-s-u-e-8f8f87.md",
-      "chronological_rank": 65
+      "chronological_rank": 65,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-355987c6282350e7",
@@ -4272,7 +4416,8 @@
       "sort_end_utc": "2026-10-18T14:30:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-10-18-p-u-r-s-u-e-2350e7.md",
-      "chronological_rank": 69
+      "chronological_rank": 69,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-d05c3ac79e3a39cd",
@@ -4319,7 +4464,8 @@
       "sort_end_utc": "2026-10-25T14:30:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-10-25-p-u-r-s-u-e-3a39cd.md",
-      "chronological_rank": 70
+      "chronological_rank": 70,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-64ae9a123396a55e",
@@ -4366,7 +4512,8 @@
       "sort_end_utc": "2026-11-01T15:30:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-11-01-p-u-r-s-u-e-96a55e.md",
-      "chronological_rank": 71
+      "chronological_rank": 71,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-1df0d9cbb84c1a4d",
@@ -4413,7 +4560,8 @@
       "sort_end_utc": "2026-11-08T15:30:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-11-08-p-u-r-s-u-e-4c1a4d.md",
-      "chronological_rank": 73
+      "chronological_rank": 73,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-1652bc35e5b86e1d",
@@ -4460,7 +4608,8 @@
       "sort_end_utc": "2026-11-15T15:30:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-11-15-p-u-r-s-u-e-b86e1d.md",
-      "chronological_rank": 74
+      "chronological_rank": 74,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-be431ccdabc3d97b",
@@ -4507,7 +4656,8 @@
       "sort_end_utc": "2026-11-22T15:30:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-11-22-p-u-r-s-u-e-c3d97b.md",
-      "chronological_rank": 75
+      "chronological_rank": 75,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-a9d2d691ffee30e0",
@@ -4556,7 +4706,8 @@
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3609472",
       "knowledge_file": "knowledge/events/generated/2026-08-08-school-supplies-giveaway-ee30e0.md",
-      "chronological_rank": 11
+      "chronological_rank": 11,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-6b34cb8d668698aa",
@@ -4605,7 +4756,8 @@
       "sort_end_utc": "2026-09-28T00:00:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-09-27-women-s-fall-fest-8698aa.md",
-      "chronological_rank": 56
+      "chronological_rank": 56,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-268e3c6a6137ba8f",
@@ -4652,7 +4804,8 @@
       "sort_end_utc": "2026-08-13T00:00:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-08-12-youth-back-to-school-bash-37ba8f.md",
-      "chronological_rank": 16
+      "chronological_rank": 16,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "about.livestream",
@@ -4681,7 +4834,8 @@
         "everyone"
       ],
       "resources": [],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "about.mission",
@@ -4712,7 +4866,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "about.visit.expect",
@@ -4743,7 +4898,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "about.visit.clothing",
@@ -4772,7 +4928,8 @@
         "everyone"
       ],
       "resources": [],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "about.location",
@@ -4801,7 +4958,8 @@
         "everyone"
       ],
       "resources": [],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "about.identity",
@@ -4832,7 +4990,8 @@
       "resources": [
         "church_center.connect_card"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "faq.attendance",
@@ -4859,7 +5018,8 @@
         "everyone"
       ],
       "resources": [],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "faq.serve.membership",
@@ -4888,7 +5048,8 @@
       "resources": [
         "church_center.serving"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "faq.prayer",
@@ -4917,7 +5078,8 @@
       "resources": [
         "church_center.prayer_request"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "faq.groups",
@@ -4946,7 +5108,8 @@
       "resources": [
         "church_center.small_groups"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "faq.baptism.salvation",
@@ -4973,7 +5136,8 @@
         "everyone"
       ],
       "resources": [],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "faq.mission",
@@ -5000,7 +5164,8 @@
         "everyone"
       ],
       "resources": [],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "ministries.care_and_prayer",
@@ -5032,7 +5197,8 @@
       "resources": [
         "church_center.prayer_request"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "ministries.legacy_builders",
@@ -5064,7 +5230,8 @@
       "resources": [
         "church_center.serving"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "ministries.mens_ministry",
@@ -5096,7 +5263,8 @@
       "resources": [
         "church_center.serving"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "ministries.production",
@@ -5128,7 +5296,8 @@
       "resources": [
         "church_center.serving"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "ministries.small_groups",
@@ -5160,7 +5329,8 @@
       "resources": [
         "church_center.small_groups"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "ministries.students",
@@ -5192,7 +5362,8 @@
       "resources": [
         "church_center.serving"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "ministries.kids",
@@ -5224,7 +5395,8 @@
       "resources": [
         "church_center.serving"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "ministries.womens_ministry",
@@ -5256,7 +5428,8 @@
       "resources": [
         "church_center.serving"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "ministries.worship",
@@ -5288,7 +5461,8 @@
       "resources": [
         "church_center.serving"
       ],
-      "status": "published"
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "file.intents/action-links.yaml",
@@ -5360,6 +5534,31 @@
       ],
       "search_terms": [
         "Core Intents"
+      ],
+      "ministries": [],
+      "audiences": [],
+      "resources": []
+    },
+    {
+      "id": "file.intents/service-times.yaml",
+      "record_type": "routing",
+      "path": "intents/service-times.yaml",
+      "title": "Service Times",
+      "summary": "Structured intents data from intents/service-times.yaml.",
+      "content": "id: intents.service_times\nversion: 1.0\nstatus: active\ntitle: Service-Time Retrieval\ndescription: Authoritative retrieval rules for regular Urbancrest service times.\nsource_of_truth: primary_registry: registry/schedule.yaml\nprimary_article: knowledge/about/what-time-are-services.md\nsupporting_article: knowledge/about/sunday-worship.md\ntimezone: America/New_York\nintent_terms: service times\nSunday service times\nSunday worship times\nwhat time does church start\nwhat time is church\nwhen does Urbancrest meet\nwhen are services\nretrieval: general_questions: steps: Select records where authoritative_for contains service_times or sunday_service_times.\nPrefer schedule.weekly and about.services.times.\nIgnore routine live-calendar service occurrences.\nReturn Sunday at 9:30 AM and 11:00 AM.\nInclude the Plan Your Visit action link.\nUse high confidence when the authoritative records agree.\ndate_specific_questions: date_terms: today\ntomorrow\nthis Sunday\nnext Sunday\nholiday\nChristmas\nEaster\na named calendar date\nsteps: Start with the regular weekly schedule.\nCheck registry/events-live.yaml for a documented exception on that date.\nIf an exception exists, use the dated event record.\nOtherwise use the regular schedule.\nranking: authoritative_record_bonus: 200\nexact_intent_bonus: 100\nexact_search_term_bonus: 100\nconfidence: authoritative_match: 98\ndocumented_date_exception: 95\nconflicting_or_missing_data: 45",
+      "priority": 65,
+      "category": [
+        "intents"
+      ],
+      "intents": [
+        "service-times"
+      ],
+      "tags": [
+        "intents",
+        "service-times"
+      ],
+      "search_terms": [
+        "Service Times"
       ],
       "ministries": [],
       "audiences": [],
@@ -5464,7 +5663,8 @@
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3737699",
       "knowledge_file": "knowledge/events/generated/2026-08-19-awana-2026-2027-5a3ff2.md",
-      "chronological_rank": 22
+      "chronological_rank": 22,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-73b5389e4282128d",
@@ -5515,7 +5715,8 @@
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3737699",
       "knowledge_file": "knowledge/events/generated/2026-08-26-awana-2026-2027-82128d.md",
-      "chronological_rank": 28
+      "chronological_rank": 28,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-ba71b480f7b657f3",
@@ -5566,7 +5767,8 @@
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3737699",
       "knowledge_file": "knowledge/events/generated/2026-09-02-awana-2026-2027-b657f3.md",
-      "chronological_rank": 34
+      "chronological_rank": 34,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-a15a9379d2ca71ea",
@@ -5617,7 +5819,8 @@
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3737699",
       "knowledge_file": "knowledge/events/generated/2026-09-09-awana-2026-2027-ca71ea.md",
-      "chronological_rank": 40
+      "chronological_rank": 40,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "file.registry/church-center.yaml",
@@ -5804,29 +6007,6 @@
       "resources": []
     },
     {
-      "id": "file.registry/schedule.yaml",
-      "record_type": "registry",
-      "path": "registry/schedule.yaml",
-      "title": "Schedule",
-      "summary": "Structured registry data from registry/schedule.yaml.",
-      "content": "version: 1.0\nlast_updated: 2026-07-20\nschedule: weekly: sunday: worship: 9:30 AM\n11:00 AM\nwednesday: dinner: time: 5:30 PM\nlocation: Gymnasium\nawana: time: 6:15 PM\nstudents: time: 6:30 PM\nadult_bible_studies: time: 6:30 PM",
-      "priority": 60,
-      "category": [
-        "registry"
-      ],
-      "intents": [],
-      "tags": [
-        "registry",
-        "schedule"
-      ],
-      "search_terms": [
-        "Schedule"
-      ],
-      "ministries": [],
-      "audiences": [],
-      "resources": []
-    },
-    {
       "id": "events.live.event-c53a75611600c910",
       "record_type": "event",
       "path": "knowledge/events/generated/2026-08-08-backpack-giveaway-event-00c910.md",
@@ -5871,7 +6051,8 @@
       "sort_end_utc": "2026-08-08T16:00:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-08-08-backpack-giveaway-event-00c910.md",
-      "chronological_rank": 12
+      "chronological_rank": 12,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-3d8d12fc8dd1508d",
@@ -5917,7 +6098,8 @@
       "sort_start_utc": "2026-08-04T13:00:00Z",
       "sort_end_utc": "2026-08-04T16:00:00Z",
       "knowledge_file": "knowledge/events/generated/2026-08-04-card-ministry-d1508d.md",
-      "chronological_rank": 9
+      "chronological_rank": 9,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-7ee865b43d7202ff",
@@ -5963,7 +6145,8 @@
       "sort_start_utc": "2026-09-01T13:00:00Z",
       "sort_end_utc": "2026-09-01T16:00:00Z",
       "knowledge_file": "knowledge/events/generated/2026-09-01-card-ministry-7202ff.md",
-      "chronological_rank": 33
+      "chronological_rank": 33,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-b5610e364a8e6732",
@@ -6009,7 +6192,8 @@
       "sort_start_utc": "2026-10-06T13:00:00Z",
       "sort_end_utc": "2026-10-06T16:00:00Z",
       "knowledge_file": "knowledge/events/generated/2026-10-06-card-ministry-8e6732.md",
-      "chronological_rank": 63
+      "chronological_rank": 63,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-399a8cbba5681d28",
@@ -6056,7 +6240,8 @@
       "sort_end_utc": "2026-09-23T00:30:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-09-22-guest-services-team-meeting-681d28.md",
-      "chronological_rank": 50
+      "chronological_rank": 50,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-208ae73f105cc125",
@@ -6102,7 +6287,8 @@
       "sort_start_utc": "2026-08-02T20:00:00Z",
       "sort_end_utc": "2026-08-02T22:00:00Z",
       "knowledge_file": "knowledge/events/generated/2026-08-02-leah-busick-reception-5cc125.md",
-      "chronological_rank": 8
+      "chronological_rank": 8,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-75c02532b780df8e",
@@ -6150,7 +6336,8 @@
       "sort_end_utc": "2026-08-19T22:30:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-08-19-monthly-baskets-of-hope-volunteers-80df8e.md",
-      "chronological_rank": 21
+      "chronological_rank": 21,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-e0476e22fc77387f",
@@ -6198,7 +6385,8 @@
       "sort_end_utc": "2026-09-16T22:30:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-09-16-monthly-baskets-of-hope-volunteers-77387f.md",
-      "chronological_rank": 45
+      "chronological_rank": 45,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-e44fa0ff1817020b",
@@ -6245,7 +6433,8 @@
       "sort_end_utc": "2026-07-31T00:00:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-07-30-open-gym-pickleball-17020b.md",
-      "chronological_rank": 2
+      "chronological_rank": 2,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-ccf377daaf43c57b",
@@ -6292,7 +6481,8 @@
       "sort_end_utc": "2026-08-07T00:00:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-08-06-open-gym-pickleball-43c57b.md",
-      "chronological_rank": 10
+      "chronological_rank": 10,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-a07c79cc58a267ab",
@@ -6339,7 +6529,8 @@
       "sort_end_utc": "2026-08-14T00:00:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-08-13-open-gym-pickleball-a267ab.md",
-      "chronological_rank": 17
+      "chronological_rank": 17,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-04b13efc65307382",
@@ -6386,7 +6577,8 @@
       "sort_end_utc": "2026-08-21T00:00:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-08-20-open-gym-pickleball-307382.md",
-      "chronological_rank": 23
+      "chronological_rank": 23,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-b497f1cb2de0bc06",
@@ -6433,7 +6625,8 @@
       "sort_end_utc": "2026-08-28T00:00:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-08-27-open-gym-pickleball-e0bc06.md",
-      "chronological_rank": 29
+      "chronological_rank": 29,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-ec88cabfa3473ecc",
@@ -6480,7 +6673,8 @@
       "sort_end_utc": "2026-09-04T00:00:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-09-03-open-gym-pickleball-473ecc.md",
-      "chronological_rank": 35
+      "chronological_rank": 35,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-b9f5a417bbfe7030",
@@ -6527,7 +6721,8 @@
       "sort_end_utc": "2026-09-11T00:00:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-09-10-open-gym-pickleball-fe7030.md",
-      "chronological_rank": 41
+      "chronological_rank": 41,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-cd61a9d143556aa9",
@@ -6574,7 +6769,8 @@
       "sort_end_utc": "2026-09-18T00:00:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-09-17-open-gym-pickleball-556aa9.md",
-      "chronological_rank": 46
+      "chronological_rank": 46,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-5c9aa6986b309c7f",
@@ -6621,7 +6817,8 @@
       "sort_end_utc": "2026-09-25T00:00:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-09-24-open-gym-pickleball-309c7f.md",
-      "chronological_rank": 51
+      "chronological_rank": 51,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-ff384c23f40cfa47",
@@ -6668,7 +6865,8 @@
       "sort_end_utc": "2026-10-02T00:00:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-10-01-open-gym-pickleball-0cfa47.md",
-      "chronological_rank": 57
+      "chronological_rank": 57,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-5a6c2377094d6218",
@@ -6715,1041 +6913,8 @@
       "sort_end_utc": "2026-10-09T00:00:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "knowledge_file": "knowledge/events/generated/2026-10-08-open-gym-pickleball-4d6218.md",
-      "chronological_rank": 64
-    },
-    {
-      "id": "events.live.event-cff00c9015feeae6",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-08-02-sunday-morning-services-11-00-am-service-feeae6.md",
-      "title": "Sunday Morning Services: 11:00 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "general_event"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 11:00 AM Service",
-        "When is Sunday Morning Services: 11:00 AM Service?",
-        "Tell me about Sunday Morning Services: 11:00 AM Service",
-        "How do I register for Sunday Morning Services: 11:00 AM Service?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-cff00c9015feeae6",
-      "event_category": "general_event",
-      "event_start": "2026-08-02T11:00:00-04:00",
-      "event_end": "2026-08-02T12:10:00-04:00",
-      "sort_start_utc": "2026-08-02T15:00:00Z",
-      "sort_end_utc": "2026-08-02T16:10:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "knowledge_file": "knowledge/events/generated/2026-08-02-sunday-morning-services-11-00-am-service-feeae6.md",
-      "chronological_rank": 7
-    },
-    {
-      "id": "events.live.event-ebdaaa1e316bb742",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-08-09-sunday-morning-services-11-00-am-service-6bb742.md",
-      "title": "Sunday Morning Services: 11:00 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "general_event"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 11:00 AM Service",
-        "When is Sunday Morning Services: 11:00 AM Service?",
-        "Tell me about Sunday Morning Services: 11:00 AM Service",
-        "How do I register for Sunday Morning Services: 11:00 AM Service?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-ebdaaa1e316bb742",
-      "event_category": "general_event",
-      "event_start": "2026-08-09T11:00:00-04:00",
-      "event_end": "2026-08-09T12:10:00-04:00",
-      "sort_start_utc": "2026-08-09T15:00:00Z",
-      "sort_end_utc": "2026-08-09T16:10:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "knowledge_file": "knowledge/events/generated/2026-08-09-sunday-morning-services-11-00-am-service-6bb742.md",
-      "chronological_rank": 15
-    },
-    {
-      "id": "events.live.event-6d791f65d6684864",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-08-16-sunday-morning-services-11-00-am-service-684864.md",
-      "title": "Sunday Morning Services: 11:00 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "general_event"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 11:00 AM Service",
-        "When is Sunday Morning Services: 11:00 AM Service?",
-        "Tell me about Sunday Morning Services: 11:00 AM Service",
-        "How do I register for Sunday Morning Services: 11:00 AM Service?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-6d791f65d6684864",
-      "event_category": "general_event",
-      "event_start": "2026-08-16T11:00:00-04:00",
-      "event_end": "2026-08-16T12:10:00-04:00",
-      "sort_start_utc": "2026-08-16T15:00:00Z",
-      "sort_end_utc": "2026-08-16T16:10:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "knowledge_file": "knowledge/events/generated/2026-08-16-sunday-morning-services-11-00-am-service-684864.md",
-      "chronological_rank": 20
-    },
-    {
-      "id": "events.live.event-fa5c7d47754475b5",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-08-23-sunday-morning-services-11-00-am-service-4475b5.md",
-      "title": "Sunday Morning Services: 11:00 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "general_event"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 11:00 AM Service",
-        "When is Sunday Morning Services: 11:00 AM Service?",
-        "Tell me about Sunday Morning Services: 11:00 AM Service",
-        "How do I register for Sunday Morning Services: 11:00 AM Service?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-fa5c7d47754475b5",
-      "event_category": "general_event",
-      "event_start": "2026-08-23T11:00:00-04:00",
-      "event_end": "2026-08-23T12:10:00-04:00",
-      "sort_start_utc": "2026-08-23T15:00:00Z",
-      "sort_end_utc": "2026-08-23T16:10:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "knowledge_file": "knowledge/events/generated/2026-08-23-sunday-morning-services-11-00-am-service-4475b5.md",
-      "chronological_rank": 27
-    },
-    {
-      "id": "events.live.event-09a75fc73580f4a3",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-08-30-sunday-morning-services-11-00-am-service-80f4a3.md",
-      "title": "Sunday Morning Services: 11:00 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "general_event"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 11:00 AM Service",
-        "When is Sunday Morning Services: 11:00 AM Service?",
-        "Tell me about Sunday Morning Services: 11:00 AM Service",
-        "How do I register for Sunday Morning Services: 11:00 AM Service?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-09a75fc73580f4a3",
-      "event_category": "general_event",
-      "event_start": "2026-08-30T11:00:00-04:00",
-      "event_end": "2026-08-30T12:10:00-04:00",
-      "sort_start_utc": "2026-08-30T15:00:00Z",
-      "sort_end_utc": "2026-08-30T16:10:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "knowledge_file": "knowledge/events/generated/2026-08-30-sunday-morning-services-11-00-am-service-80f4a3.md",
-      "chronological_rank": 32
-    },
-    {
-      "id": "events.live.event-d51c8e6d158a985a",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-09-06-sunday-morning-services-11-00-am-service-8a985a.md",
-      "title": "Sunday Morning Services: 11:00 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "general_event"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 11:00 AM Service",
-        "When is Sunday Morning Services: 11:00 AM Service?",
-        "Tell me about Sunday Morning Services: 11:00 AM Service",
-        "How do I register for Sunday Morning Services: 11:00 AM Service?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-d51c8e6d158a985a",
-      "event_category": "general_event",
-      "event_start": "2026-09-06T11:00:00-04:00",
-      "event_end": "2026-09-06T12:10:00-04:00",
-      "sort_start_utc": "2026-09-06T15:00:00Z",
-      "sort_end_utc": "2026-09-06T16:10:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "knowledge_file": "knowledge/events/generated/2026-09-06-sunday-morning-services-11-00-am-service-8a985a.md",
-      "chronological_rank": 39
-    },
-    {
-      "id": "events.live.event-d86eca8c10153e7f",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-09-13-sunday-morning-services-11-00-am-service-153e7f.md",
-      "title": "Sunday Morning Services: 11:00 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "general_event"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 11:00 AM Service",
-        "When is Sunday Morning Services: 11:00 AM Service?",
-        "Tell me about Sunday Morning Services: 11:00 AM Service",
-        "How do I register for Sunday Morning Services: 11:00 AM Service?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-d86eca8c10153e7f",
-      "event_category": "general_event",
-      "event_start": "2026-09-13T11:00:00-04:00",
-      "event_end": "2026-09-13T12:10:00-04:00",
-      "sort_start_utc": "2026-09-13T15:00:00Z",
-      "sort_end_utc": "2026-09-13T16:10:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "knowledge_file": "knowledge/events/generated/2026-09-13-sunday-morning-services-11-00-am-service-153e7f.md",
-      "chronological_rank": 44
-    },
-    {
-      "id": "events.live.event-02a80d35839ace48",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-09-20-sunday-morning-services-11-00-am-service-9ace48.md",
-      "title": "Sunday Morning Services: 11:00 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "general_event"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 11:00 AM Service",
-        "When is Sunday Morning Services: 11:00 AM Service?",
-        "Tell me about Sunday Morning Services: 11:00 AM Service",
-        "How do I register for Sunday Morning Services: 11:00 AM Service?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-02a80d35839ace48",
-      "event_category": "general_event",
-      "event_start": "2026-09-20T11:00:00-04:00",
-      "event_end": "2026-09-20T12:10:00-04:00",
-      "sort_start_utc": "2026-09-20T15:00:00Z",
-      "sort_end_utc": "2026-09-20T16:10:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "knowledge_file": "knowledge/events/generated/2026-09-20-sunday-morning-services-11-00-am-service-9ace48.md",
-      "chronological_rank": 49
-    },
-    {
-      "id": "events.live.event-2ec9127af3b8b3b1",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-09-27-sunday-morning-services-11-00-am-service-b8b3b1.md",
-      "title": "Sunday Morning Services: 11:00 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "general_event"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 11:00 AM Service",
-        "When is Sunday Morning Services: 11:00 AM Service?",
-        "Tell me about Sunday Morning Services: 11:00 AM Service",
-        "How do I register for Sunday Morning Services: 11:00 AM Service?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-2ec9127af3b8b3b1",
-      "event_category": "general_event",
-      "event_start": "2026-09-27T11:00:00-04:00",
-      "event_end": "2026-09-27T12:10:00-04:00",
-      "sort_start_utc": "2026-09-27T15:00:00Z",
-      "sort_end_utc": "2026-09-27T16:10:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "knowledge_file": "knowledge/events/generated/2026-09-27-sunday-morning-services-11-00-am-service-b8b3b1.md",
-      "chronological_rank": 55
-    },
-    {
-      "id": "events.live.event-a48cd575ad391224",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-10-04-sunday-morning-services-11-00-am-service-391224.md",
-      "title": "Sunday Morning Services: 11:00 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "general_event"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 11:00 AM Service",
-        "When is Sunday Morning Services: 11:00 AM Service?",
-        "Tell me about Sunday Morning Services: 11:00 AM Service",
-        "How do I register for Sunday Morning Services: 11:00 AM Service?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-a48cd575ad391224",
-      "event_category": "general_event",
-      "event_start": "2026-10-04T11:00:00-04:00",
-      "event_end": "2026-10-04T12:10:00-04:00",
-      "sort_start_utc": "2026-10-04T15:00:00Z",
-      "sort_end_utc": "2026-10-04T16:10:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "knowledge_file": "knowledge/events/generated/2026-10-04-sunday-morning-services-11-00-am-service-391224.md",
-      "chronological_rank": 61
-    },
-    {
-      "id": "events.live.event-d2e5dfa8bb31230b",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-10-11-sunday-morning-services-11-00-am-service-31230b.md",
-      "title": "Sunday Morning Services: 11:00 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "general_event"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 11:00 AM Service",
-        "When is Sunday Morning Services: 11:00 AM Service?",
-        "Tell me about Sunday Morning Services: 11:00 AM Service",
-        "How do I register for Sunday Morning Services: 11:00 AM Service?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-d2e5dfa8bb31230b",
-      "event_category": "general_event",
-      "event_start": "2026-10-11T11:00:00-04:00",
-      "event_end": "2026-10-11T12:10:00-04:00",
-      "sort_start_utc": "2026-10-11T15:00:00Z",
-      "sort_end_utc": "2026-10-11T16:10:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "knowledge_file": "knowledge/events/generated/2026-10-11-sunday-morning-services-11-00-am-service-31230b.md",
-      "chronological_rank": 67
-    },
-    {
-      "id": "events.live.event-c50b2568e3a71a63",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-08-02-sunday-morning-services-9-30-am-service-a71a63.md",
-      "title": "Sunday Morning Services: 9:30 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "general_event"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 9:30 AM Service",
-        "When is Sunday Morning Services: 9:30 AM Service?",
-        "Tell me about Sunday Morning Services: 9:30 AM Service",
-        "How do I register for Sunday Morning Services: 9:30 AM Service?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-c50b2568e3a71a63",
-      "event_category": "general_event",
-      "event_start": "2026-08-02T09:30:00-04:00",
-      "event_end": "2026-08-02T10:40:00-04:00",
-      "sort_start_utc": "2026-08-02T13:30:00Z",
-      "sort_end_utc": "2026-08-02T14:40:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "knowledge_file": "knowledge/events/generated/2026-08-02-sunday-morning-services-9-30-am-service-a71a63.md",
-      "chronological_rank": 6
-    },
-    {
-      "id": "events.live.event-7a5dcb81d2408f37",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-08-09-sunday-morning-services-9-30-am-service-408f37.md",
-      "title": "Sunday Morning Services: 9:30 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "general_event"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 9:30 AM Service",
-        "When is Sunday Morning Services: 9:30 AM Service?",
-        "Tell me about Sunday Morning Services: 9:30 AM Service",
-        "How do I register for Sunday Morning Services: 9:30 AM Service?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-7a5dcb81d2408f37",
-      "event_category": "general_event",
-      "event_start": "2026-08-09T09:30:00-04:00",
-      "event_end": "2026-08-09T10:40:00-04:00",
-      "sort_start_utc": "2026-08-09T13:30:00Z",
-      "sort_end_utc": "2026-08-09T14:40:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "knowledge_file": "knowledge/events/generated/2026-08-09-sunday-morning-services-9-30-am-service-408f37.md",
-      "chronological_rank": 14
-    },
-    {
-      "id": "events.live.event-908186c179e226b5",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-08-16-sunday-morning-services-9-30-am-service-e226b5.md",
-      "title": "Sunday Morning Services: 9:30 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "general_event"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 9:30 AM Service",
-        "When is Sunday Morning Services: 9:30 AM Service?",
-        "Tell me about Sunday Morning Services: 9:30 AM Service",
-        "How do I register for Sunday Morning Services: 9:30 AM Service?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-908186c179e226b5",
-      "event_category": "general_event",
-      "event_start": "2026-08-16T09:30:00-04:00",
-      "event_end": "2026-08-16T10:40:00-04:00",
-      "sort_start_utc": "2026-08-16T13:30:00Z",
-      "sort_end_utc": "2026-08-16T14:40:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "knowledge_file": "knowledge/events/generated/2026-08-16-sunday-morning-services-9-30-am-service-e226b5.md",
-      "chronological_rank": 19
-    },
-    {
-      "id": "events.live.event-e65395a6e223a343",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-08-23-sunday-morning-services-9-30-am-service-23a343.md",
-      "title": "Sunday Morning Services: 9:30 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "general_event"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 9:30 AM Service",
-        "When is Sunday Morning Services: 9:30 AM Service?",
-        "Tell me about Sunday Morning Services: 9:30 AM Service",
-        "How do I register for Sunday Morning Services: 9:30 AM Service?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-e65395a6e223a343",
-      "event_category": "general_event",
-      "event_start": "2026-08-23T09:30:00-04:00",
-      "event_end": "2026-08-23T10:40:00-04:00",
-      "sort_start_utc": "2026-08-23T13:30:00Z",
-      "sort_end_utc": "2026-08-23T14:40:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "knowledge_file": "knowledge/events/generated/2026-08-23-sunday-morning-services-9-30-am-service-23a343.md",
-      "chronological_rank": 26
-    },
-    {
-      "id": "events.live.event-87018d6b99faf099",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-08-30-sunday-morning-services-9-30-am-service-faf099.md",
-      "title": "Sunday Morning Services: 9:30 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "general_event"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 9:30 AM Service",
-        "When is Sunday Morning Services: 9:30 AM Service?",
-        "Tell me about Sunday Morning Services: 9:30 AM Service",
-        "How do I register for Sunday Morning Services: 9:30 AM Service?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-87018d6b99faf099",
-      "event_category": "general_event",
-      "event_start": "2026-08-30T09:30:00-04:00",
-      "event_end": "2026-08-30T10:40:00-04:00",
-      "sort_start_utc": "2026-08-30T13:30:00Z",
-      "sort_end_utc": "2026-08-30T14:40:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "knowledge_file": "knowledge/events/generated/2026-08-30-sunday-morning-services-9-30-am-service-faf099.md",
-      "chronological_rank": 31
-    },
-    {
-      "id": "events.live.event-d27ce5ef423e5884",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-09-06-sunday-morning-services-9-30-am-service-3e5884.md",
-      "title": "Sunday Morning Services: 9:30 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "general_event"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 9:30 AM Service",
-        "When is Sunday Morning Services: 9:30 AM Service?",
-        "Tell me about Sunday Morning Services: 9:30 AM Service",
-        "How do I register for Sunday Morning Services: 9:30 AM Service?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-d27ce5ef423e5884",
-      "event_category": "general_event",
-      "event_start": "2026-09-06T09:30:00-04:00",
-      "event_end": "2026-09-06T10:40:00-04:00",
-      "sort_start_utc": "2026-09-06T13:30:00Z",
-      "sort_end_utc": "2026-09-06T14:40:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "knowledge_file": "knowledge/events/generated/2026-09-06-sunday-morning-services-9-30-am-service-3e5884.md",
-      "chronological_rank": 38
-    },
-    {
-      "id": "events.live.event-a417c1725cb32add",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-09-13-sunday-morning-services-9-30-am-service-b32add.md",
-      "title": "Sunday Morning Services: 9:30 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "general_event"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 9:30 AM Service",
-        "When is Sunday Morning Services: 9:30 AM Service?",
-        "Tell me about Sunday Morning Services: 9:30 AM Service",
-        "How do I register for Sunday Morning Services: 9:30 AM Service?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-a417c1725cb32add",
-      "event_category": "general_event",
-      "event_start": "2026-09-13T09:30:00-04:00",
-      "event_end": "2026-09-13T10:40:00-04:00",
-      "sort_start_utc": "2026-09-13T13:30:00Z",
-      "sort_end_utc": "2026-09-13T14:40:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "knowledge_file": "knowledge/events/generated/2026-09-13-sunday-morning-services-9-30-am-service-b32add.md",
-      "chronological_rank": 43
-    },
-    {
-      "id": "events.live.event-66c2f7334325697d",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-09-20-sunday-morning-services-9-30-am-service-25697d.md",
-      "title": "Sunday Morning Services: 9:30 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "general_event"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 9:30 AM Service",
-        "When is Sunday Morning Services: 9:30 AM Service?",
-        "Tell me about Sunday Morning Services: 9:30 AM Service",
-        "How do I register for Sunday Morning Services: 9:30 AM Service?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-66c2f7334325697d",
-      "event_category": "general_event",
-      "event_start": "2026-09-20T09:30:00-04:00",
-      "event_end": "2026-09-20T10:40:00-04:00",
-      "sort_start_utc": "2026-09-20T13:30:00Z",
-      "sort_end_utc": "2026-09-20T14:40:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "knowledge_file": "knowledge/events/generated/2026-09-20-sunday-morning-services-9-30-am-service-25697d.md",
-      "chronological_rank": 48
-    },
-    {
-      "id": "events.live.event-94b57b98e1a45069",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-09-27-sunday-morning-services-9-30-am-service-a45069.md",
-      "title": "Sunday Morning Services: 9:30 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "general_event"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 9:30 AM Service",
-        "When is Sunday Morning Services: 9:30 AM Service?",
-        "Tell me about Sunday Morning Services: 9:30 AM Service",
-        "How do I register for Sunday Morning Services: 9:30 AM Service?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-94b57b98e1a45069",
-      "event_category": "general_event",
-      "event_start": "2026-09-27T09:30:00-04:00",
-      "event_end": "2026-09-27T10:40:00-04:00",
-      "sort_start_utc": "2026-09-27T13:30:00Z",
-      "sort_end_utc": "2026-09-27T14:40:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "knowledge_file": "knowledge/events/generated/2026-09-27-sunday-morning-services-9-30-am-service-a45069.md",
-      "chronological_rank": 54
-    },
-    {
-      "id": "events.live.event-ecdac35f4e160a39",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-10-04-sunday-morning-services-9-30-am-service-160a39.md",
-      "title": "Sunday Morning Services: 9:30 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "general_event"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 9:30 AM Service",
-        "When is Sunday Morning Services: 9:30 AM Service?",
-        "Tell me about Sunday Morning Services: 9:30 AM Service",
-        "How do I register for Sunday Morning Services: 9:30 AM Service?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-ecdac35f4e160a39",
-      "event_category": "general_event",
-      "event_start": "2026-10-04T09:30:00-04:00",
-      "event_end": "2026-10-04T10:40:00-04:00",
-      "sort_start_utc": "2026-10-04T13:30:00Z",
-      "sort_end_utc": "2026-10-04T14:40:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "knowledge_file": "knowledge/events/generated/2026-10-04-sunday-morning-services-9-30-am-service-160a39.md",
-      "chronological_rank": 60
-    },
-    {
-      "id": "events.live.event-367906f93e0b689c",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-10-11-sunday-morning-services-9-30-am-service-0b689c.md",
-      "title": "Sunday Morning Services: 9:30 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "general_event"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 9:30 AM Service",
-        "When is Sunday Morning Services: 9:30 AM Service?",
-        "Tell me about Sunday Morning Services: 9:30 AM Service",
-        "How do I register for Sunday Morning Services: 9:30 AM Service?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-367906f93e0b689c",
-      "event_category": "general_event",
-      "event_start": "2026-10-11T09:30:00-04:00",
-      "event_end": "2026-10-11T10:40:00-04:00",
-      "sort_start_utc": "2026-10-11T13:30:00Z",
-      "sort_end_utc": "2026-10-11T14:40:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "knowledge_file": "knowledge/events/generated/2026-10-11-sunday-morning-services-9-30-am-service-0b689c.md",
-      "chronological_rank": 66
+      "chronological_rank": 64,
+      "routine_schedule_occurrence": false
     },
     {
       "id": "events.live.event-a33c3a5ecf5aaab7",
@@ -7795,7 +6960,1174 @@
       "sort_start_utc": "2026-09-26T18:30:00Z",
       "sort_end_utc": "2026-09-26T22:00:00Z",
       "knowledge_file": "knowledge/events/generated/2026-09-26-waynesville-fall-fest-5aaab7.md",
-      "chronological_rank": 52
+      "chronological_rank": 52,
+      "routine_schedule_occurrence": false
+    },
+    {
+      "id": "events.live.event-cff00c9015feeae6",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-08-02-sunday-morning-services-11-00-am-service-feeae6.md",
+      "title": "Sunday Morning Services: 11:00 AM Service",
+      "summary": "Join us in person or online!...",
+      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
+      "priority": 20,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "general_event"
+      ],
+      "search_terms": [
+        "Sunday Morning Services: 11:00 AM Service",
+        "When is Sunday Morning Services: 11:00 AM Service?",
+        "Tell me about Sunday Morning Services: 11:00 AM Service",
+        "How do I register for Sunday Morning Services: 11:00 AM Service?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-cff00c9015feeae6",
+      "event_category": "general_event",
+      "event_start": "2026-08-02T11:00:00-04:00",
+      "event_end": "2026-08-02T12:10:00-04:00",
+      "sort_start_utc": "2026-08-02T15:00:00Z",
+      "sort_end_utc": "2026-08-02T16:10:00Z",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "knowledge_file": "knowledge/events/generated/2026-08-02-sunday-morning-services-11-00-am-service-feeae6.md",
+      "chronological_rank": 7,
+      "routine_schedule_occurrence": true,
+      "retrieval_exclude_for_intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ]
+    },
+    {
+      "id": "events.live.event-ebdaaa1e316bb742",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-08-09-sunday-morning-services-11-00-am-service-6bb742.md",
+      "title": "Sunday Morning Services: 11:00 AM Service",
+      "summary": "Join us in person or online!...",
+      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
+      "priority": 20,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "general_event"
+      ],
+      "search_terms": [
+        "Sunday Morning Services: 11:00 AM Service",
+        "When is Sunday Morning Services: 11:00 AM Service?",
+        "Tell me about Sunday Morning Services: 11:00 AM Service",
+        "How do I register for Sunday Morning Services: 11:00 AM Service?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-ebdaaa1e316bb742",
+      "event_category": "general_event",
+      "event_start": "2026-08-09T11:00:00-04:00",
+      "event_end": "2026-08-09T12:10:00-04:00",
+      "sort_start_utc": "2026-08-09T15:00:00Z",
+      "sort_end_utc": "2026-08-09T16:10:00Z",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "knowledge_file": "knowledge/events/generated/2026-08-09-sunday-morning-services-11-00-am-service-6bb742.md",
+      "chronological_rank": 15,
+      "routine_schedule_occurrence": true,
+      "retrieval_exclude_for_intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ]
+    },
+    {
+      "id": "events.live.event-6d791f65d6684864",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-08-16-sunday-morning-services-11-00-am-service-684864.md",
+      "title": "Sunday Morning Services: 11:00 AM Service",
+      "summary": "Join us in person or online!...",
+      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
+      "priority": 20,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "general_event"
+      ],
+      "search_terms": [
+        "Sunday Morning Services: 11:00 AM Service",
+        "When is Sunday Morning Services: 11:00 AM Service?",
+        "Tell me about Sunday Morning Services: 11:00 AM Service",
+        "How do I register for Sunday Morning Services: 11:00 AM Service?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-6d791f65d6684864",
+      "event_category": "general_event",
+      "event_start": "2026-08-16T11:00:00-04:00",
+      "event_end": "2026-08-16T12:10:00-04:00",
+      "sort_start_utc": "2026-08-16T15:00:00Z",
+      "sort_end_utc": "2026-08-16T16:10:00Z",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "knowledge_file": "knowledge/events/generated/2026-08-16-sunday-morning-services-11-00-am-service-684864.md",
+      "chronological_rank": 20,
+      "routine_schedule_occurrence": true,
+      "retrieval_exclude_for_intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ]
+    },
+    {
+      "id": "events.live.event-fa5c7d47754475b5",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-08-23-sunday-morning-services-11-00-am-service-4475b5.md",
+      "title": "Sunday Morning Services: 11:00 AM Service",
+      "summary": "Join us in person or online!...",
+      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
+      "priority": 20,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "general_event"
+      ],
+      "search_terms": [
+        "Sunday Morning Services: 11:00 AM Service",
+        "When is Sunday Morning Services: 11:00 AM Service?",
+        "Tell me about Sunday Morning Services: 11:00 AM Service",
+        "How do I register for Sunday Morning Services: 11:00 AM Service?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-fa5c7d47754475b5",
+      "event_category": "general_event",
+      "event_start": "2026-08-23T11:00:00-04:00",
+      "event_end": "2026-08-23T12:10:00-04:00",
+      "sort_start_utc": "2026-08-23T15:00:00Z",
+      "sort_end_utc": "2026-08-23T16:10:00Z",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "knowledge_file": "knowledge/events/generated/2026-08-23-sunday-morning-services-11-00-am-service-4475b5.md",
+      "chronological_rank": 27,
+      "routine_schedule_occurrence": true,
+      "retrieval_exclude_for_intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ]
+    },
+    {
+      "id": "events.live.event-09a75fc73580f4a3",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-08-30-sunday-morning-services-11-00-am-service-80f4a3.md",
+      "title": "Sunday Morning Services: 11:00 AM Service",
+      "summary": "Join us in person or online!...",
+      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
+      "priority": 20,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "general_event"
+      ],
+      "search_terms": [
+        "Sunday Morning Services: 11:00 AM Service",
+        "When is Sunday Morning Services: 11:00 AM Service?",
+        "Tell me about Sunday Morning Services: 11:00 AM Service",
+        "How do I register for Sunday Morning Services: 11:00 AM Service?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-09a75fc73580f4a3",
+      "event_category": "general_event",
+      "event_start": "2026-08-30T11:00:00-04:00",
+      "event_end": "2026-08-30T12:10:00-04:00",
+      "sort_start_utc": "2026-08-30T15:00:00Z",
+      "sort_end_utc": "2026-08-30T16:10:00Z",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "knowledge_file": "knowledge/events/generated/2026-08-30-sunday-morning-services-11-00-am-service-80f4a3.md",
+      "chronological_rank": 32,
+      "routine_schedule_occurrence": true,
+      "retrieval_exclude_for_intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ]
+    },
+    {
+      "id": "events.live.event-d51c8e6d158a985a",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-09-06-sunday-morning-services-11-00-am-service-8a985a.md",
+      "title": "Sunday Morning Services: 11:00 AM Service",
+      "summary": "Join us in person or online!...",
+      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
+      "priority": 20,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "general_event"
+      ],
+      "search_terms": [
+        "Sunday Morning Services: 11:00 AM Service",
+        "When is Sunday Morning Services: 11:00 AM Service?",
+        "Tell me about Sunday Morning Services: 11:00 AM Service",
+        "How do I register for Sunday Morning Services: 11:00 AM Service?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-d51c8e6d158a985a",
+      "event_category": "general_event",
+      "event_start": "2026-09-06T11:00:00-04:00",
+      "event_end": "2026-09-06T12:10:00-04:00",
+      "sort_start_utc": "2026-09-06T15:00:00Z",
+      "sort_end_utc": "2026-09-06T16:10:00Z",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "knowledge_file": "knowledge/events/generated/2026-09-06-sunday-morning-services-11-00-am-service-8a985a.md",
+      "chronological_rank": 39,
+      "routine_schedule_occurrence": true,
+      "retrieval_exclude_for_intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ]
+    },
+    {
+      "id": "events.live.event-d86eca8c10153e7f",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-09-13-sunday-morning-services-11-00-am-service-153e7f.md",
+      "title": "Sunday Morning Services: 11:00 AM Service",
+      "summary": "Join us in person or online!...",
+      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
+      "priority": 20,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "general_event"
+      ],
+      "search_terms": [
+        "Sunday Morning Services: 11:00 AM Service",
+        "When is Sunday Morning Services: 11:00 AM Service?",
+        "Tell me about Sunday Morning Services: 11:00 AM Service",
+        "How do I register for Sunday Morning Services: 11:00 AM Service?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-d86eca8c10153e7f",
+      "event_category": "general_event",
+      "event_start": "2026-09-13T11:00:00-04:00",
+      "event_end": "2026-09-13T12:10:00-04:00",
+      "sort_start_utc": "2026-09-13T15:00:00Z",
+      "sort_end_utc": "2026-09-13T16:10:00Z",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "knowledge_file": "knowledge/events/generated/2026-09-13-sunday-morning-services-11-00-am-service-153e7f.md",
+      "chronological_rank": 44,
+      "routine_schedule_occurrence": true,
+      "retrieval_exclude_for_intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ]
+    },
+    {
+      "id": "events.live.event-02a80d35839ace48",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-09-20-sunday-morning-services-11-00-am-service-9ace48.md",
+      "title": "Sunday Morning Services: 11:00 AM Service",
+      "summary": "Join us in person or online!...",
+      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
+      "priority": 20,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "general_event"
+      ],
+      "search_terms": [
+        "Sunday Morning Services: 11:00 AM Service",
+        "When is Sunday Morning Services: 11:00 AM Service?",
+        "Tell me about Sunday Morning Services: 11:00 AM Service",
+        "How do I register for Sunday Morning Services: 11:00 AM Service?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-02a80d35839ace48",
+      "event_category": "general_event",
+      "event_start": "2026-09-20T11:00:00-04:00",
+      "event_end": "2026-09-20T12:10:00-04:00",
+      "sort_start_utc": "2026-09-20T15:00:00Z",
+      "sort_end_utc": "2026-09-20T16:10:00Z",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "knowledge_file": "knowledge/events/generated/2026-09-20-sunday-morning-services-11-00-am-service-9ace48.md",
+      "chronological_rank": 49,
+      "routine_schedule_occurrence": true,
+      "retrieval_exclude_for_intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ]
+    },
+    {
+      "id": "events.live.event-2ec9127af3b8b3b1",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-09-27-sunday-morning-services-11-00-am-service-b8b3b1.md",
+      "title": "Sunday Morning Services: 11:00 AM Service",
+      "summary": "Join us in person or online!...",
+      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
+      "priority": 20,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "general_event"
+      ],
+      "search_terms": [
+        "Sunday Morning Services: 11:00 AM Service",
+        "When is Sunday Morning Services: 11:00 AM Service?",
+        "Tell me about Sunday Morning Services: 11:00 AM Service",
+        "How do I register for Sunday Morning Services: 11:00 AM Service?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-2ec9127af3b8b3b1",
+      "event_category": "general_event",
+      "event_start": "2026-09-27T11:00:00-04:00",
+      "event_end": "2026-09-27T12:10:00-04:00",
+      "sort_start_utc": "2026-09-27T15:00:00Z",
+      "sort_end_utc": "2026-09-27T16:10:00Z",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "knowledge_file": "knowledge/events/generated/2026-09-27-sunday-morning-services-11-00-am-service-b8b3b1.md",
+      "chronological_rank": 55,
+      "routine_schedule_occurrence": true,
+      "retrieval_exclude_for_intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ]
+    },
+    {
+      "id": "events.live.event-a48cd575ad391224",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-10-04-sunday-morning-services-11-00-am-service-391224.md",
+      "title": "Sunday Morning Services: 11:00 AM Service",
+      "summary": "Join us in person or online!...",
+      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
+      "priority": 20,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "general_event"
+      ],
+      "search_terms": [
+        "Sunday Morning Services: 11:00 AM Service",
+        "When is Sunday Morning Services: 11:00 AM Service?",
+        "Tell me about Sunday Morning Services: 11:00 AM Service",
+        "How do I register for Sunday Morning Services: 11:00 AM Service?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-a48cd575ad391224",
+      "event_category": "general_event",
+      "event_start": "2026-10-04T11:00:00-04:00",
+      "event_end": "2026-10-04T12:10:00-04:00",
+      "sort_start_utc": "2026-10-04T15:00:00Z",
+      "sort_end_utc": "2026-10-04T16:10:00Z",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "knowledge_file": "knowledge/events/generated/2026-10-04-sunday-morning-services-11-00-am-service-391224.md",
+      "chronological_rank": 61,
+      "routine_schedule_occurrence": true,
+      "retrieval_exclude_for_intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ]
+    },
+    {
+      "id": "events.live.event-d2e5dfa8bb31230b",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-10-11-sunday-morning-services-11-00-am-service-31230b.md",
+      "title": "Sunday Morning Services: 11:00 AM Service",
+      "summary": "Join us in person or online!...",
+      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
+      "priority": 20,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "general_event"
+      ],
+      "search_terms": [
+        "Sunday Morning Services: 11:00 AM Service",
+        "When is Sunday Morning Services: 11:00 AM Service?",
+        "Tell me about Sunday Morning Services: 11:00 AM Service",
+        "How do I register for Sunday Morning Services: 11:00 AM Service?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-d2e5dfa8bb31230b",
+      "event_category": "general_event",
+      "event_start": "2026-10-11T11:00:00-04:00",
+      "event_end": "2026-10-11T12:10:00-04:00",
+      "sort_start_utc": "2026-10-11T15:00:00Z",
+      "sort_end_utc": "2026-10-11T16:10:00Z",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "knowledge_file": "knowledge/events/generated/2026-10-11-sunday-morning-services-11-00-am-service-31230b.md",
+      "chronological_rank": 67,
+      "routine_schedule_occurrence": true,
+      "retrieval_exclude_for_intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ]
+    },
+    {
+      "id": "events.live.event-c50b2568e3a71a63",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-08-02-sunday-morning-services-9-30-am-service-a71a63.md",
+      "title": "Sunday Morning Services: 9:30 AM Service",
+      "summary": "Join us in person or online!...",
+      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
+      "priority": 20,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "general_event"
+      ],
+      "search_terms": [
+        "Sunday Morning Services: 9:30 AM Service",
+        "When is Sunday Morning Services: 9:30 AM Service?",
+        "Tell me about Sunday Morning Services: 9:30 AM Service",
+        "How do I register for Sunday Morning Services: 9:30 AM Service?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-c50b2568e3a71a63",
+      "event_category": "general_event",
+      "event_start": "2026-08-02T09:30:00-04:00",
+      "event_end": "2026-08-02T10:40:00-04:00",
+      "sort_start_utc": "2026-08-02T13:30:00Z",
+      "sort_end_utc": "2026-08-02T14:40:00Z",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "knowledge_file": "knowledge/events/generated/2026-08-02-sunday-morning-services-9-30-am-service-a71a63.md",
+      "chronological_rank": 6,
+      "routine_schedule_occurrence": true,
+      "retrieval_exclude_for_intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ]
+    },
+    {
+      "id": "events.live.event-7a5dcb81d2408f37",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-08-09-sunday-morning-services-9-30-am-service-408f37.md",
+      "title": "Sunday Morning Services: 9:30 AM Service",
+      "summary": "Join us in person or online!...",
+      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
+      "priority": 20,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "general_event"
+      ],
+      "search_terms": [
+        "Sunday Morning Services: 9:30 AM Service",
+        "When is Sunday Morning Services: 9:30 AM Service?",
+        "Tell me about Sunday Morning Services: 9:30 AM Service",
+        "How do I register for Sunday Morning Services: 9:30 AM Service?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-7a5dcb81d2408f37",
+      "event_category": "general_event",
+      "event_start": "2026-08-09T09:30:00-04:00",
+      "event_end": "2026-08-09T10:40:00-04:00",
+      "sort_start_utc": "2026-08-09T13:30:00Z",
+      "sort_end_utc": "2026-08-09T14:40:00Z",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "knowledge_file": "knowledge/events/generated/2026-08-09-sunday-morning-services-9-30-am-service-408f37.md",
+      "chronological_rank": 14,
+      "routine_schedule_occurrence": true,
+      "retrieval_exclude_for_intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ]
+    },
+    {
+      "id": "events.live.event-908186c179e226b5",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-08-16-sunday-morning-services-9-30-am-service-e226b5.md",
+      "title": "Sunday Morning Services: 9:30 AM Service",
+      "summary": "Join us in person or online!...",
+      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
+      "priority": 20,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "general_event"
+      ],
+      "search_terms": [
+        "Sunday Morning Services: 9:30 AM Service",
+        "When is Sunday Morning Services: 9:30 AM Service?",
+        "Tell me about Sunday Morning Services: 9:30 AM Service",
+        "How do I register for Sunday Morning Services: 9:30 AM Service?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-908186c179e226b5",
+      "event_category": "general_event",
+      "event_start": "2026-08-16T09:30:00-04:00",
+      "event_end": "2026-08-16T10:40:00-04:00",
+      "sort_start_utc": "2026-08-16T13:30:00Z",
+      "sort_end_utc": "2026-08-16T14:40:00Z",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "knowledge_file": "knowledge/events/generated/2026-08-16-sunday-morning-services-9-30-am-service-e226b5.md",
+      "chronological_rank": 19,
+      "routine_schedule_occurrence": true,
+      "retrieval_exclude_for_intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ]
+    },
+    {
+      "id": "events.live.event-e65395a6e223a343",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-08-23-sunday-morning-services-9-30-am-service-23a343.md",
+      "title": "Sunday Morning Services: 9:30 AM Service",
+      "summary": "Join us in person or online!...",
+      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
+      "priority": 20,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "general_event"
+      ],
+      "search_terms": [
+        "Sunday Morning Services: 9:30 AM Service",
+        "When is Sunday Morning Services: 9:30 AM Service?",
+        "Tell me about Sunday Morning Services: 9:30 AM Service",
+        "How do I register for Sunday Morning Services: 9:30 AM Service?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-e65395a6e223a343",
+      "event_category": "general_event",
+      "event_start": "2026-08-23T09:30:00-04:00",
+      "event_end": "2026-08-23T10:40:00-04:00",
+      "sort_start_utc": "2026-08-23T13:30:00Z",
+      "sort_end_utc": "2026-08-23T14:40:00Z",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "knowledge_file": "knowledge/events/generated/2026-08-23-sunday-morning-services-9-30-am-service-23a343.md",
+      "chronological_rank": 26,
+      "routine_schedule_occurrence": true,
+      "retrieval_exclude_for_intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ]
+    },
+    {
+      "id": "events.live.event-87018d6b99faf099",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-08-30-sunday-morning-services-9-30-am-service-faf099.md",
+      "title": "Sunday Morning Services: 9:30 AM Service",
+      "summary": "Join us in person or online!...",
+      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
+      "priority": 20,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "general_event"
+      ],
+      "search_terms": [
+        "Sunday Morning Services: 9:30 AM Service",
+        "When is Sunday Morning Services: 9:30 AM Service?",
+        "Tell me about Sunday Morning Services: 9:30 AM Service",
+        "How do I register for Sunday Morning Services: 9:30 AM Service?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-87018d6b99faf099",
+      "event_category": "general_event",
+      "event_start": "2026-08-30T09:30:00-04:00",
+      "event_end": "2026-08-30T10:40:00-04:00",
+      "sort_start_utc": "2026-08-30T13:30:00Z",
+      "sort_end_utc": "2026-08-30T14:40:00Z",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "knowledge_file": "knowledge/events/generated/2026-08-30-sunday-morning-services-9-30-am-service-faf099.md",
+      "chronological_rank": 31,
+      "routine_schedule_occurrence": true,
+      "retrieval_exclude_for_intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ]
+    },
+    {
+      "id": "events.live.event-d27ce5ef423e5884",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-09-06-sunday-morning-services-9-30-am-service-3e5884.md",
+      "title": "Sunday Morning Services: 9:30 AM Service",
+      "summary": "Join us in person or online!...",
+      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
+      "priority": 20,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "general_event"
+      ],
+      "search_terms": [
+        "Sunday Morning Services: 9:30 AM Service",
+        "When is Sunday Morning Services: 9:30 AM Service?",
+        "Tell me about Sunday Morning Services: 9:30 AM Service",
+        "How do I register for Sunday Morning Services: 9:30 AM Service?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-d27ce5ef423e5884",
+      "event_category": "general_event",
+      "event_start": "2026-09-06T09:30:00-04:00",
+      "event_end": "2026-09-06T10:40:00-04:00",
+      "sort_start_utc": "2026-09-06T13:30:00Z",
+      "sort_end_utc": "2026-09-06T14:40:00Z",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "knowledge_file": "knowledge/events/generated/2026-09-06-sunday-morning-services-9-30-am-service-3e5884.md",
+      "chronological_rank": 38,
+      "routine_schedule_occurrence": true,
+      "retrieval_exclude_for_intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ]
+    },
+    {
+      "id": "events.live.event-a417c1725cb32add",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-09-13-sunday-morning-services-9-30-am-service-b32add.md",
+      "title": "Sunday Morning Services: 9:30 AM Service",
+      "summary": "Join us in person or online!...",
+      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
+      "priority": 20,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "general_event"
+      ],
+      "search_terms": [
+        "Sunday Morning Services: 9:30 AM Service",
+        "When is Sunday Morning Services: 9:30 AM Service?",
+        "Tell me about Sunday Morning Services: 9:30 AM Service",
+        "How do I register for Sunday Morning Services: 9:30 AM Service?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-a417c1725cb32add",
+      "event_category": "general_event",
+      "event_start": "2026-09-13T09:30:00-04:00",
+      "event_end": "2026-09-13T10:40:00-04:00",
+      "sort_start_utc": "2026-09-13T13:30:00Z",
+      "sort_end_utc": "2026-09-13T14:40:00Z",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "knowledge_file": "knowledge/events/generated/2026-09-13-sunday-morning-services-9-30-am-service-b32add.md",
+      "chronological_rank": 43,
+      "routine_schedule_occurrence": true,
+      "retrieval_exclude_for_intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ]
+    },
+    {
+      "id": "events.live.event-66c2f7334325697d",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-09-20-sunday-morning-services-9-30-am-service-25697d.md",
+      "title": "Sunday Morning Services: 9:30 AM Service",
+      "summary": "Join us in person or online!...",
+      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
+      "priority": 20,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "general_event"
+      ],
+      "search_terms": [
+        "Sunday Morning Services: 9:30 AM Service",
+        "When is Sunday Morning Services: 9:30 AM Service?",
+        "Tell me about Sunday Morning Services: 9:30 AM Service",
+        "How do I register for Sunday Morning Services: 9:30 AM Service?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-66c2f7334325697d",
+      "event_category": "general_event",
+      "event_start": "2026-09-20T09:30:00-04:00",
+      "event_end": "2026-09-20T10:40:00-04:00",
+      "sort_start_utc": "2026-09-20T13:30:00Z",
+      "sort_end_utc": "2026-09-20T14:40:00Z",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "knowledge_file": "knowledge/events/generated/2026-09-20-sunday-morning-services-9-30-am-service-25697d.md",
+      "chronological_rank": 48,
+      "routine_schedule_occurrence": true,
+      "retrieval_exclude_for_intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ]
+    },
+    {
+      "id": "events.live.event-94b57b98e1a45069",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-09-27-sunday-morning-services-9-30-am-service-a45069.md",
+      "title": "Sunday Morning Services: 9:30 AM Service",
+      "summary": "Join us in person or online!...",
+      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
+      "priority": 20,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "general_event"
+      ],
+      "search_terms": [
+        "Sunday Morning Services: 9:30 AM Service",
+        "When is Sunday Morning Services: 9:30 AM Service?",
+        "Tell me about Sunday Morning Services: 9:30 AM Service",
+        "How do I register for Sunday Morning Services: 9:30 AM Service?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-94b57b98e1a45069",
+      "event_category": "general_event",
+      "event_start": "2026-09-27T09:30:00-04:00",
+      "event_end": "2026-09-27T10:40:00-04:00",
+      "sort_start_utc": "2026-09-27T13:30:00Z",
+      "sort_end_utc": "2026-09-27T14:40:00Z",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "knowledge_file": "knowledge/events/generated/2026-09-27-sunday-morning-services-9-30-am-service-a45069.md",
+      "chronological_rank": 54,
+      "routine_schedule_occurrence": true,
+      "retrieval_exclude_for_intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ]
+    },
+    {
+      "id": "events.live.event-ecdac35f4e160a39",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-10-04-sunday-morning-services-9-30-am-service-160a39.md",
+      "title": "Sunday Morning Services: 9:30 AM Service",
+      "summary": "Join us in person or online!...",
+      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
+      "priority": 20,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "general_event"
+      ],
+      "search_terms": [
+        "Sunday Morning Services: 9:30 AM Service",
+        "When is Sunday Morning Services: 9:30 AM Service?",
+        "Tell me about Sunday Morning Services: 9:30 AM Service",
+        "How do I register for Sunday Morning Services: 9:30 AM Service?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-ecdac35f4e160a39",
+      "event_category": "general_event",
+      "event_start": "2026-10-04T09:30:00-04:00",
+      "event_end": "2026-10-04T10:40:00-04:00",
+      "sort_start_utc": "2026-10-04T13:30:00Z",
+      "sort_end_utc": "2026-10-04T14:40:00Z",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "knowledge_file": "knowledge/events/generated/2026-10-04-sunday-morning-services-9-30-am-service-160a39.md",
+      "chronological_rank": 60,
+      "routine_schedule_occurrence": true,
+      "retrieval_exclude_for_intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ]
+    },
+    {
+      "id": "events.live.event-367906f93e0b689c",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-10-11-sunday-morning-services-9-30-am-service-0b689c.md",
+      "title": "Sunday Morning Services: 9:30 AM Service",
+      "summary": "Join us in person or online!...",
+      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
+      "priority": 20,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "general_event"
+      ],
+      "search_terms": [
+        "Sunday Morning Services: 9:30 AM Service",
+        "When is Sunday Morning Services: 9:30 AM Service?",
+        "Tell me about Sunday Morning Services: 9:30 AM Service",
+        "How do I register for Sunday Morning Services: 9:30 AM Service?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-367906f93e0b689c",
+      "event_category": "general_event",
+      "event_start": "2026-10-11T09:30:00-04:00",
+      "event_end": "2026-10-11T10:40:00-04:00",
+      "sort_start_utc": "2026-10-11T13:30:00Z",
+      "sort_end_utc": "2026-10-11T14:40:00Z",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "knowledge_file": "knowledge/events/generated/2026-10-11-sunday-morning-services-9-30-am-service-0b689c.md",
+      "chronological_rank": 66,
+      "routine_schedule_occurrence": true,
+      "retrieval_exclude_for_intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ]
     },
     {
       "id": "small_groups.live.group-9ff7dccadeabdca5",

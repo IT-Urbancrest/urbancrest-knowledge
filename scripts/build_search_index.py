@@ -22,6 +22,7 @@ SKIP_YAML = {
     "registry/staff.yaml",
     "registry/staff-routing.yaml",
     "registry/action-links.yaml",
+    "registry/schedule.yaml",
     "relationships/ministry-staff.yaml",
 }
 
@@ -159,9 +160,68 @@ def markdown_records() -> list[dict[str, Any]]:
                 open_role=metadata.get("open_role"),
                 review_trigger=metadata.get("review_trigger"),
                 answer_guidance=metadata.get("answer_guidance"),
+                confidence=metadata.get("confidence"),
+                authoritative=metadata.get("authoritative"),
+                authoritative_for=as_list(metadata.get("authoritative_for")),
             )
         )
     return records
+
+
+
+def schedule_records() -> list[dict[str, Any]]:
+    path = ROOT / "registry/schedule.yaml"
+    data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    weekly = data.get("schedule", {}).get("weekly", {})
+    sunday_times = weekly.get("sunday", {}).get("worship", [])
+    wednesday = weekly.get("wednesday", {})
+
+    content_lines = [
+        "Regular weekly schedule:",
+        "Sunday worship: " + ", ".join(str(value) for value in sunday_times),
+    ]
+
+    for key, item in wednesday.items():
+        if not isinstance(item, dict):
+            continue
+        label = key.replace("_", " ").title()
+        time = str(item.get("time") or "")
+        location = str(item.get("location") or "")
+        line = f"Wednesday {label}: {time}"
+        if location:
+            line += f" at {location}"
+        content_lines.append(line)
+
+    return [
+        record_base(
+            record_id="schedule.weekly",
+            record_type="schedule",
+            path="registry/schedule.yaml",
+            title="Urbancrest Weekly Service Schedule",
+            summary="Sunday worship services are at 9:30 AM and 11:00 AM.",
+            content="\n".join(content_lines),
+            priority=int(data.get("priority") or 120),
+            category=["schedule", "about"],
+            intents=["service_times", "sunday_service_times", "weekly_schedule", "visit"],
+            tags=["service times", "Sunday services", "Sunday worship", "weekly schedule"],
+            search_terms=[
+                "What time are Sunday services?",
+                "What are your Sunday service times?",
+                "When are Sunday services?",
+                "What time does church start?",
+                "What time is church?",
+                "When does Urbancrest meet?",
+                "Sunday worship times",
+                "Sunday service times",
+            ],
+            authoritative=bool(data.get("authoritative", True)),
+            authoritative_for=as_list(data.get("source_of_truth_for")),
+            confidence="high",
+            answer_guidance=data.get("answer_guidance"),
+            sunday_service_times=as_list(sunday_times),
+            timezone=data.get("timezone", "America/New_York"),
+        )
+    ]
 
 
 def event_records() -> list[dict[str, Any]]:
@@ -172,6 +232,15 @@ def event_records() -> list[dict[str, Any]]:
         event_id = str(event.get("id") or "")
         title = str(event.get("title") or "Untitled Event")
         description = str(event.get("description") or "")
+        normalized_title = title.casefold()
+        routine_service_occurrence = (
+            "sunday morning services" in normalized_title
+            or "sunday worship service" in normalized_title
+        )
+        event_priority = int(event.get("event_priority") or 50)
+        if routine_service_occurrence:
+            event_priority = min(event_priority, 20)
+
         records.append(
             record_base(
                 record_id=f"events.live.{event_id}",
@@ -180,7 +249,7 @@ def event_records() -> list[dict[str, Any]]:
                 title=title,
                 summary=str(event.get("summary") or ""),
                 content=description,
-                priority=int(event.get("event_priority") or 50),
+                priority=event_priority,
                 category=["events", str(event.get("event_category") or "general_event")],
                 intents=["event_details", "upcoming_events", "calendar", "next_ministry_event"],
                 tags=["event", "calendar", "upcoming", str(event.get("event_category") or "general_event")],
@@ -199,6 +268,12 @@ def event_records() -> list[dict[str, Any]]:
                 image_url=event.get("image_url"),
                 knowledge_file=event.get("knowledge_file"),
                 chronological_rank=event.get("chronological_rank"),
+                routine_schedule_occurrence=routine_service_occurrence,
+                retrieval_exclude_for_intents=(
+                    ["service_times", "sunday_service_times", "weekly_schedule"]
+                    if routine_service_occurrence
+                    else []
+                ),
             )
         )
     return records
@@ -417,6 +492,7 @@ def generic_yaml_records() -> list[dict[str, Any]]:
 def main() -> None:
     records = []
     records.extend(markdown_records())
+    records.extend(schedule_records())
     records.extend(event_records())
     records.extend(group_records())
     records.extend(staff_records())

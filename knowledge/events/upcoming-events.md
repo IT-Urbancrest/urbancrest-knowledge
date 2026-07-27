@@ -1,6 +1,6 @@
 ---
 id: events.upcoming.live
-version: 1.4.1
+version: 1.4
 status: published
 priority: 100
 title: Upcoming Events
@@ -16,7 +16,7 @@ tags: [events, calendar, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-07-27T17:22:38.865646Z
+last_generated: 2026-07-27T15:29:17.168565Z
 ---
 
 # Upcoming Events

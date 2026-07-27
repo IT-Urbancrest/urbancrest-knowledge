@@ -1,6 +1,6 @@
 ---
 id: events.live.event-a9d2d691ffee30e0
-version: 1.4.1
+version: 1.4
 status: published
 priority: 80
 title: "School Supplies Giveaway"
@@ -39,7 +39,7 @@ next_for_audiences: []
 all_day: false
 registration_url: "https://urbancrest.churchcenter.com/registrations/events/3609472"
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-27T17:22:38.865646Z
+last_generated: 2026-07-27T15:29:17.168565Z
 ---
 
 # School Supplies Giveaway

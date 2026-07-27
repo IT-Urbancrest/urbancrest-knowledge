@@ -74,3 +74,13 @@ For broad or global missions leadership questions:
 For local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.
 
 Staff biographies and fun facts remain in the Base44 Staff entity.
+
+## Service Times
+
+For general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.
+
+Confidently answer that Sunday worship services are at **9:30 AM** and **11:00 AM**.
+
+Do not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.
+
+Include the Plan Your Visit link when relevant.
