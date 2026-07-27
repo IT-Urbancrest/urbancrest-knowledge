@@ -39,13 +39,17 @@ jobs:
 
       - name: Commit updated event data
         run: |
-          if git diff --quiet -- registry/events-live.yaml knowledge/events/upcoming-events.md; then
+          git config user.name "urbancrest-events-bot"
+          git config user.email "actions@users.noreply.github.com"
+
+          git add registry/events-live.yaml
+          git add knowledge/events/upcoming-events.md
+          git add knowledge/events/generated
+
+          if git diff --cached --quiet; then
             echo "No event changes detected."
             exit 0
           fi
 
-          git config user.name "urbancrest-events-bot"
-          git config user.email "actions@users.noreply.github.com"
-          git add registry/events-live.yaml knowledge/events/upcoming-events.md
           git commit -m "chore: sync live events"
           git push
