@@ -1,16 +1,17 @@
 ---
 id: events.live.event-751f744e0c4728eb
-version: 1.3
+version: 1.4
 status: published
-priority: 90
+priority: 80
 title: "Block Party – KOA Campground"
 summary: "All are invited and welcome to attend a FREE Block Party at KOA Campground on Saturday morning, August 1 at 10:00 AM!..."
 category: [events]
+event_category: "ministry_event"
 intent:
   primary: event_details
   secondary: [upcoming_events, calendar, schedule, registration, next_ministry_event]
-audience: [children, families, volunteers]
-ministries: [kids]
+audience: ["children", "families", "volunteers"]
+ministries: ["kids"]
 answer_style: helpful
 confidence: high
 owner:
@@ -18,7 +19,7 @@ owner:
 review:
   doctrinal: not_required
   factual: automated
-tags: [event, calendar, upcoming, kids, children, families, volunteers]
+tags: ["event", "calendar", "upcoming", "ministry_event", "kids", "children", "families", "volunteers"]
 search_terms:
   - "Block Party – KOA Campground"
   - "When is Block Party – KOA Campground?"
@@ -32,13 +33,13 @@ event_start: "2026-08-01T10:00:00-04:00"
 event_end: "2026-08-01T11:30:00-04:00"
 sort_start_utc: "2026-08-01T14:00:00Z"
 sort_end_utc: "2026-08-01T15:30:00Z"
-chronological_rank: 6
+chronological_rank: 4
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
 registration_url: "https://urbancrest.churchcenter.com/registrations/events/3606310"
 location: "KOA Campground - 760 Franklin Rd\nLebanon, OH 45036"
-last_generated: 2026-07-27T15:14:40.102584Z
+last_generated: 2026-07-27T15:22:04.775884Z
 ---
 
 # Block Party – KOA Campground

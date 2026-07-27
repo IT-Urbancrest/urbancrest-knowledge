@@ -1,16 +1,17 @@
 ---
 id: events.live.event-a9d2d691ffee30e0
-version: 1.3
+version: 1.4
 status: published
-priority: 90
+priority: 80
 title: "School Supplies Giveaway"
 summary: "We are giving away school supplies to help students in our community have what they need to succeed this school year!..."
 category: [events]
+event_category: "ministry_event"
 intent:
   primary: event_details
   secondary: [upcoming_events, calendar, schedule, registration, next_ministry_event]
-audience: [students, volunteers]
-ministries: [students]
+audience: ["students", "volunteers"]
+ministries: ["students"]
 answer_style: helpful
 confidence: high
 owner:
@@ -18,7 +19,7 @@ owner:
 review:
   doctrinal: not_required
   factual: automated
-tags: [event, calendar, upcoming, students, volunteers]
+tags: ["event", "calendar", "upcoming", "ministry_event", "students", "volunteers"]
 search_terms:
   - "School Supplies Giveaway"
   - "When is School Supplies Giveaway?"
@@ -32,13 +33,13 @@ event_start: "2026-08-08T10:00:00-04:00"
 event_end: "2026-08-08T12:00:00-04:00"
 sort_start_utc: "2026-08-08T14:00:00Z"
 sort_end_utc: "2026-08-08T16:00:00Z"
-chronological_rank: 17
+chronological_rank: 11
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
 registration_url: "https://urbancrest.churchcenter.com/registrations/events/3609472"
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-27T15:14:40.102584Z
+last_generated: 2026-07-27T15:22:04.775884Z
 ---
 
 # School Supplies Giveaway

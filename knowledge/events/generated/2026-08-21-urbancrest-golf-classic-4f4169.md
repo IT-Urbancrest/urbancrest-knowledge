@@ -1,16 +1,17 @@
 ---
 id: events.live.event-6d5b8302174f4169
-version: 1.3
+version: 1.4
 status: published
-priority: 90
+priority: 100
 title: "Urbancrest Golf Classic"
 summary: "*********************************************************\nPlease join us for Urbancrest's 28th Annual Golf Classic!..."
 category: [events]
+event_category: "major_event"
 intent:
   primary: event_details
   secondary: [upcoming_events, calendar, schedule, registration, next_ministry_event]
-audience: [children]
-ministries: [kids, sports]
+audience: ["children"]
+ministries: ["kids", "sports"]
 answer_style: helpful
 confidence: high
 owner:
@@ -18,7 +19,7 @@ owner:
 review:
   doctrinal: not_required
   factual: automated
-tags: [event, calendar, upcoming, kids, sports, children]
+tags: ["event", "calendar", "upcoming", "major_event", "kids", "sports", "children"]
 search_terms:
   - "Urbancrest Golf Classic"
   - "When is Urbancrest Golf Classic?"
@@ -32,13 +33,13 @@ event_start: "2026-08-21T08:30:00-04:00"
 event_end: "2026-08-21T16:00:00-04:00"
 sort_start_utc: "2026-08-21T12:30:00Z"
 sort_end_utc: "2026-08-21T20:00:00Z"
-chronological_rank: 35
-next_for_ministries: [sports]
+chronological_rank: 24
+next_for_ministries: ["sports"]
 next_for_audiences: []
 all_day: false
 info_url: "http://classic.urbancrest.org"
 location: "Heatherwoode Golf Club - 88 Heatherwoode Blvd\nSpringboro, OH 45066"
-last_generated: 2026-07-27T15:14:40.102584Z
+last_generated: 2026-07-27T15:22:04.775884Z
 ---
 
 # Urbancrest Golf Classic

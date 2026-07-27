@@ -1,16 +1,17 @@
 ---
 id: events.live.event-7ee865b43d7202ff
-version: 1.3
+version: 1.4
 status: published
-priority: 90
+priority: 50
 title: "Card Ministry"
 summary: "Rai Lynn Guidone"
 category: [events]
+event_category: "general_event"
 intent:
   primary: event_details
   secondary: [upcoming_events, calendar, schedule, registration, next_ministry_event]
-audience: [everyone]
-ministries: [churchwide]
+audience: ["everyone"]
+ministries: ["churchwide"]
 answer_style: helpful
 confidence: high
 owner:
@@ -18,7 +19,7 @@ owner:
 review:
   doctrinal: not_required
   factual: automated
-tags: [event, calendar, upcoming, churchwide, everyone]
+tags: ["event", "calendar", "upcoming", "general_event", "churchwide", "everyone"]
 search_terms:
   - "Card Ministry"
   - "When is Card Ministry?"
@@ -32,11 +33,11 @@ event_start: "2026-09-01T09:00:00-04:00"
 event_end: "2026-09-01T12:00:00-04:00"
 sort_start_utc: "2026-09-01T13:00:00Z"
 sort_end_utc: "2026-09-01T16:00:00Z"
-chronological_rank: 50
+chronological_rank: 33
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
-last_generated: 2026-07-27T15:14:40.102584Z
+last_generated: 2026-07-27T15:22:04.775884Z
 ---
 
 # Card Ministry

@@ -1,16 +1,17 @@
 ---
 id: events.live.event-268e3c6a6137ba8f
-version: 1.3
+version: 1.4
 status: published
-priority: 90
+priority: 80
 title: "Youth Back to School Bash"
 summary: "All students in grades 7-12 are invited to attend the Youth Back to School Bash on Wednesday, August 12!..."
 category: [events]
+event_category: "ministry_event"
 intent:
   primary: event_details
   secondary: [upcoming_events, calendar, schedule, registration, next_ministry_event]
-audience: [students]
-ministries: [students]
+audience: ["students"]
+ministries: ["students"]
 answer_style: helpful
 confidence: high
 owner:
@@ -18,7 +19,7 @@ owner:
 review:
   doctrinal: not_required
   factual: automated
-tags: [event, calendar, upcoming, students]
+tags: ["event", "calendar", "upcoming", "ministry_event", "students"]
 search_terms:
   - "Youth Back to School Bash"
   - "When is Youth Back to School Bash?"
@@ -32,12 +33,12 @@ event_start: "2026-08-12T17:00:00-04:00"
 event_end: "2026-08-12T20:00:00-04:00"
 sort_start_utc: "2026-08-12T21:00:00Z"
 sort_end_utc: "2026-08-13T00:00:00Z"
-chronological_rank: 23
+chronological_rank: 16
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-27T15:14:40.102584Z
+last_generated: 2026-07-27T15:22:04.775884Z
 ---
 
 # Youth Back to School Bash
