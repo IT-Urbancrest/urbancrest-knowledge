@@ -16,6 +16,7 @@ uid_overrides: {}
 #   ministries
 #   audiences
 #   location
+#   series_key         # forces Small Group occurrences into the same series
 #
 # Example:
 #
@@ -28,3 +29,17 @@ uid_overrides: {}
 #     audiences: [women]
 
 title_rules: []
+
+# Small Group grouping examples:
+#
+# Merge occurrences even when the location changes:
+#
+#   - title_equals: "Young Families Small Group"
+#     collection: small_groups
+#     series_key: "young-families-small-group"
+#
+# Keep two groups separate when they share the same title and location:
+#
+#   - title_regex: "^Men's Small Group - Tuesday$"
+#     collection: small_groups
+#     series_key: "mens-small-group-tuesday"

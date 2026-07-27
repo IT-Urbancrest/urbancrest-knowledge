@@ -139,8 +139,35 @@ def stable_event_id(uid: str, recurrence_id: str, start: datetime) -> str:
     return stable_id("event", f"{uid}|{recurrence_id}|{start.isoformat()}")
 
 
-def stable_series_id(uid: str, title: str, location: str) -> str:
-    source = uid or f"{normalize_for_matching(title)}|{normalize_for_matching(location)}"
+def normalize_group_series_text(value: str) -> str:
+    """Normalize a group title or location for recurring-series matching."""
+    normalized = normalize_for_matching(clean_text(value))
+    normalized = re.sub(r"\\s+", " ", normalized).strip()
+    return normalized
+
+
+def stable_series_id(
+    title: str,
+    location: str,
+    series_key: str | None = None,
+) -> str:
+    """
+    Build a recurring Small Group series ID.
+
+    Planning Center may assign a different iCal UID to every occurrence, so UID
+    is intentionally not part of the automatic grouping key. By default, group
+    occurrences are consolidated by normalized title and normalized location.
+
+    A manual series_key override may be used when two distinct groups share the
+    same title and location, or when one group's location changes.
+    """
+    if series_key:
+        source = f"override|{normalize_group_series_text(series_key)}"
+    else:
+        normalized_title = normalize_group_series_text(title)
+        normalized_location = normalize_group_series_text(location)
+        source = f"title|{normalized_title}|location|{normalized_location}"
+
     return stable_id("group", source)
 
 
@@ -298,6 +325,8 @@ def apply_override(event: dict[str, object], overrides: dict) -> None:
         event["audiences"] = list(merged["audiences"])
     if "location" in merged:
         event["location"] = str(merged["location"])
+    if "series_key" in merged:
+        event["series_key"] = str(merged["series_key"])
 
 
 def format_day(dt: datetime) -> str:
@@ -426,7 +455,7 @@ def write_event_article(event: dict[str, object], generated_at: str) -> str:
     lines = [
         "---",
         f"id: events.live.{event['id']}",
-        "version: 1.4",
+        "version: 1.4.1",
         "status: published",
         f"priority: {event['event_priority']}",
         f"title: {yaml_quote(title)}",
@@ -508,9 +537,13 @@ def collapse_small_groups(
 
     for occurrence in occurrences:
         series_id = stable_series_id(
-            str(occurrence["uid"]),
-            str(occurrence["title"]),
-            str(occurrence.get("location") or ""),
+            title=str(occurrence["title"]),
+            location=str(occurrence.get("location") or ""),
+            series_key=(
+                str(occurrence["series_key"])
+                if occurrence.get("series_key")
+                else None
+            ),
         )
         grouped[series_id].append(occurrence)
 
@@ -533,9 +566,11 @@ def collapse_small_groups(
             for meeting in limited
         ]
 
+        source_uids = list(dict.fromkeys(str(meeting["uid"]) for meeting in meetings))
+
         groups.append({
             "id": series_id,
-            "uid": first["uid"],
+            "source_uids": source_uids,
             "title": first["title"],
             "summary": first["summary"],
             "description": first.get("description"),
@@ -572,7 +607,7 @@ def write_group_article(group: dict[str, object], generated_at: str) -> str:
     lines = [
         "---",
         f"id: small_groups.live.{group['id']}",
-        "version: 1.4",
+        "version: 1.4.1",
         "status: published",
         f"priority: {group['event_priority']}",
         f"title: {yaml_quote(title)}",
@@ -639,7 +674,7 @@ def write_event_index(events: list[dict[str, object]], generated_at: str) -> Non
     lines = [
         "---",
         "id: events.upcoming.live",
-        "version: 1.4",
+        "version: 1.4.1",
         "status: published",
         "priority: 100",
         "title: Upcoming Events",
@@ -693,7 +728,7 @@ def write_group_index(groups: list[dict[str, object]], generated_at: str) -> Non
     lines = [
         "---",
         "id: small_groups.upcoming.live",
-        "version: 1.4",
+        "version: 1.4.1",
         "status: published",
         "priority: 70",
         "title: Upcoming Small Groups",
@@ -752,7 +787,7 @@ def main() -> int:
     response = requests.get(
         feed_url,
         timeout=30,
-        headers={"User-Agent": "Urbancrest-Knowledge-Event-Sync/1.4"},
+        headers={"User-Agent": "Urbancrest-Knowledge-Event-Sync/1.4.1"},
     )
     response.raise_for_status()
 
@@ -858,7 +893,7 @@ def main() -> int:
         group["knowledge_file"] = write_group_article(group, generated_at)
 
     event_registry = {
-        "version": "1.4",
+        "version": "1.4.1",
         "generated_at": generated_at,
         "timezone": TIMEZONE_NAME,
         "source": "planning_center_ical",
@@ -884,7 +919,7 @@ def main() -> int:
     }
 
     group_registry = {
-        "version": "1.4",
+        "version": "1.4.1",
         "generated_at": generated_at,
         "timezone": TIMEZONE_NAME,
         "source": "planning_center_ical",
@@ -923,9 +958,11 @@ def main() -> int:
         f"Wrote {len(main_events)} main events "
         f"from {len(main_candidates)} main-event candidates."
     )
+    duplicate_occurrence_count = len(small_group_occurrences) - len(small_groups)
     print(
         f"Collapsed {len(small_group_occurrences)} Small Group occurrences "
-        f"into {len(small_groups)} Small Group series."
+        f"into {len(small_groups)} Small Group series "
+        f"({duplicate_occurrence_count} recurring occurrences consolidated)."
     )
     print("Main calendar sort order: sort_start_utc ascending.")
     return 0
