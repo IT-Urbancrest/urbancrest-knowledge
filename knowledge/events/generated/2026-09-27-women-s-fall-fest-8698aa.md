@@ -1,6 +1,6 @@
 ---
 id: events.live.event-6b34cb8d668698aa
-version: 1.4
+version: 1.4.1
 status: published
 priority: 80
 title: "Women's Fall Fest"
@@ -38,7 +38,7 @@ next_for_ministries: ["women"]
 next_for_audiences: ["women"]
 all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-27T15:29:17.168565Z
+last_generated: 2026-07-27T17:11:57.091750Z
 ---
 
 # Women's Fall Fest

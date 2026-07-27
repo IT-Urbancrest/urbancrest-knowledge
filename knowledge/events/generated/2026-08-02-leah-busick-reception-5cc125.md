@@ -1,6 +1,6 @@
 ---
 id: events.live.event-208ae73f105cc125
-version: 1.4
+version: 1.4.1
 status: published
 priority: 50
 title: "Leah Busick Reception"
@@ -37,7 +37,7 @@ chronological_rank: 8
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
-last_generated: 2026-07-27T15:29:17.168565Z
+last_generated: 2026-07-27T17:11:57.091750Z
 ---
 
 # Leah Busick Reception
