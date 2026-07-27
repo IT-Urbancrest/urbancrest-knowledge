@@ -1,6 +1,6 @@
 ---
 id: events.live.event-751f744e0c4728eb
-version: 1.4
+version: 1.4.1
 status: published
 priority: 80
 title: "Block Party – KOA Campground"
@@ -39,7 +39,7 @@ next_for_audiences: []
 all_day: false
 registration_url: "https://urbancrest.churchcenter.com/registrations/events/3606310"
 location: "KOA Campground - 760 Franklin Rd\nLebanon, OH 45036"
-last_generated: 2026-07-27T15:29:17.168565Z
+last_generated: 2026-07-27T15:37:20.817603Z
 ---
 
 # Block Party – KOA Campground
