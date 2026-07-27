@@ -28,3 +28,13 @@ Helping people know Jesus, grow in faith, and live on mission together.
 5. Never present a confession of faith as equal to Scripture.
 6. Use the term Small Groups, not Grow Groups.
 7. Do not use em dashes.
+
+## Runtime Retrieval
+
+- `runtime/search-index.json` is the compiled retrieval file used by the website AI.
+- `scripts/build_search_index.py` creates the index from public knowledge, registries, relationships, and intents.
+- `registry/staff-routing.yaml` maps questions and ministries to exact Base44 staff keys.
+- `registry/action-links.yaml` provides approved response links.
+- Staff biographies, fun facts, photos, contact details, active status, and display order remain in Base44 Staff.
+- Approved Base44 KnowledgeEntry records supplement the GitHub index at runtime.
+- SearchQueryLog and UnansweredQuestion remain operational Base44 data and are never indexed as public knowledge.

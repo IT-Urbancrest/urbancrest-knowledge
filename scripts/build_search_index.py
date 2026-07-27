@@ -1,0 +1,406 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+
+import json
+import re
+from datetime import datetime, timezone
+from pathlib import Path
+from typing import Any
+
+import yaml
+
+ROOT = Path(__file__).resolve().parents[1]
+OUTPUT = ROOT / "runtime" / "search-index.json"
+
+SKIP_MARKDOWN = {
+    "knowledge/events/upcoming-events.md",
+    "knowledge/small-groups/upcoming-small-groups.md",
+}
+SKIP_YAML = {
+    "registry/events-live.yaml",
+    "registry/small-groups-live.yaml",
+    "registry/staff.yaml",
+    "registry/staff-routing.yaml",
+    "registry/action-links.yaml",
+    "relationships/ministry-staff.yaml",
+}
+
+
+def as_list(value: Any) -> list[str]:
+    if value is None:
+        return []
+    if isinstance(value, list):
+        return [str(item) for item in value if item is not None]
+    if isinstance(value, dict):
+        return [str(key) for key in value.keys()]
+    return [str(value)]
+
+
+def unique(values: list[str]) -> list[str]:
+    seen: set[str] = set()
+    result: list[str] = []
+    for value in values:
+        cleaned = str(value).strip()
+        if cleaned and cleaned.casefold() not in seen:
+            seen.add(cleaned.casefold())
+            result.append(cleaned)
+    return result
+
+
+def flatten_text(value: Any) -> str:
+    if value is None:
+        return ""
+    if isinstance(value, dict):
+        return "\n".join(f"{key}: {flatten_text(item)}" for key, item in value.items())
+    if isinstance(value, list):
+        return "\n".join(flatten_text(item) for item in value)
+    return str(value)
+
+
+def truncate(value: str, limit: int = 2400) -> str:
+    value = value.strip()
+    return value if len(value) <= limit else value[: limit - 3].rstrip() + "..."
+
+
+def parse_markdown(path: Path) -> tuple[dict[str, Any], str]:
+    text = path.read_text(encoding="utf-8")
+    if not text.startswith("---\n"):
+        return {}, text.strip()
+    parts = text.split("---\n", 2)
+    if len(parts) < 3:
+        return {}, text.strip()
+    metadata = yaml.safe_load(parts[1]) or {}
+    return metadata if isinstance(metadata, dict) else {}, parts[2].strip()
+
+
+def intent_values(metadata: dict[str, Any]) -> list[str]:
+    intent = metadata.get("intent")
+    if isinstance(intent, dict):
+        return unique(as_list(intent.get("primary")) + as_list(intent.get("secondary")))
+    return unique(as_list(intent))
+
+
+def record_base(
+    *,
+    record_id: str,
+    record_type: str,
+    path: str,
+    title: str,
+    summary: str = "",
+    content: str = "",
+    priority: int = 50,
+    category: list[str] | None = None,
+    intents: list[str] | None = None,
+    tags: list[str] | None = None,
+    search_terms: list[str] | None = None,
+    ministries: list[str] | None = None,
+    audiences: list[str] | None = None,
+    resources: list[str] | None = None,
+    **extra: Any,
+) -> dict[str, Any]:
+    record = {
+        "id": record_id,
+        "record_type": record_type,
+        "path": path,
+        "title": title,
+        "summary": summary,
+        "content": truncate(content),
+        "priority": int(priority or 0),
+        "category": unique(category or []),
+        "intents": unique(intents or []),
+        "tags": unique(tags or []),
+        "search_terms": unique(search_terms or []),
+        "ministries": unique(ministries or []),
+        "audiences": unique(audiences or []),
+        "resources": unique(resources or []),
+    }
+    for key, value in extra.items():
+        if value is not None and value != [] and value != "":
+            record[key] = value
+    return record
+
+
+def markdown_records() -> list[dict[str, Any]]:
+    records: list[dict[str, Any]] = []
+    for path in sorted((ROOT / "knowledge").rglob("*.md")):
+        relative = path.relative_to(ROOT).as_posix()
+        if relative in SKIP_MARKDOWN:
+            continue
+        if relative.startswith("knowledge/events/generated/"):
+            continue
+        if relative.startswith("knowledge/small-groups/generated/"):
+            continue
+        metadata, body = parse_markdown(path)
+        status = str(metadata.get("status", "published"))
+        if status not in {"published", "active"}:
+            continue
+        title = str(metadata.get("title") or path.stem.replace("-", " ").title())
+        records.append(
+            record_base(
+                record_id=str(metadata.get("id") or relative),
+                record_type="knowledge",
+                path=relative,
+                title=title,
+                summary=str(metadata.get("summary") or ""),
+                content=body,
+                priority=int(metadata.get("priority") or 50),
+                category=as_list(metadata.get("category")),
+                intents=intent_values(metadata),
+                tags=as_list(metadata.get("tags")),
+                search_terms=as_list(metadata.get("search_terms")),
+                ministries=as_list(metadata.get("ministries")),
+                audiences=as_list(metadata.get("audience")),
+                resources=as_list(metadata.get("resources")),
+                status=status,
+            )
+        )
+    return records
+
+
+def event_records() -> list[dict[str, Any]]:
+    path = ROOT / "registry/events-live.yaml"
+    data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    records: list[dict[str, Any]] = []
+    for event in data.get("events", []):
+        event_id = str(event.get("id") or "")
+        title = str(event.get("title") or "Untitled Event")
+        description = str(event.get("description") or "")
+        records.append(
+            record_base(
+                record_id=f"events.live.{event_id}",
+                record_type="event",
+                path=str(event.get("knowledge_file") or "registry/events-live.yaml"),
+                title=title,
+                summary=str(event.get("summary") or ""),
+                content=description,
+                priority=int(event.get("event_priority") or 50),
+                category=["events", str(event.get("event_category") or "general_event")],
+                intents=["event_details", "upcoming_events", "calendar", "next_ministry_event"],
+                tags=["event", "calendar", "upcoming", str(event.get("event_category") or "general_event")],
+                search_terms=[title, f"When is {title}?", f"Tell me about {title}", f"How do I register for {title}?"],
+                ministries=as_list(event.get("ministries")),
+                audiences=as_list(event.get("audiences")),
+                event_id=event_id,
+                event_category=event.get("event_category"),
+                event_start=event.get("start"),
+                event_end=event.get("end"),
+                sort_start_utc=event.get("sort_start_utc"),
+                sort_end_utc=event.get("sort_end_utc"),
+                location=event.get("location"),
+                registration_url=event.get("registration_url"),
+                info_url=event.get("info_url"),
+                image_url=event.get("image_url"),
+                knowledge_file=event.get("knowledge_file"),
+                chronological_rank=event.get("chronological_rank"),
+            )
+        )
+    return records
+
+
+def group_records() -> list[dict[str, Any]]:
+    path = ROOT / "registry/small-groups-live.yaml"
+    data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    records: list[dict[str, Any]] = []
+    for group in data.get("groups", []):
+        group_id = str(group.get("id") or "")
+        title = str(group.get("title") or "Untitled Small Group")
+        meetings = group.get("future_meetings") or []
+        schedule_lines = [str(item.get("display_when") or item.get("start") or "") for item in meetings if isinstance(item, dict)]
+        content = "\n".join(filter(None, [str(group.get("description") or ""), "Upcoming meetings:", *schedule_lines]))
+        next_meeting = group.get("next_meeting") or {}
+        records.append(
+            record_base(
+                record_id=f"small_groups.live.{group_id}",
+                record_type="small_group",
+                path=str(group.get("knowledge_file") or "registry/small-groups-live.yaml"),
+                title=title,
+                summary=str(group.get("summary") or ""),
+                content=content,
+                priority=int(group.get("event_priority") or 20),
+                category=["small_groups"],
+                intents=["small_groups", "small_group_details", "next_small_group_meeting", "group_schedule"],
+                tags=["small_group", "groups", "calendar", "recurring"],
+                search_terms=[title, f"When does {title} meet?", f"Tell me about {title}"],
+                ministries=as_list(group.get("ministries")),
+                audiences=as_list(group.get("audiences")),
+                group_id=group_id,
+                next_meeting=next_meeting,
+                future_meetings=meetings,
+                sort_start_utc=next_meeting.get("sort_start_utc") if isinstance(next_meeting, dict) else None,
+                sort_end_utc=next_meeting.get("sort_end_utc") if isinstance(next_meeting, dict) else None,
+                location=group.get("location"),
+                registration_url=group.get("registration_url"),
+                info_url=group.get("info_url"),
+                knowledge_file=group.get("knowledge_file"),
+            )
+        )
+    return records
+
+
+def staff_records() -> list[dict[str, Any]]:
+    staff_data = yaml.safe_load((ROOT / "registry/staff.yaml").read_text(encoding="utf-8")) or {}
+    route_data = yaml.safe_load((ROOT / "registry/staff-routing.yaml").read_text(encoding="utf-8")) or {}
+    directory = staff_data.get("staff", {})
+    routing = route_data.get("routing", {})
+    records: list[dict[str, Any]] = []
+    for key, person in directory.items():
+        route = routing.get(key, {})
+        name = str(person.get("name") or key)
+        role = str(person.get("role") or "Staff")
+        aliases = as_list(route.get("aliases"))
+        topics = as_list(route.get("topics"))
+        ministries = as_list(route.get("ministries"))
+        records.append(
+            record_base(
+                record_id=f"staff.{key}",
+                record_type="staff_route",
+                path="registry/staff-routing.yaml",
+                title=name,
+                summary=f"{name} serves as {role}. Full biography and fun facts are loaded from Base44 Staff when relevant.",
+                content=f"Display name: {person.get('display_name', name)}\nRole: {role}\nMinistries: {', '.join(ministries)}\nTopics: {', '.join(topics)}",
+                priority=90,
+                category=["staff"],
+                intents=["staff", "staff_details", "staff_routing", "ministry_contact"],
+                tags=["staff", role, *ministries],
+                search_terms=[name, str(person.get("display_name") or ""), role, *aliases, *topics],
+                ministries=ministries,
+                staff_key=key,
+                display_name=person.get("display_name"),
+                role=role,
+                pastoral_staff=person.get("pastoral_staff", False),
+                show_card=route.get("show_card", True),
+                profile_source="base44.Staff",
+            )
+        )
+    return records
+
+
+def action_link_records() -> list[dict[str, Any]]:
+    data = yaml.safe_load((ROOT / "registry/action-links.yaml").read_text(encoding="utf-8")) or {}
+    records: list[dict[str, Any]] = []
+    for key, link in data.get("links", {}).items():
+        label = str(link.get("label") or key)
+        intents = as_list(link.get("intents"))
+        records.append(
+            record_base(
+                record_id=f"action_link.{key}",
+                record_type="action_link",
+                path="registry/action-links.yaml",
+                title=label,
+                summary=f"Approved Urbancrest action link for {', '.join(intents)}.",
+                content=f"Label: {label}\nURL: {link.get('url', '')}\nIntents: {', '.join(intents)}",
+                priority=int(link.get("priority") or 50),
+                category=["action_link"],
+                intents=intents,
+                tags=["action", "link", *intents],
+                search_terms=[label, *intents],
+                action_key=key,
+                url=link.get("url"),
+                external=link.get("external", False),
+                church_center_modal=link.get("church_center_modal", False),
+            )
+        )
+    return records
+
+
+def relationship_records() -> list[dict[str, Any]]:
+    data = yaml.safe_load((ROOT / "relationships/ministry-staff.yaml").read_text(encoding="utf-8")) or {}
+    records: list[dict[str, Any]] = []
+    for relationship in data.get("relationships", []):
+        ministry = str(relationship.get("ministry") or "")
+        primary = str(relationship.get("primary_staff_key") or "")
+        related = as_list(relationship.get("related_staff_keys"))
+        records.append(
+            record_base(
+                record_id=f"relationship.ministry_staff.{ministry}",
+                record_type="relationship",
+                path="relationships/ministry-staff.yaml",
+                title=f"{ministry.replace('_', ' ').title()} staff relationship",
+                summary=f"Primary staff key for {ministry.replace('_', ' ')} is {primary}.",
+                content=f"Ministry: {ministry}\nPrimary staff key: {primary}\nRelated staff keys: {', '.join(related)}",
+                priority=85,
+                category=["relationship", "staff"],
+                intents=["ministry_contact", "staff_routing"],
+                tags=[ministry, "staff", "ministry"],
+                search_terms=[ministry.replace("_", " "), f"who oversees {ministry.replace('_', ' ')}"],
+                ministries=[ministry],
+                staff_key=primary,
+                related_staff_keys=related,
+            )
+        )
+    return records
+
+
+def generic_yaml_records() -> list[dict[str, Any]]:
+    records: list[dict[str, Any]] = []
+    for root_name in ("registry", "relationships", "intents"):
+        for path in sorted((ROOT / root_name).glob("*.yaml")):
+            relative = path.relative_to(ROOT).as_posix()
+            if relative in SKIP_YAML:
+                continue
+            data = yaml.safe_load(path.read_text(encoding="utf-8"))
+            if data is None:
+                continue
+            title = path.stem.replace("-", " ").replace("_", " ").title()
+            records.append(
+                record_base(
+                    record_id=f"file.{relative}",
+                    record_type="routing" if root_name == "intents" else "registry",
+                    path=relative,
+                    title=title,
+                    summary=f"Structured {root_name} data from {relative}.",
+                    content=flatten_text(data),
+                    priority=65 if root_name == "intents" else 60,
+                    category=[root_name],
+                    intents=[path.stem] if root_name == "intents" else [],
+                    tags=[root_name, path.stem],
+                    search_terms=[title, path.stem.replace("-", " ")],
+                )
+            )
+    return records
+
+
+def main() -> None:
+    records = []
+    records.extend(markdown_records())
+    records.extend(event_records())
+    records.extend(group_records())
+    records.extend(staff_records())
+    records.extend(action_link_records())
+    records.extend(relationship_records())
+    records.extend(generic_yaml_records())
+
+    deduped: dict[str, dict[str, Any]] = {}
+    for record in records:
+        deduped[record["id"]] = record
+    records = sorted(
+        deduped.values(),
+        key=lambda item: (-int(item.get("priority", 0)), item.get("record_type", ""), item.get("title", "").casefold()),
+    )
+
+    manifest = yaml.safe_load((ROOT / "manifest.yaml").read_text(encoding="utf-8")) or {}
+    payload = {
+        "schema_version": "1.0",
+        "repository": manifest.get("repository", "urbancrest-knowledge"),
+        "repository_version": manifest.get("version"),
+        "generated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "timezone": "America/New_York",
+        "record_count": len(records),
+        "config": {
+            "personality": (ROOT / "AI_PERSONALITY.md").read_text(encoding="utf-8"),
+            "style_guide": (ROOT / "STYLE_GUIDE.md").read_text(encoding="utf-8"),
+            "max_retrieval_records": 8,
+            "staff_profile_source": "base44.Staff",
+            "admin_knowledge_source": "base44.KnowledgeEntry",
+        },
+        "source_rules": yaml.safe_load((ROOT / "registry/runtime-sources.yaml").read_text(encoding="utf-8")),
+        "records": records,
+    }
+
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"Wrote {len(records)} retrieval records to {OUTPUT.relative_to(ROOT)}.")
+
+
+if __name__ == "__main__":
+    main()

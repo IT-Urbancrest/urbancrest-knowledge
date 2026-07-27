@@ -1,0 +1,80 @@
+version: '1.0'
+last_updated: '2026-07-27'
+relationships:
+- ministry: pastoral
+  primary_staff_key: geoff_prows
+  related_staff_keys:
+  - david_bickers
+  - larry_nichols
+  - tucker_howard
+- ministry: preaching
+  primary_staff_key: geoff_prows
+  related_staff_keys:
+  - david_bickers
+- ministry: executive_leadership
+  primary_staff_key: david_bickers
+  related_staff_keys:
+  - geoff_prows
+- ministry: worship
+  primary_staff_key: larry_nichols
+  related_staff_keys: []
+- ministry: students
+  primary_staff_key: tucker_howard
+  related_staff_keys: []
+- ministry: local_missions
+  primary_staff_key: darrel_schick
+  related_staff_keys:
+  - jennifer_prows
+- ministry: missions
+  primary_staff_key: jennifer_prows
+  related_staff_keys:
+  - darrel_schick
+- ministry: kids
+  primary_staff_key: sarah_coleman
+  related_staff_keys: []
+- ministry: preschool
+  primary_staff_key: sarah_coleman
+  related_staff_keys: []
+- ministry: nursery
+  primary_staff_key: mikhael_mastalerz
+  related_staff_keys:
+  - sarah_coleman
+- ministry: member_services
+  primary_staff_key: mark_daubenmire
+  related_staff_keys: []
+- ministry: guest_services
+  primary_staff_key: sydni_neptune
+  related_staff_keys:
+  - mark_daubenmire
+- ministry: first_visit
+  primary_staff_key: sydni_neptune
+  related_staff_keys:
+  - mark_daubenmire
+- ministry: finance
+  primary_staff_key: tanya_byrd
+  related_staff_keys: []
+- ministry: giving
+  primary_staff_key: tanya_byrd
+  related_staff_keys: []
+- ministry: stewardship
+  primary_staff_key: tanya_byrd
+  related_staff_keys: []
+- ministry: production
+  primary_staff_key: matthew_kirby
+  related_staff_keys: []
+- ministry: it
+  primary_staff_key: matthew_kirby
+  related_staff_keys: []
+- ministry: creative
+  primary_staff_key: matthew_kirby
+  related_staff_keys: []
+- ministry: website
+  primary_staff_key: matthew_kirby
+  related_staff_keys: []
+- ministry: facilities
+  primary_staff_key: jim_short
+  related_staff_keys: []
+selection_rules:
+- Use primary_staff_key when the question is directly about that ministry.
+- Use related_staff_keys only when the question genuinely involves their area.
+- Do not show a staff card for broad questions that are not answered by one specific person.

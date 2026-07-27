@@ -1,15 +1,27 @@
 repository: urbancrest-knowledge
-version: 0.5.0
-last_updated: '2026-07-20'
-document_count: 77
+version: 0.6.0
+last_updated: '2026-07-27'
+document_count: 93
 documents:
+- path: .github/workflows/build-search-index.yml
+  type: configuration
+  status: published
 - path: AI_PERSONALITY.md
+  type: configuration
+  status: published
+- path: BASE44_DATA_MODEL.md
+  type: configuration
+  status: published
+- path: BASE44_IMPLEMENTATION_PROMPT.md
   type: configuration
   status: published
 - path: CHANGELOG.md
   type: configuration
   status: published
 - path: CONTRIBUTING.md
+  type: configuration
+  status: published
+- path: INSTALL.md
   type: configuration
   status: published
 - path: README.md
@@ -21,7 +33,13 @@ documents:
 - path: STYLE_GUIDE.md
   type: configuration
   status: published
+- path: intents/action-links.yaml
+  type: configuration
+  status: published
 - path: intents/core-intents.yaml
+  type: configuration
+  status: published
+- path: intents/staff.yaml
   type: configuration
   status: published
 - path: knowledge/about/is-there-a-livestream.md
@@ -195,6 +213,9 @@ documents:
 - path: knowledge/resources/church-center-links.md
   type: knowledge
   status: published
+- path: registry/action-links.yaml
+  type: registry
+  status: published
 - path: registry/church-center.yaml
   type: registry
   status: published
@@ -207,16 +228,40 @@ documents:
 - path: registry/ministries.yaml
   type: registry
   status: published
+- path: registry/runtime-sources.yaml
+  type: registry
+  status: published
+- path: registry/staff-routing.yaml
+  type: registry
+  status: published
 - path: registry/staff.yaml
   type: registry
   status: published
 - path: relationships/journeys.yaml
   type: configuration
   status: published
+- path: relationships/ministry-staff.yaml
+  type: configuration
+  status: published
+- path: runtime/README.md
+  type: configuration
+  status: published
+- path: runtime/search-index.json
+  type: generated
+  status: published
 - path: schemas/knowledge-object-schema.md
   type: configuration
   status: published
 - path: schemas/registry-schema.md
+  type: configuration
+  status: published
+- path: schemas/search-index-schema.md
+  type: configuration
+  status: published
+- path: scripts/build_search_index.py
+  type: configuration
+  status: published
+- path: scripts/requirements-index.txt
   type: configuration
   status: published
 - path: templates/knowledge-object-template.md
@@ -228,9 +273,48 @@ documents:
 - path: tests/resource-tests.md
   type: configuration
   status: published
+- path: tests/retrieval-index-tests.yaml
+  type: configuration
+  status: published
 - path: tests/safety-tests.md
   type: configuration
   status: published
 - path: tests/visitor-tests.md
   type: configuration
   status: published
+runtime:
+  search_index:
+    path: runtime/search-index.json
+    format: json
+    generated: true
+    builder: scripts/build_search_index.py
+  staff_profile_source: base44.Staff
+  admin_knowledge_source: base44.KnowledgeEntry
+indexing:
+  include:
+  - knowledge/**/*.md
+  - registry/*.yaml
+  - relationships/*.yaml
+  - intents/*.yaml
+  special_collections:
+  - registry/events-live.yaml
+  - registry/small-groups-live.yaml
+  - registry/staff-routing.yaml
+  - registry/action-links.yaml
+  exclude:
+  - tests/**
+  - templates/**
+  - schemas/**
+  - runtime/**
+  - .github/**
+  - README.md
+  - INSTALL.md
+  - CHANGELOG.md
+  - BASE44_*.md
+dynamic_collections:
+  events:
+    registry: registry/events-live.yaml
+    details: knowledge/events/generated/
+  small_groups:
+    registry: registry/small-groups-live.yaml
+    details: knowledge/small-groups/generated/

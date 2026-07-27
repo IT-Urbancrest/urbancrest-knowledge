@@ -40,3 +40,22 @@ For event questions:
 
 Semantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.
 
+
+
+## Retrieval-First Runtime Sources
+
+Use `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.
+
+Use `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.
+
+Use `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.
+
+Approved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.
+
+For every answer:
+
+1. Retrieve the best matching records.
+2. Apply structured filters and chronological sorting for calendar intents.
+3. Use one directly relevant staff key or null.
+4. Include one clear action link when it supports the next step.
+5. Never invent details that are absent from the selected sources.

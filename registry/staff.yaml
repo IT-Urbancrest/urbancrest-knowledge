@@ -1,13 +1,99 @@
-version: 1.0
-last_updated: 2026-07-20
-staff:
-  pastor.geoff:
-    name: Geoff Prows
-    role: Pastor
-    public_contact: church_office
-  church_office:
-    name: Urbancrest Church Office
-    role: General Contact
-    resource: church_center.connect_card
+version: '2.0'
+last_updated: '2026-07-27'
+profile_source: base44.Staff
 notes:
-  - Add direct contact details only after approval for public AI use.
+- Base44 Staff is the source of truth for biography, fun fact, photo, phone, email, active status, and display order.
+- This registry contains only stable identity and routing fields for AI retrieval.
+- Do not add private contact details to this repository.
+staff:
+  geoff_prows:
+    name: Geoff Prows
+    display_name: Pastor Geoff
+    role: Senior Pastor
+    pastoral_staff: true
+    profile_source: base44.Staff
+    show_card: true
+  david_bickers:
+    name: David Bickers
+    display_name: Pastor Dave
+    role: Executive Pastor
+    pastoral_staff: true
+    profile_source: base44.Staff
+    show_card: true
+  larry_nichols:
+    name: Larry Nichols
+    display_name: Pastor Larry
+    role: Worship Pastor
+    pastoral_staff: true
+    profile_source: base44.Staff
+    show_card: true
+  tucker_howard:
+    name: Tucker Howard
+    display_name: Pastor Tucker
+    role: Student Pastor
+    pastoral_staff: true
+    profile_source: base44.Staff
+    show_card: true
+  darrel_schick:
+    name: Darrel Schick
+    display_name: Darrel
+    role: Local Missions Strategist
+    pastoral_staff: false
+    profile_source: base44.Staff
+    show_card: true
+  jennifer_prows:
+    name: Jennifer Prows
+    display_name: Jennifer
+    role: Missions Administrator
+    pastoral_staff: false
+    profile_source: base44.Staff
+    show_card: true
+  sarah_coleman:
+    name: Sarah Coleman
+    display_name: Sarah
+    role: Preschool Director
+    pastoral_staff: false
+    profile_source: base44.Staff
+    show_card: true
+  mikhael_mastalerz:
+    name: Mikhael Mastalerz
+    display_name: Mikhael
+    role: Nursery Ministry Director
+    pastoral_staff: false
+    profile_source: base44.Staff
+    show_card: true
+  mark_daubenmire:
+    name: Mark Daubenmire
+    display_name: Mark
+    role: Member Services
+    pastoral_staff: false
+    profile_source: base44.Staff
+    show_card: true
+  sydni_neptune:
+    name: Sydni Neptune
+    display_name: Sydni
+    role: Guest Services
+    pastoral_staff: false
+    profile_source: base44.Staff
+    show_card: true
+  tanya_byrd:
+    name: Tanya Byrd
+    display_name: Tanya
+    role: Financial Officer
+    pastoral_staff: false
+    profile_source: base44.Staff
+    show_card: true
+  matthew_kirby:
+    name: Matthew Kirby
+    display_name: Matthew
+    role: Technical Director
+    pastoral_staff: false
+    profile_source: base44.Staff
+    show_card: true
+  jim_short:
+    name: Jim Short
+    display_name: Jim
+    role: Building Supervisor
+    pastoral_staff: false
+    profile_source: base44.Staff
+    show_card: true

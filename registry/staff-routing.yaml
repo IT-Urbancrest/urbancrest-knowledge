@@ -1,0 +1,253 @@
+version: '1.0'
+last_updated: '2026-07-27'
+profile_source: base44.Staff
+routing:
+  geoff_prows:
+    aliases:
+    - Geoff
+    - Pastor Geoff
+    - Geoff Prows
+    - Senior Pastor
+    ministries:
+    - pastoral
+    - preaching
+    - church_leadership
+    - pastoral_care
+    topics:
+    - sermons
+    - preaching
+    - pastoral questions
+    - church vision
+    - church leadership
+    show_card: true
+    profile_source: base44.Staff
+  david_bickers:
+    aliases:
+    - David
+    - Dave
+    - Pastor Dave
+    - David Bickers
+    - Executive Pastor
+    ministries:
+    - pastoral
+    - executive_leadership
+    - administration
+    - preaching
+    - pastoral_care
+    topics:
+    - preaching
+    - administration
+    - church operations
+    - executive leadership
+    - pastoral questions
+    show_card: true
+    profile_source: base44.Staff
+  larry_nichols:
+    aliases:
+    - Larry
+    - Pastor Larry
+    - Larry Nichols
+    - Worship Pastor
+    ministries:
+    - worship
+    - pastoral
+    - music
+    - choir
+    topics:
+    - worship
+    - music ministry
+    - choir
+    - worship services
+    show_card: true
+    profile_source: base44.Staff
+  tucker_howard:
+    aliases:
+    - Tucker
+    - Pastor Tucker
+    - Tucker Howard
+    - Student Pastor
+    - Youth Pastor
+    ministries:
+    - students
+    - youth
+    - middle_school
+    - high_school
+    - pastoral
+    topics:
+    - student ministry
+    - youth ministry
+    - middle school
+    - high school
+    - teenagers
+    show_card: true
+    profile_source: base44.Staff
+  darrel_schick:
+    aliases:
+    - Darrel
+    - Darrel Schick
+    - Local Missions Strategist
+    ministries:
+    - local_missions
+    - outreach
+    - community_service
+    topics:
+    - local missions
+    - community outreach
+    - block parties
+    - serving the community
+    show_card: true
+    profile_source: base44.Staff
+  jennifer_prows:
+    aliases:
+    - Jennifer
+    - Jen
+    - Jennifer Prows
+    - Jen Prows
+    - Missions Administrator
+    ministries:
+    - missions
+    - global_missions
+    - mission_trips
+    - red_barn
+    topics:
+    - missions
+    - global missions
+    - mission trips
+    - missions conference
+    - Red Barn
+    show_card: true
+    profile_source: base44.Staff
+  sarah_coleman:
+    aliases:
+    - Sarah
+    - Sarah Coleman
+    - Preschool Director
+    - Kids Director
+    ministries:
+    - kids
+    - preschool
+    - children
+    - families
+    topics:
+    - kids ministry
+    - children
+    - preschool
+    - families
+    - AWANA
+    show_card: true
+    profile_source: base44.Staff
+  mikhael_mastalerz:
+    aliases:
+    - Mikhael
+    - Mikhael Mastalerz
+    - Nursery Ministry Director
+    - Nursery Director
+    ministries:
+    - nursery
+    - infants
+    - toddlers
+    topics:
+    - nursery
+    - babies
+    - infants
+    - toddlers
+    show_card: true
+    profile_source: base44.Staff
+  mark_daubenmire:
+    aliases:
+    - Mark
+    - Mark Daubenmire
+    - Member Services
+    ministries:
+    - member_services
+    - membership
+    topics:
+    - membership
+    - member services
+    - church records
+    show_card: true
+    profile_source: base44.Staff
+  sydni_neptune:
+    aliases:
+    - Sydni
+    - Sydni Neptune
+    - Guest Services
+    ministries:
+    - guest_services
+    - first_visit
+    - hospitality
+    - welcome
+    topics:
+    - guest services
+    - first visit
+    - hospitality
+    - welcome team
+    - visitors
+    show_card: true
+    profile_source: base44.Staff
+  tanya_byrd:
+    aliases:
+    - Tanya
+    - Tanya Byrd
+    - Financial Officer
+    ministries:
+    - finance
+    - giving
+    - stewardship
+    - financial_administration
+    topics:
+    - giving
+    - stewardship
+    - finance
+    - financial questions
+    show_card: true
+    profile_source: base44.Staff
+  matthew_kirby:
+    aliases:
+    - Matthew
+    - Matt
+    - Matthew Kirby
+    - Technical Director
+    ministries:
+    - production
+    - it
+    - creative
+    - website
+    - video
+    - livestream
+    - audio
+    - technology
+    topics:
+    - production
+    - technology
+    - IT
+    - website
+    - video
+    - livestream
+    - audio
+    - lighting
+    - creative
+    show_card: true
+    profile_source: base44.Staff
+  jim_short:
+    aliases:
+    - Jim
+    - Jim Short
+    - Building Supervisor
+    - Facilities
+    ministries:
+    - facilities
+    - building
+    - maintenance
+    topics:
+    - facilities
+    - building
+    - maintenance
+    - room setup
+    show_card: true
+    profile_source: base44.Staff
+rules:
+- Return the exact staff key when one staff member is directly relevant.
+- Use Base44 Staff for biography, fun fact, photo, phone, email, role display, active status, and card presentation.
+- Do not append every staff profile to every prompt. Retrieve only the selected profile when needed.
+- Use Pastor plus first name for pastoral staff. Use first name for all other staff.

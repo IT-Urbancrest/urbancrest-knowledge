@@ -1,28 +1,64 @@
-version: 1.0
-last_updated: 2026-07-20
+version: '1.0'
+last_updated: '2026-07-20'
 intents:
   salvation:
-    phrases: [How do I get saved?, How do I become a Christian?, I want to follow Jesus]
-    documents: [beliefs.salvation.get-saved, beliefs.gospel, beliefs.repentance]
+    phrases:
+    - How do I get saved?
+    - How do I become a Christian?
+    - I want to follow Jesus
+    documents:
+    - beliefs.salvation.get-saved
+    - beliefs.gospel
+    - beliefs.repentance
   baptism:
-    phrases: [How do I get baptized?, What does baptism mean?, Should I be baptized again?]
-    documents: [next-steps.baptism, beliefs.baptism.meaning, beliefs.baptism.again]
+    phrases:
+    - How do I get baptized?
+    - What does baptism mean?
+    - Should I be baptized again?
+    documents:
+    - next-steps.baptism
+    - beliefs.baptism.meaning
+    - beliefs.baptism.again
   visitor:
-    phrases: [What should I expect?, Where are you located?, What should I wear?]
-    documents: [about.visit.expect, about.location, about.visit.clothing]
+    phrases:
+    - What should I expect?
+    - Where are you located?
+    - What should I wear?
+    documents:
+    - about.visit.expect
+    - about.location
+    - about.visit.clothing
   giving:
-    phrases: [How do I give?, Can I give online?]
-    documents: [next-steps.giving]
-    resources: [church_center.giving]
+    phrases:
+    - How do I give?
+    - Can I give online?
+    documents:
+    - next-steps.giving
+    resources:
+    - church_center.giving
   groups:
-    phrases: [How do I join a Small Group?, Do you have Bible studies?]
-    documents: [next-steps.small-groups, ministries.small_groups]
-    resources: [church_center.small_groups]
+    phrases:
+    - How do I join a Small Group?
+    - Do you have Bible studies?
+    documents:
+    - next-steps.small-groups
+    - ministries.small_groups
+    resources:
+    - church_center.small_groups
   serving:
-    phrases: [How do I volunteer?, Where can I serve?]
-    documents: [next-steps.serving]
-    resources: [church_center.serving]
+    phrases:
+    - How do I volunteer?
+    - Where can I serve?
+    documents:
+    - next-steps.serving
+    resources:
+    - church_center.serving
   prayer:
-    phrases: [I need prayer, Can someone pray for me?]
-    documents: [next-steps.prayer, ministries.care_and_prayer]
-    resources: [church_center.prayer_request]
+    phrases:
+    - I need prayer
+    - Can someone pray for me?
+    documents:
+    - next-steps.prayer
+    - ministries.care_and_prayer
+    resources:
+    - church_center.prayer_request

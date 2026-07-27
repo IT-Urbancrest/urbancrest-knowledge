@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.6.0
+
+- Added a compiled runtime search index for retrieval-first AI answers.
+- Added staff identity and routing registries while keeping biographies and fun facts in Base44 Staff.
+- Added David Bickers to preaching-related staff routing.
+- Added ministry-to-staff relationships and approved action-link records.
+- Added runtime source precedence for GitHub knowledge, Base44 Staff, and approved Base44 KnowledgeEntry records.
+- Added a dedicated search-index workflow and integrated index rebuilding into the live event sync.
+- Included the Small Group title-and-location consolidation fix from event sync 1.4.1.
+- Added Base44 implementation and data-model migration instructions.
+- Added retrieval acceptance tests.
+
 ## 1.4.0
 
 - Split routine Small Group meetings into `small-groups-live.yaml`.

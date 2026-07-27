@@ -1,97 +1,95 @@
-# Urbancrest Live Events Release 1.4.0
+# Urbancrest Knowledge Release 0.6.0
 
-Version 1.4 prevents recurring Small Group meetings from crowding major and ministry events out of the live calendar knowledge base.
+This release adds the Urbancrest Knowledge files required for retrieval-first website AI search.
 
-## Architecture
+## What stays in Base44
+
+The Staff entity remains the source of truth for biography, fun fact, photo, phone, email, role display, active status, and display order.
+
+KnowledgeEntry, SearchQueryLog, and UnansweredQuestion remain Base44 entities.
+
+## What is added to Urbancrest Knowledge
 
 ```text
-registry/events-live.yaml
-knowledge/events/generated/
-
-registry/small-groups-live.yaml
-knowledge/small-groups/generated/
+registry/staff-routing.yaml
+registry/action-links.yaml
+registry/runtime-sources.yaml
+relationships/ministry-staff.yaml
+intents/staff.yaml
+intents/action-links.yaml
+scripts/build_search_index.py
+scripts/requirements-index.txt
+.github/workflows/build-search-index.yml
+runtime/search-index.json
+runtime/README.md
+schemas/search-index-schema.md
+tests/retrieval-index-tests.yaml
+BASE44_IMPLEMENTATION_PROMPT.md
+BASE44_DATA_MODEL.md
 ```
 
-The main event registry contains major, ministry, churchwide, class, and general events.
-
-The Small Groups registry contains recurring Small Group series. Each group is stored once with its next meeting and a limited list of future meetings.
-
-## Install
-
-Copy the ZIP contents into the root of `urbancrest-knowledge`, preserving folders.
-
-Replace:
+The release also updates:
 
 ```text
+registry/staff.yaml
+AI_PERSONALITY.md
+manifest.yaml
+README.md
+CHANGELOG.md
 .github/workflows/sync-events.yml
 scripts/sync_events.py
-registry/events-live.yaml
-knowledge/events/upcoming-events.md
-intents/calendar.yaml
-AI_PERSONALITY-CALENDAR-PATCH.md
-```
-
-Add:
-
-```text
-registry/small-groups-live.yaml
-registry/event-categories.yaml
 registry/event-overrides.yaml
-knowledge/small-groups/upcoming-small-groups.md
-knowledge/small-groups/generated/.gitkeep
-intents/small-groups.yaml
-tests/event-priority-and-small-groups.yaml
 ```
 
-Copy the updated contents of `AI_PERSONALITY-CALENDAR-PATCH.md` into your existing `AI_PERSONALITY.md`. Replace the older calendar patch section instead of adding a duplicate.
+David Bickers includes preaching in his staff routing.
 
-## Workflow settings
+## Install the repository files
 
-```yaml
-EVENT_LOOKAHEAD_DAYS: "365"
-EVENT_MAX_MAIN_EVENTS: "150"
-SMALL_GROUP_MAX_SERIES: "100"
-SMALL_GROUP_MAX_OCCURRENCES: "12"
-```
+Copy the release contents into the root of the current `urbancrest-knowledge` repository, preserving folder structure. Commit and push the changes.
 
-High-priority major and ministry events are protected before lower-priority events when the main-event limit is applied.
+Do not copy the `.git` directory from an older repository backup. This release does not include one.
 
-## Default categories
+## Build the index
 
-| Category | Priority | Collection |
-|---|---:|---|
-| Major event | 100 | Main events |
-| Ministry event | 80 | Main events |
-| Churchwide program | 60 | Main events |
-| General event | 50 | Main events |
-| Class or Bible study | 40 | Main events |
-| Small Group meeting | 20 | Small Groups |
+After pushing, run:
 
-Edit `registry/event-categories.yaml` to adjust keyword classification.
+**Actions -> Build Knowledge Search Index -> Run workflow**
 
-Use `registry/event-overrides.yaml` for exact exceptions, corrections, or promotions.
-
-## Run
-
-Go to:
-
-**Actions → Sync Live Events → Run workflow**
-
-The log should report:
+The workflow should commit:
 
 ```text
-Wrote X main events from Y main-event candidates.
-Collapsed X Small Group occurrences into Y Small Group series.
+runtime/search-index.json
 ```
 
-## Test
+The live event workflow also rebuilds the index after every calendar sync.
 
-Ask the AI:
+## Update Base44
 
-- What women's ministry events are coming up?
-- What is the next women's ministry event?
-- What major events are coming up?
+Open `BASE44_IMPLEMENTATION_PROMPT.md` and copy the prompt into the Base44 AI website agent.
+
+The agent should preserve the public search design and staff-card behavior while replacing whole-repository prompting with local retrieval from `runtime/search-index.json`.
+
+## Base44 entities
+
+Follow `BASE44_DATA_MODEL.md`.
+
+Important changes:
+
+- Keep existing KnowledgeEntry fields.
+- Add publication and retrieval metadata when absent.
+- Add SearchQueryLog for all searches.
+- Use UnansweredQuestion only for missing, low-confidence, or deferred answers.
+- Do not wait for analytics logging before showing the answer.
+
+## Verify
+
+Run the tests in `tests/retrieval-index-tests.yaml` after the Base44 agent completes the website changes.
+
+Start with:
+
+- What time are Sunday services?
+- What is your next men's ministry event?
 - What Small Groups meet this week?
-- When does [Small Group name] meet?
-
-The October women's event should now remain in `events-live.yaml` even when the calendar contains many recurring Small Group meetings.
+- Who oversees missions?
+- Which pastors are involved in preaching?
+- Tell me about Jennifer Prows.

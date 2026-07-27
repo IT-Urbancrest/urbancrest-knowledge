@@ -1,0 +1,26 @@
+id: intents.staff
+version: 1.0
+status: active
+title: Staff and Ministry Contact Retrieval
+description: Rules for choosing a staff key and loading the matching Base44 Staff profile.
+
+source_of_truth:
+  identity: registry/staff.yaml
+  routing: registry/staff-routing.yaml
+  ministry_relationships: relationships/ministry-staff.yaml
+  profile_entity: base44.Staff
+
+retrieval:
+  steps:
+    - Match the question to a staff name, alias, role, ministry, or topic.
+    - Use relationships/ministry-staff.yaml when the question is about a ministry rather than a named person.
+    - Select one primary staff key only when one staff member is directly relevant.
+    - Load only that matching Base44 Staff profile when biography or fun fact information is needed.
+    - Return the exact staff key so the existing website card can render.
+
+rules:
+  - Base44 Staff is authoritative for biography, fun fact, photo, phone, email, role display, active status, and display order.
+  - Do not include every staff profile in every model prompt.
+  - Do not invent staff responsibilities, biography details, fun facts, or contact information.
+  - Use Pastor plus first name for pastoral staff. Use first name for all other staff.
+  - Set staffKey to null when no single staff member is directly relevant.
