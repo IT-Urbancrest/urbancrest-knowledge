@@ -1,16 +1,17 @@
 ---
 id: events.live.event-d51c8e6d158a985a
-version: 1.3
+version: 1.4
 status: published
-priority: 90
+priority: 50
 title: "Sunday Morning Services: 11:00 AM Service"
 summary: "Join us in person or online!..."
 category: [events]
+event_category: "general_event"
 intent:
   primary: event_details
   secondary: [upcoming_events, calendar, schedule, registration, next_ministry_event]
-audience: [everyone]
-ministries: [churchwide]
+audience: ["everyone"]
+ministries: ["churchwide"]
 answer_style: helpful
 confidence: high
 owner:
@@ -18,7 +19,7 @@ owner:
 review:
   doctrinal: not_required
   factual: automated
-tags: [event, calendar, upcoming, churchwide, everyone]
+tags: ["event", "calendar", "upcoming", "general_event", "churchwide", "everyone"]
 search_terms:
   - "Sunday Morning Services: 11:00 AM Service"
   - "When is Sunday Morning Services: 11:00 AM Service?"
@@ -32,12 +33,12 @@ event_start: "2026-09-06T11:00:00-04:00"
 event_end: "2026-09-06T12:10:00-04:00"
 sort_start_utc: "2026-09-06T15:00:00Z"
 sort_end_utc: "2026-09-06T16:10:00Z"
-chronological_rank: 59
+chronological_rank: 39
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-27T15:14:40.102584Z
+last_generated: 2026-07-27T15:29:17.168565Z
 ---
 
 # Sunday Morning Services: 11:00 AM Service

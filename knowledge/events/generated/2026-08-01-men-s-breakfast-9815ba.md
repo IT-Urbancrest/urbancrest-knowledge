@@ -1,16 +1,17 @@
 ---
 id: events.live.event-4153d613419815ba
-version: 1.3
+version: 1.4
 status: published
-priority: 90
+priority: 80
 title: "Men's Breakfast"
 summary: "Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast."
 category: [events]
+event_category: "ministry_event"
 intent:
   primary: event_details
   secondary: [upcoming_events, calendar, schedule, registration, next_ministry_event]
-audience: [men]
-ministries: [men]
+audience: ["men"]
+ministries: ["men"]
 answer_style: helpful
 confidence: high
 owner:
@@ -18,7 +19,7 @@ owner:
 review:
   doctrinal: not_required
   factual: automated
-tags: [event, calendar, upcoming, men]
+tags: ["event", "calendar", "upcoming", "ministry_event", "men"]
 search_terms:
   - "Men's Breakfast"
   - "When is Men's Breakfast?"
@@ -32,12 +33,12 @@ event_start: "2026-08-01T08:00:00-04:00"
 event_end: "2026-08-01T10:00:00-04:00"
 sort_start_utc: "2026-08-01T12:00:00Z"
 sort_end_utc: "2026-08-01T14:00:00Z"
-chronological_rank: 5
-next_for_ministries: [men]
-next_for_audiences: [men]
+chronological_rank: 3
+next_for_ministries: ["men"]
+next_for_audiences: ["men"]
 all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-27T15:14:40.102584Z
+last_generated: 2026-07-27T15:29:17.168565Z
 ---
 
 # Men's Breakfast
