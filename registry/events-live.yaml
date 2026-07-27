@@ -1,17 +1,17 @@
-version: '1.4'
-generated_at: '2026-07-27T15:29:17.168565Z'
+version: 1.4.1
+generated_at: '2026-07-27T19:55:29.047018Z'
 timezone: America/New_York
 source: planning_center_ical
 source_of_truth_for_calendar_intents: true
 collection: main_events
 excluded_collection: small_groups-live.yaml
 sort_order: sort_start_utc_ascending
-lookahead_days: 120
+lookahead_days: 365
 selection:
-  max_events: 75
+  max_events: 150
   protected_priority_minimum: 80
   policy: Protect all major and ministry events before lower-priority events.
-event_count: 75
+event_count: 150
 events:
 - id: event-12888d127942b1db
   uid: ET-30334650-221178158@resources.planningcenteronline.com
@@ -1891,6 +1891,30 @@ events:
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-11-sunday-morning-services-11-00-am-service-31230b.md
+- id: event-5c67e99d1b67f76a
+  uid: ET-29468516-216277439@resources.planningcenteronline.com
+  title: OPEN GYM Pickleball
+  summary: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
+  start: '2026-10-15T18:00:00-04:00'
+  end: '2026-10-15T20:00:00-04:00'
+  sort_start_utc: '2026-10-15T22:00:00Z'
+  sort_end_utc: '2026-10-16T00:00:00Z'
+  display_when: Thursday, October 15, 2026, 6 PM to 8 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 68
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-10-15-open-gym-pickleball-67f76a.md
 - id: event-9d496596f1bf84ac
   uid: ET-27323186-203958381@resources.planningcenteronline.com
   title: Women's Conference
@@ -1914,7 +1938,7 @@ events:
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 68
+  chronological_rank: 69
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-17-women-s-conference-bf84ac.md
@@ -1938,10 +1962,83 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 69
+  chronological_rank: 70
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-18-p-u-r-s-u-e-2350e7.md
+- id: event-ff59e84543d0a2ae
+  uid: ET-9127131-169990120@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-10-18T09:30:00-04:00'
+  end: '2026-10-18T10:40:00-04:00'
+  sort_start_utc: '2026-10-18T13:30:00Z'
+  sort_end_utc: '2026-10-18T14:40:00Z'
+  display_when: Sunday, October 18, 2026, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 71
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-10-18-sunday-morning-services-9-30-am-service-d0a2ae.md
+- id: event-5c4d09b7bec4ad2d
+  uid: ET-9127132-169990120@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-10-18T11:00:00-04:00'
+  end: '2026-10-18T12:10:00-04:00'
+  sort_start_utc: '2026-10-18T15:00:00Z'
+  sort_end_utc: '2026-10-18T16:10:00Z'
+  display_when: Sunday, October 18, 2026, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 72
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-10-18-sunday-morning-services-11-00-am-service-c4ad2d.md
+- id: event-cca4bc8898b2c4ee
+  uid: ET-16193422-170149013@resources.planningcenteronline.com
+  title: Monthly Baskets of Hope - Volunteers
+  summary: This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
+  start: '2026-10-21T16:30:00-04:00'
+  end: '2026-10-21T18:30:00-04:00'
+  sort_start_utc: '2026-10-21T20:30:00Z'
+  sort_end_utc: '2026-10-21T22:30:00Z'
+  display_when: Wednesday, October 21, 2026, 4:30 PM to 6:30 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
+  ministries:
+  - churchwide
+  audiences:
+  - families
+  - volunteers
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 73
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-10-21-monthly-baskets-of-hope-volunteers-b2c4ee.md
 - id: event-d05c3ac79e3a39cd
   uid: ET-8762150-170494272@resources.planningcenteronline.com
   title: P U R S U E
@@ -1962,10 +2059,104 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 70
+  chronological_rank: 74
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-25-p-u-r-s-u-e-3a39cd.md
+- id: event-5be762b6dc9724fc
+  uid: ET-9127131-170494276@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-10-25T09:30:00-04:00'
+  end: '2026-10-25T10:40:00-04:00'
+  sort_start_utc: '2026-10-25T13:30:00Z'
+  sort_end_utc: '2026-10-25T14:40:00Z'
+  display_when: Sunday, October 25, 2026, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 75
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-10-25-sunday-morning-services-9-30-am-service-9724fc.md
+- id: event-2158e0ed36d92cdf
+  uid: ET-9127132-170494276@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-10-25T11:00:00-04:00'
+  end: '2026-10-25T12:10:00-04:00'
+  sort_start_utc: '2026-10-25T15:00:00Z'
+  sort_end_utc: '2026-10-25T16:10:00Z'
+  display_when: Sunday, October 25, 2026, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 76
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-10-25-sunday-morning-services-11-00-am-service-d92cdf.md
+- id: event-09e1ddbf6fc2dfe7
+  uid: ET-30542855-222367934@resources.planningcenteronline.com
+  title: Trail of Treats
+  summary: Trail of Treats is scheduled for Sunday, October 25, 2026, 3 PM to 10 PM.
+  start: '2026-10-25T15:00:00-04:00'
+  end: '2026-10-25T22:00:00-04:00'
+  sort_start_utc: '2026-10-25T19:00:00Z'
+  sort_end_utc: '2026-10-26T02:00:00Z'
+  display_when: Sunday, October 25, 2026, 3 PM to 10 PM
+  all_day: false
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 77
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-10-25-trail-of-treats-c2dfe7.md
+- id: event-41f3d133a7272368
+  uid: ET-29468516-216277441@resources.planningcenteronline.com
+  title: OPEN GYM Pickleball
+  summary: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
+  start: '2026-10-29T18:00:00-04:00'
+  end: '2026-10-29T20:00:00-04:00'
+  sort_start_utc: '2026-10-29T22:00:00Z'
+  sort_end_utc: '2026-10-30T00:00:00Z'
+  display_when: Thursday, October 29, 2026, 6 PM to 8 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 78
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-10-29-open-gym-pickleball-272368.md
 - id: event-64ae9a123396a55e
   uid: ET-8762150-171026771@resources.planningcenteronline.com
   title: P U R S U E
@@ -1986,10 +2177,105 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 71
+  chronological_rank: 79
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-01-p-u-r-s-u-e-96a55e.md
+- id: event-5260c3af76a90a62
+  uid: ET-9127131-171026769@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-11-01T09:30:00-05:00'
+  end: '2026-11-01T10:40:00-05:00'
+  sort_start_utc: '2026-11-01T14:30:00Z'
+  sort_end_utc: '2026-11-01T15:40:00Z'
+  display_when: Sunday, November 1, 2026, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 80
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-01-sunday-morning-services-9-30-am-service-a90a62.md
+- id: event-d191171a7d5b69af
+  uid: ET-9127132-171026769@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-11-01T11:00:00-05:00'
+  end: '2026-11-01T12:10:00-05:00'
+  sort_start_utc: '2026-11-01T16:00:00Z'
+  sort_end_utc: '2026-11-01T17:10:00Z'
+  display_when: Sunday, November 1, 2026, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 81
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-01-sunday-morning-services-11-00-am-service-5b69af.md
+- id: event-66ea7967217a8829
+  uid: ET-28363612-171120675@resources.planningcenteronline.com
+  title: Card Ministry
+  summary: Rai Lynn Guidone
+  start: '2026-11-03T09:00:00-05:00'
+  end: '2026-11-03T12:00:00-05:00'
+  sort_start_utc: '2026-11-03T14:00:00Z'
+  sort_end_utc: '2026-11-03T17:00:00Z'
+  display_when: Tuesday, November 3, 2026, 9 AM to 12 PM
+  all_day: false
+  description: Rai Lynn Guidone
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 82
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-03-card-ministry-7a8829.md
+- id: event-7a4778383ae629bd
+  uid: ET-29468516-216277442@resources.planningcenteronline.com
+  title: OPEN GYM Pickleball
+  summary: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
+  start: '2026-11-05T18:00:00-05:00'
+  end: '2026-11-05T20:00:00-05:00'
+  sort_start_utc: '2026-11-05T23:00:00Z'
+  sort_end_utc: '2026-11-06T01:00:00Z'
+  display_when: Thursday, November 5, 2026, 6 PM to 8 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 83
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-05-open-gym-pickleball-e629bd.md
 - id: event-f93e5d4a42b349ea
   uid: ET-30270334-171450066@resources.planningcenteronline.com
   title: Men's Breakfast
@@ -2010,7 +2296,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 72
+  chronological_rank: 84
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-07-men-s-breakfast-b349ea.md
@@ -2034,10 +2320,105 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 73
+  chronological_rank: 85
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-08-p-u-r-s-u-e-4c1a4d.md
+- id: event-37b1feeb225cd74e
+  uid: ET-9127131-171522666@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-11-08T09:30:00-05:00'
+  end: '2026-11-08T10:40:00-05:00'
+  sort_start_utc: '2026-11-08T14:30:00Z'
+  sort_end_utc: '2026-11-08T15:40:00Z'
+  display_when: Sunday, November 8, 2026, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 86
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-08-sunday-morning-services-9-30-am-service-5cd74e.md
+- id: event-35f1265bb37c486d
+  uid: ET-9127132-171522666@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-11-08T11:00:00-05:00'
+  end: '2026-11-08T12:10:00-05:00'
+  sort_start_utc: '2026-11-08T16:00:00Z'
+  sort_end_utc: '2026-11-08T17:10:00Z'
+  display_when: Sunday, November 8, 2026, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 87
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-08-sunday-morning-services-11-00-am-service-7c486d.md
+- id: event-ec19b5e79f79dbeb
+  uid: ET-29468516-216277443@resources.planningcenteronline.com
+  title: OPEN GYM Pickleball
+  summary: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
+  start: '2026-11-12T18:00:00-05:00'
+  end: '2026-11-12T20:00:00-05:00'
+  sort_start_utc: '2026-11-12T23:00:00Z'
+  sort_end_utc: '2026-11-13T01:00:00Z'
+  display_when: Thursday, November 12, 2026, 6 PM to 8 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 88
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-12-open-gym-pickleball-79dbeb.md
+- id: event-b18a11de2647a8c2
+  uid: ET-31623389-228651524@resources.planningcenteronline.com
+  title: OCC packing party
+  summary: OCC packing party is scheduled for Saturday, November 14, 2026, 1 PM to 2 PM at Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036.
+  start: '2026-11-14T13:00:00-05:00'
+  end: '2026-11-14T14:00:00-05:00'
+  sort_start_utc: '2026-11-14T18:00:00Z'
+  sort_end_utc: '2026-11-14T19:00:00Z'
+  display_when: Saturday, November 14, 2026, 1 PM to 2 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 89
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-14-occ-packing-party-47a8c2.md
 - id: event-1652bc35e5b86e1d
   uid: ET-8762150-172162011@resources.planningcenteronline.com
   title: P U R S U E
@@ -2058,10 +2439,107 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 74
+  chronological_rank: 90
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-15-p-u-r-s-u-e-b86e1d.md
+- id: event-6bc5aa1e27add3db
+  uid: ET-9127131-172162010@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-11-15T09:30:00-05:00'
+  end: '2026-11-15T10:40:00-05:00'
+  sort_start_utc: '2026-11-15T14:30:00Z'
+  sort_end_utc: '2026-11-15T15:40:00Z'
+  display_when: Sunday, November 15, 2026, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 91
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-15-sunday-morning-services-9-30-am-service-add3db.md
+- id: event-361f8f98cea656ef
+  uid: ET-9127132-172162010@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-11-15T11:00:00-05:00'
+  end: '2026-11-15T12:10:00-05:00'
+  sort_start_utc: '2026-11-15T16:00:00Z'
+  sort_end_utc: '2026-11-15T17:10:00Z'
+  display_when: Sunday, November 15, 2026, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 92
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-15-sunday-morning-services-11-00-am-service-a656ef.md
+- id: event-c98c09871d7ab8b6
+  uid: ET-16193422-172353747@resources.planningcenteronline.com
+  title: Monthly Baskets of Hope - Volunteers
+  summary: This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
+  start: '2026-11-18T16:30:00-05:00'
+  end: '2026-11-18T18:30:00-05:00'
+  sort_start_utc: '2026-11-18T21:30:00Z'
+  sort_end_utc: '2026-11-18T23:30:00Z'
+  display_when: Wednesday, November 18, 2026, 4:30 PM to 6:30 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
+  ministries:
+  - churchwide
+  audiences:
+  - families
+  - volunteers
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 93
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-18-monthly-baskets-of-hope-volunteers-7ab8b6.md
+- id: event-ee382b75e3c7e40e
+  uid: ET-29468516-216277444@resources.planningcenteronline.com
+  title: OPEN GYM Pickleball
+  summary: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
+  start: '2026-11-19T18:00:00-05:00'
+  end: '2026-11-19T20:00:00-05:00'
+  sort_start_utc: '2026-11-19T23:00:00Z'
+  sort_end_utc: '2026-11-20T01:00:00Z'
+  display_when: Thursday, November 19, 2026, 6 PM to 8 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 94
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-19-open-gym-pickleball-c7e40e.md
 - id: event-be431ccdabc3d97b
   uid: ET-8762150-172745994@resources.planningcenteronline.com
   title: P U R S U E
@@ -2082,7 +2560,1328 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 75
+  chronological_rank: 95
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-22-p-u-r-s-u-e-c3d97b.md
+- id: event-51aab645f93e574a
+  uid: ET-9127131-172745996@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-11-22T09:30:00-05:00'
+  end: '2026-11-22T10:40:00-05:00'
+  sort_start_utc: '2026-11-22T14:30:00Z'
+  sort_end_utc: '2026-11-22T15:40:00Z'
+  display_when: Sunday, November 22, 2026, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 96
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-22-sunday-morning-services-9-30-am-service-3e574a.md
+- id: event-0cce4f48b0774f3d
+  uid: ET-9127132-172745996@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-11-22T11:00:00-05:00'
+  end: '2026-11-22T12:10:00-05:00'
+  sort_start_utc: '2026-11-22T16:00:00Z'
+  sort_end_utc: '2026-11-22T17:10:00Z'
+  display_when: Sunday, November 22, 2026, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 97
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-22-sunday-morning-services-11-00-am-service-774f3d.md
+- id: event-c156821e3309528b
+  uid: ET-29468516-216277445@resources.planningcenteronline.com
+  title: OPEN GYM Pickleball
+  summary: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
+  start: '2026-11-26T18:00:00-05:00'
+  end: '2026-11-26T20:00:00-05:00'
+  sort_start_utc: '2026-11-26T23:00:00Z'
+  sort_end_utc: '2026-11-27T01:00:00Z'
+  display_when: Thursday, November 26, 2026, 6 PM to 8 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 98
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-26-open-gym-pickleball-09528b.md
+- id: event-881ba52aa080f80e
+  uid: ET-8762150-173125610@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2026-11-29T09:30:00-05:00'
+  end: '2026-11-29T10:30:00-05:00'
+  sort_start_utc: '2026-11-29T14:30:00Z'
+  sort_end_utc: '2026-11-29T15:30:00Z'
+  display_when: Sunday, November 29, 2026, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 99
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-29-p-u-r-s-u-e-80f80e.md
+- id: event-99ba394ddaf67a70
+  uid: ET-9127131-173125611@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-11-29T09:30:00-05:00'
+  end: '2026-11-29T10:40:00-05:00'
+  sort_start_utc: '2026-11-29T14:30:00Z'
+  sort_end_utc: '2026-11-29T15:40:00Z'
+  display_when: Sunday, November 29, 2026, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 100
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-29-sunday-morning-services-9-30-am-service-f67a70.md
+- id: event-638c7e47a90d501a
+  uid: ET-9127132-173125611@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-11-29T11:00:00-05:00'
+  end: '2026-11-29T12:10:00-05:00'
+  sort_start_utc: '2026-11-29T16:00:00Z'
+  sort_end_utc: '2026-11-29T17:10:00Z'
+  display_when: Sunday, November 29, 2026, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 101
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-29-sunday-morning-services-11-00-am-service-0d501a.md
+- id: event-2d154d0872b978b1
+  uid: ET-28363612-173197042@resources.planningcenteronline.com
+  title: Card Ministry
+  summary: Rai Lynn Guidone
+  start: '2026-12-01T09:00:00-05:00'
+  end: '2026-12-01T12:00:00-05:00'
+  sort_start_utc: '2026-12-01T14:00:00Z'
+  sort_end_utc: '2026-12-01T17:00:00Z'
+  display_when: Tuesday, December 1, 2026, 9 AM to 12 PM
+  all_day: false
+  description: Rai Lynn Guidone
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 102
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-12-01-card-ministry-b978b1.md
+- id: event-0eaecca22ee3b971
+  uid: ET-29468516-216277446@resources.planningcenteronline.com
+  title: OPEN GYM Pickleball
+  summary: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
+  start: '2026-12-03T18:00:00-05:00'
+  end: '2026-12-03T20:00:00-05:00'
+  sort_start_utc: '2026-12-03T23:00:00Z'
+  sort_end_utc: '2026-12-04T01:00:00Z'
+  display_when: Thursday, December 3, 2026, 6 PM to 8 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 103
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-12-03-open-gym-pickleball-e3b971.md
+- id: event-296f50798c549ccc
+  uid: ET-30270334-173559224@resources.planningcenteronline.com
+  title: Men's Breakfast
+  summary: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast.
+  start: '2026-12-05T08:00:00-05:00'
+  end: '2026-12-05T10:00:00-05:00'
+  sort_start_utc: '2026-12-05T13:00:00Z'
+  sort_end_utc: '2026-12-05T15:00:00Z'
+  display_when: Saturday, December 5, 2026, 8 AM to 10 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium at Urbancrest
+  ministries:
+  - men
+  audiences:
+  - men
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 104
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-12-05-men-s-breakfast-549ccc.md
+- id: event-b29ea6677fe5b958
+  uid: ET-8762150-173665460@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2026-12-06T09:30:00-05:00'
+  end: '2026-12-06T10:30:00-05:00'
+  sort_start_utc: '2026-12-06T14:30:00Z'
+  sort_end_utc: '2026-12-06T15:30:00Z'
+  display_when: Sunday, December 6, 2026, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 105
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-12-06-p-u-r-s-u-e-e5b958.md
+- id: event-86008d8c46ca6790
+  uid: ET-9127131-173665461@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-12-06T09:30:00-05:00'
+  end: '2026-12-06T10:40:00-05:00'
+  sort_start_utc: '2026-12-06T14:30:00Z'
+  sort_end_utc: '2026-12-06T15:40:00Z'
+  display_when: Sunday, December 6, 2026, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 106
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-12-06-sunday-morning-services-9-30-am-service-ca6790.md
+- id: event-14d5eeb361d6795d
+  uid: ET-27323098-203958301@resources.planningcenteronline.com
+  title: Women's Christmas Event
+  summary: The Women's Ministry presents their Christmas event on Sunday, December 6 at 4:00 PM in the gymnasium.
+  start: '2026-12-06T16:00:00-05:00'
+  end: '2026-12-06T18:00:00-05:00'
+  sort_start_utc: '2026-12-06T21:00:00Z'
+  sort_end_utc: '2026-12-06T23:00:00Z'
+  display_when: Sunday, December 6, 2026, 4 PM to 6 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: The Women's Ministry presents their Christmas event on Sunday, December 6 at 4:00 PM in the gymnasium.
+  ministries:
+  - men
+  - women
+  audiences:
+  - men
+  - women
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 107
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-12-06-women-s-christmas-event-d6795d.md
+- id: event-cdb046e5d9e9bfa2
+  uid: ET-8762150-174228981@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2026-12-13T09:30:00-05:00'
+  end: '2026-12-13T10:30:00-05:00'
+  sort_start_utc: '2026-12-13T14:30:00Z'
+  sort_end_utc: '2026-12-13T15:30:00Z'
+  display_when: Sunday, December 13, 2026, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 108
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-12-13-p-u-r-s-u-e-e9bfa2.md
+- id: event-64c2ccc43d0fd347
+  uid: ET-8762150-174858350@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2026-12-20T09:30:00-05:00'
+  end: '2026-12-20T10:30:00-05:00'
+  sort_start_utc: '2026-12-20T14:30:00Z'
+  sort_end_utc: '2026-12-20T15:30:00Z'
+  display_when: Sunday, December 20, 2026, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 109
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-12-20-p-u-r-s-u-e-0fd347.md
+- id: event-f31b6a2fb7440985
+  uid: ET-8762150-175168854@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2026-12-27T09:30:00-05:00'
+  end: '2026-12-27T10:30:00-05:00'
+  sort_start_utc: '2026-12-27T14:30:00Z'
+  sort_end_utc: '2026-12-27T15:30:00Z'
+  display_when: Sunday, December 27, 2026, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 110
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-12-27-p-u-r-s-u-e-440985.md
+- id: event-5783c30d183d2c83
+  uid: ET-30270334-175505238@resources.planningcenteronline.com
+  title: Men's Breakfast
+  summary: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast.
+  start: '2027-01-02T08:00:00-05:00'
+  end: '2027-01-02T10:00:00-05:00'
+  sort_start_utc: '2027-01-02T13:00:00Z'
+  sort_end_utc: '2027-01-02T15:00:00Z'
+  display_when: Saturday, January 2, 2027, 8 AM to 10 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium at Urbancrest
+  ministries:
+  - men
+  audiences:
+  - men
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 111
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-01-02-men-s-breakfast-3d2c83.md
+- id: event-dc26652f5bb9a311
+  uid: ET-8762150-175628417@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-01-03T09:30:00-05:00'
+  end: '2027-01-03T10:30:00-05:00'
+  sort_start_utc: '2027-01-03T14:30:00Z'
+  sort_end_utc: '2027-01-03T15:30:00Z'
+  display_when: Sunday, January 3, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 112
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-01-03-p-u-r-s-u-e-b9a311.md
+- id: event-9b74a5b831573975
+  uid: ET-8762150-176633356@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-01-10T09:30:00-05:00'
+  end: '2027-01-10T10:30:00-05:00'
+  sort_start_utc: '2027-01-10T14:30:00Z'
+  sort_end_utc: '2027-01-10T15:30:00Z'
+  display_when: Sunday, January 10, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 113
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-01-10-p-u-r-s-u-e-573975.md
+- id: event-8029c470e3849556
+  uid: ET-8762150-177521375@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-01-17T09:30:00-05:00'
+  end: '2027-01-17T10:30:00-05:00'
+  sort_start_utc: '2027-01-17T14:30:00Z'
+  sort_end_utc: '2027-01-17T15:30:00Z'
+  display_when: Sunday, January 17, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 114
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-01-17-p-u-r-s-u-e-849556.md
+- id: event-3d7f9c7b59696271
+  uid: ET-8762150-178227937@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-01-24T09:30:00-05:00'
+  end: '2027-01-24T10:30:00-05:00'
+  sort_start_utc: '2027-01-24T14:30:00Z'
+  sort_end_utc: '2027-01-24T15:30:00Z'
+  display_when: Sunday, January 24, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 115
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-01-24-p-u-r-s-u-e-696271.md
+- id: event-9f32a6631850aaa2
+  uid: ET-14177442-178563594@resources.planningcenteronline.com
+  title: Summit - Gym Set-up
+  summary: Summit - Gym Set-up is scheduled for Thursday, January 28, 2027.
+  start: '2027-01-28'
+  end: '2027-01-29'
+  sort_start_utc: '2027-01-28T05:00:00Z'
+  sort_end_utc: '2027-01-29T05:00:00Z'
+  display_when: Thursday, January 28, 2027
+  all_day: true
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: major_event
+  event_priority: 100
+  collection: main_events
+  status: confirmed
+  chronological_rank: 116
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-01-28-summit-gym-set-up-50aaa2.md
+- id: event-14f4a495890ad28e
+  uid: ET-8762150-178993061@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-01-31T09:30:00-05:00'
+  end: '2027-01-31T10:30:00-05:00'
+  sort_start_utc: '2027-01-31T14:30:00Z'
+  sort_end_utc: '2027-01-31T15:30:00Z'
+  display_when: Sunday, January 31, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 117
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-01-31-p-u-r-s-u-e-0ad28e.md
+- id: event-2f1f828e89fa0b3e
+  uid: ET-30270334-179599397@resources.planningcenteronline.com
+  title: Men's Breakfast
+  summary: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast.
+  start: '2027-02-06T08:00:00-05:00'
+  end: '2027-02-06T10:00:00-05:00'
+  sort_start_utc: '2027-02-06T13:00:00Z'
+  sort_end_utc: '2027-02-06T15:00:00Z'
+  display_when: Saturday, February 6, 2027, 8 AM to 10 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium at Urbancrest
+  ministries:
+  - men
+  audiences:
+  - men
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 118
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-02-06-men-s-breakfast-fa0b3e.md
+- id: event-fd310285e95d7610
+  uid: ET-8762150-179714952@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-02-07T09:30:00-05:00'
+  end: '2027-02-07T10:30:00-05:00'
+  sort_start_utc: '2027-02-07T14:30:00Z'
+  sort_end_utc: '2027-02-07T15:30:00Z'
+  display_when: Sunday, February 7, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 119
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-02-07-p-u-r-s-u-e-5d7610.md
+- id: event-2ab85a2a40b0cdee
+  uid: ET-8762150-180379778@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-02-14T09:30:00-05:00'
+  end: '2027-02-14T10:30:00-05:00'
+  sort_start_utc: '2027-02-14T14:30:00Z'
+  sort_end_utc: '2027-02-14T15:30:00Z'
+  display_when: Sunday, February 14, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 120
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-02-14-p-u-r-s-u-e-b0cdee.md
+- id: event-910e5866020f2ef6
+  uid: ET-8762150-181029213@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-02-21T09:30:00-05:00'
+  end: '2027-02-21T10:30:00-05:00'
+  sort_start_utc: '2027-02-21T14:30:00Z'
+  sort_end_utc: '2027-02-21T15:30:00Z'
+  display_when: Sunday, February 21, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 121
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-02-21-p-u-r-s-u-e-0f2ef6.md
+- id: event-1003d48ddfc08e98
+  uid: ET-8762150-181712613@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-02-28T09:30:00-05:00'
+  end: '2027-02-28T10:30:00-05:00'
+  sort_start_utc: '2027-02-28T14:30:00Z'
+  sort_end_utc: '2027-02-28T15:30:00Z'
+  display_when: Sunday, February 28, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 122
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-02-28-p-u-r-s-u-e-c08e98.md
+- id: event-e20b9e6cbdb236b5
+  uid: ET-30270334-182177829@resources.planningcenteronline.com
+  title: Men's Breakfast
+  summary: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast.
+  start: '2027-03-06T08:00:00-05:00'
+  end: '2027-03-06T10:00:00-05:00'
+  sort_start_utc: '2027-03-06T13:00:00Z'
+  sort_end_utc: '2027-03-06T15:00:00Z'
+  display_when: Saturday, March 6, 2027, 8 AM to 10 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium at Urbancrest
+  ministries:
+  - men
+  audiences:
+  - men
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 123
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-03-06-men-s-breakfast-b236b5.md
+- id: event-c2762fa087030fbd
+  uid: ET-8762150-182308662@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-03-07T09:30:00-05:00'
+  end: '2027-03-07T10:30:00-05:00'
+  sort_start_utc: '2027-03-07T14:30:00Z'
+  sort_end_utc: '2027-03-07T15:30:00Z'
+  display_when: Sunday, March 7, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 124
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-03-07-p-u-r-s-u-e-030fbd.md
+- id: event-9fc355d91b790e5a
+  uid: ET-8762150-182961870@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-03-14T09:30:00-04:00'
+  end: '2027-03-14T10:30:00-04:00'
+  sort_start_utc: '2027-03-14T13:30:00Z'
+  sort_end_utc: '2027-03-14T14:30:00Z'
+  display_when: Sunday, March 14, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 125
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-03-14-p-u-r-s-u-e-790e5a.md
+- id: event-0b29a5aa7b217b95
+  uid: ET-8762150-183553238@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-03-21T09:30:00-04:00'
+  end: '2027-03-21T10:30:00-04:00'
+  sort_start_utc: '2027-03-21T13:30:00Z'
+  sort_end_utc: '2027-03-21T14:30:00Z'
+  display_when: Sunday, March 21, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 126
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-03-21-p-u-r-s-u-e-217b95.md
+- id: event-56faced5dab2c788
+  uid: ET-8762150-184127574@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-03-28T09:30:00-04:00'
+  end: '2027-03-28T10:30:00-04:00'
+  sort_start_utc: '2027-03-28T13:30:00Z'
+  sort_end_utc: '2027-03-28T14:30:00Z'
+  display_when: Sunday, March 28, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 127
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-03-28-p-u-r-s-u-e-b2c788.md
+- id: event-221b224bdc069bd4
+  uid: ET-30270334-184574784@resources.planningcenteronline.com
+  title: Men's Breakfast
+  summary: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast.
+  start: '2027-04-03T08:00:00-04:00'
+  end: '2027-04-03T10:00:00-04:00'
+  sort_start_utc: '2027-04-03T12:00:00Z'
+  sort_end_utc: '2027-04-03T14:00:00Z'
+  display_when: Saturday, April 3, 2027, 8 AM to 10 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium at Urbancrest
+  ministries:
+  - men
+  audiences:
+  - men
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 128
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-04-03-men-s-breakfast-069bd4.md
+- id: event-79d054329a2e9727
+  uid: ET-8762150-184709692@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-04-04T09:30:00-04:00'
+  end: '2027-04-04T10:30:00-04:00'
+  sort_start_utc: '2027-04-04T13:30:00Z'
+  sort_end_utc: '2027-04-04T14:30:00Z'
+  display_when: Sunday, April 4, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 129
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-04-04-p-u-r-s-u-e-2e9727.md
+- id: event-f2f8bb3688f6a6f7
+  uid: ET-31703048-229161073@resources.planningcenteronline.com
+  title: Missions Conference
+  summary: Missions Conference is scheduled for Wednesday, April 7, 2027 through Sunday, April 11, 2027 at Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036.
+  start: '2027-04-07'
+  end: '2027-04-12'
+  sort_start_utc: '2027-04-07T04:00:00Z'
+  sort_end_utc: '2027-04-12T04:00:00Z'
+  display_when: Wednesday, April 7, 2027 through Sunday, April 11, 2027
+  all_day: true
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  ministries:
+  - missions
+  audiences:
+  - everyone
+  event_category: major_event
+  event_priority: 100
+  collection: main_events
+  status: confirmed
+  chronological_rank: 130
+  next_for_ministries:
+  - missions
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-04-07-missions-conference-f6a6f7.md
+- id: event-6dcb851bb193c2dd
+  uid: ET-8762150-185242407@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-04-11T09:30:00-04:00'
+  end: '2027-04-11T10:30:00-04:00'
+  sort_start_utc: '2027-04-11T13:30:00Z'
+  sort_end_utc: '2027-04-11T14:30:00Z'
+  display_when: Sunday, April 11, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 131
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-04-11-p-u-r-s-u-e-93c2dd.md
+- id: event-c0489022b6e41c24
+  uid: ET-8762150-185783917@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-04-18T09:30:00-04:00'
+  end: '2027-04-18T10:30:00-04:00'
+  sort_start_utc: '2027-04-18T13:30:00Z'
+  sort_end_utc: '2027-04-18T14:30:00Z'
+  display_when: Sunday, April 18, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 132
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-04-18-p-u-r-s-u-e-e41c24.md
+- id: event-744384e5b1d9f0d6
+  uid: ET-31705455-229172206@resources.planningcenteronline.com
+  title: 3V3 Basketball Tournament
+  summary: 100% of proceeds go toward sending students to Youth Summer Camp — helping make camp more affordable and giving more students the chance to attend....
+  start: '2027-04-24T12:00:00-04:00'
+  end: '2027-04-24T19:00:00-04:00'
+  sort_start_utc: '2027-04-24T16:00:00Z'
+  sort_end_utc: '2027-04-24T23:00:00Z'
+  display_when: Saturday, April 24, 2027, 12 PM to 7 PM
+  all_day: false
+  location: 'Lebanon High School - 1916 Drake Rd
+
+    Lebanon, OH 45036'
+  description: 100% of proceeds go toward sending students to Youth Summer Camp — helping make camp more affordable and giving more students the chance to attend. Gather your team, enjoy some friendly competition, and help invest in the next generation.
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 133
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-04-24-3v3-basketball-tournament-d9f0d6.md
+- id: event-f6f8b5556e95a8d5
+  uid: ET-8762150-186242939@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-04-25T09:30:00-04:00'
+  end: '2027-04-25T10:30:00-04:00'
+  sort_start_utc: '2027-04-25T13:30:00Z'
+  sort_end_utc: '2027-04-25T14:30:00Z'
+  display_when: Sunday, April 25, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 134
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-04-25-p-u-r-s-u-e-95a8d5.md
+- id: event-6b890c8277d1cfba
+  uid: ET-30270334-186694422@resources.planningcenteronline.com
+  title: Men's Breakfast
+  summary: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast.
+  start: '2027-05-01T08:00:00-04:00'
+  end: '2027-05-01T10:00:00-04:00'
+  sort_start_utc: '2027-05-01T12:00:00Z'
+  sort_end_utc: '2027-05-01T14:00:00Z'
+  display_when: Saturday, May 1, 2027, 8 AM to 10 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium at Urbancrest
+  ministries:
+  - men
+  audiences:
+  - men
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 135
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-05-01-men-s-breakfast-d1cfba.md
+- id: event-650c2dd41dc4a599
+  uid: ET-8762150-186833875@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-05-02T09:30:00-04:00'
+  end: '2027-05-02T10:30:00-04:00'
+  sort_start_utc: '2027-05-02T13:30:00Z'
+  sort_end_utc: '2027-05-02T14:30:00Z'
+  display_when: Sunday, May 2, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 136
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-05-02-p-u-r-s-u-e-c4a599.md
+- id: event-2b5d740b36585e9e
+  uid: ET-8762150-187438411@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-05-09T09:30:00-04:00'
+  end: '2027-05-09T10:30:00-04:00'
+  sort_start_utc: '2027-05-09T13:30:00Z'
+  sort_end_utc: '2027-05-09T14:30:00Z'
+  display_when: Sunday, May 9, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 137
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-05-09-p-u-r-s-u-e-585e9e.md
+- id: event-15dddcc1725b41df
+  uid: ET-8762150-187978015@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-05-16T09:30:00-04:00'
+  end: '2027-05-16T10:30:00-04:00'
+  sort_start_utc: '2027-05-16T13:30:00Z'
+  sort_end_utc: '2027-05-16T14:30:00Z'
+  display_when: Sunday, May 16, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 138
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-05-16-p-u-r-s-u-e-5b41df.md
+- id: event-e7e2b8325b471aa6
+  uid: ET-8762150-188635612@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-05-23T09:30:00-04:00'
+  end: '2027-05-23T10:30:00-04:00'
+  sort_start_utc: '2027-05-23T13:30:00Z'
+  sort_end_utc: '2027-05-23T14:30:00Z'
+  display_when: Sunday, May 23, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 139
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-05-23-p-u-r-s-u-e-471aa6.md
+- id: event-c93b21cfb5518e4a
+  uid: ET-8762150-189178223@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-05-30T09:30:00-04:00'
+  end: '2027-05-30T10:30:00-04:00'
+  sort_start_utc: '2027-05-30T13:30:00Z'
+  sort_end_utc: '2027-05-30T14:30:00Z'
+  display_when: Sunday, May 30, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 140
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-05-30-p-u-r-s-u-e-518e4a.md
+- id: event-8fca2702ae456a52
+  uid: ET-30270334-189635733@resources.planningcenteronline.com
+  title: Men's Breakfast
+  summary: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast.
+  start: '2027-06-05T08:00:00-04:00'
+  end: '2027-06-05T10:00:00-04:00'
+  sort_start_utc: '2027-06-05T12:00:00Z'
+  sort_end_utc: '2027-06-05T14:00:00Z'
+  display_when: Saturday, June 5, 2027, 8 AM to 10 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium at Urbancrest
+  ministries:
+  - men
+  audiences:
+  - men
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 141
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-06-05-men-s-breakfast-456a52.md
+- id: event-8392fb148d57106e
+  uid: ET-8762150-189755214@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-06-06T09:30:00-04:00'
+  end: '2027-06-06T10:30:00-04:00'
+  sort_start_utc: '2027-06-06T13:30:00Z'
+  sort_end_utc: '2027-06-06T14:30:00Z'
+  display_when: Sunday, June 6, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 142
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-06-06-p-u-r-s-u-e-57106e.md
+- id: event-08082aef78951848
+  uid: ET-8762150-190366386@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-06-13T09:30:00-04:00'
+  end: '2027-06-13T10:30:00-04:00'
+  sort_start_utc: '2027-06-13T13:30:00Z'
+  sort_end_utc: '2027-06-13T14:30:00Z'
+  display_when: Sunday, June 13, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 143
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-06-13-p-u-r-s-u-e-951848.md
+- id: event-ee387a7ae9d091a4
+  uid: ET-8762150-190927289@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-06-20T09:30:00-04:00'
+  end: '2027-06-20T10:30:00-04:00'
+  sort_start_utc: '2027-06-20T13:30:00Z'
+  sort_end_utc: '2027-06-20T14:30:00Z'
+  display_when: Sunday, June 20, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 144
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-06-20-p-u-r-s-u-e-d091a4.md
+- id: event-c52817750c3a7cb2
+  uid: ET-8762150-191499597@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-06-27T09:30:00-04:00'
+  end: '2027-06-27T10:30:00-04:00'
+  sort_start_utc: '2027-06-27T13:30:00Z'
+  sort_end_utc: '2027-06-27T14:30:00Z'
+  display_when: Sunday, June 27, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 145
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-06-27-p-u-r-s-u-e-3a7cb2.md
+- id: event-ea907817827dcbd4
+  uid: ET-30270334-191939841@resources.planningcenteronline.com
+  title: Men's Breakfast
+  summary: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast.
+  start: '2027-07-03T08:00:00-04:00'
+  end: '2027-07-03T10:00:00-04:00'
+  sort_start_utc: '2027-07-03T12:00:00Z'
+  sort_end_utc: '2027-07-03T14:00:00Z'
+  display_when: Saturday, July 3, 2027, 8 AM to 10 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium at Urbancrest
+  ministries:
+  - men
+  audiences:
+  - men
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 146
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-07-03-men-s-breakfast-7dcbd4.md
+- id: event-d19742fa819b16ca
+  uid: ET-8762150-192039973@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-07-04T09:30:00-04:00'
+  end: '2027-07-04T10:30:00-04:00'
+  sort_start_utc: '2027-07-04T13:30:00Z'
+  sort_end_utc: '2027-07-04T14:30:00Z'
+  display_when: Sunday, July 4, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 147
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-07-04-p-u-r-s-u-e-9b16ca.md
+- id: event-d1d1d00b65652bc6
+  uid: ET-8762150-192570407@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-07-11T09:30:00-04:00'
+  end: '2027-07-11T10:30:00-04:00'
+  sort_start_utc: '2027-07-11T13:30:00Z'
+  sort_end_utc: '2027-07-11T14:30:00Z'
+  display_when: Sunday, July 11, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 148
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-07-11-p-u-r-s-u-e-652bc6.md
+- id: event-3d91ef03a2eb405a
+  uid: ET-8762150-193205936@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-07-18T09:30:00-04:00'
+  end: '2027-07-18T10:30:00-04:00'
+  sort_start_utc: '2027-07-18T13:30:00Z'
+  sort_end_utc: '2027-07-18T14:30:00Z'
+  display_when: Sunday, July 18, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 149
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-07-18-p-u-r-s-u-e-eb405a.md
+- id: event-1b3cfc1ff2dbe1c1
+  uid: ET-8762150-193794020@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-07-25T09:30:00-04:00'
+  end: '2027-07-25T10:30:00-04:00'
+  sort_start_utc: '2027-07-25T13:30:00Z'
+  sort_end_utc: '2027-07-25T14:30:00Z'
+  display_when: Sunday, July 25, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 150
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-07-25-p-u-r-s-u-e-dbe1c1.md

@@ -1,6 +1,6 @@
 ---
 id: events.live.event-12888d127942b1db
-version: 1.4
+version: 1.4.1
 status: published
 priority: 80
 title: "Block Party – Warren Metropolitan Housing Authority"
@@ -39,7 +39,7 @@ next_for_audiences: ["children", "families", "volunteers"]
 all_day: false
 registration_url: "https://urbancrest.churchcenter.com/registrations/events/3606292"
 location: "Warren Metropolitan Housing Authority - 990 E Ridge Dr\nLebanon, OH 45036"
-last_generated: 2026-07-27T15:29:17.168565Z
+last_generated: 2026-07-27T19:55:29.047018Z
 ---
 
 # Block Party – Warren Metropolitan Housing Authority
