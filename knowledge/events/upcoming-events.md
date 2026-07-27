@@ -20,7 +20,7 @@ review:
 tags: [events, calendar, upcoming, schedule]
 resources:
   - events.live
-last_generated: 2026-07-27T13:31:32.729636+00:00
+last_generated: 2026-07-27T13:39:47.573493+00:00
 ---
 
 # Upcoming Events
