@@ -1,0 +1,38 @@
+version: '1.0'
+last_updated: '2026-07-27'
+sources:
+  github_knowledge:
+    authority: authoritative_public_knowledge
+    includes:
+    - knowledge
+    - registry
+    - relationships
+    - intents
+  base44_staff:
+    authority: authoritative_staff_profile_and_card_data
+    entity: Staff
+    fields:
+    - bio
+    - funFact
+    - photo
+    - phone
+    - email
+    - role
+    - active
+    - order
+  base44_admin_knowledge:
+    authority: approved_supplemental_knowledge
+    entity: KnowledgeEntry
+    public_filter:
+      status: published
+      approved: true
+  base44_query_analytics:
+    authority: operational_only
+    entities:
+    - SearchQueryLog
+    - UnansweredQuestion
+precedence:
+- Structured live event and Small Group data from GitHub overrides conflicting admin entries.
+- Base44 Staff overrides GitHub for biography, fun fact, contact, photo, active status, and display order.
+- GitHub staff routing determines staffKey and ministry relationships.
+- Approved Base44 KnowledgeEntry records may supplement public knowledge but must not silently replace authoritative structured records.
