@@ -1,6 +1,6 @@
 ---
 id: events.upcoming.live
-version: 1.0
+version: 1.1
 status: published
 priority: 100
 title: Upcoming Events
@@ -18,11 +18,6 @@ review:
   doctrinal: not_required
   factual: automated
 tags: [events, calendar, upcoming, schedule]
-search_terms:
-  - What events are coming up?
-  - What is happening at Urbancrest?
-  - Church calendar
-  - Upcoming activities
 resources:
   - events.live
 last_generated: null
@@ -32,4 +27,4 @@ last_generated: null
 
 This page is generated automatically from Urbancrest's live calendar.
 
-The first event sync has not run yet.
+The first version 1.1 sync has not run yet.
