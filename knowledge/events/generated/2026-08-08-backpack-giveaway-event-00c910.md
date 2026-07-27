@@ -1,0 +1,51 @@
+---
+id: events.live.event-c53a75611600c910
+version: 1.3
+status: published
+priority: 90
+title: "Backpack Giveaway Event"
+summary: "Backpack Giveaway Event is scheduled for Saturday, August 8, 2026, 10 AM to 12 PM at Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036."
+category: [events]
+intent:
+  primary: event_details
+  secondary: [upcoming_events, calendar, schedule, registration, next_ministry_event]
+audience: [everyone]
+ministries: [churchwide]
+answer_style: helpful
+confidence: high
+owner:
+  ministry: church_office
+review:
+  doctrinal: not_required
+  factual: automated
+tags: [event, calendar, upcoming, churchwide, everyone]
+search_terms:
+  - "Backpack Giveaway Event"
+  - "When is Backpack Giveaway Event?"
+  - "Where is Backpack Giveaway Event?"
+  - "Tell me about Backpack Giveaway Event"
+  - "How do I register for Backpack Giveaway Event?"
+resources:
+  - events.live
+event_id: event-c53a75611600c910
+event_start: "2026-08-08T10:00:00-04:00"
+event_end: "2026-08-08T12:00:00-04:00"
+sort_start_utc: "2026-08-08T14:00:00Z"
+sort_end_utc: "2026-08-08T16:00:00Z"
+chronological_rank: 16
+next_for_ministries: []
+next_for_audiences: []
+all_day: false
+location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
+last_generated: 2026-07-27T14:43:24.367230Z
+---
+
+# Backpack Giveaway Event
+
+Backpack Giveaway Event is scheduled for Saturday, August 8, 2026, 10 AM to 12 PM at Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036.
+
+**When:** Saturday, August 8, 2026, 10 AM to 12 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+This information is synchronized automatically from Urbancrest's live calendar.

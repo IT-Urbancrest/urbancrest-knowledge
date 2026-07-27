@@ -1,9 +1,1865 @@
 version: '1.3'
-generated_at: null
+generated_at: '2026-07-27T14:43:24.367230Z'
 timezone: America/New_York
 source: planning_center_ical
 source_of_truth_for_calendar_intents: true
 sort_order: sort_start_utc_ascending
-lookahead_days: 180
-event_count: 0
-events: []
+lookahead_days: 120
+event_count: 75
+events:
+- id: event-7607085601c1b4dc
+  uid: ET-31398539-161895477@resources.planningcenteronline.com
+  title: 'Connie Hollan Small Group: Ladies Bible Study'
+  summary: Connie Hollan
+  start: '2026-07-27T19:00:00-04:00'
+  end: '2026-07-27T20:30:00-04:00'
+  sort_start_utc: '2026-07-27T23:00:00Z'
+  sort_end_utc: '2026-07-28T00:30:00Z'
+  display_when: Monday, July 27, 2026, 7 PM to 8:30 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Connie Hollan
+  ministries:
+  - small_groups
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 1
+  next_for_ministries:
+  - small_groups
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-07-27-connie-hollan-small-group-ladies-bible-study-c1b4dc.md
+- id: event-5676c861b9f6cde9
+  uid: ET-28363570-161895480@resources.planningcenteronline.com
+  title: 'Steve Gregory Small Group: Steve Gregory'
+  summary: 'Steve Gregory Small Group: Steve Gregory is scheduled for Monday, July 27, 2026, 7 PM to 8:30 PM.'
+  start: '2026-07-27T19:00:00-04:00'
+  end: '2026-07-27T20:30:00-04:00'
+  sort_start_utc: '2026-07-27T23:00:00Z'
+  sort_end_utc: '2026-07-28T00:30:00Z'
+  display_when: Monday, July 27, 2026, 7 PM to 8:30 PM
+  all_day: false
+  ministries:
+  - small_groups
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 2
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-07-27-steve-gregory-small-group-steve-gregory-f6cde9.md
+- id: event-12888d127942b1db
+  uid: ET-30334650-221178158@resources.planningcenteronline.com
+  title: Block Party – Warren Metropolitan Housing Authority
+  summary: All are invited and welcome to attend a FREE Block Party at Warren Metropolitan Housing Authority on Wednesday evening, July 29 at 6:00 PM!...
+  start: '2026-07-29T18:00:00-04:00'
+  end: '2026-07-29T19:30:00-04:00'
+  sort_start_utc: '2026-07-29T22:00:00Z'
+  sort_end_utc: '2026-07-29T23:30:00Z'
+  display_when: Wednesday, July 29, 2026, 6 PM to 7:30 PM
+  all_day: false
+  location: 'Warren Metropolitan Housing Authority - 990 E Ridge Dr
+
+    Lebanon, OH 45036'
+  description: 'All are invited and welcome to attend a FREE Block Party at Warren Metropolitan Housing Authority on Wednesday evening, July 29 at 6:00 PM!
+
+
+    What to Expect:
+
+    At our Block Parties, there is fun in store for the whole family! All can enjoy free food, games, train rides for kids, face painting, and more!
+
+
+    When:
+
+    Wednesday, July 29 at 6:00 PM
+
+
+    Where:
+
+    Warren Metropolitan Housing Authority, 990 E Ridge Dr Apt.26, Lebanon, OH 45036
+
+
+    Please reach out to Pastor Darrel with any questions at dschick@urbancrest.org.
+
+
+    If you are an Urbancrest member who would like to volunteer, please sign up HERE ( https://urbancrest.churchcenter.com/registrations/events/3596612 ).
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/3606292'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3606292
+  ministries:
+  - kids
+  audiences:
+  - children
+  - families
+  - volunteers
+  status: confirmed
+  chronological_rank: 3
+  next_for_ministries:
+  - kids
+  next_for_audiences:
+  - children
+  - families
+  - volunteers
+  knowledge_file: knowledge/events/generated/2026-07-29-block-party-warren-metropolitan-housing-authority-42b1db.md
+- id: event-e44fa0ff1817020b
+  uid: ET-29468516-216277428@resources.planningcenteronline.com
+  title: OPEN GYM Pickleball
+  summary: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
+  start: '2026-07-30T18:00:00-04:00'
+  end: '2026-07-30T20:00:00-04:00'
+  sort_start_utc: '2026-07-30T22:00:00Z'
+  sort_end_utc: '2026-07-31T00:00:00Z'
+  display_when: Thursday, July 30, 2026, 6 PM to 8 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 4
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-07-30-open-gym-pickleball-17020b.md
+- id: event-4153d613419815ba
+  uid: ET-30270334-162302401@resources.planningcenteronline.com
+  title: Men's Breakfast
+  summary: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast.
+  start: '2026-08-01T08:00:00-04:00'
+  end: '2026-08-01T10:00:00-04:00'
+  sort_start_utc: '2026-08-01T12:00:00Z'
+  sort_end_utc: '2026-08-01T14:00:00Z'
+  display_when: Saturday, August 1, 2026, 8 AM to 10 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium at Urbancrest
+  ministries:
+  - men
+  audiences:
+  - men
+  status: confirmed
+  chronological_rank: 5
+  next_for_ministries:
+  - men
+  next_for_audiences:
+  - men
+  knowledge_file: knowledge/events/generated/2026-08-01-men-s-breakfast-9815ba.md
+- id: event-751f744e0c4728eb
+  uid: ET-30334750-221178522@resources.planningcenteronline.com
+  title: Block Party – KOA Campground
+  summary: All are invited and welcome to attend a FREE Block Party at KOA Campground on Saturday morning, August 1 at 10:00 AM!...
+  start: '2026-08-01T10:00:00-04:00'
+  end: '2026-08-01T11:30:00-04:00'
+  sort_start_utc: '2026-08-01T14:00:00Z'
+  sort_end_utc: '2026-08-01T15:30:00Z'
+  display_when: Saturday, August 1, 2026, 10 AM to 11:30 AM
+  all_day: false
+  location: 'KOA Campground - 760 Franklin Rd
+
+    Lebanon, OH 45036'
+  description: 'All are invited and welcome to attend a FREE Block Party at KOA Campground on Saturday morning, August 1 at 10:00 AM!
+
+
+    What to Expect:
+
+    At our Block Parties, there is fun in store for the whole family! All can enjoy free food, games, train rides for kids, face painting, and more!
+
+
+    When:
+
+    Saturday, August 1 at 10:00 AM
+
+
+    Where:
+
+    KOA Campground, 760 Franklin Rd, Lebanon, OH 45036
+
+
+    Please reach out to Pastor Darrel with any questions at dschick@urbancrest.org.
+
+
+    If you are an Urbancrest member who would like to volunteer, please sign up HERE ( https://urbancrest.churchcenter.com/registrations/events/3596612 ).
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/3606310'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3606310
+  ministries:
+  - kids
+  audiences:
+  - children
+  - families
+  - volunteers
+  status: confirmed
+  chronological_rank: 6
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-01-block-party-koa-campground-4728eb.md
+- id: event-3e670c31afa2ffdf
+  uid: ET-8762150-162432370@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2026-08-02T09:30:00-04:00'
+  end: '2026-08-02T10:30:00-04:00'
+  sort_start_utc: '2026-08-02T13:30:00Z'
+  sort_end_utc: '2026-08-02T14:30:00Z'
+  display_when: Sunday, August 2, 2026, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  status: confirmed
+  chronological_rank: 7
+  next_for_ministries:
+  - students
+  next_for_audiences:
+  - students
+  knowledge_file: knowledge/events/generated/2026-08-02-p-u-r-s-u-e-a2ffdf.md
+- id: event-c50b2568e3a71a63
+  uid: ET-9127131-162432371@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-08-02T09:30:00-04:00'
+  end: '2026-08-02T10:40:00-04:00'
+  sort_start_utc: '2026-08-02T13:30:00Z'
+  sort_end_utc: '2026-08-02T14:40:00Z'
+  display_when: Sunday, August 2, 2026, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 8
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-02-sunday-morning-services-9-30-am-service-a71a63.md
+- id: event-cff00c9015feeae6
+  uid: ET-9127132-162432371@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-08-02T11:00:00-04:00'
+  end: '2026-08-02T12:10:00-04:00'
+  sort_start_utc: '2026-08-02T15:00:00Z'
+  sort_end_utc: '2026-08-02T16:10:00Z'
+  display_when: Sunday, August 2, 2026, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 9
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-02-sunday-morning-services-11-00-am-service-feeae6.md
+- id: event-208ae73f105cc125
+  uid: ET-31579190-228356604@resources.planningcenteronline.com
+  title: Leah Busick Reception
+  summary: Leah Busick Reception is scheduled for Sunday, August 2, 2026, 4 PM to 6 PM.
+  start: '2026-08-02T16:00:00-04:00'
+  end: '2026-08-02T18:00:00-04:00'
+  sort_start_utc: '2026-08-02T20:00:00Z'
+  sort_end_utc: '2026-08-02T22:00:00Z'
+  display_when: Sunday, August 2, 2026, 4 PM to 6 PM
+  all_day: false
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 10
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-02-leah-busick-reception-5cc125.md
+- id: event-50f59dcb1fcbc7e2
+  uid: ET-31398539-162489186@resources.planningcenteronline.com
+  title: 'Connie Hollan Small Group: Ladies Bible Study'
+  summary: Connie Hollan
+  start: '2026-08-03T19:00:00-04:00'
+  end: '2026-08-03T20:30:00-04:00'
+  sort_start_utc: '2026-08-03T23:00:00Z'
+  sort_end_utc: '2026-08-04T00:30:00Z'
+  display_when: Monday, August 3, 2026, 7 PM to 8:30 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Connie Hollan
+  ministries:
+  - small_groups
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 11
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-03-connie-hollan-small-group-ladies-bible-study-cbc7e2.md
+- id: event-9873fa20c1423633
+  uid: ET-28363570-162489189@resources.planningcenteronline.com
+  title: 'Steve Gregory Small Group: Steve Gregory'
+  summary: 'Steve Gregory Small Group: Steve Gregory is scheduled for Monday, August 3, 2026, 7 PM to 8:30 PM.'
+  start: '2026-08-03T19:00:00-04:00'
+  end: '2026-08-03T20:30:00-04:00'
+  sort_start_utc: '2026-08-03T23:00:00Z'
+  sort_end_utc: '2026-08-04T00:30:00Z'
+  display_when: Monday, August 3, 2026, 7 PM to 8:30 PM
+  all_day: false
+  ministries:
+  - small_groups
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 12
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-03-steve-gregory-small-group-steve-gregory-423633.md
+- id: event-3d8d12fc8dd1508d
+  uid: ET-28363612-162521895@resources.planningcenteronline.com
+  title: Card Ministry
+  summary: Rai Lynn Guidone
+  start: '2026-08-04T09:00:00-04:00'
+  end: '2026-08-04T12:00:00-04:00'
+  sort_start_utc: '2026-08-04T13:00:00Z'
+  sort_end_utc: '2026-08-04T16:00:00Z'
+  display_when: Tuesday, August 4, 2026, 9 AM to 12 PM
+  all_day: false
+  description: Rai Lynn Guidone
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 13
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-04-card-ministry-d1508d.md
+- id: event-8969db32902bc9d3
+  uid: ET-25282532-163114804@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.
+  start: '2026-08-05T18:30:00-04:00'
+  end: '2026-08-05T20:30:00-04:00'
+  sort_start_utc: '2026-08-05T22:30:00Z'
+  sort_end_utc: '2026-08-06T00:30:00Z'
+  display_when: Wednesday, August 5, 2026, 6:30 PM to 8:30 PM
+  all_day: false
+  description: Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.
+  ministries:
+  - students
+  - worship
+  - small_groups
+  audiences:
+  - students
+  status: confirmed
+  chronological_rank: 14
+  next_for_ministries:
+  - worship
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-05-p-u-r-s-u-e-2bc9d3.md
+- id: event-ccf377daaf43c57b
+  uid: ET-29468516-216277429@resources.planningcenteronline.com
+  title: OPEN GYM Pickleball
+  summary: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
+  start: '2026-08-06T18:00:00-04:00'
+  end: '2026-08-06T20:00:00-04:00'
+  sort_start_utc: '2026-08-06T22:00:00Z'
+  sort_end_utc: '2026-08-07T00:00:00Z'
+  display_when: Thursday, August 6, 2026, 6 PM to 8 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 15
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-06-open-gym-pickleball-43c57b.md
+- id: event-c53a75611600c910
+  uid: ET-29881460-218655788@resources.planningcenteronline.com
+  title: Backpack Giveaway Event
+  summary: Backpack Giveaway Event is scheduled for Saturday, August 8, 2026, 10 AM to 12 PM at Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036.
+  start: '2026-08-08T10:00:00-04:00'
+  end: '2026-08-08T12:00:00-04:00'
+  sort_start_utc: '2026-08-08T14:00:00Z'
+  sort_end_utc: '2026-08-08T16:00:00Z'
+  display_when: Saturday, August 8, 2026, 10 AM to 12 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 16
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-08-backpack-giveaway-event-00c910.md
+- id: event-a9d2d691ffee30e0
+  uid: ET-30356739-221332807@resources.planningcenteronline.com
+  title: School Supplies Giveaway
+  summary: We are giving away school supplies to help students in our community have what they need to succeed this school year!...
+  start: '2026-08-08T10:00:00-04:00'
+  end: '2026-08-08T12:00:00-04:00'
+  sort_start_utc: '2026-08-08T14:00:00Z'
+  sort_end_utc: '2026-08-08T16:00:00Z'
+  display_when: Saturday, August 8, 2026, 10 AM to 12 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: 'We are giving away school supplies to help students in our community have what they need to succeed this school year! Students of any grade are welcome to stop by Urbancrest on Saturday, August 8 from 10:00 AM–12:00 PM to pick up needed supplies. Please register your student(s) to attend, listing the grades of each student coming, so we know how many students to expect.
+
+
+    Items we are giving away range from backpacks, notebooks and paper, to pens, pencils and craft supplies. We are also offering free hair cuts for all who attend!
+
+
+    Please Note: The supplies we are giving away have all been donated, so items available at the giveaway may vary by kind and quantity. We will operate on a first-come, first-serve basis, and we cannot make any guarantees.
+
+
+    If you have any questions, please reach out to Jen at jprows@urbancrest.org.
+
+
+    DETAILS:
+
+    Date: August 8, 2025
+
+    Time: 10:00 AM-12:00 PM
+
+    Address: Urbancrest at Lebanon
+
+    2634 Drake Rd. Lebanon, OH 45036
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/3609472'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3609472
+  ministries:
+  - students
+  audiences:
+  - students
+  - volunteers
+  status: confirmed
+  chronological_rank: 17
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-08-school-supplies-giveaway-ee30e0.md
+- id: event-d648bed5dd9d1d2c
+  uid: ET-8762150-163127032@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2026-08-09T09:30:00-04:00'
+  end: '2026-08-09T10:30:00-04:00'
+  sort_start_utc: '2026-08-09T13:30:00Z'
+  sort_end_utc: '2026-08-09T14:30:00Z'
+  display_when: Sunday, August 9, 2026, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  status: confirmed
+  chronological_rank: 18
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-09-p-u-r-s-u-e-9d1d2c.md
+- id: event-7a5dcb81d2408f37
+  uid: ET-9127131-163127042@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-08-09T09:30:00-04:00'
+  end: '2026-08-09T10:40:00-04:00'
+  sort_start_utc: '2026-08-09T13:30:00Z'
+  sort_end_utc: '2026-08-09T14:40:00Z'
+  display_when: Sunday, August 9, 2026, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 19
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-09-sunday-morning-services-9-30-am-service-408f37.md
+- id: event-ebdaaa1e316bb742
+  uid: ET-9127132-163127042@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-08-09T11:00:00-04:00'
+  end: '2026-08-09T12:10:00-04:00'
+  sort_start_utc: '2026-08-09T15:00:00Z'
+  sort_end_utc: '2026-08-09T16:10:00Z'
+  display_when: Sunday, August 9, 2026, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 20
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-09-sunday-morning-services-11-00-am-service-6bb742.md
+- id: event-ba17d0f7b0e08596
+  uid: ET-31398539-163212919@resources.planningcenteronline.com
+  title: 'Connie Hollan Small Group: Ladies Bible Study'
+  summary: Connie Hollan
+  start: '2026-08-10T19:00:00-04:00'
+  end: '2026-08-10T20:30:00-04:00'
+  sort_start_utc: '2026-08-10T23:00:00Z'
+  sort_end_utc: '2026-08-11T00:30:00Z'
+  display_when: Monday, August 10, 2026, 7 PM to 8:30 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Connie Hollan
+  ministries:
+  - small_groups
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 21
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-10-connie-hollan-small-group-ladies-bible-study-e08596.md
+- id: event-04126fb67aefc736
+  uid: ET-28363570-163212920@resources.planningcenteronline.com
+  title: 'Steve Gregory Small Group: Steve Gregory'
+  summary: 'Steve Gregory Small Group: Steve Gregory is scheduled for Monday, August 10, 2026, 7 PM to 8:30 PM.'
+  start: '2026-08-10T19:00:00-04:00'
+  end: '2026-08-10T20:30:00-04:00'
+  sort_start_utc: '2026-08-10T23:00:00Z'
+  sort_end_utc: '2026-08-11T00:30:00Z'
+  display_when: Monday, August 10, 2026, 7 PM to 8:30 PM
+  all_day: false
+  ministries:
+  - small_groups
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 22
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-10-steve-gregory-small-group-steve-gregory-efc736.md
+- id: event-268e3c6a6137ba8f
+  uid: ET-31393258-227262430@resources.planningcenteronline.com
+  title: Youth Back to School Bash
+  summary: All students in grades 7-12 are invited to attend the Youth Back to School Bash on Wednesday, August 12!...
+  start: '2026-08-12T17:00:00-04:00'
+  end: '2026-08-12T20:00:00-04:00'
+  sort_start_utc: '2026-08-12T21:00:00Z'
+  sort_end_utc: '2026-08-13T00:00:00Z'
+  display_when: Wednesday, August 12, 2026, 5 PM to 8 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: 'All students in grades 7-12 are invited to attend the Youth Back to School Bash on Wednesday, August 12! Everyone will meet in the Upper (Youth) Room at 5:00 PM, and then enjoy food and outdoor games as we kick off the school year together!
+
+
+    Reach out to Pastor Tucker with any questions at thoward@urbancrest.org.'
+  ministries:
+  - students
+  audiences:
+  - students
+  status: confirmed
+  chronological_rank: 23
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-12-youth-back-to-school-bash-37ba8f.md
+- id: event-bcbab557421e71c9
+  uid: ET-25282532-163295205@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.
+  start: '2026-08-12T18:30:00-04:00'
+  end: '2026-08-12T20:30:00-04:00'
+  sort_start_utc: '2026-08-12T22:30:00Z'
+  sort_end_utc: '2026-08-13T00:30:00Z'
+  display_when: Wednesday, August 12, 2026, 6:30 PM to 8:30 PM
+  all_day: false
+  description: Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.
+  ministries:
+  - students
+  - worship
+  - small_groups
+  audiences:
+  - students
+  status: confirmed
+  chronological_rank: 24
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-12-p-u-r-s-u-e-1e71c9.md
+- id: event-a07c79cc58a267ab
+  uid: ET-29468516-216277430@resources.planningcenteronline.com
+  title: OPEN GYM Pickleball
+  summary: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
+  start: '2026-08-13T18:00:00-04:00'
+  end: '2026-08-13T20:00:00-04:00'
+  sort_start_utc: '2026-08-13T22:00:00Z'
+  sort_end_utc: '2026-08-14T00:00:00Z'
+  display_when: Thursday, August 13, 2026, 6 PM to 8 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 25
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-13-open-gym-pickleball-a267ab.md
+- id: event-ab9febfd4e27cc47
+  uid: ET-8762150-163868048@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2026-08-16T09:30:00-04:00'
+  end: '2026-08-16T10:30:00-04:00'
+  sort_start_utc: '2026-08-16T13:30:00Z'
+  sort_end_utc: '2026-08-16T14:30:00Z'
+  display_when: Sunday, August 16, 2026, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  status: confirmed
+  chronological_rank: 26
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-16-p-u-r-s-u-e-27cc47.md
+- id: event-908186c179e226b5
+  uid: ET-9127131-163868049@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-08-16T09:30:00-04:00'
+  end: '2026-08-16T10:40:00-04:00'
+  sort_start_utc: '2026-08-16T13:30:00Z'
+  sort_end_utc: '2026-08-16T14:40:00Z'
+  display_when: Sunday, August 16, 2026, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 27
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-16-sunday-morning-services-9-30-am-service-e226b5.md
+- id: event-6d791f65d6684864
+  uid: ET-9127132-163868049@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-08-16T11:00:00-04:00'
+  end: '2026-08-16T12:10:00-04:00'
+  sort_start_utc: '2026-08-16T15:00:00Z'
+  sort_end_utc: '2026-08-16T16:10:00Z'
+  display_when: Sunday, August 16, 2026, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 28
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-16-sunday-morning-services-11-00-am-service-684864.md
+- id: event-259572349e619fd9
+  uid: ET-31398539-163944927@resources.planningcenteronline.com
+  title: 'Connie Hollan Small Group: Ladies Bible Study'
+  summary: Connie Hollan
+  start: '2026-08-17T19:00:00-04:00'
+  end: '2026-08-17T20:30:00-04:00'
+  sort_start_utc: '2026-08-17T23:00:00Z'
+  sort_end_utc: '2026-08-18T00:30:00Z'
+  display_when: Monday, August 17, 2026, 7 PM to 8:30 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Connie Hollan
+  ministries:
+  - small_groups
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 29
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-17-connie-hollan-small-group-ladies-bible-study-619fd9.md
+- id: event-b6a0079796d67335
+  uid: ET-28363570-163944929@resources.planningcenteronline.com
+  title: 'Steve Gregory Small Group: Steve Gregory'
+  summary: 'Steve Gregory Small Group: Steve Gregory is scheduled for Monday, August 17, 2026, 7 PM to 8:30 PM.'
+  start: '2026-08-17T19:00:00-04:00'
+  end: '2026-08-17T20:30:00-04:00'
+  sort_start_utc: '2026-08-17T23:00:00Z'
+  sort_end_utc: '2026-08-18T00:30:00Z'
+  display_when: Monday, August 17, 2026, 7 PM to 8:30 PM
+  all_day: false
+  ministries:
+  - small_groups
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 30
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-17-steve-gregory-small-group-steve-gregory-d67335.md
+- id: event-75c02532b780df8e
+  uid: ET-16193422-164040331@resources.planningcenteronline.com
+  title: Monthly Baskets of Hope - Volunteers
+  summary: This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
+  start: '2026-08-19T16:30:00-04:00'
+  end: '2026-08-19T18:30:00-04:00'
+  sort_start_utc: '2026-08-19T20:30:00Z'
+  sort_end_utc: '2026-08-19T22:30:00Z'
+  display_when: Wednesday, August 19, 2026, 4:30 PM to 6:30 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
+  ministries:
+  - churchwide
+  audiences:
+  - families
+  - volunteers
+  status: confirmed
+  chronological_rank: 31
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-19-monthly-baskets-of-hope-volunteers-80df8e.md
+- id: event-a39548cd605a3ff2
+  uid: ET-31487702-227855427@resources.planningcenteronline.com
+  title: Awana 2026-2027
+  summary: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the B...'
+  start: '2026-08-19T18:15:00-04:00'
+  end: '2026-08-19T19:30:00-04:00'
+  sort_start_utc: '2026-08-19T22:15:00Z'
+  sort_end_utc: '2026-08-19T23:30:00Z'
+  display_when: Wednesday, August 19, 2026, 6:15 PM to 7:30 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.
+
+
+    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm
+
+
+    START ANYTIME throughout the year!
+
+
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.
+
+
+    ***When registering your child, please input 25/26 grade, it will automatically change in August***
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/3737699'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3737699
+  ministries:
+  - kids
+  - men
+  audiences:
+  - children
+  - men
+  - volunteers
+  status: confirmed
+  chronological_rank: 32
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-19-awana-2026-2027-5a3ff2.md
+- id: event-a106006c4887999f
+  uid: ET-25282532-164040334@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.
+  start: '2026-08-19T18:30:00-04:00'
+  end: '2026-08-19T20:30:00-04:00'
+  sort_start_utc: '2026-08-19T22:30:00Z'
+  sort_end_utc: '2026-08-20T00:30:00Z'
+  display_when: Wednesday, August 19, 2026, 6:30 PM to 8:30 PM
+  all_day: false
+  description: Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.
+  ministries:
+  - students
+  - worship
+  - small_groups
+  audiences:
+  - students
+  status: confirmed
+  chronological_rank: 33
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-19-p-u-r-s-u-e-87999f.md
+- id: event-04b13efc65307382
+  uid: ET-29468516-216277431@resources.planningcenteronline.com
+  title: OPEN GYM Pickleball
+  summary: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
+  start: '2026-08-20T18:00:00-04:00'
+  end: '2026-08-20T20:00:00-04:00'
+  sort_start_utc: '2026-08-20T22:00:00Z'
+  sort_end_utc: '2026-08-21T00:00:00Z'
+  display_when: Thursday, August 20, 2026, 6 PM to 8 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 34
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-20-open-gym-pickleball-307382.md
+- id: event-6d5b8302174f4169
+  uid: ET-29648335-217375495@resources.planningcenteronline.com
+  title: Urbancrest Golf Classic
+  summary: '*********************************************************
+
+    Please join us for Urbancrest''s 28th Annual Golf Classic!...'
+  start: '2026-08-21T08:30:00-04:00'
+  end: '2026-08-21T16:00:00-04:00'
+  sort_start_utc: '2026-08-21T12:30:00Z'
+  sort_end_utc: '2026-08-21T20:00:00Z'
+  display_when: Friday, August 21, 2026, 8:30 AM to 4 PM
+  all_day: false
+  location: 'Heatherwoode Golf Club - 88 Heatherwoode Blvd
+
+    Springboro, OH 45066'
+  description: '*********************************************************
+
+    Please join us for Urbancrest''s 28th Annual Golf Classic!
+
+    *********************************************************
+
+
+    The Urbancrest Golf Classic is Urbancrest''s annual foursome scramble tournament, located at Heatherwoode Golf Club.
+
+
+    Each year, we also raise money for a non-profit organization. We are excited to announce this year''s donation recipient: A Child''s Hope International!
+
+
+    Be sure to register early to secure your spot, and visit classic.urbancrest.org ( http://classic.urbancrest.org ) for more information.
+
+
+    Tournament Details:
+
+
+    Location
+
+    Heatherwoode Golf Club
+
+    88 Heatherwoode Blvd.
+
+    Springboro, OH 45066 ( https://www.google.com/maps/place/Heatherwoode+Golf+Club/@39.5378539,-84.2320634,15z/data=!4m2!3m1!1s0x0:0xaba6d7afa167d970?ved=2ahUKEwjAq-v17IvhAhVP1VkKHSjzA-EQ_BIwCnoECAAQCA )
+
+    (Click or tap for directions.)
+
+
+    Date/Schedule
+
+    Friday, August 21, 2026
+
+    8:30 AM – Check-in & Driving Range
+
+    9:30 AM – Shotgun Start
+
+    2:00 AM – Lunch & Awards
+
+
+    Sponsorship
+
+    Become a sponsor of the Urbancrest Golf Classic! Please visit classic.urbancrest.org ( http://classic.urbancrest.org ) to make your sponsorship selection.
+
+
+    If you have any questions about the Urbancrest Golf Classic, please reach out to Mark Daubenmire at mdaubenmire@urbancrest.org.'
+  info_url: http://classic.urbancrest.org
+  ministries:
+  - kids
+  - sports
+  audiences:
+  - children
+  status: confirmed
+  chronological_rank: 35
+  next_for_ministries:
+  - sports
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-21-urbancrest-golf-classic-4f4169.md
+- id: event-1d404dab04db0b00
+  uid: ET-8762150-164649170@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2026-08-23T09:30:00-04:00'
+  end: '2026-08-23T10:30:00-04:00'
+  sort_start_utc: '2026-08-23T13:30:00Z'
+  sort_end_utc: '2026-08-23T14:30:00Z'
+  display_when: Sunday, August 23, 2026, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  status: confirmed
+  chronological_rank: 36
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-23-p-u-r-s-u-e-db0b00.md
+- id: event-e65395a6e223a343
+  uid: ET-9127131-164649168@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-08-23T09:30:00-04:00'
+  end: '2026-08-23T10:40:00-04:00'
+  sort_start_utc: '2026-08-23T13:30:00Z'
+  sort_end_utc: '2026-08-23T14:40:00Z'
+  display_when: Sunday, August 23, 2026, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 37
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-23-sunday-morning-services-9-30-am-service-23a343.md
+- id: event-fa5c7d47754475b5
+  uid: ET-9127132-164649168@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-08-23T11:00:00-04:00'
+  end: '2026-08-23T12:10:00-04:00'
+  sort_start_utc: '2026-08-23T15:00:00Z'
+  sort_end_utc: '2026-08-23T16:10:00Z'
+  display_when: Sunday, August 23, 2026, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 38
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-23-sunday-morning-services-11-00-am-service-4475b5.md
+- id: event-648b751c26131c6c
+  uid: ET-31398539-164754226@resources.planningcenteronline.com
+  title: 'Connie Hollan Small Group: Ladies Bible Study'
+  summary: Connie Hollan
+  start: '2026-08-24T19:00:00-04:00'
+  end: '2026-08-24T20:30:00-04:00'
+  sort_start_utc: '2026-08-24T23:00:00Z'
+  sort_end_utc: '2026-08-25T00:30:00Z'
+  display_when: Monday, August 24, 2026, 7 PM to 8:30 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Connie Hollan
+  ministries:
+  - small_groups
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 39
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-24-connie-hollan-small-group-ladies-bible-study-131c6c.md
+- id: event-3a868cd6b86808bb
+  uid: ET-28363570-164754228@resources.planningcenteronline.com
+  title: 'Steve Gregory Small Group: Steve Gregory'
+  summary: 'Steve Gregory Small Group: Steve Gregory is scheduled for Monday, August 24, 2026, 7 PM to 8:30 PM.'
+  start: '2026-08-24T19:00:00-04:00'
+  end: '2026-08-24T20:30:00-04:00'
+  sort_start_utc: '2026-08-24T23:00:00Z'
+  sort_end_utc: '2026-08-25T00:30:00Z'
+  display_when: Monday, August 24, 2026, 7 PM to 8:30 PM
+  all_day: false
+  ministries:
+  - small_groups
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 40
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-24-steve-gregory-small-group-steve-gregory-6808bb.md
+- id: event-e66758a14e259310
+  uid: ET-31333987-226859659@resources.planningcenteronline.com
+  title: Wednesday Night Kickoff
+  summary: Join us Wednesday evening, August 26, as we kick off our Wednesday night activities for the school year!...
+  start: '2026-08-26T17:30:00-04:00'
+  end: '2026-08-26T20:00:00-04:00'
+  sort_start_utc: '2026-08-26T21:30:00Z'
+  sort_end_utc: '2026-08-27T00:00:00Z'
+  display_when: Wednesday, August 26, 2026, 5:30 PM to 8 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: 'Join us Wednesday evening, August 26, as we kick off our Wednesday night activities for the school year! All are welcome to enjoy a dinner at 5:30 PM (suggested donations appreciated), and then Awana Programs for kids and adult Bible studies at 6:15 PM, and Youth Group for students in grades 7-12 at 6:30 PM.
+
+
+    Reach out to the church office with any questions at office@urbancrest.org.
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/3719897'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3719897
+  ministries:
+  - kids
+  - students
+  - small_groups
+  audiences:
+  - children
+  - students
+  status: confirmed
+  chronological_rank: 41
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-26-wednesday-night-kickoff-259310.md
+- id: event-73b5389e4282128d
+  uid: ET-31487702-227855428@resources.planningcenteronline.com
+  title: Awana 2026-2027
+  summary: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the B...'
+  start: '2026-08-26T18:15:00-04:00'
+  end: '2026-08-26T19:30:00-04:00'
+  sort_start_utc: '2026-08-26T22:15:00Z'
+  sort_end_utc: '2026-08-26T23:30:00Z'
+  display_when: Wednesday, August 26, 2026, 6:15 PM to 7:30 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.
+
+
+    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm
+
+
+    START ANYTIME throughout the year!
+
+
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.
+
+
+    ***When registering your child, please input 25/26 grade, it will automatically change in August***
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/3737699'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3737699
+  ministries:
+  - kids
+  - men
+  audiences:
+  - children
+  - men
+  - volunteers
+  status: confirmed
+  chronological_rank: 42
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-26-awana-2026-2027-82128d.md
+- id: event-72727c1e997f362d
+  uid: ET-25282532-164868627@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.
+  start: '2026-08-26T18:30:00-04:00'
+  end: '2026-08-26T20:30:00-04:00'
+  sort_start_utc: '2026-08-26T22:30:00Z'
+  sort_end_utc: '2026-08-27T00:30:00Z'
+  display_when: Wednesday, August 26, 2026, 6:30 PM to 8:30 PM
+  all_day: false
+  description: Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.
+  ministries:
+  - students
+  - worship
+  - small_groups
+  audiences:
+  - students
+  status: confirmed
+  chronological_rank: 43
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-26-p-u-r-s-u-e-7f362d.md
+- id: event-b497f1cb2de0bc06
+  uid: ET-29468516-216277432@resources.planningcenteronline.com
+  title: OPEN GYM Pickleball
+  summary: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
+  start: '2026-08-27T18:00:00-04:00'
+  end: '2026-08-27T20:00:00-04:00'
+  sort_start_utc: '2026-08-27T22:00:00Z'
+  sort_end_utc: '2026-08-28T00:00:00Z'
+  display_when: Thursday, August 27, 2026, 6 PM to 8 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 44
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-27-open-gym-pickleball-e0bc06.md
+- id: event-53f4a91c8a63faac
+  uid: ET-8762150-165474589@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2026-08-30T09:30:00-04:00'
+  end: '2026-08-30T10:30:00-04:00'
+  sort_start_utc: '2026-08-30T13:30:00Z'
+  sort_end_utc: '2026-08-30T14:30:00Z'
+  display_when: Sunday, August 30, 2026, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  status: confirmed
+  chronological_rank: 45
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-30-p-u-r-s-u-e-63faac.md
+- id: event-87018d6b99faf099
+  uid: ET-9127131-165474591@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-08-30T09:30:00-04:00'
+  end: '2026-08-30T10:40:00-04:00'
+  sort_start_utc: '2026-08-30T13:30:00Z'
+  sort_end_utc: '2026-08-30T14:40:00Z'
+  display_when: Sunday, August 30, 2026, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 46
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-30-sunday-morning-services-9-30-am-service-faf099.md
+- id: event-09a75fc73580f4a3
+  uid: ET-9127132-165474591@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-08-30T11:00:00-04:00'
+  end: '2026-08-30T12:10:00-04:00'
+  sort_start_utc: '2026-08-30T15:00:00Z'
+  sort_end_utc: '2026-08-30T16:10:00Z'
+  display_when: Sunday, August 30, 2026, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 47
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-30-sunday-morning-services-11-00-am-service-80f4a3.md
+- id: event-f41790f13cf80619
+  uid: ET-31398539-165597096@resources.planningcenteronline.com
+  title: 'Connie Hollan Small Group: Ladies Bible Study'
+  summary: Connie Hollan
+  start: '2026-08-31T19:00:00-04:00'
+  end: '2026-08-31T20:30:00-04:00'
+  sort_start_utc: '2026-08-31T23:00:00Z'
+  sort_end_utc: '2026-09-01T00:30:00Z'
+  display_when: Monday, August 31, 2026, 7 PM to 8:30 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Connie Hollan
+  ministries:
+  - small_groups
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 48
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-31-connie-hollan-small-group-ladies-bible-study-f80619.md
+- id: event-99a802b8e472769a
+  uid: ET-28363570-165597097@resources.planningcenteronline.com
+  title: 'Steve Gregory Small Group: Steve Gregory'
+  summary: 'Steve Gregory Small Group: Steve Gregory is scheduled for Monday, August 31, 2026, 7 PM to 8:30 PM.'
+  start: '2026-08-31T19:00:00-04:00'
+  end: '2026-08-31T20:30:00-04:00'
+  sort_start_utc: '2026-08-31T23:00:00Z'
+  sort_end_utc: '2026-09-01T00:30:00Z'
+  display_when: Monday, August 31, 2026, 7 PM to 8:30 PM
+  all_day: false
+  ministries:
+  - small_groups
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 49
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-08-31-steve-gregory-small-group-steve-gregory-72769a.md
+- id: event-7ee865b43d7202ff
+  uid: ET-28363612-165657702@resources.planningcenteronline.com
+  title: Card Ministry
+  summary: Rai Lynn Guidone
+  start: '2026-09-01T09:00:00-04:00'
+  end: '2026-09-01T12:00:00-04:00'
+  sort_start_utc: '2026-09-01T13:00:00Z'
+  sort_end_utc: '2026-09-01T16:00:00Z'
+  display_when: Tuesday, September 1, 2026, 9 AM to 12 PM
+  all_day: false
+  description: Rai Lynn Guidone
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 50
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-01-card-ministry-7202ff.md
+- id: event-ba71b480f7b657f3
+  uid: ET-31487702-227855429@resources.planningcenteronline.com
+  title: Awana 2026-2027
+  summary: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the B...'
+  start: '2026-09-02T18:15:00-04:00'
+  end: '2026-09-02T19:30:00-04:00'
+  sort_start_utc: '2026-09-02T22:15:00Z'
+  sort_end_utc: '2026-09-02T23:30:00Z'
+  display_when: Wednesday, September 2, 2026, 6:15 PM to 7:30 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.
+
+
+    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm
+
+
+    START ANYTIME throughout the year!
+
+
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.
+
+
+    ***When registering your child, please input 25/26 grade, it will automatically change in August***
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/3737699'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3737699
+  ministries:
+  - kids
+  - men
+  audiences:
+  - children
+  - men
+  - volunteers
+  status: confirmed
+  chronological_rank: 51
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-02-awana-2026-2027-b657f3.md
+- id: event-55847ae6e4e917e0
+  uid: ET-31702290-229158058@resources.planningcenteronline.com
+  title: 'Engage: New Members Class - Summer 2026'
+  summary: Wondering how to become a member of Urbancrest?...
+  start: '2026-09-02T18:30:00-04:00'
+  end: '2026-09-02T20:00:00-04:00'
+  sort_start_utc: '2026-09-02T22:30:00Z'
+  sort_end_utc: '2026-09-03T00:00:00Z'
+  display_when: Wednesday, September 2, 2026, 6:30 PM to 8 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: 'Wondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you''re curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, September 2!
+
+
+    The Engage Class is a gathering that allows individuals and families to explore and pray through becoming members of our church. This class is designed to have teaching, interaction, and a time to hear the vision for several of our ministries that you can get involved in!
+
+
+    Sign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.org.
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/3763259'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3763259
+  ministries:
+  - churchwide
+  audiences:
+  - families
+  status: confirmed
+  chronological_rank: 52
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-02-engage-new-members-class-summer-2026-e917e0.md
+- id: event-67b244ff9e90ddd7
+  uid: ET-25282532-165713307@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.
+  start: '2026-09-02T18:30:00-04:00'
+  end: '2026-09-02T20:30:00-04:00'
+  sort_start_utc: '2026-09-02T22:30:00Z'
+  sort_end_utc: '2026-09-03T00:30:00Z'
+  display_when: Wednesday, September 2, 2026, 6:30 PM to 8:30 PM
+  all_day: false
+  description: Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.
+  ministries:
+  - students
+  - worship
+  - small_groups
+  audiences:
+  - students
+  status: confirmed
+  chronological_rank: 53
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-02-p-u-r-s-u-e-90ddd7.md
+- id: event-ec88cabfa3473ecc
+  uid: ET-29468516-216277433@resources.planningcenteronline.com
+  title: OPEN GYM Pickleball
+  summary: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
+  start: '2026-09-03T18:00:00-04:00'
+  end: '2026-09-03T20:00:00-04:00'
+  sort_start_utc: '2026-09-03T22:00:00Z'
+  sort_end_utc: '2026-09-04T00:00:00Z'
+  display_when: Thursday, September 3, 2026, 6 PM to 8 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 54
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-03-open-gym-pickleball-473ecc.md
+- id: event-d7e69dfab7336f62
+  uid: ET-30270334-166086980@resources.planningcenteronline.com
+  title: Men's Breakfast
+  summary: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast.
+  start: '2026-09-05T08:00:00-04:00'
+  end: '2026-09-05T10:00:00-04:00'
+  sort_start_utc: '2026-09-05T12:00:00Z'
+  sort_end_utc: '2026-09-05T14:00:00Z'
+  display_when: Saturday, September 5, 2026, 8 AM to 10 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium at Urbancrest
+  ministries:
+  - men
+  audiences:
+  - men
+  status: confirmed
+  chronological_rank: 55
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-05-men-s-breakfast-336f62.md
+- id: event-629501a223913950
+  uid: ET-30389223-221556985@resources.planningcenteronline.com
+  title: One Service Only at 9:30 AM – Labor Day Weekend
+  summary: 'Please be advised: Sunday morning, September 6, we will have ONE, family-style Worship service only at 9:30 AM in light of Labor Day weekend....'
+  start: '2026-09-06T09:30:00-04:00'
+  end: '2026-09-06T11:00:00-04:00'
+  sort_start_utc: '2026-09-06T13:30:00Z'
+  sort_end_utc: '2026-09-06T15:00:00Z'
+  display_when: Sunday, September 6, 2026, 9:30 AM to 11 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: 'Please be advised: Sunday morning, September 6, we will have ONE, family-style Worship service only at 9:30 AM in light of Labor Day weekend. There will be no Sunday School classes on this day – bring the whole family to service and we will all Worship together!
+
+
+    Please mark your calendars and plan to join us!
+
+
+    Reach out to the Urbancrest office with any questions at office@urbancrest.org.
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/3613427'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3613427
+  ministries:
+  - worship
+  audiences:
+  - families
+  status: confirmed
+  chronological_rank: 56
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-06-one-service-only-at-9-30-am-labor-day-weekend-913950.md
+- id: event-ee5bfd5ead7f42b9
+  uid: ET-8762150-166271990@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2026-09-06T09:30:00-04:00'
+  end: '2026-09-06T10:30:00-04:00'
+  sort_start_utc: '2026-09-06T13:30:00Z'
+  sort_end_utc: '2026-09-06T14:30:00Z'
+  display_when: Sunday, September 6, 2026, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  status: confirmed
+  chronological_rank: 57
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-06-p-u-r-s-u-e-7f42b9.md
+- id: event-d27ce5ef423e5884
+  uid: ET-9127131-166271992@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-09-06T09:30:00-04:00'
+  end: '2026-09-06T10:40:00-04:00'
+  sort_start_utc: '2026-09-06T13:30:00Z'
+  sort_end_utc: '2026-09-06T14:40:00Z'
+  display_when: Sunday, September 6, 2026, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 58
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-06-sunday-morning-services-9-30-am-service-3e5884.md
+- id: event-d51c8e6d158a985a
+  uid: ET-9127132-166271992@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-09-06T11:00:00-04:00'
+  end: '2026-09-06T12:10:00-04:00'
+  sort_start_utc: '2026-09-06T15:00:00Z'
+  sort_end_utc: '2026-09-06T16:10:00Z'
+  display_when: Sunday, September 6, 2026, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 59
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-06-sunday-morning-services-11-00-am-service-8a985a.md
+- id: event-c4bce56749415df9
+  uid: ET-31398539-166359004@resources.planningcenteronline.com
+  title: 'Connie Hollan Small Group: Ladies Bible Study'
+  summary: Connie Hollan
+  start: '2026-09-07T19:00:00-04:00'
+  end: '2026-09-07T20:30:00-04:00'
+  sort_start_utc: '2026-09-07T23:00:00Z'
+  sort_end_utc: '2026-09-08T00:30:00Z'
+  display_when: Monday, September 7, 2026, 7 PM to 8:30 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Connie Hollan
+  ministries:
+  - small_groups
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 60
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-07-connie-hollan-small-group-ladies-bible-study-415df9.md
+- id: event-19b7e98afff8eab6
+  uid: ET-28363570-166359003@resources.planningcenteronline.com
+  title: 'Steve Gregory Small Group: Steve Gregory'
+  summary: 'Steve Gregory Small Group: Steve Gregory is scheduled for Monday, September 7, 2026, 7 PM to 8:30 PM.'
+  start: '2026-09-07T19:00:00-04:00'
+  end: '2026-09-07T20:30:00-04:00'
+  sort_start_utc: '2026-09-07T23:00:00Z'
+  sort_end_utc: '2026-09-08T00:30:00Z'
+  display_when: Monday, September 7, 2026, 7 PM to 8:30 PM
+  all_day: false
+  ministries:
+  - small_groups
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 61
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-07-steve-gregory-small-group-steve-gregory-f8eab6.md
+- id: event-a15a9379d2ca71ea
+  uid: ET-31487702-227855430@resources.planningcenteronline.com
+  title: Awana 2026-2027
+  summary: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the B...'
+  start: '2026-09-09T18:15:00-04:00'
+  end: '2026-09-09T19:30:00-04:00'
+  sort_start_utc: '2026-09-09T22:15:00Z'
+  sort_end_utc: '2026-09-09T23:30:00Z'
+  display_when: Wednesday, September 9, 2026, 6:15 PM to 7:30 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.
+
+
+    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm
+
+
+    START ANYTIME throughout the year!
+
+
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.
+
+
+    ***When registering your child, please input 25/26 grade, it will automatically change in August***
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/3737699'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3737699
+  ministries:
+  - kids
+  - men
+  audiences:
+  - children
+  - men
+  - volunteers
+  status: confirmed
+  chronological_rank: 62
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-09-awana-2026-2027-ca71ea.md
+- id: event-c7aad30a7e95b70f
+  uid: ET-25282532-166458546@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.
+  start: '2026-09-09T18:30:00-04:00'
+  end: '2026-09-09T20:30:00-04:00'
+  sort_start_utc: '2026-09-09T22:30:00Z'
+  sort_end_utc: '2026-09-10T00:30:00Z'
+  display_when: Wednesday, September 9, 2026, 6:30 PM to 8:30 PM
+  all_day: false
+  description: Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.
+  ministries:
+  - students
+  - worship
+  - small_groups
+  audiences:
+  - students
+  status: confirmed
+  chronological_rank: 63
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-09-p-u-r-s-u-e-95b70f.md
+- id: event-b9f5a417bbfe7030
+  uid: ET-29468516-216277434@resources.planningcenteronline.com
+  title: OPEN GYM Pickleball
+  summary: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
+  start: '2026-09-10T18:00:00-04:00'
+  end: '2026-09-10T20:00:00-04:00'
+  sort_start_utc: '2026-09-10T22:00:00Z'
+  sort_end_utc: '2026-09-11T00:00:00Z'
+  display_when: Thursday, September 10, 2026, 6 PM to 8 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 64
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-10-open-gym-pickleball-fe7030.md
+- id: event-704ef786f2300fb0
+  uid: ET-8762150-167074214@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2026-09-13T09:30:00-04:00'
+  end: '2026-09-13T10:30:00-04:00'
+  sort_start_utc: '2026-09-13T13:30:00Z'
+  sort_end_utc: '2026-09-13T14:30:00Z'
+  display_when: Sunday, September 13, 2026, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  status: confirmed
+  chronological_rank: 65
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-13-p-u-r-s-u-e-300fb0.md
+- id: event-a417c1725cb32add
+  uid: ET-9127131-167074215@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-09-13T09:30:00-04:00'
+  end: '2026-09-13T10:40:00-04:00'
+  sort_start_utc: '2026-09-13T13:30:00Z'
+  sort_end_utc: '2026-09-13T14:40:00Z'
+  display_when: Sunday, September 13, 2026, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 66
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-13-sunday-morning-services-9-30-am-service-b32add.md
+- id: event-d86eca8c10153e7f
+  uid: ET-9127132-167074215@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-09-13T11:00:00-04:00'
+  end: '2026-09-13T12:10:00-04:00'
+  sort_start_utc: '2026-09-13T15:00:00Z'
+  sort_end_utc: '2026-09-13T16:10:00Z'
+  display_when: Sunday, September 13, 2026, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 67
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-13-sunday-morning-services-11-00-am-service-153e7f.md
+- id: event-ec389bc7161e5136
+  uid: ET-31398539-167136386@resources.planningcenteronline.com
+  title: 'Connie Hollan Small Group: Ladies Bible Study'
+  summary: Connie Hollan
+  start: '2026-09-14T19:00:00-04:00'
+  end: '2026-09-14T20:30:00-04:00'
+  sort_start_utc: '2026-09-14T23:00:00Z'
+  sort_end_utc: '2026-09-15T00:30:00Z'
+  display_when: Monday, September 14, 2026, 7 PM to 8:30 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Connie Hollan
+  ministries:
+  - small_groups
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 68
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-14-connie-hollan-small-group-ladies-bible-study-1e5136.md
+- id: event-7dceac4cb0e4ba7d
+  uid: ET-28363570-167136388@resources.planningcenteronline.com
+  title: 'Steve Gregory Small Group: Steve Gregory'
+  summary: 'Steve Gregory Small Group: Steve Gregory is scheduled for Monday, September 14, 2026, 7 PM to 8:30 PM.'
+  start: '2026-09-14T19:00:00-04:00'
+  end: '2026-09-14T20:30:00-04:00'
+  sort_start_utc: '2026-09-14T23:00:00Z'
+  sort_end_utc: '2026-09-15T00:30:00Z'
+  display_when: Monday, September 14, 2026, 7 PM to 8:30 PM
+  all_day: false
+  ministries:
+  - small_groups
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 69
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-14-steve-gregory-small-group-steve-gregory-e4ba7d.md
+- id: event-e0476e22fc77387f
+  uid: ET-16193422-167230919@resources.planningcenteronline.com
+  title: Monthly Baskets of Hope - Volunteers
+  summary: This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
+  start: '2026-09-16T16:30:00-04:00'
+  end: '2026-09-16T18:30:00-04:00'
+  sort_start_utc: '2026-09-16T20:30:00Z'
+  sort_end_utc: '2026-09-16T22:30:00Z'
+  display_when: Wednesday, September 16, 2026, 4:30 PM to 6:30 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
+  ministries:
+  - churchwide
+  audiences:
+  - families
+  - volunteers
+  status: confirmed
+  chronological_rank: 70
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-16-monthly-baskets-of-hope-volunteers-77387f.md
+- id: event-9ccfa6bcd6e38c02
+  uid: ET-25282532-167230921@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.
+  start: '2026-09-16T18:30:00-04:00'
+  end: '2026-09-16T20:30:00-04:00'
+  sort_start_utc: '2026-09-16T22:30:00Z'
+  sort_end_utc: '2026-09-17T00:30:00Z'
+  display_when: Wednesday, September 16, 2026, 6:30 PM to 8:30 PM
+  all_day: false
+  description: Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.
+  ministries:
+  - students
+  - worship
+  - small_groups
+  audiences:
+  - students
+  status: confirmed
+  chronological_rank: 71
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-16-p-u-r-s-u-e-e38c02.md
+- id: event-cd61a9d143556aa9
+  uid: ET-29468516-216277435@resources.planningcenteronline.com
+  title: OPEN GYM Pickleball
+  summary: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
+  start: '2026-09-17T18:00:00-04:00'
+  end: '2026-09-17T20:00:00-04:00'
+  sort_start_utc: '2026-09-17T22:00:00Z'
+  sort_end_utc: '2026-09-18T00:00:00Z'
+  display_when: Thursday, September 17, 2026, 6 PM to 8 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 72
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-17-open-gym-pickleball-556aa9.md
+- id: event-ffac0db3c7f8f18d
+  uid: ET-8762150-167708212@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2026-09-20T09:30:00-04:00'
+  end: '2026-09-20T10:30:00-04:00'
+  sort_start_utc: '2026-09-20T13:30:00Z'
+  sort_end_utc: '2026-09-20T14:30:00Z'
+  display_when: Sunday, September 20, 2026, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  ministries:
+  - students
+  audiences:
+  - students
+  status: confirmed
+  chronological_rank: 73
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-20-p-u-r-s-u-e-f8f18d.md
+- id: event-66c2f7334325697d
+  uid: ET-9127131-167708219@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-09-20T09:30:00-04:00'
+  end: '2026-09-20T10:40:00-04:00'
+  sort_start_utc: '2026-09-20T13:30:00Z'
+  sort_end_utc: '2026-09-20T14:40:00Z'
+  display_when: Sunday, September 20, 2026, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 74
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-20-sunday-morning-services-9-30-am-service-25697d.md
+- id: event-02a80d35839ace48
+  uid: ET-9127132-167708219@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-09-20T11:00:00-04:00'
+  end: '2026-09-20T12:10:00-04:00'
+  sort_start_utc: '2026-09-20T15:00:00Z'
+  sort_end_utc: '2026-09-20T16:10:00Z'
+  display_when: Sunday, September 20, 2026, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  status: confirmed
+  chronological_rank: 75
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-20-sunday-morning-services-11-00-am-service-9ace48.md

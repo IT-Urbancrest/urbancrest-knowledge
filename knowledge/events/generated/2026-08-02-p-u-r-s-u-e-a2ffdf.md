@@ -1,0 +1,53 @@
+---
+id: events.live.event-3e670c31afa2ffdf
+version: 1.3
+status: published
+priority: 90
+title: "P U R S U E"
+summary: "Sunday Morning Youth Service"
+category: [events]
+intent:
+  primary: event_details
+  secondary: [upcoming_events, calendar, schedule, registration, next_ministry_event]
+audience: [students]
+ministries: [students]
+answer_style: helpful
+confidence: high
+owner:
+  ministry: church_office
+review:
+  doctrinal: not_required
+  factual: automated
+tags: [event, calendar, upcoming, students]
+search_terms:
+  - "P U R S U E"
+  - "When is P U R S U E?"
+  - "Where is P U R S U E?"
+  - "Tell me about P U R S U E"
+  - "How do I register for P U R S U E?"
+resources:
+  - events.live
+event_id: event-3e670c31afa2ffdf
+event_start: "2026-08-02T09:30:00-04:00"
+event_end: "2026-08-02T10:30:00-04:00"
+sort_start_utc: "2026-08-02T13:30:00Z"
+sort_end_utc: "2026-08-02T14:30:00Z"
+chronological_rank: 7
+next_for_ministries: [students]
+next_for_audiences: [students]
+all_day: false
+location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
+last_generated: 2026-07-27T14:43:24.367230Z
+---
+
+# P U R S U E
+
+Sunday Morning Youth Service
+
+**When:** Sunday, August 2, 2026, 9:30 AM to 10:30 AM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+Sunday Morning Youth Service
+
+This information is synchronized automatically from Urbancrest's live calendar.
