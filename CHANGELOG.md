@@ -1,19 +1,12 @@
 # Changelog
 
-## 0.5.0
+## 1.3.0
 
-- Rebuilt the repository as a cumulative production baseline.
-- Restored and expanded the beliefs collection.
-- Added all 18 Baptist Faith and Message 2000 topic summaries.
-- Added visitor, next-step, ministry, FAQ, registry, intent, relationship, schema, template, and test files.
-- Added `manifest.yaml`.
-- Standardized registry references and metadata.
-- Replaced hardcoded Church Center URLs in articles with registry IDs.
-
-## 0.4.0
-
-- Introduced registry architecture and the Knowledge Object Model.
-
-## 0.3.0
-
-- Added initial belief and next-step articles.
+- Added `intents/calendar.yaml` with structured date-aware retrieval rules.
+- Added normalized `sort_start_utc` and `sort_end_utc` fields.
+- Added `chronological_rank`.
+- Added `next_for_ministries` and `next_for_audiences`.
+- Made `registry/events-live.yaml` the explicit source of truth for calendar intents.
+- Added punctuation normalization for curly apostrophes and quotation marks.
+- Added calendar retrieval tests.
+- Included the corrected GitHub Actions commit step that stages generated files before checking for changes.

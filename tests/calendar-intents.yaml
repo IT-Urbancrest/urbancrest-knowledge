@@ -1,0 +1,57 @@
+version: 1.0
+suite: calendar_date_aware_retrieval
+timezone: America/New_York
+
+tests:
+  - name: next men's ministry event
+    query: What is your next men's ministry event?
+    expected:
+      source: registry/events-live.yaml
+      filter_any:
+        ministries: [men]
+        audiences: [men]
+      exclude_past_using: sort_end_utc
+      sort:
+        field: sort_start_utc
+        direction: ascending
+      select: first
+
+  - name: recurring event chooses nearest occurrence
+    query: When is the next Men's Breakfast?
+    setup:
+      assumption: At least two future occurrences share the title Men's Breakfast.
+    expected:
+      filter:
+        title: Men's Breakfast
+      sort:
+        field: sort_start_utc
+        direction: ascending
+      select: first
+      must_not: Choose a later occurrence based on semantic similarity.
+
+  - name: upcoming student events
+    query: What student events are coming up?
+    expected:
+      filter_any:
+        ministries: [students]
+        audiences: [students]
+      sort:
+        field: sort_start_utc
+        direction: ascending
+      select: all
+
+  - name: events this weekend
+    query: What is happening this weekend?
+    expected:
+      date_filter: Current local weekend in America/New_York
+      exclude_past_using: sort_end_utc
+      sort:
+        field: sort_start_utc
+        direction: ascending
+      select: all
+
+  - name: no matching event
+    query: What is the next event for a ministry with no upcoming events?
+    expected:
+      answer_behavior: State that no matching upcoming event is currently listed.
+      must_not: Substitute an unrelated event.

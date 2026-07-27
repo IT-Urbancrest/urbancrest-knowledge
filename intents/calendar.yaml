@@ -1,0 +1,94 @@
+id: intents.calendar
+version: 1.0
+status: active
+title: Calendar and Event Retrieval
+description: Date-aware retrieval rules for live Urbancrest events.
+
+source_of_truth:
+  registry: registry/events-live.yaml
+  detail_articles: knowledge/events/generated/
+  timezone: America/New_York
+  authoritative_sort_field: sort_start_utc
+  authoritative_end_field: sort_end_utc
+
+routing:
+  calendar_intents:
+    - next_event
+    - next_ministry_event
+    - next_audience_event
+    - upcoming_events
+    - events_on_date
+    - events_in_date_range
+    - events_this_week
+    - events_this_weekend
+    - events_this_month
+    - event_details
+    - event_registration
+
+  date_sensitive_terms:
+    - next
+    - nearest
+    - soonest
+    - upcoming
+    - today
+    - tonight
+    - tomorrow
+    - this week
+    - this weekend
+    - this month
+    - on
+    - before
+    - after
+    - between
+
+retrieval:
+  default_mode: structured_filter_then_sort
+  steps:
+    - Load registry/events-live.yaml before selecting an event.
+    - Determine the current date and time in America/New_York.
+    - Exclude any event whose sort_end_utc is earlier than the current time.
+    - Apply requested ministry, audience, title, topic, or date-range filters.
+    - Sort all remaining matches by sort_start_utc in ascending order.
+    - For a singular request such as next or soonest, return the first match.
+    - For a plural request, return matching events in ascending date order.
+    - Open the selected event's knowledge_file for description, location, registration, and other details.
+
+matching:
+  ministry_or_audience:
+    rule: Match either ministries or audiences when the user's wording could refer to either.
+    examples:
+      men's ministry: men
+      women's ministry: women
+      kids ministry: [kids, children]
+      student ministry: students
+      families: families
+
+  recurring_events:
+    rule: Treat every occurrence as a separate event.
+    selection: Choose the earliest future occurrence after filtering.
+    never: Do not prefer a later occurrence because its text has a higher semantic similarity score.
+
+ranking:
+  semantic_relevance:
+    use_for:
+      - identifying the requested ministry
+      - identifying the requested audience
+      - identifying the requested event title or topic
+    do_not_use_for:
+      - choosing between matching future dates
+      - deciding which recurring occurrence is next
+
+  chronological_order:
+    use_for:
+      - next
+      - soonest
+      - nearest
+      - upcoming
+      - date-range lists
+    direction: ascending
+    field: sort_start_utc
+
+fallbacks:
+  - If no event matches, say that no matching upcoming event is currently listed.
+  - Do not substitute a later semantically related event from a different ministry or audience.
+  - Do not invent event dates, locations, registration links, or classifications.

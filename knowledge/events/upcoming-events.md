@@ -1,6 +1,6 @@
 ---
 id: events.upcoming.live
-version: 1.1
+version: 1.3
 status: published
 priority: 100
 title: Upcoming Events
@@ -8,7 +8,7 @@ summary: Live upcoming events synchronized from the Urbancrest calendar.
 category: [events]
 intent:
   primary: upcoming_events
-  secondary: [calendar, schedule, whats_happening]
+  secondary: [calendar, schedule, whats_happening, next_ministry_event]
 audience: [everyone]
 answer_style: helpful
 confidence: high
@@ -20,6 +20,7 @@ review:
 tags: [events, calendar, upcoming, schedule]
 resources:
   - events.live
+calendar_sort_order: sort_start_utc_ascending
 last_generated: null
 ---
 
@@ -27,4 +28,6 @@ last_generated: null
 
 This page is generated automatically from Urbancrest's live calendar.
 
-The first version 1.1 sync has not run yet.
+Events are listed in ascending chronological order.
+
+The first version 1.3 sync has not run yet.
