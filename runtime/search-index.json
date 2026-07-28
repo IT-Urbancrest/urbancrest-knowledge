@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.6.2",
-  "generated_at": "2026-07-28T14:38:35.343619Z",
+  "generated_at": "2026-07-28T15:04:44.152944Z",
   "timezone": "America/New_York",
   "record_count": 275,
   "config": {
@@ -8597,9 +8597,9 @@
     {
       "id": "events.live.event-208ae73f105cc125",
       "record_type": "event",
-      "path": "knowledge/events/generated/2026-08-02-leah-busick-reception-5cc125.md",
-      "title": "Leah Busick Reception",
-      "summary": "Leah Busick Reception is scheduled for Sunday, August 2, 2026, 4 PM to 6 PM.",
+      "path": "knowledge/events/generated/2026-08-02-leah-busick-open-house-reception-5cc125.md",
+      "title": "Leah Busick Open House Reception",
+      "summary": "Leah Busick Open House Reception is scheduled for Sunday, August 2, 2026, 4 PM to 6 PM.",
       "content": "",
       "priority": 50,
       "category": [
@@ -8619,10 +8619,10 @@
         "general_event"
       ],
       "search_terms": [
-        "Leah Busick Reception",
-        "When is Leah Busick Reception?",
-        "Tell me about Leah Busick Reception",
-        "How do I register for Leah Busick Reception?"
+        "Leah Busick Open House Reception",
+        "When is Leah Busick Open House Reception?",
+        "Tell me about Leah Busick Open House Reception",
+        "How do I register for Leah Busick Open House Reception?"
       ],
       "ministries": [
         "churchwide"
@@ -8637,7 +8637,7 @@
       "event_end": "2026-08-02T18:00:00-04:00",
       "sort_start_utc": "2026-08-02T20:00:00Z",
       "sort_end_utc": "2026-08-02T22:00:00Z",
-      "knowledge_file": "knowledge/events/generated/2026-08-02-leah-busick-reception-5cc125.md",
+      "knowledge_file": "knowledge/events/generated/2026-08-02-leah-busick-open-house-reception-5cc125.md",
       "chronological_rank": 8,
       "routine_schedule_occurrence": false
     },

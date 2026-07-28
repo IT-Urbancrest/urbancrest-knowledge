@@ -1,5 +1,5 @@
 version: 1.4.1
-generated_at: '2026-07-28T14:38:34.775591Z'
+generated_at: '2026-07-28T15:04:43.297762Z'
 timezone: America/New_York
 source: planning_center_ical
 source_of_truth_for_calendar_intents: true
@@ -247,8 +247,8 @@ events:
   knowledge_file: knowledge/events/generated/2026-08-02-sunday-morning-services-11-00-am-service-feeae6.md
 - id: event-208ae73f105cc125
   uid: ET-31579190-228356604@resources.planningcenteronline.com
-  title: Leah Busick Reception
-  summary: Leah Busick Reception is scheduled for Sunday, August 2, 2026, 4 PM to 6 PM.
+  title: Leah Busick Open House Reception
+  summary: Leah Busick Open House Reception is scheduled for Sunday, August 2, 2026, 4 PM to 6 PM.
   start: '2026-08-02T16:00:00-04:00'
   end: '2026-08-02T18:00:00-04:00'
   sort_start_utc: '2026-08-02T20:00:00Z'
@@ -266,7 +266,7 @@ events:
   chronological_rank: 8
   next_for_ministries: []
   next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-08-02-leah-busick-reception-5cc125.md
+  knowledge_file: knowledge/events/generated/2026-08-02-leah-busick-open-house-reception-5cc125.md
 - id: event-3d8d12fc8dd1508d
   uid: ET-28363612-162521895@resources.planningcenteronline.com
   title: Card Ministry

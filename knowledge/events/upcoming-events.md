@@ -16,7 +16,7 @@ tags: [events, calendar, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-07-28T14:38:34.775591Z
+last_generated: 2026-07-28T15:04:43.297762Z
 ---
 
 # Upcoming Events
@@ -100,13 +100,13 @@ Detailed event file: `knowledge/events/generated/2026-08-02-sunday-morning-servi
 
 Detailed event file: `knowledge/events/generated/2026-08-02-sunday-morning-services-11-00-am-service-feeae6.md`
 
-## Leah Busick Reception
+## Leah Busick Open House Reception
 
 **Category:** General Event
 
 **When:** Sunday, August 2, 2026, 4 PM to 6 PM
 
-Detailed event file: `knowledge/events/generated/2026-08-02-leah-busick-reception-5cc125.md`
+Detailed event file: `knowledge/events/generated/2026-08-02-leah-busick-open-house-reception-5cc125.md`
 
 ## Card Ministry
 
