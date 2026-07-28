@@ -38,7 +38,7 @@ next_for_ministries: ["men"]
 next_for_audiences: ["men"]
 all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-28T11:28:26.721366Z
+last_generated: 2026-07-28T14:38:34.775591Z
 ---
 
 # Men's Breakfast
