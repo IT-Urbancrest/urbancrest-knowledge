@@ -38,7 +38,7 @@ next_for_ministries: ["missions"]
 next_for_audiences: []
 all_day: true
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-28T16:51:11.718776Z
+last_generated: 2026-07-28T19:53:42.117505Z
 ---
 
 # Missions Conference

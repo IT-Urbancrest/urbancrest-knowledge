@@ -37,7 +37,7 @@ chronological_rank: 52
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
-last_generated: 2026-07-28T16:51:11.718776Z
+last_generated: 2026-07-28T19:53:42.117505Z
 ---
 
 # Waynesville Fall Fest
