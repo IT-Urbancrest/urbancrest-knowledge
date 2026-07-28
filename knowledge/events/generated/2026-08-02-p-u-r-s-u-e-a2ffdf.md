@@ -38,7 +38,7 @@ next_for_ministries: ["students"]
 next_for_audiences: ["students"]
 all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-28T03:36:54.342103Z
+last_generated: 2026-07-28T09:05:39.743057Z
 ---
 
 # P U R S U E
