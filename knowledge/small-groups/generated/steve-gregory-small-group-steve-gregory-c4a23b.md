@@ -4,7 +4,7 @@ version: 1.4.1
 status: published
 priority: 20
 title: "Steve Gregory Small Group: Steve Gregory"
-summary: "Steve Gregory Small Group: Steve Gregory is scheduled for Monday, July 27, 2026, 7 PM to 8:30 PM."
+summary: "Steve Gregory Small Group: Steve Gregory is scheduled for Monday, August 3, 2026, 7 PM to 8:30 PM."
 category: [small_groups]
 event_category: small_group_meeting
 intent:
@@ -16,23 +16,22 @@ answer_style: helpful
 confidence: high
 tags: ["small_group", "recurring", "calendar", "everyone"]
 series_id: group-f356eaa371c4a23b
-next_meeting_start: "2026-07-27T19:00:00-04:00"
-next_meeting_end: "2026-07-27T20:30:00-04:00"
-sort_start_utc: "2026-07-27T23:00:00Z"
-sort_end_utc: "2026-07-28T00:30:00Z"
-meeting_count_in_window: 53
-last_generated: 2026-07-27T22:19:09.889478Z
+next_meeting_start: "2026-08-03T19:00:00-04:00"
+next_meeting_end: "2026-08-03T20:30:00-04:00"
+sort_start_utc: "2026-08-03T23:00:00Z"
+sort_end_utc: "2026-08-04T00:30:00Z"
+meeting_count_in_window: 52
+last_generated: 2026-07-28T03:36:54.342103Z
 ---
 
 # Steve Gregory Small Group: Steve Gregory
 
-Steve Gregory Small Group: Steve Gregory is scheduled for Monday, July 27, 2026, 7 PM to 8:30 PM.
+Steve Gregory Small Group: Steve Gregory is scheduled for Monday, August 3, 2026, 7 PM to 8:30 PM.
 
-**Next meeting:** Monday, July 27, 2026, 7 PM to 8:30 PM
+**Next meeting:** Monday, August 3, 2026, 7 PM to 8:30 PM
 
 ## Upcoming meetings
 
-- Monday, July 27, 2026, 7 PM to 8:30 PM
 - Monday, August 3, 2026, 7 PM to 8:30 PM
 - Monday, August 10, 2026, 7 PM to 8:30 PM
 - Monday, August 17, 2026, 7 PM to 8:30 PM
@@ -44,5 +43,6 @@ Steve Gregory Small Group: Steve Gregory is scheduled for Monday, July 27, 2026,
 - Monday, September 28, 2026, 7 PM to 8:30 PM
 - Monday, October 5, 2026, 7 PM to 8:30 PM
 - Monday, October 12, 2026, 7 PM to 8:30 PM
+- Monday, October 19, 2026, 7 PM to 8:30 PM
 
 This small group schedule is synchronized automatically from Urbancrest's live calendar.

@@ -1,5 +1,5 @@
 version: 1.4.1
-generated_at: '2026-07-27T22:19:09.889478Z'
+generated_at: '2026-07-28T03:36:54.342103Z'
 timezone: America/New_York
 source: planning_center_ical
 source_of_truth_for_small_group_intents: true
@@ -9,11 +9,10 @@ lookahead_days: 365
 max_series: 100
 max_occurrences_per_series: 12
 group_count: 3
-source_occurrence_count: 157
+source_occurrence_count: 155
 groups:
 - id: group-5aa8f1e4bd0cb4a6
   source_uids:
-  - ET-31398539-161895477@resources.planningcenteronline.com
   - ET-31398539-162489186@resources.planningcenteronline.com
   - ET-31398539-163212919@resources.planningcenteronline.com
   - ET-31398539-163944927@resources.planningcenteronline.com
@@ -77,20 +76,14 @@ groups:
   event_category: small_group_meeting
   event_priority: 20
   next_meeting: &id001
-    start: '2026-07-27T19:00:00-04:00'
-    end: '2026-07-27T20:30:00-04:00'
-    sort_start_utc: '2026-07-27T23:00:00Z'
-    sort_end_utc: '2026-07-28T00:30:00Z'
-    display_when: Monday, July 27, 2026, 7 PM to 8:30 PM
-    all_day: false
-  future_meetings:
-  - *id001
-  - start: '2026-08-03T19:00:00-04:00'
+    start: '2026-08-03T19:00:00-04:00'
     end: '2026-08-03T20:30:00-04:00'
     sort_start_utc: '2026-08-03T23:00:00Z'
     sort_end_utc: '2026-08-04T00:30:00Z'
     display_when: Monday, August 3, 2026, 7 PM to 8:30 PM
     all_day: false
+  future_meetings:
+  - *id001
   - start: '2026-08-10T19:00:00-04:00'
     end: '2026-08-10T20:30:00-04:00'
     sort_start_utc: '2026-08-10T23:00:00Z'
@@ -151,11 +144,16 @@ groups:
     sort_end_utc: '2026-10-13T00:30:00Z'
     display_when: Monday, October 12, 2026, 7 PM to 8:30 PM
     all_day: false
-  meeting_count_in_window: 53
+  - start: '2026-10-19T19:00:00-04:00'
+    end: '2026-10-19T20:30:00-04:00'
+    sort_start_utc: '2026-10-19T23:00:00Z'
+    sort_end_utc: '2026-10-20T00:30:00Z'
+    display_when: Monday, October 19, 2026, 7 PM to 8:30 PM
+    all_day: false
+  meeting_count_in_window: 52
   knowledge_file: knowledge/small-groups/generated/connie-hollan-small-group-ladies-bible-study-0cb4a6.md
 - id: group-f356eaa371c4a23b
   source_uids:
-  - ET-28363570-161895480@resources.planningcenteronline.com
   - ET-28363570-162489189@resources.planningcenteronline.com
   - ET-28363570-163212920@resources.planningcenteronline.com
   - ET-28363570-163944929@resources.planningcenteronline.com
@@ -209,7 +207,7 @@ groups:
   - ET-28363570-193244840@resources.planningcenteronline.com
   - ET-28363570-193880022@resources.planningcenteronline.com
   title: 'Steve Gregory Small Group: Steve Gregory'
-  summary: 'Steve Gregory Small Group: Steve Gregory is scheduled for Monday, July 27, 2026, 7 PM to 8:30 PM.'
+  summary: 'Steve Gregory Small Group: Steve Gregory is scheduled for Monday, August 3, 2026, 7 PM to 8:30 PM.'
   ministries:
   - small_groups
   audiences:
@@ -217,20 +215,14 @@ groups:
   event_category: small_group_meeting
   event_priority: 20
   next_meeting: &id002
-    start: '2026-07-27T19:00:00-04:00'
-    end: '2026-07-27T20:30:00-04:00'
-    sort_start_utc: '2026-07-27T23:00:00Z'
-    sort_end_utc: '2026-07-28T00:30:00Z'
-    display_when: Monday, July 27, 2026, 7 PM to 8:30 PM
-    all_day: false
-  future_meetings:
-  - *id002
-  - start: '2026-08-03T19:00:00-04:00'
+    start: '2026-08-03T19:00:00-04:00'
     end: '2026-08-03T20:30:00-04:00'
     sort_start_utc: '2026-08-03T23:00:00Z'
     sort_end_utc: '2026-08-04T00:30:00Z'
     display_when: Monday, August 3, 2026, 7 PM to 8:30 PM
     all_day: false
+  future_meetings:
+  - *id002
   - start: '2026-08-10T19:00:00-04:00'
     end: '2026-08-10T20:30:00-04:00'
     sort_start_utc: '2026-08-10T23:00:00Z'
@@ -291,7 +283,13 @@ groups:
     sort_end_utc: '2026-10-13T00:30:00Z'
     display_when: Monday, October 12, 2026, 7 PM to 8:30 PM
     all_day: false
-  meeting_count_in_window: 53
+  - start: '2026-10-19T19:00:00-04:00'
+    end: '2026-10-19T20:30:00-04:00'
+    sort_start_utc: '2026-10-19T23:00:00Z'
+    sort_end_utc: '2026-10-20T00:30:00Z'
+    display_when: Monday, October 19, 2026, 7 PM to 8:30 PM
+    all_day: false
+  meeting_count_in_window: 52
   knowledge_file: knowledge/small-groups/generated/steve-gregory-small-group-steve-gregory-c4a23b.md
 - id: group-d895be1a40567dcc
   source_uids:
