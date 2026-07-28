@@ -38,7 +38,7 @@ next_for_ministries: []
 next_for_audiences: []
 all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-28T19:53:42.117505Z
+last_generated: 2026-07-28T22:17:33.929817Z
 ---
 
 # OCC packing party

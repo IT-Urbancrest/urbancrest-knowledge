@@ -39,7 +39,7 @@ next_for_audiences: []
 all_day: false
 info_url: "http://classic.urbancrest.org"
 location: "Heatherwoode Golf Club - 88 Heatherwoode Blvd\nSpringboro, OH 45066"
-last_generated: 2026-07-28T19:53:42.117505Z
+last_generated: 2026-07-28T22:17:33.929817Z
 ---
 
 # Urbancrest Golf Classic
