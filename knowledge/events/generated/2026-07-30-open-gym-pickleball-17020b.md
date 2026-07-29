@@ -1,6 +1,6 @@
 ---
 id: events.live.event-e44fa0ff1817020b
-version: 1.4
+version: 1.4.3
 status: published
 priority: 50
 title: "OPEN GYM Pickleball"
@@ -25,6 +25,8 @@ search_terms:
   - "When is OPEN GYM Pickleball?"
   - "Where is OPEN GYM Pickleball?"
   - "Tell me about OPEN GYM Pickleball"
+  - "What are the details for OPEN GYM Pickleball?"
+  - "What is the menu for OPEN GYM Pickleball?"
   - "How do I register for OPEN GYM Pickleball?"
 resources:
   - events.live
@@ -37,8 +39,11 @@ chronological_rank: 2
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
+info_url: "https://urbancrest.churchcenter.com/calendar/event/216277428"
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-27T15:29:17.168565Z
+planning_center_event_instance_id: "216277428"
+planning_center_event_time_id: "29468516"
+last_generated: 2026-07-29T13:48:12.605378Z
 ---
 
 # OPEN GYM Pickleball
@@ -50,5 +55,7 @@ On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
 On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.
+
+**More information:** https://urbancrest.churchcenter.com/calendar/event/216277428
 
 This information is synchronized automatically from Urbancrest's live calendar.

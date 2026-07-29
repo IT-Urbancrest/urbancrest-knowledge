@@ -1,6 +1,6 @@
 ---
 id: events.live.event-3d8d12fc8dd1508d
-version: 1.4
+version: 1.4.3
 status: published
 priority: 50
 title: "Card Ministry"
@@ -25,6 +25,8 @@ search_terms:
   - "When is Card Ministry?"
   - "Where is Card Ministry?"
   - "Tell me about Card Ministry"
+  - "What are the details for Card Ministry?"
+  - "What is the menu for Card Ministry?"
   - "How do I register for Card Ministry?"
 resources:
   - events.live
@@ -37,7 +39,10 @@ chronological_rank: 9
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
-last_generated: 2026-07-27T15:29:17.168565Z
+info_url: "https://urbancrest.churchcenter.com/calendar/event/162521895"
+planning_center_event_instance_id: "162521895"
+planning_center_event_time_id: "28363612"
+last_generated: 2026-07-29T13:48:12.605378Z
 ---
 
 # Card Ministry
@@ -47,5 +52,7 @@ Rai Lynn Guidone
 **When:** Tuesday, August 4, 2026, 9 AM to 12 PM
 
 Rai Lynn Guidone
+
+**More information:** https://urbancrest.churchcenter.com/calendar/event/162521895
 
 This information is synchronized automatically from Urbancrest's live calendar.

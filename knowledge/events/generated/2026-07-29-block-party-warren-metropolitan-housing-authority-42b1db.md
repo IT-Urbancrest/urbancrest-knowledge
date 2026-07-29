@@ -1,6 +1,6 @@
 ---
 id: events.live.event-12888d127942b1db
-version: 1.4
+version: 1.4.3
 status: published
 priority: 80
 title: "Block Party – Warren Metropolitan Housing Authority"
@@ -25,6 +25,8 @@ search_terms:
   - "When is Block Party – Warren Metropolitan Housing Authority?"
   - "Where is Block Party – Warren Metropolitan Housing Authority?"
   - "Tell me about Block Party – Warren Metropolitan Housing Authority"
+  - "What are the details for Block Party – Warren Metropolitan Housing Authority?"
+  - "What is the menu for Block Party – Warren Metropolitan Housing Authority?"
   - "How do I register for Block Party – Warren Metropolitan Housing Authority?"
 resources:
   - events.live
@@ -38,8 +40,13 @@ next_for_ministries: ["kids"]
 next_for_audiences: ["children", "families", "volunteers"]
 all_day: false
 registration_url: "https://urbancrest.churchcenter.com/registrations/events/3606292"
+info_url: "https://urbancrest.churchcenter.com/calendar/event/221178158"
+image_url: "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3606292/medium_image-1776883703149.jpeg"
 location: "Warren Metropolitan Housing Authority - 990 E Ridge Dr\nLebanon, OH 45036"
-last_generated: 2026-07-27T15:29:17.168565Z
+details_source: "planning_center_calendar_api"
+planning_center_event_instance_id: "221178158"
+planning_center_event_time_id: "30334650"
+last_generated: 2026-07-29T13:48:12.605378Z
 ---
 
 # Block Party – Warren Metropolitan Housing Authority
@@ -67,6 +74,24 @@ Please reach out to Pastor Darrel with any questions at dschick@urbancrest.org.
 If you are an Urbancrest member who would like to volunteer, please sign up HERE ( https://urbancrest.churchcenter.com/registrations/events/3596612 ).
 Register: https://urbancrest.churchcenter.com/registrations/events/3606292
 
+## Details
+
+All are invited and welcome to attend a FREE Block Party at Warren Metropolitan Housing Authority on Wednesday evening, July 29 at 6:00 PM! 
+What to Expect:
+At our Block Parties, there is fun in store for the whole family! All can enjoy free food, games, train rides for kids, face painting, and more!
+When:
+Wednesday, July 29 at 6:00 PM
+Where:
+Warren Metropolitan Housing Authority, 990 E Ridge Dr Apt.26, Lebanon, OH 45036
+Please reach out to Pastor Darrel with any questions at 
+dschick@urbancrest.org
+.
+If you are an Urbancrest member who would like to volunteer, please sign up 
+HERE
+.
+
 **Registration:** https://urbancrest.churchcenter.com/registrations/events/3606292
+
+**Event image:** https://registrations-production.s3.amazonaws.com/uploads/event/logo/3606292/medium_image-1776883703149.jpeg
 
 This information is synchronized automatically from Urbancrest's live calendar.
