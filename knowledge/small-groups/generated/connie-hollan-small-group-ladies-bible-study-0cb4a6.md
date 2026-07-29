@@ -1,6 +1,6 @@
 ---
 id: small_groups.live.group-5aa8f1e4bd0cb4a6
-version: 1.4.1
+version: 1.4.2
 status: published
 priority: 20
 title: "Connie Hollan Small Group: Ladies Bible Study"
@@ -15,6 +15,10 @@ ministries: ["small_groups"]
 answer_style: helpful
 confidence: high
 tags: ["small_group", "recurring", "calendar", "everyone"]
+search_terms:
+  - "Connie Hollan Small Group: Ladies Bible Study"
+  - "Tell me about Connie Hollan Small Group: Ladies Bible Study"
+  - "What are the details for Connie Hollan Small Group: Ladies Bible Study?"
 series_id: group-5aa8f1e4bd0cb4a6
 next_meeting_start: "2026-08-03T19:00:00-04:00"
 next_meeting_end: "2026-08-03T20:30:00-04:00"
@@ -22,7 +26,7 @@ sort_start_utc: "2026-08-03T23:00:00Z"
 sort_end_utc: "2026-08-04T00:30:00Z"
 meeting_count_in_window: 52
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-29T12:56:48.047770Z
+last_generated: 2026-07-29T13:18:19.220956Z
 ---
 
 # Connie Hollan Small Group: Ladies Bible Study

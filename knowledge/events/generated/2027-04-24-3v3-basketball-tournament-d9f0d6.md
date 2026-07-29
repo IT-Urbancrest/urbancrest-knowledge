@@ -1,6 +1,6 @@
 ---
 id: events.live.event-744384e5b1d9f0d6
-version: 1.4.1
+version: 1.4.2
 status: published
 priority: 80
 title: "3V3 Basketball Tournament"
@@ -25,6 +25,8 @@ search_terms:
   - "When is 3V3 Basketball Tournament?"
   - "Where is 3V3 Basketball Tournament?"
   - "Tell me about 3V3 Basketball Tournament"
+  - "What are the details for 3V3 Basketball Tournament?"
+  - "What is the menu for 3V3 Basketball Tournament?"
   - "How do I register for 3V3 Basketball Tournament?"
 resources:
   - events.live
@@ -38,7 +40,7 @@ next_for_ministries: []
 next_for_audiences: []
 all_day: false
 location: "Lebanon High School - 1916 Drake Rd\nLebanon, OH 45036"
-last_generated: 2026-07-29T12:56:48.047770Z
+last_generated: 2026-07-29T13:18:19.220956Z
 ---
 
 # 3V3 Basketball Tournament

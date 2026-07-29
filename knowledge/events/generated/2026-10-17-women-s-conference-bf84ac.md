@@ -1,6 +1,6 @@
 ---
 id: events.live.event-9d496596f1bf84ac
-version: 1.4.1
+version: 1.4.2
 status: published
 priority: 100
 title: "Women's Conference"
@@ -25,6 +25,8 @@ search_terms:
   - "When is Women's Conference?"
   - "Where is Women's Conference?"
   - "Tell me about Women's Conference"
+  - "What are the details for Women's Conference?"
+  - "What is the menu for Women's Conference?"
   - "How do I register for Women's Conference?"
 resources:
   - events.live
@@ -38,7 +40,7 @@ next_for_ministries: []
 next_for_audiences: []
 all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-29T12:56:48.047770Z
+last_generated: 2026-07-29T13:18:19.220956Z
 ---
 
 # Women's Conference

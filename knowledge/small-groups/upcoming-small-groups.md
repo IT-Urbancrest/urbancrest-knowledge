@@ -1,6 +1,6 @@
 ---
 id: small_groups.upcoming.live
-version: 1.4.1
+version: 1.4.2
 status: published
 priority: 70
 title: Upcoming Small Groups
@@ -16,7 +16,7 @@ tags: [small_groups, groups, calendar, recurring]
 resources:
   - small_groups.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-07-29T12:56:48.047770Z
+last_generated: 2026-07-29T13:18:19.220956Z
 ---
 
 # Upcoming Small Groups

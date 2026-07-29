@@ -1,6 +1,6 @@
 ---
 id: small_groups.live.group-d895be1a40567dcc
-version: 1.4.1
+version: 1.4.2
 status: published
 priority: 20
 title: "P U R S U E"
@@ -15,13 +15,17 @@ ministries: ["students", "worship", "small_groups"]
 answer_style: helpful
 confidence: high
 tags: ["small_group", "recurring", "calendar", "students"]
+search_terms:
+  - "P U R S U E"
+  - "Tell me about P U R S U E"
+  - "What are the details for P U R S U E?"
 series_id: group-d895be1a40567dcc
 next_meeting_start: "2026-08-05T18:30:00-04:00"
 next_meeting_end: "2026-08-05T20:30:00-04:00"
 sort_start_utc: "2026-08-05T22:30:00Z"
 sort_end_utc: "2026-08-06T00:30:00Z"
 meeting_count_in_window: 52
-last_generated: 2026-07-29T12:56:48.047770Z
+last_generated: 2026-07-29T13:18:19.220956Z
 ---
 
 # P U R S U E

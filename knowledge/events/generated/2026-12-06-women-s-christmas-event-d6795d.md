@@ -1,6 +1,6 @@
 ---
 id: events.live.event-14d5eeb361d6795d
-version: 1.4.1
+version: 1.4.2
 status: published
 priority: 80
 title: "Women's Christmas Event"
@@ -25,6 +25,8 @@ search_terms:
   - "When is Women's Christmas Event?"
   - "Where is Women's Christmas Event?"
   - "Tell me about Women's Christmas Event"
+  - "What are the details for Women's Christmas Event?"
+  - "What is the menu for Women's Christmas Event?"
   - "How do I register for Women's Christmas Event?"
 resources:
   - events.live
@@ -38,7 +40,7 @@ next_for_ministries: []
 next_for_audiences: []
 all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-29T12:56:48.047770Z
+last_generated: 2026-07-29T13:18:19.220956Z
 ---
 
 # Women's Christmas Event

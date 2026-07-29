@@ -1,6 +1,6 @@
 ---
 id: events.live.event-208ae73f105cc125
-version: 1.4.1
+version: 1.4.2
 status: published
 priority: 50
 title: "Leah Busick Open House Reception"
@@ -25,6 +25,8 @@ search_terms:
   - "When is Leah Busick Open House Reception?"
   - "Where is Leah Busick Open House Reception?"
   - "Tell me about Leah Busick Open House Reception"
+  - "What are the details for Leah Busick Open House Reception?"
+  - "What is the menu for Leah Busick Open House Reception?"
   - "How do I register for Leah Busick Open House Reception?"
 resources:
   - events.live
@@ -37,7 +39,7 @@ chronological_rank: 8
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
-last_generated: 2026-07-29T12:56:48.047770Z
+last_generated: 2026-07-29T13:18:19.220956Z
 ---
 
 # Leah Busick Open House Reception
