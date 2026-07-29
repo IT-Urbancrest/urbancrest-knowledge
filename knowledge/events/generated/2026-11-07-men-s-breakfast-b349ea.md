@@ -1,6 +1,6 @@
 ---
 id: events.live.event-f93e5d4a42b349ea
-version: 1.4
+version: 1.4.1
 status: published
 priority: 80
 title: "Men's Breakfast"
@@ -33,12 +33,12 @@ event_start: "2026-11-07T08:00:00-05:00"
 event_end: "2026-11-07T10:00:00-05:00"
 sort_start_utc: "2026-11-07T13:00:00Z"
 sort_end_utc: "2026-11-07T15:00:00Z"
-chronological_rank: 72
+chronological_rank: 62
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-27T15:29:17.168565Z
+last_generated: 2026-07-29T12:56:48.047770Z
 ---
 
 # Men's Breakfast

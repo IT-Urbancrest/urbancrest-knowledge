@@ -1,6 +1,6 @@
 ---
 id: events.live.event-09a75fc73580f4a3
-version: 1.4
+version: 1.4.1
 status: published
 priority: 50
 title: "Sunday Morning Services: 11:00 AM Service"
@@ -33,12 +33,12 @@ event_start: "2026-08-30T11:00:00-04:00"
 event_end: "2026-08-30T12:10:00-04:00"
 sort_start_utc: "2026-08-30T15:00:00Z"
 sort_end_utc: "2026-08-30T16:10:00Z"
-chronological_rank: 32
+chronological_rank: 33
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-27T15:29:17.168565Z
+last_generated: 2026-07-29T12:56:48.047770Z
 ---
 
 # Sunday Morning Services: 11:00 AM Service
