@@ -1,6 +1,6 @@
 ---
 id: events.live.event-6d5b8302174f4169
-version: 1.4.1
+version: 1.4.2
 status: published
 priority: 100
 title: "Urbancrest Golf Classic"
@@ -25,6 +25,8 @@ search_terms:
   - "When is Urbancrest Golf Classic?"
   - "Where is Urbancrest Golf Classic?"
   - "Tell me about Urbancrest Golf Classic"
+  - "What are the details for Urbancrest Golf Classic?"
+  - "What is the menu for Urbancrest Golf Classic?"
   - "How do I register for Urbancrest Golf Classic?"
 resources:
   - events.live
@@ -39,7 +41,7 @@ next_for_audiences: []
 all_day: false
 info_url: "http://classic.urbancrest.org"
 location: "Heatherwoode Golf Club - 88 Heatherwoode Blvd\nSpringboro, OH 45066"
-last_generated: 2026-07-29T12:56:48.047770Z
+last_generated: 2026-07-29T13:18:19.220956Z
 ---
 
 # Urbancrest Golf Classic

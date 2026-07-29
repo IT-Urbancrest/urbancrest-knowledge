@@ -1,6 +1,6 @@
 ---
 id: events.live.event-9f32a6631850aaa2
-version: 1.4.1
+version: 1.4.2
 status: published
 priority: 100
 title: "Summit - Gym Set-up"
@@ -25,6 +25,8 @@ search_terms:
   - "When is Summit - Gym Set-up?"
   - "Where is Summit - Gym Set-up?"
   - "Tell me about Summit - Gym Set-up"
+  - "What are the details for Summit - Gym Set-up?"
+  - "What is the menu for Summit - Gym Set-up?"
   - "How do I register for Summit - Gym Set-up?"
 resources:
   - events.live
@@ -37,7 +39,7 @@ chronological_rank: 90
 next_for_ministries: []
 next_for_audiences: []
 all_day: true
-last_generated: 2026-07-29T12:56:48.047770Z
+last_generated: 2026-07-29T13:18:19.220956Z
 ---
 
 # Summit - Gym Set-up

@@ -1,6 +1,6 @@
 ---
 id: events.live.event-4738dbcd6f36f49b
-version: 1.4.1
+version: 1.4.2
 status: published
 priority: 60
 title: "Wednesday Night Dinner"
@@ -25,6 +25,8 @@ search_terms:
   - "When is Wednesday Night Dinner?"
   - "Where is Wednesday Night Dinner?"
   - "Tell me about Wednesday Night Dinner"
+  - "What are the details for Wednesday Night Dinner?"
+  - "What is the menu for Wednesday Night Dinner?"
   - "How do I register for Wednesday Night Dinner?"
 resources:
   - events.live
@@ -38,7 +40,7 @@ next_for_ministries: []
 next_for_audiences: []
 all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-29T12:56:48.047770Z
+last_generated: 2026-07-29T13:18:19.220956Z
 ---
 
 # Wednesday Night Dinner

@@ -1,6 +1,6 @@
 ---
 id: events.live.event-268e3c6a6137ba8f
-version: 1.4.1
+version: 1.4.2
 status: published
 priority: 80
 title: "Youth Back to School Bash"
@@ -25,6 +25,8 @@ search_terms:
   - "When is Youth Back to School Bash?"
   - "Where is Youth Back to School Bash?"
   - "Tell me about Youth Back to School Bash"
+  - "What are the details for Youth Back to School Bash?"
+  - "What is the menu for Youth Back to School Bash?"
   - "How do I register for Youth Back to School Bash?"
 resources:
   - events.live
@@ -38,7 +40,7 @@ next_for_ministries: []
 next_for_audiences: []
 all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-29T12:56:48.047770Z
+last_generated: 2026-07-29T13:18:19.220956Z
 ---
 
 # Youth Back to School Bash

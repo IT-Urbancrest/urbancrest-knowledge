@@ -1,6 +1,6 @@
 ---
 id: small_groups.live.group-f356eaa371c4a23b
-version: 1.4.1
+version: 1.4.2
 status: published
 priority: 20
 title: "Steve Gregory Small Group: Steve Gregory"
@@ -15,13 +15,17 @@ ministries: ["small_groups"]
 answer_style: helpful
 confidence: high
 tags: ["small_group", "recurring", "calendar", "everyone"]
+search_terms:
+  - "Steve Gregory Small Group: Steve Gregory"
+  - "Tell me about Steve Gregory Small Group: Steve Gregory"
+  - "What are the details for Steve Gregory Small Group: Steve Gregory?"
 series_id: group-f356eaa371c4a23b
 next_meeting_start: "2026-08-03T19:00:00-04:00"
 next_meeting_end: "2026-08-03T20:30:00-04:00"
 sort_start_utc: "2026-08-03T23:00:00Z"
 sort_end_utc: "2026-08-04T00:30:00Z"
 meeting_count_in_window: 52
-last_generated: 2026-07-29T12:56:48.047770Z
+last_generated: 2026-07-29T13:18:19.220956Z
 ---
 
 # Steve Gregory Small Group: Steve Gregory

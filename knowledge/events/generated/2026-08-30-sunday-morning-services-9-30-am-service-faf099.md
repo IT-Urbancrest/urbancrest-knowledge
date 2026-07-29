@@ -1,6 +1,6 @@
 ---
 id: events.live.event-87018d6b99faf099
-version: 1.4.1
+version: 1.4.2
 status: published
 priority: 50
 title: "Sunday Morning Services: 9:30 AM Service"
@@ -25,6 +25,8 @@ search_terms:
   - "When is Sunday Morning Services: 9:30 AM Service?"
   - "Where is Sunday Morning Services: 9:30 AM Service?"
   - "Tell me about Sunday Morning Services: 9:30 AM Service"
+  - "What are the details for Sunday Morning Services: 9:30 AM Service?"
+  - "What is the menu for Sunday Morning Services: 9:30 AM Service?"
   - "How do I register for Sunday Morning Services: 9:30 AM Service?"
 resources:
   - events.live
@@ -38,7 +40,7 @@ next_for_ministries: []
 next_for_audiences: []
 all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-29T12:56:48.047770Z
+last_generated: 2026-07-29T13:18:19.220956Z
 ---
 
 # Sunday Morning Services: 9:30 AM Service

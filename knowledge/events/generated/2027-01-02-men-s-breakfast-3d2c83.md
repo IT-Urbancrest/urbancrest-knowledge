@@ -1,6 +1,6 @@
 ---
 id: events.live.event-5783c30d183d2c83
-version: 1.4.1
+version: 1.4.2
 status: published
 priority: 80
 title: "Men's Breakfast"
@@ -25,6 +25,8 @@ search_terms:
   - "When is Men's Breakfast?"
   - "Where is Men's Breakfast?"
   - "Tell me about Men's Breakfast"
+  - "What are the details for Men's Breakfast?"
+  - "What is the menu for Men's Breakfast?"
   - "How do I register for Men's Breakfast?"
 resources:
   - events.live
@@ -38,7 +40,7 @@ next_for_ministries: []
 next_for_audiences: []
 all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-29T12:56:48.047770Z
+last_generated: 2026-07-29T13:18:19.220956Z
 ---
 
 # Men's Breakfast

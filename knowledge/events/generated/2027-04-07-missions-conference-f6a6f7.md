@@ -1,6 +1,6 @@
 ---
 id: events.live.event-f2f8bb3688f6a6f7
-version: 1.4.1
+version: 1.4.2
 status: published
 priority: 100
 title: "Missions Conference"
@@ -25,6 +25,8 @@ search_terms:
   - "When is Missions Conference?"
   - "Where is Missions Conference?"
   - "Tell me about Missions Conference"
+  - "What are the details for Missions Conference?"
+  - "What is the menu for Missions Conference?"
   - "How do I register for Missions Conference?"
 resources:
   - events.live
@@ -38,7 +40,7 @@ next_for_ministries: ["missions"]
 next_for_audiences: []
 all_day: true
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-29T12:56:48.047770Z
+last_generated: 2026-07-29T13:18:19.220956Z
 ---
 
 # Missions Conference
