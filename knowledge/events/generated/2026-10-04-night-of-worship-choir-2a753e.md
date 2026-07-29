@@ -1,6 +1,6 @@
 ---
 id: events.live.event-afab721d8e2a753e
-version: 1.4.2
+version: 1.4
 status: published
 priority: 80
 title: "Night of Worship Choir"
@@ -25,8 +25,6 @@ search_terms:
   - "When is Night of Worship Choir?"
   - "Where is Night of Worship Choir?"
   - "Tell me about Night of Worship Choir"
-  - "What are the details for Night of Worship Choir?"
-  - "What is the menu for Night of Worship Choir?"
   - "How do I register for Night of Worship Choir?"
 resources:
   - events.live
@@ -35,12 +33,12 @@ event_start: "2026-10-04T18:00:00-04:00"
 event_end: "2026-10-04T19:30:00-04:00"
 sort_start_utc: "2026-10-04T22:00:00Z"
 sort_end_utc: "2026-10-04T23:30:00Z"
-chronological_rank: 51
+chronological_rank: 62
 next_for_ministries: ["worship"]
 next_for_audiences: []
 all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-29T13:18:19.220956Z
+last_generated: 2026-07-27T15:29:17.168565Z
 ---
 
 # Night of Worship Choir

@@ -1,6 +1,6 @@
 ---
 id: events.live.event-75c02532b780df8e
-version: 1.4.2
+version: 1.4
 status: published
 priority: 50
 title: "Monthly Baskets of Hope - Volunteers"
@@ -25,8 +25,6 @@ search_terms:
   - "When is Monthly Baskets of Hope - Volunteers?"
   - "Where is Monthly Baskets of Hope - Volunteers?"
   - "Tell me about Monthly Baskets of Hope - Volunteers"
-  - "What are the details for Monthly Baskets of Hope - Volunteers?"
-  - "What is the menu for Monthly Baskets of Hope - Volunteers?"
   - "How do I register for Monthly Baskets of Hope - Volunteers?"
 resources:
   - events.live
@@ -40,7 +38,7 @@ next_for_ministries: []
 next_for_audiences: []
 all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-29T13:18:19.220956Z
+last_generated: 2026-07-27T15:29:17.168565Z
 ---
 
 # Monthly Baskets of Hope - Volunteers

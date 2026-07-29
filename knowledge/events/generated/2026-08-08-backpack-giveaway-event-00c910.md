@@ -1,6 +1,6 @@
 ---
 id: events.live.event-c53a75611600c910
-version: 1.4.2
+version: 1.4
 status: published
 priority: 50
 title: "Backpack Giveaway Event"
@@ -25,8 +25,6 @@ search_terms:
   - "When is Backpack Giveaway Event?"
   - "Where is Backpack Giveaway Event?"
   - "Tell me about Backpack Giveaway Event"
-  - "What are the details for Backpack Giveaway Event?"
-  - "What is the menu for Backpack Giveaway Event?"
   - "How do I register for Backpack Giveaway Event?"
 resources:
   - events.live
@@ -40,7 +38,7 @@ next_for_ministries: []
 next_for_audiences: []
 all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-29T13:18:19.220956Z
+last_generated: 2026-07-27T15:29:17.168565Z
 ---
 
 # Backpack Giveaway Event

@@ -1,6 +1,6 @@
 ---
 id: events.live.event-3d8d12fc8dd1508d
-version: 1.4.2
+version: 1.4
 status: published
 priority: 50
 title: "Card Ministry"
@@ -25,8 +25,6 @@ search_terms:
   - "When is Card Ministry?"
   - "Where is Card Ministry?"
   - "Tell me about Card Ministry"
-  - "What are the details for Card Ministry?"
-  - "What is the menu for Card Ministry?"
   - "How do I register for Card Ministry?"
 resources:
   - events.live
@@ -39,7 +37,7 @@ chronological_rank: 9
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
-last_generated: 2026-07-29T13:18:19.220956Z
+last_generated: 2026-07-27T15:29:17.168565Z
 ---
 
 # Card Ministry

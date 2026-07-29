@@ -1,6 +1,6 @@
 ---
 id: events.live.event-6b34cb8d668698aa
-version: 1.4.2
+version: 1.4
 status: published
 priority: 80
 title: "Women's Fall Fest"
@@ -25,8 +25,6 @@ search_terms:
   - "When is Women's Fall Fest?"
   - "Where is Women's Fall Fest?"
   - "Tell me about Women's Fall Fest"
-  - "What are the details for Women's Fall Fest?"
-  - "What is the menu for Women's Fall Fest?"
   - "How do I register for Women's Fall Fest?"
 resources:
   - events.live
@@ -35,12 +33,12 @@ event_start: "2026-09-27T17:30:00-04:00"
 event_end: "2026-09-27T20:00:00-04:00"
 sort_start_utc: "2026-09-27T21:30:00Z"
 sort_end_utc: "2026-09-28T00:00:00Z"
-chronological_rank: 47
+chronological_rank: 56
 next_for_ministries: ["women"]
 next_for_audiences: ["women"]
 all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-29T13:18:19.220956Z
+last_generated: 2026-07-27T15:29:17.168565Z
 ---
 
 # Women's Fall Fest

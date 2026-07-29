@@ -1,6 +1,6 @@
 ---
 id: events.live.event-5ee7e8f2ebdec2d7
-version: 1.4.2
+version: 1.4
 status: published
 priority: 80
 title: "Men's Breakfast"
@@ -25,8 +25,6 @@ search_terms:
   - "When is Men's Breakfast?"
   - "Where is Men's Breakfast?"
   - "Tell me about Men's Breakfast"
-  - "What are the details for Men's Breakfast?"
-  - "What is the menu for Men's Breakfast?"
   - "How do I register for Men's Breakfast?"
 resources:
   - events.live
@@ -35,12 +33,12 @@ event_start: "2026-10-03T08:00:00-04:00"
 event_end: "2026-10-03T10:00:00-04:00"
 sort_start_utc: "2026-10-03T12:00:00Z"
 sort_end_utc: "2026-10-03T14:00:00Z"
-chronological_rank: 49
+chronological_rank: 58
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-29T13:18:19.220956Z
+last_generated: 2026-07-27T15:29:17.168565Z
 ---
 
 # Men's Breakfast

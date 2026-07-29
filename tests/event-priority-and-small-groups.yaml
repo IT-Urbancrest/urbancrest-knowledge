@@ -1,0 +1,48 @@
+version: 1.0
+suite: split_event_and_small_group_retrieval
+timezone: America/New_York
+
+tests:
+  - name: major event survives Small Group volume
+    query: What women's ministry events are coming up?
+    expected:
+      registry: registry/events-live.yaml
+      filter_any:
+        ministries: [women]
+        audiences: [women]
+      sort:
+        field: sort_start_utc
+        direction: ascending
+      must_not: Omit a high-priority event because many Small Group occurrences exist.
+
+  - name: broad calendar excludes routine Small Groups
+    query: What major events are coming up?
+    expected:
+      registry: registry/events-live.yaml
+      must_not: Fill the answer with routine Small Group meetings.
+
+  - name: Small Groups use separate registry
+    query: What Small Groups meet this week?
+    expected:
+      registry: registry/small-groups-live.yaml
+      sort:
+        field: next_meeting.sort_start_utc
+        direction: ascending
+
+  - name: recurring Small Group is collapsed
+    query: When does a specific Small Group meet?
+    expected:
+      behavior: Return one group record with its next meeting and future_meetings.
+      must_not: Return every recurrence as a separate group.
+
+  - name: priority does not replace chronological sorting
+    query: What is the next women's ministry event?
+    expected:
+      filter_any:
+        ministries: [women]
+        audiences: [women]
+      sort:
+        field: sort_start_utc
+        direction: ascending
+      select: first
+      must_not: Choose a later event only because it has a higher event_priority.

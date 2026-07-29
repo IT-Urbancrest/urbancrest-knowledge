@@ -1,6 +1,6 @@
 ---
 id: events.live.event-ccf377daaf43c57b
-version: 1.4.2
+version: 1.4
 status: published
 priority: 50
 title: "OPEN GYM Pickleball"
@@ -25,8 +25,6 @@ search_terms:
   - "When is OPEN GYM Pickleball?"
   - "Where is OPEN GYM Pickleball?"
   - "Tell me about OPEN GYM Pickleball"
-  - "What are the details for OPEN GYM Pickleball?"
-  - "What is the menu for OPEN GYM Pickleball?"
   - "How do I register for OPEN GYM Pickleball?"
 resources:
   - events.live
@@ -40,7 +38,7 @@ next_for_ministries: []
 next_for_audiences: []
 all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-last_generated: 2026-07-29T13:18:19.220956Z
+last_generated: 2026-07-27T15:29:17.168565Z
 ---
 
 # OPEN GYM Pickleball
