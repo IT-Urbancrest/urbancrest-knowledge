@@ -93,6 +93,76 @@ def clean_text(value: object) -> str:
     return text.strip()
 
 
+DETAIL_PROPERTY_NAMES = (
+    "X-ALT-DESC",
+    "X-PLANNING-CENTER-DESCRIPTION",
+    "X-PLANNING-CENTER-DETAILS",
+    "X-PCO-DESCRIPTION",
+    "X-PCO-DETAILS",
+    "DETAILS",
+)
+
+
+def component_text_values(component, key: str) -> list[str]:
+    raw = component.get(key)
+    if raw is None:
+        return []
+    values = raw if isinstance(raw, list) else [raw]
+    return [cleaned for value in values if (cleaned := clean_text(value))]
+
+
+def normalized_content(value: str) -> str:
+    return re.sub(r"\s+", " ", normalize_for_matching(value)).strip()
+
+
+def extract_details(component, description: str) -> str:
+    """
+    Extract a separate public details/rich-description field when the iCal
+    feed includes one.
+
+    Planning Center's plain iCal description is read from DESCRIPTION. Rich or
+    alternate details may be exported in X-ALT-DESC or another public custom
+    property. Duplicate copies of DESCRIPTION are discarded.
+    """
+    property_names = list(DETAIL_PROPERTY_NAMES)
+
+    # Future-proof the parser for public Planning Center custom properties.
+    for key in component.keys():
+        name = str(key).upper()
+        if (
+            name.startswith("X-")
+            and any(token in name for token in ("DETAIL", "DESCRIPTION", "DESC"))
+            and "INTERNAL" not in name
+            and "NOTE" not in name
+            and name not in property_names
+        ):
+            property_names.append(name)
+
+    description_normalized = normalized_content(description)
+    details: list[str] = []
+    seen: set[str] = set()
+
+    for property_name in property_names:
+        for candidate in component_text_values(component, property_name):
+            candidate_normalized = normalized_content(candidate)
+            if not candidate_normalized or candidate_normalized == description_normalized:
+                continue
+
+            # X-ALT-DESC may contain the plain description followed by richer
+            # details. Remove the repeated leading description when possible.
+            if description and candidate.startswith(description):
+                candidate = candidate[len(description):].lstrip(" \t\r\n:-")
+                candidate_normalized = normalized_content(candidate)
+
+            if not candidate_normalized or candidate_normalized in seen:
+                continue
+
+            seen.add(candidate_normalized)
+            details.append(candidate)
+
+    return "\n\n".join(details).strip()
+
+
 def normalize_for_matching(value: str) -> str:
     return (
         value.casefold()
@@ -215,7 +285,7 @@ def classify_urls(urls: list[str]) -> tuple[str | None, str | None]:
     return registration, info
 
 
-def extract_image(component, description: str) -> str | None:
+def extract_image(component, *text_fields: str) -> str | None:
     candidates: list[str] = []
 
     for key in ("ATTACH", "IMAGE"):
@@ -225,7 +295,7 @@ def extract_image(component, description: str) -> str | None:
             candidates.extend(str(value) for value in values)
 
     candidates.extend(
-        extract_urls(description, clean_text(component.get("X-ALT-DESC")))
+        extract_urls(*text_fields, clean_text(component.get("X-ALT-DESC")))
     )
 
     for url in candidates:
@@ -455,7 +525,7 @@ def write_event_article(event: dict[str, object], generated_at: str) -> str:
     lines = [
         "---",
         f"id: events.live.{event['id']}",
-        "version: 1.4.1",
+        "version: 1.4.2",
         "status: published",
         f"priority: {event['event_priority']}",
         f"title: {yaml_quote(title)}",
@@ -480,6 +550,8 @@ def write_event_article(event: dict[str, object], generated_at: str) -> str:
         f"  - {yaml_quote('When is ' + title + '?')}",
         f"  - {yaml_quote('Where is ' + title + '?')}",
         f"  - {yaml_quote('Tell me about ' + title)}",
+        f"  - {yaml_quote('What are the details for ' + title + '?')}",
+        f"  - {yaml_quote('What is the menu for ' + title + '?')}",
         f"  - {yaml_quote('How do I register for ' + title + '?')}",
         "resources:",
         "  - events.live",
@@ -514,6 +586,8 @@ def write_event_article(event: dict[str, object], generated_at: str) -> str:
         lines.extend([f"**Where:** {event['location']}", ""])
     if event.get("description"):
         lines.extend([str(event["description"]), ""])
+    if event.get("details"):
+        lines.extend(["## Details", "", str(event["details"]), ""])
     if event.get("registration_url"):
         lines.extend([f"**Registration:** {event['registration_url']}", ""])
     elif event.get("info_url"):
@@ -574,6 +648,7 @@ def collapse_small_groups(
             "title": first["title"],
             "summary": first["summary"],
             "description": first.get("description"),
+            "details": first.get("details"),
             "location": first.get("location"),
             "registration_url": first.get("registration_url"),
             "info_url": first.get("info_url"),
@@ -607,7 +682,7 @@ def write_group_article(group: dict[str, object], generated_at: str) -> str:
     lines = [
         "---",
         f"id: small_groups.live.{group['id']}",
-        "version: 1.4.1",
+        "version: 1.4.2",
         "status: published",
         f"priority: {group['event_priority']}",
         f"title: {yaml_quote(title)}",
@@ -622,6 +697,10 @@ def write_group_article(group: dict[str, object], generated_at: str) -> str:
         "answer_style: helpful",
         "confidence: high",
         "tags: " + yaml_inline_list(tags),
+        "search_terms:",
+        f"  - {yaml_quote(title)}",
+        f"  - {yaml_quote('Tell me about ' + title)}",
+        f"  - {yaml_quote('What are the details for ' + title + '?')}",
         f"series_id: {group['id']}",
         f"next_meeting_start: {yaml_quote(str(next_meeting['start']))}",
         f"next_meeting_end: {yaml_quote(str(next_meeting['end']))}",
@@ -650,6 +729,8 @@ def write_group_article(group: dict[str, object], generated_at: str) -> str:
         lines.extend([f"**Where:** {group['location']}", ""])
     if group.get("description"):
         lines.extend([str(group["description"]), ""])
+    if group.get("details"):
+        lines.extend(["## Details", "", str(group["details"]), ""])
     if group.get("registration_url"):
         lines.extend([f"**Registration:** {group['registration_url']}", ""])
     elif group.get("info_url"):
@@ -674,7 +755,7 @@ def write_event_index(events: list[dict[str, object]], generated_at: str) -> Non
     lines = [
         "---",
         "id: events.upcoming.live",
-        "version: 1.4.1",
+        "version: 1.4.2",
         "status: published",
         "priority: 100",
         "title: Upcoming Events",
@@ -728,7 +809,7 @@ def write_group_index(groups: list[dict[str, object]], generated_at: str) -> Non
     lines = [
         "---",
         "id: small_groups.upcoming.live",
-        "version: 1.4.1",
+        "version: 1.4.2",
         "status: published",
         "priority: 70",
         "title: Upcoming Small Groups",
@@ -787,7 +868,7 @@ def main() -> int:
     response = requests.get(
         feed_url,
         timeout=30,
-        headers={"User-Agent": "Urbancrest-Knowledge-Event-Sync/1.4.1"},
+        headers={"User-Agent": "Urbancrest-Knowledge-Event-Sync/1.4.2"},
     )
     response.raise_for_status()
 
@@ -806,6 +887,10 @@ def main() -> int:
 
         title = clean_text(component.get("SUMMARY")) or "Untitled Event"
         description = clean_text(component.get("DESCRIPTION"))
+        details = extract_details(component, description)
+        public_text = "\n\n".join(
+            value for value in (description, details) if value
+        )
         location = normalize_location(clean_text(component.get("LOCATION")))
         uid = clean_text(component.get("UID")) or title
         recurrence_id = clean_text(component.get("RECURRENCE-ID"))
@@ -826,16 +911,17 @@ def main() -> int:
         urls = extract_urls(
             clean_text(component.get("URL")),
             description,
+            details,
             clean_text(component.get("X-ALT-DESC")),
         )
         registration_url, info_url = classify_urls(urls)
-        image_url = extract_image(component, description)
-        ministries, audiences = infer_labels(title, description)
+        image_url = extract_image(component, description, details)
+        ministries, audiences = infer_labels(title, public_text)
         event_category, event_priority, collection = infer_category(
-            title, description, ministries, category_config
+            title, public_text, ministries, category_config
         )
         when = display_when(start, end, all_day)
-        summary = make_summary(title, when, location, description)
+        summary = make_summary(title, when, location, description or details)
 
         event = {
             "id": stable_event_id(uid, recurrence_id, start),
@@ -850,6 +936,7 @@ def main() -> int:
             "all_day": all_day,
             "location": location or None,
             "description": description or None,
+            "details": details or None,
             "registration_url": registration_url,
             "info_url": info_url,
             "image_url": image_url,
@@ -893,7 +980,7 @@ def main() -> int:
         group["knowledge_file"] = write_group_article(group, generated_at)
 
     event_registry = {
-        "version": "1.4.1",
+        "version": "1.4.2",
         "generated_at": generated_at,
         "timezone": TIMEZONE_NAME,
         "source": "planning_center_ical",
@@ -919,7 +1006,7 @@ def main() -> int:
     }
 
     group_registry = {
-        "version": "1.4.1",
+        "version": "1.4.2",
         "generated_at": generated_at,
         "timezone": TIMEZONE_NAME,
         "source": "planning_center_ical",
@@ -953,7 +1040,9 @@ def main() -> int:
     write_event_index(main_events, generated_at)
     write_group_index(small_groups, generated_at)
 
+    details_count = sum(1 for event in parsed_events if event.get("details"))
     print(f"Parsed {len(parsed_events)} future event occurrences.")
+    print(f"Imported separate details for {details_count} event occurrences.")
     print(
         f"Wrote {len(main_events)} main events "
         f"from {len(main_candidates)} main-event candidates."

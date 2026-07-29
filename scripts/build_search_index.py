@@ -232,6 +232,15 @@ def event_records() -> list[dict[str, Any]]:
         event_id = str(event.get("id") or "")
         title = str(event.get("title") or "Untitled Event")
         description = str(event.get("description") or "")
+        details = str(event.get("details") or "")
+        content = "\n\n".join(
+            value
+            for value in (
+                description,
+                f"Details:\n{details}" if details else "",
+            )
+            if value
+        )
         normalized_title = title.casefold()
         routine_service_occurrence = (
             "sunday morning services" in normalized_title
@@ -248,12 +257,19 @@ def event_records() -> list[dict[str, Any]]:
                 path=str(event.get("knowledge_file") or "registry/events-live.yaml"),
                 title=title,
                 summary=str(event.get("summary") or ""),
-                content=description,
+                content=content,
                 priority=event_priority,
                 category=["events", str(event.get("event_category") or "general_event")],
                 intents=["event_details", "upcoming_events", "calendar", "next_ministry_event"],
                 tags=["event", "calendar", "upcoming", str(event.get("event_category") or "general_event")],
-                search_terms=[title, f"When is {title}?", f"Tell me about {title}", f"How do I register for {title}?"],
+                search_terms=[
+                    title,
+                    f"When is {title}?",
+                    f"Tell me about {title}",
+                    f"What are the details for {title}?",
+                    f"What is the menu for {title}?",
+                    f"How do I register for {title}?",
+                ],
                 ministries=as_list(event.get("ministries")),
                 audiences=as_list(event.get("audiences")),
                 event_id=event_id,
@@ -263,6 +279,7 @@ def event_records() -> list[dict[str, Any]]:
                 sort_start_utc=event.get("sort_start_utc"),
                 sort_end_utc=event.get("sort_end_utc"),
                 location=event.get("location"),
+                details=event.get("details"),
                 registration_url=event.get("registration_url"),
                 info_url=event.get("info_url"),
                 image_url=event.get("image_url"),
@@ -288,7 +305,16 @@ def group_records() -> list[dict[str, Any]]:
         title = str(group.get("title") or "Untitled Small Group")
         meetings = group.get("future_meetings") or []
         schedule_lines = [str(item.get("display_when") or item.get("start") or "") for item in meetings if isinstance(item, dict)]
-        content = "\n".join(filter(None, [str(group.get("description") or ""), "Upcoming meetings:", *schedule_lines]))
+        content = "\n\n".join(
+            filter(
+                None,
+                [
+                    str(group.get("description") or ""),
+                    f"Details:\n{group.get('details')}" if group.get("details") else "",
+                    "Upcoming meetings:\n" + "\n".join(schedule_lines),
+                ],
+            )
+        )
         next_meeting = group.get("next_meeting") or {}
         records.append(
             record_base(
@@ -311,6 +337,7 @@ def group_records() -> list[dict[str, Any]]:
                 sort_start_utc=next_meeting.get("sort_start_utc") if isinstance(next_meeting, dict) else None,
                 sort_end_utc=next_meeting.get("sort_end_utc") if isinstance(next_meeting, dict) else None,
                 location=group.get("location"),
+                details=group.get("details"),
                 registration_url=group.get("registration_url"),
                 info_url=group.get("info_url"),
                 knowledge_file=group.get("knowledge_file"),
