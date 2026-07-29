@@ -31,6 +31,24 @@ MAX_SMALL_GROUP_SERIES = int(os.getenv("SMALL_GROUP_MAX_SERIES", "100"))
 MAX_SMALL_GROUP_OCCURRENCES = int(os.getenv("SMALL_GROUP_MAX_OCCURRENCES", "12"))
 DEFAULT_IMAGE = os.getenv("EVENT_DEFAULT_IMAGE", "").strip()
 
+PLANNING_CENTER_API_BASE = os.getenv(
+    "PLANNING_CENTER_API_BASE",
+    "https://api.planningcenteronline.com",
+).rstrip("/")
+PLANNING_CENTER_API_VERSION = os.getenv(
+    "PLANNING_CENTER_API_VERSION",
+    "2026-06-22",
+).strip()
+PLANNING_CENTER_APP_ID = os.getenv("PLANNING_CENTER_APP_ID", "").strip()
+PLANNING_CENTER_SECRET = os.getenv("PLANNING_CENTER_SECRET", "").strip()
+PLANNING_CENTER_API_MAX_PAGES = int(
+    os.getenv("PLANNING_CENTER_API_MAX_PAGES", "50")
+)
+PLANNING_CENTER_UID_PATTERN = re.compile(
+    r"^ET-(?P<event_time_id>\d+)-(?P<event_instance_id>\d+)@",
+    flags=re.IGNORECASE,
+)
+
 ROOT = Path(__file__).resolve().parents[1]
 
 EVENT_REGISTRY_PATH = ROOT / "registry" / "events-live.yaml"
@@ -173,6 +191,232 @@ def normalize_for_matching(value: str) -> str:
         .replace("–", "-")
         .replace("—", "-")
     )
+
+
+def parse_planning_center_uid(uid: str) -> dict[str, str] | None:
+    """Extract Planning Center EventTime and EventInstance IDs from an iCal UID."""
+    match = PLANNING_CENTER_UID_PATTERN.match(clean_text(uid))
+    if not match:
+        return None
+    return match.groupdict()
+
+
+def planning_center_api_enabled() -> bool:
+    return bool(PLANNING_CENTER_APP_ID and PLANNING_CENTER_SECRET)
+
+
+def planning_center_api_params(window_start: datetime, window_end: datetime) -> dict[str, str]:
+    """Build a bounded Calendar API query for public event-instance details."""
+    return {
+        "include": "event",
+        "order": "starts_at",
+        "per_page": "100",
+        "where[starts_at][gte]": window_start.astimezone(timezone.utc).isoformat(),
+        "where[starts_at][lte]": window_end.astimezone(timezone.utc).isoformat(),
+        "fields[EventInstance]": ",".join(
+            [
+                "church_center_url",
+                "description",
+                "ends_at",
+                "image_url",
+                "location",
+                "name",
+                "starts_at",
+            ]
+        ),
+        "fields[Event]": ",".join(
+            [
+                "description",
+                "image_url",
+                "name",
+                "registration_url",
+                "summary",
+                "visible_in_church_center",
+            ]
+        ),
+    }
+
+
+def build_calendar_api_enrichment(
+    instances: list[dict],
+    included: list[dict],
+    target_instance_ids: set[str],
+) -> dict[str, dict[str, object]]:
+    """Convert JSON:API EventInstance and included Event records into a lookup."""
+    event_resources = {
+        str(item.get("id")): item
+        for item in included
+        if item.get("type") == "Event" and item.get("id") is not None
+    }
+    enrichment: dict[str, dict[str, object]] = {}
+
+    for instance in instances:
+        instance_id = str(instance.get("id") or "")
+        if not instance_id or instance_id not in target_instance_ids:
+            continue
+
+        instance_attributes = instance.get("attributes") or {}
+        event_relationship = (
+            instance.get("relationships", {}).get("event", {}).get("data") or {}
+        )
+        event_id = str(event_relationship.get("id") or "")
+        event_resource = event_resources.get(event_id, {})
+        event_attributes = event_resource.get("attributes") or {}
+
+        enrichment[instance_id] = {
+            "planning_center_event_instance_id": instance_id,
+            "planning_center_event_id": event_id or None,
+            "instance_description": clean_text(instance_attributes.get("description")),
+            "instance_image_url": clean_text(instance_attributes.get("image_url")),
+            "instance_location": clean_text(instance_attributes.get("location")),
+            "church_center_url": clean_text(instance_attributes.get("church_center_url")),
+            "event_description": clean_text(event_attributes.get("description")),
+            "event_summary": clean_text(event_attributes.get("summary")),
+            "event_image_url": clean_text(event_attributes.get("image_url")),
+            "registration_url": clean_text(event_attributes.get("registration_url")),
+            "visible_in_church_center": event_attributes.get("visible_in_church_center"),
+        }
+
+    return enrichment
+
+
+def fetch_calendar_api_enrichment(
+    components: list,
+    window_start: datetime,
+    window_end: datetime,
+) -> tuple[dict[str, dict[str, object]], dict[str, object]]:
+    """
+    Fetch Calendar API EventInstance records and their parent Events.
+
+    The iCal feed remains the occurrence source. The API enriches those
+    occurrences with the rich public description that Planning Center exposes
+    as Event.description, along with public URLs and images.
+    """
+    target_instance_ids = {
+        parsed["event_instance_id"]
+        for component in components
+        if (parsed := parse_planning_center_uid(clean_text(component.get("UID"))))
+    }
+
+    status: dict[str, object] = {
+        "enabled": planning_center_api_enabled(),
+        "target_instance_count": len(target_instance_ids),
+        "matched_instance_count": 0,
+        "page_count": 0,
+        "api_version": PLANNING_CENTER_API_VERSION,
+    }
+
+    if not target_instance_ids:
+        return {}, status
+
+    if not planning_center_api_enabled():
+        print(
+            "Planning Center Calendar API enrichment skipped: "
+            "PLANNING_CENTER_APP_ID and PLANNING_CENTER_SECRET are not both set."
+        )
+        return {}, status
+
+    session = requests.Session()
+    session.auth = (PLANNING_CENTER_APP_ID, PLANNING_CENTER_SECRET)
+    session.headers.update(
+        {
+            "Accept": "application/vnd.api+json",
+            "User-Agent": (
+                "Urbancrest-Knowledge-Event-Sync/1.4.3 "
+                "(https://urbancrest.church)"
+            ),
+            "X-PCO-API-Version": PLANNING_CENTER_API_VERSION,
+        }
+    )
+
+    url = f"{PLANNING_CENTER_API_BASE}/calendar/v2/event_instances"
+    params: dict[str, str] | None = planning_center_api_params(
+        window_start, window_end
+    )
+    instances: list[dict] = []
+    included: list[dict] = []
+
+    for page_number in range(1, PLANNING_CENTER_API_MAX_PAGES + 1):
+        response = session.get(url, params=params, timeout=45)
+        try:
+            response.raise_for_status()
+        except requests.HTTPError as error:
+            body = response.text[:1000]
+            raise RuntimeError(
+                "Planning Center Calendar API enrichment failed "
+                f"with HTTP {response.status_code}: {body}"
+            ) from error
+
+        payload = response.json()
+        page_data = payload.get("data") or []
+        if isinstance(page_data, list):
+            instances.extend(item for item in page_data if isinstance(item, dict))
+        page_included = payload.get("included") or []
+        if isinstance(page_included, list):
+            included.extend(item for item in page_included if isinstance(item, dict))
+
+        status["page_count"] = page_number
+        next_url = (payload.get("links") or {}).get("next")
+        if not next_url:
+            break
+        url = str(next_url)
+        params = None
+    else:
+        raise RuntimeError(
+            "Planning Center Calendar API pagination exceeded "
+            f"PLANNING_CENTER_API_MAX_PAGES={PLANNING_CENTER_API_MAX_PAGES}."
+        )
+
+    enrichment = build_calendar_api_enrichment(
+        instances, included, target_instance_ids
+    )
+    status["matched_instance_count"] = len(enrichment)
+    return enrichment, status
+
+
+def extract_api_details(api_data: dict[str, object], description: str) -> str:
+    """Return rich API details while avoiding a duplicate plain summary."""
+    base_values = [
+        value
+        for value in (
+            description,
+            clean_text(api_data.get("event_summary")),
+        )
+        if value
+    ]
+    normalized_bases = {normalized_content(value) for value in base_values}
+
+    seen: set[str] = set()
+    details: list[str] = []
+    for raw_candidate in (
+        api_data.get("instance_description"),
+        api_data.get("event_description"),
+    ):
+        candidate = clean_text(raw_candidate)
+        if not candidate:
+            continue
+
+        normalized_candidate = normalized_content(candidate)
+        if not normalized_candidate or normalized_candidate in normalized_bases:
+            continue
+
+        for base in base_values:
+            if candidate.startswith(base):
+                candidate = candidate[len(base):].lstrip(" \t\r\n:-")
+                normalized_candidate = normalized_content(candidate)
+                break
+
+        if (
+            not normalized_candidate
+            or normalized_candidate in normalized_bases
+            or normalized_candidate in seen
+        ):
+            continue
+
+        seen.add(normalized_candidate)
+        details.append(candidate)
+
+    return "\n\n".join(details).strip()
 
 
 def load_yaml(path: Path, fallback: dict) -> dict:
@@ -525,7 +769,7 @@ def write_event_article(event: dict[str, object], generated_at: str) -> str:
     lines = [
         "---",
         f"id: events.live.{event['id']}",
-        "version: 1.4.2",
+        "version: 1.4.3",
         "status: published",
         f"priority: {event['event_priority']}",
         f"title: {yaml_quote(title)}",
@@ -566,7 +810,16 @@ def write_event_article(event: dict[str, object], generated_at: str) -> str:
         f"all_day: {'true' if event['all_day'] else 'false'}",
     ]
 
-    for field in ("registration_url", "info_url", "image_url", "location"):
+    for field in (
+        "registration_url",
+        "info_url",
+        "image_url",
+        "location",
+        "details_source",
+        "planning_center_event_id",
+        "planning_center_event_instance_id",
+        "planning_center_event_time_id",
+    ):
         if event.get(field):
             lines.append(f"{field}: {yaml_quote(str(event[field]))}")
 
@@ -649,6 +902,10 @@ def collapse_small_groups(
             "summary": first["summary"],
             "description": first.get("description"),
             "details": first.get("details"),
+            "details_source": first.get("details_source"),
+            "planning_center_event_id": first.get("planning_center_event_id"),
+            "planning_center_event_instance_id": first.get("planning_center_event_instance_id"),
+            "planning_center_event_time_id": first.get("planning_center_event_time_id"),
             "location": first.get("location"),
             "registration_url": first.get("registration_url"),
             "info_url": first.get("info_url"),
@@ -682,7 +939,7 @@ def write_group_article(group: dict[str, object], generated_at: str) -> str:
     lines = [
         "---",
         f"id: small_groups.live.{group['id']}",
-        "version: 1.4.2",
+        "version: 1.4.3",
         "status: published",
         f"priority: {group['event_priority']}",
         f"title: {yaml_quote(title)}",
@@ -709,7 +966,16 @@ def write_group_article(group: dict[str, object], generated_at: str) -> str:
         f"meeting_count_in_window: {group['meeting_count_in_window']}",
     ]
 
-    for field in ("registration_url", "info_url", "image_url", "location"):
+    for field in (
+        "registration_url",
+        "info_url",
+        "image_url",
+        "location",
+        "details_source",
+        "planning_center_event_id",
+        "planning_center_event_instance_id",
+        "planning_center_event_time_id",
+    ):
         if group.get(field):
             lines.append(f"{field}: {yaml_quote(str(group[field]))}")
 
@@ -755,7 +1021,7 @@ def write_event_index(events: list[dict[str, object]], generated_at: str) -> Non
     lines = [
         "---",
         "id: events.upcoming.live",
-        "version: 1.4.2",
+        "version: 1.4.3",
         "status: published",
         "priority: 100",
         "title: Upcoming Events",
@@ -809,7 +1075,7 @@ def write_group_index(groups: list[dict[str, object]], generated_at: str) -> Non
     lines = [
         "---",
         "id: small_groups.upcoming.live",
-        "version: 1.4.2",
+        "version: 1.4.3",
         "status: published",
         "priority: 70",
         "title: Upcoming Small Groups",
@@ -868,7 +1134,7 @@ def main() -> int:
     response = requests.get(
         feed_url,
         timeout=30,
-        headers={"User-Agent": "Urbancrest-Knowledge-Event-Sync/1.4.2"},
+        headers={"User-Agent": "Urbancrest-Knowledge-Event-Sync/1.4.3"},
     )
     response.raise_for_status()
 
@@ -877,7 +1143,12 @@ def main() -> int:
     window_start = now - timedelta(days=1)
     window_end = now + timedelta(days=LOOKAHEAD_DAYS)
 
-    components = recurring_ical_events.of(calendar).between(window_start, window_end)
+    components = list(
+        recurring_ical_events.of(calendar).between(window_start, window_end)
+    )
+    api_enrichment, api_status = fetch_calendar_api_enrichment(
+        components, window_start, window_end
+    )
     parsed_events: list[dict[str, object]] = []
 
     for component in components:
@@ -886,13 +1157,32 @@ def main() -> int:
             continue
 
         title = clean_text(component.get("SUMMARY")) or "Untitled Event"
-        description = clean_text(component.get("DESCRIPTION"))
-        details = extract_details(component, description)
+        uid = clean_text(component.get("UID")) or title
+        planning_center_ids = parse_planning_center_uid(uid) or {}
+        event_instance_id = planning_center_ids.get("event_instance_id", "")
+        api_data = api_enrichment.get(event_instance_id, {})
+
+        description = (
+            clean_text(component.get("DESCRIPTION"))
+            or clean_text(api_data.get("event_summary"))
+        )
+        ical_details = extract_details(component, description)
+        api_details = extract_api_details(api_data, description)
+        details = ical_details or api_details
+        details_source = (
+            "planning_center_ical"
+            if ical_details
+            else "planning_center_calendar_api"
+            if api_details
+            else None
+        )
         public_text = "\n\n".join(
             value for value in (description, details) if value
         )
-        location = normalize_location(clean_text(component.get("LOCATION")))
-        uid = clean_text(component.get("UID")) or title
+        location = normalize_location(
+            clean_text(component.get("LOCATION"))
+            or clean_text(api_data.get("instance_location"))
+        )
         recurrence_id = clean_text(component.get("RECURRENCE-ID"))
 
         start, all_day = as_local_datetime(component.decoded("DTSTART"))
@@ -913,9 +1203,20 @@ def main() -> int:
             description,
             details,
             clean_text(component.get("X-ALT-DESC")),
+            clean_text(api_data.get("event_description")),
+            clean_text(api_data.get("event_summary")),
         )
         registration_url, info_url = classify_urls(urls)
-        image_url = extract_image(component, description, details)
+        registration_url = (
+            clean_text(api_data.get("registration_url")) or registration_url
+        )
+        info_url = info_url or clean_text(api_data.get("church_center_url")) or None
+        image_url = (
+            extract_image(component, description, details)
+            or clean_text(api_data.get("instance_image_url"))
+            or clean_text(api_data.get("event_image_url"))
+            or None
+        )
         ministries, audiences = infer_labels(title, public_text)
         event_category, event_priority, collection = infer_category(
             title, public_text, ministries, category_config
@@ -937,6 +1238,14 @@ def main() -> int:
             "location": location or None,
             "description": description or None,
             "details": details or None,
+            "details_source": details_source,
+            "planning_center_event_id": api_data.get("planning_center_event_id"),
+            "planning_center_event_instance_id": (
+                event_instance_id or None
+            ),
+            "planning_center_event_time_id": (
+                planning_center_ids.get("event_time_id") or None
+            ),
             "registration_url": registration_url,
             "info_url": info_url,
             "image_url": image_url,
@@ -948,6 +1257,8 @@ def main() -> int:
             "status": status.lower(),
             "_start_dt": start,
             "_end_dt": end,
+            "_api_enriched": bool(api_data),
+            "_api_details_imported": bool(api_details),
         }
 
         apply_override(event, overrides)
@@ -980,10 +1291,15 @@ def main() -> int:
         group["knowledge_file"] = write_group_article(group, generated_at)
 
     event_registry = {
-        "version": "1.4.2",
+        "version": "1.4.3",
         "generated_at": generated_at,
         "timezone": TIMEZONE_NAME,
-        "source": "planning_center_ical",
+        "source": (
+            "planning_center_ical+calendar_api"
+            if api_status.get("enabled")
+            else "planning_center_ical"
+        ),
+        "api_enrichment": api_status,
         "source_of_truth_for_calendar_intents": True,
         "collection": "main_events",
         "excluded_collection": "small_groups-live.yaml",
@@ -1006,10 +1322,15 @@ def main() -> int:
     }
 
     group_registry = {
-        "version": "1.4.2",
+        "version": "1.4.3",
         "generated_at": generated_at,
         "timezone": TIMEZONE_NAME,
-        "source": "planning_center_ical",
+        "source": (
+            "planning_center_ical+calendar_api"
+            if api_status.get("enabled")
+            else "planning_center_ical"
+        ),
+        "api_enrichment": api_status,
         "source_of_truth_for_small_group_intents": True,
         "collection": "small_groups",
         "sort_order": "next_meeting.sort_start_utc_ascending",
@@ -1041,8 +1362,19 @@ def main() -> int:
     write_group_index(small_groups, generated_at)
 
     details_count = sum(1 for event in parsed_events if event.get("details"))
+    api_enriched_count = sum(
+        1 for event in parsed_events if event.get("_api_enriched")
+    )
+    api_details_count = sum(
+        1 for event in parsed_events if event.get("_api_details_imported")
+    )
     print(f"Parsed {len(parsed_events)} future event occurrences.")
-    print(f"Imported separate details for {details_count} event occurrences.")
+    print(
+        "Calendar API enrichment matched "
+        f"{api_enriched_count} parsed event occurrences; "
+        f"imported rich details for {api_details_count}."
+    )
+    print(f"Imported separate details for {details_count} event occurrences total.")
     print(
         f"Wrote {len(main_events)} main events "
         f"from {len(main_candidates)} main-event candidates."

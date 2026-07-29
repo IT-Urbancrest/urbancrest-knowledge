@@ -37,6 +37,9 @@ jobs:
       - name: Generate live event files
         env:
           ICAL_FEED_URL: ${{ secrets.ICAL_FEED_URL }}
+          PLANNING_CENTER_APP_ID: ${{ secrets.PLANNING_CENTER_APP_ID }}
+          PLANNING_CENTER_SECRET: ${{ secrets.PLANNING_CENTER_SECRET }}
+          PLANNING_CENTER_API_VERSION: "2026-06-22"
           EVENT_LOOKAHEAD_DAYS: "365"
           EVENT_MAX_MAIN_EVENTS: "150"
           SMALL_GROUP_MAX_SERIES: "100"

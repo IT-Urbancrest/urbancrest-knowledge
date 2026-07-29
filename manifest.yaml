@@ -1,6 +1,6 @@
 repository: urbancrest-knowledge
-version: 0.6.2
-last_updated: '2026-07-27'
+version: 0.6.3
+last_updated: '2026-07-29'
 document_count: 95
 documents:
 - path: .github/workflows/build-search-index.yml

@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.6.3
+
+- Added Planning Center Calendar API enrichment to the live event sync.
+- Maps iCal EventInstance IDs to Calendar API EventInstance and Event records.
+- Imports the rich public event description as `details`.
+- Imports public Church Center, registration, and image URLs when available.
+- Pins the Calendar API version and adds secure GitHub Actions secrets.
+- Adds regression tests for UID mapping, JSON:API enrichment, and duplicate removal.
+
 ## 0.6.2
 
 - Made the weekly schedule and service-time article authoritative retrieval sources.

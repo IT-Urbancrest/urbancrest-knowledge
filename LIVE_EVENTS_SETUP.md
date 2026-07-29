@@ -1,54 +1,81 @@
 # Live Events Setup
 
-This update synchronizes the Planning Center iCal feed into two AI-readable files:
+The live sync uses two Planning Center sources:
 
-- `registry/events-live.yaml`
-- `knowledge/events/upcoming-events.md`
+- The private iCal feed supplies recurring event occurrences, dates, times, and locations.
+- The authenticated Calendar API supplies the rich public event description, public URLs, registration URL, and image.
 
-## 1. Add the iCal URL as a GitHub secret
+The Calendar API `description` is used as the generated event's **Details** section.
 
-In the GitHub repository, open:
+## 1. Add the iCal feed secret
+
+In GitHub, open:
 
 **Settings → Secrets and variables → Actions → New repository secret**
 
-Create this secret:
+Create:
 
 ```text
 Name: ICAL_FEED_URL
-Value: your complete webcal:// Planning Center feed URL
+Value: your complete Planning Center webcal:// feed URL
 ```
 
-Do not commit the private feed URL directly to the repository.
+## 2. Create a Planning Center Personal Access Token
 
-## 2. Add the files
+Open your Planning Center developer account and create a Personal Access Token for a user who has access to Calendar and the events being synchronized.
 
-Copy this update into the root of the repository while preserving the folder structure.
+Planning Center will provide a `client_id` and `secret`. Keep both private.
 
-## 3. Run the first sync
+## 3. Add the Calendar API secrets
+
+Create these GitHub Actions repository secrets:
+
+```text
+Name: PLANNING_CENTER_APP_ID
+Value: the Personal Access Token client_id
+```
+
+```text
+Name: PLANNING_CENTER_SECRET
+Value: the Personal Access Token secret
+```
+
+Do not commit either credential to the repository.
+
+## 4. Run the workflow
 
 Open:
 
 **Actions → Sync Live Events → Run workflow**
 
-The workflow will download the feed, generate the event files, and commit them back to the repository.
+A successful enriched run will include a log similar to:
+
+```text
+Calendar API enrichment matched 152 parsed event occurrences; imported rich details for 1.
+```
+
+The generated event registry will use:
+
+```yaml
+source: planning_center_ical+calendar_api
+```
+
+Events with rich details will include:
+
+```yaml
+details_source: planning_center_calendar_api
+```
 
 ## Automatic schedule
 
 The workflow runs every three hours at 17 minutes past the hour.
 
-## Generated event window
+## API behavior
 
-By default, the sync includes:
+The API version is pinned in `.github/workflows/sync-events.yml`. The sync requests only public Calendar event fields and only the date window covered by the iCal workflow. The iCal feed remains the source for recurrence expansion.
 
-- Upcoming events for the next 120 days
-- A maximum of 75 events
-- Times converted to `America/New_York`
-- Recurring event instances
-- Confirmed and tentative events
-- No canceled or expired events
+If API credentials are absent, the workflow continues with iCal only. If credentials are present but the Calendar API returns an authentication or permissions error, the workflow fails instead of overwriting enriched records with incomplete data.
 
-These limits can be changed in `.github/workflows/sync-events.yml`.
+## Security
 
-## Security note
-
-A Planning Center iCal URL functions like a private access token. Keep it in GitHub Actions secrets. If the URL is ever exposed publicly, regenerate the feed URL in Planning Center.
+The iCal feed URL and Planning Center Personal Access Token both grant access to church data. Store them only as encrypted GitHub Actions secrets.
