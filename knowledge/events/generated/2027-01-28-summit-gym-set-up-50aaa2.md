@@ -33,11 +33,11 @@ event_start: "2027-01-28"
 event_end: "2027-01-29"
 sort_start_utc: "2027-01-28T05:00:00Z"
 sort_end_utc: "2027-01-29T05:00:00Z"
-chronological_rank: 116
+chronological_rank: 90
 next_for_ministries: []
 next_for_audiences: []
 all_day: true
-last_generated: 2026-07-29T11:34:33.349611Z
+last_generated: 2026-07-29T12:56:48.047770Z
 ---
 
 # Summit - Gym Set-up
