@@ -37,7 +37,7 @@ chronological_rank: 33
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
-last_generated: 2026-07-29T09:09:19.818243Z
+last_generated: 2026-07-29T11:34:33.349611Z
 ---
 
 # Card Ministry
