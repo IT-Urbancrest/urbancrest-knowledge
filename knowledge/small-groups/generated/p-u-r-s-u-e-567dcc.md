@@ -20,8 +20,8 @@ next_meeting_start: "2026-08-05T18:30:00-04:00"
 next_meeting_end: "2026-08-05T20:30:00-04:00"
 sort_start_utc: "2026-08-05T22:30:00Z"
 sort_end_utc: "2026-08-06T00:30:00Z"
-meeting_count_in_window: 51
-last_generated: 2026-07-28T22:17:33.929817Z
+meeting_count_in_window: 52
+last_generated: 2026-07-29T03:41:41.342576Z
 ---
 
 # P U R S U E

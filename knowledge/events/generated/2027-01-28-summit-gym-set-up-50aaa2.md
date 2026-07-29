@@ -37,7 +37,7 @@ chronological_rank: 116
 next_for_ministries: []
 next_for_audiences: []
 all_day: true
-last_generated: 2026-07-28T22:17:33.929817Z
+last_generated: 2026-07-29T03:41:41.342576Z
 ---
 
 # Summit - Gym Set-up

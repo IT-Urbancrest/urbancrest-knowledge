@@ -38,7 +38,7 @@ next_for_ministries: []
 next_for_audiences: []
 all_day: false
 location: "Lebanon High School - 1916 Drake Rd\nLebanon, OH 45036"
-last_generated: 2026-07-28T22:17:33.929817Z
+last_generated: 2026-07-29T03:41:41.342576Z
 ---
 
 # 3V3 Basketball Tournament
