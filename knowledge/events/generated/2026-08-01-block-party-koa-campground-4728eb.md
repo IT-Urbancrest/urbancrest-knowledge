@@ -46,7 +46,7 @@ location: "KOA Campground - 760 Franklin Rd\nLebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "221178522"
 planning_center_event_time_id: "30334750"
-last_generated: 2026-07-29T13:48:12.605378Z
+last_generated: 2026-07-29T14:32:43.149589Z
 ---
 
 # Block Party – KOA Campground
