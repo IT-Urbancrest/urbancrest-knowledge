@@ -2,53 +2,63 @@
 id: ministries.students
 version: 1.0
 status: published
-priority: 65
-title: What is Student Ministry?
-summary: Student Ministry serves middle school and high school students and supports
-  Urbancrest's mission.
+priority: 95
+title: What is Urbancrest Student Ministry?
+summary: Urbancrest Student Ministry partners with parents to help students in grades 7 through 12 become fully devoted followers of Jesus Christ.
 category:
 - ministries
 intent:
   primary: ministry_info
-  secondary: []
+  secondary:
+  - student_ministry
+  - youth_ministry
 audience:
 - visitor
 - attendee
-answer_style: conversational
+- member
+answer_style: direct
 confidence: high
 owner:
-  ministry: church_office
+  ministry: students
 review:
   doctrinal: not_required
   factual: required
 tags:
-- ministry
 - Student Ministry
+- youth ministry
+- middle school
+- high school
+- discipleship
 search_terms:
-- Student Ministry
-- How do I join Student Ministry?
+- What is Student Ministry?
+- Tell me about youth ministry
+- What does Urbancrest offer for teenagers?
+- Student Ministry overview
+ministries:
+- students
 scripture: []
 resources:
-- church_center.serving
+- action_link.events
+- action_link.get_involved
 next_steps: []
 related: []
-last_updated: '2026-07-20'
+last_updated: '2026-07-30'
+recommended_contact_staff_key: tucker_howard
 ---
 
-# What is Student Ministry?
+# What is Urbancrest Student Ministry?
 
-## Short Answer
+Urbancrest Student Ministry partners with parents in leading students in grades 7 through 12 to become fully devoted followers of Jesus Christ.
 
-Student Ministry is Urbancrest's ministry for middle school and high school students.
+The ministry creates a Christ-centered environment where students can:
 
-## Detailed Answer
+- Belong and build meaningful relationships
+- Study God's Word
+- Worship together
+- Serve others
+- Grow into mature disciples
+- Learn to live out and share their faith
 
-The ministry helps people connect, grow, serve, and live on mission in ways appropriate to its audience and purpose. Current schedules, age ranges, locations, and event details should come from verified Urbancrest sources.
+Throughout the year, students participate in weekly gatherings, small groups, discipleship opportunities, outreach events, retreats, camps, and service projects. Each part of the ministry is designed to help students know Jesus more deeply, develop biblical convictions, grow in authentic Christian community, and become disciples who make disciples.
 
-## Urbancrest Information
-
-This article intentionally avoids unverified schedules or contact details.
-
-## Next Step
-
-Complete the Serving or Volunteer Interest Form to ask about getting involved.
+For current events and seasonal opportunities, visit [Urbancrest Events](https://urbancrest.church/events).

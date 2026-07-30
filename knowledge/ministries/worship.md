@@ -2,53 +2,58 @@
 id: ministries.worship
 version: 1.0
 status: published
-priority: 65
-title: What is Worship Ministry?
-summary: Worship Ministry serves people interested in worship and music and supports
-  Urbancrest's mission.
+priority: 95
+title: What is Urbancrest Worship Ministry?
+summary: Urbancrest Worship Ministry helps the church respond to God through Christ-centered, Scripture-shaped congregational worship.
 category:
 - ministries
 intent:
   primary: ministry_info
-  secondary: []
+  secondary:
+  - worship_ministry
+  - worship_philosophy
 audience:
 - visitor
 - attendee
-answer_style: conversational
+- member
+answer_style: direct
 confidence: high
 owner:
-  ministry: church_office
+  ministry: worship
 review:
   doctrinal: not_required
   factual: required
 tags:
-- ministry
 - Worship Ministry
+- worship
+- music
+- congregational singing
 search_terms:
-- Worship Ministry
-- How do I join Worship Ministry?
-scripture: []
+- What is Worship Ministry?
+- Tell me about worship at Urbancrest
+- What is worship like at Urbancrest?
+ministries:
+- worship
+scripture:
+- Romans 12:1
 resources:
-- church_center.serving
+- action_link.messages
+- action_link.get_involved
 next_steps: []
 related: []
-last_updated: '2026-07-20'
+last_updated: '2026-07-30'
+recommended_contact_staff_key: larry_nichols
 ---
 
-# What is Worship Ministry?
+# What is Urbancrest Worship Ministry?
 
-## Short Answer
+At Urbancrest, worship is more than music. It is the joyful response of God's people to who God is and what He has done through Jesus Christ.
 
-Worship Ministry is Urbancrest's ministry for people interested in worship and music.
+Every worship service is intentionally planned to help the church:
 
-## Detailed Answer
+- See the greatness of God
+- Celebrate the hope of the gospel
+- Respond to God's Word with faith and obedience
+- Worship together through singing, prayer, Scripture, and preaching
 
-The ministry helps people connect, grow, serve, and live on mission in ways appropriate to its audience and purpose. Current schedules, age ranges, locations, and event details should come from verified Urbancrest sources.
-
-## Urbancrest Information
-
-This article intentionally avoids unverified schedules or contact details.
-
-## Next Step
-
-Complete the Serving or Volunteer Interest Form to ask about getting involved.
+The Worship Ministry exists to exalt Christ and help the congregation worship Him together.

@@ -1,5 +1,5 @@
-version: '1.0'
-last_updated: '2026-07-27'
+version: '1.1'
+last_updated: '2026-07-30'
 profile_source: base44.Staff
 routing:
   geoff_prows:
@@ -58,6 +58,11 @@ routing:
     - music ministry
     - choir
     - worship services
+    - worship philosophy
+    - worship auditions
+    - worship application
+    - sensory-friendly worship
+    - worship music style
     show_card: true
     profile_source: base44.Staff
   tucker_howard:
@@ -79,6 +84,11 @@ routing:
     - middle school
     - high school
     - teenagers
+    - student schedule
+    - student safety
+    - parent communication
+    - student discipleship
+    - student mentoring
     show_card: true
     profile_source: base44.Staff
   darrel_schick:
@@ -139,6 +149,13 @@ routing:
     - preschool
     - families
     - AWANA
+    - Kids Ministry safety
+    - child check-in
+    - child checkout
+    - well-child policy
+    - food allergies
+    - preschool class placement
+    - volunteer screening
     show_card: true
     profile_source: base44.Staff
   mikhael_mastalerz:
@@ -156,6 +173,10 @@ routing:
     - babies
     - infants
     - toddlers
+    - diaper changes
+    - nursery safety
+    - infant care
+    - toddler care
     show_card: true
     profile_source: base44.Staff
   mark_daubenmire:
@@ -188,6 +209,11 @@ routing:
     - hospitality
     - welcome team
     - visitors
+    - parking
+    - seating
+    - refreshments
+    - wheelchair access
+    - accessibility
     show_card: true
     profile_source: base44.Staff
   tanya_byrd:

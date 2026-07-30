@@ -1,5 +1,5 @@
-version: '1.1'
-last_updated: '2026-07-27'
+version: '1.2'
+last_updated: '2026-07-30'
 relationships:
 - ministry: pastoral
   primary_staff_key: geoff_prows
@@ -94,6 +94,20 @@ relationships:
 - ministry: facilities
   primary_staff_key: jim_short
   related_staff_keys: []
+- ministry: student_parent_communication
+  primary_staff_key: tucker_howard
+  related_staff_keys: []
+- ministry: kids_safety
+  primary_staff_key: sarah_coleman
+  related_staff_keys:
+  - mikhael_mastalerz
+- ministry: worship_serving
+  primary_staff_key: larry_nichols
+  related_staff_keys: []
+- ministry: accessibility
+  primary_staff_key: sydni_neptune
+  related_staff_keys:
+  - larry_nichols
 selection_rules:
 - Use primary_staff_key when a staffed ministry has one directly responsible staff member.
 - When leadership_status is vacant or transitional, explain the status before recommending a contact.

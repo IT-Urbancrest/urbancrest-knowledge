@@ -1,12 +1,25 @@
-version: '1.1'
-last_updated: '2026-07-27'
+version: '1.2'
+last_updated: '2026-07-30'
 ministries:
   kids:
     title: Urbancrest Kids
-    description: Ministry for children and families.
+    description: Family-partnered discipleship ministry for children that emphasizes relationships, biblical truth, worship, service, safety, and faith lived out.
+    aliases:
+    - Kids Ministry
+    - Children's Ministry
+    - children
+    primary_staff_key: sarah_coleman
+    related_staff_keys:
+    - mikhael_mastalerz
   students:
     title: Student Ministry
-    description: Ministry for middle school and high school students.
+    description: Ministry for students in grades 7 through 12 that partners with parents to make mature disciples of Jesus.
+    aliases:
+    - Youth Ministry
+    - middle school
+    - high school
+    - teenagers
+    primary_staff_key: tucker_howard
   small_groups:
     title: Small Groups
     description: Groups that help people grow in faith and community.
@@ -25,7 +38,13 @@ ministries:
     recommended_contact_staff_key: jennifer_prows
   worship:
     title: Worship Ministry
-    description: Ministry that helps lead the church in worship.
+    description: Christ-centered, Scripture-shaped ministry that leads the congregation in worship through music, prayer, Scripture, and participation.
+    aliases:
+    - worship team
+    - music ministry
+    - worship band
+    - vocal team
+    primary_staff_key: larry_nichols
   production:
     title: Production Ministry
     description: Audio
@@ -58,3 +77,31 @@ ministries:
     description: Community outreach and local mission engagement.
     leadership_status: staffed
     primary_staff_key: darrel_schick
+  preschool:
+    title: Preschool Ministry
+    description: Ministry for preschool-aged children within Urbancrest Kids.
+    aliases:
+    - preschool
+    - pre-K
+    - three-year-old class
+    primary_staff_key: sarah_coleman
+  guest_services:
+    title: Guest Services
+    description: Hospitality ministry that helps guests and members feel welcomed, informed, and supported.
+    aliases:
+    - welcome team
+    - hospitality
+    - first visit
+    primary_staff_key: sydni_neptune
+  mens_summit:
+    title: Men's Summit
+    description: Annual late-January event that helps men grow spiritually and live out biblical manhood.
+    aliases:
+    - Summit
+    - mens conference
+  golf_classic:
+    title: Urbancrest Golf Classic
+    description: Annual late-August four-person scramble that supports rotating ministry partners.
+    aliases:
+    - Golf Classic
+    - Urbancrest golf tournament

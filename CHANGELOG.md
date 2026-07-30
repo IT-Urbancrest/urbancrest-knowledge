@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.7.0
+
+- Added detailed public ministry overviews and one-question, one-answer FAQs for Student Ministry, Preschool, Guest Services, Men's Summit, the Urbancrest Golf Classic, Worship Ministry, and Urbancrest Kids.
+- Added Kids Ministry public safety guidance while keeping tactical emergency procedures out of public retrieval.
+- Expanded staff routing and ministry relationships for student, preschool, guest, worship, accessibility, and Kids safety questions.
+- Added retrieval regression tests for the new ministry content.
+
 ## 0.6.3
 
 - Added Planning Center Calendar API enrichment to the live event sync.
