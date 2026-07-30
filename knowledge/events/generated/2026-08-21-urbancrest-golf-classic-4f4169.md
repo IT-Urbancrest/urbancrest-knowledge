@@ -1,6 +1,6 @@
 ---
 id: events.live.event-6d5b8302174f4169
-version: 1.4
+version: 1.4.3
 status: published
 priority: 100
 title: "Urbancrest Golf Classic"
@@ -25,6 +25,8 @@ search_terms:
   - "When is Urbancrest Golf Classic?"
   - "Where is Urbancrest Golf Classic?"
   - "Tell me about Urbancrest Golf Classic"
+  - "What are the details for Urbancrest Golf Classic?"
+  - "What is the menu for Urbancrest Golf Classic?"
   - "How do I register for Urbancrest Golf Classic?"
 resources:
   - events.live
@@ -33,13 +35,17 @@ event_start: "2026-08-21T08:30:00-04:00"
 event_end: "2026-08-21T16:00:00-04:00"
 sort_start_utc: "2026-08-21T12:30:00Z"
 sort_end_utc: "2026-08-21T20:00:00Z"
-chronological_rank: 24
+chronological_rank: 23
 next_for_ministries: ["sports"]
 next_for_audiences: []
 all_day: false
 info_url: "http://classic.urbancrest.org"
+image_url: "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3517003/medium_image-1773084020561.jpeg"
 location: "Heatherwoode Golf Club - 88 Heatherwoode Blvd\nSpringboro, OH 45066"
-last_generated: 2026-07-27T15:29:17.168565Z
+details_source: "planning_center_calendar_api"
+planning_center_event_instance_id: "217375495"
+planning_center_event_time_id: "29648335"
+last_generated: 2026-07-30T11:21:34.785245Z
 ---
 
 # Urbancrest Golf Classic
@@ -81,6 +87,39 @@ Become a sponsor of the Urbancrest Golf Classic! Please visit classic.urbancrest
 
 If you have any questions about the Urbancrest Golf Classic, please reach out to Mark Daubenmire at mdaubenmire@urbancrest.org.
 
+## Details
+
+Please join us for Urbancrest's 28th Annual Golf Classic!
+The Urbancrest Golf Classic is Urbancrest's annual foursome scramble tournament, located at Heatherwoode Golf Club. 
+Each year, we also raise money for a non-profit organization. We are excited to announce this year's donation recipient: A Child's Hope International!
+Be sure to register early to secure your spot, and visit 
+classic.urbancrest.org
+ for more information.
+ 
+
+Tournament Details:
+Location
+Heatherwoode Golf Club
+88 Heatherwoode Blvd.
+Springboro, OH 45066
+ (
+Click or tap for directions.)
+Date/Schedule
+Friday, August 21, 2026
+ 8:30 AM – Check-in & Driving Range
+ 9:30 AM – Shotgun Start
+ 2:00 AM – Lunch & Awards
+Sponsorship
+Become a sponsor of the Urbancrest Golf Classic! Please visit 
+classic.urbancrest.org
+ 
+to make your sponsorship selection. 
+If you have any questions about the Urbancrest Golf Classic, please reach out to Mark Daubenmire at 
+mdaubenmire@urbancrest.org
+.
+
 **More information:** http://classic.urbancrest.org
+
+**Event image:** https://registrations-production.s3.amazonaws.com/uploads/event/logo/3517003/medium_image-1773084020561.jpeg
 
 This information is synchronized automatically from Urbancrest's live calendar.
