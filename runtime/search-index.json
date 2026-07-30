@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.7.0",
-  "generated_at": "2026-07-30T13:22:12.004905Z",
+  "generated_at": "2026-07-30T14:12:16.005266Z",
   "timezone": "America/New_York",
   "record_count": 329,
   "config": {
@@ -1398,8 +1398,8 @@
       "record_type": "knowledge",
       "path": "knowledge/ministries/students/faq/when-does-student-ministry-meet.md",
       "title": "When does Student Ministry meet?",
-      "summary": "Student Ministry meets Sundays at 9:30 AM and Wednesdays at 6:30 PM during the regular ministry season.",
-      "content": "# When does Student Ministry meet?\n\nDuring the regular ministry season, Urbancrest Student Ministry meets:\n\n- **Sundays at 9:30 AM**\n- **Wednesdays at 6:30 PM**\n\nRegular gatherings pause during the summer so students and leaders can focus on supporting local missions efforts throughout the community. Check [Urbancrest Events](https://urbancrest.church/events) for current dates and summer opportunities.",
+      "summary": "Student Ministry meets Sundays at 9:30 AM and Wednesdays at 6:30 PM during the school year.",
+      "content": "# When does Student Ministry meet?\n\nDuring the school year, Urbancrest Student Ministry meets:\n\n- **Sundays at 9:30 AM**\n- **Wednesdays at 6:30 PM**\n\nRegular Wednesday gatherings pause during the summer so students and leaders can focus on supporting local missions efforts throughout the community. Check [Urbancrest Events](https://urbancrest.church/events) for current dates and summer opportunities.",
       "priority": 98,
       "category": [
         "ministries",
