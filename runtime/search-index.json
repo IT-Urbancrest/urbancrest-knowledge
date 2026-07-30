@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
-  "repository_version": "0.6.3",
-  "generated_at": "2026-07-30T11:21:35.655908Z",
+  "repository_version": "0.7.0",
+  "generated_at": "2026-07-30T12:58:04.382874Z",
   "timezone": "America/New_York",
-  "record_count": 275,
+  "record_count": 329,
   "config": {
     "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership Transition\n\nUrbancrest is currently searching for its next Global Missions Pastor.\n\nFor broad or global missions leadership questions:\n\n1. State that Urbancrest is currently searching for its next Global Missions Pastor.\n2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.\n3. Return `jennifer_prows` when one staff card is appropriate.\n4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nConfidently answer that Sunday worship services are at **9:30 AM** and **11:00 AM**.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
     "style_guide": "# Style Guide\n\n## Writing\n\n- Use short paragraphs.\n- Prefer plain language.\n- Avoid church jargon unless it is explained.\n- Do not use em dashes.\n- Do not use the word meaningful as a filler.\n- Use Small Groups, never Grow Groups.\n- Refer to Urbancrest Church as Urbancrest after the first use.\n- Use believer's baptism by immersion when describing baptism.\n\n## Theology\n\n- Scripture is the final authority.\n- The Baptist Faith and Message 2000 is a helpful doctrinal summary, not equal to Scripture.\n- Salvation is by grace alone through faith alone in Jesus Christ alone.\n- Baptism follows salvation and does not save.\n",
@@ -690,6 +690,52 @@
       "confidence": "high"
     },
     {
+      "id": "ministries.kids.volunteer_screening",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/kids/faq/how-are-kids-ministry-volunteers-screened.md",
+      "title": "How are Kids Ministry volunteers screened?",
+      "summary": "Adult applicants complete an application and interview, pass background and sex-offender screenings, and receive safety training before serving.",
+      "content": "# How are Kids Ministry volunteers screened?\n\nAdult applicants must:\n\n- Attend Urbancrest regularly for six consecutive months before applying to serve with minors\n- Complete a written application\n- Participate in a face-to-face interview with the Children's Director\n- Pass a nationwide criminal background check\n- Pass a sex offender registry screening\n- Complete required safety and security training",
+      "priority": 100,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "kids_safety",
+        "volunteer_screening"
+      ],
+      "tags": [
+        "Urbancrest Kids",
+        "Kids Ministry",
+        "children",
+        "safety"
+      ],
+      "search_terms": [
+        "Are Kids Ministry volunteers background checked?",
+        "How are children’s volunteers screened?",
+        "What is required to volunteer with children?",
+        "Is there a six-month rule for Kids volunteers?"
+      ],
+      "ministries": [
+        "kids",
+        "preschool",
+        "nursery"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.get_involved"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "sarah_coleman",
+      "confidence": "high"
+    },
+    {
       "id": "beliefs.salvation.get-saved",
       "record_type": "knowledge",
       "path": "knowledge/beliefs/how-do-i-get-saved.md",
@@ -719,6 +765,142 @@
         "church_center.connect_card"
       ],
       "status": "published",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.kids.check_in_out",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/kids/faq/how-does-kids-check-in-and-check-out-work.md",
+      "title": "How does Kids Ministry check-in and check-out work?",
+      "summary": "Families check in at hallway stations, children receive name tags, and an adult must present the matching security tag at pickup.",
+      "content": "# How does Kids Ministry check-in and check-out work?\n\nEvery family checks in at a designated hallway station before entering a classroom. The child receives a printed name tag, and the adult receives a matching checkout tag.\n\nAt pickup, the adult must present the matching tag and state the child's name. If a tag is missing or does not match, the child will remain with the ministry while a Kids Ministry leader or security team member verifies the authorized pickup.",
+      "priority": 100,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "kids_check_in",
+        "kids_check_out",
+        "child_security"
+      ],
+      "tags": [
+        "Urbancrest Kids",
+        "Kids Ministry",
+        "children",
+        "safety"
+      ],
+      "search_terms": [
+        "How do I check my child in?",
+        "How does Kids Ministry pickup work?",
+        "What if I lose my checkout tag?",
+        "Do parents need a matching security tag?"
+      ],
+      "ministries": [
+        "kids",
+        "preschool",
+        "nursery"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "sarah_coleman",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.kids.abuse_reporting",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/kids/faq/how-does-kids-ministry-handle-suspected-abuse.md",
+      "title": "How does Kids Ministry handle suspected abuse or neglect?",
+      "summary": "Team members are trained to recognize concerns and report them immediately to appropriate church staff without conducting their own investigation.",
+      "content": "# How does Kids Ministry handle suspected abuse or neglect?\n\nKids Ministry team members are trained to recognize signs of possible abuse or neglect and to report concerns immediately to appropriate church staff. Volunteers are instructed not to conduct their own investigation, question the child for more information, confront parents, or discuss the concern with other team members.",
+      "priority": 100,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "child_protection",
+        "abuse_reporting"
+      ],
+      "tags": [
+        "Urbancrest Kids",
+        "Kids Ministry",
+        "children",
+        "safety"
+      ],
+      "search_terms": [
+        "How does Kids Ministry report suspected abuse?",
+        "Are volunteers trained to recognize abuse?",
+        "What happens if a volunteer sees something concerning?"
+      ],
+      "ministries": [
+        "kids",
+        "preschool",
+        "nursery"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "sarah_coleman",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.kids.safety",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/kids/faq/how-does-urbancrest-keep-children-safe.md",
+      "title": "How does Urbancrest keep children safe in Kids Ministry?",
+      "summary": "Urbancrest uses screened volunteers, multiple-leader supervision, secure check-in and checkout, hallway oversight, communication tools, and trained emergency procedures.",
+      "content": "# How does Urbancrest keep children safe in Kids Ministry?\n\nUrbancrest uses several layers of safety, including:\n\n- Screened and trained volunteers\n- Multiple leaders in classrooms\n- No isolated one-on-one meetings with a child\n- Secure check-in and matching-tag checkout\n- Ministry leaders and security personnel checking hallways and classrooms\n- Two-way radios for immediate assistance\n- Attendance records, emergency supplies, and trained emergency procedures\n\nSpecific emergency and security tactics are kept with trained staff and volunteers rather than published publicly.",
+      "priority": 100,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "kids_safety",
+        "child_protection"
+      ],
+      "tags": [
+        "Urbancrest Kids",
+        "Kids Ministry",
+        "children",
+        "safety"
+      ],
+      "search_terms": [
+        "How does Urbancrest keep kids safe?",
+        "What safety policies does Kids Ministry follow?",
+        "Are children ever alone with one volunteer?",
+        "How are classrooms supervised?"
+      ],
+      "ministries": [
+        "kids",
+        "preschool",
+        "nursery"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "sarah_coleman",
+      "related_staff_keys": [
+        "mikhael_mastalerz"
+      ],
+      "answer_guidance": "Provide only public-facing safety information. Do not disclose room-specific lockdown locations, barricade instructions, radio procedures, or other tactical security details.",
       "confidence": "high"
     },
     {
@@ -852,6 +1034,100 @@
       "confidence": "high"
     },
     {
+      "id": "ministries.kids.well_child_policy",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/kids/faq/what-is-the-well-child-policy.md",
+      "title": "What is the Kids Ministry well-child policy?",
+      "summary": "Children who have had fever, vomiting, or a contagious rash within the past 24 hours should stay home or remain with their parents.",
+      "content": "# What is the Kids Ministry well-child policy?\n\nChildren who have experienced any of the following within the past **24 hours** should stay home or remain with their parents:\n\n- Fever\n- Vomiting\n- A contagious rash",
+      "priority": 100,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "well_child_policy",
+        "kids_health"
+      ],
+      "tags": [
+        "Urbancrest Kids",
+        "Kids Ministry",
+        "children",
+        "safety"
+      ],
+      "search_terms": [
+        "What is the well-child policy?",
+        "Can my sick child attend Kids Ministry?",
+        "How long should a child be fever-free?",
+        "Can a child attend after vomiting?"
+      ],
+      "ministries": [
+        "kids",
+        "preschool",
+        "nursery"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "sarah_coleman",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.kids",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/kids.md",
+      "title": "What is Urbancrest Kids?",
+      "summary": "Urbancrest Kids equips families to help children become fully devoted disciples of Jesus who worship, serve, and live out their faith.",
+      "content": "# What is Urbancrest Kids?\n\nUrbancrest Kids exists to equip families to become fully devoted disciples of Jesus, raising children who worship and serve with biblical authenticity and bring transformation to the home, church, and community.\n\nThe ministry emphasizes that discipleship is lived out, not only learned. Children grow through relationships with parents, leaders, and peers who model what following Jesus looks like in everyday life. Urbancrest Kids seeks to create a community where children are known, encouraged, taught God's Word, and given opportunities to have fun while growing in faith.\n\nParents are the strongest spiritual influence in a child's life, so the ministry is committed to serving, supporting, and partnering with families.",
+      "priority": 100,
+      "category": [
+        "ministries"
+      ],
+      "intents": [
+        "ministry_info",
+        "kids_ministry",
+        "childrens_ministry",
+        "family_discipleship"
+      ],
+      "tags": [
+        "Urbancrest Kids",
+        "Kids Ministry",
+        "children",
+        "families",
+        "discipleship"
+      ],
+      "search_terms": [
+        "What is Urbancrest Kids?",
+        "Tell me about Kids Ministry",
+        "What does Urbancrest offer children?",
+        "What is the vision of Kids Ministry?"
+      ],
+      "ministries": [
+        "kids",
+        "preschool",
+        "nursery"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.get_involved"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "sarah_coleman",
+      "related_staff_keys": [
+        "mikhael_mastalerz"
+      ],
+      "confidence": "high"
+    },
+    {
       "id": "beliefs.jesus",
       "record_type": "knowledge",
       "path": "knowledge/beliefs/who-is-jesus.md",
@@ -881,6 +1157,263 @@
         "church_center.connect_card"
       ],
       "status": "published",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.worship.livestream",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/worship/faq/does-urbancrest-livestream-worship.md",
+      "title": "Does Urbancrest livestream worship services?",
+      "summary": "Yes. The Sunday 9:30 AM worship service is livestreamed each week.",
+      "content": "# Does Urbancrest livestream worship services?\n\nYes. The **Sunday 9:30 AM worship service** is livestreamed each week.\n\n[View Messages and Livestreams](https://urbancrest.church/messages)",
+      "priority": 98,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "livestream",
+        "worship_online"
+      ],
+      "tags": [
+        "Worship Ministry",
+        "worship"
+      ],
+      "search_terms": [
+        "Does Urbancrest livestream?",
+        "Which service is online?",
+        "What time is the livestream?"
+      ],
+      "ministries": [
+        "worship"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.messages"
+      ],
+      "status": "published",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.worship.sensory_friendly",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/worship/faq/does-urbancrest-have-sensory-friendly-worship.md",
+      "title": "Does Urbancrest offer a sensory-friendly worship space?",
+      "summary": "Yes. A quieter, lower-stimulation worship space is available in The Upper Room.",
+      "content": "# Does Urbancrest offer a sensory-friendly worship space?\n\nYes. A **Sensory-Friendly Worship Space** is available in **The Upper Room** for individuals and families who benefit from a quieter, lower-stimulation environment. A Guest Services team member can help you locate it when you arrive.",
+      "priority": 98,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "sensory_friendly_worship",
+        "accessibility"
+      ],
+      "tags": [
+        "Worship Ministry",
+        "worship"
+      ],
+      "search_terms": [
+        "Does Urbancrest have sensory-friendly worship?",
+        "Is there a quiet worship room?",
+        "Where is the sensory-friendly worship space?"
+      ],
+      "ministries": [
+        "worship"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.plan_visit"
+      ],
+      "status": "published",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.kids.discipline",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/kids/faq/how-does-kids-ministry-handle-discipline.md",
+      "title": "How does Kids Ministry handle discipline?",
+      "summary": "Leaders use patient redirection, positive reinforcement, clear expectations, and parent partnership. Physical punishment, verbal abuse, humiliation, and isolation are prohibited.",
+      "content": "# How does Kids Ministry handle discipline?\n\nKids Ministry leaders approach behavior correction with love, patience, and grace. Approved approaches include clear reminders, positive reinforcement, adjusting the environment, and a brief supervised cool-down within the classroom.\n\nThe following are prohibited:\n\n- Corporal punishment\n- Shouting, mocking, shaming, or humiliating a child\n- Isolating a child without supervision\n- Withholding bathroom access, water, or necessary snacks\n\nWhen behavior remains unsafe or disruptive, a ministry leader is contacted and parents are included in a gentle, encouraging conversation.",
+      "priority": 98,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "kids_discipline",
+        "behavior_management"
+      ],
+      "tags": [
+        "Urbancrest Kids",
+        "Kids Ministry",
+        "children",
+        "safety"
+      ],
+      "search_terms": [
+        "How does Kids Ministry discipline children?",
+        "Does Urbancrest use corporal punishment?",
+        "What happens if a child is disruptive?",
+        "Will parents be notified about behavior?"
+      ],
+      "ministries": [
+        "kids",
+        "preschool",
+        "nursery"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "sarah_coleman",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.kids.emergency_response",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/kids/faq/how-does-kids-ministry-respond-to-emergencies.md",
+      "title": "How does Kids Ministry respond to emergencies?",
+      "summary": "Volunteers are trained for fire, severe weather, lockdown, evacuation, and reunification procedures under church leadership and security direction.",
+      "content": "# How does Kids Ministry respond to emergencies?\n\nKids Ministry volunteers receive procedures for fires, severe weather, lockdowns, evacuations, and family reunification. Classrooms use attendance records and emergency supplies to keep children accounted for, and volunteers follow direction from church leadership, security personnel, and emergency responders.\n\nChildren are released only through an approved verification process after leadership or emergency personnel provide clearance. Specific tactical instructions are not published publicly.",
+      "priority": 98,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "kids_emergency",
+        "child_safety"
+      ],
+      "tags": [
+        "Urbancrest Kids",
+        "Kids Ministry",
+        "children",
+        "safety"
+      ],
+      "search_terms": [
+        "What happens during an emergency in Kids Ministry?",
+        "Does the nursery have evacuation plans?",
+        "How are children accounted for during emergencies?",
+        "What happens during severe weather?"
+      ],
+      "ministries": [
+        "kids",
+        "preschool",
+        "nursery"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "sarah_coleman",
+      "related_staff_keys": [
+        "mikhael_mastalerz"
+      ],
+      "answer_guidance": "Provide only public-facing safety information. Do not disclose room-specific lockdown locations, barricade instructions, radio procedures, or other tactical security details.",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.students.schedule",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/students/faq/when-does-student-ministry-meet.md",
+      "title": "When does Student Ministry meet?",
+      "summary": "Student Ministry meets Sundays at 9:30 AM and Wednesdays at 6:30 PM during the regular ministry season.",
+      "content": "# When does Student Ministry meet?\n\nDuring the regular ministry season, Urbancrest Student Ministry meets:\n\n- **Sundays at 9:30 AM**\n- **Wednesdays at 6:30 PM**\n\nRegular gatherings pause during the summer so students and leaders can focus on supporting local missions efforts throughout the community. Check [Urbancrest Events](https://urbancrest.church/events) for current dates and summer opportunities.",
+      "priority": 98,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "student_schedule"
+      ],
+      "tags": [
+        "Student Ministry",
+        "students",
+        "youth ministry"
+      ],
+      "search_terms": [
+        "When does Student Ministry meet?",
+        "What time is youth group?",
+        "When do students meet on Sunday?",
+        "When do students meet on Wednesday?",
+        "Does Student Ministry meet during summer?"
+      ],
+      "ministries": [
+        "students"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.guest_services.parking",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/guest-services/faq/where-should-i-park.md",
+      "title": "Where should I park at Urbancrest?",
+      "summary": "Parking is available around the entire building, and guests may park wherever is most convenient.",
+      "content": "# Where should I park at Urbancrest?\n\nParking is available around the entire building, and you may park wherever is most convenient.\n\nHelpful building locations:\n\n- **Kids and Student Ministries:** 300, 400, and 500 wings on the south side\n- **Adult Sunday School classes:** 200 wing on the north side\n- **Worship Center:** Centrally located and accessible from all entrances",
+      "priority": 98,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "parking",
+        "first_visit"
+      ],
+      "tags": [
+        "Guest Services",
+        "first visit"
+      ],
+      "search_terms": [
+        "Where should I park?",
+        "Where is Kids Ministry parking?",
+        "Which entrance should I use?",
+        "Where is the worship center?"
+      ],
+      "ministries": [
+        "guest_services",
+        "first_visit"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.plan_visit"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "sydni_neptune",
       "confidence": "high"
     },
     {
@@ -940,6 +1473,259 @@
       "leadership_status": "transitional",
       "open_role": "Global Missions Pastor",
       "review_trigger": "global_missions_pastor_hired",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.kids.medication",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/kids/faq/can-volunteers-give-children-medication.md",
+      "title": "Can Kids Ministry volunteers give children medication?",
+      "summary": "No. Volunteers do not administer prescription or over-the-counter medication to children.",
+      "content": "# Can Kids Ministry volunteers give children medication?\n\nNo. Kids Ministry volunteers do not administer prescription or over-the-counter medication to children.",
+      "priority": 96,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "kids_health",
+        "medication_policy"
+      ],
+      "tags": [
+        "Urbancrest Kids",
+        "Kids Ministry",
+        "children",
+        "safety"
+      ],
+      "search_terms": [
+        "Can Kids volunteers give medicine?",
+        "Will the nursery administer medication?",
+        "Can I leave medicine with a teacher?"
+      ],
+      "ministries": [
+        "kids",
+        "preschool",
+        "nursery"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.get_involved"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "sarah_coleman",
+      "related_staff_keys": [
+        "mikhael_mastalerz"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.kids.food_allergies",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/kids/faq/how-are-food-allergies-handled.md",
+      "title": "How are food allergies handled in Kids Ministry?",
+      "summary": "Allergy notices are displayed on child nametags and reviewed before food is served.",
+      "content": "# How are food allergies handled in Kids Ministry?\n\nFood allergy notices are clearly marked on child nametags. Volunteers review those notices before serving any food.",
+      "priority": 96,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "kids_allergies",
+        "kids_health"
+      ],
+      "tags": [
+        "Urbancrest Kids",
+        "Kids Ministry",
+        "children",
+        "safety"
+      ],
+      "search_terms": [
+        "How does Kids Ministry handle food allergies?",
+        "Are allergies shown on name tags?",
+        "Will volunteers check allergies before snacks?"
+      ],
+      "ministries": [
+        "kids",
+        "preschool",
+        "nursery"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "sarah_coleman",
+      "related_staff_keys": [
+        "mikhael_mastalerz"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.worship.serving",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/worship/faq/how-do-i-get-involved-in-worship-ministry.md",
+      "title": "How do I get involved in Worship Ministry?",
+      "summary": "Request a Worship Ministry Application Questionnaire from Pastor Larry to begin the process.",
+      "content": "# How do I get involved in Worship Ministry?\n\nTo begin the process, request a **Worship Ministry Application Questionnaire** from Pastor Larry. After the application is reviewed, the next steps may include an audition and interview.",
+      "priority": 96,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "worship_serving",
+        "volunteering"
+      ],
+      "tags": [
+        "Worship Ministry",
+        "worship"
+      ],
+      "search_terms": [
+        "How do I join the worship team?",
+        "How can I serve in Worship Ministry?",
+        "How do I get a worship application?"
+      ],
+      "ministries": [
+        "worship"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.get_involved"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "larry_nichols",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.worship.philosophy",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/worship/faq/what-is-urbancrests-philosophy-of-worship.md",
+      "title": "What is Urbancrest’s philosophy of worship?",
+      "summary": "Urbancrest worship is Christ-centered, Scripture-saturated, gospel-focused, and centered on congregational participation.",
+      "content": "# What is Urbancrest's philosophy of worship?\n\nUrbancrest strives to create worship services that are:\n\n- **Christ-centered**\n- **Scripture-saturated**\n- **Gospel-focused**\n- **Centered on congregational participation**\n\nGod's Word shapes every service. The congregation is the primary choir, music supports the message, excellence honors God, authenticity matters more than performance, and every generation has something valuable to contribute.",
+      "priority": 96,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "worship_philosophy"
+      ],
+      "tags": [
+        "Worship Ministry",
+        "worship"
+      ],
+      "search_terms": [
+        "What is Urbancrest philosophy of worship?",
+        "How does Urbancrest plan worship?",
+        "What guides worship services?"
+      ],
+      "ministries": [
+        "worship"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [],
+      "status": "published",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.preschool.volunteer_screening",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/preschool/faq/are-preschool-volunteers-screened.md",
+      "title": "Are preschool volunteers interviewed and background checked?",
+      "summary": "Yes. Adult volunteers are interviewed, background checked, and trained in safety and security.",
+      "content": "# Are preschool volunteers interviewed and background checked?\n\nYes. All adult preschool volunteers are:\n\n- Interviewed\n- Background checked\n- Trained in safety and security procedures",
+      "priority": 95,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "preschool_safety",
+        "volunteer_screening"
+      ],
+      "tags": [
+        "preschool",
+        "Urbancrest Kids",
+        "parents"
+      ],
+      "search_terms": [
+        "Are preschool volunteers background checked?",
+        "How are preschool volunteers screened?",
+        "Are Kids volunteers trained?"
+      ],
+      "ministries": [
+        "preschool",
+        "kids"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "sarah_coleman",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.worship.children",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/worship/faq/can-my-child-stay-with-me-during-worship.md",
+      "title": "Can my child stay with me during worship?",
+      "summary": "Yes. Children are always welcome to remain with their parents during worship.",
+      "content": "# Can my child stay with me during worship?\n\nYes. Children are always welcome in Urbancrest worship services. Ministry opportunities are available for children, but parents are always welcome to keep their children with them.",
+      "priority": 95,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "children_in_worship",
+        "first_visit"
+      ],
+      "tags": [
+        "Worship Ministry",
+        "worship"
+      ],
+      "search_terms": [
+        "Can my child stay with me during worship?",
+        "Are children allowed in the Worship Center?",
+        "Do kids have to attend Kids Ministry?"
+      ],
+      "ministries": [
+        "worship"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.plan_visit"
+      ],
+      "status": "published",
       "confidence": "high"
     },
     {
@@ -1183,6 +1969,179 @@
       "confidence": "high"
     },
     {
+      "id": "ministries.kids.parent_partnership",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/kids/faq/how-does-urbancrest-kids-partner-with-parents.md",
+      "title": "How does Urbancrest Kids partner with parents?",
+      "summary": "Urbancrest Kids supports parents as the primary spiritual influence in a child’s life and works with families to encourage discipleship at home and church.",
+      "content": "# How does Urbancrest Kids partner with parents?\n\nUrbancrest believes parents are the strongest spiritual influence in a child's life. Kids Ministry supports parents by building relationships with families, communicating with them, and surrounding children with trusted followers of Jesus who reinforce faith at church and at home.",
+      "priority": 95,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "family_discipleship",
+        "parent_partnership"
+      ],
+      "tags": [
+        "Urbancrest Kids",
+        "Kids Ministry",
+        "children",
+        "safety"
+      ],
+      "search_terms": [
+        "How does Kids Ministry partner with parents?",
+        "What role do parents have in discipleship?",
+        "How does Urbancrest support families?"
+      ],
+      "ministries": [
+        "kids",
+        "preschool",
+        "nursery"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "sarah_coleman",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.guest_services.accessibility",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/guest-services/faq/what-accessibility-options-are-available.md",
+      "title": "What accessibility options are available at Urbancrest?",
+      "summary": "Wheelchairs are available, and wheelchair seating is located on the main floor of the Worship Center.",
+      "content": "# What accessibility options are available at Urbancrest?\n\nWheelchairs are available. Ask a Guest Services team member or usher if you need one.\n\nWheelchair seating is available on the **main floor of the Worship Center**.",
+      "priority": 95,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "accessibility",
+        "first_visit"
+      ],
+      "tags": [
+        "Guest Services",
+        "first visit"
+      ],
+      "search_terms": [
+        "Does Urbancrest have wheelchairs?",
+        "Is there wheelchair seating?",
+        "Is the Worship Center accessible?"
+      ],
+      "ministries": [
+        "guest_services",
+        "first_visit"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.plan_visit"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "sydni_neptune",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.students",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/students.md",
+      "title": "What is Urbancrest Student Ministry?",
+      "summary": "Urbancrest Student Ministry partners with parents to help students in grades 7 through 12 become fully devoted followers of Jesus Christ.",
+      "content": "# What is Urbancrest Student Ministry?\n\nUrbancrest Student Ministry partners with parents in leading students in grades 7 through 12 to become fully devoted followers of Jesus Christ.\n\nThe ministry creates a Christ-centered environment where students can:\n\n- Belong and build meaningful relationships\n- Study God's Word\n- Worship together\n- Serve others\n- Grow into mature disciples\n- Learn to live out and share their faith\n\nThroughout the year, students participate in weekly gatherings, small groups, discipleship opportunities, outreach events, retreats, camps, and service projects. Each part of the ministry is designed to help students know Jesus more deeply, develop biblical convictions, grow in authentic Christian community, and become disciples who make disciples.\n\nFor current events and seasonal opportunities, visit [Urbancrest Events](https://urbancrest.church/events).",
+      "priority": 95,
+      "category": [
+        "ministries"
+      ],
+      "intents": [
+        "ministry_info",
+        "student_ministry",
+        "youth_ministry"
+      ],
+      "tags": [
+        "Student Ministry",
+        "youth ministry",
+        "middle school",
+        "high school",
+        "discipleship"
+      ],
+      "search_terms": [
+        "What is Student Ministry?",
+        "Tell me about youth ministry",
+        "What does Urbancrest offer for teenagers?",
+        "Student Ministry overview"
+      ],
+      "ministries": [
+        "students"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.events",
+        "action_link.get_involved"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "tucker_howard",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.worship",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/worship.md",
+      "title": "What is Urbancrest Worship Ministry?",
+      "summary": "Urbancrest Worship Ministry helps the church respond to God through Christ-centered, Scripture-shaped congregational worship.",
+      "content": "# What is Urbancrest Worship Ministry?\n\nAt Urbancrest, worship is more than music. It is the joyful response of God's people to who God is and what He has done through Jesus Christ.\n\nEvery worship service is intentionally planned to help the church:\n\n- See the greatness of God\n- Celebrate the hope of the gospel\n- Respond to God's Word with faith and obedience\n- Worship together through singing, prayer, Scripture, and preaching\n\nThe Worship Ministry exists to exalt Christ and help the congregation worship Him together.",
+      "priority": 95,
+      "category": [
+        "ministries"
+      ],
+      "intents": [
+        "ministry_info",
+        "worship_ministry",
+        "worship_philosophy"
+      ],
+      "tags": [
+        "Worship Ministry",
+        "worship",
+        "music",
+        "congregational singing"
+      ],
+      "search_terms": [
+        "What is Worship Ministry?",
+        "Tell me about worship at Urbancrest",
+        "What is worship like at Urbancrest?"
+      ],
+      "ministries": [
+        "worship"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.messages",
+        "action_link.get_involved"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "larry_nichols",
+      "confidence": "high"
+    },
+    {
       "id": "relationship.ministry_staff.global_missions",
       "record_type": "relationship",
       "path": "relationships/ministry-staff.yaml",
@@ -1266,6 +2225,288 @@
       "leadership_status": "transitional",
       "open_role": "Global Missions Pastor",
       "answer_guidance": "Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the recommended current contact for general and global missions questions. Darrel Schick serves as Local Missions Strategist for local missions and community outreach."
+    },
+    {
+      "id": "ministries.worship.contact",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/worship/faq/who-can-i-contact-about-worship.md",
+      "title": "Who can I contact with questions about worship?",
+      "summary": "Contact Pastor Larry, visit the Welcome Center, or speak with a worship team member before or after a service.",
+      "content": "# Who can I contact with questions about worship?\n\nFor questions about worship at Urbancrest, you can:\n\n- Contact Pastor Larry\n- Stop by the Welcome Center on Sunday morning\n- Speak with a worship team member before or after the service",
+      "priority": 94,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "worship_contact"
+      ],
+      "tags": [
+        "Worship Ministry",
+        "worship"
+      ],
+      "search_terms": [
+        "Who do I contact about worship?",
+        "How do I contact Pastor Larry?",
+        "Who can answer worship questions?"
+      ],
+      "ministries": [
+        "worship"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "larry_nichols",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.preschool.allergy_snack",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/preschool/faq/can-a-special-allergy-safe-snack-be-provided.md",
+      "title": "Can a special snack be provided for a preschool child with a food allergy?",
+      "summary": "Yes. When the ministry knows about the allergy, a compliant snack can be provided, or parents may pack a safe snack.",
+      "content": "# Can a special snack be provided for a preschool child with a food allergy?\n\nYes. When the ministry is aware of the allergy, a compliant snack will be provided. Parents are also welcome to pack their child's own **safe snack**.",
+      "priority": 92,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "preschool_allergies"
+      ],
+      "tags": [
+        "preschool",
+        "Urbancrest Kids",
+        "parents"
+      ],
+      "search_terms": [
+        "Can you provide an allergy-safe snack?",
+        "What if my preschooler has a food allergy?",
+        "Can I bring my child a safe snack?"
+      ],
+      "ministries": [
+        "preschool",
+        "kids"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "sarah_coleman",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.preschool.potty_training",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/preschool/faq/does-my-child-need-to-be-potty-trained.md",
+      "title": "Does my child need to be potty trained for the preschool class?",
+      "summary": "Yes. Children must be potty trained before moving into the three-year-old preschool class because the classroom has no changing tables.",
+      "content": "# Does my child need to be potty trained for the preschool class?\n\nYes. Children must be potty trained before moving into the **three-year-old preschool class** because there are no changing tables in that classroom.",
+      "priority": 92,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "preschool_potty_training"
+      ],
+      "tags": [
+        "preschool",
+        "Urbancrest Kids",
+        "parents"
+      ],
+      "search_terms": [
+        "Does my child need to be potty trained for preschool?",
+        "Are there changing tables in the preschool classroom?",
+        "Can a child in diapers move to the three-year-old class?"
+      ],
+      "ministries": [
+        "preschool",
+        "kids"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "sarah_coleman",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.students.safety",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/students/faq/is-student-safety-a-priority.md",
+      "title": "Is student safety a priority?",
+      "summary": "Yes. Student safety is a top priority, and leaders follow Urbancrest safety and child protection policies.",
+      "content": "# Is student safety a priority?\n\nYes. Student safety is a top priority at Urbancrest. Volunteers and leaders follow the church's established safety and child protection policies to provide a safe environment for every student.",
+      "priority": 92,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "student_safety"
+      ],
+      "tags": [
+        "Student Ministry",
+        "students",
+        "youth ministry"
+      ],
+      "search_terms": [
+        "Is Student Ministry safe?",
+        "Are youth leaders screened?",
+        "How does Urbancrest protect students?"
+      ],
+      "ministries": [
+        "students"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "tucker_howard",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.worship.accessibility",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/worship/faq/is-the-worship-service-accessible.md",
+      "title": "Is the worship service accessible?",
+      "summary": "Yes. Urbancrest is committed to a welcoming, accessible, and inclusive worship environment for people of all ages and abilities.",
+      "content": "# Is the worship service accessible?\n\nYes. Urbancrest is committed to creating a worship environment that is welcoming, accessible, and inclusive for people of all ages and abilities. Guest Services can assist with accessibility needs when you arrive.",
+      "priority": 92,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "worship_accessibility",
+        "first_visit"
+      ],
+      "tags": [
+        "Worship Ministry",
+        "worship"
+      ],
+      "search_terms": [
+        "Is worship accessible?",
+        "Can people with disabilities attend worship?",
+        "What accessibility accommodations are available?"
+      ],
+      "ministries": [
+        "worship"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.plan_visit"
+      ],
+      "status": "published",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.guest_services",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/guest-services.md",
+      "title": "What is Guest Services?",
+      "summary": "Guest Services helps create a welcoming, helpful environment for everyone who comes to worship at Urbancrest.",
+      "content": "# What is Guest Services?\n\nThe Guest Services team is dedicated to creating a welcoming environment for everyone who comes to worship at Urbancrest. The team helps guests and members feel valued, comfortable, and supported throughout their visit.\n\nGuest Services team members can assist with directions, seating, accessibility needs, and general questions.\n\n[Plan Your Visit](https://urbancrest.church/plan-a-visit)",
+      "priority": 92,
+      "category": [
+        "ministries"
+      ],
+      "intents": [
+        "ministry_info",
+        "guest_services",
+        "first_visit",
+        "hospitality"
+      ],
+      "tags": [
+        "Guest Services",
+        "first visit",
+        "hospitality",
+        "welcome"
+      ],
+      "search_terms": [
+        "What is Guest Services?",
+        "What should I expect when I visit?",
+        "How does Urbancrest welcome guests?"
+      ],
+      "ministries": [
+        "guest_services",
+        "first_visit"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.plan_visit"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "sydni_neptune",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.worship.music_style",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/worship/faq/what-kind-of-music-does-urbancrest-sing.md",
+      "title": "What kind of music does Urbancrest sing?",
+      "summary": "Urbancrest sings a blend of modern worship songs and timeless hymns chosen for biblical faithfulness and congregational singing.",
+      "content": "# What kind of music does Urbancrest sing?\n\nUrbancrest sings a blend of **modern worship songs** and **timeless hymns**. Songs are selected for biblical faithfulness, roots in Scripture, and their ability to help the congregation sing confidently.",
+      "priority": 92,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "worship_music_style"
+      ],
+      "tags": [
+        "Worship Ministry",
+        "worship"
+      ],
+      "search_terms": [
+        "What kind of music does Urbancrest sing?",
+        "Is worship contemporary or traditional?",
+        "What style of worship music is used?"
+      ],
+      "ministries": [
+        "worship"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.plan_visit"
+      ],
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "action_link.directions_google",
@@ -1382,6 +2623,125 @@
       "church_center_modal": false
     },
     {
+      "id": "ministries.worship.auditions",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/worship/faq/do-i-have-to-audition.md",
+      "title": "Do I have to audition for Worship Ministry?",
+      "summary": "Yes. Musicians and vocalists audition so leaders can understand their strengths and determine where they may serve best.",
+      "content": "# Do I have to audition for Worship Ministry?\n\nYes. Auditions are required for musicians and vocalists. They help ministry leaders understand each person's strengths and determine where that person may best serve the church.",
+      "priority": 90,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "worship_auditions"
+      ],
+      "tags": [
+        "Worship Ministry",
+        "worship"
+      ],
+      "search_terms": [
+        "Do I have to audition for worship team?",
+        "Are worship auditions required?",
+        "What happens at a worship audition?"
+      ],
+      "ministries": [
+        "worship"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.get_involved"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "larry_nichols",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.students.parent_updates",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/students/faq/how-can-parents-stay-informed.md",
+      "title": "How can parents stay informed about Student Ministry?",
+      "summary": "Parents can use the events page, join the weekly parent email, attend parent meetings, or contact Pastor Tucker.",
+      "content": "# How can parents stay informed about Student Ministry?\n\nParents can stay informed by:\n\n- Checking the [Urbancrest Events page](https://urbancrest.church/events)\n- Joining the weekly parent email\n- Attending parent meetings\n- Contacting Pastor Tucker with questions",
+      "priority": 90,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "student_parent_communication"
+      ],
+      "tags": [
+        "Student Ministry",
+        "students",
+        "youth ministry"
+      ],
+      "search_terms": [
+        "How can parents stay informed about Student Ministry?",
+        "Is there a student parent email?",
+        "How do I get youth ministry updates?",
+        "Who do I contact about Student Ministry?"
+      ],
+      "ministries": [
+        "students"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "tucker_howard",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.worship.performance",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/worship/faq/is-worship-a-performance.md",
+      "title": "Is worship a performance?",
+      "summary": "No. The worship team leads the congregation and directs attention to Christ rather than performing for an audience.",
+      "content": "# Is worship a performance?\n\nNo. The worship team exists to **lead, not perform**. Everything is intended to encourage congregational singing and direct attention to Christ.",
+      "priority": 90,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "worship_leadership"
+      ],
+      "tags": [
+        "Worship Ministry",
+        "worship"
+      ],
+      "search_terms": [
+        "Is worship a performance?",
+        "Does the worship team perform?",
+        "What is the role of the worship team?"
+      ],
+      "ministries": [
+        "worship"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [],
+      "status": "published",
+      "confidence": "high"
+    },
+    {
       "id": "ministries.missions",
       "record_type": "knowledge",
       "path": "knowledge/ministries/missions.md",
@@ -1431,6 +2791,256 @@
       "recommended_contact_staff_key": "jennifer_prows",
       "leadership_status": "transitional",
       "open_role": "Global Missions Pastor",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.students.goal",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/students/faq/what-is-the-goal-of-student-ministry.md",
+      "title": "What is the goal of Student Ministry?",
+      "summary": "The goal is to help students know Christ, grow in biblical maturity, build Christian community, and become disciples who make disciples.",
+      "content": "# What is the goal of Student Ministry?\n\nThe goal of Urbancrest Student Ministry is to help students:\n\n- Know Christ\n- Grow in biblical maturity\n- Build meaningful Christian community\n- Become disciples who make disciples",
+      "priority": 90,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "student_goal"
+      ],
+      "tags": [
+        "Student Ministry",
+        "students",
+        "youth ministry"
+      ],
+      "search_terms": [
+        "What is the goal of Student Ministry?",
+        "What does youth ministry focus on?",
+        "What do students learn at Urbancrest?"
+      ],
+      "ministries": [
+        "students"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.mens_summit",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/mens-summit.md",
+      "title": "What is the Men's Summit?",
+      "summary": "The Men's Summit is an annual late-January event that helps men grow spiritually, understand biblical manhood, and live it out.",
+      "content": "# What is the Men's Summit?\n\nThe Men's Summit grew from a desire to help men grow spiritually, understand biblical manhood, and live it out in today's world.\n\nThe first Summit was held in **2005** and welcomed 250 men. It has since grown to reach nearly **1,000 men** and has represented more than **260 churches** from many denominations over the years. Men travel from across Ohio and several surrounding states to attend, and the event has welcomed many nationally recognized speakers.\n\nThe Men's Summit is held each year in **late January**. Current dates, speakers, and registration details are available on [Urbancrest Events](https://urbancrest.church/events).",
+      "priority": 90,
+      "category": [
+        "ministries"
+      ],
+      "intents": [
+        "ministry_info",
+        "mens_summit",
+        "mens_events"
+      ],
+      "tags": [
+        "Men's Summit",
+        "Men's Ministry",
+        "conference",
+        "biblical manhood"
+      ],
+      "search_terms": [
+        "What is the Men's Summit?",
+        "When is Men's Summit?",
+        "How did Men's Summit start?",
+        "How many men attend Men's Summit?"
+      ],
+      "ministries": [
+        "men",
+        "mens_summit"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.golf_classic",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/urbancrest-golf-classic.md",
+      "title": "What is the Urbancrest Golf Classic?",
+      "summary": "The Urbancrest Golf Classic is an annual late-August four-person scramble that raises support for one of three ministry partners.",
+      "content": "# What is the Urbancrest Golf Classic?\n\nThe Urbancrest Golf Classic began in **1999** and is held each year in **late August**. It is a four-person scramble tournament that raises funds for a ministry partner sharing the love of Jesus Christ.\n\nThe supported ministry rotates among three partner organizations:\n\n- **You Turn Ministries**, which shares the gospel, equips leaders, and meets tangible needs in southeast Africa\n- **Caring Partners International**, which equips churches to use healthcare to share the gospel\n- **A Child's Hope International**, which mobilizes churches and communities to care for orphans and vulnerable children\n\nCurrent tournament dates and registration details are available on [Urbancrest Events](https://urbancrest.church/events).",
+      "priority": 90,
+      "category": [
+        "ministries"
+      ],
+      "intents": [
+        "ministry_info",
+        "golf_classic",
+        "missions_fundraiser"
+      ],
+      "tags": [
+        "Urbancrest Golf Classic",
+        "golf",
+        "fundraiser",
+        "missions"
+      ],
+      "search_terms": [
+        "What is the Urbancrest Golf Classic?",
+        "When is the Golf Classic?",
+        "How long has Urbancrest held the golf tournament?",
+        "What type of golf tournament is it?"
+      ],
+      "ministries": [
+        "men",
+        "missions",
+        "golf_classic"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.worship.definition",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/worship/faq/what-is-worship.md",
+      "title": "What is worship?",
+      "summary": "Worship is the believer’s response to God’s glory, grace, and greatness in gathered worship and everyday life.",
+      "content": "# What is worship?\n\nWorship is our response to God's glory, grace, and greatness. Every believer is called to worship God with all of life, and there is also something uniquely important about God's people gathering to sing, pray, hear His Word, and encourage one another.\n\nAt Urbancrest, each part of the service supports the preaching of God's Word and points the congregation to Christ.",
+      "priority": 90,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "worship_definition"
+      ],
+      "tags": [
+        "Worship Ministry",
+        "worship"
+      ],
+      "search_terms": [
+        "What is worship?",
+        "Why does the church worship?",
+        "Is worship more than music?"
+      ],
+      "ministries": [
+        "worship"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [],
+      "status": "published",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.worship.attire",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/worship/faq/what-should-i-wear-to-worship.md",
+      "title": "What should I wear to worship at Urbancrest?",
+      "summary": "Come as you are. Attire ranges from casual clothing to dresses, jackets, and ties.",
+      "content": "# What should I wear to worship at Urbancrest?\n\nCome as you are. You will see everything from jeans and T-shirts to dresses, jackets, and ties. Wear whatever allows you to feel comfortable and focus on worshiping God.",
+      "priority": 90,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "worship_attire",
+        "first_visit"
+      ],
+      "tags": [
+        "Worship Ministry",
+        "worship"
+      ],
+      "search_terms": [
+        "What should I wear to worship?",
+        "Is there a dress code?",
+        "Can I wear jeans to church?"
+      ],
+      "ministries": [
+        "worship"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.plan_visit"
+      ],
+      "status": "published",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.kids.diaper_changes",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/kids/faq/who-can-change-diapers.md",
+      "title": "Who can change diapers in Kids Ministry?",
+      "summary": "Diaper changes are limited to approved volunteers or the child’s parent or guardian, and disposable gloves are used.",
+      "content": "# Who can change diapers in Kids Ministry?\n\nDiaper changes are limited to approved volunteers or the child's parent or guardian. Disposable gloves are used during diaper changes.",
+      "priority": 90,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "nursery_safety",
+        "diaper_changes"
+      ],
+      "tags": [
+        "Urbancrest Kids",
+        "Kids Ministry",
+        "children",
+        "safety"
+      ],
+      "search_terms": [
+        "Who changes diapers in the nursery?",
+        "Can any volunteer change diapers?",
+        "What is the diaper changing policy?"
+      ],
+      "ministries": [
+        "kids",
+        "preschool",
+        "nursery"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "sarah_coleman",
+      "related_staff_keys": [
+        "mikhael_mastalerz"
+      ],
       "confidence": "high"
     },
     {
@@ -1697,7 +3307,7 @@
       "path": "registry/staff-routing.yaml",
       "title": "Larry Nichols",
       "summary": "Larry Nichols serves as Worship Pastor. Full biography and fun facts are loaded from Base44 Staff when relevant.",
-      "content": "Display name: Pastor Larry\nRole: Worship Pastor\nMinistries: worship, pastoral, music, choir\nTopics: worship, music ministry, choir, worship services",
+      "content": "Display name: Pastor Larry\nRole: Worship Pastor\nMinistries: worship, pastoral, music, choir\nTopics: worship, music ministry, choir, worship services, worship philosophy, worship auditions, worship application, sensory-friendly worship, worship music style",
       "priority": 90,
       "category": [
         "staff"
@@ -1724,7 +3334,12 @@
         "worship",
         "music ministry",
         "choir",
-        "worship services"
+        "worship services",
+        "worship philosophy",
+        "worship auditions",
+        "worship application",
+        "sensory-friendly worship",
+        "worship music style"
       ],
       "ministries": [
         "worship",
@@ -1853,7 +3468,7 @@
       "path": "registry/staff-routing.yaml",
       "title": "Mikhael Mastalerz",
       "summary": "Mikhael Mastalerz serves as Nursery Ministry Director. Full biography and fun facts are loaded from Base44 Staff when relevant.",
-      "content": "Display name: Mikhael\nRole: Nursery Ministry Director\nMinistries: nursery, infants, toddlers\nTopics: nursery, babies, infants, toddlers",
+      "content": "Display name: Mikhael\nRole: Nursery Ministry Director\nMinistries: nursery, infants, toddlers\nTopics: nursery, babies, infants, toddlers, diaper changes, nursery safety, infant care, toddler care",
       "priority": 90,
       "category": [
         "staff"
@@ -1879,7 +3494,11 @@
         "nursery",
         "babies",
         "infants",
-        "toddlers"
+        "toddlers",
+        "diaper changes",
+        "nursery safety",
+        "infant care",
+        "toddler care"
       ],
       "ministries": [
         "nursery",
@@ -1901,7 +3520,7 @@
       "path": "registry/staff-routing.yaml",
       "title": "Sarah Coleman",
       "summary": "Sarah Coleman serves as Preschool Director. Full biography and fun facts are loaded from Base44 Staff when relevant.",
-      "content": "Display name: Sarah\nRole: Preschool Director\nMinistries: kids, preschool, children, families\nTopics: kids ministry, children, preschool, families, AWANA",
+      "content": "Display name: Sarah\nRole: Preschool Director\nMinistries: kids, preschool, children, families\nTopics: kids ministry, children, preschool, families, AWANA, Kids Ministry safety, child check-in, child checkout, well-child policy, food allergies, preschool class placement, volunteer screening",
       "priority": 90,
       "category": [
         "staff"
@@ -1929,7 +3548,14 @@
         "children",
         "preschool",
         "families",
-        "AWANA"
+        "AWANA",
+        "Kids Ministry safety",
+        "child check-in",
+        "child checkout",
+        "well-child policy",
+        "food allergies",
+        "preschool class placement",
+        "volunteer screening"
       ],
       "ministries": [
         "kids",
@@ -1952,7 +3578,7 @@
       "path": "registry/staff-routing.yaml",
       "title": "Sydni Neptune",
       "summary": "Sydni Neptune serves as Guest Services. Full biography and fun facts are loaded from Base44 Staff when relevant.",
-      "content": "Display name: Sydni\nRole: Guest Services\nMinistries: guest_services, first_visit, hospitality, welcome\nTopics: guest services, first visit, hospitality, welcome team, visitors",
+      "content": "Display name: Sydni\nRole: Guest Services\nMinistries: guest_services, first_visit, hospitality, welcome\nTopics: guest services, first visit, hospitality, welcome team, visitors, parking, seating, refreshments, wheelchair access, accessibility",
       "priority": 90,
       "category": [
         "staff"
@@ -1978,7 +3604,12 @@
         "first visit",
         "hospitality",
         "welcome team",
-        "visitors"
+        "visitors",
+        "parking",
+        "seating",
+        "refreshments",
+        "wheelchair access",
+        "accessibility"
       ],
       "ministries": [
         "guest_services",
@@ -2050,7 +3681,7 @@
       "path": "registry/staff-routing.yaml",
       "title": "Tucker Howard",
       "summary": "Tucker Howard serves as Student Pastor. Full biography and fun facts are loaded from Base44 Staff when relevant.",
-      "content": "Display name: Pastor Tucker\nRole: Student Pastor\nMinistries: students, youth, middle_school, high_school, pastoral\nTopics: student ministry, youth ministry, middle school, high school, teenagers",
+      "content": "Display name: Pastor Tucker\nRole: Student Pastor\nMinistries: students, youth, middle_school, high_school, pastoral\nTopics: student ministry, youth ministry, middle school, high school, teenagers, student schedule, student safety, parent communication, student discipleship, student mentoring",
       "priority": 90,
       "category": [
         "staff"
@@ -2080,7 +3711,12 @@
         "youth ministry",
         "middle school",
         "high school",
-        "teenagers"
+        "teenagers",
+        "student schedule",
+        "student safety",
+        "parent communication",
+        "student discipleship",
+        "student mentoring"
       ],
       "ministries": [
         "students",
@@ -2097,6 +3733,373 @@
       "pastoral_staff": true,
       "show_card": true,
       "profile_source": "base44.Staff"
+    },
+    {
+      "id": "ministries.kids.youth_helpers",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/kids/faq/can-teenagers-serve-in-kids-ministry.md",
+      "title": "Can teenagers serve in Kids Ministry?",
+      "summary": "Youth helpers may serve beginning at age 13 and must remain under direct adult supervision.",
+      "content": "# Can teenagers serve in Kids Ministry?\n\nYes. Youth helpers must be at least **13 years old** and must serve under direct adult supervision.",
+      "priority": 88,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "kids_volunteering",
+        "youth_helpers"
+      ],
+      "tags": [
+        "Urbancrest Kids",
+        "Kids Ministry",
+        "children",
+        "safety"
+      ],
+      "search_terms": [
+        "Can teenagers volunteer in Kids Ministry?",
+        "How old do youth helpers need to be?",
+        "Can a 13-year-old serve with children?"
+      ],
+      "ministries": [
+        "kids",
+        "preschool",
+        "nursery"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.get_involved"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "sarah_coleman",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.preschool.promotion",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/preschool/faq/do-children-move-classes-on-their-birthdays.md",
+      "title": "Do preschool children move to new classes on their birthdays?",
+      "summary": "No. Children move to their next class on Promotion Sunday in August each year.",
+      "content": "# Do preschool children move to new classes on their birthdays?\n\nNo. Children move to their next class on **Promotion Sunday in August** each year.",
+      "priority": 88,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "preschool_promotion"
+      ],
+      "tags": [
+        "preschool",
+        "Urbancrest Kids",
+        "parents"
+      ],
+      "search_terms": [
+        "Do preschool children move classes on their birthdays?",
+        "When does my child move up a class?",
+        "What is Promotion Sunday?"
+      ],
+      "ministries": [
+        "preschool",
+        "kids"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "sarah_coleman",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.guest_services.refreshments",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/guest-services/faq/does-urbancrest-provide-refreshments.md",
+      "title": "Does Urbancrest provide refreshments?",
+      "summary": "Coffee, tea, hot chocolate, and donuts are available in the foyer with a suggested donation of $1 per item.",
+      "content": "# Does Urbancrest provide refreshments?\n\nYes. The foyer offers:\n\n- Coffee with cream, sugar, and flavorings\n- Tea\n- Hot chocolate\n- Donuts\n\nThere is a suggested donation of **$1 per item**. All proceeds help support missions.",
+      "priority": 88,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "refreshments",
+        "first_visit"
+      ],
+      "tags": [
+        "Guest Services",
+        "first visit"
+      ],
+      "search_terms": [
+        "Does Urbancrest have coffee?",
+        "Are donuts available?",
+        "How much are refreshments?",
+        "Where does the refreshment donation go?"
+      ],
+      "ministries": [
+        "guest_services",
+        "first_visit"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.plan_visit"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "sydni_neptune",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.worship.volume",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/worship/faq/is-the-music-loud.md",
+      "title": "Is the worship music loud?",
+      "summary": "The goal is enough energy for joyful congregational singing without becoming uncomfortably loud.",
+      "content": "# Is the worship music loud?\n\nThe goal is to create enough energy to encourage joyful congregational singing without becoming uncomfortably loud. The music should support worship, not distract from it.",
+      "priority": 88,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "worship_volume",
+        "first_visit"
+      ],
+      "tags": [
+        "Worship Ministry",
+        "worship"
+      ],
+      "search_terms": [
+        "Is the music loud?",
+        "How loud is worship at Urbancrest?",
+        "Is worship music uncomfortable?"
+      ],
+      "ministries": [
+        "worship"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.plan_visit"
+      ],
+      "status": "published",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.preschool.pre_k_repeat",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/preschool/faq/which-class-should-a-pre-k-child-attend.md",
+      "title": "Which class should a pre-K child attend if they are not entering kindergarten?",
+      "summary": "A child who is not yet entering kindergarten may remain in the pre-K class for an additional year.",
+      "content": "# Which class should a pre-K child attend if they are not entering kindergarten?\n\nA child who is not yet entering kindergarten may remain in the **pre-K class for an additional year**, even if the child's birthdate falls within the typical kindergarten age range.",
+      "priority": 88,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "preschool_class_placement"
+      ],
+      "tags": [
+        "preschool",
+        "Urbancrest Kids",
+        "parents"
+      ],
+      "search_terms": [
+        "Can my child repeat pre-K at church?",
+        "What class should my child attend if not starting kindergarten?",
+        "My child is kindergarten age but not going to kindergarten"
+      ],
+      "ministries": [
+        "preschool",
+        "kids"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "sarah_coleman",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.worship.participation",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/worship/faq/who-can-participate-in-worship.md",
+      "title": "Who can participate in worship?",
+      "summary": "Everyone is welcome and invited to participate in worship at their own comfort level.",
+      "content": "# Who can participate in worship?\n\nEveryone. Worship is something the entire church does together, and every person is welcome, valued, and invited to participate.",
+      "priority": 88,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "worship_participation"
+      ],
+      "tags": [
+        "Worship Ministry",
+        "worship"
+      ],
+      "search_terms": [
+        "Who can participate in worship?",
+        "Can visitors worship with you?",
+        "Is everyone welcome to sing?"
+      ],
+      "ministries": [
+        "worship"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [],
+      "status": "published",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.worship.hymns",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/worship/faq/does-urbancrest-sing-hymns.md",
+      "title": "Does Urbancrest sing hymns?",
+      "summary": "Yes. Historic hymns are regularly paired with biblically rich modern worship songs.",
+      "content": "# Does Urbancrest sing hymns?\n\nYes. Historic hymns continue to teach and encourage the church, and Urbancrest enjoys pairing them with biblically rich modern worship songs.",
+      "priority": 86,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "worship_hymns"
+      ],
+      "tags": [
+        "Worship Ministry",
+        "worship"
+      ],
+      "search_terms": [
+        "Does Urbancrest sing hymns?",
+        "Are traditional hymns used?"
+      ],
+      "ministries": [
+        "worship"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.plan_visit"
+      ],
+      "status": "published",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.guest_services.seating",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/guest-services/faq/where-can-i-sit.md",
+      "title": "Where can I sit during worship?",
+      "summary": "Seating is open on both the main floor and the balcony of the Worship Center.",
+      "content": "# Where can I sit during worship?\n\nSeating in the Worship Center is open. Choose any available seat on the **main floor** or in the **balcony**.",
+      "priority": 86,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "worship_seating",
+        "first_visit"
+      ],
+      "tags": [
+        "Guest Services",
+        "first visit"
+      ],
+      "search_terms": [
+        "Where do we sit?",
+        "Is seating assigned?",
+        "Can I sit in the balcony?"
+      ],
+      "ministries": [
+        "guest_services",
+        "first_visit"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.plan_visit"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "sydni_neptune",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.golf_classic.partners",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/golf-classic/faq/who-does-the-golf-classic-support.md",
+      "title": "Who does the Urbancrest Golf Classic support?",
+      "summary": "Golf Classic proceeds rotate among You Turn Ministries, Caring Partners International, and A Child’s Hope International.",
+      "content": "# Who does the Urbancrest Golf Classic support?\n\nProceeds from the Urbancrest Golf Classic support one of three ministry partners in rotation:\n\n- **You Turn Ministries:** Shares the gospel, equips leaders, and meets tangible needs in southeast Africa\n- **Caring Partners International:** Equips churches to use healthcare to share the gospel\n- **A Child's Hope International:** Motivates and mobilizes churches and communities to care for orphans and vulnerable children",
+      "priority": 86,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "golf_classic_partners",
+        "missions_partners"
+      ],
+      "tags": [
+        "Urbancrest Golf Classic",
+        "missions partners",
+        "fundraiser"
+      ],
+      "search_terms": [
+        "Who benefits from the Golf Classic?",
+        "Where do Golf Classic proceeds go?",
+        "Which ministries does the golf tournament support?"
+      ],
+      "ministries": [
+        "missions",
+        "golf_classic"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "beliefs.ordinances",
@@ -2626,6 +4629,86 @@
       "confidence": "high"
     },
     {
+      "id": "ministries.students.grades",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/students/faq/what-grades-are-in-student-ministry.md",
+      "title": "What grades are included in Student Ministry?",
+      "summary": "Urbancrest Student Ministry serves students in grades 7 through 12.",
+      "content": "# What grades are included in Student Ministry?\n\nUrbancrest Student Ministry serves students in **grades 7 through 12**.",
+      "priority": 85,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "student_grades"
+      ],
+      "tags": [
+        "Student Ministry",
+        "students",
+        "youth ministry"
+      ],
+      "search_terms": [
+        "What grades are in Student Ministry?",
+        "What ages are in youth group?",
+        "Is Student Ministry for middle school and high school?"
+      ],
+      "ministries": [
+        "students"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.students.typical_gathering",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/students/faq/what-happens-at-student-ministry.md",
+      "title": "What happens during a typical Student Ministry gathering?",
+      "summary": "Student gatherings usually include fellowship, activities, worship, biblical teaching, small groups, and prayer.",
+      "content": "# What happens during a typical Student Ministry gathering?\n\nA typical student gathering includes a combination of:\n\n- Fellowship\n- Games or activities\n- Worship through music\n- Biblical teaching\n- Small group discussion\n- Prayer",
+      "priority": 85,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "student_gathering"
+      ],
+      "tags": [
+        "Student Ministry",
+        "students",
+        "youth ministry"
+      ],
+      "search_terms": [
+        "What happens at youth group?",
+        "What should my student expect?",
+        "What happens on Wednesday night for students?"
+      ],
+      "ministries": [
+        "students"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "confidence": "high"
+    },
+    {
       "id": "about.wednesday.nights",
       "record_type": "knowledge",
       "path": "knowledge/about/wednesday-nights.md",
@@ -2681,6 +4764,47 @@
       ],
       "status": "published",
       "confidence": "high"
+    },
+    {
+      "id": "relationship.ministry_staff.accessibility",
+      "record_type": "relationship",
+      "path": "relationships/ministry-staff.yaml",
+      "title": "Accessibility staff relationship",
+      "summary": "Staff relationship for accessibility. Recommended staff key: sydni_neptune.",
+      "content": "Ministry: accessibility\nLeadership status: staffed\nPrimary staff key: sydni_neptune\nRecommended contact staff key: none\nRelated staff keys: larry_nichols",
+      "priority": 85,
+      "category": [
+        "relationship",
+        "staff"
+      ],
+      "intents": [
+        "ministry_contact",
+        "staff_routing",
+        "missions_leadership"
+      ],
+      "tags": [
+        "accessibility",
+        "staff",
+        "ministry",
+        "staffed"
+      ],
+      "search_terms": [
+        "accessibility",
+        "who oversees accessibility",
+        "who leads accessibility",
+        "who do I contact about accessibility"
+      ],
+      "ministries": [
+        "accessibility"
+      ],
+      "audiences": [],
+      "resources": [],
+      "staff_key": "sydni_neptune",
+      "primary_staff_key": "sydni_neptune",
+      "related_staff_keys": [
+        "larry_nichols"
+      ],
+      "leadership_status": "staffed"
     },
     {
       "id": "relationship.ministry_staff.creative",
@@ -2993,6 +5117,47 @@
       "resources": [],
       "staff_key": "matthew_kirby",
       "primary_staff_key": "matthew_kirby",
+      "leadership_status": "staffed"
+    },
+    {
+      "id": "relationship.ministry_staff.kids_safety",
+      "record_type": "relationship",
+      "path": "relationships/ministry-staff.yaml",
+      "title": "Kids Safety staff relationship",
+      "summary": "Staff relationship for kids safety. Recommended staff key: sarah_coleman.",
+      "content": "Ministry: kids_safety\nLeadership status: staffed\nPrimary staff key: sarah_coleman\nRecommended contact staff key: none\nRelated staff keys: mikhael_mastalerz",
+      "priority": 85,
+      "category": [
+        "relationship",
+        "staff"
+      ],
+      "intents": [
+        "ministry_contact",
+        "staff_routing",
+        "missions_leadership"
+      ],
+      "tags": [
+        "kids_safety",
+        "staff",
+        "ministry",
+        "staffed"
+      ],
+      "search_terms": [
+        "kids safety",
+        "who oversees kids safety",
+        "who leads kids safety",
+        "who do I contact about kids safety"
+      ],
+      "ministries": [
+        "kids_safety"
+      ],
+      "audiences": [],
+      "resources": [],
+      "staff_key": "sarah_coleman",
+      "primary_staff_key": "sarah_coleman",
+      "related_staff_keys": [
+        "mikhael_mastalerz"
+      ],
       "leadership_status": "staffed"
     },
     {
@@ -3394,6 +5559,44 @@
       "leadership_status": "staffed"
     },
     {
+      "id": "relationship.ministry_staff.student_parent_communication",
+      "record_type": "relationship",
+      "path": "relationships/ministry-staff.yaml",
+      "title": "Student Parent Communication staff relationship",
+      "summary": "Staff relationship for student parent communication. Recommended staff key: tucker_howard.",
+      "content": "Ministry: student_parent_communication\nLeadership status: staffed\nPrimary staff key: tucker_howard\nRecommended contact staff key: none\nRelated staff keys:",
+      "priority": 85,
+      "category": [
+        "relationship",
+        "staff"
+      ],
+      "intents": [
+        "ministry_contact",
+        "staff_routing",
+        "missions_leadership"
+      ],
+      "tags": [
+        "student_parent_communication",
+        "staff",
+        "ministry",
+        "staffed"
+      ],
+      "search_terms": [
+        "student parent communication",
+        "who oversees student parent communication",
+        "who leads student parent communication",
+        "who do I contact about student parent communication"
+      ],
+      "ministries": [
+        "student_parent_communication"
+      ],
+      "audiences": [],
+      "resources": [],
+      "staff_key": "tucker_howard",
+      "primary_staff_key": "tucker_howard",
+      "leadership_status": "staffed"
+    },
+    {
       "id": "relationship.ministry_staff.students",
       "record_type": "relationship",
       "path": "relationships/ministry-staff.yaml",
@@ -3470,6 +5673,44 @@
       "leadership_status": "staffed"
     },
     {
+      "id": "relationship.ministry_staff.worship_serving",
+      "record_type": "relationship",
+      "path": "relationships/ministry-staff.yaml",
+      "title": "Worship Serving staff relationship",
+      "summary": "Staff relationship for worship serving. Recommended staff key: larry_nichols.",
+      "content": "Ministry: worship_serving\nLeadership status: staffed\nPrimary staff key: larry_nichols\nRecommended contact staff key: none\nRelated staff keys:",
+      "priority": 85,
+      "category": [
+        "relationship",
+        "staff"
+      ],
+      "intents": [
+        "ministry_contact",
+        "staff_routing",
+        "missions_leadership"
+      ],
+      "tags": [
+        "worship_serving",
+        "staff",
+        "ministry",
+        "staffed"
+      ],
+      "search_terms": [
+        "worship serving",
+        "who oversees worship serving",
+        "who leads worship serving",
+        "who do I contact about worship serving"
+      ],
+      "ministries": [
+        "worship_serving"
+      ],
+      "audiences": [],
+      "resources": [],
+      "staff_key": "larry_nichols",
+      "primary_staff_key": "larry_nichols",
+      "leadership_status": "staffed"
+    },
+    {
       "id": "relationship.ministry_staff.worship",
       "record_type": "relationship",
       "path": "relationships/ministry-staff.yaml",
@@ -3506,6 +5747,169 @@
       "staff_key": "larry_nichols",
       "primary_staff_key": "larry_nichols",
       "leadership_status": "staffed"
+    },
+    {
+      "id": "ministries.guest_services.beverages",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/guest-services/faq/can-i-bring-a-beverage-into-worship.md",
+      "title": "Can I bring a beverage into the Worship Center?",
+      "summary": "Yes. Beverages are welcome when they are kept covered with a lid.",
+      "content": "# Can I bring a beverage into the Worship Center?\n\nYes. Beverages are welcome in the Worship Center. Please keep your drink covered with a lid. Lids are available if needed.",
+      "priority": 84,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "worship_beverages",
+        "first_visit"
+      ],
+      "tags": [
+        "Guest Services",
+        "first visit"
+      ],
+      "search_terms": [
+        "Can I bring coffee into the Worship Center?",
+        "Are drinks allowed in worship?",
+        "Do beverages need lids?"
+      ],
+      "ministries": [
+        "guest_services",
+        "first_visit"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.plan_visit"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "sydni_neptune",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.students.one_on_one_discipleship",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/students/faq/does-student-ministry-offer-one-on-one-discipleship.md",
+      "title": "Does Student Ministry offer one-on-one discipleship?",
+      "summary": "Yes. One-on-one discipleship is part of the ministry’s commitment to making disciples who make disciples.",
+      "content": "# Does Student Ministry offer one-on-one discipleship?\n\nYes. Urbancrest Student Ministry is passionate about making disciples who make disciples, and one-on-one discipleship opportunities are available.",
+      "priority": 84,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "student_discipleship"
+      ],
+      "tags": [
+        "Student Ministry",
+        "students",
+        "youth ministry"
+      ],
+      "search_terms": [
+        "Does Student Ministry offer one-on-one discipleship?",
+        "Can my student have a mentor?",
+        "Does youth ministry offer mentoring?"
+      ],
+      "ministries": [
+        "students"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "tucker_howard",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.worship.application",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/worship/faq/who-can-apply-to-the-worship-team.md",
+      "title": "Who can apply to the worship team?",
+      "summary": "Anyone who feels called to use musical gifts in worship leadership is welcome to begin the application process.",
+      "content": "# Who can apply to the worship team?\n\nAnyone who feels called to use musical gifts in worship leadership is welcome to begin the conversation by requesting an application questionnaire from Pastor Larry.",
+      "priority": 84,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "worship_application"
+      ],
+      "tags": [
+        "Worship Ministry",
+        "worship"
+      ],
+      "search_terms": [
+        "Who can apply to worship team?",
+        "Can anyone join the worship band?",
+        "Who can sing on the worship team?"
+      ],
+      "ministries": [
+        "worship"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.get_involved"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "larry_nichols",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.worship.singing_expectations",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/worship/faq/will-i-be-asked-to-sing.md",
+      "title": "Will I be asked to sing during worship?",
+      "summary": "No. Guests may participate at their own comfort level, whether singing or listening.",
+      "content": "# Will I be asked to sing during worship?\n\nNo. You are welcome to participate at your own comfort level. Whether you sing every song or simply listen, Urbancrest is glad you are here.",
+      "priority": 84,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "worship_participation",
+        "first_visit"
+      ],
+      "tags": [
+        "Worship Ministry",
+        "worship"
+      ],
+      "search_terms": [
+        "Will I be asked to sing?",
+        "Do visitors have to sing?",
+        "Can I just listen during worship?"
+      ],
+      "ministries": [
+        "worship"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.plan_visit"
+      ],
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "action_link.directions_apple",
@@ -7998,72 +10402,6 @@
       "confidence": "high"
     },
     {
-      "id": "ministries.students",
-      "record_type": "knowledge",
-      "path": "knowledge/ministries/students.md",
-      "title": "What is Student Ministry?",
-      "summary": "Student Ministry serves middle school and high school students and supports Urbancrest's mission.",
-      "content": "# What is Student Ministry?\n\n## Short Answer\n\nStudent Ministry is Urbancrest's ministry for middle school and high school students.\n\n## Detailed Answer\n\nThe ministry helps people connect, grow, serve, and live on mission in ways appropriate to its audience and purpose. Current schedules, age ranges, locations, and event details should come from verified Urbancrest sources.\n\n## Urbancrest Information\n\nThis article intentionally avoids unverified schedules or contact details.\n\n## Next Step\n\nComplete the Serving or Volunteer Interest Form to ask about getting involved.",
-      "priority": 65,
-      "category": [
-        "ministries"
-      ],
-      "intents": [
-        "ministry_info"
-      ],
-      "tags": [
-        "ministry",
-        "Student Ministry"
-      ],
-      "search_terms": [
-        "Student Ministry",
-        "How do I join Student Ministry?"
-      ],
-      "ministries": [],
-      "audiences": [
-        "visitor",
-        "attendee"
-      ],
-      "resources": [
-        "church_center.serving"
-      ],
-      "status": "published",
-      "confidence": "high"
-    },
-    {
-      "id": "ministries.kids",
-      "record_type": "knowledge",
-      "path": "knowledge/ministries/kids.md",
-      "title": "What is Urbancrest Kids?",
-      "summary": "Urbancrest Kids serves children and families and supports Urbancrest's mission.",
-      "content": "# What is Urbancrest Kids?\n\n## Short Answer\n\nUrbancrest Kids is Urbancrest's ministry for children and families.\n\n## Detailed Answer\n\nThe ministry helps people connect, grow, serve, and live on mission in ways appropriate to its audience and purpose. Current schedules, age ranges, locations, and event details should come from verified Urbancrest sources.\n\n## Urbancrest Information\n\nThis article intentionally avoids unverified schedules or contact details.\n\n## Next Step\n\nComplete the Serving or Volunteer Interest Form to ask about getting involved.",
-      "priority": 65,
-      "category": [
-        "ministries"
-      ],
-      "intents": [
-        "ministry_info"
-      ],
-      "tags": [
-        "ministry",
-        "Urbancrest Kids"
-      ],
-      "search_terms": [
-        "Urbancrest Kids",
-        "How do I join Urbancrest Kids?"
-      ],
-      "ministries": [],
-      "audiences": [
-        "visitor",
-        "attendee"
-      ],
-      "resources": [
-        "church_center.serving"
-      ],
-      "status": "published",
-      "confidence": "high"
-    },
-    {
       "id": "ministries.womens_ministry",
       "record_type": "knowledge",
       "path": "knowledge/ministries/womens-ministry.md",
@@ -8084,39 +10422,6 @@
       "search_terms": [
         "Women's Ministry",
         "How do I join Women's Ministry?"
-      ],
-      "ministries": [],
-      "audiences": [
-        "visitor",
-        "attendee"
-      ],
-      "resources": [
-        "church_center.serving"
-      ],
-      "status": "published",
-      "confidence": "high"
-    },
-    {
-      "id": "ministries.worship",
-      "record_type": "knowledge",
-      "path": "knowledge/ministries/worship.md",
-      "title": "What is Worship Ministry?",
-      "summary": "Worship Ministry serves people interested in worship and music and supports Urbancrest's mission.",
-      "content": "# What is Worship Ministry?\n\n## Short Answer\n\nWorship Ministry is Urbancrest's ministry for people interested in worship and music.\n\n## Detailed Answer\n\nThe ministry helps people connect, grow, serve, and live on mission in ways appropriate to its audience and purpose. Current schedules, age ranges, locations, and event details should come from verified Urbancrest sources.\n\n## Urbancrest Information\n\nThis article intentionally avoids unverified schedules or contact details.\n\n## Next Step\n\nComplete the Serving or Volunteer Interest Form to ask about getting involved.",
-      "priority": 65,
-      "category": [
-        "ministries"
-      ],
-      "intents": [
-        "ministry_info"
-      ],
-      "tags": [
-        "ministry",
-        "Worship Ministry"
-      ],
-      "search_terms": [
-        "Worship Ministry",
-        "How do I join Worship Ministry?"
       ],
       "ministries": [],
       "audiences": [
@@ -11407,7 +13712,7 @@
       "path": "registry/ministries.yaml",
       "title": "Ministries",
       "summary": "Structured registry data from registry/ministries.yaml.",
-      "content": "version: 1.1\nlast_updated: 2026-07-27\nministries: kids: title: Urbancrest Kids\ndescription: Ministry for children and families.\nstudents: title: Student Ministry\ndescription: Ministry for middle school and high school students.\nsmall_groups: title: Small Groups\ndescription: Groups that help people grow in faith and community.\nresource: church_center.small_groups\nmen: title: Men's Ministry\ndescription: Ministry for men.\nwomen: title: Women's Ministry\ndescription: Ministry for women.\nmissions: title: Missions\ndescription: Local, national, and international mission engagement.\nleadership_status: transitional\nopen_role: Global Missions Pastor\nrecommended_contact_staff_key: jennifer_prows\nworship: title: Worship Ministry\ndescription: Ministry that helps lead the church in worship.\nproduction: title: Production Ministry\ndescription: Audio\nvideo: \nlighting: \nlivestream: \nand service technology.: \nlegacy_builders: title: Legacy Builders\ndescription: Ministry for adults age 50 and older.\ncare: title: Care and Prayer\ndescription: Prayer\nencouragement: \npastoral care: \nand practical support.: \nglobal_missions: title: Global Missions\ndescription: International mission engagement, mission trips, and global missions coordination.\nleadership_status: vacant\nopen_role: Global Missions Pastor\nrecommended_contact_staff_key: jennifer_prows\nmissions_administration: title: Missions Administration\ndescription: Administrative support and coordination for Urbancrest missions.\nleadership_status: staffed\nprimary_staff_key: jennifer_prows\nlocal_missions: title: Local Missions\ndescription: Community outreach and local mission engagement.\nleadership_status: staffed\nprimary_staff_key: darrel_schick",
+      "content": "version: 1.2\nlast_updated: 2026-07-30\nministries: kids: title: Urbancrest Kids\ndescription: Family-partnered discipleship ministry for children that emphasizes relationships, biblical truth, worship, service, safety, and faith lived out.\naliases: Kids Ministry\nChildren's Ministry\nchildren\nprimary_staff_key: sarah_coleman\nrelated_staff_keys: mikhael_mastalerz\nstudents: title: Student Ministry\ndescription: Ministry for students in grades 7 through 12 that partners with parents to make mature disciples of Jesus.\naliases: Youth Ministry\nmiddle school\nhigh school\nteenagers\nprimary_staff_key: tucker_howard\nsmall_groups: title: Small Groups\ndescription: Groups that help people grow in faith and community.\nresource: church_center.small_groups\nmen: title: Men's Ministry\ndescription: Ministry for men.\nwomen: title: Women's Ministry\ndescription: Ministry for women.\nmissions: title: Missions\ndescription: Local, national, and international mission engagement.\nleadership_status: transitional\nopen_role: Global Missions Pastor\nrecommended_contact_staff_key: jennifer_prows\nworship: title: Worship Ministry\ndescription: Christ-centered, Scripture-shaped ministry that leads the congregation in worship through music, prayer, Scripture, and participation.\naliases: worship team\nmusic ministry\nworship band\nvocal team\nprimary_staff_key: larry_nichols\nproduction: title: Production Ministry\ndescription: Audio\nvideo: \nlighting: \nlivestream: \nand service technology.: \nlegacy_builders: title: Legacy Builders\ndescription: Ministry for adults age 50 and older.\ncare: title: Care and Prayer\ndescription: Prayer\nencouragement: \npastoral care: \nand practical support.: \nglobal_missions: title: Global Missions\ndescription: International mission engagement, mission trips, and global missions coordination.\nleadership_status: vacant\nopen_role: Global Missions Pastor\nrecommended_contact_staff_key: jennifer_prows\nmissions_administration: title: Missions Administration\ndescription: Administrative support and coordination for Urbancrest missions.\nleadership_status: staffed\nprimary_staff_key: jennifer_prows\nlocal_missions: title: Local Missions\ndescription: Community outreach and local mission engagement.\nleadership_status: staffed\nprimary_staff_key: darrel_schick\npreschool: title: Preschool Ministry\ndescription: Ministry for preschool-aged children within Urbancrest Kids.\naliases: preschool\npre-K\nthr...",
       "priority": 60,
       "category": [
         "registry"
