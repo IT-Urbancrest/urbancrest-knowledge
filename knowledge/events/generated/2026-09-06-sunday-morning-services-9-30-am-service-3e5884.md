@@ -1,5 +1,5 @@
 ---
-id: events.live.event-c50b2568e3a71a63
+id: events.live.event-d27ce5ef423e5884
 version: 1.4.3
 status: published
 priority: 50
@@ -30,18 +30,18 @@ search_terms:
   - "How do I register for Sunday Morning Services: 9:30 AM Service?"
 resources:
   - events.live
-event_id: event-c50b2568e3a71a63
-event_start: "2026-08-02T09:30:00-04:00"
-event_end: "2026-08-02T10:40:00-04:00"
-sort_start_utc: "2026-08-02T13:30:00Z"
-sort_end_utc: "2026-08-02T14:40:00Z"
-chronological_rank: 5
+event_id: event-d27ce5ef423e5884
+event_start: "2026-09-06T09:30:00-04:00"
+event_end: "2026-09-06T10:40:00-04:00"
+sort_start_utc: "2026-09-06T13:30:00Z"
+sort_end_utc: "2026-09-06T14:40:00Z"
+chronological_rank: 39
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
-info_url: "https://urbancrest.churchcenter.com/calendar/event/162432371"
+info_url: "https://urbancrest.churchcenter.com/calendar/event/166271992"
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-planning_center_event_instance_id: "162432371"
+planning_center_event_instance_id: "166271992"
 planning_center_event_time_id: "9127131"
 last_generated: 2026-07-30T03:30:14.934929Z
 ---
@@ -50,12 +50,12 @@ last_generated: 2026-07-30T03:30:14.934929Z
 
 Join us in person or online!...
 
-**When:** Sunday, August 2, 2026, 9:30 AM to 10:40 AM
+**When:** Sunday, September 6, 2026, 9:30 AM to 10:40 AM
 
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
 Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
 
-**More information:** https://urbancrest.churchcenter.com/calendar/event/162432371
+**More information:** https://urbancrest.churchcenter.com/calendar/event/166271992
 
 This information is synchronized automatically from Urbancrest's live calendar.

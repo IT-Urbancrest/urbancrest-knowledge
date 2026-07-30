@@ -35,7 +35,7 @@ event_start: "2026-08-02T16:00:00-04:00"
 event_end: "2026-08-02T18:00:00-04:00"
 sort_start_utc: "2026-08-02T20:00:00Z"
 sort_end_utc: "2026-08-02T22:00:00Z"
-chronological_rank: 8
+chronological_rank: 7
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
@@ -44,7 +44,7 @@ image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=res
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "228356604"
 planning_center_event_time_id: "31579190"
-last_generated: 2026-07-29T22:13:58.758367Z
+last_generated: 2026-07-30T03:30:14.934929Z
 ---
 
 # Leah Busick Open House Reception

@@ -16,26 +16,13 @@ tags: [events, calendar, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-07-29T22:13:58.758367Z
+last_generated: 2026-07-30T03:30:14.934929Z
 ---
 
 # Upcoming Events
 
 This index excludes routine Small Group meetings, which are stored separately.
 Events are listed in ascending chronological order.
-
-## Block Party – Warren Metropolitan Housing Authority
-
-**Category:** Ministry Event
-
-**When:** Wednesday, July 29, 2026, 6 PM to 7:30 PM
-
-**Where:** Warren Metropolitan Housing Authority - 990 E Ridge Dr
-Lebanon, OH 45036
-
-**Registration:** https://urbancrest.churchcenter.com/registrations/events/3606292
-
-Detailed event file: `knowledge/events/generated/2026-07-29-block-party-warren-metropolitan-housing-authority-42b1db.md`
 
 ## OPEN GYM Pickleball
 
@@ -488,6 +475,18 @@ Detailed event file: `knowledge/events/generated/2026-09-05-men-s-breakfast-336f
 **More information:** https://urbancrest.churchcenter.com/calendar/event/166271990
 
 Detailed event file: `knowledge/events/generated/2026-09-06-p-u-r-s-u-e-7f42b9.md`
+
+## Sunday Morning Services: 9:30 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, September 6, 2026, 9:30 AM to 10:40 AM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+**More information:** https://urbancrest.churchcenter.com/calendar/event/166271992
+
+Detailed event file: `knowledge/events/generated/2026-09-06-sunday-morning-services-9-30-am-service-3e5884.md`
 
 ## Wednesday Night Dinner
 
