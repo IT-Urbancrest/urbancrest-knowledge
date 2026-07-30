@@ -63,6 +63,43 @@ def truncate(value: str, limit: int = 2400) -> str:
     return value if len(value) <= limit else value[: limit - 3].rstrip() + "..."
 
 
+def event_activity_aliases(title: str) -> list[str]:
+    """Create public-facing activity aliases from a calendar event title."""
+    cleaned = re.sub(r"\s+", " ", str(title or "")).strip()
+    if not cleaned:
+        return []
+
+    aliases = [cleaned]
+    simplified = cleaned
+
+    # Remove common calendar prefixes that people usually omit in questions.
+    prefix_patterns = [
+        r"^open\s+gym\s*[-:|]?\s*",
+        r"^urbancrest\s*[-:|]?\s*",
+        r"^weekly\s*[-:|]?\s*",
+    ]
+    for pattern in prefix_patterns:
+        candidate = re.sub(pattern, "", simplified, flags=re.IGNORECASE).strip()
+        if candidate and candidate.casefold() != simplified.casefold():
+            aliases.append(candidate)
+            simplified = candidate
+
+    # Add a spaced variant for common compound activity names.
+    for alias in list(aliases):
+        match = re.search(r"\bpickleball\b", alias, flags=re.IGNORECASE)
+        if match:
+            replacement = "Pickle ball" if match.group(0)[:1].isupper() else "pickle ball"
+            spaced = (
+                alias[: match.start()]
+                + replacement
+                + alias[match.end() :]
+            )
+            if spaced.casefold() != alias.casefold():
+                aliases.append(spaced)
+
+    return unique(aliases)
+
+
 def parse_markdown(path: Path) -> tuple[dict[str, Any], str]:
     text = path.read_text(encoding="utf-8")
     if not text.startswith("---\n"):
@@ -241,6 +278,7 @@ def event_records() -> list[dict[str, Any]]:
             )
             if value
         )
+        activity_aliases = event_activity_aliases(title)
         normalized_title = title.casefold()
         routine_service_occurrence = (
             "sunday morning services" in normalized_title
@@ -260,19 +298,49 @@ def event_records() -> list[dict[str, Any]]:
                 content=content,
                 priority=event_priority,
                 category=["events", str(event.get("event_category") or "general_event")],
-                intents=["event_details", "upcoming_events", "calendar", "next_ministry_event"],
-                tags=["event", "calendar", "upcoming", str(event.get("event_category") or "general_event")],
-                search_terms=[
-                    title,
-                    f"When is {title}?",
-                    f"Tell me about {title}",
-                    f"What are the details for {title}?",
-                    f"What is the menu for {title}?",
-                    f"How do I register for {title}?",
+                intents=[
+                    "event_details",
+                    "upcoming_events",
+                    "calendar",
+                    "next_ministry_event",
+                    "activity_availability",
                 ],
+                tags=[
+                    "event",
+                    "calendar",
+                    "upcoming",
+                    "activity",
+                    str(event.get("event_category") or "general_event"),
+                    *activity_aliases,
+                ],
+                search_terms=unique(
+                    [
+                        title,
+                        f"When is {title}?",
+                        f"Tell me about {title}",
+                        f"What are the details for {title}?",
+                        f"What is the menu for {title}?",
+                        f"How do I register for {title}?",
+                    ]
+                    + [
+                        phrase
+                        for alias in activity_aliases
+                        for phrase in (
+                            alias,
+                            f"Does Urbancrest have {alias}?",
+                            f"Does Urbancrest offer {alias}?",
+                            f"Do you have {alias}?",
+                            f"Do you offer {alias}?",
+                            f"Is there {alias} at Urbancrest?",
+                            f"Can I participate in {alias}?",
+                            f"Can I play {alias} at Urbancrest?",
+                        )
+                    ]
+                ),
                 ministries=as_list(event.get("ministries")),
                 audiences=as_list(event.get("audiences")),
                 event_id=event_id,
+                activity_aliases=activity_aliases,
                 event_category=event.get("event_category"),
                 event_start=event.get("start"),
                 event_end=event.get("end"),
