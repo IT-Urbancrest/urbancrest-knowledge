@@ -45,7 +45,7 @@ location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "227262430"
 planning_center_event_time_id: "31393258"
-last_generated: 2026-07-31T14:36:26.951065Z
+last_generated: 2026-07-31T16:57:41.633416Z
 ---
 
 # Youth Back to School Bash

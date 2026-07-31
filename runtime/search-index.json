@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.7.0",
-  "generated_at": "2026-07-31T14:36:27.947907Z",
+  "generated_at": "2026-07-31T16:57:42.715099Z",
   "timezone": "America/New_York",
   "record_count": 329,
   "config": {
@@ -643,7 +643,74 @@
       "planning_center_event_time_id": "27323186",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/203958381",
       "knowledge_file": "knowledge/events/generated/2026-10-17-women-s-conference-bf84ac.md",
-      "chronological_rank": 55,
+      "chronological_rank": 54,
+      "routine_schedule_occurrence": false
+    },
+    {
+      "id": "events.live.event-1c0771e7f499f87a",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-11-13-youth-fall-retreat-99f87a.md",
+      "title": "Youth Fall Retreat",
+      "summary": "November 13-15, 2026 is a weekend you will not forget!",
+      "content": "November 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area of our lives!",
+      "priority": 100,
+      "category": [
+        "events",
+        "major_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "major_event",
+        "Youth Fall Retreat"
+      ],
+      "search_terms": [
+        "Youth Fall Retreat",
+        "When is Youth Fall Retreat?",
+        "Tell me about Youth Fall Retreat",
+        "What are the details for Youth Fall Retreat?",
+        "What is the menu for Youth Fall Retreat?",
+        "How do I register for Youth Fall Retreat?",
+        "Does Urbancrest have Youth Fall Retreat?",
+        "Does Urbancrest offer Youth Fall Retreat?",
+        "Do you have Youth Fall Retreat?",
+        "Do you offer Youth Fall Retreat?",
+        "Is there Youth Fall Retreat at Urbancrest?",
+        "Can I participate in Youth Fall Retreat?",
+        "Can I play Youth Fall Retreat at Urbancrest?"
+      ],
+      "ministries": [
+        "students"
+      ],
+      "audiences": [
+        "students"
+      ],
+      "resources": [],
+      "event_id": "event-1c0771e7f499f87a",
+      "activity_aliases": [
+        "Youth Fall Retreat"
+      ],
+      "event_category": "major_event",
+      "event_start": "2026-11-13",
+      "event_end": "2026-11-16",
+      "sort_start_utc": "2026-11-13T05:00:00Z",
+      "sort_end_utc": "2026-11-16T05:00:00Z",
+      "location": "Butler Springs Christian Camp - 3701 State Rte 41\nHillsboro, OH 45133",
+      "planning_center_event_instance_id": "230487173",
+      "planning_center_event_time_id": "31924846",
+      "info_url": "https://urbancrest.churchcenter.com/calendar/event/230487173",
+      "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3790005/medium_image-1785514673084.jpeg",
+      "knowledge_file": "knowledge/events/generated/2026-11-13-youth-fall-retreat-99f87a.md",
+      "chronological_rank": 64,
       "routine_schedule_occurrence": false
     },
     {
@@ -6492,7 +6559,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/168792298",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=f7e8fa22115f444ecd7d33ef5a01cab77a10db6f0bb6216bf65ef201e996f77b",
       "knowledge_file": "knowledge/events/generated/2026-10-03-men-s-breakfast-dec2d7.md",
-      "chronological_rank": 49,
+      "chronological_rank": 48,
       "routine_schedule_occurrence": false
     },
     {
@@ -6559,7 +6626,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/171450066",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=f7e8fa22115f444ecd7d33ef5a01cab77a10db6f0bb6216bf65ef201e996f77b",
       "knowledge_file": "knowledge/events/generated/2026-11-07-men-s-breakfast-b349ea.md",
-      "chronological_rank": 62,
+      "chronological_rank": 61,
       "routine_schedule_occurrence": false
     },
     {
@@ -7164,7 +7231,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/228745978",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3755569/medium_image-1784126802561.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-10-04-night-of-worship-choir-2a753e.md",
-      "chronological_rank": 51,
+      "chronological_rank": 50,
       "routine_schedule_occurrence": false
     },
     {
@@ -7626,7 +7693,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/167074214",
       "knowledge_file": "knowledge/events/generated/2026-09-13-p-u-r-s-u-e-300fb0.md",
-      "chronological_rank": 42,
+      "chronological_rank": 41,
       "routine_schedule_occurrence": false
     },
     {
@@ -7692,7 +7759,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/167708212",
       "knowledge_file": "knowledge/events/generated/2026-09-20-p-u-r-s-u-e-f8f18d.md",
-      "chronological_rank": 44,
+      "chronological_rank": 43,
       "routine_schedule_occurrence": false
     },
     {
@@ -7758,7 +7825,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/168372882",
       "knowledge_file": "knowledge/events/generated/2026-09-27-p-u-r-s-u-e-724217.md",
-      "chronological_rank": 46,
+      "chronological_rank": 45,
       "routine_schedule_occurrence": false
     },
     {
@@ -7824,7 +7891,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/168914339",
       "knowledge_file": "knowledge/events/generated/2026-10-04-p-u-r-s-u-e-e5c34f.md",
-      "chronological_rank": 50,
+      "chronological_rank": 49,
       "routine_schedule_occurrence": false
     },
     {
@@ -7890,7 +7957,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/169483179",
       "knowledge_file": "knowledge/events/generated/2026-10-11-p-u-r-s-u-e-8f8f87.md",
-      "chronological_rank": 53,
+      "chronological_rank": 52,
       "routine_schedule_occurrence": false
     },
     {
@@ -7956,7 +8023,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/169990121",
       "knowledge_file": "knowledge/events/generated/2026-10-18-p-u-r-s-u-e-2350e7.md",
-      "chronological_rank": 56,
+      "chronological_rank": 55,
       "routine_schedule_occurrence": false
     },
     {
@@ -8022,7 +8089,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/170494272",
       "knowledge_file": "knowledge/events/generated/2026-10-25-p-u-r-s-u-e-3a39cd.md",
-      "chronological_rank": 58,
+      "chronological_rank": 57,
       "routine_schedule_occurrence": false
     },
     {
@@ -8088,7 +8155,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/171026771",
       "knowledge_file": "knowledge/events/generated/2026-11-01-p-u-r-s-u-e-96a55e.md",
-      "chronological_rank": 60,
+      "chronological_rank": 59,
       "routine_schedule_occurrence": false
     },
     {
@@ -8154,7 +8221,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/171522665",
       "knowledge_file": "knowledge/events/generated/2026-11-08-p-u-r-s-u-e-4c1a4d.md",
-      "chronological_rank": 63,
+      "chronological_rank": 62,
       "routine_schedule_occurrence": false
     },
     {
@@ -10803,7 +10870,7 @@
       "planning_center_event_time_id": "27323022",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/203958056",
       "knowledge_file": "knowledge/events/generated/2026-09-27-women-s-fall-fest-8698aa.md",
-      "chronological_rank": 47,
+      "chronological_rank": 46,
       "routine_schedule_occurrence": false
     },
     {
@@ -11872,7 +11939,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/227855430",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-09-09-awana-2026-2027-ca71ea.md",
-      "chronological_rank": 41,
+      "chronological_rank": 40,
       "routine_schedule_occurrence": false
     },
     {
@@ -12079,7 +12146,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122707",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2",
       "knowledge_file": "knowledge/events/generated/2026-09-09-wednesday-night-dinner-f2ed46.md",
-      "chronological_rank": 40,
+      "chronological_rank": 39,
       "routine_schedule_occurrence": false
     },
     {
@@ -12148,7 +12215,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122708",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2",
       "knowledge_file": "knowledge/events/generated/2026-09-16-wednesday-night-dinner-89e119.md",
-      "chronological_rank": 43,
+      "chronological_rank": 42,
       "routine_schedule_occurrence": false
     },
     {
@@ -12217,7 +12284,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122709",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2",
       "knowledge_file": "knowledge/events/generated/2026-09-23-wednesday-night-dinner-c7bf0d.md",
-      "chronological_rank": 45,
+      "chronological_rank": 44,
       "routine_schedule_occurrence": false
     },
     {
@@ -12286,7 +12353,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122710",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2",
       "knowledge_file": "knowledge/events/generated/2026-09-30-wednesday-night-dinner-36f49b.md",
-      "chronological_rank": 48,
+      "chronological_rank": 47,
       "routine_schedule_occurrence": false
     },
     {
@@ -12355,7 +12422,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122711",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2",
       "knowledge_file": "knowledge/events/generated/2026-10-07-wednesday-night-dinner-9fc5ad.md",
-      "chronological_rank": 52,
+      "chronological_rank": 51,
       "routine_schedule_occurrence": false
     },
     {
@@ -12424,7 +12491,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122712",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2",
       "knowledge_file": "knowledge/events/generated/2026-10-14-wednesday-night-dinner-d9103e.md",
-      "chronological_rank": 54,
+      "chronological_rank": 53,
       "routine_schedule_occurrence": false
     },
     {
@@ -12493,7 +12560,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122713",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2",
       "knowledge_file": "knowledge/events/generated/2026-10-21-wednesday-night-dinner-0edf1f.md",
-      "chronological_rank": 57,
+      "chronological_rank": 56,
       "routine_schedule_occurrence": false
     },
     {
@@ -12562,7 +12629,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122714",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2",
       "knowledge_file": "knowledge/events/generated/2026-10-28-wednesday-night-dinner-acac27.md",
-      "chronological_rank": 59,
+      "chronological_rank": 58,
       "routine_schedule_occurrence": false
     },
     {
@@ -12631,7 +12698,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122715",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2",
       "knowledge_file": "knowledge/events/generated/2026-11-04-wednesday-night-dinner-55fdc7.md",
-      "chronological_rank": 61,
+      "chronological_rank": 60,
       "routine_schedule_occurrence": false
     },
     {
@@ -12700,7 +12767,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122716",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2",
       "knowledge_file": "knowledge/events/generated/2026-11-11-wednesday-night-dinner-af1c1c.md",
-      "chronological_rank": 64,
+      "chronological_rank": 63,
       "routine_schedule_occurrence": false
     },
     {
@@ -16531,77 +16598,6 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/165474591",
       "knowledge_file": "knowledge/events/generated/2026-08-30-sunday-morning-services-11-00-am-service-80f4a3.md",
       "chronological_rank": 31,
-      "routine_schedule_occurrence": true,
-      "retrieval_exclude_for_intents": [
-        "service_times",
-        "sunday_service_times",
-        "weekly_schedule"
-      ]
-    },
-    {
-      "id": "events.live.event-d51c8e6d158a985a",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-09-06-sunday-morning-services-11-00-am-service-8a985a.md",
-      "title": "Sunday Morning Services: 11:00 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 20,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "general_event",
-        "Sunday Morning Services: 11:00 AM Service"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 11:00 AM Service",
-        "When is Sunday Morning Services: 11:00 AM Service?",
-        "Tell me about Sunday Morning Services: 11:00 AM Service",
-        "What are the details for Sunday Morning Services: 11:00 AM Service?",
-        "What is the menu for Sunday Morning Services: 11:00 AM Service?",
-        "How do I register for Sunday Morning Services: 11:00 AM Service?",
-        "Does Urbancrest have Sunday Morning Services: 11:00 AM Service?",
-        "Does Urbancrest offer Sunday Morning Services: 11:00 AM Service?",
-        "Do you have Sunday Morning Services: 11:00 AM Service?",
-        "Do you offer Sunday Morning Services: 11:00 AM Service?",
-        "Is there Sunday Morning Services: 11:00 AM Service at Urbancrest?",
-        "Can I participate in Sunday Morning Services: 11:00 AM Service?",
-        "Can I play Sunday Morning Services: 11:00 AM Service at Urbancrest?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-d51c8e6d158a985a",
-      "activity_aliases": [
-        "Sunday Morning Services: 11:00 AM Service"
-      ],
-      "event_category": "general_event",
-      "event_start": "2026-09-06T11:00:00-04:00",
-      "event_end": "2026-09-06T12:10:00-04:00",
-      "sort_start_utc": "2026-09-06T15:00:00Z",
-      "sort_end_utc": "2026-09-06T16:10:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "planning_center_event_instance_id": "166271992",
-      "planning_center_event_time_id": "9127132",
-      "info_url": "https://urbancrest.churchcenter.com/calendar/event/166271992",
-      "knowledge_file": "knowledge/events/generated/2026-09-06-sunday-morning-services-11-00-am-service-8a985a.md",
-      "chronological_rank": 39,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",

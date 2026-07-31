@@ -29,7 +29,7 @@ info_url: "https://urbancrest.churchcenter.com/calendar/event/163114804"
 image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fsfkgtiufdgafjg73tuqant7jmhz3&thumb=960x540%23&signature=98a657644d13f6ff0d4d80c680cbcb465a81d9c335baddbca38fbcaa3a362d6a"
 planning_center_event_instance_id: "163114804"
 planning_center_event_time_id: "25282532"
-last_generated: 2026-07-31T14:36:26.951065Z
+last_generated: 2026-07-31T16:57:41.633416Z
 ---
 
 # P U R S U E

@@ -16,7 +16,7 @@ tags: [events, calendar, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-07-31T14:36:26.951065Z
+last_generated: 2026-07-31T16:57:41.633416Z
 ---
 
 # Upcoming Events
@@ -476,18 +476,6 @@ Detailed event file: `knowledge/events/generated/2026-09-06-p-u-r-s-u-e-7f42b9.m
 
 Detailed event file: `knowledge/events/generated/2026-09-06-sunday-morning-services-9-30-am-service-3e5884.md`
 
-## Sunday Morning Services: 11:00 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, September 6, 2026, 11 AM to 12:10 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/166271992
-
-Detailed event file: `knowledge/events/generated/2026-09-06-sunday-morning-services-11-00-am-service-8a985a.md`
-
 ## Wednesday Night Dinner
 
 **Category:** Churchwide Program
@@ -787,6 +775,19 @@ Detailed event file: `knowledge/events/generated/2026-11-08-p-u-r-s-u-e-4c1a4d.m
 **More information:** https://urbancrest.churchcenter.com/calendar/event/230122716
 
 Detailed event file: `knowledge/events/generated/2026-11-11-wednesday-night-dinner-af1c1c.md`
+
+## Youth Fall Retreat
+
+**Category:** Major Event
+
+**When:** Friday, November 13, 2026 through Sunday, November 15, 2026
+
+**Where:** Butler Springs Christian Camp - 3701 State Rte 41
+Hillsboro, OH 45133
+
+**More information:** https://urbancrest.churchcenter.com/calendar/event/230487173
+
+Detailed event file: `knowledge/events/generated/2026-11-13-youth-fall-retreat-99f87a.md`
 
 ## P U R S U E
 
