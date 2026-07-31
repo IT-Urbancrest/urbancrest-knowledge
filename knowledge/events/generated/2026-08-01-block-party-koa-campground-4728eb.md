@@ -35,7 +35,7 @@ event_start: "2026-08-01T10:00:00-04:00"
 event_end: "2026-08-01T11:30:00-04:00"
 sort_start_utc: "2026-08-01T14:00:00Z"
 sort_end_utc: "2026-08-01T15:30:00Z"
-chronological_rank: 3
+chronological_rank: 2
 next_for_ministries: ["kids"]
 next_for_audiences: ["children", "families", "volunteers"]
 all_day: false
@@ -46,7 +46,7 @@ location: "KOA Campground - 760 Franklin Rd\nLebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "221178522"
 planning_center_event_time_id: "30334750"
-last_generated: 2026-07-30T22:19:40.643664Z
+last_generated: 2026-07-31T03:51:26.111880Z
 ---
 
 # Block Party – KOA Campground
