@@ -44,7 +44,7 @@ image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=res
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "228356604"
 planning_center_event_time_id: "31579190"
-last_generated: 2026-07-31T22:16:07.952679Z
+last_generated: 2026-08-01T03:51:24.577887Z
 ---
 
 # Leah Busick Open House Reception
