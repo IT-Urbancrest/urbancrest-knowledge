@@ -35,16 +35,16 @@ event_start: "2026-08-02T16:00:00-04:00"
 event_end: "2026-08-02T18:00:00-04:00"
 sort_start_utc: "2026-08-02T20:00:00Z"
 sort_end_utc: "2026-08-02T22:00:00Z"
-chronological_rank: 6
-next_for_ministries: []
-next_for_audiences: []
+chronological_rank: 4
+next_for_ministries: ["kids"]
+next_for_audiences: ["children", "families", "volunteers"]
 all_day: false
 info_url: "https://urbancrest.churchcenter.com/calendar/event/228356604"
 image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fqlupk1p7fxcw9np98am5l891a4qz&thumb=960x540%23&signature=368788e01d79118224a5a1d936ec9ecb9ad6021249c04eea6438f9e0ee62edf8"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "228356604"
 planning_center_event_time_id: "31579190"
-last_generated: 2026-08-01T13:56:15.018164Z
+last_generated: 2026-08-01T16:13:36.117368Z
 ---
 
 # Leah Busick Open House Reception

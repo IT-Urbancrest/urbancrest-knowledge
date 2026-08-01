@@ -16,38 +16,13 @@ tags: [events, calendar, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-08-01T13:56:15.018164Z
+last_generated: 2026-08-01T16:13:36.117368Z
 ---
 
 # Upcoming Events
 
 This index excludes routine Small Group meetings, which are stored separately.
 Events are listed in ascending chronological order.
-
-## Men's Breakfast
-
-**Category:** Ministry Event
-
-**When:** Saturday, August 1, 2026, 8 AM to 10 AM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/162302401
-
-Detailed event file: `knowledge/events/generated/2026-08-01-men-s-breakfast-9815ba.md`
-
-## Block Party – KOA Campground
-
-**Category:** Ministry Event
-
-**When:** Saturday, August 1, 2026, 10 AM to 11:30 AM
-
-**Where:** KOA Campground - 760 Franklin Rd
-Lebanon, OH 45036
-
-**Registration:** https://urbancrest.churchcenter.com/registrations/events/3606310
-
-Detailed event file: `knowledge/events/generated/2026-08-01-block-party-koa-campground-4728eb.md`
 
 ## P U R S U E
 
@@ -463,6 +438,30 @@ Detailed event file: `knowledge/events/generated/2026-09-05-men-s-breakfast-336f
 **More information:** https://urbancrest.churchcenter.com/calendar/event/166271990
 
 Detailed event file: `knowledge/events/generated/2026-09-06-p-u-r-s-u-e-7f42b9.md`
+
+## Sunday Morning Services: 9:30 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, September 6, 2026, 9:30 AM to 10:40 AM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+**More information:** https://urbancrest.churchcenter.com/calendar/event/166271992
+
+Detailed event file: `knowledge/events/generated/2026-09-06-sunday-morning-services-9-30-am-service-3e5884.md`
+
+## Sunday Morning Services: 11:00 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, September 6, 2026, 11 AM to 12:10 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+**More information:** https://urbancrest.churchcenter.com/calendar/event/166271992
+
+Detailed event file: `knowledge/events/generated/2026-09-06-sunday-morning-services-11-00-am-service-8a985a.md`
 
 ## Wednesday Night Dinner
 

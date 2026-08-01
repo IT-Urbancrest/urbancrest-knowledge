@@ -35,7 +35,7 @@ event_start: "2026-08-02T09:30:00-04:00"
 event_end: "2026-08-02T10:30:00-04:00"
 sort_start_utc: "2026-08-02T13:30:00Z"
 sort_end_utc: "2026-08-02T14:30:00Z"
-chronological_rank: 3
+chronological_rank: 1
 next_for_ministries: ["students"]
 next_for_audiences: ["students"]
 all_day: false
@@ -43,7 +43,7 @@ info_url: "https://urbancrest.churchcenter.com/calendar/event/162432370"
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "162432370"
 planning_center_event_time_id: "8762150"
-last_generated: 2026-08-01T13:56:15.018164Z
+last_generated: 2026-08-01T16:13:36.117368Z
 ---
 
 # P U R S U E
