@@ -1,5 +1,5 @@
 version: 1.4.3
-generated_at: '2026-08-01T03:51:24.577887Z'
+generated_at: '2026-08-01T08:34:25.954499Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api
 api_enrichment:
@@ -34,7 +34,7 @@ events:
   planning_center_event_instance_id: '162302401'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/162302401
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=f7e8fa22115f444ecd7d33ef5a01cab77a10db6f0bb6216bf65ef201e996f77b
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
   audiences:
@@ -209,7 +209,7 @@ events:
   planning_center_event_instance_id: '228356604'
   planning_center_event_time_id: '31579190'
   info_url: https://urbancrest.churchcenter.com/calendar/event/228356604
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fqlupk1p7fxcw9np98am5l891a4qz&thumb=960x540%23&signature=3daf853ea8fbfa492542b83135518de27eba6d86317fdee0f36177c114f6b1d9
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fqlupk1p7fxcw9np98am5l891a4qz&thumb=960x540%23&signature=368788e01d79118224a5a1d936ec9ecb9ad6021249c04eea6438f9e0ee62edf8
   ministries:
   - kids
   audiences:
@@ -954,7 +954,7 @@ events:
   planning_center_event_instance_id: '230122705'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122705
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -1258,7 +1258,7 @@ events:
   planning_center_event_instance_id: '230122706'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122706
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -1385,7 +1385,7 @@ events:
   planning_center_event_instance_id: '166086980'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/166086980
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=f7e8fa22115f444ecd7d33ef5a01cab77a10db6f0bb6216bf65ef201e996f77b
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
   audiences:
@@ -1537,7 +1537,7 @@ events:
   planning_center_event_instance_id: '230122707'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122707
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -1734,7 +1734,7 @@ events:
   planning_center_event_instance_id: '230122708'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122708
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -1859,7 +1859,7 @@ events:
   planning_center_event_instance_id: '230122709'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122709
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -2015,7 +2015,7 @@ events:
   planning_center_event_instance_id: '230122710'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122710
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -2043,7 +2043,7 @@ events:
   planning_center_event_instance_id: '168792298'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/168792298
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=f7e8fa22115f444ecd7d33ef5a01cab77a10db6f0bb6216bf65ef201e996f77b
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
   audiences:
@@ -2205,7 +2205,7 @@ events:
   planning_center_event_instance_id: '230122711'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122711
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -2330,7 +2330,7 @@ events:
   planning_center_event_instance_id: '230122712'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122712
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -2485,7 +2485,7 @@ events:
   planning_center_event_instance_id: '230122713'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122713
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -2610,7 +2610,7 @@ events:
   planning_center_event_instance_id: '230122714'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122714
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -2735,7 +2735,7 @@ events:
   planning_center_event_instance_id: '230122715'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122715
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -2763,7 +2763,7 @@ events:
   planning_center_event_instance_id: '171450066'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/171450066
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=f7e8fa22115f444ecd7d33ef5a01cab77a10db6f0bb6216bf65ef201e996f77b
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
   audiences:
@@ -2888,7 +2888,7 @@ events:
   planning_center_event_instance_id: '230122716'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122716
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -3043,7 +3043,7 @@ events:
   planning_center_event_instance_id: '230122717'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122717
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -3168,7 +3168,7 @@ events:
   planning_center_event_instance_id: '230122718'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122718
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -3293,7 +3293,7 @@ events:
   planning_center_event_instance_id: '230122719'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122719
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -3321,7 +3321,7 @@ events:
   planning_center_event_instance_id: '173559224'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/173559224
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=f7e8fa22115f444ecd7d33ef5a01cab77a10db6f0bb6216bf65ef201e996f77b
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
   audiences:
@@ -3475,7 +3475,7 @@ events:
   planning_center_event_instance_id: '230122720'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122720
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -3600,7 +3600,7 @@ events:
   planning_center_event_instance_id: '230122721'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122721
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -3725,7 +3725,7 @@ events:
   planning_center_event_instance_id: '230122722'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122722
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -3850,7 +3850,7 @@ events:
   planning_center_event_instance_id: '230122723'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122723
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -3878,7 +3878,7 @@ events:
   planning_center_event_instance_id: '175505238'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/175505238
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=f7e8fa22115f444ecd7d33ef5a01cab77a10db6f0bb6216bf65ef201e996f77b
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
   audiences:
@@ -4003,7 +4003,7 @@ events:
   planning_center_event_instance_id: '230122724'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122724
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -4128,7 +4128,7 @@ events:
   planning_center_event_instance_id: '230122725'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122725
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -4253,7 +4253,7 @@ events:
   planning_center_event_instance_id: '230122726'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122726
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -4378,7 +4378,7 @@ events:
   planning_center_event_instance_id: '230122727'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122727
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -4528,7 +4528,7 @@ events:
   planning_center_event_instance_id: '230122728'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122728
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -4556,7 +4556,7 @@ events:
   planning_center_event_instance_id: '179599397'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/179599397
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=f7e8fa22115f444ecd7d33ef5a01cab77a10db6f0bb6216bf65ef201e996f77b
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
   audiences:
@@ -4681,7 +4681,7 @@ events:
   planning_center_event_instance_id: '230122729'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122729
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -4806,7 +4806,7 @@ events:
   planning_center_event_instance_id: '230122730'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122730
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -4931,7 +4931,7 @@ events:
   planning_center_event_instance_id: '230122731'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122731
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -5056,7 +5056,7 @@ events:
   planning_center_event_instance_id: '230122732'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122732
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -5084,7 +5084,7 @@ events:
   planning_center_event_instance_id: '182177829'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/182177829
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=f7e8fa22115f444ecd7d33ef5a01cab77a10db6f0bb6216bf65ef201e996f77b
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
   audiences:
@@ -5209,7 +5209,7 @@ events:
   planning_center_event_instance_id: '230122733'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122733
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -5334,7 +5334,7 @@ events:
   planning_center_event_instance_id: '230122734'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122734
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -5459,7 +5459,7 @@ events:
   planning_center_event_instance_id: '230122735'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122735
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -5584,7 +5584,7 @@ events:
   planning_center_event_instance_id: '230122736'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122736
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -5612,7 +5612,7 @@ events:
   planning_center_event_instance_id: '184574784'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/184574784
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=f7e8fa22115f444ecd7d33ef5a01cab77a10db6f0bb6216bf65ef201e996f77b
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
   audiences:
@@ -5764,7 +5764,7 @@ events:
   planning_center_event_instance_id: '230122737'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122737
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -5889,7 +5889,7 @@ events:
   planning_center_event_instance_id: '230122738'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122738
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -6014,7 +6014,7 @@ events:
   planning_center_event_instance_id: '230122739'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122739
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -6169,7 +6169,7 @@ events:
   planning_center_event_instance_id: '230122740'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122740
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -6197,7 +6197,7 @@ events:
   planning_center_event_instance_id: '186694422'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/186694422
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=f7e8fa22115f444ecd7d33ef5a01cab77a10db6f0bb6216bf65ef201e996f77b
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
   audiences:
@@ -6322,7 +6322,7 @@ events:
   planning_center_event_instance_id: '230122741'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122741
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -6447,7 +6447,7 @@ events:
   planning_center_event_instance_id: '230122742'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122742
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -6572,7 +6572,7 @@ events:
   planning_center_event_instance_id: '230122743'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122743
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -6697,7 +6697,7 @@ events:
   planning_center_event_instance_id: '230122744'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122744
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -6822,7 +6822,7 @@ events:
   planning_center_event_instance_id: '230122745'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122745
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -6850,7 +6850,7 @@ events:
   planning_center_event_instance_id: '189635733'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/189635733
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=f7e8fa22115f444ecd7d33ef5a01cab77a10db6f0bb6216bf65ef201e996f77b
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
   audiences:
@@ -6975,7 +6975,7 @@ events:
   planning_center_event_instance_id: '230122746'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122746
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -7100,7 +7100,7 @@ events:
   planning_center_event_instance_id: '230122747'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122747
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -7225,7 +7225,7 @@ events:
   planning_center_event_instance_id: '230122748'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122748
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -7350,7 +7350,7 @@ events:
   planning_center_event_instance_id: '230122749'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122749
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -7378,7 +7378,7 @@ events:
   planning_center_event_instance_id: '191939841'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/191939841
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=f7e8fa22115f444ecd7d33ef5a01cab77a10db6f0bb6216bf65ef201e996f77b
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
   audiences:
@@ -7503,7 +7503,7 @@ events:
   planning_center_event_instance_id: '230122750'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122750
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -7628,7 +7628,7 @@ events:
   planning_center_event_instance_id: '230122751'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122751
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -7753,7 +7753,7 @@ events:
   planning_center_event_instance_id: '230122752'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122752
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -7878,7 +7878,7 @@ events:
   planning_center_event_instance_id: '230122753'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122753
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:

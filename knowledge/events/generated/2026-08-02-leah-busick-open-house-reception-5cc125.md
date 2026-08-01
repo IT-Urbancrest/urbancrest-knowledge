@@ -40,11 +40,11 @@ next_for_ministries: []
 next_for_audiences: []
 all_day: false
 info_url: "https://urbancrest.churchcenter.com/calendar/event/228356604"
-image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fqlupk1p7fxcw9np98am5l891a4qz&thumb=960x540%23&signature=3daf853ea8fbfa492542b83135518de27eba6d86317fdee0f36177c114f6b1d9"
+image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fqlupk1p7fxcw9np98am5l891a4qz&thumb=960x540%23&signature=368788e01d79118224a5a1d936ec9ecb9ad6021249c04eea6438f9e0ee62edf8"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "228356604"
 planning_center_event_time_id: "31579190"
-last_generated: 2026-08-01T03:51:24.577887Z
+last_generated: 2026-08-01T08:34:25.954499Z
 ---
 
 # Leah Busick Open House Reception
@@ -76,6 +76,6 @@ Whether you served alongside Leah, your family was impacted by her ministry, or 
 
 **More information:** https://urbancrest.churchcenter.com/calendar/event/228356604
 
-**Event image:** https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fqlupk1p7fxcw9np98am5l891a4qz&thumb=960x540%23&signature=3daf853ea8fbfa492542b83135518de27eba6d86317fdee0f36177c114f6b1d9
+**Event image:** https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fqlupk1p7fxcw9np98am5l891a4qz&thumb=960x540%23&signature=368788e01d79118224a5a1d936ec9ecb9ad6021249c04eea6438f9e0ee62edf8
 
 This information is synchronized automatically from Urbancrest's live calendar.
