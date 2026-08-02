@@ -16,49 +16,13 @@ tags: [events, calendar, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-08-02T13:56:09.439745Z
+last_generated: 2026-08-02T16:12:58.459985Z
 ---
 
 # Upcoming Events
 
 This index excludes routine Small Group meetings, which are stored separately.
 Events are listed in ascending chronological order.
-
-## P U R S U E
-
-**Category:** Ministry Event
-
-**When:** Sunday, August 2, 2026, 9:30 AM to 10:30 AM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/162432370
-
-Detailed event file: `knowledge/events/generated/2026-08-02-p-u-r-s-u-e-a2ffdf.md`
-
-## Sunday Morning Services: 9:30 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, August 2, 2026, 9:30 AM to 10:40 AM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/162432371
-
-Detailed event file: `knowledge/events/generated/2026-08-02-sunday-morning-services-9-30-am-service-a71a63.md`
-
-## Sunday Morning Services: 11:00 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, August 2, 2026, 11 AM to 12:10 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/162432371
-
-Detailed event file: `knowledge/events/generated/2026-08-02-sunday-morning-services-11-00-am-service-feeae6.md`
 
 ## Leah Busick Open House Reception
 
@@ -451,6 +415,18 @@ Detailed event file: `knowledge/events/generated/2026-09-06-p-u-r-s-u-e-7f42b9.m
 
 Detailed event file: `knowledge/events/generated/2026-09-06-sunday-morning-services-9-30-am-service-3e5884.md`
 
+## Sunday Morning Services: 11:00 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, September 6, 2026, 11 AM to 12:10 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+**More information:** https://urbancrest.churchcenter.com/calendar/event/166271992
+
+Detailed event file: `knowledge/events/generated/2026-09-06-sunday-morning-services-11-00-am-service-8a985a.md`
+
 ## Wednesday Night Dinner
 
 **Category:** Churchwide Program
@@ -475,6 +451,18 @@ Detailed event file: `knowledge/events/generated/2026-09-09-wednesday-night-dinn
 
 Detailed event file: `knowledge/events/generated/2026-09-09-awana-2026-2027-ca71ea.md`
 
+## OPEN GYM Pickleball
+
+**Category:** General Event
+
+**When:** Thursday, September 10, 2026, 6 PM to 8 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+**More information:** https://urbancrest.churchcenter.com/calendar/event/216277434
+
+Detailed event file: `knowledge/events/generated/2026-09-10-open-gym-pickleball-fe7030.md`
+
 ## P U R S U E
 
 **Category:** Ministry Event
@@ -486,6 +474,18 @@ Detailed event file: `knowledge/events/generated/2026-09-09-awana-2026-2027-ca71
 **More information:** https://urbancrest.churchcenter.com/calendar/event/167074214
 
 Detailed event file: `knowledge/events/generated/2026-09-13-p-u-r-s-u-e-300fb0.md`
+
+## Sunday Morning Services: 9:30 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, September 13, 2026, 9:30 AM to 10:40 AM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+**More information:** https://urbancrest.churchcenter.com/calendar/event/167074215
+
+Detailed event file: `knowledge/events/generated/2026-09-13-sunday-morning-services-9-30-am-service-b32add.md`
 
 ## Wednesday Night Dinner
 
