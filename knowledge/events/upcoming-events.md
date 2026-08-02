@@ -16,23 +16,13 @@ tags: [events, calendar, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-08-02T19:35:21.194143Z
+last_generated: 2026-08-02T22:10:54.184782Z
 ---
 
 # Upcoming Events
 
 This index excludes routine Small Group meetings, which are stored separately.
 Events are listed in ascending chronological order.
-
-## Leah Busick Open House Reception
-
-**Category:** Ministry Event
-
-**When:** Sunday, August 2, 2026, 4 PM to 6 PM
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/228356604
-
-Detailed event file: `knowledge/events/generated/2026-08-02-leah-busick-open-house-reception-5cc125.md`
 
 ## Card Ministry
 
@@ -486,6 +476,18 @@ Detailed event file: `knowledge/events/generated/2026-09-13-p-u-r-s-u-e-300fb0.m
 **More information:** https://urbancrest.churchcenter.com/calendar/event/167074215
 
 Detailed event file: `knowledge/events/generated/2026-09-13-sunday-morning-services-9-30-am-service-b32add.md`
+
+## Sunday Morning Services: 11:00 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, September 13, 2026, 11 AM to 12:10 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+**More information:** https://urbancrest.churchcenter.com/calendar/event/167074215
+
+Detailed event file: `knowledge/events/generated/2026-09-13-sunday-morning-services-11-00-am-service-153e7f.md`
 
 ## Wednesday Night Dinner
 
