@@ -1,11 +1,11 @@
 version: 1.4.3
-generated_at: '2026-08-02T10:50:41.187220Z'
+generated_at: '2026-08-02T13:56:09.439745Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api
 api_enrichment:
   enabled: true
-  target_instance_count: 425
-  matched_instance_count: 424
+  target_instance_count: 426
+  matched_instance_count: 425
   page_count: 8
   api_version: '2026-06-22'
 source_of_truth_for_calendar_intents: true
@@ -1366,33 +1366,6 @@ events:
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-06-sunday-morning-services-9-30-am-service-3e5884.md
-- id: event-d51c8e6d158a985a
-  uid: ET-9127132-166271992@resources.planningcenteronline.com
-  title: 'Sunday Morning Services: 11:00 AM Service'
-  summary: Join us in person or online!...
-  start: '2026-09-06T11:00:00-04:00'
-  end: '2026-09-06T12:10:00-04:00'
-  sort_start_utc: '2026-09-06T15:00:00Z'
-  sort_end_utc: '2026-09-06T16:10:00Z'
-  display_when: Sunday, September 6, 2026, 11 AM to 12:10 PM
-  all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
-  planning_center_event_instance_id: '166271992'
-  planning_center_event_time_id: '9127132'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/166271992
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 37
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-09-06-sunday-morning-services-11-00-am-service-8a985a.md
 - id: event-603382a30ef2ed46
   uid: ET-31870601-230122707@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -1487,7 +1460,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 38
+  chronological_rank: 37
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-09-wednesday-night-dinner-f2ed46.md
@@ -1559,7 +1532,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 39
+  chronological_rank: 38
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-09-awana-2026-2027-ca71ea.md
@@ -1586,7 +1559,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 40
+  chronological_rank: 39
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-13-p-u-r-s-u-e-300fb0.md
@@ -1684,7 +1657,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 41
+  chronological_rank: 40
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-16-wednesday-night-dinner-89e119.md
@@ -1711,7 +1684,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 42
+  chronological_rank: 41
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-20-p-u-r-s-u-e-f8f18d.md
@@ -1809,7 +1782,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 43
+  chronological_rank: 42
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-23-wednesday-night-dinner-c7bf0d.md
@@ -1836,7 +1809,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 44
+  chronological_rank: 43
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-27-p-u-r-s-u-e-724217.md
@@ -1865,7 +1838,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 45
+  chronological_rank: 44
   next_for_ministries:
   - women
   next_for_audiences:
@@ -1965,7 +1938,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 46
+  chronological_rank: 45
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-30-wednesday-night-dinner-36f49b.md
@@ -1993,7 +1966,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 47
+  chronological_rank: 46
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-03-men-s-breakfast-dec2d7.md
@@ -2020,7 +1993,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 48
+  chronological_rank: 47
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-04-p-u-r-s-u-e-e5c34f.md
@@ -2056,7 +2029,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 49
+  chronological_rank: 48
   next_for_ministries:
   - worship
   next_for_audiences: []
@@ -2155,7 +2128,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 50
+  chronological_rank: 49
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-07-wednesday-night-dinner-9fc5ad.md
@@ -2182,7 +2155,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 51
+  chronological_rank: 50
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-11-p-u-r-s-u-e-8f8f87.md
@@ -2280,10 +2253,52 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 52
+  chronological_rank: 51
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-14-wednesday-night-dinner-d9103e.md
+- id: event-7b60e9c4c5af3c3f
+  uid: ET-31936721-230615455@resources.planningcenteronline.com
+  title: Urbancrest Women's Conference
+  summary: Join us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God....
+  start: '2026-10-17T09:00:00-04:00'
+  end: '2026-10-17T15:00:00-04:00'
+  sort_start_utc: '2026-10-17T13:00:00Z'
+  sort_end_utc: '2026-10-17T19:00:00Z'
+  display_when: Saturday, October 17, 2026, 9 AM to 3 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: 'Join us for the Urbancrest Women’s Conference ''Known & Loved'' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.
+
+
+    This year’s keynote speaker is Barb Roose, who will challenge and encourage women to grow in their faith and walk confidently in God’s truth.
+
+
+    Doors open at 8:00 AM, and the cost is just $5, which includes lunch (more details coming soon). Invite a friend and make plans to be part of this special day together.
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/3791849'
+  details: "Join us for the Urbancrest Women’s Conference 'Known & Loved' on \nSaturday, October 17\n for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.\nThis year’s keynote speaker is \nBarb Roose\n, who will challenge and encourage women to grow in their faith and walk confidently in God’s truth.\nDoors open at \n8:00 AM\n, and the cost is just \n$5\n, which includes lunch (more details coming soon). Invite a friend and make plans to be part of this special day together."
+  details_source: planning_center_calendar_api
+  planning_center_event_instance_id: '230615455'
+  planning_center_event_time_id: '31936721'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3791849
+  info_url: https://urbancrest.churchcenter.com/calendar/event/230615455
+  image_url: https://registrations-production.s3.amazonaws.com/uploads/event/logo/3791849/medium_image-1785669189641.jpeg
+  ministries:
+  - men
+  - women
+  - worship
+  audiences:
+  - men
+  - women
+  event_category: major_event
+  event_priority: 100
+  collection: main_events
+  status: confirmed
+  chronological_rank: 52
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-10-17-urbancrest-women-s-conference-af3c3f.md
 - id: event-9d496596f1bf84ac
   uid: ET-27323186-203958381@resources.planningcenteronline.com
   title: Women's Conference

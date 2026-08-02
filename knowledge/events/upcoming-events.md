@@ -16,7 +16,7 @@ tags: [events, calendar, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-08-02T10:50:41.187220Z
+last_generated: 2026-08-02T13:56:09.439745Z
 ---
 
 # Upcoming Events
@@ -451,18 +451,6 @@ Detailed event file: `knowledge/events/generated/2026-09-06-p-u-r-s-u-e-7f42b9.m
 
 Detailed event file: `knowledge/events/generated/2026-09-06-sunday-morning-services-9-30-am-service-3e5884.md`
 
-## Sunday Morning Services: 11:00 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, September 6, 2026, 11 AM to 12:10 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/166271992
-
-Detailed event file: `knowledge/events/generated/2026-09-06-sunday-morning-services-11-00-am-service-8a985a.md`
-
 ## Wednesday Night Dinner
 
 **Category:** Churchwide Program
@@ -642,6 +630,18 @@ Detailed event file: `knowledge/events/generated/2026-10-11-p-u-r-s-u-e-8f8f87.m
 **More information:** https://urbancrest.churchcenter.com/calendar/event/230122712
 
 Detailed event file: `knowledge/events/generated/2026-10-14-wednesday-night-dinner-d9103e.md`
+
+## Urbancrest Women's Conference
+
+**Category:** Major Event
+
+**When:** Saturday, October 17, 2026, 9 AM to 3 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3791849
+
+Detailed event file: `knowledge/events/generated/2026-10-17-urbancrest-women-s-conference-af3c3f.md`
 
 ## Women's Conference
 
