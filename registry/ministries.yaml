@@ -85,6 +85,18 @@ ministries:
     - pre-K
     - three-year-old class
     primary_staff_key: sarah_coleman
+  nursery:
+    title: Nursery Ministry
+    description: Care for babies and toddlers that supports families through a safe, welcoming, and attentive nursery environment.
+    aliases:
+    - nursery
+    - babies
+    - infants
+    - toddlers
+    - baby ministry
+    primary_staff_key: mikhael_mastalerz
+    related_staff_keys:
+    - sarah_coleman
   guest_services:
     title: Guest Services
     description: Hospitality ministry that helps guests and members feel welcomed, informed, and supported.
