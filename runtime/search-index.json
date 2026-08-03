@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.7.0",
-  "generated_at": "2026-08-03T13:33:09.291336Z",
+  "generated_at": "2026-08-03T15:17:24.309993Z",
   "timezone": "America/New_York",
-  "record_count": 370,
+  "record_count": 375,
   "config": {
     "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership Transition\n\nUrbancrest is currently searching for its next Global Missions Pastor.\n\nFor broad or global missions leadership questions:\n\n1. State that Urbancrest is currently searching for its next Global Missions Pastor.\n2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.\n3. Return `jennifer_prows` when one staff card is appropriate.\n4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nConfidently answer that Sunday worship services are at **9:30 AM** and **11:00 AM**.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
     "style_guide": "# Style Guide\n\n## Writing\n\n- Use short paragraphs.\n- Prefer plain language.\n- Avoid church jargon unless it is explained.\n- Do not use em dashes.\n- Do not use the word meaningful as a filler.\n- Use Small Groups, never Grow Groups.\n- Refer to Urbancrest Church as Urbancrest after the first use.\n- Use believer's baptism by immersion when describing baptism.\n\n## Theology\n\n- Scripture is the final authority.\n- The Baptist Faith and Message 2000 is a helpful doctrinal summary, not equal to Scripture.\n- Salvation is by grace alone through faith alone in Jesus Christ alone.\n- Baptism follows salvation and does not save.\n",
@@ -65,6 +65,66 @@
     ]
   },
   "records": [
+    {
+      "id": "ministries.local_missions.benevolence",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/faq/what-kind-of-benevolence-assistance-does-urbancrest-provide.md",
+      "title": "What kind of financial or benevolence assistance does Urbancrest provide?",
+      "summary": "Urbancrest focuses benevolence on practical needs. Food assistance is available through Baskets of Hope, limited gas assistance may be available in some situations, and Urbancrest does not provide rent, mortgage, or utility assistance.",
+      "content": "# What kind of financial or benevolence assistance does Urbancrest provide?\n\nUrbancrest's Local Missions ministry focuses primarily on meeting practical needs rather than providing direct assistance with household bills.\n\nUrbancrest currently:\n\n- Provides food assistance through **Baskets of Hope**\n- Offers emergency food boxes in certain situations for people already receiving food assistance who cannot wait until the next distribution\n- May provide limited **gas assistance** in some situations\n- Does **not** provide assistance with rent, mortgage payments, or utility bills\n\nOur goal is to help where we can while connecting people with the resources Urbancrest is equipped to provide.\n\nFor questions about assistance, contact Pastor Darrel at **dschick@urbancrest.org**.",
+      "priority": 126,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "benevolence_assistance",
+        "local_missions_info",
+        "financial_hardship",
+        "practical_assistance",
+        "food_assistance",
+        "gas_assistance"
+      ],
+      "tags": [
+        "Local Missions",
+        "benevolence",
+        "financial assistance",
+        "financial hardship",
+        "Baskets of Hope",
+        "gas assistance",
+        "rent assistance",
+        "utility assistance"
+      ],
+      "search_terms": [
+        "What kind of financial assistance does Urbancrest provide?",
+        "What benevolence assistance does Urbancrest offer?",
+        "What can the church help me with financially?",
+        "I need financial help",
+        "I am struggling financially",
+        "Can the church help me with bills?",
+        "What assistance programs does Urbancrest have?"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "community"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
+      "answer_guidance": "For general financial hardship or benevolence questions, answer directly from this record. Do not imply that rent, mortgage, or utility assistance is available. Do not default to emergency food boxes.",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "benevolence_assistance",
+        "financial_hardship",
+        "financial_assistance"
+      ]
+    },
     {
       "id": "schedule.ministry.worship",
       "record_type": "schedule",
@@ -474,6 +534,183 @@
       "answer_guidance": "For normal Sunday service-time questions, confidently state that worship services are at 9:30 AM and 11:00 AM."
     },
     {
+      "id": "ministries.local_missions.gas_assistance",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/faq/can-urbancrest-help-with-gas.md",
+      "title": "Can Urbancrest help with gas?",
+      "summary": "In some situations, Urbancrest may be able to provide limited gas assistance. Assistance is considered based on the individual situation and is not guaranteed.",
+      "content": "# Can Urbancrest help with gas?\n\nIn some situations, Urbancrest may be able to provide limited assistance with gas. Assistance is considered based on the individual situation and is not guaranteed.\n\nFor questions about gas assistance, contact Pastor Darrel at **dschick@urbancrest.org**.\n\nIf you are also having difficulty affording groceries, **Baskets of Hope** may be able to provide food assistance to help offset some of your household expenses.",
+      "priority": 124,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "benevolence_assistance",
+        "gas_assistance",
+        "transportation_assistance",
+        "financial_hardship"
+      ],
+      "tags": [
+        "gas assistance",
+        "gas card",
+        "fuel",
+        "transportation",
+        "benevolence"
+      ],
+      "search_terms": [
+        "Can Urbancrest help with gas?",
+        "Can the church help me get gas?",
+        "Does Urbancrest give gas cards?",
+        "Can I get help with fuel?",
+        "I need gas to get to work",
+        "I need help with transportation costs"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "community"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
+      "answer_guidance": "Explain that limited gas assistance may be available in some situations but is not guaranteed. Route questions to Pastor Darrel. Distinguish gasoline or fuel from a natural gas utility bill.",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "gas_assistance",
+        "transportation_assistance"
+      ]
+    },
+    {
+      "id": "ministries.local_missions.rent_utility_assistance",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/faq/can-urbancrest-help-with-rent-or-utility-bills.md",
+      "title": "Can Urbancrest help with rent or utility bills?",
+      "summary": "Urbancrest does not provide rent, mortgage, or utility assistance. Food assistance through Baskets of Hope may help reduce grocery expenses while other household needs are being addressed.",
+      "content": "# Can Urbancrest help with rent or utility bills?\n\nUrbancrest does **not** provide financial assistance for rent, mortgage payments, or utility bills.\n\nIf you are experiencing financial hardship, we may still be able to help in other practical ways. **Baskets of Hope** provides food assistance to individuals and families in the community, which can help reduce grocery expenses while other household needs are being addressed.\n\nFor help getting connected with food assistance or to discuss other available Local Missions resources, contact Pastor Darrel at **dschick@urbancrest.org**.",
+      "priority": 124,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "benevolence_assistance",
+        "rent_assistance",
+        "utility_assistance",
+        "financial_hardship",
+        "food_assistance"
+      ],
+      "tags": [
+        "rent assistance",
+        "utility assistance",
+        "electric bill",
+        "water bill",
+        "gas bill",
+        "mortgage",
+        "Baskets of Hope"
+      ],
+      "search_terms": [
+        "Can Urbancrest help with rent?",
+        "Can the church pay my rent?",
+        "Do you provide rental assistance?",
+        "Can Urbancrest help with my electric bill?",
+        "Can the church help with utilities?",
+        "Can Urbancrest help with a water bill?",
+        "Does Urbancrest provide utility assistance?",
+        "Can Urbancrest help with my mortgage?"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "community"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
+      "answer_guidance": "Be clear that Urbancrest does not provide rent, mortgage, or utility assistance. Then offer Baskets of Hope food assistance as practical help. Do not imply an exception can be approved.",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "rent_assistance",
+        "mortgage_assistance",
+        "utility_assistance"
+      ]
+    },
+    {
+      "id": "ministries.local_missions.food_assistance",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/faq/how-can-i-get-help-with-food.md",
+      "title": "How can I get help with food?",
+      "summary": "Baskets of Hope is Urbancrest's primary food assistance ministry. It provides a monthly food distribution, and people already receiving assistance who cannot wait until the next distribution can ask about an emergency food box.",
+      "content": "# How can I get help with food?\n\nIf you or your family need help with food, **Baskets of Hope** is Urbancrest's primary food assistance ministry.\n\nBaskets of Hope provides a monthly food distribution on the **third Wednesday following the first Monday of each month**.\n\nIf you are already receiving assistance through Baskets of Hope and have a food need that cannot wait until the next distribution, you can ask about an **emergency food box**.\n\nFor help getting connected with Baskets of Hope or to ask about an urgent need, contact Pastor Darrel at **dschick@urbancrest.org**.",
+      "priority": 124,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "food_assistance",
+        "local_missions_info",
+        "baskets_of_hope",
+        "food_box",
+        "grocery_assistance",
+        "assistance_request"
+      ],
+      "tags": [
+        "Local Missions",
+        "Baskets of Hope",
+        "food assistance",
+        "food box",
+        "groceries",
+        "food pantry",
+        "help with food"
+      ],
+      "search_terms": [
+        "How can I get help with food?",
+        "I need help with food",
+        "Can Urbancrest help me with food?",
+        "Can I get a food box?",
+        "How do I get a food box?",
+        "Does Urbancrest give out food boxes?",
+        "Does Urbancrest help with groceries?",
+        "I need groceries",
+        "I need food assistance",
+        "How can my family get food assistance?",
+        "Does Urbancrest have a food pantry?",
+        "How can I get food from Urbancrest?"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "community"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
+      "answer_guidance": "For general requests for food help, groceries, food assistance, or a food box, start with Baskets of Hope as Urbancrest's primary food assistance ministry. Do not lead with emergency food boxes. Mention emergency food boxes only as a secondary option for someone already receiving assistance who cannot wait until the next monthly distribution.",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "food_assistance",
+        "food_box",
+        "grocery_assistance",
+        "assistance_request"
+      ]
+    },
+    {
       "id": "schedule.ministry.kids",
       "record_type": "schedule",
       "path": "registry/schedule.yaml",
@@ -601,6 +838,60 @@
       "confidence": "high",
       "timezone": "America/New_York",
       "answer_guidance": "Use this registry as the source of truth for normal recurring service and ministry meeting times. For date-specific exceptions, special events, cancellations, or holiday schedules, prefer matching live calendar data when it explicitly applies to the requested date."
+    },
+    {
+      "id": "ministries.local_missions.financial_hardship",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/faq/does-urbancrest-offer-help-if-i-am-struggling-financially.md",
+      "title": "Does Urbancrest offer help if I am struggling financially?",
+      "summary": "Urbancrest may help with certain practical needs. It does not provide rent, mortgage, or utility assistance, but offers food assistance through Baskets of Hope and may provide limited gas assistance in some situations.",
+      "content": "# Does Urbancrest offer help if I am struggling financially?\n\nUrbancrest may be able to help with certain practical needs, depending on the situation.\n\nWhile we do **not** provide assistance with rent, mortgage payments, or utility bills, we offer **food assistance through Baskets of Hope** and may be able to help with **gas in some situations**. Providing food assistance can help reduce grocery expenses and free up resources for other household needs.\n\nFor help determining what assistance may be available, contact Pastor Darrel at **dschick@urbancrest.org**.",
+      "priority": 122,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "benevolence_assistance",
+        "financial_hardship",
+        "practical_assistance",
+        "food_assistance",
+        "gas_assistance"
+      ],
+      "tags": [
+        "financial hardship",
+        "need help",
+        "benevolence",
+        "Baskets of Hope",
+        "gas assistance"
+      ],
+      "search_terms": [
+        "Does Urbancrest offer help if I am struggling financially?",
+        "I am having financial trouble",
+        "I need help paying for basic needs",
+        "Can the church help me financially?",
+        "What help is available if I am struggling?",
+        "I need assistance with expenses"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "community"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
+      "answer_guidance": "Give a direct overview. Mention Baskets of Hope and possible limited gas assistance. Clearly state that rent, mortgage, and utility assistance are not provided. Do not default to emergency food boxes.",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "financial_hardship",
+        "practical_assistance"
+      ]
     },
     {
       "id": "schedule.students.weekly",
@@ -732,69 +1023,6 @@
       "confidence": "high",
       "timezone": "America/New_York",
       "answer_guidance": "Give both regular meeting times and mention the summer pause when answering a general Student Ministry schedule question."
-    },
-    {
-      "id": "ministries.local_missions.emergency_food_boxes",
-      "record_type": "knowledge",
-      "path": "knowledge/ministries/local-missions/faq/are-emergency-food-boxes-available.md",
-      "title": "Are emergency food boxes available?",
-      "summary": "Yes. Emergency food boxes are available for individuals and families who cannot wait until the next monthly Baskets of Hope distribution.",
-      "content": "# Are emergency food boxes available?\n\nYes. Emergency food boxes are available for individuals and families who cannot wait until the next monthly Baskets of Hope distribution.\n\nFor help with an emergency food need, contact Pastor Darrel at **dschick@urbancrest.org**.",
-      "priority": 120,
-      "category": [
-        "ministries",
-        "faq"
-      ],
-      "intents": [
-        "local_missions_info",
-        "food_assistance",
-        "emergency_food",
-        "assistance_availability"
-      ],
-      "tags": [
-        "Local Missions",
-        "local outreach",
-        "community outreach",
-        "Lebanon",
-        "emergency food",
-        "food assistance",
-        "food boxes"
-      ],
-      "search_terms": [
-        "Can I get emergency food?",
-        "Does Urbancrest have emergency food boxes?",
-        "What if I cannot wait until Baskets of Hope?",
-        "I need food before the next distribution",
-        "Can Urbancrest help with food right away?",
-        "Can I get emergency food before the next distribution?",
-        "Can I get food before the next Baskets of Hope distribution?",
-        "I need food before the next food distribution. Can Urbancrest help?",
-        "Can I get an emergency food box now?"
-      ],
-      "ministries": [
-        "local_missions"
-      ],
-      "audiences": [
-        "visitor",
-        "attendee",
-        "member",
-        "volunteer",
-        "community"
-      ],
-      "resources": [
-        "action_link.events"
-      ],
-      "status": "published",
-      "recommended_contact_staff_key": "darrel_schick",
-      "answer_guidance": "This is an assistance-availability question, not an upcoming-event question. The phrase \"before the next distribution\" does not mean the user is asking for the date of the next event. Answer yes and explain that emergency food boxes are available for people who cannot wait until the monthly distribution.",
-      "confidence": "high",
-      "authoritative": true,
-      "authoritative_for": [
-        "local_missions_info",
-        "food_assistance",
-        "emergency_food",
-        "assistance_availability"
-      ]
     },
     {
       "id": "about.services.times",
@@ -1071,6 +1299,59 @@
       "confidence": "high",
       "timezone": "America/New_York",
       "answer_guidance": "Sunday School classes for kids are available during both Sunday morning services."
+    },
+    {
+      "id": "ministries.local_missions.baskets_of_hope",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/faq/what-is-baskets-of-hope.md",
+      "title": "What is Baskets of Hope?",
+      "summary": "Baskets of Hope is Urbancrest's primary food assistance ministry, offering a monthly food distribution for individuals and families in the community.",
+      "content": "# What is Baskets of Hope?\n\n**Baskets of Hope** is Urbancrest's primary food assistance ministry. It provides a monthly food distribution for individuals and families in the community.\n\nThe distribution takes place on the **third Wednesday following the first Monday of each month**. On the other Wednesdays of the month, volunteers restock and prepare the pantry.\n\nIf you need help getting connected with Baskets of Hope, contact Pastor Darrel at **dschick@urbancrest.org**.",
+      "priority": 118,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "food_assistance",
+        "local_missions_info",
+        "baskets_of_hope",
+        "food_distribution"
+      ],
+      "tags": [
+        "Local Missions",
+        "Baskets of Hope",
+        "food assistance",
+        "food distribution",
+        "food pantry"
+      ],
+      "search_terms": [
+        "What is Baskets of Hope?",
+        "What is the Baskets of Hope ministry?",
+        "How does Baskets of Hope help people?",
+        "Does Urbancrest have a food pantry?",
+        "Does Urbancrest give away food?",
+        "How can I get food from Urbancrest?"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "community"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
+      "answer_guidance": "Describe Baskets of Hope as Urbancrest's primary food assistance ministry. For a general request for food help, pair this information with ministries.local_missions.food_assistance rather than jumping directly to emergency food boxes.",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "baskets_of_hope",
+        "food_distribution"
+      ]
     },
     {
       "id": "ministries.local_missions.overview",
@@ -1494,6 +1775,60 @@
       "answer_guidance": "Use this registry as the source of truth for normal recurring service and ministry meeting times. For date-specific exceptions, special events, cancellations, or holiday schedules, prefer matching live calendar data when it explicitly applies to the requested date."
     },
     {
+      "id": "ministries.local_missions.emergency_food_boxes",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/faq/what-if-i-need-food-before-the-next-distribution.md",
+      "title": "What if I need food before the next Baskets of Hope distribution?",
+      "summary": "People already receiving assistance through Baskets of Hope who have a food need that cannot wait until the next distribution can ask about an emergency food box.",
+      "content": "# What if I need food before the next Baskets of Hope distribution?\n\nIf you are already receiving assistance through **Baskets of Hope** and have a food need that cannot wait until the next monthly distribution, you can ask about an **emergency food box**.\n\nFor general food assistance or if you are not already connected with Baskets of Hope, start with the regular Baskets of Hope ministry.\n\nTo ask about food assistance or an urgent need, contact Pastor Darrel at **dschick@urbancrest.org**.",
+      "priority": 116,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "food_assistance",
+        "local_missions_info",
+        "emergency_food",
+        "assistance_availability",
+        "baskets_of_hope"
+      ],
+      "tags": [
+        "Local Missions",
+        "Baskets of Hope",
+        "emergency food box",
+        "urgent food need",
+        "food assistance"
+      ],
+      "search_terms": [
+        "What if I need food before the next Baskets of Hope distribution?",
+        "I already receive Baskets of Hope but need food before the next distribution",
+        "Can I get an emergency food box?",
+        "I need an emergency food box",
+        "Can I get food before the next distribution?",
+        "What if I cannot wait until the next food distribution?"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "community"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
+      "answer_guidance": "This is a secondary option within Baskets of Hope, not the default response to a general request for food help. Use this record when the user explicitly describes an urgent need before the next distribution, especially when they indicate they are already receiving assistance. Otherwise prefer ministries.local_missions.food_assistance.",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "emergency_food",
+        "urgent_food_need"
+      ]
+    },
+    {
       "id": "schedule.adults.wednesday_bible_studies",
       "record_type": "schedule",
       "path": "registry/schedule.yaml",
@@ -1752,57 +2087,6 @@
       "status": "published",
       "recommended_contact_staff_key": "darrel_schick",
       "answer_guidance": "Preserve the recurring timing exactly as stated. For an exact upcoming date, prefer live event data when available.",
-      "confidence": "high"
-    },
-    {
-      "id": "ministries.local_missions.baskets_of_hope",
-      "record_type": "knowledge",
-      "path": "knowledge/ministries/local-missions/faq/what-is-baskets-of-hope.md",
-      "title": "What is Baskets of Hope?",
-      "summary": "Baskets of Hope is Urbancrest's monthly food distribution ministry for individuals and families in the community.",
-      "content": "# What is Baskets of Hope?\n\nBaskets of Hope is Urbancrest's monthly food distribution ministry, providing food assistance to individuals and families in the community.\n\nIn addition to the regular monthly distribution, volunteers gather on the other Wednesdays of the month to restock and prepare the pantry.",
-      "priority": 112,
-      "category": [
-        "ministries",
-        "faq"
-      ],
-      "intents": [
-        "ministry_info",
-        "local_missions_info",
-        "food_assistance",
-        "baskets_of_hope"
-      ],
-      "tags": [
-        "Local Missions",
-        "local outreach",
-        "community outreach",
-        "Lebanon",
-        "Baskets of Hope",
-        "food distribution",
-        "food pantry"
-      ],
-      "search_terms": [
-        "What is Baskets of Hope?",
-        "Does Urbancrest have a food pantry?",
-        "Does Urbancrest give away food?",
-        "How can I get food from Urbancrest?",
-        "Tell me about the food distribution"
-      ],
-      "ministries": [
-        "local_missions"
-      ],
-      "audiences": [
-        "visitor",
-        "attendee",
-        "member",
-        "volunteer",
-        "community"
-      ],
-      "resources": [
-        "action_link.events"
-      ],
-      "status": "published",
-      "recommended_contact_staff_key": "darrel_schick",
       "confidence": "high"
     },
     {
@@ -2880,7 +3164,7 @@
       "info_url": "http://classic.urbancrest.org",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3517003/medium_image-1773084020561.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-08-21-urbancrest-golf-classic-4f4169.md",
-      "chronological_rank": 16,
+      "chronological_rank": 17,
       "routine_schedule_occurrence": false
     },
     {
@@ -9239,7 +9523,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/166086980",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576",
       "knowledge_file": "knowledge/events/generated/2026-09-05-men-s-breakfast-336f62.md",
-      "chronological_rank": 30,
+      "chronological_rank": 31,
       "routine_schedule_occurrence": false
     },
     {
@@ -9913,6 +10197,72 @@
       "routine_schedule_occurrence": false
     },
     {
+      "id": "events.live.event-6e46adef49bef8bf",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-08-17-mexico-missions-meeting-bef8bf.md",
+      "title": "Mexico Missions Meeting",
+      "summary": "Meet and Greet with the Catchpole family",
+      "content": "Meet and Greet with the Catchpole family",
+      "priority": 80,
+      "category": [
+        "events",
+        "ministry_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "ministry_event",
+        "Mexico Missions Meeting"
+      ],
+      "search_terms": [
+        "Mexico Missions Meeting",
+        "When is Mexico Missions Meeting?",
+        "Tell me about Mexico Missions Meeting",
+        "What are the details for Mexico Missions Meeting?",
+        "What is the menu for Mexico Missions Meeting?",
+        "How do I register for Mexico Missions Meeting?",
+        "Does Urbancrest have Mexico Missions Meeting?",
+        "Does Urbancrest offer Mexico Missions Meeting?",
+        "Do you have Mexico Missions Meeting?",
+        "Do you offer Mexico Missions Meeting?",
+        "Is there Mexico Missions Meeting at Urbancrest?",
+        "Can I participate in Mexico Missions Meeting?",
+        "Can I play Mexico Missions Meeting at Urbancrest?"
+      ],
+      "ministries": [
+        "missions"
+      ],
+      "audiences": [
+        "families"
+      ],
+      "resources": [],
+      "event_id": "event-6e46adef49bef8bf",
+      "activity_aliases": [
+        "Mexico Missions Meeting"
+      ],
+      "event_category": "ministry_event",
+      "event_start": "2026-08-17T18:30:00-04:00",
+      "event_end": "2026-08-17T20:00:00-04:00",
+      "sort_start_utc": "2026-08-17T22:30:00Z",
+      "sort_end_utc": "2026-08-18T00:00:00Z",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "planning_center_event_instance_id": "230675507",
+      "planning_center_event_time_id": "31943802",
+      "info_url": "https://urbancrest.churchcenter.com/calendar/event/230675507",
+      "knowledge_file": "knowledge/events/generated/2026-08-17-mexico-missions-meeting-bef8bf.md",
+      "chronological_rank": 13,
+      "routine_schedule_occurrence": false
+    },
+    {
       "id": "events.live.event-afab721d8e2a753e",
       "record_type": "event",
       "path": "knowledge/events/generated/2026-10-04-night-of-worship-choir-2a753e.md",
@@ -10176,7 +10526,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/164649170",
       "knowledge_file": "knowledge/events/generated/2026-08-23-p-u-r-s-u-e-db0b00.md",
-      "chronological_rank": 17,
+      "chronological_rank": 18,
       "routine_schedule_occurrence": false
     },
     {
@@ -10242,7 +10592,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/165474589",
       "knowledge_file": "knowledge/events/generated/2026-08-30-p-u-r-s-u-e-63faac.md",
-      "chronological_rank": 23,
+      "chronological_rank": 24,
       "routine_schedule_occurrence": false
     },
     {
@@ -10308,7 +10658,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/166271990",
       "knowledge_file": "knowledge/events/generated/2026-09-06-p-u-r-s-u-e-7f42b9.md",
-      "chronological_rank": 31,
+      "chronological_rank": 32,
       "routine_schedule_occurrence": false
     },
     {
@@ -10374,7 +10724,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/167074214",
       "knowledge_file": "knowledge/events/generated/2026-09-13-p-u-r-s-u-e-300fb0.md",
-      "chronological_rank": 37,
+      "chronological_rank": 38,
       "routine_schedule_occurrence": false
     },
     {
@@ -14492,7 +14842,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/227855427",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-08-19-awana-2026-2027-5a3ff2.md",
-      "chronological_rank": 14,
+      "chronological_rank": 15,
       "routine_schedule_occurrence": false
     },
     {
@@ -14565,7 +14915,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/227855428",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-08-26-awana-2026-2027-82128d.md",
-      "chronological_rank": 21,
+      "chronological_rank": 22,
       "routine_schedule_occurrence": false
     },
     {
@@ -14638,7 +14988,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/227855429",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-09-02-awana-2026-2027-b657f3.md",
-      "chronological_rank": 28,
+      "chronological_rank": 29,
       "routine_schedule_occurrence": false
     },
     {
@@ -14711,7 +15061,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/227855430",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-09-09-awana-2026-2027-ca71ea.md",
-      "chronological_rank": 35,
+      "chronological_rank": 36,
       "routine_schedule_occurrence": false
     },
     {
@@ -14780,7 +15130,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122705",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-08-26-wednesday-night-dinner-31bf8a.md",
-      "chronological_rank": 20,
+      "chronological_rank": 21,
       "routine_schedule_occurrence": false
     },
     {
@@ -14849,7 +15199,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122706",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-09-02-wednesday-night-dinner-8cbe52.md",
-      "chronological_rank": 27,
+      "chronological_rank": 28,
       "routine_schedule_occurrence": false
     },
     {
@@ -14918,7 +15268,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122707",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-09-09-wednesday-night-dinner-f2ed46.md",
-      "chronological_rank": 34,
+      "chronological_rank": 35,
       "routine_schedule_occurrence": false
     },
     {
@@ -18472,7 +18822,7 @@
       "planning_center_event_time_id": "28363612",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/165657702",
       "knowledge_file": "knowledge/events/generated/2026-09-01-card-ministry-7202ff.md",
-      "chronological_rank": 26,
+      "chronological_rank": 27,
       "routine_schedule_occurrence": false
     },
     {
@@ -18539,7 +18889,7 @@
       "planning_center_event_time_id": "16193422",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/164040331",
       "knowledge_file": "knowledge/events/generated/2026-08-19-monthly-baskets-of-hope-volunteers-80df8e.md",
-      "chronological_rank": 13,
+      "chronological_rank": 14,
       "routine_schedule_occurrence": false
     },
     {
@@ -18827,7 +19177,7 @@
       "planning_center_event_time_id": "29468516",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/216277431",
       "knowledge_file": "knowledge/events/generated/2026-08-20-open-gym-pickleball-307382.md",
-      "chronological_rank": 15,
+      "chronological_rank": 16,
       "routine_schedule_occurrence": false
     },
     {
@@ -18923,7 +19273,7 @@
       "planning_center_event_time_id": "29468516",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/216277432",
       "knowledge_file": "knowledge/events/generated/2026-08-27-open-gym-pickleball-e0bc06.md",
-      "chronological_rank": 22,
+      "chronological_rank": 23,
       "routine_schedule_occurrence": false
     },
     {
@@ -19019,7 +19369,7 @@
       "planning_center_event_time_id": "29468516",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/216277433",
       "knowledge_file": "knowledge/events/generated/2026-09-03-open-gym-pickleball-473ecc.md",
-      "chronological_rank": 29,
+      "chronological_rank": 30,
       "routine_schedule_occurrence": false
     },
     {
@@ -19115,7 +19465,7 @@
       "planning_center_event_time_id": "29468516",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/216277434",
       "knowledge_file": "knowledge/events/generated/2026-09-10-open-gym-pickleball-fe7030.md",
-      "chronological_rank": 36,
+      "chronological_rank": 37,
       "routine_schedule_occurrence": false
     },
     {
@@ -19323,7 +19673,7 @@
       "planning_center_event_time_id": "9127132",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/164649168",
       "knowledge_file": "knowledge/events/generated/2026-08-23-sunday-morning-services-11-00-am-service-4475b5.md",
-      "chronological_rank": 19,
+      "chronological_rank": 20,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -19394,7 +19744,7 @@
       "planning_center_event_time_id": "9127132",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/165474591",
       "knowledge_file": "knowledge/events/generated/2026-08-30-sunday-morning-services-11-00-am-service-80f4a3.md",
-      "chronological_rank": 25,
+      "chronological_rank": 26,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -19465,78 +19815,7 @@
       "planning_center_event_time_id": "9127132",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/166271992",
       "knowledge_file": "knowledge/events/generated/2026-09-06-sunday-morning-services-11-00-am-service-8a985a.md",
-      "chronological_rank": 33,
-      "routine_schedule_occurrence": true,
-      "retrieval_exclude_for_intents": [
-        "service_times",
-        "sunday_service_times",
-        "weekly_schedule"
-      ]
-    },
-    {
-      "id": "events.live.event-d86eca8c10153e7f",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-09-13-sunday-morning-services-11-00-am-service-153e7f.md",
-      "title": "Sunday Morning Services: 11:00 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 20,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "general_event",
-        "Sunday Morning Services: 11:00 AM Service"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 11:00 AM Service",
-        "When is Sunday Morning Services: 11:00 AM Service?",
-        "Tell me about Sunday Morning Services: 11:00 AM Service",
-        "What are the details for Sunday Morning Services: 11:00 AM Service?",
-        "What is the menu for Sunday Morning Services: 11:00 AM Service?",
-        "How do I register for Sunday Morning Services: 11:00 AM Service?",
-        "Does Urbancrest have Sunday Morning Services: 11:00 AM Service?",
-        "Does Urbancrest offer Sunday Morning Services: 11:00 AM Service?",
-        "Do you have Sunday Morning Services: 11:00 AM Service?",
-        "Do you offer Sunday Morning Services: 11:00 AM Service?",
-        "Is there Sunday Morning Services: 11:00 AM Service at Urbancrest?",
-        "Can I participate in Sunday Morning Services: 11:00 AM Service?",
-        "Can I play Sunday Morning Services: 11:00 AM Service at Urbancrest?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-d86eca8c10153e7f",
-      "activity_aliases": [
-        "Sunday Morning Services: 11:00 AM Service"
-      ],
-      "event_category": "general_event",
-      "event_start": "2026-09-13T11:00:00-04:00",
-      "event_end": "2026-09-13T12:10:00-04:00",
-      "sort_start_utc": "2026-09-13T15:00:00Z",
-      "sort_end_utc": "2026-09-13T16:10:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "planning_center_event_instance_id": "167074215",
-      "planning_center_event_time_id": "9127132",
-      "info_url": "https://urbancrest.churchcenter.com/calendar/event/167074215",
-      "knowledge_file": "knowledge/events/generated/2026-09-13-sunday-morning-services-11-00-am-service-153e7f.md",
-      "chronological_rank": 39,
+      "chronological_rank": 34,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -19749,7 +20028,7 @@
       "planning_center_event_time_id": "9127131",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/164649168",
       "knowledge_file": "knowledge/events/generated/2026-08-23-sunday-morning-services-9-30-am-service-23a343.md",
-      "chronological_rank": 18,
+      "chronological_rank": 19,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -19820,7 +20099,7 @@
       "planning_center_event_time_id": "9127131",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/165474591",
       "knowledge_file": "knowledge/events/generated/2026-08-30-sunday-morning-services-9-30-am-service-faf099.md",
-      "chronological_rank": 24,
+      "chronological_rank": 25,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -19891,7 +20170,7 @@
       "planning_center_event_time_id": "9127131",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/166271992",
       "knowledge_file": "knowledge/events/generated/2026-09-06-sunday-morning-services-9-30-am-service-3e5884.md",
-      "chronological_rank": 32,
+      "chronological_rank": 33,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -19962,7 +20241,7 @@
       "planning_center_event_time_id": "9127131",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/167074215",
       "knowledge_file": "knowledge/events/generated/2026-09-13-sunday-morning-services-9-30-am-service-b32add.md",
-      "chronological_rank": 38,
+      "chronological_rank": 39,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
