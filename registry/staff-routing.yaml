@@ -1,5 +1,5 @@
-version: '1.1'
-last_updated: '2026-07-30'
+version: '1.2'
+last_updated: '2026-08-03'
 profile_source: base44.Staff
 routing:
   geoff_prows:
@@ -51,8 +51,6 @@ routing:
     ministries:
     - worship
     - pastoral
-    - music
-    - choir
     topics:
     - worship
     - music ministry
@@ -98,8 +96,6 @@ routing:
     - Local Missions Strategist
     ministries:
     - local_missions
-    - outreach
-    - community_service
     topics:
     - local missions
     - community outreach
@@ -119,9 +115,6 @@ routing:
     - missions
     - missions_administration
     - global_missions_support
-    - mission_trips
-    - missions_conference
-    - red_barn
     topics:
     - missions administration
     - global missions support
@@ -131,22 +124,21 @@ routing:
     - current missions contact
     show_card: true
     profile_source: base44.Staff
-    answer_guidance: Jennifer Prows serves as Missions Administrator and is the recommended current contact for global missions questions and coordination while Urbancrest searches for its next Global Missions Pastor. Do not identify Jennifer as the Global Missions Pastor.
+    answer_guidance: Jennifer Prows serves as Missions Administrator and is the recommended current contact for global missions
+      questions and coordination while Urbancrest searches for its next Global Missions Pastor. Do not identify Jennifer as
+      the Global Missions Pastor.
   sarah_coleman:
     aliases:
     - Sarah
     - Sarah Coleman
     - Preschool Director
-    - Kids Director
+    - Kids Ministry contact
     ministries:
-    - kids
     - preschool
-    - children
-    - families
     topics:
+    - preschool
     - kids ministry
     - children
-    - preschool
     - families
     - AWANA
     - Kids Ministry safety
@@ -158,6 +150,9 @@ routing:
     - volunteer screening
     show_card: true
     profile_source: base44.Staff
+    answer_guidance: Sarah Coleman serves as Preschool Director. The Kids Ministry Director position is currently vacant,
+      and Sarah is the recommended current point person for Kids Ministry questions. Do not identify Sarah as the Kids Ministry
+      Director.
   mikhael_mastalerz:
     aliases:
     - Mikhael
@@ -186,7 +181,6 @@ routing:
     - Member Services
     ministries:
     - member_services
-    - membership
     topics:
     - membership
     - member services
@@ -200,9 +194,6 @@ routing:
     - Guest Services
     ministries:
     - guest_services
-    - first_visit
-    - hospitality
-    - welcome
     topics:
     - guest services
     - first visit
@@ -223,13 +214,11 @@ routing:
     - Financial Officer
     ministries:
     - finance
-    - giving
-    - stewardship
-    - financial_administration
     topics:
+    - finance
     - giving
     - stewardship
-    - finance
+    - donations
     - financial questions
     show_card: true
     profile_source: base44.Staff
@@ -240,24 +229,17 @@ routing:
     - Matthew Kirby
     - Technical Director
     ministries:
-    - production
-    - it
-    - creative
-    - website
-    - video
-    - livestream
-    - audio
-    - technology
+    - technical_creative
     topics:
     - production
-    - technology
     - IT
+    - creative
     - website
     - video
     - livestream
     - audio
     - lighting
-    - creative
+    - technology
     show_card: true
     profile_source: base44.Staff
   jim_short:
@@ -279,6 +261,10 @@ routing:
     profile_source: base44.Staff
 rules:
 - Return the exact staff key when one staff member is directly relevant.
+- Use relationships/ministry-staff.yaml as the source of truth for canonical ministry ownership and vacancy handling.
+- Use this file for staff-name aliases, staff-specific topics, and biography/profile routing.
 - Use Base44 Staff for biography, fun fact, photo, phone, email, role display, active status, and card presentation.
 - Do not append every staff profile to every prompt. Retrieve only the selected profile when needed.
+- Do not identify Sarah Coleman as the Kids Ministry Director; she is Preschool Director and the recommended current Kids
+  Ministry point person while that leadership position is vacant.
 - Use Pastor plus first name for pastoral staff. Use first name for all other staff.

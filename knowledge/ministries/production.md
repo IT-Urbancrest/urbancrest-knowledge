@@ -1,11 +1,11 @@
 ---
 id: ministries.production
-version: 1.0
+version: 1.1
 status: published
-priority: 65
+priority: 90
 title: What is Production Ministry?
-summary: Production Ministry serves people interested in audio, video, lighting, livestream,
-  and service technology and supports Urbancrest's mission.
+summary: Production Ministry serves people interested in audio, video, lighting, livestream, and service technology and supports
+  Urbancrest's mission.
 category:
 - ministries
 intent:
@@ -17,7 +17,7 @@ audience:
 answer_style: conversational
 confidence: high
 owner:
-  ministry: church_office
+  ministry: technical_creative
 review:
   doctrinal: not_required
   factual: required
@@ -27,12 +27,20 @@ tags:
 search_terms:
 - Production Ministry
 - How do I join Production Ministry?
+- Who oversees Production?
+- Who handles production?
+- Who handles audio?
+- Who handles livestream?
+- Who handles church technology?
 scripture: []
 resources:
 - church_center.serving
 next_steps: []
 related: []
-last_updated: '2026-07-20'
+last_updated: '2026-08-03'
+ministries:
+- technical_creative
+recommended_contact_staff_key: matthew_kirby
 ---
 
 # What is Production Ministry?

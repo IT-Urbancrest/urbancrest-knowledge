@@ -798,6 +798,9 @@ def relationship_records() -> list[dict[str, Any]]:
     records: list[dict[str, Any]] = []
     for relationship in data.get("relationships", []):
         ministry = str(relationship.get("ministry") or "")
+        label = str(relationship.get("label") or ministry.replace("_", " ").title())
+        aliases = as_list(relationship.get("aliases"))
+        topics = as_list(relationship.get("topics"))
         primary = str(relationship.get("primary_staff_key") or "")
         recommended = str(relationship.get("recommended_contact_staff_key") or "")
         selected_staff_key = primary or recommended
@@ -806,7 +809,9 @@ def relationship_records() -> list[dict[str, Any]]:
         open_role = str(relationship.get("open_role") or "")
         answer_guidance = str(relationship.get("answer_guidance") or "")
 
-        summary_parts = [f"Staff relationship for {ministry.replace('_', ' ')}."]
+        summary_parts = [f"Staff ownership relationship for {label}."]
+        if leadership_status in {"vacant", "transitional"}:
+            summary_parts.append(f"Leadership status: {leadership_status}.")
         if open_role:
             summary_parts.append(f"Open role: {open_role}.")
         if selected_staff_key:
@@ -814,36 +819,51 @@ def relationship_records() -> list[dict[str, Any]]:
         summary = " ".join(summary_parts)
 
         content_lines = [
-            f"Ministry: {ministry}",
+            f"Area: {label}",
+            f"Canonical area key: {ministry}",
             f"Leadership status: {leadership_status}",
             f"Primary staff key: {primary or 'none'}",
             f"Recommended contact staff key: {recommended or 'none'}",
             f"Related staff keys: {', '.join(related)}",
         ]
+        if aliases:
+            content_lines.append(f"Routing aliases: {', '.join(aliases)}")
+        if topics:
+            content_lines.append(f"Routing topics: {', '.join(topics)}")
         if open_role:
             content_lines.append(f"Open role: {open_role}")
         if answer_guidance:
             content_lines.append(f"Answer guidance: {answer_guidance}")
+
+        base_terms = unique([label, ministry.replace("_", " "), *aliases, *topics])
+        ownership_terms: list[str] = []
+        for term in base_terms:
+            ownership_terms.extend(
+                [
+                    term,
+                    f"who oversees {term}",
+                    f"who leads {term}",
+                    f"who handles {term}",
+                    f"who do I contact about {term}",
+                    f"who is the point person for {term}",
+                ]
+            )
+        if open_role:
+            ownership_terms.append(open_role)
 
         records.append(
             record_base(
                 record_id=f"relationship.ministry_staff.{ministry}",
                 record_type="relationship",
                 path="relationships/ministry-staff.yaml",
-                title=f"{ministry.replace('_', ' ').title()} staff relationship",
+                title=f"{label} staff relationship",
                 summary=summary,
                 content="\n".join(content_lines),
-                priority=95 if leadership_status in {"vacant", "transitional"} else 85,
+                priority=105 if leadership_status in {"vacant", "transitional"} else 90,
                 category=["relationship", "staff"],
-                intents=["ministry_contact", "staff_routing", "missions_leadership"],
-                tags=[ministry, "staff", "ministry", leadership_status],
-                search_terms=[
-                    ministry.replace("_", " "),
-                    f"who oversees {ministry.replace('_', ' ')}",
-                    f"who leads {ministry.replace('_', ' ')}",
-                    f"who do I contact about {ministry.replace('_', ' ')}",
-                    open_role,
-                ],
+                intents=["ministry_contact", "staff_routing", "staff_ownership"],
+                tags=[ministry, label, leadership_status, *aliases],
+                search_terms=unique(ownership_terms),
                 ministries=[ministry],
                 staff_key=selected_staff_key,
                 primary_staff_key=primary,
@@ -852,6 +872,9 @@ def relationship_records() -> list[dict[str, Any]]:
                 leadership_status=leadership_status,
                 open_role=open_role,
                 answer_guidance=answer_guidance,
+                routing_aliases=aliases,
+                routing_topics=topics,
+                area_label=label,
             )
         )
     return records

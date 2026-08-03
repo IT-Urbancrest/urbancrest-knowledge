@@ -1,0 +1,45 @@
+version: '1.0'
+last_updated: '2026-08-03'
+tests:
+- query: Who handles Production?
+  expected_area: technical_creative
+  expected_staff_key: matthew_kirby
+- query: Who handles IT?
+  expected_area: technical_creative
+  expected_staff_key: matthew_kirby
+- query: Who handles the website?
+  expected_area: technical_creative
+  expected_staff_key: matthew_kirby
+- query: Who should I talk to about livestream?
+  expected_area: technical_creative
+  expected_staff_key: matthew_kirby
+- query: Who handles giving?
+  expected_area: finance
+  expected_staff_key: tanya_byrd
+- query: Who handles stewardship?
+  expected_area: finance
+  expected_staff_key: tanya_byrd
+- query: Who leads Kids Ministry?
+  expected_area: kids
+  expected_staff_key: sarah_coleman
+  expected_leadership_status: vacant
+  must_not_call_staff: Kids Ministry Director
+- query: Who oversees preschool?
+  expected_area: preschool
+  expected_staff_key: sarah_coleman
+  expected_leadership_status: staffed
+- query: Who oversees nursery?
+  expected_area: nursery
+  expected_staff_key: mikhael_mastalerz
+- query: Who handles Local Missions?
+  expected_area: local_missions
+  expected_staff_key: darrel_schick
+- query: Can you help me with gas for my car?
+  expected_area: local_missions
+  expected_staff_key: darrel_schick
+- query: Who leads Worship Ministry?
+  expected_area: worship
+  expected_staff_key: larry_nichols
+- query: Who handles facilities?
+  expected_area: facilities
+  expected_staff_key: jim_short

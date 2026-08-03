@@ -1,118 +1,383 @@
-version: '1.2'
-last_updated: '2026-07-30'
+version: '2.0'
+last_updated: '2026-08-03'
 relationships:
 - ministry: pastoral
+  label: Senior Leadership
+  aliases:
+  - pastoral
+  - senior leadership
+  - senior pastor
+  - pastoral leadership
+  - preaching
+  - sermons
+  - pastoral care
+  - church vision
+  - church leadership
+  topics:
+  - preaching
+  - pastoral care
+  - church vision
+  - church leadership
+  - sermons
+  leadership_status: staffed
   primary_staff_key: geoff_prows
+  recommended_contact_staff_key: geoff_prows
   related_staff_keys:
   - david_bickers
-  - larry_nichols
-  - tucker_howard
-- ministry: preaching
-  primary_staff_key: geoff_prows
-  related_staff_keys:
-  - david_bickers
+  answer_guidance: Geoff Prows serves as Senior Pastor and is the primary contact for senior pastoral leadership, preaching,
+    pastoral care, and church vision. David Bickers also preaches and serves in executive leadership.
 - ministry: executive_leadership
+  label: Executive Leadership
+  aliases:
+  - executive leadership
+  - executive pastor
+  - administration
+  - church administration
+  - church operations
+  - operations
+  topics:
+  - administration
+  - church operations
+  - executive leadership
+  leadership_status: staffed
   primary_staff_key: david_bickers
+  recommended_contact_staff_key: david_bickers
   related_staff_keys:
   - geoff_prows
+  answer_guidance: David Bickers serves as Executive Pastor and is the primary contact for executive leadership, administration,
+    and church operations.
 - ministry: worship
+  label: Worship
+  aliases:
+  - worship
+  - worship ministry
+  - music ministry
+  - worship team
+  - worship band
+  - choir
+  - worship serving
+  topics:
+  - worship
+  - music
+  - choir
+  - worship services
+  - worship auditions
+  - worship application
+  - worship philosophy
+  - sensory-friendly worship
+  leadership_status: staffed
   primary_staff_key: larry_nichols
+  recommended_contact_staff_key: larry_nichols
   related_staff_keys: []
+  answer_guidance: Larry Nichols serves as Worship Pastor and is the primary contact for Worship Ministry, music, choir, and
+    serving with the worship team.
 - ministry: students
+  label: Students
+  aliases:
+  - students
+  - student ministry
+  - youth
+  - youth ministry
+  - youth group
+  - middle school
+  - high school
+  - teenagers
+  topics:
+  - student ministry
+  - youth ministry
+  - middle school
+  - high school
+  - student schedule
+  - student safety
+  - parent communication
+  - student discipleship
+  - student mentoring
+  leadership_status: staffed
   primary_staff_key: tucker_howard
+  recommended_contact_staff_key: tucker_howard
   related_staff_keys: []
+  answer_guidance: Tucker Howard serves as Student Pastor and is the primary contact for Student Ministry.
 - ministry: missions
+  label: Missions
+  aliases:
+  - missions
+  - missions ministry
+  - mission ministry
+  - missions contact
+  topics:
+  - general missions
+  - missions administration
+  - missions conference
   leadership_status: transitional
   open_role: Global Missions Pastor
   primary_staff_key: null
   recommended_contact_staff_key: jennifer_prows
   related_staff_keys:
   - darrel_schick
-  answer_guidance: Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the recommended current contact for general and global missions questions. Darrel Schick serves as Local Missions Strategist for local missions and community outreach.
+  answer_guidance: Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions
+    Administrator and is the recommended current contact for general and global missions questions. Darrel Schick serves as
+    Local Missions Strategist for local missions and community outreach.
 - ministry: global_missions
+  label: Global Missions
+  aliases:
+  - global missions
+  - international missions
+  - global missions pastor
+  - mission trips
+  - international mission trips
+  topics:
+  - global missions
+  - mission trips
+  - missions coordination
+  - international missions
   leadership_status: vacant
   open_role: Global Missions Pastor
   primary_staff_key: null
   recommended_contact_staff_key: jennifer_prows
   related_staff_keys: []
-  answer_guidance: Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the recommended current contact for global missions questions, mission trips, and missions coordination.
-- ministry: missions_administration
-  leadership_status: staffed
-  primary_staff_key: jennifer_prows
-  recommended_contact_staff_key: jennifer_prows
-  related_staff_keys: []
-  answer_guidance: Jennifer Prows serves as Missions Administrator. Do not describe her as the Global Missions Pastor.
+  answer_guidance: Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions
+    Administrator and is the recommended current contact for global missions questions, mission trips, and missions coordination.
+    Do not describe Jennifer as the Global Missions Pastor.
 - ministry: local_missions
+  label: Local Missions
+  aliases:
+  - local missions
+  - local mission
+  - local outreach
+  - community outreach
+  - benevolence
+  - baskets of hope
+  - food assistance
+  - food box
+  - emergency food box
+  - gas assistance
+  - vehicle gas
+  - fuel assistance
+  - gas for my car
+  - community service
+  topics:
+  - community outreach
+  - benevolence
+  - food assistance
+  - Baskets of Hope
+  - gas assistance
+  - block parties
+  - serving the community
   leadership_status: staffed
   primary_staff_key: darrel_schick
   recommended_contact_staff_key: darrel_schick
   related_staff_keys:
   - jennifer_prows
-  answer_guidance: Darrel Schick serves as Local Missions Strategist and is the primary contact for local missions and community outreach.
+  answer_guidance: Darrel Schick serves as Local Missions Strategist and is the primary contact for local missions, community
+    outreach, benevolence, food assistance, and situational gas assistance.
 - ministry: kids
-  primary_staff_key: sarah_coleman
-  related_staff_keys: []
-- ministry: preschool
-  primary_staff_key: sarah_coleman
-  related_staff_keys: []
-- ministry: nursery
-  primary_staff_key: mikhael_mastalerz
-  related_staff_keys:
-  - sarah_coleman
-- ministry: member_services
-  primary_staff_key: mark_daubenmire
-  related_staff_keys: []
-- ministry: guest_services
-  primary_staff_key: sydni_neptune
-  related_staff_keys:
-  - mark_daubenmire
-- ministry: first_visit
-  primary_staff_key: sydni_neptune
-  related_staff_keys:
-  - mark_daubenmire
-- ministry: finance
-  primary_staff_key: tanya_byrd
-  related_staff_keys: []
-- ministry: giving
-  primary_staff_key: tanya_byrd
-  related_staff_keys: []
-- ministry: stewardship
-  primary_staff_key: tanya_byrd
-  related_staff_keys: []
-- ministry: production
-  primary_staff_key: matthew_kirby
-  related_staff_keys: []
-- ministry: it
-  primary_staff_key: matthew_kirby
-  related_staff_keys: []
-- ministry: creative
-  primary_staff_key: matthew_kirby
-  related_staff_keys: []
-- ministry: website
-  primary_staff_key: matthew_kirby
-  related_staff_keys: []
-- ministry: facilities
-  primary_staff_key: jim_short
-  related_staff_keys: []
-- ministry: student_parent_communication
-  primary_staff_key: tucker_howard
-  related_staff_keys: []
-- ministry: kids_safety
-  primary_staff_key: sarah_coleman
+  label: Kids
+  aliases:
+  - kids
+  - kids ministry
+  - urbancrest kids
+  - children
+  - children's ministry
+  - childrens ministry
+  - awana
+  - kids safety
+  - child check-in
+  - child checkout
+  topics:
+  - kids ministry
+  - children
+  - families
+  - AWANA
+  - Kids Ministry safety
+  - child check-in
+  - child checkout
+  - volunteer screening
+  leadership_status: vacant
+  open_role: Kids Ministry Director
+  primary_staff_key: null
+  recommended_contact_staff_key: sarah_coleman
   related_staff_keys:
   - mikhael_mastalerz
-- ministry: worship_serving
-  primary_staff_key: larry_nichols
+  answer_guidance: The Kids Ministry Director position is currently vacant. Sarah Coleman serves as Preschool Director and
+    is the recommended current point person for Kids Ministry questions. Do not describe Sarah as the Kids Ministry Director.
+    Mikhael Mastalerz serves as Nursery Ministry Director.
+- ministry: preschool
+  label: Preschool
+  aliases:
+  - preschool
+  - preschool ministry
+  - pre-k
+  - pre k
+  - preschool classes
+  topics:
+  - preschool
+  - preschool class placement
+  - preschool volunteers
+  - preschool families
+  leadership_status: staffed
+  primary_staff_key: sarah_coleman
+  recommended_contact_staff_key: sarah_coleman
   related_staff_keys: []
-- ministry: accessibility
-  primary_staff_key: sydni_neptune
+  answer_guidance: Sarah Coleman serves as Preschool Director and is the primary contact for Preschool Ministry.
+- ministry: nursery
+  label: Nursery
+  aliases:
+  - nursery
+  - nursery ministry
+  - babies
+  - infants
+  - toddlers
+  - baby ministry
+  topics:
+  - nursery
+  - infants
+  - toddlers
+  - diaper changes
+  - nursery safety
+  - infant care
+  - toddler care
+  leadership_status: staffed
+  primary_staff_key: mikhael_mastalerz
+  recommended_contact_staff_key: mikhael_mastalerz
   related_staff_keys:
-  - larry_nichols
+  - sarah_coleman
+  answer_guidance: Mikhael Mastalerz serves as Nursery Ministry Director and is the primary contact for Nursery Ministry.
+- ministry: member_services
+  label: Member Services
+  aliases:
+  - member services
+  - membership
+  - church membership
+  - church records
+  topics:
+  - membership
+  - member services
+  - church records
+  leadership_status: staffed
+  primary_staff_key: mark_daubenmire
+  recommended_contact_staff_key: mark_daubenmire
+  related_staff_keys: []
+  answer_guidance: Mark Daubenmire is the primary contact for Member Services, membership, and church records.
+- ministry: guest_services
+  label: Guest Services
+  aliases:
+  - guest services
+  - first visit
+  - first-time guest
+  - visitor
+  - visitors
+  - hospitality
+  - welcome
+  - welcome team
+  - accessibility
+  topics:
+  - guest services
+  - first visit
+  - hospitality
+  - welcome team
+  - parking
+  - seating
+  - refreshments
+  - wheelchair access
+  - accessibility
+  leadership_status: staffed
+  primary_staff_key: sydni_neptune
+  recommended_contact_staff_key: sydni_neptune
+  related_staff_keys:
+  - mark_daubenmire
+  answer_guidance: Sydni Neptune is the primary contact for Guest Services, first-visit questions, hospitality, welcome, and
+    accessibility.
+- ministry: finance
+  label: Finance
+  aliases:
+  - finance
+  - financial
+  - financial office
+  - giving
+  - online giving
+  - stewardship
+  - donation
+  - donations
+  - contribution
+  - contributions
+  topics:
+  - finance
+  - giving
+  - stewardship
+  - donations
+  - financial questions
+  leadership_status: staffed
+  primary_staff_key: tanya_byrd
+  recommended_contact_staff_key: tanya_byrd
+  related_staff_keys: []
+  answer_guidance: Tanya Byrd serves as Financial Officer and is the primary contact for finance, giving, and stewardship
+    questions.
+- ministry: technical_creative
+  label: Technical and Creative
+  aliases:
+  - production
+  - production ministry
+  - technical
+  - technical ministry
+  - technical director
+  - information technology
+  - IT support
+  - IT department
+  - creative
+  - creative ministry
+  - website
+  - web
+  - video
+  - livestream
+  - live stream
+  - audio
+  - lighting
+  - technology
+  - tech
+  topics:
+  - production
+  - IT
+  - creative
+  - website
+  - video
+  - livestream
+  - audio
+  - lighting
+  - technology
+  leadership_status: staffed
+  primary_staff_key: matthew_kirby
+  recommended_contact_staff_key: matthew_kirby
+  related_staff_keys: []
+  answer_guidance: Matthew Kirby serves as Technical Director and is the primary contact for IT, Production, Creative, Website,
+    video, livestream, audio, lighting, and church technology.
+- ministry: facilities
+  label: Facilities
+  aliases:
+  - facilities
+  - building
+  - building maintenance
+  - maintenance
+  - room setup
+  topics:
+  - facilities
+  - building
+  - maintenance
+  - room setup
+  leadership_status: staffed
+  primary_staff_key: jim_short
+  recommended_contact_staff_key: jim_short
+  related_staff_keys: []
+  answer_guidance: Jim Short is the primary contact for facilities, building maintenance, and room setup.
 selection_rules:
-- Use primary_staff_key when a staffed ministry has one directly responsible staff member.
+- Use canonical ministry areas for staff ownership. Specific topics such as giving, stewardship, production, IT, website,
+  first visit, accessibility, and student parent communication are routing terms, not separate staff ownership relationships.
+- Use primary_staff_key when a staffed area has one directly responsible staff member.
 - When leadership_status is vacant or transitional, explain the status before recommending a contact.
 - Use recommended_contact_staff_key for the staff card when no primary leader currently fills the role.
 - Do not describe Jennifer Prows as the Global Missions Pastor.
-- For local missions questions, use Darrel Schick as the primary staff contact.
+- Do not describe Sarah Coleman as the Kids Ministry Director.
+- For local missions and benevolence questions, use Darrel Schick as the primary staff contact.
+- For IT, Production, Creative, Website, video, livestream, audio, lighting, and technology questions, use Matthew Kirby.
+- For finance, giving, and stewardship questions, use Tanya Byrd.
 - Use related_staff_keys only when the question genuinely involves their area.
-- Do not show a staff card for broad questions that are not answered by one specific person.
+- Do not select a staff contact merely because an unrelated retrieved article contains a recommended_contact_staff_key.

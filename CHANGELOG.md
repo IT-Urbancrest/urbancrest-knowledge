@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.9.0
+
+- Condensed staff ownership into canonical ministry areas instead of maintaining separate relationships for every routing topic.
+- Combined IT, Production, Creative, Website, video, livestream, audio, lighting, and technology under `technical_creative`, owned by Matthew Kirby.
+- Combined finance, giving, stewardship, and donations under `finance`, owned by Tanya Byrd.
+- Consolidated first-visit and accessibility routing under Guest Services, student parent communication under Students, worship serving under Worship, and Kids safety under Kids.
+- Marked the Kids Ministry Director position as vacant and made Sarah Coleman, Preschool Director, the recommended current point person, mirroring Global Missions vacancy handling.
+- Added a focused Kids Ministry leadership article and a review trigger for when the Kids Ministry Director position is filled.
+- Enhanced compiled staff-ownership records with aliases and topics for deterministic routing.
+- Added staff-ownership routing regression tests.
+
 ## 0.8.8
 
 - Removed one-time Base44 prompt and patch documents from the knowledge repository.

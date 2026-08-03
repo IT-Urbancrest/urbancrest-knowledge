@@ -1,16 +1,19 @@
-version: '1.2'
-last_updated: '2026-07-30'
+version: '1.3'
+last_updated: '2026-08-03'
 ministries:
   kids:
     title: Urbancrest Kids
-    description: Family-partnered discipleship ministry for children that emphasizes relationships, biblical truth, worship, service, safety, and faith lived out.
+    description: Family-partnered discipleship ministry for children that emphasizes relationships, biblical truth, worship,
+      service, safety, and faith lived out.
     aliases:
     - Kids Ministry
     - Children's Ministry
     - children
-    primary_staff_key: sarah_coleman
     related_staff_keys:
     - mikhael_mastalerz
+    leadership_status: vacant
+    open_role: Kids Ministry Director
+    recommended_contact_staff_key: sarah_coleman
   students:
     title: Student Ministry
     description: Ministry for students in grades 7 through 12 that partners with parents to make mature disciples of Jesus.
@@ -38,7 +41,8 @@ ministries:
     recommended_contact_staff_key: jennifer_prows
   worship:
     title: Worship Ministry
-    description: Christ-centered, Scripture-shaped ministry that leads the congregation in worship through music, prayer, Scripture, and participation.
+    description: Christ-centered, Scripture-shaped ministry that leads the congregation in worship through music, prayer,
+      Scripture, and participation.
     aliases:
     - worship team
     - music ministry
@@ -47,11 +51,17 @@ ministries:
     primary_staff_key: larry_nichols
   production:
     title: Production Ministry
-    description: Audio
-    video: null
-    lighting: null
-    livestream: null
-    and service technology.: null
+    description: Audio, video, lighting, livestream, and service technology that supports worship services and ministry events.
+    aliases:
+    - Production
+    - Production Ministry
+    - audio
+    - video
+    - lighting
+    - livestream
+    - service technology
+    ownership_area: technical_creative
+    primary_staff_key: matthew_kirby
   legacy_builders:
     title: Legacy Builders
     description: Ministry for adults age 50 and older.
@@ -74,7 +84,8 @@ ministries:
     primary_staff_key: jennifer_prows
   local_missions:
     title: Local Missions
-    description: Year-round community outreach serving neighbors in Lebanon through food assistance, practical help, seasonal events, and relationship-building.
+    description: Year-round community outreach serving neighbors in Lebanon through food assistance, practical help, seasonal
+      events, and relationship-building.
     aliases:
     - Local Missions
     - local outreach
@@ -125,3 +136,15 @@ ministries:
     aliases:
     - Golf Classic
     - Urbancrest golf tournament
+  technical_creative:
+    title: Technical and Creative
+    description: The staff ownership area for IT, Production, Creative, Website, video, livestream, audio, lighting, and church
+      technology.
+    aliases:
+    - IT
+    - Production
+    - Creative
+    - Website
+    - technology
+    - Technical and Creative
+    primary_staff_key: matthew_kirby
