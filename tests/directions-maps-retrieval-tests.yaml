@@ -1,0 +1,43 @@
+version: '1.0'
+last_updated: '2026-08-03'
+tests:
+- name: direct directions request
+  query: How do I get to the church?
+  expected:
+    preferred_record_id: visit.directions
+    required_action_links:
+    - action_link.directions_google
+    - action_link.directions_apple
+    answer_must_include:
+    - 2634 Drake Road
+    - Lebanon, Ohio 45036
+    - Google Maps
+    - Apple Maps
+    must_not_substitute:
+    - action_link.plan_visit
+    minimum_confidence: 95
+- name: urbancrest directions
+  query: Give me directions to Urbancrest
+  expected:
+    preferred_record_id: visit.directions
+    required_action_links:
+    - action_link.directions_google
+    - action_link.directions_apple
+    minimum_confidence: 95
+- name: find the church
+  query: How do I find the church?
+  expected:
+    detected_intent: directions
+    required_action_links:
+    - action_link.directions_google
+    - action_link.directions_apple
+- name: first visit regression
+  query: I'm visiting for the first time. What should I expect?
+  expected:
+    preserve_plan_visit_behavior: true
+    directions_bundle_not_required: true
+- name: service times regression
+  query: What time are Sunday services?
+  expected:
+    preserve_schedule_behavior: true
+    directions_bundle_not_required: true

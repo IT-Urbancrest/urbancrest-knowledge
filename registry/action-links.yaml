@@ -1,5 +1,5 @@
 version: '1.0'
-last_updated: '2026-07-27'
+last_updated: '2026-08-03'
 domain_rules:
   preferred_domain: urbancrest.church
   allowed_external_hosts:
@@ -86,8 +86,26 @@ links:
     - directions
     - location
     - first_visit
-    priority: 90
+    priority: 110
     external: true
+    bundle: directions_maps
+    include_with_bundle: true
+    aliases:
+    - Google Maps
+    - Google directions
+    - map directions
+    search_terms:
+    - How do I get to the church?
+    - How do I get to Urbancrest?
+    - Give me directions to Urbancrest
+    - Directions to the church
+    - Directions to Urbancrest
+    - Take me to Urbancrest
+    - Navigate to Urbancrest
+    - Map to Urbancrest
+    - How do I find the church?
+    - How do I get there?
+    answer_guidance: For a directions request, include this link together with the Apple Maps directions link.
   directions_apple:
     label: Get Directions on Apple Maps
     url: https://maps.apple.com/?daddr=2634+Drake+Rd,+Lebanon,+OH+45036
@@ -95,9 +113,31 @@ links:
     - directions
     - location
     - first_visit
-    priority: 80
+    priority: 110
     external: true
+    bundle: directions_maps
+    include_with_bundle: true
+    aliases:
+    - Apple Maps
+    - Apple directions
+    - map directions
+    search_terms:
+    - How do I get to the church?
+    - How do I get to Urbancrest?
+    - Give me directions to Urbancrest
+    - Directions to the church
+    - Directions to Urbancrest
+    - Take me to Urbancrest
+    - Navigate to Urbancrest
+    - Map to Urbancrest
+    - How do I find the church?
+    - How do I get there?
+    answer_guidance: For a directions request, include this link together with the Google Maps directions link.
 selection_rules:
 - Include one relevant action link at the end of an answer when it helps the user take a clear next step.
-- For service times, location, parking, what to expect, or first visit questions, prefer plan_visit.
+- For a directions intent, include every approved action link in the directions_maps bundle so the user can choose Google
+  Maps or Apple Maps.
+- For a directions intent, do not replace the map links with Plan Your Visit.
+- For service times, parking, what to expect, or broader first-visit questions that are not primarily directions requests,
+  prefer plan_visit.
 - Do not add an unrelated link merely because a link record matched one word in the question.

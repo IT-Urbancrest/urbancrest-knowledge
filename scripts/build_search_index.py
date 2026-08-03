@@ -751,6 +751,23 @@ def action_link_records() -> list[dict[str, Any]]:
     for key, link in data.get("links", {}).items():
         label = str(link.get("label") or key)
         intents = as_list(link.get("intents"))
+        aliases = as_list(link.get("aliases"))
+        configured_search_terms = as_list(link.get("search_terms"))
+        bundle = str(link.get("bundle") or "")
+        answer_guidance = str(link.get("answer_guidance") or "")
+
+        content_lines = [
+            f"Label: {label}",
+            f"URL: {link.get('url', '')}",
+            f"Intents: {', '.join(intents)}",
+        ]
+        if aliases:
+            content_lines.append(f"Aliases: {', '.join(aliases)}")
+        if bundle:
+            content_lines.append(f"Bundle: {bundle}")
+        if answer_guidance:
+            content_lines.append(f"Answer guidance: {answer_guidance}")
+
         records.append(
             record_base(
                 record_id=f"action_link.{key}",
@@ -758,16 +775,19 @@ def action_link_records() -> list[dict[str, Any]]:
                 path="registry/action-links.yaml",
                 title=label,
                 summary=f"Approved Urbancrest action link for {', '.join(intents)}.",
-                content=f"Label: {label}\nURL: {link.get('url', '')}\nIntents: {', '.join(intents)}",
+                content="\n".join(content_lines),
                 priority=int(link.get("priority") or 50),
                 category=["action_link"],
                 intents=intents,
-                tags=["action", "link", *intents],
-                search_terms=[label, *intents],
+                tags=["action", "link", *intents, *aliases],
+                search_terms=unique([label, *intents, *aliases, *configured_search_terms]),
                 action_key=key,
                 url=link.get("url"),
                 external=link.get("external", False),
                 church_center_modal=link.get("church_center_modal", False),
+                bundle=bundle,
+                include_with_bundle=bool(link.get("include_with_bundle", False)),
+                answer_guidance=answer_guidance,
             )
         )
     return records
