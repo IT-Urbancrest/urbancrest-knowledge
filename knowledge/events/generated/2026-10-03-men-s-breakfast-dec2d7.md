@@ -35,16 +35,16 @@ event_start: "2026-10-03T08:00:00-04:00"
 event_end: "2026-10-03T10:00:00-04:00"
 sort_start_utc: "2026-10-03T12:00:00Z"
 sort_end_utc: "2026-10-03T14:00:00Z"
-chronological_rank: 49
+chronological_rank: 46
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
 info_url: "https://urbancrest.churchcenter.com/calendar/event/168792298"
-image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=f7e8fa22115f444ecd7d33ef5a01cab77a10db6f0bb6216bf65ef201e996f77b"
+image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576"
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "168792298"
 planning_center_event_time_id: "30270334"
-last_generated: 2026-07-30T11:21:34.785245Z
+last_generated: 2026-08-03T10:06:31.283162Z
 ---
 
 # Men's Breakfast
@@ -59,6 +59,6 @@ Join us on the first Saturday of each month as the Legacy Builders host a Men's 
 
 **More information:** https://urbancrest.churchcenter.com/calendar/event/168792298
 
-**Event image:** https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=f7e8fa22115f444ecd7d33ef5a01cab77a10db6f0bb6216bf65ef201e996f77b
+**Event image:** https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
 
 This information is synchronized automatically from Urbancrest's live calendar.

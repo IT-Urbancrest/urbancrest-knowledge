@@ -35,9 +35,9 @@ event_start: "2026-08-08T10:00:00-04:00"
 event_end: "2026-08-08T12:00:00-04:00"
 sort_start_utc: "2026-08-08T14:00:00Z"
 sort_end_utc: "2026-08-08T16:00:00Z"
-chronological_rank: 10
-next_for_ministries: []
-next_for_audiences: []
+chronological_rank: 3
+next_for_ministries: ["students"]
+next_for_audiences: ["students", "volunteers"]
 all_day: false
 registration_url: "https://urbancrest.churchcenter.com/registrations/events/3609472"
 info_url: "https://urbancrest.churchcenter.com/calendar/event/221332807"
@@ -46,7 +46,7 @@ location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "221332807"
 planning_center_event_time_id: "30356739"
-last_generated: 2026-07-30T11:21:34.785245Z
+last_generated: 2026-08-03T10:06:31.283162Z
 ---
 
 # School Supplies Giveaway

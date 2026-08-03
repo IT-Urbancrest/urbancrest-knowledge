@@ -35,17 +35,17 @@ event_start: "2026-09-30T17:30:00-04:00"
 event_end: "2026-09-30T18:15:00-04:00"
 sort_start_utc: "2026-09-30T21:30:00Z"
 sort_end_utc: "2026-09-30T22:15:00Z"
-chronological_rank: 48
+chronological_rank: 45
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
 info_url: "https://urbancrest.churchcenter.com/calendar/event/230122710"
-image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2"
+image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243"
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "230122710"
 planning_center_event_time_id: "31870601"
-last_generated: 2026-07-30T11:21:34.785245Z
+last_generated: 2026-08-03T10:06:31.283162Z
 ---
 
 # Wednesday Night Dinner
@@ -98,6 +98,6 @@ Brownies
 
 **More information:** https://urbancrest.churchcenter.com/calendar/event/230122710
 
-**Event image:** https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+**Event image:** https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
 
 This information is synchronized automatically from Urbancrest's live calendar.

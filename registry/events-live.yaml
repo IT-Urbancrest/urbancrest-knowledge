@@ -1,11 +1,11 @@
 version: 1.4.3
-generated_at: '2026-07-30T11:21:34.785245Z'
+generated_at: '2026-08-03T10:06:31.283162Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api
 api_enrichment:
   enabled: true
-  target_instance_count: 424
-  matched_instance_count: 424
+  target_instance_count: 426
+  matched_instance_count: 426
   page_count: 8
   api_version: '2026-06-22'
 source_of_truth_for_calendar_intents: true
@@ -19,238 +19,6 @@ selection:
   policy: Protect all major and ministry events before lower-priority events.
 event_count: 150
 events:
-- id: event-e44fa0ff1817020b
-  uid: ET-29468516-216277428@resources.planningcenteronline.com
-  title: OPEN GYM Pickleball
-  summary: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
-  start: '2026-07-30T18:00:00-04:00'
-  end: '2026-07-30T20:00:00-04:00'
-  sort_start_utc: '2026-07-30T22:00:00Z'
-  sort_end_utc: '2026-07-31T00:00:00Z'
-  display_when: Thursday, July 30, 2026, 6 PM to 8 PM
-  all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.
-  planning_center_event_instance_id: '216277428'
-  planning_center_event_time_id: '29468516'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/216277428
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 1
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-07-30-open-gym-pickleball-17020b.md
-- id: event-4153d613419815ba
-  uid: ET-30270334-162302401@resources.planningcenteronline.com
-  title: Men's Breakfast
-  summary: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast.
-  start: '2026-08-01T08:00:00-04:00'
-  end: '2026-08-01T10:00:00-04:00'
-  sort_start_utc: '2026-08-01T12:00:00Z'
-  sort_end_utc: '2026-08-01T14:00:00Z'
-  display_when: Saturday, August 1, 2026, 8 AM to 10 AM
-  all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium at Urbancrest
-  planning_center_event_instance_id: '162302401'
-  planning_center_event_time_id: '30270334'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/162302401
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=f7e8fa22115f444ecd7d33ef5a01cab77a10db6f0bb6216bf65ef201e996f77b
-  ministries:
-  - men
-  audiences:
-  - men
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 2
-  next_for_ministries:
-  - men
-  next_for_audiences:
-  - men
-  knowledge_file: knowledge/events/generated/2026-08-01-men-s-breakfast-9815ba.md
-- id: event-751f744e0c4728eb
-  uid: ET-30334750-221178522@resources.planningcenteronline.com
-  title: Block Party – KOA Campground
-  summary: All are invited and welcome to attend a FREE Block Party at KOA Campground on Saturday morning, August 1 at 10:00 AM!...
-  start: '2026-08-01T10:00:00-04:00'
-  end: '2026-08-01T11:30:00-04:00'
-  sort_start_utc: '2026-08-01T14:00:00Z'
-  sort_end_utc: '2026-08-01T15:30:00Z'
-  display_when: Saturday, August 1, 2026, 10 AM to 11:30 AM
-  all_day: false
-  location: 'KOA Campground - 760 Franklin Rd
-
-    Lebanon, OH 45036'
-  description: 'All are invited and welcome to attend a FREE Block Party at KOA Campground on Saturday morning, August 1 at 10:00 AM!
-
-
-    What to Expect:
-
-    At our Block Parties, there is fun in store for the whole family! All can enjoy free food, games, train rides for kids, face painting, and more!
-
-
-    When:
-
-    Saturday, August 1 at 10:00 AM
-
-
-    Where:
-
-    KOA Campground, 760 Franklin Rd, Lebanon, OH 45036
-
-
-    Please reach out to Pastor Darrel with any questions at dschick@urbancrest.org.
-
-
-    If you are an Urbancrest member who would like to volunteer, please sign up HERE ( https://urbancrest.churchcenter.com/registrations/events/3596612 ).
-
-    Register: https://urbancrest.churchcenter.com/registrations/events/3606310'
-  details: "All are invited and welcome to attend a FREE Block Party at KOA Campground on Saturday morning, August 1 at 10:00 AM!\nWhat to Expect:\nAt our Block Parties, there is fun in store for the whole family! All can enjoy free food, games, train rides for kids, face painting, and more!\nWhen:\nSaturday, August 1 at 10:00 AM\nWhere:\nKOA Campground, 760 Franklin Rd, Lebanon, OH 45036\nPlease reach out to Pastor Darrel with any questions at \ndschick@urbancrest.org\n.\nIf you are an Urbancrest member who would like to volunteer, please sign up \nHERE\n."
-  details_source: planning_center_calendar_api
-  planning_center_event_instance_id: '221178522'
-  planning_center_event_time_id: '30334750'
-  registration_url: https://urbancrest.churchcenter.com/registrations/events/3606310
-  info_url: https://urbancrest.churchcenter.com/calendar/event/221178522
-  image_url: https://registrations-production.s3.amazonaws.com/uploads/event/logo/3606310/medium_image-1776883866676.jpeg
-  ministries:
-  - kids
-  audiences:
-  - children
-  - families
-  - volunteers
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 3
-  next_for_ministries:
-  - kids
-  next_for_audiences:
-  - children
-  - families
-  - volunteers
-  knowledge_file: knowledge/events/generated/2026-08-01-block-party-koa-campground-4728eb.md
-- id: event-3e670c31afa2ffdf
-  uid: ET-8762150-162432370@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2026-08-02T09:30:00-04:00'
-  end: '2026-08-02T10:30:00-04:00'
-  sort_start_utc: '2026-08-02T13:30:00Z'
-  sort_end_utc: '2026-08-02T14:30:00Z'
-  display_when: Sunday, August 2, 2026, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '162432370'
-  planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/162432370
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 4
-  next_for_ministries:
-  - students
-  next_for_audiences:
-  - students
-  knowledge_file: knowledge/events/generated/2026-08-02-p-u-r-s-u-e-a2ffdf.md
-- id: event-c50b2568e3a71a63
-  uid: ET-9127131-162432371@resources.planningcenteronline.com
-  title: 'Sunday Morning Services: 9:30 AM Service'
-  summary: Join us in person or online!...
-  start: '2026-08-02T09:30:00-04:00'
-  end: '2026-08-02T10:40:00-04:00'
-  sort_start_utc: '2026-08-02T13:30:00Z'
-  sort_end_utc: '2026-08-02T14:40:00Z'
-  display_when: Sunday, August 2, 2026, 9:30 AM to 10:40 AM
-  all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
-  planning_center_event_instance_id: '162432371'
-  planning_center_event_time_id: '9127131'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/162432371
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 5
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-08-02-sunday-morning-services-9-30-am-service-a71a63.md
-- id: event-cff00c9015feeae6
-  uid: ET-9127132-162432371@resources.planningcenteronline.com
-  title: 'Sunday Morning Services: 11:00 AM Service'
-  summary: Join us in person or online!...
-  start: '2026-08-02T11:00:00-04:00'
-  end: '2026-08-02T12:10:00-04:00'
-  sort_start_utc: '2026-08-02T15:00:00Z'
-  sort_end_utc: '2026-08-02T16:10:00Z'
-  display_when: Sunday, August 2, 2026, 11 AM to 12:10 PM
-  all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
-  planning_center_event_instance_id: '162432371'
-  planning_center_event_time_id: '9127132'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/162432371
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 6
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-08-02-sunday-morning-services-11-00-am-service-feeae6.md
-- id: event-208ae73f105cc125
-  uid: ET-31579190-228356604@resources.planningcenteronline.com
-  title: Leah Busick Open House Reception
-  summary: "Join us as we celebrate \nLeah Busick\n and her faithful ministry at Urbancrest Church!..."
-  start: '2026-08-02T16:00:00-04:00'
-  end: '2026-08-02T18:00:00-04:00'
-  sort_start_utc: '2026-08-02T20:00:00Z'
-  sort_end_utc: '2026-08-02T22:00:00Z'
-  display_when: Sunday, August 2, 2026, 4 PM to 6 PM
-  all_day: false
-  details: "Join us as we celebrate \nLeah Busick\n and her faithful ministry at Urbancrest Church!\nAfter serving as our \nKids Ministry Director for the past 15 years\n, Leah is beginning an exciting new chapter as \nVice Principal at Lebanon Christian Schools\n. We are incredibly grateful for the countless ways she has invested in children, families, and our church, and we'd love for you to help us thank her and wish her well.\nStop by for a time of fellowship, encouragement, and celebration on \nSunday, August 2, from 4:00–6:00 PM\n in the \nUrbancrest Gymnasium\n. \nCoffee, cake, and donuts\n will be provided.\nWhether you served alongside Leah, your family was impacted by her ministry, or you'd simply like to express your appreciation, we hope you'll join us as we celebrate God's faithfulness through her years of service and pray for her as she begins this new season."
-  details_source: planning_center_calendar_api
-  planning_center_event_instance_id: '228356604'
-  planning_center_event_time_id: '31579190'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/228356604
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fqlupk1p7fxcw9np98am5l891a4qz&thumb=960x540%23&signature=3daf853ea8fbfa492542b83135518de27eba6d86317fdee0f36177c114f6b1d9
-  ministries:
-  - kids
-  audiences:
-  - children
-  - families
-  - volunteers
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 7
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-08-02-leah-busick-open-house-reception-5cc125.md
 - id: event-3d8d12fc8dd1508d
   uid: ET-28363612-162521895@resources.planningcenteronline.com
   title: Card Ministry
@@ -273,7 +41,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 8
+  chronological_rank: 1
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-04-card-ministry-d1508d.md
@@ -300,7 +68,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 9
+  chronological_rank: 2
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-06-open-gym-pickleball-43c57b.md
@@ -354,9 +122,12 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 10
-  next_for_ministries: []
-  next_for_audiences: []
+  chronological_rank: 3
+  next_for_ministries:
+  - students
+  next_for_audiences:
+  - students
+  - volunteers
   knowledge_file: knowledge/events/generated/2026-08-08-school-supplies-giveaway-ee30e0.md
 - id: event-c53a75611600c910
   uid: ET-29881460-218655788@resources.planningcenteronline.com
@@ -380,7 +151,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 11
+  chronological_rank: 4
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-08-backpack-giveaway-event-00c910.md
@@ -407,7 +178,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 12
+  chronological_rank: 5
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-09-p-u-r-s-u-e-9d1d2c.md
@@ -434,7 +205,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 13
+  chronological_rank: 6
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-09-sunday-morning-services-9-30-am-service-408f37.md
@@ -461,7 +232,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 14
+  chronological_rank: 7
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-09-sunday-morning-services-11-00-am-service-6bb742.md
@@ -494,7 +265,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 15
+  chronological_rank: 8
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-12-youth-back-to-school-bash-37ba8f.md
@@ -521,7 +292,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 16
+  chronological_rank: 9
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-13-open-gym-pickleball-a267ab.md
@@ -548,7 +319,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 17
+  chronological_rank: 10
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-16-p-u-r-s-u-e-27cc47.md
@@ -575,7 +346,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 18
+  chronological_rank: 11
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-16-sunday-morning-services-9-30-am-service-e226b5.md
@@ -602,7 +373,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 19
+  chronological_rank: 12
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-16-sunday-morning-services-11-00-am-service-684864.md
@@ -630,9 +401,10 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 20
+  chronological_rank: 13
   next_for_ministries: []
-  next_for_audiences: []
+  next_for_audiences:
+  - families
   knowledge_file: knowledge/events/generated/2026-08-19-monthly-baskets-of-hope-volunteers-80df8e.md
 - id: event-a39548cd605a3ff2
   uid: ET-31487702-227855427@resources.planningcenteronline.com
@@ -702,9 +474,13 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 21
-  next_for_ministries: []
-  next_for_audiences: []
+  chronological_rank: 14
+  next_for_ministries:
+  - kids
+  - men
+  next_for_audiences:
+  - children
+  - men
   knowledge_file: knowledge/events/generated/2026-08-19-awana-2026-2027-5a3ff2.md
 - id: event-04b13efc65307382
   uid: ET-29468516-216277431@resources.planningcenteronline.com
@@ -729,7 +505,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 22
+  chronological_rank: 15
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-20-open-gym-pickleball-307382.md
@@ -810,7 +586,7 @@ events:
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 23
+  chronological_rank: 16
   next_for_ministries:
   - sports
   next_for_audiences: []
@@ -838,7 +614,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 24
+  chronological_rank: 17
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-23-p-u-r-s-u-e-db0b00.md
@@ -865,7 +641,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 25
+  chronological_rank: 18
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-23-sunday-morning-services-9-30-am-service-23a343.md
@@ -892,7 +668,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 26
+  chronological_rank: 19
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-23-sunday-morning-services-11-00-am-service-4475b5.md
@@ -981,7 +757,7 @@ events:
   planning_center_event_instance_id: '230122705'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122705
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -990,7 +766,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 27
+  chronological_rank: 20
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-26-wednesday-night-dinner-31bf8a.md
@@ -1062,7 +838,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 28
+  chronological_rank: 21
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-26-awana-2026-2027-82128d.md
@@ -1089,7 +865,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 29
+  chronological_rank: 22
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-27-open-gym-pickleball-e0bc06.md
@@ -1116,7 +892,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 30
+  chronological_rank: 23
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-30-p-u-r-s-u-e-63faac.md
@@ -1143,7 +919,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 31
+  chronological_rank: 24
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-30-sunday-morning-services-9-30-am-service-faf099.md
@@ -1170,7 +946,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 32
+  chronological_rank: 25
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-30-sunday-morning-services-11-00-am-service-80f4a3.md
@@ -1196,7 +972,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 33
+  chronological_rank: 26
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-01-card-ministry-7202ff.md
@@ -1285,7 +1061,7 @@ events:
   planning_center_event_instance_id: '230122706'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122706
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -1294,7 +1070,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 34
+  chronological_rank: 27
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-02-wednesday-night-dinner-8cbe52.md
@@ -1366,7 +1142,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 35
+  chronological_rank: 28
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-02-awana-2026-2027-b657f3.md
@@ -1393,7 +1169,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 36
+  chronological_rank: 29
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-03-open-gym-pickleball-473ecc.md
@@ -1412,7 +1188,7 @@ events:
   planning_center_event_instance_id: '166086980'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/166086980
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=f7e8fa22115f444ecd7d33ef5a01cab77a10db6f0bb6216bf65ef201e996f77b
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
   audiences:
@@ -1421,7 +1197,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 37
+  chronological_rank: 30
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-05-men-s-breakfast-336f62.md
@@ -1448,7 +1224,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 38
+  chronological_rank: 31
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-06-p-u-r-s-u-e-7f42b9.md
@@ -1475,10 +1251,37 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 39
+  chronological_rank: 32
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-06-sunday-morning-services-9-30-am-service-3e5884.md
+- id: event-d51c8e6d158a985a
+  uid: ET-9127132-166271992@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-09-06T11:00:00-04:00'
+  end: '2026-09-06T12:10:00-04:00'
+  sort_start_utc: '2026-09-06T15:00:00Z'
+  sort_end_utc: '2026-09-06T16:10:00Z'
+  display_when: Sunday, September 6, 2026, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '166271992'
+  planning_center_event_time_id: '9127132'
+  info_url: https://urbancrest.churchcenter.com/calendar/event/166271992
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 33
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-06-sunday-morning-services-11-00-am-service-8a985a.md
 - id: event-603382a30ef2ed46
   uid: ET-31870601-230122707@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -1564,7 +1367,7 @@ events:
   planning_center_event_instance_id: '230122707'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122707
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -1573,7 +1376,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 40
+  chronological_rank: 34
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-09-wednesday-night-dinner-f2ed46.md
@@ -1645,10 +1448,37 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 41
+  chronological_rank: 35
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-09-awana-2026-2027-ca71ea.md
+- id: event-b9f5a417bbfe7030
+  uid: ET-29468516-216277434@resources.planningcenteronline.com
+  title: OPEN GYM Pickleball
+  summary: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
+  start: '2026-09-10T18:00:00-04:00'
+  end: '2026-09-10T20:00:00-04:00'
+  sort_start_utc: '2026-09-10T22:00:00Z'
+  sort_end_utc: '2026-09-11T00:00:00Z'
+  display_when: Thursday, September 10, 2026, 6 PM to 8 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.
+  planning_center_event_instance_id: '216277434'
+  planning_center_event_time_id: '29468516'
+  info_url: https://urbancrest.churchcenter.com/calendar/event/216277434
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 36
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-10-open-gym-pickleball-fe7030.md
 - id: event-704ef786f2300fb0
   uid: ET-8762150-167074214@resources.planningcenteronline.com
   title: P U R S U E
@@ -1672,10 +1502,64 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 42
+  chronological_rank: 37
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-13-p-u-r-s-u-e-300fb0.md
+- id: event-a417c1725cb32add
+  uid: ET-9127131-167074215@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-09-13T09:30:00-04:00'
+  end: '2026-09-13T10:40:00-04:00'
+  sort_start_utc: '2026-09-13T13:30:00Z'
+  sort_end_utc: '2026-09-13T14:40:00Z'
+  display_when: Sunday, September 13, 2026, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '167074215'
+  planning_center_event_time_id: '9127131'
+  info_url: https://urbancrest.churchcenter.com/calendar/event/167074215
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 38
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-13-sunday-morning-services-9-30-am-service-b32add.md
+- id: event-d86eca8c10153e7f
+  uid: ET-9127132-167074215@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-09-13T11:00:00-04:00'
+  end: '2026-09-13T12:10:00-04:00'
+  sort_start_utc: '2026-09-13T15:00:00Z'
+  sort_end_utc: '2026-09-13T16:10:00Z'
+  display_when: Sunday, September 13, 2026, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '167074215'
+  planning_center_event_time_id: '9127132'
+  info_url: https://urbancrest.churchcenter.com/calendar/event/167074215
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 39
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-13-sunday-morning-services-11-00-am-service-153e7f.md
 - id: event-8536fe3c9889e119
   uid: ET-31870601-230122708@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -1761,7 +1645,7 @@ events:
   planning_center_event_instance_id: '230122708'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122708
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -1770,7 +1654,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 43
+  chronological_rank: 40
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-16-wednesday-night-dinner-89e119.md
@@ -1797,7 +1681,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 44
+  chronological_rank: 41
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-20-p-u-r-s-u-e-f8f18d.md
@@ -1886,7 +1770,7 @@ events:
   planning_center_event_instance_id: '230122709'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122709
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -1895,7 +1779,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 45
+  chronological_rank: 42
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-23-wednesday-night-dinner-c7bf0d.md
@@ -1922,7 +1806,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 46
+  chronological_rank: 43
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-27-p-u-r-s-u-e-724217.md
@@ -1951,7 +1835,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 47
+  chronological_rank: 44
   next_for_ministries:
   - women
   next_for_audiences:
@@ -2042,7 +1926,7 @@ events:
   planning_center_event_instance_id: '230122710'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122710
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -2051,7 +1935,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 48
+  chronological_rank: 45
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-30-wednesday-night-dinner-36f49b.md
@@ -2070,7 +1954,7 @@ events:
   planning_center_event_instance_id: '168792298'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/168792298
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=f7e8fa22115f444ecd7d33ef5a01cab77a10db6f0bb6216bf65ef201e996f77b
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
   audiences:
@@ -2079,7 +1963,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 49
+  chronological_rank: 46
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-03-men-s-breakfast-dec2d7.md
@@ -2106,7 +1990,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 50
+  chronological_rank: 47
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-04-p-u-r-s-u-e-e5c34f.md
@@ -2142,7 +2026,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 51
+  chronological_rank: 48
   next_for_ministries:
   - worship
   next_for_audiences: []
@@ -2232,7 +2116,7 @@ events:
   planning_center_event_instance_id: '230122711'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122711
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -2241,7 +2125,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 52
+  chronological_rank: 49
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-07-wednesday-night-dinner-9fc5ad.md
@@ -2268,7 +2152,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 53
+  chronological_rank: 50
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-11-p-u-r-s-u-e-8f8f87.md
@@ -2357,7 +2241,7 @@ events:
   planning_center_event_instance_id: '230122712'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122712
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -2366,10 +2250,52 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 54
+  chronological_rank: 51
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-14-wednesday-night-dinner-d9103e.md
+- id: event-7b60e9c4c5af3c3f
+  uid: ET-31936721-230615455@resources.planningcenteronline.com
+  title: Urbancrest Women's Conference
+  summary: Join us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God....
+  start: '2026-10-17T09:00:00-04:00'
+  end: '2026-10-17T15:00:00-04:00'
+  sort_start_utc: '2026-10-17T13:00:00Z'
+  sort_end_utc: '2026-10-17T19:00:00Z'
+  display_when: Saturday, October 17, 2026, 9 AM to 3 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: 'Join us for the Urbancrest Women’s Conference ''Known & Loved'' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.
+
+
+    This year’s keynote speaker is Barb Roose, who will challenge and encourage women to grow in their faith and walk confidently in God’s truth.
+
+
+    Doors open at 8:00 AM, and the cost is just $5, which includes lunch (more details coming soon). Invite a friend and make plans to be part of this special day together.
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/3791849'
+  details: "Join us for the Urbancrest Women’s Conference 'Known & Loved' on \nSaturday, October 17\n for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.\nThis year’s keynote speaker is \nBarb Roose\n, who will challenge and encourage women to grow in their faith and walk confidently in God’s truth.\nDoors open at \n8:00 AM\n, and the cost is just \n$5\n, which includes lunch (more details coming soon). Invite a friend and make plans to be part of this special day together."
+  details_source: planning_center_calendar_api
+  planning_center_event_instance_id: '230615455'
+  planning_center_event_time_id: '31936721'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3791849
+  info_url: https://urbancrest.churchcenter.com/calendar/event/230615455
+  image_url: https://registrations-production.s3.amazonaws.com/uploads/event/logo/3791849/medium_image-1785669189641.jpeg
+  ministries:
+  - men
+  - women
+  - worship
+  audiences:
+  - men
+  - women
+  event_category: major_event
+  event_priority: 100
+  collection: main_events
+  status: confirmed
+  chronological_rank: 52
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-10-17-urbancrest-women-s-conference-af3c3f.md
 - id: event-9d496596f1bf84ac
   uid: ET-27323186-203958381@resources.planningcenteronline.com
   title: Women's Conference
@@ -2396,7 +2322,7 @@ events:
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 55
+  chronological_rank: 53
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-17-women-s-conference-bf84ac.md
@@ -2423,7 +2349,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 56
+  chronological_rank: 54
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-18-p-u-r-s-u-e-2350e7.md
@@ -2512,7 +2438,7 @@ events:
   planning_center_event_instance_id: '230122713'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122713
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -2521,7 +2447,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 57
+  chronological_rank: 55
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-21-wednesday-night-dinner-0edf1f.md
@@ -2548,7 +2474,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 58
+  chronological_rank: 56
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-25-p-u-r-s-u-e-3a39cd.md
@@ -2637,7 +2563,7 @@ events:
   planning_center_event_instance_id: '230122714'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122714
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -2646,7 +2572,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 59
+  chronological_rank: 57
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-28-wednesday-night-dinner-acac27.md
@@ -2673,7 +2599,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 60
+  chronological_rank: 58
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-01-p-u-r-s-u-e-96a55e.md
@@ -2762,7 +2688,7 @@ events:
   planning_center_event_instance_id: '230122715'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122715
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -2771,7 +2697,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 61
+  chronological_rank: 59
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-04-wednesday-night-dinner-55fdc7.md
@@ -2790,7 +2716,7 @@ events:
   planning_center_event_instance_id: '171450066'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/171450066
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=f7e8fa22115f444ecd7d33ef5a01cab77a10db6f0bb6216bf65ef201e996f77b
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
   audiences:
@@ -2799,7 +2725,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 62
+  chronological_rank: 60
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-07-men-s-breakfast-b349ea.md
@@ -2826,7 +2752,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 63
+  chronological_rank: 61
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-08-p-u-r-s-u-e-4c1a4d.md
@@ -2915,7 +2841,7 @@ events:
   planning_center_event_instance_id: '230122716'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122716
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -2924,10 +2850,40 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 64
+  chronological_rank: 62
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-11-wednesday-night-dinner-af1c1c.md
+- id: event-1c0771e7f499f87a
+  uid: ET-31924846-230487173@resources.planningcenteronline.com
+  title: Youth Fall Retreat
+  summary: November 13-15, 2026 is a weekend you will not forget!
+  start: '2026-11-13'
+  end: '2026-11-16'
+  sort_start_utc: '2026-11-13T05:00:00Z'
+  sort_end_utc: '2026-11-16T05:00:00Z'
+  display_when: Friday, November 13, 2026 through Sunday, November 15, 2026
+  all_day: true
+  location: 'Butler Springs Christian Camp - 3701 State Rte 41
+
+    Hillsboro, OH 45133'
+  description: November 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area of our lives!
+  planning_center_event_instance_id: '230487173'
+  planning_center_event_time_id: '31924846'
+  info_url: https://urbancrest.churchcenter.com/calendar/event/230487173
+  image_url: https://registrations-production.s3.amazonaws.com/uploads/event/logo/3790005/medium_image-1785514673084.jpeg
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: major_event
+  event_priority: 100
+  collection: main_events
+  status: confirmed
+  chronological_rank: 63
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-13-youth-fall-retreat-99f87a.md
 - id: event-1652bc35e5b86e1d
   uid: ET-8762150-172162011@resources.planningcenteronline.com
   title: P U R S U E
@@ -2951,7 +2907,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 65
+  chronological_rank: 64
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-15-p-u-r-s-u-e-b86e1d.md
@@ -3040,7 +2996,7 @@ events:
   planning_center_event_instance_id: '230122717'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122717
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -3049,7 +3005,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 66
+  chronological_rank: 65
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-18-wednesday-night-dinner-cf53fb.md
@@ -3076,7 +3032,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 67
+  chronological_rank: 66
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-22-p-u-r-s-u-e-c3d97b.md
@@ -3165,7 +3121,7 @@ events:
   planning_center_event_instance_id: '230122718'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122718
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -3174,7 +3130,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 68
+  chronological_rank: 67
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-25-wednesday-night-dinner-77d08c.md
@@ -3201,7 +3157,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 69
+  chronological_rank: 68
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-29-p-u-r-s-u-e-80f80e.md
@@ -3290,7 +3246,7 @@ events:
   planning_center_event_instance_id: '230122719'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122719
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -3299,7 +3255,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 70
+  chronological_rank: 69
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-02-wednesday-night-dinner-809fdf.md
@@ -3318,7 +3274,7 @@ events:
   planning_center_event_instance_id: '173559224'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/173559224
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=f7e8fa22115f444ecd7d33ef5a01cab77a10db6f0bb6216bf65ef201e996f77b
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
   audiences:
@@ -3327,7 +3283,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 71
+  chronological_rank: 70
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-05-men-s-breakfast-549ccc.md
@@ -3354,7 +3310,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 72
+  chronological_rank: 71
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-06-p-u-r-s-u-e-e5b958.md
@@ -3383,7 +3339,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 73
+  chronological_rank: 72
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-06-women-s-christmas-event-d6795d.md
@@ -3472,7 +3428,7 @@ events:
   planning_center_event_instance_id: '230122720'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122720
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -3481,7 +3437,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 74
+  chronological_rank: 73
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-09-wednesday-night-dinner-6f6ed6.md
@@ -3508,7 +3464,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 75
+  chronological_rank: 74
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-13-p-u-r-s-u-e-e9bfa2.md
@@ -3597,7 +3553,7 @@ events:
   planning_center_event_instance_id: '230122721'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122721
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -3606,7 +3562,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 76
+  chronological_rank: 75
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-16-wednesday-night-dinner-d35842.md
@@ -3633,7 +3589,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 77
+  chronological_rank: 76
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-20-p-u-r-s-u-e-0fd347.md
@@ -3722,7 +3678,7 @@ events:
   planning_center_event_instance_id: '230122722'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122722
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -3731,7 +3687,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 78
+  chronological_rank: 77
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-23-wednesday-night-dinner-8995f6.md
@@ -3758,7 +3714,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 79
+  chronological_rank: 78
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-27-p-u-r-s-u-e-440985.md
@@ -3847,7 +3803,7 @@ events:
   planning_center_event_instance_id: '230122723'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122723
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -3856,7 +3812,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 80
+  chronological_rank: 79
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-30-wednesday-night-dinner-85ac1d.md
@@ -3875,7 +3831,7 @@ events:
   planning_center_event_instance_id: '175505238'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/175505238
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=f7e8fa22115f444ecd7d33ef5a01cab77a10db6f0bb6216bf65ef201e996f77b
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
   audiences:
@@ -3884,7 +3840,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 81
+  chronological_rank: 80
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-02-men-s-breakfast-3d2c83.md
@@ -3911,7 +3867,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 82
+  chronological_rank: 81
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-03-p-u-r-s-u-e-b9a311.md
@@ -4000,7 +3956,7 @@ events:
   planning_center_event_instance_id: '230122724'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122724
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -4009,7 +3965,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 83
+  chronological_rank: 82
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-06-wednesday-night-dinner-cd86db.md
@@ -4036,7 +3992,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 84
+  chronological_rank: 83
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-10-p-u-r-s-u-e-573975.md
@@ -4125,7 +4081,7 @@ events:
   planning_center_event_instance_id: '230122725'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122725
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -4134,7 +4090,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 85
+  chronological_rank: 84
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-13-wednesday-night-dinner-ed64ec.md
@@ -4161,7 +4117,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 86
+  chronological_rank: 85
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-17-p-u-r-s-u-e-849556.md
@@ -4250,7 +4206,7 @@ events:
   planning_center_event_instance_id: '230122726'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122726
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -4259,7 +4215,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 87
+  chronological_rank: 86
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-20-wednesday-night-dinner-c3c878.md
@@ -4286,7 +4242,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 88
+  chronological_rank: 87
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-24-p-u-r-s-u-e-696271.md
@@ -4375,7 +4331,7 @@ events:
   planning_center_event_instance_id: '230122727'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122727
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -4384,7 +4340,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 89
+  chronological_rank: 88
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-27-wednesday-night-dinner-e92330.md
@@ -4409,7 +4365,7 @@ events:
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 90
+  chronological_rank: 89
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-28-summit-gym-set-up-50aaa2.md
@@ -4436,7 +4392,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 91
+  chronological_rank: 90
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-31-p-u-r-s-u-e-0ad28e.md
@@ -4525,7 +4481,7 @@ events:
   planning_center_event_instance_id: '230122728'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122728
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -4534,7 +4490,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 92
+  chronological_rank: 91
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-03-wednesday-night-dinner-56372f.md
@@ -4553,7 +4509,7 @@ events:
   planning_center_event_instance_id: '179599397'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/179599397
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=f7e8fa22115f444ecd7d33ef5a01cab77a10db6f0bb6216bf65ef201e996f77b
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
   audiences:
@@ -4562,7 +4518,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 93
+  chronological_rank: 92
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-06-men-s-breakfast-fa0b3e.md
@@ -4589,7 +4545,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 94
+  chronological_rank: 93
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-07-p-u-r-s-u-e-5d7610.md
@@ -4678,7 +4634,7 @@ events:
   planning_center_event_instance_id: '230122729'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122729
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -4687,7 +4643,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 95
+  chronological_rank: 94
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-10-wednesday-night-dinner-818c3d.md
@@ -4714,7 +4670,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 96
+  chronological_rank: 95
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-14-p-u-r-s-u-e-b0cdee.md
@@ -4803,7 +4759,7 @@ events:
   planning_center_event_instance_id: '230122730'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122730
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -4812,7 +4768,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 97
+  chronological_rank: 96
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-17-wednesday-night-dinner-e2ee59.md
@@ -4839,7 +4795,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 98
+  chronological_rank: 97
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-21-p-u-r-s-u-e-0f2ef6.md
@@ -4928,7 +4884,7 @@ events:
   planning_center_event_instance_id: '230122731'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122731
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -4937,7 +4893,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 99
+  chronological_rank: 98
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-24-wednesday-night-dinner-8f0b45.md
@@ -4964,7 +4920,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 100
+  chronological_rank: 99
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-28-p-u-r-s-u-e-c08e98.md
@@ -5053,7 +5009,7 @@ events:
   planning_center_event_instance_id: '230122732'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122732
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -5062,7 +5018,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 101
+  chronological_rank: 100
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-03-wednesday-night-dinner-8fb3dd.md
@@ -5081,7 +5037,7 @@ events:
   planning_center_event_instance_id: '182177829'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/182177829
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=f7e8fa22115f444ecd7d33ef5a01cab77a10db6f0bb6216bf65ef201e996f77b
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
   audiences:
@@ -5090,7 +5046,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 102
+  chronological_rank: 101
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-06-men-s-breakfast-b236b5.md
@@ -5117,7 +5073,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 103
+  chronological_rank: 102
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-07-p-u-r-s-u-e-030fbd.md
@@ -5206,7 +5162,7 @@ events:
   planning_center_event_instance_id: '230122733'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122733
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -5215,7 +5171,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 104
+  chronological_rank: 103
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-10-wednesday-night-dinner-48508a.md
@@ -5242,7 +5198,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 105
+  chronological_rank: 104
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-14-p-u-r-s-u-e-790e5a.md
@@ -5331,7 +5287,7 @@ events:
   planning_center_event_instance_id: '230122734'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122734
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -5340,7 +5296,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 106
+  chronological_rank: 105
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-17-wednesday-night-dinner-ab6c0d.md
@@ -5367,7 +5323,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 107
+  chronological_rank: 106
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-21-p-u-r-s-u-e-217b95.md
@@ -5456,7 +5412,7 @@ events:
   planning_center_event_instance_id: '230122735'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122735
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -5465,7 +5421,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 108
+  chronological_rank: 107
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-24-wednesday-night-dinner-46db45.md
@@ -5492,7 +5448,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 109
+  chronological_rank: 108
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-28-p-u-r-s-u-e-b2c788.md
@@ -5581,7 +5537,7 @@ events:
   planning_center_event_instance_id: '230122736'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122736
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -5590,7 +5546,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 110
+  chronological_rank: 109
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-31-wednesday-night-dinner-fc63a5.md
@@ -5609,7 +5565,7 @@ events:
   planning_center_event_instance_id: '184574784'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/184574784
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=f7e8fa22115f444ecd7d33ef5a01cab77a10db6f0bb6216bf65ef201e996f77b
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
   audiences:
@@ -5618,7 +5574,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 111
+  chronological_rank: 110
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-03-men-s-breakfast-069bd4.md
@@ -5645,7 +5601,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 112
+  chronological_rank: 111
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-04-p-u-r-s-u-e-2e9727.md
@@ -5671,7 +5627,7 @@ events:
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 113
+  chronological_rank: 112
   next_for_ministries:
   - missions
   next_for_audiences: []
@@ -5761,7 +5717,7 @@ events:
   planning_center_event_instance_id: '230122737'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122737
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -5770,7 +5726,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 114
+  chronological_rank: 113
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-07-wednesday-night-dinner-8df64a.md
@@ -5797,7 +5753,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 115
+  chronological_rank: 114
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-11-p-u-r-s-u-e-93c2dd.md
@@ -5886,7 +5842,7 @@ events:
   planning_center_event_instance_id: '230122738'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122738
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -5895,7 +5851,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 116
+  chronological_rank: 115
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-14-wednesday-night-dinner-e2d05a.md
@@ -5922,7 +5878,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 117
+  chronological_rank: 116
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-18-p-u-r-s-u-e-e41c24.md
@@ -6011,7 +5967,7 @@ events:
   planning_center_event_instance_id: '230122739'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122739
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -6020,7 +5976,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 118
+  chronological_rank: 117
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-21-wednesday-night-dinner-0a84c3.md
@@ -6050,7 +6006,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 119
+  chronological_rank: 118
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-24-3v3-basketball-tournament-d9f0d6.md
@@ -6077,7 +6033,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 120
+  chronological_rank: 119
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-25-p-u-r-s-u-e-95a8d5.md
@@ -6166,7 +6122,7 @@ events:
   planning_center_event_instance_id: '230122740'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122740
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -6175,7 +6131,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 121
+  chronological_rank: 120
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-28-wednesday-night-dinner-6a7394.md
@@ -6194,7 +6150,7 @@ events:
   planning_center_event_instance_id: '186694422'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/186694422
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=f7e8fa22115f444ecd7d33ef5a01cab77a10db6f0bb6216bf65ef201e996f77b
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
   audiences:
@@ -6203,7 +6159,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 122
+  chronological_rank: 121
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-01-men-s-breakfast-d1cfba.md
@@ -6230,7 +6186,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 123
+  chronological_rank: 122
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-02-p-u-r-s-u-e-c4a599.md
@@ -6319,7 +6275,7 @@ events:
   planning_center_event_instance_id: '230122741'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122741
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -6328,7 +6284,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 124
+  chronological_rank: 123
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-05-wednesday-night-dinner-30e195.md
@@ -6355,7 +6311,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 125
+  chronological_rank: 124
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-09-p-u-r-s-u-e-585e9e.md
@@ -6444,7 +6400,7 @@ events:
   planning_center_event_instance_id: '230122742'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122742
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -6453,7 +6409,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 126
+  chronological_rank: 125
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-12-wednesday-night-dinner-e125ce.md
@@ -6480,7 +6436,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 127
+  chronological_rank: 126
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-16-p-u-r-s-u-e-5b41df.md
@@ -6569,7 +6525,7 @@ events:
   planning_center_event_instance_id: '230122743'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122743
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -6578,7 +6534,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 128
+  chronological_rank: 127
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-19-wednesday-night-dinner-0df29f.md
@@ -6605,7 +6561,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 129
+  chronological_rank: 128
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-23-p-u-r-s-u-e-471aa6.md
@@ -6694,7 +6650,7 @@ events:
   planning_center_event_instance_id: '230122744'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122744
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -6703,7 +6659,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 130
+  chronological_rank: 129
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-26-wednesday-night-dinner-46fce3.md
@@ -6730,7 +6686,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 131
+  chronological_rank: 130
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-30-p-u-r-s-u-e-518e4a.md
@@ -6819,7 +6775,7 @@ events:
   planning_center_event_instance_id: '230122745'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122745
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -6828,7 +6784,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 132
+  chronological_rank: 131
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-02-wednesday-night-dinner-ba0347.md
@@ -6847,7 +6803,7 @@ events:
   planning_center_event_instance_id: '189635733'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/189635733
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=f7e8fa22115f444ecd7d33ef5a01cab77a10db6f0bb6216bf65ef201e996f77b
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
   audiences:
@@ -6856,7 +6812,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 133
+  chronological_rank: 132
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-05-men-s-breakfast-456a52.md
@@ -6883,7 +6839,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 134
+  chronological_rank: 133
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-06-p-u-r-s-u-e-57106e.md
@@ -6972,7 +6928,7 @@ events:
   planning_center_event_instance_id: '230122746'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122746
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -6981,7 +6937,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 135
+  chronological_rank: 134
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-09-wednesday-night-dinner-764b7d.md
@@ -7008,7 +6964,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 136
+  chronological_rank: 135
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-13-p-u-r-s-u-e-951848.md
@@ -7097,7 +7053,7 @@ events:
   planning_center_event_instance_id: '230122747'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122747
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -7106,7 +7062,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 137
+  chronological_rank: 136
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-16-wednesday-night-dinner-6fef1b.md
@@ -7133,7 +7089,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 138
+  chronological_rank: 137
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-20-p-u-r-s-u-e-d091a4.md
@@ -7222,7 +7178,7 @@ events:
   planning_center_event_instance_id: '230122748'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122748
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -7231,7 +7187,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 139
+  chronological_rank: 138
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-23-wednesday-night-dinner-8a9a7f.md
@@ -7258,7 +7214,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 140
+  chronological_rank: 139
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-27-p-u-r-s-u-e-3a7cb2.md
@@ -7347,7 +7303,7 @@ events:
   planning_center_event_instance_id: '230122749'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122749
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -7356,7 +7312,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 141
+  chronological_rank: 140
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-30-wednesday-night-dinner-34486c.md
@@ -7375,7 +7331,7 @@ events:
   planning_center_event_instance_id: '191939841'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/191939841
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=f7e8fa22115f444ecd7d33ef5a01cab77a10db6f0bb6216bf65ef201e996f77b
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
   audiences:
@@ -7384,7 +7340,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 142
+  chronological_rank: 141
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-07-03-men-s-breakfast-7dcbd4.md
@@ -7411,7 +7367,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 143
+  chronological_rank: 142
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-07-04-p-u-r-s-u-e-9b16ca.md
@@ -7500,7 +7456,7 @@ events:
   planning_center_event_instance_id: '230122750'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122750
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -7509,7 +7465,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 144
+  chronological_rank: 143
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-07-07-wednesday-night-dinner-36b6bb.md
@@ -7536,7 +7492,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 145
+  chronological_rank: 144
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-07-11-p-u-r-s-u-e-652bc6.md
@@ -7625,7 +7581,7 @@ events:
   planning_center_event_instance_id: '230122751'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122751
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -7634,7 +7590,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 146
+  chronological_rank: 145
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-07-14-wednesday-night-dinner-e48c19.md
@@ -7661,7 +7617,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 147
+  chronological_rank: 146
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-07-18-p-u-r-s-u-e-eb405a.md
@@ -7750,7 +7706,7 @@ events:
   planning_center_event_instance_id: '230122752'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122752
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -7759,7 +7715,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 148
+  chronological_rank: 147
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-07-21-wednesday-night-dinner-f4b889.md
@@ -7786,7 +7742,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 149
+  chronological_rank: 148
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-07-25-p-u-r-s-u-e-dbe1c1.md
@@ -7875,7 +7831,7 @@ events:
   planning_center_event_instance_id: '230122753'
   planning_center_event_time_id: '31870601'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230122753
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1785560399&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=87d7d043715d1b502ca3ae640266b5cd7c6e68cd2d90458671fcadcf6f7c0ba2
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
   audiences:
@@ -7884,7 +7840,34 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 150
+  chronological_rank: 149
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-07-28-wednesday-night-dinner-7b2465.md
+- id: event-afe24860b47d9cde
+  uid: ET-8762150-194487310@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Sunday Morning Youth Service
+  start: '2027-08-01T09:30:00-04:00'
+  end: '2027-08-01T10:30:00-04:00'
+  sort_start_utc: '2027-08-01T13:30:00Z'
+  sort_end_utc: '2027-08-01T14:30:00Z'
+  display_when: Sunday, August 1, 2027, 9:30 AM to 10:30 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Sunday Morning Youth Service
+  planning_center_event_instance_id: '194487310'
+  planning_center_event_time_id: '8762150'
+  info_url: https://urbancrest.churchcenter.com/calendar/event/194487310
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 150
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-08-01-p-u-r-s-u-e-7d9cde.md

@@ -35,14 +35,14 @@ event_start: "2026-08-04T09:00:00-04:00"
 event_end: "2026-08-04T12:00:00-04:00"
 sort_start_utc: "2026-08-04T13:00:00Z"
 sort_end_utc: "2026-08-04T16:00:00Z"
-chronological_rank: 8
+chronological_rank: 1
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
 info_url: "https://urbancrest.churchcenter.com/calendar/event/162521895"
 planning_center_event_instance_id: "162521895"
 planning_center_event_time_id: "28363612"
-last_generated: 2026-07-30T11:21:34.785245Z
+last_generated: 2026-08-03T10:06:31.283162Z
 ---
 
 # Card Ministry
