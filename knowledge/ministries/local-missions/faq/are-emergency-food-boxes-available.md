@@ -5,11 +5,12 @@ category:
 - ministries
 - faq
 intent:
-  primary: ministry_info
+  primary: local_missions_info
   secondary:
   - local_missions_info
   - food_assistance
   - emergency_food
+  - assistance_availability
 audience:
 - visitor
 - attendee
@@ -40,7 +41,7 @@ next_steps: []
 last_updated: '2026-08-03'
 recommended_contact_staff_key: darrel_schick
 id: ministries.local_missions.emergency_food_boxes
-priority: 112
+priority: 120
 title: Are emergency food boxes available?
 summary: Yes. Emergency food boxes are available for individuals and families who
   cannot wait until the next monthly Baskets of Hope distribution.
@@ -50,6 +51,20 @@ search_terms:
 - What if I cannot wait until Baskets of Hope?
 - I need food before the next distribution
 - Can Urbancrest help with food right away?
+- Can I get emergency food before the next distribution?
+- Can I get food before the next Baskets of Hope distribution?
+- I need food before the next food distribution. Can Urbancrest help?
+- Can I get an emergency food box now?
+authoritative: true
+authoritative_for:
+- local_missions_info
+- food_assistance
+- emergency_food
+- assistance_availability
+answer_guidance: This is an assistance-availability question, not an upcoming-event
+  question. The phrase "before the next distribution" does not mean the user is asking
+  for the date of the next event. Answer yes and explain that emergency food boxes
+  are available for people who cannot wait until the monthly distribution.
 ---
 
 # Are emergency food boxes available?

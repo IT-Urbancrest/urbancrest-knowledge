@@ -1,0 +1,55 @@
+version: '1.1'
+last_updated: '2026-08-03'
+tests:
+- name: local missions broad overview hard answer
+  query: What does Urbancrest do for local missions?
+  expected:
+    preferred_record_id: ministries.local_missions.overview
+    staff_key: darrel_schick
+    minimum_confidence: 95
+    answer_must_include:
+    - food
+    - furniture
+    - seasonal outreach
+    answer_must_not_include:
+    - contact the church office
+    - I do not have
+    - UNSURE
+- name: emergency food before next distribution is not event-only
+  query: Can I get emergency food before the next distribution?
+  expected:
+    preferred_record_id: ministries.local_missions.emergency_food_boxes
+    staff_key: darrel_schick
+    minimum_confidence: 95
+    answer_must_include:
+    - 'Yes'
+    - emergency food boxes
+    answer_must_not_include:
+    - next event date
+    - check the calendar for availability
+    - UNSURE
+- name: annual seasonal events uses static knowledge
+  query: What seasonal Local Missions events happen each year?
+  expected:
+    preferred_record_id: ministries.local_missions.seasonal_outreach
+    staff_key: darrel_schick
+    minimum_confidence: 95
+    answer_must_include:
+    - Easter Festival
+    - Summer Block Parties
+    - Warren County Fair Feeding
+    - School Supply Giveaway
+    - Trail of Treats
+    - Giving Tree
+    answer_must_not_include:
+    - I can only see upcoming events
+    - contact the church office
+    - UNSURE
+- name: real next-event query still uses live event mode
+  query: What is the next men's ministry event?
+  expected:
+    preserve_existing_live_event_behavior: true
+- name: pickleball still uses activity availability
+  query: Does Urbancrest have pickeball?
+  expected:
+    preserve_existing_activity_availability_behavior: true

@@ -5,11 +5,12 @@ category:
 - ministries
 - faq
 intent:
-  primary: ministry_info
+  primary: local_missions_info
   secondary:
   - local_missions_info
   - seasonal_outreach
   - annual_outreach
+  - recurring_ministry_programs
 audience:
 - visitor
 - attendee
@@ -39,7 +40,7 @@ next_steps: []
 last_updated: '2026-08-03'
 recommended_contact_staff_key: darrel_schick
 id: ministries.local_missions.seasonal_outreach
-priority: 106
+priority: 118
 title: What seasonal Local Missions events happen each year?
 summary: Seasonal Local Missions outreach includes the Easter Festival, Summer Block
   Parties, Warren County Fair Feeding, School Supply Giveaway, Trail of Treats, Giving
@@ -49,6 +50,21 @@ search_terms:
 - What seasonal outreach does Urbancrest have?
 - What community events does Urbancrest host?
 - What local missions events happen in spring summer fall and winter?
+- What seasonal Local Missions events happen each year?
+- What Local Missions events happen every year?
+- What annual Local Missions events do you have?
+- What recurring seasonal outreach events does Urbancrest have?
+authoritative: true
+authoritative_for:
+- local_missions_info
+- seasonal_outreach
+- annual_outreach
+- recurring_ministry_programs
+answer_guidance: This record answers recurring and annual program questions. A question
+  about what happens each year is not a request for the next live calendar event.
+  Use this record for the annual list, and use live event records only when the user
+  asks for exact current dates, next occurrences, today, this week, or another specific
+  time window.
 ---
 
 # What seasonal Local Missions events happen each year?

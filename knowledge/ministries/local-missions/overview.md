@@ -5,10 +5,11 @@ category:
 - ministries
 - faq
 intent:
-  primary: ministry_info
+  primary: local_missions_info
   secondary:
   - local_missions_info
   - local_missions_overview
+  - ministry_info
   - community_outreach
 audience:
 - visitor
@@ -40,7 +41,7 @@ next_steps: []
 last_updated: '2026-08-03'
 recommended_contact_staff_key: darrel_schick
 id: ministries.local_missions.overview
-priority: 108
+priority: 118
 title: What is Urbancrest Local Missions?
 summary: Urbancrest Local Missions serves neighbors in Lebanon and the surrounding
   community year round through food assistance, practical help, seasonal outreach,
@@ -51,6 +52,19 @@ search_terms:
 - How does Urbancrest serve Lebanon?
 - What local outreach ministries does Urbancrest have?
 - Tell me about Local Missions
+- What does Urbancrest do for local missions?
+- What does your local missions ministry do?
+- What does the Local Missions Team do?
+- How does Local Missions serve the community?
+authoritative: true
+authoritative_for:
+- local_missions_info
+- local_missions_overview
+- ministry_info
+- community_outreach
+answer_guidance: For broad questions about what Local Missions does, answer directly
+  from this record. Do not defer to staff when this record is retrieved. Use Pastor
+  Darrel as the recommended contact only as an optional next step.
 ---
 
 # What is Urbancrest Local Missions?
