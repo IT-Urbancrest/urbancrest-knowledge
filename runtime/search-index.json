@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
-  "repository_version": "0.8.8",
-  "generated_at": "2026-08-03T18:29:18.626075Z",
+  "repository_version": "0.9.0",
+  "generated_at": "2026-08-03T19:06:49.604801Z",
   "timezone": "America/New_York",
-  "record_count": 376,
+  "record_count": 365,
   "config": {
     "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step. For directions requests, include both approved map links.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership Transition\n\nUrbancrest is currently searching for its next Global Missions Pastor.\n\nFor broad or global missions leadership questions:\n\n1. State that Urbancrest is currently searching for its next Global Missions Pastor.\n2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.\n3. Return `jennifer_prows` when one staff card is appropriate.\n4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nState the times found in those authoritative records directly. Do not hardcode service times in runtime application logic or prompt instructions.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
     "style_guide": "# Style Guide\n\n## Writing\n\n- Use short paragraphs.\n- Prefer plain language.\n- Avoid church jargon unless it is explained.\n- Do not use em dashes.\n- Do not use the word meaningful as a filler.\n- Use Small Groups, never Grow Groups.\n- Refer to Urbancrest Church as Urbancrest after the first use.\n- Use believer's baptism by immersion when describing baptism.\n\n## Theology\n\n- Scripture is the final authority.\n- The Baptist Faith and Message 2000 is a helpful doctrinal summary, not equal to Scripture.\n- Salvation is by grace alone through faith alone in Jesus Christ alone.\n- Baptism follows salvation and does not save.\n",
@@ -2404,6 +2404,61 @@
       ]
     },
     {
+      "id": "ministries.kids.leadership",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/kids/who-oversees-kids-ministry.md",
+      "title": "Who oversees Kids Ministry?",
+      "summary": "The Kids Ministry Director position is currently vacant. Sarah Coleman, Preschool Director, is the recommended current point person for Kids Ministry questions.",
+      "content": "# Who oversees Kids Ministry?\n\nThe **Kids Ministry Director position is currently vacant**.\n\nIn the meantime, **Sarah Coleman serves as Preschool Director** and is the recommended current point person for Kids Ministry questions.\n\n**Mikhael Mastalerz serves as Nursery Ministry Director** for nursery-specific questions.\n\nSarah should not be described as the Kids Ministry Director. Her staff card may be shown for Kids Ministry questions because she is the recommended current point person while the position is vacant.",
+      "priority": 110,
+      "category": [
+        "ministries",
+        "current_update",
+        "staff_leadership"
+      ],
+      "intents": [
+        "ministry_contact",
+        "staff_routing",
+        "kids_leadership",
+        "current_update"
+      ],
+      "tags": [
+        "kids",
+        "Kids Ministry",
+        "children",
+        "leadership",
+        "staffing",
+        "Kids Ministry Director",
+        "Sarah Coleman"
+      ],
+      "search_terms": [
+        "Who oversees Kids Ministry?",
+        "Who leads Kids Ministry?",
+        "Who is the Kids Ministry Director?",
+        "Who is the Kids Director?",
+        "Who do I contact about Kids Ministry?",
+        "Who is the point person for Kids Ministry?",
+        "Who handles children's ministry?"
+      ],
+      "ministries": [
+        "kids"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "sarah_coleman",
+      "related_staff_keys": [
+        "mikhael_mastalerz"
+      ],
+      "leadership_status": "vacant",
+      "open_role": "Kids Ministry Director",
+      "review_trigger": "kids_ministry_director_hired",
+      "answer_guidance": "State that the Kids Ministry Director position is vacant before recommending Sarah Coleman as the current point person. Identify Sarah as Preschool Director, not Kids Ministry Director.",
+      "confidence": "high"
+    },
+    {
       "id": "ministries.local_missions.furniture_ministry",
       "record_type": "knowledge",
       "path": "knowledge/ministries/local-missions/faq/how-does-the-furniture-ministry-work.md",
@@ -2559,6 +2614,338 @@
         "sarah_coleman"
       ],
       "confidence": "high"
+    },
+    {
+      "id": "relationship.ministry_staff.global_missions",
+      "record_type": "relationship",
+      "path": "relationships/ministry-staff.yaml",
+      "title": "Global Missions staff relationship",
+      "summary": "Staff ownership relationship for Global Missions. Leadership status: vacant. Open role: Global Missions Pastor. Recommended staff key: jennifer_prows.",
+      "content": "Area: Global Missions\nCanonical area key: global_missions\nLeadership status: vacant\nPrimary staff key: none\nRecommended contact staff key: jennifer_prows\nRelated staff keys: \nRouting aliases: global missions, international missions, global missions pastor, mission trips, international mission trips\nRouting topics: global missions, mission trips, missions coordination, international missions\nOpen role: Global Missions Pastor\nAnswer guidance: Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the recommended current contact for global missions questions, mission trips, and missions coordination. Do not describe Jennifer as the Global Missions Pastor.",
+      "priority": 105,
+      "category": [
+        "relationship",
+        "staff"
+      ],
+      "intents": [
+        "ministry_contact",
+        "staff_routing",
+        "staff_ownership"
+      ],
+      "tags": [
+        "global_missions",
+        "Global Missions",
+        "vacant",
+        "international missions",
+        "global missions pastor",
+        "mission trips",
+        "international mission trips"
+      ],
+      "search_terms": [
+        "Global Missions",
+        "who oversees Global Missions",
+        "who leads Global Missions",
+        "who handles Global Missions",
+        "who do I contact about Global Missions",
+        "who is the point person for Global Missions",
+        "international missions",
+        "who oversees international missions",
+        "who leads international missions",
+        "who handles international missions",
+        "who do I contact about international missions",
+        "who is the point person for international missions",
+        "global missions pastor",
+        "who oversees global missions pastor",
+        "who leads global missions pastor",
+        "who handles global missions pastor",
+        "who do I contact about global missions pastor",
+        "who is the point person for global missions pastor",
+        "mission trips",
+        "who oversees mission trips",
+        "who leads mission trips",
+        "who handles mission trips",
+        "who do I contact about mission trips",
+        "who is the point person for mission trips",
+        "international mission trips",
+        "who oversees international mission trips",
+        "who leads international mission trips",
+        "who handles international mission trips",
+        "who do I contact about international mission trips",
+        "who is the point person for international mission trips",
+        "missions coordination",
+        "who oversees missions coordination",
+        "who leads missions coordination",
+        "who handles missions coordination",
+        "who do I contact about missions coordination",
+        "who is the point person for missions coordination"
+      ],
+      "ministries": [
+        "global_missions"
+      ],
+      "audiences": [],
+      "resources": [],
+      "staff_key": "jennifer_prows",
+      "recommended_contact_staff_key": "jennifer_prows",
+      "leadership_status": "vacant",
+      "open_role": "Global Missions Pastor",
+      "answer_guidance": "Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the recommended current contact for global missions questions, mission trips, and missions coordination. Do not describe Jennifer as the Global Missions Pastor.",
+      "routing_aliases": [
+        "global missions",
+        "international missions",
+        "global missions pastor",
+        "mission trips",
+        "international mission trips"
+      ],
+      "routing_topics": [
+        "global missions",
+        "mission trips",
+        "missions coordination",
+        "international missions"
+      ],
+      "area_label": "Global Missions"
+    },
+    {
+      "id": "relationship.ministry_staff.kids",
+      "record_type": "relationship",
+      "path": "relationships/ministry-staff.yaml",
+      "title": "Kids staff relationship",
+      "summary": "Staff ownership relationship for Kids. Leadership status: vacant. Open role: Kids Ministry Director. Recommended staff key: sarah_coleman.",
+      "content": "Area: Kids\nCanonical area key: kids\nLeadership status: vacant\nPrimary staff key: none\nRecommended contact staff key: sarah_coleman\nRelated staff keys: mikhael_mastalerz\nRouting aliases: kids, kids ministry, urbancrest kids, children, children's ministry, childrens ministry, awana, kids safety, child check-in, child checkout\nRouting topics: kids ministry, children, families, AWANA, Kids Ministry safety, child check-in, child checkout, volunteer screening\nOpen role: Kids Ministry Director\nAnswer guidance: The Kids Ministry Director position is currently vacant. Sarah Coleman serves as Preschool Director and is the recommended current point person for Kids Ministry questions. Do not describe Sarah as the Kids Ministry Director. Mikhael Mastalerz serves as Nursery Ministry Director.",
+      "priority": 105,
+      "category": [
+        "relationship",
+        "staff"
+      ],
+      "intents": [
+        "ministry_contact",
+        "staff_routing",
+        "staff_ownership"
+      ],
+      "tags": [
+        "kids",
+        "vacant",
+        "kids ministry",
+        "urbancrest kids",
+        "children",
+        "children's ministry",
+        "childrens ministry",
+        "awana",
+        "kids safety",
+        "child check-in",
+        "child checkout"
+      ],
+      "search_terms": [
+        "Kids",
+        "who oversees Kids",
+        "who leads Kids",
+        "who handles Kids",
+        "who do I contact about Kids",
+        "who is the point person for Kids",
+        "kids ministry",
+        "who oversees kids ministry",
+        "who leads kids ministry",
+        "who handles kids ministry",
+        "who do I contact about kids ministry",
+        "who is the point person for kids ministry",
+        "urbancrest kids",
+        "who oversees urbancrest kids",
+        "who leads urbancrest kids",
+        "who handles urbancrest kids",
+        "who do I contact about urbancrest kids",
+        "who is the point person for urbancrest kids",
+        "children",
+        "who oversees children",
+        "who leads children",
+        "who handles children",
+        "who do I contact about children",
+        "who is the point person for children",
+        "children's ministry",
+        "who oversees children's ministry",
+        "who leads children's ministry",
+        "who handles children's ministry",
+        "who do I contact about children's ministry",
+        "who is the point person for children's ministry",
+        "childrens ministry",
+        "who oversees childrens ministry",
+        "who leads childrens ministry",
+        "who handles childrens ministry",
+        "who do I contact about childrens ministry",
+        "who is the point person for childrens ministry",
+        "awana",
+        "who oversees awana",
+        "who leads awana",
+        "who handles awana",
+        "who do I contact about awana",
+        "who is the point person for awana",
+        "kids safety",
+        "who oversees kids safety",
+        "who leads kids safety",
+        "who handles kids safety",
+        "who do I contact about kids safety",
+        "who is the point person for kids safety",
+        "child check-in",
+        "who oversees child check-in",
+        "who leads child check-in",
+        "who handles child check-in",
+        "who do I contact about child check-in",
+        "who is the point person for child check-in",
+        "child checkout",
+        "who oversees child checkout",
+        "who leads child checkout",
+        "who handles child checkout",
+        "who do I contact about child checkout",
+        "who is the point person for child checkout",
+        "families",
+        "who oversees families",
+        "who leads families",
+        "who handles families",
+        "who do I contact about families",
+        "who is the point person for families",
+        "Kids Ministry safety",
+        "who oversees Kids Ministry safety",
+        "who leads Kids Ministry safety",
+        "who handles Kids Ministry safety",
+        "who do I contact about Kids Ministry safety",
+        "who is the point person for Kids Ministry safety",
+        "volunteer screening",
+        "who oversees volunteer screening",
+        "who leads volunteer screening",
+        "who handles volunteer screening",
+        "who do I contact about volunteer screening",
+        "who is the point person for volunteer screening",
+        "Kids Ministry Director"
+      ],
+      "ministries": [
+        "kids"
+      ],
+      "audiences": [],
+      "resources": [],
+      "staff_key": "sarah_coleman",
+      "recommended_contact_staff_key": "sarah_coleman",
+      "related_staff_keys": [
+        "mikhael_mastalerz"
+      ],
+      "leadership_status": "vacant",
+      "open_role": "Kids Ministry Director",
+      "answer_guidance": "The Kids Ministry Director position is currently vacant. Sarah Coleman serves as Preschool Director and is the recommended current point person for Kids Ministry questions. Do not describe Sarah as the Kids Ministry Director. Mikhael Mastalerz serves as Nursery Ministry Director.",
+      "routing_aliases": [
+        "kids",
+        "kids ministry",
+        "urbancrest kids",
+        "children",
+        "children's ministry",
+        "childrens ministry",
+        "awana",
+        "kids safety",
+        "child check-in",
+        "child checkout"
+      ],
+      "routing_topics": [
+        "kids ministry",
+        "children",
+        "families",
+        "AWANA",
+        "Kids Ministry safety",
+        "child check-in",
+        "child checkout",
+        "volunteer screening"
+      ],
+      "area_label": "Kids"
+    },
+    {
+      "id": "relationship.ministry_staff.missions",
+      "record_type": "relationship",
+      "path": "relationships/ministry-staff.yaml",
+      "title": "Missions staff relationship",
+      "summary": "Staff ownership relationship for Missions. Leadership status: transitional. Open role: Global Missions Pastor. Recommended staff key: jennifer_prows.",
+      "content": "Area: Missions\nCanonical area key: missions\nLeadership status: transitional\nPrimary staff key: none\nRecommended contact staff key: jennifer_prows\nRelated staff keys: darrel_schick\nRouting aliases: missions, missions ministry, mission ministry, missions contact\nRouting topics: general missions, missions administration, missions conference\nOpen role: Global Missions Pastor\nAnswer guidance: Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the recommended current contact for general and global missions questions. Darrel Schick serves as Local Missions Strategist for local missions and community outreach.",
+      "priority": 105,
+      "category": [
+        "relationship",
+        "staff"
+      ],
+      "intents": [
+        "ministry_contact",
+        "staff_routing",
+        "staff_ownership"
+      ],
+      "tags": [
+        "missions",
+        "transitional",
+        "missions ministry",
+        "mission ministry",
+        "missions contact"
+      ],
+      "search_terms": [
+        "Missions",
+        "who oversees Missions",
+        "who leads Missions",
+        "who handles Missions",
+        "who do I contact about Missions",
+        "who is the point person for Missions",
+        "missions ministry",
+        "who oversees missions ministry",
+        "who leads missions ministry",
+        "who handles missions ministry",
+        "who do I contact about missions ministry",
+        "who is the point person for missions ministry",
+        "mission ministry",
+        "who oversees mission ministry",
+        "who leads mission ministry",
+        "who handles mission ministry",
+        "who do I contact about mission ministry",
+        "who is the point person for mission ministry",
+        "missions contact",
+        "who oversees missions contact",
+        "who leads missions contact",
+        "who handles missions contact",
+        "who do I contact about missions contact",
+        "who is the point person for missions contact",
+        "general missions",
+        "who oversees general missions",
+        "who leads general missions",
+        "who handles general missions",
+        "who do I contact about general missions",
+        "who is the point person for general missions",
+        "missions administration",
+        "who oversees missions administration",
+        "who leads missions administration",
+        "who handles missions administration",
+        "who do I contact about missions administration",
+        "who is the point person for missions administration",
+        "missions conference",
+        "who oversees missions conference",
+        "who leads missions conference",
+        "who handles missions conference",
+        "who do I contact about missions conference",
+        "who is the point person for missions conference",
+        "Global Missions Pastor"
+      ],
+      "ministries": [
+        "missions"
+      ],
+      "audiences": [],
+      "resources": [],
+      "staff_key": "jennifer_prows",
+      "recommended_contact_staff_key": "jennifer_prows",
+      "related_staff_keys": [
+        "darrel_schick"
+      ],
+      "leadership_status": "transitional",
+      "open_role": "Global Missions Pastor",
+      "answer_guidance": "Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the recommended current contact for general and global missions questions. Darrel Schick serves as Local Missions Strategist for local missions and community outreach.",
+      "routing_aliases": [
+        "missions",
+        "missions ministry",
+        "mission ministry",
+        "missions contact"
+      ],
+      "routing_topics": [
+        "general missions",
+        "missions administration",
+        "missions conference"
+      ],
+      "area_label": "Missions"
     },
     {
       "id": "ministries.nursery.check_in_out",
@@ -4364,8 +4751,8 @@
       "record_type": "knowledge",
       "path": "knowledge/ministries/kids.md",
       "title": "What is Urbancrest Kids?",
-      "summary": "Urbancrest Kids equips families to help children become fully devoted disciples of Jesus who worship, serve, and live out their faith.",
-      "content": "# What is Urbancrest Kids?\n\nUrbancrest Kids exists to equip families to become fully devoted disciples of Jesus, raising children who worship and serve with biblical authenticity and bring transformation to the home, church, and community.\n\nThe ministry emphasizes that discipleship is lived out, not only learned. Children grow through relationships with parents, leaders, and peers who model what following Jesus looks like in everyday life. Urbancrest Kids seeks to create a community where children are known, encouraged, taught God's Word, and given opportunities to have fun while growing in faith.\n\nParents are the strongest spiritual influence in a child's life, so the ministry is committed to serving, supporting, and partnering with families.",
+      "summary": "Urbancrest Kids equips families to help children become fully devoted disciples of Jesus. The Kids Ministry Director position is currently vacant, and Sarah Coleman is the recommended current point person.",
+      "content": "# What is Urbancrest Kids?\n\nUrbancrest Kids exists to equip families to become fully devoted disciples of Jesus, raising children who worship and serve with biblical authenticity and bring transformation to the home, church, and community.\n\nThe ministry emphasizes that discipleship is lived out, not only learned. Children grow through relationships with parents, leaders, and peers who model what following Jesus looks like in everyday life. Urbancrest Kids seeks to create a community where children are known, encouraged, taught God's Word, and given opportunities to have fun while growing in faith.\n\nParents are the strongest spiritual influence in a child's life, so the ministry is committed to serving, supporting, and partnering with families.\n\n## Current Leadership\n\nThe **Kids Ministry Director position is currently vacant**. **Sarah Coleman serves as Preschool Director** and is the recommended current point person for Kids Ministry questions while Urbancrest fills that leadership position. Sarah should not be described as the Kids Ministry Director.",
       "priority": 100,
       "category": [
         "ministries"
@@ -4407,6 +4794,9 @@
       "related_staff_keys": [
         "mikhael_mastalerz"
       ],
+      "leadership_status": "vacant",
+      "open_role": "Kids Ministry Director",
+      "review_trigger": "kids_ministry_director_hired",
       "confidence": "high"
     },
     {
@@ -5586,91 +5976,6 @@
       "confidence": "high"
     },
     {
-      "id": "relationship.ministry_staff.global_missions",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "Global Missions staff relationship",
-      "summary": "Staff relationship for global missions. Open role: Global Missions Pastor. Recommended staff key: jennifer_prows.",
-      "content": "Ministry: global_missions\nLeadership status: vacant\nPrimary staff key: none\nRecommended contact staff key: jennifer_prows\nRelated staff keys: \nOpen role: Global Missions Pastor\nAnswer guidance: Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the recommended current contact for global missions questions, mission trips, and missions coordination.",
-      "priority": 95,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "global_missions",
-        "staff",
-        "ministry",
-        "vacant"
-      ],
-      "search_terms": [
-        "global missions",
-        "who oversees global missions",
-        "who leads global missions",
-        "who do I contact about global missions",
-        "Global Missions Pastor"
-      ],
-      "ministries": [
-        "global_missions"
-      ],
-      "audiences": [],
-      "resources": [],
-      "staff_key": "jennifer_prows",
-      "recommended_contact_staff_key": "jennifer_prows",
-      "leadership_status": "vacant",
-      "open_role": "Global Missions Pastor",
-      "answer_guidance": "Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the recommended current contact for global missions questions, mission trips, and missions coordination."
-    },
-    {
-      "id": "relationship.ministry_staff.missions",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "Missions staff relationship",
-      "summary": "Staff relationship for missions. Open role: Global Missions Pastor. Recommended staff key: jennifer_prows.",
-      "content": "Ministry: missions\nLeadership status: transitional\nPrimary staff key: none\nRecommended contact staff key: jennifer_prows\nRelated staff keys: darrel_schick\nOpen role: Global Missions Pastor\nAnswer guidance: Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the recommended current contact for general and global missions questions. Darrel Schick serves as Local Missions Strategist for local missions and community outreach.",
-      "priority": 95,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "missions",
-        "staff",
-        "ministry",
-        "transitional"
-      ],
-      "search_terms": [
-        "missions",
-        "who oversees missions",
-        "who leads missions",
-        "who do I contact about missions",
-        "Global Missions Pastor"
-      ],
-      "ministries": [
-        "missions"
-      ],
-      "audiences": [],
-      "resources": [],
-      "staff_key": "jennifer_prows",
-      "recommended_contact_staff_key": "jennifer_prows",
-      "related_staff_keys": [
-        "darrel_schick"
-      ],
-      "leadership_status": "transitional",
-      "open_role": "Global Missions Pastor",
-      "answer_guidance": "Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the recommended current contact for general and global missions questions. Darrel Schick serves as Local Missions Strategist for local missions and community outreach."
-    },
-    {
       "id": "ministries.local_missions.car_cruise_ins",
       "record_type": "knowledge",
       "path": "knowledge/ministries/local-missions/faq/what-are-classic-car-cruise-ins.md",
@@ -6302,6 +6607,47 @@
       "confidence": "high"
     },
     {
+      "id": "ministries.production",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/production.md",
+      "title": "What is Production Ministry?",
+      "summary": "Production Ministry serves people interested in audio, video, lighting, livestream, and service technology and supports Urbancrest's mission.",
+      "content": "# What is Production Ministry?\n\n## Short Answer\n\nProduction Ministry is Urbancrest's ministry for people interested in audio, video, lighting, livestream, and service technology.\n\n## Detailed Answer\n\nThe ministry helps people connect, grow, serve, and live on mission in ways appropriate to its audience and purpose. Current schedules, age ranges, locations, and event details should come from verified Urbancrest sources.\n\n## Urbancrest Information\n\nThis article intentionally avoids unverified schedules or contact details.\n\n## Next Step\n\nComplete the Serving or Volunteer Interest Form to ask about getting involved.",
+      "priority": 90,
+      "category": [
+        "ministries"
+      ],
+      "intents": [
+        "ministry_info"
+      ],
+      "tags": [
+        "ministry",
+        "Production Ministry"
+      ],
+      "search_terms": [
+        "Production Ministry",
+        "How do I join Production Ministry?",
+        "Who oversees Production?",
+        "Who handles production?",
+        "Who handles audio?",
+        "Who handles livestream?",
+        "Who handles church technology?"
+      ],
+      "ministries": [
+        "technical_creative"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee"
+      ],
+      "resources": [
+        "church_center.serving"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "matthew_kirby",
+      "confidence": "high"
+    },
+    {
       "id": "ministries.students.goal",
       "record_type": "knowledge",
       "path": "knowledge/ministries/students/faq/what-is-the-goal-of-student-ministry.md",
@@ -6552,12 +6898,1546 @@
       "confidence": "high"
     },
     {
+      "id": "relationship.ministry_staff.executive_leadership",
+      "record_type": "relationship",
+      "path": "relationships/ministry-staff.yaml",
+      "title": "Executive Leadership staff relationship",
+      "summary": "Staff ownership relationship for Executive Leadership. Recommended staff key: david_bickers.",
+      "content": "Area: Executive Leadership\nCanonical area key: executive_leadership\nLeadership status: staffed\nPrimary staff key: david_bickers\nRecommended contact staff key: david_bickers\nRelated staff keys: geoff_prows\nRouting aliases: executive leadership, executive pastor, administration, church administration, church operations, operations\nRouting topics: administration, church operations, executive leadership\nAnswer guidance: David Bickers serves as Executive Pastor and is the primary contact for executive leadership, administration, and church operations.",
+      "priority": 90,
+      "category": [
+        "relationship",
+        "staff"
+      ],
+      "intents": [
+        "ministry_contact",
+        "staff_routing",
+        "staff_ownership"
+      ],
+      "tags": [
+        "executive_leadership",
+        "Executive Leadership",
+        "staffed",
+        "executive pastor",
+        "administration",
+        "church administration",
+        "church operations",
+        "operations"
+      ],
+      "search_terms": [
+        "Executive Leadership",
+        "who oversees Executive Leadership",
+        "who leads Executive Leadership",
+        "who handles Executive Leadership",
+        "who do I contact about Executive Leadership",
+        "who is the point person for Executive Leadership",
+        "executive pastor",
+        "who oversees executive pastor",
+        "who leads executive pastor",
+        "who handles executive pastor",
+        "who do I contact about executive pastor",
+        "who is the point person for executive pastor",
+        "administration",
+        "who oversees administration",
+        "who leads administration",
+        "who handles administration",
+        "who do I contact about administration",
+        "who is the point person for administration",
+        "church administration",
+        "who oversees church administration",
+        "who leads church administration",
+        "who handles church administration",
+        "who do I contact about church administration",
+        "who is the point person for church administration",
+        "church operations",
+        "who oversees church operations",
+        "who leads church operations",
+        "who handles church operations",
+        "who do I contact about church operations",
+        "who is the point person for church operations",
+        "operations",
+        "who oversees operations",
+        "who leads operations",
+        "who handles operations",
+        "who do I contact about operations",
+        "who is the point person for operations"
+      ],
+      "ministries": [
+        "executive_leadership"
+      ],
+      "audiences": [],
+      "resources": [],
+      "staff_key": "david_bickers",
+      "primary_staff_key": "david_bickers",
+      "recommended_contact_staff_key": "david_bickers",
+      "related_staff_keys": [
+        "geoff_prows"
+      ],
+      "leadership_status": "staffed",
+      "answer_guidance": "David Bickers serves as Executive Pastor and is the primary contact for executive leadership, administration, and church operations.",
+      "routing_aliases": [
+        "executive leadership",
+        "executive pastor",
+        "administration",
+        "church administration",
+        "church operations",
+        "operations"
+      ],
+      "routing_topics": [
+        "administration",
+        "church operations",
+        "executive leadership"
+      ],
+      "area_label": "Executive Leadership"
+    },
+    {
+      "id": "relationship.ministry_staff.facilities",
+      "record_type": "relationship",
+      "path": "relationships/ministry-staff.yaml",
+      "title": "Facilities staff relationship",
+      "summary": "Staff ownership relationship for Facilities. Recommended staff key: jim_short.",
+      "content": "Area: Facilities\nCanonical area key: facilities\nLeadership status: staffed\nPrimary staff key: jim_short\nRecommended contact staff key: jim_short\nRelated staff keys: \nRouting aliases: facilities, building, building maintenance, maintenance, room setup\nRouting topics: facilities, building, maintenance, room setup\nAnswer guidance: Jim Short is the primary contact for facilities, building maintenance, and room setup.",
+      "priority": 90,
+      "category": [
+        "relationship",
+        "staff"
+      ],
+      "intents": [
+        "ministry_contact",
+        "staff_routing",
+        "staff_ownership"
+      ],
+      "tags": [
+        "facilities",
+        "staffed",
+        "building",
+        "building maintenance",
+        "maintenance",
+        "room setup"
+      ],
+      "search_terms": [
+        "Facilities",
+        "who oversees Facilities",
+        "who leads Facilities",
+        "who handles Facilities",
+        "who do I contact about Facilities",
+        "who is the point person for Facilities",
+        "building",
+        "who oversees building",
+        "who leads building",
+        "who handles building",
+        "who do I contact about building",
+        "who is the point person for building",
+        "building maintenance",
+        "who oversees building maintenance",
+        "who leads building maintenance",
+        "who handles building maintenance",
+        "who do I contact about building maintenance",
+        "who is the point person for building maintenance",
+        "maintenance",
+        "who oversees maintenance",
+        "who leads maintenance",
+        "who handles maintenance",
+        "who do I contact about maintenance",
+        "who is the point person for maintenance",
+        "room setup",
+        "who oversees room setup",
+        "who leads room setup",
+        "who handles room setup",
+        "who do I contact about room setup",
+        "who is the point person for room setup"
+      ],
+      "ministries": [
+        "facilities"
+      ],
+      "audiences": [],
+      "resources": [],
+      "staff_key": "jim_short",
+      "primary_staff_key": "jim_short",
+      "recommended_contact_staff_key": "jim_short",
+      "leadership_status": "staffed",
+      "answer_guidance": "Jim Short is the primary contact for facilities, building maintenance, and room setup.",
+      "routing_aliases": [
+        "facilities",
+        "building",
+        "building maintenance",
+        "maintenance",
+        "room setup"
+      ],
+      "routing_topics": [
+        "facilities",
+        "building",
+        "maintenance",
+        "room setup"
+      ],
+      "area_label": "Facilities"
+    },
+    {
+      "id": "relationship.ministry_staff.finance",
+      "record_type": "relationship",
+      "path": "relationships/ministry-staff.yaml",
+      "title": "Finance staff relationship",
+      "summary": "Staff ownership relationship for Finance. Recommended staff key: tanya_byrd.",
+      "content": "Area: Finance\nCanonical area key: finance\nLeadership status: staffed\nPrimary staff key: tanya_byrd\nRecommended contact staff key: tanya_byrd\nRelated staff keys: \nRouting aliases: finance, financial, financial office, giving, online giving, stewardship, donation, donations, contribution, contributions\nRouting topics: finance, giving, stewardship, donations, financial questions\nAnswer guidance: Tanya Byrd serves as Financial Officer and is the primary contact for finance, giving, and stewardship questions.",
+      "priority": 90,
+      "category": [
+        "relationship",
+        "staff"
+      ],
+      "intents": [
+        "ministry_contact",
+        "staff_routing",
+        "staff_ownership"
+      ],
+      "tags": [
+        "finance",
+        "staffed",
+        "financial",
+        "financial office",
+        "giving",
+        "online giving",
+        "stewardship",
+        "donation",
+        "donations",
+        "contribution",
+        "contributions"
+      ],
+      "search_terms": [
+        "Finance",
+        "who oversees Finance",
+        "who leads Finance",
+        "who handles Finance",
+        "who do I contact about Finance",
+        "who is the point person for Finance",
+        "financial",
+        "who oversees financial",
+        "who leads financial",
+        "who handles financial",
+        "who do I contact about financial",
+        "who is the point person for financial",
+        "financial office",
+        "who oversees financial office",
+        "who leads financial office",
+        "who handles financial office",
+        "who do I contact about financial office",
+        "who is the point person for financial office",
+        "giving",
+        "who oversees giving",
+        "who leads giving",
+        "who handles giving",
+        "who do I contact about giving",
+        "who is the point person for giving",
+        "online giving",
+        "who oversees online giving",
+        "who leads online giving",
+        "who handles online giving",
+        "who do I contact about online giving",
+        "who is the point person for online giving",
+        "stewardship",
+        "who oversees stewardship",
+        "who leads stewardship",
+        "who handles stewardship",
+        "who do I contact about stewardship",
+        "who is the point person for stewardship",
+        "donation",
+        "who oversees donation",
+        "who leads donation",
+        "who handles donation",
+        "who do I contact about donation",
+        "who is the point person for donation",
+        "donations",
+        "who oversees donations",
+        "who leads donations",
+        "who handles donations",
+        "who do I contact about donations",
+        "who is the point person for donations",
+        "contribution",
+        "who oversees contribution",
+        "who leads contribution",
+        "who handles contribution",
+        "who do I contact about contribution",
+        "who is the point person for contribution",
+        "contributions",
+        "who oversees contributions",
+        "who leads contributions",
+        "who handles contributions",
+        "who do I contact about contributions",
+        "who is the point person for contributions",
+        "financial questions",
+        "who oversees financial questions",
+        "who leads financial questions",
+        "who handles financial questions",
+        "who do I contact about financial questions",
+        "who is the point person for financial questions"
+      ],
+      "ministries": [
+        "finance"
+      ],
+      "audiences": [],
+      "resources": [],
+      "staff_key": "tanya_byrd",
+      "primary_staff_key": "tanya_byrd",
+      "recommended_contact_staff_key": "tanya_byrd",
+      "leadership_status": "staffed",
+      "answer_guidance": "Tanya Byrd serves as Financial Officer and is the primary contact for finance, giving, and stewardship questions.",
+      "routing_aliases": [
+        "finance",
+        "financial",
+        "financial office",
+        "giving",
+        "online giving",
+        "stewardship",
+        "donation",
+        "donations",
+        "contribution",
+        "contributions"
+      ],
+      "routing_topics": [
+        "finance",
+        "giving",
+        "stewardship",
+        "donations",
+        "financial questions"
+      ],
+      "area_label": "Finance"
+    },
+    {
+      "id": "relationship.ministry_staff.guest_services",
+      "record_type": "relationship",
+      "path": "relationships/ministry-staff.yaml",
+      "title": "Guest Services staff relationship",
+      "summary": "Staff ownership relationship for Guest Services. Recommended staff key: sydni_neptune.",
+      "content": "Area: Guest Services\nCanonical area key: guest_services\nLeadership status: staffed\nPrimary staff key: sydni_neptune\nRecommended contact staff key: sydni_neptune\nRelated staff keys: mark_daubenmire\nRouting aliases: guest services, first visit, first-time guest, visitor, visitors, hospitality, welcome, welcome team, accessibility\nRouting topics: guest services, first visit, hospitality, welcome team, parking, seating, refreshments, wheelchair access, accessibility\nAnswer guidance: Sydni Neptune is the primary contact for Guest Services, first-visit questions, hospitality, welcome, and accessibility.",
+      "priority": 90,
+      "category": [
+        "relationship",
+        "staff"
+      ],
+      "intents": [
+        "ministry_contact",
+        "staff_routing",
+        "staff_ownership"
+      ],
+      "tags": [
+        "guest_services",
+        "Guest Services",
+        "staffed",
+        "first visit",
+        "first-time guest",
+        "visitor",
+        "visitors",
+        "hospitality",
+        "welcome",
+        "welcome team",
+        "accessibility"
+      ],
+      "search_terms": [
+        "Guest Services",
+        "who oversees Guest Services",
+        "who leads Guest Services",
+        "who handles Guest Services",
+        "who do I contact about Guest Services",
+        "who is the point person for Guest Services",
+        "first visit",
+        "who oversees first visit",
+        "who leads first visit",
+        "who handles first visit",
+        "who do I contact about first visit",
+        "who is the point person for first visit",
+        "first-time guest",
+        "who oversees first-time guest",
+        "who leads first-time guest",
+        "who handles first-time guest",
+        "who do I contact about first-time guest",
+        "who is the point person for first-time guest",
+        "visitor",
+        "who oversees visitor",
+        "who leads visitor",
+        "who handles visitor",
+        "who do I contact about visitor",
+        "who is the point person for visitor",
+        "visitors",
+        "who oversees visitors",
+        "who leads visitors",
+        "who handles visitors",
+        "who do I contact about visitors",
+        "who is the point person for visitors",
+        "hospitality",
+        "who oversees hospitality",
+        "who leads hospitality",
+        "who handles hospitality",
+        "who do I contact about hospitality",
+        "who is the point person for hospitality",
+        "welcome",
+        "who oversees welcome",
+        "who leads welcome",
+        "who handles welcome",
+        "who do I contact about welcome",
+        "who is the point person for welcome",
+        "welcome team",
+        "who oversees welcome team",
+        "who leads welcome team",
+        "who handles welcome team",
+        "who do I contact about welcome team",
+        "who is the point person for welcome team",
+        "accessibility",
+        "who oversees accessibility",
+        "who leads accessibility",
+        "who handles accessibility",
+        "who do I contact about accessibility",
+        "who is the point person for accessibility",
+        "parking",
+        "who oversees parking",
+        "who leads parking",
+        "who handles parking",
+        "who do I contact about parking",
+        "who is the point person for parking",
+        "seating",
+        "who oversees seating",
+        "who leads seating",
+        "who handles seating",
+        "who do I contact about seating",
+        "who is the point person for seating",
+        "refreshments",
+        "who oversees refreshments",
+        "who leads refreshments",
+        "who handles refreshments",
+        "who do I contact about refreshments",
+        "who is the point person for refreshments",
+        "wheelchair access",
+        "who oversees wheelchair access",
+        "who leads wheelchair access",
+        "who handles wheelchair access",
+        "who do I contact about wheelchair access",
+        "who is the point person for wheelchair access"
+      ],
+      "ministries": [
+        "guest_services"
+      ],
+      "audiences": [],
+      "resources": [],
+      "staff_key": "sydni_neptune",
+      "primary_staff_key": "sydni_neptune",
+      "recommended_contact_staff_key": "sydni_neptune",
+      "related_staff_keys": [
+        "mark_daubenmire"
+      ],
+      "leadership_status": "staffed",
+      "answer_guidance": "Sydni Neptune is the primary contact for Guest Services, first-visit questions, hospitality, welcome, and accessibility.",
+      "routing_aliases": [
+        "guest services",
+        "first visit",
+        "first-time guest",
+        "visitor",
+        "visitors",
+        "hospitality",
+        "welcome",
+        "welcome team",
+        "accessibility"
+      ],
+      "routing_topics": [
+        "guest services",
+        "first visit",
+        "hospitality",
+        "welcome team",
+        "parking",
+        "seating",
+        "refreshments",
+        "wheelchair access",
+        "accessibility"
+      ],
+      "area_label": "Guest Services"
+    },
+    {
+      "id": "relationship.ministry_staff.local_missions",
+      "record_type": "relationship",
+      "path": "relationships/ministry-staff.yaml",
+      "title": "Local Missions staff relationship",
+      "summary": "Staff ownership relationship for Local Missions. Recommended staff key: darrel_schick.",
+      "content": "Area: Local Missions\nCanonical area key: local_missions\nLeadership status: staffed\nPrimary staff key: darrel_schick\nRecommended contact staff key: darrel_schick\nRelated staff keys: jennifer_prows\nRouting aliases: local missions, local mission, local outreach, community outreach, benevolence, baskets of hope, food assistance, food box, emergency food box, gas assistance, vehicle gas, fuel assistance, gas for my car, community service\nRouting topics: community outreach, benevolence, food assistance, Baskets of Hope, gas assistance, block parties, serving the community\nAnswer guidance: Darrel Schick serves as Local Missions Strategist and is the primary contact for local missions, community outreach, benevolence, food assistance, and situational gas assistance.",
+      "priority": 90,
+      "category": [
+        "relationship",
+        "staff"
+      ],
+      "intents": [
+        "ministry_contact",
+        "staff_routing",
+        "staff_ownership"
+      ],
+      "tags": [
+        "local_missions",
+        "Local Missions",
+        "staffed",
+        "local mission",
+        "local outreach",
+        "community outreach",
+        "benevolence",
+        "baskets of hope",
+        "food assistance",
+        "food box",
+        "emergency food box",
+        "gas assistance",
+        "vehicle gas",
+        "fuel assistance",
+        "gas for my car",
+        "community service"
+      ],
+      "search_terms": [
+        "Local Missions",
+        "who oversees Local Missions",
+        "who leads Local Missions",
+        "who handles Local Missions",
+        "who do I contact about Local Missions",
+        "who is the point person for Local Missions",
+        "local mission",
+        "who oversees local mission",
+        "who leads local mission",
+        "who handles local mission",
+        "who do I contact about local mission",
+        "who is the point person for local mission",
+        "local outreach",
+        "who oversees local outreach",
+        "who leads local outreach",
+        "who handles local outreach",
+        "who do I contact about local outreach",
+        "who is the point person for local outreach",
+        "community outreach",
+        "who oversees community outreach",
+        "who leads community outreach",
+        "who handles community outreach",
+        "who do I contact about community outreach",
+        "who is the point person for community outreach",
+        "benevolence",
+        "who oversees benevolence",
+        "who leads benevolence",
+        "who handles benevolence",
+        "who do I contact about benevolence",
+        "who is the point person for benevolence",
+        "baskets of hope",
+        "who oversees baskets of hope",
+        "who leads baskets of hope",
+        "who handles baskets of hope",
+        "who do I contact about baskets of hope",
+        "who is the point person for baskets of hope",
+        "food assistance",
+        "who oversees food assistance",
+        "who leads food assistance",
+        "who handles food assistance",
+        "who do I contact about food assistance",
+        "who is the point person for food assistance",
+        "food box",
+        "who oversees food box",
+        "who leads food box",
+        "who handles food box",
+        "who do I contact about food box",
+        "who is the point person for food box",
+        "emergency food box",
+        "who oversees emergency food box",
+        "who leads emergency food box",
+        "who handles emergency food box",
+        "who do I contact about emergency food box",
+        "who is the point person for emergency food box",
+        "gas assistance",
+        "who oversees gas assistance",
+        "who leads gas assistance",
+        "who handles gas assistance",
+        "who do I contact about gas assistance",
+        "who is the point person for gas assistance",
+        "vehicle gas",
+        "who oversees vehicle gas",
+        "who leads vehicle gas",
+        "who handles vehicle gas",
+        "who do I contact about vehicle gas",
+        "who is the point person for vehicle gas",
+        "fuel assistance",
+        "who oversees fuel assistance",
+        "who leads fuel assistance",
+        "who handles fuel assistance",
+        "who do I contact about fuel assistance",
+        "who is the point person for fuel assistance",
+        "gas for my car",
+        "who oversees gas for my car",
+        "who leads gas for my car",
+        "who handles gas for my car",
+        "who do I contact about gas for my car",
+        "who is the point person for gas for my car",
+        "community service",
+        "who oversees community service",
+        "who leads community service",
+        "who handles community service",
+        "who do I contact about community service",
+        "who is the point person for community service",
+        "block parties",
+        "who oversees block parties",
+        "who leads block parties",
+        "who handles block parties",
+        "who do I contact about block parties",
+        "who is the point person for block parties",
+        "serving the community",
+        "who oversees serving the community",
+        "who leads serving the community",
+        "who handles serving the community",
+        "who do I contact about serving the community",
+        "who is the point person for serving the community"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [],
+      "resources": [],
+      "staff_key": "darrel_schick",
+      "primary_staff_key": "darrel_schick",
+      "recommended_contact_staff_key": "darrel_schick",
+      "related_staff_keys": [
+        "jennifer_prows"
+      ],
+      "leadership_status": "staffed",
+      "answer_guidance": "Darrel Schick serves as Local Missions Strategist and is the primary contact for local missions, community outreach, benevolence, food assistance, and situational gas assistance.",
+      "routing_aliases": [
+        "local missions",
+        "local mission",
+        "local outreach",
+        "community outreach",
+        "benevolence",
+        "baskets of hope",
+        "food assistance",
+        "food box",
+        "emergency food box",
+        "gas assistance",
+        "vehicle gas",
+        "fuel assistance",
+        "gas for my car",
+        "community service"
+      ],
+      "routing_topics": [
+        "community outreach",
+        "benevolence",
+        "food assistance",
+        "Baskets of Hope",
+        "gas assistance",
+        "block parties",
+        "serving the community"
+      ],
+      "area_label": "Local Missions"
+    },
+    {
+      "id": "relationship.ministry_staff.member_services",
+      "record_type": "relationship",
+      "path": "relationships/ministry-staff.yaml",
+      "title": "Member Services staff relationship",
+      "summary": "Staff ownership relationship for Member Services. Recommended staff key: mark_daubenmire.",
+      "content": "Area: Member Services\nCanonical area key: member_services\nLeadership status: staffed\nPrimary staff key: mark_daubenmire\nRecommended contact staff key: mark_daubenmire\nRelated staff keys: \nRouting aliases: member services, membership, church membership, church records\nRouting topics: membership, member services, church records\nAnswer guidance: Mark Daubenmire is the primary contact for Member Services, membership, and church records.",
+      "priority": 90,
+      "category": [
+        "relationship",
+        "staff"
+      ],
+      "intents": [
+        "ministry_contact",
+        "staff_routing",
+        "staff_ownership"
+      ],
+      "tags": [
+        "member_services",
+        "Member Services",
+        "staffed",
+        "membership",
+        "church membership",
+        "church records"
+      ],
+      "search_terms": [
+        "Member Services",
+        "who oversees Member Services",
+        "who leads Member Services",
+        "who handles Member Services",
+        "who do I contact about Member Services",
+        "who is the point person for Member Services",
+        "membership",
+        "who oversees membership",
+        "who leads membership",
+        "who handles membership",
+        "who do I contact about membership",
+        "who is the point person for membership",
+        "church membership",
+        "who oversees church membership",
+        "who leads church membership",
+        "who handles church membership",
+        "who do I contact about church membership",
+        "who is the point person for church membership",
+        "church records",
+        "who oversees church records",
+        "who leads church records",
+        "who handles church records",
+        "who do I contact about church records",
+        "who is the point person for church records"
+      ],
+      "ministries": [
+        "member_services"
+      ],
+      "audiences": [],
+      "resources": [],
+      "staff_key": "mark_daubenmire",
+      "primary_staff_key": "mark_daubenmire",
+      "recommended_contact_staff_key": "mark_daubenmire",
+      "leadership_status": "staffed",
+      "answer_guidance": "Mark Daubenmire is the primary contact for Member Services, membership, and church records.",
+      "routing_aliases": [
+        "member services",
+        "membership",
+        "church membership",
+        "church records"
+      ],
+      "routing_topics": [
+        "membership",
+        "member services",
+        "church records"
+      ],
+      "area_label": "Member Services"
+    },
+    {
+      "id": "relationship.ministry_staff.nursery",
+      "record_type": "relationship",
+      "path": "relationships/ministry-staff.yaml",
+      "title": "Nursery staff relationship",
+      "summary": "Staff ownership relationship for Nursery. Recommended staff key: mikhael_mastalerz.",
+      "content": "Area: Nursery\nCanonical area key: nursery\nLeadership status: staffed\nPrimary staff key: mikhael_mastalerz\nRecommended contact staff key: mikhael_mastalerz\nRelated staff keys: sarah_coleman\nRouting aliases: nursery, nursery ministry, babies, infants, toddlers, baby ministry\nRouting topics: nursery, infants, toddlers, diaper changes, nursery safety, infant care, toddler care\nAnswer guidance: Mikhael Mastalerz serves as Nursery Ministry Director and is the primary contact for Nursery Ministry.",
+      "priority": 90,
+      "category": [
+        "relationship",
+        "staff"
+      ],
+      "intents": [
+        "ministry_contact",
+        "staff_routing",
+        "staff_ownership"
+      ],
+      "tags": [
+        "nursery",
+        "staffed",
+        "nursery ministry",
+        "babies",
+        "infants",
+        "toddlers",
+        "baby ministry"
+      ],
+      "search_terms": [
+        "Nursery",
+        "who oversees Nursery",
+        "who leads Nursery",
+        "who handles Nursery",
+        "who do I contact about Nursery",
+        "who is the point person for Nursery",
+        "nursery ministry",
+        "who oversees nursery ministry",
+        "who leads nursery ministry",
+        "who handles nursery ministry",
+        "who do I contact about nursery ministry",
+        "who is the point person for nursery ministry",
+        "babies",
+        "who oversees babies",
+        "who leads babies",
+        "who handles babies",
+        "who do I contact about babies",
+        "who is the point person for babies",
+        "infants",
+        "who oversees infants",
+        "who leads infants",
+        "who handles infants",
+        "who do I contact about infants",
+        "who is the point person for infants",
+        "toddlers",
+        "who oversees toddlers",
+        "who leads toddlers",
+        "who handles toddlers",
+        "who do I contact about toddlers",
+        "who is the point person for toddlers",
+        "baby ministry",
+        "who oversees baby ministry",
+        "who leads baby ministry",
+        "who handles baby ministry",
+        "who do I contact about baby ministry",
+        "who is the point person for baby ministry",
+        "diaper changes",
+        "who oversees diaper changes",
+        "who leads diaper changes",
+        "who handles diaper changes",
+        "who do I contact about diaper changes",
+        "who is the point person for diaper changes",
+        "nursery safety",
+        "who oversees nursery safety",
+        "who leads nursery safety",
+        "who handles nursery safety",
+        "who do I contact about nursery safety",
+        "who is the point person for nursery safety",
+        "infant care",
+        "who oversees infant care",
+        "who leads infant care",
+        "who handles infant care",
+        "who do I contact about infant care",
+        "who is the point person for infant care",
+        "toddler care",
+        "who oversees toddler care",
+        "who leads toddler care",
+        "who handles toddler care",
+        "who do I contact about toddler care",
+        "who is the point person for toddler care"
+      ],
+      "ministries": [
+        "nursery"
+      ],
+      "audiences": [],
+      "resources": [],
+      "staff_key": "mikhael_mastalerz",
+      "primary_staff_key": "mikhael_mastalerz",
+      "recommended_contact_staff_key": "mikhael_mastalerz",
+      "related_staff_keys": [
+        "sarah_coleman"
+      ],
+      "leadership_status": "staffed",
+      "answer_guidance": "Mikhael Mastalerz serves as Nursery Ministry Director and is the primary contact for Nursery Ministry.",
+      "routing_aliases": [
+        "nursery",
+        "nursery ministry",
+        "babies",
+        "infants",
+        "toddlers",
+        "baby ministry"
+      ],
+      "routing_topics": [
+        "nursery",
+        "infants",
+        "toddlers",
+        "diaper changes",
+        "nursery safety",
+        "infant care",
+        "toddler care"
+      ],
+      "area_label": "Nursery"
+    },
+    {
+      "id": "relationship.ministry_staff.preschool",
+      "record_type": "relationship",
+      "path": "relationships/ministry-staff.yaml",
+      "title": "Preschool staff relationship",
+      "summary": "Staff ownership relationship for Preschool. Recommended staff key: sarah_coleman.",
+      "content": "Area: Preschool\nCanonical area key: preschool\nLeadership status: staffed\nPrimary staff key: sarah_coleman\nRecommended contact staff key: sarah_coleman\nRelated staff keys: \nRouting aliases: preschool, preschool ministry, pre-k, pre k, preschool classes\nRouting topics: preschool, preschool class placement, preschool volunteers, preschool families\nAnswer guidance: Sarah Coleman serves as Preschool Director and is the primary contact for Preschool Ministry.",
+      "priority": 90,
+      "category": [
+        "relationship",
+        "staff"
+      ],
+      "intents": [
+        "ministry_contact",
+        "staff_routing",
+        "staff_ownership"
+      ],
+      "tags": [
+        "preschool",
+        "staffed",
+        "preschool ministry",
+        "pre-k",
+        "pre k",
+        "preschool classes"
+      ],
+      "search_terms": [
+        "Preschool",
+        "who oversees Preschool",
+        "who leads Preschool",
+        "who handles Preschool",
+        "who do I contact about Preschool",
+        "who is the point person for Preschool",
+        "preschool ministry",
+        "who oversees preschool ministry",
+        "who leads preschool ministry",
+        "who handles preschool ministry",
+        "who do I contact about preschool ministry",
+        "who is the point person for preschool ministry",
+        "pre-k",
+        "who oversees pre-k",
+        "who leads pre-k",
+        "who handles pre-k",
+        "who do I contact about pre-k",
+        "who is the point person for pre-k",
+        "pre k",
+        "who oversees pre k",
+        "who leads pre k",
+        "who handles pre k",
+        "who do I contact about pre k",
+        "who is the point person for pre k",
+        "preschool classes",
+        "who oversees preschool classes",
+        "who leads preschool classes",
+        "who handles preschool classes",
+        "who do I contact about preschool classes",
+        "who is the point person for preschool classes",
+        "preschool class placement",
+        "who oversees preschool class placement",
+        "who leads preschool class placement",
+        "who handles preschool class placement",
+        "who do I contact about preschool class placement",
+        "who is the point person for preschool class placement",
+        "preschool volunteers",
+        "who oversees preschool volunteers",
+        "who leads preschool volunteers",
+        "who handles preschool volunteers",
+        "who do I contact about preschool volunteers",
+        "who is the point person for preschool volunteers",
+        "preschool families",
+        "who oversees preschool families",
+        "who leads preschool families",
+        "who handles preschool families",
+        "who do I contact about preschool families",
+        "who is the point person for preschool families"
+      ],
+      "ministries": [
+        "preschool"
+      ],
+      "audiences": [],
+      "resources": [],
+      "staff_key": "sarah_coleman",
+      "primary_staff_key": "sarah_coleman",
+      "recommended_contact_staff_key": "sarah_coleman",
+      "leadership_status": "staffed",
+      "answer_guidance": "Sarah Coleman serves as Preschool Director and is the primary contact for Preschool Ministry.",
+      "routing_aliases": [
+        "preschool",
+        "preschool ministry",
+        "pre-k",
+        "pre k",
+        "preschool classes"
+      ],
+      "routing_topics": [
+        "preschool",
+        "preschool class placement",
+        "preschool volunteers",
+        "preschool families"
+      ],
+      "area_label": "Preschool"
+    },
+    {
+      "id": "relationship.ministry_staff.pastoral",
+      "record_type": "relationship",
+      "path": "relationships/ministry-staff.yaml",
+      "title": "Senior Leadership staff relationship",
+      "summary": "Staff ownership relationship for Senior Leadership. Recommended staff key: geoff_prows.",
+      "content": "Area: Senior Leadership\nCanonical area key: pastoral\nLeadership status: staffed\nPrimary staff key: geoff_prows\nRecommended contact staff key: geoff_prows\nRelated staff keys: david_bickers\nRouting aliases: pastoral, senior leadership, senior pastor, pastoral leadership, preaching, sermons, pastoral care, church vision, church leadership\nRouting topics: preaching, pastoral care, church vision, church leadership, sermons\nAnswer guidance: Geoff Prows serves as Senior Pastor and is the primary contact for senior pastoral leadership, preaching, pastoral care, and church vision. David Bickers also preaches and serves in executive leadership.",
+      "priority": 90,
+      "category": [
+        "relationship",
+        "staff"
+      ],
+      "intents": [
+        "ministry_contact",
+        "staff_routing",
+        "staff_ownership"
+      ],
+      "tags": [
+        "pastoral",
+        "Senior Leadership",
+        "staffed",
+        "senior pastor",
+        "pastoral leadership",
+        "preaching",
+        "sermons",
+        "pastoral care",
+        "church vision",
+        "church leadership"
+      ],
+      "search_terms": [
+        "Senior Leadership",
+        "who oversees Senior Leadership",
+        "who leads Senior Leadership",
+        "who handles Senior Leadership",
+        "who do I contact about Senior Leadership",
+        "who is the point person for Senior Leadership",
+        "pastoral",
+        "who oversees pastoral",
+        "who leads pastoral",
+        "who handles pastoral",
+        "who do I contact about pastoral",
+        "who is the point person for pastoral",
+        "senior pastor",
+        "who oversees senior pastor",
+        "who leads senior pastor",
+        "who handles senior pastor",
+        "who do I contact about senior pastor",
+        "who is the point person for senior pastor",
+        "pastoral leadership",
+        "who oversees pastoral leadership",
+        "who leads pastoral leadership",
+        "who handles pastoral leadership",
+        "who do I contact about pastoral leadership",
+        "who is the point person for pastoral leadership",
+        "preaching",
+        "who oversees preaching",
+        "who leads preaching",
+        "who handles preaching",
+        "who do I contact about preaching",
+        "who is the point person for preaching",
+        "sermons",
+        "who oversees sermons",
+        "who leads sermons",
+        "who handles sermons",
+        "who do I contact about sermons",
+        "who is the point person for sermons",
+        "pastoral care",
+        "who oversees pastoral care",
+        "who leads pastoral care",
+        "who handles pastoral care",
+        "who do I contact about pastoral care",
+        "who is the point person for pastoral care",
+        "church vision",
+        "who oversees church vision",
+        "who leads church vision",
+        "who handles church vision",
+        "who do I contact about church vision",
+        "who is the point person for church vision",
+        "church leadership",
+        "who oversees church leadership",
+        "who leads church leadership",
+        "who handles church leadership",
+        "who do I contact about church leadership",
+        "who is the point person for church leadership"
+      ],
+      "ministries": [
+        "pastoral"
+      ],
+      "audiences": [],
+      "resources": [],
+      "staff_key": "geoff_prows",
+      "primary_staff_key": "geoff_prows",
+      "recommended_contact_staff_key": "geoff_prows",
+      "related_staff_keys": [
+        "david_bickers"
+      ],
+      "leadership_status": "staffed",
+      "answer_guidance": "Geoff Prows serves as Senior Pastor and is the primary contact for senior pastoral leadership, preaching, pastoral care, and church vision. David Bickers also preaches and serves in executive leadership.",
+      "routing_aliases": [
+        "pastoral",
+        "senior leadership",
+        "senior pastor",
+        "pastoral leadership",
+        "preaching",
+        "sermons",
+        "pastoral care",
+        "church vision",
+        "church leadership"
+      ],
+      "routing_topics": [
+        "preaching",
+        "pastoral care",
+        "church vision",
+        "church leadership",
+        "sermons"
+      ],
+      "area_label": "Senior Leadership"
+    },
+    {
+      "id": "relationship.ministry_staff.students",
+      "record_type": "relationship",
+      "path": "relationships/ministry-staff.yaml",
+      "title": "Students staff relationship",
+      "summary": "Staff ownership relationship for Students. Recommended staff key: tucker_howard.",
+      "content": "Area: Students\nCanonical area key: students\nLeadership status: staffed\nPrimary staff key: tucker_howard\nRecommended contact staff key: tucker_howard\nRelated staff keys: \nRouting aliases: students, student ministry, youth, youth ministry, youth group, middle school, high school, teenagers\nRouting topics: student ministry, youth ministry, middle school, high school, student schedule, student safety, parent communication, student discipleship, student mentoring\nAnswer guidance: Tucker Howard serves as Student Pastor and is the primary contact for Student Ministry.",
+      "priority": 90,
+      "category": [
+        "relationship",
+        "staff"
+      ],
+      "intents": [
+        "ministry_contact",
+        "staff_routing",
+        "staff_ownership"
+      ],
+      "tags": [
+        "students",
+        "staffed",
+        "student ministry",
+        "youth",
+        "youth ministry",
+        "youth group",
+        "middle school",
+        "high school",
+        "teenagers"
+      ],
+      "search_terms": [
+        "Students",
+        "who oversees Students",
+        "who leads Students",
+        "who handles Students",
+        "who do I contact about Students",
+        "who is the point person for Students",
+        "student ministry",
+        "who oversees student ministry",
+        "who leads student ministry",
+        "who handles student ministry",
+        "who do I contact about student ministry",
+        "who is the point person for student ministry",
+        "youth",
+        "who oversees youth",
+        "who leads youth",
+        "who handles youth",
+        "who do I contact about youth",
+        "who is the point person for youth",
+        "youth ministry",
+        "who oversees youth ministry",
+        "who leads youth ministry",
+        "who handles youth ministry",
+        "who do I contact about youth ministry",
+        "who is the point person for youth ministry",
+        "youth group",
+        "who oversees youth group",
+        "who leads youth group",
+        "who handles youth group",
+        "who do I contact about youth group",
+        "who is the point person for youth group",
+        "middle school",
+        "who oversees middle school",
+        "who leads middle school",
+        "who handles middle school",
+        "who do I contact about middle school",
+        "who is the point person for middle school",
+        "high school",
+        "who oversees high school",
+        "who leads high school",
+        "who handles high school",
+        "who do I contact about high school",
+        "who is the point person for high school",
+        "teenagers",
+        "who oversees teenagers",
+        "who leads teenagers",
+        "who handles teenagers",
+        "who do I contact about teenagers",
+        "who is the point person for teenagers",
+        "student schedule",
+        "who oversees student schedule",
+        "who leads student schedule",
+        "who handles student schedule",
+        "who do I contact about student schedule",
+        "who is the point person for student schedule",
+        "student safety",
+        "who oversees student safety",
+        "who leads student safety",
+        "who handles student safety",
+        "who do I contact about student safety",
+        "who is the point person for student safety",
+        "parent communication",
+        "who oversees parent communication",
+        "who leads parent communication",
+        "who handles parent communication",
+        "who do I contact about parent communication",
+        "who is the point person for parent communication",
+        "student discipleship",
+        "who oversees student discipleship",
+        "who leads student discipleship",
+        "who handles student discipleship",
+        "who do I contact about student discipleship",
+        "who is the point person for student discipleship",
+        "student mentoring",
+        "who oversees student mentoring",
+        "who leads student mentoring",
+        "who handles student mentoring",
+        "who do I contact about student mentoring",
+        "who is the point person for student mentoring"
+      ],
+      "ministries": [
+        "students"
+      ],
+      "audiences": [],
+      "resources": [],
+      "staff_key": "tucker_howard",
+      "primary_staff_key": "tucker_howard",
+      "recommended_contact_staff_key": "tucker_howard",
+      "leadership_status": "staffed",
+      "answer_guidance": "Tucker Howard serves as Student Pastor and is the primary contact for Student Ministry.",
+      "routing_aliases": [
+        "students",
+        "student ministry",
+        "youth",
+        "youth ministry",
+        "youth group",
+        "middle school",
+        "high school",
+        "teenagers"
+      ],
+      "routing_topics": [
+        "student ministry",
+        "youth ministry",
+        "middle school",
+        "high school",
+        "student schedule",
+        "student safety",
+        "parent communication",
+        "student discipleship",
+        "student mentoring"
+      ],
+      "area_label": "Students"
+    },
+    {
+      "id": "relationship.ministry_staff.technical_creative",
+      "record_type": "relationship",
+      "path": "relationships/ministry-staff.yaml",
+      "title": "Technical and Creative staff relationship",
+      "summary": "Staff ownership relationship for Technical and Creative. Recommended staff key: matthew_kirby.",
+      "content": "Area: Technical and Creative\nCanonical area key: technical_creative\nLeadership status: staffed\nPrimary staff key: matthew_kirby\nRecommended contact staff key: matthew_kirby\nRelated staff keys: \nRouting aliases: production, production ministry, technical, technical ministry, technical director, information technology, IT support, IT department, creative, creative ministry, website, web, video, livestream, live stream, audio, lighting, technology, tech\nRouting topics: production, IT, creative, website, video, livestream, audio, lighting, technology\nAnswer guidance: Matthew Kirby serves as Technical Director and is the primary contact for IT, Production, Creative, Website, video, livestream, audio, lighting, and church technology.",
+      "priority": 90,
+      "category": [
+        "relationship",
+        "staff"
+      ],
+      "intents": [
+        "ministry_contact",
+        "staff_routing",
+        "staff_ownership"
+      ],
+      "tags": [
+        "technical_creative",
+        "Technical and Creative",
+        "staffed",
+        "production",
+        "production ministry",
+        "technical",
+        "technical ministry",
+        "technical director",
+        "information technology",
+        "IT support",
+        "IT department",
+        "creative",
+        "creative ministry",
+        "website",
+        "web",
+        "video",
+        "livestream",
+        "live stream",
+        "audio",
+        "lighting",
+        "technology",
+        "tech"
+      ],
+      "search_terms": [
+        "Technical and Creative",
+        "who oversees Technical and Creative",
+        "who leads Technical and Creative",
+        "who handles Technical and Creative",
+        "who do I contact about Technical and Creative",
+        "who is the point person for Technical and Creative",
+        "technical creative",
+        "who oversees technical creative",
+        "who leads technical creative",
+        "who handles technical creative",
+        "who do I contact about technical creative",
+        "who is the point person for technical creative",
+        "production",
+        "who oversees production",
+        "who leads production",
+        "who handles production",
+        "who do I contact about production",
+        "who is the point person for production",
+        "production ministry",
+        "who oversees production ministry",
+        "who leads production ministry",
+        "who handles production ministry",
+        "who do I contact about production ministry",
+        "who is the point person for production ministry",
+        "technical",
+        "who oversees technical",
+        "who leads technical",
+        "who handles technical",
+        "who do I contact about technical",
+        "who is the point person for technical",
+        "technical ministry",
+        "who oversees technical ministry",
+        "who leads technical ministry",
+        "who handles technical ministry",
+        "who do I contact about technical ministry",
+        "who is the point person for technical ministry",
+        "technical director",
+        "who oversees technical director",
+        "who leads technical director",
+        "who handles technical director",
+        "who do I contact about technical director",
+        "who is the point person for technical director",
+        "information technology",
+        "who oversees information technology",
+        "who leads information technology",
+        "who handles information technology",
+        "who do I contact about information technology",
+        "who is the point person for information technology",
+        "IT support",
+        "who oversees IT support",
+        "who leads IT support",
+        "who handles IT support",
+        "who do I contact about IT support",
+        "who is the point person for IT support",
+        "IT department",
+        "who oversees IT department",
+        "who leads IT department",
+        "who handles IT department",
+        "who do I contact about IT department",
+        "who is the point person for IT department",
+        "creative",
+        "who oversees creative",
+        "who leads creative",
+        "who handles creative",
+        "who do I contact about creative",
+        "who is the point person for creative",
+        "creative ministry",
+        "who oversees creative ministry",
+        "who leads creative ministry",
+        "who handles creative ministry",
+        "who do I contact about creative ministry",
+        "who is the point person for creative ministry",
+        "website",
+        "who oversees website",
+        "who leads website",
+        "who handles website",
+        "who do I contact about website",
+        "who is the point person for website",
+        "web",
+        "who oversees web",
+        "who leads web",
+        "who handles web",
+        "who do I contact about web",
+        "who is the point person for web",
+        "video",
+        "who oversees video",
+        "who leads video",
+        "who handles video",
+        "who do I contact about video",
+        "who is the point person for video",
+        "livestream",
+        "who oversees livestream",
+        "who leads livestream",
+        "who handles livestream",
+        "who do I contact about livestream",
+        "who is the point person for livestream",
+        "live stream",
+        "who oversees live stream",
+        "who leads live stream",
+        "who handles live stream",
+        "who do I contact about live stream",
+        "who is the point person for live stream",
+        "audio",
+        "who oversees audio",
+        "who leads audio",
+        "who handles audio",
+        "who do I contact about audio",
+        "who is the point person for audio",
+        "lighting",
+        "who oversees lighting",
+        "who leads lighting",
+        "who handles lighting",
+        "who do I contact about lighting",
+        "who is the point person for lighting",
+        "technology",
+        "who oversees technology",
+        "who leads technology",
+        "who handles technology",
+        "who do I contact about technology",
+        "who is the point person for technology",
+        "tech",
+        "who oversees tech",
+        "who leads tech",
+        "who handles tech",
+        "who do I contact about tech",
+        "who is the point person for tech",
+        "IT",
+        "who oversees IT",
+        "who leads IT",
+        "who handles IT",
+        "who do I contact about IT",
+        "who is the point person for IT"
+      ],
+      "ministries": [
+        "technical_creative"
+      ],
+      "audiences": [],
+      "resources": [],
+      "staff_key": "matthew_kirby",
+      "primary_staff_key": "matthew_kirby",
+      "recommended_contact_staff_key": "matthew_kirby",
+      "leadership_status": "staffed",
+      "answer_guidance": "Matthew Kirby serves as Technical Director and is the primary contact for IT, Production, Creative, Website, video, livestream, audio, lighting, and church technology.",
+      "routing_aliases": [
+        "production",
+        "production ministry",
+        "technical",
+        "technical ministry",
+        "technical director",
+        "information technology",
+        "IT support",
+        "IT department",
+        "creative",
+        "creative ministry",
+        "website",
+        "web",
+        "video",
+        "livestream",
+        "live stream",
+        "audio",
+        "lighting",
+        "technology",
+        "tech"
+      ],
+      "routing_topics": [
+        "production",
+        "IT",
+        "creative",
+        "website",
+        "video",
+        "livestream",
+        "audio",
+        "lighting",
+        "technology"
+      ],
+      "area_label": "Technical and Creative"
+    },
+    {
+      "id": "relationship.ministry_staff.worship",
+      "record_type": "relationship",
+      "path": "relationships/ministry-staff.yaml",
+      "title": "Worship staff relationship",
+      "summary": "Staff ownership relationship for Worship. Recommended staff key: larry_nichols.",
+      "content": "Area: Worship\nCanonical area key: worship\nLeadership status: staffed\nPrimary staff key: larry_nichols\nRecommended contact staff key: larry_nichols\nRelated staff keys: \nRouting aliases: worship, worship ministry, music ministry, worship team, worship band, choir, worship serving\nRouting topics: worship, music, choir, worship services, worship auditions, worship application, worship philosophy, sensory-friendly worship\nAnswer guidance: Larry Nichols serves as Worship Pastor and is the primary contact for Worship Ministry, music, choir, and serving with the worship team.",
+      "priority": 90,
+      "category": [
+        "relationship",
+        "staff"
+      ],
+      "intents": [
+        "ministry_contact",
+        "staff_routing",
+        "staff_ownership"
+      ],
+      "tags": [
+        "worship",
+        "staffed",
+        "worship ministry",
+        "music ministry",
+        "worship team",
+        "worship band",
+        "choir",
+        "worship serving"
+      ],
+      "search_terms": [
+        "Worship",
+        "who oversees Worship",
+        "who leads Worship",
+        "who handles Worship",
+        "who do I contact about Worship",
+        "who is the point person for Worship",
+        "worship ministry",
+        "who oversees worship ministry",
+        "who leads worship ministry",
+        "who handles worship ministry",
+        "who do I contact about worship ministry",
+        "who is the point person for worship ministry",
+        "music ministry",
+        "who oversees music ministry",
+        "who leads music ministry",
+        "who handles music ministry",
+        "who do I contact about music ministry",
+        "who is the point person for music ministry",
+        "worship team",
+        "who oversees worship team",
+        "who leads worship team",
+        "who handles worship team",
+        "who do I contact about worship team",
+        "who is the point person for worship team",
+        "worship band",
+        "who oversees worship band",
+        "who leads worship band",
+        "who handles worship band",
+        "who do I contact about worship band",
+        "who is the point person for worship band",
+        "choir",
+        "who oversees choir",
+        "who leads choir",
+        "who handles choir",
+        "who do I contact about choir",
+        "who is the point person for choir",
+        "worship serving",
+        "who oversees worship serving",
+        "who leads worship serving",
+        "who handles worship serving",
+        "who do I contact about worship serving",
+        "who is the point person for worship serving",
+        "music",
+        "who oversees music",
+        "who leads music",
+        "who handles music",
+        "who do I contact about music",
+        "who is the point person for music",
+        "worship services",
+        "who oversees worship services",
+        "who leads worship services",
+        "who handles worship services",
+        "who do I contact about worship services",
+        "who is the point person for worship services",
+        "worship auditions",
+        "who oversees worship auditions",
+        "who leads worship auditions",
+        "who handles worship auditions",
+        "who do I contact about worship auditions",
+        "who is the point person for worship auditions",
+        "worship application",
+        "who oversees worship application",
+        "who leads worship application",
+        "who handles worship application",
+        "who do I contact about worship application",
+        "who is the point person for worship application",
+        "worship philosophy",
+        "who oversees worship philosophy",
+        "who leads worship philosophy",
+        "who handles worship philosophy",
+        "who do I contact about worship philosophy",
+        "who is the point person for worship philosophy",
+        "sensory-friendly worship",
+        "who oversees sensory-friendly worship",
+        "who leads sensory-friendly worship",
+        "who handles sensory-friendly worship",
+        "who do I contact about sensory-friendly worship",
+        "who is the point person for sensory-friendly worship"
+      ],
+      "ministries": [
+        "worship"
+      ],
+      "audiences": [],
+      "resources": [],
+      "staff_key": "larry_nichols",
+      "primary_staff_key": "larry_nichols",
+      "recommended_contact_staff_key": "larry_nichols",
+      "leadership_status": "staffed",
+      "answer_guidance": "Larry Nichols serves as Worship Pastor and is the primary contact for Worship Ministry, music, choir, and serving with the worship team.",
+      "routing_aliases": [
+        "worship",
+        "worship ministry",
+        "music ministry",
+        "worship team",
+        "worship band",
+        "choir",
+        "worship serving"
+      ],
+      "routing_topics": [
+        "worship",
+        "music",
+        "choir",
+        "worship services",
+        "worship auditions",
+        "worship application",
+        "worship philosophy",
+        "sensory-friendly worship"
+      ],
+      "area_label": "Worship"
+    },
+    {
       "id": "staff.darrel_schick",
       "record_type": "staff_route",
       "path": "registry/staff-routing.yaml",
       "title": "Darrel Schick",
       "summary": "Darrel Schick serves as Local Missions Strategist. Full biography and fun facts are loaded from Base44 Staff when relevant.",
-      "content": "Display name: Darrel\nRole: Local Missions Strategist\nMinistries: local_missions, outreach, community_service\nTopics: local missions, community outreach, block parties, serving the community",
+      "content": "Display name: Darrel\nRole: Local Missions Strategist\nMinistries: local_missions\nTopics: local missions, community outreach, block parties, serving the community",
       "priority": 90,
       "category": [
         "staff"
@@ -6571,9 +8451,7 @@
       "tags": [
         "staff",
         "Local Missions Strategist",
-        "local_missions",
-        "outreach",
-        "community_service"
+        "local_missions"
       ],
       "search_terms": [
         "Darrel Schick",
@@ -6585,9 +8463,7 @@
         "serving the community"
       ],
       "ministries": [
-        "local_missions",
-        "outreach",
-        "community_service"
+        "local_missions"
       ],
       "audiences": [],
       "resources": [],
@@ -6709,7 +8585,7 @@
       "path": "registry/staff-routing.yaml",
       "title": "Jennifer Prows",
       "summary": "Jennifer Prows serves as Missions Administrator. Full biography and fun facts are loaded from Base44 Staff when relevant.",
-      "content": "Display name: Jennifer\nRole: Missions Administrator\nMinistries: missions, missions_administration, global_missions_support, mission_trips, missions_conference, red_barn\nTopics: missions administration, global missions support, mission trips, missions conference, Red Barn, current missions contact\nAnswer guidance: Jennifer Prows serves as Missions Administrator and is the recommended current contact for global missions questions and coordination while Urbancrest searches for its next Global Missions Pastor. Do not identify Jennifer as the Global Missions Pastor.",
+      "content": "Display name: Jennifer\nRole: Missions Administrator\nMinistries: missions, missions_administration, global_missions_support\nTopics: missions administration, global missions support, mission trips, missions conference, Red Barn, current missions contact\nAnswer guidance: Jennifer Prows serves as Missions Administrator and is the recommended current contact for global missions questions and coordination while Urbancrest searches for its next Global Missions Pastor. Do not identify Jennifer as the Global Missions Pastor.",
       "priority": 90,
       "category": [
         "staff"
@@ -6725,10 +8601,7 @@
         "Missions Administrator",
         "missions",
         "missions_administration",
-        "global_missions_support",
-        "mission_trips",
-        "missions_conference",
-        "red_barn"
+        "global_missions_support"
       ],
       "search_terms": [
         "Jennifer Prows",
@@ -6747,10 +8620,7 @@
       "ministries": [
         "missions",
         "missions_administration",
-        "global_missions_support",
-        "mission_trips",
-        "missions_conference",
-        "red_barn"
+        "global_missions_support"
       ],
       "audiences": [],
       "resources": [],
@@ -6815,7 +8685,7 @@
       "path": "registry/staff-routing.yaml",
       "title": "Larry Nichols",
       "summary": "Larry Nichols serves as Worship Pastor. Full biography and fun facts are loaded from Base44 Staff when relevant.",
-      "content": "Display name: Pastor Larry\nRole: Worship Pastor\nMinistries: worship, pastoral, music, choir\nTopics: worship, music ministry, choir, worship services, worship philosophy, worship auditions, worship application, sensory-friendly worship, worship music style",
+      "content": "Display name: Pastor Larry\nRole: Worship Pastor\nMinistries: worship, pastoral\nTopics: worship, music ministry, choir, worship services, worship philosophy, worship auditions, worship application, sensory-friendly worship, worship music style",
       "priority": 90,
       "category": [
         "staff"
@@ -6830,9 +8700,7 @@
         "staff",
         "Worship Pastor",
         "worship",
-        "pastoral",
-        "music",
-        "choir"
+        "pastoral"
       ],
       "search_terms": [
         "Larry Nichols",
@@ -6851,9 +8719,7 @@
       ],
       "ministries": [
         "worship",
-        "pastoral",
-        "music",
-        "choir"
+        "pastoral"
       ],
       "audiences": [],
       "resources": [],
@@ -6870,7 +8736,7 @@
       "path": "registry/staff-routing.yaml",
       "title": "Mark Daubenmire",
       "summary": "Mark Daubenmire serves as Member Services. Full biography and fun facts are loaded from Base44 Staff when relevant.",
-      "content": "Display name: Mark\nRole: Member Services\nMinistries: member_services, membership\nTopics: membership, member services, church records",
+      "content": "Display name: Mark\nRole: Member Services\nMinistries: member_services\nTopics: membership, member services, church records",
       "priority": 90,
       "category": [
         "staff"
@@ -6884,8 +8750,7 @@
       "tags": [
         "staff",
         "Member Services",
-        "member_services",
-        "membership"
+        "member_services"
       ],
       "search_terms": [
         "Mark Daubenmire",
@@ -6895,8 +8760,7 @@
         "church records"
       ],
       "ministries": [
-        "member_services",
-        "membership"
+        "member_services"
       ],
       "audiences": [],
       "resources": [],
@@ -6913,7 +8777,7 @@
       "path": "registry/staff-routing.yaml",
       "title": "Matthew Kirby",
       "summary": "Matthew Kirby serves as Technical Director. Full biography and fun facts are loaded from Base44 Staff when relevant.",
-      "content": "Display name: Matthew\nRole: Technical Director\nMinistries: production, it, creative, website, video, livestream, audio, technology\nTopics: production, technology, IT, website, video, livestream, audio, lighting, creative",
+      "content": "Display name: Matthew\nRole: Technical Director\nMinistries: technical_creative\nTopics: production, IT, creative, website, video, livestream, audio, lighting, technology",
       "priority": 90,
       "category": [
         "staff"
@@ -6927,14 +8791,7 @@
       "tags": [
         "staff",
         "Technical Director",
-        "production",
-        "it",
-        "creative",
-        "website",
-        "video",
-        "livestream",
-        "audio",
-        "technology"
+        "technical_creative"
       ],
       "search_terms": [
         "Matthew Kirby",
@@ -6942,24 +8799,17 @@
         "Technical Director",
         "Matt",
         "production",
-        "technology",
         "IT",
-        "website",
-        "video",
-        "livestream",
-        "audio",
-        "lighting",
-        "creative"
-      ],
-      "ministries": [
-        "production",
-        "it",
         "creative",
         "website",
         "video",
         "livestream",
         "audio",
+        "lighting",
         "technology"
+      ],
+      "ministries": [
+        "technical_creative"
       ],
       "audiences": [],
       "resources": [],
@@ -7028,7 +8878,7 @@
       "path": "registry/staff-routing.yaml",
       "title": "Sarah Coleman",
       "summary": "Sarah Coleman serves as Preschool Director. Full biography and fun facts are loaded from Base44 Staff when relevant.",
-      "content": "Display name: Sarah\nRole: Preschool Director\nMinistries: kids, preschool, children, families\nTopics: kids ministry, children, preschool, families, AWANA, Kids Ministry safety, child check-in, child checkout, well-child policy, food allergies, preschool class placement, volunteer screening",
+      "content": "Display name: Sarah\nRole: Preschool Director\nMinistries: preschool\nTopics: preschool, kids ministry, children, families, AWANA, Kids Ministry safety, child check-in, child checkout, well-child policy, food allergies, preschool class placement, volunteer screening\nAnswer guidance: Sarah Coleman serves as Preschool Director. The Kids Ministry Director position is currently vacant, and Sarah is the recommended current point person for Kids Ministry questions. Do not identify Sarah as the Kids Ministry Director.",
       "priority": 90,
       "category": [
         "staff"
@@ -7042,19 +8892,16 @@
       "tags": [
         "staff",
         "Preschool Director",
-        "kids",
-        "preschool",
-        "children",
-        "families"
+        "preschool"
       ],
       "search_terms": [
         "Sarah Coleman",
         "Sarah",
         "Preschool Director",
-        "Kids Director",
+        "Kids Ministry contact",
+        "preschool",
         "kids ministry",
         "children",
-        "preschool",
         "families",
         "AWANA",
         "Kids Ministry safety",
@@ -7066,10 +8913,7 @@
         "volunteer screening"
       ],
       "ministries": [
-        "kids",
-        "preschool",
-        "children",
-        "families"
+        "preschool"
       ],
       "audiences": [],
       "resources": [],
@@ -7078,7 +8922,8 @@
       "role": "Preschool Director",
       "pastoral_staff": false,
       "show_card": true,
-      "profile_source": "base44.Staff"
+      "profile_source": "base44.Staff",
+      "answer_guidance": "Sarah Coleman serves as Preschool Director. The Kids Ministry Director position is currently vacant, and Sarah is the recommended current point person for Kids Ministry questions. Do not identify Sarah as the Kids Ministry Director."
     },
     {
       "id": "staff.sydni_neptune",
@@ -7086,7 +8931,7 @@
       "path": "registry/staff-routing.yaml",
       "title": "Sydni Neptune",
       "summary": "Sydni Neptune serves as Guest Services. Full biography and fun facts are loaded from Base44 Staff when relevant.",
-      "content": "Display name: Sydni\nRole: Guest Services\nMinistries: guest_services, first_visit, hospitality, welcome\nTopics: guest services, first visit, hospitality, welcome team, visitors, parking, seating, refreshments, wheelchair access, accessibility",
+      "content": "Display name: Sydni\nRole: Guest Services\nMinistries: guest_services\nTopics: guest services, first visit, hospitality, welcome team, visitors, parking, seating, refreshments, wheelchair access, accessibility",
       "priority": 90,
       "category": [
         "staff"
@@ -7100,10 +8945,7 @@
       "tags": [
         "staff",
         "Guest Services",
-        "guest_services",
-        "first_visit",
-        "hospitality",
-        "welcome"
+        "guest_services"
       ],
       "search_terms": [
         "Sydni Neptune",
@@ -7120,10 +8962,7 @@
         "accessibility"
       ],
       "ministries": [
-        "guest_services",
-        "first_visit",
-        "hospitality",
-        "welcome"
+        "guest_services"
       ],
       "audiences": [],
       "resources": [],
@@ -7140,7 +8979,7 @@
       "path": "registry/staff-routing.yaml",
       "title": "Tanya Byrd",
       "summary": "Tanya Byrd serves as Financial Officer. Full biography and fun facts are loaded from Base44 Staff when relevant.",
-      "content": "Display name: Tanya\nRole: Financial Officer\nMinistries: finance, giving, stewardship, financial_administration\nTopics: giving, stewardship, finance, financial questions",
+      "content": "Display name: Tanya\nRole: Financial Officer\nMinistries: finance\nTopics: finance, giving, stewardship, donations, financial questions",
       "priority": 90,
       "category": [
         "staff"
@@ -7154,25 +8993,20 @@
       "tags": [
         "staff",
         "Financial Officer",
-        "finance",
-        "giving",
-        "stewardship",
-        "financial_administration"
+        "finance"
       ],
       "search_terms": [
         "Tanya Byrd",
         "Tanya",
         "Financial Officer",
+        "finance",
         "giving",
         "stewardship",
-        "finance",
+        "donations",
         "financial questions"
       ],
       "ministries": [
-        "finance",
-        "giving",
-        "stewardship",
-        "financial_administration"
+        "finance"
       ],
       "audiences": [],
       "resources": [],
@@ -8272,989 +10106,6 @@
       ],
       "status": "published",
       "confidence": "high"
-    },
-    {
-      "id": "relationship.ministry_staff.accessibility",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "Accessibility staff relationship",
-      "summary": "Staff relationship for accessibility. Recommended staff key: sydni_neptune.",
-      "content": "Ministry: accessibility\nLeadership status: staffed\nPrimary staff key: sydni_neptune\nRecommended contact staff key: none\nRelated staff keys: larry_nichols",
-      "priority": 85,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "accessibility",
-        "staff",
-        "ministry",
-        "staffed"
-      ],
-      "search_terms": [
-        "accessibility",
-        "who oversees accessibility",
-        "who leads accessibility",
-        "who do I contact about accessibility"
-      ],
-      "ministries": [
-        "accessibility"
-      ],
-      "audiences": [],
-      "resources": [],
-      "staff_key": "sydni_neptune",
-      "primary_staff_key": "sydni_neptune",
-      "related_staff_keys": [
-        "larry_nichols"
-      ],
-      "leadership_status": "staffed"
-    },
-    {
-      "id": "relationship.ministry_staff.creative",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "Creative staff relationship",
-      "summary": "Staff relationship for creative. Recommended staff key: matthew_kirby.",
-      "content": "Ministry: creative\nLeadership status: staffed\nPrimary staff key: matthew_kirby\nRecommended contact staff key: none\nRelated staff keys:",
-      "priority": 85,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "creative",
-        "staff",
-        "ministry",
-        "staffed"
-      ],
-      "search_terms": [
-        "creative",
-        "who oversees creative",
-        "who leads creative",
-        "who do I contact about creative"
-      ],
-      "ministries": [
-        "creative"
-      ],
-      "audiences": [],
-      "resources": [],
-      "staff_key": "matthew_kirby",
-      "primary_staff_key": "matthew_kirby",
-      "leadership_status": "staffed"
-    },
-    {
-      "id": "relationship.ministry_staff.executive_leadership",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "Executive Leadership staff relationship",
-      "summary": "Staff relationship for executive leadership. Recommended staff key: david_bickers.",
-      "content": "Ministry: executive_leadership\nLeadership status: staffed\nPrimary staff key: david_bickers\nRecommended contact staff key: none\nRelated staff keys: geoff_prows",
-      "priority": 85,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "executive_leadership",
-        "staff",
-        "ministry",
-        "staffed"
-      ],
-      "search_terms": [
-        "executive leadership",
-        "who oversees executive leadership",
-        "who leads executive leadership",
-        "who do I contact about executive leadership"
-      ],
-      "ministries": [
-        "executive_leadership"
-      ],
-      "audiences": [],
-      "resources": [],
-      "staff_key": "david_bickers",
-      "primary_staff_key": "david_bickers",
-      "related_staff_keys": [
-        "geoff_prows"
-      ],
-      "leadership_status": "staffed"
-    },
-    {
-      "id": "relationship.ministry_staff.facilities",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "Facilities staff relationship",
-      "summary": "Staff relationship for facilities. Recommended staff key: jim_short.",
-      "content": "Ministry: facilities\nLeadership status: staffed\nPrimary staff key: jim_short\nRecommended contact staff key: none\nRelated staff keys:",
-      "priority": 85,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "facilities",
-        "staff",
-        "ministry",
-        "staffed"
-      ],
-      "search_terms": [
-        "facilities",
-        "who oversees facilities",
-        "who leads facilities",
-        "who do I contact about facilities"
-      ],
-      "ministries": [
-        "facilities"
-      ],
-      "audiences": [],
-      "resources": [],
-      "staff_key": "jim_short",
-      "primary_staff_key": "jim_short",
-      "leadership_status": "staffed"
-    },
-    {
-      "id": "relationship.ministry_staff.finance",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "Finance staff relationship",
-      "summary": "Staff relationship for finance. Recommended staff key: tanya_byrd.",
-      "content": "Ministry: finance\nLeadership status: staffed\nPrimary staff key: tanya_byrd\nRecommended contact staff key: none\nRelated staff keys:",
-      "priority": 85,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "finance",
-        "staff",
-        "ministry",
-        "staffed"
-      ],
-      "search_terms": [
-        "finance",
-        "who oversees finance",
-        "who leads finance",
-        "who do I contact about finance"
-      ],
-      "ministries": [
-        "finance"
-      ],
-      "audiences": [],
-      "resources": [],
-      "staff_key": "tanya_byrd",
-      "primary_staff_key": "tanya_byrd",
-      "leadership_status": "staffed"
-    },
-    {
-      "id": "relationship.ministry_staff.first_visit",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "First Visit staff relationship",
-      "summary": "Staff relationship for first visit. Recommended staff key: sydni_neptune.",
-      "content": "Ministry: first_visit\nLeadership status: staffed\nPrimary staff key: sydni_neptune\nRecommended contact staff key: none\nRelated staff keys: mark_daubenmire",
-      "priority": 85,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "first_visit",
-        "staff",
-        "ministry",
-        "staffed"
-      ],
-      "search_terms": [
-        "first visit",
-        "who oversees first visit",
-        "who leads first visit",
-        "who do I contact about first visit"
-      ],
-      "ministries": [
-        "first_visit"
-      ],
-      "audiences": [],
-      "resources": [],
-      "staff_key": "sydni_neptune",
-      "primary_staff_key": "sydni_neptune",
-      "related_staff_keys": [
-        "mark_daubenmire"
-      ],
-      "leadership_status": "staffed"
-    },
-    {
-      "id": "relationship.ministry_staff.giving",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "Giving staff relationship",
-      "summary": "Staff relationship for giving. Recommended staff key: tanya_byrd.",
-      "content": "Ministry: giving\nLeadership status: staffed\nPrimary staff key: tanya_byrd\nRecommended contact staff key: none\nRelated staff keys:",
-      "priority": 85,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "giving",
-        "staff",
-        "ministry",
-        "staffed"
-      ],
-      "search_terms": [
-        "giving",
-        "who oversees giving",
-        "who leads giving",
-        "who do I contact about giving"
-      ],
-      "ministries": [
-        "giving"
-      ],
-      "audiences": [],
-      "resources": [],
-      "staff_key": "tanya_byrd",
-      "primary_staff_key": "tanya_byrd",
-      "leadership_status": "staffed"
-    },
-    {
-      "id": "relationship.ministry_staff.guest_services",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "Guest Services staff relationship",
-      "summary": "Staff relationship for guest services. Recommended staff key: sydni_neptune.",
-      "content": "Ministry: guest_services\nLeadership status: staffed\nPrimary staff key: sydni_neptune\nRecommended contact staff key: none\nRelated staff keys: mark_daubenmire",
-      "priority": 85,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "guest_services",
-        "staff",
-        "ministry",
-        "staffed"
-      ],
-      "search_terms": [
-        "guest services",
-        "who oversees guest services",
-        "who leads guest services",
-        "who do I contact about guest services"
-      ],
-      "ministries": [
-        "guest_services"
-      ],
-      "audiences": [],
-      "resources": [],
-      "staff_key": "sydni_neptune",
-      "primary_staff_key": "sydni_neptune",
-      "related_staff_keys": [
-        "mark_daubenmire"
-      ],
-      "leadership_status": "staffed"
-    },
-    {
-      "id": "relationship.ministry_staff.it",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "It staff relationship",
-      "summary": "Staff relationship for it. Recommended staff key: matthew_kirby.",
-      "content": "Ministry: it\nLeadership status: staffed\nPrimary staff key: matthew_kirby\nRecommended contact staff key: none\nRelated staff keys:",
-      "priority": 85,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "it",
-        "staff",
-        "ministry",
-        "staffed"
-      ],
-      "search_terms": [
-        "it",
-        "who oversees it",
-        "who leads it",
-        "who do I contact about it"
-      ],
-      "ministries": [
-        "it"
-      ],
-      "audiences": [],
-      "resources": [],
-      "staff_key": "matthew_kirby",
-      "primary_staff_key": "matthew_kirby",
-      "leadership_status": "staffed"
-    },
-    {
-      "id": "relationship.ministry_staff.kids_safety",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "Kids Safety staff relationship",
-      "summary": "Staff relationship for kids safety. Recommended staff key: sarah_coleman.",
-      "content": "Ministry: kids_safety\nLeadership status: staffed\nPrimary staff key: sarah_coleman\nRecommended contact staff key: none\nRelated staff keys: mikhael_mastalerz",
-      "priority": 85,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "kids_safety",
-        "staff",
-        "ministry",
-        "staffed"
-      ],
-      "search_terms": [
-        "kids safety",
-        "who oversees kids safety",
-        "who leads kids safety",
-        "who do I contact about kids safety"
-      ],
-      "ministries": [
-        "kids_safety"
-      ],
-      "audiences": [],
-      "resources": [],
-      "staff_key": "sarah_coleman",
-      "primary_staff_key": "sarah_coleman",
-      "related_staff_keys": [
-        "mikhael_mastalerz"
-      ],
-      "leadership_status": "staffed"
-    },
-    {
-      "id": "relationship.ministry_staff.kids",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "Kids staff relationship",
-      "summary": "Staff relationship for kids. Recommended staff key: sarah_coleman.",
-      "content": "Ministry: kids\nLeadership status: staffed\nPrimary staff key: sarah_coleman\nRecommended contact staff key: none\nRelated staff keys:",
-      "priority": 85,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "kids",
-        "staff",
-        "ministry",
-        "staffed"
-      ],
-      "search_terms": [
-        "kids",
-        "who oversees kids",
-        "who leads kids",
-        "who do I contact about kids"
-      ],
-      "ministries": [
-        "kids"
-      ],
-      "audiences": [],
-      "resources": [],
-      "staff_key": "sarah_coleman",
-      "primary_staff_key": "sarah_coleman",
-      "leadership_status": "staffed"
-    },
-    {
-      "id": "relationship.ministry_staff.local_missions",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "Local Missions staff relationship",
-      "summary": "Staff relationship for local missions. Recommended staff key: darrel_schick.",
-      "content": "Ministry: local_missions\nLeadership status: staffed\nPrimary staff key: darrel_schick\nRecommended contact staff key: darrel_schick\nRelated staff keys: jennifer_prows\nAnswer guidance: Darrel Schick serves as Local Missions Strategist and is the primary contact for local missions and community outreach.",
-      "priority": 85,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "local_missions",
-        "staff",
-        "ministry",
-        "staffed"
-      ],
-      "search_terms": [
-        "local missions",
-        "who oversees local missions",
-        "who leads local missions",
-        "who do I contact about local missions"
-      ],
-      "ministries": [
-        "local_missions"
-      ],
-      "audiences": [],
-      "resources": [],
-      "staff_key": "darrel_schick",
-      "primary_staff_key": "darrel_schick",
-      "recommended_contact_staff_key": "darrel_schick",
-      "related_staff_keys": [
-        "jennifer_prows"
-      ],
-      "leadership_status": "staffed",
-      "answer_guidance": "Darrel Schick serves as Local Missions Strategist and is the primary contact for local missions and community outreach."
-    },
-    {
-      "id": "relationship.ministry_staff.member_services",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "Member Services staff relationship",
-      "summary": "Staff relationship for member services. Recommended staff key: mark_daubenmire.",
-      "content": "Ministry: member_services\nLeadership status: staffed\nPrimary staff key: mark_daubenmire\nRecommended contact staff key: none\nRelated staff keys:",
-      "priority": 85,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "member_services",
-        "staff",
-        "ministry",
-        "staffed"
-      ],
-      "search_terms": [
-        "member services",
-        "who oversees member services",
-        "who leads member services",
-        "who do I contact about member services"
-      ],
-      "ministries": [
-        "member_services"
-      ],
-      "audiences": [],
-      "resources": [],
-      "staff_key": "mark_daubenmire",
-      "primary_staff_key": "mark_daubenmire",
-      "leadership_status": "staffed"
-    },
-    {
-      "id": "relationship.ministry_staff.missions_administration",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "Missions Administration staff relationship",
-      "summary": "Staff relationship for missions administration. Recommended staff key: jennifer_prows.",
-      "content": "Ministry: missions_administration\nLeadership status: staffed\nPrimary staff key: jennifer_prows\nRecommended contact staff key: jennifer_prows\nRelated staff keys: \nAnswer guidance: Jennifer Prows serves as Missions Administrator. Do not describe her as the Global Missions Pastor.",
-      "priority": 85,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "missions_administration",
-        "staff",
-        "ministry",
-        "staffed"
-      ],
-      "search_terms": [
-        "missions administration",
-        "who oversees missions administration",
-        "who leads missions administration",
-        "who do I contact about missions administration"
-      ],
-      "ministries": [
-        "missions_administration"
-      ],
-      "audiences": [],
-      "resources": [],
-      "staff_key": "jennifer_prows",
-      "primary_staff_key": "jennifer_prows",
-      "recommended_contact_staff_key": "jennifer_prows",
-      "leadership_status": "staffed",
-      "answer_guidance": "Jennifer Prows serves as Missions Administrator. Do not describe her as the Global Missions Pastor."
-    },
-    {
-      "id": "relationship.ministry_staff.nursery",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "Nursery staff relationship",
-      "summary": "Staff relationship for nursery. Recommended staff key: mikhael_mastalerz.",
-      "content": "Ministry: nursery\nLeadership status: staffed\nPrimary staff key: mikhael_mastalerz\nRecommended contact staff key: none\nRelated staff keys: sarah_coleman",
-      "priority": 85,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "nursery",
-        "staff",
-        "ministry",
-        "staffed"
-      ],
-      "search_terms": [
-        "nursery",
-        "who oversees nursery",
-        "who leads nursery",
-        "who do I contact about nursery"
-      ],
-      "ministries": [
-        "nursery"
-      ],
-      "audiences": [],
-      "resources": [],
-      "staff_key": "mikhael_mastalerz",
-      "primary_staff_key": "mikhael_mastalerz",
-      "related_staff_keys": [
-        "sarah_coleman"
-      ],
-      "leadership_status": "staffed"
-    },
-    {
-      "id": "relationship.ministry_staff.pastoral",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "Pastoral staff relationship",
-      "summary": "Staff relationship for pastoral. Recommended staff key: geoff_prows.",
-      "content": "Ministry: pastoral\nLeadership status: staffed\nPrimary staff key: geoff_prows\nRecommended contact staff key: none\nRelated staff keys: david_bickers, larry_nichols, tucker_howard",
-      "priority": 85,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "pastoral",
-        "staff",
-        "ministry",
-        "staffed"
-      ],
-      "search_terms": [
-        "pastoral",
-        "who oversees pastoral",
-        "who leads pastoral",
-        "who do I contact about pastoral"
-      ],
-      "ministries": [
-        "pastoral"
-      ],
-      "audiences": [],
-      "resources": [],
-      "staff_key": "geoff_prows",
-      "primary_staff_key": "geoff_prows",
-      "related_staff_keys": [
-        "david_bickers",
-        "larry_nichols",
-        "tucker_howard"
-      ],
-      "leadership_status": "staffed"
-    },
-    {
-      "id": "relationship.ministry_staff.preaching",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "Preaching staff relationship",
-      "summary": "Staff relationship for preaching. Recommended staff key: geoff_prows.",
-      "content": "Ministry: preaching\nLeadership status: staffed\nPrimary staff key: geoff_prows\nRecommended contact staff key: none\nRelated staff keys: david_bickers",
-      "priority": 85,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "preaching",
-        "staff",
-        "ministry",
-        "staffed"
-      ],
-      "search_terms": [
-        "preaching",
-        "who oversees preaching",
-        "who leads preaching",
-        "who do I contact about preaching"
-      ],
-      "ministries": [
-        "preaching"
-      ],
-      "audiences": [],
-      "resources": [],
-      "staff_key": "geoff_prows",
-      "primary_staff_key": "geoff_prows",
-      "related_staff_keys": [
-        "david_bickers"
-      ],
-      "leadership_status": "staffed"
-    },
-    {
-      "id": "relationship.ministry_staff.preschool",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "Preschool staff relationship",
-      "summary": "Staff relationship for preschool. Recommended staff key: sarah_coleman.",
-      "content": "Ministry: preschool\nLeadership status: staffed\nPrimary staff key: sarah_coleman\nRecommended contact staff key: none\nRelated staff keys:",
-      "priority": 85,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "preschool",
-        "staff",
-        "ministry",
-        "staffed"
-      ],
-      "search_terms": [
-        "preschool",
-        "who oversees preschool",
-        "who leads preschool",
-        "who do I contact about preschool"
-      ],
-      "ministries": [
-        "preschool"
-      ],
-      "audiences": [],
-      "resources": [],
-      "staff_key": "sarah_coleman",
-      "primary_staff_key": "sarah_coleman",
-      "leadership_status": "staffed"
-    },
-    {
-      "id": "relationship.ministry_staff.production",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "Production staff relationship",
-      "summary": "Staff relationship for production. Recommended staff key: matthew_kirby.",
-      "content": "Ministry: production\nLeadership status: staffed\nPrimary staff key: matthew_kirby\nRecommended contact staff key: none\nRelated staff keys:",
-      "priority": 85,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "production",
-        "staff",
-        "ministry",
-        "staffed"
-      ],
-      "search_terms": [
-        "production",
-        "who oversees production",
-        "who leads production",
-        "who do I contact about production"
-      ],
-      "ministries": [
-        "production"
-      ],
-      "audiences": [],
-      "resources": [],
-      "staff_key": "matthew_kirby",
-      "primary_staff_key": "matthew_kirby",
-      "leadership_status": "staffed"
-    },
-    {
-      "id": "relationship.ministry_staff.stewardship",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "Stewardship staff relationship",
-      "summary": "Staff relationship for stewardship. Recommended staff key: tanya_byrd.",
-      "content": "Ministry: stewardship\nLeadership status: staffed\nPrimary staff key: tanya_byrd\nRecommended contact staff key: none\nRelated staff keys:",
-      "priority": 85,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "stewardship",
-        "staff",
-        "ministry",
-        "staffed"
-      ],
-      "search_terms": [
-        "stewardship",
-        "who oversees stewardship",
-        "who leads stewardship",
-        "who do I contact about stewardship"
-      ],
-      "ministries": [
-        "stewardship"
-      ],
-      "audiences": [],
-      "resources": [],
-      "staff_key": "tanya_byrd",
-      "primary_staff_key": "tanya_byrd",
-      "leadership_status": "staffed"
-    },
-    {
-      "id": "relationship.ministry_staff.student_parent_communication",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "Student Parent Communication staff relationship",
-      "summary": "Staff relationship for student parent communication. Recommended staff key: tucker_howard.",
-      "content": "Ministry: student_parent_communication\nLeadership status: staffed\nPrimary staff key: tucker_howard\nRecommended contact staff key: none\nRelated staff keys:",
-      "priority": 85,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "student_parent_communication",
-        "staff",
-        "ministry",
-        "staffed"
-      ],
-      "search_terms": [
-        "student parent communication",
-        "who oversees student parent communication",
-        "who leads student parent communication",
-        "who do I contact about student parent communication"
-      ],
-      "ministries": [
-        "student_parent_communication"
-      ],
-      "audiences": [],
-      "resources": [],
-      "staff_key": "tucker_howard",
-      "primary_staff_key": "tucker_howard",
-      "leadership_status": "staffed"
-    },
-    {
-      "id": "relationship.ministry_staff.students",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "Students staff relationship",
-      "summary": "Staff relationship for students. Recommended staff key: tucker_howard.",
-      "content": "Ministry: students\nLeadership status: staffed\nPrimary staff key: tucker_howard\nRecommended contact staff key: none\nRelated staff keys:",
-      "priority": 85,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "students",
-        "staff",
-        "ministry",
-        "staffed"
-      ],
-      "search_terms": [
-        "students",
-        "who oversees students",
-        "who leads students",
-        "who do I contact about students"
-      ],
-      "ministries": [
-        "students"
-      ],
-      "audiences": [],
-      "resources": [],
-      "staff_key": "tucker_howard",
-      "primary_staff_key": "tucker_howard",
-      "leadership_status": "staffed"
-    },
-    {
-      "id": "relationship.ministry_staff.website",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "Website staff relationship",
-      "summary": "Staff relationship for website. Recommended staff key: matthew_kirby.",
-      "content": "Ministry: website\nLeadership status: staffed\nPrimary staff key: matthew_kirby\nRecommended contact staff key: none\nRelated staff keys:",
-      "priority": 85,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "website",
-        "staff",
-        "ministry",
-        "staffed"
-      ],
-      "search_terms": [
-        "website",
-        "who oversees website",
-        "who leads website",
-        "who do I contact about website"
-      ],
-      "ministries": [
-        "website"
-      ],
-      "audiences": [],
-      "resources": [],
-      "staff_key": "matthew_kirby",
-      "primary_staff_key": "matthew_kirby",
-      "leadership_status": "staffed"
-    },
-    {
-      "id": "relationship.ministry_staff.worship_serving",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "Worship Serving staff relationship",
-      "summary": "Staff relationship for worship serving. Recommended staff key: larry_nichols.",
-      "content": "Ministry: worship_serving\nLeadership status: staffed\nPrimary staff key: larry_nichols\nRecommended contact staff key: none\nRelated staff keys:",
-      "priority": 85,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "worship_serving",
-        "staff",
-        "ministry",
-        "staffed"
-      ],
-      "search_terms": [
-        "worship serving",
-        "who oversees worship serving",
-        "who leads worship serving",
-        "who do I contact about worship serving"
-      ],
-      "ministries": [
-        "worship_serving"
-      ],
-      "audiences": [],
-      "resources": [],
-      "staff_key": "larry_nichols",
-      "primary_staff_key": "larry_nichols",
-      "leadership_status": "staffed"
-    },
-    {
-      "id": "relationship.ministry_staff.worship",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "Worship staff relationship",
-      "summary": "Staff relationship for worship. Recommended staff key: larry_nichols.",
-      "content": "Ministry: worship\nLeadership status: staffed\nPrimary staff key: larry_nichols\nRecommended contact staff key: none\nRelated staff keys:",
-      "priority": 85,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "worship",
-        "staff",
-        "ministry",
-        "staffed"
-      ],
-      "search_terms": [
-        "worship",
-        "who oversees worship",
-        "who leads worship",
-        "who do I contact about worship"
-      ],
-      "ministries": [
-        "worship"
-      ],
-      "audiences": [],
-      "resources": [],
-      "staff_key": "larry_nichols",
-      "primary_staff_key": "larry_nichols",
-      "leadership_status": "staffed"
     },
     {
       "id": "ministries.guest_services.beverages",
@@ -14602,39 +15453,6 @@
       "confidence": "high"
     },
     {
-      "id": "ministries.production",
-      "record_type": "knowledge",
-      "path": "knowledge/ministries/production.md",
-      "title": "What is Production Ministry?",
-      "summary": "Production Ministry serves people interested in audio, video, lighting, livestream, and service technology and supports Urbancrest's mission.",
-      "content": "# What is Production Ministry?\n\n## Short Answer\n\nProduction Ministry is Urbancrest's ministry for people interested in audio, video, lighting, livestream, and service technology.\n\n## Detailed Answer\n\nThe ministry helps people connect, grow, serve, and live on mission in ways appropriate to its audience and purpose. Current schedules, age ranges, locations, and event details should come from verified Urbancrest sources.\n\n## Urbancrest Information\n\nThis article intentionally avoids unverified schedules or contact details.\n\n## Next Step\n\nComplete the Serving or Volunteer Interest Form to ask about getting involved.",
-      "priority": 65,
-      "category": [
-        "ministries"
-      ],
-      "intents": [
-        "ministry_info"
-      ],
-      "tags": [
-        "ministry",
-        "Production Ministry"
-      ],
-      "search_terms": [
-        "Production Ministry",
-        "How do I join Production Ministry?"
-      ],
-      "ministries": [],
-      "audiences": [
-        "visitor",
-        "attendee"
-      ],
-      "resources": [
-        "church_center.serving"
-      ],
-      "status": "published",
-      "confidence": "high"
-    },
-    {
       "id": "ministries.small_groups",
       "record_type": "knowledge",
       "path": "knowledge/ministries/small-groups.md",
@@ -18692,7 +19510,7 @@
       "path": "registry/ministries.yaml",
       "title": "Ministries",
       "summary": "Structured registry data from registry/ministries.yaml.",
-      "content": "version: 1.2\nlast_updated: 2026-07-30\nministries: kids: title: Urbancrest Kids\ndescription: Family-partnered discipleship ministry for children that emphasizes relationships, biblical truth, worship, service, safety, and faith lived out.\naliases: Kids Ministry\nChildren's Ministry\nchildren\nprimary_staff_key: sarah_coleman\nrelated_staff_keys: mikhael_mastalerz\nstudents: title: Student Ministry\ndescription: Ministry for students in grades 7 through 12 that partners with parents to make mature disciples of Jesus.\naliases: Youth Ministry\nmiddle school\nhigh school\nteenagers\nprimary_staff_key: tucker_howard\nsmall_groups: title: Small Groups\ndescription: Groups that help people grow in faith and community.\nresource: church_center.small_groups\nmen: title: Men's Ministry\ndescription: Ministry for men.\nwomen: title: Women's Ministry\ndescription: Ministry for women.\nmissions: title: Missions\ndescription: Local, national, and international mission engagement.\nleadership_status: transitional\nopen_role: Global Missions Pastor\nrecommended_contact_staff_key: jennifer_prows\nworship: title: Worship Ministry\ndescription: Christ-centered, Scripture-shaped ministry that leads the congregation in worship through music, prayer, Scripture, and participation.\naliases: worship team\nmusic ministry\nworship band\nvocal team\nprimary_staff_key: larry_nichols\nproduction: title: Production Ministry\ndescription: Audio\nvideo: \nlighting: \nlivestream: \nand service technology.: \nlegacy_builders: title: Legacy Builders\ndescription: Ministry for adults age 50 and older.\ncare: title: Care and Prayer\ndescription: Prayer\nencouragement: \npastoral care: \nand practical support.: \nglobal_missions: title: Global Missions\ndescription: International mission engagement, mission trips, and global missions coordination.\nleadership_status: vacant\nopen_role: Global Missions Pastor\nrecommended_contact_staff_key: jennifer_prows\nmissions_administration: title: Missions Administration\ndescription: Administrative support and coordination for Urbancrest missions.\nleadership_status: staffed\nprimary_staff_key: jennifer_prows\nlocal_missions: title: Local Missions\ndescription: Year-round community outreach serving neighbors in Lebanon through food assistance, practical help, seasonal events, and relationship-building.\naliases: Local Missions\nlocal outreach\ncommunity outreach\nLebanon outreach\nprimary_staff_key: darrel_sch...",
+      "content": "version: 1.3\nlast_updated: 2026-08-03\nministries: kids: title: Urbancrest Kids\ndescription: Family-partnered discipleship ministry for children that emphasizes relationships, biblical truth, worship, service, safety, and faith lived out.\naliases: Kids Ministry\nChildren's Ministry\nchildren\nrelated_staff_keys: mikhael_mastalerz\nleadership_status: vacant\nopen_role: Kids Ministry Director\nrecommended_contact_staff_key: sarah_coleman\nstudents: title: Student Ministry\ndescription: Ministry for students in grades 7 through 12 that partners with parents to make mature disciples of Jesus.\naliases: Youth Ministry\nmiddle school\nhigh school\nteenagers\nprimary_staff_key: tucker_howard\nsmall_groups: title: Small Groups\ndescription: Groups that help people grow in faith and community.\nresource: church_center.small_groups\nmen: title: Men's Ministry\ndescription: Ministry for men.\nwomen: title: Women's Ministry\ndescription: Ministry for women.\nmissions: title: Missions\ndescription: Local, national, and international mission engagement.\nleadership_status: transitional\nopen_role: Global Missions Pastor\nrecommended_contact_staff_key: jennifer_prows\nworship: title: Worship Ministry\ndescription: Christ-centered, Scripture-shaped ministry that leads the congregation in worship through music, prayer, Scripture, and participation.\naliases: worship team\nmusic ministry\nworship band\nvocal team\nprimary_staff_key: larry_nichols\nproduction: title: Production Ministry\ndescription: Audio, video, lighting, livestream, and service technology that supports worship services and ministry events.\naliases: Production\nProduction Ministry\naudio\nvideo\nlighting\nlivestream\nservice technology\nownership_area: technical_creative\nprimary_staff_key: matthew_kirby\nlegacy_builders: title: Legacy Builders\ndescription: Ministry for adults age 50 and older.\ncare: title: Care and Prayer\ndescription: Prayer\nencouragement: \npastoral care: \nand practical support.: \nglobal_missions: title: Global Missions\ndescription: International mission engagement, mission trips, and global missions coordination.\nleadership_status: vacant\nopen_role: Global Missions Pastor\nrecommended_contact_staff_key: jennifer_prows\nmissions_administration: title: Missions Administration\ndescription: Administrative support and coordination for Urbancrest missions.\nleadership_status: staffed\nprimary_staff_key: jennifer_prows\nlocal_missions: title...",
       "priority": 60,
       "category": [
         "registry"
