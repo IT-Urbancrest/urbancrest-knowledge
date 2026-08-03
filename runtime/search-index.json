@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.7.0",
-  "generated_at": "2026-08-03T10:06:32.067003Z",
+  "generated_at": "2026-08-03T12:34:48.887705Z",
   "timezone": "America/New_York",
-  "record_count": 329,
+  "record_count": 340,
   "config": {
     "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership Transition\n\nUrbancrest is currently searching for its next Global Missions Pastor.\n\nFor broad or global missions leadership questions:\n\n1. State that Urbancrest is currently searching for its next Global Missions Pastor.\n2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.\n3. Return `jennifer_prows` when one staff card is appropriate.\n4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nConfidently answer that Sunday worship services are at **9:30 AM** and **11:00 AM**.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
     "style_guide": "# Style Guide\n\n## Writing\n\n- Use short paragraphs.\n- Prefer plain language.\n- Avoid church jargon unless it is explained.\n- Do not use em dashes.\n- Do not use the word meaningful as a filler.\n- Use Small Groups, never Grow Groups.\n- Refer to Urbancrest Church as Urbancrest after the first use.\n- Use believer's baptism by immersion when describing baptism.\n\n## Theology\n\n- Scripture is the final authority.\n- The Baptist Faith and Message 2000 is a helpful doctrinal summary, not equal to Scripture.\n- Salvation is by grace alone through faith alone in Jesus Christ alone.\n- Baptism follows salvation and does not save.\n",
@@ -14,7 +14,7 @@
   },
   "source_rules": {
     "version": "1.0",
-    "last_updated": "2026-07-27",
+    "last_updated": "2026-07-30",
     "sources": {
       "github_knowledge": {
         "authority": "authoritative_public_knowledge",
@@ -56,6 +56,8 @@
       }
     },
     "precedence": [
+      "Structured recurring schedule data from registry/schedule.yaml overrides conflicting general knowledge and approved Base44 admin entries for normal weekly service and ministry meeting times.",
+      "For a specific date, structured live event data may override the recurring schedule when it explicitly represents a cancellation, changed time, special occurrence, or other exception for that date.",
       "Structured live event and Small Group data from GitHub overrides conflicting admin entries.",
       "Base44 Staff overrides GitHub for biography, fun fact, contact, photo, active status, and display order.",
       "GitHub staff routing determines staffKey and ministry relationships.",
@@ -63,6 +65,674 @@
     ]
   },
   "records": [
+    {
+      "id": "schedule.ministry.worship",
+      "record_type": "schedule",
+      "path": "registry/schedule.yaml",
+      "title": "Worship Services Weekly Schedule",
+      "summary": "- Sunday Worship Services: Sunday at 9:30 AM; Sunday at 11:00 AM",
+      "content": "Worship Services recurring schedule:\n- Sunday Worship Services: Sunday at 9:30 AM; Sunday at 11:00 AM",
+      "priority": 126,
+      "category": [
+        "schedule",
+        "recurring",
+        "ministry",
+        "worship"
+      ],
+      "intents": [
+        "schedule",
+        "weekly_schedule",
+        "ministry_schedule"
+      ],
+      "tags": [
+        "schedule",
+        "recurring",
+        "ministry",
+        "worship",
+        "Worship Services",
+        "Sunday services",
+        "Sunday worship",
+        "church services",
+        "church"
+      ],
+      "search_terms": [
+        "Worship Services",
+        "When does Worship Services meet?",
+        "When do Worship Services meet?",
+        "What time does Worship Services meet?",
+        "What time is Worship Services?",
+        "What is the Worship Services schedule?",
+        "What days does Worship Services meet?",
+        "When is Worship Services?",
+        "Does Urbancrest have Worship Services?",
+        "Do you offer Worship Services?",
+        "Is there Worship Services at Urbancrest?",
+        "worship",
+        "When does worship meet?",
+        "When do worship meet?",
+        "What time does worship meet?",
+        "What time is worship?",
+        "What is the worship schedule?",
+        "What days does worship meet?",
+        "When is worship?",
+        "Does Urbancrest have worship?",
+        "Do you offer worship?",
+        "Is there worship at Urbancrest?",
+        "Sunday services",
+        "When does Sunday services meet?",
+        "When do Sunday services meet?",
+        "What time does Sunday services meet?",
+        "What time is Sunday services?",
+        "What is the Sunday services schedule?",
+        "What days does Sunday services meet?",
+        "When is Sunday services?",
+        "Does Urbancrest have Sunday services?",
+        "Do you offer Sunday services?",
+        "Is there Sunday services at Urbancrest?",
+        "Sunday worship",
+        "When does Sunday worship meet?",
+        "When do Sunday worship meet?",
+        "What time does Sunday worship meet?",
+        "What time is Sunday worship?",
+        "What is the Sunday worship schedule?",
+        "What days does Sunday worship meet?",
+        "When is Sunday worship?",
+        "Does Urbancrest have Sunday worship?",
+        "Do you offer Sunday worship?",
+        "Is there Sunday worship at Urbancrest?",
+        "church services",
+        "When does church services meet?",
+        "When do church services meet?",
+        "What time does church services meet?",
+        "What time is church services?",
+        "What is the church services schedule?",
+        "What days does church services meet?",
+        "When is church services?",
+        "Does Urbancrest have church services?",
+        "Do you offer church services?",
+        "Is there church services at Urbancrest?",
+        "church",
+        "When does church meet?",
+        "When do church meet?",
+        "What time does church meet?",
+        "What time is church?",
+        "What is the church schedule?",
+        "What days does church meet?",
+        "When is church?",
+        "Does Urbancrest have church?",
+        "Do you offer church?",
+        "Is there church at Urbancrest?"
+      ],
+      "ministries": [
+        "worship"
+      ],
+      "audiences": [],
+      "resources": [],
+      "schedule_scope": "ministry",
+      "ministry_aliases": [
+        "Worship Services",
+        "worship",
+        "Sunday services",
+        "Sunday worship",
+        "church services",
+        "church"
+      ],
+      "schedule_ids": [
+        "worship.sunday"
+      ],
+      "meetings": [
+        {
+          "day": "Sunday",
+          "time": "9:30 AM"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM"
+        }
+      ],
+      "show_staff_card_on_schedule_queries": false,
+      "authoritative": true,
+      "authoritative_for": [
+        "schedule",
+        "recurring_schedule",
+        "ministry_schedule"
+      ],
+      "confidence": "high",
+      "timezone": "America/New_York",
+      "answer_guidance": "Use this registry as the source of truth for normal recurring service and ministry meeting times. For date-specific exceptions, special events, cancellations, or holiday schedules, prefer matching live calendar data when it explicitly applies to the requested date."
+    },
+    {
+      "id": "schedule.ministry.students",
+      "record_type": "schedule",
+      "path": "registry/schedule.yaml",
+      "title": "Student Ministry Weekly Schedule",
+      "summary": "- Student Ministry: Wednesday at 6:30 PM; Sunday at 9:30 AM. Regular Student Ministry gatherings pause during the summer while students participate in local missions efforts in the community.",
+      "content": "Student Ministry recurring schedule:\n- Student Ministry: Wednesday at 6:30 PM; Sunday at 9:30 AM. Regular Student Ministry gatherings pause during the summer while students participate in local missions efforts in the community.",
+      "priority": 125,
+      "category": [
+        "schedule",
+        "recurring",
+        "ministry",
+        "students"
+      ],
+      "intents": [
+        "schedule",
+        "weekly_schedule",
+        "ministry_schedule"
+      ],
+      "tags": [
+        "schedule",
+        "recurring",
+        "ministry",
+        "students",
+        "Student Ministry",
+        "youth",
+        "youth group",
+        "middle school",
+        "high school"
+      ],
+      "search_terms": [
+        "Student Ministry",
+        "When does Student Ministry meet?",
+        "When do Student Ministry meet?",
+        "What time does Student Ministry meet?",
+        "What time is Student Ministry?",
+        "What is the Student Ministry schedule?",
+        "What days does Student Ministry meet?",
+        "When is Student Ministry?",
+        "Does Urbancrest have Student Ministry?",
+        "Do you offer Student Ministry?",
+        "Is there Student Ministry at Urbancrest?",
+        "students",
+        "When does students meet?",
+        "When do students meet?",
+        "What time does students meet?",
+        "What time is students?",
+        "What is the students schedule?",
+        "What days does students meet?",
+        "When is students?",
+        "Does Urbancrest have students?",
+        "Do you offer students?",
+        "Is there students at Urbancrest?",
+        "youth",
+        "When does youth meet?",
+        "When do youth meet?",
+        "What time does youth meet?",
+        "What time is youth?",
+        "What is the youth schedule?",
+        "What days does youth meet?",
+        "When is youth?",
+        "Does Urbancrest have youth?",
+        "Do you offer youth?",
+        "Is there youth at Urbancrest?",
+        "youth group",
+        "When does youth group meet?",
+        "When do youth group meet?",
+        "What time does youth group meet?",
+        "What time is youth group?",
+        "What is the youth group schedule?",
+        "What days does youth group meet?",
+        "When is youth group?",
+        "Does Urbancrest have youth group?",
+        "Do you offer youth group?",
+        "Is there youth group at Urbancrest?",
+        "middle school",
+        "When does middle school meet?",
+        "When do middle school meet?",
+        "What time does middle school meet?",
+        "What time is middle school?",
+        "What is the middle school schedule?",
+        "What days does middle school meet?",
+        "When is middle school?",
+        "Does Urbancrest have middle school?",
+        "Do you offer middle school?",
+        "Is there middle school at Urbancrest?",
+        "high school",
+        "When does high school meet?",
+        "When do high school meet?",
+        "What time does high school meet?",
+        "What time is high school?",
+        "What is the high school schedule?",
+        "What days does high school meet?",
+        "When is high school?",
+        "Does Urbancrest have high school?",
+        "Do you offer high school?",
+        "Is there high school at Urbancrest?"
+      ],
+      "ministries": [
+        "students"
+      ],
+      "audiences": [],
+      "resources": [],
+      "schedule_scope": "ministry",
+      "ministry_aliases": [
+        "Student Ministry",
+        "students",
+        "youth",
+        "youth group",
+        "middle school",
+        "high school"
+      ],
+      "schedule_ids": [
+        "students.weekly"
+      ],
+      "meetings": [
+        {
+          "day": "Wednesday",
+          "time": "6:30 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "9:30 AM"
+        }
+      ],
+      "recommended_contact_staff_key": "tucker_howard",
+      "show_staff_card_on_schedule_queries": true,
+      "authoritative": true,
+      "authoritative_for": [
+        "schedule",
+        "recurring_schedule",
+        "ministry_schedule"
+      ],
+      "confidence": "high",
+      "timezone": "America/New_York",
+      "answer_guidance": "Use this registry as the source of truth for normal recurring service and ministry meeting times. For date-specific exceptions, special events, cancellations, or holiday schedules, prefer matching live calendar data when it explicitly applies to the requested date."
+    },
+    {
+      "id": "schedule.worship.sunday",
+      "record_type": "schedule",
+      "path": "registry/schedule.yaml",
+      "title": "Sunday Worship Services",
+      "summary": "Sunday Worship Services: Sunday at 9:30 AM; Sunday at 11:00 AM",
+      "content": "Sunday Worship Services recurring schedule:\n- Sunday at 9:30 AM\n- Sunday at 11:00 AM",
+      "priority": 125,
+      "category": [
+        "schedule",
+        "recurring",
+        "worship"
+      ],
+      "intents": [
+        "schedule",
+        "weekly_schedule",
+        "ministry_schedule",
+        "service_times",
+        "sunday_service_times",
+        "visit"
+      ],
+      "tags": [
+        "schedule",
+        "recurring",
+        "worship",
+        "Sunday Worship Services",
+        "Sunday services",
+        "Sunday worship",
+        "worship services",
+        "church services",
+        "Sunday"
+      ],
+      "search_terms": [
+        "Sunday Worship Services",
+        "When does Sunday Worship Services meet?",
+        "When do Sunday Worship Services meet?",
+        "What time does Sunday Worship Services meet?",
+        "What time is Sunday Worship Services?",
+        "What is the Sunday Worship Services schedule?",
+        "What days does Sunday Worship Services meet?",
+        "When is Sunday Worship Services?",
+        "Does Urbancrest have Sunday Worship Services?",
+        "Do you offer Sunday Worship Services?",
+        "Is there Sunday Worship Services at Urbancrest?",
+        "Sunday services",
+        "When does Sunday services meet?",
+        "When do Sunday services meet?",
+        "What time does Sunday services meet?",
+        "What time is Sunday services?",
+        "What is the Sunday services schedule?",
+        "What days does Sunday services meet?",
+        "When is Sunday services?",
+        "Does Urbancrest have Sunday services?",
+        "Do you offer Sunday services?",
+        "Is there Sunday services at Urbancrest?",
+        "Sunday worship",
+        "When does Sunday worship meet?",
+        "When do Sunday worship meet?",
+        "What time does Sunday worship meet?",
+        "What time is Sunday worship?",
+        "What is the Sunday worship schedule?",
+        "What days does Sunday worship meet?",
+        "When is Sunday worship?",
+        "Does Urbancrest have Sunday worship?",
+        "Do you offer Sunday worship?",
+        "Is there Sunday worship at Urbancrest?",
+        "worship services",
+        "When does worship services meet?",
+        "When do worship services meet?",
+        "What time does worship services meet?",
+        "What time is worship services?",
+        "What is the worship services schedule?",
+        "What days does worship services meet?",
+        "When is worship services?",
+        "Does Urbancrest have worship services?",
+        "Do you offer worship services?",
+        "Is there worship services at Urbancrest?",
+        "church services",
+        "When does church services meet?",
+        "When do church services meet?",
+        "What time does church services meet?",
+        "What time is church services?",
+        "What is the church services schedule?",
+        "What days does church services meet?",
+        "When is church services?",
+        "Does Urbancrest have church services?",
+        "Do you offer church services?",
+        "Is there church services at Urbancrest?"
+      ],
+      "ministries": [
+        "worship"
+      ],
+      "audiences": [],
+      "resources": [],
+      "schedule_id": "worship.sunday",
+      "schedule_scope": "activity",
+      "schedule_aliases": [
+        "Sunday Worship Services",
+        "Sunday services",
+        "Sunday worship",
+        "worship services",
+        "church services"
+      ],
+      "ministry_aliases": [
+        "Worship Services",
+        "worship",
+        "Sunday services",
+        "Sunday worship",
+        "church services",
+        "church"
+      ],
+      "meetings": [
+        {
+          "day": "Sunday",
+          "time": "9:30 AM"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM"
+        }
+      ],
+      "show_staff_card_on_schedule_queries": false,
+      "authoritative": true,
+      "authoritative_for": [
+        "schedule",
+        "recurring_schedule",
+        "ministry_schedule",
+        "service_times",
+        "sunday_service_times",
+        "visit"
+      ],
+      "confidence": "high",
+      "timezone": "America/New_York",
+      "answer_guidance": "For normal Sunday service-time questions, confidently state that worship services are at 9:30 AM and 11:00 AM."
+    },
+    {
+      "id": "schedule.ministry.kids",
+      "record_type": "schedule",
+      "path": "registry/schedule.yaml",
+      "title": "Urbancrest Kids Weekly Schedule",
+      "summary": "- AWANA: Wednesday at 6:15 PM - Sunday School: Sunday at 9:30 AM; Sunday at 11:00 AM",
+      "content": "Urbancrest Kids recurring schedule:\n- AWANA: Wednesday at 6:15 PM\n- Sunday School: Sunday at 9:30 AM; Sunday at 11:00 AM",
+      "priority": 123,
+      "category": [
+        "schedule",
+        "recurring",
+        "ministry",
+        "kids"
+      ],
+      "intents": [
+        "schedule",
+        "weekly_schedule",
+        "ministry_schedule"
+      ],
+      "tags": [
+        "schedule",
+        "recurring",
+        "ministry",
+        "kids",
+        "Urbancrest Kids",
+        "Kids Ministry",
+        "children's ministry",
+        "children"
+      ],
+      "search_terms": [
+        "Urbancrest Kids",
+        "When does Urbancrest Kids meet?",
+        "When do Urbancrest Kids meet?",
+        "What time does Urbancrest Kids meet?",
+        "What time is Urbancrest Kids?",
+        "What is the Urbancrest Kids schedule?",
+        "What days does Urbancrest Kids meet?",
+        "When is Urbancrest Kids?",
+        "Does Urbancrest have Urbancrest Kids?",
+        "Do you offer Urbancrest Kids?",
+        "Is there Urbancrest Kids at Urbancrest?",
+        "Kids Ministry",
+        "When does Kids Ministry meet?",
+        "When do Kids Ministry meet?",
+        "What time does Kids Ministry meet?",
+        "What time is Kids Ministry?",
+        "What is the Kids Ministry schedule?",
+        "What days does Kids Ministry meet?",
+        "When is Kids Ministry?",
+        "Does Urbancrest have Kids Ministry?",
+        "Do you offer Kids Ministry?",
+        "Is there Kids Ministry at Urbancrest?",
+        "kids",
+        "When does kids meet?",
+        "When do kids meet?",
+        "What time does kids meet?",
+        "What time is kids?",
+        "What is the kids schedule?",
+        "What days does kids meet?",
+        "When is kids?",
+        "Does Urbancrest have kids?",
+        "Do you offer kids?",
+        "Is there kids at Urbancrest?",
+        "children's ministry",
+        "When does children's ministry meet?",
+        "When do children's ministry meet?",
+        "What time does children's ministry meet?",
+        "What time is children's ministry?",
+        "What is the children's ministry schedule?",
+        "What days does children's ministry meet?",
+        "When is children's ministry?",
+        "Does Urbancrest have children's ministry?",
+        "Do you offer children's ministry?",
+        "Is there children's ministry at Urbancrest?",
+        "children",
+        "When does children meet?",
+        "When do children meet?",
+        "What time does children meet?",
+        "What time is children?",
+        "What is the children schedule?",
+        "What days does children meet?",
+        "When is children?",
+        "Does Urbancrest have children?",
+        "Do you offer children?",
+        "Is there children at Urbancrest?"
+      ],
+      "ministries": [
+        "kids"
+      ],
+      "audiences": [],
+      "resources": [],
+      "schedule_scope": "ministry",
+      "ministry_aliases": [
+        "Urbancrest Kids",
+        "Kids Ministry",
+        "kids",
+        "children's ministry",
+        "children"
+      ],
+      "schedule_ids": [
+        "kids.sunday_school",
+        "kids.awana"
+      ],
+      "meetings": [
+        {
+          "day": "Wednesday",
+          "time": "6:15 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "9:30 AM"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM"
+        }
+      ],
+      "recommended_contact_staff_key": "sarah_coleman",
+      "show_staff_card_on_schedule_queries": true,
+      "authoritative": true,
+      "authoritative_for": [
+        "schedule",
+        "recurring_schedule",
+        "ministry_schedule"
+      ],
+      "confidence": "high",
+      "timezone": "America/New_York",
+      "answer_guidance": "Use this registry as the source of truth for normal recurring service and ministry meeting times. For date-specific exceptions, special events, cancellations, or holiday schedules, prefer matching live calendar data when it explicitly applies to the requested date."
+    },
+    {
+      "id": "schedule.students.weekly",
+      "record_type": "schedule",
+      "path": "registry/schedule.yaml",
+      "title": "Student Ministry",
+      "summary": "Student Ministry: Wednesday at 6:30 PM; Sunday at 9:30 AM. Regular Student Ministry gatherings pause during the summer while students participate in local missions efforts in the community.",
+      "content": "Student Ministry recurring schedule:\n- Wednesday at 6:30 PM\n- Sunday at 9:30 AM\nSeasonal note: Regular Student Ministry gatherings pause during the summer while students participate in local missions efforts in the community.",
+      "priority": 122,
+      "category": [
+        "schedule",
+        "recurring",
+        "students"
+      ],
+      "intents": [
+        "schedule",
+        "weekly_schedule",
+        "ministry_schedule"
+      ],
+      "tags": [
+        "schedule",
+        "recurring",
+        "students",
+        "Student Ministry",
+        "youth group",
+        "middle school ministry",
+        "high school ministry",
+        "Sunday",
+        "Wednesday"
+      ],
+      "search_terms": [
+        "Student Ministry",
+        "When does Student Ministry meet?",
+        "When do Student Ministry meet?",
+        "What time does Student Ministry meet?",
+        "What time is Student Ministry?",
+        "What is the Student Ministry schedule?",
+        "What days does Student Ministry meet?",
+        "When is Student Ministry?",
+        "Does Urbancrest have Student Ministry?",
+        "Do you offer Student Ministry?",
+        "Is there Student Ministry at Urbancrest?",
+        "youth group",
+        "When does youth group meet?",
+        "When do youth group meet?",
+        "What time does youth group meet?",
+        "What time is youth group?",
+        "What is the youth group schedule?",
+        "What days does youth group meet?",
+        "When is youth group?",
+        "Does Urbancrest have youth group?",
+        "Do you offer youth group?",
+        "Is there youth group at Urbancrest?",
+        "students",
+        "When does students meet?",
+        "When do students meet?",
+        "What time does students meet?",
+        "What time is students?",
+        "What is the students schedule?",
+        "What days does students meet?",
+        "When is students?",
+        "Does Urbancrest have students?",
+        "Do you offer students?",
+        "Is there students at Urbancrest?",
+        "middle school ministry",
+        "When does middle school ministry meet?",
+        "When do middle school ministry meet?",
+        "What time does middle school ministry meet?",
+        "What time is middle school ministry?",
+        "What is the middle school ministry schedule?",
+        "What days does middle school ministry meet?",
+        "When is middle school ministry?",
+        "Does Urbancrest have middle school ministry?",
+        "Do you offer middle school ministry?",
+        "Is there middle school ministry at Urbancrest?",
+        "high school ministry",
+        "When does high school ministry meet?",
+        "When do high school ministry meet?",
+        "What time does high school ministry meet?",
+        "What time is high school ministry?",
+        "What is the high school ministry schedule?",
+        "What days does high school ministry meet?",
+        "When is high school ministry?",
+        "Does Urbancrest have high school ministry?",
+        "Do you offer high school ministry?",
+        "Is there high school ministry at Urbancrest?"
+      ],
+      "ministries": [
+        "students"
+      ],
+      "audiences": [],
+      "resources": [],
+      "schedule_id": "students.weekly",
+      "schedule_scope": "activity",
+      "schedule_aliases": [
+        "Student Ministry",
+        "youth group",
+        "students",
+        "middle school ministry",
+        "high school ministry"
+      ],
+      "ministry_aliases": [
+        "Student Ministry",
+        "students",
+        "youth",
+        "youth group",
+        "middle school",
+        "high school"
+      ],
+      "meetings": [
+        {
+          "day": "Wednesday",
+          "time": "6:30 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "9:30 AM"
+        }
+      ],
+      "seasonal_note": "Regular Student Ministry gatherings pause during the summer while students participate in local missions efforts in the community.",
+      "recommended_contact_staff_key": "tucker_howard",
+      "show_staff_card_on_schedule_queries": true,
+      "authoritative": true,
+      "authoritative_for": [
+        "schedule",
+        "recurring_schedule",
+        "ministry_schedule"
+      ],
+      "confidence": "high",
+      "timezone": "America/New_York",
+      "answer_guidance": "Give both regular meeting times and mention the summer pause when answering a general Student Ministry schedule question."
+    },
     {
       "id": "about.services.times",
       "record_type": "knowledge",
@@ -123,55 +793,726 @@
       ]
     },
     {
-      "id": "schedule.weekly",
+      "id": "schedule.kids.awana",
       "record_type": "schedule",
       "path": "registry/schedule.yaml",
-      "title": "Urbancrest Weekly Service Schedule",
-      "summary": "Sunday worship services are at 9:30 AM and 11:00 AM.",
-      "content": "Regular weekly schedule:\nSunday worship: 9:30 AM, 11:00 AM\nWednesday Dinner: 5:30 PM at Gymnasium\nWednesday Awana: 6:15 PM\nWednesday Students: 6:30 PM\nWednesday Adult Bible Studies: 6:30 PM",
+      "title": "AWANA",
+      "summary": "AWANA: Wednesday at 6:15 PM",
+      "content": "AWANA recurring schedule:\n- Wednesday at 6:15 PM",
       "priority": 120,
       "category": [
         "schedule",
+        "recurring",
+        "kids"
+      ],
+      "intents": [
+        "schedule",
+        "weekly_schedule",
+        "ministry_schedule"
+      ],
+      "tags": [
+        "schedule",
+        "recurring",
+        "kids",
+        "AWANA",
+        "kids Wednesday night",
+        "Wednesday kids",
+        "Wednesday",
+        "children"
+      ],
+      "search_terms": [
+        "AWANA",
+        "When does AWANA meet?",
+        "When do AWANA meet?",
+        "What time does AWANA meet?",
+        "What time is AWANA?",
+        "What is the AWANA schedule?",
+        "What days does AWANA meet?",
+        "When is AWANA?",
+        "Does Urbancrest have AWANA?",
+        "Do you offer AWANA?",
+        "Is there AWANA at Urbancrest?",
+        "kids Wednesday night",
+        "When does kids Wednesday night meet?",
+        "When do kids Wednesday night meet?",
+        "What time does kids Wednesday night meet?",
+        "What time is kids Wednesday night?",
+        "What is the kids Wednesday night schedule?",
+        "What days does kids Wednesday night meet?",
+        "When is kids Wednesday night?",
+        "Does Urbancrest have kids Wednesday night?",
+        "Do you offer kids Wednesday night?",
+        "Is there kids Wednesday night at Urbancrest?",
+        "Wednesday kids",
+        "When does Wednesday kids meet?",
+        "When do Wednesday kids meet?",
+        "What time does Wednesday kids meet?",
+        "What time is Wednesday kids?",
+        "What is the Wednesday kids schedule?",
+        "What days does Wednesday kids meet?",
+        "When is Wednesday kids?",
+        "Does Urbancrest have Wednesday kids?",
+        "Do you offer Wednesday kids?",
+        "Is there Wednesday kids at Urbancrest?"
+      ],
+      "ministries": [
+        "kids"
+      ],
+      "audiences": [],
+      "resources": [],
+      "schedule_id": "kids.awana",
+      "schedule_scope": "activity",
+      "schedule_aliases": [
+        "AWANA",
+        "kids Wednesday night",
+        "Wednesday kids"
+      ],
+      "ministry_aliases": [
+        "Urbancrest Kids",
+        "Kids Ministry",
+        "kids",
+        "children's ministry",
+        "children"
+      ],
+      "meetings": [
+        {
+          "day": "Wednesday",
+          "time": "6:15 PM"
+        }
+      ],
+      "recommended_contact_staff_key": "sarah_coleman",
+      "show_staff_card_on_schedule_queries": true,
+      "authoritative": true,
+      "authoritative_for": [
+        "schedule",
+        "recurring_schedule",
+        "ministry_schedule"
+      ],
+      "confidence": "high",
+      "timezone": "America/New_York",
+      "answer_guidance": "AWANA meets on Wednesdays at 6:15 PM."
+    },
+    {
+      "id": "schedule.kids.sunday_school",
+      "record_type": "schedule",
+      "path": "registry/schedule.yaml",
+      "title": "Sunday School",
+      "summary": "Sunday School: Sunday at 9:30 AM; Sunday at 11:00 AM",
+      "content": "Sunday School recurring schedule:\n- Sunday at 9:30 AM\n- Sunday at 11:00 AM",
+      "priority": 120,
+      "category": [
+        "schedule",
+        "recurring",
+        "kids"
+      ],
+      "intents": [
+        "schedule",
+        "weekly_schedule",
+        "ministry_schedule"
+      ],
+      "tags": [
+        "schedule",
+        "recurring",
+        "kids",
+        "Sunday School",
+        "Kids Sunday School",
+        "children's Sunday School",
+        "Sunday School classes",
+        "Sunday",
+        "children"
+      ],
+      "search_terms": [
+        "Sunday School",
+        "When does Sunday School meet?",
+        "When do Sunday School meet?",
+        "What time does Sunday School meet?",
+        "What time is Sunday School?",
+        "What is the Sunday School schedule?",
+        "What days does Sunday School meet?",
+        "When is Sunday School?",
+        "Does Urbancrest have Sunday School?",
+        "Do you offer Sunday School?",
+        "Is there Sunday School at Urbancrest?",
+        "Kids Sunday School",
+        "When does Kids Sunday School meet?",
+        "When do Kids Sunday School meet?",
+        "What time does Kids Sunday School meet?",
+        "What time is Kids Sunday School?",
+        "What is the Kids Sunday School schedule?",
+        "What days does Kids Sunday School meet?",
+        "When is Kids Sunday School?",
+        "Does Urbancrest have Kids Sunday School?",
+        "Do you offer Kids Sunday School?",
+        "Is there Kids Sunday School at Urbancrest?",
+        "children's Sunday School",
+        "When does children's Sunday School meet?",
+        "When do children's Sunday School meet?",
+        "What time does children's Sunday School meet?",
+        "What time is children's Sunday School?",
+        "What is the children's Sunday School schedule?",
+        "What days does children's Sunday School meet?",
+        "When is children's Sunday School?",
+        "Does Urbancrest have children's Sunday School?",
+        "Do you offer children's Sunday School?",
+        "Is there children's Sunday School at Urbancrest?",
+        "Sunday School classes",
+        "When does Sunday School classes meet?",
+        "When do Sunday School classes meet?",
+        "What time does Sunday School classes meet?",
+        "What time is Sunday School classes?",
+        "What is the Sunday School classes schedule?",
+        "What days does Sunday School classes meet?",
+        "When is Sunday School classes?",
+        "Does Urbancrest have Sunday School classes?",
+        "Do you offer Sunday School classes?",
+        "Is there Sunday School classes at Urbancrest?"
+      ],
+      "ministries": [
+        "kids"
+      ],
+      "audiences": [],
+      "resources": [],
+      "schedule_id": "kids.sunday_school",
+      "schedule_scope": "activity",
+      "schedule_aliases": [
+        "Sunday School",
+        "Kids Sunday School",
+        "children's Sunday School",
+        "Sunday School classes"
+      ],
+      "ministry_aliases": [
+        "Urbancrest Kids",
+        "Kids Ministry",
+        "kids",
+        "children's ministry",
+        "children"
+      ],
+      "meetings": [
+        {
+          "day": "Sunday",
+          "time": "9:30 AM"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM"
+        }
+      ],
+      "recommended_contact_staff_key": "sarah_coleman",
+      "show_staff_card_on_schedule_queries": true,
+      "authoritative": true,
+      "authoritative_for": [
+        "schedule",
+        "recurring_schedule",
+        "ministry_schedule"
+      ],
+      "confidence": "high",
+      "timezone": "America/New_York",
+      "answer_guidance": "Sunday School classes for kids are available during both Sunday morning services."
+    },
+    {
+      "id": "schedule.ministry.adults",
+      "record_type": "schedule",
+      "path": "registry/schedule.yaml",
+      "title": "Adult Bible Studies Weekly Schedule",
+      "summary": "- Adult Bible Studies: Wednesday at 6:30 PM",
+      "content": "Adult Bible Studies recurring schedule:\n- Adult Bible Studies: Wednesday at 6:30 PM",
+      "priority": 118,
+      "category": [
+        "schedule",
+        "recurring",
+        "ministry",
+        "adults"
+      ],
+      "intents": [
+        "schedule",
+        "weekly_schedule",
+        "ministry_schedule"
+      ],
+      "tags": [
+        "schedule",
+        "recurring",
+        "ministry",
+        "adults",
+        "Adult Bible Studies",
+        "Bible studies",
+        "Wednesday Bible studies"
+      ],
+      "search_terms": [
+        "Adult Bible Studies",
+        "When does Adult Bible Studies meet?",
+        "When do Adult Bible Studies meet?",
+        "What time does Adult Bible Studies meet?",
+        "What time is Adult Bible Studies?",
+        "What is the Adult Bible Studies schedule?",
+        "What days does Adult Bible Studies meet?",
+        "When is Adult Bible Studies?",
+        "Does Urbancrest have Adult Bible Studies?",
+        "Do you offer Adult Bible Studies?",
+        "Is there Adult Bible Studies at Urbancrest?",
+        "adults",
+        "When does adults meet?",
+        "When do adults meet?",
+        "What time does adults meet?",
+        "What time is adults?",
+        "What is the adults schedule?",
+        "What days does adults meet?",
+        "When is adults?",
+        "Does Urbancrest have adults?",
+        "Do you offer adults?",
+        "Is there adults at Urbancrest?",
+        "Bible studies",
+        "When does Bible studies meet?",
+        "When do Bible studies meet?",
+        "What time does Bible studies meet?",
+        "What time is Bible studies?",
+        "What is the Bible studies schedule?",
+        "What days does Bible studies meet?",
+        "When is Bible studies?",
+        "Does Urbancrest have Bible studies?",
+        "Do you offer Bible studies?",
+        "Is there Bible studies at Urbancrest?",
+        "Wednesday Bible studies",
+        "When does Wednesday Bible studies meet?",
+        "When do Wednesday Bible studies meet?",
+        "What time does Wednesday Bible studies meet?",
+        "What time is Wednesday Bible studies?",
+        "What is the Wednesday Bible studies schedule?",
+        "What days does Wednesday Bible studies meet?",
+        "When is Wednesday Bible studies?",
+        "Does Urbancrest have Wednesday Bible studies?",
+        "Do you offer Wednesday Bible studies?",
+        "Is there Wednesday Bible studies at Urbancrest?"
+      ],
+      "ministries": [
+        "adults"
+      ],
+      "audiences": [],
+      "resources": [],
+      "schedule_scope": "ministry",
+      "ministry_aliases": [
+        "Adult Bible Studies",
+        "adults",
+        "Bible studies",
+        "Wednesday Bible studies"
+      ],
+      "schedule_ids": [
+        "adults.wednesday_bible_studies"
+      ],
+      "meetings": [
+        {
+          "day": "Wednesday",
+          "time": "6:30 PM"
+        }
+      ],
+      "show_staff_card_on_schedule_queries": false,
+      "authoritative": true,
+      "authoritative_for": [
+        "schedule",
+        "recurring_schedule",
+        "ministry_schedule"
+      ],
+      "confidence": "high",
+      "timezone": "America/New_York",
+      "answer_guidance": "Use this registry as the source of truth for normal recurring service and ministry meeting times. For date-specific exceptions, special events, cancellations, or holiday schedules, prefer matching live calendar data when it explicitly applies to the requested date."
+    },
+    {
+      "id": "schedule.ministry.churchwide",
+      "record_type": "schedule",
+      "path": "registry/schedule.yaml",
+      "title": "Churchwide Weekly Schedule",
+      "summary": "- Wednesday Night Dinner: Wednesday at 5:30 PM at Gymnasium",
+      "content": "Churchwide recurring schedule:\n- Wednesday Night Dinner: Wednesday at 5:30 PM at Gymnasium",
+      "priority": 118,
+      "category": [
+        "schedule",
+        "recurring",
+        "ministry",
+        "churchwide"
+      ],
+      "intents": [
+        "schedule",
+        "weekly_schedule",
+        "ministry_schedule"
+      ],
+      "tags": [
+        "schedule",
+        "recurring",
+        "ministry",
+        "churchwide",
+        "Wednesday activities",
+        "Wednesday nights"
+      ],
+      "search_terms": [
+        "Churchwide",
+        "When does Churchwide meet?",
+        "When do Churchwide meet?",
+        "What time does Churchwide meet?",
+        "What time is Churchwide?",
+        "What is the Churchwide schedule?",
+        "What days does Churchwide meet?",
+        "When is Churchwide?",
+        "Does Urbancrest have Churchwide?",
+        "Do you offer Churchwide?",
+        "Is there Churchwide at Urbancrest?",
+        "Wednesday activities",
+        "When does Wednesday activities meet?",
+        "When do Wednesday activities meet?",
+        "What time does Wednesday activities meet?",
+        "What time is Wednesday activities?",
+        "What is the Wednesday activities schedule?",
+        "What days does Wednesday activities meet?",
+        "When is Wednesday activities?",
+        "Does Urbancrest have Wednesday activities?",
+        "Do you offer Wednesday activities?",
+        "Is there Wednesday activities at Urbancrest?",
+        "Wednesday nights",
+        "When does Wednesday nights meet?",
+        "When do Wednesday nights meet?",
+        "What time does Wednesday nights meet?",
+        "What time is Wednesday nights?",
+        "What is the Wednesday nights schedule?",
+        "What days does Wednesday nights meet?",
+        "When is Wednesday nights?",
+        "Does Urbancrest have Wednesday nights?",
+        "Do you offer Wednesday nights?",
+        "Is there Wednesday nights at Urbancrest?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [],
+      "resources": [],
+      "schedule_scope": "ministry",
+      "ministry_aliases": [
+        "Churchwide",
+        "Wednesday activities",
+        "Wednesday nights"
+      ],
+      "schedule_ids": [
+        "churchwide.wednesday_dinner"
+      ],
+      "meetings": [
+        {
+          "day": "Wednesday",
+          "time": "5:30 PM",
+          "location": "Gymnasium"
+        }
+      ],
+      "show_staff_card_on_schedule_queries": false,
+      "authoritative": true,
+      "authoritative_for": [
+        "schedule",
+        "recurring_schedule",
+        "ministry_schedule"
+      ],
+      "confidence": "high",
+      "timezone": "America/New_York",
+      "answer_guidance": "Use this registry as the source of truth for normal recurring service and ministry meeting times. For date-specific exceptions, special events, cancellations, or holiday schedules, prefer matching live calendar data when it explicitly applies to the requested date."
+    },
+    {
+      "id": "schedule.weekly",
+      "record_type": "schedule",
+      "path": "registry/schedule.yaml",
+      "title": "Urbancrest Weekly Schedule",
+      "summary": "Regular Sunday and Wednesday recurring schedule for Urbancrest services and ministries.",
+      "content": "Urbancrest regular weekly schedule:\n- Wednesday Night Dinner: Wednesday at 5:30 PM at Gymnasium\n- AWANA: Wednesday at 6:15 PM\n- Adult Bible Studies: Wednesday at 6:30 PM\n- Student Ministry: Wednesday at 6:30 PM; Sunday at 9:30 AM. Regular Student Ministry gatherings pause during the summer while students participate in local missions efforts in the community.\n- Sunday School: Sunday at 9:30 AM; Sunday at 11:00 AM\n- Sunday Worship Services: Sunday at 9:30 AM; Sunday at 11:00 AM",
+      "priority": 118,
+      "category": [
+        "schedule",
+        "recurring",
         "about"
       ],
       "intents": [
-        "service_times",
-        "sunday_service_times",
+        "schedule",
         "weekly_schedule",
+        "service_times",
         "visit"
       ],
       "tags": [
+        "schedule",
+        "weekly schedule",
         "service times",
-        "Sunday services",
-        "Sunday worship",
-        "weekly schedule"
+        "Sunday",
+        "Wednesday"
       ],
       "search_terms": [
-        "What time are Sunday services?",
-        "What are your Sunday service times?",
-        "When are Sunday services?",
-        "What time does church start?",
-        "What time is church?",
+        "What is the Urbancrest weekly schedule?",
+        "What happens each week at Urbancrest?",
         "When does Urbancrest meet?",
-        "Sunday worship times",
-        "Sunday service times"
+        "What time are Sunday services?",
+        "What happens on Wednesday nights?",
+        "What is the Wednesday schedule?"
       ],
       "ministries": [],
       "audiences": [],
       "resources": [],
+      "schedule_scope": "churchwide",
+      "schedule_ids": [
+        "churchwide.wednesday_dinner",
+        "kids.awana",
+        "adults.wednesday_bible_studies",
+        "students.weekly",
+        "kids.sunday_school",
+        "worship.sunday"
+      ],
+      "meetings": [
+        {
+          "day": "Wednesday",
+          "time": "5:30 PM",
+          "location": "Gymnasium"
+        },
+        {
+          "day": "Wednesday",
+          "time": "6:15 PM"
+        },
+        {
+          "day": "Wednesday",
+          "time": "6:30 PM"
+        },
+        {
+          "day": "Wednesday",
+          "time": "6:30 PM"
+        },
+        {
+          "day": "Sunday",
+          "time": "9:30 AM"
+        },
+        {
+          "day": "Sunday",
+          "time": "9:30 AM"
+        },
+        {
+          "day": "Sunday",
+          "time": "9:30 AM"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM"
+        }
+      ],
       "authoritative": true,
       "authoritative_for": [
-        "service_times",
-        "sunday_service_times",
-        "weekly_schedule"
+        "schedule",
+        "recurring_schedule",
+        "weekly_schedule",
+        "ministry_schedule",
+        "service_times"
       ],
       "confidence": "high",
-      "answer_guidance": "For general regular service-time questions, answer Sunday 9:30 AM and 11:00 AM with high confidence. For a specific date, check live events for a documented exception.",
-      "sunday_service_times": [
-        "9:30 AM",
-        "11:00 AM"
+      "timezone": "America/New_York",
+      "answer_guidance": "Use this registry as the source of truth for normal recurring service and ministry meeting times. For date-specific exceptions, special events, cancellations, or holiday schedules, prefer matching live calendar data when it explicitly applies to the requested date."
+    },
+    {
+      "id": "schedule.adults.wednesday_bible_studies",
+      "record_type": "schedule",
+      "path": "registry/schedule.yaml",
+      "title": "Adult Bible Studies",
+      "summary": "Adult Bible Studies: Wednesday at 6:30 PM",
+      "content": "Adult Bible Studies recurring schedule:\n- Wednesday at 6:30 PM",
+      "priority": 115,
+      "category": [
+        "schedule",
+        "recurring",
+        "adults"
       ],
-      "timezone": "America/New_York"
+      "intents": [
+        "schedule",
+        "weekly_schedule",
+        "ministry_schedule"
+      ],
+      "tags": [
+        "schedule",
+        "recurring",
+        "adults",
+        "Adult Bible Studies",
+        "Wednesday Adult Bible Studies",
+        "adult studies",
+        "Wednesday"
+      ],
+      "search_terms": [
+        "Adult Bible Studies",
+        "When does Adult Bible Studies meet?",
+        "When do Adult Bible Studies meet?",
+        "What time does Adult Bible Studies meet?",
+        "What time is Adult Bible Studies?",
+        "What is the Adult Bible Studies schedule?",
+        "What days does Adult Bible Studies meet?",
+        "When is Adult Bible Studies?",
+        "Does Urbancrest have Adult Bible Studies?",
+        "Do you offer Adult Bible Studies?",
+        "Is there Adult Bible Studies at Urbancrest?",
+        "Wednesday Adult Bible Studies",
+        "When does Wednesday Adult Bible Studies meet?",
+        "When do Wednesday Adult Bible Studies meet?",
+        "What time does Wednesday Adult Bible Studies meet?",
+        "What time is Wednesday Adult Bible Studies?",
+        "What is the Wednesday Adult Bible Studies schedule?",
+        "What days does Wednesday Adult Bible Studies meet?",
+        "When is Wednesday Adult Bible Studies?",
+        "Does Urbancrest have Wednesday Adult Bible Studies?",
+        "Do you offer Wednesday Adult Bible Studies?",
+        "Is there Wednesday Adult Bible Studies at Urbancrest?",
+        "adult studies",
+        "When does adult studies meet?",
+        "When do adult studies meet?",
+        "What time does adult studies meet?",
+        "What time is adult studies?",
+        "What is the adult studies schedule?",
+        "What days does adult studies meet?",
+        "When is adult studies?",
+        "Does Urbancrest have adult studies?",
+        "Do you offer adult studies?",
+        "Is there adult studies at Urbancrest?"
+      ],
+      "ministries": [
+        "adults"
+      ],
+      "audiences": [],
+      "resources": [],
+      "schedule_id": "adults.wednesday_bible_studies",
+      "schedule_scope": "activity",
+      "schedule_aliases": [
+        "Adult Bible Studies",
+        "Wednesday Adult Bible Studies",
+        "adult studies"
+      ],
+      "ministry_aliases": [
+        "Adult Bible Studies",
+        "adults",
+        "Bible studies",
+        "Wednesday Bible studies"
+      ],
+      "meetings": [
+        {
+          "day": "Wednesday",
+          "time": "6:30 PM"
+        }
+      ],
+      "show_staff_card_on_schedule_queries": false,
+      "authoritative": true,
+      "authoritative_for": [
+        "schedule",
+        "recurring_schedule",
+        "ministry_schedule"
+      ],
+      "confidence": "high",
+      "timezone": "America/New_York",
+      "answer_guidance": "Use this registry as the source of truth for normal recurring service and ministry meeting times. For date-specific exceptions, special events, cancellations, or holiday schedules, prefer matching live calendar data when it explicitly applies to the requested date."
+    },
+    {
+      "id": "schedule.churchwide.wednesday_dinner",
+      "record_type": "schedule",
+      "path": "registry/schedule.yaml",
+      "title": "Wednesday Night Dinner",
+      "summary": "Wednesday Night Dinner: Wednesday at 5:30 PM at Gymnasium",
+      "content": "Wednesday Night Dinner recurring schedule:\n- Wednesday at 5:30 PM at Gymnasium",
+      "priority": 115,
+      "category": [
+        "schedule",
+        "recurring",
+        "churchwide"
+      ],
+      "intents": [
+        "schedule",
+        "weekly_schedule",
+        "ministry_schedule"
+      ],
+      "tags": [
+        "schedule",
+        "recurring",
+        "churchwide",
+        "Wednesday Night Dinner",
+        "Free Dinner",
+        "Wednesday dinner",
+        "church dinner",
+        "Wednesday",
+        "dinner"
+      ],
+      "search_terms": [
+        "Wednesday Night Dinner",
+        "When does Wednesday Night Dinner meet?",
+        "When do Wednesday Night Dinner meet?",
+        "What time does Wednesday Night Dinner meet?",
+        "What time is Wednesday Night Dinner?",
+        "What is the Wednesday Night Dinner schedule?",
+        "What days does Wednesday Night Dinner meet?",
+        "When is Wednesday Night Dinner?",
+        "Does Urbancrest have Wednesday Night Dinner?",
+        "Do you offer Wednesday Night Dinner?",
+        "Is there Wednesday Night Dinner at Urbancrest?",
+        "Free Dinner",
+        "When does Free Dinner meet?",
+        "When do Free Dinner meet?",
+        "What time does Free Dinner meet?",
+        "What time is Free Dinner?",
+        "What is the Free Dinner schedule?",
+        "What days does Free Dinner meet?",
+        "When is Free Dinner?",
+        "Does Urbancrest have Free Dinner?",
+        "Do you offer Free Dinner?",
+        "Is there Free Dinner at Urbancrest?",
+        "Wednesday dinner",
+        "When does Wednesday dinner meet?",
+        "When do Wednesday dinner meet?",
+        "What time does Wednesday dinner meet?",
+        "What time is Wednesday dinner?",
+        "What is the Wednesday dinner schedule?",
+        "What days does Wednesday dinner meet?",
+        "When is Wednesday dinner?",
+        "Does Urbancrest have Wednesday dinner?",
+        "Do you offer Wednesday dinner?",
+        "Is there Wednesday dinner at Urbancrest?",
+        "church dinner",
+        "When does church dinner meet?",
+        "When do church dinner meet?",
+        "What time does church dinner meet?",
+        "What time is church dinner?",
+        "What is the church dinner schedule?",
+        "What days does church dinner meet?",
+        "When is church dinner?",
+        "Does Urbancrest have church dinner?",
+        "Do you offer church dinner?",
+        "Is there church dinner at Urbancrest?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [],
+      "resources": [],
+      "schedule_id": "churchwide.wednesday_dinner",
+      "schedule_scope": "activity",
+      "schedule_aliases": [
+        "Wednesday Night Dinner",
+        "Free Dinner",
+        "Wednesday dinner",
+        "church dinner"
+      ],
+      "ministry_aliases": [
+        "Churchwide",
+        "Wednesday activities",
+        "Wednesday nights"
+      ],
+      "meetings": [
+        {
+          "day": "Wednesday",
+          "time": "5:30 PM",
+          "location": "Gymnasium"
+        }
+      ],
+      "show_staff_card_on_schedule_queries": false,
+      "authoritative": true,
+      "authoritative_for": [
+        "schedule",
+        "recurring_schedule",
+        "ministry_schedule"
+      ],
+      "confidence": "high",
+      "timezone": "America/New_York",
+      "answer_guidance": "The regular Wednesday dinner begins at 5:30 PM in the Gymnasium."
     },
     {
       "id": "about.sunday.worship",
@@ -1541,48 +2882,6 @@
         "mikhael_mastalerz"
       ],
       "answer_guidance": "Provide only public-facing safety information. Do not disclose room-specific lockdown locations, barricade instructions, radio procedures, or other tactical security details.",
-      "confidence": "high"
-    },
-    {
-      "id": "ministries.students.schedule",
-      "record_type": "knowledge",
-      "path": "knowledge/ministries/students/faq/when-does-student-ministry-meet.md",
-      "title": "When does Student Ministry meet?",
-      "summary": "Student Ministry meets Sundays at 9:30 AM and Wednesdays at 6:30 PM during the school year.",
-      "content": "# When does Student Ministry meet?\n\nDuring the school year, Urbancrest Student Ministry meets:\n\n- **Sundays at 9:30 AM**\n- **Wednesdays at 6:30 PM**\n\nRegular Wednesday gatherings pause during the summer so students and leaders can focus on supporting local missions efforts throughout the community. Check [Urbancrest Events](https://urbancrest.church/events) for current dates and summer opportunities.",
-      "priority": 98,
-      "category": [
-        "ministries",
-        "faq"
-      ],
-      "intents": [
-        "ministry_info",
-        "student_schedule"
-      ],
-      "tags": [
-        "Student Ministry",
-        "students",
-        "youth ministry"
-      ],
-      "search_terms": [
-        "When does Student Ministry meet?",
-        "What time is youth group?",
-        "When do students meet on Sunday?",
-        "When do students meet on Wednesday?",
-        "Does Student Ministry meet during summer?"
-      ],
-      "ministries": [
-        "students"
-      ],
-      "audiences": [
-        "visitor",
-        "attendee",
-        "member"
-      ],
-      "resources": [
-        "action_link.events"
-      ],
-      "status": "published",
       "confidence": "high"
     },
     {
@@ -11449,6 +12748,31 @@
       "resources": []
     },
     {
+      "id": "file.intents/schedule.yaml",
+      "record_type": "routing",
+      "path": "intents/schedule.yaml",
+      "title": "Schedule",
+      "summary": "Structured intents data from intents/schedule.yaml.",
+      "content": "version: 1.0\nlast_updated: 2026-07-30\nintent: schedule\ndescription: Handles questions about normal recurring service and ministry meeting times.\ntarget_record_type: schedule\nsource_of_truth: registry/schedule.yaml\nquestion_patterns: when does {activity_or_ministry} meet\nwhen do {audience} meet\nwhat time does {activity_or_ministry} meet\nwhat time is {activity_or_ministry}\nwhat is the {activity_or_ministry} schedule\nwhat days does {activity_or_ministry} meet\nwhen is {activity_or_ministry}\nselection_rules: Match the user's wording against schedule aliases, ministry aliases, schedule names, tags, and search terms.\nPrefer schedule.ministry.* for broad ministry questions that can require more than one recurring activity.\nPrefer schedule.* activity records for a named activity such as AWANA, Sunday School, or Sunday Worship Services.\nPrefer schedule records over general knowledge articles for normal recurring times.\nKeep live event records eligible for explicit date-specific, next, upcoming, today, tonight, tomorrow, this-week, or special-event questions.\nA live event may override the recurring schedule for a requested date when it explicitly conflicts with the normal schedule.\nDo not treat ordinary \"when does X meet\" questions as activity_availability.\nactivity_availability_interaction: Recurring schedule records are eligible evidence that Urbancrest regularly offers an activity.\nLive event records remain eligible for activities that exist only on the current calendar.\nPrefer a recurring schedule record when one exists; otherwise use a matching future event.",
+      "priority": 65,
+      "category": [
+        "intents"
+      ],
+      "intents": [
+        "schedule"
+      ],
+      "tags": [
+        "intents",
+        "schedule"
+      ],
+      "search_terms": [
+        "Schedule"
+      ],
+      "ministries": [],
+      "audiences": [],
+      "resources": []
+    },
+    {
       "id": "file.intents/service-times.yaml",
       "record_type": "routing",
       "path": "intents/service-times.yaml",
@@ -15363,7 +16687,7 @@
       "path": "registry/runtime-sources.yaml",
       "title": "Runtime Sources",
       "summary": "Structured registry data from registry/runtime-sources.yaml.",
-      "content": "version: 1.0\nlast_updated: 2026-07-27\nsources: github_knowledge: authority: authoritative_public_knowledge\nincludes: knowledge\nregistry\nrelationships\nintents\nbase44_staff: authority: authoritative_staff_profile_and_card_data\nentity: Staff\nfields: bio\nfunFact\nphoto\nphone\nemail\nrole\nactive\norder\nbase44_admin_knowledge: authority: approved_supplemental_knowledge\nentity: KnowledgeEntry\npublic_filter: status: published\napproved: True\nbase44_query_analytics: authority: operational_only\nentities: SearchQueryLog\nUnansweredQuestion\nprecedence: Structured live event and Small Group data from GitHub overrides conflicting admin entries.\nBase44 Staff overrides GitHub for biography, fun fact, contact, photo, active status, and display order.\nGitHub staff routing determines staffKey and ministry relationships.\nApproved Base44 KnowledgeEntry records may supplement public knowledge but must not silently replace authoritative structured records.",
+      "content": "version: 1.0\nlast_updated: 2026-07-30\nsources: github_knowledge: authority: authoritative_public_knowledge\nincludes: knowledge\nregistry\nrelationships\nintents\nbase44_staff: authority: authoritative_staff_profile_and_card_data\nentity: Staff\nfields: bio\nfunFact\nphoto\nphone\nemail\nrole\nactive\norder\nbase44_admin_knowledge: authority: approved_supplemental_knowledge\nentity: KnowledgeEntry\npublic_filter: status: published\napproved: True\nbase44_query_analytics: authority: operational_only\nentities: SearchQueryLog\nUnansweredQuestion\nprecedence: Structured recurring schedule data from registry/schedule.yaml overrides conflicting general knowledge and approved Base44 admin entries for normal weekly service and ministry meeting times.\nFor a specific date, structured live event data may override the recurring schedule when it explicitly represents a cancellation, changed time, special occurrence, or other exception for that date.\nStructured live event and Small Group data from GitHub overrides conflicting admin entries.\nBase44 Staff overrides GitHub for biography, fun fact, contact, photo, active status, and display order.\nGitHub staff routing determines staffKey and ministry relationships.\nApproved Base44 KnowledgeEntry records may supplement public knowledge but must not silently replace authoritative structured records.",
       "priority": 60,
       "category": [
         "registry"
