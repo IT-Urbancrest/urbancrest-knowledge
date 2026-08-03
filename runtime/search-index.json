@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.7.0",
-  "generated_at": "2026-08-03T12:57:02.759770Z",
+  "generated_at": "2026-08-03T13:19:29.372828Z",
   "timezone": "America/New_York",
-  "record_count": 349,
+  "record_count": 370,
   "config": {
     "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership Transition\n\nUrbancrest is currently searching for its next Global Missions Pastor.\n\nFor broad or global missions leadership questions:\n\n1. State that Urbancrest is currently searching for its next Global Missions Pastor.\n2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.\n3. Return `jennifer_prows` when one staff card is appropriate.\n4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nConfidently answer that Sunday worship services are at **9:30 AM** and **11:00 AM**.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
     "style_guide": "# Style Guide\n\n## Writing\n\n- Use short paragraphs.\n- Prefer plain language.\n- Avoid church jargon unless it is explained.\n- Do not use em dashes.\n- Do not use the word meaningful as a filler.\n- Use Small Groups, never Grow Groups.\n- Refer to Urbancrest Church as Urbancrest after the first use.\n- Use believer's baptism by immersion when describing baptism.\n\n## Theology\n\n- Scripture is the final authority.\n- The Baptist Faith and Message 2000 is a helpful doctrinal summary, not equal to Scripture.\n- Salvation is by grace alone through faith alone in Jesus Christ alone.\n- Baptism follows salvation and does not save.\n",
@@ -1515,6 +1515,264 @@
       "answer_guidance": "The regular Wednesday dinner begins at 5:30 PM in the Gymnasium."
     },
     {
+      "id": "ministries.local_missions.baskets_of_hope_schedule",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/faq/when-is-baskets-of-hope.md",
+      "title": "When is Baskets of Hope?",
+      "summary": "The Baskets of Hope food distribution takes place monthly on the third Wednesday following the first Monday of each month.",
+      "content": "# When is Baskets of Hope?\n\nBaskets of Hope takes place monthly on the **third Wednesday following the first Monday of each month**.\n\nOn the other Wednesdays of the month, volunteers meet to restock and prepare the pantry shelves.\n\nFor the exact date of the next distribution, check the current Urbancrest events calendar or contact Pastor Darrel at **dschick@urbancrest.org**.",
+      "priority": 114,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "local_missions_info",
+        "food_assistance",
+        "baskets_of_hope",
+        "baskets_of_hope_schedule"
+      ],
+      "tags": [
+        "Local Missions",
+        "local outreach",
+        "community outreach",
+        "Lebanon",
+        "Baskets of Hope",
+        "monthly distribution",
+        "Wednesday"
+      ],
+      "search_terms": [
+        "When is Baskets of Hope?",
+        "What day is the food distribution?",
+        "When does Urbancrest give away food?",
+        "What is the Baskets of Hope schedule?",
+        "When is the monthly food pantry distribution?"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "volunteer",
+        "community"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
+      "answer_guidance": "Preserve the recurring timing exactly as stated. For an exact upcoming date, prefer live event data when available.",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.local_missions.emergency_food_boxes",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/faq/are-emergency-food-boxes-available.md",
+      "title": "Are emergency food boxes available?",
+      "summary": "Yes. Emergency food boxes are available for individuals and families who cannot wait until the next monthly Baskets of Hope distribution.",
+      "content": "# Are emergency food boxes available?\n\nYes. Emergency food boxes are available for individuals and families who cannot wait until the next monthly Baskets of Hope distribution.\n\nFor help with an emergency food need, contact Pastor Darrel at **dschick@urbancrest.org**.",
+      "priority": 112,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "local_missions_info",
+        "food_assistance",
+        "emergency_food"
+      ],
+      "tags": [
+        "Local Missions",
+        "local outreach",
+        "community outreach",
+        "Lebanon",
+        "emergency food",
+        "food assistance",
+        "food boxes"
+      ],
+      "search_terms": [
+        "Can I get emergency food?",
+        "Does Urbancrest have emergency food boxes?",
+        "What if I cannot wait until Baskets of Hope?",
+        "I need food before the next distribution",
+        "Can Urbancrest help with food right away?"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "volunteer",
+        "community"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.local_missions.baskets_of_hope",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/faq/what-is-baskets-of-hope.md",
+      "title": "What is Baskets of Hope?",
+      "summary": "Baskets of Hope is Urbancrest's monthly food distribution ministry for individuals and families in the community.",
+      "content": "# What is Baskets of Hope?\n\nBaskets of Hope is Urbancrest's monthly food distribution ministry, providing food assistance to individuals and families in the community.\n\nIn addition to the regular monthly distribution, volunteers gather on the other Wednesdays of the month to restock and prepare the pantry.",
+      "priority": 112,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "local_missions_info",
+        "food_assistance",
+        "baskets_of_hope"
+      ],
+      "tags": [
+        "Local Missions",
+        "local outreach",
+        "community outreach",
+        "Lebanon",
+        "Baskets of Hope",
+        "food distribution",
+        "food pantry"
+      ],
+      "search_terms": [
+        "What is Baskets of Hope?",
+        "Does Urbancrest have a food pantry?",
+        "Does Urbancrest give away food?",
+        "How can I get food from Urbancrest?",
+        "Tell me about the food distribution"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "volunteer",
+        "community"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.local_missions.leadership",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/faq/who-leads-local-missions.md",
+      "title": "Who leads Local Missions at Urbancrest?",
+      "summary": "Pastor Darrel Schick oversees Local Missions and is the primary contact for questions and volunteer opportunities.",
+      "content": "# Who leads Local Missions at Urbancrest?\n\nPastor Darrel Schick oversees Local Missions at Urbancrest.\n\nFor questions about Local Missions or to volunteer, contact Pastor Darrel at **dschick@urbancrest.org**.",
+      "priority": 112,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "local_missions_info",
+        "local_missions_contact",
+        "staff_routing"
+      ],
+      "tags": [
+        "Local Missions",
+        "local outreach",
+        "community outreach",
+        "Lebanon",
+        "Darrel Schick",
+        "Pastor Darrel",
+        "contact"
+      ],
+      "search_terms": [
+        "Who leads Local Missions?",
+        "Who oversees Local Missions?",
+        "Who is the Local Missions pastor?",
+        "Who do I contact about Local Missions?",
+        "How do I contact Pastor Darrel?"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "volunteer",
+        "community"
+      ],
+      "resources": [
+        "action_link.staff"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.local_missions.get_involved",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/faq/how-can-i-get-involved.md",
+      "title": "How can I get involved with Local Missions?",
+      "summary": "Local Missions has volunteer opportunities throughout the year, and Pastor Darrel can help people find a place to serve.",
+      "content": "# How can I get involved with Local Missions?\n\nThe Local Missions Team has opportunities to serve throughout the year, from food and furniture ministries to block parties, seasonal outreach, community meals, and other projects.\n\nTo ask questions or find a place to serve, contact Pastor Darrel at **dschick@urbancrest.org**.",
+      "priority": 110,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "local_missions_info",
+        "volunteering",
+        "serving",
+        "local_missions_contact"
+      ],
+      "tags": [
+        "Local Missions",
+        "local outreach",
+        "community outreach",
+        "Lebanon",
+        "volunteer",
+        "serve",
+        "Pastor Darrel"
+      ],
+      "search_terms": [
+        "How can I volunteer with Local Missions?",
+        "How can I serve in the community?",
+        "How do I get involved with Local Missions?",
+        "Who do I contact about Local Missions?",
+        "I want to help with local outreach"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "volunteer",
+        "community"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
+      "confidence": "high"
+    },
+    {
       "id": "about.sunday.worship",
       "record_type": "knowledge",
       "path": "knowledge/about/sunday-worship.md",
@@ -1555,6 +1813,209 @@
       "authoritative_for": [
         "sunday_service_times"
       ]
+    },
+    {
+      "id": "ministries.local_missions.furniture_ministry",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/faq/how-does-the-furniture-ministry-work.md",
+      "title": "How does the Furniture Ministry work?",
+      "summary": "Gently used furniture is donated by church and community members, then volunteers pick it up and deliver it directly to families in need.",
+      "content": "# How does the Furniture Ministry work?\n\nUrbancrest's Furniture Ministry connects donated, gently used furniture with families who need it.\n\nChurch and community members donate furniture, and Local Missions volunteers help pick it up and deliver it directly to families in need.\n\nFor questions about donating furniture, requesting assistance, or volunteering, contact Pastor Darrel at **dschick@urbancrest.org**.",
+      "priority": 108,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "local_missions_info",
+        "furniture_ministry",
+        "practical_assistance"
+      ],
+      "tags": [
+        "Local Missions",
+        "local outreach",
+        "community outreach",
+        "Lebanon",
+        "furniture",
+        "donations",
+        "families in need"
+      ],
+      "search_terms": [
+        "Does Urbancrest have a furniture ministry?",
+        "Can I donate furniture?",
+        "How does the furniture ministry work?",
+        "Does Urbancrest deliver furniture to families?",
+        "I have furniture to donate"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "volunteer",
+        "community"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.local_missions.overview",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/overview.md",
+      "title": "What is Urbancrest Local Missions?",
+      "summary": "Urbancrest Local Missions serves neighbors in Lebanon and the surrounding community year round through food assistance, practical help, seasonal outreach, community events, and volunteer service.",
+      "content": "# What is Urbancrest Local Missions?\n\nUrbancrest Local Missions serves neighbors in Lebanon and the surrounding community throughout the year through practical care, relationship-building, and Gospel-centered outreach.\n\nMinistry efforts include food distribution and emergency food assistance, furniture and laundry ministries, community meals, seasonal outreach events, block parties, school supply distribution, the Giving Tree, archery, pickleball, car cruise-ins, Operation Christmas Child, and other opportunities to serve local families and community groups.\n\nThe Local Missions Team is always looking for volunteers who want to love their neighbors through practical service and intentional relationships.\n\nFor questions or to get involved, contact Pastor Darrel at **dschick@urbancrest.org**.",
+      "priority": 108,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "local_missions_info",
+        "local_missions_overview",
+        "community_outreach"
+      ],
+      "tags": [
+        "Local Missions",
+        "local outreach",
+        "community outreach",
+        "Lebanon",
+        "year-round ministry",
+        "serve neighbors",
+        "volunteering"
+      ],
+      "search_terms": [
+        "What is Local Missions?",
+        "What does Urbancrest do in the community?",
+        "How does Urbancrest serve Lebanon?",
+        "What local outreach ministries does Urbancrest have?",
+        "Tell me about Local Missions"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "volunteer",
+        "community"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.local_missions.holiday_food_distributions",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/faq/what-are-the-holiday-food-distributions.md",
+      "title": "What are the holiday Baskets of Hope distributions?",
+      "summary": "At Thanksgiving, Christmas, and Easter, Baskets of Hope expands into larger community events with special meals, movies, prizes, and fellowship.",
+      "content": "# What are the holiday Baskets of Hope distributions?\n\nThree times each year, at **Thanksgiving, Christmas, and Easter**, Baskets of Hope expands into a larger community event.\n\nThese holiday distributions include food assistance along with special meals, movies, prizes, fellowship, and opportunities to build relationships with neighbors.",
+      "priority": 106,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "local_missions_info",
+        "food_assistance",
+        "holiday_outreach"
+      ],
+      "tags": [
+        "Local Missions",
+        "local outreach",
+        "community outreach",
+        "Lebanon",
+        "Thanksgiving",
+        "Christmas",
+        "Easter",
+        "holiday distribution"
+      ],
+      "search_terms": [
+        "Does Baskets of Hope do holiday distributions?",
+        "What happens at the Thanksgiving food distribution?",
+        "What happens at the Christmas food distribution?",
+        "What happens at the Easter food distribution?",
+        "What holiday food events does Urbancrest have?"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "volunteer",
+        "community"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.local_missions.seasonal_outreach",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/faq/what-seasonal-local-missions-events-happen-each-year.md",
+      "title": "What seasonal Local Missions events happen each year?",
+      "summary": "Seasonal Local Missions outreach includes the Easter Festival, Summer Block Parties, Warren County Fair Feeding, School Supply Giveaway, Trail of Treats, Giving Tree, and holiday Baskets of Hope distributions.",
+      "content": "# What seasonal Local Missions events happen each year?\n\nUrbancrest Local Missions serves the community throughout the year through several seasonal outreach efforts:\n\n- **Easter:** Easter Festival and an expanded Baskets of Hope holiday distribution\n- **Summer:** Block Parties at local housing communities, parks, and the Lebanon KOA\n- **July:** Warren County Fair Feeding for 4-H families\n- **August:** School Supply Giveaway\n- **October:** Trail of Treats\n- **Thanksgiving:** Expanded Baskets of Hope holiday distribution\n- **Christmas season:** Giving Tree, expanded Baskets of Hope distribution, and Operation Christmas Child participation\n\nExact dates and details can change each year, so use the current Urbancrest events calendar for upcoming opportunities.",
+      "priority": 106,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "local_missions_info",
+        "seasonal_outreach",
+        "annual_outreach"
+      ],
+      "tags": [
+        "Local Missions",
+        "local outreach",
+        "community outreach",
+        "Lebanon",
+        "seasonal events",
+        "annual outreach"
+      ],
+      "search_terms": [
+        "What Local Missions events happen throughout the year?",
+        "What seasonal outreach does Urbancrest have?",
+        "What community events does Urbancrest host?",
+        "What local missions events happen in spring summer fall and winter?"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "volunteer",
+        "community"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
+      "confidence": "high"
     },
     {
       "id": "ministries.nursery.safety",
@@ -1666,6 +2127,58 @@
       "confidence": "high"
     },
     {
+      "id": "ministries.local_missions.summer_block_parties",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/faq/what-are-summer-block-parties.md",
+      "title": "What are Urbancrest's Summer Block Parties?",
+      "summary": "Local Missions uses a fully equipped outreach trailer to host block parties at local housing communities, public parks, and the Lebanon KOA campground.",
+      "content": "# What are Urbancrest's Summer Block Parties?\n\nDuring the summer, the Local Missions Team uses a fully equipped outreach trailer to host block parties at local housing communities, public parks, and the Lebanon KOA campground.\n\nVolunteers are needed to help with setup, teardown, and spending time with guests. These events are designed to build relationships and serve neighbors in a relaxed community setting.",
+      "priority": 104,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "local_missions_info",
+        "seasonal_outreach",
+        "block_parties"
+      ],
+      "tags": [
+        "Local Missions",
+        "local outreach",
+        "community outreach",
+        "Lebanon",
+        "block parties",
+        "summer",
+        "KOA",
+        "parks"
+      ],
+      "search_terms": [
+        "What are the Summer Block Parties?",
+        "Where does Urbancrest host block parties?",
+        "Can I volunteer at a block party?",
+        "Does Urbancrest do outreach at the KOA?",
+        "What summer outreach does Urbancrest have?"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "volunteer",
+        "community"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
+      "confidence": "high"
+    },
+    {
       "id": "ministries.nursery.well_child_policy",
       "record_type": "knowledge",
       "path": "knowledge/ministries/nursery/faq/what-if-my-child-is-sick.md",
@@ -1715,6 +2228,108 @@
       "related_staff_keys": [
         "sarah_coleman"
       ],
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.local_missions.easter_festival",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/faq/what-is-the-easter-festival.md",
+      "title": "What is the Easter Festival?",
+      "summary": "Held the day before Easter, the Easter Festival is a community outreach with games, bounce houses, free Easter baskets, free haircuts, giveaways, relationship-building, and opportunities to share Christ.",
+      "content": "# What is the Easter Festival?\n\nThe Easter Festival is held **the day before Easter** and is designed to reach and serve the local community.\n\nThe event includes games, bounce houses, free Easter baskets, free haircuts, and various giveaways. The goal is to build relationships with neighbors and share Christ with the local community.\n\nFor the exact date and event details each year, use the current Urbancrest events calendar.",
+      "priority": 104,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "local_missions_info",
+        "seasonal_outreach",
+        "easter_festival"
+      ],
+      "tags": [
+        "Local Missions",
+        "local outreach",
+        "community outreach",
+        "Lebanon",
+        "Easter Festival",
+        "Easter",
+        "family event"
+      ],
+      "search_terms": [
+        "What is the Easter Festival?",
+        "Does Urbancrest have an Easter outreach?",
+        "What happens the day before Easter?",
+        "Are there Easter baskets at Urbancrest?",
+        "Does Urbancrest offer free haircuts at Easter?"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "volunteer",
+        "community"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.local_missions.additional_food_outreach",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/faq/what-other-food-outreach-does-local-missions-do.md",
+      "title": "What other food outreach does Local Missions provide?",
+      "summary": "Local Missions serves community groups with meals, supports the Lebanon Food Pantry, and packs Backpacks of Hope for neighbors experiencing homelessness.",
+      "content": "# What other food outreach does Local Missions provide?\n\nLocal Missions supports the community through several additional food initiatives.\n\nUrbancrest regularly provides meals for local groups in Lebanon, including teachers, bus drivers, law enforcement, and high school basketball teams. The ministry also partners with and supports the **Lebanon Food Pantry** and packs **Backpacks of Hope** for neighbors experiencing homelessness.",
+      "priority": 104,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "local_missions_info",
+        "food_assistance",
+        "community_feeding"
+      ],
+      "tags": [
+        "Local Missions",
+        "local outreach",
+        "community outreach",
+        "Lebanon",
+        "community meals",
+        "Lebanon Food Pantry",
+        "Backpacks of Hope"
+      ],
+      "search_terms": [
+        "What other food ministries does Urbancrest have?",
+        "Does Urbancrest support the Lebanon Food Pantry?",
+        "What are Backpacks of Hope?",
+        "Who does Urbancrest provide meals for?",
+        "Does Local Missions feed community groups?"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "volunteer",
+        "community"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
       "confidence": "high"
     },
     {
@@ -1816,6 +2431,58 @@
       "related_staff_keys": [
         "sarah_coleman"
       ],
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.local_missions.school_supply_giveaway",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/faq/what-is-the-school-supply-giveaway.md",
+      "title": "What is the School Supply Giveaway?",
+      "summary": "Each August, church members donate school supplies that are distributed to local children during a fun community event.",
+      "content": "# What is the School Supply Giveaway?\n\nEach **August**, Urbancrest collects school supplies from church members and distributes them to local school children during a fun, welcoming community event.\n\nCurrent donation deadlines, requested supplies, and volunteer opportunities may change from year to year, so use the current Urbancrest events calendar for this year's details.",
+      "priority": 102,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "local_missions_info",
+        "seasonal_outreach",
+        "school_supplies"
+      ],
+      "tags": [
+        "Local Missions",
+        "local outreach",
+        "community outreach",
+        "Lebanon",
+        "school supplies",
+        "August",
+        "students",
+        "families"
+      ],
+      "search_terms": [
+        "Does Urbancrest give away school supplies?",
+        "What is the School Supply Giveaway?",
+        "Can I donate school supplies?",
+        "What local missions outreach happens in August?",
+        "How does Urbancrest help students with school supplies?"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "volunteer",
+        "community"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
       "confidence": "high"
     },
     {
@@ -2972,6 +3639,57 @@
       "confidence": "high"
     },
     {
+      "id": "ministries.local_missions.giving_tree",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/faq/what-is-the-giving-tree.md",
+      "title": "What is the Giving Tree?",
+      "summary": "The Giving Tree is a December outreach that gives the church an opportunity to provide Christmas gifts for area children.",
+      "content": "# What is the Giving Tree?\n\nThe **Giving Tree** is a December outreach designed to give the Urbancrest church family an opportunity to provide Christmas gifts for children in the local community.\n\nCurrent gift needs and participation instructions may vary each year, so use the current Urbancrest events calendar for the latest details.",
+      "priority": 100,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "local_missions_info",
+        "seasonal_outreach",
+        "giving_tree"
+      ],
+      "tags": [
+        "Local Missions",
+        "local outreach",
+        "community outreach",
+        "Lebanon",
+        "Giving Tree",
+        "Christmas",
+        "December",
+        "children"
+      ],
+      "search_terms": [
+        "What is the Giving Tree?",
+        "How can I give Christmas gifts to local children?",
+        "What Christmas outreach does Urbancrest have?",
+        "Does Urbancrest help families with Christmas gifts?"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "volunteer",
+        "community"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
+      "confidence": "high"
+    },
+    {
       "id": "beliefs.gospel",
       "record_type": "knowledge",
       "path": "knowledge/beliefs/what-is-the-gospel.md",
@@ -3045,6 +3763,107 @@
       "resources": [],
       "status": "published",
       "recommended_contact_staff_key": "sarah_coleman",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.local_missions.warren_county_fair_feeding",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/faq/what-is-warren-county-fair-feeding.md",
+      "title": "What is the Warren County Fair Feeding outreach?",
+      "summary": "Each July, Urbancrest serves meals to hundreds of 4-H families the day before the Warren County Fair opens.",
+      "content": "# What is the Warren County Fair Feeding outreach?\n\nEach **July**, Urbancrest serves meals to hundreds of 4-H families the day before the Warren County Fair opens.\n\nThe outreach is a practical way to serve families during one of their busiest days of the year and show Christ's love through hospitality.",
+      "priority": 100,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "local_missions_info",
+        "seasonal_outreach",
+        "community_feeding"
+      ],
+      "tags": [
+        "Local Missions",
+        "local outreach",
+        "community outreach",
+        "Lebanon",
+        "Warren County Fair",
+        "4-H",
+        "July"
+      ],
+      "search_terms": [
+        "What does Urbancrest do at the Warren County Fair?",
+        "What is Fair Feeding?",
+        "Does Urbancrest feed 4-H families?",
+        "What local missions outreach happens in July?"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "volunteer",
+        "community"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.local_missions.trail_of_treats",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/faq/what-is-trail-of-treats.md",
+      "title": "What is Trail of Treats?",
+      "summary": "Trail of Treats is an October family outreach similar to Trunk or Treat, with candy, fun, and opportunities to share the Gospel with children and parents.",
+      "content": "# What is Trail of Treats?\n\n**Trail of Treats** is an October family outreach similar to a Trunk or Treat event.\n\nUrbancrest uses the event to provide candy and fun for children and parents while building relationships and sharing the Gospel with families in the community.",
+      "priority": 100,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "local_missions_info",
+        "seasonal_outreach",
+        "trail_of_treats"
+      ],
+      "tags": [
+        "Local Missions",
+        "local outreach",
+        "community outreach",
+        "Lebanon",
+        "Trail of Treats",
+        "October",
+        "families",
+        "children"
+      ],
+      "search_terms": [
+        "What is Trail of Treats?",
+        "Does Urbancrest have a Trunk or Treat?",
+        "What does Urbancrest do in October?",
+        "Is Trail of Treats for families?"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "volunteer",
+        "community"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
       "confidence": "high"
     },
     {
@@ -3179,6 +3998,59 @@
       "related_staff_keys": [
         "sarah_coleman"
       ],
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.local_missions.pickleball",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/faq/does-urbancrest-have-pickleball.md",
+      "title": "Does Urbancrest have pickleball?",
+      "summary": "Yes. During colder months, the church gym is used for pickleball as an opportunity for church and community members to gather, play, and get to know one another.",
+      "content": "# Does Urbancrest have pickleball?\n\nYes. During the colder months, Urbancrest hosts **pickleball in the church gym** as an opportunity for people from the church and community to gather, play, and get to know one another.\n\nThe specific dates and times are set on the current calendar, so use the Urbancrest events calendar for the next scheduled pickleball gathering.",
+      "priority": 98,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "local_missions_info",
+        "pickleball",
+        "community_recreation",
+        "activity_availability"
+      ],
+      "tags": [
+        "Local Missions",
+        "local outreach",
+        "community outreach",
+        "Lebanon",
+        "pickleball",
+        "gym",
+        "colder months"
+      ],
+      "search_terms": [
+        "Does Urbancrest have pickleball?",
+        "Can I play pickleball at Urbancrest?",
+        "When does Urbancrest play pickleball?",
+        "Is there pickleball at the church?",
+        "Do you offer pickleball?"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "volunteer",
+        "community"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
+      "answer_guidance": "Use this record to establish that pickleball is a recurring seasonal Local Missions activity. For exact dates and times, prefer matching future live event records.",
       "confidence": "high"
     },
     {
@@ -3504,6 +4376,56 @@
       "confidence": "high"
     },
     {
+      "id": "ministries.local_missions.operation_christmas_child",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/faq/does-local-missions-participate-in-operation-christmas-child.md",
+      "title": "Does Urbancrest participate in Operation Christmas Child?",
+      "summary": "Yes. Urbancrest partners with Samaritan's Purse to pack Operation Christmas Child shoebox gifts for children around the world.",
+      "content": "# Does Urbancrest participate in Operation Christmas Child?\n\nYes. Urbancrest participates in **Operation Christmas Child**, partnering with Samaritan's Purse to pack shoebox gifts for children around the world.\n\nCurrent collection dates and packing opportunities are announced through the Urbancrest events calendar.",
+      "priority": 96,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "local_missions_info",
+        "operation_christmas_child",
+        "seasonal_outreach"
+      ],
+      "tags": [
+        "Local Missions",
+        "local outreach",
+        "community outreach",
+        "Lebanon",
+        "Operation Christmas Child",
+        "Samaritan's Purse",
+        "shoeboxes"
+      ],
+      "search_terms": [
+        "Does Urbancrest do Operation Christmas Child?",
+        "Does Urbancrest pack shoeboxes?",
+        "How does Urbancrest participate in Operation Christmas Child?",
+        "Does Urbancrest partner with Samaritan's Purse?"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "volunteer",
+        "community"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
+      "confidence": "high"
+    },
+    {
       "id": "ministries.kids.food_allergies",
       "record_type": "knowledge",
       "path": "knowledge/ministries/kids/faq/how-are-food-allergies-handled.md",
@@ -3588,6 +4510,55 @@
       ],
       "status": "published",
       "recommended_contact_staff_key": "larry_nichols",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.local_missions.laundry_ministry",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/faq/what-is-the-laundry-ministry.md",
+      "title": "What is the Laundry Ministry?",
+      "summary": "The Laundry Ministry provides practical assistance and care to local residents.",
+      "content": "# What is the Laundry Ministry?\n\nThe Laundry Ministry is a practical outreach that provides assistance and care to local residents.\n\nFor current details about how the ministry operates or how to help, contact Pastor Darrel at **dschick@urbancrest.org**.",
+      "priority": 96,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "local_missions_info",
+        "laundry_ministry",
+        "practical_assistance"
+      ],
+      "tags": [
+        "Local Missions",
+        "local outreach",
+        "community outreach",
+        "Lebanon",
+        "laundry",
+        "practical assistance"
+      ],
+      "search_terms": [
+        "What is the Laundry Ministry?",
+        "Does Urbancrest help with laundry?",
+        "Tell me about the laundry outreach",
+        "How does the Laundry Ministry help people?"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "volunteer",
+        "community"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
       "confidence": "high"
     },
     {
@@ -4205,6 +5176,105 @@
       "leadership_status": "transitional",
       "open_role": "Global Missions Pastor",
       "answer_guidance": "Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the recommended current contact for general and global missions questions. Darrel Schick serves as Local Missions Strategist for local missions and community outreach."
+    },
+    {
+      "id": "ministries.local_missions.car_cruise_ins",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/faq/what-are-classic-car-cruise-ins.md",
+      "title": "What are the Classic Car Cruise-Ins?",
+      "summary": "Classic Car Cruise-Ins are community fellowship events that bring together car enthusiasts and neighbors.",
+      "content": "# What are the Classic Car Cruise-Ins?\n\nUrbancrest's **Classic Car Cruise-Ins** are community fellowship events for car enthusiasts and neighbors.\n\nBecause dates vary, use the current Urbancrest events calendar for the next cruise-in.",
+      "priority": 94,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "local_missions_info",
+        "car_cruise_in",
+        "community_events"
+      ],
+      "tags": [
+        "Local Missions",
+        "local outreach",
+        "community outreach",
+        "Lebanon",
+        "classic cars",
+        "cruise-in",
+        "community fellowship"
+      ],
+      "search_terms": [
+        "Does Urbancrest have car shows?",
+        "What are the Classic Car Cruise-Ins?",
+        "Does Urbancrest have a cruise-in?",
+        "Are there events for car enthusiasts?"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "volunteer",
+        "community"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.local_missions.his_pins_archery",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/faq/what-is-his-pins-archery.md",
+      "title": "What is His Pins Archery Ministry?",
+      "summary": "His Pins is a Local Missions outreach centered around archery skills and community connection.",
+      "content": "# What is His Pins Archery Ministry?\n\n**His Pins Archery Ministry** is a Local Missions outreach centered around archery skills and opportunities to connect with people in the community.\n\nFor current meeting or participation details, contact Pastor Darrel at **dschick@urbancrest.org** or check the current events calendar.",
+      "priority": 94,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "local_missions_info",
+        "his_pins",
+        "archery"
+      ],
+      "tags": [
+        "Local Missions",
+        "local outreach",
+        "community outreach",
+        "Lebanon",
+        "His Pins",
+        "archery"
+      ],
+      "search_terms": [
+        "What is His Pins?",
+        "Does Urbancrest have archery?",
+        "Tell me about the archery ministry",
+        "What is His Pins Archery Ministry?"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "volunteer",
+        "community"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
+      "confidence": "high"
     },
     {
       "id": "ministries.worship.contact",
@@ -17133,7 +18203,7 @@
       "path": "registry/ministries.yaml",
       "title": "Ministries",
       "summary": "Structured registry data from registry/ministries.yaml.",
-      "content": "version: 1.2\nlast_updated: 2026-07-30\nministries: kids: title: Urbancrest Kids\ndescription: Family-partnered discipleship ministry for children that emphasizes relationships, biblical truth, worship, service, safety, and faith lived out.\naliases: Kids Ministry\nChildren's Ministry\nchildren\nprimary_staff_key: sarah_coleman\nrelated_staff_keys: mikhael_mastalerz\nstudents: title: Student Ministry\ndescription: Ministry for students in grades 7 through 12 that partners with parents to make mature disciples of Jesus.\naliases: Youth Ministry\nmiddle school\nhigh school\nteenagers\nprimary_staff_key: tucker_howard\nsmall_groups: title: Small Groups\ndescription: Groups that help people grow in faith and community.\nresource: church_center.small_groups\nmen: title: Men's Ministry\ndescription: Ministry for men.\nwomen: title: Women's Ministry\ndescription: Ministry for women.\nmissions: title: Missions\ndescription: Local, national, and international mission engagement.\nleadership_status: transitional\nopen_role: Global Missions Pastor\nrecommended_contact_staff_key: jennifer_prows\nworship: title: Worship Ministry\ndescription: Christ-centered, Scripture-shaped ministry that leads the congregation in worship through music, prayer, Scripture, and participation.\naliases: worship team\nmusic ministry\nworship band\nvocal team\nprimary_staff_key: larry_nichols\nproduction: title: Production Ministry\ndescription: Audio\nvideo: \nlighting: \nlivestream: \nand service technology.: \nlegacy_builders: title: Legacy Builders\ndescription: Ministry for adults age 50 and older.\ncare: title: Care and Prayer\ndescription: Prayer\nencouragement: \npastoral care: \nand practical support.: \nglobal_missions: title: Global Missions\ndescription: International mission engagement, mission trips, and global missions coordination.\nleadership_status: vacant\nopen_role: Global Missions Pastor\nrecommended_contact_staff_key: jennifer_prows\nmissions_administration: title: Missions Administration\ndescription: Administrative support and coordination for Urbancrest missions.\nleadership_status: staffed\nprimary_staff_key: jennifer_prows\nlocal_missions: title: Local Missions\ndescription: Community outreach and local mission engagement.\nleadership_status: staffed\nprimary_staff_key: darrel_schick\npreschool: title: Preschool Ministry\ndescription: Ministry for preschool-aged children within Urbancrest Kids.\naliases: preschool\npre-K\nthr...",
+      "content": "version: 1.2\nlast_updated: 2026-07-30\nministries: kids: title: Urbancrest Kids\ndescription: Family-partnered discipleship ministry for children that emphasizes relationships, biblical truth, worship, service, safety, and faith lived out.\naliases: Kids Ministry\nChildren's Ministry\nchildren\nprimary_staff_key: sarah_coleman\nrelated_staff_keys: mikhael_mastalerz\nstudents: title: Student Ministry\ndescription: Ministry for students in grades 7 through 12 that partners with parents to make mature disciples of Jesus.\naliases: Youth Ministry\nmiddle school\nhigh school\nteenagers\nprimary_staff_key: tucker_howard\nsmall_groups: title: Small Groups\ndescription: Groups that help people grow in faith and community.\nresource: church_center.small_groups\nmen: title: Men's Ministry\ndescription: Ministry for men.\nwomen: title: Women's Ministry\ndescription: Ministry for women.\nmissions: title: Missions\ndescription: Local, national, and international mission engagement.\nleadership_status: transitional\nopen_role: Global Missions Pastor\nrecommended_contact_staff_key: jennifer_prows\nworship: title: Worship Ministry\ndescription: Christ-centered, Scripture-shaped ministry that leads the congregation in worship through music, prayer, Scripture, and participation.\naliases: worship team\nmusic ministry\nworship band\nvocal team\nprimary_staff_key: larry_nichols\nproduction: title: Production Ministry\ndescription: Audio\nvideo: \nlighting: \nlivestream: \nand service technology.: \nlegacy_builders: title: Legacy Builders\ndescription: Ministry for adults age 50 and older.\ncare: title: Care and Prayer\ndescription: Prayer\nencouragement: \npastoral care: \nand practical support.: \nglobal_missions: title: Global Missions\ndescription: International mission engagement, mission trips, and global missions coordination.\nleadership_status: vacant\nopen_role: Global Missions Pastor\nrecommended_contact_staff_key: jennifer_prows\nmissions_administration: title: Missions Administration\ndescription: Administrative support and coordination for Urbancrest missions.\nleadership_status: staffed\nprimary_staff_key: jennifer_prows\nlocal_missions: title: Local Missions\ndescription: Year-round community outreach serving neighbors in Lebanon through food assistance, practical help, seasonal events, and relationship-building.\naliases: Local Missions\nlocal outreach\ncommunity outreach\nLebanon outreach\nprimary_staff_key: darrel_sch...",
       "priority": 60,
       "category": [
         "registry"
