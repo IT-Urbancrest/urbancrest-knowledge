@@ -103,8 +103,10 @@ def clean_text(value: object) -> str:
     if value is None:
         return ""
     text = html.unescape(str(value))
+    text = text.replace("\u2014", "-")
     text = text.replace("\\n", "\n").replace("\\,", ",").replace("\\;", ";")
-    text = BeautifulSoup(text, "html.parser").get_text("\n")
+    if re.search(r"<[^>]+>", text):
+        text = BeautifulSoup(text, "html.parser").get_text("\n")
     text = re.sub(r"\r\n?", "\n", text)
     text = re.sub(r"[ \t]+", " ", text)
     text = re.sub(r"\n{3,}", "\n\n", text)
@@ -189,7 +191,7 @@ def normalize_for_matching(value: str) -> str:
         .replace("“", '"')
         .replace("”", '"')
         .replace("–", "-")
-        .replace("—", "-")
+        .replace("\u2014", "-")
     )
 
 

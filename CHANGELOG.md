@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.8.8
+
+- Removed one-time Base44 prompt and patch documents from the knowledge repository.
+- Removed stale install and historical update notes that were no longer part of runtime behavior.
+- Removed the duplicate legacy emergency-food article.
+- Simplified `manifest.yaml` to repository metadata instead of a stale manual file inventory.
+- Updated action-link intent guidance for the Google Maps and Apple Maps directions bundle.
+- Rebuilt the runtime search index from the current repository state.
+- Updated the stale Student Ministry retrieval test to use the generalized schedule record.
+- Normalized synced public event copy to avoid em dashes and reduced unnecessary HTML parsing in the event sync.
+
 ## 0.7.0
 
 - Added detailed public ministry overviews and one-question, one-answer FAQs for Student Ministry, Preschool, Guest Services, Men's Summit, the Urbancrest Golf Classic, Worship Ministry, and Urbancrest Kids.

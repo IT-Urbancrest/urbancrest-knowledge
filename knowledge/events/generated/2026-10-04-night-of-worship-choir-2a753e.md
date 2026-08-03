@@ -60,7 +60,7 @@ On Sunday, October 4, Urbancrest will host a Night of Worship featuring the Ceda
 
 To make the evening even more meaningful, we're putting together a Special Event Choir, and we'd love for you to join us!
 
-Whether you've sung in choir before or it's been years since you've stood on the risers, this is a wonderful opportunity to worship together and lead our church family in lifting high the name of Jesus. You don't have to be a professional singer—just someone who enjoys worshiping through music and is willing to prepare the music with us.
+Whether you've sung in choir before or it's been years since you've stood on the risers, this is a wonderful opportunity to worship together and lead our church family in lifting high the name of Jesus. You don't have to be a professional singer-just someone who enjoys worshiping through music and is willing to prepare the music with us.
 
 ## Details
 
@@ -76,7 +76,7 @@ Urbancrest Worship Team
 To make the evening even more meaningful, we're putting together a 
 Special Event Choir
 , and we'd love for you to join us!
-Whether you've sung in choir before or it's been years since you've stood on the risers, this is a wonderful opportunity to worship together and lead our church family in lifting high the name of Jesus. You don't have to be a professional singer—just someone who enjoys worshiping through music and is willing to prepare the music with us.
+Whether you've sung in choir before or it's been years since you've stood on the risers, this is a wonderful opportunity to worship together and lead our church family in lifting high the name of Jesus. You don't have to be a professional singer-just someone who enjoys worshiping through music and is willing to prepare the music with us.
 
 **More information:** https://urbancrest.churchcenter.com/calendar/event/228745978
 

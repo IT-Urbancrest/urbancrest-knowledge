@@ -1,8 +1,8 @@
 id: intents.action_links
-version: 1.0
+version: 1.1
 status: active
 title: Action Link Retrieval
-description: Rules for selecting a useful next-step link without hardcoding links in the runtime prompt.
+description: Rules for selecting useful next-step links without hardcoding URLs in the runtime prompt.
 
 source_of_truth:
   registry: registry/action-links.yaml
@@ -11,10 +11,13 @@ retrieval:
   steps:
     - Match the answer intent to action-link intent tags.
     - Prefer the highest-priority link that directly supports the user's next step.
-    - Include no more than one primary action link unless the user explicitly asks for options.
+    - Normally include one primary action link.
+    - When the selected link belongs to a bundle with include_with_bundle true, include the other eligible links in that bundle.
 
 rules:
-  - For first visit, service time, location, parking, and what-to-expect questions, use Plan Your Visit.
+  - For directions questions, include every approved link in the directions_maps bundle so the user can choose Google Maps or Apple Maps.
+  - Do not replace map links with Plan Your Visit when directions is the primary intent.
+  - For service times, parking, what to expect, and broader first-visit questions, prefer Plan Your Visit when it is the relevant next step.
   - Keep Church Center form URLs as normal markdown links. The website will open them in its existing modal.
   - Do not include an unrelated link.
   - Use only links defined in registry/action-links.yaml or another approved registry resource.

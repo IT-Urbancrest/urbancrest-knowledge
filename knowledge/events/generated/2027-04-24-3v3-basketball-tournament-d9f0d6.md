@@ -4,7 +4,7 @@ version: 1.4.3
 status: published
 priority: 80
 title: "3V3 Basketball Tournament"
-summary: "100% of proceeds go toward sending students to Youth Summer Camp — helping make camp more affordable and giving more students the chance to attend...."
+summary: "100% of proceeds go toward sending students to Youth Summer Camp - helping make camp more affordable and giving more students the chance to attend...."
 category: [events]
 event_category: "ministry_event"
 intent:
@@ -49,14 +49,14 @@ last_generated: 2026-08-03T15:17:23.229714Z
 
 # 3V3 Basketball Tournament
 
-100% of proceeds go toward sending students to Youth Summer Camp — helping make camp more affordable and giving more students the chance to attend....
+100% of proceeds go toward sending students to Youth Summer Camp - helping make camp more affordable and giving more students the chance to attend....
 
 **When:** Saturday, April 24, 2027, 12 PM to 7 PM
 
 **Where:** Lebanon High School - 1916 Drake Rd
 Lebanon, OH 45036
 
-100% of proceeds go toward sending students to Youth Summer Camp — helping make camp more affordable and giving more students the chance to attend. Gather your team, enjoy some friendly competition, and help invest in the next generation.
+100% of proceeds go toward sending students to Youth Summer Camp - helping make camp more affordable and giving more students the chance to attend. Gather your team, enjoy some friendly competition, and help invest in the next generation.
 
 **More information:** https://urbancrest.churchcenter.com/calendar/event/229172206
 

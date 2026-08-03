@@ -19,7 +19,7 @@ last_updated: 2026-07-20
 
 Urbancrest has activities for the whole family each Wednesday.
 
-- **5:30 PM** — Free Dinner (Gymnasium)
-- **6:15 PM** — AWANA for Kids
-- **6:30 PM** — Student Ministry
-- **6:30 PM** — Adult Bible Studies
+- **5:30 PM** - Free Dinner (Gymnasium)
+- **6:15 PM** - AWANA for Kids
+- **6:30 PM** - Student Ministry
+- **6:30 PM** - Adult Bible Studies

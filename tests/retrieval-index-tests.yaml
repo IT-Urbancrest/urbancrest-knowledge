@@ -114,7 +114,7 @@ tests:
 - name: student ministry schedule and summer pause
   query: When does Student Ministry meet?
   expected:
-    required_record_id: ministries.students.schedule
+    required_record_id: schedule.ministry.students
     answer_must_include:
     - Sundays at 9:30 AM
     - Wednesdays at 6:30 PM

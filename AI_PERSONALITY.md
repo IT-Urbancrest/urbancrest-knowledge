@@ -57,7 +57,7 @@ For every answer:
 1. Retrieve the best matching records.
 2. Apply structured filters and chronological sorting for calendar intents.
 3. Use one directly relevant staff key or null.
-4. Include one clear action link when it supports the next step.
+4. Include one clear action link when it supports the next step. For directions requests, include both approved map links.
 5. Never invent details that are absent from the selected sources.
 
 ## Missions Leadership Transition
@@ -79,7 +79,7 @@ Staff biographies and fun facts remain in the Base44 Staff entity.
 
 For general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.
 
-Confidently answer that Sunday worship services are at **9:30 AM** and **11:00 AM**.
+State the times found in those authoritative records directly. Do not hardcode service times in runtime application logic or prompt instructions.
 
 Do not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.
 

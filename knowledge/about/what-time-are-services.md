@@ -82,10 +82,10 @@ Two identical worship services are offered each Sunday:
 
 ## Wednesday Evenings
 
-- **5:30 PM** — Free Dinner in the Gymnasium
-- **6:15 PM** — AWANA for Kids
-- **6:30 PM** — Student Ministry
-- **6:30 PM** — Adult Bible Studies
+- **5:30 PM** - Free Dinner in the Gymnasium
+- **6:15 PM** - AWANA for Kids
+- **6:30 PM** - Student Ministry
+- **6:30 PM** - Adult Bible Studies
 
 ## Schedule Authority
 
