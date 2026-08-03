@@ -1,0 +1,61 @@
+version: '1.0'
+last_updated: '2026-08-03'
+tests:
+- name: nursery snacks
+  query: Do I need to bring snacks for my toddler?
+  expected:
+    preferred_record_id: ministries.nursery.snacks
+    staff_key: mikhael_mastalerz
+    answer_must_include:
+    - snacks
+    - allergy
+- name: nursery diapers
+  query: Do I need to bring diapers and wipes?
+  expected:
+    preferred_record_id: ministries.nursery.diaper_supplies
+    staff_key: mikhael_mastalerz
+    answer_must_include:
+    - diapers
+    - wipes
+- name: nursery bottles
+  query: Will the nursery give my baby a bottle?
+  expected:
+    preferred_record_id: ministries.nursery.bottles
+    staff_key: mikhael_mastalerz
+    answer_must_include:
+    - bottle
+    - instructions
+- name: nursery both services
+  query: Can my baby stay in the nursery for both services?
+  expected:
+    preferred_record_id: ministries.nursery.both_services
+    staff_key: mikhael_mastalerz
+    answer_must_include:
+    - both
+    - parent or guardian
+    - building
+- name: nursery sick policy
+  query: What is the nursery sick policy?
+  expected:
+    preferred_record_id: ministries.nursery.well_child_policy
+    staff_key: mikhael_mastalerz
+    answer_must_include:
+    - 24 hours
+    - fever
+    - vomiting
+- name: nursery check out
+  query: How does nursery pickup work?
+  expected:
+    preferred_record_id: ministries.nursery.check_in_out
+    staff_key: mikhael_mastalerz
+    answer_must_include:
+    - matching
+    - security tag
+- name: nursery safety
+  query: Are nursery volunteers background checked?
+  expected:
+    preferred_record_id: ministries.nursery.safety
+    staff_key: mikhael_mastalerz
+    answer_must_include:
+    - background
+    - training
