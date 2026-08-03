@@ -1,27 +1,170 @@
-version: '1.1'
-last_updated: '2026-07-27'
-schedule:
-  weekly:
-    sunday:
-      worship:
-      - 9:30 AM
-      - 11:00 AM
-    wednesday:
-      dinner:
-        time: 5:30 PM
-        location: Gymnasium
-      awana:
-        time: 6:15 PM
-      students:
-        time: 6:30 PM
-      adult_bible_studies:
-        time: 6:30 PM
-status: published
-priority: 120
+version: '2.0'
+last_updated: '2026-07-30'
 timezone: America/New_York
 authoritative: true
 source_of_truth_for:
-- service_times
-- sunday_service_times
+- recurring_schedule
 - weekly_schedule
-answer_guidance: For general regular service-time questions, answer Sunday 9:30 AM and 11:00 AM with high confidence. For a specific date, check live events for a documented exception.
+- ministry_schedule
+- service_times
+answer_guidance: Use this registry as the source of truth for normal recurring service and ministry meeting times. For date-specific exceptions, special events, cancellations, or holiday schedules, prefer matching live calendar data when it explicitly applies to the requested date.
+
+ministries:
+  worship:
+    name: Worship Services
+    aliases:
+    - worship
+    - Sunday services
+    - Sunday worship
+    - church services
+    - church
+    show_staff_card_on_schedule_queries: false
+
+  kids:
+    name: Urbancrest Kids
+    aliases:
+    - Kids Ministry
+    - kids
+    - children's ministry
+    - children
+    recommended_contact_staff_key: sarah_coleman
+    show_staff_card_on_schedule_queries: true
+
+  students:
+    name: Student Ministry
+    aliases:
+    - students
+    - student ministry
+    - youth
+    - youth group
+    - middle school
+    - high school
+    recommended_contact_staff_key: tucker_howard
+    show_staff_card_on_schedule_queries: true
+
+  adults:
+    name: Adult Bible Studies
+    aliases:
+    - adults
+    - adult Bible studies
+    - Bible studies
+    - Wednesday Bible studies
+    show_staff_card_on_schedule_queries: false
+
+  churchwide:
+    name: Churchwide
+    aliases:
+    - churchwide
+    - Wednesday activities
+    - Wednesday nights
+    show_staff_card_on_schedule_queries: false
+
+schedules:
+- id: worship.sunday
+  ministry: worship
+  name: Sunday Worship Services
+  aliases:
+  - Sunday services
+  - Sunday worship
+  - worship services
+  - church services
+  priority: 125
+  intents:
+  - service_times
+  - sunday_service_times
+  - visit
+  tags:
+  - Sunday
+  - worship
+  meetings:
+  - day: Sunday
+    time: 9:30 AM
+  - day: Sunday
+    time: 11:00 AM
+  answer_guidance: For normal Sunday service-time questions, confidently state that worship services are at 9:30 AM and 11:00 AM.
+
+- id: kids.sunday_school
+  ministry: kids
+  name: Sunday School
+  aliases:
+  - Kids Sunday School
+  - children's Sunday School
+  - Sunday School classes
+  priority: 120
+  tags:
+  - Sunday
+  - children
+  meetings:
+  - day: Sunday
+    time: 9:30 AM
+  - day: Sunday
+    time: 11:00 AM
+  answer_guidance: Sunday School classes for kids are available during both Sunday morning services.
+
+- id: kids.awana
+  ministry: kids
+  name: AWANA
+  aliases:
+  - Awana
+  - kids Wednesday night
+  - Wednesday kids
+  priority: 120
+  tags:
+  - Wednesday
+  - children
+  meetings:
+  - day: Wednesday
+    time: 6:15 PM
+  answer_guidance: AWANA meets on Wednesdays at 6:15 PM.
+
+- id: students.weekly
+  ministry: students
+  name: Student Ministry
+  aliases:
+  - youth group
+  - students
+  - middle school ministry
+  - high school ministry
+  priority: 122
+  tags:
+  - Sunday
+  - Wednesday
+  - students
+  meetings:
+  - day: Sunday
+    time: 9:30 AM
+  - day: Wednesday
+    time: 6:30 PM
+  seasonal_note: Regular Student Ministry gatherings pause during the summer while students participate in local missions efforts in the community.
+  answer_guidance: Give both regular meeting times and mention the summer pause when answering a general Student Ministry schedule question.
+
+- id: adults.wednesday_bible_studies
+  ministry: adults
+  name: Adult Bible Studies
+  aliases:
+  - Wednesday Adult Bible Studies
+  - adult studies
+  priority: 115
+  tags:
+  - Wednesday
+  - adults
+  meetings:
+  - day: Wednesday
+    time: 6:30 PM
+
+- id: churchwide.wednesday_dinner
+  ministry: churchwide
+  name: Wednesday Night Dinner
+  aliases:
+  - Free Dinner
+  - Wednesday dinner
+  - church dinner
+  priority: 115
+  tags:
+  - Wednesday
+  - dinner
+  meetings:
+  - day: Wednesday
+    time: 5:30 PM
+    location: Gymnasium
+  answer_guidance: The regular Wednesday dinner begins at 5:30 PM in the Gymnasium.

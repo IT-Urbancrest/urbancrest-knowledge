@@ -1,0 +1,89 @@
+version: '1.0'
+last_updated: '2026-07-30'
+tests:
+- name: sunday service times
+  query: What time are Sunday services?
+  expected:
+    preferred_record_id: schedule.worship.sunday
+    answer_must_include:
+    - 9:30 AM
+    - 11:00 AM
+    minimum_confidence: 95
+
+- name: student ministry broad schedule
+  query: When does your student ministry meet?
+  expected:
+    preferred_record_id: schedule.ministry.students
+    answer_must_include:
+    - Sunday at 9:30 AM
+    - Wednesday at 6:30 PM
+    - summer
+    staff_key: tucker_howard
+    minimum_confidence: 95
+
+- name: student youth alias
+  query: When does youth group meet?
+  expected:
+    preferred_record_id: schedule.ministry.students
+    answer_must_include:
+    - Sunday at 9:30 AM
+    - Wednesday at 6:30 PM
+    minimum_confidence: 95
+
+- name: kids ministry broad schedule
+  query: When do kids meet?
+  expected:
+    preferred_record_id: schedule.ministry.kids
+    answer_must_include:
+    - Sunday School
+    - 9:30 AM
+    - 11:00 AM
+    - AWANA
+    - Wednesday at 6:15 PM
+    staff_key: sarah_coleman
+    minimum_confidence: 95
+
+- name: awana specific schedule
+  query: What time does AWANA meet?
+  expected:
+    preferred_record_id: schedule.kids.awana
+    answer_must_include:
+    - Wednesday at 6:15 PM
+    minimum_confidence: 95
+
+- name: sunday school both services
+  query: Is Sunday School offered during both services?
+  expected:
+    preferred_record_id: schedule.kids.sunday_school
+    answer_must_include:
+    - 9:30 AM
+    - 11:00 AM
+    minimum_confidence: 95
+
+- name: adult bible studies
+  query: When do Adult Bible Studies meet?
+  expected:
+    preferred_record_id: schedule.adults.wednesday_bible_studies
+    answer_must_include:
+    - Wednesday at 6:30 PM
+    minimum_confidence: 95
+
+- name: wednesday dinner
+  query: What time is Wednesday dinner?
+  expected:
+    preferred_record_id: schedule.churchwide.wednesday_dinner
+    answer_must_include:
+    - Wednesday at 5:30 PM
+    - Gymnasium
+    minimum_confidence: 95
+
+- name: activity availability regression
+  query: Does Urbancrest have pickleball?
+  expected:
+    record_type_if_no_recurring_schedule: event
+    preserve_existing_activity_availability_behavior: true
+
+- name: date aware event regression
+  query: What is the next men's ministry event?
+  expected:
+    preserve_existing_live_event_behavior: true

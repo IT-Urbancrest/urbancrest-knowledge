@@ -1,5 +1,5 @@
 version: '1.0'
-last_updated: '2026-07-27'
+last_updated: '2026-07-30'
 sources:
   github_knowledge:
     authority: authoritative_public_knowledge
@@ -32,7 +32,16 @@ sources:
     - SearchQueryLog
     - UnansweredQuestion
 precedence:
-- Structured live event and Small Group data from GitHub overrides conflicting admin entries.
-- Base44 Staff overrides GitHub for biography, fun fact, contact, photo, active status, and display order.
+- Structured recurring schedule data from registry/schedule.yaml overrides conflicting
+  general knowledge and approved Base44 admin entries for normal weekly service and
+  ministry meeting times.
+- For a specific date, structured live event data may override the recurring schedule
+  when it explicitly represents a cancellation, changed time, special occurrence,
+  or other exception for that date.
+- Structured live event and Small Group data from GitHub overrides conflicting admin
+  entries.
+- Base44 Staff overrides GitHub for biography, fun fact, contact, photo, active status,
+  and display order.
 - GitHub staff routing determines staffKey and ministry relationships.
-- Approved Base44 KnowledgeEntry records may supplement public knowledge but must not silently replace authoritative structured records.
+- Approved Base44 KnowledgeEntry records may supplement public knowledge but must
+  not silently replace authoritative structured records.

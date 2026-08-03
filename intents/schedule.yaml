@@ -1,0 +1,29 @@
+version: '1.0'
+last_updated: '2026-07-30'
+intent: schedule
+description: Handles questions about normal recurring service and ministry meeting times.
+target_record_type: schedule
+source_of_truth: registry/schedule.yaml
+
+question_patterns:
+- when does {activity_or_ministry} meet
+- when do {audience} meet
+- what time does {activity_or_ministry} meet
+- what time is {activity_or_ministry}
+- what is the {activity_or_ministry} schedule
+- what days does {activity_or_ministry} meet
+- when is {activity_or_ministry}
+
+selection_rules:
+- Match the user's wording against schedule aliases, ministry aliases, schedule names, tags, and search terms.
+- Prefer schedule.ministry.* for broad ministry questions that can require more than one recurring activity.
+- Prefer schedule.* activity records for a named activity such as AWANA, Sunday School, or Sunday Worship Services.
+- Prefer schedule records over general knowledge articles for normal recurring times.
+- Keep live event records eligible for explicit date-specific, next, upcoming, today, tonight, tomorrow, this-week, or special-event questions.
+- A live event may override the recurring schedule for a requested date when it explicitly conflicts with the normal schedule.
+- Do not treat ordinary "when does X meet" questions as activity_availability.
+
+activity_availability_interaction:
+- Recurring schedule records are eligible evidence that Urbancrest regularly offers an activity.
+- Live event records remain eligible for activities that exist only on the current calendar.
+- Prefer a recurring schedule record when one exists; otherwise use a matching future event.

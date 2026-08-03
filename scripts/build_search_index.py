@@ -173,9 +173,17 @@ def markdown_records() -> list[dict[str, Any]]:
         if status not in {"published", "active"}:
             continue
         title = str(metadata.get("title") or path.stem.replace("-", " ").title())
+        record_id = str(metadata.get("id") or relative)
+
+        # Recurring schedules are authoritative in registry/schedule.yaml.
+        # Keep legacy Markdown schedule files in the repository if desired, but
+        # do not index them as competing runtime sources.
+        if re.fullmatch(r"ministries\.[^.]+\.schedule", record_id):
+            continue
+
         records.append(
             record_base(
-                record_id=str(metadata.get("id") or relative),
+                record_id=record_id,
                 record_type="knowledge",
                 path=relative,
                 title=title,
@@ -206,59 +214,325 @@ def markdown_records() -> list[dict[str, Any]]:
 
 
 
+DAY_ORDER = {
+    "monday": 1,
+    "tuesday": 2,
+    "wednesday": 3,
+    "thursday": 4,
+    "friday": 5,
+    "saturday": 6,
+    "sunday": 7,
+}
+
+
+def meeting_sort_key(meeting: dict[str, Any]) -> tuple[int, int, str]:
+    day = str(meeting.get("day") or "").casefold()
+    day_rank = DAY_ORDER.get(day, 99)
+    raw_time = str(meeting.get("time") or "").strip()
+    time_rank = 9999
+
+    match = re.fullmatch(r"(\d{1,2}):(\d{2})\s*([AP]M)", raw_time, flags=re.IGNORECASE)
+    if match:
+        hour = int(match.group(1)) % 12
+        minute = int(match.group(2))
+        if match.group(3).upper() == "PM":
+            hour += 12
+        time_rank = hour * 60 + minute
+
+    return (day_rank, time_rank, raw_time.casefold())
+
+
+def format_meeting(meeting: dict[str, Any]) -> str:
+    day = str(meeting.get("day") or "").strip()
+    time = str(meeting.get("time") or "").strip()
+    location = str(meeting.get("location") or "").strip()
+
+    if day and time:
+        text = f"{day} at {time}"
+    else:
+        text = day or time or "Schedule time not specified"
+
+    if location:
+        text += f" at {location}"
+    return text
+
+
+def schedule_question_terms(names: list[str]) -> list[str]:
+    terms: list[str] = []
+    for value in unique(names):
+        terms.extend(
+            [
+                value,
+                f"When does {value} meet?",
+                f"When do {value} meet?",
+                f"What time does {value} meet?",
+                f"What time is {value}?",
+                f"What is the {value} schedule?",
+                f"What days does {value} meet?",
+                f"When is {value}?",
+                f"Does Urbancrest have {value}?",
+                f"Do you offer {value}?",
+                f"Is there {value} at Urbancrest?",
+            ]
+        )
+    return unique(terms)
+
+
 def schedule_records() -> list[dict[str, Any]]:
     path = ROOT / "registry/schedule.yaml"
     data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
-    weekly = data.get("schedule", {}).get("weekly", {})
-    sunday_times = weekly.get("sunday", {}).get("worship", [])
-    wednesday = weekly.get("wednesday", {})
+    timezone_name = str(data.get("timezone") or "America/New_York")
+    authoritative = bool(data.get("authoritative", True))
+    top_guidance = str(data.get("answer_guidance") or "")
+    ministries_config = data.get("ministries") or {}
+    schedules = [item for item in (data.get("schedules") or []) if isinstance(item, dict)]
 
-    content_lines = [
-        "Regular weekly schedule:",
-        "Sunday worship: " + ", ".join(str(value) for value in sunday_times),
-    ]
+    records: list[dict[str, Any]] = []
+    schedules_by_ministry: dict[str, list[dict[str, Any]]] = {}
 
-    for key, item in wednesday.items():
-        if not isinstance(item, dict):
+    for item in schedules:
+        schedule_id = str(item.get("id") or "").strip()
+        if not schedule_id:
             continue
-        label = key.replace("_", " ").title()
-        time = str(item.get("time") or "")
-        location = str(item.get("location") or "")
-        line = f"Wednesday {label}: {time}"
-        if location:
-            line += f" at {location}"
-        content_lines.append(line)
 
-    return [
+        ministry_key = str(item.get("ministry") or "churchwide").strip()
+        ministry_config = ministries_config.get(ministry_key, {}) if isinstance(ministries_config, dict) else {}
+        if not isinstance(ministry_config, dict):
+            ministry_config = {}
+
+        name = str(item.get("name") or schedule_id.replace(".", " ").title()).strip()
+        schedule_aliases = unique([name, *as_list(item.get("aliases"))])
+        ministry_name = str(ministry_config.get("name") or ministry_key.replace("_", " ").title()).strip()
+        ministry_aliases = unique([ministry_name, *as_list(ministry_config.get("aliases"))])
+        meetings = [meeting for meeting in (item.get("meetings") or []) if isinstance(meeting, dict)]
+        meetings = sorted(meetings, key=meeting_sort_key)
+        meeting_lines = [format_meeting(meeting) for meeting in meetings]
+        seasonal_note = str(item.get("seasonal_note") or "").strip()
+        answer_guidance = str(item.get("answer_guidance") or top_guidance).strip()
+
+        content_lines = [f"{name} recurring schedule:"]
+        content_lines.extend(f"- {line}" for line in meeting_lines)
+        if seasonal_note:
+            content_lines.append(f"Seasonal note: {seasonal_note}")
+
+        summary = f"{name}: " + "; ".join(meeting_lines)
+        if seasonal_note:
+            summary += f". {seasonal_note}"
+
+        recommended_contact = (
+            item.get("recommended_contact_staff_key")
+            or ministry_config.get("recommended_contact_staff_key")
+        )
+        show_staff_card = bool(
+            item.get(
+                "show_staff_card_on_schedule_queries",
+                ministry_config.get("show_staff_card_on_schedule_queries", False),
+            )
+        )
+
+        item_intents = unique(
+            [
+                "schedule",
+                "weekly_schedule",
+                "ministry_schedule",
+                *as_list(item.get("intents")),
+            ]
+        )
+
+        records.append(
+            record_base(
+                record_id=f"schedule.{schedule_id}",
+                record_type="schedule",
+                path="registry/schedule.yaml",
+                title=name,
+                summary=summary,
+                content="\n".join(content_lines),
+                priority=int(item.get("priority") or 115),
+                category=["schedule", "recurring", ministry_key],
+                intents=item_intents,
+                tags=unique(
+                    [
+                        "schedule",
+                        "recurring",
+                        ministry_key,
+                        name,
+                        *schedule_aliases,
+                        *as_list(item.get("tags")),
+                    ]
+                ),
+                search_terms=schedule_question_terms(schedule_aliases),
+                ministries=[ministry_key],
+                audiences=as_list(item.get("audiences")),
+                schedule_id=schedule_id,
+                schedule_scope="activity",
+                schedule_aliases=schedule_aliases,
+                ministry_aliases=ministry_aliases,
+                meetings=meetings,
+                seasonal_note=seasonal_note,
+                recommended_contact_staff_key=recommended_contact,
+                show_staff_card_on_schedule_queries=show_staff_card,
+                authoritative=authoritative,
+                authoritative_for=unique(
+                    [
+                        "schedule",
+                        "recurring_schedule",
+                        "ministry_schedule",
+                        *as_list(item.get("intents")),
+                    ]
+                ),
+                confidence="high",
+                timezone=timezone_name,
+                answer_guidance=answer_guidance,
+            )
+        )
+
+        schedules_by_ministry.setdefault(ministry_key, []).append(
+            {
+                "schedule_id": schedule_id,
+                "name": name,
+                "aliases": schedule_aliases,
+                "meetings": meetings,
+                "seasonal_note": seasonal_note,
+                "priority": int(item.get("priority") or 115),
+            }
+        )
+
+    # Aggregate each ministry so broad questions such as "When do kids meet?"
+    # can return all of that ministry's recurring weekly activities.
+    for ministry_key, ministry_schedules in schedules_by_ministry.items():
+        ministry_config = ministries_config.get(ministry_key, {}) if isinstance(ministries_config, dict) else {}
+        if not isinstance(ministry_config, dict):
+            ministry_config = {}
+
+        ministry_name = str(ministry_config.get("name") or ministry_key.replace("_", " ").title()).strip()
+        ministry_aliases = unique([ministry_name, *as_list(ministry_config.get("aliases"))])
+        content_lines = [f"{ministry_name} recurring schedule:"]
+        all_meetings: list[dict[str, Any]] = []
+
+        for item in sorted(
+            ministry_schedules,
+            key=lambda entry: (
+                min((meeting_sort_key(m) for m in entry["meetings"]), default=(99, 9999, "")),
+                entry["name"].casefold(),
+            ),
+        ):
+            meeting_text = "; ".join(format_meeting(meeting) for meeting in item["meetings"])
+            line = f"- {item['name']}: {meeting_text}"
+            if item["seasonal_note"]:
+                line += f". {item['seasonal_note']}"
+            content_lines.append(line)
+            all_meetings.extend(item["meetings"])
+
+        recommended_contact = ministry_config.get("recommended_contact_staff_key")
+        show_staff_card = bool(ministry_config.get("show_staff_card_on_schedule_queries", False))
+        max_priority = max((entry["priority"] for entry in ministry_schedules), default=115)
+
+        records.append(
+            record_base(
+                record_id=f"schedule.ministry.{ministry_key}",
+                record_type="schedule",
+                path="registry/schedule.yaml",
+                title=f"{ministry_name} Weekly Schedule",
+                summary=" ".join(content_lines[1:]),
+                content="\n".join(content_lines),
+                priority=max(118, min(max_priority + 3, 126)),
+                category=["schedule", "recurring", "ministry", ministry_key],
+                intents=["schedule", "weekly_schedule", "ministry_schedule"],
+                tags=unique(
+                    [
+                        "schedule",
+                        "recurring",
+                        "ministry",
+                        ministry_key,
+                        *ministry_aliases,
+                    ]
+                ),
+                search_terms=schedule_question_terms(ministry_aliases),
+                ministries=[ministry_key],
+                schedule_scope="ministry",
+                ministry_aliases=ministry_aliases,
+                schedule_ids=[entry["schedule_id"] for entry in ministry_schedules],
+                meetings=sorted(all_meetings, key=meeting_sort_key),
+                recommended_contact_staff_key=recommended_contact,
+                show_staff_card_on_schedule_queries=show_staff_card,
+                authoritative=authoritative,
+                authoritative_for=["schedule", "recurring_schedule", "ministry_schedule"],
+                confidence="high",
+                timezone=timezone_name,
+                answer_guidance=top_guidance,
+            )
+        )
+
+    # Overall recurring weekly schedule.
+    weekly_lines = ["Urbancrest regular weekly schedule:"]
+    all_meetings: list[dict[str, Any]] = []
+    schedule_ids: list[str] = []
+
+    for item in sorted(
+        schedules,
+        key=lambda entry: (
+            min(
+                (
+                    meeting_sort_key(meeting)
+                    for meeting in (entry.get("meetings") or [])
+                    if isinstance(meeting, dict)
+                ),
+                default=(99, 9999, ""),
+            ),
+            str(entry.get("name") or "").casefold(),
+        ),
+    ):
+        name = str(item.get("name") or item.get("id") or "Schedule")
+        meetings = [meeting for meeting in (item.get("meetings") or []) if isinstance(meeting, dict)]
+        meeting_text = "; ".join(format_meeting(meeting) for meeting in sorted(meetings, key=meeting_sort_key))
+        line = f"- {name}: {meeting_text}"
+        seasonal_note = str(item.get("seasonal_note") or "").strip()
+        if seasonal_note:
+            line += f". {seasonal_note}"
+        weekly_lines.append(line)
+        all_meetings.extend(meetings)
+        if item.get("id"):
+            schedule_ids.append(str(item.get("id")))
+
+    records.append(
         record_base(
             record_id="schedule.weekly",
             record_type="schedule",
             path="registry/schedule.yaml",
-            title="Urbancrest Weekly Service Schedule",
-            summary="Sunday worship services are at 9:30 AM and 11:00 AM.",
-            content="\n".join(content_lines),
-            priority=int(data.get("priority") or 120),
-            category=["schedule", "about"],
-            intents=["service_times", "sunday_service_times", "weekly_schedule", "visit"],
-            tags=["service times", "Sunday services", "Sunday worship", "weekly schedule"],
+            title="Urbancrest Weekly Schedule",
+            summary="Regular Sunday and Wednesday recurring schedule for Urbancrest services and ministries.",
+            content="\n".join(weekly_lines),
+            priority=118,
+            category=["schedule", "recurring", "about"],
+            intents=["schedule", "weekly_schedule", "service_times", "visit"],
+            tags=["schedule", "weekly schedule", "service times", "Sunday", "Wednesday"],
             search_terms=[
-                "What time are Sunday services?",
-                "What are your Sunday service times?",
-                "When are Sunday services?",
-                "What time does church start?",
-                "What time is church?",
+                "What is the Urbancrest weekly schedule?",
+                "What happens each week at Urbancrest?",
                 "When does Urbancrest meet?",
-                "Sunday worship times",
-                "Sunday service times",
+                "What time are Sunday services?",
+                "What happens on Wednesday nights?",
+                "What is the Wednesday schedule?",
             ],
-            authoritative=bool(data.get("authoritative", True)),
-            authoritative_for=as_list(data.get("source_of_truth_for")),
+            schedule_scope="churchwide",
+            schedule_ids=schedule_ids,
+            meetings=sorted(all_meetings, key=meeting_sort_key),
+            authoritative=authoritative,
+            authoritative_for=unique(
+                [
+                    "schedule",
+                    "recurring_schedule",
+                    "weekly_schedule",
+                    *as_list(data.get("source_of_truth_for")),
+                ]
+            ),
             confidence="high",
-            answer_guidance=data.get("answer_guidance"),
-            sunday_service_times=as_list(sunday_times),
-            timezone=data.get("timezone", "America/New_York"),
+            timezone=timezone_name,
+            answer_guidance=top_guidance,
         )
-    ]
+    )
+
+    return records
 
 
 def event_records() -> list[dict[str, Any]]:
