@@ -74,9 +74,17 @@ ministries:
     primary_staff_key: jennifer_prows
   local_missions:
     title: Local Missions
-    description: Community outreach and local mission engagement.
-    leadership_status: staffed
+    description: Year-round community outreach serving neighbors in Lebanon through food assistance, practical help, seasonal events, and relationship-building.
+    aliases:
+    - Local Missions
+    - local outreach
+    - community outreach
+    - Lebanon outreach
     primary_staff_key: darrel_schick
+    tags:
+    - food assistance
+    - community outreach
+    - volunteering
   preschool:
     title: Preschool Ministry
     description: Ministry for preschool-aged children within Urbancrest Kids.
