@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.7.0",
-  "generated_at": "2026-08-03T13:19:29.372828Z",
+  "generated_at": "2026-08-03T13:33:09.291336Z",
   "timezone": "America/New_York",
   "record_count": 370,
   "config": {
@@ -734,6 +734,69 @@
       "answer_guidance": "Give both regular meeting times and mention the summer pause when answering a general Student Ministry schedule question."
     },
     {
+      "id": "ministries.local_missions.emergency_food_boxes",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/faq/are-emergency-food-boxes-available.md",
+      "title": "Are emergency food boxes available?",
+      "summary": "Yes. Emergency food boxes are available for individuals and families who cannot wait until the next monthly Baskets of Hope distribution.",
+      "content": "# Are emergency food boxes available?\n\nYes. Emergency food boxes are available for individuals and families who cannot wait until the next monthly Baskets of Hope distribution.\n\nFor help with an emergency food need, contact Pastor Darrel at **dschick@urbancrest.org**.",
+      "priority": 120,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "local_missions_info",
+        "food_assistance",
+        "emergency_food",
+        "assistance_availability"
+      ],
+      "tags": [
+        "Local Missions",
+        "local outreach",
+        "community outreach",
+        "Lebanon",
+        "emergency food",
+        "food assistance",
+        "food boxes"
+      ],
+      "search_terms": [
+        "Can I get emergency food?",
+        "Does Urbancrest have emergency food boxes?",
+        "What if I cannot wait until Baskets of Hope?",
+        "I need food before the next distribution",
+        "Can Urbancrest help with food right away?",
+        "Can I get emergency food before the next distribution?",
+        "Can I get food before the next Baskets of Hope distribution?",
+        "I need food before the next food distribution. Can Urbancrest help?",
+        "Can I get an emergency food box now?"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "volunteer",
+        "community"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
+      "answer_guidance": "This is an assistance-availability question, not an upcoming-event question. The phrase \"before the next distribution\" does not mean the user is asking for the date of the next event. Answer yes and explain that emergency food boxes are available for people who cannot wait until the monthly distribution.",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "local_missions_info",
+        "food_assistance",
+        "emergency_food",
+        "assistance_availability"
+      ]
+    },
+    {
       "id": "about.services.times",
       "record_type": "knowledge",
       "path": "knowledge/about/what-time-are-services.md",
@@ -1008,6 +1071,130 @@
       "confidence": "high",
       "timezone": "America/New_York",
       "answer_guidance": "Sunday School classes for kids are available during both Sunday morning services."
+    },
+    {
+      "id": "ministries.local_missions.overview",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/overview.md",
+      "title": "What is Urbancrest Local Missions?",
+      "summary": "Urbancrest Local Missions serves neighbors in Lebanon and the surrounding community year round through food assistance, practical help, seasonal outreach, community events, and volunteer service.",
+      "content": "# What is Urbancrest Local Missions?\n\nUrbancrest Local Missions serves neighbors in Lebanon and the surrounding community throughout the year through practical care, relationship-building, and Gospel-centered outreach.\n\nMinistry efforts include food distribution and emergency food assistance, furniture and laundry ministries, community meals, seasonal outreach events, block parties, school supply distribution, the Giving Tree, archery, pickleball, car cruise-ins, Operation Christmas Child, and other opportunities to serve local families and community groups.\n\nThe Local Missions Team is always looking for volunteers who want to love their neighbors through practical service and intentional relationships.\n\nFor questions or to get involved, contact Pastor Darrel at **dschick@urbancrest.org**.",
+      "priority": 118,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "local_missions_info",
+        "local_missions_overview",
+        "ministry_info",
+        "community_outreach"
+      ],
+      "tags": [
+        "Local Missions",
+        "local outreach",
+        "community outreach",
+        "Lebanon",
+        "year-round ministry",
+        "serve neighbors",
+        "volunteering"
+      ],
+      "search_terms": [
+        "What is Local Missions?",
+        "What does Urbancrest do in the community?",
+        "How does Urbancrest serve Lebanon?",
+        "What local outreach ministries does Urbancrest have?",
+        "Tell me about Local Missions",
+        "What does Urbancrest do for local missions?",
+        "What does your local missions ministry do?",
+        "What does the Local Missions Team do?",
+        "How does Local Missions serve the community?"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "volunteer",
+        "community"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
+      "answer_guidance": "For broad questions about what Local Missions does, answer directly from this record. Do not defer to staff when this record is retrieved. Use Pastor Darrel as the recommended contact only as an optional next step.",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "local_missions_info",
+        "local_missions_overview",
+        "ministry_info",
+        "community_outreach"
+      ]
+    },
+    {
+      "id": "ministries.local_missions.seasonal_outreach",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/local-missions/faq/what-seasonal-local-missions-events-happen-each-year.md",
+      "title": "What seasonal Local Missions events happen each year?",
+      "summary": "Seasonal Local Missions outreach includes the Easter Festival, Summer Block Parties, Warren County Fair Feeding, School Supply Giveaway, Trail of Treats, Giving Tree, and holiday Baskets of Hope distributions.",
+      "content": "# What seasonal Local Missions events happen each year?\n\nUrbancrest Local Missions serves the community throughout the year through several seasonal outreach efforts:\n\n- **Easter:** Easter Festival and an expanded Baskets of Hope holiday distribution\n- **Summer:** Block Parties at local housing communities, parks, and the Lebanon KOA\n- **July:** Warren County Fair Feeding for 4-H families\n- **August:** School Supply Giveaway\n- **October:** Trail of Treats\n- **Thanksgiving:** Expanded Baskets of Hope holiday distribution\n- **Christmas season:** Giving Tree, expanded Baskets of Hope distribution, and Operation Christmas Child participation\n\nExact dates and details can change each year, so use the current Urbancrest events calendar for upcoming opportunities.",
+      "priority": 118,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "local_missions_info",
+        "seasonal_outreach",
+        "annual_outreach",
+        "recurring_ministry_programs"
+      ],
+      "tags": [
+        "Local Missions",
+        "local outreach",
+        "community outreach",
+        "Lebanon",
+        "seasonal events",
+        "annual outreach"
+      ],
+      "search_terms": [
+        "What Local Missions events happen throughout the year?",
+        "What seasonal outreach does Urbancrest have?",
+        "What community events does Urbancrest host?",
+        "What local missions events happen in spring summer fall and winter?",
+        "What seasonal Local Missions events happen each year?",
+        "What Local Missions events happen every year?",
+        "What annual Local Missions events do you have?",
+        "What recurring seasonal outreach events does Urbancrest have?"
+      ],
+      "ministries": [
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "volunteer",
+        "community"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "darrel_schick",
+      "answer_guidance": "This record answers recurring and annual program questions. A question about what happens each year is not a request for the next live calendar event. Use this record for the annual list, and use live event records only when the user asks for exact current dates, next occurrences, today, this week, or another specific time window.",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "local_missions_info",
+        "seasonal_outreach",
+        "annual_outreach",
+        "recurring_ministry_programs"
+      ]
     },
     {
       "id": "schedule.ministry.adults",
@@ -1568,57 +1755,6 @@
       "confidence": "high"
     },
     {
-      "id": "ministries.local_missions.emergency_food_boxes",
-      "record_type": "knowledge",
-      "path": "knowledge/ministries/local-missions/faq/are-emergency-food-boxes-available.md",
-      "title": "Are emergency food boxes available?",
-      "summary": "Yes. Emergency food boxes are available for individuals and families who cannot wait until the next monthly Baskets of Hope distribution.",
-      "content": "# Are emergency food boxes available?\n\nYes. Emergency food boxes are available for individuals and families who cannot wait until the next monthly Baskets of Hope distribution.\n\nFor help with an emergency food need, contact Pastor Darrel at **dschick@urbancrest.org**.",
-      "priority": 112,
-      "category": [
-        "ministries",
-        "faq"
-      ],
-      "intents": [
-        "ministry_info",
-        "local_missions_info",
-        "food_assistance",
-        "emergency_food"
-      ],
-      "tags": [
-        "Local Missions",
-        "local outreach",
-        "community outreach",
-        "Lebanon",
-        "emergency food",
-        "food assistance",
-        "food boxes"
-      ],
-      "search_terms": [
-        "Can I get emergency food?",
-        "Does Urbancrest have emergency food boxes?",
-        "What if I cannot wait until Baskets of Hope?",
-        "I need food before the next distribution",
-        "Can Urbancrest help with food right away?"
-      ],
-      "ministries": [
-        "local_missions"
-      ],
-      "audiences": [
-        "visitor",
-        "attendee",
-        "member",
-        "volunteer",
-        "community"
-      ],
-      "resources": [
-        "action_link.events"
-      ],
-      "status": "published",
-      "recommended_contact_staff_key": "darrel_schick",
-      "confidence": "high"
-    },
-    {
       "id": "ministries.local_missions.baskets_of_hope",
       "record_type": "knowledge",
       "path": "knowledge/ministries/local-missions/faq/what-is-baskets-of-hope.md",
@@ -1866,57 +2002,6 @@
       "confidence": "high"
     },
     {
-      "id": "ministries.local_missions.overview",
-      "record_type": "knowledge",
-      "path": "knowledge/ministries/local-missions/overview.md",
-      "title": "What is Urbancrest Local Missions?",
-      "summary": "Urbancrest Local Missions serves neighbors in Lebanon and the surrounding community year round through food assistance, practical help, seasonal outreach, community events, and volunteer service.",
-      "content": "# What is Urbancrest Local Missions?\n\nUrbancrest Local Missions serves neighbors in Lebanon and the surrounding community throughout the year through practical care, relationship-building, and Gospel-centered outreach.\n\nMinistry efforts include food distribution and emergency food assistance, furniture and laundry ministries, community meals, seasonal outreach events, block parties, school supply distribution, the Giving Tree, archery, pickleball, car cruise-ins, Operation Christmas Child, and other opportunities to serve local families and community groups.\n\nThe Local Missions Team is always looking for volunteers who want to love their neighbors through practical service and intentional relationships.\n\nFor questions or to get involved, contact Pastor Darrel at **dschick@urbancrest.org**.",
-      "priority": 108,
-      "category": [
-        "ministries",
-        "faq"
-      ],
-      "intents": [
-        "ministry_info",
-        "local_missions_info",
-        "local_missions_overview",
-        "community_outreach"
-      ],
-      "tags": [
-        "Local Missions",
-        "local outreach",
-        "community outreach",
-        "Lebanon",
-        "year-round ministry",
-        "serve neighbors",
-        "volunteering"
-      ],
-      "search_terms": [
-        "What is Local Missions?",
-        "What does Urbancrest do in the community?",
-        "How does Urbancrest serve Lebanon?",
-        "What local outreach ministries does Urbancrest have?",
-        "Tell me about Local Missions"
-      ],
-      "ministries": [
-        "local_missions"
-      ],
-      "audiences": [
-        "visitor",
-        "attendee",
-        "member",
-        "volunteer",
-        "community"
-      ],
-      "resources": [
-        "action_link.events"
-      ],
-      "status": "published",
-      "recommended_contact_staff_key": "darrel_schick",
-      "confidence": "high"
-    },
-    {
       "id": "ministries.local_missions.holiday_food_distributions",
       "record_type": "knowledge",
       "path": "knowledge/ministries/local-missions/faq/what-are-the-holiday-food-distributions.md",
@@ -1950,55 +2035,6 @@
         "What happens at the Christmas food distribution?",
         "What happens at the Easter food distribution?",
         "What holiday food events does Urbancrest have?"
-      ],
-      "ministries": [
-        "local_missions"
-      ],
-      "audiences": [
-        "visitor",
-        "attendee",
-        "member",
-        "volunteer",
-        "community"
-      ],
-      "resources": [
-        "action_link.events"
-      ],
-      "status": "published",
-      "recommended_contact_staff_key": "darrel_schick",
-      "confidence": "high"
-    },
-    {
-      "id": "ministries.local_missions.seasonal_outreach",
-      "record_type": "knowledge",
-      "path": "knowledge/ministries/local-missions/faq/what-seasonal-local-missions-events-happen-each-year.md",
-      "title": "What seasonal Local Missions events happen each year?",
-      "summary": "Seasonal Local Missions outreach includes the Easter Festival, Summer Block Parties, Warren County Fair Feeding, School Supply Giveaway, Trail of Treats, Giving Tree, and holiday Baskets of Hope distributions.",
-      "content": "# What seasonal Local Missions events happen each year?\n\nUrbancrest Local Missions serves the community throughout the year through several seasonal outreach efforts:\n\n- **Easter:** Easter Festival and an expanded Baskets of Hope holiday distribution\n- **Summer:** Block Parties at local housing communities, parks, and the Lebanon KOA\n- **July:** Warren County Fair Feeding for 4-H families\n- **August:** School Supply Giveaway\n- **October:** Trail of Treats\n- **Thanksgiving:** Expanded Baskets of Hope holiday distribution\n- **Christmas season:** Giving Tree, expanded Baskets of Hope distribution, and Operation Christmas Child participation\n\nExact dates and details can change each year, so use the current Urbancrest events calendar for upcoming opportunities.",
-      "priority": 106,
-      "category": [
-        "ministries",
-        "faq"
-      ],
-      "intents": [
-        "ministry_info",
-        "local_missions_info",
-        "seasonal_outreach",
-        "annual_outreach"
-      ],
-      "tags": [
-        "Local Missions",
-        "local outreach",
-        "community outreach",
-        "Lebanon",
-        "seasonal events",
-        "annual outreach"
-      ],
-      "search_terms": [
-        "What Local Missions events happen throughout the year?",
-        "What seasonal outreach does Urbancrest have?",
-        "What community events does Urbancrest host?",
-        "What local missions events happen in spring summer fall and winter?"
       ],
       "ministries": [
         "local_missions"
