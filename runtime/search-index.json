@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.7.0",
-  "generated_at": "2026-08-03T12:36:09.225063Z",
+  "generated_at": "2026-08-03T12:57:02.759770Z",
   "timezone": "America/New_York",
-  "record_count": 340,
+  "record_count": 349,
   "config": {
     "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership Transition\n\nUrbancrest is currently searching for its next Global Missions Pastor.\n\nFor broad or global missions leadership questions:\n\n1. State that Urbancrest is currently searching for its next Global Missions Pastor.\n2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.\n3. Return `jennifer_prows` when one staff card is appropriate.\n4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nConfidently answer that Sunday worship services are at **9:30 AM** and **11:00 AM**.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
     "style_guide": "# Style Guide\n\n## Writing\n\n- Use short paragraphs.\n- Prefer plain language.\n- Avoid church jargon unless it is explained.\n- Do not use em dashes.\n- Do not use the word meaningful as a filler.\n- Use Small Groups, never Grow Groups.\n- Refer to Urbancrest Church as Urbancrest after the first use.\n- Use believer's baptism by immersion when describing baptism.\n\n## Theology\n\n- Scripture is the final authority.\n- The Baptist Faith and Message 2000 is a helpful doctrinal summary, not equal to Scripture.\n- Salvation is by grace alone through faith alone in Jesus Christ alone.\n- Baptism follows salvation and does not save.\n",
@@ -1557,6 +1557,268 @@
       ]
     },
     {
+      "id": "ministries.nursery.safety",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/nursery/faq/what-safety-measures-are-in-place.md",
+      "title": "What safety measures are in place in the nursery?",
+      "summary": "Nursery volunteers complete screening and safety training, children are supervised under established multi-volunteer practices, and secure check-in and check-out procedures are used.",
+      "content": "# What safety measures are in place in the nursery?\n\nThe safety of every child is a priority. Volunteers who serve with children complete an application and interview process, background screening, and ministry safety training before serving.\n\nUrbancrest also follows established multi-volunteer supervision practices so children are not left alone with a single volunteer, and secure check-in and check-out procedures are used when children enter and leave the nursery.",
+      "priority": 105,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "nursery_info",
+        "nursery_safety",
+        "volunteer_screening",
+        "child_security"
+      ],
+      "tags": [
+        "Nursery Ministry",
+        "nursery",
+        "babies",
+        "toddlers",
+        "safety",
+        "volunteer screening",
+        "background checks",
+        "supervision"
+      ],
+      "search_terms": [
+        "Is the nursery safe?",
+        "Are nursery volunteers background checked?",
+        "How are nursery volunteers screened?",
+        "What safety measures are in the nursery?",
+        "Are babies ever alone with one volunteer?"
+      ],
+      "ministries": [
+        "nursery"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "parent",
+        "family"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "mikhael_mastalerz",
+      "related_staff_keys": [
+        "sarah_coleman"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.nursery.check_in_out",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/nursery/faq/how-does-nursery-check-in-and-check-out-work.md",
+      "title": "How does nursery check-in and check-out work?",
+      "summary": "Families check in at designated Kids Ministry stations, receive matching child and parent security tags, and must present the matching tag at pickup.",
+      "content": "# How does nursery check-in and check-out work?\n\nFamilies check in at the designated Kids Ministry check-in stations before bringing their child to the nursery. Children receive a printed name tag, and parents or guardians receive a matching security tag.\n\nAt pick-up, the tag numbers must match before a child can be released. If a tag is lost or does not match, a Kids Ministry leader or security team member will assist with the verification process.",
+      "priority": 104,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "nursery_info",
+        "nursery_check_in",
+        "nursery_check_out",
+        "child_security"
+      ],
+      "tags": [
+        "Nursery Ministry",
+        "nursery",
+        "babies",
+        "toddlers",
+        "check-in",
+        "check-out",
+        "security"
+      ],
+      "search_terms": [
+        "How do I check my baby into the nursery?",
+        "How does nursery pickup work?",
+        "Do I need a security tag for nursery pickup?",
+        "What if I lose my nursery checkout tag?",
+        "How does nursery check-in work?"
+      ],
+      "ministries": [
+        "nursery"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "parent",
+        "family"
+      ],
+      "resources": [
+        "action_link.plan_visit"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "mikhael_mastalerz",
+      "related_staff_keys": [
+        "sarah_coleman"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.nursery.well_child_policy",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/nursery/faq/what-if-my-child-is-sick.md",
+      "title": "What if my child is sick?",
+      "summary": "Children who have had a fever, vomiting, or a contagious rash within the previous 24 hours should remain with their parents rather than attend the nursery.",
+      "content": "# What if my child is sick?\n\nFor the health of all the children in our care, children who have had a fever, vomiting, or a contagious rash within the previous **24 hours** should remain with their parents rather than attend the nursery.",
+      "priority": 104,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "nursery_info",
+        "nursery_health",
+        "well_child_policy"
+      ],
+      "tags": [
+        "Nursery Ministry",
+        "nursery",
+        "babies",
+        "toddlers",
+        "health",
+        "well-child policy",
+        "sick child"
+      ],
+      "search_terms": [
+        "Can my sick child go to the nursery?",
+        "What is the nursery sick policy?",
+        "How long should my baby be fever-free?",
+        "Can my child attend nursery after vomiting?",
+        "What is the nursery well-child policy?"
+      ],
+      "ministries": [
+        "nursery"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "parent",
+        "family"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "mikhael_mastalerz",
+      "related_staff_keys": [
+        "sarah_coleman"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.nursery.medication",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/nursery/faq/can-nursery-volunteers-give-medication.md",
+      "title": "Can nursery volunteers give my child medication?",
+      "summary": "No. Nursery and Kids Ministry volunteers do not administer prescription or over-the-counter medication to children.",
+      "content": "# Can nursery volunteers give my child medication?\n\nNo. Nursery and Kids Ministry volunteers do not administer prescription or over-the-counter medication to children.",
+      "priority": 102,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "nursery_info",
+        "nursery_health",
+        "medication_policy"
+      ],
+      "tags": [
+        "Nursery Ministry",
+        "nursery",
+        "babies",
+        "toddlers",
+        "medication",
+        "health",
+        "safety"
+      ],
+      "search_terms": [
+        "Can nursery workers give medicine?",
+        "Can I leave medication with the nursery?",
+        "Will the nursery give my child Tylenol?",
+        "Can nursery volunteers administer medication?"
+      ],
+      "ministries": [
+        "nursery"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "parent",
+        "family"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "mikhael_mastalerz",
+      "related_staff_keys": [
+        "sarah_coleman"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.nursery.diaper_changes",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/nursery/faq/how-are-diaper-changes-handled.md",
+      "title": "How are diaper changes handled in the nursery?",
+      "summary": "Diaper changes are handled by approved nursery volunteers or the child's parent or guardian, and volunteers use disposable gloves.",
+      "content": "# How are diaper changes handled in the nursery?\n\nDiaper changes are handled by approved nursery volunteers or the child's parent or guardian. Nursery volunteers use disposable gloves when changing diapers.",
+      "priority": 102,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "nursery_info",
+        "nursery_safety",
+        "diaper_changes"
+      ],
+      "tags": [
+        "Nursery Ministry",
+        "nursery",
+        "babies",
+        "toddlers",
+        "diaper changes",
+        "safety"
+      ],
+      "search_terms": [
+        "Who changes diapers in the nursery?",
+        "How are diaper changes handled?",
+        "Can nursery volunteers change diapers?",
+        "Do nursery workers use gloves for diaper changes?"
+      ],
+      "ministries": [
+        "nursery"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "parent",
+        "family"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "mikhael_mastalerz",
+      "related_staff_keys": [
+        "sarah_coleman"
+      ],
+      "confidence": "high"
+    },
+    {
       "id": "action_link.connect_card",
       "record_type": "action_link",
       "path": "registry/action-links.yaml",
@@ -2202,6 +2464,58 @@
       "confidence": "high"
     },
     {
+      "id": "ministries.nursery.both_services",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/nursery/faq/can-my-child-stay-for-both-sunday-services.md",
+      "title": "Can my child stay in the nursery for both Sunday services?",
+      "summary": "Yes. A child may remain in the nursery for both services as long as a parent or guardian remains in the building while attending worship, participating in a Small Group, or serving.",
+      "content": "# Can my child stay in the nursery for both Sunday services?\n\nYes. Children are welcome to remain in the nursery for both Sunday services as long as a parent or guardian remains in the building and is attending worship, participating in a Small Group, or serving as a volunteer.",
+      "priority": 100,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "nursery_info",
+        "nursery_services",
+        "nursery_availability"
+      ],
+      "tags": [
+        "Nursery Ministry",
+        "nursery",
+        "babies",
+        "toddlers",
+        "Sunday services",
+        "both services"
+      ],
+      "search_terms": [
+        "Can my baby stay in the nursery for both services?",
+        "Can my child stay for both Sunday services?",
+        "Can I leave my child in the nursery between services?",
+        "Can the nursery keep my child while I serve?"
+      ],
+      "ministries": [
+        "nursery"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "parent",
+        "family"
+      ],
+      "resources": [
+        "action_link.plan_visit"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "mikhael_mastalerz",
+      "related_staff_keys": [
+        "sarah_coleman"
+      ],
+      "confidence": "high"
+    },
+    {
       "id": "resources.church-center",
       "record_type": "knowledge",
       "path": "knowledge/resources/church-center-links.md",
@@ -2240,6 +2554,109 @@
         "church_center.serving"
       ],
       "status": "published",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.nursery.snacks",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/nursery/faq/do-i-need-to-provide-snacks.md",
+      "title": "Do I need to provide snacks for my child in the nursery?",
+      "summary": "No. The nursery keeps common toddler snacks on hand, and parents should share any allergies, dietary restrictions, or snack preferences at drop-off.",
+      "content": "# Do I need to provide snacks for my child in the nursery?\n\nNo. The nursery keeps common toddler snacks on hand, such as puffs, yogurt melts, and rice rusks.\n\nIf your child has a food allergy, dietary restriction, or you prefer that they not receive a nursery snack, please let the nursery team know at drop-off. Allergy information is also noted for volunteers so it can be reviewed before food is served.",
+      "priority": 100,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "nursery_info",
+        "nursery_snacks",
+        "food_allergies"
+      ],
+      "tags": [
+        "Nursery Ministry",
+        "nursery",
+        "babies",
+        "toddlers",
+        "snacks",
+        "food allergies",
+        "dietary restrictions"
+      ],
+      "search_terms": [
+        "Do I need to bring snacks to the nursery?",
+        "Does the nursery provide snacks?",
+        "What snacks does the nursery have?",
+        "What if my child has a food allergy?",
+        "Can I ask the nursery not to give my child a snack?"
+      ],
+      "ministries": [
+        "nursery"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "parent",
+        "family"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "mikhael_mastalerz",
+      "related_staff_keys": [
+        "sarah_coleman"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.nursery.bottles",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/nursery/faq/does-the-nursery-mix-and-give-bottles.md",
+      "title": "Does the nursery mix and give bottles?",
+      "summary": "Yes. Nursery volunteers can prepare bottles and feed babies when parents provide the approximate feeding time and any special instructions.",
+      "content": "# Does the nursery mix and give bottles?\n\nYes. The nursery team is happy to prepare bottles and feed babies while they are in the nursery. At drop-off, please let the team know approximately when your baby will need a bottle and share any special instructions.",
+      "priority": 100,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "nursery_info",
+        "nursery_bottles",
+        "infant_feeding"
+      ],
+      "tags": [
+        "Nursery Ministry",
+        "nursery",
+        "babies",
+        "toddlers",
+        "bottles",
+        "feeding",
+        "infants"
+      ],
+      "search_terms": [
+        "Does the nursery mix bottles?",
+        "Will nursery workers give my baby a bottle?",
+        "Can you feed my baby in the nursery?",
+        "What bottle instructions should I give the nursery?"
+      ],
+      "ministries": [
+        "nursery"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "parent",
+        "family"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "mikhael_mastalerz",
+      "related_staff_keys": [
+        "sarah_coleman"
+      ],
       "confidence": "high"
     },
     {
@@ -2710,6 +3127,58 @@
         "church_center.connect_card"
       ],
       "status": "published",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.nursery.diaper_supplies",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/nursery/faq/do-i-need-to-bring-diapers-wipes-or-a-diaper-bag.md",
+      "title": "Do I need to bring diapers, wipes, or a diaper bag?",
+      "summary": "The nursery keeps diapers and wipes stocked. Families only need to provide them when a child requires a specific brand or product, and diaper bags may be left in the nursery.",
+      "content": "# Do I need to bring diapers, wipes, or a diaper bag?\n\nThe nursery keeps diapers and wipes stocked, so you do not need to provide them unless your child requires a specific brand or product. If so, please let the nursery team know at drop-off and they will use the items you provide.\n\nYou are also welcome to leave your diaper bag in the nursery so you do not have to carry it with you throughout the church.",
+      "priority": 98,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "nursery_info",
+        "nursery_diapers",
+        "nursery_supplies"
+      ],
+      "tags": [
+        "Nursery Ministry",
+        "nursery",
+        "babies",
+        "toddlers",
+        "diapers",
+        "wipes",
+        "diaper bag"
+      ],
+      "search_terms": [
+        "Do I need to bring diapers?",
+        "Does the nursery provide diapers and wipes?",
+        "Should I leave a diaper bag?",
+        "Can I leave my diaper bag in the nursery?",
+        "What if my baby needs a specific diaper brand?"
+      ],
+      "ministries": [
+        "nursery"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "parent",
+        "family"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "mikhael_mastalerz",
+      "related_staff_keys": [
+        "sarah_coleman"
+      ],
       "confidence": "high"
     },
     {
