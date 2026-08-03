@@ -16,7 +16,7 @@ tags: [events, calendar, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-08-03T10:06:31.283162Z
+last_generated: 2026-08-03T15:17:23.229714Z
 ---
 
 # Upcoming Events
@@ -165,6 +165,18 @@ Detailed event file: `knowledge/events/generated/2026-08-16-sunday-morning-servi
 **More information:** https://urbancrest.churchcenter.com/calendar/event/163868049
 
 Detailed event file: `knowledge/events/generated/2026-08-16-sunday-morning-services-11-00-am-service-684864.md`
+
+## Mexico Missions Meeting
+
+**Category:** Ministry Event
+
+**When:** Monday, August 17, 2026, 6:30 PM to 8 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+**More information:** https://urbancrest.churchcenter.com/calendar/event/230675507
+
+Detailed event file: `knowledge/events/generated/2026-08-17-mexico-missions-meeting-bef8bf.md`
 
 ## Monthly Baskets of Hope - Volunteers
 
@@ -476,18 +488,6 @@ Detailed event file: `knowledge/events/generated/2026-09-13-p-u-r-s-u-e-300fb0.m
 **More information:** https://urbancrest.churchcenter.com/calendar/event/167074215
 
 Detailed event file: `knowledge/events/generated/2026-09-13-sunday-morning-services-9-30-am-service-b32add.md`
-
-## Sunday Morning Services: 11:00 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, September 13, 2026, 11 AM to 12:10 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/167074215
-
-Detailed event file: `knowledge/events/generated/2026-09-13-sunday-morning-services-11-00-am-service-153e7f.md`
 
 ## Wednesday Night Dinner
 
