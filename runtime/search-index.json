@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.9.0",
-  "generated_at": "2026-08-03T22:18:14.842874Z",
+  "generated_at": "2026-08-04T03:38:10.239656Z",
   "timezone": "America/New_York",
   "record_count": 365,
   "config": {
@@ -21176,7 +21176,7 @@
       "path": "knowledge/small-groups/generated/connie-hollan-small-group-ladies-bible-study-0cb4a6.md",
       "title": "Connie Hollan Small Group: Ladies Bible Study",
       "summary": "Connie Hollan",
-      "content": "Connie Hollan\n\nDetails:\nLadies Bible Study led by Connie Hollan\n\nUpcoming meetings:\nMonday, August 3, 2026, 7 PM to 8:30 PM\nMonday, August 10, 2026, 7 PM to 8:30 PM\nMonday, August 17, 2026, 7 PM to 8:30 PM\nMonday, August 24, 2026, 7 PM to 8:30 PM\nMonday, August 31, 2026, 7 PM to 8:30 PM\nMonday, September 7, 2026, 7 PM to 8:30 PM\nMonday, September 14, 2026, 7 PM to 8:30 PM\nMonday, September 21, 2026, 7 PM to 8:30 PM\nMonday, September 28, 2026, 7 PM to 8:30 PM\nMonday, October 5, 2026, 7 PM to 8:30 PM\nMonday, October 12, 2026, 7 PM to 8:30 PM\nMonday, October 19, 2026, 7 PM to 8:30 PM",
+      "content": "Connie Hollan\n\nDetails:\nLadies Bible Study led by Connie Hollan\n\nUpcoming meetings:\nMonday, August 10, 2026, 7 PM to 8:30 PM\nMonday, August 17, 2026, 7 PM to 8:30 PM\nMonday, August 24, 2026, 7 PM to 8:30 PM\nMonday, August 31, 2026, 7 PM to 8:30 PM\nMonday, September 7, 2026, 7 PM to 8:30 PM\nMonday, September 14, 2026, 7 PM to 8:30 PM\nMonday, September 21, 2026, 7 PM to 8:30 PM\nMonday, September 28, 2026, 7 PM to 8:30 PM\nMonday, October 5, 2026, 7 PM to 8:30 PM\nMonday, October 12, 2026, 7 PM to 8:30 PM\nMonday, October 19, 2026, 7 PM to 8:30 PM\nMonday, October 26, 2026, 7 PM to 8:30 PM",
       "priority": 20,
       "category": [
         "small_groups"
@@ -21207,22 +21207,14 @@
       "resources": [],
       "group_id": "group-5aa8f1e4bd0cb4a6",
       "next_meeting": {
-        "start": "2026-08-03T19:00:00-04:00",
-        "end": "2026-08-03T20:30:00-04:00",
-        "sort_start_utc": "2026-08-03T23:00:00Z",
-        "sort_end_utc": "2026-08-04T00:30:00Z",
-        "display_when": "Monday, August 3, 2026, 7 PM to 8:30 PM",
+        "start": "2026-08-10T19:00:00-04:00",
+        "end": "2026-08-10T20:30:00-04:00",
+        "sort_start_utc": "2026-08-10T23:00:00Z",
+        "sort_end_utc": "2026-08-11T00:30:00Z",
+        "display_when": "Monday, August 10, 2026, 7 PM to 8:30 PM",
         "all_day": false
       },
       "future_meetings": [
-        {
-          "start": "2026-08-03T19:00:00-04:00",
-          "end": "2026-08-03T20:30:00-04:00",
-          "sort_start_utc": "2026-08-03T23:00:00Z",
-          "sort_end_utc": "2026-08-04T00:30:00Z",
-          "display_when": "Monday, August 3, 2026, 7 PM to 8:30 PM",
-          "all_day": false
-        },
         {
           "start": "2026-08-10T19:00:00-04:00",
           "end": "2026-08-10T20:30:00-04:00",
@@ -21310,16 +21302,24 @@
           "sort_end_utc": "2026-10-20T00:30:00Z",
           "display_when": "Monday, October 19, 2026, 7 PM to 8:30 PM",
           "all_day": false
+        },
+        {
+          "start": "2026-10-26T19:00:00-04:00",
+          "end": "2026-10-26T20:30:00-04:00",
+          "sort_start_utc": "2026-10-26T23:00:00Z",
+          "sort_end_utc": "2026-10-27T00:30:00Z",
+          "display_when": "Monday, October 26, 2026, 7 PM to 8:30 PM",
+          "all_day": false
         }
       ],
-      "sort_start_utc": "2026-08-03T23:00:00Z",
-      "sort_end_utc": "2026-08-04T00:30:00Z",
+      "sort_start_utc": "2026-08-10T23:00:00Z",
+      "sort_end_utc": "2026-08-11T00:30:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "details": "Ladies Bible Study led by Connie Hollan",
       "details_source": "planning_center_calendar_api",
-      "planning_center_event_instance_id": "162489186",
+      "planning_center_event_instance_id": "163212919",
       "planning_center_event_time_id": "31398539",
-      "info_url": "https://urbancrest.churchcenter.com/calendar/event/162489186",
+      "info_url": "https://urbancrest.churchcenter.com/calendar/event/163212919",
       "knowledge_file": "knowledge/small-groups/generated/connie-hollan-small-group-ladies-bible-study-0cb4a6.md"
     },
     {
@@ -21478,8 +21478,8 @@
       "record_type": "small_group",
       "path": "knowledge/small-groups/generated/steve-gregory-small-group-steve-gregory-c4a23b.md",
       "title": "Steve Gregory Small Group: Steve Gregory",
-      "summary": "Steve Gregory Small Group: Steve Gregory is scheduled for Monday, August 3, 2026, 7 PM to 8:30 PM.",
-      "content": "Upcoming meetings:\nMonday, August 3, 2026, 7 PM to 8:30 PM\nMonday, August 10, 2026, 7 PM to 8:30 PM\nMonday, August 17, 2026, 7 PM to 8:30 PM\nMonday, August 24, 2026, 7 PM to 8:30 PM\nMonday, August 31, 2026, 7 PM to 8:30 PM\nMonday, September 7, 2026, 7 PM to 8:30 PM\nMonday, September 14, 2026, 7 PM to 8:30 PM\nMonday, September 21, 2026, 7 PM to 8:30 PM\nMonday, September 28, 2026, 7 PM to 8:30 PM\nMonday, October 5, 2026, 7 PM to 8:30 PM\nMonday, October 12, 2026, 7 PM to 8:30 PM\nMonday, October 19, 2026, 7 PM to 8:30 PM",
+      "summary": "Steve Gregory Small Group: Steve Gregory is scheduled for Monday, August 10, 2026, 7 PM to 8:30 PM.",
+      "content": "Upcoming meetings:\nMonday, August 10, 2026, 7 PM to 8:30 PM\nMonday, August 17, 2026, 7 PM to 8:30 PM\nMonday, August 24, 2026, 7 PM to 8:30 PM\nMonday, August 31, 2026, 7 PM to 8:30 PM\nMonday, September 7, 2026, 7 PM to 8:30 PM\nMonday, September 14, 2026, 7 PM to 8:30 PM\nMonday, September 21, 2026, 7 PM to 8:30 PM\nMonday, September 28, 2026, 7 PM to 8:30 PM\nMonday, October 5, 2026, 7 PM to 8:30 PM\nMonday, October 12, 2026, 7 PM to 8:30 PM\nMonday, October 19, 2026, 7 PM to 8:30 PM\nMonday, October 26, 2026, 7 PM to 8:30 PM",
       "priority": 20,
       "category": [
         "small_groups"
@@ -21510,22 +21510,14 @@
       "resources": [],
       "group_id": "group-f356eaa371c4a23b",
       "next_meeting": {
-        "start": "2026-08-03T19:00:00-04:00",
-        "end": "2026-08-03T20:30:00-04:00",
-        "sort_start_utc": "2026-08-03T23:00:00Z",
-        "sort_end_utc": "2026-08-04T00:30:00Z",
-        "display_when": "Monday, August 3, 2026, 7 PM to 8:30 PM",
+        "start": "2026-08-10T19:00:00-04:00",
+        "end": "2026-08-10T20:30:00-04:00",
+        "sort_start_utc": "2026-08-10T23:00:00Z",
+        "sort_end_utc": "2026-08-11T00:30:00Z",
+        "display_when": "Monday, August 10, 2026, 7 PM to 8:30 PM",
         "all_day": false
       },
       "future_meetings": [
-        {
-          "start": "2026-08-03T19:00:00-04:00",
-          "end": "2026-08-03T20:30:00-04:00",
-          "sort_start_utc": "2026-08-03T23:00:00Z",
-          "sort_end_utc": "2026-08-04T00:30:00Z",
-          "display_when": "Monday, August 3, 2026, 7 PM to 8:30 PM",
-          "all_day": false
-        },
         {
           "start": "2026-08-10T19:00:00-04:00",
           "end": "2026-08-10T20:30:00-04:00",
@@ -21613,13 +21605,21 @@
           "sort_end_utc": "2026-10-20T00:30:00Z",
           "display_when": "Monday, October 19, 2026, 7 PM to 8:30 PM",
           "all_day": false
+        },
+        {
+          "start": "2026-10-26T19:00:00-04:00",
+          "end": "2026-10-26T20:30:00-04:00",
+          "sort_start_utc": "2026-10-26T23:00:00Z",
+          "sort_end_utc": "2026-10-27T00:30:00Z",
+          "display_when": "Monday, October 26, 2026, 7 PM to 8:30 PM",
+          "all_day": false
         }
       ],
-      "sort_start_utc": "2026-08-03T23:00:00Z",
-      "sort_end_utc": "2026-08-04T00:30:00Z",
-      "planning_center_event_instance_id": "162489189",
+      "sort_start_utc": "2026-08-10T23:00:00Z",
+      "sort_end_utc": "2026-08-11T00:30:00Z",
+      "planning_center_event_instance_id": "163212920",
       "planning_center_event_time_id": "28363570",
-      "info_url": "https://urbancrest.churchcenter.com/calendar/event/162489189",
+      "info_url": "https://urbancrest.churchcenter.com/calendar/event/163212920",
       "knowledge_file": "knowledge/small-groups/generated/steve-gregory-small-group-steve-gregory-c4a23b.md"
     }
   ]
