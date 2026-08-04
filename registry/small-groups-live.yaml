@@ -1,11 +1,11 @@
 version: 1.4.3
-generated_at: '2026-08-03T15:17:23.229714Z'
+generated_at: '2026-08-04T11:34:08.623881Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api
 api_enrichment:
   enabled: true
-  target_instance_count: 427
-  matched_instance_count: 426
+  target_instance_count: 425
+  matched_instance_count: 425
   page_count: 8
   api_version: '2026-06-22'
 source_of_truth_for_small_group_intents: true
@@ -15,298 +15,8 @@ lookahead_days: 365
 max_series: 100
 max_occurrences_per_series: 12
 group_count: 3
-source_occurrence_count: 158
+source_occurrence_count: 156
 groups:
-- id: group-5aa8f1e4bd0cb4a6
-  source_uids:
-  - ET-31398539-162489186@resources.planningcenteronline.com
-  - ET-31398539-163212919@resources.planningcenteronline.com
-  - ET-31398539-163944927@resources.planningcenteronline.com
-  - ET-31398539-164754226@resources.planningcenteronline.com
-  - ET-31398539-165597096@resources.planningcenteronline.com
-  - ET-31398539-166359004@resources.planningcenteronline.com
-  - ET-31398539-167136386@resources.planningcenteronline.com
-  - ET-31398539-167802281@resources.planningcenteronline.com
-  - ET-31398539-168413666@resources.planningcenteronline.com
-  - ET-31398539-168989725@resources.planningcenteronline.com
-  - ET-31398539-169558233@resources.planningcenteronline.com
-  - ET-31398539-170074051@resources.planningcenteronline.com
-  - ET-31398539-170576230@resources.planningcenteronline.com
-  - ET-31398539-171096540@resources.planningcenteronline.com
-  - ET-31398539-171620737@resources.planningcenteronline.com
-  - ET-31398539-172254733@resources.planningcenteronline.com
-  - ET-31398539-172808102@resources.planningcenteronline.com
-  - ET-31398539-173168424@resources.planningcenteronline.com
-  - ET-31398539-173749279@resources.planningcenteronline.com
-  - ET-31398539-174320560@resources.planningcenteronline.com
-  - ET-31398539-174921357@resources.planningcenteronline.com
-  - ET-31398539-175217157@resources.planningcenteronline.com
-  - ET-31398539-175764909@resources.planningcenteronline.com
-  - ET-31398539-176717818@resources.planningcenteronline.com
-  - ET-31398539-177588173@resources.planningcenteronline.com
-  - ET-31398539-178299743@resources.planningcenteronline.com
-  - ET-31398539-179103006@resources.planningcenteronline.com
-  - ET-31398539-179843761@resources.planningcenteronline.com
-  - ET-31398539-180475111@resources.planningcenteronline.com
-  - ET-31398539-181091322@resources.planningcenteronline.com
-  - ET-31398539-181774381@resources.planningcenteronline.com
-  - ET-31398539-182406423@resources.planningcenteronline.com
-  - ET-31398539-183031812@resources.planningcenteronline.com
-  - ET-31398539-183633611@resources.planningcenteronline.com
-  - ET-31398539-184212310@resources.planningcenteronline.com
-  - ET-31398539-184787840@resources.planningcenteronline.com
-  - ET-31398539-185312956@resources.planningcenteronline.com
-  - ET-31398539-185816280@resources.planningcenteronline.com
-  - ET-31398539-186318203@resources.planningcenteronline.com
-  - ET-31398539-186894547@resources.planningcenteronline.com
-  - ET-31398539-187478439@resources.planningcenteronline.com
-  - ET-31398539-188076870@resources.planningcenteronline.com
-  - ET-31398539-188707062@resources.planningcenteronline.com
-  - ET-31398539-189247352@resources.planningcenteronline.com
-  - ET-31398539-189857967@resources.planningcenteronline.com
-  - ET-31398539-190420245@resources.planningcenteronline.com
-  - ET-31398539-190989691@resources.planningcenteronline.com
-  - ET-31398539-191581138@resources.planningcenteronline.com
-  - ET-31398539-192095117@resources.planningcenteronline.com
-  - ET-31398539-192679339@resources.planningcenteronline.com
-  - ET-31398539-193244842@resources.planningcenteronline.com
-  - ET-31398539-193880020@resources.planningcenteronline.com
-  - ET-31398539-194582559@resources.planningcenteronline.com
-  title: 'Connie Hollan Small Group: Ladies Bible Study'
-  summary: Connie Hollan
-  description: Connie Hollan
-  details: Ladies Bible Study led by Connie Hollan
-  details_source: planning_center_calendar_api
-  planning_center_event_instance_id: '162489186'
-  planning_center_event_time_id: '31398539'
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  info_url: https://urbancrest.churchcenter.com/calendar/event/162489186
-  ministries:
-  - small_groups
-  audiences:
-  - everyone
-  event_category: small_group_meeting
-  event_priority: 20
-  next_meeting: &id001
-    start: '2026-08-03T19:00:00-04:00'
-    end: '2026-08-03T20:30:00-04:00'
-    sort_start_utc: '2026-08-03T23:00:00Z'
-    sort_end_utc: '2026-08-04T00:30:00Z'
-    display_when: Monday, August 3, 2026, 7 PM to 8:30 PM
-    all_day: false
-  future_meetings:
-  - *id001
-  - start: '2026-08-10T19:00:00-04:00'
-    end: '2026-08-10T20:30:00-04:00'
-    sort_start_utc: '2026-08-10T23:00:00Z'
-    sort_end_utc: '2026-08-11T00:30:00Z'
-    display_when: Monday, August 10, 2026, 7 PM to 8:30 PM
-    all_day: false
-  - start: '2026-08-17T19:00:00-04:00'
-    end: '2026-08-17T20:30:00-04:00'
-    sort_start_utc: '2026-08-17T23:00:00Z'
-    sort_end_utc: '2026-08-18T00:30:00Z'
-    display_when: Monday, August 17, 2026, 7 PM to 8:30 PM
-    all_day: false
-  - start: '2026-08-24T19:00:00-04:00'
-    end: '2026-08-24T20:30:00-04:00'
-    sort_start_utc: '2026-08-24T23:00:00Z'
-    sort_end_utc: '2026-08-25T00:30:00Z'
-    display_when: Monday, August 24, 2026, 7 PM to 8:30 PM
-    all_day: false
-  - start: '2026-08-31T19:00:00-04:00'
-    end: '2026-08-31T20:30:00-04:00'
-    sort_start_utc: '2026-08-31T23:00:00Z'
-    sort_end_utc: '2026-09-01T00:30:00Z'
-    display_when: Monday, August 31, 2026, 7 PM to 8:30 PM
-    all_day: false
-  - start: '2026-09-07T19:00:00-04:00'
-    end: '2026-09-07T20:30:00-04:00'
-    sort_start_utc: '2026-09-07T23:00:00Z'
-    sort_end_utc: '2026-09-08T00:30:00Z'
-    display_when: Monday, September 7, 2026, 7 PM to 8:30 PM
-    all_day: false
-  - start: '2026-09-14T19:00:00-04:00'
-    end: '2026-09-14T20:30:00-04:00'
-    sort_start_utc: '2026-09-14T23:00:00Z'
-    sort_end_utc: '2026-09-15T00:30:00Z'
-    display_when: Monday, September 14, 2026, 7 PM to 8:30 PM
-    all_day: false
-  - start: '2026-09-21T19:00:00-04:00'
-    end: '2026-09-21T20:30:00-04:00'
-    sort_start_utc: '2026-09-21T23:00:00Z'
-    sort_end_utc: '2026-09-22T00:30:00Z'
-    display_when: Monday, September 21, 2026, 7 PM to 8:30 PM
-    all_day: false
-  - start: '2026-09-28T19:00:00-04:00'
-    end: '2026-09-28T20:30:00-04:00'
-    sort_start_utc: '2026-09-28T23:00:00Z'
-    sort_end_utc: '2026-09-29T00:30:00Z'
-    display_when: Monday, September 28, 2026, 7 PM to 8:30 PM
-    all_day: false
-  - start: '2026-10-05T19:00:00-04:00'
-    end: '2026-10-05T20:30:00-04:00'
-    sort_start_utc: '2026-10-05T23:00:00Z'
-    sort_end_utc: '2026-10-06T00:30:00Z'
-    display_when: Monday, October 5, 2026, 7 PM to 8:30 PM
-    all_day: false
-  - start: '2026-10-12T19:00:00-04:00'
-    end: '2026-10-12T20:30:00-04:00'
-    sort_start_utc: '2026-10-12T23:00:00Z'
-    sort_end_utc: '2026-10-13T00:30:00Z'
-    display_when: Monday, October 12, 2026, 7 PM to 8:30 PM
-    all_day: false
-  - start: '2026-10-19T19:00:00-04:00'
-    end: '2026-10-19T20:30:00-04:00'
-    sort_start_utc: '2026-10-19T23:00:00Z'
-    sort_end_utc: '2026-10-20T00:30:00Z'
-    display_when: Monday, October 19, 2026, 7 PM to 8:30 PM
-    all_day: false
-  meeting_count_in_window: 53
-  knowledge_file: knowledge/small-groups/generated/connie-hollan-small-group-ladies-bible-study-0cb4a6.md
-- id: group-f356eaa371c4a23b
-  source_uids:
-  - ET-28363570-162489189@resources.planningcenteronline.com
-  - ET-28363570-163212920@resources.planningcenteronline.com
-  - ET-28363570-163944929@resources.planningcenteronline.com
-  - ET-28363570-164754228@resources.planningcenteronline.com
-  - ET-28363570-165597097@resources.planningcenteronline.com
-  - ET-28363570-166359003@resources.planningcenteronline.com
-  - ET-28363570-167136388@resources.planningcenteronline.com
-  - ET-28363570-167802282@resources.planningcenteronline.com
-  - ET-28363570-168413669@resources.planningcenteronline.com
-  - ET-28363570-168989726@resources.planningcenteronline.com
-  - ET-28363570-169558237@resources.planningcenteronline.com
-  - ET-28363570-170074050@resources.planningcenteronline.com
-  - ET-28363570-170576231@resources.planningcenteronline.com
-  - ET-28363570-171096543@resources.planningcenteronline.com
-  - ET-28363570-171620735@resources.planningcenteronline.com
-  - ET-28363570-172254735@resources.planningcenteronline.com
-  - ET-28363570-172808106@resources.planningcenteronline.com
-  - ET-28363570-173168427@resources.planningcenteronline.com
-  - ET-28363570-173749278@resources.planningcenteronline.com
-  - ET-28363570-174320562@resources.planningcenteronline.com
-  - ET-28363570-174921358@resources.planningcenteronline.com
-  - ET-28363570-175217160@resources.planningcenteronline.com
-  - ET-28363570-175764908@resources.planningcenteronline.com
-  - ET-28363570-176717820@resources.planningcenteronline.com
-  - ET-28363570-177588175@resources.planningcenteronline.com
-  - ET-28363570-178299744@resources.planningcenteronline.com
-  - ET-28363570-179103001@resources.planningcenteronline.com
-  - ET-28363570-179843768@resources.planningcenteronline.com
-  - ET-28363570-180475113@resources.planningcenteronline.com
-  - ET-28363570-181091324@resources.planningcenteronline.com
-  - ET-28363570-181774383@resources.planningcenteronline.com
-  - ET-28363570-182406425@resources.planningcenteronline.com
-  - ET-28363570-183031813@resources.planningcenteronline.com
-  - ET-28363570-183633614@resources.planningcenteronline.com
-  - ET-28363570-184212309@resources.planningcenteronline.com
-  - ET-28363570-184787838@resources.planningcenteronline.com
-  - ET-28363570-185312954@resources.planningcenteronline.com
-  - ET-28363570-185816279@resources.planningcenteronline.com
-  - ET-28363570-186318198@resources.planningcenteronline.com
-  - ET-28363570-186894550@resources.planningcenteronline.com
-  - ET-28363570-187478434@resources.planningcenteronline.com
-  - ET-28363570-188076869@resources.planningcenteronline.com
-  - ET-28363570-188707064@resources.planningcenteronline.com
-  - ET-28363570-189247354@resources.planningcenteronline.com
-  - ET-28363570-189857964@resources.planningcenteronline.com
-  - ET-28363570-190420243@resources.planningcenteronline.com
-  - ET-28363570-190989690@resources.planningcenteronline.com
-  - ET-28363570-191581141@resources.planningcenteronline.com
-  - ET-28363570-192095118@resources.planningcenteronline.com
-  - ET-28363570-192679342@resources.planningcenteronline.com
-  - ET-28363570-193244840@resources.planningcenteronline.com
-  - ET-28363570-193880022@resources.planningcenteronline.com
-  - ET-28363570-194582558@resources.planningcenteronline.com
-  title: 'Steve Gregory Small Group: Steve Gregory'
-  summary: 'Steve Gregory Small Group: Steve Gregory is scheduled for Monday, August 3, 2026, 7 PM to 8:30 PM.'
-  planning_center_event_instance_id: '162489189'
-  planning_center_event_time_id: '28363570'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/162489189
-  ministries:
-  - small_groups
-  audiences:
-  - everyone
-  event_category: small_group_meeting
-  event_priority: 20
-  next_meeting: &id002
-    start: '2026-08-03T19:00:00-04:00'
-    end: '2026-08-03T20:30:00-04:00'
-    sort_start_utc: '2026-08-03T23:00:00Z'
-    sort_end_utc: '2026-08-04T00:30:00Z'
-    display_when: Monday, August 3, 2026, 7 PM to 8:30 PM
-    all_day: false
-  future_meetings:
-  - *id002
-  - start: '2026-08-10T19:00:00-04:00'
-    end: '2026-08-10T20:30:00-04:00'
-    sort_start_utc: '2026-08-10T23:00:00Z'
-    sort_end_utc: '2026-08-11T00:30:00Z'
-    display_when: Monday, August 10, 2026, 7 PM to 8:30 PM
-    all_day: false
-  - start: '2026-08-17T19:00:00-04:00'
-    end: '2026-08-17T20:30:00-04:00'
-    sort_start_utc: '2026-08-17T23:00:00Z'
-    sort_end_utc: '2026-08-18T00:30:00Z'
-    display_when: Monday, August 17, 2026, 7 PM to 8:30 PM
-    all_day: false
-  - start: '2026-08-24T19:00:00-04:00'
-    end: '2026-08-24T20:30:00-04:00'
-    sort_start_utc: '2026-08-24T23:00:00Z'
-    sort_end_utc: '2026-08-25T00:30:00Z'
-    display_when: Monday, August 24, 2026, 7 PM to 8:30 PM
-    all_day: false
-  - start: '2026-08-31T19:00:00-04:00'
-    end: '2026-08-31T20:30:00-04:00'
-    sort_start_utc: '2026-08-31T23:00:00Z'
-    sort_end_utc: '2026-09-01T00:30:00Z'
-    display_when: Monday, August 31, 2026, 7 PM to 8:30 PM
-    all_day: false
-  - start: '2026-09-07T19:00:00-04:00'
-    end: '2026-09-07T20:30:00-04:00'
-    sort_start_utc: '2026-09-07T23:00:00Z'
-    sort_end_utc: '2026-09-08T00:30:00Z'
-    display_when: Monday, September 7, 2026, 7 PM to 8:30 PM
-    all_day: false
-  - start: '2026-09-14T19:00:00-04:00'
-    end: '2026-09-14T20:30:00-04:00'
-    sort_start_utc: '2026-09-14T23:00:00Z'
-    sort_end_utc: '2026-09-15T00:30:00Z'
-    display_when: Monday, September 14, 2026, 7 PM to 8:30 PM
-    all_day: false
-  - start: '2026-09-21T19:00:00-04:00'
-    end: '2026-09-21T20:30:00-04:00'
-    sort_start_utc: '2026-09-21T23:00:00Z'
-    sort_end_utc: '2026-09-22T00:30:00Z'
-    display_when: Monday, September 21, 2026, 7 PM to 8:30 PM
-    all_day: false
-  - start: '2026-09-28T19:00:00-04:00'
-    end: '2026-09-28T20:30:00-04:00'
-    sort_start_utc: '2026-09-28T23:00:00Z'
-    sort_end_utc: '2026-09-29T00:30:00Z'
-    display_when: Monday, September 28, 2026, 7 PM to 8:30 PM
-    all_day: false
-  - start: '2026-10-05T19:00:00-04:00'
-    end: '2026-10-05T20:30:00-04:00'
-    sort_start_utc: '2026-10-05T23:00:00Z'
-    sort_end_utc: '2026-10-06T00:30:00Z'
-    display_when: Monday, October 5, 2026, 7 PM to 8:30 PM
-    all_day: false
-  - start: '2026-10-12T19:00:00-04:00'
-    end: '2026-10-12T20:30:00-04:00'
-    sort_start_utc: '2026-10-12T23:00:00Z'
-    sort_end_utc: '2026-10-13T00:30:00Z'
-    display_when: Monday, October 12, 2026, 7 PM to 8:30 PM
-    all_day: false
-  - start: '2026-10-19T19:00:00-04:00'
-    end: '2026-10-19T20:30:00-04:00'
-    sort_start_utc: '2026-10-19T23:00:00Z'
-    sort_end_utc: '2026-10-20T00:30:00Z'
-    display_when: Monday, October 19, 2026, 7 PM to 8:30 PM
-    all_day: false
-  meeting_count_in_window: 53
-  knowledge_file: knowledge/small-groups/generated/steve-gregory-small-group-steve-gregory-c4a23b.md
 - id: group-d895be1a40567dcc
   source_uids:
   - ET-25282532-163114804@resources.planningcenteronline.com
@@ -376,7 +86,7 @@ groups:
   - students
   event_category: small_group_meeting
   event_priority: 20
-  next_meeting: &id003
+  next_meeting: &id001
     start: '2026-08-05T18:30:00-04:00'
     end: '2026-08-05T20:30:00-04:00'
     sort_start_utc: '2026-08-05T22:30:00Z'
@@ -384,7 +94,7 @@ groups:
     display_when: Wednesday, August 5, 2026, 6:30 PM to 8:30 PM
     all_day: false
   future_meetings:
-  - *id003
+  - *id001
   - start: '2026-08-12T18:30:00-04:00'
     end: '2026-08-12T20:30:00-04:00'
     sort_start_utc: '2026-08-12T22:30:00Z'
@@ -453,3 +163,291 @@ groups:
     all_day: false
   meeting_count_in_window: 52
   knowledge_file: knowledge/small-groups/generated/p-u-r-s-u-e-567dcc.md
+- id: group-5aa8f1e4bd0cb4a6
+  source_uids:
+  - ET-31398539-163212919@resources.planningcenteronline.com
+  - ET-31398539-163944927@resources.planningcenteronline.com
+  - ET-31398539-164754226@resources.planningcenteronline.com
+  - ET-31398539-165597096@resources.planningcenteronline.com
+  - ET-31398539-166359004@resources.planningcenteronline.com
+  - ET-31398539-167136386@resources.planningcenteronline.com
+  - ET-31398539-167802281@resources.planningcenteronline.com
+  - ET-31398539-168413666@resources.planningcenteronline.com
+  - ET-31398539-168989725@resources.planningcenteronline.com
+  - ET-31398539-169558233@resources.planningcenteronline.com
+  - ET-31398539-170074051@resources.planningcenteronline.com
+  - ET-31398539-170576230@resources.planningcenteronline.com
+  - ET-31398539-171096540@resources.planningcenteronline.com
+  - ET-31398539-171620737@resources.planningcenteronline.com
+  - ET-31398539-172254733@resources.planningcenteronline.com
+  - ET-31398539-172808102@resources.planningcenteronline.com
+  - ET-31398539-173168424@resources.planningcenteronline.com
+  - ET-31398539-173749279@resources.planningcenteronline.com
+  - ET-31398539-174320560@resources.planningcenteronline.com
+  - ET-31398539-174921357@resources.planningcenteronline.com
+  - ET-31398539-175217157@resources.planningcenteronline.com
+  - ET-31398539-175764909@resources.planningcenteronline.com
+  - ET-31398539-176717818@resources.planningcenteronline.com
+  - ET-31398539-177588173@resources.planningcenteronline.com
+  - ET-31398539-178299743@resources.planningcenteronline.com
+  - ET-31398539-179103006@resources.planningcenteronline.com
+  - ET-31398539-179843761@resources.planningcenteronline.com
+  - ET-31398539-180475111@resources.planningcenteronline.com
+  - ET-31398539-181091322@resources.planningcenteronline.com
+  - ET-31398539-181774381@resources.planningcenteronline.com
+  - ET-31398539-182406423@resources.planningcenteronline.com
+  - ET-31398539-183031812@resources.planningcenteronline.com
+  - ET-31398539-183633611@resources.planningcenteronline.com
+  - ET-31398539-184212310@resources.planningcenteronline.com
+  - ET-31398539-184787840@resources.planningcenteronline.com
+  - ET-31398539-185312956@resources.planningcenteronline.com
+  - ET-31398539-185816280@resources.planningcenteronline.com
+  - ET-31398539-186318203@resources.planningcenteronline.com
+  - ET-31398539-186894547@resources.planningcenteronline.com
+  - ET-31398539-187478439@resources.planningcenteronline.com
+  - ET-31398539-188076870@resources.planningcenteronline.com
+  - ET-31398539-188707062@resources.planningcenteronline.com
+  - ET-31398539-189247352@resources.planningcenteronline.com
+  - ET-31398539-189857967@resources.planningcenteronline.com
+  - ET-31398539-190420245@resources.planningcenteronline.com
+  - ET-31398539-190989691@resources.planningcenteronline.com
+  - ET-31398539-191581138@resources.planningcenteronline.com
+  - ET-31398539-192095117@resources.planningcenteronline.com
+  - ET-31398539-192679339@resources.planningcenteronline.com
+  - ET-31398539-193244842@resources.planningcenteronline.com
+  - ET-31398539-193880020@resources.planningcenteronline.com
+  - ET-31398539-194582559@resources.planningcenteronline.com
+  title: 'Connie Hollan Small Group: Ladies Bible Study'
+  summary: Connie Hollan
+  description: Connie Hollan
+  details: Ladies Bible Study led by Connie Hollan
+  details_source: planning_center_calendar_api
+  planning_center_event_instance_id: '163212919'
+  planning_center_event_time_id: '31398539'
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  info_url: https://urbancrest.churchcenter.com/calendar/event/163212919
+  ministries:
+  - small_groups
+  audiences:
+  - everyone
+  event_category: small_group_meeting
+  event_priority: 20
+  next_meeting: &id002
+    start: '2026-08-10T19:00:00-04:00'
+    end: '2026-08-10T20:30:00-04:00'
+    sort_start_utc: '2026-08-10T23:00:00Z'
+    sort_end_utc: '2026-08-11T00:30:00Z'
+    display_when: Monday, August 10, 2026, 7 PM to 8:30 PM
+    all_day: false
+  future_meetings:
+  - *id002
+  - start: '2026-08-17T19:00:00-04:00'
+    end: '2026-08-17T20:30:00-04:00'
+    sort_start_utc: '2026-08-17T23:00:00Z'
+    sort_end_utc: '2026-08-18T00:30:00Z'
+    display_when: Monday, August 17, 2026, 7 PM to 8:30 PM
+    all_day: false
+  - start: '2026-08-24T19:00:00-04:00'
+    end: '2026-08-24T20:30:00-04:00'
+    sort_start_utc: '2026-08-24T23:00:00Z'
+    sort_end_utc: '2026-08-25T00:30:00Z'
+    display_when: Monday, August 24, 2026, 7 PM to 8:30 PM
+    all_day: false
+  - start: '2026-08-31T19:00:00-04:00'
+    end: '2026-08-31T20:30:00-04:00'
+    sort_start_utc: '2026-08-31T23:00:00Z'
+    sort_end_utc: '2026-09-01T00:30:00Z'
+    display_when: Monday, August 31, 2026, 7 PM to 8:30 PM
+    all_day: false
+  - start: '2026-09-07T19:00:00-04:00'
+    end: '2026-09-07T20:30:00-04:00'
+    sort_start_utc: '2026-09-07T23:00:00Z'
+    sort_end_utc: '2026-09-08T00:30:00Z'
+    display_when: Monday, September 7, 2026, 7 PM to 8:30 PM
+    all_day: false
+  - start: '2026-09-14T19:00:00-04:00'
+    end: '2026-09-14T20:30:00-04:00'
+    sort_start_utc: '2026-09-14T23:00:00Z'
+    sort_end_utc: '2026-09-15T00:30:00Z'
+    display_when: Monday, September 14, 2026, 7 PM to 8:30 PM
+    all_day: false
+  - start: '2026-09-21T19:00:00-04:00'
+    end: '2026-09-21T20:30:00-04:00'
+    sort_start_utc: '2026-09-21T23:00:00Z'
+    sort_end_utc: '2026-09-22T00:30:00Z'
+    display_when: Monday, September 21, 2026, 7 PM to 8:30 PM
+    all_day: false
+  - start: '2026-09-28T19:00:00-04:00'
+    end: '2026-09-28T20:30:00-04:00'
+    sort_start_utc: '2026-09-28T23:00:00Z'
+    sort_end_utc: '2026-09-29T00:30:00Z'
+    display_when: Monday, September 28, 2026, 7 PM to 8:30 PM
+    all_day: false
+  - start: '2026-10-05T19:00:00-04:00'
+    end: '2026-10-05T20:30:00-04:00'
+    sort_start_utc: '2026-10-05T23:00:00Z'
+    sort_end_utc: '2026-10-06T00:30:00Z'
+    display_when: Monday, October 5, 2026, 7 PM to 8:30 PM
+    all_day: false
+  - start: '2026-10-12T19:00:00-04:00'
+    end: '2026-10-12T20:30:00-04:00'
+    sort_start_utc: '2026-10-12T23:00:00Z'
+    sort_end_utc: '2026-10-13T00:30:00Z'
+    display_when: Monday, October 12, 2026, 7 PM to 8:30 PM
+    all_day: false
+  - start: '2026-10-19T19:00:00-04:00'
+    end: '2026-10-19T20:30:00-04:00'
+    sort_start_utc: '2026-10-19T23:00:00Z'
+    sort_end_utc: '2026-10-20T00:30:00Z'
+    display_when: Monday, October 19, 2026, 7 PM to 8:30 PM
+    all_day: false
+  - start: '2026-10-26T19:00:00-04:00'
+    end: '2026-10-26T20:30:00-04:00'
+    sort_start_utc: '2026-10-26T23:00:00Z'
+    sort_end_utc: '2026-10-27T00:30:00Z'
+    display_when: Monday, October 26, 2026, 7 PM to 8:30 PM
+    all_day: false
+  meeting_count_in_window: 52
+  knowledge_file: knowledge/small-groups/generated/connie-hollan-small-group-ladies-bible-study-0cb4a6.md
+- id: group-f356eaa371c4a23b
+  source_uids:
+  - ET-28363570-163212920@resources.planningcenteronline.com
+  - ET-28363570-163944929@resources.planningcenteronline.com
+  - ET-28363570-164754228@resources.planningcenteronline.com
+  - ET-28363570-165597097@resources.planningcenteronline.com
+  - ET-28363570-166359003@resources.planningcenteronline.com
+  - ET-28363570-167136388@resources.planningcenteronline.com
+  - ET-28363570-167802282@resources.planningcenteronline.com
+  - ET-28363570-168413669@resources.planningcenteronline.com
+  - ET-28363570-168989726@resources.planningcenteronline.com
+  - ET-28363570-169558237@resources.planningcenteronline.com
+  - ET-28363570-170074050@resources.planningcenteronline.com
+  - ET-28363570-170576231@resources.planningcenteronline.com
+  - ET-28363570-171096543@resources.planningcenteronline.com
+  - ET-28363570-171620735@resources.planningcenteronline.com
+  - ET-28363570-172254735@resources.planningcenteronline.com
+  - ET-28363570-172808106@resources.planningcenteronline.com
+  - ET-28363570-173168427@resources.planningcenteronline.com
+  - ET-28363570-173749278@resources.planningcenteronline.com
+  - ET-28363570-174320562@resources.planningcenteronline.com
+  - ET-28363570-174921358@resources.planningcenteronline.com
+  - ET-28363570-175217160@resources.planningcenteronline.com
+  - ET-28363570-175764908@resources.planningcenteronline.com
+  - ET-28363570-176717820@resources.planningcenteronline.com
+  - ET-28363570-177588175@resources.planningcenteronline.com
+  - ET-28363570-178299744@resources.planningcenteronline.com
+  - ET-28363570-179103001@resources.planningcenteronline.com
+  - ET-28363570-179843768@resources.planningcenteronline.com
+  - ET-28363570-180475113@resources.planningcenteronline.com
+  - ET-28363570-181091324@resources.planningcenteronline.com
+  - ET-28363570-181774383@resources.planningcenteronline.com
+  - ET-28363570-182406425@resources.planningcenteronline.com
+  - ET-28363570-183031813@resources.planningcenteronline.com
+  - ET-28363570-183633614@resources.planningcenteronline.com
+  - ET-28363570-184212309@resources.planningcenteronline.com
+  - ET-28363570-184787838@resources.planningcenteronline.com
+  - ET-28363570-185312954@resources.planningcenteronline.com
+  - ET-28363570-185816279@resources.planningcenteronline.com
+  - ET-28363570-186318198@resources.planningcenteronline.com
+  - ET-28363570-186894550@resources.planningcenteronline.com
+  - ET-28363570-187478434@resources.planningcenteronline.com
+  - ET-28363570-188076869@resources.planningcenteronline.com
+  - ET-28363570-188707064@resources.planningcenteronline.com
+  - ET-28363570-189247354@resources.planningcenteronline.com
+  - ET-28363570-189857964@resources.planningcenteronline.com
+  - ET-28363570-190420243@resources.planningcenteronline.com
+  - ET-28363570-190989690@resources.planningcenteronline.com
+  - ET-28363570-191581141@resources.planningcenteronline.com
+  - ET-28363570-192095118@resources.planningcenteronline.com
+  - ET-28363570-192679342@resources.planningcenteronline.com
+  - ET-28363570-193244840@resources.planningcenteronline.com
+  - ET-28363570-193880022@resources.planningcenteronline.com
+  - ET-28363570-194582558@resources.planningcenteronline.com
+  title: 'Steve Gregory Small Group: Steve Gregory'
+  summary: 'Steve Gregory Small Group: Steve Gregory is scheduled for Monday, August 10, 2026, 7 PM to 8:30 PM.'
+  planning_center_event_instance_id: '163212920'
+  planning_center_event_time_id: '28363570'
+  info_url: https://urbancrest.churchcenter.com/calendar/event/163212920
+  ministries:
+  - small_groups
+  audiences:
+  - everyone
+  event_category: small_group_meeting
+  event_priority: 20
+  next_meeting: &id003
+    start: '2026-08-10T19:00:00-04:00'
+    end: '2026-08-10T20:30:00-04:00'
+    sort_start_utc: '2026-08-10T23:00:00Z'
+    sort_end_utc: '2026-08-11T00:30:00Z'
+    display_when: Monday, August 10, 2026, 7 PM to 8:30 PM
+    all_day: false
+  future_meetings:
+  - *id003
+  - start: '2026-08-17T19:00:00-04:00'
+    end: '2026-08-17T20:30:00-04:00'
+    sort_start_utc: '2026-08-17T23:00:00Z'
+    sort_end_utc: '2026-08-18T00:30:00Z'
+    display_when: Monday, August 17, 2026, 7 PM to 8:30 PM
+    all_day: false
+  - start: '2026-08-24T19:00:00-04:00'
+    end: '2026-08-24T20:30:00-04:00'
+    sort_start_utc: '2026-08-24T23:00:00Z'
+    sort_end_utc: '2026-08-25T00:30:00Z'
+    display_when: Monday, August 24, 2026, 7 PM to 8:30 PM
+    all_day: false
+  - start: '2026-08-31T19:00:00-04:00'
+    end: '2026-08-31T20:30:00-04:00'
+    sort_start_utc: '2026-08-31T23:00:00Z'
+    sort_end_utc: '2026-09-01T00:30:00Z'
+    display_when: Monday, August 31, 2026, 7 PM to 8:30 PM
+    all_day: false
+  - start: '2026-09-07T19:00:00-04:00'
+    end: '2026-09-07T20:30:00-04:00'
+    sort_start_utc: '2026-09-07T23:00:00Z'
+    sort_end_utc: '2026-09-08T00:30:00Z'
+    display_when: Monday, September 7, 2026, 7 PM to 8:30 PM
+    all_day: false
+  - start: '2026-09-14T19:00:00-04:00'
+    end: '2026-09-14T20:30:00-04:00'
+    sort_start_utc: '2026-09-14T23:00:00Z'
+    sort_end_utc: '2026-09-15T00:30:00Z'
+    display_when: Monday, September 14, 2026, 7 PM to 8:30 PM
+    all_day: false
+  - start: '2026-09-21T19:00:00-04:00'
+    end: '2026-09-21T20:30:00-04:00'
+    sort_start_utc: '2026-09-21T23:00:00Z'
+    sort_end_utc: '2026-09-22T00:30:00Z'
+    display_when: Monday, September 21, 2026, 7 PM to 8:30 PM
+    all_day: false
+  - start: '2026-09-28T19:00:00-04:00'
+    end: '2026-09-28T20:30:00-04:00'
+    sort_start_utc: '2026-09-28T23:00:00Z'
+    sort_end_utc: '2026-09-29T00:30:00Z'
+    display_when: Monday, September 28, 2026, 7 PM to 8:30 PM
+    all_day: false
+  - start: '2026-10-05T19:00:00-04:00'
+    end: '2026-10-05T20:30:00-04:00'
+    sort_start_utc: '2026-10-05T23:00:00Z'
+    sort_end_utc: '2026-10-06T00:30:00Z'
+    display_when: Monday, October 5, 2026, 7 PM to 8:30 PM
+    all_day: false
+  - start: '2026-10-12T19:00:00-04:00'
+    end: '2026-10-12T20:30:00-04:00'
+    sort_start_utc: '2026-10-12T23:00:00Z'
+    sort_end_utc: '2026-10-13T00:30:00Z'
+    display_when: Monday, October 12, 2026, 7 PM to 8:30 PM
+    all_day: false
+  - start: '2026-10-19T19:00:00-04:00'
+    end: '2026-10-19T20:30:00-04:00'
+    sort_start_utc: '2026-10-19T23:00:00Z'
+    sort_end_utc: '2026-10-20T00:30:00Z'
+    display_when: Monday, October 19, 2026, 7 PM to 8:30 PM
+    all_day: false
+  - start: '2026-10-26T19:00:00-04:00'
+    end: '2026-10-26T20:30:00-04:00'
+    sort_start_utc: '2026-10-26T23:00:00Z'
+    sort_end_utc: '2026-10-27T00:30:00Z'
+    display_when: Monday, October 26, 2026, 7 PM to 8:30 PM
+    all_day: false
+  meeting_count_in_window: 52
+  knowledge_file: knowledge/small-groups/generated/steve-gregory-small-group-steve-gregory-c4a23b.md
