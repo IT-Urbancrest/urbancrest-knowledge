@@ -1,5 +1,5 @@
 version: '2.0'
-last_updated: '2026-08-03'
+last_updated: '2026-08-04'
 relationships:
 - ministry: pastoral
   label: Senior Leadership
@@ -13,19 +13,24 @@ relationships:
   - pastoral care
   - church vision
   - church leadership
+  - lead pastor
+  - head pastor
   topics:
   - preaching
   - pastoral care
   - church vision
   - church leadership
   - sermons
+  - lead pastor
+  - senior pastor
   leadership_status: staffed
   primary_staff_key: geoff_prows
   recommended_contact_staff_key: geoff_prows
   related_staff_keys:
   - david_bickers
-  answer_guidance: Geoff Prows serves as Senior Pastor and is the primary contact for senior pastoral leadership, preaching,
-    pastoral care, and church vision. David Bickers also preaches and serves in executive leadership.
+  answer_guidance: Geoff Prows serves as Senior Pastor and is the primary/lead pastor of Urbancrest. He is the primary contact
+    for senior pastoral leadership, preaching, pastoral care, and church vision. David Bickers serves as Executive Pastor
+    and also preaches, but should not be presented as the Senior Pastor or lead pastor.
 - ministry: executive_leadership
   label: Executive Leadership
   aliases:

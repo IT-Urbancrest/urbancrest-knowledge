@@ -1,5 +1,5 @@
 version: '1.0'
-last_updated: '2026-08-03'
+last_updated: '2026-08-04'
 tests:
 - query: Who handles Production?
   expected_area: technical_creative
@@ -43,3 +43,18 @@ tests:
 - query: Who handles facilities?
   expected_area: facilities
   expected_staff_key: jim_short
+- query: Who is the lead pastor?
+  expected_area: pastoral
+  expected_staff_key: geoff_prows
+- query: Who is your lead pastor?
+  expected_area: pastoral
+  expected_staff_key: geoff_prows
+- query: Who is the senior pastor?
+  expected_area: pastoral
+  expected_staff_key: geoff_prows
+- query: Who is the head pastor?
+  expected_area: pastoral
+  expected_staff_key: geoff_prows
+- query: Who is the executive pastor?
+  expected_area: executive_leadership
+  expected_staff_key: david_bickers

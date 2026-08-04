@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.9.2
+
+- Fixed staff-card routing for Senior Pastor / lead pastor questions so Geoff Prows is deterministically selected.
+- Added `lead pastor`, `lead pastor`, and `head pastor` aliases to the canonical Senior Leadership relationship.
+- Changed staff selection precedence so an explicit named staff member wins first, canonical ministry/role ownership wins second, and generic staff-route scoring is only a fallback.
+- Added regression tests distinguishing Senior Pastor/lead pastor (Geoff Prows) from Executive Pastor (David Bickers).
+
+
 ## 0.9.1
 
 - Added a pre-retrieval safety layer for critical self-harm, violence-risk, immediate abuse-danger, and overdose/medical-emergency statements.
