@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.9.1
+
+- Added a pre-retrieval safety layer for critical self-harm, violence-risk, immediate abuse-danger, and overdose/medical-emergency statements.
+- Added restricted sensitive pastoral-care retrieval for grief, depression, abuse, addiction, marriage/family crisis, and general personal crisis.
+- Added the approved U.S. 988 Suicide & Crisis Lifeline resource to `registry/safety.yaml`.
+- Added `registry/contact.yaml`; no church office phone number is currently approved.
+- Added post-generation phone-number allowlisting to prevent hallucinated contact numbers.
+- Redacted raw sensitive questions and answers from SearchQueryLog.
+- Tightened general fallback retrieval so record priority alone cannot make unrelated records eligible.
+- Added safety and sensitive-query regression tests.
+
 ## 0.9.0
 
 - Condensed staff ownership into canonical ministry areas instead of maintaining separate relationships for every routing topic.

@@ -1,0 +1,73 @@
+version: '1.0'
+last_updated: '2026-08-04'
+privacy:
+  redact_sensitive_query_logs: true
+  redacted_question_format: '[sensitive query redacted: {category}]'
+  redacted_answer: '[sensitive response redacted]'
+resources:
+  us_988:
+    label: 988 Suicide & Crisis Lifeline
+    jurisdiction: United States and its territories
+    phone: '988'
+    text: '988'
+    website: https://988lifeline.org
+    description: Crisis support for people in suicidal crisis or emotional distress.
+critical_categories:
+  self_harm:
+    resource_ids:
+    - us_988
+    staff_key: null
+    response_guidance:
+    - Lead with immediate safety and crisis support.
+    - Encourage the person not to stay alone if they may act on suicidal thoughts.
+    - Encourage moving away from anything they could use to hurt themselves.
+    - Pastoral care is secondary to immediate crisis support.
+    - Do not provide or invent a church office phone number.
+  violence_risk:
+    resource_ids: []
+    staff_key: null
+    response_guidance:
+    - Prioritize immediate safety for everyone involved.
+    - Encourage creating distance from weapons or other means of harm.
+    - Encourage contacting local emergency services or going to a safe public place.
+    - Do not provide tactical instructions about harming another person.
+  immediate_abuse_danger:
+    resource_ids: []
+    staff_key: null
+    response_guidance:
+    - Prioritize getting to a safer place if possible.
+    - Encourage contacting local emergency services when there is immediate danger.
+    - Do not encourage confronting the person causing harm.
+    - Pastoral support is secondary to immediate safety.
+  medical_emergency:
+    resource_ids: []
+    staff_key: null
+    response_guidance:
+    - Treat a stated overdose or other immediate medical danger as an emergency.
+    - Encourage contacting local emergency medical services immediately.
+    - Do not attempt to diagnose or provide dosing instructions.
+sensitive_categories:
+  grief:
+    knowledge_ids:
+    - pastoral_care.grief
+    staff_key: geoff_prows
+  depression:
+    knowledge_ids:
+    - pastoral_care.depression
+    staff_key: geoff_prows
+  abuse:
+    knowledge_ids:
+    - pastoral_care.abuse
+    staff_key: null
+  addiction:
+    knowledge_ids:
+    - pastoral_care.addiction
+    staff_key: geoff_prows
+  marriage_family:
+    knowledge_ids:
+    - pastoral_care.marriage_family
+    staff_key: geoff_prows
+  pastoral_crisis:
+    knowledge_ids:
+    - pastoral_care.general_crisis
+    staff_key: geoff_prows

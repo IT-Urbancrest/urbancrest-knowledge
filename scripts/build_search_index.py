@@ -24,6 +24,8 @@ SKIP_YAML = {
     "registry/action-links.yaml",
     "registry/schedule.yaml",
     "relationships/ministry-staff.yaml",
+    "registry/safety.yaml",
+    "registry/contact.yaml",
 }
 
 
@@ -940,6 +942,8 @@ def main() -> None:
             "personality": (ROOT / "AI_PERSONALITY.md").read_text(encoding="utf-8"),
             "style_guide": (ROOT / "STYLE_GUIDE.md").read_text(encoding="utf-8"),
             "max_retrieval_records": 8,
+            "safety": yaml.safe_load((ROOT / "registry/safety.yaml").read_text(encoding="utf-8")) or {},
+            "contact": yaml.safe_load((ROOT / "registry/contact.yaml").read_text(encoding="utf-8")) or {},
             "staff_profile_source": "base44.Staff",
             "admin_knowledge_source": "base44.KnowledgeEntry",
         },
