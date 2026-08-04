@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
-  "repository_version": "0.9.2",
-  "generated_at": "2026-08-04T16:17:10.770817Z",
+  "repository_version": "0.9.1",
+  "generated_at": "2026-08-04T14:40:21.411377Z",
   "timezone": "America/New_York",
   "record_count": 371,
   "config": {
@@ -8210,7 +8210,7 @@
       "path": "relationships/ministry-staff.yaml",
       "title": "Senior Leadership staff relationship",
       "summary": "Staff ownership relationship for Senior Leadership. Recommended staff key: geoff_prows.",
-      "content": "Area: Senior Leadership\nCanonical area key: pastoral\nLeadership status: staffed\nPrimary staff key: geoff_prows\nRecommended contact staff key: geoff_prows\nRelated staff keys: david_bickers\nRouting aliases: pastoral, senior leadership, senior pastor, pastoral leadership, preaching, sermons, pastoral care, church vision, church leadership, lead pastor, head pastor\nRouting topics: preaching, pastoral care, church vision, church leadership, sermons, lead pastor, senior pastor\nAnswer guidance: Geoff Prows serves as Senior Pastor and is the primary/lead pastor of Urbancrest. He is the primary contact for senior pastoral leadership, preaching, pastoral care, and church vision. David Bickers serves as Executive Pastor and also preaches, but should not be presented as the Senior Pastor or lead pastor.",
+      "content": "Area: Senior Leadership\nCanonical area key: pastoral\nLeadership status: staffed\nPrimary staff key: geoff_prows\nRecommended contact staff key: geoff_prows\nRelated staff keys: david_bickers\nRouting aliases: pastoral, senior leadership, senior pastor, pastoral leadership, preaching, sermons, pastoral care, church vision, church leadership\nRouting topics: preaching, pastoral care, church vision, church leadership, sermons\nAnswer guidance: Geoff Prows serves as Senior Pastor and is the primary contact for senior pastoral leadership, preaching, pastoral care, and church vision. David Bickers also preaches and serves in executive leadership.",
       "priority": 90,
       "category": [
         "relationship",
@@ -8231,9 +8231,7 @@
         "sermons",
         "pastoral care",
         "church vision",
-        "church leadership",
-        "lead pastor",
-        "head pastor"
+        "church leadership"
       ],
       "search_terms": [
         "Senior Leadership",
@@ -8289,19 +8287,7 @@
         "who leads church leadership",
         "who handles church leadership",
         "who do I contact about church leadership",
-        "who is the point person for church leadership",
-        "lead pastor",
-        "who oversees lead pastor",
-        "who leads lead pastor",
-        "who handles lead pastor",
-        "who do I contact about lead pastor",
-        "who is the point person for lead pastor",
-        "head pastor",
-        "who oversees head pastor",
-        "who leads head pastor",
-        "who handles head pastor",
-        "who do I contact about head pastor",
-        "who is the point person for head pastor"
+        "who is the point person for church leadership"
       ],
       "ministries": [
         "pastoral"
@@ -8315,7 +8301,7 @@
         "david_bickers"
       ],
       "leadership_status": "staffed",
-      "answer_guidance": "Geoff Prows serves as Senior Pastor and is the primary/lead pastor of Urbancrest. He is the primary contact for senior pastoral leadership, preaching, pastoral care, and church vision. David Bickers serves as Executive Pastor and also preaches, but should not be presented as the Senior Pastor or lead pastor.",
+      "answer_guidance": "Geoff Prows serves as Senior Pastor and is the primary contact for senior pastoral leadership, preaching, pastoral care, and church vision. David Bickers also preaches and serves in executive leadership.",
       "routing_aliases": [
         "pastoral",
         "senior leadership",
@@ -8325,18 +8311,14 @@
         "sermons",
         "pastoral care",
         "church vision",
-        "church leadership",
-        "lead pastor",
-        "head pastor"
+        "church leadership"
       ],
       "routing_topics": [
         "preaching",
         "pastoral care",
         "church vision",
         "church leadership",
-        "sermons",
-        "lead pastor",
-        "senior pastor"
+        "sermons"
       ],
       "area_label": "Senior Leadership"
     },
@@ -21583,7 +21565,7 @@
       "path": "knowledge/small-groups/generated/connie-hollan-small-group-ladies-bible-study-0cb4a6.md",
       "title": "Connie Hollan Small Group: Ladies Bible Study",
       "summary": "Connie Hollan",
-      "content": "Connie Hollan\n\nDetails:\nLadies Bible Study led by Connie Hollan\n\nUpcoming meetings:\nMonday, August 3, 2026, 7 PM to 8:30 PM\nMonday, August 10, 2026, 7 PM to 8:30 PM\nMonday, August 17, 2026, 7 PM to 8:30 PM\nMonday, August 24, 2026, 7 PM to 8:30 PM\nMonday, August 31, 2026, 7 PM to 8:30 PM\nMonday, September 7, 2026, 7 PM to 8:30 PM\nMonday, September 14, 2026, 7 PM to 8:30 PM\nMonday, September 21, 2026, 7 PM to 8:30 PM\nMonday, September 28, 2026, 7 PM to 8:30 PM\nMonday, October 5, 2026, 7 PM to 8:30 PM\nMonday, October 12, 2026, 7 PM to 8:30 PM\nMonday, October 19, 2026, 7 PM to 8:30 PM",
+      "content": "Connie Hollan\n\nDetails:\nLadies Bible Study led by Connie Hollan\n\nUpcoming meetings:\nMonday, August 10, 2026, 7 PM to 8:30 PM\nMonday, August 17, 2026, 7 PM to 8:30 PM\nMonday, August 24, 2026, 7 PM to 8:30 PM\nMonday, August 31, 2026, 7 PM to 8:30 PM\nMonday, September 7, 2026, 7 PM to 8:30 PM\nMonday, September 14, 2026, 7 PM to 8:30 PM\nMonday, September 21, 2026, 7 PM to 8:30 PM\nMonday, September 28, 2026, 7 PM to 8:30 PM\nMonday, October 5, 2026, 7 PM to 8:30 PM\nMonday, October 12, 2026, 7 PM to 8:30 PM\nMonday, October 19, 2026, 7 PM to 8:30 PM\nMonday, October 26, 2026, 7 PM to 8:30 PM",
       "priority": 20,
       "category": [
         "small_groups"
@@ -21614,22 +21596,14 @@
       "resources": [],
       "group_id": "group-5aa8f1e4bd0cb4a6",
       "next_meeting": {
-        "start": "2026-08-03T19:00:00-04:00",
-        "end": "2026-08-03T20:30:00-04:00",
-        "sort_start_utc": "2026-08-03T23:00:00Z",
-        "sort_end_utc": "2026-08-04T00:30:00Z",
-        "display_when": "Monday, August 3, 2026, 7 PM to 8:30 PM",
+        "start": "2026-08-10T19:00:00-04:00",
+        "end": "2026-08-10T20:30:00-04:00",
+        "sort_start_utc": "2026-08-10T23:00:00Z",
+        "sort_end_utc": "2026-08-11T00:30:00Z",
+        "display_when": "Monday, August 10, 2026, 7 PM to 8:30 PM",
         "all_day": false
       },
       "future_meetings": [
-        {
-          "start": "2026-08-03T19:00:00-04:00",
-          "end": "2026-08-03T20:30:00-04:00",
-          "sort_start_utc": "2026-08-03T23:00:00Z",
-          "sort_end_utc": "2026-08-04T00:30:00Z",
-          "display_when": "Monday, August 3, 2026, 7 PM to 8:30 PM",
-          "all_day": false
-        },
         {
           "start": "2026-08-10T19:00:00-04:00",
           "end": "2026-08-10T20:30:00-04:00",
@@ -21717,16 +21691,24 @@
           "sort_end_utc": "2026-10-20T00:30:00Z",
           "display_when": "Monday, October 19, 2026, 7 PM to 8:30 PM",
           "all_day": false
+        },
+        {
+          "start": "2026-10-26T19:00:00-04:00",
+          "end": "2026-10-26T20:30:00-04:00",
+          "sort_start_utc": "2026-10-26T23:00:00Z",
+          "sort_end_utc": "2026-10-27T00:30:00Z",
+          "display_when": "Monday, October 26, 2026, 7 PM to 8:30 PM",
+          "all_day": false
         }
       ],
-      "sort_start_utc": "2026-08-03T23:00:00Z",
-      "sort_end_utc": "2026-08-04T00:30:00Z",
+      "sort_start_utc": "2026-08-10T23:00:00Z",
+      "sort_end_utc": "2026-08-11T00:30:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "details": "Ladies Bible Study led by Connie Hollan",
       "details_source": "planning_center_calendar_api",
-      "planning_center_event_instance_id": "162489186",
+      "planning_center_event_instance_id": "163212919",
       "planning_center_event_time_id": "31398539",
-      "info_url": "https://urbancrest.churchcenter.com/calendar/event/162489186",
+      "info_url": "https://urbancrest.churchcenter.com/calendar/event/163212919",
       "knowledge_file": "knowledge/small-groups/generated/connie-hollan-small-group-ladies-bible-study-0cb4a6.md"
     },
     {
@@ -21885,8 +21867,8 @@
       "record_type": "small_group",
       "path": "knowledge/small-groups/generated/steve-gregory-small-group-steve-gregory-c4a23b.md",
       "title": "Steve Gregory Small Group: Steve Gregory",
-      "summary": "Steve Gregory Small Group: Steve Gregory is scheduled for Monday, August 3, 2026, 7 PM to 8:30 PM.",
-      "content": "Upcoming meetings:\nMonday, August 3, 2026, 7 PM to 8:30 PM\nMonday, August 10, 2026, 7 PM to 8:30 PM\nMonday, August 17, 2026, 7 PM to 8:30 PM\nMonday, August 24, 2026, 7 PM to 8:30 PM\nMonday, August 31, 2026, 7 PM to 8:30 PM\nMonday, September 7, 2026, 7 PM to 8:30 PM\nMonday, September 14, 2026, 7 PM to 8:30 PM\nMonday, September 21, 2026, 7 PM to 8:30 PM\nMonday, September 28, 2026, 7 PM to 8:30 PM\nMonday, October 5, 2026, 7 PM to 8:30 PM\nMonday, October 12, 2026, 7 PM to 8:30 PM\nMonday, October 19, 2026, 7 PM to 8:30 PM",
+      "summary": "Steve Gregory Small Group: Steve Gregory is scheduled for Monday, August 10, 2026, 7 PM to 8:30 PM.",
+      "content": "Upcoming meetings:\nMonday, August 10, 2026, 7 PM to 8:30 PM\nMonday, August 17, 2026, 7 PM to 8:30 PM\nMonday, August 24, 2026, 7 PM to 8:30 PM\nMonday, August 31, 2026, 7 PM to 8:30 PM\nMonday, September 7, 2026, 7 PM to 8:30 PM\nMonday, September 14, 2026, 7 PM to 8:30 PM\nMonday, September 21, 2026, 7 PM to 8:30 PM\nMonday, September 28, 2026, 7 PM to 8:30 PM\nMonday, October 5, 2026, 7 PM to 8:30 PM\nMonday, October 12, 2026, 7 PM to 8:30 PM\nMonday, October 19, 2026, 7 PM to 8:30 PM\nMonday, October 26, 2026, 7 PM to 8:30 PM",
       "priority": 20,
       "category": [
         "small_groups"
@@ -21917,22 +21899,14 @@
       "resources": [],
       "group_id": "group-f356eaa371c4a23b",
       "next_meeting": {
-        "start": "2026-08-03T19:00:00-04:00",
-        "end": "2026-08-03T20:30:00-04:00",
-        "sort_start_utc": "2026-08-03T23:00:00Z",
-        "sort_end_utc": "2026-08-04T00:30:00Z",
-        "display_when": "Monday, August 3, 2026, 7 PM to 8:30 PM",
+        "start": "2026-08-10T19:00:00-04:00",
+        "end": "2026-08-10T20:30:00-04:00",
+        "sort_start_utc": "2026-08-10T23:00:00Z",
+        "sort_end_utc": "2026-08-11T00:30:00Z",
+        "display_when": "Monday, August 10, 2026, 7 PM to 8:30 PM",
         "all_day": false
       },
       "future_meetings": [
-        {
-          "start": "2026-08-03T19:00:00-04:00",
-          "end": "2026-08-03T20:30:00-04:00",
-          "sort_start_utc": "2026-08-03T23:00:00Z",
-          "sort_end_utc": "2026-08-04T00:30:00Z",
-          "display_when": "Monday, August 3, 2026, 7 PM to 8:30 PM",
-          "all_day": false
-        },
         {
           "start": "2026-08-10T19:00:00-04:00",
           "end": "2026-08-10T20:30:00-04:00",
@@ -22020,13 +21994,21 @@
           "sort_end_utc": "2026-10-20T00:30:00Z",
           "display_when": "Monday, October 19, 2026, 7 PM to 8:30 PM",
           "all_day": false
+        },
+        {
+          "start": "2026-10-26T19:00:00-04:00",
+          "end": "2026-10-26T20:30:00-04:00",
+          "sort_start_utc": "2026-10-26T23:00:00Z",
+          "sort_end_utc": "2026-10-27T00:30:00Z",
+          "display_when": "Monday, October 26, 2026, 7 PM to 8:30 PM",
+          "all_day": false
         }
       ],
-      "sort_start_utc": "2026-08-03T23:00:00Z",
-      "sort_end_utc": "2026-08-04T00:30:00Z",
-      "planning_center_event_instance_id": "162489189",
+      "sort_start_utc": "2026-08-10T23:00:00Z",
+      "sort_end_utc": "2026-08-11T00:30:00Z",
+      "planning_center_event_instance_id": "163212920",
       "planning_center_event_time_id": "28363570",
-      "info_url": "https://urbancrest.churchcenter.com/calendar/event/162489189",
+      "info_url": "https://urbancrest.churchcenter.com/calendar/event/163212920",
       "knowledge_file": "knowledge/small-groups/generated/steve-gregory-small-group-steve-gregory-c4a23b.md"
     }
   ]
