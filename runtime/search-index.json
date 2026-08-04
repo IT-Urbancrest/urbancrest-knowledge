@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
-  "repository_version": "0.9.1",
-  "generated_at": "2026-08-04T14:40:21.411377Z",
+  "repository_version": "0.9.2",
+  "generated_at": "2026-08-04T16:27:09.369960Z",
   "timezone": "America/New_York",
   "record_count": 371,
   "config": {
@@ -8210,7 +8210,7 @@
       "path": "relationships/ministry-staff.yaml",
       "title": "Senior Leadership staff relationship",
       "summary": "Staff ownership relationship for Senior Leadership. Recommended staff key: geoff_prows.",
-      "content": "Area: Senior Leadership\nCanonical area key: pastoral\nLeadership status: staffed\nPrimary staff key: geoff_prows\nRecommended contact staff key: geoff_prows\nRelated staff keys: david_bickers\nRouting aliases: pastoral, senior leadership, senior pastor, pastoral leadership, preaching, sermons, pastoral care, church vision, church leadership\nRouting topics: preaching, pastoral care, church vision, church leadership, sermons\nAnswer guidance: Geoff Prows serves as Senior Pastor and is the primary contact for senior pastoral leadership, preaching, pastoral care, and church vision. David Bickers also preaches and serves in executive leadership.",
+      "content": "Area: Senior Leadership\nCanonical area key: pastoral\nLeadership status: staffed\nPrimary staff key: geoff_prows\nRecommended contact staff key: geoff_prows\nRelated staff keys: david_bickers\nRouting aliases: pastoral, senior leadership, senior pastor, pastoral leadership, preaching, sermons, pastoral care, church vision, church leadership, lead pastor, head pastor\nRouting topics: preaching, pastoral care, church vision, church leadership, sermons, lead pastor, senior pastor\nAnswer guidance: Geoff Prows serves as Senior Pastor and is the primary/lead pastor of Urbancrest. He is the primary contact for senior pastoral leadership, preaching, pastoral care, and church vision. David Bickers serves as Executive Pastor and also preaches, but should not be presented as the Senior Pastor or lead pastor.",
       "priority": 90,
       "category": [
         "relationship",
@@ -8231,7 +8231,9 @@
         "sermons",
         "pastoral care",
         "church vision",
-        "church leadership"
+        "church leadership",
+        "lead pastor",
+        "head pastor"
       ],
       "search_terms": [
         "Senior Leadership",
@@ -8287,7 +8289,19 @@
         "who leads church leadership",
         "who handles church leadership",
         "who do I contact about church leadership",
-        "who is the point person for church leadership"
+        "who is the point person for church leadership",
+        "lead pastor",
+        "who oversees lead pastor",
+        "who leads lead pastor",
+        "who handles lead pastor",
+        "who do I contact about lead pastor",
+        "who is the point person for lead pastor",
+        "head pastor",
+        "who oversees head pastor",
+        "who leads head pastor",
+        "who handles head pastor",
+        "who do I contact about head pastor",
+        "who is the point person for head pastor"
       ],
       "ministries": [
         "pastoral"
@@ -8301,7 +8315,7 @@
         "david_bickers"
       ],
       "leadership_status": "staffed",
-      "answer_guidance": "Geoff Prows serves as Senior Pastor and is the primary contact for senior pastoral leadership, preaching, pastoral care, and church vision. David Bickers also preaches and serves in executive leadership.",
+      "answer_guidance": "Geoff Prows serves as Senior Pastor and is the primary/lead pastor of Urbancrest. He is the primary contact for senior pastoral leadership, preaching, pastoral care, and church vision. David Bickers serves as Executive Pastor and also preaches, but should not be presented as the Senior Pastor or lead pastor.",
       "routing_aliases": [
         "pastoral",
         "senior leadership",
@@ -8311,14 +8325,18 @@
         "sermons",
         "pastoral care",
         "church vision",
-        "church leadership"
+        "church leadership",
+        "lead pastor",
+        "head pastor"
       ],
       "routing_topics": [
         "preaching",
         "pastoral care",
         "church vision",
         "church leadership",
-        "sermons"
+        "sermons",
+        "lead pastor",
+        "senior pastor"
       ],
       "area_label": "Senior Leadership"
     },
