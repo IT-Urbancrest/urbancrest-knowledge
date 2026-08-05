@@ -1,11 +1,11 @@
 version: 1.4.3
-generated_at: '2026-08-04T22:29:52.658246Z'
+generated_at: '2026-08-05T03:33:41.086493Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api
 api_enrichment:
   enabled: true
-  target_instance_count: 426
-  matched_instance_count: 426
+  target_instance_count: 425
+  matched_instance_count: 425
   page_count: 8
   api_version: '2026-06-22'
 source_of_truth_for_small_group_intents: true
@@ -15,7 +15,7 @@ lookahead_days: 365
 max_series: 100
 max_occurrences_per_series: 12
 group_count: 3
-source_occurrence_count: 156
+source_occurrence_count: 157
 groups:
 - id: group-d895be1a40567dcc
   source_uids:
@@ -71,6 +71,7 @@ groups:
   - ET-25282532-192756450@resources.planningcenteronline.com
   - ET-25282532-193317575@resources.planningcenteronline.com
   - ET-25282532-193952683@resources.planningcenteronline.com
+  - ET-25282532-194682083@resources.planningcenteronline.com
   title: P U R S U E
   summary: Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.
   description: Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.
@@ -161,7 +162,7 @@ groups:
     sort_end_utc: '2026-10-22T00:30:00Z'
     display_when: Wednesday, October 21, 2026, 6:30 PM to 8:30 PM
     all_day: false
-  meeting_count_in_window: 52
+  meeting_count_in_window: 53
   knowledge_file: knowledge/small-groups/generated/p-u-r-s-u-e-567dcc.md
 - id: group-5aa8f1e4bd0cb4a6
   source_uids:
