@@ -1,5 +1,5 @@
-version: '1.3'
-last_updated: '2026-08-03'
+version: '1.4'
+last_updated: '2026-08-05'
 ministries:
   kids:
     title: Urbancrest Kids
@@ -32,7 +32,16 @@ ministries:
     description: Ministry for men.
   women:
     title: Women's Ministry
-    description: Ministry for women.
+    description: Helps women build meaningful connections with one another and deepen their relationship with Jesus through
+      engaging events and gatherings.
+    aliases:
+    - Women's Ministry
+    - Urbancrest Women
+    - women
+    - ladies
+    resources:
+    - church_center.serving
+    - church_center.small_groups
   missions:
     title: Missions
     description: Local, national, and international mission engagement.

@@ -1,0 +1,33 @@
+version: '1.0'
+last_updated: '2026-08-05'
+tests:
+- query: What is Women's Ministry?
+  expected_record: ministries.womens_ministry
+  must_include:
+  - meaningful connections
+  - relationship with Jesus
+- query: Who can participate in Women's Ministry?
+  expected_record: ministries.women.participation
+  must_include:
+  - All women are welcome
+- query: Do I have to be a member to attend a Women's Ministry event?
+  expected_record: ministries.women.membership_required
+  must_include:
+  - do not need to be a member
+- query: How do I volunteer with Women's Ministry?
+  expected_record: ministries.women.volunteer
+  must_include_url: https://urbancrest.churchcenter.com/people/forms/4085
+- query: How do I join a Small Group or Bible study?
+  expected_record: ministries.women.small_groups
+  must_include_url: https://urbancrest.churchcenter.com/groups
+- query: Can I bring a friend to a Women's Ministry event?
+  expected_record: ministries.women.invite_friend
+  must_include:
+  - invite friends and family
+- query: Where can I find Women's Ministry events?
+  expected_record: ministries.women.upcoming_events_info
+  must_include_url: https://urbancrest.church/events
+- query: How can I connect with other women at Urbancrest?
+  expected_record: ministries.women.connect
+  must_include:
+  - Attending Women's Ministry events
