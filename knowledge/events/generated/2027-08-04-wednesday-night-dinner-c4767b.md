@@ -1,5 +1,5 @@
 ---
-id: events.live.event-9dab728b4731bf8a
+id: events.live.event-6d28727f98c4767b
 version: 1.4.3
 status: published
 priority: 60
@@ -30,20 +30,20 @@ search_terms:
   - "How do I register for Wednesday Night Dinner?"
 resources:
   - events.live
-event_id: event-9dab728b4731bf8a
-event_start: "2026-08-26T17:30:00-04:00"
-event_end: "2026-08-26T18:15:00-04:00"
-sort_start_utc: "2026-08-26T21:30:00Z"
-sort_end_utc: "2026-08-26T22:15:00Z"
-chronological_rank: 20
+event_id: event-6d28727f98c4767b
+event_start: "2027-08-04T17:30:00-04:00"
+event_end: "2027-08-04T18:15:00-04:00"
+sort_start_utc: "2027-08-04T21:30:00Z"
+sort_end_utc: "2027-08-04T22:15:00Z"
+chronological_rank: 150
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
-info_url: "https://urbancrest.churchcenter.com/calendar/event/230122705"
+info_url: "https://urbancrest.churchcenter.com/calendar/event/230122754"
 image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243"
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
-planning_center_event_instance_id: "230122705"
+planning_center_event_instance_id: "230122754"
 planning_center_event_time_id: "31870601"
 last_generated: 2026-08-05T11:30:10.047806Z
 ---
@@ -52,7 +52,7 @@ last_generated: 2026-08-05T11:30:10.047806Z
 
 Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
 
-**When:** Wednesday, August 26, 2026, 5:30 PM to 6:15 PM
+**When:** Wednesday, August 4, 2027, 5:30 PM to 6:15 PM
 
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
@@ -96,7 +96,7 @@ Chili & Coneys
 Salad Bar
 Brownies
 
-**More information:** https://urbancrest.churchcenter.com/calendar/event/230122705
+**More information:** https://urbancrest.churchcenter.com/calendar/event/230122754
 
 **Event image:** https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
 
