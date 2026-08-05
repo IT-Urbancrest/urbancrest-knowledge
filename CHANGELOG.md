@@ -1,5 +1,30 @@
 # Changelog
 
+## 0.9.5
+
+- Fixed a general-retrieval regression that could reject relevant records when a natural-language question reduced to a single strong topic word, such as `donuts`, `coffee`, `livestream`, or `diapers`.
+- Kept the 0.9.1 protection that prevents record priority alone from making unrelated records eligible.
+- Added high-signal metadata token matching against titles, search terms, aliases, and tags for general fallback retrieval.
+- Restricted general fallback context to answer-bearing knowledge, approved FAQ, and sermon records so structural relationship/routing records cannot outrank actual content.
+- Added deterministic intent recognition for common parking, giving, and livestream questions.
+- Strengthened Guest Services refreshment metadata and added regression coverage for the $1 suggested donation.
+- Added cross-ministry general-retrieval regression tests to guard against future over-filtering.
+
+
+## 0.9.4
+
+- Expanded Women's Ministry from a placeholder overview into an approved ministry description plus seven focused FAQ records.
+- Added Women's Ministry answers for participation, membership, volunteering, Small Groups/Bible studies, inviting friends, finding upcoming events, and connecting with other women.
+- Updated the canonical Women's Ministry registry description and aliases.
+- Reused the existing approved Church Center resources for volunteering and Small Groups.
+- Added Women's Ministry retrieval acceptance tests.
+
+## 0.9.3
+
+- Added authoritative church office hours: Monday through Friday, 9:00 AM to 4:00 PM.
+- Added a dedicated office-hours article that also distinguishes weekday office hours from Sunday worship times for vague visit questions.
+
+
 ## 0.9.2
 
 - Fixed staff-card routing for Senior Pastor / lead pastor questions so Geoff Prows is deterministically selected.
