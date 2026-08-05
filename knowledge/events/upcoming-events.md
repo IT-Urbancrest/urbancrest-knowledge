@@ -16,23 +16,13 @@ tags: [events, calendar, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-08-03T15:17:23.229714Z
+last_generated: 2026-08-05T14:34:09.271751Z
 ---
 
 # Upcoming Events
 
 This index excludes routine Small Group meetings, which are stored separately.
 Events are listed in ascending chronological order.
-
-## Card Ministry
-
-**Category:** General Event
-
-**When:** Tuesday, August 4, 2026, 9 AM to 12 PM
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/162521895
-
-Detailed event file: `knowledge/events/generated/2026-08-04-card-ministry-d1508d.md`
 
 ## OPEN GYM Pickleball
 
@@ -1820,3 +1810,15 @@ Detailed event file: `knowledge/events/generated/2027-07-28-wednesday-night-dinn
 **More information:** https://urbancrest.churchcenter.com/calendar/event/194487310
 
 Detailed event file: `knowledge/events/generated/2027-08-01-p-u-r-s-u-e-7d9cde.md`
+
+## Wednesday Night Dinner
+
+**Category:** Churchwide Program
+
+**When:** Wednesday, August 4, 2027, 5:30 PM to 6:15 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+**More information:** https://urbancrest.churchcenter.com/calendar/event/230122754
+
+Detailed event file: `knowledge/events/generated/2027-08-04-wednesday-night-dinner-c4767b.md`

@@ -35,7 +35,7 @@ event_start: "2026-08-17T18:30:00-04:00"
 event_end: "2026-08-17T20:00:00-04:00"
 sort_start_utc: "2026-08-17T22:30:00Z"
 sort_end_utc: "2026-08-18T00:00:00Z"
-chronological_rank: 13
+chronological_rank: 12
 next_for_ministries: ["missions"]
 next_for_audiences: ["families"]
 all_day: false
@@ -43,7 +43,7 @@ info_url: "https://urbancrest.churchcenter.com/calendar/event/230675507"
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "230675507"
 planning_center_event_time_id: "31943802"
-last_generated: 2026-08-03T15:17:23.229714Z
+last_generated: 2026-08-05T14:34:09.271751Z
 ---
 
 # Mexico Missions Meeting
