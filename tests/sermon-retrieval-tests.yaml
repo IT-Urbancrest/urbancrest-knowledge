@@ -1,0 +1,70 @@
+version: 1.1
+purpose: Regression coverage for structured sermon and sermon-series retrieval using fill-in notes as the canonical structural source.
+
+cases:
+  - query: What was the sermon about last Sunday?
+    expected_record: sermons.2026_08_02
+    expected_title: What To Do With People Who Do Not Love You Back
+    expected_topic: love your enemies
+
+  - query: What did Geoff preach on June 7?
+    expected_record: sermons.2026_06_07
+    expected_title: A Blueprint for God’s Blessing
+
+  - query: What did Geoff preach on June 14?
+    expected_record: sermons.2026_06_14
+    expected_title: God’s Blueprint for Your Blessing
+
+  - query: What did Geoff preach on Father’s Day?
+    expected_record: sermons.2026_06_21
+    expected_title: Faith That Influences
+
+  - query: What did Dave preach on June 28?
+    expected_record: sermons.2026_06_28
+    expected_title: Christ Fulfills the Law
+    expected_speaker: David Bickers
+
+  - query: What did Geoff preach on July 5?
+    expected_record: sermons.2026_07_05
+    expected_title: Radical Righteousness and Kingdom Relationships
+    expected_topic: anger and reconciliation
+
+  - query: What did the sermon say about purity?
+    expected_record: sermons.2026_07_12
+    expected_title: Radical Purity
+
+  - query: What was the July 19 message about?
+    expected_record: sermons.2026_07_19
+    expected_title: God is Up to Something
+    expected_scripture: Habakkuk 2:1-4
+    expected_series: standalone
+
+  - query: What did Geoff preach on July 26?
+    expected_record: sermons.2026_07_26
+    expected_title: Truthfulness and Revenge
+
+  - query: What did Geoff preach on August 2?
+    expected_record: sermons.2026_08_02
+    expected_title: What To Do With People Who Do Not Love You Back
+
+  - query: What is the current sermon series?
+    expected_record: sermons.series.summer_on_the_mount_2026
+
+  - query: Which sermons have been in Summer on the Mount?
+    expected_record: sermons.series.summer_on_the_mount_2026
+    expected_member_count: 8
+
+  - query: What did Geoff say about anger in a sermon?
+    expected_record: sermons.2026_07_05
+
+  - query: Do you have fill-in notes for the August 2 message?
+    expected_record: sermons.2026_08_02
+    expected_url: https://notes.subsplash.com/fill-in/view?page=Syw90ydSMl
+
+  - query: What did Geoff say about waiting on God?
+    expected_record: sermons.2026_07_19
+
+  - query: What does Urbancrest believe about baptism?
+    must_not_select_record_type:
+      - sermon
+      - sermon_series

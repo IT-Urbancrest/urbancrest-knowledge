@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
-  "repository_version": "0.9.5",
-  "generated_at": "2026-08-05T14:34:10.401299Z",
+  "repository_version": "0.9.7",
+  "generated_at": "2026-08-05T16:14:19.594561Z",
   "timezone": "America/New_York",
-  "record_count": 379,
+  "record_count": 389,
   "config": {
     "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step. For directions requests, include both approved map links.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership Transition\n\nUrbancrest is currently searching for its next Global Missions Pastor.\n\nFor broad or global missions leadership questions:\n\n1. State that Urbancrest is currently searching for its next Global Missions Pastor.\n2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.\n3. Return `jennifer_prows` when one staff card is appropriate.\n4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nState the times found in those authoritative records directly. Do not hardcode service times in runtime application logic or prompt instructions.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
     "style_guide": "# Style Guide\n\n## Writing\n\n- Use short paragraphs.\n- Prefer plain language.\n- Avoid church jargon unless it is explained.\n- Do not use em dashes.\n- Do not use the word meaningful as a filler.\n- Use Small Groups, never Grow Groups.\n- Refer to Urbancrest Church as Urbancrest after the first use.\n- Use believer's baptism by immersion when describing baptism.\n\n## Theology\n\n- Scripture is the final authority.\n- The Baptist Faith and Message 2000 is a helpful doctrinal summary, not equal to Scripture.\n- Salvation is by grace alone through faith alone in Jesus Christ alone.\n- Baptism follows salvation and does not save.\n",
@@ -3981,7 +3981,7 @@
       "planning_center_event_time_id": "31703048",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/229161073",
       "knowledge_file": "knowledge/events/generated/2027-04-07-missions-conference-f6a6f7.md",
-      "chronological_rank": 111,
+      "chronological_rank": 112,
       "routine_schedule_occurrence": false
     },
     {
@@ -4046,7 +4046,7 @@
       "planning_center_event_time_id": "14177442",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/178563594",
       "knowledge_file": "knowledge/events/generated/2027-01-28-summit-gym-set-up-50aaa2.md",
-      "chronological_rank": 88,
+      "chronological_rank": 89,
       "routine_schedule_occurrence": false
     },
     {
@@ -4126,7 +4126,7 @@
       "info_url": "http://classic.urbancrest.org",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3517003/medium_image-1773084020561.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-08-21-urbancrest-golf-classic-4f4169.md",
-      "chronological_rank": 16,
+      "chronological_rank": 17,
       "routine_schedule_occurrence": false
     },
     {
@@ -4209,7 +4209,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230615455",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3791849/medium_image-1785669189641.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-10-17-urbancrest-women-s-conference-af3c3f.md",
-      "chronological_rank": 51,
+      "chronological_rank": 52,
       "routine_schedule_occurrence": false
     },
     {
@@ -4278,7 +4278,7 @@
       "planning_center_event_time_id": "27323186",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/203958381",
       "knowledge_file": "knowledge/events/generated/2026-10-17-women-s-conference-bf84ac.md",
-      "chronological_rank": 52,
+      "chronological_rank": 53,
       "routine_schedule_occurrence": false
     },
     {
@@ -4345,7 +4345,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230487173",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3790005/medium_image-1785514673084.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-11-13-youth-fall-retreat-99f87a.md",
-      "chronological_rank": 62,
+      "chronological_rank": 63,
       "routine_schedule_occurrence": false
     },
     {
@@ -4423,7 +4423,11 @@
         "church_center.connect_card"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "1 John 5:11-13",
+        "Romans 8:16"
+      ]
     },
     {
       "id": "beliefs.eternal-security",
@@ -4455,7 +4459,11 @@
         "church_center.connect_card"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "John 10:27-29",
+        "Romans 8:38-39"
+      ]
     },
     {
       "id": "ministries.nursery.both_services",
@@ -4867,7 +4875,13 @@
         "church_center.connect_card"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "Romans 3:23",
+        "Romans 5:8",
+        "Romans 10:9-10",
+        "Ephesians 2:8-9"
+      ]
     },
     {
       "id": "ministries.women.small_groups",
@@ -5083,7 +5097,11 @@
         "church_center.baptism"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "Acts 2:41",
+        "Acts 8:36-38"
+      ]
     },
     {
       "id": "about.office-hours",
@@ -5175,7 +5193,11 @@
         "church_center.baptism"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "Romans 6:3-4",
+        "Colossians 2:12"
+      ]
     },
     {
       "id": "beliefs.repentance",
@@ -5207,7 +5229,11 @@
         "church_center.connect_card"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "Mark 1:15",
+        "Acts 2:38"
+      ]
     },
     {
       "id": "ministries.local_missions.giving_tree",
@@ -5290,7 +5316,11 @@
         "church_center.connect_card"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "1 Corinthians 15:3-4",
+        "John 3:16"
+      ]
     },
     {
       "id": "ministries.kids.well_child_policy",
@@ -5562,7 +5592,11 @@
         "church_center.connect_card"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "John 1:1,14",
+        "Colossians 1:15-20"
+      ]
     },
     {
       "id": "ministries.nursery.diaper_supplies",
@@ -6706,7 +6740,10 @@
       ],
       "status": "published",
       "recommended_contact_staff_key": "larry_nichols",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "Romans 12:1"
+      ]
     },
     {
       "id": "ministries.women.upcoming_events_info",
@@ -7133,6 +7170,130 @@
       ],
       "status": "published",
       "confidence": "high"
+    },
+    {
+      "id": "sermons.series.summer_on_the_mount_2026",
+      "record_type": "sermon_series",
+      "path": "knowledge/sermons/series/summer-on-the-mount-2026.md",
+      "title": "Summer on the Mount: Kingdom Living for the Here and Now",
+      "summary": "Urbancrest's Summer 2026 sermon series through Jesus' Sermon on the Mount in Matthew 5-7, focused on living as citizens of God's kingdom here and now.",
+      "content": "# Summer on the Mount: Kingdom Living for the Here and Now\n\n**Summer on the Mount: Kingdom Living for the Here and Now** is Urbancrest's Summer 2026 sermon series through Jesus' Sermon on the Mount in **Matthew 5-7**.\n\nThe series explores what it means for followers of Jesus to live as citizens of God's kingdom in everyday life. It began with the Beatitudes and continues through Jesus' teaching about influence, righteousness, relationships, purity, truthfulness, responding to mistreatment, and other kingdom priorities.\n\nThe July 19, 2026 message from Habakkuk 2:1-4 was a standalone message and is not part of this series.\n\n## Messages in This Series\n\nThe searchable sermon index automatically associates weekly sermon records with this series. Ask about a particular Sunday, topic, Scripture passage, speaker, or message to find the relevant sermon summary.\n\nWeekly sermon titles, primary passages, and outlines come from the published fill-in notes. Summaries and explanatory detail are condensed from the sermon transcript.",
+      "priority": 92,
+      "category": [
+        "sermon_series"
+      ],
+      "intents": [
+        "sermon_series",
+        "sermons",
+        "messages",
+        "preaching",
+        "current_sermon_series"
+      ],
+      "tags": [
+        "Summer on the Mount",
+        "Sermon on the Mount",
+        "Matthew 5",
+        "Matthew 6",
+        "Matthew 7",
+        "kingdom living",
+        "kingdom citizens",
+        "sermons"
+      ],
+      "search_terms": [
+        "What is the current sermon series?",
+        "What are you preaching through this summer?",
+        "What is Summer on the Mount?",
+        "Which sermons are part of Summer on the Mount?",
+        "What messages have been in Summer on the Mount?",
+        "What is Urbancrest teaching through right now?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "action_link.messages"
+      ],
+      "status": "published",
+      "answer_guidance": "This record describes a sermon series and its messages. Use dedicated Urbancrest beliefs articles, not sermon records, as the canonical source for questions about official doctrine.",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "sermon_series"
+      ],
+      "series_id": "summer_on_the_mount_2026",
+      "primary_scripture": "Matthew 5-7",
+      "scripture": [
+        "Matthew 5-7"
+      ],
+      "series_status": "active",
+      "start_date": "2026-06-07",
+      "sermons": [
+        {
+          "id": "sermons.2026_06_07",
+          "date": "2026-06-07",
+          "title": "A Blueprint for God’s Blessing",
+          "speaker": "Geoff Prows",
+          "primary_scripture": "Matthew 5:1-6",
+          "notes_url": "https://notes.subsplash.com/fill-in/view?page=S1AKeCTxMe"
+        },
+        {
+          "id": "sermons.2026_06_14",
+          "date": "2026-06-14",
+          "title": "God’s Blueprint for Your Blessing",
+          "speaker": "Geoff Prows",
+          "primary_scripture": "Matthew 5:7-12",
+          "notes_url": "https://notes.subsplash.com/fill-in/view?page=Sy9J6qd-fe"
+        },
+        {
+          "id": "sermons.2026_06_21",
+          "date": "2026-06-21",
+          "title": "Faith That Influences",
+          "speaker": "Geoff Prows",
+          "primary_scripture": "Matthew 5:13-16",
+          "notes_url": "https://notes.subsplash.com/fill-in/view?page=S1jPPO-Mzx"
+        },
+        {
+          "id": "sermons.2026_06_28",
+          "date": "2026-06-28",
+          "title": "Christ Fulfills the Law",
+          "speaker": "David Bickers",
+          "primary_scripture": "Matthew 5:17-20",
+          "notes_url": "https://notes.subsplash.com/fill-in/view?page=HJPoeoKzMl"
+        },
+        {
+          "id": "sermons.2026_07_05",
+          "date": "2026-07-05",
+          "title": "Radical Righteousness and Kingdom Relationships",
+          "speaker": "Geoff Prows",
+          "primary_scripture": "Matthew 5:21-26",
+          "notes_url": "https://notes.subsplash.com/fill-in/view?page=SkDYzcZQzx"
+        },
+        {
+          "id": "sermons.2026_07_12",
+          "date": "2026-07-12",
+          "title": "Radical Purity",
+          "speaker": "Geoff Prows",
+          "primary_scripture": "Matthew 5:27-30",
+          "notes_url": "https://notes.subsplash.com/fill-in/view?page=S1T3kXaQGx"
+        },
+        {
+          "id": "sermons.2026_07_26",
+          "date": "2026-07-26",
+          "title": "Truthfulness and Revenge",
+          "speaker": "Geoff Prows",
+          "primary_scripture": "Matthew 5:33-42",
+          "notes_url": "https://notes.subsplash.com/fill-in/view?page=BkuIyRkHze"
+        },
+        {
+          "id": "sermons.2026_08_02",
+          "date": "2026-08-02",
+          "title": "What To Do With People Who Do Not Love You Back",
+          "speaker": "Geoff Prows",
+          "primary_scripture": "Matthew 5:43-48",
+          "notes_url": "https://notes.subsplash.com/fill-in/view?page=Syw90ydSMl"
+        }
+      ]
     },
     {
       "id": "action_link.get_involved",
@@ -7635,7 +7796,10 @@
       ],
       "resources": [],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "Romans 12:1"
+      ]
     },
     {
       "id": "ministries.worship.attire",
@@ -10299,6 +10463,676 @@
       "confidence": "high"
     },
     {
+      "id": "sermons.2026_06_07",
+      "record_type": "sermon",
+      "path": "knowledge/sermons/2026/2026-06-07-blueprints-for-blessedness-part-1.md",
+      "title": "A Blueprint for God’s Blessing",
+      "summary": "Jesus opens the Sermon on the Mount with the first four Beatitudes, showing that God’s definition of a blessed life stands in contrast to the world’s. Kingdom blessedness begins with spiritual poverty, mourning over sin, gentleness, and a deep hunger and thirst for righteousness.",
+      "content": "# A Blueprint for God’s Blessing\n\n**Speaker:** Geoff Prows  \n**Date:** 2026-06-07  \n**Primary Scripture:** Matthew 5:1-6 (NASB 1995)  \n**Series:** Summer on the Mount: Kingdom Living for the Here and Now\n\n## Message Summary\n\nJesus opens the Sermon on the Mount with the first four Beatitudes, showing that God’s definition of a blessed life stands in contrast to the world’s. Kingdom blessedness begins with spiritual poverty, mourning over sin, gentleness, and a deep hunger and thirst for righteousness.\n\n## Main Idea\n\nTrue blessedness begins by recognizing our spiritual need, responding to sin with godly sorrow, walking in gentleness, and longing for the righteousness that only God can satisfy.\n\n## Official Fill-In Outline\n\n### 1. Blessed Are the Bankrupt\n\nThe poor in spirit recognize their spiritual bankruptcy and their complete need for God’s grace.\n\n### 2. Blessed Are the Bereaved\n\nThose who mourn over sin are promised God’s comfort and are driven toward repentance and grace.\n\n### 3. Blessed Are the Benign\n\nThe gentle or meek reflect Christlike strength under control rather than self-assertion.\n\n### 4. Blessed Are the Longing\n\nThose who hunger and thirst for righteousness develop a growing appetite for God and are satisfied in Him.\n\n## Supporting Scriptures from Fill-In Notes\n\n- Isaiah 6:5\n- Luke 5:8\n- James 4:6\n- Romans 7:15\n- Psalm 119:136\n- Psalm 51:10\n- Matthew 11:29\n- Galatians 6:1\n- Psalm 37:11\n- Psalm 63:1\n- Proverbs 27:20\n\n## Fill-In Notes\n\n[Open the fill-in notes for this message](https://notes.subsplash.com/fill-in/view?page=S1AKeCTxMe)\n\n## Topics\n\n- Beatitudes\n- blessedness\n- poor in spirit\n- mourning\n- gentleness\n- meekness\n- righteousness\n- spiritual hunger\n- kingdom living",
+      "priority": 86,
+      "category": [
+        "sermon"
+      ],
+      "intents": [
+        "sermon",
+        "sermon_content",
+        "messages",
+        "preaching",
+        "sermon_notes"
+      ],
+      "tags": [
+        "Beatitudes",
+        "blessedness",
+        "poor in spirit",
+        "mourning",
+        "gentleness",
+        "meekness",
+        "righteousness",
+        "spiritual hunger",
+        "kingdom living"
+      ],
+      "search_terms": [
+        "What was the June 7 sermon about?",
+        "What did Geoff preach on June 7?",
+        "What is A Blueprint for God’s Blessing about?",
+        "What did the sermon say about being poor in spirit?",
+        "What did Geoff say about mourning over sin?",
+        "What are the first four Beatitudes?",
+        "What did the sermon say about hungering for righteousness?",
+        "Blueprints for Blessedness Part 1"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "https://notes.subsplash.com/fill-in/view?page=S1AKeCTxMe",
+        "action_link.messages"
+      ],
+      "status": "published",
+      "answer_guidance": "This is a historical summary of a specific Urbancrest sermon. Use it for questions about what was preached in this message. The official title, primary Scripture, and outline come from the published fill-in notes; the summary and explanatory detail are condensed from the sermon transcript. Do not use sermon records as the canonical source for Urbancrest doctrine, policy, current schedules, or current ministry information when a dedicated knowledge article exists.",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "sermon_content"
+      ],
+      "sermon_date": "2026-06-07",
+      "speaker": "Geoff Prows",
+      "speaker_key": "geoff_prows",
+      "series_id": "summer_on_the_mount_2026",
+      "series_title": "Summer on the Mount: Kingdom Living for the Here and Now",
+      "primary_scripture": "Matthew 5:1-6",
+      "primary_scripture_translation": "NASB 1995",
+      "scripture": [
+        "Matthew 5:1-6",
+        "Isaiah 6:5",
+        "Luke 5:8",
+        "James 4:6",
+        "Romans 7:15",
+        "Psalm 119:136",
+        "Psalm 51:10",
+        "Matthew 11:29",
+        "Galatians 6:1",
+        "Psalm 37:11",
+        "Psalm 63:1",
+        "Proverbs 27:20"
+      ],
+      "notes_url": "https://notes.subsplash.com/fill-in/view?page=S1AKeCTxMe",
+      "title_source": "fill_in_notes",
+      "outline_source": "fill_in_notes",
+      "primary_scripture_source": "fill_in_notes",
+      "summary_source": "sermon_transcript"
+    },
+    {
+      "id": "sermons.2026_06_28",
+      "record_type": "sermon",
+      "path": "knowledge/sermons/2026/2026-06-28-christ-fulfills-the-law.md",
+      "title": "Christ Fulfills the Law",
+      "summary": "Jesus did not come to abolish the Law or the Prophets but to fulfill them. The message emphasized the enduring trustworthiness of God’s Word, the seriousness of obedience for kingdom citizens, and the greater righteousness that only Christ provides.",
+      "content": "# Christ Fulfills the Law\n\n**Speaker:** David Bickers  \n**Date:** 2026-06-28  \n**Primary Scripture:** Matthew 5:17-20 (NKJV)  \n**Series:** Summer on the Mount: Kingdom Living for the Here and Now\n\n## Message Summary\n\nJesus did not come to abolish the Law or the Prophets but to fulfill them. The message emphasized the enduring trustworthiness of God’s Word, the seriousness of obedience for kingdom citizens, and the greater righteousness that only Christ provides.\n\n## Main Idea\n\nThe Law reveals our need, and Jesus is its complete fulfillment. The righteousness required for God’s kingdom is not self-produced but provided through Christ.\n\n## Official Fill-In Outline\n\n### 1. Jesus Came to Completely Fulfill\n\nJesus perfectly fulfilled God’s law and everything the prophets pointed toward.\n\n### 2. Jesus Fulfills Every Part of God’s Word\n\nEvery part of God’s Word matters and will be fulfilled.\n\n### 3. Jesus Rewards Those Who Keep His Word\n\nKingdom citizens take God’s commands seriously and live in faithful obedience.\n\n### 4. Jesus Provides His Own Greater Righteousness\n\nHuman goodness cannot meet God’s perfect standard; Christ provides the righteousness sinners need.\n\n## Supporting Scriptures from Fill-In Notes\n\n- Romans 10:4\n\n## Fill-In Notes\n\n[Open the fill-in notes for this message](https://notes.subsplash.com/fill-in/view?page=HJPoeoKzMl)\n\n## Topics\n\n- law\n- Old Testament\n- prophets\n- righteousness\n- Jesus Christ\n- fulfillment\n- Scripture\n- kingdom living",
+      "priority": 86,
+      "category": [
+        "sermon"
+      ],
+      "intents": [
+        "sermon",
+        "sermon_content",
+        "messages",
+        "preaching",
+        "sermon_notes"
+      ],
+      "tags": [
+        "law",
+        "Old Testament",
+        "prophets",
+        "righteousness",
+        "Jesus Christ",
+        "fulfillment",
+        "Scripture",
+        "kingdom living"
+      ],
+      "search_terms": [
+        "What was the June 28 sermon about?",
+        "What did Dave preach on June 28?",
+        "What did David Bickers preach on June 28?",
+        "What is Christ Fulfills the Law about?",
+        "What did the sermon say about the Old Testament?",
+        "What did Dave say about Jesus fulfilling the law?",
+        "What did the sermon say about righteousness?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "https://notes.subsplash.com/fill-in/view?page=HJPoeoKzMl",
+        "action_link.messages"
+      ],
+      "status": "published",
+      "answer_guidance": "This is a historical summary of a specific Urbancrest sermon. Use it for questions about what was preached in this message. The official title, primary Scripture, and outline come from the published fill-in notes; the summary and explanatory detail are condensed from the sermon transcript. Do not use sermon records as the canonical source for Urbancrest doctrine, policy, current schedules, or current ministry information when a dedicated knowledge article exists.",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "sermon_content"
+      ],
+      "sermon_date": "2026-06-28",
+      "speaker": "David Bickers",
+      "speaker_key": "david_bickers",
+      "series_id": "summer_on_the_mount_2026",
+      "series_title": "Summer on the Mount: Kingdom Living for the Here and Now",
+      "primary_scripture": "Matthew 5:17-20",
+      "primary_scripture_translation": "NKJV",
+      "scripture": [
+        "Matthew 5:17-20",
+        "Romans 10:4"
+      ],
+      "notes_url": "https://notes.subsplash.com/fill-in/view?page=HJPoeoKzMl",
+      "title_source": "fill_in_notes",
+      "outline_source": "fill_in_notes",
+      "primary_scripture_source": "fill_in_notes",
+      "summary_source": "sermon_transcript"
+    },
+    {
+      "id": "sermons.2026_06_21",
+      "record_type": "sermon",
+      "path": "knowledge/sermons/2026/2026-06-21-a-faith-that-influences.md",
+      "title": "Faith That Influences",
+      "summary": "Jesus calls His followers to be salt and light in a world marked by decay and darkness. Every Christian has influence, and kingdom citizens are called to use that influence so others can see Christ through their lives and glorify the Father.",
+      "content": "# Faith That Influences\n\n**Speaker:** Geoff Prows  \n**Date:** 2026-06-21  \n**Primary Scripture:** Matthew 5:13-16 (NASB 1995)  \n**Series:** Summer on the Mount: Kingdom Living for the Here and Now\n\n## Message Summary\n\nJesus calls His followers to be salt and light in a world marked by decay and darkness. Every Christian has influence, and kingdom citizens are called to use that influence so others can see Christ through their lives and glorify the Father.\n\n## Main Idea\n\nFollowers of Jesus influence the world by living as preserving salt and visible light, letting the life of Christ be seen through their character and good works.\n\n## Official Fill-In Outline\n\n### 1. Salt to a World in Decay\n\nLike salt preserves, kingdom citizens are called to have a preserving influence in a world marked by sin and decay.\n\n### 2. Light to a World in Darkness\n\nJesus calls His followers to shine continually so people can see their good works and glorify the Father.\n\n## Supporting Scriptures from Fill-In Notes\n\n- Matthew 4:14-16\n- Isaiah 49:6\n- 1 Peter 2:9\n- John 5:35\n- John 15:4\n\n## Fill-In Notes\n\n[Open the fill-in notes for this message](https://notes.subsplash.com/fill-in/view?page=S1jPPO-Mzx)\n\n## Topics\n\n- salt and light\n- Christian influence\n- faith\n- good works\n- discipleship\n- Father’s Day\n- kingdom living",
+      "priority": 86,
+      "category": [
+        "sermon"
+      ],
+      "intents": [
+        "sermon",
+        "sermon_content",
+        "messages",
+        "preaching",
+        "sermon_notes"
+      ],
+      "tags": [
+        "salt and light",
+        "Christian influence",
+        "faith",
+        "good works",
+        "discipleship",
+        "Father’s Day",
+        "kingdom living"
+      ],
+      "search_terms": [
+        "What was the June 21 sermon about?",
+        "What did Geoff preach on Father’s Day?",
+        "What is Faith That Influences about?",
+        "What did the sermon say about salt and light?",
+        "How are Christians supposed to influence the world?",
+        "A Faith That Influences"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "https://notes.subsplash.com/fill-in/view?page=S1jPPO-Mzx",
+        "action_link.messages"
+      ],
+      "status": "published",
+      "answer_guidance": "This is a historical summary of a specific Urbancrest sermon. Use it for questions about what was preached in this message. The official title, primary Scripture, and outline come from the published fill-in notes; the summary and explanatory detail are condensed from the sermon transcript. Do not use sermon records as the canonical source for Urbancrest doctrine, policy, current schedules, or current ministry information when a dedicated knowledge article exists.",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "sermon_content"
+      ],
+      "sermon_date": "2026-06-21",
+      "speaker": "Geoff Prows",
+      "speaker_key": "geoff_prows",
+      "series_id": "summer_on_the_mount_2026",
+      "series_title": "Summer on the Mount: Kingdom Living for the Here and Now",
+      "primary_scripture": "Matthew 5:13-16",
+      "primary_scripture_translation": "NASB 1995",
+      "scripture": [
+        "Matthew 5:13-16",
+        "Matthew 4:14-16",
+        "Isaiah 49:6",
+        "1 Peter 2:9",
+        "John 5:35",
+        "John 15:4"
+      ],
+      "notes_url": "https://notes.subsplash.com/fill-in/view?page=S1jPPO-Mzx",
+      "title_source": "fill_in_notes",
+      "outline_source": "fill_in_notes",
+      "primary_scripture_source": "fill_in_notes",
+      "summary_source": "sermon_transcript"
+    },
+    {
+      "id": "sermons.2026_07_19",
+      "record_type": "sermon",
+      "path": "knowledge/sermons/2026/2026-07-19-god-do-something.md",
+      "title": "God is Up to Something",
+      "summary": "In this standalone message from Habakkuk 2:1-4, Geoff Prows encouraged the church to position itself to hear from God while waiting, trust God with what He says and does, and join Him where He is taking the church.",
+      "content": "# God is Up to Something\n\n**Speaker:** Geoff Prows  \n**Date:** 2026-07-19  \n**Primary Scripture:** Habakkuk 2:1-4 (NASB 1995)  \n**Series:** Standalone message\n\n## Message Summary\n\nIn this standalone message from Habakkuk 2:1-4, Geoff Prows encouraged the church to position itself to hear from God while waiting, trust God with what He says and does, and join Him where He is taking the church.\n\n## Main Idea\n\nWhen God’s answer does not come immediately, faith waits expectantly, trusts His timing and His word, and responds by joining what He is doing.\n\n## Official Fill-In Outline\n\n**Big Takeaway:** Often times there are spaces between our prayers and God’s answers.\n\n### 1. As You Wait, Put Yourself in a Position to Hear from God\n\nHabakkuk waited and watched for God’s answer rather than simply voicing his complaint and moving on.\n\n### 2. In Faith, Trust God with What He Says and Does\n\nGod works according to His appointed time, and faith trusts His word even when the answer is delayed.\n\n### 3. Join in Where God Is Taking Us\n\nThe message challenged Urbancrest to respond in faith to where God is leading and to join His ongoing work.\n\n## Supporting Scriptures from Fill-In Notes\n\n- Habakkuk 1:5\n- Psalm 33:20\n- Psalm 106:13\n- Joshua 23:14\n\n## Fill-In Notes\n\n[Open the fill-in notes for this message](https://notes.subsplash.com/fill-in/view?page=rkgz7rSEfe)\n\n## Topics\n\n- Habakkuk\n- waiting on God\n- faith\n- God’s timing\n- prayer\n- vision\n- church vision\n- standalone sermon",
+      "priority": 86,
+      "category": [
+        "sermon"
+      ],
+      "intents": [
+        "sermon",
+        "sermon_content",
+        "messages",
+        "preaching",
+        "sermon_notes"
+      ],
+      "tags": [
+        "Habakkuk",
+        "waiting on God",
+        "faith",
+        "God’s timing",
+        "prayer",
+        "vision",
+        "church vision",
+        "standalone sermon"
+      ],
+      "search_terms": [
+        "What was the July 19 sermon about?",
+        "What did Geoff preach from Habakkuk?",
+        "What is God is Up to Something about?",
+        "What did Geoff say about waiting on God?",
+        "What did the July 19 message say about God’s timing?",
+        "What did Geoff say about where God is taking Urbancrest?",
+        "God Do Something sermon"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "https://notes.subsplash.com/fill-in/view?page=rkgz7rSEfe",
+        "action_link.messages"
+      ],
+      "status": "published",
+      "answer_guidance": "This is a historical summary of a specific Urbancrest sermon. Use it for questions about what was preached in this message. The official title, primary Scripture, and outline come from the published fill-in notes; the summary and explanatory detail are condensed from the sermon transcript. Do not use sermon records as the canonical source for Urbancrest doctrine, policy, current schedules, or current ministry information when a dedicated knowledge article exists.",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "sermon_content"
+      ],
+      "sermon_date": "2026-07-19",
+      "speaker": "Geoff Prows",
+      "speaker_key": "geoff_prows",
+      "primary_scripture": "Habakkuk 2:1-4",
+      "primary_scripture_translation": "NASB 1995",
+      "scripture": [
+        "Habakkuk 2:1-4",
+        "Habakkuk 1:5",
+        "Psalm 33:20",
+        "Psalm 106:13",
+        "Joshua 23:14"
+      ],
+      "notes_url": "https://notes.subsplash.com/fill-in/view?page=rkgz7rSEfe",
+      "title_source": "fill_in_notes",
+      "outline_source": "fill_in_notes",
+      "primary_scripture_source": "fill_in_notes",
+      "summary_source": "sermon_transcript"
+    },
+    {
+      "id": "sermons.2026_06_14",
+      "record_type": "sermon",
+      "path": "knowledge/sermons/2026/2026-06-14-blueprints-for-blessedness-part-2.md",
+      "title": "God’s Blueprint for Your Blessing",
+      "summary": "Jesus completes the Beatitudes by describing kingdom citizens as merciful, pure in heart, peacemakers, and willing to endure persecution for righteousness. These qualities reveal a life changed by God’s grace and shaped by the values of His kingdom.",
+      "content": "# God’s Blueprint for Your Blessing\n\n**Speaker:** Geoff Prows  \n**Date:** 2026-06-14  \n**Primary Scripture:** Matthew 5:7-12 (NASB 1995)  \n**Series:** Summer on the Mount: Kingdom Living for the Here and Now\n\n## Message Summary\n\nJesus completes the Beatitudes by describing kingdom citizens as merciful, pure in heart, peacemakers, and willing to endure persecution for righteousness. These qualities reveal a life changed by God’s grace and shaped by the values of His kingdom.\n\n## Main Idea\n\nThe blessed life Jesus describes is visible in how His followers treat others: showing mercy, pursuing purity and peace, and remaining faithful when following Christ brings opposition.\n\n## Official Fill-In Outline\n\n### 1. Blessed Are the Pardoning\n\nThose who have received God’s mercy are called to extend mercy and forgiveness to others.\n\n### 2. Blessed Are the Pure in Heart\n\nGod is concerned with the heart, not merely outward religious activity, and calls His people to wholehearted devotion.\n\n### 3. Blessed Are the Peacemakers\n\nKingdom citizens actively pursue peace and reflect the character of their heavenly Father.\n\n### 4. Blessed Are the Persecuted\n\nFollowers of Jesus can remain faithful and rejoice when they suffer for righteousness because their reward is in the kingdom of heaven.\n\n## Supporting Scriptures from Fill-In Notes\n\n- James 2:13\n- James 4:8\n- Matthew 15:19\n- Romans 12:18\n- Ephesians 2:14\n- 2 Timothy 3:12\n- 1 Peter 4:14\n\n## Fill-In Notes\n\n[Open the fill-in notes for this message](https://notes.subsplash.com/fill-in/view?page=Sy9J6qd-fe)\n\n## Topics\n\n- Beatitudes\n- mercy\n- forgiveness\n- pure in heart\n- peacemakers\n- persecution\n- kingdom living",
+      "priority": 86,
+      "category": [
+        "sermon"
+      ],
+      "intents": [
+        "sermon",
+        "sermon_content",
+        "messages",
+        "preaching",
+        "sermon_notes"
+      ],
+      "tags": [
+        "Beatitudes",
+        "mercy",
+        "forgiveness",
+        "pure in heart",
+        "peacemakers",
+        "persecution",
+        "kingdom living"
+      ],
+      "search_terms": [
+        "What was the June 14 sermon about?",
+        "What did Geoff preach on June 14?",
+        "What is God’s Blueprint for Your Blessing about?",
+        "What did the sermon say about mercy?",
+        "What did Geoff say about being pure in heart?",
+        "What did the sermon say about peacemakers?",
+        "What did the sermon say about persecution?",
+        "Blueprints for Blessedness Part 2"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "https://notes.subsplash.com/fill-in/view?page=Sy9J6qd-fe",
+        "action_link.messages"
+      ],
+      "status": "published",
+      "answer_guidance": "This is a historical summary of a specific Urbancrest sermon. Use it for questions about what was preached in this message. The official title, primary Scripture, and outline come from the published fill-in notes; the summary and explanatory detail are condensed from the sermon transcript. Do not use sermon records as the canonical source for Urbancrest doctrine, policy, current schedules, or current ministry information when a dedicated knowledge article exists.",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "sermon_content"
+      ],
+      "sermon_date": "2026-06-14",
+      "speaker": "Geoff Prows",
+      "speaker_key": "geoff_prows",
+      "series_id": "summer_on_the_mount_2026",
+      "series_title": "Summer on the Mount: Kingdom Living for the Here and Now",
+      "primary_scripture": "Matthew 5:7-12",
+      "primary_scripture_translation": "NASB 1995",
+      "scripture": [
+        "Matthew 5:7-12",
+        "James 2:13",
+        "James 4:8",
+        "Matthew 15:19",
+        "Romans 12:18",
+        "Ephesians 2:14",
+        "2 Timothy 3:12",
+        "1 Peter 4:14"
+      ],
+      "notes_url": "https://notes.subsplash.com/fill-in/view?page=Sy9J6qd-fe",
+      "title_source": "fill_in_notes",
+      "outline_source": "fill_in_notes",
+      "primary_scripture_source": "fill_in_notes",
+      "summary_source": "sermon_transcript"
+    },
+    {
+      "id": "sermons.2026_07_12",
+      "record_type": "sermon",
+      "path": "knowledge/sermons/2026/2026-07-12-radical-purity.md",
+      "title": "Radical Purity",
+      "summary": "Jesus teaches that sexual sin is rooted not only in outward behavior but also in the desires of the heart. Believers are called to guard their hearts, protect their eyes, fill their minds with God’s Word, and take decisive steps away from temptation.",
+      "content": "# Radical Purity\n\n**Speaker:** Geoff Prows  \n**Date:** 2026-07-12  \n**Primary Scripture:** Matthew 5:27-30 (NASB 1995)  \n**Series:** Summer on the Mount: Kingdom Living for the Here and Now\n\n## Message Summary\n\nJesus teaches that sexual sin is rooted not only in outward behavior but also in the desires of the heart. Believers are called to guard their hearts, protect their eyes, fill their minds with God’s Word, and take decisive steps away from temptation.\n\n## Main Idea\n\nRadical purity begins in the heart and is pursued by treasuring God’s Word, guarding what we look at, and refusing to make room for temptation.\n\n## Official Fill-In Outline\n\n### 1. Guard Your Heart\n\nBecause sin begins within, believers should diligently guard their hearts.\n\n**1. Memorize the Word**  \nTreasuring Scripture in the heart helps shape desires and resist sin.\n\n**2. Meditate on the Word**  \nRegular meditation on God’s Word directs the mind toward His ways.\n\n### 2. Protect Your Eyes\n\nJesus calls His followers to take seriously what they continually look at and allow to feed sinful desire.\n\n**1. Stay Away from Temptations**  \nPurity requires decisive action to flee temptation rather than make provision for it.\n\n## Supporting Scriptures from Fill-In Notes\n\n- Mark 7:21-23\n- Psalm 119:11\n- Psalm 119:15\n- Genesis 3:6\n- 2 Samuel 11:2\n- Job 31:1\n- James 1:15\n- 2 Timothy 2:22\n\n## Fill-In Notes\n\n[Open the fill-in notes for this message](https://notes.subsplash.com/fill-in/view?page=S1T3kXaQGx)\n\n## Topics\n\n- purity\n- sexual purity\n- lust\n- temptation\n- marriage\n- heart\n- eyes\n- Scripture\n- radical righteousness",
+      "priority": 86,
+      "category": [
+        "sermon"
+      ],
+      "intents": [
+        "sermon",
+        "sermon_content",
+        "messages",
+        "preaching",
+        "sermon_notes"
+      ],
+      "tags": [
+        "purity",
+        "sexual purity",
+        "lust",
+        "temptation",
+        "marriage",
+        "heart",
+        "eyes",
+        "Scripture",
+        "radical righteousness"
+      ],
+      "search_terms": [
+        "What was the July 12 sermon about?",
+        "What did Geoff preach on July 12?",
+        "What is Radical Purity about?",
+        "What did Geoff say about lust?",
+        "What did the sermon say about guarding your heart?",
+        "What did the sermon say about protecting your eyes?",
+        "What did Geoff say about temptation?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "https://notes.subsplash.com/fill-in/view?page=S1T3kXaQGx",
+        "action_link.messages"
+      ],
+      "status": "published",
+      "answer_guidance": "This is a historical summary of a specific Urbancrest sermon. Use it for questions about what was preached in this message. The official title, primary Scripture, and outline come from the published fill-in notes; the summary and explanatory detail are condensed from the sermon transcript. Do not use sermon records as the canonical source for Urbancrest doctrine, policy, current schedules, or current ministry information when a dedicated knowledge article exists.",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "sermon_content"
+      ],
+      "sermon_date": "2026-07-12",
+      "speaker": "Geoff Prows",
+      "speaker_key": "geoff_prows",
+      "series_id": "summer_on_the_mount_2026",
+      "series_title": "Summer on the Mount: Kingdom Living for the Here and Now",
+      "primary_scripture": "Matthew 5:27-30",
+      "primary_scripture_translation": "NASB 1995",
+      "scripture": [
+        "Matthew 5:27-30",
+        "Mark 7:21-23",
+        "Psalm 119:11",
+        "Psalm 119:15",
+        "Genesis 3:6",
+        "2 Samuel 11:2",
+        "Job 31:1",
+        "James 1:15",
+        "2 Timothy 2:22"
+      ],
+      "notes_url": "https://notes.subsplash.com/fill-in/view?page=S1T3kXaQGx",
+      "title_source": "fill_in_notes",
+      "outline_source": "fill_in_notes",
+      "primary_scripture_source": "fill_in_notes",
+      "summary_source": "sermon_transcript"
+    },
+    {
+      "id": "sermons.2026_07_05",
+      "record_type": "sermon",
+      "path": "knowledge/sermons/2026/2026-07-05-radical-righteousness-anger-and-reconciliation.md",
+      "title": "Radical Righteousness and Kingdom Relationships",
+      "summary": "Jesus moves beyond the outward prohibition of murder to expose sinful anger, contempt, and destructive speech in the heart. He then calls His followers to take broken relationships seriously by pursuing reconciliation with urgency.",
+      "content": "# Radical Righteousness and Kingdom Relationships\n\n**Speaker:** Geoff Prows  \n**Date:** 2026-07-05  \n**Primary Scripture:** Matthew 5:21-26 (NASB 1995)  \n**Series:** Summer on the Mount: Kingdom Living for the Here and Now\n\n## Message Summary\n\nJesus moves beyond the outward prohibition of murder to expose sinful anger, contempt, and destructive speech in the heart. He then calls His followers to take broken relationships seriously by pursuing reconciliation with urgency.\n\n## Main Idea\n\nRadical righteousness reaches the heart and our relationships. Jesus calls believers to address sinful attitudes and to pursue reconciliation rather than settling for outward religious obedience.\n\n## Official Fill-In Outline\n\n### 1. We Must Be Aware of Our Sinful Attitudes Not Just Sinful Actions\n\nJesus exposes heart-level anger and contempt, showing that righteousness involves more than avoiding outward murder.\n\n### 2. God Desires Reconciliation Before Worship\n\nWhen we know a relationship is broken, Jesus calls us to pursue reconciliation rather than hide behind religious activity.\n\n### 3. There Must Be an Urgency in Reconciliation\n\nBelievers should act quickly and do what depends on them to seek peace and right relationships.\n\n## Supporting Scriptures from Fill-In Notes\n\n- Mark 3:5\n- Mark 7:21-23\n- Matthew 5:23-24\n- Romans 5:10\n- Matthew 5:25\n- John 13:35\n\n## Fill-In Notes\n\n[Open the fill-in notes for this message](https://notes.subsplash.com/fill-in/view?page=SkDYzcZQzx)\n\n## Topics\n\n- anger\n- reconciliation\n- forgiveness\n- heart\n- murder\n- gossip\n- relationships\n- radical righteousness\n- kingdom relationships",
+      "priority": 86,
+      "category": [
+        "sermon"
+      ],
+      "intents": [
+        "sermon",
+        "sermon_content",
+        "messages",
+        "preaching",
+        "sermon_notes"
+      ],
+      "tags": [
+        "anger",
+        "reconciliation",
+        "forgiveness",
+        "heart",
+        "murder",
+        "gossip",
+        "relationships",
+        "radical righteousness",
+        "kingdom relationships"
+      ],
+      "search_terms": [
+        "What was the July 5 sermon about?",
+        "What did Geoff preach on July 5?",
+        "What is Radical Righteousness and Kingdom Relationships about?",
+        "What did Geoff say about anger?",
+        "What did the sermon say about reconciliation?",
+        "Why did Geoff say reconciliation should happen before worship?",
+        "Radical Righteousness Anger and Reconciliation"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "https://notes.subsplash.com/fill-in/view?page=SkDYzcZQzx",
+        "action_link.messages"
+      ],
+      "status": "published",
+      "answer_guidance": "This is a historical summary of a specific Urbancrest sermon. Use it for questions about what was preached in this message. The official title, primary Scripture, and outline come from the published fill-in notes; the summary and explanatory detail are condensed from the sermon transcript. Do not use sermon records as the canonical source for Urbancrest doctrine, policy, current schedules, or current ministry information when a dedicated knowledge article exists.",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "sermon_content"
+      ],
+      "sermon_date": "2026-07-05",
+      "speaker": "Geoff Prows",
+      "speaker_key": "geoff_prows",
+      "series_id": "summer_on_the_mount_2026",
+      "series_title": "Summer on the Mount: Kingdom Living for the Here and Now",
+      "primary_scripture": "Matthew 5:21-26",
+      "primary_scripture_translation": "NASB 1995",
+      "scripture": [
+        "Matthew 5:21-26",
+        "Mark 3:5",
+        "Mark 7:21-23",
+        "Matthew 5:23-24",
+        "Romans 5:10",
+        "Matthew 5:25",
+        "John 13:35"
+      ],
+      "notes_url": "https://notes.subsplash.com/fill-in/view?page=SkDYzcZQzx",
+      "title_source": "fill_in_notes",
+      "outline_source": "fill_in_notes",
+      "primary_scripture_source": "fill_in_notes",
+      "summary_source": "sermon_transcript"
+    },
+    {
+      "id": "sermons.2026_07_26",
+      "record_type": "sermon",
+      "path": "knowledge/sermons/2026/2026-07-26-radical-truthfulness-and-resisting-revenge.md",
+      "title": "Truthfulness and Revenge",
+      "summary": "Jesus calls kingdom citizens to radical truthfulness and radical treatment of others. Their words should be dependable without extra oaths, and their response to insult, mistreatment, and personal wrong should reflect grace rather than revenge.",
+      "content": "# Truthfulness and Revenge\n\n**Speaker:** Geoff Prows  \n**Date:** 2026-07-26  \n**Primary Scripture:** Matthew 5:33-42 (NASB 1995)  \n**Series:** Summer on the Mount: Kingdom Living for the Here and Now\n\n## Message Summary\n\nJesus calls kingdom citizens to radical truthfulness and radical treatment of others. Their words should be dependable without extra oaths, and their response to insult, mistreatment, and personal wrong should reflect grace rather than revenge.\n\n## Main Idea\n\nChristlike righteousness shapes both our speech and our treatment of others: tell the truth with integrity and respond to wrong with grace instead of retaliation.\n\n## Official Fill-In Outline\n\n### 1. Radical Truthfulness to Others\n\nKingdom citizens should be so consistently truthful that their word does not need extra oaths, promises, or guarantees.\n\n### 2. Radical Treatment of Others\n\nJesus rejects personal revenge and calls His followers to respond to insult, loss, demands, and need in a way that reflects grace and overcomes evil with good.\n\n## Supporting Scriptures from Fill-In Notes\n\n- Deuteronomy 10:20\n- Numbers 30:2\n- James 5:12\n- Romans 12:19\n- 1 Thessalonians 5:14\n- Romans 12:20-21\n- Titus 3:5-7\n\n## Fill-In Notes\n\n[Open the fill-in notes for this message](https://notes.subsplash.com/fill-in/view?page=BkuIyRkHze)\n\n## Topics\n\n- truthfulness\n- honesty\n- oaths\n- revenge\n- retaliation\n- grace\n- extra mile\n- radical righteousness",
+      "priority": 86,
+      "category": [
+        "sermon"
+      ],
+      "intents": [
+        "sermon",
+        "sermon_content",
+        "messages",
+        "preaching",
+        "sermon_notes"
+      ],
+      "tags": [
+        "truthfulness",
+        "honesty",
+        "oaths",
+        "revenge",
+        "retaliation",
+        "grace",
+        "extra mile",
+        "radical righteousness"
+      ],
+      "search_terms": [
+        "What was the July 26 sermon about?",
+        "What did Geoff preach on July 26?",
+        "What is Truthfulness and Revenge about?",
+        "What did Geoff say about telling the truth?",
+        "What did the sermon say about revenge?",
+        "What does let your yes be yes mean?",
+        "What did the sermon say about turning the other cheek?",
+        "What did the sermon say about going the extra mile?",
+        "Radical Truthfulness and Resisting Revenge"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "https://notes.subsplash.com/fill-in/view?page=BkuIyRkHze",
+        "action_link.messages"
+      ],
+      "status": "published",
+      "answer_guidance": "This is a historical summary of a specific Urbancrest sermon. Use it for questions about what was preached in this message. The official title, primary Scripture, and outline come from the published fill-in notes; the summary and explanatory detail are condensed from the sermon transcript. Do not use sermon records as the canonical source for Urbancrest doctrine, policy, current schedules, or current ministry information when a dedicated knowledge article exists.",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "sermon_content"
+      ],
+      "sermon_date": "2026-07-26",
+      "speaker": "Geoff Prows",
+      "speaker_key": "geoff_prows",
+      "series_id": "summer_on_the_mount_2026",
+      "series_title": "Summer on the Mount: Kingdom Living for the Here and Now",
+      "primary_scripture": "Matthew 5:33-42",
+      "primary_scripture_translation": "NASB 1995",
+      "scripture": [
+        "Matthew 5:33-42",
+        "Deuteronomy 10:20",
+        "Numbers 30:2",
+        "James 5:12",
+        "Romans 12:19",
+        "1 Thessalonians 5:14",
+        "Romans 12:20-21",
+        "Titus 3:5-7"
+      ],
+      "notes_url": "https://notes.subsplash.com/fill-in/view?page=BkuIyRkHze",
+      "title_source": "fill_in_notes",
+      "outline_source": "fill_in_notes",
+      "primary_scripture_source": "fill_in_notes",
+      "summary_source": "sermon_transcript"
+    },
+    {
+      "id": "sermons.2026_08_02",
+      "record_type": "sermon",
+      "path": "knowledge/sermons/2026/2026-08-02-love-your-enemies.md",
+      "title": "What To Do With People Who Do Not Love You Back",
+      "summary": "Jesus commands His followers to love their enemies and pray for those who persecute them. This countercultural response is a continual choice that reflects the character of the heavenly Father and sets kingdom citizens apart from the world.",
+      "content": "# What To Do With People Who Do Not Love You Back\n\n**Speaker:** Geoff Prows  \n**Date:** 2026-08-02  \n**Primary Scripture:** Matthew 5:43-48 (NASB 1995)  \n**Series:** Summer on the Mount: Kingdom Living for the Here and Now\n\n## Message Summary\n\nJesus commands His followers to love their enemies and pray for those who persecute them. This countercultural response is a continual choice that reflects the character of the heavenly Father and sets kingdom citizens apart from the world.\n\n## Main Idea\n\nKingdom citizens do more than love people who love them back. By God’s grace, they continually love enemies and consistently pray for those who mistreat them.\n\n## Official Fill-In Outline\n\n### 1. Love Continually Those Who Do Not Love You\n\nJesus commands ongoing love toward enemies as a choice rooted in God’s character rather than merely an emotion.\n\n### 2. Pray Consistently for Those Who Do Not Love You\n\nFollowers of Jesus are called to bring those who mistreat or persecute them before God in prayer.\n\n**1. We Show We Are Children of God**  \nLoving enemies reflects a family resemblance to the Father, who shows goodness to the righteous and unrighteous.\n\n**2. We Set Ourselves Apart from the World**  \nKingdom love goes beyond natural reciprocity and responds differently than the world.\n\n## Supporting Scriptures from Fill-In Notes\n\n- Luke 6:27-28\n- Matthew 5:45\n- Matthew 5:46-47\n- 1 John 3:2\n- Romans 5:8-10\n\n## Fill-In Notes\n\n[Open the fill-in notes for this message](https://notes.subsplash.com/fill-in/view?page=Syw90ydSMl)\n\n## Topics\n\n- love your enemies\n- enemies\n- prayer\n- persecution\n- agape love\n- children of God\n- Christian character\n- radical righteousness\n- kingdom living",
+      "priority": 86,
+      "category": [
+        "sermon"
+      ],
+      "intents": [
+        "sermon",
+        "sermon_content",
+        "messages",
+        "preaching",
+        "sermon_notes"
+      ],
+      "tags": [
+        "love your enemies",
+        "enemies",
+        "prayer",
+        "persecution",
+        "agape love",
+        "children of God",
+        "Christian character",
+        "radical righteousness",
+        "kingdom living"
+      ],
+      "search_terms": [
+        "What was the August 2 sermon about?",
+        "What did Geoff preach on August 2?",
+        "What is What To Do With People Who Do Not Love You Back about?",
+        "What did Geoff say about loving your enemies?",
+        "What did the sermon say about praying for enemies?",
+        "How should Christians treat people who hate them?",
+        "What does Matthew 5:44 mean in the sermon?",
+        "Love Your Enemies sermon"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "https://notes.subsplash.com/fill-in/view?page=Syw90ydSMl",
+        "action_link.messages"
+      ],
+      "status": "published",
+      "answer_guidance": "This is a historical summary of a specific Urbancrest sermon. Use it for questions about what was preached in this message. The official title, primary Scripture, and outline come from the published fill-in notes; the summary and explanatory detail are condensed from the sermon transcript. Do not use sermon records as the canonical source for Urbancrest doctrine, policy, current schedules, or current ministry information when a dedicated knowledge article exists.",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "sermon_content"
+      ],
+      "sermon_date": "2026-08-02",
+      "speaker": "Geoff Prows",
+      "speaker_key": "geoff_prows",
+      "series_id": "summer_on_the_mount_2026",
+      "series_title": "Summer on the Mount: Kingdom Living for the Here and Now",
+      "primary_scripture": "Matthew 5:43-48",
+      "primary_scripture_translation": "NASB 1995",
+      "scripture": [
+        "Matthew 5:43-48",
+        "Luke 6:27-28",
+        "Matthew 5:45",
+        "Matthew 5:46-47",
+        "1 John 3:2",
+        "Romans 5:8-10"
+      ],
+      "notes_url": "https://notes.subsplash.com/fill-in/view?page=Syw90ydSMl",
+      "title_source": "fill_in_notes",
+      "outline_source": "fill_in_notes",
+      "primary_scripture_source": "fill_in_notes",
+      "summary_source": "sermon_transcript"
+    },
+    {
       "id": "beliefs.ordinances",
       "record_type": "knowledge",
       "path": "knowledge/beliefs/baptism-lords-supper.md",
@@ -10327,7 +11161,11 @@
         "church_center.connect_card"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "Matthew 28:19",
+        "1 Corinthians 11:23-26"
+      ]
     },
     {
       "id": "beliefs.education",
@@ -10358,7 +11196,11 @@
         "church_center.connect_card"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "Deuteronomy 6:6-7",
+        "2 Timothy 2:15"
+      ]
     },
     {
       "id": "beliefs.social-order",
@@ -10389,7 +11231,11 @@
         "church_center.connect_card"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "Micah 6:8",
+        "Matthew 22:37-39"
+      ]
     },
     {
       "id": "beliefs.cooperation",
@@ -10420,7 +11266,11 @@
         "church_center.connect_card"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "Philippians 1:5",
+        "3 John 5-8"
+      ]
     },
     {
       "id": "beliefs.evangelism-missions",
@@ -10451,7 +11301,11 @@
         "church_center.connect_card"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "Matthew 28:18-20",
+        "Acts 1:8"
+      ]
     },
     {
       "id": "beliefs.god",
@@ -10482,7 +11336,11 @@
         "church_center.connect_card"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "Deuteronomy 6:4",
+        "Matthew 28:19"
+      ]
     },
     {
       "id": "beliefs.humanity",
@@ -10513,7 +11371,11 @@
         "church_center.connect_card"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "Genesis 1:26-27",
+        "Romans 3:23"
+      ]
     },
     {
       "id": "beliefs.peace-war",
@@ -10544,7 +11406,11 @@
         "church_center.connect_card"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "Matthew 5:9,44",
+        "Romans 12:18"
+      ]
     },
     {
       "id": "beliefs.religious-liberty",
@@ -10575,7 +11441,11 @@
         "church_center.connect_card"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "Matthew 22:21",
+        "Acts 5:29"
+      ]
     },
     {
       "id": "beliefs.salvation",
@@ -10606,7 +11476,11 @@
         "church_center.connect_card"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "Ephesians 2:8-9",
+        "Romans 10:9-10"
+      ]
     },
     {
       "id": "beliefs.stewardship",
@@ -10637,7 +11511,11 @@
         "church_center.connect_card"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "2 Corinthians 9:6-7",
+        "1 Peter 4:10"
+      ]
     },
     {
       "id": "beliefs.scripture",
@@ -10668,7 +11546,11 @@
         "church_center.connect_card"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "2 Timothy 3:16-17",
+        "2 Peter 1:20-21"
+      ]
     },
     {
       "id": "beliefs.church",
@@ -10699,7 +11581,11 @@
         "church_center.connect_card"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "Acts 2:41-47",
+        "Colossians 1:18"
+      ]
     },
     {
       "id": "beliefs.family",
@@ -10730,7 +11616,12 @@
         "church_center.connect_card"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "Genesis 2:24",
+        "Ephesians 5:21-33",
+        "6:1-4"
+      ]
     },
     {
       "id": "beliefs.last-things",
@@ -10761,7 +11652,11 @@
         "church_center.connect_card"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "Matthew 25:31-46",
+        "Revelation 21:1-5"
+      ]
     },
     {
       "id": "beliefs.kingdom",
@@ -10792,7 +11687,11 @@
         "church_center.connect_card"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "Matthew 6:10,33",
+        "Revelation 11:15"
+      ]
     },
     {
       "id": "beliefs.lords-day",
@@ -10823,7 +11722,11 @@
         "church_center.connect_card"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "Acts 20:7",
+        "Revelation 1:10"
+      ]
     },
     {
       "id": "ministries.students.grades",
@@ -10960,7 +11863,11 @@
         "church_center.connect_card"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "John 10:27-29",
+        "Philippians 1:6"
+      ]
     },
     {
       "id": "ministries.guest_services.beverages",
@@ -11265,7 +12172,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/229172206",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3763678/medium_image-1784563400067.jpeg",
       "knowledge_file": "knowledge/events/generated/2027-04-24-3v3-basketball-tournament-d9f0d6.md",
-      "chronological_rank": 117,
+      "chronological_rank": 118,
       "routine_schedule_occurrence": false
     },
     {
@@ -11332,7 +12239,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/166086980",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576",
       "knowledge_file": "knowledge/events/generated/2026-09-05-men-s-breakfast-336f62.md",
-      "chronological_rank": 30,
+      "chronological_rank": 31,
       "routine_schedule_occurrence": false
     },
     {
@@ -11399,7 +12306,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/168792298",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576",
       "knowledge_file": "knowledge/events/generated/2026-10-03-men-s-breakfast-dec2d7.md",
-      "chronological_rank": 45,
+      "chronological_rank": 46,
       "routine_schedule_occurrence": false
     },
     {
@@ -11466,7 +12373,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/171450066",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576",
       "knowledge_file": "knowledge/events/generated/2026-11-07-men-s-breakfast-b349ea.md",
-      "chronological_rank": 59,
+      "chronological_rank": 60,
       "routine_schedule_occurrence": false
     },
     {
@@ -11533,7 +12440,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/173559224",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576",
       "knowledge_file": "knowledge/events/generated/2026-12-05-men-s-breakfast-549ccc.md",
-      "chronological_rank": 69,
+      "chronological_rank": 70,
       "routine_schedule_occurrence": false
     },
     {
@@ -11600,7 +12507,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/175505238",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576",
       "knowledge_file": "knowledge/events/generated/2027-01-02-men-s-breakfast-3d2c83.md",
-      "chronological_rank": 79,
+      "chronological_rank": 80,
       "routine_schedule_occurrence": false
     },
     {
@@ -11667,7 +12574,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/179599397",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576",
       "knowledge_file": "knowledge/events/generated/2027-02-06-men-s-breakfast-fa0b3e.md",
-      "chronological_rank": 91,
+      "chronological_rank": 92,
       "routine_schedule_occurrence": false
     },
     {
@@ -11734,7 +12641,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/182177829",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576",
       "knowledge_file": "knowledge/events/generated/2027-03-06-men-s-breakfast-b236b5.md",
-      "chronological_rank": 100,
+      "chronological_rank": 101,
       "routine_schedule_occurrence": false
     },
     {
@@ -11801,7 +12708,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/184574784",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576",
       "knowledge_file": "knowledge/events/generated/2027-04-03-men-s-breakfast-069bd4.md",
-      "chronological_rank": 109,
+      "chronological_rank": 110,
       "routine_schedule_occurrence": false
     },
     {
@@ -11868,7 +12775,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/186694422",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576",
       "knowledge_file": "knowledge/events/generated/2027-05-01-men-s-breakfast-d1cfba.md",
-      "chronological_rank": 120,
+      "chronological_rank": 121,
       "routine_schedule_occurrence": false
     },
     {
@@ -11935,7 +12842,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/189635733",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576",
       "knowledge_file": "knowledge/events/generated/2027-06-05-men-s-breakfast-456a52.md",
-      "chronological_rank": 131,
+      "chronological_rank": 132,
       "routine_schedule_occurrence": false
     },
     {
@@ -12002,7 +12909,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/191939841",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576",
       "knowledge_file": "knowledge/events/generated/2027-07-03-men-s-breakfast-7dcbd4.md",
-      "chronological_rank": 140,
+      "chronological_rank": 141,
       "routine_schedule_occurrence": false
     },
     {
@@ -12068,7 +12975,7 @@
       "planning_center_event_time_id": "31943802",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230675507",
       "knowledge_file": "knowledge/events/generated/2026-08-17-mexico-missions-meeting-bef8bf.md",
-      "chronological_rank": 12,
+      "chronological_rank": 13,
       "routine_schedule_occurrence": false
     },
     {
@@ -12137,7 +13044,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/228745978",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3755569/medium_image-1784126802561.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-10-04-night-of-worship-choir-2a753e.md",
-      "chronological_rank": 47,
+      "chronological_rank": 48,
       "routine_schedule_occurrence": false
     },
     {
@@ -12203,7 +13110,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/163127032",
       "knowledge_file": "knowledge/events/generated/2026-08-09-p-u-r-s-u-e-9d1d2c.md",
-      "chronological_rank": 4,
+      "chronological_rank": 5,
       "routine_schedule_occurrence": false
     },
     {
@@ -12269,7 +13176,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/163868048",
       "knowledge_file": "knowledge/events/generated/2026-08-16-p-u-r-s-u-e-27cc47.md",
-      "chronological_rank": 9,
+      "chronological_rank": 10,
       "routine_schedule_occurrence": false
     },
     {
@@ -12335,7 +13242,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/164649170",
       "knowledge_file": "knowledge/events/generated/2026-08-23-p-u-r-s-u-e-db0b00.md",
-      "chronological_rank": 17,
+      "chronological_rank": 18,
       "routine_schedule_occurrence": false
     },
     {
@@ -12401,7 +13308,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/165474589",
       "knowledge_file": "knowledge/events/generated/2026-08-30-p-u-r-s-u-e-63faac.md",
-      "chronological_rank": 23,
+      "chronological_rank": 24,
       "routine_schedule_occurrence": false
     },
     {
@@ -12467,7 +13374,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/166271990",
       "knowledge_file": "knowledge/events/generated/2026-09-06-p-u-r-s-u-e-7f42b9.md",
-      "chronological_rank": 31,
+      "chronological_rank": 32,
       "routine_schedule_occurrence": false
     },
     {
@@ -12533,7 +13440,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/167074214",
       "knowledge_file": "knowledge/events/generated/2026-09-13-p-u-r-s-u-e-300fb0.md",
-      "chronological_rank": 37,
+      "chronological_rank": 38,
       "routine_schedule_occurrence": false
     },
     {
@@ -12599,7 +13506,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/167708212",
       "knowledge_file": "knowledge/events/generated/2026-09-20-p-u-r-s-u-e-f8f18d.md",
-      "chronological_rank": 40,
+      "chronological_rank": 41,
       "routine_schedule_occurrence": false
     },
     {
@@ -12665,7 +13572,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/168372882",
       "knowledge_file": "knowledge/events/generated/2026-09-27-p-u-r-s-u-e-724217.md",
-      "chronological_rank": 42,
+      "chronological_rank": 43,
       "routine_schedule_occurrence": false
     },
     {
@@ -12731,7 +13638,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/168914339",
       "knowledge_file": "knowledge/events/generated/2026-10-04-p-u-r-s-u-e-e5c34f.md",
-      "chronological_rank": 46,
+      "chronological_rank": 47,
       "routine_schedule_occurrence": false
     },
     {
@@ -12797,7 +13704,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/169483179",
       "knowledge_file": "knowledge/events/generated/2026-10-11-p-u-r-s-u-e-8f8f87.md",
-      "chronological_rank": 49,
+      "chronological_rank": 50,
       "routine_schedule_occurrence": false
     },
     {
@@ -12863,7 +13770,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/169990121",
       "knowledge_file": "knowledge/events/generated/2026-10-18-p-u-r-s-u-e-2350e7.md",
-      "chronological_rank": 53,
+      "chronological_rank": 54,
       "routine_schedule_occurrence": false
     },
     {
@@ -12929,7 +13836,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/170494272",
       "knowledge_file": "knowledge/events/generated/2026-10-25-p-u-r-s-u-e-3a39cd.md",
-      "chronological_rank": 55,
+      "chronological_rank": 56,
       "routine_schedule_occurrence": false
     },
     {
@@ -12995,7 +13902,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/171026771",
       "knowledge_file": "knowledge/events/generated/2026-11-01-p-u-r-s-u-e-96a55e.md",
-      "chronological_rank": 57,
+      "chronological_rank": 58,
       "routine_schedule_occurrence": false
     },
     {
@@ -13061,7 +13968,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/171522665",
       "knowledge_file": "knowledge/events/generated/2026-11-08-p-u-r-s-u-e-4c1a4d.md",
-      "chronological_rank": 60,
+      "chronological_rank": 61,
       "routine_schedule_occurrence": false
     },
     {
@@ -13127,7 +14034,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/172162011",
       "knowledge_file": "knowledge/events/generated/2026-11-15-p-u-r-s-u-e-b86e1d.md",
-      "chronological_rank": 63,
+      "chronological_rank": 64,
       "routine_schedule_occurrence": false
     },
     {
@@ -13193,7 +14100,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/172745994",
       "knowledge_file": "knowledge/events/generated/2026-11-22-p-u-r-s-u-e-c3d97b.md",
-      "chronological_rank": 65,
+      "chronological_rank": 66,
       "routine_schedule_occurrence": false
     },
     {
@@ -13259,7 +14166,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/173125610",
       "knowledge_file": "knowledge/events/generated/2026-11-29-p-u-r-s-u-e-80f80e.md",
-      "chronological_rank": 67,
+      "chronological_rank": 68,
       "routine_schedule_occurrence": false
     },
     {
@@ -13325,7 +14232,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/173665460",
       "knowledge_file": "knowledge/events/generated/2026-12-06-p-u-r-s-u-e-e5b958.md",
-      "chronological_rank": 70,
+      "chronological_rank": 71,
       "routine_schedule_occurrence": false
     },
     {
@@ -13391,7 +14298,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/174228981",
       "knowledge_file": "knowledge/events/generated/2026-12-13-p-u-r-s-u-e-e9bfa2.md",
-      "chronological_rank": 73,
+      "chronological_rank": 74,
       "routine_schedule_occurrence": false
     },
     {
@@ -13457,7 +14364,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/174858350",
       "knowledge_file": "knowledge/events/generated/2026-12-20-p-u-r-s-u-e-0fd347.md",
-      "chronological_rank": 75,
+      "chronological_rank": 76,
       "routine_schedule_occurrence": false
     },
     {
@@ -13523,7 +14430,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/175168854",
       "knowledge_file": "knowledge/events/generated/2026-12-27-p-u-r-s-u-e-440985.md",
-      "chronological_rank": 77,
+      "chronological_rank": 78,
       "routine_schedule_occurrence": false
     },
     {
@@ -13589,7 +14496,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/175628417",
       "knowledge_file": "knowledge/events/generated/2027-01-03-p-u-r-s-u-e-b9a311.md",
-      "chronological_rank": 80,
+      "chronological_rank": 81,
       "routine_schedule_occurrence": false
     },
     {
@@ -13655,7 +14562,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/176633356",
       "knowledge_file": "knowledge/events/generated/2027-01-10-p-u-r-s-u-e-573975.md",
-      "chronological_rank": 82,
+      "chronological_rank": 83,
       "routine_schedule_occurrence": false
     },
     {
@@ -13721,7 +14628,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/177521375",
       "knowledge_file": "knowledge/events/generated/2027-01-17-p-u-r-s-u-e-849556.md",
-      "chronological_rank": 84,
+      "chronological_rank": 85,
       "routine_schedule_occurrence": false
     },
     {
@@ -13787,7 +14694,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/178227937",
       "knowledge_file": "knowledge/events/generated/2027-01-24-p-u-r-s-u-e-696271.md",
-      "chronological_rank": 86,
+      "chronological_rank": 87,
       "routine_schedule_occurrence": false
     },
     {
@@ -13853,7 +14760,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/178993061",
       "knowledge_file": "knowledge/events/generated/2027-01-31-p-u-r-s-u-e-0ad28e.md",
-      "chronological_rank": 89,
+      "chronological_rank": 90,
       "routine_schedule_occurrence": false
     },
     {
@@ -13919,7 +14826,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/179714952",
       "knowledge_file": "knowledge/events/generated/2027-02-07-p-u-r-s-u-e-5d7610.md",
-      "chronological_rank": 92,
+      "chronological_rank": 93,
       "routine_schedule_occurrence": false
     },
     {
@@ -13985,7 +14892,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/180379778",
       "knowledge_file": "knowledge/events/generated/2027-02-14-p-u-r-s-u-e-b0cdee.md",
-      "chronological_rank": 94,
+      "chronological_rank": 95,
       "routine_schedule_occurrence": false
     },
     {
@@ -14051,7 +14958,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/181029213",
       "knowledge_file": "knowledge/events/generated/2027-02-21-p-u-r-s-u-e-0f2ef6.md",
-      "chronological_rank": 96,
+      "chronological_rank": 97,
       "routine_schedule_occurrence": false
     },
     {
@@ -14117,7 +15024,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/181712613",
       "knowledge_file": "knowledge/events/generated/2027-02-28-p-u-r-s-u-e-c08e98.md",
-      "chronological_rank": 98,
+      "chronological_rank": 99,
       "routine_schedule_occurrence": false
     },
     {
@@ -14183,7 +15090,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/182308662",
       "knowledge_file": "knowledge/events/generated/2027-03-07-p-u-r-s-u-e-030fbd.md",
-      "chronological_rank": 101,
+      "chronological_rank": 102,
       "routine_schedule_occurrence": false
     },
     {
@@ -14249,7 +15156,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/182961870",
       "knowledge_file": "knowledge/events/generated/2027-03-14-p-u-r-s-u-e-790e5a.md",
-      "chronological_rank": 103,
+      "chronological_rank": 104,
       "routine_schedule_occurrence": false
     },
     {
@@ -14315,7 +15222,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/183553238",
       "knowledge_file": "knowledge/events/generated/2027-03-21-p-u-r-s-u-e-217b95.md",
-      "chronological_rank": 105,
+      "chronological_rank": 106,
       "routine_schedule_occurrence": false
     },
     {
@@ -14381,7 +15288,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/184127574",
       "knowledge_file": "knowledge/events/generated/2027-03-28-p-u-r-s-u-e-b2c788.md",
-      "chronological_rank": 107,
+      "chronological_rank": 108,
       "routine_schedule_occurrence": false
     },
     {
@@ -14447,7 +15354,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/184709692",
       "knowledge_file": "knowledge/events/generated/2027-04-04-p-u-r-s-u-e-2e9727.md",
-      "chronological_rank": 110,
+      "chronological_rank": 111,
       "routine_schedule_occurrence": false
     },
     {
@@ -14513,7 +15420,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/185242407",
       "knowledge_file": "knowledge/events/generated/2027-04-11-p-u-r-s-u-e-93c2dd.md",
-      "chronological_rank": 113,
+      "chronological_rank": 114,
       "routine_schedule_occurrence": false
     },
     {
@@ -14579,7 +15486,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/185783917",
       "knowledge_file": "knowledge/events/generated/2027-04-18-p-u-r-s-u-e-e41c24.md",
-      "chronological_rank": 115,
+      "chronological_rank": 116,
       "routine_schedule_occurrence": false
     },
     {
@@ -14645,7 +15552,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/186242939",
       "knowledge_file": "knowledge/events/generated/2027-04-25-p-u-r-s-u-e-95a8d5.md",
-      "chronological_rank": 118,
+      "chronological_rank": 119,
       "routine_schedule_occurrence": false
     },
     {
@@ -14711,7 +15618,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/186833875",
       "knowledge_file": "knowledge/events/generated/2027-05-02-p-u-r-s-u-e-c4a599.md",
-      "chronological_rank": 121,
+      "chronological_rank": 122,
       "routine_schedule_occurrence": false
     },
     {
@@ -14777,7 +15684,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/187438411",
       "knowledge_file": "knowledge/events/generated/2027-05-09-p-u-r-s-u-e-585e9e.md",
-      "chronological_rank": 123,
+      "chronological_rank": 124,
       "routine_schedule_occurrence": false
     },
     {
@@ -14843,7 +15750,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/187978015",
       "knowledge_file": "knowledge/events/generated/2027-05-16-p-u-r-s-u-e-5b41df.md",
-      "chronological_rank": 125,
+      "chronological_rank": 126,
       "routine_schedule_occurrence": false
     },
     {
@@ -14909,7 +15816,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/188635612",
       "knowledge_file": "knowledge/events/generated/2027-05-23-p-u-r-s-u-e-471aa6.md",
-      "chronological_rank": 127,
+      "chronological_rank": 128,
       "routine_schedule_occurrence": false
     },
     {
@@ -14975,7 +15882,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/189178223",
       "knowledge_file": "knowledge/events/generated/2027-05-30-p-u-r-s-u-e-518e4a.md",
-      "chronological_rank": 129,
+      "chronological_rank": 130,
       "routine_schedule_occurrence": false
     },
     {
@@ -15041,7 +15948,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/189755214",
       "knowledge_file": "knowledge/events/generated/2027-06-06-p-u-r-s-u-e-57106e.md",
-      "chronological_rank": 132,
+      "chronological_rank": 133,
       "routine_schedule_occurrence": false
     },
     {
@@ -15107,7 +16014,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/190366386",
       "knowledge_file": "knowledge/events/generated/2027-06-13-p-u-r-s-u-e-951848.md",
-      "chronological_rank": 134,
+      "chronological_rank": 135,
       "routine_schedule_occurrence": false
     },
     {
@@ -15173,7 +16080,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/190927289",
       "knowledge_file": "knowledge/events/generated/2027-06-20-p-u-r-s-u-e-d091a4.md",
-      "chronological_rank": 136,
+      "chronological_rank": 137,
       "routine_schedule_occurrence": false
     },
     {
@@ -15239,7 +16146,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/191499597",
       "knowledge_file": "knowledge/events/generated/2027-06-27-p-u-r-s-u-e-3a7cb2.md",
-      "chronological_rank": 138,
+      "chronological_rank": 139,
       "routine_schedule_occurrence": false
     },
     {
@@ -15305,7 +16212,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/192039973",
       "knowledge_file": "knowledge/events/generated/2027-07-04-p-u-r-s-u-e-9b16ca.md",
-      "chronological_rank": 141,
+      "chronological_rank": 142,
       "routine_schedule_occurrence": false
     },
     {
@@ -15371,7 +16278,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/192570407",
       "knowledge_file": "knowledge/events/generated/2027-07-11-p-u-r-s-u-e-652bc6.md",
-      "chronological_rank": 143,
+      "chronological_rank": 144,
       "routine_schedule_occurrence": false
     },
     {
@@ -15437,7 +16344,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/193205936",
       "knowledge_file": "knowledge/events/generated/2027-07-18-p-u-r-s-u-e-eb405a.md",
-      "chronological_rank": 145,
+      "chronological_rank": 146,
       "routine_schedule_occurrence": false
     },
     {
@@ -15503,7 +16410,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/193794020",
       "knowledge_file": "knowledge/events/generated/2027-07-25-p-u-r-s-u-e-dbe1c1.md",
-      "chronological_rank": 147,
+      "chronological_rank": 148,
       "routine_schedule_occurrence": false
     },
     {
@@ -15569,7 +16476,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/194487310",
       "knowledge_file": "knowledge/events/generated/2027-08-01-p-u-r-s-u-e-7d9cde.md",
-      "chronological_rank": 149,
+      "chronological_rank": 150,
       "routine_schedule_occurrence": false
     },
     {
@@ -15640,7 +16547,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/221332807",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3609472/medium_image-1776972807689.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-08-08-school-supplies-giveaway-ee30e0.md",
-      "chronological_rank": 2,
+      "chronological_rank": 3,
       "routine_schedule_occurrence": false
     },
     {
@@ -15708,7 +16615,7 @@
       "planning_center_event_time_id": "27323098",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/203958301",
       "knowledge_file": "knowledge/events/generated/2026-12-06-women-s-christmas-event-d6795d.md",
-      "chronological_rank": 71,
+      "chronological_rank": 72,
       "routine_schedule_occurrence": false
     },
     {
@@ -15776,7 +16683,7 @@
       "planning_center_event_time_id": "27323022",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/203958056",
       "knowledge_file": "knowledge/events/generated/2026-09-27-women-s-fall-fest-8698aa.md",
-      "chronological_rank": 43,
+      "chronological_rank": 44,
       "routine_schedule_occurrence": false
     },
     {
@@ -15845,7 +16752,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/227262430",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3726245/medium_image-1782740681323.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-08-12-youth-back-to-school-bash-37ba8f.md",
-      "chronological_rank": 7,
+      "chronological_rank": 8,
       "routine_schedule_occurrence": false
     },
     {
@@ -16060,7 +16967,10 @@
       ],
       "resources": [],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "James 2:1-4"
+      ]
     },
     {
       "id": "faq.serve.membership",
@@ -16090,7 +17000,10 @@
         "church_center.serving"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "1 Peter 4:10"
+      ]
     },
     {
       "id": "faq.prayer",
@@ -16120,7 +17033,10 @@
         "church_center.prayer_request"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "Philippians 4:6"
+      ]
     },
     {
       "id": "faq.groups",
@@ -16150,7 +17066,10 @@
         "church_center.small_groups"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "Hebrews 10:24-25"
+      ]
     },
     {
       "id": "faq.baptism.salvation",
@@ -16178,7 +17097,10 @@
       ],
       "resources": [],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "Ephesians 2:8-9; Romans 10:9-10"
+      ]
     },
     {
       "id": "faq.mission",
@@ -16206,7 +17128,10 @@
       ],
       "resources": [],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "scripture": [
+        "Matthew 28:18-20"
+      ]
     },
     {
       "id": "ministries.care_and_prayer",
@@ -16585,7 +17510,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/227855427",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-08-19-awana-2026-2027-5a3ff2.md",
-      "chronological_rank": 14,
+      "chronological_rank": 15,
       "routine_schedule_occurrence": false
     },
     {
@@ -16658,7 +17583,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/227855428",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-08-26-awana-2026-2027-82128d.md",
-      "chronological_rank": 21,
+      "chronological_rank": 22,
       "routine_schedule_occurrence": false
     },
     {
@@ -16731,7 +17656,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/227855429",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-09-02-awana-2026-2027-b657f3.md",
-      "chronological_rank": 28,
+      "chronological_rank": 29,
       "routine_schedule_occurrence": false
     },
     {
@@ -16804,7 +17729,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/227855430",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-09-09-awana-2026-2027-ca71ea.md",
-      "chronological_rank": 35,
+      "chronological_rank": 36,
       "routine_schedule_occurrence": false
     },
     {
@@ -16873,7 +17798,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122705",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-08-26-wednesday-night-dinner-31bf8a.md",
-      "chronological_rank": 20,
+      "chronological_rank": 21,
       "routine_schedule_occurrence": false
     },
     {
@@ -16942,7 +17867,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122706",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-09-02-wednesday-night-dinner-8cbe52.md",
-      "chronological_rank": 27,
+      "chronological_rank": 28,
       "routine_schedule_occurrence": false
     },
     {
@@ -17011,7 +17936,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122707",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-09-09-wednesday-night-dinner-f2ed46.md",
-      "chronological_rank": 34,
+      "chronological_rank": 35,
       "routine_schedule_occurrence": false
     },
     {
@@ -17080,7 +18005,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122708",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-09-16-wednesday-night-dinner-89e119.md",
-      "chronological_rank": 39,
+      "chronological_rank": 40,
       "routine_schedule_occurrence": false
     },
     {
@@ -17149,7 +18074,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122709",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-09-23-wednesday-night-dinner-c7bf0d.md",
-      "chronological_rank": 41,
+      "chronological_rank": 42,
       "routine_schedule_occurrence": false
     },
     {
@@ -17218,7 +18143,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122710",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-09-30-wednesday-night-dinner-36f49b.md",
-      "chronological_rank": 44,
+      "chronological_rank": 45,
       "routine_schedule_occurrence": false
     },
     {
@@ -17287,7 +18212,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122711",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-10-07-wednesday-night-dinner-9fc5ad.md",
-      "chronological_rank": 48,
+      "chronological_rank": 49,
       "routine_schedule_occurrence": false
     },
     {
@@ -17356,7 +18281,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122712",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-10-14-wednesday-night-dinner-d9103e.md",
-      "chronological_rank": 50,
+      "chronological_rank": 51,
       "routine_schedule_occurrence": false
     },
     {
@@ -17425,7 +18350,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122713",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-10-21-wednesday-night-dinner-0edf1f.md",
-      "chronological_rank": 54,
+      "chronological_rank": 55,
       "routine_schedule_occurrence": false
     },
     {
@@ -17494,7 +18419,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122714",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-10-28-wednesday-night-dinner-acac27.md",
-      "chronological_rank": 56,
+      "chronological_rank": 57,
       "routine_schedule_occurrence": false
     },
     {
@@ -17563,7 +18488,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122715",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-11-04-wednesday-night-dinner-55fdc7.md",
-      "chronological_rank": 58,
+      "chronological_rank": 59,
       "routine_schedule_occurrence": false
     },
     {
@@ -17632,7 +18557,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122716",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-11-11-wednesday-night-dinner-af1c1c.md",
-      "chronological_rank": 61,
+      "chronological_rank": 62,
       "routine_schedule_occurrence": false
     },
     {
@@ -17701,7 +18626,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122717",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-11-18-wednesday-night-dinner-cf53fb.md",
-      "chronological_rank": 64,
+      "chronological_rank": 65,
       "routine_schedule_occurrence": false
     },
     {
@@ -17770,7 +18695,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122718",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-11-25-wednesday-night-dinner-77d08c.md",
-      "chronological_rank": 66,
+      "chronological_rank": 67,
       "routine_schedule_occurrence": false
     },
     {
@@ -17839,7 +18764,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122719",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-12-02-wednesday-night-dinner-809fdf.md",
-      "chronological_rank": 68,
+      "chronological_rank": 69,
       "routine_schedule_occurrence": false
     },
     {
@@ -17908,7 +18833,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122720",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-12-09-wednesday-night-dinner-6f6ed6.md",
-      "chronological_rank": 72,
+      "chronological_rank": 73,
       "routine_schedule_occurrence": false
     },
     {
@@ -17977,7 +18902,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122721",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-12-16-wednesday-night-dinner-d35842.md",
-      "chronological_rank": 74,
+      "chronological_rank": 75,
       "routine_schedule_occurrence": false
     },
     {
@@ -18046,7 +18971,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122722",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-12-23-wednesday-night-dinner-8995f6.md",
-      "chronological_rank": 76,
+      "chronological_rank": 77,
       "routine_schedule_occurrence": false
     },
     {
@@ -18115,7 +19040,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122723",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-12-30-wednesday-night-dinner-85ac1d.md",
-      "chronological_rank": 78,
+      "chronological_rank": 79,
       "routine_schedule_occurrence": false
     },
     {
@@ -18184,7 +19109,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122724",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-01-06-wednesday-night-dinner-cd86db.md",
-      "chronological_rank": 81,
+      "chronological_rank": 82,
       "routine_schedule_occurrence": false
     },
     {
@@ -18253,7 +19178,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122725",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-01-13-wednesday-night-dinner-ed64ec.md",
-      "chronological_rank": 83,
+      "chronological_rank": 84,
       "routine_schedule_occurrence": false
     },
     {
@@ -18322,7 +19247,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122726",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-01-20-wednesday-night-dinner-c3c878.md",
-      "chronological_rank": 85,
+      "chronological_rank": 86,
       "routine_schedule_occurrence": false
     },
     {
@@ -18391,7 +19316,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122727",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-01-27-wednesday-night-dinner-e92330.md",
-      "chronological_rank": 87,
+      "chronological_rank": 88,
       "routine_schedule_occurrence": false
     },
     {
@@ -18460,7 +19385,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122728",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-02-03-wednesday-night-dinner-56372f.md",
-      "chronological_rank": 90,
+      "chronological_rank": 91,
       "routine_schedule_occurrence": false
     },
     {
@@ -18529,7 +19454,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122729",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-02-10-wednesday-night-dinner-818c3d.md",
-      "chronological_rank": 93,
+      "chronological_rank": 94,
       "routine_schedule_occurrence": false
     },
     {
@@ -18598,7 +19523,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122730",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-02-17-wednesday-night-dinner-e2ee59.md",
-      "chronological_rank": 95,
+      "chronological_rank": 96,
       "routine_schedule_occurrence": false
     },
     {
@@ -18667,7 +19592,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122731",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-02-24-wednesday-night-dinner-8f0b45.md",
-      "chronological_rank": 97,
+      "chronological_rank": 98,
       "routine_schedule_occurrence": false
     },
     {
@@ -18736,7 +19661,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122732",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-03-03-wednesday-night-dinner-8fb3dd.md",
-      "chronological_rank": 99,
+      "chronological_rank": 100,
       "routine_schedule_occurrence": false
     },
     {
@@ -18805,7 +19730,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122733",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-03-10-wednesday-night-dinner-48508a.md",
-      "chronological_rank": 102,
+      "chronological_rank": 103,
       "routine_schedule_occurrence": false
     },
     {
@@ -18874,7 +19799,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122734",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-03-17-wednesday-night-dinner-ab6c0d.md",
-      "chronological_rank": 104,
+      "chronological_rank": 105,
       "routine_schedule_occurrence": false
     },
     {
@@ -18943,7 +19868,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122735",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-03-24-wednesday-night-dinner-46db45.md",
-      "chronological_rank": 106,
+      "chronological_rank": 107,
       "routine_schedule_occurrence": false
     },
     {
@@ -19012,7 +19937,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122736",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-03-31-wednesday-night-dinner-fc63a5.md",
-      "chronological_rank": 108,
+      "chronological_rank": 109,
       "routine_schedule_occurrence": false
     },
     {
@@ -19081,7 +20006,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122737",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-04-07-wednesday-night-dinner-8df64a.md",
-      "chronological_rank": 112,
+      "chronological_rank": 113,
       "routine_schedule_occurrence": false
     },
     {
@@ -19150,7 +20075,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122738",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-04-14-wednesday-night-dinner-e2d05a.md",
-      "chronological_rank": 114,
+      "chronological_rank": 115,
       "routine_schedule_occurrence": false
     },
     {
@@ -19219,7 +20144,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122739",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-04-21-wednesday-night-dinner-0a84c3.md",
-      "chronological_rank": 116,
+      "chronological_rank": 117,
       "routine_schedule_occurrence": false
     },
     {
@@ -19288,7 +20213,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122740",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-04-28-wednesday-night-dinner-6a7394.md",
-      "chronological_rank": 119,
+      "chronological_rank": 120,
       "routine_schedule_occurrence": false
     },
     {
@@ -19357,7 +20282,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122741",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-05-05-wednesday-night-dinner-30e195.md",
-      "chronological_rank": 122,
+      "chronological_rank": 123,
       "routine_schedule_occurrence": false
     },
     {
@@ -19426,7 +20351,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122742",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-05-12-wednesday-night-dinner-e125ce.md",
-      "chronological_rank": 124,
+      "chronological_rank": 125,
       "routine_schedule_occurrence": false
     },
     {
@@ -19495,7 +20420,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122743",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-05-19-wednesday-night-dinner-0df29f.md",
-      "chronological_rank": 126,
+      "chronological_rank": 127,
       "routine_schedule_occurrence": false
     },
     {
@@ -19564,7 +20489,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122744",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-05-26-wednesday-night-dinner-46fce3.md",
-      "chronological_rank": 128,
+      "chronological_rank": 129,
       "routine_schedule_occurrence": false
     },
     {
@@ -19633,7 +20558,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122745",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-06-02-wednesday-night-dinner-ba0347.md",
-      "chronological_rank": 130,
+      "chronological_rank": 131,
       "routine_schedule_occurrence": false
     },
     {
@@ -19702,7 +20627,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122746",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-06-09-wednesday-night-dinner-764b7d.md",
-      "chronological_rank": 133,
+      "chronological_rank": 134,
       "routine_schedule_occurrence": false
     },
     {
@@ -19771,7 +20696,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122747",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-06-16-wednesday-night-dinner-6fef1b.md",
-      "chronological_rank": 135,
+      "chronological_rank": 136,
       "routine_schedule_occurrence": false
     },
     {
@@ -19840,7 +20765,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122748",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-06-23-wednesday-night-dinner-8a9a7f.md",
-      "chronological_rank": 137,
+      "chronological_rank": 138,
       "routine_schedule_occurrence": false
     },
     {
@@ -19909,7 +20834,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122749",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-06-30-wednesday-night-dinner-34486c.md",
-      "chronological_rank": 139,
+      "chronological_rank": 140,
       "routine_schedule_occurrence": false
     },
     {
@@ -19978,7 +20903,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122750",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-07-07-wednesday-night-dinner-36b6bb.md",
-      "chronological_rank": 142,
+      "chronological_rank": 143,
       "routine_schedule_occurrence": false
     },
     {
@@ -20047,7 +20972,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122751",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-07-14-wednesday-night-dinner-e48c19.md",
-      "chronological_rank": 144,
+      "chronological_rank": 145,
       "routine_schedule_occurrence": false
     },
     {
@@ -20116,7 +21041,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122752",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-07-21-wednesday-night-dinner-f4b889.md",
-      "chronological_rank": 146,
+      "chronological_rank": 147,
       "routine_schedule_occurrence": false
     },
     {
@@ -20185,76 +21110,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122753",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-07-28-wednesday-night-dinner-7b2465.md",
-      "chronological_rank": 148,
-      "routine_schedule_occurrence": false
-    },
-    {
-      "id": "events.live.event-6d28727f98c4767b",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2027-08-04-wednesday-night-dinner-c4767b.md",
-      "title": "Wednesday Night Dinner",
-      "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
-      "priority": 60,
-      "category": [
-        "events",
-        "churchwide_program"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "churchwide_program",
-        "Wednesday Night Dinner"
-      ],
-      "search_terms": [
-        "Wednesday Night Dinner",
-        "When is Wednesday Night Dinner?",
-        "Tell me about Wednesday Night Dinner",
-        "What are the details for Wednesday Night Dinner?",
-        "What is the menu for Wednesday Night Dinner?",
-        "How do I register for Wednesday Night Dinner?",
-        "Does Urbancrest have Wednesday Night Dinner?",
-        "Does Urbancrest offer Wednesday Night Dinner?",
-        "Do you have Wednesday Night Dinner?",
-        "Do you offer Wednesday Night Dinner?",
-        "Is there Wednesday Night Dinner at Urbancrest?",
-        "Can I participate in Wednesday Night Dinner?",
-        "Can I play Wednesday Night Dinner at Urbancrest?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "volunteers"
-      ],
-      "resources": [],
-      "event_id": "event-6d28727f98c4767b",
-      "activity_aliases": [
-        "Wednesday Night Dinner"
-      ],
-      "event_category": "churchwide_program",
-      "event_start": "2027-08-04T17:30:00-04:00",
-      "event_end": "2027-08-04T18:15:00-04:00",
-      "sort_start_utc": "2027-08-04T21:30:00Z",
-      "sort_end_utc": "2027-08-04T22:15:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
-      "details_source": "planning_center_calendar_api",
-      "planning_center_event_instance_id": "230122754",
-      "planning_center_event_time_id": "31870601",
-      "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122754",
-      "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
-      "knowledge_file": "knowledge/events/generated/2027-08-04-wednesday-night-dinner-c4767b.md",
-      "chronological_rank": 150,
+      "chronological_rank": 149,
       "routine_schedule_occurrence": false
     },
     {
@@ -20504,7 +21360,72 @@
       "planning_center_event_time_id": "29881460",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/218655788",
       "knowledge_file": "knowledge/events/generated/2026-08-08-backpack-giveaway-event-00c910.md",
-      "chronological_rank": 3,
+      "chronological_rank": 4,
+      "routine_schedule_occurrence": false
+    },
+    {
+      "id": "events.live.event-3d8d12fc8dd1508d",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-08-04-card-ministry-d1508d.md",
+      "title": "Card Ministry",
+      "summary": "Rai Lynn Guidone",
+      "content": "Rai Lynn Guidone",
+      "priority": 50,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "general_event",
+        "Card Ministry"
+      ],
+      "search_terms": [
+        "Card Ministry",
+        "When is Card Ministry?",
+        "Tell me about Card Ministry",
+        "What are the details for Card Ministry?",
+        "What is the menu for Card Ministry?",
+        "How do I register for Card Ministry?",
+        "Does Urbancrest have Card Ministry?",
+        "Does Urbancrest offer Card Ministry?",
+        "Do you have Card Ministry?",
+        "Do you offer Card Ministry?",
+        "Is there Card Ministry at Urbancrest?",
+        "Can I participate in Card Ministry?",
+        "Can I play Card Ministry at Urbancrest?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-3d8d12fc8dd1508d",
+      "activity_aliases": [
+        "Card Ministry"
+      ],
+      "event_category": "general_event",
+      "event_start": "2026-08-04T09:00:00-04:00",
+      "event_end": "2026-08-04T12:00:00-04:00",
+      "sort_start_utc": "2026-08-04T13:00:00Z",
+      "sort_end_utc": "2026-08-04T16:00:00Z",
+      "planning_center_event_instance_id": "162521895",
+      "planning_center_event_time_id": "28363612",
+      "info_url": "https://urbancrest.churchcenter.com/calendar/event/162521895",
+      "knowledge_file": "knowledge/events/generated/2026-08-04-card-ministry-d1508d.md",
+      "chronological_rank": 1,
       "routine_schedule_occurrence": false
     },
     {
@@ -20569,7 +21490,7 @@
       "planning_center_event_time_id": "28363612",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/165657702",
       "knowledge_file": "knowledge/events/generated/2026-09-01-card-ministry-7202ff.md",
-      "chronological_rank": 26,
+      "chronological_rank": 27,
       "routine_schedule_occurrence": false
     },
     {
@@ -20636,7 +21557,7 @@
       "planning_center_event_time_id": "16193422",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/164040331",
       "knowledge_file": "knowledge/events/generated/2026-08-19-monthly-baskets-of-hope-volunteers-80df8e.md",
-      "chronological_rank": 13,
+      "chronological_rank": 14,
       "routine_schedule_occurrence": false
     },
     {
@@ -20732,7 +21653,7 @@
       "planning_center_event_time_id": "29468516",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/216277429",
       "knowledge_file": "knowledge/events/generated/2026-08-06-open-gym-pickleball-43c57b.md",
-      "chronological_rank": 1,
+      "chronological_rank": 2,
       "routine_schedule_occurrence": false
     },
     {
@@ -20828,7 +21749,7 @@
       "planning_center_event_time_id": "29468516",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/216277430",
       "knowledge_file": "knowledge/events/generated/2026-08-13-open-gym-pickleball-a267ab.md",
-      "chronological_rank": 8,
+      "chronological_rank": 9,
       "routine_schedule_occurrence": false
     },
     {
@@ -20924,7 +21845,7 @@
       "planning_center_event_time_id": "29468516",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/216277431",
       "knowledge_file": "knowledge/events/generated/2026-08-20-open-gym-pickleball-307382.md",
-      "chronological_rank": 15,
+      "chronological_rank": 16,
       "routine_schedule_occurrence": false
     },
     {
@@ -21020,7 +21941,7 @@
       "planning_center_event_time_id": "29468516",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/216277432",
       "knowledge_file": "knowledge/events/generated/2026-08-27-open-gym-pickleball-e0bc06.md",
-      "chronological_rank": 22,
+      "chronological_rank": 23,
       "routine_schedule_occurrence": false
     },
     {
@@ -21116,7 +22037,7 @@
       "planning_center_event_time_id": "29468516",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/216277433",
       "knowledge_file": "knowledge/events/generated/2026-09-03-open-gym-pickleball-473ecc.md",
-      "chronological_rank": 29,
+      "chronological_rank": 30,
       "routine_schedule_occurrence": false
     },
     {
@@ -21212,7 +22133,7 @@
       "planning_center_event_time_id": "29468516",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/216277434",
       "knowledge_file": "knowledge/events/generated/2026-09-10-open-gym-pickleball-fe7030.md",
-      "chronological_rank": 36,
+      "chronological_rank": 37,
       "routine_schedule_occurrence": false
     },
     {
@@ -21278,7 +22199,7 @@
       "planning_center_event_time_id": "9127132",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/163127042",
       "knowledge_file": "knowledge/events/generated/2026-08-09-sunday-morning-services-11-00-am-service-6bb742.md",
-      "chronological_rank": 6,
+      "chronological_rank": 7,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -21349,7 +22270,7 @@
       "planning_center_event_time_id": "9127132",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/163868049",
       "knowledge_file": "knowledge/events/generated/2026-08-16-sunday-morning-services-11-00-am-service-684864.md",
-      "chronological_rank": 11,
+      "chronological_rank": 12,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -21420,7 +22341,7 @@
       "planning_center_event_time_id": "9127132",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/164649168",
       "knowledge_file": "knowledge/events/generated/2026-08-23-sunday-morning-services-11-00-am-service-4475b5.md",
-      "chronological_rank": 19,
+      "chronological_rank": 20,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -21491,7 +22412,7 @@
       "planning_center_event_time_id": "9127132",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/165474591",
       "knowledge_file": "knowledge/events/generated/2026-08-30-sunday-morning-services-11-00-am-service-80f4a3.md",
-      "chronological_rank": 25,
+      "chronological_rank": 26,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -21562,7 +22483,7 @@
       "planning_center_event_time_id": "9127132",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/166271992",
       "knowledge_file": "knowledge/events/generated/2026-09-06-sunday-morning-services-11-00-am-service-8a985a.md",
-      "chronological_rank": 33,
+      "chronological_rank": 34,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -21633,7 +22554,7 @@
       "planning_center_event_time_id": "9127131",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/163127042",
       "knowledge_file": "knowledge/events/generated/2026-08-09-sunday-morning-services-9-30-am-service-408f37.md",
-      "chronological_rank": 5,
+      "chronological_rank": 6,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -21704,7 +22625,7 @@
       "planning_center_event_time_id": "9127131",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/163868049",
       "knowledge_file": "knowledge/events/generated/2026-08-16-sunday-morning-services-9-30-am-service-e226b5.md",
-      "chronological_rank": 10,
+      "chronological_rank": 11,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -21775,7 +22696,7 @@
       "planning_center_event_time_id": "9127131",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/164649168",
       "knowledge_file": "knowledge/events/generated/2026-08-23-sunday-morning-services-9-30-am-service-23a343.md",
-      "chronological_rank": 18,
+      "chronological_rank": 19,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -21846,7 +22767,7 @@
       "planning_center_event_time_id": "9127131",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/165474591",
       "knowledge_file": "knowledge/events/generated/2026-08-30-sunday-morning-services-9-30-am-service-faf099.md",
-      "chronological_rank": 24,
+      "chronological_rank": 25,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -21917,7 +22838,7 @@
       "planning_center_event_time_id": "9127131",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/166271992",
       "knowledge_file": "knowledge/events/generated/2026-09-06-sunday-morning-services-9-30-am-service-3e5884.md",
-      "chronological_rank": 32,
+      "chronological_rank": 33,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -21988,7 +22909,7 @@
       "planning_center_event_time_id": "9127131",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/167074215",
       "knowledge_file": "knowledge/events/generated/2026-09-13-sunday-morning-services-9-30-am-service-b32add.md",
-      "chronological_rank": 38,
+      "chronological_rank": 39,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -22002,7 +22923,7 @@
       "path": "knowledge/small-groups/generated/connie-hollan-small-group-ladies-bible-study-0cb4a6.md",
       "title": "Connie Hollan Small Group: Ladies Bible Study",
       "summary": "Connie Hollan",
-      "content": "Connie Hollan\n\nDetails:\nLadies Bible Study led by Connie Hollan\n\nUpcoming meetings:\nMonday, August 10, 2026, 7 PM to 8:30 PM\nMonday, August 17, 2026, 7 PM to 8:30 PM\nMonday, August 24, 2026, 7 PM to 8:30 PM\nMonday, August 31, 2026, 7 PM to 8:30 PM\nMonday, September 7, 2026, 7 PM to 8:30 PM\nMonday, September 14, 2026, 7 PM to 8:30 PM\nMonday, September 21, 2026, 7 PM to 8:30 PM\nMonday, September 28, 2026, 7 PM to 8:30 PM\nMonday, October 5, 2026, 7 PM to 8:30 PM\nMonday, October 12, 2026, 7 PM to 8:30 PM\nMonday, October 19, 2026, 7 PM to 8:30 PM\nMonday, October 26, 2026, 7 PM to 8:30 PM",
+      "content": "Connie Hollan\n\nDetails:\nLadies Bible Study led by Connie Hollan\n\nUpcoming meetings:\nMonday, August 3, 2026, 7 PM to 8:30 PM\nMonday, August 10, 2026, 7 PM to 8:30 PM\nMonday, August 17, 2026, 7 PM to 8:30 PM\nMonday, August 24, 2026, 7 PM to 8:30 PM\nMonday, August 31, 2026, 7 PM to 8:30 PM\nMonday, September 7, 2026, 7 PM to 8:30 PM\nMonday, September 14, 2026, 7 PM to 8:30 PM\nMonday, September 21, 2026, 7 PM to 8:30 PM\nMonday, September 28, 2026, 7 PM to 8:30 PM\nMonday, October 5, 2026, 7 PM to 8:30 PM\nMonday, October 12, 2026, 7 PM to 8:30 PM\nMonday, October 19, 2026, 7 PM to 8:30 PM",
       "priority": 20,
       "category": [
         "small_groups"
@@ -22033,14 +22954,22 @@
       "resources": [],
       "group_id": "group-5aa8f1e4bd0cb4a6",
       "next_meeting": {
-        "start": "2026-08-10T19:00:00-04:00",
-        "end": "2026-08-10T20:30:00-04:00",
-        "sort_start_utc": "2026-08-10T23:00:00Z",
-        "sort_end_utc": "2026-08-11T00:30:00Z",
-        "display_when": "Monday, August 10, 2026, 7 PM to 8:30 PM",
+        "start": "2026-08-03T19:00:00-04:00",
+        "end": "2026-08-03T20:30:00-04:00",
+        "sort_start_utc": "2026-08-03T23:00:00Z",
+        "sort_end_utc": "2026-08-04T00:30:00Z",
+        "display_when": "Monday, August 3, 2026, 7 PM to 8:30 PM",
         "all_day": false
       },
       "future_meetings": [
+        {
+          "start": "2026-08-03T19:00:00-04:00",
+          "end": "2026-08-03T20:30:00-04:00",
+          "sort_start_utc": "2026-08-03T23:00:00Z",
+          "sort_end_utc": "2026-08-04T00:30:00Z",
+          "display_when": "Monday, August 3, 2026, 7 PM to 8:30 PM",
+          "all_day": false
+        },
         {
           "start": "2026-08-10T19:00:00-04:00",
           "end": "2026-08-10T20:30:00-04:00",
@@ -22128,24 +23057,16 @@
           "sort_end_utc": "2026-10-20T00:30:00Z",
           "display_when": "Monday, October 19, 2026, 7 PM to 8:30 PM",
           "all_day": false
-        },
-        {
-          "start": "2026-10-26T19:00:00-04:00",
-          "end": "2026-10-26T20:30:00-04:00",
-          "sort_start_utc": "2026-10-26T23:00:00Z",
-          "sort_end_utc": "2026-10-27T00:30:00Z",
-          "display_when": "Monday, October 26, 2026, 7 PM to 8:30 PM",
-          "all_day": false
         }
       ],
-      "sort_start_utc": "2026-08-10T23:00:00Z",
-      "sort_end_utc": "2026-08-11T00:30:00Z",
+      "sort_start_utc": "2026-08-03T23:00:00Z",
+      "sort_end_utc": "2026-08-04T00:30:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "details": "Ladies Bible Study led by Connie Hollan",
       "details_source": "planning_center_calendar_api",
-      "planning_center_event_instance_id": "163212919",
+      "planning_center_event_instance_id": "162489186",
       "planning_center_event_time_id": "31398539",
-      "info_url": "https://urbancrest.churchcenter.com/calendar/event/163212919",
+      "info_url": "https://urbancrest.churchcenter.com/calendar/event/162489186",
       "knowledge_file": "knowledge/small-groups/generated/connie-hollan-small-group-ladies-bible-study-0cb4a6.md"
     },
     {
@@ -22304,8 +23225,8 @@
       "record_type": "small_group",
       "path": "knowledge/small-groups/generated/steve-gregory-small-group-steve-gregory-c4a23b.md",
       "title": "Steve Gregory Small Group: Steve Gregory",
-      "summary": "Steve Gregory Small Group: Steve Gregory is scheduled for Monday, August 10, 2026, 7 PM to 8:30 PM.",
-      "content": "Upcoming meetings:\nMonday, August 10, 2026, 7 PM to 8:30 PM\nMonday, August 17, 2026, 7 PM to 8:30 PM\nMonday, August 24, 2026, 7 PM to 8:30 PM\nMonday, August 31, 2026, 7 PM to 8:30 PM\nMonday, September 7, 2026, 7 PM to 8:30 PM\nMonday, September 14, 2026, 7 PM to 8:30 PM\nMonday, September 21, 2026, 7 PM to 8:30 PM\nMonday, September 28, 2026, 7 PM to 8:30 PM\nMonday, October 5, 2026, 7 PM to 8:30 PM\nMonday, October 12, 2026, 7 PM to 8:30 PM\nMonday, October 19, 2026, 7 PM to 8:30 PM\nMonday, October 26, 2026, 7 PM to 8:30 PM",
+      "summary": "Steve Gregory Small Group: Steve Gregory is scheduled for Monday, August 3, 2026, 7 PM to 8:30 PM.",
+      "content": "Upcoming meetings:\nMonday, August 3, 2026, 7 PM to 8:30 PM\nMonday, August 10, 2026, 7 PM to 8:30 PM\nMonday, August 17, 2026, 7 PM to 8:30 PM\nMonday, August 24, 2026, 7 PM to 8:30 PM\nMonday, August 31, 2026, 7 PM to 8:30 PM\nMonday, September 7, 2026, 7 PM to 8:30 PM\nMonday, September 14, 2026, 7 PM to 8:30 PM\nMonday, September 21, 2026, 7 PM to 8:30 PM\nMonday, September 28, 2026, 7 PM to 8:30 PM\nMonday, October 5, 2026, 7 PM to 8:30 PM\nMonday, October 12, 2026, 7 PM to 8:30 PM\nMonday, October 19, 2026, 7 PM to 8:30 PM",
       "priority": 20,
       "category": [
         "small_groups"
@@ -22336,14 +23257,22 @@
       "resources": [],
       "group_id": "group-f356eaa371c4a23b",
       "next_meeting": {
-        "start": "2026-08-10T19:00:00-04:00",
-        "end": "2026-08-10T20:30:00-04:00",
-        "sort_start_utc": "2026-08-10T23:00:00Z",
-        "sort_end_utc": "2026-08-11T00:30:00Z",
-        "display_when": "Monday, August 10, 2026, 7 PM to 8:30 PM",
+        "start": "2026-08-03T19:00:00-04:00",
+        "end": "2026-08-03T20:30:00-04:00",
+        "sort_start_utc": "2026-08-03T23:00:00Z",
+        "sort_end_utc": "2026-08-04T00:30:00Z",
+        "display_when": "Monday, August 3, 2026, 7 PM to 8:30 PM",
         "all_day": false
       },
       "future_meetings": [
+        {
+          "start": "2026-08-03T19:00:00-04:00",
+          "end": "2026-08-03T20:30:00-04:00",
+          "sort_start_utc": "2026-08-03T23:00:00Z",
+          "sort_end_utc": "2026-08-04T00:30:00Z",
+          "display_when": "Monday, August 3, 2026, 7 PM to 8:30 PM",
+          "all_day": false
+        },
         {
           "start": "2026-08-10T19:00:00-04:00",
           "end": "2026-08-10T20:30:00-04:00",
@@ -22431,21 +23360,13 @@
           "sort_end_utc": "2026-10-20T00:30:00Z",
           "display_when": "Monday, October 19, 2026, 7 PM to 8:30 PM",
           "all_day": false
-        },
-        {
-          "start": "2026-10-26T19:00:00-04:00",
-          "end": "2026-10-26T20:30:00-04:00",
-          "sort_start_utc": "2026-10-26T23:00:00Z",
-          "sort_end_utc": "2026-10-27T00:30:00Z",
-          "display_when": "Monday, October 26, 2026, 7 PM to 8:30 PM",
-          "all_day": false
         }
       ],
-      "sort_start_utc": "2026-08-10T23:00:00Z",
-      "sort_end_utc": "2026-08-11T00:30:00Z",
-      "planning_center_event_instance_id": "163212920",
+      "sort_start_utc": "2026-08-03T23:00:00Z",
+      "sort_end_utc": "2026-08-04T00:30:00Z",
+      "planning_center_event_instance_id": "162489189",
       "planning_center_event_time_id": "28363570",
-      "info_url": "https://urbancrest.churchcenter.com/calendar/event/163212920",
+      "info_url": "https://urbancrest.churchcenter.com/calendar/event/162489189",
       "knowledge_file": "knowledge/small-groups/generated/steve-gregory-small-group-steve-gregory-c4a23b.md"
     }
   ]

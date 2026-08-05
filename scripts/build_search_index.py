@@ -183,16 +183,25 @@ def markdown_records() -> list[dict[str, Any]]:
         if re.fullmatch(r"ministries\.[^.]+\.schedule", record_id):
             continue
 
+        categories = as_list(metadata.get("category"))
+        category_keys = {item.casefold() for item in categories}
+        if "sermon_series" in category_keys:
+            record_type = "sermon_series"
+        elif "sermon" in category_keys:
+            record_type = "sermon"
+        else:
+            record_type = "knowledge"
+
         records.append(
             record_base(
                 record_id=record_id,
-                record_type="knowledge",
+                record_type=record_type,
                 path=relative,
                 title=title,
                 summary=str(metadata.get("summary") or ""),
                 content=body,
                 priority=int(metadata.get("priority") or 50),
-                category=as_list(metadata.get("category")),
+                category=categories,
                 intents=intent_values(metadata),
                 tags=as_list(metadata.get("tags")),
                 search_terms=as_list(metadata.get("search_terms")),
@@ -210,8 +219,54 @@ def markdown_records() -> list[dict[str, Any]]:
                 confidence=metadata.get("confidence"),
                 authoritative=metadata.get("authoritative"),
                 authoritative_for=as_list(metadata.get("authoritative_for")),
+                sermon_date=metadata.get("sermon_date"),
+                speaker=metadata.get("speaker"),
+                speaker_key=metadata.get("speaker_key"),
+                series_id=metadata.get("series_id"),
+                series_title=metadata.get("series_title"),
+                primary_scripture=metadata.get("primary_scripture"),
+                primary_scripture_translation=metadata.get("primary_scripture_translation"),
+                scripture=as_list(metadata.get("scripture")),
+                notes_url=metadata.get("notes_url"),
+                title_source=metadata.get("title_source"),
+                outline_source=metadata.get("outline_source"),
+                primary_scripture_source=metadata.get("primary_scripture_source"),
+                summary_source=metadata.get("summary_source"),
+                series_status=metadata.get("series_status"),
+                start_date=metadata.get("start_date"),
+                end_date=metadata.get("end_date"),
             )
         )
+
+    # Sermon-series records are automatically enriched from the weekly sermon
+    # records that share their series_id. This means normal weekly maintenance only
+    # requires adding the new sermon article and rebuilding the index.
+    sermons_by_series: dict[str, list[dict[str, Any]]] = {}
+    for record in records:
+        if record.get("record_type") != "sermon" or not record.get("series_id"):
+            continue
+        sermons_by_series.setdefault(str(record["series_id"]), []).append(record)
+
+    for record in records:
+        if record.get("record_type") != "sermon_series" or not record.get("series_id"):
+            continue
+        members = sorted(
+            sermons_by_series.get(str(record["series_id"]), []),
+            key=lambda item: str(item.get("sermon_date") or ""),
+        )
+        if members:
+            record["sermons"] = [
+                {
+                    "id": item.get("id"),
+                    "date": item.get("sermon_date"),
+                    "title": item.get("title"),
+                    "speaker": item.get("speaker"),
+                    "primary_scripture": item.get("primary_scripture"),
+                    "notes_url": item.get("notes_url"),
+                }
+                for item in members
+            ]
+
     return records
 
 

@@ -1,5 +1,26 @@
 # Changelog
 
+## 0.9.7
+
+- Revised all nine structured sermon records using the published Subsplash fill-in notes as the canonical source for official titles, primary Scripture, and sermon outlines.
+- Replaced inferred sermon titles with the official note titles, including `A Blueprint for God’s Blessing`, `God’s Blueprint for Your Blessing`, `Faith That Influences`, `Radical Righteousness and Kingdom Relationships`, `God is Up to Something`, `Truthfulness and Revenge`, and `What To Do With People Who Do Not Love You Back`.
+- Preserved transcript-derived summaries and concise explanatory detail while removing inferred outline points that were not part of the official fill-in outline.
+- Added supporting Scripture references from each week’s fill-in notes without copying full Bible passages into runtime knowledge.
+- Added explicit provenance metadata for title, outline, primary Scripture, and summary sources.
+- Added `templates/sermon-record-template.md` and updated `SERMON_KNOWLEDGE.md` so future weekly sermon updates follow the same source-priority workflow.
+- Updated sermon retrieval regression tests for the official titles and current structured records.
+
+## 0.9.6
+
+- Added structured weekly sermon knowledge records for June 7 through August 2, 2026.
+- Added the Summer on the Mount sermon-series record and automatic series membership in the compiled search index.
+- Added dedicated sermon and sermon-series retrieval so historical sermon content is opt-in and does not compete with canonical beliefs, ministry, policy, or schedule records.
+- Added sermon date, speaker, Scripture, series, and fill-in-notes metadata to the runtime search index.
+- Added support for relative sermon questions such as last Sunday, explicit sermon dates, speaker queries, topic queries, current-series questions, and fill-in-note requests.
+- Added the approved Subsplash fill-in-note URLs to each weekly sermon record.
+- Corrected Habakkuk spelling in the July 19 sermon record and normalized Urbancrest naming in all derived sermon knowledge.
+- Added sermon retrieval regression tests.
+
 ## 0.9.5
 
 - Fixed a general-retrieval regression that could reject relevant records when a natural-language question reduced to a single strong topic word, such as `donuts`, `coffee`, `livestream`, or `diapers`.
