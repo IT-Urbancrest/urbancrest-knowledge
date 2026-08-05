@@ -2,16 +2,16 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.9.7",
-  "generated_at": "2026-08-05T17:50:45.430423Z",
+  "generated_at": "2026-08-05T18:25:03.998255Z",
   "timezone": "America/New_York",
-  "record_count": 389,
+  "record_count": 404,
   "config": {
     "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step. For directions requests, include both approved map links.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership Transition\n\nUrbancrest is currently searching for its next Global Missions Pastor.\n\nFor broad or global missions leadership questions:\n\n1. State that Urbancrest is currently searching for its next Global Missions Pastor.\n2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.\n3. Return `jennifer_prows` when one staff card is appropriate.\n4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nState the times found in those authoritative records directly. Do not hardcode service times in runtime application logic or prompt instructions.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
     "style_guide": "# Style Guide\n\n## Writing\n\n- Use short paragraphs.\n- Prefer plain language.\n- Avoid church jargon unless it is explained.\n- Do not use em dashes.\n- Do not use the word meaningful as a filler.\n- Use Small Groups, never Grow Groups.\n- Refer to Urbancrest Church as Urbancrest after the first use.\n- Use believer's baptism by immersion when describing baptism.\n\n## Theology\n\n- Scripture is the final authority.\n- The Baptist Faith and Message 2000 is a helpful doctrinal summary, not equal to Scripture.\n- Salvation is by grace alone through faith alone in Jesus Christ alone.\n- Baptism follows salvation and does not save.\n",
     "max_retrieval_records": 8,
     "safety": {
-      "version": "1.0",
-      "last_updated": "2026-08-04",
+      "version": "1.1",
+      "last_updated": "2026-08-05",
       "privacy": {
         "redact_sensitive_query_logs": true,
         "redacted_question_format": "[sensitive query redacted: {category}]",
@@ -74,13 +74,17 @@
       "sensitive_categories": {
         "grief": {
           "knowledge_ids": [
-            "pastoral_care.grief"
+            "pastoral_care.grief",
+            "ministries.stephen_ministry.overview",
+            "ministries.stephen_ministry.request_care"
           ],
           "staff_key": "geoff_prows"
         },
         "depression": {
           "knowledge_ids": [
-            "pastoral_care.depression"
+            "pastoral_care.depression",
+            "ministries.stephen_ministry.overview",
+            "ministries.stephen_ministry.request_care"
           ],
           "staff_key": "geoff_prows"
         },
@@ -98,13 +102,17 @@
         },
         "marriage_family": {
           "knowledge_ids": [
-            "pastoral_care.marriage_family"
+            "pastoral_care.marriage_family",
+            "ministries.stephen_ministry.overview",
+            "ministries.stephen_ministry.request_care"
           ],
           "staff_key": "geoff_prows"
         },
         "pastoral_crisis": {
           "knowledge_ids": [
-            "pastoral_care.general_crisis"
+            "pastoral_care.general_crisis",
+            "ministries.stephen_ministry.overview",
+            "ministries.stephen_ministry.request_care"
           ],
           "staff_key": "geoff_prows"
         }
@@ -1484,6 +1492,49 @@
       "answer_guidance": "Give both regular meeting times and mention the summer pause when answering a general Student Ministry schedule question."
     },
     {
+      "id": "action_link.stephen_ministry_request_care",
+      "record_type": "action_link",
+      "path": "registry/action-links.yaml",
+      "title": "Request Stephen Ministry Care",
+      "summary": "Approved Urbancrest action link for request_care, connect_card.",
+      "content": "Label: Request Stephen Ministry Care\nURL: https://urbancrest.churchcenter.com/people/forms/1494\nIntents: request_care, connect_card\nAliases: request a Stephen Minister, Stephen Ministry care",
+      "priority": 120,
+      "category": [
+        "action_link"
+      ],
+      "intents": [
+        "request_care",
+        "connect_card"
+      ],
+      "tags": [
+        "action",
+        "link",
+        "request_care",
+        "connect_card",
+        "request a Stephen Minister",
+        "Stephen Ministry care"
+      ],
+      "search_terms": [
+        "Request Stephen Ministry Care",
+        "request_care",
+        "connect_card",
+        "request a Stephen Minister",
+        "Stephen Ministry care",
+        "How do I request a Stephen Minister?",
+        "How do I get a Stephen Minister?",
+        "I would like to be contacted by a Stephen Minister",
+        "I need someone to talk to"
+      ],
+      "ministries": [],
+      "audiences": [],
+      "resources": [],
+      "action_key": "stephen_ministry_request_care",
+      "url": "https://urbancrest.churchcenter.com/people/forms/1494",
+      "external": true,
+      "church_center_modal": true,
+      "include_with_bundle": false
+    },
+    {
       "id": "about.services.times",
       "record_type": "knowledge",
       "path": "knowledge/about/what-time-are-services.md",
@@ -2288,6 +2339,56 @@
       ]
     },
     {
+      "id": "ministries.stephen_ministry.request_care",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/stephen-ministry/request-care.md",
+      "title": "How do I request a Stephen Minister?",
+      "summary": "To request one-to-one care from a Stephen Minister at Urbancrest, complete the Connect Card and select \"I'd like to be contacted by a Stephen Minister.\"",
+      "content": "# Request Stephen Ministry care\n\nTo be connected with a Stephen Minister at Urbancrest, complete the **Connect Card** and select **\"I'd like to be contacted by a Stephen Minister.\"**\n\nA pastor or Stephen Leader will follow up, learn more about the situation, and help match the care receiver with an appropriate Stephen Minister.\n\nConnect Card: https://urbancrest.churchcenter.com/people/forms/1494",
+      "priority": 115,
+      "category": [
+        "ministries",
+        "pastoral_care",
+        "next_steps"
+      ],
+      "intents": [
+        "stephen_ministry",
+        "request_care",
+        "connect_card",
+        "pastoral_care"
+      ],
+      "tags": [
+        "Stephen Ministry",
+        "request care",
+        "Connect Card",
+        "one-to-one care",
+        "get help"
+      ],
+      "search_terms": [
+        "How do I request a Stephen Minister?",
+        "How do I get a Stephen Minister?",
+        "Can I talk to a Stephen Minister?",
+        "I would like a Stephen Minister",
+        "I need one-to-one Christian care",
+        "How do I get connected with Stephen Ministry?",
+        "I need someone to talk to"
+      ],
+      "ministries": [
+        "stephen_ministry"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "https://urbancrest.churchcenter.com/people/forms/1494",
+        "https://urbancrest.church/get-involved/stephen-ministry"
+      ],
+      "status": "published",
+      "answer_guidance": "Direct the person to the Connect Card and tell them to select \"I'd like to be contacted by a Stephen Minister.\" If the query indicates immediate danger, self-harm, violence, abuse, or a medical emergency, the safety response takes priority.",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
       "id": "schedule.adults.wednesday_bible_studies",
       "record_type": "schedule",
       "path": "registry/schedule.yaml",
@@ -2712,6 +2813,50 @@
       "answer_guidance": "For a directions request, include this link together with the Apple Maps directions link."
     },
     {
+      "id": "ministries.stephen_ministry.sunday_availability",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/stephen-ministry/sunday-availability.md",
+      "title": "Can I talk with a Stephen Ministry caregiver on Sunday?",
+      "summary": "Two Stephen Ministry caregivers are available in the back of the Worship Center after each Sunday service for people who need someone to talk with.",
+      "content": "# Sunday Stephen Ministry availability\n\nEach Sunday, **two Stephen Ministry caregivers are available in the back of the Worship Center after each service** for anyone who needs to talk with someone.\n\nFor ongoing one-to-one care, a person can also request a Stephen Minister through the Connect Card.",
+      "priority": 110,
+      "category": [
+        "ministries",
+        "pastoral_care"
+      ],
+      "intents": [
+        "stephen_ministry",
+        "sunday_availability",
+        "pastoral_care",
+        "need_to_talk"
+      ],
+      "tags": [
+        "Stephen Ministry",
+        "Sunday care",
+        "after service",
+        "Worship Center",
+        "someone to talk to"
+      ],
+      "search_terms": [
+        "Can I talk to a Stephen Minister on Sunday?",
+        "Is a Stephen Minister available after church?",
+        "Is someone available to talk after the service?",
+        "Where are the Stephen Ministers on Sunday?",
+        "When can I talk with a Stephen Ministry caregiver?"
+      ],
+      "ministries": [
+        "stephen_ministry"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "status": "published",
+      "answer_guidance": "State that two Stephen Ministry caregivers are available in the back of the Worship Center after each Sunday service. Do not invent the names of the caregivers.",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
       "id": "ministries.local_missions.get_involved",
       "record_type": "knowledge",
       "path": "knowledge/ministries/local-missions/faq/how-can-i-get-involved.md",
@@ -2762,6 +2907,49 @@
       "status": "published",
       "recommended_contact_staff_key": "darrel_schick",
       "confidence": "high"
+    },
+    {
+      "id": "ministries.stephen_ministry.not_professional_counseling",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/stephen-ministry/not-professional-counseling.md",
+      "title": "Is Stephen Ministry the same as professional counseling?",
+      "summary": "No. Stephen Ministry provides one-to-one care through trained lay caregivers and is not a substitute for professional counseling, therapy, medical care, or other professional services when those are needed.",
+      "content": "# Stephen Ministry and professional counseling\n\nNo. Stephen Ministry is **not a substitute for professional counseling, therapy, or medical care**.\n\nStephen Ministers are trained lay caregivers who provide compassionate, Christ-centered companionship and support. When a care receiver's needs go beyond what a Stephen Minister is equipped to provide, a Stephen Leader or pastor can help identify an appropriate professional next step.",
+      "priority": 110,
+      "category": [
+        "ministries",
+        "pastoral_care"
+      ],
+      "intents": [
+        "stephen_ministry",
+        "counseling",
+        "professional_referral",
+        "pastoral_care"
+      ],
+      "tags": [
+        "counseling",
+        "therapy",
+        "professional care",
+        "lay caregiver",
+        "Stephen Ministry"
+      ],
+      "search_terms": [
+        "Is Stephen Ministry counseling?",
+        "Are Stephen Ministers counselors?",
+        "Is a Stephen Minister a therapist?",
+        "Is Stephen Ministry a substitute for counseling?"
+      ],
+      "ministries": [
+        "stephen_ministry"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "status": "published",
+      "answer_guidance": "Do not describe Stephen Ministers as counselors or therapists. Explain that they are trained lay caregivers and that professional care may be appropriate when needs go beyond their role.",
+      "confidence": "high",
+      "authoritative": true
     },
     {
       "id": "about.sunday.worship",
@@ -2962,6 +3150,45 @@
       "status": "published",
       "recommended_contact_staff_key": "darrel_schick",
       "confidence": "high"
+    },
+    {
+      "id": "ministries.stephen_ministry.confidentiality",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/stephen-ministry/confidentiality.md",
+      "title": "Is Stephen Ministry care confidential?",
+      "summary": "Yes. Stephen Ministers are trained to maintain confidentiality, and privacy is a foundational part of the caring relationship.",
+      "content": "# Confidentiality\n\nYes. Stephen Ministers are trained to maintain confidentiality. What is shared in a caring relationship is kept private, and confidentiality is a foundational part of creating a safe space for care receivers to be open and honest.",
+      "priority": 105,
+      "category": [
+        "ministries",
+        "pastoral_care"
+      ],
+      "intents": [
+        "stephen_ministry",
+        "confidentiality",
+        "pastoral_care"
+      ],
+      "tags": [
+        "confidentiality",
+        "privacy",
+        "Stephen Ministry",
+        "care receiver"
+      ],
+      "search_terms": [
+        "Is Stephen Ministry confidential?",
+        "Will a Stephen Minister keep what I say private?",
+        "Is what I share with a Stephen Minister private?"
+      ],
+      "ministries": [
+        "stephen_ministry"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
     },
     {
       "id": "ministries.nursery.safety",
@@ -5236,6 +5463,57 @@
       ]
     },
     {
+      "id": "ministries.stephen_ministry.overview",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/stephen-ministry/overview.md",
+      "title": "What is Stephen Ministry?",
+      "summary": "Stephen Ministry at Urbancrest provides confidential, Christ-centered, one-to-one care through trained lay caregivers for people going through difficult times.",
+      "content": "# Stephen Ministry at Urbancrest\n\nStephen Ministry provides **confidential, Christ-centered, one-to-one care** for people going through difficult times. Trained congregation members, called Stephen Ministers, walk alongside a care receiver by listening, encouraging, praying, and offering a caring Christian presence.\n\nStephen Ministry is available to people in the congregation and community and serves as an additional care option alongside pastoral care.\n\nStephen Ministers are trained lay caregivers. They are not professional counselors or therapists.\n\nLearn more about Urbancrest's Stephen Ministry at https://urbancrest.church/get-involved/stephen-ministry.",
+      "priority": 100,
+      "category": [
+        "ministries",
+        "pastoral_care"
+      ],
+      "intents": [
+        "stephen_ministry",
+        "ministry_info",
+        "pastoral_care",
+        "one_to_one_care"
+      ],
+      "tags": [
+        "Stephen Ministry",
+        "Christ-centered care",
+        "lay caregiving",
+        "one-to-one care",
+        "pastoral care",
+        "confidential care",
+        "emotional support",
+        "spiritual support"
+      ],
+      "search_terms": [
+        "What is Stephen Ministry?",
+        "Tell me about Stephen Ministry",
+        "Does Urbancrest have Stephen Ministry?",
+        "Does Urbancrest offer one-to-one care?",
+        "I need someone to walk with me through a difficult time",
+        "What kind of care does Stephen Ministry provide?"
+      ],
+      "ministries": [
+        "stephen_ministry"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "https://urbancrest.church/get-involved/stephen-ministry",
+        "https://www.stephenministries.org"
+      ],
+      "status": "published",
+      "answer_guidance": "Describe Stephen Ministry as confidential, Christ-centered, one-to-one care provided by trained lay caregivers. Do not call Stephen Ministers counselors, therapists, or licensed mental-health professionals.",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
       "id": "ministries.local_missions.giving_tree",
       "record_type": "knowledge",
       "path": "knowledge/ministries/local-missions/faq/what-is-the-giving-tree.md",
@@ -6249,6 +6527,51 @@
       "confidence": "high"
     },
     {
+      "id": "action_link.stephen_ministry_info",
+      "record_type": "action_link",
+      "path": "registry/action-links.yaml",
+      "title": "Learn About Stephen Ministry",
+      "summary": "Approved Urbancrest action link for stephen_ministry, ministry_info, pastoral_care.",
+      "content": "Label: Learn About Stephen Ministry\nURL: https://urbancrest.church/get-involved/stephen-ministry\nIntents: stephen_ministry, ministry_info, pastoral_care\nAliases: Stephen Ministry, Stephen Minister",
+      "priority": 95,
+      "category": [
+        "action_link"
+      ],
+      "intents": [
+        "stephen_ministry",
+        "ministry_info",
+        "pastoral_care"
+      ],
+      "tags": [
+        "action",
+        "link",
+        "stephen_ministry",
+        "ministry_info",
+        "pastoral_care",
+        "Stephen Ministry",
+        "Stephen Minister"
+      ],
+      "search_terms": [
+        "Learn About Stephen Ministry",
+        "stephen_ministry",
+        "ministry_info",
+        "pastoral_care",
+        "Stephen Ministry",
+        "Stephen Minister",
+        "What is Stephen Ministry?",
+        "Tell me about Stephen Ministry",
+        "Does Urbancrest have Stephen Ministry?"
+      ],
+      "ministries": [],
+      "audiences": [],
+      "resources": [],
+      "action_key": "stephen_ministry_info",
+      "url": "https://urbancrest.church/get-involved/stephen-ministry",
+      "external": false,
+      "church_center_modal": false,
+      "include_with_bundle": false
+    },
+    {
       "id": "ministries.preschool.volunteer_screening",
       "record_type": "knowledge",
       "path": "knowledge/ministries/preschool/faq/are-preschool-volunteers-screened.md",
@@ -6655,6 +6978,46 @@
       "confidence": "high"
     },
     {
+      "id": "ministries.stephen_ministry.what_they_do",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/stephen-ministry/what-does-a-stephen-minister-do.md",
+      "title": "What does a Stephen Minister do?",
+      "summary": "A Stephen Minister is a trained congregation member who provides confidential, Christ-centered emotional and spiritual support to one care receiver at a time.",
+      "content": "# What a Stephen Minister does\n\nA Stephen Minister is a trained congregation member who walks alongside someone who is hurting. The caring relationship is one-to-one and typically includes regular time together for listening, encouragement, prayer, and Christ-centered emotional and spiritual support.\n\nStephen Ministers offer a compassionate Christian presence during a difficult season. They are trained lay caregivers, not counselors or therapists.",
+      "priority": 95,
+      "category": [
+        "ministries",
+        "pastoral_care"
+      ],
+      "intents": [
+        "stephen_ministry",
+        "ministry_info",
+        "lay_caregiving"
+      ],
+      "tags": [
+        "Stephen Minister",
+        "lay caregiver",
+        "one-to-one care",
+        "listening",
+        "prayer"
+      ],
+      "search_terms": [
+        "What does a Stephen Minister do?",
+        "What happens when I meet with a Stephen Minister?",
+        "What kind of support does a Stephen Minister provide?"
+      ],
+      "ministries": [
+        "stephen_ministry"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
       "id": "ministries.students",
       "record_type": "knowledge",
       "path": "knowledge/ministries/students.md",
@@ -6789,6 +7152,56 @@
       ],
       "status": "published",
       "confidence": "high"
+    },
+    {
+      "id": "ministries.stephen_ministry.who_can_receive_care",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/stephen-ministry/who-can-receive-care.md",
+      "title": "Who can receive care from a Stephen Minister?",
+      "summary": "Stephen Ministry care is available to people in the congregation or community who are walking through a crisis, difficult transition, loss, or other significant life challenge.",
+      "content": "# Who Stephen Ministry serves\n\nStephen Ministry care is available to people in the congregation or community who are going through a life difficulty or crisis.\n\nSituations may include grief and loss, serious illness or hospitalization, divorce or relationship struggles, job loss or financial stress, loneliness or isolation, discouragement, a major life transition, family stress, or caring for an aging parent or family member.\n\nA pastor or Stephen Leader first helps assess the person's needs and determine whether Stephen Ministry is an appropriate care option.",
+      "priority": 95,
+      "category": [
+        "ministries",
+        "pastoral_care"
+      ],
+      "intents": [
+        "stephen_ministry",
+        "request_care",
+        "pastoral_care"
+      ],
+      "tags": [
+        "grief",
+        "illness",
+        "hospitalization",
+        "divorce",
+        "job loss",
+        "loneliness",
+        "family stress",
+        "discouragement",
+        "life transition",
+        "caregiver support"
+      ],
+      "search_terms": [
+        "Who can receive care from a Stephen Minister?",
+        "What situations does Stephen Ministry help with?",
+        "Can Stephen Ministry help with grief?",
+        "Can Stephen Ministry help after a job loss?",
+        "Can Stephen Ministry help with divorce?",
+        "Can Stephen Ministry help with loneliness?",
+        "Can Stephen Ministry help during an illness?",
+        "Can someone from the community receive Stephen Ministry care?"
+      ],
+      "ministries": [
+        "stephen_ministry"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
     },
     {
       "id": "ministries.local_missions.car_cruise_ins",
@@ -7374,6 +7787,52 @@
       "external": false,
       "church_center_modal": false,
       "include_with_bundle": false
+    },
+    {
+      "id": "ministries.stephen_ministry.become_a_stephen_minister",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/stephen-ministry/become-a-stephen-minister.md",
+      "title": "Can I become a Stephen Minister at Urbancrest?",
+      "summary": "Urbancrest congregation members who feel called to care for others can express interest in becoming a Stephen Minister and receiving the required training.",
+      "content": "# Becoming a Stephen Minister\n\nUrbancrest congregation members can serve as Stephen Ministers. If you feel called to care for others and want to be equipped for one-to-one ministry, you can express your interest through Urbancrest's Stephen Ministry page or Connect Card.\n\nStephen Ministers receive training before serving and continue in ongoing supervision and peer support.",
+      "priority": 90,
+      "category": [
+        "ministries",
+        "next_steps"
+      ],
+      "intents": [
+        "stephen_ministry",
+        "serving",
+        "volunteering",
+        "registration"
+      ],
+      "tags": [
+        "become a Stephen Minister",
+        "serving",
+        "volunteering",
+        "lay ministry",
+        "caregiver"
+      ],
+      "search_terms": [
+        "Can I become a Stephen Minister?",
+        "How do I become a Stephen Minister at Urbancrest?",
+        "How can I serve with Stephen Ministry?",
+        "I want to volunteer with Stephen Ministry"
+      ],
+      "ministries": [
+        "stephen_ministry"
+      ],
+      "audiences": [
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "https://urbancrest.church/get-involved/stephen-ministry",
+        "https://urbancrest.churchcenter.com/people/forms/1494"
+      ],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
     },
     {
       "id": "ministries.worship.auditions",
@@ -11132,6 +11591,45 @@
       "outline_source": "fill_in_notes",
       "primary_scripture_source": "fill_in_notes",
       "summary_source": "sermon_transcript"
+    },
+    {
+      "id": "ministries.stephen_ministry.training",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/stephen-ministry/training.md",
+      "title": "How are Stephen Ministers trained?",
+      "summary": "Stephen Ministers receive in-depth training from Stephen Leaders in listening, emotional and spiritual support, boundaries, referral, and caregiver self-care, followed by ongoing supervision and peer support.",
+      "content": "# Stephen Minister training\n\nStephen Ministers receive in-depth training from their Stephen Leaders using training developed by Stephen Ministries St. Louis.\n\nTraining includes active listening, emotional and spiritual support, appropriate boundaries, recognizing when professional referral is needed, and caring for themselves as caregivers. Stephen Ministers also participate in ongoing supervision and peer support throughout their ministry.",
+      "priority": 85,
+      "category": [
+        "ministries"
+      ],
+      "intents": [
+        "stephen_ministry",
+        "volunteer_training",
+        "serving"
+      ],
+      "tags": [
+        "Stephen Minister training",
+        "Stephen Leader",
+        "boundaries",
+        "listening",
+        "supervision"
+      ],
+      "search_terms": [
+        "How are Stephen Ministers trained?",
+        "What training does a Stephen Minister receive?",
+        "Are Stephen Ministers trained?"
+      ],
+      "ministries": [
+        "stephen_ministry"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
     },
     {
       "id": "beliefs.ordinances",
@@ -16787,6 +17285,43 @@
       "confidence": "high"
     },
     {
+      "id": "ministries.stephen_ministry.care_duration",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/stephen-ministry/care-duration.md",
+      "title": "How long does a Stephen Ministry caring relationship last?",
+      "summary": "There is no fixed end date. The caring relationship continues for as long as the need persists and ends when the care receiver, Stephen Minister, and Stephen Leader agree the care need has been sufficiently met.",
+      "content": "# Length of the caring relationship\n\nThere is no fixed end date for a Stephen Ministry caring relationship. Care continues for as long as the need persists and concludes when the care receiver, Stephen Minister, and Stephen Leader agree that the care receiver's needs have been sufficiently met.",
+      "priority": 80,
+      "category": [
+        "ministries",
+        "pastoral_care"
+      ],
+      "intents": [
+        "stephen_ministry",
+        "ministry_info"
+      ],
+      "tags": [
+        "caring relationship",
+        "care receiver",
+        "Stephen Minister"
+      ],
+      "search_terms": [
+        "How long does Stephen Ministry last?",
+        "How long will I meet with a Stephen Minister?",
+        "Is there a time limit for Stephen Ministry care?"
+      ],
+      "ministries": [
+        "stephen_ministry"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
       "id": "about.mission",
       "record_type": "knowledge",
       "path": "knowledge/about/what-is-urbancrests-mission.md",
@@ -16909,6 +17444,46 @@
       "resources": [],
       "status": "published",
       "confidence": "high"
+    },
+    {
+      "id": "ministries.stephen_ministry.stephen_leaders",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/stephen-ministry/stephen-leaders.md",
+      "title": "Who are the Stephen Leaders at Urbancrest?",
+      "summary": "Stephen Leaders provide leadership and supervision for Stephen Ministry, serve as an initial point of contact for care receivers, and help match care receivers with Stephen Ministers. Current individual names are not listed in this knowledge record.",
+      "content": "# Stephen Leaders\n\nStephen Leaders are trained leaders who provide ongoing leadership and supervision for Stephen Ministry. They help assess the needs of potential care receivers and match them with Stephen Ministers.\n\nCurrent individual Stephen Leader names are not listed in this knowledge record. A person seeking care should use the Connect Card and select **\"I'd like to be contacted by a Stephen Minister.\"**",
+      "priority": 80,
+      "category": [
+        "ministries"
+      ],
+      "intents": [
+        "stephen_ministry",
+        "leadership",
+        "ministry_info"
+      ],
+      "tags": [
+        "Stephen Leader",
+        "Stephen Ministry leadership",
+        "care matching"
+      ],
+      "search_terms": [
+        "Who are the Stephen Leaders?",
+        "Who leads Stephen Ministry at Urbancrest?",
+        "Who matches care receivers with Stephen Ministers?"
+      ],
+      "ministries": [
+        "stephen_ministry"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "https://urbancrest.churchcenter.com/people/forms/1494"
+      ],
+      "status": "published",
+      "answer_guidance": "Explain the role of Stephen Leaders, but do not invent individual names. Current names are not listed in this record. For care requests, use the Connect Card.",
+      "confidence": "high",
+      "authoritative": true
     },
     {
       "id": "about.identity",
@@ -17133,6 +17708,91 @@
       "scripture": [
         "Matthew 28:18-20"
       ]
+    },
+    {
+      "id": "ministries.stephen_ministry.biblical_basis",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/stephen-ministry/biblical-basis.md",
+      "title": "What is the biblical basis for Stephen Ministry?",
+      "summary": "Stephen Ministry reflects the biblical call to bear one another's burdens and love one another as Christ has loved us, including Galatians 6:2 and John 15:12.",
+      "content": "# Biblical basis for Stephen Ministry\n\nStephen Ministry reflects the biblical call to **bear one another's burdens** in Galatians 6:2 and to **love one another as Christ has loved us** in John 15:12.\n\nAt Urbancrest, the ministry provides a structured way for trained believers to walk alongside people who are hurting with prayer, listening, encouragement, and Christ-centered care.",
+      "priority": 75,
+      "category": [
+        "ministries",
+        "discipleship"
+      ],
+      "intents": [
+        "stephen_ministry",
+        "scripture",
+        "discipleship"
+      ],
+      "tags": [
+        "Galatians 6:2",
+        "John 15:12",
+        "bear one another's burdens",
+        "love one another",
+        "biblical care"
+      ],
+      "search_terms": [
+        "What is the biblical basis for Stephen Ministry?",
+        "Is Stephen Ministry biblical?",
+        "What Scripture supports Stephen Ministry?"
+      ],
+      "ministries": [
+        "stephen_ministry"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true,
+      "scripture": [
+        "Galatians 6:2",
+        "John 15:12"
+      ]
+    },
+    {
+      "id": "ministries.stephen_ministry.learn_more",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/stephen-ministry/learn-more.md",
+      "title": "Where can I learn more about Stephen Ministry?",
+      "summary": "Urbancrest's Stephen Ministry page explains the ministry locally, and Stephen Ministries St. Louis provides additional information about the broader Stephen Ministry model.",
+      "content": "# Learn more about Stephen Ministry\n\nFor Urbancrest-specific information, visit https://urbancrest.church/get-involved/stephen-ministry.\n\nFor information about the broader Stephen Ministry model and Stephen Ministries St. Louis, visit https://www.stephenministries.org.",
+      "priority": 70,
+      "category": [
+        "ministries",
+        "resources"
+      ],
+      "intents": [
+        "stephen_ministry",
+        "resources",
+        "ministry_info"
+      ],
+      "tags": [
+        "Stephen Ministry",
+        "Stephen Ministries St. Louis",
+        "learn more"
+      ],
+      "search_terms": [
+        "Where can I learn more about Stephen Ministry?",
+        "Stephen Ministry website",
+        "Urbancrest Stephen Ministry page"
+      ],
+      "ministries": [
+        "stephen_ministry"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "https://urbancrest.church/get-involved/stephen-ministry",
+        "https://www.stephenministries.org"
+      ],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
     },
     {
       "id": "ministries.care_and_prayer",
