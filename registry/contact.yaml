@@ -1,12 +1,24 @@
-version: '1.0'
+version: '1.1'
 last_updated: '2026-08-05'
 church:
   name: Urbancrest Church
   address: 2634 Drake Road, Lebanon, Ohio 45036
-  office_phone: 513-932-4405
-  office_email: office@urbancrest.org
+  office_phone: null
+  office_email: null
+  office_hours:
+    timezone: America/New_York
+    monday: 9:00 AM-4:00 PM
+    tuesday: 9:00 AM-4:00 PM
+    wednesday: 9:00 AM-4:00 PM
+    thursday: 9:00 AM-4:00 PM
+    friday: 9:00 AM-4:00 PM
+    saturday: Closed
+    sunday: Closed
 rules:
+- Urbancrest Church's regular office hours are Monday through Friday from 9:00 AM to 4:00 PM.
+- Office hours describe when the church office is normally open and are separate from worship service times and ministry schedules.
+- For vague questions such as "When can I come by the church?", give both regular office hours and regular Sunday worship times when that distinction would help clarify the answer.
+- No church office phone number is currently approved in this registry.
 - The AI must not invent a church phone number, email address, or other contact detail.
 - Staff phone numbers are displayed by the Base44 Staff card and are not supplied to the language model.
-- A phone number may appear in generated prose only when the exact number is present in selected authoritative data or the
-  safety resource registry.
+- A phone number may appear in generated prose only when the exact number is present in selected authoritative data or the safety resource registry.
