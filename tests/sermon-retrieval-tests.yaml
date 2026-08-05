@@ -1,4 +1,4 @@
-version: 1.1
+version: 1.2
 purpose: Regression coverage for structured sermon and sermon-series retrieval using fill-in notes as the canonical structural source.
 
 cases:
@@ -6,6 +6,8 @@ cases:
     expected_record: sermons.2026_08_02
     expected_title: What To Do With People Who Do Not Love You Back
     expected_topic: love your enemies
+    expected_record_count: 1
+    relative_date_behavior: most_recent_available_sermon
 
   - query: What did Geoff preach on June 7?
     expected_record: sermons.2026_06_07
@@ -53,6 +55,8 @@ cases:
   - query: Which sermons have been in Summer on the Mount?
     expected_record: sermons.series.summer_on_the_mount_2026
     expected_member_count: 8
+    answer_must_list_all_members: true
+    expected_image_url: https://cdn.subsplash.com/images/VRR5NM/_source/3259fdd8-2fcf-4d63-9fd7-fa81b3796edb/image.jpg
 
   - query: What did Geoff say about anger in a sermon?
     expected_record: sermons.2026_07_05
@@ -60,9 +64,12 @@ cases:
   - query: Do you have fill-in notes for the August 2 message?
     expected_record: sermons.2026_08_02
     expected_url: https://notes.subsplash.com/fill-in/view?page=Syw90ydSMl
+    answer_must_include_exact_url: true
 
   - query: What did Geoff say about waiting on God?
     expected_record: sermons.2026_07_19
+    expected_record_count: 1
+    expected_staff_key: geoff_prows
 
   - query: What does Urbancrest believe about baptism?
     must_not_select_record_type:

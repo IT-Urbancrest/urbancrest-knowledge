@@ -1,6 +1,6 @@
 ---
 id: sermons.series.summer_on_the_mount_2026
-version: 1.1
+version: 1.2
 status: published
 priority: 92
 title: "Summer on the Mount: Kingdom Living for the Here and Now"
@@ -42,6 +42,7 @@ search_terms:
 scripture:
   - Matthew 5-7
 resources:
+  - https://cdn.subsplash.com/images/VRR5NM/_source/3259fdd8-2fcf-4d63-9fd7-fa81b3796edb/image.jpg
   - action_link.messages
 next_steps:
   - action_link.messages
