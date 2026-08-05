@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.9.2",
-  "generated_at": "2026-08-05T11:30:11.255819Z",
+  "generated_at": "2026-08-05T12:20:52.893469Z",
   "timezone": "America/New_York",
   "record_count": 371,
   "config": {
@@ -112,15 +112,14 @@
     },
     "contact": {
       "version": "1.0",
-      "last_updated": "2026-08-04",
+      "last_updated": "2026-08-05",
       "church": {
         "name": "Urbancrest Church",
         "address": "2634 Drake Road, Lebanon, Ohio 45036",
-        "office_phone": null,
-        "office_email": null
+        "office_phone": "513-932-4405",
+        "office_email": "office@urbancrest.org"
       },
       "rules": [
-        "No church office phone number is currently approved in this registry.",
         "The AI must not invent a church phone number, email address, or other contact detail.",
         "Staff phone numbers are displayed by the Base44 Staff card and are not supplied to the language model.",
         "A phone number may appear in generated prose only when the exact number is present in selected authoritative data or the safety resource registry."
