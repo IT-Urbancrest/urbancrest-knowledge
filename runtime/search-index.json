@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.9.7",
-  "generated_at": "2026-08-05T18:25:03.998255Z",
+  "generated_at": "2026-08-05T18:35:22.046703Z",
   "timezone": "America/New_York",
-  "record_count": 404,
+  "record_count": 408,
   "config": {
     "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step. For directions requests, include both approved map links.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership Transition\n\nUrbancrest is currently searching for its next Global Missions Pastor.\n\nFor broad or global missions leadership questions:\n\n1. State that Urbancrest is currently searching for its next Global Missions Pastor.\n2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.\n3. Return `jennifer_prows` when one staff card is appropriate.\n4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nState the times found in those authoritative records directly. Do not hardcode service times in runtime application logic or prompt instructions.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
     "style_guide": "# Style Guide\n\n## Writing\n\n- Use short paragraphs.\n- Prefer plain language.\n- Avoid church jargon unless it is explained.\n- Do not use em dashes.\n- Do not use the word meaningful as a filler.\n- Use Small Groups, never Grow Groups.\n- Refer to Urbancrest Church as Urbancrest after the first use.\n- Use believer's baptism by immersion when describing baptism.\n\n## Theology\n\n- Scripture is the final authority.\n- The Baptist Faith and Message 2000 is a helpful doctrinal summary, not equal to Scripture.\n- Salvation is by grace alone through faith alone in Jesus Christ alone.\n- Baptism follows salvation and does not save.\n",
@@ -5427,6 +5427,52 @@
       ]
     },
     {
+      "id": "about.urbancrest_sports_complex.phases",
+      "record_type": "knowledge",
+      "path": "knowledge/about/urbancrest-sports-complex-phases.md",
+      "title": "What is included in the Urbancrest Sports Complex?",
+      "summary": "The initial phase includes a flag football field and Miracle League field. Future phases are planned to add wheelchair-accessible mini golf and a full-size baseball field.",
+      "content": "# Sports Complex Phases\n\n## Initial Phase\n\nThe initial phase of the Urbancrest Sports Complex includes:\n\n- A **flag football field**\n- A **Miracle League field**\n\n## Future Phases\n\nFuture phases are planned to include:\n\n- A **wheelchair-accessible mini golf course**\n- A **full-size baseball field**\n\nThe mini golf course and full-size baseball field are **not part of the initial phase**.",
+      "priority": 100,
+      "category": [
+        "about",
+        "community"
+      ],
+      "intents": [
+        "sports_complex",
+        "community_project",
+        "project_phases"
+      ],
+      "tags": [
+        "Urbancrest Sports Complex",
+        "flag football",
+        "Miracle League",
+        "mini golf",
+        "baseball",
+        "accessibility"
+      ],
+      "search_terms": [
+        "What is included in the sports complex?",
+        "What fields are being built?",
+        "Is mini golf part of the first phase?",
+        "Is there going to be a baseball field?",
+        "What is phase one of the sports complex?",
+        "What comes in future phases?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "status": "published",
+      "answer_guidance": "Clearly distinguish the initial phase from future phases. The initial phase is a flag football field and Miracle League field. Wheelchair-accessible mini golf and the full-size baseball field are future phases, not part of the initial phase.\n",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "sports_complex_scope"
+      ]
+    },
+    {
       "id": "beliefs.repentance",
       "record_type": "knowledge",
       "path": "knowledge/beliefs/what-is-repentance.md",
@@ -5643,6 +5689,97 @@
       "status": "published",
       "recommended_contact_staff_key": "sarah_coleman",
       "confidence": "high"
+    },
+    {
+      "id": "about.urbancrest_sports_complex.miracle_league",
+      "record_type": "knowledge",
+      "path": "knowledge/about/urbancrest-miracle-league-field.md",
+      "title": "What is the Miracle League field at Urbancrest?",
+      "summary": "The Miracle League field is part of the initial Urbancrest Sports Complex phase and is intended to create an accessible place for athletes with special needs to participate and belong.",
+      "content": "# Miracle League Field\n\nThe **Miracle League field** is part of the initial phase of the Urbancrest Sports Complex.\n\nIt reflects the project's emphasis on creating an accessible place where athletes with special needs can participate, connect, and experience a sense of belonging.\n\nSpecific schedules, registration information, opening dates, and current construction progress should come from current Urbancrest information when those details are available.",
+      "priority": 100,
+      "category": [
+        "about",
+        "community"
+      ],
+      "intents": [
+        "sports_complex",
+        "miracle_league",
+        "accessibility",
+        "special_needs"
+      ],
+      "tags": [
+        "Miracle League",
+        "Miracle League field",
+        "special needs",
+        "accessibility",
+        "sports complex",
+        "belonging"
+      ],
+      "search_terms": [
+        "What is the Miracle League field?",
+        "Is Urbancrest building a Miracle League field?",
+        "What is the accessible field at Urbancrest?",
+        "How will the sports complex serve people with special needs?",
+        "Is the Miracle League field part of phase one?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "status": "published",
+      "answer_guidance": "State that the Miracle League field is part of the initial phase and reflects the project's emphasis on accessibility, participation, and belonging for athletes and families with special needs. Do not invent league schedules, eligibility rules, registration details, opening dates, or construction status.\n",
+      "confidence": "high"
+    },
+    {
+      "id": "about.urbancrest_sports_complex.overview",
+      "record_type": "knowledge",
+      "path": "knowledge/about/urbancrest-sports-complex.md",
+      "title": "What is the Urbancrest Sports Complex?",
+      "summary": "The Urbancrest Sports Complex is a community-focused project designed to create welcoming and accessible places for recreation, connection, and service.",
+      "content": "# Urbancrest Sports Complex\n\nThe **Urbancrest Sports Complex** is a community-focused project designed to create welcoming and accessible places where people can gather, play, build relationships, and be served.\n\nThe initial phase includes a **flag football field** and a **Miracle League field**. Future phases are planned to include a **wheelchair-accessible mini golf course** and a **full-size baseball field**.\n\nThe project is part of Urbancrest's desire to serve the surrounding community in practical ways, with a special emphasis on creating opportunities for families and individuals with special needs.\n\nConstruction timelines, opening dates, and project-progress updates can change and should come from a current Urbancrest update rather than this permanent overview.",
+      "priority": 100,
+      "category": [
+        "about",
+        "community"
+      ],
+      "intents": [
+        "community_project",
+        "sports_complex",
+        "visitor_info"
+      ],
+      "tags": [
+        "Urbancrest Sports Complex",
+        "sports complex",
+        "community",
+        "recreation",
+        "accessibility",
+        "special needs",
+        "Miracle League",
+        "flag football"
+      ],
+      "search_terms": [
+        "What is the Urbancrest Sports Complex?",
+        "Tell me about the sports complex",
+        "What is Urbancrest building?",
+        "What is the new sports complex?",
+        "What are you building outside?",
+        "What is the Miracle League project?",
+        "More Than a Field"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "status": "published",
+      "answer_guidance": "Describe the Urbancrest Sports Complex as a community-focused project designed to create welcoming and accessible places for recreation, connection, and service. The initial phase includes a flag football field and a Miracle League field. Future phases are planned to include a wheelchair-accessible mini golf course and a full-size baseball field. Do not invent construction dates, opening dates, current construction status, or completion percentages. Those details may be supplied by a temporary Current Update when available.\n",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "sports_complex_overview"
+      ]
     },
     {
       "id": "ministries.local_missions.warren_county_fair_feeding",
@@ -7202,6 +7339,47 @@
       "status": "published",
       "confidence": "high",
       "authoritative": true
+    },
+    {
+      "id": "about.urbancrest_sports_complex.purpose",
+      "record_type": "knowledge",
+      "path": "knowledge/about/urbancrest-sports-complex-purpose.md",
+      "title": "Why is Urbancrest building the Sports Complex?",
+      "summary": "Urbancrest is developing the Sports Complex to create accessible, welcoming spaces where the church can serve the community and build relationships with local families.",
+      "content": "# Why Urbancrest Is Building the Sports Complex\n\nUrbancrest is developing the Sports Complex as a practical way to **serve the community and build relationships with local families**.\n\nThe goal is to create welcoming and accessible spaces where people can gather and participate in recreation while opening new opportunities for the church to care for and connect with the community.\n\nA major part of that vision is serving **families and individuals with special needs**, including through the Miracle League field.",
+      "priority": 95,
+      "category": [
+        "about",
+        "community"
+      ],
+      "intents": [
+        "sports_complex",
+        "community_outreach",
+        "accessibility"
+      ],
+      "tags": [
+        "Urbancrest Sports Complex",
+        "community outreach",
+        "accessibility",
+        "special needs",
+        "families",
+        "service"
+      ],
+      "search_terms": [
+        "Why is Urbancrest building a sports complex?",
+        "What is the purpose of the sports complex?",
+        "Why is the church building fields?",
+        "How will the sports complex serve the community?",
+        "How will the sports complex help families with special needs?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "status": "published",
+      "answer_guidance": "Emphasize community service, relationships, accessibility, and opportunities to serve families with special needs. Do not frame the project as simply adding recreational amenities for the church's own use.\n",
+      "confidence": "high"
     },
     {
       "id": "ministries.local_missions.car_cruise_ins",
