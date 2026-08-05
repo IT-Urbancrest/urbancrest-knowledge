@@ -145,6 +145,21 @@ ministries:
     aliases:
     - Golf Classic
     - Urbancrest golf tournament
+  stephen_ministry:
+    title: Stephen Ministry
+    description: Confidential, Christ-centered, one-to-one care for people going through difficult times, provided by trained lay caregivers.
+    aliases:
+    - Stephen Ministry
+    - Stephen Minister
+    - Stephen Ministers
+    - Stephen Leader
+    - Stephen Leaders
+    - one-to-one Christian care
+    - lay caregiving
+    - confidential care
+    related_ministries:
+    - pastoral
+    - care
   technical_creative:
     title: Technical and Creative
     description: The staff ownership area for IT, Production, Creative, Website, video, livestream, audio, lighting, and church

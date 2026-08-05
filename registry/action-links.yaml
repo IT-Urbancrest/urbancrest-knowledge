@@ -70,6 +70,39 @@ links:
     priority: 100
     external: true
     church_center_modal: true
+  stephen_ministry_info:
+    label: Learn About Stephen Ministry
+    url: https://urbancrest.church/get-involved/stephen-ministry
+    intents:
+    - stephen_ministry
+    - ministry_info
+    - pastoral_care
+    priority: 95
+    aliases:
+    - Stephen Ministry
+    - Stephen Minister
+    search_terms:
+    - What is Stephen Ministry?
+    - Tell me about Stephen Ministry
+    - Does Urbancrest have Stephen Ministry?
+    - Learn about Stephen Ministry
+  stephen_ministry_request_care:
+    label: Request Stephen Ministry Care
+    url: https://urbancrest.churchcenter.com/people/forms/1494
+    intents:
+    - request_care
+    - connect_card
+    priority: 120
+    external: true
+    church_center_modal: true
+    aliases:
+    - request a Stephen Minister
+    - Stephen Ministry care
+    search_terms:
+    - How do I request a Stephen Minister?
+    - How do I get a Stephen Minister?
+    - I would like to be contacted by a Stephen Minister
+    - I need someone to talk to
   baptism:
     label: Sign Up for Baptism
     url: https://urbancrest.churchcenter.com/people/forms/1674

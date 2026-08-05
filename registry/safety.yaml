@@ -1,5 +1,5 @@
-version: '1.0'
-last_updated: '2026-08-04'
+version: '1.1'
+last_updated: '2026-08-05'
 privacy:
   redact_sensitive_query_logs: true
   redacted_question_format: '[sensitive query redacted: {category}]'
@@ -50,10 +50,14 @@ sensitive_categories:
   grief:
     knowledge_ids:
     - pastoral_care.grief
+    - ministries.stephen_ministry.overview
+    - ministries.stephen_ministry.request_care
     staff_key: geoff_prows
   depression:
     knowledge_ids:
     - pastoral_care.depression
+    - ministries.stephen_ministry.overview
+    - ministries.stephen_ministry.request_care
     staff_key: geoff_prows
   abuse:
     knowledge_ids:
@@ -66,8 +70,12 @@ sensitive_categories:
   marriage_family:
     knowledge_ids:
     - pastoral_care.marriage_family
+    - ministries.stephen_ministry.overview
+    - ministries.stephen_ministry.request_care
     staff_key: geoff_prows
   pastoral_crisis:
     knowledge_ids:
     - pastoral_care.general_crisis
+    - ministries.stephen_ministry.overview
+    - ministries.stephen_ministry.request_care
     staff_key: geoff_prows
