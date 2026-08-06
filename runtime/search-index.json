@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.9.7",
-  "generated_at": "2026-08-05T22:28:32.946916Z",
+  "generated_at": "2026-08-06T03:39:10.747045Z",
   "timezone": "America/New_York",
   "record_count": 408,
   "config": {
@@ -23918,7 +23918,7 @@
       "path": "knowledge/small-groups/generated/p-u-r-s-u-e-567dcc.md",
       "title": "P U R S U E",
       "summary": "Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.",
-      "content": "Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.\n\nUpcoming meetings:\nWednesday, August 5, 2026, 6:30 PM to 8:30 PM\nWednesday, August 12, 2026, 6:30 PM to 8:30 PM\nWednesday, August 19, 2026, 6:30 PM to 8:30 PM\nWednesday, August 26, 2026, 6:30 PM to 8:30 PM\nWednesday, September 2, 2026, 6:30 PM to 8:30 PM\nWednesday, September 9, 2026, 6:30 PM to 8:30 PM\nWednesday, September 16, 2026, 6:30 PM to 8:30 PM\nWednesday, September 23, 2026, 6:30 PM to 8:30 PM\nWednesday, September 30, 2026, 6:30 PM to 8:30 PM\nWednesday, October 7, 2026, 6:30 PM to 8:30 PM\nWednesday, October 14, 2026, 6:30 PM to 8:30 PM\nWednesday, October 21, 2026, 6:30 PM to 8:30 PM",
+      "content": "Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.\n\nUpcoming meetings:\nWednesday, August 12, 2026, 6:30 PM to 8:30 PM\nWednesday, August 19, 2026, 6:30 PM to 8:30 PM\nWednesday, August 26, 2026, 6:30 PM to 8:30 PM\nWednesday, September 2, 2026, 6:30 PM to 8:30 PM\nWednesday, September 9, 2026, 6:30 PM to 8:30 PM\nWednesday, September 16, 2026, 6:30 PM to 8:30 PM\nWednesday, September 23, 2026, 6:30 PM to 8:30 PM\nWednesday, September 30, 2026, 6:30 PM to 8:30 PM\nWednesday, October 7, 2026, 6:30 PM to 8:30 PM\nWednesday, October 14, 2026, 6:30 PM to 8:30 PM\nWednesday, October 21, 2026, 6:30 PM to 8:30 PM\nWednesday, October 28, 2026, 6:30 PM to 8:30 PM",
       "priority": 20,
       "category": [
         "small_groups"
@@ -23951,22 +23951,14 @@
       "resources": [],
       "group_id": "group-d895be1a40567dcc",
       "next_meeting": {
-        "start": "2026-08-05T18:30:00-04:00",
-        "end": "2026-08-05T20:30:00-04:00",
-        "sort_start_utc": "2026-08-05T22:30:00Z",
-        "sort_end_utc": "2026-08-06T00:30:00Z",
-        "display_when": "Wednesday, August 5, 2026, 6:30 PM to 8:30 PM",
+        "start": "2026-08-12T18:30:00-04:00",
+        "end": "2026-08-12T20:30:00-04:00",
+        "sort_start_utc": "2026-08-12T22:30:00Z",
+        "sort_end_utc": "2026-08-13T00:30:00Z",
+        "display_when": "Wednesday, August 12, 2026, 6:30 PM to 8:30 PM",
         "all_day": false
       },
       "future_meetings": [
-        {
-          "start": "2026-08-05T18:30:00-04:00",
-          "end": "2026-08-05T20:30:00-04:00",
-          "sort_start_utc": "2026-08-05T22:30:00Z",
-          "sort_end_utc": "2026-08-06T00:30:00Z",
-          "display_when": "Wednesday, August 5, 2026, 6:30 PM to 8:30 PM",
-          "all_day": false
-        },
         {
           "start": "2026-08-12T18:30:00-04:00",
           "end": "2026-08-12T20:30:00-04:00",
@@ -24054,13 +24046,21 @@
           "sort_end_utc": "2026-10-22T00:30:00Z",
           "display_when": "Wednesday, October 21, 2026, 6:30 PM to 8:30 PM",
           "all_day": false
+        },
+        {
+          "start": "2026-10-28T18:30:00-04:00",
+          "end": "2026-10-28T20:30:00-04:00",
+          "sort_start_utc": "2026-10-28T22:30:00Z",
+          "sort_end_utc": "2026-10-29T00:30:00Z",
+          "display_when": "Wednesday, October 28, 2026, 6:30 PM to 8:30 PM",
+          "all_day": false
         }
       ],
-      "sort_start_utc": "2026-08-05T22:30:00Z",
-      "sort_end_utc": "2026-08-06T00:30:00Z",
-      "planning_center_event_instance_id": "163114804",
+      "sort_start_utc": "2026-08-12T22:30:00Z",
+      "sort_end_utc": "2026-08-13T00:30:00Z",
+      "planning_center_event_instance_id": "163295205",
       "planning_center_event_time_id": "25282532",
-      "info_url": "https://urbancrest.churchcenter.com/calendar/event/163114804",
+      "info_url": "https://urbancrest.churchcenter.com/calendar/event/163295205",
       "knowledge_file": "knowledge/small-groups/generated/p-u-r-s-u-e-567dcc.md"
     },
     {
