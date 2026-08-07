@@ -44,7 +44,7 @@ image_url: "https://registrations-production.s3.amazonaws.com/uploads/event/logo
 location: "Butler Springs Christian Camp - 3701 State Rte 41\nHillsboro, OH 45133"
 planning_center_event_instance_id: "230487173"
 planning_center_event_time_id: "31924846"
-last_generated: 2026-08-07T19:15:55.886290Z
+last_generated: 2026-08-07T21:56:20.211867Z
 ---
 
 # Youth Fall Retreat
