@@ -1,5 +1,5 @@
 ---
-id: events.live.event-5783c30d183d2c83
+id: events.live.event-caf6d3d398ccb967
 version: 1.4.3
 status: published
 priority: 80
@@ -30,19 +30,19 @@ search_terms:
   - "How do I register for Men's Breakfast?"
 resources:
   - events.live
-event_id: event-5783c30d183d2c83
-event_start: "2027-01-02T08:00:00-05:00"
-event_end: "2027-01-02T10:00:00-05:00"
-sort_start_utc: "2027-01-02T13:00:00Z"
-sort_end_utc: "2027-01-02T15:00:00Z"
-chronological_rank: 78
+event_id: event-caf6d3d398ccb967
+event_start: "2027-08-07T08:00:00-04:00"
+event_end: "2027-08-07T10:00:00-04:00"
+sort_start_utc: "2027-08-07T12:00:00Z"
+sort_end_utc: "2027-08-07T14:00:00Z"
+chronological_rank: 150
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
-info_url: "https://urbancrest.churchcenter.com/calendar/event/175505238"
+info_url: "https://urbancrest.churchcenter.com/calendar/event/195114700"
 image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576"
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-planning_center_event_instance_id: "175505238"
+planning_center_event_instance_id: "195114700"
 planning_center_event_time_id: "30270334"
 last_generated: 2026-08-07T13:40:21.480440Z
 ---
@@ -51,13 +51,13 @@ last_generated: 2026-08-07T13:40:21.480440Z
 
 Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast.
 
-**When:** Saturday, January 2, 2027, 8 AM to 10 AM
+**When:** Saturday, August 7, 2027, 8 AM to 10 AM
 
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
 Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium at Urbancrest
 
-**More information:** https://urbancrest.churchcenter.com/calendar/event/175505238
+**More information:** https://urbancrest.churchcenter.com/calendar/event/195114700
 
 **Event image:** https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
 
