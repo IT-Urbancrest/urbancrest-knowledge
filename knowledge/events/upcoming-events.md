@@ -16,25 +16,13 @@ tags: [events, calendar, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-08-06T20:01:27.153369Z
+last_generated: 2026-08-07T00:16:21.343628Z
 ---
 
 # Upcoming Events
 
 This index excludes routine Small Group meetings, which are stored separately.
 Events are listed in ascending chronological order.
-
-## OPEN GYM Pickleball
-
-**Category:** General Event
-
-**When:** Thursday, August 6, 2026, 6 PM to 8 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/216277429
-
-Detailed event file: `knowledge/events/generated/2026-08-06-open-gym-pickleball-43c57b.md`
 
 ## School Supplies Giveaway
 
@@ -478,6 +466,18 @@ Detailed event file: `knowledge/events/generated/2026-09-13-p-u-r-s-u-e-300fb0.m
 **More information:** https://urbancrest.churchcenter.com/calendar/event/167074215
 
 Detailed event file: `knowledge/events/generated/2026-09-13-sunday-morning-services-9-30-am-service-b32add.md`
+
+## Sunday Morning Services: 11:00 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, September 13, 2026, 11 AM to 12:10 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+**More information:** https://urbancrest.churchcenter.com/calendar/event/167074215
+
+Detailed event file: `knowledge/events/generated/2026-09-13-sunday-morning-services-11-00-am-service-153e7f.md`
 
 ## Wednesday Night Dinner
 
