@@ -46,7 +46,7 @@ location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "221332807"
 planning_center_event_time_id: "30356739"
-last_generated: 2026-08-07T21:56:20.211867Z
+last_generated: 2026-08-08T02:22:21.124267Z
 ---
 
 # School Supplies Giveaway
