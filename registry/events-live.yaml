@@ -1,5 +1,5 @@
 version: 1.4.3
-generated_at: '2026-08-08T15:46:34.341517Z'
+generated_at: '2026-08-08T18:59:09.649573Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api
 api_enrichment:
@@ -19,89 +19,6 @@ selection:
   policy: Protect all major and ministry events before lower-priority events.
 event_count: 150
 events:
-- id: event-a9d2d691ffee30e0
-  uid: ET-30356739-221332807@resources.planningcenteronline.com
-  title: School Supplies Giveaway
-  summary: We are giving away school supplies to help students in our community have what they need to succeed this school year!...
-  start: '2026-08-08T10:00:00-04:00'
-  end: '2026-08-08T12:00:00-04:00'
-  sort_start_utc: '2026-08-08T14:00:00Z'
-  sort_end_utc: '2026-08-08T16:00:00Z'
-  display_when: Saturday, August 8, 2026, 10 AM to 12 PM
-  all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: 'We are giving away school supplies to help students in our community have what they need to succeed this school year! Students of any grade are welcome to stop by Urbancrest on Saturday, August 8 from 10:00 AM–12:00 PM to pick up needed supplies. Please register your student(s) to attend, listing the grades of each student coming, so we know how many students to expect.
-
-
-    Items we are giving away range from backpacks, notebooks and paper, to pens, pencils and craft supplies. We are also offering free hair cuts for all who attend!
-
-
-    Please Note: The supplies we are giving away have all been donated, so items available at the giveaway may vary by kind and quantity. We will operate on a first-come, first-serve basis, and we cannot make any guarantees.
-
-
-    If you have any questions, please reach out to Jen at jprows@urbancrest.org.
-
-
-    DETAILS:
-
-    Date: August 8, 2025
-
-    Time: 10:00 AM-12:00 PM
-
-    Address: Urbancrest at Lebanon
-
-    2634 Drake Rd. Lebanon, OH 45036
-
-    Register: https://urbancrest.churchcenter.com/registrations/events/3609472'
-  details: "We are giving away school supplies to help students in our community have what they need to succeed this school year! Students of any grade are welcome to stop by Urbancrest on Saturday, August 8 from 10:00 AM–12:00 PM to pick up needed supplies. Please register your student(s) to attend, listing the grades of each student coming, so we know how many students to expect.\nItems we are giving away range from backpacks, notebooks and paper, to pens, pencils and craft supplies. We are also offering free hair cuts for all who attend!\nPlease Note: The supplies we are giving away have all been donated, so items available at the giveaway may vary by kind and quantity. We will operate on a first-come, first-serve basis, and we cannot make any guarantees.\nIf you have any questions, please reach out to Jen at \njprows@urbancrest.org\n.\nDETAILS:\nDate: August 8, 2025\nTime: 10:00 AM-12:00 PM\nAddress: Urbancrest at Lebanon\n2634 Drake Rd. Lebanon, OH 45036"
-  details_source: planning_center_calendar_api
-  planning_center_event_instance_id: '221332807'
-  planning_center_event_time_id: '30356739'
-  registration_url: https://urbancrest.churchcenter.com/registrations/events/3609472
-  info_url: https://urbancrest.churchcenter.com/calendar/event/221332807
-  image_url: https://registrations-production.s3.amazonaws.com/uploads/event/logo/3609472/medium_image-1776972807689.jpeg
-  ministries:
-  - students
-  audiences:
-  - students
-  - volunteers
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 1
-  next_for_ministries:
-  - students
-  next_for_audiences:
-  - students
-  - volunteers
-  knowledge_file: knowledge/events/generated/2026-08-08-school-supplies-giveaway-ee30e0.md
-- id: event-c53a75611600c910
-  uid: ET-29881460-218655788@resources.planningcenteronline.com
-  title: Backpack Giveaway Event
-  summary: Backpack Giveaway Event is scheduled for Saturday, August 8, 2026, 10 AM to 12 PM at Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036.
-  start: '2026-08-08T10:00:00-04:00'
-  end: '2026-08-08T12:00:00-04:00'
-  sort_start_utc: '2026-08-08T14:00:00Z'
-  sort_end_utc: '2026-08-08T16:00:00Z'
-  display_when: Saturday, August 8, 2026, 10 AM to 12 PM
-  all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  planning_center_event_instance_id: '218655788'
-  planning_center_event_time_id: '29881460'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/218655788
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 2
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-08-08-backpack-giveaway-event-00c910.md
 - id: event-d648bed5dd9d1d2c
   uid: ET-8762150-163127032@resources.planningcenteronline.com
   title: P U R S U E
@@ -125,9 +42,11 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 3
-  next_for_ministries: []
-  next_for_audiences: []
+  chronological_rank: 1
+  next_for_ministries:
+  - students
+  next_for_audiences:
+  - students
   knowledge_file: knowledge/events/generated/2026-08-09-p-u-r-s-u-e-9d1d2c.md
 - id: event-7a5dcb81d2408f37
   uid: ET-9127131-163127042@resources.planningcenteronline.com
@@ -152,7 +71,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 4
+  chronological_rank: 2
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-09-sunday-morning-services-9-30-am-service-408f37.md
@@ -179,7 +98,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 5
+  chronological_rank: 3
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-09-sunday-morning-services-11-00-am-service-6bb742.md
@@ -212,7 +131,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 6
+  chronological_rank: 4
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-12-youth-back-to-school-bash-37ba8f.md
@@ -239,7 +158,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 7
+  chronological_rank: 5
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-13-open-gym-pickleball-a267ab.md
@@ -266,7 +185,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 8
+  chronological_rank: 6
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-16-p-u-r-s-u-e-27cc47.md
@@ -293,7 +212,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 9
+  chronological_rank: 7
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-16-sunday-morning-services-9-30-am-service-e226b5.md
@@ -320,7 +239,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 10
+  chronological_rank: 8
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-16-sunday-morning-services-11-00-am-service-684864.md
@@ -347,7 +266,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 11
+  chronological_rank: 9
   next_for_ministries:
   - missions
   next_for_audiences:
@@ -377,9 +296,10 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 12
+  chronological_rank: 10
   next_for_ministries: []
-  next_for_audiences: []
+  next_for_audiences:
+  - volunteers
   knowledge_file: knowledge/events/generated/2026-08-19-monthly-baskets-of-hope-volunteers-80df8e.md
 - id: event-a39548cd605a3ff2
   uid: ET-31487702-227855427@resources.planningcenteronline.com
@@ -449,7 +369,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 13
+  chronological_rank: 11
   next_for_ministries:
   - kids
   - men
@@ -480,7 +400,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 14
+  chronological_rank: 12
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-20-open-gym-pickleball-307382.md
@@ -561,7 +481,7 @@ events:
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 15
+  chronological_rank: 13
   next_for_ministries:
   - sports
   next_for_audiences: []
@@ -589,7 +509,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 16
+  chronological_rank: 14
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-23-p-u-r-s-u-e-db0b00.md
@@ -616,7 +536,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 17
+  chronological_rank: 15
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-23-sunday-morning-services-9-30-am-service-23a343.md
@@ -643,7 +563,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 18
+  chronological_rank: 16
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-23-sunday-morning-services-11-00-am-service-4475b5.md
@@ -741,7 +661,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 19
+  chronological_rank: 17
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-26-wednesday-night-dinner-31bf8a.md
@@ -813,7 +733,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 20
+  chronological_rank: 18
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-26-awana-2026-2027-82128d.md
@@ -840,7 +760,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 21
+  chronological_rank: 19
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-27-open-gym-pickleball-e0bc06.md
@@ -867,7 +787,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 22
+  chronological_rank: 20
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-30-p-u-r-s-u-e-63faac.md
@@ -894,7 +814,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 23
+  chronological_rank: 21
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-30-sunday-morning-services-9-30-am-service-faf099.md
@@ -921,7 +841,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 24
+  chronological_rank: 22
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-30-sunday-morning-services-11-00-am-service-80f4a3.md
@@ -947,7 +867,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 25
+  chronological_rank: 23
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-01-card-ministry-7202ff.md
@@ -1045,7 +965,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 26
+  chronological_rank: 24
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-02-wednesday-night-dinner-8cbe52.md
@@ -1117,7 +1037,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 27
+  chronological_rank: 25
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-02-awana-2026-2027-b657f3.md
@@ -1144,7 +1064,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 28
+  chronological_rank: 26
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-03-open-gym-pickleball-473ecc.md
@@ -1172,7 +1092,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 29
+  chronological_rank: 27
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-05-men-s-breakfast-336f62.md
@@ -1199,7 +1119,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 30
+  chronological_rank: 28
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-06-p-u-r-s-u-e-7f42b9.md
@@ -1226,7 +1146,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 31
+  chronological_rank: 29
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-06-sunday-morning-services-9-30-am-service-3e5884.md
@@ -1253,7 +1173,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 32
+  chronological_rank: 30
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-06-sunday-morning-services-11-00-am-service-8a985a.md
@@ -1351,7 +1271,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 33
+  chronological_rank: 31
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-09-wednesday-night-dinner-f2ed46.md
@@ -1423,7 +1343,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 34
+  chronological_rank: 32
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-09-awana-2026-2027-ca71ea.md
@@ -1450,7 +1370,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 35
+  chronological_rank: 33
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-10-open-gym-pickleball-fe7030.md
@@ -1477,10 +1397,64 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 36
+  chronological_rank: 34
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-13-p-u-r-s-u-e-300fb0.md
+- id: event-a417c1725cb32add
+  uid: ET-9127131-167074215@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-09-13T09:30:00-04:00'
+  end: '2026-09-13T10:40:00-04:00'
+  sort_start_utc: '2026-09-13T13:30:00Z'
+  sort_end_utc: '2026-09-13T14:40:00Z'
+  display_when: Sunday, September 13, 2026, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '167074215'
+  planning_center_event_time_id: '9127131'
+  info_url: https://urbancrest.churchcenter.com/calendar/event/167074215
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 35
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-13-sunday-morning-services-9-30-am-service-b32add.md
+- id: event-d86eca8c10153e7f
+  uid: ET-9127132-167074215@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-09-13T11:00:00-04:00'
+  end: '2026-09-13T12:10:00-04:00'
+  sort_start_utc: '2026-09-13T15:00:00Z'
+  sort_end_utc: '2026-09-13T16:10:00Z'
+  display_when: Sunday, September 13, 2026, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '167074215'
+  planning_center_event_time_id: '9127132'
+  info_url: https://urbancrest.churchcenter.com/calendar/event/167074215
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 36
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-13-sunday-morning-services-11-00-am-service-153e7f.md
 - id: event-8536fe3c9889e119
   uid: ET-31870601-230122708@resources.planningcenteronline.com
   title: Wednesday Night Dinner
