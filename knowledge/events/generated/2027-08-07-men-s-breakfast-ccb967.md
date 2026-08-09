@@ -44,7 +44,7 @@ image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=res
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "195114700"
 planning_center_event_time_id: "30270334"
-last_generated: 2026-08-09T19:01:31.076544Z
+last_generated: 2026-08-09T21:48:39.487199Z
 ---
 
 # Men's Breakfast
