@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.9.7",
-  "generated_at": "2026-08-09T15:47:06.258688Z",
+  "generated_at": "2026-08-09T19:01:32.417821Z",
   "timezone": "America/New_York",
   "record_count": 408,
   "config": {
@@ -4353,7 +4353,7 @@
       "info_url": "http://classic.urbancrest.org",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3517003/medium_image-1773084020561.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-08-21-urbancrest-golf-classic-4f4169.md",
-      "chronological_rank": 11,
+      "chronological_rank": 10,
       "routine_schedule_occurrence": false
     },
     {
@@ -12916,7 +12916,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/166086980",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576",
       "knowledge_file": "knowledge/events/generated/2026-09-05-men-s-breakfast-336f62.md",
-      "chronological_rank": 25,
+      "chronological_rank": 24,
       "routine_schedule_occurrence": false
     },
     {
@@ -13719,7 +13719,7 @@
       "planning_center_event_time_id": "31943802",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230675507",
       "knowledge_file": "knowledge/events/generated/2026-08-17-mexico-missions-meeting-bef8bf.md",
-      "chronological_rank": 7,
+      "chronological_rank": 6,
       "routine_schedule_occurrence": false
     },
     {
@@ -13854,7 +13854,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/163868048",
       "knowledge_file": "knowledge/events/generated/2026-08-16-p-u-r-s-u-e-27cc47.md",
-      "chronological_rank": 4,
+      "chronological_rank": 3,
       "routine_schedule_occurrence": false
     },
     {
@@ -13920,7 +13920,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/164649170",
       "knowledge_file": "knowledge/events/generated/2026-08-23-p-u-r-s-u-e-db0b00.md",
-      "chronological_rank": 12,
+      "chronological_rank": 11,
       "routine_schedule_occurrence": false
     },
     {
@@ -13986,7 +13986,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/165474589",
       "knowledge_file": "knowledge/events/generated/2026-08-30-p-u-r-s-u-e-63faac.md",
-      "chronological_rank": 18,
+      "chronological_rank": 17,
       "routine_schedule_occurrence": false
     },
     {
@@ -14052,7 +14052,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/166271990",
       "knowledge_file": "knowledge/events/generated/2026-09-06-p-u-r-s-u-e-7f42b9.md",
-      "chronological_rank": 26,
+      "chronological_rank": 25,
       "routine_schedule_occurrence": false
     },
     {
@@ -14118,7 +14118,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/167074214",
       "knowledge_file": "knowledge/events/generated/2026-09-13-p-u-r-s-u-e-300fb0.md",
-      "chronological_rank": 32,
+      "chronological_rank": 31,
       "routine_schedule_occurrence": false
     },
     {
@@ -14184,7 +14184,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/167708212",
       "knowledge_file": "knowledge/events/generated/2026-09-20-p-u-r-s-u-e-f8f18d.md",
-      "chronological_rank": 38,
+      "chronological_rank": 37,
       "routine_schedule_occurrence": false
     },
     {
@@ -17425,7 +17425,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/227262430",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3726245/medium_image-1782740681323.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-08-12-youth-back-to-school-bash-37ba8f.md",
-      "chronological_rank": 2,
+      "chronological_rank": 1,
       "routine_schedule_occurrence": false
     },
     {
@@ -18345,7 +18345,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/227855427",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-08-19-awana-2026-2027-5a3ff2.md",
-      "chronological_rank": 9,
+      "chronological_rank": 8,
       "routine_schedule_occurrence": false
     },
     {
@@ -18418,7 +18418,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/227855428",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-08-26-awana-2026-2027-82128d.md",
-      "chronological_rank": 16,
+      "chronological_rank": 15,
       "routine_schedule_occurrence": false
     },
     {
@@ -18491,7 +18491,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/227855429",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-09-02-awana-2026-2027-b657f3.md",
-      "chronological_rank": 23,
+      "chronological_rank": 22,
       "routine_schedule_occurrence": false
     },
     {
@@ -18564,7 +18564,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/227855430",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-09-09-awana-2026-2027-ca71ea.md",
-      "chronological_rank": 30,
+      "chronological_rank": 29,
       "routine_schedule_occurrence": false
     },
     {
@@ -18633,7 +18633,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122705",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-08-26-wednesday-night-dinner-31bf8a.md",
-      "chronological_rank": 15,
+      "chronological_rank": 14,
       "routine_schedule_occurrence": false
     },
     {
@@ -18702,7 +18702,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122706",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-09-02-wednesday-night-dinner-8cbe52.md",
-      "chronological_rank": 22,
+      "chronological_rank": 21,
       "routine_schedule_occurrence": false
     },
     {
@@ -18771,7 +18771,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122707",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-09-09-wednesday-night-dinner-f2ed46.md",
-      "chronological_rank": 29,
+      "chronological_rank": 28,
       "routine_schedule_occurrence": false
     },
     {
@@ -18840,7 +18840,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122708",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-09-16-wednesday-night-dinner-89e119.md",
-      "chronological_rank": 36,
+      "chronological_rank": 35,
       "routine_schedule_occurrence": false
     },
     {
@@ -22263,7 +22263,7 @@
       "planning_center_event_time_id": "28363612",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/165657702",
       "knowledge_file": "knowledge/events/generated/2026-09-01-card-ministry-7202ff.md",
-      "chronological_rank": 21,
+      "chronological_rank": 20,
       "routine_schedule_occurrence": false
     },
     {
@@ -22330,7 +22330,7 @@
       "planning_center_event_time_id": "16193422",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/164040331",
       "knowledge_file": "knowledge/events/generated/2026-08-19-monthly-baskets-of-hope-volunteers-80df8e.md",
-      "chronological_rank": 8,
+      "chronological_rank": 7,
       "routine_schedule_occurrence": false
     },
     {
@@ -22397,7 +22397,7 @@
       "planning_center_event_time_id": "16193422",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/167230919",
       "knowledge_file": "knowledge/events/generated/2026-09-16-monthly-baskets-of-hope-volunteers-77387f.md",
-      "chronological_rank": 35,
+      "chronological_rank": 34,
       "routine_schedule_occurrence": false
     },
     {
@@ -22493,7 +22493,7 @@
       "planning_center_event_time_id": "29468516",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/216277430",
       "knowledge_file": "knowledge/events/generated/2026-08-13-open-gym-pickleball-a267ab.md",
-      "chronological_rank": 3,
+      "chronological_rank": 2,
       "routine_schedule_occurrence": false
     },
     {
@@ -22589,7 +22589,7 @@
       "planning_center_event_time_id": "29468516",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/216277431",
       "knowledge_file": "knowledge/events/generated/2026-08-20-open-gym-pickleball-307382.md",
-      "chronological_rank": 10,
+      "chronological_rank": 9,
       "routine_schedule_occurrence": false
     },
     {
@@ -22685,7 +22685,7 @@
       "planning_center_event_time_id": "29468516",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/216277432",
       "knowledge_file": "knowledge/events/generated/2026-08-27-open-gym-pickleball-e0bc06.md",
-      "chronological_rank": 17,
+      "chronological_rank": 16,
       "routine_schedule_occurrence": false
     },
     {
@@ -22781,7 +22781,7 @@
       "planning_center_event_time_id": "29468516",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/216277433",
       "knowledge_file": "knowledge/events/generated/2026-09-03-open-gym-pickleball-473ecc.md",
-      "chronological_rank": 24,
+      "chronological_rank": 23,
       "routine_schedule_occurrence": false
     },
     {
@@ -22877,7 +22877,7 @@
       "planning_center_event_time_id": "29468516",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/216277434",
       "knowledge_file": "knowledge/events/generated/2026-09-10-open-gym-pickleball-fe7030.md",
-      "chronological_rank": 31,
+      "chronological_rank": 30,
       "routine_schedule_occurrence": false
     },
     {
@@ -22973,79 +22973,8 @@
       "planning_center_event_time_id": "29468516",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/216277435",
       "knowledge_file": "knowledge/events/generated/2026-09-17-open-gym-pickleball-556aa9.md",
-      "chronological_rank": 37,
+      "chronological_rank": 36,
       "routine_schedule_occurrence": false
-    },
-    {
-      "id": "events.live.event-ebdaaa1e316bb742",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-08-09-sunday-morning-services-11-00-am-service-6bb742.md",
-      "title": "Sunday Morning Services: 11:00 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 20,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "general_event",
-        "Sunday Morning Services: 11:00 AM Service"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 11:00 AM Service",
-        "When is Sunday Morning Services: 11:00 AM Service?",
-        "Tell me about Sunday Morning Services: 11:00 AM Service",
-        "What are the details for Sunday Morning Services: 11:00 AM Service?",
-        "What is the menu for Sunday Morning Services: 11:00 AM Service?",
-        "How do I register for Sunday Morning Services: 11:00 AM Service?",
-        "Does Urbancrest have Sunday Morning Services: 11:00 AM Service?",
-        "Does Urbancrest offer Sunday Morning Services: 11:00 AM Service?",
-        "Do you have Sunday Morning Services: 11:00 AM Service?",
-        "Do you offer Sunday Morning Services: 11:00 AM Service?",
-        "Is there Sunday Morning Services: 11:00 AM Service at Urbancrest?",
-        "Can I participate in Sunday Morning Services: 11:00 AM Service?",
-        "Can I play Sunday Morning Services: 11:00 AM Service at Urbancrest?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-ebdaaa1e316bb742",
-      "activity_aliases": [
-        "Sunday Morning Services: 11:00 AM Service"
-      ],
-      "event_category": "general_event",
-      "event_start": "2026-08-09T11:00:00-04:00",
-      "event_end": "2026-08-09T12:10:00-04:00",
-      "sort_start_utc": "2026-08-09T15:00:00Z",
-      "sort_end_utc": "2026-08-09T16:10:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "planning_center_event_instance_id": "163127042",
-      "planning_center_event_time_id": "9127132",
-      "info_url": "https://urbancrest.churchcenter.com/calendar/event/163127042",
-      "knowledge_file": "knowledge/events/generated/2026-08-09-sunday-morning-services-11-00-am-service-6bb742.md",
-      "chronological_rank": 1,
-      "routine_schedule_occurrence": true,
-      "retrieval_exclude_for_intents": [
-        "service_times",
-        "sunday_service_times",
-        "weekly_schedule"
-      ]
     },
     {
       "id": "events.live.event-6d791f65d6684864",
@@ -23110,7 +23039,7 @@
       "planning_center_event_time_id": "9127132",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/163868049",
       "knowledge_file": "knowledge/events/generated/2026-08-16-sunday-morning-services-11-00-am-service-684864.md",
-      "chronological_rank": 6,
+      "chronological_rank": 5,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -23181,7 +23110,7 @@
       "planning_center_event_time_id": "9127132",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/164649168",
       "knowledge_file": "knowledge/events/generated/2026-08-23-sunday-morning-services-11-00-am-service-4475b5.md",
-      "chronological_rank": 14,
+      "chronological_rank": 13,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -23252,7 +23181,7 @@
       "planning_center_event_time_id": "9127132",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/165474591",
       "knowledge_file": "knowledge/events/generated/2026-08-30-sunday-morning-services-11-00-am-service-80f4a3.md",
-      "chronological_rank": 20,
+      "chronological_rank": 19,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -23323,7 +23252,7 @@
       "planning_center_event_time_id": "9127132",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/166271992",
       "knowledge_file": "knowledge/events/generated/2026-09-06-sunday-morning-services-11-00-am-service-8a985a.md",
-      "chronological_rank": 28,
+      "chronological_rank": 27,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -23394,7 +23323,7 @@
       "planning_center_event_time_id": "9127132",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/167074215",
       "knowledge_file": "knowledge/events/generated/2026-09-13-sunday-morning-services-11-00-am-service-153e7f.md",
-      "chronological_rank": 34,
+      "chronological_rank": 33,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -23465,7 +23394,7 @@
       "planning_center_event_time_id": "9127131",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/163868049",
       "knowledge_file": "knowledge/events/generated/2026-08-16-sunday-morning-services-9-30-am-service-e226b5.md",
-      "chronological_rank": 5,
+      "chronological_rank": 4,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -23536,7 +23465,7 @@
       "planning_center_event_time_id": "9127131",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/164649168",
       "knowledge_file": "knowledge/events/generated/2026-08-23-sunday-morning-services-9-30-am-service-23a343.md",
-      "chronological_rank": 13,
+      "chronological_rank": 12,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -23607,7 +23536,7 @@
       "planning_center_event_time_id": "9127131",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/165474591",
       "knowledge_file": "knowledge/events/generated/2026-08-30-sunday-morning-services-9-30-am-service-faf099.md",
-      "chronological_rank": 19,
+      "chronological_rank": 18,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -23678,7 +23607,7 @@
       "planning_center_event_time_id": "9127131",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/166271992",
       "knowledge_file": "knowledge/events/generated/2026-09-06-sunday-morning-services-9-30-am-service-3e5884.md",
-      "chronological_rank": 27,
+      "chronological_rank": 26,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -23749,7 +23678,78 @@
       "planning_center_event_time_id": "9127131",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/167074215",
       "knowledge_file": "knowledge/events/generated/2026-09-13-sunday-morning-services-9-30-am-service-b32add.md",
-      "chronological_rank": 33,
+      "chronological_rank": 32,
+      "routine_schedule_occurrence": true,
+      "retrieval_exclude_for_intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ]
+    },
+    {
+      "id": "events.live.event-66c2f7334325697d",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-09-20-sunday-morning-services-9-30-am-service-25697d.md",
+      "title": "Sunday Morning Services: 9:30 AM Service",
+      "summary": "Join us in person or online!...",
+      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
+      "priority": 20,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "general_event",
+        "Sunday Morning Services: 9:30 AM Service"
+      ],
+      "search_terms": [
+        "Sunday Morning Services: 9:30 AM Service",
+        "When is Sunday Morning Services: 9:30 AM Service?",
+        "Tell me about Sunday Morning Services: 9:30 AM Service",
+        "What are the details for Sunday Morning Services: 9:30 AM Service?",
+        "What is the menu for Sunday Morning Services: 9:30 AM Service?",
+        "How do I register for Sunday Morning Services: 9:30 AM Service?",
+        "Does Urbancrest have Sunday Morning Services: 9:30 AM Service?",
+        "Does Urbancrest offer Sunday Morning Services: 9:30 AM Service?",
+        "Do you have Sunday Morning Services: 9:30 AM Service?",
+        "Do you offer Sunday Morning Services: 9:30 AM Service?",
+        "Is there Sunday Morning Services: 9:30 AM Service at Urbancrest?",
+        "Can I participate in Sunday Morning Services: 9:30 AM Service?",
+        "Can I play Sunday Morning Services: 9:30 AM Service at Urbancrest?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-66c2f7334325697d",
+      "activity_aliases": [
+        "Sunday Morning Services: 9:30 AM Service"
+      ],
+      "event_category": "general_event",
+      "event_start": "2026-09-20T09:30:00-04:00",
+      "event_end": "2026-09-20T10:40:00-04:00",
+      "sort_start_utc": "2026-09-20T13:30:00Z",
+      "sort_end_utc": "2026-09-20T14:40:00Z",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "planning_center_event_instance_id": "167708219",
+      "planning_center_event_time_id": "9127131",
+      "info_url": "https://urbancrest.churchcenter.com/calendar/event/167708219",
+      "knowledge_file": "knowledge/events/generated/2026-09-20-sunday-morning-services-9-30-am-service-25697d.md",
+      "chronological_rank": 38,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",

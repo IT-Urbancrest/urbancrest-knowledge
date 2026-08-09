@@ -16,25 +16,13 @@ tags: [events, calendar, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-08-09T15:47:04.998888Z
+last_generated: 2026-08-09T19:01:31.076544Z
 ---
 
 # Upcoming Events
 
 This index excludes routine Small Group meetings, which are stored separately.
 Events are listed in ascending chronological order.
-
-## Sunday Morning Services: 11:00 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, August 9, 2026, 11 AM to 12:10 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/163127042
-
-Detailed event file: `knowledge/events/generated/2026-08-09-sunday-morning-services-11-00-am-service-6bb742.md`
 
 ## Youth Back to School Bash
 
@@ -478,6 +466,18 @@ Detailed event file: `knowledge/events/generated/2026-09-17-open-gym-pickleball-
 **More information:** https://urbancrest.churchcenter.com/calendar/event/167708212
 
 Detailed event file: `knowledge/events/generated/2026-09-20-p-u-r-s-u-e-f8f18d.md`
+
+## Sunday Morning Services: 9:30 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, September 20, 2026, 9:30 AM to 10:40 AM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+**More information:** https://urbancrest.churchcenter.com/calendar/event/167708219
+
+Detailed event file: `knowledge/events/generated/2026-09-20-sunday-morning-services-9-30-am-service-25697d.md`
 
 ## Wednesday Night Dinner
 
