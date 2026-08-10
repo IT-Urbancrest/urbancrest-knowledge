@@ -16,85 +16,13 @@ tags: [events, calendar, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-08-05T17:40:19.306163Z
+last_generated: 2026-08-10T10:36:50.085002Z
 ---
 
 # Upcoming Events
 
 This index excludes routine Small Group meetings, which are stored separately.
 Events are listed in ascending chronological order.
-
-## OPEN GYM Pickleball
-
-**Category:** General Event
-
-**When:** Thursday, August 6, 2026, 6 PM to 8 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/216277429
-
-Detailed event file: `knowledge/events/generated/2026-08-06-open-gym-pickleball-43c57b.md`
-
-## School Supplies Giveaway
-
-**Category:** Ministry Event
-
-**When:** Saturday, August 8, 2026, 10 AM to 12 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-**Registration:** https://urbancrest.churchcenter.com/registrations/events/3609472
-
-Detailed event file: `knowledge/events/generated/2026-08-08-school-supplies-giveaway-ee30e0.md`
-
-## Backpack Giveaway Event
-
-**Category:** General Event
-
-**When:** Saturday, August 8, 2026, 10 AM to 12 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/218655788
-
-Detailed event file: `knowledge/events/generated/2026-08-08-backpack-giveaway-event-00c910.md`
-
-## P U R S U E
-
-**Category:** Ministry Event
-
-**When:** Sunday, August 9, 2026, 9:30 AM to 10:30 AM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/163127032
-
-Detailed event file: `knowledge/events/generated/2026-08-09-p-u-r-s-u-e-9d1d2c.md`
-
-## Sunday Morning Services: 9:30 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, August 9, 2026, 9:30 AM to 10:40 AM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/163127042
-
-Detailed event file: `knowledge/events/generated/2026-08-09-sunday-morning-services-9-30-am-service-408f37.md`
-
-## Sunday Morning Services: 11:00 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, August 9, 2026, 11 AM to 12:10 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/163127042
-
-Detailed event file: `knowledge/events/generated/2026-08-09-sunday-morning-services-11-00-am-service-6bb742.md`
 
 ## Youth Back to School Bash
 
@@ -479,6 +407,30 @@ Detailed event file: `knowledge/events/generated/2026-09-13-p-u-r-s-u-e-300fb0.m
 
 Detailed event file: `knowledge/events/generated/2026-09-13-sunday-morning-services-9-30-am-service-b32add.md`
 
+## Sunday Morning Services: 11:00 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, September 13, 2026, 11 AM to 12:10 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+**More information:** https://urbancrest.churchcenter.com/calendar/event/167074215
+
+Detailed event file: `knowledge/events/generated/2026-09-13-sunday-morning-services-11-00-am-service-153e7f.md`
+
+## Monthly Baskets of Hope - Volunteers
+
+**Category:** General Event
+
+**When:** Wednesday, September 16, 2026, 4:30 PM to 6:30 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+**More information:** https://urbancrest.churchcenter.com/calendar/event/167230919
+
+Detailed event file: `knowledge/events/generated/2026-09-16-monthly-baskets-of-hope-volunteers-77387f.md`
+
 ## Wednesday Night Dinner
 
 **Category:** Churchwide Program
@@ -491,6 +443,18 @@ Detailed event file: `knowledge/events/generated/2026-09-13-sunday-morning-servi
 
 Detailed event file: `knowledge/events/generated/2026-09-16-wednesday-night-dinner-89e119.md`
 
+## OPEN GYM Pickleball
+
+**Category:** General Event
+
+**When:** Thursday, September 17, 2026, 6 PM to 8 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+**More information:** https://urbancrest.churchcenter.com/calendar/event/216277435
+
+Detailed event file: `knowledge/events/generated/2026-09-17-open-gym-pickleball-556aa9.md`
+
 ## P U R S U E
 
 **Category:** Ministry Event
@@ -502,6 +466,18 @@ Detailed event file: `knowledge/events/generated/2026-09-16-wednesday-night-dinn
 **More information:** https://urbancrest.churchcenter.com/calendar/event/167708212
 
 Detailed event file: `knowledge/events/generated/2026-09-20-p-u-r-s-u-e-f8f18d.md`
+
+## Sunday Morning Services: 9:30 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, September 20, 2026, 9:30 AM to 10:40 AM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+**More information:** https://urbancrest.churchcenter.com/calendar/event/167708219
+
+Detailed event file: `knowledge/events/generated/2026-09-20-sunday-morning-services-9-30-am-service-25697d.md`
 
 ## Wednesday Night Dinner
 
@@ -1822,3 +1798,27 @@ Detailed event file: `knowledge/events/generated/2027-08-01-p-u-r-s-u-e-7d9cde.m
 **More information:** https://urbancrest.churchcenter.com/calendar/event/230122754
 
 Detailed event file: `knowledge/events/generated/2027-08-04-wednesday-night-dinner-c4767b.md`
+
+## Men's Breakfast
+
+**Category:** Ministry Event
+
+**When:** Saturday, August 7, 2027, 8 AM to 10 AM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+**More information:** https://urbancrest.churchcenter.com/calendar/event/195114700
+
+Detailed event file: `knowledge/events/generated/2027-08-07-men-s-breakfast-ccb967.md`
+
+## P U R S U E
+
+**Category:** Ministry Event
+
+**When:** Sunday, August 8, 2027, 9:30 AM to 10:30 AM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+**More information:** https://urbancrest.churchcenter.com/calendar/event/195239941
+
+Detailed event file: `knowledge/events/generated/2027-08-08-p-u-r-s-u-e-5b5cf1.md`

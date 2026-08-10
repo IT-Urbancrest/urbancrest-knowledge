@@ -35,9 +35,9 @@ event_start: "2026-08-12T17:00:00-04:00"
 event_end: "2026-08-12T20:00:00-04:00"
 sort_start_utc: "2026-08-12T21:00:00Z"
 sort_end_utc: "2026-08-13T00:00:00Z"
-chronological_rank: 7
-next_for_ministries: []
-next_for_audiences: []
+chronological_rank: 1
+next_for_ministries: ["students"]
+next_for_audiences: ["students"]
 all_day: false
 info_url: "https://urbancrest.churchcenter.com/calendar/event/227262430"
 image_url: "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3726245/medium_image-1782740681323.jpeg"
@@ -45,7 +45,7 @@ location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "227262430"
 planning_center_event_time_id: "31393258"
-last_generated: 2026-08-05T17:40:19.306163Z
+last_generated: 2026-08-10T10:36:50.085002Z
 ---
 
 # Youth Back to School Bash

@@ -24,11 +24,11 @@ next_meeting_start: "2026-08-10T19:00:00-04:00"
 next_meeting_end: "2026-08-10T20:30:00-04:00"
 sort_start_utc: "2026-08-10T23:00:00Z"
 sort_end_utc: "2026-08-11T00:30:00Z"
-meeting_count_in_window: 52
+meeting_count_in_window: 53
 info_url: "https://urbancrest.churchcenter.com/calendar/event/163212920"
 planning_center_event_instance_id: "163212920"
 planning_center_event_time_id: "28363570"
-last_generated: 2026-08-05T17:40:19.306163Z
+last_generated: 2026-08-10T10:36:50.085002Z
 ---
 
 # Steve Gregory Small Group: Steve Gregory
