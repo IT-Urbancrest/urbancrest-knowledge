@@ -1,19 +1,27 @@
 ---
 id: next-steps.serving
-version: 1.0
+version: 1.1
 status: published
-priority: 95
-title: How do I start serving?
-summary: Complete the Serving or Volunteer Interest Form.
+priority: 105
+title: How can I volunteer or start serving?
+summary: Explore ways to serve at Urbancrest or submit the official Volunteer Interest Form to let us know where you would like to get involved.
 category:
 - next-steps
 intent:
   primary: serving
-  secondary: []
+  secondary:
+  - volunteering
+  - volunteer
+  - serving_interest
+  - get_involved
 audience:
 - everyone
 answer_style: conversational
 confidence: high
+authoritative: true
+authoritative_for:
+- serving
+- volunteering
 owner:
   ministry: church_office
 review:
@@ -21,30 +29,54 @@ review:
   factual: required
 tags:
 - next steps
+- serving
+- volunteering
+- volunteer
+- get involved
+- ministry teams
 search_terms:
-- How do I start serving?
-scripture: []
+- How can I volunteer?
+- How do I volunteer?
+- I want to volunteer
+- Where can I volunteer?
+- How can I serve?
+- How do I serve?
+- I want to serve
+- Where can I serve?
+- How can I start serving?
+- How can I get involved in serving?
+- What volunteer opportunities are available?
+- What serving opportunities are available?
+- Volunteer opportunities
+- Serving opportunities
+- Sign up to volunteer
+- Sign up to serve
 resources:
 - church_center.serving
 next_steps: []
 related: []
-last_updated: '2026-07-20'
+answer_guidance: >
+  For a broad question about serving or volunteering, explain that Urbancrest has many ways
+  to serve and invite the person to explore the Get Involved page or complete the official
+  Volunteer Interest Form. Do not choose or highlight a specific ministry, staff member, or
+  screening process unless the user asks about that specific area. Do not invent staff contact
+  information. The broad serving answer should not display a staff card.
+last_updated: '2026-08-10'
 ---
 
-# How do I start serving?
+# How can I volunteer or start serving?
 
 ## Short Answer
 
-Complete the Serving or Volunteer Interest Form.
+There are many ways to serve at Urbancrest. You can explore opportunities through the **Get Involved** page, or complete the **Volunteer Interest Form** to let us know you are interested in serving.
 
 ## Detailed Answer
 
-Serving allows people to use their gifts to help others and support the mission of the church. A ministry leader can help identify an appropriate place to serve.
+Serving is a practical way to use your gifts, help others, and be part of the mission of Urbancrest. Because opportunities are available across different areas of church life, a broad serving question should begin with the churchwide next steps rather than selecting one ministry for the person.
 
-## Urbancrest Information
+## Next Steps
 
-Use the official Urbancrest resource listed below.
+- Explore the **Get Involved** page to learn about ways to connect and serve.
+- Complete the official **Volunteer Interest Form** if you are ready to let Urbancrest know you would like to serve.
 
-## Next Step
-
-Use `church_center.serving`.
+If someone asks about serving in a specific ministry or team, answer from that ministry's knowledge and use its approved contact or requirements when applicable.

@@ -1,0 +1,54 @@
+version: '1.0'
+suite: broad_serving_retrieval
+last_updated: '2026-08-10'
+purpose: Keep broad volunteering questions churchwide and staff-neutral while preserving specific ministry referrals.
+
+tests:
+- name: broad volunteer question uses canonical serving record
+  query: How can I volunteer?
+  expected:
+    first_record_id: next-steps.serving
+    staff_key: null
+    required_action_keys:
+    - get_involved
+    - serving_interest
+    answer_must_not_include:
+    - Darrel Schick
+    - Women's Ministry
+    - Kids Ministry
+    - dschick@urbancrest.org
+
+- name: broad serving question uses canonical serving record
+  query: How can I serve?
+  expected:
+    first_record_id: next-steps.serving
+    staff_key: null
+    required_action_keys:
+    - get_involved
+    - serving_interest
+
+- name: broad volunteer opportunities remain churchwide
+  query: What volunteer opportunities are available?
+  expected:
+    first_record_id: next-steps.serving
+    staff_key: null
+    required_action_keys:
+    - get_involved
+    - serving_interest
+
+- name: specific Local Missions serving keeps ministry routing
+  query: How can I volunteer with Local Missions?
+  expected:
+    must_not_first_record_id: next-steps.serving
+    staff_key: darrel_schick
+
+- name: specific Kids serving does not use broad serving override
+  query: Can I volunteer with Kids Ministry?
+  expected:
+    must_not_first_record_id: next-steps.serving
+
+- name: explicit staff serving question remains staff-specific
+  query: How can I volunteer with Darrel Schick?
+  expected:
+    must_not_first_record_id: next-steps.serving
+    staff_key: darrel_schick
