@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.9.7",
-  "generated_at": "2026-08-10T10:36:51.275336Z",
+  "generated_at": "2026-08-10T13:19:38.138661Z",
   "timezone": "America/New_York",
-  "record_count": 408,
+  "record_count": 426,
   "config": {
     "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step. For directions requests, include both approved map links.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership Transition\n\nUrbancrest is currently searching for its next Global Missions Pastor.\n\nFor broad or global missions leadership questions:\n\n1. State that Urbancrest is currently searching for its next Global Missions Pastor.\n2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.\n3. Return `jennifer_prows` when one staff card is appropriate.\n4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nState the times found in those authoritative records directly. Do not hardcode service times in runtime application logic or prompt instructions.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
     "style_guide": "# Style Guide\n\n## Writing\n\n- Use short paragraphs.\n- Prefer plain language.\n- Avoid church jargon unless it is explained.\n- Do not use em dashes.\n- Do not use the word meaningful as a filler.\n- Use Small Groups, never Grow Groups.\n- Refer to Urbancrest Church as Urbancrest after the first use.\n- Use believer's baptism by immersion when describing baptism.\n\n## Theology\n\n- Scripture is the final authority.\n- The Baptist Faith and Message 2000 is a helpful doctrinal summary, not equal to Scripture.\n- Salvation is by grace alone through faith alone in Jesus Christ alone.\n- Baptism follows salvation and does not save.\n",
@@ -1178,6 +1178,189 @@
       ]
     },
     {
+      "id": "schedule.ministry.legacy_builders",
+      "record_type": "schedule",
+      "path": "registry/schedule.yaml",
+      "title": "Legacy Builders Weekly Schedule",
+      "summary": "- Legacy Builders Bernie's Place Meals: Wednesday - InJoy Adult Sunday School Class: Sunday at 11:30 AM - Legacy Builders Bears: Second Tuesday of each month - Legacy Builders Kitchen Ministry Support: Each week - Legacy Builders Laundry Ministry: Third Wednesday of each month - Legacy Builders Special Events: Every other month - Legacy Builders Spring Mission Trip: Each spring. The trip usually lasts four days and serves at a children's home, usually in Tennessee, Virginia, or North Carolina. Exact dates and destinations can vary.",
+      "content": "Legacy Builders recurring schedule:\n- Legacy Builders Bernie's Place Meals: Wednesday\n- InJoy Adult Sunday School Class: Sunday at 11:30 AM\n- Legacy Builders Bears: Second Tuesday of each month\n- Legacy Builders Kitchen Ministry Support: Each week\n- Legacy Builders Laundry Ministry: Third Wednesday of each month\n- Legacy Builders Special Events: Every other month\n- Legacy Builders Spring Mission Trip: Each spring. The trip usually lasts four days and serves at a children's home, usually in Tennessee, Virginia, or North Carolina. Exact dates and destinations can vary.",
+      "priority": 123,
+      "category": [
+        "schedule",
+        "recurring",
+        "ministry",
+        "legacy_builders"
+      ],
+      "intents": [
+        "schedule",
+        "weekly_schedule",
+        "ministry_schedule"
+      ],
+      "tags": [
+        "schedule",
+        "recurring",
+        "ministry",
+        "legacy_builders",
+        "Legacy Builders",
+        "Legacy Ministry",
+        "Legacy",
+        "senior adults",
+        "senior adult ministry",
+        "adults age 50 and older",
+        "adults 50 plus",
+        "50 plus ministry"
+      ],
+      "search_terms": [
+        "Legacy Builders",
+        "When does Legacy Builders meet?",
+        "When do Legacy Builders meet?",
+        "What time does Legacy Builders meet?",
+        "What time is Legacy Builders?",
+        "What is the Legacy Builders schedule?",
+        "What days does Legacy Builders meet?",
+        "When is Legacy Builders?",
+        "Does Urbancrest have Legacy Builders?",
+        "Do you offer Legacy Builders?",
+        "Is there Legacy Builders at Urbancrest?",
+        "Legacy Ministry",
+        "When does Legacy Ministry meet?",
+        "When do Legacy Ministry meet?",
+        "What time does Legacy Ministry meet?",
+        "What time is Legacy Ministry?",
+        "What is the Legacy Ministry schedule?",
+        "What days does Legacy Ministry meet?",
+        "When is Legacy Ministry?",
+        "Does Urbancrest have Legacy Ministry?",
+        "Do you offer Legacy Ministry?",
+        "Is there Legacy Ministry at Urbancrest?",
+        "Legacy",
+        "When does Legacy meet?",
+        "When do Legacy meet?",
+        "What time does Legacy meet?",
+        "What time is Legacy?",
+        "What is the Legacy schedule?",
+        "What days does Legacy meet?",
+        "When is Legacy?",
+        "Does Urbancrest have Legacy?",
+        "Do you offer Legacy?",
+        "Is there Legacy at Urbancrest?",
+        "senior adults",
+        "When does senior adults meet?",
+        "When do senior adults meet?",
+        "What time does senior adults meet?",
+        "What time is senior adults?",
+        "What is the senior adults schedule?",
+        "What days does senior adults meet?",
+        "When is senior adults?",
+        "Does Urbancrest have senior adults?",
+        "Do you offer senior adults?",
+        "Is there senior adults at Urbancrest?",
+        "senior adult ministry",
+        "When does senior adult ministry meet?",
+        "When do senior adult ministry meet?",
+        "What time does senior adult ministry meet?",
+        "What time is senior adult ministry?",
+        "What is the senior adult ministry schedule?",
+        "What days does senior adult ministry meet?",
+        "When is senior adult ministry?",
+        "Does Urbancrest have senior adult ministry?",
+        "Do you offer senior adult ministry?",
+        "Is there senior adult ministry at Urbancrest?",
+        "adults age 50 and older",
+        "When does adults age 50 and older meet?",
+        "When do adults age 50 and older meet?",
+        "What time does adults age 50 and older meet?",
+        "What time is adults age 50 and older?",
+        "What is the adults age 50 and older schedule?",
+        "What days does adults age 50 and older meet?",
+        "When is adults age 50 and older?",
+        "Does Urbancrest have adults age 50 and older?",
+        "Do you offer adults age 50 and older?",
+        "Is there adults age 50 and older at Urbancrest?",
+        "adults 50 plus",
+        "When does adults 50 plus meet?",
+        "When do adults 50 plus meet?",
+        "What time does adults 50 plus meet?",
+        "What time is adults 50 plus?",
+        "What is the adults 50 plus schedule?",
+        "What days does adults 50 plus meet?",
+        "When is adults 50 plus?",
+        "Does Urbancrest have adults 50 plus?",
+        "Do you offer adults 50 plus?",
+        "Is there adults 50 plus at Urbancrest?",
+        "50 plus ministry",
+        "When does 50 plus ministry meet?",
+        "When do 50 plus ministry meet?",
+        "What time does 50 plus ministry meet?",
+        "What time is 50 plus ministry?",
+        "What is the 50 plus ministry schedule?",
+        "What days does 50 plus ministry meet?",
+        "When is 50 plus ministry?",
+        "Does Urbancrest have 50 plus ministry?",
+        "Do you offer 50 plus ministry?",
+        "Is there 50 plus ministry at Urbancrest?"
+      ],
+      "ministries": [
+        "legacy_builders"
+      ],
+      "audiences": [],
+      "resources": [],
+      "schedule_scope": "ministry",
+      "ministry_aliases": [
+        "Legacy Builders",
+        "Legacy Ministry",
+        "Legacy",
+        "senior adults",
+        "senior adult ministry",
+        "adults age 50 and older",
+        "adults 50 plus",
+        "50 plus ministry"
+      ],
+      "schedule_ids": [
+        "legacy_builders.injoy_sunday_school",
+        "legacy_builders.bears",
+        "legacy_builders.kitchen_ministry",
+        "legacy_builders.laundry_ministry",
+        "legacy_builders.bernies_place",
+        "legacy_builders.spring_mission_trip",
+        "legacy_builders.special_events"
+      ],
+      "meetings": [
+        {
+          "day": "Wednesday"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:30 AM"
+        },
+        {
+          "day": "Second Tuesday of each month"
+        },
+        {
+          "day": "Each week"
+        },
+        {
+          "day": "Third Wednesday of each month"
+        },
+        {
+          "day": "Every other month"
+        },
+        {
+          "day": "Each spring"
+        }
+      ],
+      "show_staff_card_on_schedule_queries": false,
+      "authoritative": true,
+      "authoritative_for": [
+        "schedule",
+        "recurring_schedule",
+        "ministry_schedule"
+      ],
+      "confidence": "high",
+      "timezone": "America/New_York",
+      "answer_guidance": "Use this registry as the source of truth for normal recurring service and ministry meeting times. For date-specific exceptions, special events, cancellations, or holiday schedules, prefer matching live calendar data when it explicitly applies to the requested date."
+    },
+    {
       "id": "schedule.ministry.kids",
       "record_type": "schedule",
       "path": "registry/schedule.yaml",
@@ -1694,6 +1877,136 @@
       "answer_guidance": "AWANA meets on Wednesdays at 6:15 PM."
     },
     {
+      "id": "schedule.legacy_builders.injoy_sunday_school",
+      "record_type": "schedule",
+      "path": "registry/schedule.yaml",
+      "title": "InJoy Adult Sunday School Class",
+      "summary": "InJoy Adult Sunday School Class: Sunday at 11:30 AM",
+      "content": "InJoy Adult Sunday School Class recurring schedule:\n- Sunday at 11:30 AM",
+      "priority": 120,
+      "category": [
+        "schedule",
+        "recurring",
+        "legacy_builders"
+      ],
+      "intents": [
+        "schedule",
+        "weekly_schedule",
+        "ministry_schedule"
+      ],
+      "tags": [
+        "schedule",
+        "recurring",
+        "legacy_builders",
+        "InJoy Adult Sunday School Class",
+        "InJoy",
+        "InJoy Sunday School",
+        "InJoy Adult Sunday School",
+        "Legacy Sunday School",
+        "Sunday",
+        "Sunday School",
+        "adults 50 and older",
+        "senior adults"
+      ],
+      "search_terms": [
+        "InJoy Adult Sunday School Class",
+        "When does InJoy Adult Sunday School Class meet?",
+        "When do InJoy Adult Sunday School Class meet?",
+        "What time does InJoy Adult Sunday School Class meet?",
+        "What time is InJoy Adult Sunday School Class?",
+        "What is the InJoy Adult Sunday School Class schedule?",
+        "What days does InJoy Adult Sunday School Class meet?",
+        "When is InJoy Adult Sunday School Class?",
+        "Does Urbancrest have InJoy Adult Sunday School Class?",
+        "Do you offer InJoy Adult Sunday School Class?",
+        "Is there InJoy Adult Sunday School Class at Urbancrest?",
+        "InJoy",
+        "When does InJoy meet?",
+        "When do InJoy meet?",
+        "What time does InJoy meet?",
+        "What time is InJoy?",
+        "What is the InJoy schedule?",
+        "What days does InJoy meet?",
+        "When is InJoy?",
+        "Does Urbancrest have InJoy?",
+        "Do you offer InJoy?",
+        "Is there InJoy at Urbancrest?",
+        "InJoy Sunday School",
+        "When does InJoy Sunday School meet?",
+        "When do InJoy Sunday School meet?",
+        "What time does InJoy Sunday School meet?",
+        "What time is InJoy Sunday School?",
+        "What is the InJoy Sunday School schedule?",
+        "What days does InJoy Sunday School meet?",
+        "When is InJoy Sunday School?",
+        "Does Urbancrest have InJoy Sunday School?",
+        "Do you offer InJoy Sunday School?",
+        "Is there InJoy Sunday School at Urbancrest?",
+        "InJoy Adult Sunday School",
+        "When does InJoy Adult Sunday School meet?",
+        "When do InJoy Adult Sunday School meet?",
+        "What time does InJoy Adult Sunday School meet?",
+        "What time is InJoy Adult Sunday School?",
+        "What is the InJoy Adult Sunday School schedule?",
+        "What days does InJoy Adult Sunday School meet?",
+        "When is InJoy Adult Sunday School?",
+        "Does Urbancrest have InJoy Adult Sunday School?",
+        "Do you offer InJoy Adult Sunday School?",
+        "Is there InJoy Adult Sunday School at Urbancrest?",
+        "Legacy Sunday School",
+        "When does Legacy Sunday School meet?",
+        "When do Legacy Sunday School meet?",
+        "What time does Legacy Sunday School meet?",
+        "What time is Legacy Sunday School?",
+        "What is the Legacy Sunday School schedule?",
+        "What days does Legacy Sunday School meet?",
+        "When is Legacy Sunday School?",
+        "Does Urbancrest have Legacy Sunday School?",
+        "Do you offer Legacy Sunday School?",
+        "Is there Legacy Sunday School at Urbancrest?"
+      ],
+      "ministries": [
+        "legacy_builders"
+      ],
+      "audiences": [],
+      "resources": [],
+      "schedule_id": "legacy_builders.injoy_sunday_school",
+      "schedule_scope": "activity",
+      "schedule_aliases": [
+        "InJoy Adult Sunday School Class",
+        "InJoy",
+        "InJoy Sunday School",
+        "InJoy Adult Sunday School",
+        "Legacy Sunday School"
+      ],
+      "ministry_aliases": [
+        "Legacy Builders",
+        "Legacy Ministry",
+        "Legacy",
+        "senior adults",
+        "senior adult ministry",
+        "adults age 50 and older",
+        "adults 50 plus",
+        "50 plus ministry"
+      ],
+      "meetings": [
+        {
+          "day": "Sunday",
+          "time": "11:30 AM"
+        }
+      ],
+      "show_staff_card_on_schedule_queries": false,
+      "authoritative": true,
+      "authoritative_for": [
+        "schedule",
+        "recurring_schedule",
+        "ministry_schedule"
+      ],
+      "confidence": "high",
+      "timezone": "America/New_York",
+      "answer_guidance": "The InJoy Adult Sunday School Class connected with Legacy Builders meets Sundays at 11:30 AM."
+    },
+    {
       "id": "schedule.kids.sunday_school",
       "record_type": "schedule",
       "path": "registry/schedule.yaml",
@@ -2188,12 +2501,242 @@
       "answer_guidance": "Use this registry as the source of truth for normal recurring service and ministry meeting times. For date-specific exceptions, special events, cancellations, or holiday schedules, prefer matching live calendar data when it explicitly applies to the requested date."
     },
     {
+      "id": "schedule.legacy_builders.bears",
+      "record_type": "schedule",
+      "path": "registry/schedule.yaml",
+      "title": "Legacy Builders Bears",
+      "summary": "Legacy Builders Bears: Second Tuesday of each month",
+      "content": "Legacy Builders Bears recurring schedule:\n- Second Tuesday of each month",
+      "priority": 118,
+      "category": [
+        "schedule",
+        "recurring",
+        "legacy_builders"
+      ],
+      "intents": [
+        "schedule",
+        "weekly_schedule",
+        "ministry_schedule"
+      ],
+      "tags": [
+        "schedule",
+        "recurring",
+        "legacy_builders",
+        "Legacy Builders Bears",
+        "Bears",
+        "Bears Ministry",
+        "Legacy Bears",
+        "teddy bear ministry",
+        "second Tuesday",
+        "handmade teddy bears",
+        "senior adults"
+      ],
+      "search_terms": [
+        "Legacy Builders Bears",
+        "When does Legacy Builders Bears meet?",
+        "When do Legacy Builders Bears meet?",
+        "What time does Legacy Builders Bears meet?",
+        "What time is Legacy Builders Bears?",
+        "What is the Legacy Builders Bears schedule?",
+        "What days does Legacy Builders Bears meet?",
+        "When is Legacy Builders Bears?",
+        "Does Urbancrest have Legacy Builders Bears?",
+        "Do you offer Legacy Builders Bears?",
+        "Is there Legacy Builders Bears at Urbancrest?",
+        "Bears",
+        "When does Bears meet?",
+        "When do Bears meet?",
+        "What time does Bears meet?",
+        "What time is Bears?",
+        "What is the Bears schedule?",
+        "What days does Bears meet?",
+        "When is Bears?",
+        "Does Urbancrest have Bears?",
+        "Do you offer Bears?",
+        "Is there Bears at Urbancrest?",
+        "Bears Ministry",
+        "When does Bears Ministry meet?",
+        "When do Bears Ministry meet?",
+        "What time does Bears Ministry meet?",
+        "What time is Bears Ministry?",
+        "What is the Bears Ministry schedule?",
+        "What days does Bears Ministry meet?",
+        "When is Bears Ministry?",
+        "Does Urbancrest have Bears Ministry?",
+        "Do you offer Bears Ministry?",
+        "Is there Bears Ministry at Urbancrest?",
+        "Legacy Bears",
+        "When does Legacy Bears meet?",
+        "When do Legacy Bears meet?",
+        "What time does Legacy Bears meet?",
+        "What time is Legacy Bears?",
+        "What is the Legacy Bears schedule?",
+        "What days does Legacy Bears meet?",
+        "When is Legacy Bears?",
+        "Does Urbancrest have Legacy Bears?",
+        "Do you offer Legacy Bears?",
+        "Is there Legacy Bears at Urbancrest?",
+        "teddy bear ministry",
+        "When does teddy bear ministry meet?",
+        "When do teddy bear ministry meet?",
+        "What time does teddy bear ministry meet?",
+        "What time is teddy bear ministry?",
+        "What is the teddy bear ministry schedule?",
+        "What days does teddy bear ministry meet?",
+        "When is teddy bear ministry?",
+        "Does Urbancrest have teddy bear ministry?",
+        "Do you offer teddy bear ministry?",
+        "Is there teddy bear ministry at Urbancrest?"
+      ],
+      "ministries": [
+        "legacy_builders"
+      ],
+      "audiences": [],
+      "resources": [],
+      "schedule_id": "legacy_builders.bears",
+      "schedule_scope": "activity",
+      "schedule_aliases": [
+        "Legacy Builders Bears",
+        "Bears",
+        "Bears Ministry",
+        "Legacy Bears",
+        "teddy bear ministry"
+      ],
+      "ministry_aliases": [
+        "Legacy Builders",
+        "Legacy Ministry",
+        "Legacy",
+        "senior adults",
+        "senior adult ministry",
+        "adults age 50 and older",
+        "adults 50 plus",
+        "50 plus ministry"
+      ],
+      "meetings": [
+        {
+          "day": "Second Tuesday of each month"
+        }
+      ],
+      "show_staff_card_on_schedule_queries": false,
+      "authoritative": true,
+      "authoritative_for": [
+        "schedule",
+        "recurring_schedule",
+        "ministry_schedule"
+      ],
+      "confidence": "high",
+      "timezone": "America/New_York",
+      "answer_guidance": "Legacy Builders makes handmade teddy bears on the second Tuesday of each month. Do not invent a meeting time."
+    },
+    {
+      "id": "schedule.legacy_builders.laundry_ministry",
+      "record_type": "schedule",
+      "path": "registry/schedule.yaml",
+      "title": "Legacy Builders Laundry Ministry",
+      "summary": "Legacy Builders Laundry Ministry: Third Wednesday of each month",
+      "content": "Legacy Builders Laundry Ministry recurring schedule:\n- Third Wednesday of each month",
+      "priority": 118,
+      "category": [
+        "schedule",
+        "recurring",
+        "legacy_builders"
+      ],
+      "intents": [
+        "schedule",
+        "weekly_schedule",
+        "ministry_schedule"
+      ],
+      "tags": [
+        "schedule",
+        "recurring",
+        "legacy_builders",
+        "Legacy Builders Laundry Ministry",
+        "Legacy Laundry Ministry",
+        "Laundry Ministry",
+        "third Wednesday",
+        "free laundry",
+        "senior adults"
+      ],
+      "search_terms": [
+        "Legacy Builders Laundry Ministry",
+        "When does Legacy Builders Laundry Ministry meet?",
+        "When do Legacy Builders Laundry Ministry meet?",
+        "What time does Legacy Builders Laundry Ministry meet?",
+        "What time is Legacy Builders Laundry Ministry?",
+        "What is the Legacy Builders Laundry Ministry schedule?",
+        "What days does Legacy Builders Laundry Ministry meet?",
+        "When is Legacy Builders Laundry Ministry?",
+        "Does Urbancrest have Legacy Builders Laundry Ministry?",
+        "Do you offer Legacy Builders Laundry Ministry?",
+        "Is there Legacy Builders Laundry Ministry at Urbancrest?",
+        "Legacy Laundry Ministry",
+        "When does Legacy Laundry Ministry meet?",
+        "When do Legacy Laundry Ministry meet?",
+        "What time does Legacy Laundry Ministry meet?",
+        "What time is Legacy Laundry Ministry?",
+        "What is the Legacy Laundry Ministry schedule?",
+        "What days does Legacy Laundry Ministry meet?",
+        "When is Legacy Laundry Ministry?",
+        "Does Urbancrest have Legacy Laundry Ministry?",
+        "Do you offer Legacy Laundry Ministry?",
+        "Is there Legacy Laundry Ministry at Urbancrest?",
+        "Laundry Ministry",
+        "When does Laundry Ministry meet?",
+        "When do Laundry Ministry meet?",
+        "What time does Laundry Ministry meet?",
+        "What time is Laundry Ministry?",
+        "What is the Laundry Ministry schedule?",
+        "What days does Laundry Ministry meet?",
+        "When is Laundry Ministry?",
+        "Does Urbancrest have Laundry Ministry?",
+        "Do you offer Laundry Ministry?",
+        "Is there Laundry Ministry at Urbancrest?"
+      ],
+      "ministries": [
+        "legacy_builders"
+      ],
+      "audiences": [],
+      "resources": [],
+      "schedule_id": "legacy_builders.laundry_ministry",
+      "schedule_scope": "activity",
+      "schedule_aliases": [
+        "Legacy Builders Laundry Ministry",
+        "Legacy Laundry Ministry",
+        "Laundry Ministry"
+      ],
+      "ministry_aliases": [
+        "Legacy Builders",
+        "Legacy Ministry",
+        "Legacy",
+        "senior adults",
+        "senior adult ministry",
+        "adults age 50 and older",
+        "adults 50 plus",
+        "50 plus ministry"
+      ],
+      "meetings": [
+        {
+          "day": "Third Wednesday of each month"
+        }
+      ],
+      "show_staff_card_on_schedule_queries": false,
+      "authoritative": true,
+      "authoritative_for": [
+        "schedule",
+        "recurring_schedule",
+        "ministry_schedule"
+      ],
+      "confidence": "high",
+      "timezone": "America/New_York",
+      "answer_guidance": "Legacy Builders serves through Laundry Ministry on the third Wednesday of each month. Do not invent a meeting time or location."
+    },
+    {
       "id": "schedule.weekly",
       "record_type": "schedule",
       "path": "registry/schedule.yaml",
       "title": "Urbancrest Weekly Schedule",
       "summary": "Regular Sunday and Wednesday recurring schedule for Urbancrest services and ministries.",
-      "content": "Urbancrest regular weekly schedule:\n- Wednesday Night Dinner: Wednesday at 5:30 PM at Gymnasium\n- AWANA: Wednesday at 6:15 PM\n- Adult Bible Studies: Wednesday at 6:30 PM\n- Student Ministry: Wednesday at 6:30 PM; Sunday at 9:30 AM. Regular Student Ministry gatherings pause during the summer while students participate in local missions efforts in the community.\n- Sunday School: Sunday at 9:30 AM; Sunday at 11:00 AM\n- Sunday Worship Services: Sunday at 9:30 AM; Sunday at 11:00 AM",
+      "content": "Urbancrest regular weekly schedule:\n- Wednesday Night Dinner: Wednesday at 5:30 PM at Gymnasium\n- AWANA: Wednesday at 6:15 PM\n- Adult Bible Studies: Wednesday at 6:30 PM\n- Student Ministry: Wednesday at 6:30 PM; Sunday at 9:30 AM. Regular Student Ministry gatherings pause during the summer while students participate in local missions efforts in the community.\n- Legacy Builders Bernie's Place Meals: Wednesday\n- Sunday School: Sunday at 9:30 AM; Sunday at 11:00 AM\n- Sunday Worship Services: Sunday at 9:30 AM; Sunday at 11:00 AM\n- InJoy Adult Sunday School Class: Sunday at 11:30 AM\n- Legacy Builders Bears: Second Tuesday of each month\n- Legacy Builders Kitchen Ministry Support: Each week\n- Legacy Builders Laundry Ministry: Third Wednesday of each month\n- Legacy Builders Special Events: Every other month\n- Legacy Builders Spring Mission Trip: Each spring. The trip usually lasts four days and serves at a children's home, usually in Tennessee, Virginia, or North Carolina. Exact dates and destinations can vary.",
       "priority": 118,
       "category": [
         "schedule",
@@ -2230,8 +2773,15 @@
         "kids.awana",
         "adults.wednesday_bible_studies",
         "students.weekly",
+        "legacy_builders.bernies_place",
         "kids.sunday_school",
-        "worship.sunday"
+        "worship.sunday",
+        "legacy_builders.injoy_sunday_school",
+        "legacy_builders.bears",
+        "legacy_builders.kitchen_ministry",
+        "legacy_builders.laundry_ministry",
+        "legacy_builders.special_events",
+        "legacy_builders.spring_mission_trip"
       ],
       "meetings": [
         {
@@ -2252,6 +2802,9 @@
           "time": "6:30 PM"
         },
         {
+          "day": "Wednesday"
+        },
+        {
           "day": "Sunday",
           "time": "9:30 AM"
         },
@@ -2270,6 +2823,25 @@
         {
           "day": "Sunday",
           "time": "11:00 AM"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:30 AM"
+        },
+        {
+          "day": "Second Tuesday of each month"
+        },
+        {
+          "day": "Each week"
+        },
+        {
+          "day": "Third Wednesday of each month"
+        },
+        {
+          "day": "Every other month"
+        },
+        {
+          "day": "Each spring"
         }
       ],
       "authoritative": true,
@@ -2650,6 +3222,163 @@
       "confidence": "high"
     },
     {
+      "id": "schedule.legacy_builders.bernies_place",
+      "record_type": "schedule",
+      "path": "registry/schedule.yaml",
+      "title": "Legacy Builders Bernie's Place Meals",
+      "summary": "Legacy Builders Bernie's Place Meals: Wednesday",
+      "content": "Legacy Builders Bernie's Place Meals recurring schedule:\n- Wednesday",
+      "priority": 114,
+      "category": [
+        "schedule",
+        "recurring",
+        "legacy_builders"
+      ],
+      "intents": [
+        "schedule",
+        "weekly_schedule",
+        "ministry_schedule"
+      ],
+      "tags": [
+        "schedule",
+        "recurring",
+        "legacy_builders",
+        "Legacy Builders Bernie's Place Meals",
+        "Bernie's Place",
+        "Bernie's Place meals",
+        "Bernie's Ministry",
+        "Bernie's Ministry meals",
+        "South Lebanon emergency shelter meals",
+        "South Lebanon homeless shelter meals",
+        "Wednesday",
+        "emergency shelter",
+        "South Lebanon",
+        "Kitchen Ministry",
+        "Wednesday Night Dinner",
+        "senior adults"
+      ],
+      "search_terms": [
+        "Legacy Builders Bernie's Place Meals",
+        "When does Legacy Builders Bernie's Place Meals meet?",
+        "When do Legacy Builders Bernie's Place Meals meet?",
+        "What time does Legacy Builders Bernie's Place Meals meet?",
+        "What time is Legacy Builders Bernie's Place Meals?",
+        "What is the Legacy Builders Bernie's Place Meals schedule?",
+        "What days does Legacy Builders Bernie's Place Meals meet?",
+        "When is Legacy Builders Bernie's Place Meals?",
+        "Does Urbancrest have Legacy Builders Bernie's Place Meals?",
+        "Do you offer Legacy Builders Bernie's Place Meals?",
+        "Is there Legacy Builders Bernie's Place Meals at Urbancrest?",
+        "Bernie's Place",
+        "When does Bernie's Place meet?",
+        "When do Bernie's Place meet?",
+        "What time does Bernie's Place meet?",
+        "What time is Bernie's Place?",
+        "What is the Bernie's Place schedule?",
+        "What days does Bernie's Place meet?",
+        "When is Bernie's Place?",
+        "Does Urbancrest have Bernie's Place?",
+        "Do you offer Bernie's Place?",
+        "Is there Bernie's Place at Urbancrest?",
+        "Bernie's Place meals",
+        "When does Bernie's Place meals meet?",
+        "When do Bernie's Place meals meet?",
+        "What time does Bernie's Place meals meet?",
+        "What time is Bernie's Place meals?",
+        "What is the Bernie's Place meals schedule?",
+        "What days does Bernie's Place meals meet?",
+        "When is Bernie's Place meals?",
+        "Does Urbancrest have Bernie's Place meals?",
+        "Do you offer Bernie's Place meals?",
+        "Is there Bernie's Place meals at Urbancrest?",
+        "Bernie's Ministry",
+        "When does Bernie's Ministry meet?",
+        "When do Bernie's Ministry meet?",
+        "What time does Bernie's Ministry meet?",
+        "What time is Bernie's Ministry?",
+        "What is the Bernie's Ministry schedule?",
+        "What days does Bernie's Ministry meet?",
+        "When is Bernie's Ministry?",
+        "Does Urbancrest have Bernie's Ministry?",
+        "Do you offer Bernie's Ministry?",
+        "Is there Bernie's Ministry at Urbancrest?",
+        "Bernie's Ministry meals",
+        "When does Bernie's Ministry meals meet?",
+        "When do Bernie's Ministry meals meet?",
+        "What time does Bernie's Ministry meals meet?",
+        "What time is Bernie's Ministry meals?",
+        "What is the Bernie's Ministry meals schedule?",
+        "What days does Bernie's Ministry meals meet?",
+        "When is Bernie's Ministry meals?",
+        "Does Urbancrest have Bernie's Ministry meals?",
+        "Do you offer Bernie's Ministry meals?",
+        "Is there Bernie's Ministry meals at Urbancrest?",
+        "South Lebanon emergency shelter meals",
+        "When does South Lebanon emergency shelter meals meet?",
+        "When do South Lebanon emergency shelter meals meet?",
+        "What time does South Lebanon emergency shelter meals meet?",
+        "What time is South Lebanon emergency shelter meals?",
+        "What is the South Lebanon emergency shelter meals schedule?",
+        "What days does South Lebanon emergency shelter meals meet?",
+        "When is South Lebanon emergency shelter meals?",
+        "Does Urbancrest have South Lebanon emergency shelter meals?",
+        "Do you offer South Lebanon emergency shelter meals?",
+        "Is there South Lebanon emergency shelter meals at Urbancrest?",
+        "South Lebanon homeless shelter meals",
+        "When does South Lebanon homeless shelter meals meet?",
+        "When do South Lebanon homeless shelter meals meet?",
+        "What time does South Lebanon homeless shelter meals meet?",
+        "What time is South Lebanon homeless shelter meals?",
+        "What is the South Lebanon homeless shelter meals schedule?",
+        "What days does South Lebanon homeless shelter meals meet?",
+        "When is South Lebanon homeless shelter meals?",
+        "Does Urbancrest have South Lebanon homeless shelter meals?",
+        "Do you offer South Lebanon homeless shelter meals?",
+        "Is there South Lebanon homeless shelter meals at Urbancrest?"
+      ],
+      "ministries": [
+        "legacy_builders"
+      ],
+      "audiences": [],
+      "resources": [],
+      "schedule_id": "legacy_builders.bernies_place",
+      "schedule_scope": "activity",
+      "schedule_aliases": [
+        "Legacy Builders Bernie's Place Meals",
+        "Bernie's Place",
+        "Bernie's Place meals",
+        "Bernie's Ministry",
+        "Bernie's Ministry meals",
+        "South Lebanon emergency shelter meals",
+        "South Lebanon homeless shelter meals"
+      ],
+      "ministry_aliases": [
+        "Legacy Builders",
+        "Legacy Ministry",
+        "Legacy",
+        "senior adults",
+        "senior adult ministry",
+        "adults age 50 and older",
+        "adults 50 plus",
+        "50 plus ministry"
+      ],
+      "meetings": [
+        {
+          "day": "Wednesday"
+        }
+      ],
+      "show_staff_card_on_schedule_queries": false,
+      "authoritative": true,
+      "authoritative_for": [
+        "schedule",
+        "recurring_schedule",
+        "ministry_schedule"
+      ],
+      "confidence": "high",
+      "timezone": "America/New_York",
+      "answer_guidance": "Legacy Builders Kitchen Ministry takes remaining food from Wednesday Night Dinner each week to Bernie's Place, an emergency shelter in South Lebanon that can house up to 14 individuals. Do not invent an exact meal time."
+    },
+    {
       "id": "ministries.local_missions.leadership",
       "record_type": "knowledge",
       "path": "knowledge/ministries/local-missions/faq/who-leads-local-missions.md",
@@ -2699,6 +3428,237 @@
       "status": "published",
       "recommended_contact_staff_key": "darrel_schick",
       "confidence": "high"
+    },
+    {
+      "id": "schedule.legacy_builders.kitchen_ministry",
+      "record_type": "schedule",
+      "path": "registry/schedule.yaml",
+      "title": "Legacy Builders Kitchen Ministry Support",
+      "summary": "Legacy Builders Kitchen Ministry Support: Each week",
+      "content": "Legacy Builders Kitchen Ministry Support recurring schedule:\n- Each week",
+      "priority": 112,
+      "category": [
+        "schedule",
+        "recurring",
+        "legacy_builders"
+      ],
+      "intents": [
+        "schedule",
+        "weekly_schedule",
+        "ministry_schedule"
+      ],
+      "tags": [
+        "schedule",
+        "recurring",
+        "legacy_builders",
+        "Legacy Builders Kitchen Ministry Support",
+        "Legacy Kitchen Ministry",
+        "Kitchen Ministry",
+        "Legacy kitchen",
+        "weekly",
+        "Wednesday Night Dinner"
+      ],
+      "search_terms": [
+        "Legacy Builders Kitchen Ministry Support",
+        "When does Legacy Builders Kitchen Ministry Support meet?",
+        "When do Legacy Builders Kitchen Ministry Support meet?",
+        "What time does Legacy Builders Kitchen Ministry Support meet?",
+        "What time is Legacy Builders Kitchen Ministry Support?",
+        "What is the Legacy Builders Kitchen Ministry Support schedule?",
+        "What days does Legacy Builders Kitchen Ministry Support meet?",
+        "When is Legacy Builders Kitchen Ministry Support?",
+        "Does Urbancrest have Legacy Builders Kitchen Ministry Support?",
+        "Do you offer Legacy Builders Kitchen Ministry Support?",
+        "Is there Legacy Builders Kitchen Ministry Support at Urbancrest?",
+        "Legacy Kitchen Ministry",
+        "When does Legacy Kitchen Ministry meet?",
+        "When do Legacy Kitchen Ministry meet?",
+        "What time does Legacy Kitchen Ministry meet?",
+        "What time is Legacy Kitchen Ministry?",
+        "What is the Legacy Kitchen Ministry schedule?",
+        "What days does Legacy Kitchen Ministry meet?",
+        "When is Legacy Kitchen Ministry?",
+        "Does Urbancrest have Legacy Kitchen Ministry?",
+        "Do you offer Legacy Kitchen Ministry?",
+        "Is there Legacy Kitchen Ministry at Urbancrest?",
+        "Kitchen Ministry",
+        "When does Kitchen Ministry meet?",
+        "When do Kitchen Ministry meet?",
+        "What time does Kitchen Ministry meet?",
+        "What time is Kitchen Ministry?",
+        "What is the Kitchen Ministry schedule?",
+        "What days does Kitchen Ministry meet?",
+        "When is Kitchen Ministry?",
+        "Does Urbancrest have Kitchen Ministry?",
+        "Do you offer Kitchen Ministry?",
+        "Is there Kitchen Ministry at Urbancrest?",
+        "Legacy kitchen",
+        "When does Legacy kitchen meet?",
+        "When do Legacy kitchen meet?",
+        "What time does Legacy kitchen meet?",
+        "What time is Legacy kitchen?",
+        "What is the Legacy kitchen schedule?",
+        "What days does Legacy kitchen meet?",
+        "When is Legacy kitchen?",
+        "Does Urbancrest have Legacy kitchen?",
+        "Do you offer Legacy kitchen?",
+        "Is there Legacy kitchen at Urbancrest?"
+      ],
+      "ministries": [
+        "legacy_builders"
+      ],
+      "audiences": [],
+      "resources": [],
+      "schedule_id": "legacy_builders.kitchen_ministry",
+      "schedule_scope": "activity",
+      "schedule_aliases": [
+        "Legacy Builders Kitchen Ministry Support",
+        "Legacy Kitchen Ministry",
+        "Kitchen Ministry",
+        "Legacy kitchen"
+      ],
+      "ministry_aliases": [
+        "Legacy Builders",
+        "Legacy Ministry",
+        "Legacy",
+        "senior adults",
+        "senior adult ministry",
+        "adults age 50 and older",
+        "adults 50 plus",
+        "50 plus ministry"
+      ],
+      "meetings": [
+        {
+          "day": "Each week"
+        }
+      ],
+      "show_staff_card_on_schedule_queries": false,
+      "authoritative": true,
+      "authoritative_for": [
+        "schedule",
+        "recurring_schedule",
+        "ministry_schedule"
+      ],
+      "confidence": "high",
+      "timezone": "America/New_York",
+      "answer_guidance": "Legacy Builders members support Kitchen Ministry each week. No specific day or time is established by this schedule record."
+    },
+    {
+      "id": "schedule.legacy_builders.spring_mission_trip",
+      "record_type": "schedule",
+      "path": "registry/schedule.yaml",
+      "title": "Legacy Builders Spring Mission Trip",
+      "summary": "Legacy Builders Spring Mission Trip: Each spring. The trip usually lasts four days and serves at a children's home, usually in Tennessee, Virginia, or North Carolina. Exact dates and destinations can vary.",
+      "content": "Legacy Builders Spring Mission Trip recurring schedule:\n- Each spring\nSeasonal note: The trip usually lasts four days and serves at a children's home, usually in Tennessee, Virginia, or North Carolina. Exact dates and destinations can vary.",
+      "priority": 112,
+      "category": [
+        "schedule",
+        "recurring",
+        "legacy_builders"
+      ],
+      "intents": [
+        "schedule",
+        "weekly_schedule",
+        "ministry_schedule"
+      ],
+      "tags": [
+        "schedule",
+        "recurring",
+        "legacy_builders",
+        "Legacy Builders Spring Mission Trip",
+        "Legacy mission trip",
+        "Legacy Builders mission trip",
+        "spring mission trip",
+        "spring",
+        "mission trip",
+        "children's home",
+        "senior adults"
+      ],
+      "search_terms": [
+        "Legacy Builders Spring Mission Trip",
+        "When does Legacy Builders Spring Mission Trip meet?",
+        "When do Legacy Builders Spring Mission Trip meet?",
+        "What time does Legacy Builders Spring Mission Trip meet?",
+        "What time is Legacy Builders Spring Mission Trip?",
+        "What is the Legacy Builders Spring Mission Trip schedule?",
+        "What days does Legacy Builders Spring Mission Trip meet?",
+        "When is Legacy Builders Spring Mission Trip?",
+        "Does Urbancrest have Legacy Builders Spring Mission Trip?",
+        "Do you offer Legacy Builders Spring Mission Trip?",
+        "Is there Legacy Builders Spring Mission Trip at Urbancrest?",
+        "Legacy mission trip",
+        "When does Legacy mission trip meet?",
+        "When do Legacy mission trip meet?",
+        "What time does Legacy mission trip meet?",
+        "What time is Legacy mission trip?",
+        "What is the Legacy mission trip schedule?",
+        "What days does Legacy mission trip meet?",
+        "When is Legacy mission trip?",
+        "Does Urbancrest have Legacy mission trip?",
+        "Do you offer Legacy mission trip?",
+        "Is there Legacy mission trip at Urbancrest?",
+        "Legacy Builders mission trip",
+        "When does Legacy Builders mission trip meet?",
+        "When do Legacy Builders mission trip meet?",
+        "What time does Legacy Builders mission trip meet?",
+        "What time is Legacy Builders mission trip?",
+        "What is the Legacy Builders mission trip schedule?",
+        "What days does Legacy Builders mission trip meet?",
+        "When is Legacy Builders mission trip?",
+        "Does Urbancrest have Legacy Builders mission trip?",
+        "Do you offer Legacy Builders mission trip?",
+        "Is there Legacy Builders mission trip at Urbancrest?",
+        "spring mission trip",
+        "When does spring mission trip meet?",
+        "When do spring mission trip meet?",
+        "What time does spring mission trip meet?",
+        "What time is spring mission trip?",
+        "What is the spring mission trip schedule?",
+        "What days does spring mission trip meet?",
+        "When is spring mission trip?",
+        "Does Urbancrest have spring mission trip?",
+        "Do you offer spring mission trip?",
+        "Is there spring mission trip at Urbancrest?"
+      ],
+      "ministries": [
+        "legacy_builders"
+      ],
+      "audiences": [],
+      "resources": [],
+      "schedule_id": "legacy_builders.spring_mission_trip",
+      "schedule_scope": "activity",
+      "schedule_aliases": [
+        "Legacy Builders Spring Mission Trip",
+        "Legacy mission trip",
+        "Legacy Builders mission trip",
+        "spring mission trip"
+      ],
+      "ministry_aliases": [
+        "Legacy Builders",
+        "Legacy Ministry",
+        "Legacy",
+        "senior adults",
+        "senior adult ministry",
+        "adults age 50 and older",
+        "adults 50 plus",
+        "50 plus ministry"
+      ],
+      "meetings": [
+        {
+          "day": "Each spring"
+        }
+      ],
+      "seasonal_note": "The trip usually lasts four days and serves at a children's home, usually in Tennessee, Virginia, or North Carolina. Exact dates and destinations can vary.",
+      "show_staff_card_on_schedule_queries": false,
+      "authoritative": true,
+      "authoritative_for": [
+        "schedule",
+        "recurring_schedule",
+        "ministry_schedule"
+      ],
+      "confidence": "high",
+      "timezone": "America/New_York",
+      "answer_guidance": "State that the Legacy Builders mission trip takes place each spring and usually lasts four days. Use live event information for an exact current date or destination when available."
     },
     {
       "id": "action_link.directions_apple",
@@ -2909,6 +3869,54 @@
       "confidence": "high"
     },
     {
+      "id": "ministries.legacy_builders.laundry_ministry",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/legacy-builders/laundry-ministry.md",
+      "title": "How does Legacy Builders serve through Laundry Ministry?",
+      "summary": "Legacy Builders serves through Laundry Ministry on the third Wednesday of each month, when free laundry services and dinner are provided.",
+      "content": "# Legacy Builders and Laundry Ministry\n\nLegacy Builders serves through **Laundry Ministry on the third Wednesday of each month**. The ministry provides **free laundry services and dinner**.",
+      "priority": 110,
+      "category": [
+        "ministries",
+        "service",
+        "local_missions"
+      ],
+      "intents": [
+        "legacy_builders",
+        "laundry_ministry",
+        "serving",
+        "local_missions_info"
+      ],
+      "tags": [
+        "Legacy Builders",
+        "Laundry Ministry",
+        "free laundry",
+        "dinner",
+        "senior adults",
+        "local missions"
+      ],
+      "search_terms": [
+        "Does Legacy Builders help with Laundry Ministry?",
+        "How does Legacy serve through Laundry Ministry?",
+        "When is Laundry Ministry?",
+        "When does Legacy help with Laundry Ministry?",
+        "Does Laundry Ministry provide free laundry?",
+        "Is dinner provided at Laundry Ministry?"
+      ],
+      "ministries": [
+        "legacy_builders",
+        "local_missions"
+      ],
+      "audiences": [
+        "adults_50_plus"
+      ],
+      "resources": [],
+      "status": "published",
+      "answer_guidance": "State that Legacy Builders serves through Laundry Ministry on the third Wednesday of each month and that free laundry services and dinner are provided. Do not invent a location or exact time.",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
       "id": "ministries.stephen_ministry.not_professional_counseling",
       "record_type": "knowledge",
       "path": "knowledge/ministries/stephen-ministry/not-professional-counseling.md",
@@ -2994,6 +4002,99 @@
       ]
     },
     {
+      "id": "ministries.legacy_builders.bears",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/legacy-builders/bears-ministry.md",
+      "title": "What is the Legacy Builders Bears ministry?",
+      "summary": "Legacy Builders makes handmade teddy bears on the second Tuesday of each month and has made more than 2,000 bears for nursing homes, mission trips, police departments, and Children's Hospital.",
+      "content": "# Legacy Builders Bears ministry\n\nLegacy Builders' **Bears** ministry makes handmade teddy bears on the **second Tuesday of each month**.\n\nLegacy Builders has made **more than 2,000 bears**. The bears have been given through:\n\n- Nursing homes\n- Mission trips to children\n- Police departments\n- Children's Hospital",
+      "priority": 110,
+      "category": [
+        "ministries",
+        "service"
+      ],
+      "intents": [
+        "legacy_builders",
+        "bears_ministry",
+        "serving",
+        "ministry_info"
+      ],
+      "tags": [
+        "Legacy Builders",
+        "Bears",
+        "handmade teddy bears",
+        "senior adults",
+        "service"
+      ],
+      "search_terms": [
+        "What is the Bears ministry?",
+        "Does Legacy Builders make teddy bears?",
+        "Does Legacy make teddy bears?",
+        "When does the Legacy Bears ministry meet?",
+        "When do they make teddy bears?",
+        "Who receives the Legacy teddy bears?",
+        "How many teddy bears has Legacy Builders made?",
+        "Does Legacy Builders have a handmade teddy bear ministry?"
+      ],
+      "ministries": [
+        "legacy_builders"
+      ],
+      "audiences": [
+        "adults_50_plus"
+      ],
+      "resources": [],
+      "status": "published",
+      "answer_guidance": "State that Bears meets on the second Tuesday of each month and that Legacy Builders has made more than 2,000 handmade teddy bears. Use only the recipient groups listed in this article.",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
+      "id": "ministries.legacy_builders.injoy_sunday_school",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/legacy-builders/injoy-sunday-school.md",
+      "title": "When does the InJoy Adult Sunday School Class meet?",
+      "summary": "The InJoy Adult Sunday School Class connected with Legacy Builders meets Sundays at 11:30 AM.",
+      "content": "# InJoy Adult Sunday School Class\n\nThe **InJoy Adult Sunday School Class** connected with Legacy Builders meets **Sundays at 11:30 AM**.",
+      "priority": 110,
+      "category": [
+        "ministries",
+        "sunday_school"
+      ],
+      "intents": [
+        "legacy_builders",
+        "sunday_school",
+        "schedule",
+        "ministry_info"
+      ],
+      "tags": [
+        "Legacy Builders",
+        "InJoy",
+        "Adult Sunday School",
+        "Sunday School",
+        "senior adults"
+      ],
+      "search_terms": [
+        "What is InJoy?",
+        "When does InJoy meet?",
+        "What time is InJoy Sunday School?",
+        "When does the InJoy Adult Sunday School Class meet?",
+        "Does Legacy Builders have Sunday School?",
+        "Is there a Sunday School class for senior adults?",
+        "What Sunday School class is connected to Legacy Builders?"
+      ],
+      "ministries": [
+        "legacy_builders"
+      ],
+      "audiences": [
+        "adults_50_plus"
+      ],
+      "resources": [],
+      "status": "published",
+      "answer_guidance": "State that the InJoy Adult Sunday School Class meets Sundays at 11:30 AM. Do not invent a room or teacher beyond the Legacy Builders leadership information supplied elsewhere.",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
       "id": "ministries.kids.leadership",
       "record_type": "knowledge",
       "path": "knowledge/ministries/kids/who-oversees-kids-ministry.md",
@@ -3047,6 +4148,186 @@
       "review_trigger": "kids_ministry_director_hired",
       "answer_guidance": "State that the Kids Ministry Director position is vacant before recommending Sarah Coleman as the current point person. Identify Sarah as Preschool Director, not Kids Ministry Director.",
       "confidence": "high"
+    },
+    {
+      "id": "schedule.legacy_builders.special_events",
+      "record_type": "schedule",
+      "path": "registry/schedule.yaml",
+      "title": "Legacy Builders Special Events",
+      "summary": "Legacy Builders Special Events: Every other month",
+      "content": "Legacy Builders Special Events recurring schedule:\n- Every other month",
+      "priority": 110,
+      "category": [
+        "schedule",
+        "recurring",
+        "legacy_builders"
+      ],
+      "intents": [
+        "schedule",
+        "weekly_schedule",
+        "ministry_schedule"
+      ],
+      "tags": [
+        "schedule",
+        "recurring",
+        "legacy_builders",
+        "Legacy Builders Special Events",
+        "Legacy events",
+        "Legacy dinners",
+        "Legacy Builders dinner and program",
+        "every other month",
+        "dinner",
+        "program",
+        "senior adults"
+      ],
+      "search_terms": [
+        "Legacy Builders Special Events",
+        "When does Legacy Builders Special Events meet?",
+        "When do Legacy Builders Special Events meet?",
+        "What time does Legacy Builders Special Events meet?",
+        "What time is Legacy Builders Special Events?",
+        "What is the Legacy Builders Special Events schedule?",
+        "What days does Legacy Builders Special Events meet?",
+        "When is Legacy Builders Special Events?",
+        "Does Urbancrest have Legacy Builders Special Events?",
+        "Do you offer Legacy Builders Special Events?",
+        "Is there Legacy Builders Special Events at Urbancrest?",
+        "Legacy events",
+        "When does Legacy events meet?",
+        "When do Legacy events meet?",
+        "What time does Legacy events meet?",
+        "What time is Legacy events?",
+        "What is the Legacy events schedule?",
+        "What days does Legacy events meet?",
+        "When is Legacy events?",
+        "Does Urbancrest have Legacy events?",
+        "Do you offer Legacy events?",
+        "Is there Legacy events at Urbancrest?",
+        "Legacy dinners",
+        "When does Legacy dinners meet?",
+        "When do Legacy dinners meet?",
+        "What time does Legacy dinners meet?",
+        "What time is Legacy dinners?",
+        "What is the Legacy dinners schedule?",
+        "What days does Legacy dinners meet?",
+        "When is Legacy dinners?",
+        "Does Urbancrest have Legacy dinners?",
+        "Do you offer Legacy dinners?",
+        "Is there Legacy dinners at Urbancrest?",
+        "Legacy Builders dinner and program",
+        "When does Legacy Builders dinner and program meet?",
+        "When do Legacy Builders dinner and program meet?",
+        "What time does Legacy Builders dinner and program meet?",
+        "What time is Legacy Builders dinner and program?",
+        "What is the Legacy Builders dinner and program schedule?",
+        "What days does Legacy Builders dinner and program meet?",
+        "When is Legacy Builders dinner and program?",
+        "Does Urbancrest have Legacy Builders dinner and program?",
+        "Do you offer Legacy Builders dinner and program?",
+        "Is there Legacy Builders dinner and program at Urbancrest?"
+      ],
+      "ministries": [
+        "legacy_builders"
+      ],
+      "audiences": [],
+      "resources": [],
+      "schedule_id": "legacy_builders.special_events",
+      "schedule_scope": "activity",
+      "schedule_aliases": [
+        "Legacy Builders Special Events",
+        "Legacy events",
+        "Legacy dinners",
+        "Legacy Builders dinner and program"
+      ],
+      "ministry_aliases": [
+        "Legacy Builders",
+        "Legacy Ministry",
+        "Legacy",
+        "senior adults",
+        "senior adult ministry",
+        "adults age 50 and older",
+        "adults 50 plus",
+        "50 plus ministry"
+      ],
+      "meetings": [
+        {
+          "day": "Every other month"
+        }
+      ],
+      "show_staff_card_on_schedule_queries": false,
+      "authoritative": true,
+      "authoritative_for": [
+        "schedule",
+        "recurring_schedule",
+        "ministry_schedule"
+      ],
+      "confidence": "high",
+      "timezone": "America/New_York",
+      "answer_guidance": "Legacy Builders provides a dinner and program every other month. Use live event information for exact current dates and program details."
+    },
+    {
+      "id": "ministries.legacy_builders.bernies_place",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/legacy-builders/bernies-ministry.md",
+      "title": "Bernie's Place",
+      "summary": "Bernie's Place is an emergency shelter in South Lebanon that can house up to 14 individuals. Legacy Builders Kitchen Ministry takes remaining food from Wednesday Night Dinner each week to provide meals for people currently staying there.",
+      "content": "# Bernie's Place\n\n**Bernie's Place** is an emergency shelter in **South Lebanon** that can house up to **14 individuals** who are experiencing homelessness.\n\nThe shelter is named in honor of **Bernie Eichholz**, who spearheaded the effort to make the shelter a reality while in his nineties.\n\n## How Legacy Builders serves Bernie's Place\n\nLegacy Builders serves Bernie's Place through its **Kitchen Ministry**. Each week, remaining food from Urbancrest's **Wednesday Night Dinner** is taken to Bernie's Place to provide meals for the individuals currently staying at the shelter.\n\nThis allows food prepared for Wednesday Night Dinner to continue serving people in the community while supporting the ongoing work of Bernie's Place.\n\n## Related ministry\n\nThis service is part of the **Legacy Builders Kitchen Ministry**, one of the ways adults age 50 and older at Urbancrest serve the church and community.",
+      "priority": 108,
+      "category": [
+        "ministries",
+        "service",
+        "local_missions",
+        "community_care"
+      ],
+      "intents": [
+        "legacy_builders",
+        "bernies_place",
+        "serving",
+        "local_missions_info",
+        "community_care"
+      ],
+      "tags": [
+        "Legacy Builders",
+        "Bernie's Place",
+        "Bernie Eichholz",
+        "emergency shelter",
+        "South Lebanon",
+        "Kitchen Ministry",
+        "Wednesday Night Dinner",
+        "meals",
+        "homelessness",
+        "community care",
+        "senior adults"
+      ],
+      "search_terms": [
+        "What is Bernie's Place?",
+        "Where is Bernie's Place?",
+        "Is Bernie's Place a homeless shelter?",
+        "Is Bernie's Place an emergency shelter?",
+        "How many people can Bernie's Place house?",
+        "Who was Bernie Eichholz?",
+        "Why is it called Bernie's Place?",
+        "How does Legacy Builders serve Bernie's Place?",
+        "Does Legacy Builders take food to Bernie's Place?",
+        "Where does leftover Wednesday Night Dinner food go?",
+        "Does Legacy Builders provide meals to a homeless shelter?",
+        "What does Legacy Builders do in South Lebanon?",
+        "What is Bernie's Ministry?",
+        "Does Legacy Builders serve Bernie's Ministry?",
+        "How does Legacy help Bernie's Ministry?"
+      ],
+      "ministries": [
+        "legacy_builders",
+        "local_missions"
+      ],
+      "audiences": [
+        "adults_50_plus"
+      ],
+      "resources": [],
+      "status": "published",
+      "answer_guidance": "Bernie's Place is an emergency shelter in South Lebanon that can house up to 14 individuals. It is named after Bernie Eichholz, who spearheaded the effort to make the shelter a reality while in his nineties. Explain that Legacy Builders serves Bernie's Place through its Kitchen Ministry by taking remaining food from Urbancrest's Wednesday Night Dinner each week to provide meals for people currently staying at the shelter. Bernie's Place is the shelter, not the name of a Legacy Builders ministry. If someone uses the older phrase Bernie's Ministry, interpret it as Bernie's Place. Do not invent additional shelter services, eligibility requirements, addresses, or meal times.",
+      "confidence": "high",
+      "authoritative": true
     },
     {
       "id": "ministries.local_missions.furniture_ministry",
@@ -3152,6 +4433,100 @@
       "confidence": "high"
     },
     {
+      "id": "ministries.legacy_builders.spring_mission_trip",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/legacy-builders/spring-mission-trip.md",
+      "title": "Does Legacy Builders take a mission trip?",
+      "summary": "Legacy Builders takes a four-day mission trip each spring to serve at a children's home, usually in Tennessee, Virginia, or North Carolina.",
+      "content": "# Legacy Builders spring mission trip\n\nEach spring, Legacy Builders takes a **four-day mission trip** to serve at a children's home. The destination is usually in **Tennessee, Virginia, or North Carolina**.\n\nExact dates and destinations can vary from year to year.",
+      "priority": 105,
+      "category": [
+        "ministries",
+        "missions"
+      ],
+      "intents": [
+        "legacy_builders",
+        "mission_trip",
+        "ministry_info"
+      ],
+      "tags": [
+        "Legacy Builders",
+        "mission trip",
+        "spring mission trip",
+        "children's home",
+        "senior adults"
+      ],
+      "search_terms": [
+        "Does Legacy Builders take mission trips?",
+        "When is the Legacy Builders mission trip?",
+        "Where does Legacy Builders go on mission trips?",
+        "How long is the Legacy Builders mission trip?",
+        "Do senior adults go on mission trips at Urbancrest?",
+        "Does Legacy visit a children's home?"
+      ],
+      "ministries": [
+        "legacy_builders",
+        "missions"
+      ],
+      "audiences": [
+        "adults_50_plus"
+      ],
+      "resources": [
+        "https://urbancrest.church/events"
+      ],
+      "status": "published",
+      "answer_guidance": "State that the Legacy Builders mission trip takes place each spring, usually lasts four days, and serves at a children's home, usually in Tennessee, Virginia, or North Carolina. Do not invent the current year's destination or dates. Use live event information when an exact current date or destination is available there.",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
+      "id": "ministries.legacy_builders.kitchen_ministry",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/legacy-builders/kitchen-ministry.md",
+      "title": "How does Legacy Builders serve through Kitchen Ministry?",
+      "summary": "Legacy members support Kitchen Ministry each week, helping provide more than 1,000 meals each year through Wednesday Night Dinners, special events, and funeral dinners.",
+      "content": "# Legacy Builders and Kitchen Ministry\n\nLegacy Builders members support the **Kitchen Ministry each week**. Through this ministry, they help provide **more than 1,000 meals each year**, including:\n\n- Wednesday Night Dinners\n- Special events\n- Funeral dinners\n\nLegacy Builders also uses remaining food from Wednesday Night Dinner to provide meals for people staying at **Bernie's Place**, an emergency shelter in South Lebanon that can house up to 14 individuals.",
+      "priority": 105,
+      "category": [
+        "ministries",
+        "service"
+      ],
+      "intents": [
+        "legacy_builders",
+        "kitchen_ministry",
+        "serving",
+        "ministry_info"
+      ],
+      "tags": [
+        "Legacy Builders",
+        "Kitchen Ministry",
+        "Wednesday Night Dinner",
+        "funeral dinners",
+        "senior adults",
+        "meals"
+      ],
+      "search_terms": [
+        "What does Legacy Builders do in Kitchen Ministry?",
+        "Does Legacy help with Kitchen Ministry?",
+        "Does Legacy help with Wednesday Night Dinner?",
+        "Does Legacy serve funeral dinners?",
+        "Does Legacy help with special event meals?",
+        "How many meals does Kitchen Ministry provide each year?",
+        "Does Kitchen Ministry take food to Bernie's Place?",
+        "Where does leftover Wednesday Night Dinner food go?"
+      ],
+      "ministries": [
+        "legacy_builders"
+      ],
+      "audiences": [
+        "adults_50_plus"
+      ],
+      "resources": [],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
       "id": "ministries.stephen_ministry.confidentiality",
       "record_type": "knowledge",
       "path": "knowledge/ministries/stephen-ministry/confidentiality.md",
@@ -3184,6 +4559,97 @@
       ],
       "audiences": [
         "everyone"
+      ],
+      "resources": [],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
+      "id": "ministries.legacy_builders.age_requirement",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/legacy-builders/age-requirement.md",
+      "title": "What age is Legacy Builders for?",
+      "summary": "Legacy Builders is for adults age 50 and older.",
+      "content": "# Legacy Builders age range\n\nLegacy Builders is for **adults age 50 and older**.",
+      "priority": 105,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "legacy_builders",
+        "age_requirement",
+        "ministry_info"
+      ],
+      "tags": [
+        "Legacy Builders",
+        "adults 50 and older",
+        "senior adults",
+        "50 plus"
+      ],
+      "search_terms": [
+        "What age is Legacy Builders for?",
+        "What are the age requirements for Legacy Builders?",
+        "Who can participate in Legacy Builders?",
+        "Is Legacy Builders for adults 50 and older?",
+        "Is Legacy Builders 50 plus?",
+        "Do you have a ministry for senior adults?",
+        "Is there a ministry for adults age 50 and older?",
+        "Is there a ministry for people 50 and older?"
+      ],
+      "ministries": [
+        "legacy_builders"
+      ],
+      "audiences": [
+        "adults_50_plus"
+      ],
+      "resources": [],
+      "status": "published",
+      "answer_guidance": "State plainly that Legacy Builders is for adults age 50 and older. Do not describe the ministry with the standalone term senior because that can be confused with high school seniors.",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
+      "id": "ministries.legacy_builders.ministries_and_activities",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/legacy-builders/ministries-and-activities.md",
+      "title": "What ministries and activities are part of Legacy Builders?",
+      "summary": "Legacy Builders serves through Bears, Kitchen Ministry, Laundry Ministry, support for Bernie's Place, a spring mission trip, InJoy Adult Sunday School, and special dinner programs every other month.",
+      "content": "# Legacy Builders ministries and activities\n\nLegacy Builders is involved in several ongoing ministries and activities:\n\n- **Bears:** Handmade teddy bears are made on the second Tuesday of each month and given to people through nursing homes, mission trips, police departments, and Children's Hospital.\n- **Kitchen Ministry:** Legacy members help support the Kitchen Ministry each week, including Wednesday Night Dinners, special events, and funeral dinners.\n- **Laundry Ministry:** On the third Wednesday of each month, Legacy helps provide free laundry services and dinner.\n- **Bernie's Place:** Through the Legacy Builders Kitchen Ministry, remaining food from Wednesday Night Dinner is taken each week to Bernie's Place, an emergency shelter in South Lebanon that can house up to 14 individuals.\n- **Spring Mission Trip:** Legacy takes a four-day mission trip each spring to serve at a children's home, usually in Tennessee, Virginia, or North Carolina.\n- **InJoy Adult Sunday School:** The InJoy class meets Sundays at 11:30 AM.\n- **Legacy Special Events:** A dinner and program are provided every other month, with music, speakers, and other special programs.",
+      "priority": 105,
+      "category": [
+        "ministries",
+        "adult_ministry"
+      ],
+      "intents": [
+        "legacy_builders",
+        "ministry_info",
+        "activities",
+        "serving"
+      ],
+      "tags": [
+        "Legacy Builders",
+        "senior adults",
+        "service ministries",
+        "fellowship",
+        "missions",
+        "Sunday School"
+      ],
+      "search_terms": [
+        "What does Legacy Builders do?",
+        "What ministries are part of Legacy Builders?",
+        "What activities does Legacy Builders offer?",
+        "What activities does Legacy offer?",
+        "How does Legacy Builders serve?",
+        "What can senior adults do at Urbancrest?",
+        "What service opportunities are available through Legacy Builders?"
+      ],
+      "ministries": [
+        "legacy_builders"
+      ],
+      "audiences": [
+        "adults_50_plus"
       ],
       "resources": [],
       "status": "published",
@@ -3243,6 +4709,49 @@
         "sarah_coleman"
       ],
       "confidence": "high"
+    },
+    {
+      "id": "ministries.legacy_builders.leadership",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/legacy-builders/leadership.md",
+      "title": "Who leads Legacy Builders?",
+      "summary": "Howard and Sue Pauley lead Legacy Builders at Urbancrest.",
+      "content": "# Legacy Builders leadership\n\n**Howard and Sue Pauley** lead Legacy Builders at Urbancrest.",
+      "priority": 105,
+      "category": [
+        "ministries",
+        "leadership"
+      ],
+      "intents": [
+        "legacy_builders",
+        "ministry_leadership",
+        "ministry_info"
+      ],
+      "tags": [
+        "Legacy Builders",
+        "Howard Pauley",
+        "Sue Pauley",
+        "senior adults"
+      ],
+      "search_terms": [
+        "Who leads Legacy Builders?",
+        "Who are the Legacy Builders leaders?",
+        "Who leads the senior adult ministry?",
+        "Is Howard Pauley a Legacy Builders leader?",
+        "Is Sue Pauley a Legacy Builders leader?",
+        "Who oversees Legacy Builders?"
+      ],
+      "ministries": [
+        "legacy_builders"
+      ],
+      "audiences": [
+        "adults_50_plus"
+      ],
+      "resources": [],
+      "status": "published",
+      "answer_guidance": "State that Howard and Sue Pauley lead Legacy Builders. Do not imply that either person is a church staff member unless a separate authoritative staff source establishes that.",
+      "confidence": "high",
+      "authoritative": true
     },
     {
       "id": "relationship.ministry_staff.global_missions",
@@ -5331,6 +6840,53 @@
       ]
     },
     {
+      "id": "ministries.legacy_builders.special_events",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/legacy-builders/special-events.md",
+      "title": "What are Legacy Builders Special Events?",
+      "summary": "Legacy Builders hosts a dinner and program every other month, with music, speakers, and other special programs.",
+      "content": "# Legacy Builders Special Events\n\nLegacy Builders provides a **dinner and program every other month**. Programs may include **music, speakers, and other special presentations**.\n\nExact dates and program details can vary, so current event information should be used when available.",
+      "priority": 100,
+      "category": [
+        "ministries",
+        "fellowship"
+      ],
+      "intents": [
+        "legacy_builders",
+        "special_events",
+        "ministry_info"
+      ],
+      "tags": [
+        "Legacy Builders",
+        "special events",
+        "dinner",
+        "music",
+        "speakers",
+        "senior adults"
+      ],
+      "search_terms": [
+        "What are Legacy Builders Special Events?",
+        "When does Legacy Builders have special events?",
+        "How often are Legacy Builders dinners?",
+        "What happens at Legacy Builders events?",
+        "Are there programs for senior adults at Urbancrest?",
+        "Does Legacy Builders have dinner and music?"
+      ],
+      "ministries": [
+        "legacy_builders"
+      ],
+      "audiences": [
+        "adults_50_plus"
+      ],
+      "resources": [
+        "https://urbancrest.church/events"
+      ],
+      "status": "published",
+      "answer_guidance": "State that Legacy Builders provides a dinner and program every other month, with programs that may include music and speakers. Use live event information for exact current dates or program details when available.",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
       "id": "about.office-hours",
       "record_type": "knowledge",
       "path": "knowledge/about/office-hours.md",
@@ -5471,6 +7027,55 @@
       "authoritative_for": [
         "sports_complex_scope"
       ]
+    },
+    {
+      "id": "ministries.legacy_builders.overview",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/legacy-builders/overview.md",
+      "title": "What is Legacy Builders?",
+      "summary": "Legacy Builders is an active ministry for adults age 50 and older, led by Howard and Sue Pauley, with opportunities for fellowship, service, missions, and spiritual growth.",
+      "content": "# Legacy Builders\n\nLegacy Builders is an **active ministry for adults age 50 and older** at Urbancrest. The ministry is led by **Howard and Sue Pauley** and gives adults opportunities to build relationships, serve others, participate in missions, and grow together.\n\nLegacy Builders serves through several ongoing ministries and activities, including handmade teddy bears, Kitchen Ministry, Laundry Ministry, support for Bernie's Place, a spring mission trip, the InJoy Adult Sunday School Class, and special dinner programs throughout the year.",
+      "priority": 100,
+      "category": [
+        "ministries",
+        "adult_ministry"
+      ],
+      "intents": [
+        "legacy_builders",
+        "ministry_info",
+        "adult_ministry"
+      ],
+      "tags": [
+        "Legacy Builders",
+        "adults 50 and older",
+        "senior adults",
+        "adult ministry",
+        "fellowship",
+        "service",
+        "missions"
+      ],
+      "search_terms": [
+        "What is Legacy Builders?",
+        "Tell me about Legacy Builders",
+        "What is Legacy Ministry?",
+        "Does Urbancrest have a ministry for senior adults?",
+        "Is there a senior adult ministry at Urbancrest?",
+        "Is there a ministry for adults age 50 and older?",
+        "Is there a ministry for adults 50 plus?",
+        "What does Legacy Builders do?",
+        "What does Legacy do at Urbancrest?"
+      ],
+      "ministries": [
+        "legacy_builders"
+      ],
+      "audiences": [
+        "adults_50_plus"
+      ],
+      "resources": [],
+      "status": "published",
+      "answer_guidance": "Describe Legacy Builders as Urbancrest's active ministry for adults age 50 and older. Use the phrase senior adults only when it clearly refers to adults. Do not use the standalone word senior as an alias for this ministry because it can be confused with high school seniors.",
+      "confidence": "high",
+      "authoritative": true
     },
     {
       "id": "beliefs.repentance",
@@ -18002,39 +19607,6 @@
       "confidence": "high"
     },
     {
-      "id": "ministries.legacy_builders",
-      "record_type": "knowledge",
-      "path": "knowledge/ministries/legacy-builders.md",
-      "title": "What is Legacy Builders?",
-      "summary": "Legacy Builders serves adults age 50 and older and supports Urbancrest's mission.",
-      "content": "# What is Legacy Builders?\n\n## Short Answer\n\nLegacy Builders is Urbancrest's ministry for adults age 50 and older.\n\n## Detailed Answer\n\nThe ministry helps people connect, grow, serve, and live on mission in ways appropriate to its audience and purpose. Current schedules, age ranges, locations, and event details should come from verified Urbancrest sources.\n\n## Urbancrest Information\n\nThis article intentionally avoids unverified schedules or contact details.\n\n## Next Step\n\nComplete the Serving or Volunteer Interest Form to ask about getting involved.",
-      "priority": 65,
-      "category": [
-        "ministries"
-      ],
-      "intents": [
-        "ministry_info"
-      ],
-      "tags": [
-        "ministry",
-        "Legacy Builders"
-      ],
-      "search_terms": [
-        "Legacy Builders",
-        "How do I join Legacy Builders?"
-      ],
-      "ministries": [],
-      "audiences": [
-        "visitor",
-        "attendee"
-      ],
-      "resources": [
-        "church_center.serving"
-      ],
-      "status": "published",
-      "confidence": "high"
-    },
-    {
       "id": "ministries.mens_ministry",
       "record_type": "knowledge",
       "path": "knowledge/ministries/mens-ministry.md",
@@ -22161,7 +23733,7 @@
       "path": "registry/ministries.yaml",
       "title": "Ministries",
       "summary": "Structured registry data from registry/ministries.yaml.",
-      "content": "version: 1.4\nlast_updated: 2026-08-05\nministries: kids: title: Urbancrest Kids\ndescription: Family-partnered discipleship ministry for children that emphasizes relationships, biblical truth, worship, service, safety, and faith lived out.\naliases: Kids Ministry\nChildren's Ministry\nchildren\nrelated_staff_keys: mikhael_mastalerz\nleadership_status: vacant\nopen_role: Kids Ministry Director\nrecommended_contact_staff_key: sarah_coleman\nstudents: title: Student Ministry\ndescription: Ministry for students in grades 7 through 12 that partners with parents to make mature disciples of Jesus.\naliases: Youth Ministry\nmiddle school\nhigh school\nteenagers\nprimary_staff_key: tucker_howard\nsmall_groups: title: Small Groups\ndescription: Groups that help people grow in faith and community.\nresource: church_center.small_groups\nmen: title: Men's Ministry\ndescription: Ministry for men.\nwomen: title: Women's Ministry\ndescription: Helps women build meaningful connections with one another and deepen their relationship with Jesus through engaging events and gatherings.\naliases: Women's Ministry\nUrbancrest Women\nwomen\nladies\nresources: church_center.serving\nchurch_center.small_groups\nmissions: title: Missions\ndescription: Local, national, and international mission engagement.\nleadership_status: transitional\nopen_role: Global Missions Pastor\nrecommended_contact_staff_key: jennifer_prows\nworship: title: Worship Ministry\ndescription: Christ-centered, Scripture-shaped ministry that leads the congregation in worship through music, prayer, Scripture, and participation.\naliases: worship team\nmusic ministry\nworship band\nvocal team\nprimary_staff_key: larry_nichols\nproduction: title: Production Ministry\ndescription: Audio, video, lighting, livestream, and service technology that supports worship services and ministry events.\naliases: Production\nProduction Ministry\naudio\nvideo\nlighting\nlivestream\nservice technology\nownership_area: technical_creative\nprimary_staff_key: matthew_kirby\nlegacy_builders: title: Legacy Builders\ndescription: Ministry for adults age 50 and older.\ncare: title: Care and Prayer\ndescription: Prayer\nencouragement: \npastoral care: \nand practical support.: \nglobal_missions: title: Global Missions\ndescription: International mission engagement, mission trips, and global missions coordination.\nleadership_status: vacant\nopen_role: Global Missions Pastor\nrecommended_contact_staff_k...",
+      "content": "version: 1.5\nlast_updated: 2026-08-08\nministries: kids: title: Urbancrest Kids\ndescription: Family-partnered discipleship ministry for children that emphasizes relationships, biblical truth, worship, service, safety, and faith lived out.\naliases: Kids Ministry\nChildren's Ministry\nchildren\nrelated_staff_keys: mikhael_mastalerz\nleadership_status: vacant\nopen_role: Kids Ministry Director\nrecommended_contact_staff_key: sarah_coleman\nstudents: title: Student Ministry\ndescription: Ministry for students in grades 7 through 12 that partners with parents to make mature disciples of Jesus.\naliases: Youth Ministry\nmiddle school\nhigh school\nteenagers\nprimary_staff_key: tucker_howard\nsmall_groups: title: Small Groups\ndescription: Groups that help people grow in faith and community.\nresource: church_center.small_groups\nmen: title: Men's Ministry\ndescription: Ministry for men.\nwomen: title: Women's Ministry\ndescription: Helps women build meaningful connections with one another and deepen their relationship with Jesus through engaging events and gatherings.\naliases: Women's Ministry\nUrbancrest Women\nwomen\nladies\nresources: church_center.serving\nchurch_center.small_groups\nmissions: title: Missions\ndescription: Local, national, and international mission engagement.\nleadership_status: transitional\nopen_role: Global Missions Pastor\nrecommended_contact_staff_key: jennifer_prows\nworship: title: Worship Ministry\ndescription: Christ-centered, Scripture-shaped ministry that leads the congregation in worship through music, prayer, Scripture, and participation.\naliases: worship team\nmusic ministry\nworship band\nvocal team\nprimary_staff_key: larry_nichols\nproduction: title: Production Ministry\ndescription: Audio, video, lighting, livestream, and service technology that supports worship services and ministry events.\naliases: Production\nProduction Ministry\naudio\nvideo\nlighting\nlivestream\nservice technology\nownership_area: technical_creative\nprimary_staff_key: matthew_kirby\nlegacy_builders: title: Legacy Builders\ndescription: Active ministry for adults age 50 and older, led by Howard and Sue Pauley, with service projects, fellowship, missions, Sunday School, and special events.\naliases: Legacy Builders\nLegacy Ministry\nLegacy\nsenior adults\nsenior adult ministry\nadults age 50 and older\nadults 50 plus\n50 plus ministry\nleaders: Howard Pauley\nSue Pauley\ntags: adults 50 and older\nsenior adult...",
       "priority": 60,
       "category": [
         "registry"
