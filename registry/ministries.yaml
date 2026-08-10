@@ -1,5 +1,5 @@
-version: '1.4'
-last_updated: '2026-08-05'
+version: '1.5'
+last_updated: '2026-08-08'
 ministries:
   kids:
     title: Urbancrest Kids
@@ -73,7 +73,26 @@ ministries:
     primary_staff_key: matthew_kirby
   legacy_builders:
     title: Legacy Builders
-    description: Ministry for adults age 50 and older.
+    description: Active ministry for adults age 50 and older, led by Howard and Sue Pauley, with service projects, fellowship,
+      missions, Sunday School, and special events.
+    aliases:
+    - Legacy Builders
+    - Legacy Ministry
+    - Legacy
+    - senior adults
+    - senior adult ministry
+    - adults age 50 and older
+    - adults 50 plus
+    - 50 plus ministry
+    leaders:
+    - Howard Pauley
+    - Sue Pauley
+    tags:
+    - adults 50 and older
+    - senior adults
+    - service
+    - fellowship
+    - missions
   care:
     title: Care and Prayer
     description: Prayer
@@ -147,7 +166,8 @@ ministries:
     - Urbancrest golf tournament
   stephen_ministry:
     title: Stephen Ministry
-    description: Confidential, Christ-centered, one-to-one care for people going through difficult times, provided by trained lay caregivers.
+    description: Confidential, Christ-centered, one-to-one care for people going through difficult times, provided by trained
+      lay caregivers.
     aliases:
     - Stephen Ministry
     - Stephen Minister

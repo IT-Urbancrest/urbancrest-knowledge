@@ -1,0 +1,66 @@
+version: 1.1
+purpose: Regression coverage for Legacy Builders ministry information, age routing, activities, and recurring schedules.
+cases:
+- query: What is Legacy Builders?
+  expected_record: ministries.legacy_builders.overview
+  expected_fact: active ministry for adults age 50 and older
+- query: Is there a ministry for senior adults?
+  expected_record: ministries.legacy_builders.overview
+  expected_fact: adults age 50 and older
+- query: How old do I need to be for Legacy Builders?
+  expected_record: ministries.legacy_builders.age_requirement
+  expected_fact: age 50 and older
+- query: Who leads Legacy Builders?
+  expected_record: ministries.legacy_builders.leadership
+  expected_fact: Howard and Sue Pauley
+  expected_staff_card: null
+- query: What does Legacy Builders do?
+  expected_record: ministries.legacy_builders.ministries_and_activities
+  expected_items:
+  - Bears
+  - Kitchen Ministry
+  - Laundry Ministry
+  - Bernie's Place
+  - spring mission trip
+  - InJoy Adult Sunday School
+  - Legacy Special Events
+- query: When does the Bears ministry meet?
+  expected_record: schedule.legacy_builders.bears
+  expected_fact: Second Tuesday of each month
+- query: How many teddy bears has Legacy Builders made?
+  expected_record: ministries.legacy_builders.bears
+  expected_fact: more than 2,000
+- query: How does Legacy Builders help with Kitchen Ministry?
+  expected_record: ministries.legacy_builders.kitchen_ministry
+  expected_fact: more than 1,000 meals each year
+- query: When is Laundry Ministry?
+  expected_record: schedule.legacy_builders.laundry_ministry
+  expected_fact: Third Wednesday of each month
+- query: What is Bernie's Ministry?
+  expected_record: ministries.legacy_builders.bernies_place
+  expected_fact: Bernie's Place is an emergency shelter in South Lebanon
+- query: What is Bernie's Place?
+  expected_record: ministries.legacy_builders.bernies_place
+  expected_fact: emergency shelter in South Lebanon that can house up to 14 individuals
+- query: Who was Bernie Eichholz?
+  expected_record: ministries.legacy_builders.bernies_place
+  expected_fact: spearheaded the effort to make the shelter a reality while in his nineties
+- query: How does Legacy Builders serve Bernie's Place?
+  expected_record: ministries.legacy_builders.bernies_place
+  expected_fact: remaining food from Wednesday Night Dinner is taken each week to Bernie's Place
+- query: Where does leftover Wednesday Night Dinner food go?
+  expected_record: ministries.legacy_builders.bernies_place
+  expected_fact: Bernie's Place
+- query: When is the Legacy Builders mission trip?
+  expected_record: schedule.legacy_builders.spring_mission_trip
+  expected_fact: Each spring
+- query: When does InJoy Sunday School meet?
+  expected_record: schedule.legacy_builders.injoy_sunday_school
+  expected_fact: Sunday at 11:30 AM
+- query: When are Legacy Builders special events?
+  expected_record: schedule.legacy_builders.special_events
+  expected_fact: Every other month
+- query: Do you have a ministry for high school seniors?
+  expected_ministry: students
+  must_not_route_to: legacy_builders
+  note: Legacy Builders aliases intentionally do not include the standalone term senior.

@@ -1,5 +1,5 @@
-version: '2.0'
-last_updated: '2026-07-30'
+version: '2.1'
+last_updated: '2026-08-08'
 timezone: America/New_York
 authoritative: true
 source_of_truth_for:
@@ -7,8 +7,9 @@ source_of_truth_for:
 - weekly_schedule
 - ministry_schedule
 - service_times
-answer_guidance: Use this registry as the source of truth for normal recurring service and ministry meeting times. For date-specific exceptions, special events, cancellations, or holiday schedules, prefer matching live calendar data when it explicitly applies to the requested date.
-
+answer_guidance: Use this registry as the source of truth for normal recurring service and ministry meeting times. For date-specific
+  exceptions, special events, cancellations, or holiday schedules, prefer matching live calendar data when it explicitly applies
+  to the requested date.
 ministries:
   worship:
     name: Worship Services
@@ -19,7 +20,6 @@ ministries:
     - church services
     - church
     show_staff_card_on_schedule_queries: false
-
   kids:
     name: Urbancrest Kids
     aliases:
@@ -29,7 +29,6 @@ ministries:
     - children
     recommended_contact_staff_key: sarah_coleman
     show_staff_card_on_schedule_queries: true
-
   students:
     name: Student Ministry
     aliases:
@@ -41,7 +40,6 @@ ministries:
     - high school
     recommended_contact_staff_key: tucker_howard
     show_staff_card_on_schedule_queries: true
-
   adults:
     name: Adult Bible Studies
     aliases:
@@ -50,7 +48,6 @@ ministries:
     - Bible studies
     - Wednesday Bible studies
     show_staff_card_on_schedule_queries: false
-
   churchwide:
     name: Churchwide
     aliases:
@@ -58,7 +55,18 @@ ministries:
     - Wednesday activities
     - Wednesday nights
     show_staff_card_on_schedule_queries: false
-
+  legacy_builders:
+    name: Legacy Builders
+    aliases:
+    - Legacy Builders
+    - Legacy Ministry
+    - Legacy
+    - senior adults
+    - senior adult ministry
+    - adults age 50 and older
+    - adults 50 plus
+    - 50 plus ministry
+    show_staff_card_on_schedule_queries: false
 schedules:
 - id: worship.sunday
   ministry: worship
@@ -81,8 +89,8 @@ schedules:
     time: 9:30 AM
   - day: Sunday
     time: 11:00 AM
-  answer_guidance: For normal Sunday service-time questions, confidently state that worship services are at 9:30 AM and 11:00 AM.
-
+  answer_guidance: For normal Sunday service-time questions, confidently state that worship services are at 9:30 AM and 11:00
+    AM.
 - id: kids.sunday_school
   ministry: kids
   name: Sunday School
@@ -100,7 +108,6 @@ schedules:
   - day: Sunday
     time: 11:00 AM
   answer_guidance: Sunday School classes for kids are available during both Sunday morning services.
-
 - id: kids.awana
   ministry: kids
   name: AWANA
@@ -116,7 +123,6 @@ schedules:
   - day: Wednesday
     time: 6:15 PM
   answer_guidance: AWANA meets on Wednesdays at 6:15 PM.
-
 - id: students.weekly
   ministry: students
   name: Student Ministry
@@ -135,9 +141,10 @@ schedules:
     time: 9:30 AM
   - day: Wednesday
     time: 6:30 PM
-  seasonal_note: Regular Student Ministry gatherings pause during the summer while students participate in local missions efforts in the community.
-  answer_guidance: Give both regular meeting times and mention the summer pause when answering a general Student Ministry schedule question.
-
+  seasonal_note: Regular Student Ministry gatherings pause during the summer while students participate in local missions
+    efforts in the community.
+  answer_guidance: Give both regular meeting times and mention the summer pause when answering a general Student Ministry
+    schedule question.
 - id: adults.wednesday_bible_studies
   ministry: adults
   name: Adult Bible Studies
@@ -151,7 +158,6 @@ schedules:
   meetings:
   - day: Wednesday
     time: 6:30 PM
-
 - id: churchwide.wednesday_dinner
   ministry: churchwide
   name: Wednesday Night Dinner
@@ -168,3 +174,129 @@ schedules:
     time: 5:30 PM
     location: Gymnasium
   answer_guidance: The regular Wednesday dinner begins at 5:30 PM in the Gymnasium.
+- id: legacy_builders.injoy_sunday_school
+  ministry: legacy_builders
+  name: InJoy Adult Sunday School Class
+  aliases:
+  - InJoy
+  - InJoy Sunday School
+  - InJoy Adult Sunday School
+  - Legacy Sunday School
+  priority: 120
+  tags:
+  - Sunday
+  - Sunday School
+  - adults 50 and older
+  - senior adults
+  meetings:
+  - day: Sunday
+    time: 11:30 AM
+  answer_guidance: The InJoy Adult Sunday School Class connected with Legacy Builders meets Sundays at 11:30 AM.
+- id: legacy_builders.bears
+  ministry: legacy_builders
+  name: Legacy Builders Bears
+  aliases:
+  - Bears
+  - Bears Ministry
+  - Legacy Bears
+  - teddy bear ministry
+  priority: 118
+  tags:
+  - second Tuesday
+  - handmade teddy bears
+  - senior adults
+  meetings:
+  - day: Second Tuesday of each month
+  answer_guidance: Legacy Builders makes handmade teddy bears on the second Tuesday of each month. Do not invent a meeting
+    time.
+- id: legacy_builders.kitchen_ministry
+  ministry: legacy_builders
+  name: Legacy Builders Kitchen Ministry Support
+  aliases:
+  - Legacy Kitchen Ministry
+  - Kitchen Ministry
+  - Legacy kitchen
+  priority: 112
+  tags:
+  - weekly
+  - Kitchen Ministry
+  - Wednesday Night Dinner
+  meetings:
+  - day: Each week
+  answer_guidance: Legacy Builders members support Kitchen Ministry each week. No specific day or time is established by this
+    schedule record.
+- id: legacy_builders.laundry_ministry
+  ministry: legacy_builders
+  name: Legacy Builders Laundry Ministry
+  aliases:
+  - Legacy Laundry Ministry
+  - Laundry Ministry
+  priority: 118
+  tags:
+  - third Wednesday
+  - Laundry Ministry
+  - free laundry
+  - senior adults
+  meetings:
+  - day: Third Wednesday of each month
+  answer_guidance: Legacy Builders serves through Laundry Ministry on the third Wednesday of each month. Do not invent a meeting
+    time or location.
+- id: legacy_builders.bernies_place
+  ministry: legacy_builders
+  name: Legacy Builders Bernie's Place Meals
+  aliases:
+  - Bernie's Place
+  - Bernie's Place meals
+  - Bernie's Ministry
+  - Bernie's Ministry meals
+  - South Lebanon emergency shelter meals
+  - South Lebanon homeless shelter meals
+  priority: 114
+  tags:
+  - Wednesday
+  - Bernie's Place
+  - emergency shelter
+  - South Lebanon
+  - Kitchen Ministry
+  - Wednesday Night Dinner
+  - senior adults
+  meetings:
+  - day: Wednesday
+  answer_guidance: Legacy Builders Kitchen Ministry takes remaining food from Wednesday Night Dinner each week to Bernie's
+    Place, an emergency shelter in South Lebanon that can house up to 14 individuals. Do not invent an exact meal time.
+- id: legacy_builders.spring_mission_trip
+  ministry: legacy_builders
+  name: Legacy Builders Spring Mission Trip
+  aliases:
+  - Legacy mission trip
+  - Legacy Builders mission trip
+  - spring mission trip
+  priority: 112
+  tags:
+  - spring
+  - mission trip
+  - children's home
+  - senior adults
+  meetings:
+  - day: Each spring
+  seasonal_note: The trip usually lasts four days and serves at a children's home, usually in Tennessee, Virginia, or North
+    Carolina. Exact dates and destinations can vary.
+  answer_guidance: State that the Legacy Builders mission trip takes place each spring and usually lasts four days. Use live
+    event information for an exact current date or destination when available.
+- id: legacy_builders.special_events
+  ministry: legacy_builders
+  name: Legacy Builders Special Events
+  aliases:
+  - Legacy events
+  - Legacy dinners
+  - Legacy Builders dinner and program
+  priority: 110
+  tags:
+  - every other month
+  - dinner
+  - program
+  - senior adults
+  meetings:
+  - day: Every other month
+  answer_guidance: Legacy Builders provides a dinner and program every other month. Use live event information for exact current
+    dates and program details.
