@@ -1,5 +1,5 @@
 version: '2.0'
-last_updated: '2026-08-04'
+last_updated: '2026-08-10'
 relationships:
 - ministry: pastoral
   label: Senior Leadership
@@ -305,18 +305,25 @@ relationships:
   - donations
   - contribution
   - contributions
+  - finances
+  - church finance
+  - church finances
+  - financial matters
   topics:
   - finance
   - giving
   - stewardship
   - donations
   - financial questions
+  - finances
+  - church finances
+  - financial matters
   leadership_status: staffed
   primary_staff_key: tanya_byrd
   recommended_contact_staff_key: tanya_byrd
   related_staff_keys: []
-  answer_guidance: Tanya Byrd serves as Financial Officer and is the primary contact for finance, giving, and stewardship
-    questions.
+  answer_guidance: Tanya Byrd serves as Financial Officer and is the primary contact for finance, finances, church finances,
+    giving, stewardship, donations, and other financial questions.
 - ministry: technical_creative
   label: Technical and Creative
   aliases:

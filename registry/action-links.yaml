@@ -1,5 +1,5 @@
-version: '1.0'
-last_updated: '2026-08-03'
+version: '1.1'
+last_updated: '2026-08-10'
 domain_rules:
   preferred_domain: urbancrest.church
   allowed_external_hosts:
@@ -42,7 +42,20 @@ links:
     - serving
     - volunteering
     - ministries
+    - ministry
     priority: 90
+  serving_interest:
+    label: Volunteer Interest Form
+    url: https://urbancrest.churchcenter.com/people/forms/4085
+    intents:
+    - serving
+    - volunteering
+    - volunteer
+    - serving_interest
+    - ministry_team
+    priority: 100
+    external: true
+    church_center_modal: true
   staff:
     label: Meet Our Staff
     url: https://urbancrest.church/staff
@@ -70,39 +83,6 @@ links:
     priority: 100
     external: true
     church_center_modal: true
-  stephen_ministry_info:
-    label: Learn About Stephen Ministry
-    url: https://urbancrest.church/get-involved/stephen-ministry
-    intents:
-    - stephen_ministry
-    - ministry_info
-    - pastoral_care
-    priority: 95
-    aliases:
-    - Stephen Ministry
-    - Stephen Minister
-    search_terms:
-    - What is Stephen Ministry?
-    - Tell me about Stephen Ministry
-    - Does Urbancrest have Stephen Ministry?
-    - Learn about Stephen Ministry
-  stephen_ministry_request_care:
-    label: Request Stephen Ministry Care
-    url: https://urbancrest.churchcenter.com/people/forms/1494
-    intents:
-    - request_care
-    - connect_card
-    priority: 120
-    external: true
-    church_center_modal: true
-    aliases:
-    - request a Stephen Minister
-    - Stephen Ministry care
-    search_terms:
-    - How do I request a Stephen Minister?
-    - How do I get a Stephen Minister?
-    - I would like to be contacted by a Stephen Minister
-    - I need someone to talk to
   baptism:
     label: Sign Up for Baptism
     url: https://urbancrest.churchcenter.com/people/forms/1674
@@ -119,26 +99,8 @@ links:
     - directions
     - location
     - first_visit
-    priority: 110
+    priority: 90
     external: true
-    bundle: directions_maps
-    include_with_bundle: true
-    aliases:
-    - Google Maps
-    - Google directions
-    - map directions
-    search_terms:
-    - How do I get to the church?
-    - How do I get to Urbancrest?
-    - Give me directions to Urbancrest
-    - Directions to the church
-    - Directions to Urbancrest
-    - Take me to Urbancrest
-    - Navigate to Urbancrest
-    - Map to Urbancrest
-    - How do I find the church?
-    - How do I get there?
-    answer_guidance: For a directions request, include this link together with the Apple Maps directions link.
   directions_apple:
     label: Get Directions on Apple Maps
     url: https://maps.apple.com/?daddr=2634+Drake+Rd,+Lebanon,+OH+45036
@@ -146,31 +108,11 @@ links:
     - directions
     - location
     - first_visit
-    priority: 110
+    priority: 80
     external: true
-    bundle: directions_maps
-    include_with_bundle: true
-    aliases:
-    - Apple Maps
-    - Apple directions
-    - map directions
-    search_terms:
-    - How do I get to the church?
-    - How do I get to Urbancrest?
-    - Give me directions to Urbancrest
-    - Directions to the church
-    - Directions to Urbancrest
-    - Take me to Urbancrest
-    - Navigate to Urbancrest
-    - Map to Urbancrest
-    - How do I find the church?
-    - How do I get there?
-    answer_guidance: For a directions request, include this link together with the Google Maps directions link.
 selection_rules:
 - Include one relevant action link at the end of an answer when it helps the user take a clear next step.
-- For a directions intent, include every approved action link in the directions_maps bundle so the user can choose Google
-  Maps or Apple Maps.
-- For a directions intent, do not replace the map links with Plan Your Visit.
-- For service times, parking, what to expect, or broader first-visit questions that are not primarily directions requests,
-  prefer plan_visit.
+- For service times, location, parking, what to expect, or first visit questions, prefer plan_visit.
 - Do not add an unrelated link merely because a link record matched one word in the question.
+- For serving or volunteering next-step questions, include both get_involved and serving_interest so users can explore opportunities
+  and submit the official volunteer interest form.

@@ -1,0 +1,61 @@
+version: '1.0'
+suite: staff_and_serving_routing
+last_updated: '2026-08-10'
+purpose: Verify conservative staff-card routing, finance ownership, and serving next-step action links.
+
+tests:
+- name: church finances resolves Tanya
+  query: Who oversees church finances?
+  expected:
+    first_record_id: relationship.ministry_staff.finance
+    staff_key: tanya_byrd
+    answer_must_include:
+    - Tanya Byrd
+    - Financial Officer
+
+- name: finance plural paraphrase resolves Tanya
+  query: Who handles the finances?
+  expected:
+    first_record_id: relationship.ministry_staff.finance
+    staff_key: tanya_byrd
+
+- name: giving ownership resolves Tanya
+  query: Who oversees stewardship?
+  expected:
+    first_record_id: relationship.ministry_staff.finance
+    staff_key: tanya_byrd
+
+- name: informational small groups has no staff card
+  query: Do you have small groups that meet in homes?
+  expected:
+    staff_key: null
+    must_not_staff_key:
+    - tucker_howard
+
+- name: generic small groups overview has no staff card
+  query: What are Small Groups?
+  expected:
+    staff_key: null
+
+- name: serving next step gets both action links
+  query: How can I get involved in serving?
+  expected:
+    required_action_keys:
+    - get_involved
+    - serving_interest
+    required_urls:
+    - https://urbancrest.church/get-involved
+    - https://urbancrest.churchcenter.com/people/forms/4085
+
+- name: volunteer next step gets both action links
+  query: How can I volunteer?
+  expected:
+    required_action_keys:
+    - get_involved
+    - serving_interest
+
+- name: informational ministry question does not force volunteer form
+  query: What does Legacy Builders do?
+  expected:
+    must_not_require_action_key:
+    - serving_interest
