@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.9.7",
-  "generated_at": "2026-08-10T18:01:24.674153Z",
+  "generated_at": "2026-08-10T18:25:44.955415Z",
   "timezone": "America/New_York",
   "record_count": 425,
   "config": {
@@ -4325,6 +4325,66 @@
       "authoritative": true
     },
     {
+      "id": "next-steps.serving",
+      "record_type": "knowledge",
+      "path": "knowledge/next-steps/how-do-i-start-serving.md",
+      "title": "How can I volunteer or start serving?",
+      "summary": "Explore ways to serve at Urbancrest or submit the official Volunteer Interest Form to let us know where you would like to get involved.",
+      "content": "# How can I volunteer or start serving?\n\n## Short Answer\n\nThere are many ways to serve at Urbancrest. You can explore opportunities through the **Get Involved** page, or complete the **Volunteer Interest Form** to let us know you are interested in serving.\n\n## Detailed Answer\n\nServing is a practical way to use your gifts, help others, and be part of the mission of Urbancrest. Because opportunities are available across different areas of church life, a broad serving question should begin with the churchwide next steps rather than selecting one ministry for the person.\n\n## Next Steps\n\n- Explore the **Get Involved** page to learn about ways to connect and serve.\n- Complete the official **Volunteer Interest Form** if you are ready to let Urbancrest know you would like to serve.\n\nIf someone asks about serving in a specific ministry or team, answer from that ministry's knowledge and use its approved contact or requirements when applicable.",
+      "priority": 105,
+      "category": [
+        "next-steps"
+      ],
+      "intents": [
+        "serving",
+        "volunteering",
+        "volunteer",
+        "serving_interest",
+        "get_involved"
+      ],
+      "tags": [
+        "next steps",
+        "serving",
+        "volunteering",
+        "volunteer",
+        "get involved",
+        "ministry teams"
+      ],
+      "search_terms": [
+        "How can I volunteer?",
+        "How do I volunteer?",
+        "I want to volunteer",
+        "Where can I volunteer?",
+        "How can I serve?",
+        "How do I serve?",
+        "I want to serve",
+        "Where can I serve?",
+        "How can I start serving?",
+        "How can I get involved in serving?",
+        "What volunteer opportunities are available?",
+        "What serving opportunities are available?",
+        "Volunteer opportunities",
+        "Serving opportunities",
+        "Sign up to volunteer",
+        "Sign up to serve"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "church_center.serving"
+      ],
+      "status": "published",
+      "answer_guidance": "For a broad question about serving or volunteering, explain that Urbancrest has many ways to serve and invite the person to explore the Get Involved page or complete the official Volunteer Interest Form. Do not choose or highlight a specific ministry, staff member, or screening process unless the user asks about that specific area. Do not invent staff contact information. The broad serving answer should not display a staff card.\n",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "serving",
+        "volunteering"
+      ]
+    },
+    {
       "id": "ministries.legacy_builders.kitchen_ministry",
       "record_type": "knowledge",
       "path": "knowledge/ministries/legacy-builders/kitchen-ministry.md",
@@ -8384,36 +8444,6 @@
       ],
       "resources": [
         "church_center.small_groups"
-      ],
-      "status": "published",
-      "confidence": "high"
-    },
-    {
-      "id": "next-steps.serving",
-      "record_type": "knowledge",
-      "path": "knowledge/next-steps/how-do-i-start-serving.md",
-      "title": "How do I start serving?",
-      "summary": "Complete the Serving or Volunteer Interest Form.",
-      "content": "# How do I start serving?\n\n## Short Answer\n\nComplete the Serving or Volunteer Interest Form.\n\n## Detailed Answer\n\nServing allows people to use their gifts to help others and support the mission of the church. A ministry leader can help identify an appropriate place to serve.\n\n## Urbancrest Information\n\nUse the official Urbancrest resource listed below.\n\n## Next Step\n\nUse `church_center.serving`.",
-      "priority": 95,
-      "category": [
-        "next-steps"
-      ],
-      "intents": [
-        "serving"
-      ],
-      "tags": [
-        "next steps"
-      ],
-      "search_terms": [
-        "How do I start serving?"
-      ],
-      "ministries": [],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [
-        "church_center.serving"
       ],
       "status": "published",
       "confidence": "high"
