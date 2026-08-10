@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.9.7",
-  "generated_at": "2026-08-10T16:09:47.295257Z",
+  "generated_at": "2026-08-10T17:59:53.640462Z",
   "timezone": "America/New_York",
-  "record_count": 426,
+  "record_count": 425,
   "config": {
     "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step. For directions requests, include both approved map links.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership Transition\n\nUrbancrest is currently searching for its next Global Missions Pastor.\n\nFor broad or global missions leadership questions:\n\n1. State that Urbancrest is currently searching for its next Global Missions Pastor.\n2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.\n3. Return `jennifer_prows` when one staff card is appropriate.\n4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nState the times found in those authoritative records directly. Do not hardcode service times in runtime application logic or prompt instructions.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
     "style_guide": "# Style Guide\n\n## Writing\n\n- Use short paragraphs.\n- Prefer plain language.\n- Avoid church jargon unless it is explained.\n- Do not use em dashes.\n- Do not use the word meaningful as a filler.\n- Use Small Groups, never Grow Groups.\n- Refer to Urbancrest Church as Urbancrest after the first use.\n- Use believer's baptism by immersion when describing baptism.\n\n## Theology\n\n- Scripture is the final authority.\n- The Baptist Faith and Message 2000 is a helpful doctrinal summary, not equal to Scripture.\n- Salvation is by grace alone through faith alone in Jesus Christ alone.\n- Baptism follows salvation and does not save.\n",
@@ -1673,49 +1673,6 @@
       "confidence": "high",
       "timezone": "America/New_York",
       "answer_guidance": "Give both regular meeting times and mention the summer pause when answering a general Student Ministry schedule question."
-    },
-    {
-      "id": "action_link.stephen_ministry_request_care",
-      "record_type": "action_link",
-      "path": "registry/action-links.yaml",
-      "title": "Request Stephen Ministry Care",
-      "summary": "Approved Urbancrest action link for request_care, connect_card.",
-      "content": "Label: Request Stephen Ministry Care\nURL: https://urbancrest.churchcenter.com/people/forms/1494\nIntents: request_care, connect_card\nAliases: request a Stephen Minister, Stephen Ministry care",
-      "priority": 120,
-      "category": [
-        "action_link"
-      ],
-      "intents": [
-        "request_care",
-        "connect_card"
-      ],
-      "tags": [
-        "action",
-        "link",
-        "request_care",
-        "connect_card",
-        "request a Stephen Minister",
-        "Stephen Ministry care"
-      ],
-      "search_terms": [
-        "Request Stephen Ministry Care",
-        "request_care",
-        "connect_card",
-        "request a Stephen Minister",
-        "Stephen Ministry care",
-        "How do I request a Stephen Minister?",
-        "How do I get a Stephen Minister?",
-        "I would like to be contacted by a Stephen Minister",
-        "I need someone to talk to"
-      ],
-      "ministries": [],
-      "audiences": [],
-      "resources": [],
-      "action_key": "stephen_ministry_request_care",
-      "url": "https://urbancrest.churchcenter.com/people/forms/1494",
-      "external": true,
-      "church_center_modal": true,
-      "include_with_bundle": false
     },
     {
       "id": "about.services.times",
@@ -3661,118 +3618,6 @@
       "answer_guidance": "State that the Legacy Builders mission trip takes place each spring and usually lasts four days. Use live event information for an exact current date or destination when available."
     },
     {
-      "id": "action_link.directions_apple",
-      "record_type": "action_link",
-      "path": "registry/action-links.yaml",
-      "title": "Get Directions on Apple Maps",
-      "summary": "Approved Urbancrest action link for directions, location, first_visit.",
-      "content": "Label: Get Directions on Apple Maps\nURL: https://maps.apple.com/?daddr=2634+Drake+Rd,+Lebanon,+OH+45036\nIntents: directions, location, first_visit\nAliases: Apple Maps, Apple directions, map directions\nBundle: directions_maps\nAnswer guidance: For a directions request, include this link together with the Google Maps directions link.",
-      "priority": 110,
-      "category": [
-        "action_link"
-      ],
-      "intents": [
-        "directions",
-        "location",
-        "first_visit"
-      ],
-      "tags": [
-        "action",
-        "link",
-        "directions",
-        "location",
-        "first_visit",
-        "Apple Maps",
-        "Apple directions",
-        "map directions"
-      ],
-      "search_terms": [
-        "Get Directions on Apple Maps",
-        "directions",
-        "location",
-        "first_visit",
-        "Apple Maps",
-        "Apple directions",
-        "map directions",
-        "How do I get to the church?",
-        "How do I get to Urbancrest?",
-        "Give me directions to Urbancrest",
-        "Directions to the church",
-        "Directions to Urbancrest",
-        "Take me to Urbancrest",
-        "Navigate to Urbancrest",
-        "Map to Urbancrest",
-        "How do I find the church?",
-        "How do I get there?"
-      ],
-      "ministries": [],
-      "audiences": [],
-      "resources": [],
-      "action_key": "directions_apple",
-      "url": "https://maps.apple.com/?daddr=2634+Drake+Rd,+Lebanon,+OH+45036",
-      "external": true,
-      "church_center_modal": false,
-      "bundle": "directions_maps",
-      "include_with_bundle": true,
-      "answer_guidance": "For a directions request, include this link together with the Google Maps directions link."
-    },
-    {
-      "id": "action_link.directions_google",
-      "record_type": "action_link",
-      "path": "registry/action-links.yaml",
-      "title": "Get Directions on Google Maps",
-      "summary": "Approved Urbancrest action link for directions, location, first_visit.",
-      "content": "Label: Get Directions on Google Maps\nURL: https://www.google.com/maps/dir/?api=1&destination=2634+Drake+Rd,+Lebanon,+OH+45036\nIntents: directions, location, first_visit\nAliases: Google Maps, Google directions, map directions\nBundle: directions_maps\nAnswer guidance: For a directions request, include this link together with the Apple Maps directions link.",
-      "priority": 110,
-      "category": [
-        "action_link"
-      ],
-      "intents": [
-        "directions",
-        "location",
-        "first_visit"
-      ],
-      "tags": [
-        "action",
-        "link",
-        "directions",
-        "location",
-        "first_visit",
-        "Google Maps",
-        "Google directions",
-        "map directions"
-      ],
-      "search_terms": [
-        "Get Directions on Google Maps",
-        "directions",
-        "location",
-        "first_visit",
-        "Google Maps",
-        "Google directions",
-        "map directions",
-        "How do I get to the church?",
-        "How do I get to Urbancrest?",
-        "Give me directions to Urbancrest",
-        "Directions to the church",
-        "Directions to Urbancrest",
-        "Take me to Urbancrest",
-        "Navigate to Urbancrest",
-        "Map to Urbancrest",
-        "How do I find the church?",
-        "How do I get there?"
-      ],
-      "ministries": [],
-      "audiences": [],
-      "resources": [],
-      "action_key": "directions_google",
-      "url": "https://www.google.com/maps/dir/?api=1&destination=2634+Drake+Rd,+Lebanon,+OH+45036",
-      "external": true,
-      "church_center_modal": false,
-      "bundle": "directions_maps",
-      "include_with_bundle": true,
-      "answer_guidance": "For a directions request, include this link together with the Apple Maps directions link."
-    },
-    {
       "id": "ministries.stephen_ministry.sunday_availability",
       "record_type": "knowledge",
       "path": "knowledge/ministries/stephen-ministry/sunday-availability.md",
@@ -5650,6 +5495,50 @@
       "resources": [],
       "action_key": "baptism",
       "url": "https://urbancrest.churchcenter.com/people/forms/1674",
+      "external": true,
+      "church_center_modal": true,
+      "include_with_bundle": false
+    },
+    {
+      "id": "action_link.serving_interest",
+      "record_type": "action_link",
+      "path": "registry/action-links.yaml",
+      "title": "Volunteer Interest Form",
+      "summary": "Approved Urbancrest action link for serving, volunteering, volunteer, serving_interest, ministry_team.",
+      "content": "Label: Volunteer Interest Form\nURL: https://urbancrest.churchcenter.com/people/forms/4085\nIntents: serving, volunteering, volunteer, serving_interest, ministry_team",
+      "priority": 100,
+      "category": [
+        "action_link"
+      ],
+      "intents": [
+        "serving",
+        "volunteering",
+        "volunteer",
+        "serving_interest",
+        "ministry_team"
+      ],
+      "tags": [
+        "action",
+        "link",
+        "serving",
+        "volunteering",
+        "volunteer",
+        "serving_interest",
+        "ministry_team"
+      ],
+      "search_terms": [
+        "Volunteer Interest Form",
+        "serving",
+        "volunteering",
+        "volunteer",
+        "serving_interest",
+        "ministry_team"
+      ],
+      "ministries": [],
+      "audiences": [],
+      "resources": [],
+      "action_key": "serving_interest",
+      "url": "https://urbancrest.churchcenter.com/people/forms/4085",
       "external": true,
       "church_center_modal": true,
       "include_with_bundle": false
@@ -8269,51 +8158,6 @@
       "confidence": "high"
     },
     {
-      "id": "action_link.stephen_ministry_info",
-      "record_type": "action_link",
-      "path": "registry/action-links.yaml",
-      "title": "Learn About Stephen Ministry",
-      "summary": "Approved Urbancrest action link for stephen_ministry, ministry_info, pastoral_care.",
-      "content": "Label: Learn About Stephen Ministry\nURL: https://urbancrest.church/get-involved/stephen-ministry\nIntents: stephen_ministry, ministry_info, pastoral_care\nAliases: Stephen Ministry, Stephen Minister",
-      "priority": 95,
-      "category": [
-        "action_link"
-      ],
-      "intents": [
-        "stephen_ministry",
-        "ministry_info",
-        "pastoral_care"
-      ],
-      "tags": [
-        "action",
-        "link",
-        "stephen_ministry",
-        "ministry_info",
-        "pastoral_care",
-        "Stephen Ministry",
-        "Stephen Minister"
-      ],
-      "search_terms": [
-        "Learn About Stephen Ministry",
-        "stephen_ministry",
-        "ministry_info",
-        "pastoral_care",
-        "Stephen Ministry",
-        "Stephen Minister",
-        "What is Stephen Ministry?",
-        "Tell me about Stephen Ministry",
-        "Does Urbancrest have Stephen Ministry?"
-      ],
-      "ministries": [],
-      "audiences": [],
-      "resources": [],
-      "action_key": "stephen_ministry_info",
-      "url": "https://urbancrest.church/get-involved/stephen-ministry",
-      "external": false,
-      "church_center_modal": false,
-      "include_with_bundle": false
-    },
-    {
       "id": "ministries.preschool.volunteer_screening",
       "record_type": "knowledge",
       "path": "knowledge/ministries/preschool/faq/are-preschool-volunteers-screened.md",
@@ -9493,12 +9337,50 @@
       ]
     },
     {
+      "id": "action_link.directions_google",
+      "record_type": "action_link",
+      "path": "registry/action-links.yaml",
+      "title": "Get Directions on Google Maps",
+      "summary": "Approved Urbancrest action link for directions, location, first_visit.",
+      "content": "Label: Get Directions on Google Maps\nURL: https://www.google.com/maps/dir/?api=1&destination=2634+Drake+Rd,+Lebanon,+OH+45036\nIntents: directions, location, first_visit",
+      "priority": 90,
+      "category": [
+        "action_link"
+      ],
+      "intents": [
+        "directions",
+        "location",
+        "first_visit"
+      ],
+      "tags": [
+        "action",
+        "link",
+        "directions",
+        "location",
+        "first_visit"
+      ],
+      "search_terms": [
+        "Get Directions on Google Maps",
+        "directions",
+        "location",
+        "first_visit"
+      ],
+      "ministries": [],
+      "audiences": [],
+      "resources": [],
+      "action_key": "directions_google",
+      "url": "https://www.google.com/maps/dir/?api=1&destination=2634+Drake+Rd,+Lebanon,+OH+45036",
+      "external": true,
+      "church_center_modal": false,
+      "include_with_bundle": false
+    },
+    {
       "id": "action_link.get_involved",
       "record_type": "action_link",
       "path": "registry/action-links.yaml",
       "title": "Get Involved",
-      "summary": "Approved Urbancrest action link for small_groups, serving, volunteering, ministries.",
-      "content": "Label: Get Involved\nURL: https://urbancrest.church/get-involved\nIntents: small_groups, serving, volunteering, ministries",
+      "summary": "Approved Urbancrest action link for small_groups, serving, volunteering, ministries, ministry.",
+      "content": "Label: Get Involved\nURL: https://urbancrest.church/get-involved\nIntents: small_groups, serving, volunteering, ministries, ministry",
       "priority": 90,
       "category": [
         "action_link"
@@ -9507,7 +9389,8 @@
         "small_groups",
         "serving",
         "volunteering",
-        "ministries"
+        "ministries",
+        "ministry"
       ],
       "tags": [
         "action",
@@ -9515,14 +9398,16 @@
         "small_groups",
         "serving",
         "volunteering",
-        "ministries"
+        "ministries",
+        "ministry"
       ],
       "search_terms": [
         "Get Involved",
         "small_groups",
         "serving",
         "volunteering",
-        "ministries"
+        "ministries",
+        "ministry"
       ],
       "ministries": [],
       "audiences": [],
@@ -10311,7 +10196,7 @@
       "path": "relationships/ministry-staff.yaml",
       "title": "Finance staff relationship",
       "summary": "Staff ownership relationship for Finance. Recommended staff key: tanya_byrd.",
-      "content": "Area: Finance\nCanonical area key: finance\nLeadership status: staffed\nPrimary staff key: tanya_byrd\nRecommended contact staff key: tanya_byrd\nRelated staff keys: \nRouting aliases: finance, financial, financial office, giving, online giving, stewardship, donation, donations, contribution, contributions\nRouting topics: finance, giving, stewardship, donations, financial questions\nAnswer guidance: Tanya Byrd serves as Financial Officer and is the primary contact for finance, giving, and stewardship questions.",
+      "content": "Area: Finance\nCanonical area key: finance\nLeadership status: staffed\nPrimary staff key: tanya_byrd\nRecommended contact staff key: tanya_byrd\nRelated staff keys: \nRouting aliases: finance, financial, financial office, giving, online giving, stewardship, donation, donations, contribution, contributions, finances, church finance, church finances, financial matters\nRouting topics: finance, giving, stewardship, donations, financial questions, finances, church finances, financial matters\nAnswer guidance: Tanya Byrd serves as Financial Officer and is the primary contact for finance, finances, church finances, giving, stewardship, donations, and other financial questions.",
       "priority": 90,
       "category": [
         "relationship",
@@ -10333,7 +10218,11 @@
         "donation",
         "donations",
         "contribution",
-        "contributions"
+        "contributions",
+        "finances",
+        "church finance",
+        "church finances",
+        "financial matters"
       ],
       "search_terms": [
         "Finance",
@@ -10396,6 +10285,30 @@
         "who handles contributions",
         "who do I contact about contributions",
         "who is the point person for contributions",
+        "finances",
+        "who oversees finances",
+        "who leads finances",
+        "who handles finances",
+        "who do I contact about finances",
+        "who is the point person for finances",
+        "church finance",
+        "who oversees church finance",
+        "who leads church finance",
+        "who handles church finance",
+        "who do I contact about church finance",
+        "who is the point person for church finance",
+        "church finances",
+        "who oversees church finances",
+        "who leads church finances",
+        "who handles church finances",
+        "who do I contact about church finances",
+        "who is the point person for church finances",
+        "financial matters",
+        "who oversees financial matters",
+        "who leads financial matters",
+        "who handles financial matters",
+        "who do I contact about financial matters",
+        "who is the point person for financial matters",
         "financial questions",
         "who oversees financial questions",
         "who leads financial questions",
@@ -10412,7 +10325,7 @@
       "primary_staff_key": "tanya_byrd",
       "recommended_contact_staff_key": "tanya_byrd",
       "leadership_status": "staffed",
-      "answer_guidance": "Tanya Byrd serves as Financial Officer and is the primary contact for finance, giving, and stewardship questions.",
+      "answer_guidance": "Tanya Byrd serves as Financial Officer and is the primary contact for finance, finances, church finances, giving, stewardship, donations, and other financial questions.",
       "routing_aliases": [
         "finance",
         "financial",
@@ -10423,14 +10336,21 @@
         "donation",
         "donations",
         "contribution",
-        "contributions"
+        "contributions",
+        "finances",
+        "church finance",
+        "church finances",
+        "financial matters"
       ],
       "routing_topics": [
         "finance",
         "giving",
         "stewardship",
         "donations",
-        "financial questions"
+        "financial questions",
+        "finances",
+        "church finances",
+        "financial matters"
       ],
       "area_label": "Finance"
     },
@@ -14313,6 +14233,44 @@
       ],
       "status": "published",
       "confidence": "high"
+    },
+    {
+      "id": "action_link.directions_apple",
+      "record_type": "action_link",
+      "path": "registry/action-links.yaml",
+      "title": "Get Directions on Apple Maps",
+      "summary": "Approved Urbancrest action link for directions, location, first_visit.",
+      "content": "Label: Get Directions on Apple Maps\nURL: https://maps.apple.com/?daddr=2634+Drake+Rd,+Lebanon,+OH+45036\nIntents: directions, location, first_visit",
+      "priority": 80,
+      "category": [
+        "action_link"
+      ],
+      "intents": [
+        "directions",
+        "location",
+        "first_visit"
+      ],
+      "tags": [
+        "action",
+        "link",
+        "directions",
+        "location",
+        "first_visit"
+      ],
+      "search_terms": [
+        "Get Directions on Apple Maps",
+        "directions",
+        "location",
+        "first_visit"
+      ],
+      "ministries": [],
+      "audiences": [],
+      "resources": [],
+      "action_key": "directions_apple",
+      "url": "https://maps.apple.com/?daddr=2634+Drake+Rd,+Lebanon,+OH+45036",
+      "external": true,
+      "church_center_modal": false,
+      "include_with_bundle": false
     },
     {
       "id": "action_link.staff",
