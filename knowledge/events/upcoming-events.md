@@ -16,7 +16,7 @@ tags: [events, calendar, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-08-11T19:22:14.752423Z
+last_generated: 2026-08-11T22:05:40.416487Z
 ---
 
 # Upcoming Events
@@ -466,18 +466,6 @@ Detailed event file: `knowledge/events/generated/2026-09-17-open-gym-pickleball-
 **More information:** https://urbancrest.churchcenter.com/calendar/event/167708212
 
 Detailed event file: `knowledge/events/generated/2026-09-20-p-u-r-s-u-e-f8f18d.md`
-
-## Sunday Morning Services: 9:30 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, September 20, 2026, 9:30 AM to 10:40 AM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/167708219
-
-Detailed event file: `knowledge/events/generated/2026-09-20-sunday-morning-services-9-30-am-service-25697d.md`
 
 ## Wednesday Night Dinner
 
@@ -1822,3 +1810,15 @@ Detailed event file: `knowledge/events/generated/2027-08-07-men-s-breakfast-ccb9
 **More information:** https://urbancrest.churchcenter.com/calendar/event/195239941
 
 Detailed event file: `knowledge/events/generated/2027-08-08-p-u-r-s-u-e-5b5cf1.md`
+
+## Wednesday Night Dinner
+
+**Category:** Churchwide Program
+
+**When:** Wednesday, August 11, 2027, 5:30 PM to 6:15 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+**More information:** https://urbancrest.churchcenter.com/calendar/event/230122755
+
+Detailed event file: `knowledge/events/generated/2027-08-11-wednesday-night-dinner-19d9cb.md`
