@@ -43,7 +43,7 @@ info_url: "https://urbancrest.churchcenter.com/calendar/event/229161073"
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "229161073"
 planning_center_event_time_id: "31703048"
-last_generated: 2026-08-12T19:27:12.630706Z
+last_generated: 2026-08-12T22:03:24.865998Z
 ---
 
 # Missions Conference
