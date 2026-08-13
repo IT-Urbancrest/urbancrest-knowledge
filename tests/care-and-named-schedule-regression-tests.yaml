@@ -1,0 +1,55 @@
+version: '1.0'
+last_updated: '2026-08-13'
+tests:
+  - id: pastoral-care-offer-direct
+    question: Do you offer pastoral care?
+    expected:
+      retrieved_record_ids_include:
+        - pastoral_care.overview
+      answer_must_include:
+        - pastoral care
+        - Stephen Ministry
+      answer_must_not_include:
+        - Sunday Worship Services
+        - Sunday at 9:30 AM
+      answer_mode: direct
+      llm_invoked: false
+
+  - id: marriage-care-includes-stephen
+    question: I'm struggling in my marriage. Can you help?
+    expected:
+      retrieved_record_ids_include:
+        - pastoral_care.marriage_family
+        - ministries.stephen_ministry.overview
+        - ministries.stephen_ministry.request_care
+      answer_must_include:
+        - pastoral care
+        - Stephen Ministry
+      links_must_include:
+        - https://urbancrest.church/get-involved/stephen-ministry
+        - https://urbancrest.churchcenter.com/people/forms/1494
+      answer_mode: llm
+      llm_invoked: true
+
+  - id: awana-this-week-subject-isolation
+    question: Is AWANA happening this week?
+    expected:
+      retrieved_record_ids_include:
+        - schedule.kids.awana
+      answer_must_include:
+        - AWANA
+      answer_must_not_include:
+        - Pickleball
+        - OPEN GYM Pickleball
+
+  - id: live-event-details-link-remains-clickable
+    question: What is the next pickleball event?
+    expected:
+      answer_must_include:
+        - OPEN GYM Pickleball
+      markdown_link_host_may_include:
+        - urbancrest.churchcenter.com
+      markdown_link_path_prefix_may_include:
+        - /calendar/event/
+      answer_must_not_include_plain_unlinked_label_only:
+        - Event details
