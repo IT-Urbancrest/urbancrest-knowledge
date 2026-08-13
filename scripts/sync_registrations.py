@@ -19,8 +19,10 @@ Optional:
   REGISTRATIONS_CATEGORY_ALLOWLIST (comma-separated; blank = all categories)
   REGISTRATIONS_CATEGORY_DENYLIST (comma-separated; blank = none)
 
-Version 1.5.1 also falls back to the full signup_times relationship when
-next_signup_time is unavailable, so public future signups are not silently dropped.
+Version 1.5.3 fixes Planning Center relationship linkage by no longer applying a
+sparse fieldset to the primary Signup resource. The importer requests included
+signup-time/category/location/selection resources and preserves the Signup
+relationships that link those resources back to each event.
 """
 
 from __future__ import annotations
@@ -234,22 +236,6 @@ def fetch_signups() -> tuple[list[dict[str, Any]], dict[str, Any]]:
         "filter": "unarchived",
         "include": "next_signup_time,signup_times,signup_location,categories,selection_types",
         "per_page": "100",
-        "fields[Signup]": ",".join(
-            [
-                "archived",
-                "at_maximum_capacity",
-                "close_at",
-                "closed",
-                "description",
-                "logo_url",
-                "maximum_capacity",
-                "name",
-                "new_registration_url",
-                "open",
-                "open_at",
-                "updated_at",
-            ]
-        ),
         "fields[SignupTime]": "all_day,ends_at,starts_at,updated_at",
         "fields[SignupLocation]": "formatted_address,full_formatted_address,latitude,longitude,location_type,name,subpremise,url",
         "fields[Category]": "name",
@@ -293,6 +279,43 @@ def fetch_signups() -> tuple[list[dict[str, Any]], dict[str, Any]]:
         params = None  # Planning Center's next URL already carries pagination params.
 
     return signups, {"included": included, "page_count": page_count}
+
+
+def relationship_linkage_counts(signups: list[dict[str, Any]]) -> dict[str, int]:
+    """Count primary Signup relationship linkage returned by Planning Center.
+
+    These counts are aggregate-only so the public registry can diagnose API shape
+    changes without exposing internal signup names.
+    """
+    names = (
+        "next_signup_time",
+        "signup_times",
+        "signup_location",
+        "categories",
+        "selection_types",
+    )
+    counts: dict[str, int] = {}
+    for name in names:
+        present = 0
+        linked = 0
+        for signup in signups:
+            relationships = signup.get("relationships") or {}
+            if name not in relationships:
+                continue
+            present += 1
+            data = (relationships.get(name) or {}).get("data")
+            if isinstance(data, dict):
+                if data.get("id") and data.get("type"):
+                    linked += 1
+            elif isinstance(data, list):
+                if any(
+                    isinstance(item, dict) and item.get("id") and item.get("type")
+                    for item in data
+                ):
+                    linked += 1
+        counts[f"{name}_relationship_present"] = present
+        counts[f"{name}_with_linkage"] = linked
+    return counts
 
 
 def related_resource(
@@ -656,13 +679,13 @@ def merge_registration_events(
     updated = dict(registry)
     previous_source = str(registry.get("source") or "planning_center_ical")
     source_parts = unique([*previous_source.split("+"), "registrations_api"])
-    updated["version"] = "1.5.1"
+    updated["version"] = "1.5.3"
     updated["generated_at"] = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
     updated["source"] = "+".join(source_parts)
     updated["registrations_api"] = {
         "status": "ok",
         "api_version": API_VERSION,
-        "signup_time_strategy": "next_signup_time_then_signup_times",
+        "signup_time_strategy": "next_signup_time_then_signup_times_preserve_relationship_linkage",
         "future_signup_count": len(registration_events),
         "added_registration_only_events": added,
         "enriched_existing_events": enriched,
@@ -681,7 +704,7 @@ def write_upcoming_index(registry: dict[str, Any]) -> None:
     lines = [
         "---",
         "id: events.upcoming.live",
-        "version: 1.5.1",
+        "version: 1.5.3",
         "status: published",
         "priority: 100",
         "title: Upcoming Events",
@@ -755,6 +778,7 @@ def main() -> int:
     registry = yaml.safe_load(EVENT_REGISTRY_PATH.read_text(encoding="utf-8")) or {}
     updated, stats = merge_registration_events(registry, registration_events)
     updated["registrations_api"]["signup_count_received"] = len(signups)
+    updated["registrations_api"]["relationship_linkage_counts"] = relationship_linkage_counts(signups)
     updated["registrations_api"]["skipped_signup_count"] = skipped
     updated["registrations_api"]["skipped_reasons"] = dict(sorted(skipped_reasons.items()))
     updated["registrations_api"]["page_count"] = fetch_meta["page_count"]
