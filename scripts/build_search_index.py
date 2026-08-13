@@ -24,8 +24,6 @@ SKIP_YAML = {
     "registry/action-links.yaml",
     "registry/schedule.yaml",
     "relationships/ministry-staff.yaml",
-    "registry/safety.yaml",
-    "registry/contact.yaml",
 }
 
 
@@ -175,33 +173,16 @@ def markdown_records() -> list[dict[str, Any]]:
         if status not in {"published", "active"}:
             continue
         title = str(metadata.get("title") or path.stem.replace("-", " ").title())
-        record_id = str(metadata.get("id") or relative)
-
-        # Recurring schedules are authoritative in registry/schedule.yaml.
-        # Keep legacy Markdown schedule files in the repository if desired, but
-        # do not index them as competing runtime sources.
-        if re.fullmatch(r"ministries\.[^.]+\.schedule", record_id):
-            continue
-
-        categories = as_list(metadata.get("category"))
-        category_keys = {item.casefold() for item in categories}
-        if "sermon_series" in category_keys:
-            record_type = "sermon_series"
-        elif "sermon" in category_keys:
-            record_type = "sermon"
-        else:
-            record_type = "knowledge"
-
         records.append(
             record_base(
-                record_id=record_id,
-                record_type=record_type,
+                record_id=str(metadata.get("id") or relative),
+                record_type="knowledge",
                 path=relative,
                 title=title,
                 summary=str(metadata.get("summary") or ""),
                 content=body,
                 priority=int(metadata.get("priority") or 50),
-                category=categories,
+                category=as_list(metadata.get("category")),
                 intents=intent_values(metadata),
                 tags=as_list(metadata.get("tags")),
                 search_terms=as_list(metadata.get("search_terms")),
@@ -219,377 +200,65 @@ def markdown_records() -> list[dict[str, Any]]:
                 confidence=metadata.get("confidence"),
                 authoritative=metadata.get("authoritative"),
                 authoritative_for=as_list(metadata.get("authoritative_for")),
-                sermon_date=metadata.get("sermon_date"),
-                speaker=metadata.get("speaker"),
-                speaker_key=metadata.get("speaker_key"),
-                series_id=metadata.get("series_id"),
-                series_title=metadata.get("series_title"),
-                primary_scripture=metadata.get("primary_scripture"),
-                primary_scripture_translation=metadata.get("primary_scripture_translation"),
-                scripture=as_list(metadata.get("scripture")),
-                notes_url=metadata.get("notes_url"),
-                title_source=metadata.get("title_source"),
-                outline_source=metadata.get("outline_source"),
-                primary_scripture_source=metadata.get("primary_scripture_source"),
-                summary_source=metadata.get("summary_source"),
-                series_status=metadata.get("series_status"),
-                start_date=metadata.get("start_date"),
-                end_date=metadata.get("end_date"),
             )
         )
-
-    # Sermon-series records are automatically enriched from the weekly sermon
-    # records that share their series_id. This means normal weekly maintenance only
-    # requires adding the new sermon article and rebuilding the index.
-    sermons_by_series: dict[str, list[dict[str, Any]]] = {}
-    for record in records:
-        if record.get("record_type") != "sermon" or not record.get("series_id"):
-            continue
-        sermons_by_series.setdefault(str(record["series_id"]), []).append(record)
-
-    for record in records:
-        if record.get("record_type") != "sermon_series" or not record.get("series_id"):
-            continue
-        members = sorted(
-            sermons_by_series.get(str(record["series_id"]), []),
-            key=lambda item: str(item.get("sermon_date") or ""),
-        )
-        if members:
-            record["sermons"] = [
-                {
-                    "id": item.get("id"),
-                    "date": item.get("sermon_date"),
-                    "title": item.get("title"),
-                    "speaker": item.get("speaker"),
-                    "primary_scripture": item.get("primary_scripture"),
-                    "notes_url": item.get("notes_url"),
-                }
-                for item in members
-            ]
-
     return records
 
-
-
-DAY_ORDER = {
-    "monday": 1,
-    "tuesday": 2,
-    "wednesday": 3,
-    "thursday": 4,
-    "friday": 5,
-    "saturday": 6,
-    "sunday": 7,
-}
-
-
-def meeting_sort_key(meeting: dict[str, Any]) -> tuple[int, int, str]:
-    day = str(meeting.get("day") or "").casefold()
-    day_rank = DAY_ORDER.get(day, 99)
-    raw_time = str(meeting.get("time") or "").strip()
-    time_rank = 9999
-
-    match = re.fullmatch(r"(\d{1,2}):(\d{2})\s*([AP]M)", raw_time, flags=re.IGNORECASE)
-    if match:
-        hour = int(match.group(1)) % 12
-        minute = int(match.group(2))
-        if match.group(3).upper() == "PM":
-            hour += 12
-        time_rank = hour * 60 + minute
-
-    return (day_rank, time_rank, raw_time.casefold())
-
-
-def format_meeting(meeting: dict[str, Any]) -> str:
-    day = str(meeting.get("day") or "").strip()
-    time = str(meeting.get("time") or "").strip()
-    location = str(meeting.get("location") or "").strip()
-
-    if day and time:
-        text = f"{day} at {time}"
-    else:
-        text = day or time or "Schedule time not specified"
-
-    if location:
-        text += f" at {location}"
-    return text
-
-
-def schedule_question_terms(names: list[str]) -> list[str]:
-    terms: list[str] = []
-    for value in unique(names):
-        terms.extend(
-            [
-                value,
-                f"When does {value} meet?",
-                f"When do {value} meet?",
-                f"What time does {value} meet?",
-                f"What time is {value}?",
-                f"What is the {value} schedule?",
-                f"What days does {value} meet?",
-                f"When is {value}?",
-                f"Does Urbancrest have {value}?",
-                f"Do you offer {value}?",
-                f"Is there {value} at Urbancrest?",
-            ]
-        )
-    return unique(terms)
 
 
 def schedule_records() -> list[dict[str, Any]]:
     path = ROOT / "registry/schedule.yaml"
     data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
-    timezone_name = str(data.get("timezone") or "America/New_York")
-    authoritative = bool(data.get("authoritative", True))
-    top_guidance = str(data.get("answer_guidance") or "")
-    ministries_config = data.get("ministries") or {}
-    schedules = [item for item in (data.get("schedules") or []) if isinstance(item, dict)]
+    weekly = data.get("schedule", {}).get("weekly", {})
+    sunday_times = weekly.get("sunday", {}).get("worship", [])
+    wednesday = weekly.get("wednesday", {})
 
-    records: list[dict[str, Any]] = []
-    schedules_by_ministry: dict[str, list[dict[str, Any]]] = {}
+    content_lines = [
+        "Regular weekly schedule:",
+        "Sunday worship: " + ", ".join(str(value) for value in sunday_times),
+    ]
 
-    for item in schedules:
-        schedule_id = str(item.get("id") or "").strip()
-        if not schedule_id:
+    for key, item in wednesday.items():
+        if not isinstance(item, dict):
             continue
+        label = key.replace("_", " ").title()
+        time = str(item.get("time") or "")
+        location = str(item.get("location") or "")
+        line = f"Wednesday {label}: {time}"
+        if location:
+            line += f" at {location}"
+        content_lines.append(line)
 
-        ministry_key = str(item.get("ministry") or "churchwide").strip()
-        ministry_config = ministries_config.get(ministry_key, {}) if isinstance(ministries_config, dict) else {}
-        if not isinstance(ministry_config, dict):
-            ministry_config = {}
-
-        name = str(item.get("name") or schedule_id.replace(".", " ").title()).strip()
-        schedule_aliases = unique([name, *as_list(item.get("aliases"))])
-        ministry_name = str(ministry_config.get("name") or ministry_key.replace("_", " ").title()).strip()
-        ministry_aliases = unique([ministry_name, *as_list(ministry_config.get("aliases"))])
-        meetings = [meeting for meeting in (item.get("meetings") or []) if isinstance(meeting, dict)]
-        meetings = sorted(meetings, key=meeting_sort_key)
-        meeting_lines = [format_meeting(meeting) for meeting in meetings]
-        seasonal_note = str(item.get("seasonal_note") or "").strip()
-        answer_guidance = str(item.get("answer_guidance") or top_guidance).strip()
-
-        content_lines = [f"{name} recurring schedule:"]
-        content_lines.extend(f"- {line}" for line in meeting_lines)
-        if seasonal_note:
-            content_lines.append(f"Seasonal note: {seasonal_note}")
-
-        summary = f"{name}: " + "; ".join(meeting_lines)
-        if seasonal_note:
-            summary += f". {seasonal_note}"
-
-        recommended_contact = (
-            item.get("recommended_contact_staff_key")
-            or ministry_config.get("recommended_contact_staff_key")
-        )
-        show_staff_card = bool(
-            item.get(
-                "show_staff_card_on_schedule_queries",
-                ministry_config.get("show_staff_card_on_schedule_queries", False),
-            )
-        )
-
-        item_intents = unique(
-            [
-                "schedule",
-                "weekly_schedule",
-                "ministry_schedule",
-                *as_list(item.get("intents")),
-            ]
-        )
-
-        records.append(
-            record_base(
-                record_id=f"schedule.{schedule_id}",
-                record_type="schedule",
-                path="registry/schedule.yaml",
-                title=name,
-                summary=summary,
-                content="\n".join(content_lines),
-                priority=int(item.get("priority") or 115),
-                category=["schedule", "recurring", ministry_key],
-                intents=item_intents,
-                tags=unique(
-                    [
-                        "schedule",
-                        "recurring",
-                        ministry_key,
-                        name,
-                        *schedule_aliases,
-                        *as_list(item.get("tags")),
-                    ]
-                ),
-                search_terms=schedule_question_terms(schedule_aliases),
-                ministries=[ministry_key],
-                audiences=as_list(item.get("audiences")),
-                schedule_id=schedule_id,
-                schedule_scope="activity",
-                schedule_aliases=schedule_aliases,
-                ministry_aliases=ministry_aliases,
-                meetings=meetings,
-                seasonal_note=seasonal_note,
-                recommended_contact_staff_key=recommended_contact,
-                show_staff_card_on_schedule_queries=show_staff_card,
-                authoritative=authoritative,
-                authoritative_for=unique(
-                    [
-                        "schedule",
-                        "recurring_schedule",
-                        "ministry_schedule",
-                        *as_list(item.get("intents")),
-                    ]
-                ),
-                confidence="high",
-                timezone=timezone_name,
-                answer_guidance=answer_guidance,
-            )
-        )
-
-        schedules_by_ministry.setdefault(ministry_key, []).append(
-            {
-                "schedule_id": schedule_id,
-                "name": name,
-                "aliases": schedule_aliases,
-                "meetings": meetings,
-                "seasonal_note": seasonal_note,
-                "priority": int(item.get("priority") or 115),
-            }
-        )
-
-    # Aggregate each ministry so broad questions such as "When do kids meet?"
-    # can return all of that ministry's recurring weekly activities.
-    for ministry_key, ministry_schedules in schedules_by_ministry.items():
-        ministry_config = ministries_config.get(ministry_key, {}) if isinstance(ministries_config, dict) else {}
-        if not isinstance(ministry_config, dict):
-            ministry_config = {}
-
-        ministry_name = str(ministry_config.get("name") or ministry_key.replace("_", " ").title()).strip()
-        ministry_aliases = unique([ministry_name, *as_list(ministry_config.get("aliases"))])
-        content_lines = [f"{ministry_name} recurring schedule:"]
-        all_meetings: list[dict[str, Any]] = []
-
-        for item in sorted(
-            ministry_schedules,
-            key=lambda entry: (
-                min((meeting_sort_key(m) for m in entry["meetings"]), default=(99, 9999, "")),
-                entry["name"].casefold(),
-            ),
-        ):
-            meeting_text = "; ".join(format_meeting(meeting) for meeting in item["meetings"])
-            line = f"- {item['name']}: {meeting_text}"
-            if item["seasonal_note"]:
-                line += f". {item['seasonal_note']}"
-            content_lines.append(line)
-            all_meetings.extend(item["meetings"])
-
-        recommended_contact = ministry_config.get("recommended_contact_staff_key")
-        show_staff_card = bool(ministry_config.get("show_staff_card_on_schedule_queries", False))
-        max_priority = max((entry["priority"] for entry in ministry_schedules), default=115)
-
-        records.append(
-            record_base(
-                record_id=f"schedule.ministry.{ministry_key}",
-                record_type="schedule",
-                path="registry/schedule.yaml",
-                title=f"{ministry_name} Weekly Schedule",
-                summary=" ".join(content_lines[1:]),
-                content="\n".join(content_lines),
-                priority=max(118, min(max_priority + 3, 126)),
-                category=["schedule", "recurring", "ministry", ministry_key],
-                intents=["schedule", "weekly_schedule", "ministry_schedule"],
-                tags=unique(
-                    [
-                        "schedule",
-                        "recurring",
-                        "ministry",
-                        ministry_key,
-                        *ministry_aliases,
-                    ]
-                ),
-                search_terms=schedule_question_terms(ministry_aliases),
-                ministries=[ministry_key],
-                schedule_scope="ministry",
-                ministry_aliases=ministry_aliases,
-                schedule_ids=[entry["schedule_id"] for entry in ministry_schedules],
-                meetings=sorted(all_meetings, key=meeting_sort_key),
-                recommended_contact_staff_key=recommended_contact,
-                show_staff_card_on_schedule_queries=show_staff_card,
-                authoritative=authoritative,
-                authoritative_for=["schedule", "recurring_schedule", "ministry_schedule"],
-                confidence="high",
-                timezone=timezone_name,
-                answer_guidance=top_guidance,
-            )
-        )
-
-    # Overall recurring weekly schedule.
-    weekly_lines = ["Urbancrest regular weekly schedule:"]
-    all_meetings: list[dict[str, Any]] = []
-    schedule_ids: list[str] = []
-
-    for item in sorted(
-        schedules,
-        key=lambda entry: (
-            min(
-                (
-                    meeting_sort_key(meeting)
-                    for meeting in (entry.get("meetings") or [])
-                    if isinstance(meeting, dict)
-                ),
-                default=(99, 9999, ""),
-            ),
-            str(entry.get("name") or "").casefold(),
-        ),
-    ):
-        name = str(item.get("name") or item.get("id") or "Schedule")
-        meetings = [meeting for meeting in (item.get("meetings") or []) if isinstance(meeting, dict)]
-        meeting_text = "; ".join(format_meeting(meeting) for meeting in sorted(meetings, key=meeting_sort_key))
-        line = f"- {name}: {meeting_text}"
-        seasonal_note = str(item.get("seasonal_note") or "").strip()
-        if seasonal_note:
-            line += f". {seasonal_note}"
-        weekly_lines.append(line)
-        all_meetings.extend(meetings)
-        if item.get("id"):
-            schedule_ids.append(str(item.get("id")))
-
-    records.append(
+    return [
         record_base(
             record_id="schedule.weekly",
             record_type="schedule",
             path="registry/schedule.yaml",
-            title="Urbancrest Weekly Schedule",
-            summary="Regular Sunday and Wednesday recurring schedule for Urbancrest services and ministries.",
-            content="\n".join(weekly_lines),
-            priority=118,
-            category=["schedule", "recurring", "about"],
-            intents=["schedule", "weekly_schedule", "service_times", "visit"],
-            tags=["schedule", "weekly schedule", "service times", "Sunday", "Wednesday"],
+            title="Urbancrest Weekly Service Schedule",
+            summary="Sunday worship services are at 9:30 AM and 11:00 AM.",
+            content="\n".join(content_lines),
+            priority=int(data.get("priority") or 120),
+            category=["schedule", "about"],
+            intents=["service_times", "sunday_service_times", "weekly_schedule", "visit"],
+            tags=["service times", "Sunday services", "Sunday worship", "weekly schedule"],
             search_terms=[
-                "What is the Urbancrest weekly schedule?",
-                "What happens each week at Urbancrest?",
-                "When does Urbancrest meet?",
                 "What time are Sunday services?",
-                "What happens on Wednesday nights?",
-                "What is the Wednesday schedule?",
+                "What are your Sunday service times?",
+                "When are Sunday services?",
+                "What time does church start?",
+                "What time is church?",
+                "When does Urbancrest meet?",
+                "Sunday worship times",
+                "Sunday service times",
             ],
-            schedule_scope="churchwide",
-            schedule_ids=schedule_ids,
-            meetings=sorted(all_meetings, key=meeting_sort_key),
-            authoritative=authoritative,
-            authoritative_for=unique(
-                [
-                    "schedule",
-                    "recurring_schedule",
-                    "weekly_schedule",
-                    *as_list(data.get("source_of_truth_for")),
-                ]
-            ),
+            authoritative=bool(data.get("authoritative", True)),
+            authoritative_for=as_list(data.get("source_of_truth_for")),
             confidence="high",
-            timezone=timezone_name,
-            answer_guidance=top_guidance,
+            answer_guidance=data.get("answer_guidance"),
+            sunday_service_times=as_list(sunday_times),
+            timezone=data.get("timezone", "America/New_York"),
         )
-    )
-
-    return records
+    ]
 
 
 def event_records() -> list[dict[str, Any]]:
@@ -601,11 +270,46 @@ def event_records() -> list[dict[str, Any]]:
         title = str(event.get("title") or "Untitled Event")
         description = str(event.get("description") or "")
         details = str(event.get("details") or "")
+        registration_categories = as_list(event.get("registration_categories"))
+        registration_options = [
+            option for option in (event.get("registration_options") or []) if isinstance(option, dict)
+        ]
+        registration_option_names = [
+            str(option.get("name")) for option in registration_options if option.get("name")
+        ]
+        registration_lines: list[str] = []
+        if event.get("registration_open") is True:
+            registration_lines.append("Registration status: open")
+        elif event.get("registration_closed") is True or event.get("registration_open") is False:
+            registration_lines.append("Registration status: not currently open")
+        if event.get("registration_at_maximum_capacity") is True:
+            registration_lines.append("Registration capacity: full")
+        if event.get("registration_open_at"):
+            registration_lines.append(f"Registration opens: {event.get('registration_open_at')}")
+        if event.get("registration_close_at"):
+            registration_lines.append(f"Registration closes: {event.get('registration_close_at')}")
+        if registration_categories:
+            registration_lines.append("Registration categories: " + ", ".join(registration_categories))
+        for option in registration_options:
+            option_name = str(option.get("name") or "Registration option")
+            price = option.get("price_formatted")
+            symbol = option.get("price_currency_symbol") or ""
+            option_line = f"Registration option: {option_name}"
+            if price not in (None, ""):
+                option_line += f"; price: {symbol}{price}"
+            if option.get("at_maximum_capacity") is True:
+                option_line += "; full"
+            elif option.get("available_capacity") is not None:
+                option_line += f"; available capacity: {option.get('available_capacity')}"
+            if option.get("waitlist") is True:
+                option_line += "; waitlist available"
+            registration_lines.append(option_line)
         content = "\n\n".join(
             value
             for value in (
                 description,
                 f"Details:\n{details}" if details else "",
+                "\n".join(registration_lines),
             )
             if value
         )
@@ -643,6 +347,8 @@ def event_records() -> list[dict[str, Any]]:
                     "activity",
                     str(event.get("event_category") or "general_event"),
                     *activity_aliases,
+                    *registration_categories,
+                    *registration_option_names,
                 ],
                 search_terms=unique(
                     [
@@ -653,6 +359,8 @@ def event_records() -> list[dict[str, Any]]:
                         f"What is the menu for {title}?",
                         f"How do I register for {title}?",
                     ]
+                    + registration_categories
+                    + registration_option_names
                     + [
                         phrase
                         for alias in activity_aliases
@@ -683,7 +391,19 @@ def event_records() -> list[dict[str, Any]]:
                 planning_center_event_id=event.get("planning_center_event_id"),
                 planning_center_event_instance_id=event.get("planning_center_event_instance_id"),
                 planning_center_event_time_id=event.get("planning_center_event_time_id"),
+                planning_center_signup_id=event.get("planning_center_signup_id"),
+                planning_center_signup_time_id=event.get("planning_center_signup_time_id"),
+                event_source=event.get("event_source"),
+                event_sources=as_list(event.get("event_sources")),
                 registration_url=event.get("registration_url"),
+                registration_open=event.get("registration_open"),
+                registration_closed=event.get("registration_closed"),
+                registration_at_maximum_capacity=event.get("registration_at_maximum_capacity"),
+                registration_open_at=event.get("registration_open_at"),
+                registration_close_at=event.get("registration_close_at"),
+                registration_maximum_capacity=event.get("registration_maximum_capacity"),
+                registration_categories=registration_categories,
+                registration_options=registration_options,
                 info_url=event.get("info_url"),
                 image_url=event.get("image_url"),
                 knowledge_file=event.get("knowledge_file"),
@@ -808,23 +528,6 @@ def action_link_records() -> list[dict[str, Any]]:
     for key, link in data.get("links", {}).items():
         label = str(link.get("label") or key)
         intents = as_list(link.get("intents"))
-        aliases = as_list(link.get("aliases"))
-        configured_search_terms = as_list(link.get("search_terms"))
-        bundle = str(link.get("bundle") or "")
-        answer_guidance = str(link.get("answer_guidance") or "")
-
-        content_lines = [
-            f"Label: {label}",
-            f"URL: {link.get('url', '')}",
-            f"Intents: {', '.join(intents)}",
-        ]
-        if aliases:
-            content_lines.append(f"Aliases: {', '.join(aliases)}")
-        if bundle:
-            content_lines.append(f"Bundle: {bundle}")
-        if answer_guidance:
-            content_lines.append(f"Answer guidance: {answer_guidance}")
-
         records.append(
             record_base(
                 record_id=f"action_link.{key}",
@@ -832,19 +535,18 @@ def action_link_records() -> list[dict[str, Any]]:
                 path="registry/action-links.yaml",
                 title=label,
                 summary=f"Approved Urbancrest action link for {', '.join(intents)}.",
-                content="\n".join(content_lines),
+                content=f"Label: {label}\nURL: {link.get('url', '')}\nIntents: {', '.join(intents)}",
                 priority=int(link.get("priority") or 50),
                 category=["action_link"],
                 intents=intents,
-                tags=["action", "link", *intents, *aliases],
-                search_terms=unique([label, *intents, *aliases, *configured_search_terms]),
+                tags=["action", "link", *intents],
+                search_terms=[label, *intents],
                 action_key=key,
                 url=link.get("url"),
                 external=link.get("external", False),
                 church_center_modal=link.get("church_center_modal", False),
-                bundle=bundle,
-                include_with_bundle=bool(link.get("include_with_bundle", False)),
-                answer_guidance=answer_guidance,
+                bundle=link.get("bundle"),
+                include_with_bundle=link.get("include_with_bundle", False),
             )
         )
     return records
@@ -855,9 +557,6 @@ def relationship_records() -> list[dict[str, Any]]:
     records: list[dict[str, Any]] = []
     for relationship in data.get("relationships", []):
         ministry = str(relationship.get("ministry") or "")
-        label = str(relationship.get("label") or ministry.replace("_", " ").title())
-        aliases = as_list(relationship.get("aliases"))
-        topics = as_list(relationship.get("topics"))
         primary = str(relationship.get("primary_staff_key") or "")
         recommended = str(relationship.get("recommended_contact_staff_key") or "")
         selected_staff_key = primary or recommended
@@ -866,9 +565,7 @@ def relationship_records() -> list[dict[str, Any]]:
         open_role = str(relationship.get("open_role") or "")
         answer_guidance = str(relationship.get("answer_guidance") or "")
 
-        summary_parts = [f"Staff ownership relationship for {label}."]
-        if leadership_status in {"vacant", "transitional"}:
-            summary_parts.append(f"Leadership status: {leadership_status}.")
+        summary_parts = [f"Staff relationship for {ministry.replace('_', ' ')}."]
         if open_role:
             summary_parts.append(f"Open role: {open_role}.")
         if selected_staff_key:
@@ -876,51 +573,36 @@ def relationship_records() -> list[dict[str, Any]]:
         summary = " ".join(summary_parts)
 
         content_lines = [
-            f"Area: {label}",
-            f"Canonical area key: {ministry}",
+            f"Ministry: {ministry}",
             f"Leadership status: {leadership_status}",
             f"Primary staff key: {primary or 'none'}",
             f"Recommended contact staff key: {recommended or 'none'}",
             f"Related staff keys: {', '.join(related)}",
         ]
-        if aliases:
-            content_lines.append(f"Routing aliases: {', '.join(aliases)}")
-        if topics:
-            content_lines.append(f"Routing topics: {', '.join(topics)}")
         if open_role:
             content_lines.append(f"Open role: {open_role}")
         if answer_guidance:
             content_lines.append(f"Answer guidance: {answer_guidance}")
-
-        base_terms = unique([label, ministry.replace("_", " "), *aliases, *topics])
-        ownership_terms: list[str] = []
-        for term in base_terms:
-            ownership_terms.extend(
-                [
-                    term,
-                    f"who oversees {term}",
-                    f"who leads {term}",
-                    f"who handles {term}",
-                    f"who do I contact about {term}",
-                    f"who is the point person for {term}",
-                ]
-            )
-        if open_role:
-            ownership_terms.append(open_role)
 
         records.append(
             record_base(
                 record_id=f"relationship.ministry_staff.{ministry}",
                 record_type="relationship",
                 path="relationships/ministry-staff.yaml",
-                title=f"{label} staff relationship",
+                title=f"{ministry.replace('_', ' ').title()} staff relationship",
                 summary=summary,
                 content="\n".join(content_lines),
-                priority=105 if leadership_status in {"vacant", "transitional"} else 90,
+                priority=95 if leadership_status in {"vacant", "transitional"} else 85,
                 category=["relationship", "staff"],
-                intents=["ministry_contact", "staff_routing", "staff_ownership"],
-                tags=[ministry, label, leadership_status, *aliases],
-                search_terms=unique(ownership_terms),
+                intents=["ministry_contact", "staff_routing", "missions_leadership"],
+                tags=[ministry, "staff", "ministry", leadership_status],
+                search_terms=[
+                    ministry.replace("_", " "),
+                    f"who oversees {ministry.replace('_', ' ')}",
+                    f"who leads {ministry.replace('_', ' ')}",
+                    f"who do I contact about {ministry.replace('_', ' ')}",
+                    open_role,
+                ],
                 ministries=[ministry],
                 staff_key=selected_staff_key,
                 primary_staff_key=primary,
@@ -929,9 +611,6 @@ def relationship_records() -> list[dict[str, Any]]:
                 leadership_status=leadership_status,
                 open_role=open_role,
                 answer_guidance=answer_guidance,
-                routing_aliases=aliases,
-                routing_topics=topics,
-                area_label=label,
             )
         )
     return records
@@ -997,8 +676,6 @@ def main() -> None:
             "personality": (ROOT / "AI_PERSONALITY.md").read_text(encoding="utf-8"),
             "style_guide": (ROOT / "STYLE_GUIDE.md").read_text(encoding="utf-8"),
             "max_retrieval_records": 8,
-            "safety": yaml.safe_load((ROOT / "registry/safety.yaml").read_text(encoding="utf-8")) or {},
-            "contact": yaml.safe_load((ROOT / "registry/contact.yaml").read_text(encoding="utf-8")) or {},
             "staff_profile_source": "base44.Staff",
             "admin_knowledge_source": "base44.KnowledgeEntry",
         },
