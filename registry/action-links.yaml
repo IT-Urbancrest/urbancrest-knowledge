@@ -1,5 +1,5 @@
-version: '1.1'
-last_updated: '2026-08-10'
+version: '1.0'
+last_updated: '2026-07-27'
 domain_rules:
   preferred_domain: urbancrest.church
   allowed_external_hosts:
@@ -42,20 +42,7 @@ links:
     - serving
     - volunteering
     - ministries
-    - ministry
     priority: 90
-  serving_interest:
-    label: Volunteer Interest Form
-    url: https://urbancrest.churchcenter.com/people/forms/4085
-    intents:
-    - serving
-    - volunteering
-    - volunteer
-    - serving_interest
-    - ministry_team
-    priority: 100
-    external: true
-    church_center_modal: true
   staff:
     label: Meet Our Staff
     url: https://urbancrest.church/staff
@@ -101,6 +88,8 @@ links:
     - first_visit
     priority: 90
     external: true
+    bundle: directions_maps
+    include_with_bundle: true
   directions_apple:
     label: Get Directions on Apple Maps
     url: https://maps.apple.com/?daddr=2634+Drake+Rd,+Lebanon,+OH+45036
@@ -110,9 +99,10 @@ links:
     - first_visit
     priority: 80
     external: true
+    bundle: directions_maps
+    include_with_bundle: true
 selection_rules:
 - Include one relevant action link at the end of an answer when it helps the user take a clear next step.
-- For service times, location, parking, what to expect, or first visit questions, prefer plan_visit.
+- For directions or church-location questions, include both Google Maps and Apple Maps from the directions_maps bundle.
+- For service times, parking, what to expect, or first visit questions, prefer plan_visit.
 - Do not add an unrelated link merely because a link record matched one word in the question.
-- For serving or volunteering next-step questions, include both get_involved and serving_interest so users can explore opportunities
-  and submit the official volunteer interest form.
