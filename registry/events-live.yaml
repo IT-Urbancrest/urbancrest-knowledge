@@ -1,5 +1,5 @@
 version: 1.5.1
-generated_at: '2026-08-13T18:41:27.489068Z'
+generated_at: '2026-08-13T19:03:47.385227Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
@@ -8079,7 +8079,8 @@ registrations_api:
   future_signup_count: 0
   added_registration_only_events: 0
   enriched_existing_events: 0
-  category_allowlist: []
+  category_allowlist:
+  - website
   category_denylist: []
   signup_count_received: 20
   skipped_signup_count: 20
