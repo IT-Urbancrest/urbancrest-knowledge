@@ -1,27 +1,27 @@
 ---
 id: events.upcoming.live
-version: 1.4.3
+version: 1.5.1
 status: published
 priority: 100
 title: Upcoming Events
-summary: Major, ministry, churchwide, and general events synchronized from the Urbancrest calendar.
+summary: Major and ministry events synchronized from Urbancrest's calendar and Planning Center Registrations.
 category: [events]
 intent:
   primary: upcoming_events
-  secondary: [calendar, schedule, whats_happening, next_ministry_event]
+  secondary: [calendar, schedule, whats_happening, next_ministry_event, registration]
 audience: [everyone]
 answer_style: helpful
 confidence: high
-tags: [events, calendar, upcoming, schedule]
+tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-08-13T16:10:22.462255Z
+last_generated: 2026-08-13T18:41:27.489068Z
 ---
 
 # Upcoming Events
 
-This index excludes routine Small Group meetings, which are stored separately.
+This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
 
 ## OPEN GYM Pickleball

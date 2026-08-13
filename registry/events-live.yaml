@@ -1,7 +1,7 @@
-version: 1.4.3
-generated_at: '2026-08-13T16:10:22.462255Z'
+version: 1.5.1
+generated_at: '2026-08-13T18:41:27.489068Z'
 timezone: America/New_York
-source: planning_center_ical+calendar_api
+source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
   enabled: true
   target_instance_count: 425
@@ -30,7 +30,8 @@ events:
   display_when: Thursday, August 13, 2026, 6 PM to 8 PM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.
+  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to
+    attend and open to anyone ages 13+.
   planning_center_event_instance_id: '216277430'
   planning_center_event_time_id: '29468516'
   info_url: https://urbancrest.churchcenter.com/calendar/event/216277430
@@ -86,7 +87,8 @@ events:
   display_when: Sunday, August 16, 2026, 9:30 AM to 10:40 AM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '163868049'
   planning_center_event_time_id: '9127131'
   info_url: https://urbancrest.churchcenter.com/calendar/event/163868049
@@ -113,7 +115,8 @@ events:
   display_when: Sunday, August 16, 2026, 11 AM to 12:10 PM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '163868049'
   planning_center_event_time_id: '9127132'
   info_url: https://urbancrest.churchcenter.com/calendar/event/163868049
@@ -190,7 +193,8 @@ events:
 - id: event-a39548cd605a3ff2
   uid: ET-31487702-227855427@resources.planningcenteronline.com
   title: Awana 2026-2027
-  summary: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**
+  summary: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
 
 
     Approved Workmen Are Not Ashamed (A.W.A.N.A.)
@@ -204,13 +208,15 @@ events:
   display_when: Wednesday, August 19, 2026, 6:15 PM to 7:30 PM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**
+  description: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
 
 
     Approved Workmen Are Not Ashamed (A.W.A.N.A.)
 
 
-    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
 
 
     Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm
@@ -225,11 +231,13 @@ events:
     ***When registering your child, please input 25/26 grade, it will automatically change in August***
 
     Register: https://urbancrest.churchcenter.com/registrations/events/3737699'
-  details: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**
+  details: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
 
     Approved Workmen Are Not Ashamed (A.W.A.N.A.)
 
-    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
 
     Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm 
 
@@ -274,7 +282,8 @@ events:
   display_when: Thursday, August 20, 2026, 6 PM to 8 PM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.
+  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to
+    attend and open to anyone ages 13+.
   planning_center_event_instance_id: '216277431'
   planning_center_event_time_id: '29468516'
   info_url: https://urbancrest.churchcenter.com/calendar/event/216277431
@@ -315,10 +324,12 @@ events:
     The Urbancrest Golf Classic is Urbancrest''s annual foursome scramble tournament, located at Heatherwoode Golf Club.
 
 
-    Each year, we also raise money for a non-profit organization. We are excited to announce this year''s donation recipient: A Child''s Hope International!
+    Each year, we also raise money for a non-profit organization. We are excited to announce this year''s donation recipient:
+    A Child''s Hope International!
 
 
-    Be sure to register early to secure your spot, and visit classic.urbancrest.org ( http://classic.urbancrest.org ) for more information.
+    Be sure to register early to secure your spot, and visit classic.urbancrest.org ( http://classic.urbancrest.org ) for
+    more information.
 
 
     Tournament Details:
@@ -330,7 +341,8 @@ events:
 
     88 Heatherwoode Blvd.
 
-    Springboro, OH 45066 ( https://www.google.com/maps/place/Heatherwoode+Golf+Club/@39.5378539,-84.2320634,15z/data=!4m2!3m1!1s0x0:0xaba6d7afa167d970?ved=2ahUKEwjAq-v17IvhAhVP1VkKHSjzA-EQ_BIwCnoECAAQCA )
+    Springboro, OH 45066 ( https://www.google.com/maps/place/Heatherwoode+Golf+Club/@39.5378539,-84.2320634,15z/data=!4m2!3m1!1s0x0:0xaba6d7afa167d970?ved=2ahUKEwjAq-v17IvhAhVP1VkKHSjzA-EQ_BIwCnoECAAQCA
+    )
 
     (Click or tap for directions.)
 
@@ -348,11 +360,20 @@ events:
 
     Sponsorship
 
-    Become a sponsor of the Urbancrest Golf Classic! Please visit classic.urbancrest.org ( http://classic.urbancrest.org ) to make your sponsorship selection.
+    Become a sponsor of the Urbancrest Golf Classic! Please visit classic.urbancrest.org ( http://classic.urbancrest.org )
+    to make your sponsorship selection.
 
 
     If you have any questions about the Urbancrest Golf Classic, please reach out to Mark Daubenmire at mdaubenmire@urbancrest.org.'
-  details: "Please join us for Urbancrest's 28th Annual Golf Classic!\nThe Urbancrest Golf Classic is Urbancrest's annual foursome scramble tournament, located at Heatherwoode Golf Club. \nEach year, we also raise money for a non-profit organization. We are excited to announce this year's donation recipient: A Child's Hope International!\nBe sure to register early to secure your spot, and visit \nclassic.urbancrest.org\n for more information.\n \n\nTournament Details:\nLocation\nHeatherwoode Golf Club\n88 Heatherwoode Blvd.\nSpringboro, OH 45066\n (\nClick or tap for directions.)\nDate/Schedule\nFriday, August 21, 2026\n 8:30 AM – Check-in & Driving Range\n 9:30 AM – Shotgun Start\n 2:00 AM – Lunch & Awards\nSponsorship\nBecome a sponsor of the Urbancrest Golf Classic! Please visit \nclassic.urbancrest.org\n \nto make your sponsorship selection. \nIf you have any questions about the Urbancrest Golf Classic, please reach out to Mark Daubenmire at \nmdaubenmire@urbancrest.org\n."
+  details: "Please join us for Urbancrest's 28th Annual Golf Classic!\nThe Urbancrest Golf Classic is Urbancrest's annual\
+    \ foursome scramble tournament, located at Heatherwoode Golf Club. \nEach year, we also raise money for a non-profit organization.\
+    \ We are excited to announce this year's donation recipient: A Child's Hope International!\nBe sure to register early\
+    \ to secure your spot, and visit \nclassic.urbancrest.org\n for more information.\n \n\nTournament Details:\nLocation\n\
+    Heatherwoode Golf Club\n88 Heatherwoode Blvd.\nSpringboro, OH 45066\n (\nClick or tap for directions.)\nDate/Schedule\n\
+    Friday, August 21, 2026\n 8:30 AM – Check-in & Driving Range\n 9:30 AM – Shotgun Start\n 2:00 AM – Lunch & Awards\nSponsorship\n\
+    Become a sponsor of the Urbancrest Golf Classic! Please visit \nclassic.urbancrest.org\n \nto make your sponsorship selection.\
+    \ \nIf you have any questions about the Urbancrest Golf Classic, please reach out to Mark Daubenmire at \nmdaubenmire@urbancrest.org\n\
+    ."
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '217375495'
   planning_center_event_time_id: '29648335'
@@ -410,7 +431,8 @@ events:
   display_when: Sunday, August 23, 2026, 9:30 AM to 10:40 AM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '164649168'
   planning_center_event_time_id: '9127131'
   info_url: https://urbancrest.churchcenter.com/calendar/event/164649168
@@ -437,7 +459,8 @@ events:
   display_when: Sunday, August 23, 2026, 11 AM to 12:10 PM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '164649168'
   planning_center_event_time_id: '9127132'
   info_url: https://urbancrest.churchcenter.com/calendar/event/164649168
@@ -554,7 +577,8 @@ events:
 - id: event-73b5389e4282128d
   uid: ET-31487702-227855428@resources.planningcenteronline.com
   title: Awana 2026-2027
-  summary: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**
+  summary: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
 
 
     Approved Workmen Are Not Ashamed (A.W.A.N.A.)
@@ -568,13 +592,15 @@ events:
   display_when: Wednesday, August 26, 2026, 6:15 PM to 7:30 PM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**
+  description: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
 
 
     Approved Workmen Are Not Ashamed (A.W.A.N.A.)
 
 
-    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
 
 
     Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm
@@ -589,11 +615,13 @@ events:
     ***When registering your child, please input 25/26 grade, it will automatically change in August***
 
     Register: https://urbancrest.churchcenter.com/registrations/events/3737699'
-  details: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**
+  details: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
 
     Approved Workmen Are Not Ashamed (A.W.A.N.A.)
 
-    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
 
     Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm 
 
@@ -634,7 +662,8 @@ events:
   display_when: Thursday, August 27, 2026, 6 PM to 8 PM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.
+  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to
+    attend and open to anyone ages 13+.
   planning_center_event_instance_id: '216277432'
   planning_center_event_time_id: '29468516'
   info_url: https://urbancrest.churchcenter.com/calendar/event/216277432
@@ -688,7 +717,8 @@ events:
   display_when: Sunday, August 30, 2026, 9:30 AM to 10:40 AM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '165474591'
   planning_center_event_time_id: '9127131'
   info_url: https://urbancrest.churchcenter.com/calendar/event/165474591
@@ -715,7 +745,8 @@ events:
   display_when: Sunday, August 30, 2026, 11 AM to 12:10 PM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '165474591'
   planning_center_event_time_id: '9127132'
   info_url: https://urbancrest.churchcenter.com/calendar/event/165474591
@@ -858,7 +889,8 @@ events:
 - id: event-ba71b480f7b657f3
   uid: ET-31487702-227855429@resources.planningcenteronline.com
   title: Awana 2026-2027
-  summary: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**
+  summary: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
 
 
     Approved Workmen Are Not Ashamed (A.W.A.N.A.)
@@ -872,13 +904,15 @@ events:
   display_when: Wednesday, September 2, 2026, 6:15 PM to 7:30 PM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**
+  description: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
 
 
     Approved Workmen Are Not Ashamed (A.W.A.N.A.)
 
 
-    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
 
 
     Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm
@@ -893,11 +927,13 @@ events:
     ***When registering your child, please input 25/26 grade, it will automatically change in August***
 
     Register: https://urbancrest.churchcenter.com/registrations/events/3737699'
-  details: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**
+  details: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
 
     Approved Workmen Are Not Ashamed (A.W.A.N.A.)
 
-    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
 
     Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm 
 
@@ -938,7 +974,8 @@ events:
   display_when: Thursday, September 3, 2026, 6 PM to 8 PM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.
+  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to
+    attend and open to anyone ages 13+.
   planning_center_event_instance_id: '216277433'
   planning_center_event_time_id: '29468516'
   info_url: https://urbancrest.churchcenter.com/calendar/event/216277433
@@ -965,7 +1002,8 @@ events:
   display_when: Saturday, September 5, 2026, 8 AM to 10 AM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium at Urbancrest
+  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium
+    at Urbancrest
   planning_center_event_instance_id: '166086980'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/166086980
@@ -1020,7 +1058,8 @@ events:
   display_when: Sunday, September 6, 2026, 9:30 AM to 10:40 AM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '166271992'
   planning_center_event_time_id: '9127131'
   info_url: https://urbancrest.churchcenter.com/calendar/event/166271992
@@ -1047,7 +1086,8 @@ events:
   display_when: Sunday, September 6, 2026, 11 AM to 12:10 PM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '166271992'
   planning_center_event_time_id: '9127132'
   info_url: https://urbancrest.churchcenter.com/calendar/event/166271992
@@ -1164,7 +1204,8 @@ events:
 - id: event-a15a9379d2ca71ea
   uid: ET-31487702-227855430@resources.planningcenteronline.com
   title: Awana 2026-2027
-  summary: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**
+  summary: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
 
 
     Approved Workmen Are Not Ashamed (A.W.A.N.A.)
@@ -1178,13 +1219,15 @@ events:
   display_when: Wednesday, September 9, 2026, 6:15 PM to 7:30 PM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**
+  description: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
 
 
     Approved Workmen Are Not Ashamed (A.W.A.N.A.)
 
 
-    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
 
 
     Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm
@@ -1199,11 +1242,13 @@ events:
     ***When registering your child, please input 25/26 grade, it will automatically change in August***
 
     Register: https://urbancrest.churchcenter.com/registrations/events/3737699'
-  details: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**
+  details: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
 
     Approved Workmen Are Not Ashamed (A.W.A.N.A.)
 
-    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
 
     Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm 
 
@@ -1244,7 +1289,8 @@ events:
   display_when: Thursday, September 10, 2026, 6 PM to 8 PM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.
+  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to
+    attend and open to anyone ages 13+.
   planning_center_event_instance_id: '216277434'
   planning_center_event_time_id: '29468516'
   info_url: https://urbancrest.churchcenter.com/calendar/event/216277434
@@ -1298,7 +1344,8 @@ events:
   display_when: Sunday, September 13, 2026, 9:30 AM to 10:40 AM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '167074215'
   planning_center_event_time_id: '9127131'
   info_url: https://urbancrest.churchcenter.com/calendar/event/167074215
@@ -1325,7 +1372,8 @@ events:
   display_when: Sunday, September 13, 2026, 11 AM to 12:10 PM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '167074215'
   planning_center_event_time_id: '9127132'
   info_url: https://urbancrest.churchcenter.com/calendar/event/167074215
@@ -1478,7 +1526,8 @@ events:
   display_when: Thursday, September 17, 2026, 6 PM to 8 PM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.
+  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to
+    attend and open to anyone ages 13+.
   planning_center_event_instance_id: '216277435'
   planning_center_event_time_id: '29468516'
   info_url: https://urbancrest.churchcenter.com/calendar/event/216277435
@@ -1532,7 +1581,8 @@ events:
   display_when: Sunday, September 20, 2026, 9:30 AM to 10:40 AM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '167708219'
   planning_center_event_time_id: '9127131'
   info_url: https://urbancrest.churchcenter.com/calendar/event/167708219
@@ -1684,7 +1734,8 @@ events:
   display_when: Sunday, September 27, 2026, 5:30 PM to 8 PM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Women's Ministry is excited to host their third-annual Fall Fest! All women are invited to attend. At this year's Fall Fest, we will be having a chili cook-off! We hope you will join us and participate in the fun.
+  description: Women's Ministry is excited to host their third-annual Fall Fest! All women are invited to attend. At this
+    year's Fall Fest, we will be having a chili cook-off! We hope you will join us and participate in the fun.
   planning_center_event_instance_id: '203958056'
   planning_center_event_time_id: '27323022'
   info_url: https://urbancrest.churchcenter.com/calendar/event/203958056
@@ -1813,7 +1864,8 @@ events:
   display_when: Saturday, October 3, 2026, 8 AM to 10 AM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium at Urbancrest
+  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium
+    at Urbancrest
   planning_center_event_instance_id: '168792298'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/168792298
@@ -1860,7 +1912,8 @@ events:
 - id: event-afab721d8e2a753e
   uid: ET-31639046-228745978@resources.planningcenteronline.com
   title: Night of Worship Choir
-  summary: On Sunday, October 4, Urbancrest will host a Night of Worship featuring the Cedarville University Orchestra alongside the Urbancrest Worship Team....
+  summary: On Sunday, October 4, Urbancrest will host a Night of Worship featuring the Cedarville University Orchestra alongside
+    the Urbancrest Worship Team....
   start: '2026-10-04T18:00:00-04:00'
   end: '2026-10-04T19:30:00-04:00'
   sort_start_utc: '2026-10-04T22:00:00Z'
@@ -1868,14 +1921,25 @@ events:
   display_when: Sunday, October 4, 2026, 6 PM to 7:30 PM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: 'On Sunday, October 4, Urbancrest will host a Night of Worship featuring the Cedarville University Orchestra alongside the Urbancrest Worship Team. It promises to be an incredible evening of celebrating God''s greatness through powerful congregational worship.
+  description: 'On Sunday, October 4, Urbancrest will host a Night of Worship featuring the Cedarville University Orchestra
+    alongside the Urbancrest Worship Team. It promises to be an incredible evening of celebrating God''s greatness through
+    powerful congregational worship.
 
 
-    To make the evening even more meaningful, we''re putting together a Special Event Choir, and we''d love for you to join us!
+    To make the evening even more meaningful, we''re putting together a Special Event Choir, and we''d love for you to join
+    us!
 
 
-    Whether you''ve sung in choir before or it''s been years since you''ve stood on the risers, this is a wonderful opportunity to worship together and lead our church family in lifting high the name of Jesus. You don''t have to be a professional singer-just someone who enjoys worshiping through music and is willing to prepare the music with us.'
-  details: "On \nSunday, October 4\n, Urbancrest will host a \nNight of Worship\n featuring the \nCedarville University Orchestra\n alongside the \nUrbancrest Worship Team\n. It promises to be an incredible evening of celebrating God's greatness through powerful congregational worship.\nTo make the evening even more meaningful, we're putting together a \nSpecial Event Choir\n, and we'd love for you to join us!\nWhether you've sung in choir before or it's been years since you've stood on the risers, this is a wonderful opportunity to worship together and lead our church family in lifting high the name of Jesus. You don't have to be a professional singer-just someone who enjoys worshiping through music and is willing to prepare the music with us."
+    Whether you''ve sung in choir before or it''s been years since you''ve stood on the risers, this is a wonderful opportunity
+    to worship together and lead our church family in lifting high the name of Jesus. You don''t have to be a professional
+    singer-just someone who enjoys worshiping through music and is willing to prepare the music with us.'
+  details: "On \nSunday, October 4\n, Urbancrest will host a \nNight of Worship\n featuring the \nCedarville University Orchestra\n\
+    \ alongside the \nUrbancrest Worship Team\n. It promises to be an incredible evening of celebrating God's greatness through\
+    \ powerful congregational worship.\nTo make the evening even more meaningful, we're putting together a \nSpecial Event\
+    \ Choir\n, and we'd love for you to join us!\nWhether you've sung in choir before or it's been years since you've stood\
+    \ on the risers, this is a wonderful opportunity to worship together and lead our church family in lifting high the name\
+    \ of Jesus. You don't have to be a professional singer-just someone who enjoys worshiping through music and is willing\
+    \ to prepare the music with us."
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '228745978'
   planning_center_event_time_id: '31639046'
@@ -2120,7 +2184,8 @@ events:
 - id: event-7b60e9c4c5af3c3f
   uid: ET-31936721-230615455@resources.planningcenteronline.com
   title: Urbancrest Women's Conference
-  summary: Join us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God....
+  summary: Join us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, October 17 for a morning of encouragement,
+    worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God....
   start: '2026-10-17T09:00:00-04:00'
   end: '2026-10-17T15:00:00-04:00'
   sort_start_utc: '2026-10-17T13:00:00Z'
@@ -2128,16 +2193,23 @@ events:
   display_when: Saturday, October 17, 2026, 9 AM to 3 PM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: 'Join us for the Urbancrest Women’s Conference ''Known & Loved'' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.
+  description: 'Join us for the Urbancrest Women’s Conference ''Known & Loved'' on Saturday, October 17 for a morning of encouragement,
+    worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.
 
 
-    This year’s keynote speaker is Barb Roose, who will challenge and encourage women to grow in their faith and walk confidently in God’s truth.
+    This year’s keynote speaker is Barb Roose, who will challenge and encourage women to grow in their faith and walk confidently
+    in God’s truth.
 
 
-    Doors open at 8:00 AM, and the cost is just $5, which includes lunch (more details coming soon). Invite a friend and make plans to be part of this special day together.
+    Doors open at 8:00 AM, and the cost is just $5, which includes lunch (more details coming soon). Invite a friend and make
+    plans to be part of this special day together.
 
     Register: https://urbancrest.churchcenter.com/registrations/events/3791849'
-  details: "Join us for the Urbancrest Women’s Conference 'Known & Loved' on \nSaturday, October 17\n for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.\nThis year’s keynote speaker is \nBarb Roose\n, who will challenge and encourage women to grow in their faith and walk confidently in God’s truth.\nDoors open at \n8:00 AM\n, and the cost is just \n$5\n, which includes lunch (more details coming soon). Invite a friend and make plans to be part of this special day together."
+  details: "Join us for the Urbancrest Women’s Conference 'Known & Loved' on \nSaturday, October 17\n for a morning of encouragement,\
+    \ worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.\nThis year’s keynote\
+    \ speaker is \nBarb Roose\n, who will challenge and encourage women to grow in their faith and walk confidently in God’s\
+    \ truth.\nDoors open at \n8:00 AM\n, and the cost is just \n$5\n, which includes lunch (more details coming soon). Invite\
+    \ a friend and make plans to be part of this special day together."
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230615455'
   planning_center_event_time_id: '31936721'
@@ -2162,7 +2234,8 @@ events:
 - id: event-9d496596f1bf84ac
   uid: ET-27323186-203958381@resources.planningcenteronline.com
   title: Women's Conference
-  summary: The Women's Ministry invites all ladies to attend the Urbancrest Women's Conference on Saturday, October 17 at 9:00 AM, right here in the Urbancrest Worship Center!
+  summary: The Women's Ministry invites all ladies to attend the Urbancrest Women's Conference on Saturday, October 17 at
+    9:00 AM, right here in the Urbancrest Worship Center!
   start: '2026-10-17T09:00:00-04:00'
   end: '2026-10-17T14:00:00-04:00'
   sort_start_utc: '2026-10-17T13:00:00Z'
@@ -2170,7 +2243,8 @@ events:
   display_when: Saturday, October 17, 2026, 9 AM to 2 PM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: The Women's Ministry invites all ladies to attend the Urbancrest Women's Conference on Saturday, October 17 at 9:00 AM, right here in the Urbancrest Worship Center!
+  description: The Women's Ministry invites all ladies to attend the Urbancrest Women's Conference on Saturday, October 17
+    at 9:00 AM, right here in the Urbancrest Worship Center!
   planning_center_event_instance_id: '203958381'
   planning_center_event_time_id: '27323186'
   info_url: https://urbancrest.churchcenter.com/calendar/event/203958381
@@ -2575,7 +2649,8 @@ events:
   display_when: Saturday, November 7, 2026, 8 AM to 10 AM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium at Urbancrest
+  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium
+    at Urbancrest
   planning_center_event_instance_id: '171450066'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/171450066
@@ -2730,7 +2805,8 @@ events:
   location: 'Butler Springs Christian Camp - 3701 State Rte 41
 
     Hillsboro, OH 45133'
-  description: November 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area of our lives!
+  description: November 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area
+    of our lives!
   planning_center_event_instance_id: '230487173'
   planning_center_event_time_id: '31924846'
   info_url: https://urbancrest.churchcenter.com/calendar/event/230487173
@@ -3133,7 +3209,8 @@ events:
   display_when: Saturday, December 5, 2026, 8 AM to 10 AM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium at Urbancrest
+  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium
+    at Urbancrest
   planning_center_event_instance_id: '173559224'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/173559224
@@ -3690,7 +3767,8 @@ events:
   display_when: Saturday, January 2, 2027, 8 AM to 10 AM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium at Urbancrest
+  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium
+    at Urbancrest
   planning_center_event_instance_id: '175505238'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/175505238
@@ -4368,7 +4446,8 @@ events:
   display_when: Saturday, February 6, 2027, 8 AM to 10 AM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium at Urbancrest
+  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium
+    at Urbancrest
   planning_center_event_instance_id: '179599397'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/179599397
@@ -4896,7 +4975,8 @@ events:
   display_when: Saturday, March 6, 2027, 8 AM to 10 AM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium at Urbancrest
+  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium
+    at Urbancrest
   planning_center_event_instance_id: '182177829'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/182177829
@@ -5424,7 +5504,8 @@ events:
   display_when: Saturday, April 3, 2027, 8 AM to 10 AM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium at Urbancrest
+  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium
+    at Urbancrest
   planning_center_event_instance_id: '184574784'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/184574784
@@ -5471,7 +5552,8 @@ events:
 - id: event-f2f8bb3688f6a6f7
   uid: ET-31703048-229161073@resources.planningcenteronline.com
   title: Missions Conference
-  summary: Missions Conference is scheduled for Wednesday, April 7, 2027 through Sunday, April 11, 2027 at Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036.
+  summary: Missions Conference is scheduled for Wednesday, April 7, 2027 through Sunday, April 11, 2027 at Urbancrest At Lebanon
+    - 2634 Drake Road, Lebanon, OH 45036.
   start: '2027-04-07'
   end: '2027-04-12'
   sort_start_utc: '2027-04-07T04:00:00Z'
@@ -5845,7 +5927,8 @@ events:
 - id: event-744384e5b1d9f0d6
   uid: ET-31705455-229172206@resources.planningcenteronline.com
   title: 3V3 Basketball Tournament
-  summary: 100% of proceeds go toward sending students to Youth Summer Camp - helping make camp more affordable and giving more students the chance to attend....
+  summary: 100% of proceeds go toward sending students to Youth Summer Camp - helping make camp more affordable and giving
+    more students the chance to attend....
   start: '2027-04-24T12:00:00-04:00'
   end: '2027-04-24T19:00:00-04:00'
   sort_start_utc: '2027-04-24T16:00:00Z'
@@ -5855,7 +5938,8 @@ events:
   location: 'Lebanon High School - 1916 Drake Rd
 
     Lebanon, OH 45036'
-  description: 100% of proceeds go toward sending students to Youth Summer Camp - helping make camp more affordable and giving more students the chance to attend. Gather your team, enjoy some friendly competition, and help invest in the next generation.
+  description: 100% of proceeds go toward sending students to Youth Summer Camp - helping make camp more affordable and giving
+    more students the chance to attend. Gather your team, enjoy some friendly competition, and help invest in the next generation.
   planning_center_event_instance_id: '229172206'
   planning_center_event_time_id: '31705455'
   info_url: https://urbancrest.churchcenter.com/calendar/event/229172206
@@ -6008,7 +6092,8 @@ events:
   display_when: Saturday, May 1, 2027, 8 AM to 10 AM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium at Urbancrest
+  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium
+    at Urbancrest
   planning_center_event_instance_id: '186694422'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/186694422
@@ -6661,7 +6746,8 @@ events:
   display_when: Saturday, June 5, 2027, 8 AM to 10 AM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium at Urbancrest
+  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium
+    at Urbancrest
   planning_center_event_instance_id: '189635733'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/189635733
@@ -7189,7 +7275,8 @@ events:
   display_when: Saturday, July 3, 2027, 8 AM to 10 AM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium at Urbancrest
+  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium
+    at Urbancrest
   planning_center_event_instance_id: '191939841'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/191939841
@@ -7842,7 +7929,8 @@ events:
   display_when: Saturday, August 7, 2027, 8 AM to 10 AM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium at Urbancrest
+  description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium
+    at Urbancrest
   planning_center_event_instance_id: '195114700'
   planning_center_event_time_id: '30270334'
   info_url: https://urbancrest.churchcenter.com/calendar/event/195114700
@@ -7984,3 +8072,17 @@ events:
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-08-11-wednesday-night-dinner-19d9cb.md
+registrations_api:
+  status: ok
+  api_version: '2025-05-01'
+  signup_time_strategy: next_signup_time_then_signup_times
+  future_signup_count: 0
+  added_registration_only_events: 0
+  enriched_existing_events: 0
+  category_allowlist: []
+  category_denylist: []
+  signup_count_received: 20
+  skipped_signup_count: 20
+  skipped_reasons:
+    no_current_or_future_signup_time_within_lookahead: 20
+  page_count: 1
