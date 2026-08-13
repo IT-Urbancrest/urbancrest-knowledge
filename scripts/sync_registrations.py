@@ -19,10 +19,9 @@ Optional:
   REGISTRATIONS_CATEGORY_ALLOWLIST (comma-separated; blank = all categories)
   REGISTRATIONS_CATEGORY_DENYLIST (comma-separated; blank = none)
 
-Version 1.5.3 fixes Planning Center relationship linkage by no longer applying a
-sparse fieldset to the primary Signup resource. The importer requests included
-signup-time/category/location/selection resources and preserves the Signup
-relationships that link those resources back to each event.
+Version 1.5.4 keeps the relationship-linkage fix from 1.5.3 and removes the
+assumption that a specific Planning Center category determines public website
+eligibility. Category filtering remains optional and is blank by default.
 """
 
 from __future__ import annotations
@@ -679,7 +678,7 @@ def merge_registration_events(
     updated = dict(registry)
     previous_source = str(registry.get("source") or "planning_center_ical")
     source_parts = unique([*previous_source.split("+"), "registrations_api"])
-    updated["version"] = "1.5.3"
+    updated["version"] = "1.5.4"
     updated["generated_at"] = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
     updated["source"] = "+".join(source_parts)
     updated["registrations_api"] = {
@@ -704,7 +703,7 @@ def write_upcoming_index(registry: dict[str, Any]) -> None:
     lines = [
         "---",
         "id: events.upcoming.live",
-        "version: 1.5.3",
+        "version: 1.5.4",
         "status: published",
         "priority: 100",
         "title: Upcoming Events",
