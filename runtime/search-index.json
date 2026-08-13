@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.9.7",
-  "generated_at": "2026-08-13T17:41:59.679431Z",
+  "generated_at": "2026-08-13T18:26:27.014668Z",
   "timezone": "America/New_York",
   "record_count": 409,
   "config": {
@@ -2777,6 +2777,9 @@
       "activity_aliases": [
         "Missions Conference"
       ],
+      "event_aliases": [
+        "Missions Conference"
+      ],
       "event_category": "major_event",
       "event_start": "2027-04-07",
       "event_end": "2027-04-12",
@@ -2815,7 +2818,9 @@
         "upcoming",
         "activity",
         "major_event",
-        "Summit - Gym Set-up"
+        "Summit - Gym Set-up",
+        "Summit",
+        "Gym Set-up"
       ],
       "search_terms": [
         "Summit - Gym Set-up",
@@ -2830,7 +2835,23 @@
         "Do you offer Summit - Gym Set-up?",
         "Is there Summit - Gym Set-up at Urbancrest?",
         "Can I participate in Summit - Gym Set-up?",
-        "Can I play Summit - Gym Set-up at Urbancrest?"
+        "Can I play Summit - Gym Set-up at Urbancrest?",
+        "Summit",
+        "Does Urbancrest have Summit?",
+        "Does Urbancrest offer Summit?",
+        "Do you have Summit?",
+        "Do you offer Summit?",
+        "Is there Summit at Urbancrest?",
+        "Can I participate in Summit?",
+        "Can I play Summit at Urbancrest?",
+        "Gym Set-up",
+        "Does Urbancrest have Gym Set-up?",
+        "Does Urbancrest offer Gym Set-up?",
+        "Do you have Gym Set-up?",
+        "Do you offer Gym Set-up?",
+        "Is there Gym Set-up at Urbancrest?",
+        "Can I participate in Gym Set-up?",
+        "Can I play Gym Set-up at Urbancrest?"
       ],
       "ministries": [
         "churchwide"
@@ -2841,7 +2862,14 @@
       "resources": [],
       "event_id": "event-9f32a6631850aaa2",
       "activity_aliases": [
-        "Summit - Gym Set-up"
+        "Summit - Gym Set-up",
+        "Summit",
+        "Gym Set-up"
+      ],
+      "event_aliases": [
+        "Summit - Gym Set-up",
+        "Summit",
+        "Gym Set-up"
       ],
       "event_category": "major_event",
       "event_start": "2027-01-28",
@@ -2881,7 +2909,8 @@
         "activity",
         "major_event",
         "Urbancrest Golf Classic",
-        "Golf Classic"
+        "Golf Classic",
+        "s donation recipient: A Child"
       ],
       "search_terms": [
         "Urbancrest Golf Classic",
@@ -2904,7 +2933,15 @@
         "Do you offer Golf Classic?",
         "Is there Golf Classic at Urbancrest?",
         "Can I participate in Golf Classic?",
-        "Can I play Golf Classic at Urbancrest?"
+        "Can I play Golf Classic at Urbancrest?",
+        "s donation recipient: A Child",
+        "Does Urbancrest have s donation recipient: A Child?",
+        "Does Urbancrest offer s donation recipient: A Child?",
+        "Do you have s donation recipient: A Child?",
+        "Do you offer s donation recipient: A Child?",
+        "Is there s donation recipient: A Child at Urbancrest?",
+        "Can I participate in s donation recipient: A Child?",
+        "Can I play s donation recipient: A Child at Urbancrest?"
       ],
       "ministries": [
         "kids",
@@ -2917,7 +2954,13 @@
       "event_id": "event-6d5b8302174f4169",
       "activity_aliases": [
         "Urbancrest Golf Classic",
-        "Golf Classic"
+        "Golf Classic",
+        "s donation recipient: A Child"
+      ],
+      "event_aliases": [
+        "Urbancrest Golf Classic",
+        "Golf Classic",
+        "s donation recipient: A Child"
       ],
       "event_category": "major_event",
       "event_start": "2026-08-21T08:30:00-04:00",
@@ -2961,7 +3004,9 @@
         "activity",
         "major_event",
         "Urbancrest Women's Conference",
-        "Women's Conference"
+        "Women's Conference",
+        "Known & Loved",
+        "Known and Loved"
       ],
       "search_terms": [
         "Urbancrest Women's Conference",
@@ -2984,7 +3029,23 @@
         "Do you offer Women's Conference?",
         "Is there Women's Conference at Urbancrest?",
         "Can I participate in Women's Conference?",
-        "Can I play Women's Conference at Urbancrest?"
+        "Can I play Women's Conference at Urbancrest?",
+        "Known & Loved",
+        "Does Urbancrest have Known & Loved?",
+        "Does Urbancrest offer Known & Loved?",
+        "Do you have Known & Loved?",
+        "Do you offer Known & Loved?",
+        "Is there Known & Loved at Urbancrest?",
+        "Can I participate in Known & Loved?",
+        "Can I play Known & Loved at Urbancrest?",
+        "Known and Loved",
+        "Does Urbancrest have Known and Loved?",
+        "Does Urbancrest offer Known and Loved?",
+        "Do you have Known and Loved?",
+        "Do you offer Known and Loved?",
+        "Is there Known and Loved at Urbancrest?",
+        "Can I participate in Known and Loved?",
+        "Can I play Known and Loved at Urbancrest?"
       ],
       "ministries": [
         "men",
@@ -2999,7 +3060,15 @@
       "event_id": "event-7b60e9c4c5af3c3f",
       "activity_aliases": [
         "Urbancrest Women's Conference",
-        "Women's Conference"
+        "Women's Conference",
+        "Known & Loved",
+        "Known and Loved"
+      ],
+      "event_aliases": [
+        "Urbancrest Women's Conference",
+        "Women's Conference",
+        "Known & Loved",
+        "Known and Loved"
       ],
       "event_category": "major_event",
       "event_start": "2026-10-17T09:00:00-04:00",
@@ -3074,6 +3143,9 @@
       "activity_aliases": [
         "Women's Conference"
       ],
+      "event_aliases": [
+        "Women's Conference"
+      ],
       "event_category": "major_event",
       "event_start": "2026-10-17T09:00:00-04:00",
       "event_end": "2026-10-17T14:00:00-04:00",
@@ -3138,6 +3210,9 @@
       "resources": [],
       "event_id": "event-1c0771e7f499f87a",
       "activity_aliases": [
+        "Youth Fall Retreat"
+      ],
+      "event_aliases": [
         "Youth Fall Retreat"
       ],
       "event_category": "major_event",
@@ -10257,6 +10332,9 @@
       "activity_aliases": [
         "3V3 Basketball Tournament"
       ],
+      "event_aliases": [
+        "3V3 Basketball Tournament"
+      ],
       "event_category": "ministry_event",
       "event_start": "2027-04-24T12:00:00-04:00",
       "event_end": "2027-04-24T19:00:00-04:00",
@@ -10322,6 +10400,9 @@
       "resources": [],
       "event_id": "event-d7e69dfab7336f62",
       "activity_aliases": [
+        "Men's Breakfast"
+      ],
+      "event_aliases": [
         "Men's Breakfast"
       ],
       "event_category": "ministry_event",
@@ -10391,6 +10472,9 @@
       "activity_aliases": [
         "Men's Breakfast"
       ],
+      "event_aliases": [
+        "Men's Breakfast"
+      ],
       "event_category": "ministry_event",
       "event_start": "2026-10-03T08:00:00-04:00",
       "event_end": "2026-10-03T10:00:00-04:00",
@@ -10456,6 +10540,9 @@
       "resources": [],
       "event_id": "event-f93e5d4a42b349ea",
       "activity_aliases": [
+        "Men's Breakfast"
+      ],
+      "event_aliases": [
         "Men's Breakfast"
       ],
       "event_category": "ministry_event",
@@ -10525,6 +10612,9 @@
       "activity_aliases": [
         "Men's Breakfast"
       ],
+      "event_aliases": [
+        "Men's Breakfast"
+      ],
       "event_category": "ministry_event",
       "event_start": "2026-12-05T08:00:00-05:00",
       "event_end": "2026-12-05T10:00:00-05:00",
@@ -10590,6 +10680,9 @@
       "resources": [],
       "event_id": "event-5783c30d183d2c83",
       "activity_aliases": [
+        "Men's Breakfast"
+      ],
+      "event_aliases": [
         "Men's Breakfast"
       ],
       "event_category": "ministry_event",
@@ -10659,6 +10752,9 @@
       "activity_aliases": [
         "Men's Breakfast"
       ],
+      "event_aliases": [
+        "Men's Breakfast"
+      ],
       "event_category": "ministry_event",
       "event_start": "2027-02-06T08:00:00-05:00",
       "event_end": "2027-02-06T10:00:00-05:00",
@@ -10724,6 +10820,9 @@
       "resources": [],
       "event_id": "event-e20b9e6cbdb236b5",
       "activity_aliases": [
+        "Men's Breakfast"
+      ],
+      "event_aliases": [
         "Men's Breakfast"
       ],
       "event_category": "ministry_event",
@@ -10793,6 +10892,9 @@
       "activity_aliases": [
         "Men's Breakfast"
       ],
+      "event_aliases": [
+        "Men's Breakfast"
+      ],
       "event_category": "ministry_event",
       "event_start": "2027-04-03T08:00:00-04:00",
       "event_end": "2027-04-03T10:00:00-04:00",
@@ -10858,6 +10960,9 @@
       "resources": [],
       "event_id": "event-6b890c8277d1cfba",
       "activity_aliases": [
+        "Men's Breakfast"
+      ],
+      "event_aliases": [
         "Men's Breakfast"
       ],
       "event_category": "ministry_event",
@@ -10927,6 +11032,9 @@
       "activity_aliases": [
         "Men's Breakfast"
       ],
+      "event_aliases": [
+        "Men's Breakfast"
+      ],
       "event_category": "ministry_event",
       "event_start": "2027-06-05T08:00:00-04:00",
       "event_end": "2027-06-05T10:00:00-04:00",
@@ -10992,6 +11100,9 @@
       "resources": [],
       "event_id": "event-ea907817827dcbd4",
       "activity_aliases": [
+        "Men's Breakfast"
+      ],
+      "event_aliases": [
         "Men's Breakfast"
       ],
       "event_category": "ministry_event",
@@ -11061,6 +11172,9 @@
       "activity_aliases": [
         "Men's Breakfast"
       ],
+      "event_aliases": [
+        "Men's Breakfast"
+      ],
       "event_category": "ministry_event",
       "event_start": "2027-08-07T08:00:00-04:00",
       "event_end": "2027-08-07T10:00:00-04:00",
@@ -11128,6 +11242,9 @@
       "activity_aliases": [
         "Mexico Missions Meeting"
       ],
+      "event_aliases": [
+        "Mexico Missions Meeting"
+      ],
       "event_category": "ministry_event",
       "event_start": "2026-08-17T18:30:00-04:00",
       "event_end": "2026-08-17T20:00:00-04:00",
@@ -11166,7 +11283,8 @@
         "upcoming",
         "activity",
         "ministry_event",
-        "Night of Worship Choir"
+        "Night of Worship Choir",
+        "ve sung in choir before or it"
       ],
       "search_terms": [
         "Night of Worship Choir",
@@ -11181,7 +11299,15 @@
         "Do you offer Night of Worship Choir?",
         "Is there Night of Worship Choir at Urbancrest?",
         "Can I participate in Night of Worship Choir?",
-        "Can I play Night of Worship Choir at Urbancrest?"
+        "Can I play Night of Worship Choir at Urbancrest?",
+        "ve sung in choir before or it",
+        "Does Urbancrest have ve sung in choir before or it?",
+        "Does Urbancrest offer ve sung in choir before or it?",
+        "Do you have ve sung in choir before or it?",
+        "Do you offer ve sung in choir before or it?",
+        "Is there ve sung in choir before or it at Urbancrest?",
+        "Can I participate in ve sung in choir before or it?",
+        "Can I play ve sung in choir before or it at Urbancrest?"
       ],
       "ministries": [
         "worship"
@@ -11192,7 +11318,12 @@
       "resources": [],
       "event_id": "event-afab721d8e2a753e",
       "activity_aliases": [
-        "Night of Worship Choir"
+        "Night of Worship Choir",
+        "ve sung in choir before or it"
+      ],
+      "event_aliases": [
+        "Night of Worship Choir",
+        "ve sung in choir before or it"
       ],
       "event_category": "ministry_event",
       "event_start": "2026-10-04T18:00:00-04:00",
@@ -11263,6 +11394,9 @@
       "activity_aliases": [
         "P U R S U E"
       ],
+      "event_aliases": [
+        "P U R S U E"
+      ],
       "event_category": "ministry_event",
       "event_start": "2026-08-16T09:30:00-04:00",
       "event_end": "2026-08-16T10:30:00-04:00",
@@ -11327,6 +11461,9 @@
       "resources": [],
       "event_id": "event-1d404dab04db0b00",
       "activity_aliases": [
+        "P U R S U E"
+      ],
+      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -11395,6 +11532,9 @@
       "activity_aliases": [
         "P U R S U E"
       ],
+      "event_aliases": [
+        "P U R S U E"
+      ],
       "event_category": "ministry_event",
       "event_start": "2026-08-30T09:30:00-04:00",
       "event_end": "2026-08-30T10:30:00-04:00",
@@ -11459,6 +11599,9 @@
       "resources": [],
       "event_id": "event-ee5bfd5ead7f42b9",
       "activity_aliases": [
+        "P U R S U E"
+      ],
+      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -11527,6 +11670,9 @@
       "activity_aliases": [
         "P U R S U E"
       ],
+      "event_aliases": [
+        "P U R S U E"
+      ],
       "event_category": "ministry_event",
       "event_start": "2026-09-13T09:30:00-04:00",
       "event_end": "2026-09-13T10:30:00-04:00",
@@ -11591,6 +11737,9 @@
       "resources": [],
       "event_id": "event-ffac0db3c7f8f18d",
       "activity_aliases": [
+        "P U R S U E"
+      ],
+      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -11659,6 +11808,9 @@
       "activity_aliases": [
         "P U R S U E"
       ],
+      "event_aliases": [
+        "P U R S U E"
+      ],
       "event_category": "ministry_event",
       "event_start": "2026-09-27T09:30:00-04:00",
       "event_end": "2026-09-27T10:30:00-04:00",
@@ -11723,6 +11875,9 @@
       "resources": [],
       "event_id": "event-59d784adbee5c34f",
       "activity_aliases": [
+        "P U R S U E"
+      ],
+      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -11791,6 +11946,9 @@
       "activity_aliases": [
         "P U R S U E"
       ],
+      "event_aliases": [
+        "P U R S U E"
+      ],
       "event_category": "ministry_event",
       "event_start": "2026-10-11T09:30:00-04:00",
       "event_end": "2026-10-11T10:30:00-04:00",
@@ -11855,6 +12013,9 @@
       "resources": [],
       "event_id": "event-355987c6282350e7",
       "activity_aliases": [
+        "P U R S U E"
+      ],
+      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -11923,6 +12084,9 @@
       "activity_aliases": [
         "P U R S U E"
       ],
+      "event_aliases": [
+        "P U R S U E"
+      ],
       "event_category": "ministry_event",
       "event_start": "2026-10-25T09:30:00-04:00",
       "event_end": "2026-10-25T10:30:00-04:00",
@@ -11987,6 +12151,9 @@
       "resources": [],
       "event_id": "event-64ae9a123396a55e",
       "activity_aliases": [
+        "P U R S U E"
+      ],
+      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -12055,6 +12222,9 @@
       "activity_aliases": [
         "P U R S U E"
       ],
+      "event_aliases": [
+        "P U R S U E"
+      ],
       "event_category": "ministry_event",
       "event_start": "2026-11-08T09:30:00-05:00",
       "event_end": "2026-11-08T10:30:00-05:00",
@@ -12119,6 +12289,9 @@
       "resources": [],
       "event_id": "event-1652bc35e5b86e1d",
       "activity_aliases": [
+        "P U R S U E"
+      ],
+      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -12187,6 +12360,9 @@
       "activity_aliases": [
         "P U R S U E"
       ],
+      "event_aliases": [
+        "P U R S U E"
+      ],
       "event_category": "ministry_event",
       "event_start": "2026-11-22T09:30:00-05:00",
       "event_end": "2026-11-22T10:30:00-05:00",
@@ -12251,6 +12427,9 @@
       "resources": [],
       "event_id": "event-881ba52aa080f80e",
       "activity_aliases": [
+        "P U R S U E"
+      ],
+      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -12319,6 +12498,9 @@
       "activity_aliases": [
         "P U R S U E"
       ],
+      "event_aliases": [
+        "P U R S U E"
+      ],
       "event_category": "ministry_event",
       "event_start": "2026-12-06T09:30:00-05:00",
       "event_end": "2026-12-06T10:30:00-05:00",
@@ -12383,6 +12565,9 @@
       "resources": [],
       "event_id": "event-cdb046e5d9e9bfa2",
       "activity_aliases": [
+        "P U R S U E"
+      ],
+      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -12451,6 +12636,9 @@
       "activity_aliases": [
         "P U R S U E"
       ],
+      "event_aliases": [
+        "P U R S U E"
+      ],
       "event_category": "ministry_event",
       "event_start": "2026-12-20T09:30:00-05:00",
       "event_end": "2026-12-20T10:30:00-05:00",
@@ -12515,6 +12703,9 @@
       "resources": [],
       "event_id": "event-f31b6a2fb7440985",
       "activity_aliases": [
+        "P U R S U E"
+      ],
+      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -12583,6 +12774,9 @@
       "activity_aliases": [
         "P U R S U E"
       ],
+      "event_aliases": [
+        "P U R S U E"
+      ],
       "event_category": "ministry_event",
       "event_start": "2027-01-03T09:30:00-05:00",
       "event_end": "2027-01-03T10:30:00-05:00",
@@ -12647,6 +12841,9 @@
       "resources": [],
       "event_id": "event-9b74a5b831573975",
       "activity_aliases": [
+        "P U R S U E"
+      ],
+      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -12715,6 +12912,9 @@
       "activity_aliases": [
         "P U R S U E"
       ],
+      "event_aliases": [
+        "P U R S U E"
+      ],
       "event_category": "ministry_event",
       "event_start": "2027-01-17T09:30:00-05:00",
       "event_end": "2027-01-17T10:30:00-05:00",
@@ -12779,6 +12979,9 @@
       "resources": [],
       "event_id": "event-3d7f9c7b59696271",
       "activity_aliases": [
+        "P U R S U E"
+      ],
+      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -12847,6 +13050,9 @@
       "activity_aliases": [
         "P U R S U E"
       ],
+      "event_aliases": [
+        "P U R S U E"
+      ],
       "event_category": "ministry_event",
       "event_start": "2027-01-31T09:30:00-05:00",
       "event_end": "2027-01-31T10:30:00-05:00",
@@ -12911,6 +13117,9 @@
       "resources": [],
       "event_id": "event-fd310285e95d7610",
       "activity_aliases": [
+        "P U R S U E"
+      ],
+      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -12979,6 +13188,9 @@
       "activity_aliases": [
         "P U R S U E"
       ],
+      "event_aliases": [
+        "P U R S U E"
+      ],
       "event_category": "ministry_event",
       "event_start": "2027-02-14T09:30:00-05:00",
       "event_end": "2027-02-14T10:30:00-05:00",
@@ -13043,6 +13255,9 @@
       "resources": [],
       "event_id": "event-910e5866020f2ef6",
       "activity_aliases": [
+        "P U R S U E"
+      ],
+      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -13111,6 +13326,9 @@
       "activity_aliases": [
         "P U R S U E"
       ],
+      "event_aliases": [
+        "P U R S U E"
+      ],
       "event_category": "ministry_event",
       "event_start": "2027-02-28T09:30:00-05:00",
       "event_end": "2027-02-28T10:30:00-05:00",
@@ -13175,6 +13393,9 @@
       "resources": [],
       "event_id": "event-c2762fa087030fbd",
       "activity_aliases": [
+        "P U R S U E"
+      ],
+      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -13243,6 +13464,9 @@
       "activity_aliases": [
         "P U R S U E"
       ],
+      "event_aliases": [
+        "P U R S U E"
+      ],
       "event_category": "ministry_event",
       "event_start": "2027-03-14T09:30:00-04:00",
       "event_end": "2027-03-14T10:30:00-04:00",
@@ -13307,6 +13531,9 @@
       "resources": [],
       "event_id": "event-0b29a5aa7b217b95",
       "activity_aliases": [
+        "P U R S U E"
+      ],
+      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -13375,6 +13602,9 @@
       "activity_aliases": [
         "P U R S U E"
       ],
+      "event_aliases": [
+        "P U R S U E"
+      ],
       "event_category": "ministry_event",
       "event_start": "2027-03-28T09:30:00-04:00",
       "event_end": "2027-03-28T10:30:00-04:00",
@@ -13439,6 +13669,9 @@
       "resources": [],
       "event_id": "event-79d054329a2e9727",
       "activity_aliases": [
+        "P U R S U E"
+      ],
+      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -13507,6 +13740,9 @@
       "activity_aliases": [
         "P U R S U E"
       ],
+      "event_aliases": [
+        "P U R S U E"
+      ],
       "event_category": "ministry_event",
       "event_start": "2027-04-11T09:30:00-04:00",
       "event_end": "2027-04-11T10:30:00-04:00",
@@ -13571,6 +13807,9 @@
       "resources": [],
       "event_id": "event-c0489022b6e41c24",
       "activity_aliases": [
+        "P U R S U E"
+      ],
+      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -13639,6 +13878,9 @@
       "activity_aliases": [
         "P U R S U E"
       ],
+      "event_aliases": [
+        "P U R S U E"
+      ],
       "event_category": "ministry_event",
       "event_start": "2027-04-25T09:30:00-04:00",
       "event_end": "2027-04-25T10:30:00-04:00",
@@ -13703,6 +13945,9 @@
       "resources": [],
       "event_id": "event-650c2dd41dc4a599",
       "activity_aliases": [
+        "P U R S U E"
+      ],
+      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -13771,6 +14016,9 @@
       "activity_aliases": [
         "P U R S U E"
       ],
+      "event_aliases": [
+        "P U R S U E"
+      ],
       "event_category": "ministry_event",
       "event_start": "2027-05-09T09:30:00-04:00",
       "event_end": "2027-05-09T10:30:00-04:00",
@@ -13835,6 +14083,9 @@
       "resources": [],
       "event_id": "event-15dddcc1725b41df",
       "activity_aliases": [
+        "P U R S U E"
+      ],
+      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -13903,6 +14154,9 @@
       "activity_aliases": [
         "P U R S U E"
       ],
+      "event_aliases": [
+        "P U R S U E"
+      ],
       "event_category": "ministry_event",
       "event_start": "2027-05-23T09:30:00-04:00",
       "event_end": "2027-05-23T10:30:00-04:00",
@@ -13967,6 +14221,9 @@
       "resources": [],
       "event_id": "event-c93b21cfb5518e4a",
       "activity_aliases": [
+        "P U R S U E"
+      ],
+      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -14035,6 +14292,9 @@
       "activity_aliases": [
         "P U R S U E"
       ],
+      "event_aliases": [
+        "P U R S U E"
+      ],
       "event_category": "ministry_event",
       "event_start": "2027-06-06T09:30:00-04:00",
       "event_end": "2027-06-06T10:30:00-04:00",
@@ -14099,6 +14359,9 @@
       "resources": [],
       "event_id": "event-08082aef78951848",
       "activity_aliases": [
+        "P U R S U E"
+      ],
+      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -14167,6 +14430,9 @@
       "activity_aliases": [
         "P U R S U E"
       ],
+      "event_aliases": [
+        "P U R S U E"
+      ],
       "event_category": "ministry_event",
       "event_start": "2027-06-20T09:30:00-04:00",
       "event_end": "2027-06-20T10:30:00-04:00",
@@ -14231,6 +14497,9 @@
       "resources": [],
       "event_id": "event-c52817750c3a7cb2",
       "activity_aliases": [
+        "P U R S U E"
+      ],
+      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -14299,6 +14568,9 @@
       "activity_aliases": [
         "P U R S U E"
       ],
+      "event_aliases": [
+        "P U R S U E"
+      ],
       "event_category": "ministry_event",
       "event_start": "2027-07-04T09:30:00-04:00",
       "event_end": "2027-07-04T10:30:00-04:00",
@@ -14363,6 +14635,9 @@
       "resources": [],
       "event_id": "event-d1d1d00b65652bc6",
       "activity_aliases": [
+        "P U R S U E"
+      ],
+      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -14431,6 +14706,9 @@
       "activity_aliases": [
         "P U R S U E"
       ],
+      "event_aliases": [
+        "P U R S U E"
+      ],
       "event_category": "ministry_event",
       "event_start": "2027-07-18T09:30:00-04:00",
       "event_end": "2027-07-18T10:30:00-04:00",
@@ -14495,6 +14773,9 @@
       "resources": [],
       "event_id": "event-1b3cfc1ff2dbe1c1",
       "activity_aliases": [
+        "P U R S U E"
+      ],
+      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -14563,6 +14844,9 @@
       "activity_aliases": [
         "P U R S U E"
       ],
+      "event_aliases": [
+        "P U R S U E"
+      ],
       "event_category": "ministry_event",
       "event_start": "2027-08-01T09:30:00-04:00",
       "event_end": "2027-08-01T10:30:00-04:00",
@@ -14627,6 +14911,9 @@
       "resources": [],
       "event_id": "event-7f42201e535b5cf1",
       "activity_aliases": [
+        "P U R S U E"
+      ],
+      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -14697,6 +14984,9 @@
       "activity_aliases": [
         "Women's Christmas Event"
       ],
+      "event_aliases": [
+        "Women's Christmas Event"
+      ],
       "event_category": "ministry_event",
       "event_start": "2026-12-06T16:00:00-05:00",
       "event_end": "2026-12-06T18:00:00-05:00",
@@ -14763,6 +15053,9 @@
       "resources": [],
       "event_id": "event-6b34cb8d668698aa",
       "activity_aliases": [
+        "Women's Fall Fest"
+      ],
+      "event_aliases": [
         "Women's Fall Fest"
       ],
       "event_category": "ministry_event",
@@ -15626,6 +15919,9 @@
       "activity_aliases": [
         "Awana 2026-2027"
       ],
+      "event_aliases": [
+        "Awana 2026-2027"
+      ],
       "event_category": "churchwide_program",
       "event_start": "2026-08-19T18:15:00-04:00",
       "event_end": "2026-08-19T19:30:00-04:00",
@@ -15697,6 +15993,9 @@
       "resources": [],
       "event_id": "event-73b5389e4282128d",
       "activity_aliases": [
+        "Awana 2026-2027"
+      ],
+      "event_aliases": [
         "Awana 2026-2027"
       ],
       "event_category": "churchwide_program",
@@ -15772,6 +16071,9 @@
       "activity_aliases": [
         "Awana 2026-2027"
       ],
+      "event_aliases": [
+        "Awana 2026-2027"
+      ],
       "event_category": "churchwide_program",
       "event_start": "2026-09-02T18:15:00-04:00",
       "event_end": "2026-09-02T19:30:00-04:00",
@@ -15845,6 +16147,9 @@
       "activity_aliases": [
         "Awana 2026-2027"
       ],
+      "event_aliases": [
+        "Awana 2026-2027"
+      ],
       "event_category": "churchwide_program",
       "event_start": "2026-09-09T18:15:00-04:00",
       "event_end": "2026-09-09T19:30:00-04:00",
@@ -15913,6 +16218,9 @@
       "resources": [],
       "event_id": "event-9dab728b4731bf8a",
       "activity_aliases": [
+        "Wednesday Night Dinner"
+      ],
+      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -15984,6 +16292,9 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
+      "event_aliases": [
+        "Wednesday Night Dinner"
+      ],
       "event_category": "churchwide_program",
       "event_start": "2026-09-02T17:30:00-04:00",
       "event_end": "2026-09-02T18:15:00-04:00",
@@ -16051,6 +16362,9 @@
       "resources": [],
       "event_id": "event-603382a30ef2ed46",
       "activity_aliases": [
+        "Wednesday Night Dinner"
+      ],
+      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -16122,6 +16436,9 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
+      "event_aliases": [
+        "Wednesday Night Dinner"
+      ],
       "event_category": "churchwide_program",
       "event_start": "2026-09-16T17:30:00-04:00",
       "event_end": "2026-09-16T18:15:00-04:00",
@@ -16189,6 +16506,9 @@
       "resources": [],
       "event_id": "event-19c7f09112c7bf0d",
       "activity_aliases": [
+        "Wednesday Night Dinner"
+      ],
+      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -16260,6 +16580,9 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
+      "event_aliases": [
+        "Wednesday Night Dinner"
+      ],
       "event_category": "churchwide_program",
       "event_start": "2026-09-30T17:30:00-04:00",
       "event_end": "2026-09-30T18:15:00-04:00",
@@ -16327,6 +16650,9 @@
       "resources": [],
       "event_id": "event-99e86fed5a9fc5ad",
       "activity_aliases": [
+        "Wednesday Night Dinner"
+      ],
+      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -16398,6 +16724,9 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
+      "event_aliases": [
+        "Wednesday Night Dinner"
+      ],
       "event_category": "churchwide_program",
       "event_start": "2026-10-14T17:30:00-04:00",
       "event_end": "2026-10-14T18:15:00-04:00",
@@ -16465,6 +16794,9 @@
       "resources": [],
       "event_id": "event-b08f2e2b300edf1f",
       "activity_aliases": [
+        "Wednesday Night Dinner"
+      ],
+      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -16536,6 +16868,9 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
+      "event_aliases": [
+        "Wednesday Night Dinner"
+      ],
       "event_category": "churchwide_program",
       "event_start": "2026-10-28T17:30:00-04:00",
       "event_end": "2026-10-28T18:15:00-04:00",
@@ -16603,6 +16938,9 @@
       "resources": [],
       "event_id": "event-1aae13f9c455fdc7",
       "activity_aliases": [
+        "Wednesday Night Dinner"
+      ],
+      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -16674,6 +17012,9 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
+      "event_aliases": [
+        "Wednesday Night Dinner"
+      ],
       "event_category": "churchwide_program",
       "event_start": "2026-11-11T17:30:00-05:00",
       "event_end": "2026-11-11T18:15:00-05:00",
@@ -16741,6 +17082,9 @@
       "resources": [],
       "event_id": "event-cc6c730d57cf53fb",
       "activity_aliases": [
+        "Wednesday Night Dinner"
+      ],
+      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -16812,6 +17156,9 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
+      "event_aliases": [
+        "Wednesday Night Dinner"
+      ],
       "event_category": "churchwide_program",
       "event_start": "2026-11-25T17:30:00-05:00",
       "event_end": "2026-11-25T18:15:00-05:00",
@@ -16879,6 +17226,9 @@
       "resources": [],
       "event_id": "event-5612690198809fdf",
       "activity_aliases": [
+        "Wednesday Night Dinner"
+      ],
+      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -16950,6 +17300,9 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
+      "event_aliases": [
+        "Wednesday Night Dinner"
+      ],
       "event_category": "churchwide_program",
       "event_start": "2026-12-09T17:30:00-05:00",
       "event_end": "2026-12-09T18:15:00-05:00",
@@ -17017,6 +17370,9 @@
       "resources": [],
       "event_id": "event-6ee1c01620d35842",
       "activity_aliases": [
+        "Wednesday Night Dinner"
+      ],
+      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -17088,6 +17444,9 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
+      "event_aliases": [
+        "Wednesday Night Dinner"
+      ],
       "event_category": "churchwide_program",
       "event_start": "2026-12-23T17:30:00-05:00",
       "event_end": "2026-12-23T18:15:00-05:00",
@@ -17155,6 +17514,9 @@
       "resources": [],
       "event_id": "event-b038724c0385ac1d",
       "activity_aliases": [
+        "Wednesday Night Dinner"
+      ],
+      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -17226,6 +17588,9 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
+      "event_aliases": [
+        "Wednesday Night Dinner"
+      ],
       "event_category": "churchwide_program",
       "event_start": "2027-01-06T17:30:00-05:00",
       "event_end": "2027-01-06T18:15:00-05:00",
@@ -17293,6 +17658,9 @@
       "resources": [],
       "event_id": "event-90772338f7ed64ec",
       "activity_aliases": [
+        "Wednesday Night Dinner"
+      ],
+      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -17364,6 +17732,9 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
+      "event_aliases": [
+        "Wednesday Night Dinner"
+      ],
       "event_category": "churchwide_program",
       "event_start": "2027-01-20T17:30:00-05:00",
       "event_end": "2027-01-20T18:15:00-05:00",
@@ -17431,6 +17802,9 @@
       "resources": [],
       "event_id": "event-1728511bf3e92330",
       "activity_aliases": [
+        "Wednesday Night Dinner"
+      ],
+      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -17502,6 +17876,9 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
+      "event_aliases": [
+        "Wednesday Night Dinner"
+      ],
       "event_category": "churchwide_program",
       "event_start": "2027-02-03T17:30:00-05:00",
       "event_end": "2027-02-03T18:15:00-05:00",
@@ -17569,6 +17946,9 @@
       "resources": [],
       "event_id": "event-caa7e598c1818c3d",
       "activity_aliases": [
+        "Wednesday Night Dinner"
+      ],
+      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -17640,6 +18020,9 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
+      "event_aliases": [
+        "Wednesday Night Dinner"
+      ],
       "event_category": "churchwide_program",
       "event_start": "2027-02-17T17:30:00-05:00",
       "event_end": "2027-02-17T18:15:00-05:00",
@@ -17707,6 +18090,9 @@
       "resources": [],
       "event_id": "event-9328a094b78f0b45",
       "activity_aliases": [
+        "Wednesday Night Dinner"
+      ],
+      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -17778,6 +18164,9 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
+      "event_aliases": [
+        "Wednesday Night Dinner"
+      ],
       "event_category": "churchwide_program",
       "event_start": "2027-03-03T17:30:00-05:00",
       "event_end": "2027-03-03T18:15:00-05:00",
@@ -17845,6 +18234,9 @@
       "resources": [],
       "event_id": "event-ac490fb30248508a",
       "activity_aliases": [
+        "Wednesday Night Dinner"
+      ],
+      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -17916,6 +18308,9 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
+      "event_aliases": [
+        "Wednesday Night Dinner"
+      ],
       "event_category": "churchwide_program",
       "event_start": "2027-03-17T17:30:00-04:00",
       "event_end": "2027-03-17T18:15:00-04:00",
@@ -17983,6 +18378,9 @@
       "resources": [],
       "event_id": "event-bc25cccea346db45",
       "activity_aliases": [
+        "Wednesday Night Dinner"
+      ],
+      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -18054,6 +18452,9 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
+      "event_aliases": [
+        "Wednesday Night Dinner"
+      ],
       "event_category": "churchwide_program",
       "event_start": "2027-03-31T17:30:00-04:00",
       "event_end": "2027-03-31T18:15:00-04:00",
@@ -18121,6 +18522,9 @@
       "resources": [],
       "event_id": "event-35844b133e8df64a",
       "activity_aliases": [
+        "Wednesday Night Dinner"
+      ],
+      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -18192,6 +18596,9 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
+      "event_aliases": [
+        "Wednesday Night Dinner"
+      ],
       "event_category": "churchwide_program",
       "event_start": "2027-04-14T17:30:00-04:00",
       "event_end": "2027-04-14T18:15:00-04:00",
@@ -18259,6 +18666,9 @@
       "resources": [],
       "event_id": "event-f5f64f835c0a84c3",
       "activity_aliases": [
+        "Wednesday Night Dinner"
+      ],
+      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -18330,6 +18740,9 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
+      "event_aliases": [
+        "Wednesday Night Dinner"
+      ],
       "event_category": "churchwide_program",
       "event_start": "2027-04-28T17:30:00-04:00",
       "event_end": "2027-04-28T18:15:00-04:00",
@@ -18397,6 +18810,9 @@
       "resources": [],
       "event_id": "event-2ed07b2f6430e195",
       "activity_aliases": [
+        "Wednesday Night Dinner"
+      ],
+      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -18468,6 +18884,9 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
+      "event_aliases": [
+        "Wednesday Night Dinner"
+      ],
       "event_category": "churchwide_program",
       "event_start": "2027-05-12T17:30:00-04:00",
       "event_end": "2027-05-12T18:15:00-04:00",
@@ -18535,6 +18954,9 @@
       "resources": [],
       "event_id": "event-38c528dd850df29f",
       "activity_aliases": [
+        "Wednesday Night Dinner"
+      ],
+      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -18606,6 +19028,9 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
+      "event_aliases": [
+        "Wednesday Night Dinner"
+      ],
       "event_category": "churchwide_program",
       "event_start": "2027-05-26T17:30:00-04:00",
       "event_end": "2027-05-26T18:15:00-04:00",
@@ -18673,6 +19098,9 @@
       "resources": [],
       "event_id": "event-b056b3dfedba0347",
       "activity_aliases": [
+        "Wednesday Night Dinner"
+      ],
+      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -18744,6 +19172,9 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
+      "event_aliases": [
+        "Wednesday Night Dinner"
+      ],
       "event_category": "churchwide_program",
       "event_start": "2027-06-09T17:30:00-04:00",
       "event_end": "2027-06-09T18:15:00-04:00",
@@ -18811,6 +19242,9 @@
       "resources": [],
       "event_id": "event-3d993f73ed6fef1b",
       "activity_aliases": [
+        "Wednesday Night Dinner"
+      ],
+      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -18882,6 +19316,9 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
+      "event_aliases": [
+        "Wednesday Night Dinner"
+      ],
       "event_category": "churchwide_program",
       "event_start": "2027-06-23T17:30:00-04:00",
       "event_end": "2027-06-23T18:15:00-04:00",
@@ -18949,6 +19386,9 @@
       "resources": [],
       "event_id": "event-7a6499128234486c",
       "activity_aliases": [
+        "Wednesday Night Dinner"
+      ],
+      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -19020,6 +19460,9 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
+      "event_aliases": [
+        "Wednesday Night Dinner"
+      ],
       "event_category": "churchwide_program",
       "event_start": "2027-07-07T17:30:00-04:00",
       "event_end": "2027-07-07T18:15:00-04:00",
@@ -19087,6 +19530,9 @@
       "resources": [],
       "event_id": "event-9f903404a7e48c19",
       "activity_aliases": [
+        "Wednesday Night Dinner"
+      ],
+      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -19158,6 +19604,9 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
+      "event_aliases": [
+        "Wednesday Night Dinner"
+      ],
       "event_category": "churchwide_program",
       "event_start": "2027-07-21T17:30:00-04:00",
       "event_end": "2027-07-21T18:15:00-04:00",
@@ -19225,6 +19674,9 @@
       "resources": [],
       "event_id": "event-e645ce6a5b7b2465",
       "activity_aliases": [
+        "Wednesday Night Dinner"
+      ],
+      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -19296,6 +19748,9 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
+      "event_aliases": [
+        "Wednesday Night Dinner"
+      ],
       "event_category": "churchwide_program",
       "event_start": "2027-08-04T17:30:00-04:00",
       "event_end": "2027-08-04T18:15:00-04:00",
@@ -19363,6 +19818,9 @@
       "resources": [],
       "event_id": "event-241c9236f919d9cb",
       "activity_aliases": [
+        "Wednesday Night Dinner"
+      ],
+      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -19664,6 +20122,9 @@
       "activity_aliases": [
         "Card Ministry"
       ],
+      "event_aliases": [
+        "Card Ministry"
+      ],
       "event_category": "general_event",
       "event_start": "2026-09-01T09:00:00-04:00",
       "event_end": "2026-09-01T12:00:00-04:00",
@@ -19701,7 +20162,9 @@
         "upcoming",
         "activity",
         "general_event",
-        "Monthly Baskets of Hope - Volunteers"
+        "Monthly Baskets of Hope - Volunteers",
+        "Monthly Baskets of Hope",
+        "Volunteers"
       ],
       "search_terms": [
         "Monthly Baskets of Hope - Volunteers",
@@ -19716,7 +20179,23 @@
         "Do you offer Monthly Baskets of Hope - Volunteers?",
         "Is there Monthly Baskets of Hope - Volunteers at Urbancrest?",
         "Can I participate in Monthly Baskets of Hope - Volunteers?",
-        "Can I play Monthly Baskets of Hope - Volunteers at Urbancrest?"
+        "Can I play Monthly Baskets of Hope - Volunteers at Urbancrest?",
+        "Monthly Baskets of Hope",
+        "Does Urbancrest have Monthly Baskets of Hope?",
+        "Does Urbancrest offer Monthly Baskets of Hope?",
+        "Do you have Monthly Baskets of Hope?",
+        "Do you offer Monthly Baskets of Hope?",
+        "Is there Monthly Baskets of Hope at Urbancrest?",
+        "Can I participate in Monthly Baskets of Hope?",
+        "Can I play Monthly Baskets of Hope at Urbancrest?",
+        "Volunteers",
+        "Does Urbancrest have Volunteers?",
+        "Does Urbancrest offer Volunteers?",
+        "Do you have Volunteers?",
+        "Do you offer Volunteers?",
+        "Is there Volunteers at Urbancrest?",
+        "Can I participate in Volunteers?",
+        "Can I play Volunteers at Urbancrest?"
       ],
       "ministries": [
         "churchwide"
@@ -19728,7 +20207,14 @@
       "resources": [],
       "event_id": "event-75c02532b780df8e",
       "activity_aliases": [
-        "Monthly Baskets of Hope - Volunteers"
+        "Monthly Baskets of Hope - Volunteers",
+        "Monthly Baskets of Hope",
+        "Volunteers"
+      ],
+      "event_aliases": [
+        "Monthly Baskets of Hope - Volunteers",
+        "Monthly Baskets of Hope",
+        "Volunteers"
       ],
       "event_category": "general_event",
       "event_start": "2026-08-19T16:30:00-04:00",
@@ -19768,7 +20254,9 @@
         "upcoming",
         "activity",
         "general_event",
-        "Monthly Baskets of Hope - Volunteers"
+        "Monthly Baskets of Hope - Volunteers",
+        "Monthly Baskets of Hope",
+        "Volunteers"
       ],
       "search_terms": [
         "Monthly Baskets of Hope - Volunteers",
@@ -19783,7 +20271,23 @@
         "Do you offer Monthly Baskets of Hope - Volunteers?",
         "Is there Monthly Baskets of Hope - Volunteers at Urbancrest?",
         "Can I participate in Monthly Baskets of Hope - Volunteers?",
-        "Can I play Monthly Baskets of Hope - Volunteers at Urbancrest?"
+        "Can I play Monthly Baskets of Hope - Volunteers at Urbancrest?",
+        "Monthly Baskets of Hope",
+        "Does Urbancrest have Monthly Baskets of Hope?",
+        "Does Urbancrest offer Monthly Baskets of Hope?",
+        "Do you have Monthly Baskets of Hope?",
+        "Do you offer Monthly Baskets of Hope?",
+        "Is there Monthly Baskets of Hope at Urbancrest?",
+        "Can I participate in Monthly Baskets of Hope?",
+        "Can I play Monthly Baskets of Hope at Urbancrest?",
+        "Volunteers",
+        "Does Urbancrest have Volunteers?",
+        "Does Urbancrest offer Volunteers?",
+        "Do you have Volunteers?",
+        "Do you offer Volunteers?",
+        "Is there Volunteers at Urbancrest?",
+        "Can I participate in Volunteers?",
+        "Can I play Volunteers at Urbancrest?"
       ],
       "ministries": [
         "churchwide"
@@ -19795,7 +20299,14 @@
       "resources": [],
       "event_id": "event-e0476e22fc77387f",
       "activity_aliases": [
-        "Monthly Baskets of Hope - Volunteers"
+        "Monthly Baskets of Hope - Volunteers",
+        "Monthly Baskets of Hope",
+        "Volunteers"
+      ],
+      "event_aliases": [
+        "Monthly Baskets of Hope - Volunteers",
+        "Monthly Baskets of Hope",
+        "Volunteers"
       ],
       "event_category": "general_event",
       "event_start": "2026-09-16T16:30:00-04:00",
@@ -19888,6 +20399,12 @@
       "resources": [],
       "event_id": "event-a07c79cc58a267ab",
       "activity_aliases": [
+        "OPEN GYM Pickleball",
+        "Pickleball",
+        "OPEN GYM Pickle ball",
+        "Pickle ball"
+      ],
+      "event_aliases": [
         "OPEN GYM Pickleball",
         "Pickleball",
         "OPEN GYM Pickle ball",
@@ -19989,6 +20506,12 @@
         "OPEN GYM Pickle ball",
         "Pickle ball"
       ],
+      "event_aliases": [
+        "OPEN GYM Pickleball",
+        "Pickleball",
+        "OPEN GYM Pickle ball",
+        "Pickle ball"
+      ],
       "event_category": "general_event",
       "event_start": "2026-08-20T18:00:00-04:00",
       "event_end": "2026-08-20T20:00:00-04:00",
@@ -20080,6 +20603,12 @@
       "resources": [],
       "event_id": "event-b497f1cb2de0bc06",
       "activity_aliases": [
+        "OPEN GYM Pickleball",
+        "Pickleball",
+        "OPEN GYM Pickle ball",
+        "Pickle ball"
+      ],
+      "event_aliases": [
         "OPEN GYM Pickleball",
         "Pickleball",
         "OPEN GYM Pickle ball",
@@ -20181,6 +20710,12 @@
         "OPEN GYM Pickle ball",
         "Pickle ball"
       ],
+      "event_aliases": [
+        "OPEN GYM Pickleball",
+        "Pickleball",
+        "OPEN GYM Pickle ball",
+        "Pickle ball"
+      ],
       "event_category": "general_event",
       "event_start": "2026-09-03T18:00:00-04:00",
       "event_end": "2026-09-03T20:00:00-04:00",
@@ -20272,6 +20807,12 @@
       "resources": [],
       "event_id": "event-b9f5a417bbfe7030",
       "activity_aliases": [
+        "OPEN GYM Pickleball",
+        "Pickleball",
+        "OPEN GYM Pickle ball",
+        "Pickle ball"
+      ],
+      "event_aliases": [
         "OPEN GYM Pickleball",
         "Pickleball",
         "OPEN GYM Pickle ball",
@@ -20373,6 +20914,12 @@
         "OPEN GYM Pickle ball",
         "Pickle ball"
       ],
+      "event_aliases": [
+        "OPEN GYM Pickleball",
+        "Pickleball",
+        "OPEN GYM Pickle ball",
+        "Pickle ball"
+      ],
       "event_category": "general_event",
       "event_start": "2026-09-17T18:00:00-04:00",
       "event_end": "2026-09-17T20:00:00-04:00",
@@ -20411,7 +20958,9 @@
         "upcoming",
         "activity",
         "general_event",
-        "Sunday Morning Services: 11:00 AM Service"
+        "Sunday Morning Services: 11:00 AM Service",
+        "Sunday Morning Services",
+        "00 AM Service"
       ],
       "search_terms": [
         "Sunday Morning Services: 11:00 AM Service",
@@ -20426,7 +20975,23 @@
         "Do you offer Sunday Morning Services: 11:00 AM Service?",
         "Is there Sunday Morning Services: 11:00 AM Service at Urbancrest?",
         "Can I participate in Sunday Morning Services: 11:00 AM Service?",
-        "Can I play Sunday Morning Services: 11:00 AM Service at Urbancrest?"
+        "Can I play Sunday Morning Services: 11:00 AM Service at Urbancrest?",
+        "Sunday Morning Services",
+        "Does Urbancrest have Sunday Morning Services?",
+        "Does Urbancrest offer Sunday Morning Services?",
+        "Do you have Sunday Morning Services?",
+        "Do you offer Sunday Morning Services?",
+        "Is there Sunday Morning Services at Urbancrest?",
+        "Can I participate in Sunday Morning Services?",
+        "Can I play Sunday Morning Services at Urbancrest?",
+        "00 AM Service",
+        "Does Urbancrest have 00 AM Service?",
+        "Does Urbancrest offer 00 AM Service?",
+        "Do you have 00 AM Service?",
+        "Do you offer 00 AM Service?",
+        "Is there 00 AM Service at Urbancrest?",
+        "Can I participate in 00 AM Service?",
+        "Can I play 00 AM Service at Urbancrest?"
       ],
       "ministries": [
         "churchwide"
@@ -20437,7 +21002,14 @@
       "resources": [],
       "event_id": "event-6d791f65d6684864",
       "activity_aliases": [
-        "Sunday Morning Services: 11:00 AM Service"
+        "Sunday Morning Services: 11:00 AM Service",
+        "Sunday Morning Services",
+        "00 AM Service"
+      ],
+      "event_aliases": [
+        "Sunday Morning Services: 11:00 AM Service",
+        "Sunday Morning Services",
+        "00 AM Service"
       ],
       "event_category": "general_event",
       "event_start": "2026-08-16T11:00:00-04:00",
@@ -20482,7 +21054,9 @@
         "upcoming",
         "activity",
         "general_event",
-        "Sunday Morning Services: 11:00 AM Service"
+        "Sunday Morning Services: 11:00 AM Service",
+        "Sunday Morning Services",
+        "00 AM Service"
       ],
       "search_terms": [
         "Sunday Morning Services: 11:00 AM Service",
@@ -20497,7 +21071,23 @@
         "Do you offer Sunday Morning Services: 11:00 AM Service?",
         "Is there Sunday Morning Services: 11:00 AM Service at Urbancrest?",
         "Can I participate in Sunday Morning Services: 11:00 AM Service?",
-        "Can I play Sunday Morning Services: 11:00 AM Service at Urbancrest?"
+        "Can I play Sunday Morning Services: 11:00 AM Service at Urbancrest?",
+        "Sunday Morning Services",
+        "Does Urbancrest have Sunday Morning Services?",
+        "Does Urbancrest offer Sunday Morning Services?",
+        "Do you have Sunday Morning Services?",
+        "Do you offer Sunday Morning Services?",
+        "Is there Sunday Morning Services at Urbancrest?",
+        "Can I participate in Sunday Morning Services?",
+        "Can I play Sunday Morning Services at Urbancrest?",
+        "00 AM Service",
+        "Does Urbancrest have 00 AM Service?",
+        "Does Urbancrest offer 00 AM Service?",
+        "Do you have 00 AM Service?",
+        "Do you offer 00 AM Service?",
+        "Is there 00 AM Service at Urbancrest?",
+        "Can I participate in 00 AM Service?",
+        "Can I play 00 AM Service at Urbancrest?"
       ],
       "ministries": [
         "churchwide"
@@ -20508,7 +21098,14 @@
       "resources": [],
       "event_id": "event-fa5c7d47754475b5",
       "activity_aliases": [
-        "Sunday Morning Services: 11:00 AM Service"
+        "Sunday Morning Services: 11:00 AM Service",
+        "Sunday Morning Services",
+        "00 AM Service"
+      ],
+      "event_aliases": [
+        "Sunday Morning Services: 11:00 AM Service",
+        "Sunday Morning Services",
+        "00 AM Service"
       ],
       "event_category": "general_event",
       "event_start": "2026-08-23T11:00:00-04:00",
@@ -20553,7 +21150,9 @@
         "upcoming",
         "activity",
         "general_event",
-        "Sunday Morning Services: 11:00 AM Service"
+        "Sunday Morning Services: 11:00 AM Service",
+        "Sunday Morning Services",
+        "00 AM Service"
       ],
       "search_terms": [
         "Sunday Morning Services: 11:00 AM Service",
@@ -20568,7 +21167,23 @@
         "Do you offer Sunday Morning Services: 11:00 AM Service?",
         "Is there Sunday Morning Services: 11:00 AM Service at Urbancrest?",
         "Can I participate in Sunday Morning Services: 11:00 AM Service?",
-        "Can I play Sunday Morning Services: 11:00 AM Service at Urbancrest?"
+        "Can I play Sunday Morning Services: 11:00 AM Service at Urbancrest?",
+        "Sunday Morning Services",
+        "Does Urbancrest have Sunday Morning Services?",
+        "Does Urbancrest offer Sunday Morning Services?",
+        "Do you have Sunday Morning Services?",
+        "Do you offer Sunday Morning Services?",
+        "Is there Sunday Morning Services at Urbancrest?",
+        "Can I participate in Sunday Morning Services?",
+        "Can I play Sunday Morning Services at Urbancrest?",
+        "00 AM Service",
+        "Does Urbancrest have 00 AM Service?",
+        "Does Urbancrest offer 00 AM Service?",
+        "Do you have 00 AM Service?",
+        "Do you offer 00 AM Service?",
+        "Is there 00 AM Service at Urbancrest?",
+        "Can I participate in 00 AM Service?",
+        "Can I play 00 AM Service at Urbancrest?"
       ],
       "ministries": [
         "churchwide"
@@ -20579,7 +21194,14 @@
       "resources": [],
       "event_id": "event-09a75fc73580f4a3",
       "activity_aliases": [
-        "Sunday Morning Services: 11:00 AM Service"
+        "Sunday Morning Services: 11:00 AM Service",
+        "Sunday Morning Services",
+        "00 AM Service"
+      ],
+      "event_aliases": [
+        "Sunday Morning Services: 11:00 AM Service",
+        "Sunday Morning Services",
+        "00 AM Service"
       ],
       "event_category": "general_event",
       "event_start": "2026-08-30T11:00:00-04:00",
@@ -20624,7 +21246,9 @@
         "upcoming",
         "activity",
         "general_event",
-        "Sunday Morning Services: 11:00 AM Service"
+        "Sunday Morning Services: 11:00 AM Service",
+        "Sunday Morning Services",
+        "00 AM Service"
       ],
       "search_terms": [
         "Sunday Morning Services: 11:00 AM Service",
@@ -20639,7 +21263,23 @@
         "Do you offer Sunday Morning Services: 11:00 AM Service?",
         "Is there Sunday Morning Services: 11:00 AM Service at Urbancrest?",
         "Can I participate in Sunday Morning Services: 11:00 AM Service?",
-        "Can I play Sunday Morning Services: 11:00 AM Service at Urbancrest?"
+        "Can I play Sunday Morning Services: 11:00 AM Service at Urbancrest?",
+        "Sunday Morning Services",
+        "Does Urbancrest have Sunday Morning Services?",
+        "Does Urbancrest offer Sunday Morning Services?",
+        "Do you have Sunday Morning Services?",
+        "Do you offer Sunday Morning Services?",
+        "Is there Sunday Morning Services at Urbancrest?",
+        "Can I participate in Sunday Morning Services?",
+        "Can I play Sunday Morning Services at Urbancrest?",
+        "00 AM Service",
+        "Does Urbancrest have 00 AM Service?",
+        "Does Urbancrest offer 00 AM Service?",
+        "Do you have 00 AM Service?",
+        "Do you offer 00 AM Service?",
+        "Is there 00 AM Service at Urbancrest?",
+        "Can I participate in 00 AM Service?",
+        "Can I play 00 AM Service at Urbancrest?"
       ],
       "ministries": [
         "churchwide"
@@ -20650,7 +21290,14 @@
       "resources": [],
       "event_id": "event-d51c8e6d158a985a",
       "activity_aliases": [
-        "Sunday Morning Services: 11:00 AM Service"
+        "Sunday Morning Services: 11:00 AM Service",
+        "Sunday Morning Services",
+        "00 AM Service"
+      ],
+      "event_aliases": [
+        "Sunday Morning Services: 11:00 AM Service",
+        "Sunday Morning Services",
+        "00 AM Service"
       ],
       "event_category": "general_event",
       "event_start": "2026-09-06T11:00:00-04:00",
@@ -20695,7 +21342,9 @@
         "upcoming",
         "activity",
         "general_event",
-        "Sunday Morning Services: 11:00 AM Service"
+        "Sunday Morning Services: 11:00 AM Service",
+        "Sunday Morning Services",
+        "00 AM Service"
       ],
       "search_terms": [
         "Sunday Morning Services: 11:00 AM Service",
@@ -20710,7 +21359,23 @@
         "Do you offer Sunday Morning Services: 11:00 AM Service?",
         "Is there Sunday Morning Services: 11:00 AM Service at Urbancrest?",
         "Can I participate in Sunday Morning Services: 11:00 AM Service?",
-        "Can I play Sunday Morning Services: 11:00 AM Service at Urbancrest?"
+        "Can I play Sunday Morning Services: 11:00 AM Service at Urbancrest?",
+        "Sunday Morning Services",
+        "Does Urbancrest have Sunday Morning Services?",
+        "Does Urbancrest offer Sunday Morning Services?",
+        "Do you have Sunday Morning Services?",
+        "Do you offer Sunday Morning Services?",
+        "Is there Sunday Morning Services at Urbancrest?",
+        "Can I participate in Sunday Morning Services?",
+        "Can I play Sunday Morning Services at Urbancrest?",
+        "00 AM Service",
+        "Does Urbancrest have 00 AM Service?",
+        "Does Urbancrest offer 00 AM Service?",
+        "Do you have 00 AM Service?",
+        "Do you offer 00 AM Service?",
+        "Is there 00 AM Service at Urbancrest?",
+        "Can I participate in 00 AM Service?",
+        "Can I play 00 AM Service at Urbancrest?"
       ],
       "ministries": [
         "churchwide"
@@ -20721,7 +21386,14 @@
       "resources": [],
       "event_id": "event-d86eca8c10153e7f",
       "activity_aliases": [
-        "Sunday Morning Services: 11:00 AM Service"
+        "Sunday Morning Services: 11:00 AM Service",
+        "Sunday Morning Services",
+        "00 AM Service"
+      ],
+      "event_aliases": [
+        "Sunday Morning Services: 11:00 AM Service",
+        "Sunday Morning Services",
+        "00 AM Service"
       ],
       "event_category": "general_event",
       "event_start": "2026-09-13T11:00:00-04:00",
@@ -20766,7 +21438,9 @@
         "upcoming",
         "activity",
         "general_event",
-        "Sunday Morning Services: 9:30 AM Service"
+        "Sunday Morning Services: 9:30 AM Service",
+        "Sunday Morning Services",
+        "30 AM Service"
       ],
       "search_terms": [
         "Sunday Morning Services: 9:30 AM Service",
@@ -20781,7 +21455,23 @@
         "Do you offer Sunday Morning Services: 9:30 AM Service?",
         "Is there Sunday Morning Services: 9:30 AM Service at Urbancrest?",
         "Can I participate in Sunday Morning Services: 9:30 AM Service?",
-        "Can I play Sunday Morning Services: 9:30 AM Service at Urbancrest?"
+        "Can I play Sunday Morning Services: 9:30 AM Service at Urbancrest?",
+        "Sunday Morning Services",
+        "Does Urbancrest have Sunday Morning Services?",
+        "Does Urbancrest offer Sunday Morning Services?",
+        "Do you have Sunday Morning Services?",
+        "Do you offer Sunday Morning Services?",
+        "Is there Sunday Morning Services at Urbancrest?",
+        "Can I participate in Sunday Morning Services?",
+        "Can I play Sunday Morning Services at Urbancrest?",
+        "30 AM Service",
+        "Does Urbancrest have 30 AM Service?",
+        "Does Urbancrest offer 30 AM Service?",
+        "Do you have 30 AM Service?",
+        "Do you offer 30 AM Service?",
+        "Is there 30 AM Service at Urbancrest?",
+        "Can I participate in 30 AM Service?",
+        "Can I play 30 AM Service at Urbancrest?"
       ],
       "ministries": [
         "churchwide"
@@ -20792,7 +21482,14 @@
       "resources": [],
       "event_id": "event-908186c179e226b5",
       "activity_aliases": [
-        "Sunday Morning Services: 9:30 AM Service"
+        "Sunday Morning Services: 9:30 AM Service",
+        "Sunday Morning Services",
+        "30 AM Service"
+      ],
+      "event_aliases": [
+        "Sunday Morning Services: 9:30 AM Service",
+        "Sunday Morning Services",
+        "30 AM Service"
       ],
       "event_category": "general_event",
       "event_start": "2026-08-16T09:30:00-04:00",
@@ -20837,7 +21534,9 @@
         "upcoming",
         "activity",
         "general_event",
-        "Sunday Morning Services: 9:30 AM Service"
+        "Sunday Morning Services: 9:30 AM Service",
+        "Sunday Morning Services",
+        "30 AM Service"
       ],
       "search_terms": [
         "Sunday Morning Services: 9:30 AM Service",
@@ -20852,7 +21551,23 @@
         "Do you offer Sunday Morning Services: 9:30 AM Service?",
         "Is there Sunday Morning Services: 9:30 AM Service at Urbancrest?",
         "Can I participate in Sunday Morning Services: 9:30 AM Service?",
-        "Can I play Sunday Morning Services: 9:30 AM Service at Urbancrest?"
+        "Can I play Sunday Morning Services: 9:30 AM Service at Urbancrest?",
+        "Sunday Morning Services",
+        "Does Urbancrest have Sunday Morning Services?",
+        "Does Urbancrest offer Sunday Morning Services?",
+        "Do you have Sunday Morning Services?",
+        "Do you offer Sunday Morning Services?",
+        "Is there Sunday Morning Services at Urbancrest?",
+        "Can I participate in Sunday Morning Services?",
+        "Can I play Sunday Morning Services at Urbancrest?",
+        "30 AM Service",
+        "Does Urbancrest have 30 AM Service?",
+        "Does Urbancrest offer 30 AM Service?",
+        "Do you have 30 AM Service?",
+        "Do you offer 30 AM Service?",
+        "Is there 30 AM Service at Urbancrest?",
+        "Can I participate in 30 AM Service?",
+        "Can I play 30 AM Service at Urbancrest?"
       ],
       "ministries": [
         "churchwide"
@@ -20863,7 +21578,14 @@
       "resources": [],
       "event_id": "event-e65395a6e223a343",
       "activity_aliases": [
-        "Sunday Morning Services: 9:30 AM Service"
+        "Sunday Morning Services: 9:30 AM Service",
+        "Sunday Morning Services",
+        "30 AM Service"
+      ],
+      "event_aliases": [
+        "Sunday Morning Services: 9:30 AM Service",
+        "Sunday Morning Services",
+        "30 AM Service"
       ],
       "event_category": "general_event",
       "event_start": "2026-08-23T09:30:00-04:00",
@@ -20908,7 +21630,9 @@
         "upcoming",
         "activity",
         "general_event",
-        "Sunday Morning Services: 9:30 AM Service"
+        "Sunday Morning Services: 9:30 AM Service",
+        "Sunday Morning Services",
+        "30 AM Service"
       ],
       "search_terms": [
         "Sunday Morning Services: 9:30 AM Service",
@@ -20923,7 +21647,23 @@
         "Do you offer Sunday Morning Services: 9:30 AM Service?",
         "Is there Sunday Morning Services: 9:30 AM Service at Urbancrest?",
         "Can I participate in Sunday Morning Services: 9:30 AM Service?",
-        "Can I play Sunday Morning Services: 9:30 AM Service at Urbancrest?"
+        "Can I play Sunday Morning Services: 9:30 AM Service at Urbancrest?",
+        "Sunday Morning Services",
+        "Does Urbancrest have Sunday Morning Services?",
+        "Does Urbancrest offer Sunday Morning Services?",
+        "Do you have Sunday Morning Services?",
+        "Do you offer Sunday Morning Services?",
+        "Is there Sunday Morning Services at Urbancrest?",
+        "Can I participate in Sunday Morning Services?",
+        "Can I play Sunday Morning Services at Urbancrest?",
+        "30 AM Service",
+        "Does Urbancrest have 30 AM Service?",
+        "Does Urbancrest offer 30 AM Service?",
+        "Do you have 30 AM Service?",
+        "Do you offer 30 AM Service?",
+        "Is there 30 AM Service at Urbancrest?",
+        "Can I participate in 30 AM Service?",
+        "Can I play 30 AM Service at Urbancrest?"
       ],
       "ministries": [
         "churchwide"
@@ -20934,7 +21674,14 @@
       "resources": [],
       "event_id": "event-87018d6b99faf099",
       "activity_aliases": [
-        "Sunday Morning Services: 9:30 AM Service"
+        "Sunday Morning Services: 9:30 AM Service",
+        "Sunday Morning Services",
+        "30 AM Service"
+      ],
+      "event_aliases": [
+        "Sunday Morning Services: 9:30 AM Service",
+        "Sunday Morning Services",
+        "30 AM Service"
       ],
       "event_category": "general_event",
       "event_start": "2026-08-30T09:30:00-04:00",
@@ -20979,7 +21726,9 @@
         "upcoming",
         "activity",
         "general_event",
-        "Sunday Morning Services: 9:30 AM Service"
+        "Sunday Morning Services: 9:30 AM Service",
+        "Sunday Morning Services",
+        "30 AM Service"
       ],
       "search_terms": [
         "Sunday Morning Services: 9:30 AM Service",
@@ -20994,7 +21743,23 @@
         "Do you offer Sunday Morning Services: 9:30 AM Service?",
         "Is there Sunday Morning Services: 9:30 AM Service at Urbancrest?",
         "Can I participate in Sunday Morning Services: 9:30 AM Service?",
-        "Can I play Sunday Morning Services: 9:30 AM Service at Urbancrest?"
+        "Can I play Sunday Morning Services: 9:30 AM Service at Urbancrest?",
+        "Sunday Morning Services",
+        "Does Urbancrest have Sunday Morning Services?",
+        "Does Urbancrest offer Sunday Morning Services?",
+        "Do you have Sunday Morning Services?",
+        "Do you offer Sunday Morning Services?",
+        "Is there Sunday Morning Services at Urbancrest?",
+        "Can I participate in Sunday Morning Services?",
+        "Can I play Sunday Morning Services at Urbancrest?",
+        "30 AM Service",
+        "Does Urbancrest have 30 AM Service?",
+        "Does Urbancrest offer 30 AM Service?",
+        "Do you have 30 AM Service?",
+        "Do you offer 30 AM Service?",
+        "Is there 30 AM Service at Urbancrest?",
+        "Can I participate in 30 AM Service?",
+        "Can I play 30 AM Service at Urbancrest?"
       ],
       "ministries": [
         "churchwide"
@@ -21005,7 +21770,14 @@
       "resources": [],
       "event_id": "event-d27ce5ef423e5884",
       "activity_aliases": [
-        "Sunday Morning Services: 9:30 AM Service"
+        "Sunday Morning Services: 9:30 AM Service",
+        "Sunday Morning Services",
+        "30 AM Service"
+      ],
+      "event_aliases": [
+        "Sunday Morning Services: 9:30 AM Service",
+        "Sunday Morning Services",
+        "30 AM Service"
       ],
       "event_category": "general_event",
       "event_start": "2026-09-06T09:30:00-04:00",
@@ -21050,7 +21822,9 @@
         "upcoming",
         "activity",
         "general_event",
-        "Sunday Morning Services: 9:30 AM Service"
+        "Sunday Morning Services: 9:30 AM Service",
+        "Sunday Morning Services",
+        "30 AM Service"
       ],
       "search_terms": [
         "Sunday Morning Services: 9:30 AM Service",
@@ -21065,7 +21839,23 @@
         "Do you offer Sunday Morning Services: 9:30 AM Service?",
         "Is there Sunday Morning Services: 9:30 AM Service at Urbancrest?",
         "Can I participate in Sunday Morning Services: 9:30 AM Service?",
-        "Can I play Sunday Morning Services: 9:30 AM Service at Urbancrest?"
+        "Can I play Sunday Morning Services: 9:30 AM Service at Urbancrest?",
+        "Sunday Morning Services",
+        "Does Urbancrest have Sunday Morning Services?",
+        "Does Urbancrest offer Sunday Morning Services?",
+        "Do you have Sunday Morning Services?",
+        "Do you offer Sunday Morning Services?",
+        "Is there Sunday Morning Services at Urbancrest?",
+        "Can I participate in Sunday Morning Services?",
+        "Can I play Sunday Morning Services at Urbancrest?",
+        "30 AM Service",
+        "Does Urbancrest have 30 AM Service?",
+        "Does Urbancrest offer 30 AM Service?",
+        "Do you have 30 AM Service?",
+        "Do you offer 30 AM Service?",
+        "Is there 30 AM Service at Urbancrest?",
+        "Can I participate in 30 AM Service?",
+        "Can I play 30 AM Service at Urbancrest?"
       ],
       "ministries": [
         "churchwide"
@@ -21076,7 +21866,14 @@
       "resources": [],
       "event_id": "event-a417c1725cb32add",
       "activity_aliases": [
-        "Sunday Morning Services: 9:30 AM Service"
+        "Sunday Morning Services: 9:30 AM Service",
+        "Sunday Morning Services",
+        "30 AM Service"
+      ],
+      "event_aliases": [
+        "Sunday Morning Services: 9:30 AM Service",
+        "Sunday Morning Services",
+        "30 AM Service"
       ],
       "event_category": "general_event",
       "event_start": "2026-09-13T09:30:00-04:00",
@@ -21121,7 +21918,9 @@
         "upcoming",
         "activity",
         "general_event",
-        "Sunday Morning Services: 9:30 AM Service"
+        "Sunday Morning Services: 9:30 AM Service",
+        "Sunday Morning Services",
+        "30 AM Service"
       ],
       "search_terms": [
         "Sunday Morning Services: 9:30 AM Service",
@@ -21136,7 +21935,23 @@
         "Do you offer Sunday Morning Services: 9:30 AM Service?",
         "Is there Sunday Morning Services: 9:30 AM Service at Urbancrest?",
         "Can I participate in Sunday Morning Services: 9:30 AM Service?",
-        "Can I play Sunday Morning Services: 9:30 AM Service at Urbancrest?"
+        "Can I play Sunday Morning Services: 9:30 AM Service at Urbancrest?",
+        "Sunday Morning Services",
+        "Does Urbancrest have Sunday Morning Services?",
+        "Does Urbancrest offer Sunday Morning Services?",
+        "Do you have Sunday Morning Services?",
+        "Do you offer Sunday Morning Services?",
+        "Is there Sunday Morning Services at Urbancrest?",
+        "Can I participate in Sunday Morning Services?",
+        "Can I play Sunday Morning Services at Urbancrest?",
+        "30 AM Service",
+        "Does Urbancrest have 30 AM Service?",
+        "Does Urbancrest offer 30 AM Service?",
+        "Do you have 30 AM Service?",
+        "Do you offer 30 AM Service?",
+        "Is there 30 AM Service at Urbancrest?",
+        "Can I participate in 30 AM Service?",
+        "Can I play 30 AM Service at Urbancrest?"
       ],
       "ministries": [
         "churchwide"
@@ -21147,7 +21962,14 @@
       "resources": [],
       "event_id": "event-66c2f7334325697d",
       "activity_aliases": [
-        "Sunday Morning Services: 9:30 AM Service"
+        "Sunday Morning Services: 9:30 AM Service",
+        "Sunday Morning Services",
+        "30 AM Service"
+      ],
+      "event_aliases": [
+        "Sunday Morning Services: 9:30 AM Service",
+        "Sunday Morning Services",
+        "30 AM Service"
       ],
       "event_category": "general_event",
       "event_start": "2026-09-20T09:30:00-04:00",
