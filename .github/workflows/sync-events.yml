@@ -54,7 +54,7 @@ jobs:
           PLANNING_CENTER_REGISTRATIONS_API_VERSION: "2025-05-01"
           EVENT_LOOKAHEAD_DAYS: "365"
           EVENT_MAX_MAIN_EVENTS: "150"
-          REGISTRATIONS_CATEGORY_ALLOWLIST: "Website"
+          REGISTRATIONS_CATEGORY_ALLOWLIST: ""
           REGISTRATIONS_CATEGORY_DENYLIST: ""
         run: python scripts/sync_registrations.py
 
