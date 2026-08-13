@@ -18,6 +18,9 @@ Optional:
   EVENT_MAX_MAIN_EVENTS (default: 150)
   REGISTRATIONS_CATEGORY_ALLOWLIST (comma-separated; blank = all categories)
   REGISTRATIONS_CATEGORY_DENYLIST (comma-separated; blank = none)
+
+Version 1.5.1 also falls back to the full signup_times relationship when
+next_signup_time is unavailable, so public future signups are not silently dropped.
 """
 
 from __future__ import annotations
@@ -25,6 +28,7 @@ from __future__ import annotations
 import hashlib
 import html
 import os
+from collections import Counter
 import re
 import sys
 from datetime import datetime, timedelta, timezone
@@ -228,7 +232,7 @@ def fetch_signups() -> tuple[list[dict[str, Any]], dict[str, Any]]:
     url = f"{API_BASE}/registrations/v2/signups"
     params: dict[str, str] | None = {
         "filter": "unarchived",
-        "include": "next_signup_time,signup_location,categories,selection_types",
+        "include": "next_signup_time,signup_times,signup_location,categories,selection_types",
         "per_page": "100",
         "fields[Signup]": ",".join(
             [
@@ -322,6 +326,54 @@ def related_resources(
     return result
 
 
+def choose_signup_time(
+    signup: dict[str, Any],
+    included: dict[tuple[str, str], dict[str, Any]],
+    now: datetime,
+    cutoff: datetime,
+) -> dict[str, Any] | None:
+    """Choose the earliest current/future signup time within the lookahead window.
+
+    ``next_signup_time`` is Planning Center's convenient primary relationship, but
+    some otherwise-public signups may not expose it consistently. Include the full
+    ``signup_times`` relationship as a fallback and select deterministically.
+    """
+    resources: list[dict[str, Any]] = []
+    primary = related_resource(signup, "next_signup_time", included)
+    if primary:
+        resources.append(primary)
+    resources.extend(related_resources(signup, "signup_times", included))
+
+    deduped: list[dict[str, Any]] = []
+    seen: set[tuple[str, str]] = set()
+    for resource in resources:
+        key = (str(resource.get("type") or ""), str(resource.get("id") or ""))
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(resource)
+
+    candidates: list[tuple[datetime, dict[str, Any]]] = []
+    now_utc = now.astimezone(timezone.utc)
+    cutoff_utc = cutoff.astimezone(timezone.utc)
+    for resource in deduped:
+        attrs = resource.get("attributes") or {}
+        start = parse_dt(attrs.get("starts_at"))
+        end = parse_dt(attrs.get("ends_at")) or start
+        if not start:
+            continue
+        if (end or start).astimezone(timezone.utc) < now_utc:
+            continue
+        if start.astimezone(timezone.utc) > cutoff_utc:
+            continue
+        candidates.append((start.astimezone(timezone.utc), resource))
+
+    if not candidates:
+        return None
+    candidates.sort(key=lambda item: (item[0], str(item[1].get("id") or "")))
+    return candidates[0][1]
+
+
 def format_location(resource: dict[str, Any] | None) -> tuple[str, dict[str, Any]]:
     if not resource:
         return "", {}
@@ -347,31 +399,37 @@ def signup_to_event(
     included: dict[tuple[str, str], dict[str, Any]],
     now: datetime,
     cutoff: datetime,
+    diagnostics: dict[str, str] | None = None,
 ) -> dict[str, Any] | None:
+    def skip(reason: str) -> None:
+        if diagnostics is not None:
+            diagnostics["skip_reason"] = reason
+        return None
+
     attrs = signup.get("attributes") or {}
     if attrs.get("archived") is True:
-        return None
+        return skip("archived")
 
     signup_id = str(signup.get("id") or "").strip()
     title = clean_text(attrs.get("name"))
     registration_url = str(attrs.get("new_registration_url") or "").strip()
     if not signup_id or not title or not registration_url:
         # A public event-page registration should have a stable public signup URL.
-        return None
+        return skip("missing_id_title_or_public_registration_url")
 
-    time_resource = related_resource(signup, "next_signup_time", included)
+    time_resource = choose_signup_time(signup, included, now, cutoff)
     if not time_resource:
-        return None
+        return skip("no_current_or_future_signup_time_within_lookahead")
     time_attrs = time_resource.get("attributes") or {}
     start = parse_dt(time_attrs.get("starts_at"))
     end = parse_dt(time_attrs.get("ends_at")) or start
     if not start:
-        return None
+        return skip("signup_time_missing_start")
     effective_end = end or start
     if effective_end.astimezone(timezone.utc) < now.astimezone(timezone.utc):
-        return None
+        return skip("signup_time_past")
     if start.astimezone(timezone.utc) > cutoff.astimezone(timezone.utc):
-        return None
+        return skip("signup_time_beyond_lookahead")
 
     categories = unique(
         [
@@ -380,7 +438,7 @@ def signup_to_event(
         ]
     )
     if not category_allowed(categories):
-        return None
+        return skip("category_filtered")
 
     registration_options: list[dict[str, Any]] = []
     for resource in related_resources(signup, "selection_types", included):
@@ -598,12 +656,13 @@ def merge_registration_events(
     updated = dict(registry)
     previous_source = str(registry.get("source") or "planning_center_ical")
     source_parts = unique([*previous_source.split("+"), "registrations_api"])
-    updated["version"] = "1.5.0"
+    updated["version"] = "1.5.1"
     updated["generated_at"] = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
     updated["source"] = "+".join(source_parts)
     updated["registrations_api"] = {
         "status": "ok",
         "api_version": API_VERSION,
+        "signup_time_strategy": "next_signup_time_then_signup_times",
         "future_signup_count": len(registration_events),
         "added_registration_only_events": added,
         "enriched_existing_events": enriched,
@@ -622,7 +681,7 @@ def write_upcoming_index(registry: dict[str, Any]) -> None:
     lines = [
         "---",
         "id: events.upcoming.live",
-        "version: 1.5.0",
+        "version: 1.5.1",
         "status: published",
         "priority: 100",
         "title: Upcoming Events",
@@ -682,18 +741,22 @@ def main() -> int:
 
     registration_events: list[dict[str, Any]] = []
     skipped = 0
+    skipped_reasons: Counter[str] = Counter()
     for signup in signups:
-        event = signup_to_event(signup, included, now, cutoff)
+        diagnostics: dict[str, str] = {}
+        event = signup_to_event(signup, included, now, cutoff, diagnostics)
         if event:
             registration_events.append(event)
         else:
             skipped += 1
+            skipped_reasons[diagnostics.get("skip_reason", "unknown")] += 1
 
     registration_events.sort(key=event_start_ms)
     registry = yaml.safe_load(EVENT_REGISTRY_PATH.read_text(encoding="utf-8")) or {}
     updated, stats = merge_registration_events(registry, registration_events)
     updated["registrations_api"]["signup_count_received"] = len(signups)
     updated["registrations_api"]["skipped_signup_count"] = skipped
+    updated["registrations_api"]["skipped_reasons"] = dict(sorted(skipped_reasons.items()))
     updated["registrations_api"]["page_count"] = fetch_meta["page_count"]
 
     EVENT_REGISTRY_PATH.write_text(
@@ -707,6 +770,8 @@ def main() -> int:
         f"received {len(signups)} signups, selected {len(registration_events)} future public signups, "
         f"enriched {stats['enriched']}, added {stats['added']}, final main events {stats['total']}."
     )
+    if skipped_reasons:
+        print("Registrations skipped by reason: " + ", ".join(f"{key}={value}" for key, value in sorted(skipped_reasons.items())))
     return 0
 
 

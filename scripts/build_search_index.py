@@ -63,37 +63,86 @@ def truncate(value: str, limit: int = 2400) -> str:
     return value if len(value) <= limit else value[: limit - 3].rstrip() + "..."
 
 
-def event_activity_aliases(title: str) -> list[str]:
-    """Create public-facing activity aliases from a calendar event title."""
+def event_activity_aliases(
+    title: str,
+    summary: str = "",
+    description: str = "",
+    details: str = "",
+) -> list[str]:
+    """Create public-facing aliases for a live event.
+
+    Planning Center's event title is not always the name people actually use. For
+    example, a record titled ``Urbancrest Women's Conference`` may be promoted as
+    ``Known & Loved`` in its description. Keep title-based aliases, then add short
+    quoted/promotional names found in the event text.
+    """
+
+    def add_variants(target: list[str], value: str) -> None:
+        cleaned_value = re.sub(r"\s+", " ", str(value or "")).strip(" \t\r\n-–—:|")
+        if not cleaned_value:
+            return
+        target.append(cleaned_value)
+        if "&" in cleaned_value:
+            target.append(re.sub(r"\s*&\s*", " and ", cleaned_value))
+        elif re.search(r"\band\b", cleaned_value, flags=re.IGNORECASE):
+            target.append(re.sub(r"\band\b", "&", cleaned_value, flags=re.IGNORECASE))
+
     cleaned = re.sub(r"\s+", " ", str(title or "")).strip()
-    if not cleaned:
-        return []
+    aliases: list[str] = []
+    if cleaned:
+        add_variants(aliases, cleaned)
+        simplified = cleaned
 
-    aliases = [cleaned]
-    simplified = cleaned
+        # Remove common calendar prefixes that people usually omit in questions.
+        prefix_patterns = [
+            r"^open\s+gym\s*[-:|]?\s*",
+            r"^urbancrest\s*[-:|]?\s*",
+            r"^weekly\s*[-:|]?\s*",
+        ]
+        for pattern in prefix_patterns:
+            candidate = re.sub(pattern, "", simplified, flags=re.IGNORECASE).strip()
+            if candidate and candidate.casefold() != simplified.casefold():
+                add_variants(aliases, candidate)
+                simplified = candidate
 
-    # Remove common calendar prefixes that people usually omit in questions.
-    prefix_patterns = [
-        r"^open\s+gym\s*[-:|]?\s*",
-        r"^urbancrest\s*[-:|]?\s*",
-        r"^weekly\s*[-:|]?\s*",
+        # Event titles often use a separator between a generic event type and the
+        # promoted name. Make both sides independently searchable.
+        title_parts = [
+            part.strip()
+            for part in re.split(r"\s+(?:[-–—|])\s+|:\s*", cleaned)
+            if part.strip()
+        ]
+        if 1 < len(title_parts) <= 4:
+            for part in title_parts:
+                if len(part) >= 4:
+                    add_variants(aliases, part)
+
+    # Extract short quoted names/subtitles from the event's public copy. This is
+    # deliberately conservative so ordinary quoted sentences do not become aliases.
+    public_text = "\n".join(str(value or "") for value in (summary, description, details))
+    quote_patterns = [
+        r'"([^"\n]{3,80})"',
+        r'“([^”\n]{3,80})”',
+        r"'([^'\n]{3,80})'",
+        r'‘([^’\n]{3,80})’',
     ]
-    for pattern in prefix_patterns:
-        candidate = re.sub(pattern, "", simplified, flags=re.IGNORECASE).strip()
-        if candidate and candidate.casefold() != simplified.casefold():
-            aliases.append(candidate)
-            simplified = candidate
+    for pattern in quote_patterns:
+        for match in re.finditer(pattern, public_text):
+            candidate = re.sub(r"\s+", " ", match.group(1)).strip()
+            word_count = len(re.findall(r"[A-Za-z0-9]+", candidate))
+            if (
+                2 <= word_count <= 8
+                and len(candidate) <= 60
+                and not re.search(r"[.!?]", candidate)
+            ):
+                add_variants(aliases, candidate)
 
     # Add a spaced variant for common compound activity names.
     for alias in list(aliases):
         match = re.search(r"\bpickleball\b", alias, flags=re.IGNORECASE)
         if match:
             replacement = "Pickle ball" if match.group(0)[:1].isupper() else "pickle ball"
-            spaced = (
-                alias[: match.start()]
-                + replacement
-                + alias[match.end() :]
-            )
+            spaced = alias[: match.start()] + replacement + alias[match.end() :]
             if spaced.casefold() != alias.casefold():
                 aliases.append(spaced)
 
@@ -313,7 +362,12 @@ def event_records() -> list[dict[str, Any]]:
             )
             if value
         )
-        activity_aliases = event_activity_aliases(title)
+        activity_aliases = event_activity_aliases(
+            title,
+            str(event.get("summary") or ""),
+            description,
+            details,
+        )
         normalized_title = title.casefold()
         routine_service_occurrence = (
             "sunday morning services" in normalized_title
@@ -380,6 +434,7 @@ def event_records() -> list[dict[str, Any]]:
                 audiences=as_list(event.get("audiences")),
                 event_id=event_id,
                 activity_aliases=activity_aliases,
+                event_aliases=activity_aliases,
                 event_category=event.get("event_category"),
                 event_start=event.get("start"),
                 event_end=event.get("end"),
