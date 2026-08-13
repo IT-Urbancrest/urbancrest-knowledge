@@ -1,6 +1,6 @@
 ---
 id: events.upcoming.live
-version: 1.5.3
+version: 1.5.4
 status: published
 priority: 100
 title: Upcoming Events
@@ -16,7 +16,7 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-08-13T19:25:18.443918Z
+last_generated: 2026-08-13T19:28:33.472121Z
 ---
 
 # Upcoming Events
@@ -104,7 +104,7 @@ Detailed event file: `knowledge/events/generated/2026-08-19-monthly-baskets-of-h
 
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
-**Registration:** https://urbancrest.churchcenter.com/registrations/events/3737699
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3737699/reservations/new
 
 Detailed event file: `knowledge/events/generated/2026-08-19-awana-2026-2027-5a3ff2.md`
 
@@ -129,7 +129,7 @@ Detailed event file: `knowledge/events/generated/2026-08-20-open-gym-pickleball-
 **Where:** Heatherwoode Golf Club - 88 Heatherwoode Blvd
 Springboro, OH 45066
 
-**More information:** http://classic.urbancrest.org
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3517003/reservations/new
 
 Detailed event file: `knowledge/events/generated/2026-08-21-urbancrest-golf-classic-4f4169.md`
 
@@ -180,6 +180,18 @@ Detailed event file: `knowledge/events/generated/2026-08-23-sunday-morning-servi
 **More information:** https://urbancrest.churchcenter.com/calendar/event/230122705
 
 Detailed event file: `knowledge/events/generated/2026-08-26-wednesday-night-dinner-31bf8a.md`
+
+## Wednesday Night Kickoff
+
+**Category:** Student Event
+
+**When:** Wednesday, August 26, 2026 at 5:30 PM - 8:00 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road
+Gymnasium
+Lebanon, OH 45036
+
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3719897/reservations/new
 
 ## Awana 2026-2027
 
@@ -275,6 +287,18 @@ Detailed event file: `knowledge/events/generated/2026-09-02-wednesday-night-dinn
 
 Detailed event file: `knowledge/events/generated/2026-09-02-awana-2026-2027-b657f3.md`
 
+## Engage: New Members Class - Summer 2026
+
+**Category:** Family Event
+
+**When:** Wednesday, September 2, 2026 at 6:30 PM - 8:00 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road
+Room 201
+Lebanon, OH 45036
+
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3763259/reservations/new
+
 ## OPEN GYM Pickleball
 
 **Category:** General Event
@@ -298,6 +322,18 @@ Detailed event file: `knowledge/events/generated/2026-09-03-open-gym-pickleball-
 **More information:** https://urbancrest.churchcenter.com/calendar/event/166086980
 
 Detailed event file: `knowledge/events/generated/2026-09-05-men-s-breakfast-336f62.md`
+
+## One Service Only at 9:30 AM – Labor Day Weekend
+
+**Category:** Worship Event
+
+**When:** Sunday, September 6, 2026 at 9:30 AM - 11:00 AM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road
+Worship Center
+Lebanon, OH 45036
+
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3613427/reservations/new
 
 ## P U R S U E
 
@@ -383,42 +419,6 @@ Detailed event file: `knowledge/events/generated/2026-09-10-open-gym-pickleball-
 
 Detailed event file: `knowledge/events/generated/2026-09-13-p-u-r-s-u-e-300fb0.md`
 
-## Sunday Morning Services: 9:30 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, September 13, 2026, 9:30 AM to 10:40 AM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/167074215
-
-Detailed event file: `knowledge/events/generated/2026-09-13-sunday-morning-services-9-30-am-service-b32add.md`
-
-## Sunday Morning Services: 11:00 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, September 13, 2026, 11 AM to 12:10 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/167074215
-
-Detailed event file: `knowledge/events/generated/2026-09-13-sunday-morning-services-11-00-am-service-153e7f.md`
-
-## Monthly Baskets of Hope - Volunteers
-
-**Category:** General Event
-
-**When:** Wednesday, September 16, 2026, 4:30 PM to 6:30 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/167230919
-
-Detailed event file: `knowledge/events/generated/2026-09-16-monthly-baskets-of-hope-volunteers-77387f.md`
-
 ## Wednesday Night Dinner
 
 **Category:** Churchwide Program
@@ -430,18 +430,6 @@ Detailed event file: `knowledge/events/generated/2026-09-16-monthly-baskets-of-h
 **More information:** https://urbancrest.churchcenter.com/calendar/event/230122708
 
 Detailed event file: `knowledge/events/generated/2026-09-16-wednesday-night-dinner-89e119.md`
-
-## OPEN GYM Pickleball
-
-**Category:** General Event
-
-**When:** Thursday, September 17, 2026, 6 PM to 8 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/216277435
-
-Detailed event file: `knowledge/events/generated/2026-09-17-open-gym-pickleball-556aa9.md`
 
 ## P U R S U E
 
@@ -455,18 +443,6 @@ Detailed event file: `knowledge/events/generated/2026-09-17-open-gym-pickleball-
 
 Detailed event file: `knowledge/events/generated/2026-09-20-p-u-r-s-u-e-f8f18d.md`
 
-## Sunday Morning Services: 9:30 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, September 20, 2026, 9:30 AM to 10:40 AM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/167708219
-
-Detailed event file: `knowledge/events/generated/2026-09-20-sunday-morning-services-9-30-am-service-25697d.md`
-
 ## Wednesday Night Dinner
 
 **Category:** Churchwide Program
@@ -478,6 +454,14 @@ Detailed event file: `knowledge/events/generated/2026-09-20-sunday-morning-servi
 **More information:** https://urbancrest.churchcenter.com/calendar/event/230122709
 
 Detailed event file: `knowledge/events/generated/2026-09-23-wednesday-night-dinner-c7bf0d.md`
+
+## Waynesville Fall Fest
+
+**Category:** Student Event
+
+**When:** Saturday, September 26, 2026 at 2:30 PM - 6:00 PM
+
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3732292/reservations/new
 
 ## P U R S U E
 
@@ -547,7 +531,7 @@ Detailed event file: `knowledge/events/generated/2026-10-04-p-u-r-s-u-e-e5c34f.m
 
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
-**More information:** https://urbancrest.churchcenter.com/calendar/event/228745978
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3755569/reservations/new
 
 Detailed event file: `knowledge/events/generated/2026-10-04-night-of-worship-choir-2a753e.md`
 
@@ -595,7 +579,7 @@ Detailed event file: `knowledge/events/generated/2026-10-14-wednesday-night-dinn
 
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
-**Registration:** https://urbancrest.churchcenter.com/registrations/events/3791849
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3791849/reservations/new
 
 Detailed event file: `knowledge/events/generated/2026-10-17-urbancrest-women-s-conference-af3c3f.md`
 
@@ -728,7 +712,7 @@ Detailed event file: `knowledge/events/generated/2026-11-11-wednesday-night-dinn
 **Where:** Butler Springs Christian Camp - 3701 State Rte 41
 Hillsboro, OH 45133
 
-**More information:** https://urbancrest.churchcenter.com/calendar/event/230487173
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3790005/reservations/new
 
 Detailed event file: `knowledge/events/generated/2026-11-13-youth-fall-retreat-99f87a.md`
 
@@ -983,6 +967,17 @@ Detailed event file: `knowledge/events/generated/2027-01-10-p-u-r-s-u-e-573975.m
 **More information:** https://urbancrest.churchcenter.com/calendar/event/230122725
 
 Detailed event file: `knowledge/events/generated/2027-01-13-wednesday-night-dinner-ed64ec.md`
+
+## Strength to Stand
+
+**Category:** General Event
+
+**When:** Saturday, January 16, 2027
+
+**Where:** LaConte Center - 2986 Teaster Ln
+Pigeon Forge, TN 37863
+
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3775272/reservations/new
 
 ## P U R S U E
 
@@ -1387,7 +1382,7 @@ Detailed event file: `knowledge/events/generated/2027-04-21-wednesday-night-dinn
 **Where:** Lebanon High School - 1916 Drake Rd
 Lebanon, OH 45036
 
-**More information:** https://urbancrest.churchcenter.com/calendar/event/229172206
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3763678/reservations/new
 
 Detailed event file: `knowledge/events/generated/2027-04-24-3v3-basketball-tournament-d9f0d6.md`
 

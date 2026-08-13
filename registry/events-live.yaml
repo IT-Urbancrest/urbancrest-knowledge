@@ -1,5 +1,5 @@
-version: 1.5.3
-generated_at: '2026-08-13T19:25:18.443918Z'
+version: 1.5.4
+generated_at: '2026-08-13T19:28:33.472121Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
@@ -194,13 +194,8 @@ events:
   uid: ET-31487702-227855427@resources.planningcenteronline.com
   title: Awana 2026-2027
   summary: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
-    any Wednesday at 6:05**
-
-
-    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
-
-
-    A program focusing on learning the B...'
+    any Wednesday at 6:05** Approved Workmen Are Not Ashamed (A.W.A.N.A.) A program focusing on learning the Bible and fun
+    with small age/graded groups. Urbancrest has...'
   start: '2026-08-19T18:15:00-04:00'
   end: '2026-08-19T19:30:00-04:00'
   sort_start_utc: '2026-08-19T22:15:00Z'
@@ -231,36 +226,29 @@ events:
     ***When registering your child, please input 25/26 grade, it will automatically change in August***
 
     Register: https://urbancrest.churchcenter.com/registrations/events/3737699'
-  details: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
-    any Wednesday at 6:05**
-
-    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
-
-    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
-    through 6th grade.
-
-    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm 
-
-    START ANYTIME throughout the year!
-
-    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm. 
-
-    ***When registering your child, please input 25/26 grade, it will automatically change in August***'
-  details_source: planning_center_calendar_api
+  details: "**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person\
+    \ any Wednesday at 6:05** \n\nApproved Workmen Are Not Ashamed (A.W.A.N.A.)\n\nA program focusing on learning the Bible\
+    \ and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.\n\nMeets Wednesdays\
+    \ from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm \n\nSTART ANYTIME throughout\
+    \ the year!\n\nDinners before club each night! We will start serving at 5:30 and close serving at 6:10pm. \n\n***When\
+    \ registering your child, please input 25/26 grade, it will automatically change in August***\n\nRegistration is open."
+  details_source: planning_center_registrations_api
   planning_center_event_instance_id: '227855427'
   planning_center_event_time_id: '31487702'
-  registration_url: https://urbancrest.churchcenter.com/registrations/events/3737699
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3737699/reservations/new
   info_url: https://urbancrest.churchcenter.com/calendar/event/227855427
   image_url: https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg
   ministries:
   - kids
   - men
+  - volunteer
   audiences:
   - children
   - men
   - volunteers
+  - all
   event_category: churchwide_program
-  event_priority: 60
+  event_priority: 80
   collection: main_events
   status: confirmed
   chronological_rank: 7
@@ -271,6 +259,45 @@ events:
   - children
   - men
   knowledge_file: knowledge/events/generated/2026-08-19-awana-2026-2027-5a3ff2.md
+  event_sources:
+  - planning_center_ical
+  - planning_center_calendar_api
+  - planning_center_registrations_api
+  event_source: merged
+  planning_center_signup_id: '3737699'
+  planning_center_signup_time_id: '6256777'
+  registration_open: true
+  registration_closed: false
+  registration_at_maximum_capacity: null
+  registration_open_at: '2026-07-06T04:00:00Z'
+  registration_close_at: null
+  registration_maximum_capacity: null
+  registration_categories:
+  - Kids (4 yrs. - 6th Grade)
+  registration_options:
+  - id: '8537769'
+    name: Clubber
+    price_cents: 0
+    price_currency: USD
+    price_currency_symbol: $
+    price_formatted: '0'
+    at_maximum_capacity: false
+    waitlist: false
+  - id: '8537770'
+    name: Volunteer
+    price_cents: 0
+    price_currency: USD
+    price_currency_symbol: $
+    price_formatted: '0'
+    at_maximum_capacity: false
+    waitlist: false
+  location_structured:
+    name: Urbancrest At Lebanon
+    address: '2634 Drake Road
+
+      Lebanon, OH 45036'
+    latitude: '39.4748875'
+    longitude: '-84.1793592'
 - id: event-04b13efc65307382
   uid: ET-29468516-216277431@resources.planningcenteronline.com
   title: OPEN GYM Pickleball
@@ -302,9 +329,9 @@ events:
 - id: event-6d5b8302174f4169
   uid: ET-29648335-217375495@resources.planningcenteronline.com
   title: Urbancrest Golf Classic
-  summary: '*********************************************************
-
-    Please join us for Urbancrest''s 28th Annual Golf Classic!...'
+  summary: Please join us for Urbancrest's 28th Annual Golf Classic! The Urbancrest Golf Classic is Urbancrest's annual foursome
+    scramble tournament, located at Heatherwoode Golf Club. Each year, we also raise money for a non-profit organization.
+    We are excited to announce this year's...
   start: '2026-08-21T08:30:00-04:00'
   end: '2026-08-21T16:00:00-04:00'
   sort_start_utc: '2026-08-21T12:30:00Z'
@@ -365,16 +392,16 @@ events:
 
 
     If you have any questions about the Urbancrest Golf Classic, please reach out to Mark Daubenmire at mdaubenmire@urbancrest.org.'
-  details: "Please join us for Urbancrest's 28th Annual Golf Classic!\nThe Urbancrest Golf Classic is Urbancrest's annual\
-    \ foursome scramble tournament, located at Heatherwoode Golf Club. \nEach year, we also raise money for a non-profit organization.\
-    \ We are excited to announce this year's donation recipient: A Child's Hope International!\nBe sure to register early\
-    \ to secure your spot, and visit \nclassic.urbancrest.org\n for more information.\n \n\nTournament Details:\nLocation\n\
-    Heatherwoode Golf Club\n88 Heatherwoode Blvd.\nSpringboro, OH 45066\n (\nClick or tap for directions.)\nDate/Schedule\n\
-    Friday, August 21, 2026\n 8:30 AM – Check-in & Driving Range\n 9:30 AM – Shotgun Start\n 2:00 AM – Lunch & Awards\nSponsorship\n\
-    Become a sponsor of the Urbancrest Golf Classic! Please visit \nclassic.urbancrest.org\n \nto make your sponsorship selection.\
-    \ \nIf you have any questions about the Urbancrest Golf Classic, please reach out to Mark Daubenmire at \nmdaubenmire@urbancrest.org\n\
-    ."
-  details_source: planning_center_calendar_api
+  details: "Please join us for Urbancrest's 28th Annual Golf Classic! The Urbancrest Golf Classic is Urbancrest's annual foursome\
+    \ scramble tournament, located at Heatherwoode Golf Club. \n\nEach year, we also raise money for a non-profit organization.\
+    \ We are excited to announce this year's donation recipient: A Child's Hope International!\n\nBe sure to register early\
+    \ to secure your spot, and visit classic.urbancrest.org for more information.\n\nTournament Details:\n\nLocation\nHeatherwoode\
+    \ Golf Club\n88 Heatherwoode Blvd.\nSpringboro, OH 45066 \n( Click or tap for directions.) \n\nDate/Schedule\nFriday,\
+    \ August 21, 2026\n 8:30 AM – Check-in & Driving Range\n 9:30 AM – Shotgun Start\n 2:00 AM – Lunch & Awards\n\nSponsorship\n\
+    Become a sponsor of the Urbancrest Golf Classic! Please visit classic.urbancrest.org to make your sponsorship selection.\
+    \ \n\nIf you have any questions about the Urbancrest Golf Classic, please reach out to Mark Daubenmire at mdaubenmire@urbancrest.org\
+    \ .\n\nRegistration is not currently open."
+  details_source: planning_center_registrations_api
   planning_center_event_instance_id: '217375495'
   planning_center_event_time_id: '29648335'
   info_url: http://classic.urbancrest.org
@@ -393,6 +420,51 @@ events:
   - sports
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-21-urbancrest-golf-classic-4f4169.md
+  event_sources:
+  - planning_center_ical
+  - planning_center_calendar_api
+  - planning_center_registrations_api
+  event_source: merged
+  planning_center_signup_id: '3517003'
+  planning_center_signup_time_id: '5882876'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3517003/reservations/new
+  registration_open: false
+  registration_closed: true
+  registration_at_maximum_capacity: null
+  registration_open_at: null
+  registration_close_at: null
+  registration_maximum_capacity: 72
+  registration_categories:
+  - Sports
+  - Special Events
+  registration_options:
+  - id: '8015568'
+    name: Individual
+    price_cents: 15000
+    price_currency: USD
+    price_currency_symbol: $
+    price_formatted: '150'
+    maximum_capacity: 48
+    available_capacity: 0
+    at_maximum_capacity: true
+    waitlist: false
+  - id: '8015571'
+    name: Team Captain
+    price_cents: 15000
+    price_currency: USD
+    price_currency_symbol: $
+    price_formatted: '150'
+    maximum_capacity: 16
+    available_capacity: 0
+    at_maximum_capacity: true
+    waitlist: false
+  location_structured:
+    name: Heatherwoode Golf Club
+    address: '88 Heatherwoode Blvd
+
+      Springboro, OH 45066'
+    latitude: '39.537854'
+    longitude: '-84.232063'
 - id: event-1d404dab04db0b00
   uid: ET-8762150-164649170@resources.planningcenteronline.com
   title: P U R S U E
@@ -574,6 +646,89 @@ events:
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-26-wednesday-night-dinner-31bf8a.md
+- id: pc-registration-3719897-5110859e1bd0
+  uid: registrations-3719897-6224733@planningcenter
+  title: Wednesday Night Kickoff
+  summary: Join us Wednesday evening, August 26, as we kick off our Wednesday night activities for the school year! All are
+    welcome to enjoy a dinner at 5:30 PM (donations appreciated), and then Awana Programs for kids and adult Bible studies
+    at 6:15 PM, and Youth Group for students in...
+  start: '2026-08-26T21:30:00+00:00'
+  end: '2026-08-27T00:00:00+00:00'
+  sort_start_utc: '2026-08-26T21:30:00Z'
+  sort_end_utc: '2026-08-27T00:00:00Z'
+  display_when: Wednesday, August 26, 2026 at 5:30 PM - 8:00 PM
+  all_day: false
+  location: 'Urbancrest At Lebanon - 2634 Drake Road
+
+    Gymnasium
+
+    Lebanon, OH 45036'
+  location_structured:
+    name: Urbancrest At Lebanon
+    address: '2634 Drake Road
+
+      Gymnasium
+
+      Lebanon, OH 45036'
+    latitude: '39.4748875'
+    longitude: '-84.1793592'
+  description: 'Join us Wednesday evening, August 26, as we kick off our Wednesday night activities for the school year! All
+    are welcome to enjoy a dinner at 5:30 PM (donations appreciated), and then Awana Programs for kids and adult Bible studies
+    at 6:15 PM, and Youth Group for students in grades 7-12 at 6:30 PM.
+
+
+    Reach out to the church office with any questions at office@urbancrest.org .'
+  details: 'Join us Wednesday evening, August 26, as we kick off our Wednesday night activities for the school year! All are
+    welcome to enjoy a dinner at 5:30 PM (donations appreciated), and then Awana Programs for kids and adult Bible studies
+    at 6:15 PM, and Youth Group for students in grades 7-12 at 6:30 PM.
+
+
+    Reach out to the church office with any questions at office@urbancrest.org .
+
+
+    Registration is open.'
+  details_source: planning_center_registrations_api
+  planning_center_signup_id: '3719897'
+  planning_center_signup_time_id: '6224733'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3719897/reservations/new
+  registration_open: true
+  registration_closed: false
+  registration_at_maximum_capacity: null
+  registration_open_at: '2026-06-24T16:24:59Z'
+  registration_close_at: null
+  registration_maximum_capacity: null
+  registration_categories:
+  - Kids (4 yrs. - 6th Grade)
+  - Students (Grades 7-12)
+  - Family
+  - New Here
+  registration_options:
+  - id: '8497557'
+    name: Standard
+    price_cents: 0
+    price_currency: USD
+    price_currency_symbol: $
+    price_formatted: '0'
+    at_maximum_capacity: false
+    waitlist: false
+  info_url: https://urbancrest.churchcenter.com/registrations/events/3719897/reservations/new
+  image_url: https://registrations-production.s3.amazonaws.com/uploads/event/logo/3719897/medium_image-1782318571714.jpeg
+  ministries:
+  - students
+  - kids
+  - family
+  audiences:
+  - students
+  - children
+  - families
+  event_category: student_event
+  event_priority: 80
+  collection: main_events
+  status: published
+  event_source: planning_center_registrations_api
+  event_sources:
+  - planning_center_registrations_api
+  chronological_rank: 14
 - id: event-73b5389e4282128d
   uid: ET-31487702-227855428@resources.planningcenteronline.com
   title: Awana 2026-2027
@@ -647,7 +802,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 14
+  chronological_rank: 15
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-26-awana-2026-2027-82128d.md
@@ -675,7 +830,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 15
+  chronological_rank: 16
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-27-open-gym-pickleball-e0bc06.md
@@ -702,7 +857,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 16
+  chronological_rank: 17
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-30-p-u-r-s-u-e-63faac.md
@@ -730,7 +885,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 17
+  chronological_rank: 18
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-30-sunday-morning-services-9-30-am-service-faf099.md
@@ -758,7 +913,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 18
+  chronological_rank: 19
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-30-sunday-morning-services-11-00-am-service-80f4a3.md
@@ -784,7 +939,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 19
+  chronological_rank: 20
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-01-card-ministry-7202ff.md
@@ -882,7 +1037,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 20
+  chronological_rank: 21
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-02-wednesday-night-dinner-8cbe52.md
@@ -959,10 +1114,104 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 21
+  chronological_rank: 22
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-02-awana-2026-2027-b657f3.md
+- id: pc-registration-3763259-c357fb9bf7e1
+  uid: registrations-3763259-6302878@planningcenter
+  title: 'Engage: New Members Class - Summer 2026'
+  summary: Wondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious
+    to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, September 2! The Engage
+    Class is a gathering that allows...
+  start: '2026-09-02T22:30:00+00:00'
+  end: '2026-09-03T00:00:00+00:00'
+  sort_start_utc: '2026-09-02T22:30:00Z'
+  sort_end_utc: '2026-09-03T00:00:00Z'
+  display_when: Wednesday, September 2, 2026 at 6:30 PM - 8:00 PM
+  all_day: false
+  location: 'Urbancrest At Lebanon - 2634 Drake Road
+
+    Room 201
+
+    Lebanon, OH 45036'
+  location_structured:
+    name: Urbancrest At Lebanon
+    address: '2634 Drake Road
+
+      Room 201
+
+      Lebanon, OH 45036'
+    latitude: '39.4748875'
+    longitude: '-84.1793592'
+  description: 'Wondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you''re
+    curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, September 2!
+
+
+    The Engage Class is a gathering that allows individuals and families to explore and pray through becoming members of our
+    church. This class is designed to have teaching, interaction, and a time to hear the vision for several of our ministries
+    that you can get involved in!
+
+
+    Sign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.org .'
+  details: 'Wondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you''re curious
+    to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, September 2!
+
+
+    The Engage Class is a gathering that allows individuals and families to explore and pray through becoming members of our
+    church. This class is designed to have teaching, interaction, and a time to hear the vision for several of our ministries
+    that you can get involved in!
+
+
+    Sign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.org .
+
+
+    Registration is open.'
+  details_source: planning_center_registrations_api
+  planning_center_signup_id: '3763259'
+  planning_center_signup_time_id: '6302878'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3763259/reservations/new
+  registration_open: true
+  registration_closed: false
+  registration_at_maximum_capacity: null
+  registration_open_at: '2026-07-02T04:00:00Z'
+  registration_close_at: '2026-09-02T16:00:00Z'
+  registration_maximum_capacity: null
+  registration_categories:
+  - Family
+  - Special Events
+  - New Here
+  registration_options:
+  - id: '8595770'
+    name: Adult
+    price_cents: 0
+    price_currency: USD
+    price_currency_symbol: $
+    price_formatted: '0'
+    at_maximum_capacity: false
+    waitlist: false
+  - id: '8595771'
+    name: Child
+    price_cents: 0
+    price_currency: USD
+    price_currency_symbol: $
+    price_formatted: '0'
+    at_maximum_capacity: false
+    waitlist: false
+  info_url: https://urbancrest.churchcenter.com/registrations/events/3763259/reservations/new
+  image_url: https://registrations-production.s3.amazonaws.com/uploads/event/logo/3763259/medium_image-1725375110939.jpeg
+  ministries:
+  - family
+  audiences:
+  - families
+  event_category: family_event
+  event_priority: 80
+  collection: main_events
+  status: published
+  event_source: planning_center_registrations_api
+  event_sources:
+  - planning_center_registrations_api
+  chronological_rank: 23
 - id: event-ec88cabfa3473ecc
   uid: ET-29468516-216277433@resources.planningcenteronline.com
   title: OPEN GYM Pickleball
@@ -987,7 +1236,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 22
+  chronological_rank: 24
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-03-open-gym-pickleball-473ecc.md
@@ -1016,10 +1265,81 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 23
+  chronological_rank: 25
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-05-men-s-breakfast-336f62.md
+- id: pc-registration-3613427-1498a63e7156
+  uid: registrations-3613427-6039111@planningcenter
+  title: One Service Only at 9:30 AM – Labor Day Weekend
+  summary: 'Please be advised: Sunday morning, September 6, we will have ONE, family-style Worship service only at 9:30 AM
+    in light of Labor Day weekend. There will be no Sunday School classes on this day – bring the whole family to service
+    and we will all Worship together! Please mark...'
+  start: '2026-09-06T13:30:00+00:00'
+  end: '2026-09-06T15:00:00+00:00'
+  sort_start_utc: '2026-09-06T13:30:00Z'
+  sort_end_utc: '2026-09-06T15:00:00Z'
+  display_when: Sunday, September 6, 2026 at 9:30 AM - 11:00 AM
+  all_day: false
+  location: 'Urbancrest At Lebanon - 2634 Drake Road
+
+    Worship Center
+
+    Lebanon, OH 45036'
+  location_structured:
+    name: Urbancrest At Lebanon
+    address: '2634 Drake Road
+
+      Worship Center
+
+      Lebanon, OH 45036'
+    latitude: '39.4748875'
+    longitude: '-84.1793592'
+  description: "Please be advised: Sunday morning, September 6, we will have ONE, family-style Worship service only at 9:30\
+    \ AM in light of Labor Day weekend. There will be no Sunday School classes on this day – bring the whole family to service\
+    \ and we will all Worship together!\n\nPlease mark your calendars and plan to join us! \n\nReach out to the Urbancrest\
+    \ office with any questions at office@urbancrest.org ."
+  details: "Please be advised: Sunday morning, September 6, we will have ONE, family-style Worship service only at 9:30 AM\
+    \ in light of Labor Day weekend. There will be no Sunday School classes on this day – bring the whole family to service\
+    \ and we will all Worship together!\n\nPlease mark your calendars and plan to join us! \n\nReach out to the Urbancrest\
+    \ office with any questions at office@urbancrest.org .\n\nRegistration is open."
+  details_source: planning_center_registrations_api
+  planning_center_signup_id: '3613427'
+  planning_center_signup_time_id: '6039111'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3613427/reservations/new
+  registration_open: true
+  registration_closed: false
+  registration_at_maximum_capacity: null
+  registration_open_at: '2026-07-07T16:11:16Z'
+  registration_close_at: null
+  registration_maximum_capacity: null
+  registration_categories:
+  - Sunday Morning
+  registration_options:
+  - id: '8249190'
+    name: Standard
+    price_cents: 0
+    price_currency: USD
+    price_currency_symbol: $
+    price_formatted: '0'
+    at_maximum_capacity: false
+    waitlist: false
+  info_url: https://urbancrest.churchcenter.com/registrations/events/3613427/reservations/new
+  image_url: https://registrations-production.s3.amazonaws.com/uploads/event/logo/3613427/medium_image-1777302371887.jpeg
+  ministries:
+  - worship
+  - family
+  audiences:
+  - all
+  - families
+  event_category: worship_event
+  event_priority: 80
+  collection: main_events
+  status: published
+  event_source: planning_center_registrations_api
+  event_sources:
+  - planning_center_registrations_api
+  chronological_rank: 26
 - id: event-ee5bfd5ead7f42b9
   uid: ET-8762150-166271990@resources.planningcenteronline.com
   title: P U R S U E
@@ -1043,7 +1363,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 24
+  chronological_rank: 27
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-06-p-u-r-s-u-e-7f42b9.md
@@ -1071,7 +1391,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 25
+  chronological_rank: 28
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-06-sunday-morning-services-9-30-am-service-3e5884.md
@@ -1099,7 +1419,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 26
+  chronological_rank: 29
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-06-sunday-morning-services-11-00-am-service-8a985a.md
@@ -1197,7 +1517,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 27
+  chronological_rank: 30
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-09-wednesday-night-dinner-f2ed46.md
@@ -1274,7 +1594,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 28
+  chronological_rank: 31
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-09-awana-2026-2027-ca71ea.md
@@ -1302,7 +1622,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 29
+  chronological_rank: 32
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-10-open-gym-pickleball-fe7030.md
@@ -1329,94 +1649,10 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 30
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-09-13-p-u-r-s-u-e-300fb0.md
-- id: event-a417c1725cb32add
-  uid: ET-9127131-167074215@resources.planningcenteronline.com
-  title: 'Sunday Morning Services: 9:30 AM Service'
-  summary: Join us in person or online!...
-  start: '2026-09-13T09:30:00-04:00'
-  end: '2026-09-13T10:40:00-04:00'
-  sort_start_utc: '2026-09-13T13:30:00Z'
-  sort_end_utc: '2026-09-13T14:40:00Z'
-  display_when: Sunday, September 13, 2026, 9:30 AM to 10:40 AM
-  all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
-    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
-  planning_center_event_instance_id: '167074215'
-  planning_center_event_time_id: '9127131'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/167074215
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 31
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-09-13-sunday-morning-services-9-30-am-service-b32add.md
-- id: event-d86eca8c10153e7f
-  uid: ET-9127132-167074215@resources.planningcenteronline.com
-  title: 'Sunday Morning Services: 11:00 AM Service'
-  summary: Join us in person or online!...
-  start: '2026-09-13T11:00:00-04:00'
-  end: '2026-09-13T12:10:00-04:00'
-  sort_start_utc: '2026-09-13T15:00:00Z'
-  sort_end_utc: '2026-09-13T16:10:00Z'
-  display_when: Sunday, September 13, 2026, 11 AM to 12:10 PM
-  all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
-    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
-  planning_center_event_instance_id: '167074215'
-  planning_center_event_time_id: '9127132'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/167074215
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 32
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-09-13-sunday-morning-services-11-00-am-service-153e7f.md
-- id: event-e0476e22fc77387f
-  uid: ET-16193422-167230919@resources.planningcenteronline.com
-  title: Monthly Baskets of Hope - Volunteers
-  summary: This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
-  start: '2026-09-16T16:30:00-04:00'
-  end: '2026-09-16T18:30:00-04:00'
-  sort_start_utc: '2026-09-16T20:30:00Z'
-  sort_end_utc: '2026-09-16T22:30:00Z'
-  display_when: Wednesday, September 16, 2026, 4:30 PM to 6:30 PM
-  all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
-  planning_center_event_instance_id: '167230919'
-  planning_center_event_time_id: '16193422'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/167230919
-  ministries:
-  - churchwide
-  audiences:
-  - families
-  - volunteers
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
   chronological_rank: 33
   next_for_ministries: []
   next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-09-16-monthly-baskets-of-hope-volunteers-77387f.md
+  knowledge_file: knowledge/events/generated/2026-09-13-p-u-r-s-u-e-300fb0.md
 - id: event-8536fe3c9889e119
   uid: ET-31870601-230122708@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -1515,34 +1751,6 @@ events:
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-16-wednesday-night-dinner-89e119.md
-- id: event-cd61a9d143556aa9
-  uid: ET-29468516-216277435@resources.planningcenteronline.com
-  title: OPEN GYM Pickleball
-  summary: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
-  start: '2026-09-17T18:00:00-04:00'
-  end: '2026-09-17T20:00:00-04:00'
-  sort_start_utc: '2026-09-17T22:00:00Z'
-  sort_end_utc: '2026-09-18T00:00:00Z'
-  display_when: Thursday, September 17, 2026, 6 PM to 8 PM
-  all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to
-    attend and open to anyone ages 13+.
-  planning_center_event_instance_id: '216277435'
-  planning_center_event_time_id: '29468516'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/216277435
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 35
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-09-17-open-gym-pickleball-556aa9.md
 - id: event-ffac0db3c7f8f18d
   uid: ET-8762150-167708212@resources.planningcenteronline.com
   title: P U R S U E
@@ -1566,38 +1774,10 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 36
+  chronological_rank: 35
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-20-p-u-r-s-u-e-f8f18d.md
-- id: event-66c2f7334325697d
-  uid: ET-9127131-167708219@resources.planningcenteronline.com
-  title: 'Sunday Morning Services: 9:30 AM Service'
-  summary: Join us in person or online!...
-  start: '2026-09-20T09:30:00-04:00'
-  end: '2026-09-20T10:40:00-04:00'
-  sort_start_utc: '2026-09-20T13:30:00Z'
-  sort_end_utc: '2026-09-20T14:40:00Z'
-  display_when: Sunday, September 20, 2026, 9:30 AM to 10:40 AM
-  all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
-    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
-  planning_center_event_instance_id: '167708219'
-  planning_center_event_time_id: '9127131'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/167708219
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 37
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-09-20-sunday-morning-services-9-30-am-service-25697d.md
 - id: event-19c7f09112c7bf0d
   uid: ET-31870601-230122709@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -1692,10 +1872,68 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 38
+  chronological_rank: 36
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-23-wednesday-night-dinner-c7bf0d.md
+- id: pc-registration-3732292-8b530c1d53f6
+  uid: registrations-3732292-6247650@planningcenter
+  title: Waynesville Fall Fest
+  summary: We will be meeting at the church prior to 2:30 to leave at 2:30 for the Waynesville Fall Fest!!! We will be staying
+    for the remainder of their opening until 6!!! The costs is $13 plus any food or arcade games you want to play there! If
+    you have any questions please do not...
+  start: '2026-09-26T18:30:00+00:00'
+  end: '2026-09-26T22:00:00+00:00'
+  sort_start_utc: '2026-09-26T18:30:00Z'
+  sort_end_utc: '2026-09-26T22:00:00Z'
+  display_when: Saturday, September 26, 2026 at 2:30 PM - 6:00 PM
+  all_day: false
+  location: ''
+  location_structured: {}
+  description: We will be meeting at the church prior to 2:30 to leave at 2:30 for the Waynesville Fall Fest!!! We will be
+    staying for the remainder of their opening until 6!!! The costs is $13 plus any food or arcade games you want to play
+    there! If you have any questions please do not hesitate to reach out!!!
+  details: 'We will be meeting at the church prior to 2:30 to leave at 2:30 for the Waynesville Fall Fest!!! We will be staying
+    for the remainder of their opening until 6!!! The costs is $13 plus any food or arcade games you want to play there! If
+    you have any questions please do not hesitate to reach out!!!
+
+
+    Registration is open.'
+  details_source: planning_center_registrations_api
+  planning_center_signup_id: '3732292'
+  planning_center_signup_time_id: '6247650'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3732292/reservations/new
+  registration_open: true
+  registration_closed: false
+  registration_at_maximum_capacity: null
+  registration_open_at: '2026-07-01T18:07:26Z'
+  registration_close_at: null
+  registration_maximum_capacity: null
+  registration_categories:
+  - Students (Grades 7-12)
+  registration_options:
+  - id: '8526148'
+    name: Waynesville Fall Fest
+    price_cents: 1300
+    price_currency: USD
+    price_currency_symbol: $
+    price_formatted: '13'
+    at_maximum_capacity: false
+    waitlist: false
+  info_url: https://urbancrest.churchcenter.com/registrations/events/3732292/reservations/new
+  image_url: https://registrations-production.s3.amazonaws.com/uploads/event/logo/3732292/medium_image-1782929258210.jpeg
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: student_event
+  event_priority: 80
+  collection: main_events
+  status: published
+  event_source: planning_center_registrations_api
+  event_sources:
+  - planning_center_registrations_api
+  chronological_rank: 37
 - id: event-9e2c9a2b0c724217
   uid: ET-8762150-168372882@resources.planningcenteronline.com
   title: P U R S U E
@@ -1719,7 +1957,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 39
+  chronological_rank: 38
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-27-p-u-r-s-u-e-724217.md
@@ -1749,7 +1987,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 40
+  chronological_rank: 39
   next_for_ministries:
   - women
   next_for_audiences:
@@ -1849,7 +2087,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 41
+  chronological_rank: 40
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-30-wednesday-night-dinner-36f49b.md
@@ -1878,7 +2116,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 42
+  chronological_rank: 41
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-03-men-s-breakfast-dec2d7.md
@@ -1905,15 +2143,16 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 43
+  chronological_rank: 42
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-04-p-u-r-s-u-e-e5c34f.md
 - id: event-afab721d8e2a753e
   uid: ET-31639046-228745978@resources.planningcenteronline.com
   title: Night of Worship Choir
-  summary: On Sunday, October 4, Urbancrest will host a Night of Worship featuring the Cedarville University Orchestra alongside
-    the Urbancrest Worship Team....
+  summary: On Sunday, October 4 , Urbancrest will host a Night of Worship featuring the Cedarville University Orchestra alongside
+    the Urbancrest Worship Team . It promises to be an incredible evening of celebrating God's greatness through powerful
+    congregational worship. To make the...
   start: '2026-10-04T18:00:00-04:00'
   end: '2026-10-04T19:30:00-04:00'
   sort_start_utc: '2026-10-04T22:00:00Z'
@@ -1921,43 +2160,85 @@ events:
   display_when: Sunday, October 4, 2026, 6 PM to 7:30 PM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: 'On Sunday, October 4, Urbancrest will host a Night of Worship featuring the Cedarville University Orchestra
-    alongside the Urbancrest Worship Team. It promises to be an incredible evening of celebrating God''s greatness through
+  description: 'On Sunday, October 4 , Urbancrest will host a Night of Worship featuring the Cedarville University Orchestra
+    alongside the Urbancrest Worship Team . It promises to be an incredible evening of celebrating God''s greatness through
     powerful congregational worship.
 
 
-    To make the evening even more meaningful, we''re putting together a Special Event Choir, and we''d love for you to join
+    To make the evening even more meaningful, we''re putting together a Special Event Choir , and we''d love for you to join
     us!
 
 
     Whether you''ve sung in choir before or it''s been years since you''ve stood on the risers, this is a wonderful opportunity
     to worship together and lead our church family in lifting high the name of Jesus. You don''t have to be a professional
-    singer-just someone who enjoys worshiping through music and is willing to prepare the music with us.'
-  details: "On \nSunday, October 4\n, Urbancrest will host a \nNight of Worship\n featuring the \nCedarville University Orchestra\n\
-    \ alongside the \nUrbancrest Worship Team\n. It promises to be an incredible evening of celebrating God's greatness through\
-    \ powerful congregational worship.\nTo make the evening even more meaningful, we're putting together a \nSpecial Event\
-    \ Choir\n, and we'd love for you to join us!\nWhether you've sung in choir before or it's been years since you've stood\
-    \ on the risers, this is a wonderful opportunity to worship together and lead our church family in lifting high the name\
-    \ of Jesus. You don't have to be a professional singer-just someone who enjoys worshiping through music and is willing\
-    \ to prepare the music with us."
-  details_source: planning_center_calendar_api
+    singer—just someone who enjoys worshiping through music and is willing to prepare the music with us.'
+  details: 'On Sunday, October 4 , Urbancrest will host a Night of Worship featuring the Cedarville University Orchestra alongside
+    the Urbancrest Worship Team . It promises to be an incredible evening of celebrating God''s greatness through powerful
+    congregational worship.
+
+
+    To make the evening even more meaningful, we''re putting together a Special Event Choir , and we''d love for you to join
+    us!
+
+
+    Whether you''ve sung in choir before or it''s been years since you''ve stood on the risers, this is a wonderful opportunity
+    to worship together and lead our church family in lifting high the name of Jesus. You don''t have to be a professional
+    singer—just someone who enjoys worshiping through music and is willing to prepare the music with us.
+
+
+    Registration is open.'
+  details_source: planning_center_registrations_api
   planning_center_event_instance_id: '228745978'
   planning_center_event_time_id: '31639046'
   info_url: https://urbancrest.churchcenter.com/calendar/event/228745978
   image_url: https://registrations-production.s3.amazonaws.com/uploads/event/logo/3755569/medium_image-1784126802561.jpeg
   ministries:
   - worship
+  - family
   audiences:
   - families
+  - all
   event_category: ministry_event
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 44
+  chronological_rank: 43
   next_for_ministries:
   - worship
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-04-night-of-worship-choir-2a753e.md
+  event_sources:
+  - planning_center_ical
+  - planning_center_calendar_api
+  - planning_center_registrations_api
+  event_source: merged
+  planning_center_signup_id: '3755569'
+  planning_center_signup_time_id: '6289171'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3755569/reservations/new
+  registration_open: true
+  registration_closed: false
+  registration_at_maximum_capacity: null
+  registration_open_at: '2026-07-15T14:44:01Z'
+  registration_close_at: null
+  registration_maximum_capacity: null
+  registration_categories:
+  - Special Events
+  registration_options:
+  - id: '8577517'
+    name: Standard
+    price_cents: 0
+    price_currency: USD
+    price_currency_symbol: $
+    price_formatted: '0'
+    at_maximum_capacity: false
+    waitlist: false
+  location_structured:
+    name: Urbancrest At Lebanon
+    address: '2634 Drake Road
+
+      Lebanon, OH 45036'
+    latitude: '39.4748875'
+    longitude: '-84.1793592'
 - id: event-99e86fed5a9fc5ad
   uid: ET-31870601-230122711@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -2052,7 +2333,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 45
+  chronological_rank: 44
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-07-wednesday-night-dinner-9fc5ad.md
@@ -2079,7 +2360,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 46
+  chronological_rank: 45
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-11-p-u-r-s-u-e-8f8f87.md
@@ -2177,7 +2458,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 47
+  chronological_rank: 46
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-14-wednesday-night-dinner-d9103e.md
@@ -2185,7 +2466,8 @@ events:
   uid: ET-31936721-230615455@resources.planningcenteronline.com
   title: Urbancrest Women's Conference
   summary: Join us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, October 17 for a morning of encouragement,
-    worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God....
+    worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God. This year’s keynote
+    speaker is Barb Roose , who will...
   start: '2026-10-17T09:00:00-04:00'
   end: '2026-10-17T15:00:00-04:00'
   sort_start_utc: '2026-10-17T13:00:00Z'
@@ -2205,15 +2487,23 @@ events:
     plans to be part of this special day together.
 
     Register: https://urbancrest.churchcenter.com/registrations/events/3791849'
-  details: "Join us for the Urbancrest Women’s Conference 'Known & Loved' on \nSaturday, October 17\n for a morning of encouragement,\
-    \ worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.\nThis year’s keynote\
-    \ speaker is \nBarb Roose\n, who will challenge and encourage women to grow in their faith and walk confidently in God’s\
-    \ truth.\nDoors open at \n8:00 AM\n, and the cost is just \n$5\n, which includes lunch (more details coming soon). Invite\
-    \ a friend and make plans to be part of this special day together."
-  details_source: planning_center_calendar_api
+  details: 'Join us for the Urbancrest Women’s Conference ''Known & Loved'' on Saturday, October 17 for a morning of encouragement,
+    worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.
+
+
+    This year’s keynote speaker is Barb Roose , who will challenge and encourage women to grow in their faith and walk confidently
+    in God’s truth.
+
+
+    Doors open at 8:00 AM , and the cost is just $5 , which includes lunch (more details coming soon). Invite a friend and
+    make plans to be part of this special day together.
+
+
+    Registration is open.'
+  details_source: planning_center_registrations_api
   planning_center_event_instance_id: '230615455'
   planning_center_event_time_id: '31936721'
-  registration_url: https://urbancrest.churchcenter.com/registrations/events/3791849
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3791849/reservations/new
   info_url: https://urbancrest.churchcenter.com/calendar/event/230615455
   image_url: https://registrations-production.s3.amazonaws.com/uploads/event/logo/3791849/medium_image-1785669189641.jpeg
   ministries:
@@ -2223,14 +2513,47 @@ events:
   audiences:
   - men
   - women
+  - all
   event_category: major_event
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 48
+  chronological_rank: 47
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-17-urbancrest-women-s-conference-af3c3f.md
+  event_sources:
+  - planning_center_ical
+  - planning_center_calendar_api
+  - planning_center_registrations_api
+  event_source: merged
+  planning_center_signup_id: '3791849'
+  planning_center_signup_time_id: '6363614'
+  registration_open: true
+  registration_closed: false
+  registration_at_maximum_capacity: null
+  registration_open_at: '2026-08-02T11:12:58Z'
+  registration_close_at: '2026-10-12T04:00:00Z'
+  registration_maximum_capacity: null
+  registration_categories: []
+  registration_options:
+  - id: '8664547'
+    name: Standard
+    price_cents: 0
+    price_currency: USD
+    price_currency_symbol: $
+    price_formatted: '0'
+    at_maximum_capacity: false
+    waitlist: false
+  location_structured:
+    name: Urbancrest At Lebanon
+    address: '2634 Drake Road
+
+      Worship Center
+
+      Lebanon, OH 45036'
+    latitude: '39.4748875'
+    longitude: '-84.1793592'
 - id: event-9d496596f1bf84ac
   uid: ET-27323186-203958381@resources.planningcenteronline.com
   title: Women's Conference
@@ -2259,7 +2582,7 @@ events:
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 49
+  chronological_rank: 48
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-17-women-s-conference-bf84ac.md
@@ -2286,7 +2609,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 50
+  chronological_rank: 49
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-18-p-u-r-s-u-e-2350e7.md
@@ -2384,7 +2707,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 51
+  chronological_rank: 50
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-21-wednesday-night-dinner-0edf1f.md
@@ -2411,7 +2734,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 52
+  chronological_rank: 51
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-25-p-u-r-s-u-e-3a39cd.md
@@ -2509,7 +2832,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 53
+  chronological_rank: 52
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-28-wednesday-night-dinner-acac27.md
@@ -2536,7 +2859,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 54
+  chronological_rank: 53
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-01-p-u-r-s-u-e-96a55e.md
@@ -2634,7 +2957,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 55
+  chronological_rank: 54
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-04-wednesday-night-dinner-55fdc7.md
@@ -2663,7 +2986,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 56
+  chronological_rank: 55
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-07-men-s-breakfast-b349ea.md
@@ -2690,7 +3013,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 57
+  chronological_rank: 56
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-08-p-u-r-s-u-e-4c1a4d.md
@@ -2788,14 +3111,15 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 58
+  chronological_rank: 57
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-11-wednesday-night-dinner-af1c1c.md
 - id: event-1c0771e7f499f87a
   uid: ET-31924846-230487173@resources.planningcenteronline.com
   title: Youth Fall Retreat
-  summary: November 13-15, 2026 is a weekend you will not forget!
+  summary: November 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area of
+    our lives!
   start: '2026-11-13'
   end: '2026-11-16'
   sort_start_utc: '2026-11-13T05:00:00Z'
@@ -2819,10 +3143,46 @@ events:
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 59
+  chronological_rank: 58
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-13-youth-fall-retreat-99f87a.md
+  event_sources:
+  - planning_center_ical
+  - planning_center_registrations_api
+  event_source: merged
+  planning_center_signup_id: '3790005'
+  planning_center_signup_time_id: '6359723'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3790005/reservations/new
+  registration_open: true
+  registration_closed: false
+  registration_at_maximum_capacity: null
+  registration_open_at: '2026-07-31T14:40:11Z'
+  registration_close_at: null
+  registration_maximum_capacity: null
+  registration_categories: []
+  registration_options:
+  - id: '8660665'
+    name: Students
+    price_cents: 13000
+    price_currency: USD
+    price_currency_symbol: $
+    price_formatted: '130'
+    at_maximum_capacity: false
+    waitlist: false
+  details: 'November 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area
+    of our lives!
+
+
+    Registration is open.'
+  details_source: planning_center_registrations_api
+  location_structured:
+    name: Butler Springs Christian Camp
+    address: '3701 State Rte 41
+
+      Hillsboro, OH 45133'
+    latitude: '39.113261'
+    longitude: '-83.378668'
 - id: event-1652bc35e5b86e1d
   uid: ET-8762150-172162011@resources.planningcenteronline.com
   title: P U R S U E
@@ -2846,7 +3206,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 60
+  chronological_rank: 59
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-15-p-u-r-s-u-e-b86e1d.md
@@ -2944,7 +3304,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 61
+  chronological_rank: 60
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-18-wednesday-night-dinner-cf53fb.md
@@ -2971,7 +3331,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 62
+  chronological_rank: 61
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-22-p-u-r-s-u-e-c3d97b.md
@@ -3069,7 +3429,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 63
+  chronological_rank: 62
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-25-wednesday-night-dinner-77d08c.md
@@ -3096,7 +3456,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 64
+  chronological_rank: 63
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-29-p-u-r-s-u-e-80f80e.md
@@ -3194,7 +3554,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 65
+  chronological_rank: 64
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-02-wednesday-night-dinner-809fdf.md
@@ -3223,7 +3583,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 66
+  chronological_rank: 65
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-05-men-s-breakfast-549ccc.md
@@ -3250,7 +3610,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 67
+  chronological_rank: 66
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-06-p-u-r-s-u-e-e5b958.md
@@ -3279,7 +3639,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 68
+  chronological_rank: 67
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-06-women-s-christmas-event-d6795d.md
@@ -3377,7 +3737,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 69
+  chronological_rank: 68
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-09-wednesday-night-dinner-6f6ed6.md
@@ -3404,7 +3764,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 70
+  chronological_rank: 69
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-13-p-u-r-s-u-e-e9bfa2.md
@@ -3502,7 +3862,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 71
+  chronological_rank: 70
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-16-wednesday-night-dinner-d35842.md
@@ -3529,7 +3889,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 72
+  chronological_rank: 71
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-20-p-u-r-s-u-e-0fd347.md
@@ -3627,7 +3987,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 73
+  chronological_rank: 72
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-23-wednesday-night-dinner-8995f6.md
@@ -3654,7 +4014,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 74
+  chronological_rank: 73
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-27-p-u-r-s-u-e-440985.md
@@ -3752,7 +4112,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 75
+  chronological_rank: 74
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-30-wednesday-night-dinner-85ac1d.md
@@ -3781,7 +4141,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 76
+  chronological_rank: 75
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-02-men-s-breakfast-3d2c83.md
@@ -3808,7 +4168,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 77
+  chronological_rank: 76
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-03-p-u-r-s-u-e-b9a311.md
@@ -3906,7 +4266,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 78
+  chronological_rank: 77
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-06-wednesday-night-dinner-cd86db.md
@@ -3933,7 +4293,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 79
+  chronological_rank: 78
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-10-p-u-r-s-u-e-573975.md
@@ -4031,10 +4391,89 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 80
+  chronological_rank: 79
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-13-wednesday-night-dinner-ed64ec.md
+- id: pc-registration-3775272-e3627f27396c
+  uid: registrations-3775272-6327882@planningcenter
+  title: Strength to Stand
+  summary: Deadline to sign up is September 30th!!!
+  start: '2027-01-16T23:00:00+00:00'
+  end: '2027-01-19T00:00:00+00:00'
+  sort_start_utc: '2027-01-16T23:00:00Z'
+  sort_end_utc: '2027-01-19T00:00:00Z'
+  display_when: Saturday, January 16, 2027
+  all_day: true
+  location: 'LaConte Center - 2986 Teaster Ln
+
+    Pigeon Forge, TN 37863'
+  location_structured:
+    name: LaConte Center
+    address: '2986 Teaster Ln
+
+      Pigeon Forge, TN 37863'
+    latitude: '35.797711'
+    longitude: '-83.562142'
+  description: Deadline to sign up is September 30th!!!
+  details: 'Deadline to sign up is September 30th!!!
+
+
+    Registration is open.'
+  details_source: planning_center_registrations_api
+  planning_center_signup_id: '3775272'
+  planning_center_signup_time_id: '6327882'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3775272/reservations/new
+  registration_open: true
+  registration_closed: false
+  registration_at_maximum_capacity: null
+  registration_open_at: '2026-07-24T04:00:00Z'
+  registration_close_at: null
+  registration_maximum_capacity: null
+  registration_categories: []
+  registration_options:
+  - id: '8623472'
+    name: STS Youth Guy
+    price_cents: 25000
+    price_currency: USD
+    price_currency_symbol: $
+    price_formatted: '250'
+    maximum_capacity: 22
+    available_capacity: 19
+    at_maximum_capacity: false
+    waitlist: false
+  - id: '8623473'
+    name: STS Youth Girl
+    price_cents: 25000
+    price_currency: USD
+    price_currency_symbol: $
+    price_formatted: '250'
+    maximum_capacity: 22
+    available_capacity: 18
+    at_maximum_capacity: false
+    waitlist: false
+  - id: '8623476'
+    name: STS Youth Adult Leader
+    price_cents: 0
+    price_currency: USD
+    price_currency_symbol: $
+    price_formatted: '0'
+    maximum_capacity: 12
+    available_capacity: 12
+    at_maximum_capacity: false
+    waitlist: false
+  info_url: https://urbancrest.churchcenter.com/registrations/events/3775272/reservations/new
+  image_url: https://registrations-production.s3.amazonaws.com/uploads/event/logo/3775272/medium_image-1784920483707.jpeg
+  ministries: []
+  audiences: []
+  event_category: general_event
+  event_priority: 80
+  collection: main_events
+  status: published
+  event_source: planning_center_registrations_api
+  event_sources:
+  - planning_center_registrations_api
+  chronological_rank: 80
 - id: event-8029c470e3849556
   uid: ET-8762150-177521375@resources.planningcenteronline.com
   title: P U R S U E
@@ -5927,8 +6366,8 @@ events:
 - id: event-744384e5b1d9f0d6
   uid: ET-31705455-229172206@resources.planningcenteronline.com
   title: 3V3 Basketball Tournament
-  summary: 100% of proceeds go toward sending students to Youth Summer Camp - helping make camp more affordable and giving
-    more students the chance to attend....
+  summary: 100% of proceeds go toward sending students to Youth Summer Camp — helping make camp more affordable and giving
+    more students the chance to attend. Gather your team, enjoy some friendly competition, and help invest in the next generation.
   start: '2027-04-24T12:00:00-04:00'
   end: '2027-04-24T19:00:00-04:00'
   sort_start_utc: '2027-04-24T16:00:00Z'
@@ -5956,6 +6395,45 @@ events:
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-24-3v3-basketball-tournament-d9f0d6.md
+  event_sources:
+  - planning_center_ical
+  - planning_center_registrations_api
+  event_source: merged
+  planning_center_signup_id: '3763678'
+  planning_center_signup_time_id: '6303778'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3763678/reservations/new
+  registration_open: false
+  registration_closed: true
+  registration_at_maximum_capacity: null
+  registration_open_at: '2027-01-01T05:00:00Z'
+  registration_close_at: null
+  registration_maximum_capacity: null
+  registration_categories:
+  - Sports
+  registration_options:
+  - id: '8596636'
+    name: Basketball Entry
+    price_cents: 10000
+    price_currency: USD
+    price_currency_symbol: $
+    price_formatted: '100'
+    at_maximum_capacity: false
+    waitlist: false
+  details: '100% of proceeds go toward sending students to Youth Summer Camp — helping make camp more affordable and giving
+    more students the chance to attend. Gather your team, enjoy some friendly competition, and help invest in the next generation.
+
+
+    Registration is not currently open.'
+  details_source: planning_center_registrations_api
+  location_structured:
+    name: Lebanon High School
+    address: '1916 Drake Rd
+
+      Main Gym
+
+      Lebanon, OH 45036'
+    latitude: '39.464553'
+    longitude: '-84.176202'
 - id: event-f6f8b5556e95a8d5
   uid: ET-8762150-186242939@resources.planningcenteronline.com
   title: P U R S U E
@@ -8076,11 +8554,10 @@ registrations_api:
   status: ok
   api_version: '2025-05-01'
   signup_time_strategy: next_signup_time_then_signup_times_preserve_relationship_linkage
-  future_signup_count: 0
-  added_registration_only_events: 0
-  enriched_existing_events: 0
-  category_allowlist:
-  - website
+  future_signup_count: 11
+  added_registration_only_events: 5
+  enriched_existing_events: 6
+  category_allowlist: []
   category_denylist: []
   signup_count_received: 20
   relationship_linkage_counts:
@@ -8094,8 +8571,7 @@ registrations_api:
     categories_with_linkage: 15
     selection_types_relationship_present: 20
     selection_types_with_linkage: 20
-  skipped_signup_count: 20
+  skipped_signup_count: 9
   skipped_reasons:
-    category_filtered: 11
     no_current_or_future_signup_time_within_lookahead: 9
   page_count: 1

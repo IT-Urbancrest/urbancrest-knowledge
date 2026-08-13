@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.9.7",
-  "generated_at": "2026-08-13T19:25:19.801641Z",
+  "generated_at": "2026-08-13T19:28:34.695658Z",
   "timezone": "America/New_York",
   "record_count": 409,
   "config": {
@@ -2888,8 +2888,8 @@
       "record_type": "event",
       "path": "knowledge/events/generated/2026-08-21-urbancrest-golf-classic-4f4169.md",
       "title": "Urbancrest Golf Classic",
-      "summary": "*********************************************************\nPlease join us for Urbancrest's 28th Annual Golf Classic!...",
-      "content": "*********************************************************\nPlease join us for Urbancrest's 28th Annual Golf Classic!\n*********************************************************\n\nThe Urbancrest Golf Classic is Urbancrest's annual foursome scramble tournament, located at Heatherwoode Golf Club.\n\nEach year, we also raise money for a non-profit organization. We are excited to announce this year's donation recipient: A Child's Hope International!\n\nBe sure to register early to secure your spot, and visit classic.urbancrest.org ( http://classic.urbancrest.org ) for more information.\n\nTournament Details:\n\nLocation\nHeatherwoode Golf Club\n88 Heatherwoode Blvd.\nSpringboro, OH 45066 ( https://www.google.com/maps/place/Heatherwoode+Golf+Club/@39.5378539,-84.2320634,15z/data=!4m2!3m1!1s0x0:0xaba6d7afa167d970?ved=2ahUKEwjAq-v17IvhAhVP1VkKHSjzA-EQ_BIwCnoECAAQCA )\n(Click or tap for directions.)\n\nDate/Schedule\nFriday, August 21, 2026\n8:30 AM – Check-in & Driving Range\n9:30 AM – Shotgun Start\n2:00 AM – Lunch & Awards\n\nSponsorship\nBecome a sponsor of the Urbancrest Golf Classic! Please visit classic.urbancrest.org ( http://classic.urbancrest.org ) to make your sponsorship selection.\n\nIf you have any questions about the Urbancrest Golf Classic, please reach out to Mark Daubenmire at mdaubenmire@urbancrest.org.\n\nDetails:\nPlease join us for Urbancrest's 28th Annual Golf Classic!\nThe Urbancrest Golf Classic is Urbancrest's annual foursome scramble tournament, located at Heatherwoode Golf Club. \nEach year, we also raise money for a non-profit organization. We are excited to announce this year's donation recipient: A Child's Hope International!\nBe sure to register early to secure your spot, and visit \nclassic.urbancrest.org\n for more information.\n \n\nTournament Details:\nLocation\nHeatherwoode Golf Club\n88 Heatherwoode Blvd.\nSpringboro, OH 45066\n (\nClick or tap for directions.)\nDate/Schedule\nFriday, August 21, 2026\n 8:30 AM – Check-in & Driving Range\n 9:30 AM – Shotgun Start\n 2:00 AM – Lunch & Awards\nSponsorship\nBecome a sponsor of the Urbancrest Golf Classic! Please visit \nclassic.urbancrest.org\n \nto make your sponsorship selection. \nIf you have any questions about the Urbancrest Golf Classic, please reach out to Mark Daubenmire at \nmdaubenmire@urbancrest.org\n.",
+      "summary": "Please join us for Urbancrest's 28th Annual Golf Classic! The Urbancrest Golf Classic is Urbancrest's annual foursome scramble tournament, located at Heatherwoode Golf Club. Each year, we also raise money for a non-profit organization. We are excited to announce this year's...",
+      "content": "*********************************************************\nPlease join us for Urbancrest's 28th Annual Golf Classic!\n*********************************************************\n\nThe Urbancrest Golf Classic is Urbancrest's annual foursome scramble tournament, located at Heatherwoode Golf Club.\n\nEach year, we also raise money for a non-profit organization. We are excited to announce this year's donation recipient: A Child's Hope International!\n\nBe sure to register early to secure your spot, and visit classic.urbancrest.org ( http://classic.urbancrest.org ) for more information.\n\nTournament Details:\n\nLocation\nHeatherwoode Golf Club\n88 Heatherwoode Blvd.\nSpringboro, OH 45066 ( https://www.google.com/maps/place/Heatherwoode+Golf+Club/@39.5378539,-84.2320634,15z/data=!4m2!3m1!1s0x0:0xaba6d7afa167d970?ved=2ahUKEwjAq-v17IvhAhVP1VkKHSjzA-EQ_BIwCnoECAAQCA )\n(Click or tap for directions.)\n\nDate/Schedule\nFriday, August 21, 2026\n8:30 AM – Check-in & Driving Range\n9:30 AM – Shotgun Start\n2:00 AM – Lunch & Awards\n\nSponsorship\nBecome a sponsor of the Urbancrest Golf Classic! Please visit classic.urbancrest.org ( http://classic.urbancrest.org ) to make your sponsorship selection.\n\nIf you have any questions about the Urbancrest Golf Classic, please reach out to Mark Daubenmire at mdaubenmire@urbancrest.org.\n\nDetails:\nPlease join us for Urbancrest's 28th Annual Golf Classic! The Urbancrest Golf Classic is Urbancrest's annual foursome scramble tournament, located at Heatherwoode Golf Club. \n\nEach year, we also raise money for a non-profit organization. We are excited to announce this year's donation recipient: A Child's Hope International!\n\nBe sure to register early to secure your spot, and visit classic.urbancrest.org for more information.\n\nTournament Details:\n\nLocation\nHeatherwoode Golf Club\n88 Heatherwoode Blvd.\nSpringboro, OH 45066 \n( Click or tap for directions.) \n\nDate/Schedule\nFriday, August 21, 2026\n 8:30 AM – Check-in & Driving Range\n 9:30 AM – Shotgun Start\n 2:00 AM – Lunch & Awards\n\nSponsorship\nBecome a sponsor of the Urbancrest Golf Classic! Please visit classic.urbancrest.org to make your sponsorship selection. \n\nIf you have any questions about the Urbancrest Golf Classic, please reach out to Mark Daubenmire at mdaubenmire@urbancrest.org .\n\nRegistration is not currently open.\n\nRegistration status: not currently open\nRegistration categories: Sports, Special Events\nR...",
       "priority": 100,
       "category": [
         "events",
@@ -2910,7 +2910,11 @@
         "major_event",
         "Urbancrest Golf Classic",
         "Golf Classic",
-        "s donation recipient: A Child"
+        "s donation recipient: A Child",
+        "Sports",
+        "Special Events",
+        "Individual",
+        "Team Captain"
       ],
       "search_terms": [
         "Urbancrest Golf Classic",
@@ -2919,6 +2923,10 @@
         "What are the details for Urbancrest Golf Classic?",
         "What is the menu for Urbancrest Golf Classic?",
         "How do I register for Urbancrest Golf Classic?",
+        "Sports",
+        "Special Events",
+        "Individual",
+        "Team Captain",
         "Does Urbancrest have Urbancrest Golf Classic?",
         "Does Urbancrest offer Urbancrest Golf Classic?",
         "Do you have Urbancrest Golf Classic?",
@@ -2968,10 +2976,52 @@
       "sort_start_utc": "2026-08-21T12:30:00Z",
       "sort_end_utc": "2026-08-21T20:00:00Z",
       "location": "Heatherwoode Golf Club - 88 Heatherwoode Blvd\nSpringboro, OH 45066",
-      "details": "Please join us for Urbancrest's 28th Annual Golf Classic!\nThe Urbancrest Golf Classic is Urbancrest's annual foursome scramble tournament, located at Heatherwoode Golf Club. \nEach year, we also raise money for a non-profit organization. We are excited to announce this year's donation recipient: A Child's Hope International!\nBe sure to register early to secure your spot, and visit \nclassic.urbancrest.org\n for more information.\n \n\nTournament Details:\nLocation\nHeatherwoode Golf Club\n88 Heatherwoode Blvd.\nSpringboro, OH 45066\n (\nClick or tap for directions.)\nDate/Schedule\nFriday, August 21, 2026\n 8:30 AM – Check-in & Driving Range\n 9:30 AM – Shotgun Start\n 2:00 AM – Lunch & Awards\nSponsorship\nBecome a sponsor of the Urbancrest Golf Classic! Please visit \nclassic.urbancrest.org\n \nto make your sponsorship selection. \nIf you have any questions about the Urbancrest Golf Classic, please reach out to Mark Daubenmire at \nmdaubenmire@urbancrest.org\n.",
-      "details_source": "planning_center_calendar_api",
+      "details": "Please join us for Urbancrest's 28th Annual Golf Classic! The Urbancrest Golf Classic is Urbancrest's annual foursome scramble tournament, located at Heatherwoode Golf Club. \n\nEach year, we also raise money for a non-profit organization. We are excited to announce this year's donation recipient: A Child's Hope International!\n\nBe sure to register early to secure your spot, and visit classic.urbancrest.org for more information.\n\nTournament Details:\n\nLocation\nHeatherwoode Golf Club\n88 Heatherwoode Blvd.\nSpringboro, OH 45066 \n( Click or tap for directions.) \n\nDate/Schedule\nFriday, August 21, 2026\n 8:30 AM – Check-in & Driving Range\n 9:30 AM – Shotgun Start\n 2:00 AM – Lunch & Awards\n\nSponsorship\nBecome a sponsor of the Urbancrest Golf Classic! Please visit classic.urbancrest.org to make your sponsorship selection. \n\nIf you have any questions about the Urbancrest Golf Classic, please reach out to Mark Daubenmire at mdaubenmire@urbancrest.org .\n\nRegistration is not currently open.",
+      "details_source": "planning_center_registrations_api",
       "planning_center_event_instance_id": "217375495",
       "planning_center_event_time_id": "29648335",
+      "planning_center_signup_id": "3517003",
+      "planning_center_signup_time_id": "5882876",
+      "event_source": "merged",
+      "event_sources": [
+        "planning_center_ical",
+        "planning_center_calendar_api",
+        "planning_center_registrations_api"
+      ],
+      "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3517003/reservations/new",
+      "registration_open": false,
+      "registration_closed": true,
+      "registration_maximum_capacity": 72,
+      "registration_categories": [
+        "Sports",
+        "Special Events"
+      ],
+      "registration_options": [
+        {
+          "id": "8015568",
+          "name": "Individual",
+          "price_cents": 15000,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "150",
+          "maximum_capacity": 48,
+          "available_capacity": 0,
+          "at_maximum_capacity": true,
+          "waitlist": false
+        },
+        {
+          "id": "8015571",
+          "name": "Team Captain",
+          "price_cents": 15000,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "150",
+          "maximum_capacity": 16,
+          "available_capacity": 0,
+          "at_maximum_capacity": true,
+          "waitlist": false
+        }
+      ],
       "info_url": "http://classic.urbancrest.org",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3517003/medium_image-1773084020561.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-08-21-urbancrest-golf-classic-4f4169.md",
@@ -2983,8 +3033,8 @@
       "record_type": "event",
       "path": "knowledge/events/generated/2026-10-17-urbancrest-women-s-conference-af3c3f.md",
       "title": "Urbancrest Women's Conference",
-      "summary": "Join us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God....",
-      "content": "Join us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.\n\nThis year’s keynote speaker is Barb Roose, who will challenge and encourage women to grow in their faith and walk confidently in God’s truth.\n\nDoors open at 8:00 AM, and the cost is just $5, which includes lunch (more details coming soon). Invite a friend and make plans to be part of this special day together.\nRegister: https://urbancrest.churchcenter.com/registrations/events/3791849\n\nDetails:\nJoin us for the Urbancrest Women’s Conference 'Known & Loved' on \nSaturday, October 17\n for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.\nThis year’s keynote speaker is \nBarb Roose\n, who will challenge and encourage women to grow in their faith and walk confidently in God’s truth.\nDoors open at \n8:00 AM\n, and the cost is just \n$5\n, which includes lunch (more details coming soon). Invite a friend and make plans to be part of this special day together.",
+      "summary": "Join us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God. This year’s keynote speaker is Barb Roose , who will...",
+      "content": "Join us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.\n\nThis year’s keynote speaker is Barb Roose, who will challenge and encourage women to grow in their faith and walk confidently in God’s truth.\n\nDoors open at 8:00 AM, and the cost is just $5, which includes lunch (more details coming soon). Invite a friend and make plans to be part of this special day together.\nRegister: https://urbancrest.churchcenter.com/registrations/events/3791849\n\nDetails:\nJoin us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.\n\nThis year’s keynote speaker is Barb Roose , who will challenge and encourage women to grow in their faith and walk confidently in God’s truth.\n\nDoors open at 8:00 AM , and the cost is just $5 , which includes lunch (more details coming soon). Invite a friend and make plans to be part of this special day together.\n\nRegistration is open.\n\nRegistration status: open\nRegistration opens: 2026-08-02T11:12:58Z\nRegistration closes: 2026-10-12T04:00:00Z\nRegistration option: Standard; price: $0",
       "priority": 100,
       "category": [
         "events",
@@ -3006,7 +3056,8 @@
         "Urbancrest Women's Conference",
         "Women's Conference",
         "Known & Loved",
-        "Known and Loved"
+        "Known and Loved",
+        "Standard"
       ],
       "search_terms": [
         "Urbancrest Women's Conference",
@@ -3015,6 +3066,7 @@
         "What are the details for Urbancrest Women's Conference?",
         "What is the menu for Urbancrest Women's Conference?",
         "How do I register for Urbancrest Women's Conference?",
+        "Standard",
         "Does Urbancrest have Urbancrest Women's Conference?",
         "Does Urbancrest offer Urbancrest Women's Conference?",
         "Do you have Urbancrest Women's Conference?",
@@ -3054,7 +3106,8 @@
       ],
       "audiences": [
         "men",
-        "women"
+        "women",
+        "all"
       ],
       "resources": [],
       "event_id": "event-7b60e9c4c5af3c3f",
@@ -3076,15 +3129,39 @@
       "sort_start_utc": "2026-10-17T13:00:00Z",
       "sort_end_utc": "2026-10-17T19:00:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Join us for the Urbancrest Women’s Conference 'Known & Loved' on \nSaturday, October 17\n for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.\nThis year’s keynote speaker is \nBarb Roose\n, who will challenge and encourage women to grow in their faith and walk confidently in God’s truth.\nDoors open at \n8:00 AM\n, and the cost is just \n$5\n, which includes lunch (more details coming soon). Invite a friend and make plans to be part of this special day together.",
-      "details_source": "planning_center_calendar_api",
+      "details": "Join us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.\n\nThis year’s keynote speaker is Barb Roose , who will challenge and encourage women to grow in their faith and walk confidently in God’s truth.\n\nDoors open at 8:00 AM , and the cost is just $5 , which includes lunch (more details coming soon). Invite a friend and make plans to be part of this special day together.\n\nRegistration is open.",
+      "details_source": "planning_center_registrations_api",
       "planning_center_event_instance_id": "230615455",
       "planning_center_event_time_id": "31936721",
-      "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3791849",
+      "planning_center_signup_id": "3791849",
+      "planning_center_signup_time_id": "6363614",
+      "event_source": "merged",
+      "event_sources": [
+        "planning_center_ical",
+        "planning_center_calendar_api",
+        "planning_center_registrations_api"
+      ],
+      "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3791849/reservations/new",
+      "registration_open": true,
+      "registration_closed": false,
+      "registration_open_at": "2026-08-02T11:12:58Z",
+      "registration_close_at": "2026-10-12T04:00:00Z",
+      "registration_options": [
+        {
+          "id": "8664547",
+          "name": "Standard",
+          "price_cents": 0,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "0",
+          "at_maximum_capacity": false,
+          "waitlist": false
+        }
+      ],
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230615455",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3791849/medium_image-1785669189641.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-10-17-urbancrest-women-s-conference-af3c3f.md",
-      "chronological_rank": 48,
+      "chronological_rank": 47,
       "routine_schedule_occurrence": false
     },
     {
@@ -3156,7 +3233,7 @@
       "planning_center_event_time_id": "27323186",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/203958381",
       "knowledge_file": "knowledge/events/generated/2026-10-17-women-s-conference-bf84ac.md",
-      "chronological_rank": 49,
+      "chronological_rank": 48,
       "routine_schedule_occurrence": false
     },
     {
@@ -3164,8 +3241,8 @@
       "record_type": "event",
       "path": "knowledge/events/generated/2026-11-13-youth-fall-retreat-99f87a.md",
       "title": "Youth Fall Retreat",
-      "summary": "November 13-15, 2026 is a weekend you will not forget!",
-      "content": "November 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area of our lives!",
+      "summary": "November 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area of our lives!",
+      "content": "November 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area of our lives!\n\nDetails:\nNovember 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area of our lives!\n\nRegistration is open.\n\nRegistration status: open\nRegistration opens: 2026-07-31T14:40:11Z\nRegistration option: Students; price: $130",
       "priority": 100,
       "category": [
         "events",
@@ -3184,7 +3261,8 @@
         "upcoming",
         "activity",
         "major_event",
-        "Youth Fall Retreat"
+        "Youth Fall Retreat",
+        "Students"
       ],
       "search_terms": [
         "Youth Fall Retreat",
@@ -3193,6 +3271,7 @@
         "What are the details for Youth Fall Retreat?",
         "What is the menu for Youth Fall Retreat?",
         "How do I register for Youth Fall Retreat?",
+        "Students",
         "Does Urbancrest have Youth Fall Retreat?",
         "Does Urbancrest offer Youth Fall Retreat?",
         "Do you have Youth Fall Retreat?",
@@ -3221,12 +3300,37 @@
       "sort_start_utc": "2026-11-13T05:00:00Z",
       "sort_end_utc": "2026-11-16T05:00:00Z",
       "location": "Butler Springs Christian Camp - 3701 State Rte 41\nHillsboro, OH 45133",
+      "details": "November 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area of our lives!\n\nRegistration is open.",
+      "details_source": "planning_center_registrations_api",
       "planning_center_event_instance_id": "230487173",
       "planning_center_event_time_id": "31924846",
+      "planning_center_signup_id": "3790005",
+      "planning_center_signup_time_id": "6359723",
+      "event_source": "merged",
+      "event_sources": [
+        "planning_center_ical",
+        "planning_center_registrations_api"
+      ],
+      "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3790005/reservations/new",
+      "registration_open": true,
+      "registration_closed": false,
+      "registration_open_at": "2026-07-31T14:40:11Z",
+      "registration_options": [
+        {
+          "id": "8660665",
+          "name": "Students",
+          "price_cents": 13000,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "130",
+          "at_maximum_capacity": false,
+          "waitlist": false
+        }
+      ],
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230487173",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3790005/medium_image-1785514673084.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-11-13-youth-fall-retreat-99f87a.md",
-      "chronological_rank": 59,
+      "chronological_rank": 58,
       "routine_schedule_occurrence": false
     },
     {
@@ -10284,8 +10388,8 @@
       "record_type": "event",
       "path": "knowledge/events/generated/2027-04-24-3v3-basketball-tournament-d9f0d6.md",
       "title": "3V3 Basketball Tournament",
-      "summary": "100% of proceeds go toward sending students to Youth Summer Camp - helping make camp more affordable and giving more students the chance to attend....",
-      "content": "100% of proceeds go toward sending students to Youth Summer Camp - helping make camp more affordable and giving more students the chance to attend. Gather your team, enjoy some friendly competition, and help invest in the next generation.",
+      "summary": "100% of proceeds go toward sending students to Youth Summer Camp — helping make camp more affordable and giving more students the chance to attend. Gather your team, enjoy some friendly competition, and help invest in the next generation.",
+      "content": "100% of proceeds go toward sending students to Youth Summer Camp - helping make camp more affordable and giving more students the chance to attend. Gather your team, enjoy some friendly competition, and help invest in the next generation.\n\nDetails:\n100% of proceeds go toward sending students to Youth Summer Camp — helping make camp more affordable and giving more students the chance to attend. Gather your team, enjoy some friendly competition, and help invest in the next generation.\n\nRegistration is not currently open.\n\nRegistration status: not currently open\nRegistration opens: 2027-01-01T05:00:00Z\nRegistration categories: Sports\nRegistration option: Basketball Entry; price: $100",
       "priority": 80,
       "category": [
         "events",
@@ -10304,7 +10408,9 @@
         "upcoming",
         "activity",
         "ministry_event",
-        "3V3 Basketball Tournament"
+        "3V3 Basketball Tournament",
+        "Sports",
+        "Basketball Entry"
       ],
       "search_terms": [
         "3V3 Basketball Tournament",
@@ -10313,6 +10419,8 @@
         "What are the details for 3V3 Basketball Tournament?",
         "What is the menu for 3V3 Basketball Tournament?",
         "How do I register for 3V3 Basketball Tournament?",
+        "Sports",
+        "Basketball Entry",
         "Does Urbancrest have 3V3 Basketball Tournament?",
         "Does Urbancrest offer 3V3 Basketball Tournament?",
         "Do you have 3V3 Basketball Tournament?",
@@ -10341,12 +10449,310 @@
       "sort_start_utc": "2027-04-24T16:00:00Z",
       "sort_end_utc": "2027-04-24T23:00:00Z",
       "location": "Lebanon High School - 1916 Drake Rd\nLebanon, OH 45036",
+      "details": "100% of proceeds go toward sending students to Youth Summer Camp — helping make camp more affordable and giving more students the chance to attend. Gather your team, enjoy some friendly competition, and help invest in the next generation.\n\nRegistration is not currently open.",
+      "details_source": "planning_center_registrations_api",
       "planning_center_event_instance_id": "229172206",
       "planning_center_event_time_id": "31705455",
+      "planning_center_signup_id": "3763678",
+      "planning_center_signup_time_id": "6303778",
+      "event_source": "merged",
+      "event_sources": [
+        "planning_center_ical",
+        "planning_center_registrations_api"
+      ],
+      "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3763678/reservations/new",
+      "registration_open": false,
+      "registration_closed": true,
+      "registration_open_at": "2027-01-01T05:00:00Z",
+      "registration_categories": [
+        "Sports"
+      ],
+      "registration_options": [
+        {
+          "id": "8596636",
+          "name": "Basketball Entry",
+          "price_cents": 10000,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "100",
+          "at_maximum_capacity": false,
+          "waitlist": false
+        }
+      ],
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/229172206",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3763678/medium_image-1784563400067.jpeg",
       "knowledge_file": "knowledge/events/generated/2027-04-24-3v3-basketball-tournament-d9f0d6.md",
       "chronological_rank": 114,
+      "routine_schedule_occurrence": false
+    },
+    {
+      "id": "events.live.event-a39548cd605a3ff2",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-08-19-awana-2026-2027-5a3ff2.md",
+      "title": "Awana 2026-2027",
+      "summary": "**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05** Approved Workmen Are Not Ashamed (A.W.A.N.A.) A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has...",
+      "content": "**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**\n\nApproved Workmen Are Not Ashamed (A.W.A.N.A.)\n\nA program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.\n\nMeets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm\n\nSTART ANYTIME throughout the year!\n\nDinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.\n\n***When registering your child, please input 25/26 grade, it will automatically change in August***\nRegister: https://urbancrest.churchcenter.com/registrations/events/3737699\n\nDetails:\n**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05** \n\nApproved Workmen Are Not Ashamed (A.W.A.N.A.)\n\nA program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.\n\nMeets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm \n\nSTART ANYTIME throughout the year!\n\nDinners before club each night! We will start serving at 5:30 and close serving at 6:10pm. \n\n***When registering your child, please input 25/26 grade, it will automatically change in August***\n\nRegistration is open.\n\nRegistration status: open\nRegistration opens: 2026-07-06T04:00:00Z\nRegistration categories: Kids (4 yrs. - 6th Grade)\nRegistration option: Clubber; price: $0\nRegistration option: Volunteer; price: $0",
+      "priority": 80,
+      "category": [
+        "events",
+        "churchwide_program"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "churchwide_program",
+        "Awana 2026-2027",
+        "Kids (4 yrs. - 6th Grade)",
+        "Clubber",
+        "Volunteer"
+      ],
+      "search_terms": [
+        "Awana 2026-2027",
+        "When is Awana 2026-2027?",
+        "Tell me about Awana 2026-2027",
+        "What are the details for Awana 2026-2027?",
+        "What is the menu for Awana 2026-2027?",
+        "How do I register for Awana 2026-2027?",
+        "Kids (4 yrs. - 6th Grade)",
+        "Clubber",
+        "Volunteer",
+        "Does Urbancrest have Awana 2026-2027?",
+        "Does Urbancrest offer Awana 2026-2027?",
+        "Do you have Awana 2026-2027?",
+        "Do you offer Awana 2026-2027?",
+        "Is there Awana 2026-2027 at Urbancrest?",
+        "Can I participate in Awana 2026-2027?",
+        "Can I play Awana 2026-2027 at Urbancrest?"
+      ],
+      "ministries": [
+        "kids",
+        "men",
+        "volunteer"
+      ],
+      "audiences": [
+        "children",
+        "men",
+        "volunteers",
+        "all"
+      ],
+      "resources": [],
+      "event_id": "event-a39548cd605a3ff2",
+      "activity_aliases": [
+        "Awana 2026-2027"
+      ],
+      "event_aliases": [
+        "Awana 2026-2027"
+      ],
+      "event_category": "churchwide_program",
+      "event_start": "2026-08-19T18:15:00-04:00",
+      "event_end": "2026-08-19T19:30:00-04:00",
+      "sort_start_utc": "2026-08-19T22:15:00Z",
+      "sort_end_utc": "2026-08-19T23:30:00Z",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "details": "**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05** \n\nApproved Workmen Are Not Ashamed (A.W.A.N.A.)\n\nA program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.\n\nMeets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm \n\nSTART ANYTIME throughout the year!\n\nDinners before club each night! We will start serving at 5:30 and close serving at 6:10pm. \n\n***When registering your child, please input 25/26 grade, it will automatically change in August***\n\nRegistration is open.",
+      "details_source": "planning_center_registrations_api",
+      "planning_center_event_instance_id": "227855427",
+      "planning_center_event_time_id": "31487702",
+      "planning_center_signup_id": "3737699",
+      "planning_center_signup_time_id": "6256777",
+      "event_source": "merged",
+      "event_sources": [
+        "planning_center_ical",
+        "planning_center_calendar_api",
+        "planning_center_registrations_api"
+      ],
+      "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3737699/reservations/new",
+      "registration_open": true,
+      "registration_closed": false,
+      "registration_open_at": "2026-07-06T04:00:00Z",
+      "registration_categories": [
+        "Kids (4 yrs. - 6th Grade)"
+      ],
+      "registration_options": [
+        {
+          "id": "8537769",
+          "name": "Clubber",
+          "price_cents": 0,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "0",
+          "at_maximum_capacity": false,
+          "waitlist": false
+        },
+        {
+          "id": "8537770",
+          "name": "Volunteer",
+          "price_cents": 0,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "0",
+          "at_maximum_capacity": false,
+          "waitlist": false
+        }
+      ],
+      "info_url": "https://urbancrest.churchcenter.com/calendar/event/227855427",
+      "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg",
+      "knowledge_file": "knowledge/events/generated/2026-08-19-awana-2026-2027-5a3ff2.md",
+      "chronological_rank": 7,
+      "routine_schedule_occurrence": false
+    },
+    {
+      "id": "events.live.pc-registration-3763259-c357fb9bf7e1",
+      "record_type": "event",
+      "path": "registry/events-live.yaml",
+      "title": "Engage: New Members Class - Summer 2026",
+      "summary": "Wondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, September 2! The Engage Class is a gathering that allows...",
+      "content": "Wondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, September 2!\n\nThe Engage Class is a gathering that allows individuals and families to explore and pray through becoming members of our church. This class is designed to have teaching, interaction, and a time to hear the vision for several of our ministries that you can get involved in!\n\nSign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.org .\n\nDetails:\nWondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, September 2!\n\nThe Engage Class is a gathering that allows individuals and families to explore and pray through becoming members of our church. This class is designed to have teaching, interaction, and a time to hear the vision for several of our ministries that you can get involved in!\n\nSign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.org .\n\nRegistration is open.\n\nRegistration status: open\nRegistration opens: 2026-07-02T04:00:00Z\nRegistration closes: 2026-09-02T16:00:00Z\nRegistration categories: Family, Special Events, New Here\nRegistration option: Adult; price: $0\nRegistration option: Child; price: $0",
+      "priority": 80,
+      "category": [
+        "events",
+        "family_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "family_event",
+        "Engage: New Members Class - Summer 2026",
+        "Engage",
+        "New Members Class",
+        "Summer 2026",
+        "Family",
+        "Special Events",
+        "New Here",
+        "Adult",
+        "Child"
+      ],
+      "search_terms": [
+        "Engage: New Members Class - Summer 2026",
+        "When is Engage: New Members Class - Summer 2026?",
+        "Tell me about Engage: New Members Class - Summer 2026",
+        "What are the details for Engage: New Members Class - Summer 2026?",
+        "What is the menu for Engage: New Members Class - Summer 2026?",
+        "How do I register for Engage: New Members Class - Summer 2026?",
+        "Family",
+        "Special Events",
+        "New Here",
+        "Adult",
+        "Child",
+        "Does Urbancrest have Engage: New Members Class - Summer 2026?",
+        "Does Urbancrest offer Engage: New Members Class - Summer 2026?",
+        "Do you have Engage: New Members Class - Summer 2026?",
+        "Do you offer Engage: New Members Class - Summer 2026?",
+        "Is there Engage: New Members Class - Summer 2026 at Urbancrest?",
+        "Can I participate in Engage: New Members Class - Summer 2026?",
+        "Can I play Engage: New Members Class - Summer 2026 at Urbancrest?",
+        "Engage",
+        "Does Urbancrest have Engage?",
+        "Does Urbancrest offer Engage?",
+        "Do you have Engage?",
+        "Do you offer Engage?",
+        "Is there Engage at Urbancrest?",
+        "Can I participate in Engage?",
+        "Can I play Engage at Urbancrest?",
+        "New Members Class",
+        "Does Urbancrest have New Members Class?",
+        "Does Urbancrest offer New Members Class?",
+        "Do you have New Members Class?",
+        "Do you offer New Members Class?",
+        "Is there New Members Class at Urbancrest?",
+        "Can I participate in New Members Class?",
+        "Can I play New Members Class at Urbancrest?",
+        "Summer 2026",
+        "Does Urbancrest have Summer 2026?",
+        "Does Urbancrest offer Summer 2026?",
+        "Do you have Summer 2026?",
+        "Do you offer Summer 2026?",
+        "Is there Summer 2026 at Urbancrest?",
+        "Can I participate in Summer 2026?",
+        "Can I play Summer 2026 at Urbancrest?"
+      ],
+      "ministries": [
+        "family"
+      ],
+      "audiences": [
+        "families"
+      ],
+      "resources": [],
+      "event_id": "pc-registration-3763259-c357fb9bf7e1",
+      "activity_aliases": [
+        "Engage: New Members Class - Summer 2026",
+        "Engage",
+        "New Members Class",
+        "Summer 2026"
+      ],
+      "event_aliases": [
+        "Engage: New Members Class - Summer 2026",
+        "Engage",
+        "New Members Class",
+        "Summer 2026"
+      ],
+      "event_category": "family_event",
+      "event_start": "2026-09-02T22:30:00+00:00",
+      "event_end": "2026-09-03T00:00:00+00:00",
+      "sort_start_utc": "2026-09-02T22:30:00Z",
+      "sort_end_utc": "2026-09-03T00:00:00Z",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road\nRoom 201\nLebanon, OH 45036",
+      "details": "Wondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, September 2!\n\nThe Engage Class is a gathering that allows individuals and families to explore and pray through becoming members of our church. This class is designed to have teaching, interaction, and a time to hear the vision for several of our ministries that you can get involved in!\n\nSign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.org .\n\nRegistration is open.",
+      "details_source": "planning_center_registrations_api",
+      "planning_center_signup_id": "3763259",
+      "planning_center_signup_time_id": "6302878",
+      "event_source": "planning_center_registrations_api",
+      "event_sources": [
+        "planning_center_registrations_api"
+      ],
+      "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3763259/reservations/new",
+      "registration_open": true,
+      "registration_closed": false,
+      "registration_open_at": "2026-07-02T04:00:00Z",
+      "registration_close_at": "2026-09-02T16:00:00Z",
+      "registration_categories": [
+        "Family",
+        "Special Events",
+        "New Here"
+      ],
+      "registration_options": [
+        {
+          "id": "8595770",
+          "name": "Adult",
+          "price_cents": 0,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "0",
+          "at_maximum_capacity": false,
+          "waitlist": false
+        },
+        {
+          "id": "8595771",
+          "name": "Child",
+          "price_cents": 0,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "0",
+          "at_maximum_capacity": false,
+          "waitlist": false
+        }
+      ],
+      "info_url": "https://urbancrest.churchcenter.com/registrations/events/3763259/reservations/new",
+      "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3763259/medium_image-1725375110939.jpeg",
+      "chronological_rank": 23,
       "routine_schedule_occurrence": false
     },
     {
@@ -10416,7 +10822,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/166086980",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576",
       "knowledge_file": "knowledge/events/generated/2026-09-05-men-s-breakfast-336f62.md",
-      "chronological_rank": 23,
+      "chronological_rank": 25,
       "routine_schedule_occurrence": false
     },
     {
@@ -10486,7 +10892,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/168792298",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576",
       "knowledge_file": "knowledge/events/generated/2026-10-03-men-s-breakfast-dec2d7.md",
-      "chronological_rank": 42,
+      "chronological_rank": 41,
       "routine_schedule_occurrence": false
     },
     {
@@ -10556,7 +10962,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/171450066",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576",
       "knowledge_file": "knowledge/events/generated/2026-11-07-men-s-breakfast-b349ea.md",
-      "chronological_rank": 56,
+      "chronological_rank": 55,
       "routine_schedule_occurrence": false
     },
     {
@@ -10626,7 +11032,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/173559224",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576",
       "knowledge_file": "knowledge/events/generated/2026-12-05-men-s-breakfast-549ccc.md",
-      "chronological_rank": 66,
+      "chronological_rank": 65,
       "routine_schedule_occurrence": false
     },
     {
@@ -10696,7 +11102,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/175505238",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576",
       "knowledge_file": "knowledge/events/generated/2027-01-02-men-s-breakfast-3d2c83.md",
-      "chronological_rank": 76,
+      "chronological_rank": 75,
       "routine_schedule_occurrence": false
     },
     {
@@ -11263,8 +11669,8 @@
       "record_type": "event",
       "path": "knowledge/events/generated/2026-10-04-night-of-worship-choir-2a753e.md",
       "title": "Night of Worship Choir",
-      "summary": "On Sunday, October 4, Urbancrest will host a Night of Worship featuring the Cedarville University Orchestra alongside the Urbancrest Worship Team....",
-      "content": "On Sunday, October 4, Urbancrest will host a Night of Worship featuring the Cedarville University Orchestra alongside the Urbancrest Worship Team. It promises to be an incredible evening of celebrating God's greatness through powerful congregational worship.\n\nTo make the evening even more meaningful, we're putting together a Special Event Choir, and we'd love for you to join us!\n\nWhether you've sung in choir before or it's been years since you've stood on the risers, this is a wonderful opportunity to worship together and lead our church family in lifting high the name of Jesus. You don't have to be a professional singer-just someone who enjoys worshiping through music and is willing to prepare the music with us.\n\nDetails:\nOn \nSunday, October 4\n, Urbancrest will host a \nNight of Worship\n featuring the \nCedarville University Orchestra\n alongside the \nUrbancrest Worship Team\n. It promises to be an incredible evening of celebrating God's greatness through powerful congregational worship.\nTo make the evening even more meaningful, we're putting together a \nSpecial Event Choir\n, and we'd love for you to join us!\nWhether you've sung in choir before or it's been years since you've stood on the risers, this is a wonderful opportunity to worship together and lead our church family in lifting high the name of Jesus. You don't have to be a professional singer-just someone who enjoys worshiping through music and is willing to prepare the music with us.",
+      "summary": "On Sunday, October 4 , Urbancrest will host a Night of Worship featuring the Cedarville University Orchestra alongside the Urbancrest Worship Team . It promises to be an incredible evening of celebrating God's greatness through powerful congregational worship. To make the...",
+      "content": "On Sunday, October 4 , Urbancrest will host a Night of Worship featuring the Cedarville University Orchestra alongside the Urbancrest Worship Team . It promises to be an incredible evening of celebrating God's greatness through powerful congregational worship.\n\nTo make the evening even more meaningful, we're putting together a Special Event Choir , and we'd love for you to join us!\n\nWhether you've sung in choir before or it's been years since you've stood on the risers, this is a wonderful opportunity to worship together and lead our church family in lifting high the name of Jesus. You don't have to be a professional singer—just someone who enjoys worshiping through music and is willing to prepare the music with us.\n\nDetails:\nOn Sunday, October 4 , Urbancrest will host a Night of Worship featuring the Cedarville University Orchestra alongside the Urbancrest Worship Team . It promises to be an incredible evening of celebrating God's greatness through powerful congregational worship.\n\nTo make the evening even more meaningful, we're putting together a Special Event Choir , and we'd love for you to join us!\n\nWhether you've sung in choir before or it's been years since you've stood on the risers, this is a wonderful opportunity to worship together and lead our church family in lifting high the name of Jesus. You don't have to be a professional singer—just someone who enjoys worshiping through music and is willing to prepare the music with us.\n\nRegistration is open.\n\nRegistration status: open\nRegistration opens: 2026-07-15T14:44:01Z\nRegistration categories: Special Events\nRegistration option: Standard; price: $0",
       "priority": 80,
       "category": [
         "events",
@@ -11284,7 +11690,9 @@
         "activity",
         "ministry_event",
         "Night of Worship Choir",
-        "ve sung in choir before or it"
+        "ve sung in choir before or it",
+        "Special Events",
+        "Standard"
       ],
       "search_terms": [
         "Night of Worship Choir",
@@ -11293,6 +11701,8 @@
         "What are the details for Night of Worship Choir?",
         "What is the menu for Night of Worship Choir?",
         "How do I register for Night of Worship Choir?",
+        "Special Events",
+        "Standard",
         "Does Urbancrest have Night of Worship Choir?",
         "Does Urbancrest offer Night of Worship Choir?",
         "Do you have Night of Worship Choir?",
@@ -11310,10 +11720,12 @@
         "Can I play ve sung in choir before or it at Urbancrest?"
       ],
       "ministries": [
-        "worship"
+        "worship",
+        "family"
       ],
       "audiences": [
-        "families"
+        "families",
+        "all"
       ],
       "resources": [],
       "event_id": "event-afab721d8e2a753e",
@@ -11331,14 +11743,175 @@
       "sort_start_utc": "2026-10-04T22:00:00Z",
       "sort_end_utc": "2026-10-04T23:30:00Z",
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "On \nSunday, October 4\n, Urbancrest will host a \nNight of Worship\n featuring the \nCedarville University Orchestra\n alongside the \nUrbancrest Worship Team\n. It promises to be an incredible evening of celebrating God's greatness through powerful congregational worship.\nTo make the evening even more meaningful, we're putting together a \nSpecial Event Choir\n, and we'd love for you to join us!\nWhether you've sung in choir before or it's been years since you've stood on the risers, this is a wonderful opportunity to worship together and lead our church family in lifting high the name of Jesus. You don't have to be a professional singer-just someone who enjoys worshiping through music and is willing to prepare the music with us.",
-      "details_source": "planning_center_calendar_api",
+      "details": "On Sunday, October 4 , Urbancrest will host a Night of Worship featuring the Cedarville University Orchestra alongside the Urbancrest Worship Team . It promises to be an incredible evening of celebrating God's greatness through powerful congregational worship.\n\nTo make the evening even more meaningful, we're putting together a Special Event Choir , and we'd love for you to join us!\n\nWhether you've sung in choir before or it's been years since you've stood on the risers, this is a wonderful opportunity to worship together and lead our church family in lifting high the name of Jesus. You don't have to be a professional singer—just someone who enjoys worshiping through music and is willing to prepare the music with us.\n\nRegistration is open.",
+      "details_source": "planning_center_registrations_api",
       "planning_center_event_instance_id": "228745978",
       "planning_center_event_time_id": "31639046",
+      "planning_center_signup_id": "3755569",
+      "planning_center_signup_time_id": "6289171",
+      "event_source": "merged",
+      "event_sources": [
+        "planning_center_ical",
+        "planning_center_calendar_api",
+        "planning_center_registrations_api"
+      ],
+      "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3755569/reservations/new",
+      "registration_open": true,
+      "registration_closed": false,
+      "registration_open_at": "2026-07-15T14:44:01Z",
+      "registration_categories": [
+        "Special Events"
+      ],
+      "registration_options": [
+        {
+          "id": "8577517",
+          "name": "Standard",
+          "price_cents": 0,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "0",
+          "at_maximum_capacity": false,
+          "waitlist": false
+        }
+      ],
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/228745978",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3755569/medium_image-1784126802561.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-10-04-night-of-worship-choir-2a753e.md",
-      "chronological_rank": 44,
+      "chronological_rank": 43,
+      "routine_schedule_occurrence": false
+    },
+    {
+      "id": "events.live.pc-registration-3613427-1498a63e7156",
+      "record_type": "event",
+      "path": "registry/events-live.yaml",
+      "title": "One Service Only at 9:30 AM – Labor Day Weekend",
+      "summary": "Please be advised: Sunday morning, September 6, we will have ONE, family-style Worship service only at 9:30 AM in light of Labor Day weekend. There will be no Sunday School classes on this day – bring the whole family to service and we will all Worship together! Please mark...",
+      "content": "Please be advised: Sunday morning, September 6, we will have ONE, family-style Worship service only at 9:30 AM in light of Labor Day weekend. There will be no Sunday School classes on this day – bring the whole family to service and we will all Worship together!\n\nPlease mark your calendars and plan to join us! \n\nReach out to the Urbancrest office with any questions at office@urbancrest.org .\n\nDetails:\nPlease be advised: Sunday morning, September 6, we will have ONE, family-style Worship service only at 9:30 AM in light of Labor Day weekend. There will be no Sunday School classes on this day – bring the whole family to service and we will all Worship together!\n\nPlease mark your calendars and plan to join us! \n\nReach out to the Urbancrest office with any questions at office@urbancrest.org .\n\nRegistration is open.\n\nRegistration status: open\nRegistration opens: 2026-07-07T16:11:16Z\nRegistration categories: Sunday Morning\nRegistration option: Standard; price: $0",
+      "priority": 80,
+      "category": [
+        "events",
+        "worship_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "worship_event",
+        "One Service Only at 9:30 AM – Labor Day Weekend",
+        "One Service Only at 9",
+        "30 AM",
+        "Labor Day Weekend",
+        "Sunday Morning",
+        "Standard"
+      ],
+      "search_terms": [
+        "One Service Only at 9:30 AM – Labor Day Weekend",
+        "When is One Service Only at 9:30 AM – Labor Day Weekend?",
+        "Tell me about One Service Only at 9:30 AM – Labor Day Weekend",
+        "What are the details for One Service Only at 9:30 AM – Labor Day Weekend?",
+        "What is the menu for One Service Only at 9:30 AM – Labor Day Weekend?",
+        "How do I register for One Service Only at 9:30 AM – Labor Day Weekend?",
+        "Sunday Morning",
+        "Standard",
+        "One Service Only at 9:30 AM – Labor Day Weekend",
+        "Does Urbancrest have One Service Only at 9:30 AM – Labor Day Weekend?",
+        "Does Urbancrest offer One Service Only at 9:30 AM – Labor Day Weekend?",
+        "Do you have One Service Only at 9:30 AM – Labor Day Weekend?",
+        "Do you offer One Service Only at 9:30 AM – Labor Day Weekend?",
+        "Is there One Service Only at 9:30 AM – Labor Day Weekend at Urbancrest?",
+        "Can I participate in One Service Only at 9:30 AM – Labor Day Weekend?",
+        "Can I play One Service Only at 9:30 AM – Labor Day Weekend at Urbancrest?",
+        "One Service Only at 9",
+        "Does Urbancrest have One Service Only at 9?",
+        "Does Urbancrest offer One Service Only at 9?",
+        "Do you have One Service Only at 9?",
+        "Do you offer One Service Only at 9?",
+        "Is there One Service Only at 9 at Urbancrest?",
+        "Can I participate in One Service Only at 9?",
+        "Can I play One Service Only at 9 at Urbancrest?",
+        "30 AM",
+        "Does Urbancrest have 30 AM?",
+        "Does Urbancrest offer 30 AM?",
+        "Do you have 30 AM?",
+        "Do you offer 30 AM?",
+        "Is there 30 AM at Urbancrest?",
+        "Can I participate in 30 AM?",
+        "Can I play 30 AM at Urbancrest?",
+        "Labor Day Weekend",
+        "Does Urbancrest have Labor Day Weekend?",
+        "Does Urbancrest offer Labor Day Weekend?",
+        "Do you have Labor Day Weekend?",
+        "Do you offer Labor Day Weekend?",
+        "Is there Labor Day Weekend at Urbancrest?",
+        "Can I participate in Labor Day Weekend?",
+        "Can I play Labor Day Weekend at Urbancrest?"
+      ],
+      "ministries": [
+        "worship",
+        "family"
+      ],
+      "audiences": [
+        "all",
+        "families"
+      ],
+      "resources": [],
+      "event_id": "pc-registration-3613427-1498a63e7156",
+      "activity_aliases": [
+        "One Service Only at 9:30 AM – Labor Day Weekend",
+        "One Service Only at 9",
+        "30 AM",
+        "Labor Day Weekend"
+      ],
+      "event_aliases": [
+        "One Service Only at 9:30 AM – Labor Day Weekend",
+        "One Service Only at 9",
+        "30 AM",
+        "Labor Day Weekend"
+      ],
+      "event_category": "worship_event",
+      "event_start": "2026-09-06T13:30:00+00:00",
+      "event_end": "2026-09-06T15:00:00+00:00",
+      "sort_start_utc": "2026-09-06T13:30:00Z",
+      "sort_end_utc": "2026-09-06T15:00:00Z",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road\nWorship Center\nLebanon, OH 45036",
+      "details": "Please be advised: Sunday morning, September 6, we will have ONE, family-style Worship service only at 9:30 AM in light of Labor Day weekend. There will be no Sunday School classes on this day – bring the whole family to service and we will all Worship together!\n\nPlease mark your calendars and plan to join us! \n\nReach out to the Urbancrest office with any questions at office@urbancrest.org .\n\nRegistration is open.",
+      "details_source": "planning_center_registrations_api",
+      "planning_center_signup_id": "3613427",
+      "planning_center_signup_time_id": "6039111",
+      "event_source": "planning_center_registrations_api",
+      "event_sources": [
+        "planning_center_registrations_api"
+      ],
+      "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3613427/reservations/new",
+      "registration_open": true,
+      "registration_closed": false,
+      "registration_open_at": "2026-07-07T16:11:16Z",
+      "registration_categories": [
+        "Sunday Morning"
+      ],
+      "registration_options": [
+        {
+          "id": "8249190",
+          "name": "Standard",
+          "price_cents": 0,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "0",
+          "at_maximum_capacity": false,
+          "waitlist": false
+        }
+      ],
+      "info_url": "https://urbancrest.churchcenter.com/registrations/events/3613427/reservations/new",
+      "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3613427/medium_image-1777302371887.jpeg",
+      "chronological_rank": 26,
       "routine_schedule_occurrence": false
     },
     {
@@ -11545,7 +12118,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/165474589",
       "knowledge_file": "knowledge/events/generated/2026-08-30-p-u-r-s-u-e-63faac.md",
-      "chronological_rank": 16,
+      "chronological_rank": 17,
       "routine_schedule_occurrence": false
     },
     {
@@ -11614,7 +12187,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/166271990",
       "knowledge_file": "knowledge/events/generated/2026-09-06-p-u-r-s-u-e-7f42b9.md",
-      "chronological_rank": 24,
+      "chronological_rank": 27,
       "routine_schedule_occurrence": false
     },
     {
@@ -11683,7 +12256,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/167074214",
       "knowledge_file": "knowledge/events/generated/2026-09-13-p-u-r-s-u-e-300fb0.md",
-      "chronological_rank": 30,
+      "chronological_rank": 33,
       "routine_schedule_occurrence": false
     },
     {
@@ -11752,7 +12325,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/167708212",
       "knowledge_file": "knowledge/events/generated/2026-09-20-p-u-r-s-u-e-f8f18d.md",
-      "chronological_rank": 36,
+      "chronological_rank": 35,
       "routine_schedule_occurrence": false
     },
     {
@@ -11821,7 +12394,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/168372882",
       "knowledge_file": "knowledge/events/generated/2026-09-27-p-u-r-s-u-e-724217.md",
-      "chronological_rank": 39,
+      "chronological_rank": 38,
       "routine_schedule_occurrence": false
     },
     {
@@ -11890,7 +12463,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/168914339",
       "knowledge_file": "knowledge/events/generated/2026-10-04-p-u-r-s-u-e-e5c34f.md",
-      "chronological_rank": 43,
+      "chronological_rank": 42,
       "routine_schedule_occurrence": false
     },
     {
@@ -11959,7 +12532,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/169483179",
       "knowledge_file": "knowledge/events/generated/2026-10-11-p-u-r-s-u-e-8f8f87.md",
-      "chronological_rank": 46,
+      "chronological_rank": 45,
       "routine_schedule_occurrence": false
     },
     {
@@ -12028,7 +12601,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/169990121",
       "knowledge_file": "knowledge/events/generated/2026-10-18-p-u-r-s-u-e-2350e7.md",
-      "chronological_rank": 50,
+      "chronological_rank": 49,
       "routine_schedule_occurrence": false
     },
     {
@@ -12097,7 +12670,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/170494272",
       "knowledge_file": "knowledge/events/generated/2026-10-25-p-u-r-s-u-e-3a39cd.md",
-      "chronological_rank": 52,
+      "chronological_rank": 51,
       "routine_schedule_occurrence": false
     },
     {
@@ -12166,7 +12739,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/171026771",
       "knowledge_file": "knowledge/events/generated/2026-11-01-p-u-r-s-u-e-96a55e.md",
-      "chronological_rank": 54,
+      "chronological_rank": 53,
       "routine_schedule_occurrence": false
     },
     {
@@ -12235,7 +12808,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/171522665",
       "knowledge_file": "knowledge/events/generated/2026-11-08-p-u-r-s-u-e-4c1a4d.md",
-      "chronological_rank": 57,
+      "chronological_rank": 56,
       "routine_schedule_occurrence": false
     },
     {
@@ -12304,7 +12877,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/172162011",
       "knowledge_file": "knowledge/events/generated/2026-11-15-p-u-r-s-u-e-b86e1d.md",
-      "chronological_rank": 60,
+      "chronological_rank": 59,
       "routine_schedule_occurrence": false
     },
     {
@@ -12373,7 +12946,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/172745994",
       "knowledge_file": "knowledge/events/generated/2026-11-22-p-u-r-s-u-e-c3d97b.md",
-      "chronological_rank": 62,
+      "chronological_rank": 61,
       "routine_schedule_occurrence": false
     },
     {
@@ -12442,7 +13015,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/173125610",
       "knowledge_file": "knowledge/events/generated/2026-11-29-p-u-r-s-u-e-80f80e.md",
-      "chronological_rank": 64,
+      "chronological_rank": 63,
       "routine_schedule_occurrence": false
     },
     {
@@ -12511,7 +13084,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/173665460",
       "knowledge_file": "knowledge/events/generated/2026-12-06-p-u-r-s-u-e-e5b958.md",
-      "chronological_rank": 67,
+      "chronological_rank": 66,
       "routine_schedule_occurrence": false
     },
     {
@@ -12580,7 +13153,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/174228981",
       "knowledge_file": "knowledge/events/generated/2026-12-13-p-u-r-s-u-e-e9bfa2.md",
-      "chronological_rank": 70,
+      "chronological_rank": 69,
       "routine_schedule_occurrence": false
     },
     {
@@ -12649,7 +13222,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/174858350",
       "knowledge_file": "knowledge/events/generated/2026-12-20-p-u-r-s-u-e-0fd347.md",
-      "chronological_rank": 72,
+      "chronological_rank": 71,
       "routine_schedule_occurrence": false
     },
     {
@@ -12718,7 +13291,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/175168854",
       "knowledge_file": "knowledge/events/generated/2026-12-27-p-u-r-s-u-e-440985.md",
-      "chronological_rank": 74,
+      "chronological_rank": 73,
       "routine_schedule_occurrence": false
     },
     {
@@ -12787,7 +13360,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/175628417",
       "knowledge_file": "knowledge/events/generated/2027-01-03-p-u-r-s-u-e-b9a311.md",
-      "chronological_rank": 77,
+      "chronological_rank": 76,
       "routine_schedule_occurrence": false
     },
     {
@@ -12856,7 +13429,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/176633356",
       "knowledge_file": "knowledge/events/generated/2027-01-10-p-u-r-s-u-e-573975.md",
-      "chronological_rank": 79,
+      "chronological_rank": 78,
       "routine_schedule_occurrence": false
     },
     {
@@ -14930,6 +15503,331 @@
       "routine_schedule_occurrence": false
     },
     {
+      "id": "events.live.pc-registration-3775272-e3627f27396c",
+      "record_type": "event",
+      "path": "registry/events-live.yaml",
+      "title": "Strength to Stand",
+      "summary": "Deadline to sign up is September 30th!!!",
+      "content": "Deadline to sign up is September 30th!!!\n\nDetails:\nDeadline to sign up is September 30th!!!\n\nRegistration is open.\n\nRegistration status: open\nRegistration opens: 2026-07-24T04:00:00Z\nRegistration option: STS Youth Guy; price: $250; available capacity: 19\nRegistration option: STS Youth Girl; price: $250; available capacity: 18\nRegistration option: STS Youth Adult Leader; price: $0; available capacity: 12",
+      "priority": 80,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "general_event",
+        "Strength to Stand",
+        "STS Youth Guy",
+        "STS Youth Girl",
+        "STS Youth Adult Leader"
+      ],
+      "search_terms": [
+        "Strength to Stand",
+        "When is Strength to Stand?",
+        "Tell me about Strength to Stand",
+        "What are the details for Strength to Stand?",
+        "What is the menu for Strength to Stand?",
+        "How do I register for Strength to Stand?",
+        "STS Youth Guy",
+        "STS Youth Girl",
+        "STS Youth Adult Leader",
+        "Does Urbancrest have Strength to Stand?",
+        "Does Urbancrest offer Strength to Stand?",
+        "Do you have Strength to Stand?",
+        "Do you offer Strength to Stand?",
+        "Is there Strength to Stand at Urbancrest?",
+        "Can I participate in Strength to Stand?",
+        "Can I play Strength to Stand at Urbancrest?"
+      ],
+      "ministries": [],
+      "audiences": [],
+      "resources": [],
+      "event_id": "pc-registration-3775272-e3627f27396c",
+      "activity_aliases": [
+        "Strength to Stand"
+      ],
+      "event_aliases": [
+        "Strength to Stand"
+      ],
+      "event_category": "general_event",
+      "event_start": "2027-01-16T23:00:00+00:00",
+      "event_end": "2027-01-19T00:00:00+00:00",
+      "sort_start_utc": "2027-01-16T23:00:00Z",
+      "sort_end_utc": "2027-01-19T00:00:00Z",
+      "location": "LaConte Center - 2986 Teaster Ln\nPigeon Forge, TN 37863",
+      "details": "Deadline to sign up is September 30th!!!\n\nRegistration is open.",
+      "details_source": "planning_center_registrations_api",
+      "planning_center_signup_id": "3775272",
+      "planning_center_signup_time_id": "6327882",
+      "event_source": "planning_center_registrations_api",
+      "event_sources": [
+        "planning_center_registrations_api"
+      ],
+      "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3775272/reservations/new",
+      "registration_open": true,
+      "registration_closed": false,
+      "registration_open_at": "2026-07-24T04:00:00Z",
+      "registration_options": [
+        {
+          "id": "8623472",
+          "name": "STS Youth Guy",
+          "price_cents": 25000,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "250",
+          "maximum_capacity": 22,
+          "available_capacity": 19,
+          "at_maximum_capacity": false,
+          "waitlist": false
+        },
+        {
+          "id": "8623473",
+          "name": "STS Youth Girl",
+          "price_cents": 25000,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "250",
+          "maximum_capacity": 22,
+          "available_capacity": 18,
+          "at_maximum_capacity": false,
+          "waitlist": false
+        },
+        {
+          "id": "8623476",
+          "name": "STS Youth Adult Leader",
+          "price_cents": 0,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "0",
+          "maximum_capacity": 12,
+          "available_capacity": 12,
+          "at_maximum_capacity": false,
+          "waitlist": false
+        }
+      ],
+      "info_url": "https://urbancrest.churchcenter.com/registrations/events/3775272/reservations/new",
+      "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3775272/medium_image-1784920483707.jpeg",
+      "chronological_rank": 80,
+      "routine_schedule_occurrence": false
+    },
+    {
+      "id": "events.live.pc-registration-3732292-8b530c1d53f6",
+      "record_type": "event",
+      "path": "registry/events-live.yaml",
+      "title": "Waynesville Fall Fest",
+      "summary": "We will be meeting at the church prior to 2:30 to leave at 2:30 for the Waynesville Fall Fest!!! We will be staying for the remainder of their opening until 6!!! The costs is $13 plus any food or arcade games you want to play there! If you have any questions please do not...",
+      "content": "We will be meeting at the church prior to 2:30 to leave at 2:30 for the Waynesville Fall Fest!!! We will be staying for the remainder of their opening until 6!!! The costs is $13 plus any food or arcade games you want to play there! If you have any questions please do not hesitate to reach out!!!\n\nDetails:\nWe will be meeting at the church prior to 2:30 to leave at 2:30 for the Waynesville Fall Fest!!! We will be staying for the remainder of their opening until 6!!! The costs is $13 plus any food or arcade games you want to play there! If you have any questions please do not hesitate to reach out!!!\n\nRegistration is open.\n\nRegistration status: open\nRegistration opens: 2026-07-01T18:07:26Z\nRegistration categories: Students (Grades 7-12)\nRegistration option: Waynesville Fall Fest; price: $13",
+      "priority": 80,
+      "category": [
+        "events",
+        "student_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "student_event",
+        "Waynesville Fall Fest",
+        "Students (Grades 7-12)"
+      ],
+      "search_terms": [
+        "Waynesville Fall Fest",
+        "When is Waynesville Fall Fest?",
+        "Tell me about Waynesville Fall Fest",
+        "What are the details for Waynesville Fall Fest?",
+        "What is the menu for Waynesville Fall Fest?",
+        "How do I register for Waynesville Fall Fest?",
+        "Students (Grades 7-12)",
+        "Does Urbancrest have Waynesville Fall Fest?",
+        "Does Urbancrest offer Waynesville Fall Fest?",
+        "Do you have Waynesville Fall Fest?",
+        "Do you offer Waynesville Fall Fest?",
+        "Is there Waynesville Fall Fest at Urbancrest?",
+        "Can I participate in Waynesville Fall Fest?",
+        "Can I play Waynesville Fall Fest at Urbancrest?"
+      ],
+      "ministries": [
+        "students"
+      ],
+      "audiences": [
+        "students"
+      ],
+      "resources": [],
+      "event_id": "pc-registration-3732292-8b530c1d53f6",
+      "activity_aliases": [
+        "Waynesville Fall Fest"
+      ],
+      "event_aliases": [
+        "Waynesville Fall Fest"
+      ],
+      "event_category": "student_event",
+      "event_start": "2026-09-26T18:30:00+00:00",
+      "event_end": "2026-09-26T22:00:00+00:00",
+      "sort_start_utc": "2026-09-26T18:30:00Z",
+      "sort_end_utc": "2026-09-26T22:00:00Z",
+      "details": "We will be meeting at the church prior to 2:30 to leave at 2:30 for the Waynesville Fall Fest!!! We will be staying for the remainder of their opening until 6!!! The costs is $13 plus any food or arcade games you want to play there! If you have any questions please do not hesitate to reach out!!!\n\nRegistration is open.",
+      "details_source": "planning_center_registrations_api",
+      "planning_center_signup_id": "3732292",
+      "planning_center_signup_time_id": "6247650",
+      "event_source": "planning_center_registrations_api",
+      "event_sources": [
+        "planning_center_registrations_api"
+      ],
+      "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3732292/reservations/new",
+      "registration_open": true,
+      "registration_closed": false,
+      "registration_open_at": "2026-07-01T18:07:26Z",
+      "registration_categories": [
+        "Students (Grades 7-12)"
+      ],
+      "registration_options": [
+        {
+          "id": "8526148",
+          "name": "Waynesville Fall Fest",
+          "price_cents": 1300,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "13",
+          "at_maximum_capacity": false,
+          "waitlist": false
+        }
+      ],
+      "info_url": "https://urbancrest.churchcenter.com/registrations/events/3732292/reservations/new",
+      "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3732292/medium_image-1782929258210.jpeg",
+      "chronological_rank": 37,
+      "routine_schedule_occurrence": false
+    },
+    {
+      "id": "events.live.pc-registration-3719897-5110859e1bd0",
+      "record_type": "event",
+      "path": "registry/events-live.yaml",
+      "title": "Wednesday Night Kickoff",
+      "summary": "Join us Wednesday evening, August 26, as we kick off our Wednesday night activities for the school year! All are welcome to enjoy a dinner at 5:30 PM (donations appreciated), and then Awana Programs for kids and adult Bible studies at 6:15 PM, and Youth Group for students in...",
+      "content": "Join us Wednesday evening, August 26, as we kick off our Wednesday night activities for the school year! All are welcome to enjoy a dinner at 5:30 PM (donations appreciated), and then Awana Programs for kids and adult Bible studies at 6:15 PM, and Youth Group for students in grades 7-12 at 6:30 PM.\n\nReach out to the church office with any questions at office@urbancrest.org .\n\nDetails:\nJoin us Wednesday evening, August 26, as we kick off our Wednesday night activities for the school year! All are welcome to enjoy a dinner at 5:30 PM (donations appreciated), and then Awana Programs for kids and adult Bible studies at 6:15 PM, and Youth Group for students in grades 7-12 at 6:30 PM.\n\nReach out to the church office with any questions at office@urbancrest.org .\n\nRegistration is open.\n\nRegistration status: open\nRegistration opens: 2026-06-24T16:24:59Z\nRegistration categories: Kids (4 yrs. - 6th Grade), Students (Grades 7-12), Family, New Here\nRegistration option: Standard; price: $0",
+      "priority": 80,
+      "category": [
+        "events",
+        "student_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "student_event",
+        "Wednesday Night Kickoff",
+        "Kids (4 yrs. - 6th Grade)",
+        "Students (Grades 7-12)",
+        "Family",
+        "New Here",
+        "Standard"
+      ],
+      "search_terms": [
+        "Wednesday Night Kickoff",
+        "When is Wednesday Night Kickoff?",
+        "Tell me about Wednesday Night Kickoff",
+        "What are the details for Wednesday Night Kickoff?",
+        "What is the menu for Wednesday Night Kickoff?",
+        "How do I register for Wednesday Night Kickoff?",
+        "Kids (4 yrs. - 6th Grade)",
+        "Students (Grades 7-12)",
+        "Family",
+        "New Here",
+        "Standard",
+        "Does Urbancrest have Wednesday Night Kickoff?",
+        "Does Urbancrest offer Wednesday Night Kickoff?",
+        "Do you have Wednesday Night Kickoff?",
+        "Do you offer Wednesday Night Kickoff?",
+        "Is there Wednesday Night Kickoff at Urbancrest?",
+        "Can I participate in Wednesday Night Kickoff?",
+        "Can I play Wednesday Night Kickoff at Urbancrest?"
+      ],
+      "ministries": [
+        "students",
+        "kids",
+        "family"
+      ],
+      "audiences": [
+        "students",
+        "children",
+        "families"
+      ],
+      "resources": [],
+      "event_id": "pc-registration-3719897-5110859e1bd0",
+      "activity_aliases": [
+        "Wednesday Night Kickoff"
+      ],
+      "event_aliases": [
+        "Wednesday Night Kickoff"
+      ],
+      "event_category": "student_event",
+      "event_start": "2026-08-26T21:30:00+00:00",
+      "event_end": "2026-08-27T00:00:00+00:00",
+      "sort_start_utc": "2026-08-26T21:30:00Z",
+      "sort_end_utc": "2026-08-27T00:00:00Z",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road\nGymnasium\nLebanon, OH 45036",
+      "details": "Join us Wednesday evening, August 26, as we kick off our Wednesday night activities for the school year! All are welcome to enjoy a dinner at 5:30 PM (donations appreciated), and then Awana Programs for kids and adult Bible studies at 6:15 PM, and Youth Group for students in grades 7-12 at 6:30 PM.\n\nReach out to the church office with any questions at office@urbancrest.org .\n\nRegistration is open.",
+      "details_source": "planning_center_registrations_api",
+      "planning_center_signup_id": "3719897",
+      "planning_center_signup_time_id": "6224733",
+      "event_source": "planning_center_registrations_api",
+      "event_sources": [
+        "planning_center_registrations_api"
+      ],
+      "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3719897/reservations/new",
+      "registration_open": true,
+      "registration_closed": false,
+      "registration_open_at": "2026-06-24T16:24:59Z",
+      "registration_categories": [
+        "Kids (4 yrs. - 6th Grade)",
+        "Students (Grades 7-12)",
+        "Family",
+        "New Here"
+      ],
+      "registration_options": [
+        {
+          "id": "8497557",
+          "name": "Standard",
+          "price_cents": 0,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "0",
+          "at_maximum_capacity": false,
+          "waitlist": false
+        }
+      ],
+      "info_url": "https://urbancrest.churchcenter.com/registrations/events/3719897/reservations/new",
+      "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3719897/medium_image-1782318571714.jpeg",
+      "chronological_rank": 14,
+      "routine_schedule_occurrence": false
+    },
+    {
       "id": "events.live.event-14d5eeb361d6795d",
       "record_type": "event",
       "path": "knowledge/events/generated/2026-12-06-women-s-christmas-event-d6795d.md",
@@ -14997,7 +15895,7 @@
       "planning_center_event_time_id": "27323098",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/203958301",
       "knowledge_file": "knowledge/events/generated/2026-12-06-women-s-christmas-event-d6795d.md",
-      "chronological_rank": 68,
+      "chronological_rank": 67,
       "routine_schedule_occurrence": false
     },
     {
@@ -15068,7 +15966,7 @@
       "planning_center_event_time_id": "27323022",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/203958056",
       "knowledge_file": "knowledge/events/generated/2026-09-27-women-s-fall-fest-8698aa.md",
-      "chronological_rank": 40,
+      "chronological_rank": 39,
       "routine_schedule_occurrence": false
     },
     {
@@ -15864,82 +16762,6 @@
       "resources": []
     },
     {
-      "id": "events.live.event-a39548cd605a3ff2",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-08-19-awana-2026-2027-5a3ff2.md",
-      "title": "Awana 2026-2027",
-      "summary": "**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**\n\nApproved Workmen Are Not Ashamed (A.W.A.N.A.)\n\nA program focusing on learning the B...",
-      "content": "**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**\n\nApproved Workmen Are Not Ashamed (A.W.A.N.A.)\n\nA program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.\n\nMeets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm\n\nSTART ANYTIME throughout the year!\n\nDinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.\n\n***When registering your child, please input 25/26 grade, it will automatically change in August***\nRegister: https://urbancrest.churchcenter.com/registrations/events/3737699\n\nDetails:\n**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**\nApproved Workmen Are Not Ashamed (A.W.A.N.A.)\nA program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.\nMeets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm \nSTART ANYTIME throughout the year!\nDinners before club each night! We will start serving at 5:30 and close serving at 6:10pm. \n***When registering your child, please input 25/26 grade, it will automatically change in August***",
-      "priority": 60,
-      "category": [
-        "events",
-        "churchwide_program"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "churchwide_program",
-        "Awana 2026-2027"
-      ],
-      "search_terms": [
-        "Awana 2026-2027",
-        "When is Awana 2026-2027?",
-        "Tell me about Awana 2026-2027",
-        "What are the details for Awana 2026-2027?",
-        "What is the menu for Awana 2026-2027?",
-        "How do I register for Awana 2026-2027?",
-        "Does Urbancrest have Awana 2026-2027?",
-        "Does Urbancrest offer Awana 2026-2027?",
-        "Do you have Awana 2026-2027?",
-        "Do you offer Awana 2026-2027?",
-        "Is there Awana 2026-2027 at Urbancrest?",
-        "Can I participate in Awana 2026-2027?",
-        "Can I play Awana 2026-2027 at Urbancrest?"
-      ],
-      "ministries": [
-        "kids",
-        "men"
-      ],
-      "audiences": [
-        "children",
-        "men",
-        "volunteers"
-      ],
-      "resources": [],
-      "event_id": "event-a39548cd605a3ff2",
-      "activity_aliases": [
-        "Awana 2026-2027"
-      ],
-      "event_aliases": [
-        "Awana 2026-2027"
-      ],
-      "event_category": "churchwide_program",
-      "event_start": "2026-08-19T18:15:00-04:00",
-      "event_end": "2026-08-19T19:30:00-04:00",
-      "sort_start_utc": "2026-08-19T22:15:00Z",
-      "sort_end_utc": "2026-08-19T23:30:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**\nApproved Workmen Are Not Ashamed (A.W.A.N.A.)\nA program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.\nMeets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm \nSTART ANYTIME throughout the year!\nDinners before club each night! We will start serving at 5:30 and close serving at 6:10pm. \n***When registering your child, please input 25/26 grade, it will automatically change in August***",
-      "details_source": "planning_center_calendar_api",
-      "planning_center_event_instance_id": "227855427",
-      "planning_center_event_time_id": "31487702",
-      "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3737699",
-      "info_url": "https://urbancrest.churchcenter.com/calendar/event/227855427",
-      "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg",
-      "knowledge_file": "knowledge/events/generated/2026-08-19-awana-2026-2027-5a3ff2.md",
-      "chronological_rank": 7,
-      "routine_schedule_occurrence": false
-    },
-    {
       "id": "events.live.event-73b5389e4282128d",
       "record_type": "event",
       "path": "knowledge/events/generated/2026-08-26-awana-2026-2027-82128d.md",
@@ -16012,7 +16834,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/227855428",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-08-26-awana-2026-2027-82128d.md",
-      "chronological_rank": 14,
+      "chronological_rank": 15,
       "routine_schedule_occurrence": false
     },
     {
@@ -16088,7 +16910,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/227855429",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-09-02-awana-2026-2027-b657f3.md",
-      "chronological_rank": 21,
+      "chronological_rank": 22,
       "routine_schedule_occurrence": false
     },
     {
@@ -16164,7 +16986,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/227855430",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-09-09-awana-2026-2027-ca71ea.md",
-      "chronological_rank": 28,
+      "chronological_rank": 31,
       "routine_schedule_occurrence": false
     },
     {
@@ -16308,7 +17130,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122706",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-09-02-wednesday-night-dinner-8cbe52.md",
-      "chronological_rank": 20,
+      "chronological_rank": 21,
       "routine_schedule_occurrence": false
     },
     {
@@ -16380,7 +17202,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122707",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-09-09-wednesday-night-dinner-f2ed46.md",
-      "chronological_rank": 27,
+      "chronological_rank": 30,
       "routine_schedule_occurrence": false
     },
     {
@@ -16524,7 +17346,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122709",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-09-23-wednesday-night-dinner-c7bf0d.md",
-      "chronological_rank": 38,
+      "chronological_rank": 36,
       "routine_schedule_occurrence": false
     },
     {
@@ -16596,7 +17418,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122710",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-09-30-wednesday-night-dinner-36f49b.md",
-      "chronological_rank": 41,
+      "chronological_rank": 40,
       "routine_schedule_occurrence": false
     },
     {
@@ -16668,7 +17490,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122711",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-10-07-wednesday-night-dinner-9fc5ad.md",
-      "chronological_rank": 45,
+      "chronological_rank": 44,
       "routine_schedule_occurrence": false
     },
     {
@@ -16740,7 +17562,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122712",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-10-14-wednesday-night-dinner-d9103e.md",
-      "chronological_rank": 47,
+      "chronological_rank": 46,
       "routine_schedule_occurrence": false
     },
     {
@@ -16812,7 +17634,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122713",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-10-21-wednesday-night-dinner-0edf1f.md",
-      "chronological_rank": 51,
+      "chronological_rank": 50,
       "routine_schedule_occurrence": false
     },
     {
@@ -16884,7 +17706,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122714",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-10-28-wednesday-night-dinner-acac27.md",
-      "chronological_rank": 53,
+      "chronological_rank": 52,
       "routine_schedule_occurrence": false
     },
     {
@@ -16956,7 +17778,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122715",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-11-04-wednesday-night-dinner-55fdc7.md",
-      "chronological_rank": 55,
+      "chronological_rank": 54,
       "routine_schedule_occurrence": false
     },
     {
@@ -17028,7 +17850,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122716",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-11-11-wednesday-night-dinner-af1c1c.md",
-      "chronological_rank": 58,
+      "chronological_rank": 57,
       "routine_schedule_occurrence": false
     },
     {
@@ -17100,7 +17922,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122717",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-11-18-wednesday-night-dinner-cf53fb.md",
-      "chronological_rank": 61,
+      "chronological_rank": 60,
       "routine_schedule_occurrence": false
     },
     {
@@ -17172,7 +17994,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122718",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-11-25-wednesday-night-dinner-77d08c.md",
-      "chronological_rank": 63,
+      "chronological_rank": 62,
       "routine_schedule_occurrence": false
     },
     {
@@ -17244,7 +18066,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122719",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-12-02-wednesday-night-dinner-809fdf.md",
-      "chronological_rank": 65,
+      "chronological_rank": 64,
       "routine_schedule_occurrence": false
     },
     {
@@ -17316,7 +18138,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122720",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-12-09-wednesday-night-dinner-6f6ed6.md",
-      "chronological_rank": 69,
+      "chronological_rank": 68,
       "routine_schedule_occurrence": false
     },
     {
@@ -17388,7 +18210,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122721",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-12-16-wednesday-night-dinner-d35842.md",
-      "chronological_rank": 71,
+      "chronological_rank": 70,
       "routine_schedule_occurrence": false
     },
     {
@@ -17460,7 +18282,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122722",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-12-23-wednesday-night-dinner-8995f6.md",
-      "chronological_rank": 73,
+      "chronological_rank": 72,
       "routine_schedule_occurrence": false
     },
     {
@@ -17532,7 +18354,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122723",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-12-30-wednesday-night-dinner-85ac1d.md",
-      "chronological_rank": 75,
+      "chronological_rank": 74,
       "routine_schedule_occurrence": false
     },
     {
@@ -17604,7 +18426,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122724",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-01-06-wednesday-night-dinner-cd86db.md",
-      "chronological_rank": 78,
+      "chronological_rank": 77,
       "routine_schedule_occurrence": false
     },
     {
@@ -17676,7 +18498,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122725",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2027-01-13-wednesday-night-dinner-ed64ec.md",
-      "chronological_rank": 80,
+      "chronological_rank": 79,
       "routine_schedule_occurrence": false
     },
     {
@@ -20134,7 +20956,7 @@
       "planning_center_event_time_id": "28363612",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/165657702",
       "knowledge_file": "knowledge/events/generated/2026-09-01-card-ministry-7202ff.md",
-      "chronological_rank": 19,
+      "chronological_rank": 20,
       "routine_schedule_occurrence": false
     },
     {
@@ -20227,98 +21049,6 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/164040331",
       "knowledge_file": "knowledge/events/generated/2026-08-19-monthly-baskets-of-hope-volunteers-80df8e.md",
       "chronological_rank": 6,
-      "routine_schedule_occurrence": false
-    },
-    {
-      "id": "events.live.event-e0476e22fc77387f",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-09-16-monthly-baskets-of-hope-volunteers-77387f.md",
-      "title": "Monthly Baskets of Hope - Volunteers",
-      "summary": "This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.",
-      "content": "This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "general_event",
-        "Monthly Baskets of Hope - Volunteers",
-        "Monthly Baskets of Hope",
-        "Volunteers"
-      ],
-      "search_terms": [
-        "Monthly Baskets of Hope - Volunteers",
-        "When is Monthly Baskets of Hope - Volunteers?",
-        "Tell me about Monthly Baskets of Hope - Volunteers",
-        "What are the details for Monthly Baskets of Hope - Volunteers?",
-        "What is the menu for Monthly Baskets of Hope - Volunteers?",
-        "How do I register for Monthly Baskets of Hope - Volunteers?",
-        "Does Urbancrest have Monthly Baskets of Hope - Volunteers?",
-        "Does Urbancrest offer Monthly Baskets of Hope - Volunteers?",
-        "Do you have Monthly Baskets of Hope - Volunteers?",
-        "Do you offer Monthly Baskets of Hope - Volunteers?",
-        "Is there Monthly Baskets of Hope - Volunteers at Urbancrest?",
-        "Can I participate in Monthly Baskets of Hope - Volunteers?",
-        "Can I play Monthly Baskets of Hope - Volunteers at Urbancrest?",
-        "Monthly Baskets of Hope",
-        "Does Urbancrest have Monthly Baskets of Hope?",
-        "Does Urbancrest offer Monthly Baskets of Hope?",
-        "Do you have Monthly Baskets of Hope?",
-        "Do you offer Monthly Baskets of Hope?",
-        "Is there Monthly Baskets of Hope at Urbancrest?",
-        "Can I participate in Monthly Baskets of Hope?",
-        "Can I play Monthly Baskets of Hope at Urbancrest?",
-        "Volunteers",
-        "Does Urbancrest have Volunteers?",
-        "Does Urbancrest offer Volunteers?",
-        "Do you have Volunteers?",
-        "Do you offer Volunteers?",
-        "Is there Volunteers at Urbancrest?",
-        "Can I participate in Volunteers?",
-        "Can I play Volunteers at Urbancrest?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "families",
-        "volunteers"
-      ],
-      "resources": [],
-      "event_id": "event-e0476e22fc77387f",
-      "activity_aliases": [
-        "Monthly Baskets of Hope - Volunteers",
-        "Monthly Baskets of Hope",
-        "Volunteers"
-      ],
-      "event_aliases": [
-        "Monthly Baskets of Hope - Volunteers",
-        "Monthly Baskets of Hope",
-        "Volunteers"
-      ],
-      "event_category": "general_event",
-      "event_start": "2026-09-16T16:30:00-04:00",
-      "event_end": "2026-09-16T18:30:00-04:00",
-      "sort_start_utc": "2026-09-16T20:30:00Z",
-      "sort_end_utc": "2026-09-16T22:30:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "planning_center_event_instance_id": "167230919",
-      "planning_center_event_time_id": "16193422",
-      "info_url": "https://urbancrest.churchcenter.com/calendar/event/167230919",
-      "knowledge_file": "knowledge/events/generated/2026-09-16-monthly-baskets-of-hope-volunteers-77387f.md",
-      "chronological_rank": 33,
       "routine_schedule_occurrence": false
     },
     {
@@ -20624,7 +21354,7 @@
       "planning_center_event_time_id": "29468516",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/216277432",
       "knowledge_file": "knowledge/events/generated/2026-08-27-open-gym-pickleball-e0bc06.md",
-      "chronological_rank": 15,
+      "chronological_rank": 16,
       "routine_schedule_occurrence": false
     },
     {
@@ -20726,7 +21456,7 @@
       "planning_center_event_time_id": "29468516",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/216277433",
       "knowledge_file": "knowledge/events/generated/2026-09-03-open-gym-pickleball-473ecc.md",
-      "chronological_rank": 22,
+      "chronological_rank": 24,
       "routine_schedule_occurrence": false
     },
     {
@@ -20828,109 +21558,7 @@
       "planning_center_event_time_id": "29468516",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/216277434",
       "knowledge_file": "knowledge/events/generated/2026-09-10-open-gym-pickleball-fe7030.md",
-      "chronological_rank": 29,
-      "routine_schedule_occurrence": false
-    },
-    {
-      "id": "events.live.event-cd61a9d143556aa9",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-09-17-open-gym-pickleball-556aa9.md",
-      "title": "OPEN GYM Pickleball",
-      "summary": "On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.",
-      "content": "On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "general_event",
-        "OPEN GYM Pickleball",
-        "Pickleball",
-        "OPEN GYM Pickle ball",
-        "Pickle ball"
-      ],
-      "search_terms": [
-        "OPEN GYM Pickleball",
-        "When is OPEN GYM Pickleball?",
-        "Tell me about OPEN GYM Pickleball",
-        "What are the details for OPEN GYM Pickleball?",
-        "What is the menu for OPEN GYM Pickleball?",
-        "How do I register for OPEN GYM Pickleball?",
-        "Does Urbancrest have OPEN GYM Pickleball?",
-        "Does Urbancrest offer OPEN GYM Pickleball?",
-        "Do you have OPEN GYM Pickleball?",
-        "Do you offer OPEN GYM Pickleball?",
-        "Is there OPEN GYM Pickleball at Urbancrest?",
-        "Can I participate in OPEN GYM Pickleball?",
-        "Can I play OPEN GYM Pickleball at Urbancrest?",
-        "Pickleball",
-        "Does Urbancrest have Pickleball?",
-        "Does Urbancrest offer Pickleball?",
-        "Do you have Pickleball?",
-        "Do you offer Pickleball?",
-        "Is there Pickleball at Urbancrest?",
-        "Can I participate in Pickleball?",
-        "Can I play Pickleball at Urbancrest?",
-        "OPEN GYM Pickle ball",
-        "Does Urbancrest have OPEN GYM Pickle ball?",
-        "Does Urbancrest offer OPEN GYM Pickle ball?",
-        "Do you have OPEN GYM Pickle ball?",
-        "Do you offer OPEN GYM Pickle ball?",
-        "Is there OPEN GYM Pickle ball at Urbancrest?",
-        "Can I participate in OPEN GYM Pickle ball?",
-        "Can I play OPEN GYM Pickle ball at Urbancrest?",
-        "Pickle ball",
-        "Does Urbancrest have Pickle ball?",
-        "Does Urbancrest offer Pickle ball?",
-        "Do you have Pickle ball?",
-        "Do you offer Pickle ball?",
-        "Is there Pickle ball at Urbancrest?",
-        "Can I participate in Pickle ball?",
-        "Can I play Pickle ball at Urbancrest?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-cd61a9d143556aa9",
-      "activity_aliases": [
-        "OPEN GYM Pickleball",
-        "Pickleball",
-        "OPEN GYM Pickle ball",
-        "Pickle ball"
-      ],
-      "event_aliases": [
-        "OPEN GYM Pickleball",
-        "Pickleball",
-        "OPEN GYM Pickle ball",
-        "Pickle ball"
-      ],
-      "event_category": "general_event",
-      "event_start": "2026-09-17T18:00:00-04:00",
-      "event_end": "2026-09-17T20:00:00-04:00",
-      "sort_start_utc": "2026-09-17T22:00:00Z",
-      "sort_end_utc": "2026-09-18T00:00:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "planning_center_event_instance_id": "216277435",
-      "planning_center_event_time_id": "29468516",
-      "info_url": "https://urbancrest.churchcenter.com/calendar/event/216277435",
-      "knowledge_file": "knowledge/events/generated/2026-09-17-open-gym-pickleball-556aa9.md",
-      "chronological_rank": 35,
+      "chronological_rank": 32,
       "routine_schedule_occurrence": false
     },
     {
@@ -21213,7 +21841,7 @@
       "planning_center_event_time_id": "9127132",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/165474591",
       "knowledge_file": "knowledge/events/generated/2026-08-30-sunday-morning-services-11-00-am-service-80f4a3.md",
-      "chronological_rank": 18,
+      "chronological_rank": 19,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -21309,103 +21937,7 @@
       "planning_center_event_time_id": "9127132",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/166271992",
       "knowledge_file": "knowledge/events/generated/2026-09-06-sunday-morning-services-11-00-am-service-8a985a.md",
-      "chronological_rank": 26,
-      "routine_schedule_occurrence": true,
-      "retrieval_exclude_for_intents": [
-        "service_times",
-        "sunday_service_times",
-        "weekly_schedule"
-      ]
-    },
-    {
-      "id": "events.live.event-d86eca8c10153e7f",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-09-13-sunday-morning-services-11-00-am-service-153e7f.md",
-      "title": "Sunday Morning Services: 11:00 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 20,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "general_event",
-        "Sunday Morning Services: 11:00 AM Service",
-        "Sunday Morning Services",
-        "00 AM Service"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 11:00 AM Service",
-        "When is Sunday Morning Services: 11:00 AM Service?",
-        "Tell me about Sunday Morning Services: 11:00 AM Service",
-        "What are the details for Sunday Morning Services: 11:00 AM Service?",
-        "What is the menu for Sunday Morning Services: 11:00 AM Service?",
-        "How do I register for Sunday Morning Services: 11:00 AM Service?",
-        "Does Urbancrest have Sunday Morning Services: 11:00 AM Service?",
-        "Does Urbancrest offer Sunday Morning Services: 11:00 AM Service?",
-        "Do you have Sunday Morning Services: 11:00 AM Service?",
-        "Do you offer Sunday Morning Services: 11:00 AM Service?",
-        "Is there Sunday Morning Services: 11:00 AM Service at Urbancrest?",
-        "Can I participate in Sunday Morning Services: 11:00 AM Service?",
-        "Can I play Sunday Morning Services: 11:00 AM Service at Urbancrest?",
-        "Sunday Morning Services",
-        "Does Urbancrest have Sunday Morning Services?",
-        "Does Urbancrest offer Sunday Morning Services?",
-        "Do you have Sunday Morning Services?",
-        "Do you offer Sunday Morning Services?",
-        "Is there Sunday Morning Services at Urbancrest?",
-        "Can I participate in Sunday Morning Services?",
-        "Can I play Sunday Morning Services at Urbancrest?",
-        "00 AM Service",
-        "Does Urbancrest have 00 AM Service?",
-        "Does Urbancrest offer 00 AM Service?",
-        "Do you have 00 AM Service?",
-        "Do you offer 00 AM Service?",
-        "Is there 00 AM Service at Urbancrest?",
-        "Can I participate in 00 AM Service?",
-        "Can I play 00 AM Service at Urbancrest?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-d86eca8c10153e7f",
-      "activity_aliases": [
-        "Sunday Morning Services: 11:00 AM Service",
-        "Sunday Morning Services",
-        "00 AM Service"
-      ],
-      "event_aliases": [
-        "Sunday Morning Services: 11:00 AM Service",
-        "Sunday Morning Services",
-        "00 AM Service"
-      ],
-      "event_category": "general_event",
-      "event_start": "2026-09-13T11:00:00-04:00",
-      "event_end": "2026-09-13T12:10:00-04:00",
-      "sort_start_utc": "2026-09-13T15:00:00Z",
-      "sort_end_utc": "2026-09-13T16:10:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "planning_center_event_instance_id": "167074215",
-      "planning_center_event_time_id": "9127132",
-      "info_url": "https://urbancrest.churchcenter.com/calendar/event/167074215",
-      "knowledge_file": "knowledge/events/generated/2026-09-13-sunday-morning-services-11-00-am-service-153e7f.md",
-      "chronological_rank": 32,
+      "chronological_rank": 29,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -21693,7 +22225,7 @@
       "planning_center_event_time_id": "9127131",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/165474591",
       "knowledge_file": "knowledge/events/generated/2026-08-30-sunday-morning-services-9-30-am-service-faf099.md",
-      "chronological_rank": 17,
+      "chronological_rank": 18,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -21789,199 +22321,7 @@
       "planning_center_event_time_id": "9127131",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/166271992",
       "knowledge_file": "knowledge/events/generated/2026-09-06-sunday-morning-services-9-30-am-service-3e5884.md",
-      "chronological_rank": 25,
-      "routine_schedule_occurrence": true,
-      "retrieval_exclude_for_intents": [
-        "service_times",
-        "sunday_service_times",
-        "weekly_schedule"
-      ]
-    },
-    {
-      "id": "events.live.event-a417c1725cb32add",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-09-13-sunday-morning-services-9-30-am-service-b32add.md",
-      "title": "Sunday Morning Services: 9:30 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 20,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "general_event",
-        "Sunday Morning Services: 9:30 AM Service",
-        "Sunday Morning Services",
-        "30 AM Service"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 9:30 AM Service",
-        "When is Sunday Morning Services: 9:30 AM Service?",
-        "Tell me about Sunday Morning Services: 9:30 AM Service",
-        "What are the details for Sunday Morning Services: 9:30 AM Service?",
-        "What is the menu for Sunday Morning Services: 9:30 AM Service?",
-        "How do I register for Sunday Morning Services: 9:30 AM Service?",
-        "Does Urbancrest have Sunday Morning Services: 9:30 AM Service?",
-        "Does Urbancrest offer Sunday Morning Services: 9:30 AM Service?",
-        "Do you have Sunday Morning Services: 9:30 AM Service?",
-        "Do you offer Sunday Morning Services: 9:30 AM Service?",
-        "Is there Sunday Morning Services: 9:30 AM Service at Urbancrest?",
-        "Can I participate in Sunday Morning Services: 9:30 AM Service?",
-        "Can I play Sunday Morning Services: 9:30 AM Service at Urbancrest?",
-        "Sunday Morning Services",
-        "Does Urbancrest have Sunday Morning Services?",
-        "Does Urbancrest offer Sunday Morning Services?",
-        "Do you have Sunday Morning Services?",
-        "Do you offer Sunday Morning Services?",
-        "Is there Sunday Morning Services at Urbancrest?",
-        "Can I participate in Sunday Morning Services?",
-        "Can I play Sunday Morning Services at Urbancrest?",
-        "30 AM Service",
-        "Does Urbancrest have 30 AM Service?",
-        "Does Urbancrest offer 30 AM Service?",
-        "Do you have 30 AM Service?",
-        "Do you offer 30 AM Service?",
-        "Is there 30 AM Service at Urbancrest?",
-        "Can I participate in 30 AM Service?",
-        "Can I play 30 AM Service at Urbancrest?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-a417c1725cb32add",
-      "activity_aliases": [
-        "Sunday Morning Services: 9:30 AM Service",
-        "Sunday Morning Services",
-        "30 AM Service"
-      ],
-      "event_aliases": [
-        "Sunday Morning Services: 9:30 AM Service",
-        "Sunday Morning Services",
-        "30 AM Service"
-      ],
-      "event_category": "general_event",
-      "event_start": "2026-09-13T09:30:00-04:00",
-      "event_end": "2026-09-13T10:40:00-04:00",
-      "sort_start_utc": "2026-09-13T13:30:00Z",
-      "sort_end_utc": "2026-09-13T14:40:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "planning_center_event_instance_id": "167074215",
-      "planning_center_event_time_id": "9127131",
-      "info_url": "https://urbancrest.churchcenter.com/calendar/event/167074215",
-      "knowledge_file": "knowledge/events/generated/2026-09-13-sunday-morning-services-9-30-am-service-b32add.md",
-      "chronological_rank": 31,
-      "routine_schedule_occurrence": true,
-      "retrieval_exclude_for_intents": [
-        "service_times",
-        "sunday_service_times",
-        "weekly_schedule"
-      ]
-    },
-    {
-      "id": "events.live.event-66c2f7334325697d",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-09-20-sunday-morning-services-9-30-am-service-25697d.md",
-      "title": "Sunday Morning Services: 9:30 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 20,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "general_event",
-        "Sunday Morning Services: 9:30 AM Service",
-        "Sunday Morning Services",
-        "30 AM Service"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 9:30 AM Service",
-        "When is Sunday Morning Services: 9:30 AM Service?",
-        "Tell me about Sunday Morning Services: 9:30 AM Service",
-        "What are the details for Sunday Morning Services: 9:30 AM Service?",
-        "What is the menu for Sunday Morning Services: 9:30 AM Service?",
-        "How do I register for Sunday Morning Services: 9:30 AM Service?",
-        "Does Urbancrest have Sunday Morning Services: 9:30 AM Service?",
-        "Does Urbancrest offer Sunday Morning Services: 9:30 AM Service?",
-        "Do you have Sunday Morning Services: 9:30 AM Service?",
-        "Do you offer Sunday Morning Services: 9:30 AM Service?",
-        "Is there Sunday Morning Services: 9:30 AM Service at Urbancrest?",
-        "Can I participate in Sunday Morning Services: 9:30 AM Service?",
-        "Can I play Sunday Morning Services: 9:30 AM Service at Urbancrest?",
-        "Sunday Morning Services",
-        "Does Urbancrest have Sunday Morning Services?",
-        "Does Urbancrest offer Sunday Morning Services?",
-        "Do you have Sunday Morning Services?",
-        "Do you offer Sunday Morning Services?",
-        "Is there Sunday Morning Services at Urbancrest?",
-        "Can I participate in Sunday Morning Services?",
-        "Can I play Sunday Morning Services at Urbancrest?",
-        "30 AM Service",
-        "Does Urbancrest have 30 AM Service?",
-        "Does Urbancrest offer 30 AM Service?",
-        "Do you have 30 AM Service?",
-        "Do you offer 30 AM Service?",
-        "Is there 30 AM Service at Urbancrest?",
-        "Can I participate in 30 AM Service?",
-        "Can I play 30 AM Service at Urbancrest?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-66c2f7334325697d",
-      "activity_aliases": [
-        "Sunday Morning Services: 9:30 AM Service",
-        "Sunday Morning Services",
-        "30 AM Service"
-      ],
-      "event_aliases": [
-        "Sunday Morning Services: 9:30 AM Service",
-        "Sunday Morning Services",
-        "30 AM Service"
-      ],
-      "event_category": "general_event",
-      "event_start": "2026-09-20T09:30:00-04:00",
-      "event_end": "2026-09-20T10:40:00-04:00",
-      "sort_start_utc": "2026-09-20T13:30:00Z",
-      "sort_end_utc": "2026-09-20T14:40:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "planning_center_event_instance_id": "167708219",
-      "planning_center_event_time_id": "9127131",
-      "info_url": "https://urbancrest.churchcenter.com/calendar/event/167708219",
-      "knowledge_file": "knowledge/events/generated/2026-09-20-sunday-morning-services-9-30-am-service-25697d.md",
-      "chronological_rank": 37,
+      "chronological_rank": 28,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
