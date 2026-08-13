@@ -34,7 +34,7 @@ jobs:
           pip install -r scripts/requirements-events.txt
           pip install -r scripts/requirements-index.txt
 
-      - name: Generate live event files
+      - name: Generate calendar event files
         env:
           ICAL_FEED_URL: ${{ secrets.ICAL_FEED_URL }}
           PLANNING_CENTER_APP_ID: ${{ secrets.PLANNING_CENTER_APP_ID }}
@@ -47,6 +47,17 @@ jobs:
           EVENT_DEFAULT_IMAGE: ""
         run: python scripts/sync_events.py
 
+      - name: Merge Planning Center Registrations events
+        env:
+          PLANNING_CENTER_APP_ID: ${{ secrets.PLANNING_CENTER_APP_ID }}
+          PLANNING_CENTER_SECRET: ${{ secrets.PLANNING_CENTER_SECRET }}
+          PLANNING_CENTER_REGISTRATIONS_API_VERSION: "2025-05-01"
+          EVENT_LOOKAHEAD_DAYS: "365"
+          EVENT_MAX_MAIN_EVENTS: "150"
+          REGISTRATIONS_CATEGORY_ALLOWLIST: ""
+          REGISTRATIONS_CATEGORY_DENYLIST: ""
+        run: python scripts/sync_registrations.py
+
       - name: Rebuild knowledge search index
         run: python scripts/build_search_index.py
 
@@ -55,7 +66,12 @@ jobs:
           git config user.name "urbancrest-events-bot"
           git config user.email "actions@users.noreply.github.com"
 
-          git add -A --             registry/events-live.yaml             registry/small-groups-live.yaml             knowledge/events             knowledge/small-groups             runtime/search-index.json
+          git add -A -- \
+            registry/events-live.yaml \
+            registry/small-groups-live.yaml \
+            knowledge/events \
+            knowledge/small-groups \
+            runtime/search-index.json
 
           echo "Files staged for commit:"
           git status --short
