@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.9.7",
-  "generated_at": "2026-08-13T16:51:45.366087Z",
+  "generated_at": "2026-08-13T17:09:19.528992Z",
   "timezone": "America/New_York",
-  "record_count": 426,
+  "record_count": 425,
   "config": {
     "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step. For directions requests, include both approved map links.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership Transition\n\nUrbancrest is currently searching for its next Global Missions Pastor.\n\nFor broad or global missions leadership questions:\n\n1. State that Urbancrest is currently searching for its next Global Missions Pastor.\n2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.\n3. Return `jennifer_prows` when one staff card is appropriate.\n4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nState the times found in those authoritative records directly. Do not hardcode service times in runtime application logic or prompt instructions.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
     "style_guide": "# Style Guide\n\n## Writing\n\n- Use short paragraphs.\n- Prefer plain language.\n- Avoid church jargon unless it is explained.\n- Do not use em dashes.\n- Do not use the word meaningful as a filler.\n- Use Small Groups, never Grow Groups.\n- Refer to Urbancrest Church as Urbancrest after the first use.\n- Use believer's baptism by immersion when describing baptism.\n\n## Theology\n\n- Scripture is the final authority.\n- The Baptist Faith and Message 2000 is a helpful doctrinal summary, not equal to Scripture.\n- Salvation is by grace alone through faith alone in Jesus Christ alone.\n- Baptism follows salvation and does not save.\n",
@@ -5613,50 +5613,6 @@
       "include_with_bundle": false
     },
     {
-      "id": "action_link.serving_interest",
-      "record_type": "action_link",
-      "path": "registry/action-links.yaml",
-      "title": "Volunteer Interest Form",
-      "summary": "Approved Urbancrest action link for serving, volunteering, volunteer, serving_interest, ministry_team.",
-      "content": "Label: Volunteer Interest Form\nURL: https://urbancrest.churchcenter.com/people/forms/4085\nIntents: serving, volunteering, volunteer, serving_interest, ministry_team",
-      "priority": 100,
-      "category": [
-        "action_link"
-      ],
-      "intents": [
-        "serving",
-        "volunteering",
-        "volunteer",
-        "serving_interest",
-        "ministry_team"
-      ],
-      "tags": [
-        "action",
-        "link",
-        "serving",
-        "volunteering",
-        "volunteer",
-        "serving_interest",
-        "ministry_team"
-      ],
-      "search_terms": [
-        "Volunteer Interest Form",
-        "serving",
-        "volunteering",
-        "volunteer",
-        "serving_interest",
-        "ministry_team"
-      ],
-      "ministries": [],
-      "audiences": [],
-      "resources": [],
-      "action_key": "serving_interest",
-      "url": "https://urbancrest.churchcenter.com/people/forms/4085",
-      "external": true,
-      "church_center_modal": true,
-      "include_with_bundle": false
-    },
-    {
       "id": "events.live.event-f2f8bb3688f6a6f7",
       "record_type": "event",
       "path": "knowledge/events/generated/2027-04-07-missions-conference-f6a6f7.md",
@@ -9425,7 +9381,7 @@
       "path": "registry/action-links.yaml",
       "title": "Get Directions on Google Maps",
       "summary": "Approved Urbancrest action link for directions, location, first_visit.",
-      "content": "Label: Get Directions on Google Maps\nURL: https://www.google.com/maps/dir/?api=1&destination=2634+Drake+Rd,+Lebanon,+OH+45036\nIntents: directions, location, first_visit",
+      "content": "Label: Get Directions on Google Maps\nURL: https://www.google.com/maps/dir/?api=1&destination=2634+Drake+Rd,+Lebanon,+OH+45036\nIntents: directions, location, first_visit\nBundle: directions_maps",
       "priority": 90,
       "category": [
         "action_link"
@@ -9455,15 +9411,16 @@
       "url": "https://www.google.com/maps/dir/?api=1&destination=2634+Drake+Rd,+Lebanon,+OH+45036",
       "external": true,
       "church_center_modal": false,
-      "include_with_bundle": false
+      "bundle": "directions_maps",
+      "include_with_bundle": true
     },
     {
       "id": "action_link.get_involved",
       "record_type": "action_link",
       "path": "registry/action-links.yaml",
       "title": "Get Involved",
-      "summary": "Approved Urbancrest action link for small_groups, serving, volunteering, ministries, ministry.",
-      "content": "Label: Get Involved\nURL: https://urbancrest.church/get-involved\nIntents: small_groups, serving, volunteering, ministries, ministry",
+      "summary": "Approved Urbancrest action link for small_groups, serving, volunteering, ministries.",
+      "content": "Label: Get Involved\nURL: https://urbancrest.church/get-involved\nIntents: small_groups, serving, volunteering, ministries",
       "priority": 90,
       "category": [
         "action_link"
@@ -9472,8 +9429,7 @@
         "small_groups",
         "serving",
         "volunteering",
-        "ministries",
-        "ministry"
+        "ministries"
       ],
       "tags": [
         "action",
@@ -9481,16 +9437,14 @@
         "small_groups",
         "serving",
         "volunteering",
-        "ministries",
-        "ministry"
+        "ministries"
       ],
       "search_terms": [
         "Get Involved",
         "small_groups",
         "serving",
         "volunteering",
-        "ministries",
-        "ministry"
+        "ministries"
       ],
       "ministries": [],
       "audiences": [],
@@ -14323,7 +14277,7 @@
       "path": "registry/action-links.yaml",
       "title": "Get Directions on Apple Maps",
       "summary": "Approved Urbancrest action link for directions, location, first_visit.",
-      "content": "Label: Get Directions on Apple Maps\nURL: https://maps.apple.com/?daddr=2634+Drake+Rd,+Lebanon,+OH+45036\nIntents: directions, location, first_visit",
+      "content": "Label: Get Directions on Apple Maps\nURL: https://maps.apple.com/?daddr=2634+Drake+Rd,+Lebanon,+OH+45036\nIntents: directions, location, first_visit\nBundle: directions_maps",
       "priority": 80,
       "category": [
         "action_link"
@@ -14353,7 +14307,8 @@
       "url": "https://maps.apple.com/?daddr=2634+Drake+Rd,+Lebanon,+OH+45036",
       "external": true,
       "church_center_modal": false,
-      "include_with_bundle": false
+      "bundle": "directions_maps",
+      "include_with_bundle": true
     },
     {
       "id": "action_link.staff",
