@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.9.7",
-  "generated_at": "2026-08-13T16:13:31.980334Z",
+  "generated_at": "2026-08-13T16:51:45.366087Z",
   "timezone": "America/New_York",
   "record_count": 426,
   "config": {
@@ -434,8 +434,8 @@
       "record_type": "knowledge",
       "path": "knowledge/pastoral-care/marriage-family.md",
       "title": "My marriage or family is in crisis",
-      "summary": "Urbancrest pastors can provide pastoral care for marriage and family crises. When abuse or immediate danger is present, safety takes priority over ordinary counseling.",
-      "content": "# Marriage and family crisis\n\nUrbancrest pastors are available to listen, pray with you, and provide biblical pastoral care when a marriage or family is under strain.\n\nA difficult relationship situation may also benefit from qualified professional counseling or other appropriate support. If abuse, threats, or immediate danger are involved, safety comes before ordinary marriage counseling.",
+      "summary": "Urbancrest pastors can provide biblical pastoral care for marriage and family crises, and Stephen Ministry can provide confidential, Christ-centered, one-to-one support alongside pastoral care. When abuse or immediate danger is present, safety takes priority.",
+      "content": "# Marriage and family crisis\n\nUrbancrest pastors are available to listen, pray with you, and provide biblical pastoral care when a marriage or family is under strain.\n\n**Stephen Ministry** is also available alongside pastoral care for confidential, Christ-centered, one-to-one support through trained lay caregivers. A Stephen Minister can listen, encourage, pray, and walk alongside someone through a difficult season. Stephen Ministers are not professional counselors or therapists.\n\nA difficult relationship situation may also benefit from qualified professional counseling or other appropriate support. If abuse, threats, or immediate danger are involved, safety comes before ordinary marriage counseling.",
       "priority": 130,
       "category": [
         "pastoral_care",
@@ -454,7 +454,9 @@
         "divorce",
         "separation",
         "relationship crisis",
-        "pastoral care"
+        "pastoral care",
+        "Stephen Ministry",
+        "one-to-one care"
       ],
       "search_terms": [
         "My marriage is falling apart",
@@ -463,7 +465,8 @@
         "My family is in crisis"
       ],
       "ministries": [
-        "pastoral"
+        "pastoral",
+        "stephen_ministry"
       ],
       "audiences": [
         "everyone"
