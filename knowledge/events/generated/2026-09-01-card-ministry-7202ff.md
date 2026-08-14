@@ -42,7 +42,7 @@ all_day: false
 info_url: "https://urbancrest.churchcenter.com/calendar/event/165657702"
 planning_center_event_instance_id: "165657702"
 planning_center_event_time_id: "28363612"
-last_generated: 2026-08-14T02:46:58.720544Z
+last_generated: 2026-08-14T05:03:04.467265Z
 ---
 
 # Card Ministry
