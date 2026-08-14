@@ -45,7 +45,7 @@ location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "230122717"
 planning_center_event_time_id: "31870601"
-last_generated: 2026-08-14T05:03:04.467265Z
+last_generated: 2026-08-14T07:51:31.720249Z
 ---
 
 # Wednesday Night Dinner
