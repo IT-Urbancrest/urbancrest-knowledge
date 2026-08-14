@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.9.7",
-  "generated_at": "2026-08-14T16:06:43.375592Z",
+  "generated_at": "2026-08-14T19:14:49.759284Z",
   "timezone": "America/New_York",
   "record_count": 409,
   "config": {
@@ -3242,7 +3242,7 @@
       "path": "knowledge/events/generated/2026-11-13-youth-fall-retreat-99f87a.md",
       "title": "Youth Fall Retreat",
       "summary": "November 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area of our lives!",
-      "content": "November 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area of our lives!\n\nDetails:\nNovember 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area of our lives!\n\nRegistration is open.\n\nRegistration status: open\nRegistration opens: 2026-07-31T14:40:11Z\nRegistration option: Students; price: $130",
+      "content": "November 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area of our lives!\n\nDetails:\nNovember 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area of our lives!\n\nRegistration is open.\n\nRegistration status: open\nRegistration opens: 2026-07-31T14:40:11Z\nRegistration option: Students; price: $130\nRegistration option: Youth Leader; price: $0",
       "priority": 100,
       "category": [
         "events",
@@ -3262,7 +3262,8 @@
         "activity",
         "major_event",
         "Youth Fall Retreat",
-        "Students"
+        "Students",
+        "Youth Leader"
       ],
       "search_terms": [
         "Youth Fall Retreat",
@@ -3272,6 +3273,7 @@
         "What is the menu for Youth Fall Retreat?",
         "How do I register for Youth Fall Retreat?",
         "Students",
+        "Youth Leader",
         "Does Urbancrest have Youth Fall Retreat?",
         "Does Urbancrest offer Youth Fall Retreat?",
         "Do you have Youth Fall Retreat?",
@@ -3323,6 +3325,16 @@
           "price_currency": "USD",
           "price_currency_symbol": "$",
           "price_formatted": "130",
+          "at_maximum_capacity": false,
+          "waitlist": false
+        },
+        {
+          "id": "8735448",
+          "name": "Youth Leader",
+          "price_cents": 0,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "0",
           "at_maximum_capacity": false,
           "waitlist": false
         }
@@ -15508,7 +15520,7 @@
       "path": "registry/events-live.yaml",
       "title": "Strength to Stand",
       "summary": "Deadline to sign up is September 30th!!!",
-      "content": "Deadline to sign up is September 30th!!!\n\nDetails:\nDeadline to sign up is September 30th!!!\n\nRegistration is open.\n\nRegistration status: open\nRegistration opens: 2026-07-24T04:00:00Z\nRegistration option: STS Youth Guy; price: $250; available capacity: 19\nRegistration option: STS Youth Girl; price: $250; available capacity: 18\nRegistration option: STS Youth Adult Leader; price: $0; available capacity: 12",
+      "content": "Deadline to sign up is September 30th!!!\n\nDetails:\nDeadline to sign up is September 30th!!!\n\nRegistration is open.\n\nRegistration status: open\nRegistration opens: 2026-07-24T04:00:00Z\nRegistration option: STS Youth Guy; price: $250; available capacity: 19\nRegistration option: STS Youth Girl; price: $250; available capacity: 17\nRegistration option: STS Youth Adult Leader; price: $0; available capacity: 3",
       "priority": 80,
       "category": [
         "events",
@@ -15599,7 +15611,7 @@
           "price_currency_symbol": "$",
           "price_formatted": "250",
           "maximum_capacity": 22,
-          "available_capacity": 18,
+          "available_capacity": 17,
           "at_maximum_capacity": false,
           "waitlist": false
         },
@@ -15611,7 +15623,7 @@
           "price_currency_symbol": "$",
           "price_formatted": "0",
           "maximum_capacity": 12,
-          "available_capacity": 12,
+          "available_capacity": 3,
           "at_maximum_capacity": false,
           "waitlist": false
         }
