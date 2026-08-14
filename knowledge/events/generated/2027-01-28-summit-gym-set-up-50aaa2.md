@@ -42,7 +42,7 @@ all_day: true
 info_url: "https://urbancrest.churchcenter.com/calendar/event/178563594"
 planning_center_event_instance_id: "178563594"
 planning_center_event_time_id: "14177442"
-last_generated: 2026-08-13T22:04:01.320593Z
+last_generated: 2026-08-14T02:46:58.720544Z
 ---
 
 # Summit - Gym Set-up
