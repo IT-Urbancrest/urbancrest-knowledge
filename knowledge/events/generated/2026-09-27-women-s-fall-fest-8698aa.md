@@ -35,7 +35,7 @@ event_start: "2026-09-27T17:30:00-04:00"
 event_end: "2026-09-27T20:00:00-04:00"
 sort_start_utc: "2026-09-27T21:30:00Z"
 sort_end_utc: "2026-09-28T00:00:00Z"
-chronological_rank: 40
+chronological_rank: 39
 next_for_ministries: ["women"]
 next_for_audiences: ["women"]
 all_day: false
@@ -43,7 +43,7 @@ info_url: "https://urbancrest.churchcenter.com/calendar/event/203958056"
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "203958056"
 planning_center_event_time_id: "27323022"
-last_generated: 2026-08-15T12:59:36.079030Z
+last_generated: 2026-08-15T15:35:18.471391Z
 ---
 
 # Women's Fall Fest
