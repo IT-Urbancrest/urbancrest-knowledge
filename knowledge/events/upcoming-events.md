@@ -16,37 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-08-16T13:01:16.646801Z
+last_generated: 2026-08-16T15:36:02.007274Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## P U R S U E
-
-**Category:** Ministry Event
-
-**When:** Sunday, August 16, 2026, 9:30 AM to 10:30 AM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/163868048
-
-Detailed event file: `knowledge/events/generated/2026-08-16-p-u-r-s-u-e-27cc47.md`
-
-## Sunday Morning Services: 9:30 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, August 16, 2026, 9:30 AM to 10:40 AM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/163868049
-
-Detailed event file: `knowledge/events/generated/2026-08-16-sunday-morning-services-9-30-am-service-e226b5.md`
 
 ## Sunday Morning Services: 11:00 AM Service
 
@@ -406,6 +382,30 @@ Detailed event file: `knowledge/events/generated/2026-09-10-open-gym-pickleball-
 **More information:** https://urbancrest.churchcenter.com/calendar/event/167074214
 
 Detailed event file: `knowledge/events/generated/2026-09-13-p-u-r-s-u-e-300fb0.md`
+
+## Sunday Morning Services: 9:30 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, September 13, 2026, 9:30 AM to 10:40 AM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+**More information:** https://urbancrest.churchcenter.com/calendar/event/167074215
+
+Detailed event file: `knowledge/events/generated/2026-09-13-sunday-morning-services-9-30-am-service-b32add.md`
+
+## Sunday Morning Services: 11:00 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, September 13, 2026, 11 AM to 12:10 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+**More information:** https://urbancrest.churchcenter.com/calendar/event/167074215
+
+Detailed event file: `knowledge/events/generated/2026-09-13-sunday-morning-services-11-00-am-service-153e7f.md`
 
 ## Wednesday Night Dinner
 

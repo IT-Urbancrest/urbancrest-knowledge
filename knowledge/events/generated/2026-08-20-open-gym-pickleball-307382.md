@@ -35,7 +35,7 @@ event_start: "2026-08-20T18:00:00-04:00"
 event_end: "2026-08-20T20:00:00-04:00"
 sort_start_utc: "2026-08-20T22:00:00Z"
 sort_end_utc: "2026-08-21T00:00:00Z"
-chronological_rank: 7
+chronological_rank: 5
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
@@ -43,7 +43,7 @@ info_url: "https://urbancrest.churchcenter.com/calendar/event/216277431"
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "216277431"
 planning_center_event_time_id: "29468516"
-last_generated: 2026-08-16T13:01:15.396731Z
+last_generated: 2026-08-16T15:36:00.855100Z
 ---
 
 # OPEN GYM Pickleball
