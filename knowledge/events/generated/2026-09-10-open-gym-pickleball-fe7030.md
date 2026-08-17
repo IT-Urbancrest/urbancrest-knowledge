@@ -43,7 +43,7 @@ info_url: "https://urbancrest.churchcenter.com/calendar/event/216277434"
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "216277434"
 planning_center_event_time_id: "29468516"
-last_generated: 2026-08-16T21:34:32.702015Z
+last_generated: 2026-08-17T01:55:50.900954Z
 ---
 
 # OPEN GYM Pickleball
