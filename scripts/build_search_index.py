@@ -63,86 +63,37 @@ def truncate(value: str, limit: int = 2400) -> str:
     return value if len(value) <= limit else value[: limit - 3].rstrip() + "..."
 
 
-def event_activity_aliases(
-    title: str,
-    summary: str = "",
-    description: str = "",
-    details: str = "",
-) -> list[str]:
-    """Create public-facing aliases for a live event.
-
-    Planning Center's event title is not always the name people actually use. For
-    example, a record titled ``Urbancrest Women's Conference`` may be promoted as
-    ``Known & Loved`` in its description. Keep title-based aliases, then add short
-    quoted/promotional names found in the event text.
-    """
-
-    def add_variants(target: list[str], value: str) -> None:
-        cleaned_value = re.sub(r"\s+", " ", str(value or "")).strip(" \t\r\n-–—:|")
-        if not cleaned_value:
-            return
-        target.append(cleaned_value)
-        if "&" in cleaned_value:
-            target.append(re.sub(r"\s*&\s*", " and ", cleaned_value))
-        elif re.search(r"\band\b", cleaned_value, flags=re.IGNORECASE):
-            target.append(re.sub(r"\band\b", "&", cleaned_value, flags=re.IGNORECASE))
-
+def event_activity_aliases(title: str) -> list[str]:
+    """Create public-facing activity aliases from a calendar event title."""
     cleaned = re.sub(r"\s+", " ", str(title or "")).strip()
-    aliases: list[str] = []
-    if cleaned:
-        add_variants(aliases, cleaned)
-        simplified = cleaned
+    if not cleaned:
+        return []
 
-        # Remove common calendar prefixes that people usually omit in questions.
-        prefix_patterns = [
-            r"^open\s+gym\s*[-:|]?\s*",
-            r"^urbancrest\s*[-:|]?\s*",
-            r"^weekly\s*[-:|]?\s*",
-        ]
-        for pattern in prefix_patterns:
-            candidate = re.sub(pattern, "", simplified, flags=re.IGNORECASE).strip()
-            if candidate and candidate.casefold() != simplified.casefold():
-                add_variants(aliases, candidate)
-                simplified = candidate
+    aliases = [cleaned]
+    simplified = cleaned
 
-        # Event titles often use a separator between a generic event type and the
-        # promoted name. Make both sides independently searchable.
-        title_parts = [
-            part.strip()
-            for part in re.split(r"\s+(?:[-–—|])\s+|:\s*", cleaned)
-            if part.strip()
-        ]
-        if 1 < len(title_parts) <= 4:
-            for part in title_parts:
-                if len(part) >= 4:
-                    add_variants(aliases, part)
-
-    # Extract short quoted names/subtitles from the event's public copy. This is
-    # deliberately conservative so ordinary quoted sentences do not become aliases.
-    public_text = "\n".join(str(value or "") for value in (summary, description, details))
-    quote_patterns = [
-        r'"([^"\n]{3,80})"',
-        r'“([^”\n]{3,80})”',
-        r"'([^'\n]{3,80})'",
-        r'‘([^’\n]{3,80})’',
+    # Remove common calendar prefixes that people usually omit in questions.
+    prefix_patterns = [
+        r"^open\s+gym\s*[-:|]?\s*",
+        r"^urbancrest\s*[-:|]?\s*",
+        r"^weekly\s*[-:|]?\s*",
     ]
-    for pattern in quote_patterns:
-        for match in re.finditer(pattern, public_text):
-            candidate = re.sub(r"\s+", " ", match.group(1)).strip()
-            word_count = len(re.findall(r"[A-Za-z0-9]+", candidate))
-            if (
-                2 <= word_count <= 8
-                and len(candidate) <= 60
-                and not re.search(r"[.!?]", candidate)
-            ):
-                add_variants(aliases, candidate)
+    for pattern in prefix_patterns:
+        candidate = re.sub(pattern, "", simplified, flags=re.IGNORECASE).strip()
+        if candidate and candidate.casefold() != simplified.casefold():
+            aliases.append(candidate)
+            simplified = candidate
 
     # Add a spaced variant for common compound activity names.
     for alias in list(aliases):
         match = re.search(r"\bpickleball\b", alias, flags=re.IGNORECASE)
         if match:
             replacement = "Pickle ball" if match.group(0)[:1].isupper() else "pickle ball"
-            spaced = alias[: match.start()] + replacement + alias[match.end() :]
+            spaced = (
+                alias[: match.start()]
+                + replacement
+                + alias[match.end() :]
+            )
             if spaced.casefold() != alias.casefold():
                 aliases.append(spaced)
 
@@ -362,12 +313,7 @@ def event_records() -> list[dict[str, Any]]:
             )
             if value
         )
-        activity_aliases = event_activity_aliases(
-            title,
-            str(event.get("summary") or ""),
-            description,
-            details,
-        )
+        activity_aliases = event_activity_aliases(title)
         normalized_title = title.casefold()
         routine_service_occurrence = (
             "sunday morning services" in normalized_title
@@ -434,7 +380,6 @@ def event_records() -> list[dict[str, Any]]:
                 audiences=as_list(event.get("audiences")),
                 event_id=event_id,
                 activity_aliases=activity_aliases,
-                event_aliases=activity_aliases,
                 event_category=event.get("event_category"),
                 event_start=event.get("start"),
                 event_end=event.get("end"),
@@ -571,6 +516,8 @@ def staff_records() -> list[dict[str, Any]]:
                 pastoral_staff=person.get("pastoral_staff", False),
                 show_card=route.get("show_card", True),
                 profile_source="base44.Staff",
+                routing_aliases=aliases,
+                routing_topics=topics,
                 answer_guidance=answer_guidance,
             )
         )
@@ -610,8 +557,13 @@ def action_link_records() -> list[dict[str, Any]]:
 def relationship_records() -> list[dict[str, Any]]:
     data = yaml.safe_load((ROOT / "relationships/ministry-staff.yaml").read_text(encoding="utf-8")) or {}
     records: list[dict[str, Any]] = []
+    missions_ministries = {"missions", "global_missions", "local_missions"}
+
     for relationship in data.get("relationships", []):
         ministry = str(relationship.get("ministry") or "")
+        label = str(relationship.get("label") or ministry.replace("_", " ").title())
+        aliases = unique(as_list(relationship.get("aliases")))
+        topics = unique(as_list(relationship.get("topics")))
         primary = str(relationship.get("primary_staff_key") or "")
         recommended = str(relationship.get("recommended_contact_staff_key") or "")
         selected_staff_key = primary or recommended
@@ -620,7 +572,11 @@ def relationship_records() -> list[dict[str, Any]]:
         open_role = str(relationship.get("open_role") or "")
         answer_guidance = str(relationship.get("answer_guidance") or "")
 
-        summary_parts = [f"Staff relationship for {ministry.replace('_', ' ')}."]
+        relationship_intents = ["ministry_contact", "staff_routing"]
+        if ministry in missions_ministries:
+            relationship_intents.append("missions_leadership")
+
+        summary_parts = [f"Staff relationship for {label}."]
         if open_role:
             summary_parts.append(f"Open role: {open_role}.")
         if selected_staff_key:
@@ -629,6 +585,9 @@ def relationship_records() -> list[dict[str, Any]]:
 
         content_lines = [
             f"Ministry: {ministry}",
+            f"Label: {label}",
+            f"Aliases: {', '.join(aliases)}",
+            f"Topics: {', '.join(topics)}",
             f"Leadership status: {leadership_status}",
             f"Primary staff key: {primary or 'none'}",
             f"Recommended contact staff key: {recommended or 'none'}",
@@ -639,25 +598,32 @@ def relationship_records() -> list[dict[str, Any]]:
         if answer_guidance:
             content_lines.append(f"Answer guidance: {answer_guidance}")
 
+        search_terms = unique([
+            ministry.replace("_", " "),
+            label,
+            *aliases,
+            *topics,
+            f"who oversees {ministry.replace('_', ' ')}",
+            f"who leads {ministry.replace('_', ' ')}",
+            f"who handles {ministry.replace('_', ' ')}",
+            f"who do I contact about {ministry.replace('_', ' ')}",
+            f"who should I contact about {ministry.replace('_', ' ')}",
+            open_role,
+        ])
+
         records.append(
             record_base(
                 record_id=f"relationship.ministry_staff.{ministry}",
                 record_type="relationship",
                 path="relationships/ministry-staff.yaml",
-                title=f"{ministry.replace('_', ' ').title()} staff relationship",
+                title=f"{label} staff relationship",
                 summary=summary,
                 content="\n".join(content_lines),
                 priority=95 if leadership_status in {"vacant", "transitional"} else 85,
                 category=["relationship", "staff"],
-                intents=["ministry_contact", "staff_routing", "missions_leadership"],
-                tags=[ministry, "staff", "ministry", leadership_status],
-                search_terms=[
-                    ministry.replace("_", " "),
-                    f"who oversees {ministry.replace('_', ' ')}",
-                    f"who leads {ministry.replace('_', ' ')}",
-                    f"who do I contact about {ministry.replace('_', ' ')}",
-                    open_role,
-                ],
+                intents=relationship_intents,
+                tags=unique([ministry, label, "staff", "ministry", leadership_status, *aliases, *topics]),
+                search_terms=search_terms,
                 ministries=[ministry],
                 staff_key=selected_staff_key,
                 primary_staff_key=primary,
@@ -665,11 +631,13 @@ def relationship_records() -> list[dict[str, Any]]:
                 related_staff_keys=related,
                 leadership_status=leadership_status,
                 open_role=open_role,
+                relationship_label=label,
+                routing_aliases=aliases,
+                routing_topics=topics,
                 answer_guidance=answer_guidance,
             )
         )
     return records
-
 
 def generic_yaml_records() -> list[dict[str, Any]]:
     records: list[dict[str, Any]] = []
