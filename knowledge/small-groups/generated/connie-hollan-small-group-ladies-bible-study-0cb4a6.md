@@ -30,7 +30,7 @@ location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "163944927"
 planning_center_event_time_id: "31398539"
-last_generated: 2026-08-17T04:03:27.187866Z
+last_generated: 2026-08-17T07:17:02.973893Z
 ---
 
 # Connie Hollan Small Group: Ladies Bible Study
