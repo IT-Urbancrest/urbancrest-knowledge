@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.9.7",
-  "generated_at": "2026-08-17T15:41:12.767481Z",
+  "generated_at": "2026-08-17T18:21:17.055982Z",
   "timezone": "America/New_York",
   "record_count": 409,
   "config": {
@@ -2777,9 +2777,6 @@
       "activity_aliases": [
         "Missions Conference"
       ],
-      "event_aliases": [
-        "Missions Conference"
-      ],
       "event_category": "major_event",
       "event_start": "2027-04-07",
       "event_end": "2027-04-12",
@@ -2818,9 +2815,7 @@
         "upcoming",
         "activity",
         "major_event",
-        "Summit - Gym Set-up",
-        "Summit",
-        "Gym Set-up"
+        "Summit - Gym Set-up"
       ],
       "search_terms": [
         "Summit - Gym Set-up",
@@ -2835,23 +2830,7 @@
         "Do you offer Summit - Gym Set-up?",
         "Is there Summit - Gym Set-up at Urbancrest?",
         "Can I participate in Summit - Gym Set-up?",
-        "Can I play Summit - Gym Set-up at Urbancrest?",
-        "Summit",
-        "Does Urbancrest have Summit?",
-        "Does Urbancrest offer Summit?",
-        "Do you have Summit?",
-        "Do you offer Summit?",
-        "Is there Summit at Urbancrest?",
-        "Can I participate in Summit?",
-        "Can I play Summit at Urbancrest?",
-        "Gym Set-up",
-        "Does Urbancrest have Gym Set-up?",
-        "Does Urbancrest offer Gym Set-up?",
-        "Do you have Gym Set-up?",
-        "Do you offer Gym Set-up?",
-        "Is there Gym Set-up at Urbancrest?",
-        "Can I participate in Gym Set-up?",
-        "Can I play Gym Set-up at Urbancrest?"
+        "Can I play Summit - Gym Set-up at Urbancrest?"
       ],
       "ministries": [
         "churchwide"
@@ -2862,14 +2841,7 @@
       "resources": [],
       "event_id": "event-9f32a6631850aaa2",
       "activity_aliases": [
-        "Summit - Gym Set-up",
-        "Summit",
-        "Gym Set-up"
-      ],
-      "event_aliases": [
-        "Summit - Gym Set-up",
-        "Summit",
-        "Gym Set-up"
+        "Summit - Gym Set-up"
       ],
       "event_category": "major_event",
       "event_start": "2027-01-28",
@@ -2910,7 +2882,6 @@
         "major_event",
         "Urbancrest Golf Classic",
         "Golf Classic",
-        "s donation recipient: A Child",
         "Sports",
         "Special Events",
         "Individual",
@@ -2941,15 +2912,7 @@
         "Do you offer Golf Classic?",
         "Is there Golf Classic at Urbancrest?",
         "Can I participate in Golf Classic?",
-        "Can I play Golf Classic at Urbancrest?",
-        "s donation recipient: A Child",
-        "Does Urbancrest have s donation recipient: A Child?",
-        "Does Urbancrest offer s donation recipient: A Child?",
-        "Do you have s donation recipient: A Child?",
-        "Do you offer s donation recipient: A Child?",
-        "Is there s donation recipient: A Child at Urbancrest?",
-        "Can I participate in s donation recipient: A Child?",
-        "Can I play s donation recipient: A Child at Urbancrest?"
+        "Can I play Golf Classic at Urbancrest?"
       ],
       "ministries": [
         "kids",
@@ -2962,13 +2925,7 @@
       "event_id": "event-6d5b8302174f4169",
       "activity_aliases": [
         "Urbancrest Golf Classic",
-        "Golf Classic",
-        "s donation recipient: A Child"
-      ],
-      "event_aliases": [
-        "Urbancrest Golf Classic",
-        "Golf Classic",
-        "s donation recipient: A Child"
+        "Golf Classic"
       ],
       "event_category": "major_event",
       "event_start": "2026-08-21T08:30:00-04:00",
@@ -3055,8 +3012,6 @@
         "major_event",
         "Urbancrest Women's Conference",
         "Women's Conference",
-        "Known & Loved",
-        "Known and Loved",
         "Standard"
       ],
       "search_terms": [
@@ -3081,23 +3036,7 @@
         "Do you offer Women's Conference?",
         "Is there Women's Conference at Urbancrest?",
         "Can I participate in Women's Conference?",
-        "Can I play Women's Conference at Urbancrest?",
-        "Known & Loved",
-        "Does Urbancrest have Known & Loved?",
-        "Does Urbancrest offer Known & Loved?",
-        "Do you have Known & Loved?",
-        "Do you offer Known & Loved?",
-        "Is there Known & Loved at Urbancrest?",
-        "Can I participate in Known & Loved?",
-        "Can I play Known & Loved at Urbancrest?",
-        "Known and Loved",
-        "Does Urbancrest have Known and Loved?",
-        "Does Urbancrest offer Known and Loved?",
-        "Do you have Known and Loved?",
-        "Do you offer Known and Loved?",
-        "Is there Known and Loved at Urbancrest?",
-        "Can I participate in Known and Loved?",
-        "Can I play Known and Loved at Urbancrest?"
+        "Can I play Women's Conference at Urbancrest?"
       ],
       "ministries": [
         "men",
@@ -3113,15 +3052,7 @@
       "event_id": "event-7b60e9c4c5af3c3f",
       "activity_aliases": [
         "Urbancrest Women's Conference",
-        "Women's Conference",
-        "Known & Loved",
-        "Known and Loved"
-      ],
-      "event_aliases": [
-        "Urbancrest Women's Conference",
-        "Women's Conference",
-        "Known & Loved",
-        "Known and Loved"
+        "Women's Conference"
       ],
       "event_category": "major_event",
       "event_start": "2026-10-17T09:00:00-04:00",
@@ -3220,9 +3151,6 @@
       "activity_aliases": [
         "Women's Conference"
       ],
-      "event_aliases": [
-        "Women's Conference"
-      ],
       "event_category": "major_event",
       "event_start": "2026-10-17T09:00:00-04:00",
       "event_end": "2026-10-17T14:00:00-04:00",
@@ -3291,9 +3219,6 @@
       "resources": [],
       "event_id": "event-1c0771e7f499f87a",
       "activity_aliases": [
-        "Youth Fall Retreat"
-      ],
-      "event_aliases": [
         "Youth Fall Retreat"
       ],
       "event_category": "major_event",
@@ -6182,8 +6107,8 @@
       "record_type": "relationship",
       "path": "relationships/ministry-staff.yaml",
       "title": "Global Missions staff relationship",
-      "summary": "Staff relationship for global missions. Open role: Global Missions Pastor. Recommended staff key: jennifer_prows.",
-      "content": "Ministry: global_missions\nLeadership status: vacant\nPrimary staff key: none\nRecommended contact staff key: jennifer_prows\nRelated staff keys: \nOpen role: Global Missions Pastor\nAnswer guidance: Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the recommended current contact for global missions questions, mission trips, and missions coordination. Do not describe Jennifer as the Global Missions Pastor.",
+      "summary": "Staff relationship for Global Missions. Open role: Global Missions Pastor. Recommended staff key: jennifer_prows.",
+      "content": "Ministry: global_missions\nLabel: Global Missions\nAliases: global missions, international missions, global missions pastor, mission trips, international mission trips\nTopics: global missions, mission trips, missions coordination, international missions\nLeadership status: vacant\nPrimary staff key: none\nRecommended contact staff key: jennifer_prows\nRelated staff keys: \nOpen role: Global Missions Pastor\nAnswer guidance: Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the recommended current contact for global missions questions, mission trips, and missions coordination. Do not describe Jennifer as the Global Missions Pastor.",
       "priority": 95,
       "category": [
         "relationship",
@@ -6196,16 +6121,28 @@
       ],
       "tags": [
         "global_missions",
+        "Global Missions",
         "staff",
         "ministry",
-        "vacant"
+        "vacant",
+        "international missions",
+        "global missions pastor",
+        "mission trips",
+        "international mission trips",
+        "missions coordination"
       ],
       "search_terms": [
         "global missions",
+        "international missions",
+        "global missions pastor",
+        "mission trips",
+        "international mission trips",
+        "missions coordination",
         "who oversees global missions",
         "who leads global missions",
+        "who handles global missions",
         "who do I contact about global missions",
-        "Global Missions Pastor"
+        "who should I contact about global missions"
       ],
       "ministries": [
         "global_missions"
@@ -6216,6 +6153,20 @@
       "recommended_contact_staff_key": "jennifer_prows",
       "leadership_status": "vacant",
       "open_role": "Global Missions Pastor",
+      "relationship_label": "Global Missions",
+      "routing_aliases": [
+        "global missions",
+        "international missions",
+        "global missions pastor",
+        "mission trips",
+        "international mission trips"
+      ],
+      "routing_topics": [
+        "global missions",
+        "mission trips",
+        "missions coordination",
+        "international missions"
+      ],
       "answer_guidance": "Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the recommended current contact for global missions questions, mission trips, and missions coordination. Do not describe Jennifer as the Global Missions Pastor."
     },
     {
@@ -6223,8 +6174,8 @@
       "record_type": "relationship",
       "path": "relationships/ministry-staff.yaml",
       "title": "Kids staff relationship",
-      "summary": "Staff relationship for kids. Open role: Kids Ministry Director. Recommended staff key: sarah_coleman.",
-      "content": "Ministry: kids\nLeadership status: vacant\nPrimary staff key: none\nRecommended contact staff key: sarah_coleman\nRelated staff keys: mikhael_mastalerz\nOpen role: Kids Ministry Director\nAnswer guidance: The Kids Ministry Director position is currently vacant. Sarah Coleman serves as Preschool Director and is the recommended current point person for Kids Ministry questions. Do not describe Sarah as the Kids Ministry Director. Mikhael Mastalerz serves as Nursery Ministry Director.",
+      "summary": "Staff relationship for Kids. Open role: Kids Ministry Director. Recommended staff key: sarah_coleman.",
+      "content": "Ministry: kids\nLabel: Kids\nAliases: kids, kids ministry, urbancrest kids, children, children's ministry, childrens ministry, awana, kids safety, child check-in, child checkout\nTopics: kids ministry, children, families, AWANA, Kids Ministry safety, child check-in, child checkout, volunteer screening\nLeadership status: vacant\nPrimary staff key: none\nRecommended contact staff key: sarah_coleman\nRelated staff keys: mikhael_mastalerz\nOpen role: Kids Ministry Director\nAnswer guidance: The Kids Ministry Director position is currently vacant. Sarah Coleman serves as Preschool Director and is the recommended current point person for Kids Ministry questions. Do not describe Sarah as the Kids Ministry Director. Mikhael Mastalerz serves as Nursery Ministry Director.",
       "priority": 95,
       "category": [
         "relationship",
@@ -6232,20 +6183,45 @@
       ],
       "intents": [
         "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
+        "staff_routing"
       ],
       "tags": [
         "kids",
         "staff",
         "ministry",
-        "vacant"
+        "vacant",
+        "kids ministry",
+        "urbancrest kids",
+        "children",
+        "children's ministry",
+        "childrens ministry",
+        "awana",
+        "kids safety",
+        "child check-in",
+        "child checkout",
+        "families",
+        "Kids Ministry safety",
+        "volunteer screening"
       ],
       "search_terms": [
         "kids",
+        "kids ministry",
+        "urbancrest kids",
+        "children",
+        "children's ministry",
+        "childrens ministry",
+        "awana",
+        "kids safety",
+        "child check-in",
+        "child checkout",
+        "families",
+        "Kids Ministry safety",
+        "volunteer screening",
         "who oversees kids",
         "who leads kids",
+        "who handles kids",
         "who do I contact about kids",
+        "who should I contact about kids",
         "Kids Ministry Director"
       ],
       "ministries": [
@@ -6260,6 +6236,29 @@
       ],
       "leadership_status": "vacant",
       "open_role": "Kids Ministry Director",
+      "relationship_label": "Kids",
+      "routing_aliases": [
+        "kids",
+        "kids ministry",
+        "urbancrest kids",
+        "children",
+        "children's ministry",
+        "childrens ministry",
+        "awana",
+        "kids safety",
+        "child check-in",
+        "child checkout"
+      ],
+      "routing_topics": [
+        "kids ministry",
+        "children",
+        "families",
+        "AWANA",
+        "Kids Ministry safety",
+        "child check-in",
+        "child checkout",
+        "volunteer screening"
+      ],
       "answer_guidance": "The Kids Ministry Director position is currently vacant. Sarah Coleman serves as Preschool Director and is the recommended current point person for Kids Ministry questions. Do not describe Sarah as the Kids Ministry Director. Mikhael Mastalerz serves as Nursery Ministry Director."
     },
     {
@@ -6267,8 +6266,8 @@
       "record_type": "relationship",
       "path": "relationships/ministry-staff.yaml",
       "title": "Missions staff relationship",
-      "summary": "Staff relationship for missions. Open role: Global Missions Pastor. Recommended staff key: jennifer_prows.",
-      "content": "Ministry: missions\nLeadership status: transitional\nPrimary staff key: none\nRecommended contact staff key: jennifer_prows\nRelated staff keys: darrel_schick\nOpen role: Global Missions Pastor\nAnswer guidance: Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the recommended current contact for general and global missions questions. Darrel Schick serves as Local Missions Strategist for local missions and community outreach.",
+      "summary": "Staff relationship for Missions. Open role: Global Missions Pastor. Recommended staff key: jennifer_prows.",
+      "content": "Ministry: missions\nLabel: Missions\nAliases: missions, missions ministry, mission ministry, missions contact\nTopics: general missions, missions administration, missions conference\nLeadership status: transitional\nPrimary staff key: none\nRecommended contact staff key: jennifer_prows\nRelated staff keys: darrel_schick\nOpen role: Global Missions Pastor\nAnswer guidance: Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the recommended current contact for general and global missions questions. Darrel Schick serves as Local Missions Strategist for local missions and community outreach.",
       "priority": 95,
       "category": [
         "relationship",
@@ -6283,13 +6282,27 @@
         "missions",
         "staff",
         "ministry",
-        "transitional"
+        "transitional",
+        "missions ministry",
+        "mission ministry",
+        "missions contact",
+        "general missions",
+        "missions administration",
+        "missions conference"
       ],
       "search_terms": [
         "missions",
+        "missions ministry",
+        "mission ministry",
+        "missions contact",
+        "general missions",
+        "missions administration",
+        "missions conference",
         "who oversees missions",
         "who leads missions",
+        "who handles missions",
         "who do I contact about missions",
+        "who should I contact about missions",
         "Global Missions Pastor"
       ],
       "ministries": [
@@ -6304,6 +6317,18 @@
       ],
       "leadership_status": "transitional",
       "open_role": "Global Missions Pastor",
+      "relationship_label": "Missions",
+      "routing_aliases": [
+        "missions",
+        "missions ministry",
+        "mission ministry",
+        "missions contact"
+      ],
+      "routing_topics": [
+        "general missions",
+        "missions administration",
+        "missions conference"
+      ],
       "answer_guidance": "Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the recommended current contact for general and global missions questions. Darrel Schick serves as Local Missions Strategist for local missions and community outreach."
     },
     {
@@ -7454,7 +7479,18 @@
       "role": "Local Missions Strategist",
       "pastoral_staff": false,
       "show_card": true,
-      "profile_source": "base44.Staff"
+      "profile_source": "base44.Staff",
+      "routing_aliases": [
+        "Darrel",
+        "Darrel Schick",
+        "Local Missions Strategist"
+      ],
+      "routing_topics": [
+        "local missions",
+        "community outreach",
+        "block parties",
+        "serving the community"
+      ]
     },
     {
       "id": "staff.david_bickers",
@@ -7508,7 +7544,21 @@
       "role": "Executive Pastor",
       "pastoral_staff": true,
       "show_card": true,
-      "profile_source": "base44.Staff"
+      "profile_source": "base44.Staff",
+      "routing_aliases": [
+        "David",
+        "Dave",
+        "Pastor Dave",
+        "David Bickers",
+        "Executive Pastor"
+      ],
+      "routing_topics": [
+        "preaching",
+        "administration",
+        "church operations",
+        "executive leadership",
+        "pastoral questions"
+      ]
     },
     {
       "id": "staff.geoff_prows",
@@ -7559,7 +7609,20 @@
       "role": "Senior Pastor",
       "pastoral_staff": true,
       "show_card": true,
-      "profile_source": "base44.Staff"
+      "profile_source": "base44.Staff",
+      "routing_aliases": [
+        "Geoff",
+        "Pastor Geoff",
+        "Geoff Prows",
+        "Senior Pastor"
+      ],
+      "routing_topics": [
+        "sermons",
+        "preaching",
+        "pastoral questions",
+        "church vision",
+        "church leadership"
+      ]
     },
     {
       "id": "staff.jennifer_prows",
@@ -7612,6 +7675,22 @@
       "pastoral_staff": false,
       "show_card": true,
       "profile_source": "base44.Staff",
+      "routing_aliases": [
+        "Jennifer",
+        "Jen",
+        "Jennifer Prows",
+        "Jen Prows",
+        "Missions Administrator",
+        "missions contact"
+      ],
+      "routing_topics": [
+        "missions administration",
+        "global missions support",
+        "mission trips",
+        "missions conference",
+        "Red Barn",
+        "current missions contact"
+      ],
       "answer_guidance": "Jennifer Prows serves as Missions Administrator and is the recommended current contact for global missions questions and coordination while Urbancrest searches for its next Global Missions Pastor. Do not identify Jennifer as the Global Missions Pastor."
     },
     {
@@ -7659,7 +7738,19 @@
       "role": "Building Supervisor",
       "pastoral_staff": false,
       "show_card": true,
-      "profile_source": "base44.Staff"
+      "profile_source": "base44.Staff",
+      "routing_aliases": [
+        "Jim",
+        "Jim Short",
+        "Building Supervisor",
+        "Facilities"
+      ],
+      "routing_topics": [
+        "facilities",
+        "building",
+        "maintenance",
+        "room setup"
+      ]
     },
     {
       "id": "staff.larry_nichols",
@@ -7710,7 +7801,24 @@
       "role": "Worship Pastor",
       "pastoral_staff": true,
       "show_card": true,
-      "profile_source": "base44.Staff"
+      "profile_source": "base44.Staff",
+      "routing_aliases": [
+        "Larry",
+        "Pastor Larry",
+        "Larry Nichols",
+        "Worship Pastor"
+      ],
+      "routing_topics": [
+        "worship",
+        "music ministry",
+        "choir",
+        "worship services",
+        "worship philosophy",
+        "worship auditions",
+        "worship application",
+        "sensory-friendly worship",
+        "worship music style"
+      ]
     },
     {
       "id": "staff.mark_daubenmire",
@@ -7751,7 +7859,17 @@
       "role": "Member Services",
       "pastoral_staff": false,
       "show_card": true,
-      "profile_source": "base44.Staff"
+      "profile_source": "base44.Staff",
+      "routing_aliases": [
+        "Mark",
+        "Mark Daubenmire",
+        "Member Services"
+      ],
+      "routing_topics": [
+        "membership",
+        "member services",
+        "church records"
+      ]
     },
     {
       "id": "staff.matthew_kirby",
@@ -7800,7 +7918,24 @@
       "role": "Technical Director",
       "pastoral_staff": false,
       "show_card": true,
-      "profile_source": "base44.Staff"
+      "profile_source": "base44.Staff",
+      "routing_aliases": [
+        "Matthew",
+        "Matt",
+        "Matthew Kirby",
+        "Technical Director"
+      ],
+      "routing_topics": [
+        "production",
+        "IT",
+        "creative",
+        "website",
+        "video",
+        "livestream",
+        "audio",
+        "lighting",
+        "technology"
+      ]
     },
     {
       "id": "staff.mikhael_mastalerz",
@@ -7852,7 +7987,23 @@
       "role": "Nursery Ministry Director",
       "pastoral_staff": false,
       "show_card": true,
-      "profile_source": "base44.Staff"
+      "profile_source": "base44.Staff",
+      "routing_aliases": [
+        "Mikhael",
+        "Mikhael Mastalerz",
+        "Nursery Ministry Director",
+        "Nursery Director"
+      ],
+      "routing_topics": [
+        "nursery",
+        "babies",
+        "infants",
+        "toddlers",
+        "diaper changes",
+        "nursery safety",
+        "infant care",
+        "toddler care"
+      ]
     },
     {
       "id": "staff.sarah_coleman",
@@ -7905,6 +8056,26 @@
       "pastoral_staff": false,
       "show_card": true,
       "profile_source": "base44.Staff",
+      "routing_aliases": [
+        "Sarah",
+        "Sarah Coleman",
+        "Preschool Director",
+        "Kids Ministry contact"
+      ],
+      "routing_topics": [
+        "preschool",
+        "kids ministry",
+        "children",
+        "families",
+        "AWANA",
+        "Kids Ministry safety",
+        "child check-in",
+        "child checkout",
+        "well-child policy",
+        "food allergies",
+        "preschool class placement",
+        "volunteer screening"
+      ],
       "answer_guidance": "Sarah Coleman serves as Preschool Director. The Kids Ministry Director position is currently vacant, and Sarah is the recommended current point person for Kids Ministry questions. Do not identify Sarah as the Kids Ministry Director."
     },
     {
@@ -7953,7 +8124,24 @@
       "role": "Guest Services",
       "pastoral_staff": false,
       "show_card": true,
-      "profile_source": "base44.Staff"
+      "profile_source": "base44.Staff",
+      "routing_aliases": [
+        "Sydni",
+        "Sydni Neptune",
+        "Guest Services"
+      ],
+      "routing_topics": [
+        "guest services",
+        "first visit",
+        "hospitality",
+        "welcome team",
+        "visitors",
+        "parking",
+        "seating",
+        "refreshments",
+        "wheelchair access",
+        "accessibility"
+      ]
     },
     {
       "id": "staff.tanya_byrd",
@@ -7997,7 +8185,19 @@
       "role": "Financial Officer",
       "pastoral_staff": false,
       "show_card": true,
-      "profile_source": "base44.Staff"
+      "profile_source": "base44.Staff",
+      "routing_aliases": [
+        "Tanya",
+        "Tanya Byrd",
+        "Financial Officer"
+      ],
+      "routing_topics": [
+        "finance",
+        "giving",
+        "stewardship",
+        "donations",
+        "financial questions"
+      ]
     },
     {
       "id": "staff.tucker_howard",
@@ -8056,7 +8256,26 @@
       "role": "Student Pastor",
       "pastoral_staff": true,
       "show_card": true,
-      "profile_source": "base44.Staff"
+      "profile_source": "base44.Staff",
+      "routing_aliases": [
+        "Tucker",
+        "Pastor Tucker",
+        "Tucker Howard",
+        "Student Pastor",
+        "Youth Pastor"
+      ],
+      "routing_topics": [
+        "student ministry",
+        "youth ministry",
+        "middle school",
+        "high school",
+        "teenagers",
+        "student schedule",
+        "student safety",
+        "parent communication",
+        "student discipleship",
+        "student mentoring"
+      ]
     },
     {
       "id": "ministries.kids.youth_helpers",
@@ -9627,8 +9846,8 @@
       "record_type": "relationship",
       "path": "relationships/ministry-staff.yaml",
       "title": "Executive Leadership staff relationship",
-      "summary": "Staff relationship for executive leadership. Recommended staff key: david_bickers.",
-      "content": "Ministry: executive_leadership\nLeadership status: staffed\nPrimary staff key: david_bickers\nRecommended contact staff key: david_bickers\nRelated staff keys: geoff_prows\nAnswer guidance: David Bickers serves as Executive Pastor and is the primary contact for executive leadership, administration, and church operations.",
+      "summary": "Staff relationship for Executive Leadership. Recommended staff key: david_bickers.",
+      "content": "Ministry: executive_leadership\nLabel: Executive Leadership\nAliases: executive leadership, executive pastor, administration, church administration, church operations, operations\nTopics: administration, church operations, executive leadership\nLeadership status: staffed\nPrimary staff key: david_bickers\nRecommended contact staff key: david_bickers\nRelated staff keys: geoff_prows\nAnswer guidance: David Bickers serves as Executive Pastor and is the primary contact for executive leadership, administration, and church operations.",
       "priority": 85,
       "category": [
         "relationship",
@@ -9636,20 +9855,32 @@
       ],
       "intents": [
         "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
+        "staff_routing"
       ],
       "tags": [
         "executive_leadership",
+        "Executive Leadership",
         "staff",
         "ministry",
-        "staffed"
+        "staffed",
+        "executive pastor",
+        "administration",
+        "church administration",
+        "church operations",
+        "operations"
       ],
       "search_terms": [
         "executive leadership",
+        "executive pastor",
+        "administration",
+        "church administration",
+        "church operations",
+        "operations",
         "who oversees executive leadership",
         "who leads executive leadership",
-        "who do I contact about executive leadership"
+        "who handles executive leadership",
+        "who do I contact about executive leadership",
+        "who should I contact about executive leadership"
       ],
       "ministries": [
         "executive_leadership"
@@ -9663,6 +9894,20 @@
         "geoff_prows"
       ],
       "leadership_status": "staffed",
+      "relationship_label": "Executive Leadership",
+      "routing_aliases": [
+        "executive leadership",
+        "executive pastor",
+        "administration",
+        "church administration",
+        "church operations",
+        "operations"
+      ],
+      "routing_topics": [
+        "administration",
+        "church operations",
+        "executive leadership"
+      ],
       "answer_guidance": "David Bickers serves as Executive Pastor and is the primary contact for executive leadership, administration, and church operations."
     },
     {
@@ -9670,8 +9915,8 @@
       "record_type": "relationship",
       "path": "relationships/ministry-staff.yaml",
       "title": "Facilities staff relationship",
-      "summary": "Staff relationship for facilities. Recommended staff key: jim_short.",
-      "content": "Ministry: facilities\nLeadership status: staffed\nPrimary staff key: jim_short\nRecommended contact staff key: jim_short\nRelated staff keys: \nAnswer guidance: Jim Short is the primary contact for facilities, building maintenance, and room setup.",
+      "summary": "Staff relationship for Facilities. Recommended staff key: jim_short.",
+      "content": "Ministry: facilities\nLabel: Facilities\nAliases: facilities, building, building maintenance, maintenance, room setup\nTopics: facilities, building, maintenance, room setup\nLeadership status: staffed\nPrimary staff key: jim_short\nRecommended contact staff key: jim_short\nRelated staff keys: \nAnswer guidance: Jim Short is the primary contact for facilities, building maintenance, and room setup.",
       "priority": 85,
       "category": [
         "relationship",
@@ -9679,20 +9924,29 @@
       ],
       "intents": [
         "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
+        "staff_routing"
       ],
       "tags": [
         "facilities",
         "staff",
         "ministry",
-        "staffed"
+        "staffed",
+        "building",
+        "building maintenance",
+        "maintenance",
+        "room setup"
       ],
       "search_terms": [
         "facilities",
+        "building",
+        "building maintenance",
+        "maintenance",
+        "room setup",
         "who oversees facilities",
         "who leads facilities",
-        "who do I contact about facilities"
+        "who handles facilities",
+        "who do I contact about facilities",
+        "who should I contact about facilities"
       ],
       "ministries": [
         "facilities"
@@ -9703,6 +9957,20 @@
       "primary_staff_key": "jim_short",
       "recommended_contact_staff_key": "jim_short",
       "leadership_status": "staffed",
+      "relationship_label": "Facilities",
+      "routing_aliases": [
+        "facilities",
+        "building",
+        "building maintenance",
+        "maintenance",
+        "room setup"
+      ],
+      "routing_topics": [
+        "facilities",
+        "building",
+        "maintenance",
+        "room setup"
+      ],
       "answer_guidance": "Jim Short is the primary contact for facilities, building maintenance, and room setup."
     },
     {
@@ -9710,8 +9978,8 @@
       "record_type": "relationship",
       "path": "relationships/ministry-staff.yaml",
       "title": "Finance staff relationship",
-      "summary": "Staff relationship for finance. Recommended staff key: tanya_byrd.",
-      "content": "Ministry: finance\nLeadership status: staffed\nPrimary staff key: tanya_byrd\nRecommended contact staff key: tanya_byrd\nRelated staff keys: \nAnswer guidance: Tanya Byrd serves as Financial Officer and is the primary contact for finance, finances, church finances, giving, stewardship, donations, and other financial questions.",
+      "summary": "Staff relationship for Finance. Recommended staff key: tanya_byrd.",
+      "content": "Ministry: finance\nLabel: Finance\nAliases: finance, financial, financial office, giving, online giving, stewardship, donation, donations, contribution, contributions, finances, church finance, church finances, financial matters\nTopics: finance, giving, stewardship, donations, financial questions, finances, church finances, financial matters\nLeadership status: staffed\nPrimary staff key: tanya_byrd\nRecommended contact staff key: tanya_byrd\nRelated staff keys: \nAnswer guidance: Tanya Byrd serves as Financial Officer and is the primary contact for finance, finances, church finances, giving, stewardship, donations, and other financial questions.",
       "priority": 85,
       "category": [
         "relationship",
@@ -9719,20 +9987,49 @@
       ],
       "intents": [
         "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
+        "staff_routing"
       ],
       "tags": [
         "finance",
         "staff",
         "ministry",
-        "staffed"
+        "staffed",
+        "financial",
+        "financial office",
+        "giving",
+        "online giving",
+        "stewardship",
+        "donation",
+        "donations",
+        "contribution",
+        "contributions",
+        "finances",
+        "church finance",
+        "church finances",
+        "financial matters",
+        "financial questions"
       ],
       "search_terms": [
         "finance",
+        "financial",
+        "financial office",
+        "giving",
+        "online giving",
+        "stewardship",
+        "donation",
+        "donations",
+        "contribution",
+        "contributions",
+        "finances",
+        "church finance",
+        "church finances",
+        "financial matters",
+        "financial questions",
         "who oversees finance",
         "who leads finance",
-        "who do I contact about finance"
+        "who handles finance",
+        "who do I contact about finance",
+        "who should I contact about finance"
       ],
       "ministries": [
         "finance"
@@ -9743,6 +10040,33 @@
       "primary_staff_key": "tanya_byrd",
       "recommended_contact_staff_key": "tanya_byrd",
       "leadership_status": "staffed",
+      "relationship_label": "Finance",
+      "routing_aliases": [
+        "finance",
+        "financial",
+        "financial office",
+        "giving",
+        "online giving",
+        "stewardship",
+        "donation",
+        "donations",
+        "contribution",
+        "contributions",
+        "finances",
+        "church finance",
+        "church finances",
+        "financial matters"
+      ],
+      "routing_topics": [
+        "finance",
+        "giving",
+        "stewardship",
+        "donations",
+        "financial questions",
+        "finances",
+        "church finances",
+        "financial matters"
+      ],
       "answer_guidance": "Tanya Byrd serves as Financial Officer and is the primary contact for finance, finances, church finances, giving, stewardship, donations, and other financial questions."
     },
     {
@@ -9750,8 +10074,8 @@
       "record_type": "relationship",
       "path": "relationships/ministry-staff.yaml",
       "title": "Guest Services staff relationship",
-      "summary": "Staff relationship for guest services. Recommended staff key: sydni_neptune.",
-      "content": "Ministry: guest_services\nLeadership status: staffed\nPrimary staff key: sydni_neptune\nRecommended contact staff key: sydni_neptune\nRelated staff keys: mark_daubenmire\nAnswer guidance: Sydni Neptune is the primary contact for Guest Services, first-visit questions, hospitality, welcome, and accessibility.",
+      "summary": "Staff relationship for Guest Services. Recommended staff key: sydni_neptune.",
+      "content": "Ministry: guest_services\nLabel: Guest Services\nAliases: guest services, first visit, first-time guest, visitor, visitors, hospitality, welcome, welcome team, accessibility\nTopics: guest services, first visit, hospitality, welcome team, parking, seating, refreshments, wheelchair access, accessibility\nLeadership status: staffed\nPrimary staff key: sydni_neptune\nRecommended contact staff key: sydni_neptune\nRelated staff keys: mark_daubenmire\nAnswer guidance: Sydni Neptune is the primary contact for Guest Services, first-visit questions, hospitality, welcome, and accessibility.",
       "priority": 85,
       "category": [
         "relationship",
@@ -9759,20 +10083,46 @@
       ],
       "intents": [
         "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
+        "staff_routing"
       ],
       "tags": [
         "guest_services",
+        "Guest Services",
         "staff",
         "ministry",
-        "staffed"
+        "staffed",
+        "first visit",
+        "first-time guest",
+        "visitor",
+        "visitors",
+        "hospitality",
+        "welcome",
+        "welcome team",
+        "accessibility",
+        "parking",
+        "seating",
+        "refreshments",
+        "wheelchair access"
       ],
       "search_terms": [
         "guest services",
+        "first visit",
+        "first-time guest",
+        "visitor",
+        "visitors",
+        "hospitality",
+        "welcome",
+        "welcome team",
+        "accessibility",
+        "parking",
+        "seating",
+        "refreshments",
+        "wheelchair access",
         "who oversees guest services",
         "who leads guest services",
-        "who do I contact about guest services"
+        "who handles guest services",
+        "who do I contact about guest services",
+        "who should I contact about guest services"
       ],
       "ministries": [
         "guest_services"
@@ -9786,6 +10136,29 @@
         "mark_daubenmire"
       ],
       "leadership_status": "staffed",
+      "relationship_label": "Guest Services",
+      "routing_aliases": [
+        "guest services",
+        "first visit",
+        "first-time guest",
+        "visitor",
+        "visitors",
+        "hospitality",
+        "welcome",
+        "welcome team",
+        "accessibility"
+      ],
+      "routing_topics": [
+        "guest services",
+        "first visit",
+        "hospitality",
+        "welcome team",
+        "parking",
+        "seating",
+        "refreshments",
+        "wheelchair access",
+        "accessibility"
+      ],
       "answer_guidance": "Sydni Neptune is the primary contact for Guest Services, first-visit questions, hospitality, welcome, and accessibility."
     },
     {
@@ -9793,8 +10166,8 @@
       "record_type": "relationship",
       "path": "relationships/ministry-staff.yaml",
       "title": "Local Missions staff relationship",
-      "summary": "Staff relationship for local missions. Recommended staff key: darrel_schick.",
-      "content": "Ministry: local_missions\nLeadership status: staffed\nPrimary staff key: darrel_schick\nRecommended contact staff key: darrel_schick\nRelated staff keys: jennifer_prows\nAnswer guidance: Darrel Schick serves as Local Missions Strategist and is the primary contact for local missions, community outreach, benevolence, food assistance, and situational gas assistance.",
+      "summary": "Staff relationship for Local Missions. Recommended staff key: darrel_schick.",
+      "content": "Ministry: local_missions\nLabel: Local Missions\nAliases: local missions, local mission, local outreach, community outreach, benevolence, baskets of hope, food assistance, food box, emergency food box, gas assistance, vehicle gas, fuel assistance, gas for my car, community service\nTopics: community outreach, benevolence, food assistance, Baskets of Hope, gas assistance, block parties, serving the community\nLeadership status: staffed\nPrimary staff key: darrel_schick\nRecommended contact staff key: darrel_schick\nRelated staff keys: jennifer_prows\nAnswer guidance: Darrel Schick serves as Local Missions Strategist and is the primary contact for local missions, community outreach, benevolence, food assistance, and situational gas assistance.",
       "priority": 85,
       "category": [
         "relationship",
@@ -9807,15 +10180,48 @@
       ],
       "tags": [
         "local_missions",
+        "Local Missions",
         "staff",
         "ministry",
-        "staffed"
+        "staffed",
+        "local mission",
+        "local outreach",
+        "community outreach",
+        "benevolence",
+        "baskets of hope",
+        "food assistance",
+        "food box",
+        "emergency food box",
+        "gas assistance",
+        "vehicle gas",
+        "fuel assistance",
+        "gas for my car",
+        "community service",
+        "block parties",
+        "serving the community"
       ],
       "search_terms": [
         "local missions",
+        "local mission",
+        "local outreach",
+        "community outreach",
+        "benevolence",
+        "baskets of hope",
+        "food assistance",
+        "food box",
+        "emergency food box",
+        "gas assistance",
+        "vehicle gas",
+        "fuel assistance",
+        "gas for my car",
+        "community service",
+        "block parties",
+        "serving the community",
         "who oversees local missions",
         "who leads local missions",
-        "who do I contact about local missions"
+        "who handles local missions",
+        "who do I contact about local missions",
+        "who should I contact about local missions"
       ],
       "ministries": [
         "local_missions"
@@ -9829,6 +10235,32 @@
         "jennifer_prows"
       ],
       "leadership_status": "staffed",
+      "relationship_label": "Local Missions",
+      "routing_aliases": [
+        "local missions",
+        "local mission",
+        "local outreach",
+        "community outreach",
+        "benevolence",
+        "baskets of hope",
+        "food assistance",
+        "food box",
+        "emergency food box",
+        "gas assistance",
+        "vehicle gas",
+        "fuel assistance",
+        "gas for my car",
+        "community service"
+      ],
+      "routing_topics": [
+        "community outreach",
+        "benevolence",
+        "food assistance",
+        "Baskets of Hope",
+        "gas assistance",
+        "block parties",
+        "serving the community"
+      ],
       "answer_guidance": "Darrel Schick serves as Local Missions Strategist and is the primary contact for local missions, community outreach, benevolence, food assistance, and situational gas assistance."
     },
     {
@@ -9836,8 +10268,8 @@
       "record_type": "relationship",
       "path": "relationships/ministry-staff.yaml",
       "title": "Member Services staff relationship",
-      "summary": "Staff relationship for member services. Recommended staff key: mark_daubenmire.",
-      "content": "Ministry: member_services\nLeadership status: staffed\nPrimary staff key: mark_daubenmire\nRecommended contact staff key: mark_daubenmire\nRelated staff keys: \nAnswer guidance: Mark Daubenmire is the primary contact for Member Services, membership, and church records.",
+      "summary": "Staff relationship for Member Services. Recommended staff key: mark_daubenmire.",
+      "content": "Ministry: member_services\nLabel: Member Services\nAliases: member services, membership, church membership, church records\nTopics: membership, member services, church records\nLeadership status: staffed\nPrimary staff key: mark_daubenmire\nRecommended contact staff key: mark_daubenmire\nRelated staff keys: \nAnswer guidance: Mark Daubenmire is the primary contact for Member Services, membership, and church records.",
       "priority": 85,
       "category": [
         "relationship",
@@ -9845,20 +10277,28 @@
       ],
       "intents": [
         "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
+        "staff_routing"
       ],
       "tags": [
         "member_services",
+        "Member Services",
         "staff",
         "ministry",
-        "staffed"
+        "staffed",
+        "membership",
+        "church membership",
+        "church records"
       ],
       "search_terms": [
         "member services",
+        "membership",
+        "church membership",
+        "church records",
         "who oversees member services",
         "who leads member services",
-        "who do I contact about member services"
+        "who handles member services",
+        "who do I contact about member services",
+        "who should I contact about member services"
       ],
       "ministries": [
         "member_services"
@@ -9869,6 +10309,18 @@
       "primary_staff_key": "mark_daubenmire",
       "recommended_contact_staff_key": "mark_daubenmire",
       "leadership_status": "staffed",
+      "relationship_label": "Member Services",
+      "routing_aliases": [
+        "member services",
+        "membership",
+        "church membership",
+        "church records"
+      ],
+      "routing_topics": [
+        "membership",
+        "member services",
+        "church records"
+      ],
       "answer_guidance": "Mark Daubenmire is the primary contact for Member Services, membership, and church records."
     },
     {
@@ -9876,8 +10328,8 @@
       "record_type": "relationship",
       "path": "relationships/ministry-staff.yaml",
       "title": "Nursery staff relationship",
-      "summary": "Staff relationship for nursery. Recommended staff key: mikhael_mastalerz.",
-      "content": "Ministry: nursery\nLeadership status: staffed\nPrimary staff key: mikhael_mastalerz\nRecommended contact staff key: mikhael_mastalerz\nRelated staff keys: sarah_coleman\nAnswer guidance: Mikhael Mastalerz serves as Nursery Ministry Director and is the primary contact for Nursery Ministry.",
+      "summary": "Staff relationship for Nursery. Recommended staff key: mikhael_mastalerz.",
+      "content": "Ministry: nursery\nLabel: Nursery\nAliases: nursery, nursery ministry, babies, infants, toddlers, baby ministry\nTopics: nursery, infants, toddlers, diaper changes, nursery safety, infant care, toddler care\nLeadership status: staffed\nPrimary staff key: mikhael_mastalerz\nRecommended contact staff key: mikhael_mastalerz\nRelated staff keys: sarah_coleman\nAnswer guidance: Mikhael Mastalerz serves as Nursery Ministry Director and is the primary contact for Nursery Ministry.",
       "priority": 85,
       "category": [
         "relationship",
@@ -9885,20 +10337,39 @@
       ],
       "intents": [
         "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
+        "staff_routing"
       ],
       "tags": [
         "nursery",
         "staff",
         "ministry",
-        "staffed"
+        "staffed",
+        "nursery ministry",
+        "babies",
+        "infants",
+        "toddlers",
+        "baby ministry",
+        "diaper changes",
+        "nursery safety",
+        "infant care",
+        "toddler care"
       ],
       "search_terms": [
         "nursery",
+        "nursery ministry",
+        "babies",
+        "infants",
+        "toddlers",
+        "baby ministry",
+        "diaper changes",
+        "nursery safety",
+        "infant care",
+        "toddler care",
         "who oversees nursery",
         "who leads nursery",
-        "who do I contact about nursery"
+        "who handles nursery",
+        "who do I contact about nursery",
+        "who should I contact about nursery"
       ],
       "ministries": [
         "nursery"
@@ -9912,15 +10383,33 @@
         "sarah_coleman"
       ],
       "leadership_status": "staffed",
+      "relationship_label": "Nursery",
+      "routing_aliases": [
+        "nursery",
+        "nursery ministry",
+        "babies",
+        "infants",
+        "toddlers",
+        "baby ministry"
+      ],
+      "routing_topics": [
+        "nursery",
+        "infants",
+        "toddlers",
+        "diaper changes",
+        "nursery safety",
+        "infant care",
+        "toddler care"
+      ],
       "answer_guidance": "Mikhael Mastalerz serves as Nursery Ministry Director and is the primary contact for Nursery Ministry."
     },
     {
-      "id": "relationship.ministry_staff.pastoral",
+      "id": "relationship.ministry_staff.preschool",
       "record_type": "relationship",
       "path": "relationships/ministry-staff.yaml",
-      "title": "Pastoral staff relationship",
-      "summary": "Staff relationship for pastoral. Recommended staff key: geoff_prows.",
-      "content": "Ministry: pastoral\nLeadership status: staffed\nPrimary staff key: geoff_prows\nRecommended contact staff key: geoff_prows\nRelated staff keys: david_bickers\nAnswer guidance: Geoff Prows serves as Senior Pastor and is the primary/lead pastor of Urbancrest. He is the primary contact for senior pastoral leadership, preaching, pastoral care, and church vision. David Bickers serves as Executive Pastor and also preaches, but should not be presented as the Senior Pastor or lead pastor.",
+      "title": "Preschool staff relationship",
+      "summary": "Staff relationship for Preschool. Recommended staff key: sarah_coleman.",
+      "content": "Ministry: preschool\nLabel: Preschool\nAliases: preschool, preschool ministry, pre-k, pre k, preschool classes\nTopics: preschool, preschool class placement, preschool volunteers, preschool families\nLeadership status: staffed\nPrimary staff key: sarah_coleman\nRecommended contact staff key: sarah_coleman\nRelated staff keys: \nAnswer guidance: Sarah Coleman serves as Preschool Director and is the primary contact for Preschool Ministry.",
       "priority": 85,
       "category": [
         "relationship",
@@ -9928,20 +10417,110 @@
       ],
       "intents": [
         "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
+        "staff_routing"
+      ],
+      "tags": [
+        "preschool",
+        "staff",
+        "ministry",
+        "staffed",
+        "preschool ministry",
+        "pre-k",
+        "pre k",
+        "preschool classes",
+        "preschool class placement",
+        "preschool volunteers",
+        "preschool families"
+      ],
+      "search_terms": [
+        "preschool",
+        "preschool ministry",
+        "pre-k",
+        "pre k",
+        "preschool classes",
+        "preschool class placement",
+        "preschool volunteers",
+        "preschool families",
+        "who oversees preschool",
+        "who leads preschool",
+        "who handles preschool",
+        "who do I contact about preschool",
+        "who should I contact about preschool"
+      ],
+      "ministries": [
+        "preschool"
+      ],
+      "audiences": [],
+      "resources": [],
+      "staff_key": "sarah_coleman",
+      "primary_staff_key": "sarah_coleman",
+      "recommended_contact_staff_key": "sarah_coleman",
+      "leadership_status": "staffed",
+      "relationship_label": "Preschool",
+      "routing_aliases": [
+        "preschool",
+        "preschool ministry",
+        "pre-k",
+        "pre k",
+        "preschool classes"
+      ],
+      "routing_topics": [
+        "preschool",
+        "preschool class placement",
+        "preschool volunteers",
+        "preschool families"
+      ],
+      "answer_guidance": "Sarah Coleman serves as Preschool Director and is the primary contact for Preschool Ministry."
+    },
+    {
+      "id": "relationship.ministry_staff.pastoral",
+      "record_type": "relationship",
+      "path": "relationships/ministry-staff.yaml",
+      "title": "Senior Leadership staff relationship",
+      "summary": "Staff relationship for Senior Leadership. Recommended staff key: geoff_prows.",
+      "content": "Ministry: pastoral\nLabel: Senior Leadership\nAliases: pastoral, senior leadership, senior pastor, pastoral leadership, preaching, sermons, pastoral care, church vision, church leadership, lead pastor, head pastor\nTopics: preaching, pastoral care, church vision, church leadership, sermons, lead pastor, senior pastor\nLeadership status: staffed\nPrimary staff key: geoff_prows\nRecommended contact staff key: geoff_prows\nRelated staff keys: david_bickers\nAnswer guidance: Geoff Prows serves as Senior Pastor and is the primary/lead pastor of Urbancrest. He is the primary contact for senior pastoral leadership, preaching, pastoral care, and church vision. David Bickers serves as Executive Pastor and also preaches, but should not be presented as the Senior Pastor or lead pastor.",
+      "priority": 85,
+      "category": [
+        "relationship",
+        "staff"
+      ],
+      "intents": [
+        "ministry_contact",
+        "staff_routing"
       ],
       "tags": [
         "pastoral",
+        "Senior Leadership",
         "staff",
         "ministry",
-        "staffed"
+        "staffed",
+        "senior pastor",
+        "pastoral leadership",
+        "preaching",
+        "sermons",
+        "pastoral care",
+        "church vision",
+        "church leadership",
+        "lead pastor",
+        "head pastor"
       ],
       "search_terms": [
         "pastoral",
+        "Senior Leadership",
+        "senior pastor",
+        "pastoral leadership",
+        "preaching",
+        "sermons",
+        "pastoral care",
+        "church vision",
+        "church leadership",
+        "lead pastor",
+        "head pastor",
         "who oversees pastoral",
         "who leads pastoral",
-        "who do I contact about pastoral"
+        "who handles pastoral",
+        "who do I contact about pastoral",
+        "who should I contact about pastoral"
       ],
       "ministries": [
         "pastoral"
@@ -9955,55 +10534,38 @@
         "david_bickers"
       ],
       "leadership_status": "staffed",
+      "relationship_label": "Senior Leadership",
+      "routing_aliases": [
+        "pastoral",
+        "senior leadership",
+        "senior pastor",
+        "pastoral leadership",
+        "preaching",
+        "sermons",
+        "pastoral care",
+        "church vision",
+        "church leadership",
+        "lead pastor",
+        "head pastor"
+      ],
+      "routing_topics": [
+        "preaching",
+        "pastoral care",
+        "church vision",
+        "church leadership",
+        "sermons",
+        "lead pastor",
+        "senior pastor"
+      ],
       "answer_guidance": "Geoff Prows serves as Senior Pastor and is the primary/lead pastor of Urbancrest. He is the primary contact for senior pastoral leadership, preaching, pastoral care, and church vision. David Bickers serves as Executive Pastor and also preaches, but should not be presented as the Senior Pastor or lead pastor."
-    },
-    {
-      "id": "relationship.ministry_staff.preschool",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "Preschool staff relationship",
-      "summary": "Staff relationship for preschool. Recommended staff key: sarah_coleman.",
-      "content": "Ministry: preschool\nLeadership status: staffed\nPrimary staff key: sarah_coleman\nRecommended contact staff key: sarah_coleman\nRelated staff keys: \nAnswer guidance: Sarah Coleman serves as Preschool Director and is the primary contact for Preschool Ministry.",
-      "priority": 85,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "preschool",
-        "staff",
-        "ministry",
-        "staffed"
-      ],
-      "search_terms": [
-        "preschool",
-        "who oversees preschool",
-        "who leads preschool",
-        "who do I contact about preschool"
-      ],
-      "ministries": [
-        "preschool"
-      ],
-      "audiences": [],
-      "resources": [],
-      "staff_key": "sarah_coleman",
-      "primary_staff_key": "sarah_coleman",
-      "recommended_contact_staff_key": "sarah_coleman",
-      "leadership_status": "staffed",
-      "answer_guidance": "Sarah Coleman serves as Preschool Director and is the primary contact for Preschool Ministry."
     },
     {
       "id": "relationship.ministry_staff.students",
       "record_type": "relationship",
       "path": "relationships/ministry-staff.yaml",
       "title": "Students staff relationship",
-      "summary": "Staff relationship for students. Recommended staff key: tucker_howard.",
-      "content": "Ministry: students\nLeadership status: staffed\nPrimary staff key: tucker_howard\nRecommended contact staff key: tucker_howard\nRelated staff keys: \nAnswer guidance: Tucker Howard serves as Student Pastor and is the primary contact for Student Ministry.",
+      "summary": "Staff relationship for Students. Recommended staff key: tucker_howard.",
+      "content": "Ministry: students\nLabel: Students\nAliases: students, student ministry, youth, youth ministry, youth group, middle school, high school, teenagers\nTopics: student ministry, youth ministry, middle school, high school, student schedule, student safety, parent communication, student discipleship, student mentoring\nLeadership status: staffed\nPrimary staff key: tucker_howard\nRecommended contact staff key: tucker_howard\nRelated staff keys: \nAnswer guidance: Tucker Howard serves as Student Pastor and is the primary contact for Student Ministry.",
       "priority": 85,
       "category": [
         "relationship",
@@ -10011,20 +10573,45 @@
       ],
       "intents": [
         "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
+        "staff_routing"
       ],
       "tags": [
         "students",
         "staff",
         "ministry",
-        "staffed"
+        "staffed",
+        "student ministry",
+        "youth",
+        "youth ministry",
+        "youth group",
+        "middle school",
+        "high school",
+        "teenagers",
+        "student schedule",
+        "student safety",
+        "parent communication",
+        "student discipleship",
+        "student mentoring"
       ],
       "search_terms": [
         "students",
+        "student ministry",
+        "youth",
+        "youth ministry",
+        "youth group",
+        "middle school",
+        "high school",
+        "teenagers",
+        "student schedule",
+        "student safety",
+        "parent communication",
+        "student discipleship",
+        "student mentoring",
         "who oversees students",
         "who leads students",
-        "who do I contact about students"
+        "who handles students",
+        "who do I contact about students",
+        "who should I contact about students"
       ],
       "ministries": [
         "students"
@@ -10035,15 +10622,37 @@
       "primary_staff_key": "tucker_howard",
       "recommended_contact_staff_key": "tucker_howard",
       "leadership_status": "staffed",
+      "relationship_label": "Students",
+      "routing_aliases": [
+        "students",
+        "student ministry",
+        "youth",
+        "youth ministry",
+        "youth group",
+        "middle school",
+        "high school",
+        "teenagers"
+      ],
+      "routing_topics": [
+        "student ministry",
+        "youth ministry",
+        "middle school",
+        "high school",
+        "student schedule",
+        "student safety",
+        "parent communication",
+        "student discipleship",
+        "student mentoring"
+      ],
       "answer_guidance": "Tucker Howard serves as Student Pastor and is the primary contact for Student Ministry."
     },
     {
       "id": "relationship.ministry_staff.technical_creative",
       "record_type": "relationship",
       "path": "relationships/ministry-staff.yaml",
-      "title": "Technical Creative staff relationship",
-      "summary": "Staff relationship for technical creative. Recommended staff key: matthew_kirby.",
-      "content": "Ministry: technical_creative\nLeadership status: staffed\nPrimary staff key: matthew_kirby\nRecommended contact staff key: matthew_kirby\nRelated staff keys: \nAnswer guidance: Matthew Kirby serves as Technical Director and is the primary contact for IT, Production, Creative, Website, video, livestream, audio, lighting, and church technology.",
+      "title": "Technical and Creative staff relationship",
+      "summary": "Staff relationship for Technical and Creative. Recommended staff key: matthew_kirby.",
+      "content": "Ministry: technical_creative\nLabel: Technical and Creative\nAliases: production, production ministry, technical, technical ministry, technical director, information technology, IT support, IT department, creative, creative ministry, website, web, video, livestream, live stream, audio, lighting, technology, tech\nTopics: production, IT, creative, website, video, livestream, audio, lighting, technology\nLeadership status: staffed\nPrimary staff key: matthew_kirby\nRecommended contact staff key: matthew_kirby\nRelated staff keys: \nAnswer guidance: Matthew Kirby serves as Technical Director and is the primary contact for IT, Production, Creative, Website, video, livestream, audio, lighting, and church technology.",
       "priority": 85,
       "category": [
         "relationship",
@@ -10051,20 +10660,63 @@
       ],
       "intents": [
         "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
+        "staff_routing"
       ],
       "tags": [
         "technical_creative",
+        "Technical and Creative",
         "staff",
         "ministry",
-        "staffed"
+        "staffed",
+        "production",
+        "production ministry",
+        "technical",
+        "technical ministry",
+        "technical director",
+        "information technology",
+        "IT support",
+        "IT department",
+        "creative",
+        "creative ministry",
+        "website",
+        "web",
+        "video",
+        "livestream",
+        "live stream",
+        "audio",
+        "lighting",
+        "technology",
+        "tech",
+        "IT"
       ],
       "search_terms": [
         "technical creative",
+        "Technical and Creative",
+        "production",
+        "production ministry",
+        "technical",
+        "technical ministry",
+        "technical director",
+        "information technology",
+        "IT support",
+        "IT department",
+        "creative",
+        "creative ministry",
+        "website",
+        "web",
+        "video",
+        "livestream",
+        "live stream",
+        "audio",
+        "lighting",
+        "technology",
+        "tech",
+        "IT",
         "who oversees technical creative",
         "who leads technical creative",
-        "who do I contact about technical creative"
+        "who handles technical creative",
+        "who do I contact about technical creative",
+        "who should I contact about technical creative"
       ],
       "ministries": [
         "technical_creative"
@@ -10075,6 +10727,39 @@
       "primary_staff_key": "matthew_kirby",
       "recommended_contact_staff_key": "matthew_kirby",
       "leadership_status": "staffed",
+      "relationship_label": "Technical and Creative",
+      "routing_aliases": [
+        "production",
+        "production ministry",
+        "technical",
+        "technical ministry",
+        "technical director",
+        "information technology",
+        "IT support",
+        "IT department",
+        "creative",
+        "creative ministry",
+        "website",
+        "web",
+        "video",
+        "livestream",
+        "live stream",
+        "audio",
+        "lighting",
+        "technology",
+        "tech"
+      ],
+      "routing_topics": [
+        "production",
+        "IT",
+        "creative",
+        "website",
+        "video",
+        "livestream",
+        "audio",
+        "lighting",
+        "technology"
+      ],
       "answer_guidance": "Matthew Kirby serves as Technical Director and is the primary contact for IT, Production, Creative, Website, video, livestream, audio, lighting, and church technology."
     },
     {
@@ -10082,8 +10767,8 @@
       "record_type": "relationship",
       "path": "relationships/ministry-staff.yaml",
       "title": "Worship staff relationship",
-      "summary": "Staff relationship for worship. Recommended staff key: larry_nichols.",
-      "content": "Ministry: worship\nLeadership status: staffed\nPrimary staff key: larry_nichols\nRecommended contact staff key: larry_nichols\nRelated staff keys: \nAnswer guidance: Larry Nichols serves as Worship Pastor and is the primary contact for Worship Ministry, music, choir, and serving with the worship team.",
+      "summary": "Staff relationship for Worship. Recommended staff key: larry_nichols.",
+      "content": "Ministry: worship\nLabel: Worship\nAliases: worship, worship ministry, music ministry, worship team, worship band, choir, worship serving\nTopics: worship, music, choir, worship services, worship auditions, worship application, worship philosophy, sensory-friendly worship\nLeadership status: staffed\nPrimary staff key: larry_nichols\nRecommended contact staff key: larry_nichols\nRelated staff keys: \nAnswer guidance: Larry Nichols serves as Worship Pastor and is the primary contact for Worship Ministry, music, choir, and serving with the worship team.",
       "priority": 85,
       "category": [
         "relationship",
@@ -10091,20 +10776,45 @@
       ],
       "intents": [
         "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
+        "staff_routing"
       ],
       "tags": [
         "worship",
         "staff",
         "ministry",
-        "staffed"
+        "staffed",
+        "worship ministry",
+        "music ministry",
+        "worship team",
+        "worship band",
+        "choir",
+        "worship serving",
+        "music",
+        "worship services",
+        "worship auditions",
+        "worship application",
+        "worship philosophy",
+        "sensory-friendly worship"
       ],
       "search_terms": [
         "worship",
+        "worship ministry",
+        "music ministry",
+        "worship team",
+        "worship band",
+        "choir",
+        "worship serving",
+        "music",
+        "worship services",
+        "worship auditions",
+        "worship application",
+        "worship philosophy",
+        "sensory-friendly worship",
         "who oversees worship",
         "who leads worship",
-        "who do I contact about worship"
+        "who handles worship",
+        "who do I contact about worship",
+        "who should I contact about worship"
       ],
       "ministries": [
         "worship"
@@ -10115,6 +10825,26 @@
       "primary_staff_key": "larry_nichols",
       "recommended_contact_staff_key": "larry_nichols",
       "leadership_status": "staffed",
+      "relationship_label": "Worship",
+      "routing_aliases": [
+        "worship",
+        "worship ministry",
+        "music ministry",
+        "worship team",
+        "worship band",
+        "choir",
+        "worship serving"
+      ],
+      "routing_topics": [
+        "worship",
+        "music",
+        "choir",
+        "worship services",
+        "worship auditions",
+        "worship application",
+        "worship philosophy",
+        "sensory-friendly worship"
+      ],
       "answer_guidance": "Larry Nichols serves as Worship Pastor and is the primary contact for Worship Ministry, music, choir, and serving with the worship team."
     },
     {
@@ -10452,9 +11182,6 @@
       "activity_aliases": [
         "3V3 Basketball Tournament"
       ],
-      "event_aliases": [
-        "3V3 Basketball Tournament"
-      ],
       "event_category": "ministry_event",
       "event_start": "2027-04-24T12:00:00-04:00",
       "event_end": "2027-04-24T19:00:00-04:00",
@@ -10561,9 +11288,6 @@
       "activity_aliases": [
         "Awana 2026-2027"
       ],
-      "event_aliases": [
-        "Awana 2026-2027"
-      ],
       "event_category": "churchwide_program",
       "event_start": "2026-08-19T18:15:00-04:00",
       "event_end": "2026-08-19T19:30:00-04:00",
@@ -10643,9 +11367,6 @@
         "activity",
         "family_event",
         "Engage: New Members Class - Summer 2026",
-        "Engage",
-        "New Members Class",
-        "Summer 2026",
         "Family",
         "Special Events",
         "New Here",
@@ -10670,31 +11391,7 @@
         "Do you offer Engage: New Members Class - Summer 2026?",
         "Is there Engage: New Members Class - Summer 2026 at Urbancrest?",
         "Can I participate in Engage: New Members Class - Summer 2026?",
-        "Can I play Engage: New Members Class - Summer 2026 at Urbancrest?",
-        "Engage",
-        "Does Urbancrest have Engage?",
-        "Does Urbancrest offer Engage?",
-        "Do you have Engage?",
-        "Do you offer Engage?",
-        "Is there Engage at Urbancrest?",
-        "Can I participate in Engage?",
-        "Can I play Engage at Urbancrest?",
-        "New Members Class",
-        "Does Urbancrest have New Members Class?",
-        "Does Urbancrest offer New Members Class?",
-        "Do you have New Members Class?",
-        "Do you offer New Members Class?",
-        "Is there New Members Class at Urbancrest?",
-        "Can I participate in New Members Class?",
-        "Can I play New Members Class at Urbancrest?",
-        "Summer 2026",
-        "Does Urbancrest have Summer 2026?",
-        "Does Urbancrest offer Summer 2026?",
-        "Do you have Summer 2026?",
-        "Do you offer Summer 2026?",
-        "Is there Summer 2026 at Urbancrest?",
-        "Can I participate in Summer 2026?",
-        "Can I play Summer 2026 at Urbancrest?"
+        "Can I play Engage: New Members Class - Summer 2026 at Urbancrest?"
       ],
       "ministries": [
         "family"
@@ -10705,16 +11402,7 @@
       "resources": [],
       "event_id": "pc-registration-3763259-c357fb9bf7e1",
       "activity_aliases": [
-        "Engage: New Members Class - Summer 2026",
-        "Engage",
-        "New Members Class",
-        "Summer 2026"
-      ],
-      "event_aliases": [
-        "Engage: New Members Class - Summer 2026",
-        "Engage",
-        "New Members Class",
-        "Summer 2026"
+        "Engage: New Members Class - Summer 2026"
       ],
       "event_category": "family_event",
       "event_start": "2026-09-02T22:30:00+00:00",
@@ -10820,9 +11508,6 @@
       "activity_aliases": [
         "Men's Breakfast"
       ],
-      "event_aliases": [
-        "Men's Breakfast"
-      ],
       "event_category": "ministry_event",
       "event_start": "2026-09-05T08:00:00-04:00",
       "event_end": "2026-09-05T10:00:00-04:00",
@@ -10888,9 +11573,6 @@
       "resources": [],
       "event_id": "event-5ee7e8f2ebdec2d7",
       "activity_aliases": [
-        "Men's Breakfast"
-      ],
-      "event_aliases": [
         "Men's Breakfast"
       ],
       "event_category": "ministry_event",
@@ -10960,9 +11642,6 @@
       "activity_aliases": [
         "Men's Breakfast"
       ],
-      "event_aliases": [
-        "Men's Breakfast"
-      ],
       "event_category": "ministry_event",
       "event_start": "2026-11-07T08:00:00-05:00",
       "event_end": "2026-11-07T10:00:00-05:00",
@@ -11028,9 +11707,6 @@
       "resources": [],
       "event_id": "event-296f50798c549ccc",
       "activity_aliases": [
-        "Men's Breakfast"
-      ],
-      "event_aliases": [
         "Men's Breakfast"
       ],
       "event_category": "ministry_event",
@@ -11100,9 +11776,6 @@
       "activity_aliases": [
         "Men's Breakfast"
       ],
-      "event_aliases": [
-        "Men's Breakfast"
-      ],
       "event_category": "ministry_event",
       "event_start": "2027-01-02T08:00:00-05:00",
       "event_end": "2027-01-02T10:00:00-05:00",
@@ -11168,9 +11841,6 @@
       "resources": [],
       "event_id": "event-2f1f828e89fa0b3e",
       "activity_aliases": [
-        "Men's Breakfast"
-      ],
-      "event_aliases": [
         "Men's Breakfast"
       ],
       "event_category": "ministry_event",
@@ -11240,9 +11910,6 @@
       "activity_aliases": [
         "Men's Breakfast"
       ],
-      "event_aliases": [
-        "Men's Breakfast"
-      ],
       "event_category": "ministry_event",
       "event_start": "2027-03-06T08:00:00-05:00",
       "event_end": "2027-03-06T10:00:00-05:00",
@@ -11308,9 +11975,6 @@
       "resources": [],
       "event_id": "event-221b224bdc069bd4",
       "activity_aliases": [
-        "Men's Breakfast"
-      ],
-      "event_aliases": [
         "Men's Breakfast"
       ],
       "event_category": "ministry_event",
@@ -11380,9 +12044,6 @@
       "activity_aliases": [
         "Men's Breakfast"
       ],
-      "event_aliases": [
-        "Men's Breakfast"
-      ],
       "event_category": "ministry_event",
       "event_start": "2027-05-01T08:00:00-04:00",
       "event_end": "2027-05-01T10:00:00-04:00",
@@ -11448,9 +12109,6 @@
       "resources": [],
       "event_id": "event-8fca2702ae456a52",
       "activity_aliases": [
-        "Men's Breakfast"
-      ],
-      "event_aliases": [
         "Men's Breakfast"
       ],
       "event_category": "ministry_event",
@@ -11520,9 +12178,6 @@
       "activity_aliases": [
         "Men's Breakfast"
       ],
-      "event_aliases": [
-        "Men's Breakfast"
-      ],
       "event_category": "ministry_event",
       "event_start": "2027-07-03T08:00:00-04:00",
       "event_end": "2027-07-03T10:00:00-04:00",
@@ -11588,9 +12243,6 @@
       "resources": [],
       "event_id": "event-caf6d3d398ccb967",
       "activity_aliases": [
-        "Men's Breakfast"
-      ],
-      "event_aliases": [
         "Men's Breakfast"
       ],
       "event_category": "ministry_event",
@@ -11660,9 +12312,6 @@
       "activity_aliases": [
         "Mexico Missions Meeting"
       ],
-      "event_aliases": [
-        "Mexico Missions Meeting"
-      ],
       "event_category": "ministry_event",
       "event_start": "2026-08-17T18:30:00-04:00",
       "event_end": "2026-08-17T20:00:00-04:00",
@@ -11702,7 +12351,6 @@
         "activity",
         "ministry_event",
         "Night of Worship Choir",
-        "ve sung in choir before or it",
         "Special Events",
         "Standard"
       ],
@@ -11721,15 +12369,7 @@
         "Do you offer Night of Worship Choir?",
         "Is there Night of Worship Choir at Urbancrest?",
         "Can I participate in Night of Worship Choir?",
-        "Can I play Night of Worship Choir at Urbancrest?",
-        "ve sung in choir before or it",
-        "Does Urbancrest have ve sung in choir before or it?",
-        "Does Urbancrest offer ve sung in choir before or it?",
-        "Do you have ve sung in choir before or it?",
-        "Do you offer ve sung in choir before or it?",
-        "Is there ve sung in choir before or it at Urbancrest?",
-        "Can I participate in ve sung in choir before or it?",
-        "Can I play ve sung in choir before or it at Urbancrest?"
+        "Can I play Night of Worship Choir at Urbancrest?"
       ],
       "ministries": [
         "worship",
@@ -11742,12 +12382,7 @@
       "resources": [],
       "event_id": "event-afab721d8e2a753e",
       "activity_aliases": [
-        "Night of Worship Choir",
-        "ve sung in choir before or it"
-      ],
-      "event_aliases": [
-        "Night of Worship Choir",
-        "ve sung in choir before or it"
+        "Night of Worship Choir"
       ],
       "event_category": "ministry_event",
       "event_start": "2026-10-04T18:00:00-04:00",
@@ -11818,9 +12453,6 @@
         "activity",
         "worship_event",
         "One Service Only at 9:30 AM – Labor Day Weekend",
-        "One Service Only at 9",
-        "30 AM",
-        "Labor Day Weekend",
         "Sunday Morning",
         "Standard"
       ],
@@ -11840,31 +12472,7 @@
         "Do you offer One Service Only at 9:30 AM – Labor Day Weekend?",
         "Is there One Service Only at 9:30 AM – Labor Day Weekend at Urbancrest?",
         "Can I participate in One Service Only at 9:30 AM – Labor Day Weekend?",
-        "Can I play One Service Only at 9:30 AM – Labor Day Weekend at Urbancrest?",
-        "One Service Only at 9",
-        "Does Urbancrest have One Service Only at 9?",
-        "Does Urbancrest offer One Service Only at 9?",
-        "Do you have One Service Only at 9?",
-        "Do you offer One Service Only at 9?",
-        "Is there One Service Only at 9 at Urbancrest?",
-        "Can I participate in One Service Only at 9?",
-        "Can I play One Service Only at 9 at Urbancrest?",
-        "30 AM",
-        "Does Urbancrest have 30 AM?",
-        "Does Urbancrest offer 30 AM?",
-        "Do you have 30 AM?",
-        "Do you offer 30 AM?",
-        "Is there 30 AM at Urbancrest?",
-        "Can I participate in 30 AM?",
-        "Can I play 30 AM at Urbancrest?",
-        "Labor Day Weekend",
-        "Does Urbancrest have Labor Day Weekend?",
-        "Does Urbancrest offer Labor Day Weekend?",
-        "Do you have Labor Day Weekend?",
-        "Do you offer Labor Day Weekend?",
-        "Is there Labor Day Weekend at Urbancrest?",
-        "Can I participate in Labor Day Weekend?",
-        "Can I play Labor Day Weekend at Urbancrest?"
+        "Can I play One Service Only at 9:30 AM – Labor Day Weekend at Urbancrest?"
       ],
       "ministries": [
         "worship",
@@ -11877,16 +12485,7 @@
       "resources": [],
       "event_id": "pc-registration-3613427-1498a63e7156",
       "activity_aliases": [
-        "One Service Only at 9:30 AM – Labor Day Weekend",
-        "One Service Only at 9",
-        "30 AM",
-        "Labor Day Weekend"
-      ],
-      "event_aliases": [
-        "One Service Only at 9:30 AM – Labor Day Weekend",
-        "One Service Only at 9",
-        "30 AM",
-        "Labor Day Weekend"
+        "One Service Only at 9:30 AM – Labor Day Weekend"
       ],
       "event_category": "worship_event",
       "event_start": "2026-09-06T13:30:00+00:00",
@@ -11979,9 +12578,6 @@
       "activity_aliases": [
         "P U R S U E"
       ],
-      "event_aliases": [
-        "P U R S U E"
-      ],
       "event_category": "ministry_event",
       "event_start": "2026-08-23T09:30:00-04:00",
       "event_end": "2026-08-23T10:30:00-04:00",
@@ -12046,9 +12642,6 @@
       "resources": [],
       "event_id": "event-53f4a91c8a63faac",
       "activity_aliases": [
-        "P U R S U E"
-      ],
-      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -12117,9 +12710,6 @@
       "activity_aliases": [
         "P U R S U E"
       ],
-      "event_aliases": [
-        "P U R S U E"
-      ],
       "event_category": "ministry_event",
       "event_start": "2026-09-06T09:30:00-04:00",
       "event_end": "2026-09-06T10:30:00-04:00",
@@ -12184,9 +12774,6 @@
       "resources": [],
       "event_id": "event-704ef786f2300fb0",
       "activity_aliases": [
-        "P U R S U E"
-      ],
-      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -12255,9 +12842,6 @@
       "activity_aliases": [
         "P U R S U E"
       ],
-      "event_aliases": [
-        "P U R S U E"
-      ],
       "event_category": "ministry_event",
       "event_start": "2026-09-20T09:30:00-04:00",
       "event_end": "2026-09-20T10:30:00-04:00",
@@ -12322,9 +12906,6 @@
       "resources": [],
       "event_id": "event-9e2c9a2b0c724217",
       "activity_aliases": [
-        "P U R S U E"
-      ],
-      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -12393,9 +12974,6 @@
       "activity_aliases": [
         "P U R S U E"
       ],
-      "event_aliases": [
-        "P U R S U E"
-      ],
       "event_category": "ministry_event",
       "event_start": "2026-10-04T09:30:00-04:00",
       "event_end": "2026-10-04T10:30:00-04:00",
@@ -12460,9 +13038,6 @@
       "resources": [],
       "event_id": "event-335555bbce8f8f87",
       "activity_aliases": [
-        "P U R S U E"
-      ],
-      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -12531,9 +13106,6 @@
       "activity_aliases": [
         "P U R S U E"
       ],
-      "event_aliases": [
-        "P U R S U E"
-      ],
       "event_category": "ministry_event",
       "event_start": "2026-10-18T09:30:00-04:00",
       "event_end": "2026-10-18T10:30:00-04:00",
@@ -12598,9 +13170,6 @@
       "resources": [],
       "event_id": "event-d05c3ac79e3a39cd",
       "activity_aliases": [
-        "P U R S U E"
-      ],
-      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -12669,9 +13238,6 @@
       "activity_aliases": [
         "P U R S U E"
       ],
-      "event_aliases": [
-        "P U R S U E"
-      ],
       "event_category": "ministry_event",
       "event_start": "2026-11-01T09:30:00-05:00",
       "event_end": "2026-11-01T10:30:00-05:00",
@@ -12736,9 +13302,6 @@
       "resources": [],
       "event_id": "event-1df0d9cbb84c1a4d",
       "activity_aliases": [
-        "P U R S U E"
-      ],
-      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -12807,9 +13370,6 @@
       "activity_aliases": [
         "P U R S U E"
       ],
-      "event_aliases": [
-        "P U R S U E"
-      ],
       "event_category": "ministry_event",
       "event_start": "2026-11-15T09:30:00-05:00",
       "event_end": "2026-11-15T10:30:00-05:00",
@@ -12874,9 +13434,6 @@
       "resources": [],
       "event_id": "event-be431ccdabc3d97b",
       "activity_aliases": [
-        "P U R S U E"
-      ],
-      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -12945,9 +13502,6 @@
       "activity_aliases": [
         "P U R S U E"
       ],
-      "event_aliases": [
-        "P U R S U E"
-      ],
       "event_category": "ministry_event",
       "event_start": "2026-11-29T09:30:00-05:00",
       "event_end": "2026-11-29T10:30:00-05:00",
@@ -13012,9 +13566,6 @@
       "resources": [],
       "event_id": "event-b29ea6677fe5b958",
       "activity_aliases": [
-        "P U R S U E"
-      ],
-      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -13083,9 +13634,6 @@
       "activity_aliases": [
         "P U R S U E"
       ],
-      "event_aliases": [
-        "P U R S U E"
-      ],
       "event_category": "ministry_event",
       "event_start": "2026-12-13T09:30:00-05:00",
       "event_end": "2026-12-13T10:30:00-05:00",
@@ -13150,9 +13698,6 @@
       "resources": [],
       "event_id": "event-64c2ccc43d0fd347",
       "activity_aliases": [
-        "P U R S U E"
-      ],
-      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -13221,9 +13766,6 @@
       "activity_aliases": [
         "P U R S U E"
       ],
-      "event_aliases": [
-        "P U R S U E"
-      ],
       "event_category": "ministry_event",
       "event_start": "2026-12-27T09:30:00-05:00",
       "event_end": "2026-12-27T10:30:00-05:00",
@@ -13288,9 +13830,6 @@
       "resources": [],
       "event_id": "event-dc26652f5bb9a311",
       "activity_aliases": [
-        "P U R S U E"
-      ],
-      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -13359,9 +13898,6 @@
       "activity_aliases": [
         "P U R S U E"
       ],
-      "event_aliases": [
-        "P U R S U E"
-      ],
       "event_category": "ministry_event",
       "event_start": "2027-01-10T09:30:00-05:00",
       "event_end": "2027-01-10T10:30:00-05:00",
@@ -13426,9 +13962,6 @@
       "resources": [],
       "event_id": "event-8029c470e3849556",
       "activity_aliases": [
-        "P U R S U E"
-      ],
-      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -13497,9 +14030,6 @@
       "activity_aliases": [
         "P U R S U E"
       ],
-      "event_aliases": [
-        "P U R S U E"
-      ],
       "event_category": "ministry_event",
       "event_start": "2027-01-24T09:30:00-05:00",
       "event_end": "2027-01-24T10:30:00-05:00",
@@ -13564,9 +14094,6 @@
       "resources": [],
       "event_id": "event-14f4a495890ad28e",
       "activity_aliases": [
-        "P U R S U E"
-      ],
-      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -13635,9 +14162,6 @@
       "activity_aliases": [
         "P U R S U E"
       ],
-      "event_aliases": [
-        "P U R S U E"
-      ],
       "event_category": "ministry_event",
       "event_start": "2027-02-07T09:30:00-05:00",
       "event_end": "2027-02-07T10:30:00-05:00",
@@ -13702,9 +14226,6 @@
       "resources": [],
       "event_id": "event-2ab85a2a40b0cdee",
       "activity_aliases": [
-        "P U R S U E"
-      ],
-      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -13773,9 +14294,6 @@
       "activity_aliases": [
         "P U R S U E"
       ],
-      "event_aliases": [
-        "P U R S U E"
-      ],
       "event_category": "ministry_event",
       "event_start": "2027-02-21T09:30:00-05:00",
       "event_end": "2027-02-21T10:30:00-05:00",
@@ -13840,9 +14358,6 @@
       "resources": [],
       "event_id": "event-1003d48ddfc08e98",
       "activity_aliases": [
-        "P U R S U E"
-      ],
-      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -13911,9 +14426,6 @@
       "activity_aliases": [
         "P U R S U E"
       ],
-      "event_aliases": [
-        "P U R S U E"
-      ],
       "event_category": "ministry_event",
       "event_start": "2027-03-07T09:30:00-05:00",
       "event_end": "2027-03-07T10:30:00-05:00",
@@ -13978,9 +14490,6 @@
       "resources": [],
       "event_id": "event-9fc355d91b790e5a",
       "activity_aliases": [
-        "P U R S U E"
-      ],
-      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -14049,9 +14558,6 @@
       "activity_aliases": [
         "P U R S U E"
       ],
-      "event_aliases": [
-        "P U R S U E"
-      ],
       "event_category": "ministry_event",
       "event_start": "2027-03-21T09:30:00-04:00",
       "event_end": "2027-03-21T10:30:00-04:00",
@@ -14116,9 +14622,6 @@
       "resources": [],
       "event_id": "event-56faced5dab2c788",
       "activity_aliases": [
-        "P U R S U E"
-      ],
-      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -14187,9 +14690,6 @@
       "activity_aliases": [
         "P U R S U E"
       ],
-      "event_aliases": [
-        "P U R S U E"
-      ],
       "event_category": "ministry_event",
       "event_start": "2027-04-04T09:30:00-04:00",
       "event_end": "2027-04-04T10:30:00-04:00",
@@ -14254,9 +14754,6 @@
       "resources": [],
       "event_id": "event-6dcb851bb193c2dd",
       "activity_aliases": [
-        "P U R S U E"
-      ],
-      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -14325,9 +14822,6 @@
       "activity_aliases": [
         "P U R S U E"
       ],
-      "event_aliases": [
-        "P U R S U E"
-      ],
       "event_category": "ministry_event",
       "event_start": "2027-04-18T09:30:00-04:00",
       "event_end": "2027-04-18T10:30:00-04:00",
@@ -14392,9 +14886,6 @@
       "resources": [],
       "event_id": "event-f6f8b5556e95a8d5",
       "activity_aliases": [
-        "P U R S U E"
-      ],
-      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -14463,9 +14954,6 @@
       "activity_aliases": [
         "P U R S U E"
       ],
-      "event_aliases": [
-        "P U R S U E"
-      ],
       "event_category": "ministry_event",
       "event_start": "2027-05-02T09:30:00-04:00",
       "event_end": "2027-05-02T10:30:00-04:00",
@@ -14530,9 +15018,6 @@
       "resources": [],
       "event_id": "event-2b5d740b36585e9e",
       "activity_aliases": [
-        "P U R S U E"
-      ],
-      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -14601,9 +15086,6 @@
       "activity_aliases": [
         "P U R S U E"
       ],
-      "event_aliases": [
-        "P U R S U E"
-      ],
       "event_category": "ministry_event",
       "event_start": "2027-05-16T09:30:00-04:00",
       "event_end": "2027-05-16T10:30:00-04:00",
@@ -14668,9 +15150,6 @@
       "resources": [],
       "event_id": "event-e7e2b8325b471aa6",
       "activity_aliases": [
-        "P U R S U E"
-      ],
-      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -14739,9 +15218,6 @@
       "activity_aliases": [
         "P U R S U E"
       ],
-      "event_aliases": [
-        "P U R S U E"
-      ],
       "event_category": "ministry_event",
       "event_start": "2027-05-30T09:30:00-04:00",
       "event_end": "2027-05-30T10:30:00-04:00",
@@ -14806,9 +15282,6 @@
       "resources": [],
       "event_id": "event-8392fb148d57106e",
       "activity_aliases": [
-        "P U R S U E"
-      ],
-      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -14877,9 +15350,6 @@
       "activity_aliases": [
         "P U R S U E"
       ],
-      "event_aliases": [
-        "P U R S U E"
-      ],
       "event_category": "ministry_event",
       "event_start": "2027-06-13T09:30:00-04:00",
       "event_end": "2027-06-13T10:30:00-04:00",
@@ -14944,9 +15414,6 @@
       "resources": [],
       "event_id": "event-ee387a7ae9d091a4",
       "activity_aliases": [
-        "P U R S U E"
-      ],
-      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -15015,9 +15482,6 @@
       "activity_aliases": [
         "P U R S U E"
       ],
-      "event_aliases": [
-        "P U R S U E"
-      ],
       "event_category": "ministry_event",
       "event_start": "2027-06-27T09:30:00-04:00",
       "event_end": "2027-06-27T10:30:00-04:00",
@@ -15082,9 +15546,6 @@
       "resources": [],
       "event_id": "event-d19742fa819b16ca",
       "activity_aliases": [
-        "P U R S U E"
-      ],
-      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -15153,9 +15614,6 @@
       "activity_aliases": [
         "P U R S U E"
       ],
-      "event_aliases": [
-        "P U R S U E"
-      ],
       "event_category": "ministry_event",
       "event_start": "2027-07-11T09:30:00-04:00",
       "event_end": "2027-07-11T10:30:00-04:00",
@@ -15220,9 +15678,6 @@
       "resources": [],
       "event_id": "event-3d91ef03a2eb405a",
       "activity_aliases": [
-        "P U R S U E"
-      ],
-      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -15291,9 +15746,6 @@
       "activity_aliases": [
         "P U R S U E"
       ],
-      "event_aliases": [
-        "P U R S U E"
-      ],
       "event_category": "ministry_event",
       "event_start": "2027-07-25T09:30:00-04:00",
       "event_end": "2027-07-25T10:30:00-04:00",
@@ -15358,9 +15810,6 @@
       "resources": [],
       "event_id": "event-afe24860b47d9cde",
       "activity_aliases": [
-        "P U R S U E"
-      ],
-      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -15429,9 +15878,6 @@
       "activity_aliases": [
         "P U R S U E"
       ],
-      "event_aliases": [
-        "P U R S U E"
-      ],
       "event_category": "ministry_event",
       "event_start": "2027-08-08T09:30:00-04:00",
       "event_end": "2027-08-08T10:30:00-04:00",
@@ -15496,9 +15942,6 @@
       "resources": [],
       "event_id": "event-5027f3e8accd683d",
       "activity_aliases": [
-        "P U R S U E"
-      ],
-      "event_aliases": [
         "P U R S U E"
       ],
       "event_category": "ministry_event",
@@ -15567,9 +16010,6 @@
       "resources": [],
       "event_id": "pc-registration-3775272-e3627f27396c",
       "activity_aliases": [
-        "Strength to Stand"
-      ],
-      "event_aliases": [
         "Strength to Stand"
       ],
       "event_category": "general_event",
@@ -15688,9 +16128,6 @@
       "activity_aliases": [
         "Waynesville Fall Fest"
       ],
-      "event_aliases": [
-        "Waynesville Fall Fest"
-      ],
       "event_category": "student_event",
       "event_start": "2026-09-26T18:30:00+00:00",
       "event_end": "2026-09-26T22:00:00+00:00",
@@ -15795,9 +16232,6 @@
       "activity_aliases": [
         "Wednesday Night Kickoff"
       ],
-      "event_aliases": [
-        "Wednesday Night Kickoff"
-      ],
       "event_category": "student_event",
       "event_start": "2026-08-26T21:30:00+00:00",
       "event_end": "2026-08-27T00:00:00+00:00",
@@ -15894,9 +16328,6 @@
       "activity_aliases": [
         "Women's Christmas Event"
       ],
-      "event_aliases": [
-        "Women's Christmas Event"
-      ],
       "event_category": "ministry_event",
       "event_start": "2026-12-06T16:00:00-05:00",
       "event_end": "2026-12-06T18:00:00-05:00",
@@ -15963,9 +16394,6 @@
       "resources": [],
       "event_id": "event-6b34cb8d668698aa",
       "activity_aliases": [
-        "Women's Fall Fest"
-      ],
-      "event_aliases": [
         "Women's Fall Fest"
       ],
       "event_category": "ministry_event",
@@ -16829,9 +17257,6 @@
       "activity_aliases": [
         "Awana 2026-2027"
       ],
-      "event_aliases": [
-        "Awana 2026-2027"
-      ],
       "event_category": "churchwide_program",
       "event_start": "2026-08-26T18:15:00-04:00",
       "event_end": "2026-08-26T19:30:00-04:00",
@@ -16903,9 +17328,6 @@
       "resources": [],
       "event_id": "event-ba71b480f7b657f3",
       "activity_aliases": [
-        "Awana 2026-2027"
-      ],
-      "event_aliases": [
         "Awana 2026-2027"
       ],
       "event_category": "churchwide_program",
@@ -16981,9 +17403,6 @@
       "activity_aliases": [
         "Awana 2026-2027"
       ],
-      "event_aliases": [
-        "Awana 2026-2027"
-      ],
       "event_category": "churchwide_program",
       "event_start": "2026-09-09T18:15:00-04:00",
       "event_end": "2026-09-09T19:30:00-04:00",
@@ -17052,9 +17471,6 @@
       "resources": [],
       "event_id": "event-9dab728b4731bf8a",
       "activity_aliases": [
-        "Wednesday Night Dinner"
-      ],
-      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -17126,9 +17542,6 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
-      "event_aliases": [
-        "Wednesday Night Dinner"
-      ],
       "event_category": "churchwide_program",
       "event_start": "2026-09-02T17:30:00-04:00",
       "event_end": "2026-09-02T18:15:00-04:00",
@@ -17196,9 +17609,6 @@
       "resources": [],
       "event_id": "event-603382a30ef2ed46",
       "activity_aliases": [
-        "Wednesday Night Dinner"
-      ],
-      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -17270,9 +17680,6 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
-      "event_aliases": [
-        "Wednesday Night Dinner"
-      ],
       "event_category": "churchwide_program",
       "event_start": "2026-09-16T17:30:00-04:00",
       "event_end": "2026-09-16T18:15:00-04:00",
@@ -17340,9 +17747,6 @@
       "resources": [],
       "event_id": "event-19c7f09112c7bf0d",
       "activity_aliases": [
-        "Wednesday Night Dinner"
-      ],
-      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -17414,9 +17818,6 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
-      "event_aliases": [
-        "Wednesday Night Dinner"
-      ],
       "event_category": "churchwide_program",
       "event_start": "2026-09-30T17:30:00-04:00",
       "event_end": "2026-09-30T18:15:00-04:00",
@@ -17484,9 +17885,6 @@
       "resources": [],
       "event_id": "event-99e86fed5a9fc5ad",
       "activity_aliases": [
-        "Wednesday Night Dinner"
-      ],
-      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -17558,9 +17956,6 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
-      "event_aliases": [
-        "Wednesday Night Dinner"
-      ],
       "event_category": "churchwide_program",
       "event_start": "2026-10-14T17:30:00-04:00",
       "event_end": "2026-10-14T18:15:00-04:00",
@@ -17628,9 +18023,6 @@
       "resources": [],
       "event_id": "event-b08f2e2b300edf1f",
       "activity_aliases": [
-        "Wednesday Night Dinner"
-      ],
-      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -17702,9 +18094,6 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
-      "event_aliases": [
-        "Wednesday Night Dinner"
-      ],
       "event_category": "churchwide_program",
       "event_start": "2026-10-28T17:30:00-04:00",
       "event_end": "2026-10-28T18:15:00-04:00",
@@ -17772,9 +18161,6 @@
       "resources": [],
       "event_id": "event-1aae13f9c455fdc7",
       "activity_aliases": [
-        "Wednesday Night Dinner"
-      ],
-      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -17846,9 +18232,6 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
-      "event_aliases": [
-        "Wednesday Night Dinner"
-      ],
       "event_category": "churchwide_program",
       "event_start": "2026-11-11T17:30:00-05:00",
       "event_end": "2026-11-11T18:15:00-05:00",
@@ -17916,9 +18299,6 @@
       "resources": [],
       "event_id": "event-cc6c730d57cf53fb",
       "activity_aliases": [
-        "Wednesday Night Dinner"
-      ],
-      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -17990,9 +18370,6 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
-      "event_aliases": [
-        "Wednesday Night Dinner"
-      ],
       "event_category": "churchwide_program",
       "event_start": "2026-11-25T17:30:00-05:00",
       "event_end": "2026-11-25T18:15:00-05:00",
@@ -18060,9 +18437,6 @@
       "resources": [],
       "event_id": "event-5612690198809fdf",
       "activity_aliases": [
-        "Wednesday Night Dinner"
-      ],
-      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -18134,9 +18508,6 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
-      "event_aliases": [
-        "Wednesday Night Dinner"
-      ],
       "event_category": "churchwide_program",
       "event_start": "2026-12-09T17:30:00-05:00",
       "event_end": "2026-12-09T18:15:00-05:00",
@@ -18204,9 +18575,6 @@
       "resources": [],
       "event_id": "event-6ee1c01620d35842",
       "activity_aliases": [
-        "Wednesday Night Dinner"
-      ],
-      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -18278,9 +18646,6 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
-      "event_aliases": [
-        "Wednesday Night Dinner"
-      ],
       "event_category": "churchwide_program",
       "event_start": "2026-12-23T17:30:00-05:00",
       "event_end": "2026-12-23T18:15:00-05:00",
@@ -18348,9 +18713,6 @@
       "resources": [],
       "event_id": "event-b038724c0385ac1d",
       "activity_aliases": [
-        "Wednesday Night Dinner"
-      ],
-      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -18422,9 +18784,6 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
-      "event_aliases": [
-        "Wednesday Night Dinner"
-      ],
       "event_category": "churchwide_program",
       "event_start": "2027-01-06T17:30:00-05:00",
       "event_end": "2027-01-06T18:15:00-05:00",
@@ -18492,9 +18851,6 @@
       "resources": [],
       "event_id": "event-90772338f7ed64ec",
       "activity_aliases": [
-        "Wednesday Night Dinner"
-      ],
-      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -18566,9 +18922,6 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
-      "event_aliases": [
-        "Wednesday Night Dinner"
-      ],
       "event_category": "churchwide_program",
       "event_start": "2027-01-20T17:30:00-05:00",
       "event_end": "2027-01-20T18:15:00-05:00",
@@ -18636,9 +18989,6 @@
       "resources": [],
       "event_id": "event-1728511bf3e92330",
       "activity_aliases": [
-        "Wednesday Night Dinner"
-      ],
-      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -18710,9 +19060,6 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
-      "event_aliases": [
-        "Wednesday Night Dinner"
-      ],
       "event_category": "churchwide_program",
       "event_start": "2027-02-03T17:30:00-05:00",
       "event_end": "2027-02-03T18:15:00-05:00",
@@ -18780,9 +19127,6 @@
       "resources": [],
       "event_id": "event-caa7e598c1818c3d",
       "activity_aliases": [
-        "Wednesday Night Dinner"
-      ],
-      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -18854,9 +19198,6 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
-      "event_aliases": [
-        "Wednesday Night Dinner"
-      ],
       "event_category": "churchwide_program",
       "event_start": "2027-02-17T17:30:00-05:00",
       "event_end": "2027-02-17T18:15:00-05:00",
@@ -18924,9 +19265,6 @@
       "resources": [],
       "event_id": "event-9328a094b78f0b45",
       "activity_aliases": [
-        "Wednesday Night Dinner"
-      ],
-      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -18998,9 +19336,6 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
-      "event_aliases": [
-        "Wednesday Night Dinner"
-      ],
       "event_category": "churchwide_program",
       "event_start": "2027-03-03T17:30:00-05:00",
       "event_end": "2027-03-03T18:15:00-05:00",
@@ -19068,9 +19403,6 @@
       "resources": [],
       "event_id": "event-ac490fb30248508a",
       "activity_aliases": [
-        "Wednesday Night Dinner"
-      ],
-      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -19142,9 +19474,6 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
-      "event_aliases": [
-        "Wednesday Night Dinner"
-      ],
       "event_category": "churchwide_program",
       "event_start": "2027-03-17T17:30:00-04:00",
       "event_end": "2027-03-17T18:15:00-04:00",
@@ -19212,9 +19541,6 @@
       "resources": [],
       "event_id": "event-bc25cccea346db45",
       "activity_aliases": [
-        "Wednesday Night Dinner"
-      ],
-      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -19286,9 +19612,6 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
-      "event_aliases": [
-        "Wednesday Night Dinner"
-      ],
       "event_category": "churchwide_program",
       "event_start": "2027-03-31T17:30:00-04:00",
       "event_end": "2027-03-31T18:15:00-04:00",
@@ -19356,9 +19679,6 @@
       "resources": [],
       "event_id": "event-35844b133e8df64a",
       "activity_aliases": [
-        "Wednesday Night Dinner"
-      ],
-      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -19430,9 +19750,6 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
-      "event_aliases": [
-        "Wednesday Night Dinner"
-      ],
       "event_category": "churchwide_program",
       "event_start": "2027-04-14T17:30:00-04:00",
       "event_end": "2027-04-14T18:15:00-04:00",
@@ -19500,9 +19817,6 @@
       "resources": [],
       "event_id": "event-f5f64f835c0a84c3",
       "activity_aliases": [
-        "Wednesday Night Dinner"
-      ],
-      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -19574,9 +19888,6 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
-      "event_aliases": [
-        "Wednesday Night Dinner"
-      ],
       "event_category": "churchwide_program",
       "event_start": "2027-04-28T17:30:00-04:00",
       "event_end": "2027-04-28T18:15:00-04:00",
@@ -19644,9 +19955,6 @@
       "resources": [],
       "event_id": "event-2ed07b2f6430e195",
       "activity_aliases": [
-        "Wednesday Night Dinner"
-      ],
-      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -19718,9 +20026,6 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
-      "event_aliases": [
-        "Wednesday Night Dinner"
-      ],
       "event_category": "churchwide_program",
       "event_start": "2027-05-12T17:30:00-04:00",
       "event_end": "2027-05-12T18:15:00-04:00",
@@ -19788,9 +20093,6 @@
       "resources": [],
       "event_id": "event-38c528dd850df29f",
       "activity_aliases": [
-        "Wednesday Night Dinner"
-      ],
-      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -19862,9 +20164,6 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
-      "event_aliases": [
-        "Wednesday Night Dinner"
-      ],
       "event_category": "churchwide_program",
       "event_start": "2027-05-26T17:30:00-04:00",
       "event_end": "2027-05-26T18:15:00-04:00",
@@ -19932,9 +20231,6 @@
       "resources": [],
       "event_id": "event-b056b3dfedba0347",
       "activity_aliases": [
-        "Wednesday Night Dinner"
-      ],
-      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -20006,9 +20302,6 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
-      "event_aliases": [
-        "Wednesday Night Dinner"
-      ],
       "event_category": "churchwide_program",
       "event_start": "2027-06-09T17:30:00-04:00",
       "event_end": "2027-06-09T18:15:00-04:00",
@@ -20076,9 +20369,6 @@
       "resources": [],
       "event_id": "event-3d993f73ed6fef1b",
       "activity_aliases": [
-        "Wednesday Night Dinner"
-      ],
-      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -20150,9 +20440,6 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
-      "event_aliases": [
-        "Wednesday Night Dinner"
-      ],
       "event_category": "churchwide_program",
       "event_start": "2027-06-23T17:30:00-04:00",
       "event_end": "2027-06-23T18:15:00-04:00",
@@ -20220,9 +20507,6 @@
       "resources": [],
       "event_id": "event-7a6499128234486c",
       "activity_aliases": [
-        "Wednesday Night Dinner"
-      ],
-      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -20294,9 +20578,6 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
-      "event_aliases": [
-        "Wednesday Night Dinner"
-      ],
       "event_category": "churchwide_program",
       "event_start": "2027-07-07T17:30:00-04:00",
       "event_end": "2027-07-07T18:15:00-04:00",
@@ -20364,9 +20645,6 @@
       "resources": [],
       "event_id": "event-9f903404a7e48c19",
       "activity_aliases": [
-        "Wednesday Night Dinner"
-      ],
-      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -20438,9 +20716,6 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
-      "event_aliases": [
-        "Wednesday Night Dinner"
-      ],
       "event_category": "churchwide_program",
       "event_start": "2027-07-21T17:30:00-04:00",
       "event_end": "2027-07-21T18:15:00-04:00",
@@ -20508,9 +20783,6 @@
       "resources": [],
       "event_id": "event-e645ce6a5b7b2465",
       "activity_aliases": [
-        "Wednesday Night Dinner"
-      ],
-      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -20582,9 +20854,6 @@
       "activity_aliases": [
         "Wednesday Night Dinner"
       ],
-      "event_aliases": [
-        "Wednesday Night Dinner"
-      ],
       "event_category": "churchwide_program",
       "event_start": "2027-08-04T17:30:00-04:00",
       "event_end": "2027-08-04T18:15:00-04:00",
@@ -20652,9 +20921,6 @@
       "resources": [],
       "event_id": "event-241c9236f919d9cb",
       "activity_aliases": [
-        "Wednesday Night Dinner"
-      ],
-      "event_aliases": [
         "Wednesday Night Dinner"
       ],
       "event_category": "churchwide_program",
@@ -20956,9 +21222,6 @@
       "activity_aliases": [
         "Card Ministry"
       ],
-      "event_aliases": [
-        "Card Ministry"
-      ],
       "event_category": "general_event",
       "event_start": "2026-09-01T09:00:00-04:00",
       "event_end": "2026-09-01T12:00:00-04:00",
@@ -20996,9 +21259,7 @@
         "upcoming",
         "activity",
         "general_event",
-        "Monthly Baskets of Hope - Volunteers",
-        "Monthly Baskets of Hope",
-        "Volunteers"
+        "Monthly Baskets of Hope - Volunteers"
       ],
       "search_terms": [
         "Monthly Baskets of Hope - Volunteers",
@@ -21013,23 +21274,7 @@
         "Do you offer Monthly Baskets of Hope - Volunteers?",
         "Is there Monthly Baskets of Hope - Volunteers at Urbancrest?",
         "Can I participate in Monthly Baskets of Hope - Volunteers?",
-        "Can I play Monthly Baskets of Hope - Volunteers at Urbancrest?",
-        "Monthly Baskets of Hope",
-        "Does Urbancrest have Monthly Baskets of Hope?",
-        "Does Urbancrest offer Monthly Baskets of Hope?",
-        "Do you have Monthly Baskets of Hope?",
-        "Do you offer Monthly Baskets of Hope?",
-        "Is there Monthly Baskets of Hope at Urbancrest?",
-        "Can I participate in Monthly Baskets of Hope?",
-        "Can I play Monthly Baskets of Hope at Urbancrest?",
-        "Volunteers",
-        "Does Urbancrest have Volunteers?",
-        "Does Urbancrest offer Volunteers?",
-        "Do you have Volunteers?",
-        "Do you offer Volunteers?",
-        "Is there Volunteers at Urbancrest?",
-        "Can I participate in Volunteers?",
-        "Can I play Volunteers at Urbancrest?"
+        "Can I play Monthly Baskets of Hope - Volunteers at Urbancrest?"
       ],
       "ministries": [
         "churchwide"
@@ -21041,14 +21286,7 @@
       "resources": [],
       "event_id": "event-75c02532b780df8e",
       "activity_aliases": [
-        "Monthly Baskets of Hope - Volunteers",
-        "Monthly Baskets of Hope",
-        "Volunteers"
-      ],
-      "event_aliases": [
-        "Monthly Baskets of Hope - Volunteers",
-        "Monthly Baskets of Hope",
-        "Volunteers"
+        "Monthly Baskets of Hope - Volunteers"
       ],
       "event_category": "general_event",
       "event_start": "2026-08-19T16:30:00-04:00",
@@ -21088,9 +21326,7 @@
         "upcoming",
         "activity",
         "general_event",
-        "Monthly Baskets of Hope - Volunteers",
-        "Monthly Baskets of Hope",
-        "Volunteers"
+        "Monthly Baskets of Hope - Volunteers"
       ],
       "search_terms": [
         "Monthly Baskets of Hope - Volunteers",
@@ -21105,23 +21341,7 @@
         "Do you offer Monthly Baskets of Hope - Volunteers?",
         "Is there Monthly Baskets of Hope - Volunteers at Urbancrest?",
         "Can I participate in Monthly Baskets of Hope - Volunteers?",
-        "Can I play Monthly Baskets of Hope - Volunteers at Urbancrest?",
-        "Monthly Baskets of Hope",
-        "Does Urbancrest have Monthly Baskets of Hope?",
-        "Does Urbancrest offer Monthly Baskets of Hope?",
-        "Do you have Monthly Baskets of Hope?",
-        "Do you offer Monthly Baskets of Hope?",
-        "Is there Monthly Baskets of Hope at Urbancrest?",
-        "Can I participate in Monthly Baskets of Hope?",
-        "Can I play Monthly Baskets of Hope at Urbancrest?",
-        "Volunteers",
-        "Does Urbancrest have Volunteers?",
-        "Does Urbancrest offer Volunteers?",
-        "Do you have Volunteers?",
-        "Do you offer Volunteers?",
-        "Is there Volunteers at Urbancrest?",
-        "Can I participate in Volunteers?",
-        "Can I play Volunteers at Urbancrest?"
+        "Can I play Monthly Baskets of Hope - Volunteers at Urbancrest?"
       ],
       "ministries": [
         "churchwide"
@@ -21133,14 +21353,7 @@
       "resources": [],
       "event_id": "event-e0476e22fc77387f",
       "activity_aliases": [
-        "Monthly Baskets of Hope - Volunteers",
-        "Monthly Baskets of Hope",
-        "Volunteers"
-      ],
-      "event_aliases": [
-        "Monthly Baskets of Hope - Volunteers",
-        "Monthly Baskets of Hope",
-        "Volunteers"
+        "Monthly Baskets of Hope - Volunteers"
       ],
       "event_category": "general_event",
       "event_start": "2026-09-16T16:30:00-04:00",
@@ -21233,12 +21446,6 @@
       "resources": [],
       "event_id": "event-04b13efc65307382",
       "activity_aliases": [
-        "OPEN GYM Pickleball",
-        "Pickleball",
-        "OPEN GYM Pickle ball",
-        "Pickle ball"
-      ],
-      "event_aliases": [
         "OPEN GYM Pickleball",
         "Pickleball",
         "OPEN GYM Pickle ball",
@@ -21340,12 +21547,6 @@
         "OPEN GYM Pickle ball",
         "Pickle ball"
       ],
-      "event_aliases": [
-        "OPEN GYM Pickleball",
-        "Pickleball",
-        "OPEN GYM Pickle ball",
-        "Pickle ball"
-      ],
       "event_category": "general_event",
       "event_start": "2026-08-27T18:00:00-04:00",
       "event_end": "2026-08-27T20:00:00-04:00",
@@ -21437,12 +21638,6 @@
       "resources": [],
       "event_id": "event-ec88cabfa3473ecc",
       "activity_aliases": [
-        "OPEN GYM Pickleball",
-        "Pickleball",
-        "OPEN GYM Pickle ball",
-        "Pickle ball"
-      ],
-      "event_aliases": [
         "OPEN GYM Pickleball",
         "Pickleball",
         "OPEN GYM Pickle ball",
@@ -21544,12 +21739,6 @@
         "OPEN GYM Pickle ball",
         "Pickle ball"
       ],
-      "event_aliases": [
-        "OPEN GYM Pickleball",
-        "Pickleball",
-        "OPEN GYM Pickle ball",
-        "Pickle ball"
-      ],
       "event_category": "general_event",
       "event_start": "2026-09-10T18:00:00-04:00",
       "event_end": "2026-09-10T20:00:00-04:00",
@@ -21588,9 +21777,7 @@
         "upcoming",
         "activity",
         "general_event",
-        "Sunday Morning Services: 11:00 AM Service",
-        "Sunday Morning Services",
-        "00 AM Service"
+        "Sunday Morning Services: 11:00 AM Service"
       ],
       "search_terms": [
         "Sunday Morning Services: 11:00 AM Service",
@@ -21605,23 +21792,7 @@
         "Do you offer Sunday Morning Services: 11:00 AM Service?",
         "Is there Sunday Morning Services: 11:00 AM Service at Urbancrest?",
         "Can I participate in Sunday Morning Services: 11:00 AM Service?",
-        "Can I play Sunday Morning Services: 11:00 AM Service at Urbancrest?",
-        "Sunday Morning Services",
-        "Does Urbancrest have Sunday Morning Services?",
-        "Does Urbancrest offer Sunday Morning Services?",
-        "Do you have Sunday Morning Services?",
-        "Do you offer Sunday Morning Services?",
-        "Is there Sunday Morning Services at Urbancrest?",
-        "Can I participate in Sunday Morning Services?",
-        "Can I play Sunday Morning Services at Urbancrest?",
-        "00 AM Service",
-        "Does Urbancrest have 00 AM Service?",
-        "Does Urbancrest offer 00 AM Service?",
-        "Do you have 00 AM Service?",
-        "Do you offer 00 AM Service?",
-        "Is there 00 AM Service at Urbancrest?",
-        "Can I participate in 00 AM Service?",
-        "Can I play 00 AM Service at Urbancrest?"
+        "Can I play Sunday Morning Services: 11:00 AM Service at Urbancrest?"
       ],
       "ministries": [
         "churchwide"
@@ -21632,14 +21803,7 @@
       "resources": [],
       "event_id": "event-fa5c7d47754475b5",
       "activity_aliases": [
-        "Sunday Morning Services: 11:00 AM Service",
-        "Sunday Morning Services",
-        "00 AM Service"
-      ],
-      "event_aliases": [
-        "Sunday Morning Services: 11:00 AM Service",
-        "Sunday Morning Services",
-        "00 AM Service"
+        "Sunday Morning Services: 11:00 AM Service"
       ],
       "event_category": "general_event",
       "event_start": "2026-08-23T11:00:00-04:00",
@@ -21684,9 +21848,7 @@
         "upcoming",
         "activity",
         "general_event",
-        "Sunday Morning Services: 11:00 AM Service",
-        "Sunday Morning Services",
-        "00 AM Service"
+        "Sunday Morning Services: 11:00 AM Service"
       ],
       "search_terms": [
         "Sunday Morning Services: 11:00 AM Service",
@@ -21701,23 +21863,7 @@
         "Do you offer Sunday Morning Services: 11:00 AM Service?",
         "Is there Sunday Morning Services: 11:00 AM Service at Urbancrest?",
         "Can I participate in Sunday Morning Services: 11:00 AM Service?",
-        "Can I play Sunday Morning Services: 11:00 AM Service at Urbancrest?",
-        "Sunday Morning Services",
-        "Does Urbancrest have Sunday Morning Services?",
-        "Does Urbancrest offer Sunday Morning Services?",
-        "Do you have Sunday Morning Services?",
-        "Do you offer Sunday Morning Services?",
-        "Is there Sunday Morning Services at Urbancrest?",
-        "Can I participate in Sunday Morning Services?",
-        "Can I play Sunday Morning Services at Urbancrest?",
-        "00 AM Service",
-        "Does Urbancrest have 00 AM Service?",
-        "Does Urbancrest offer 00 AM Service?",
-        "Do you have 00 AM Service?",
-        "Do you offer 00 AM Service?",
-        "Is there 00 AM Service at Urbancrest?",
-        "Can I participate in 00 AM Service?",
-        "Can I play 00 AM Service at Urbancrest?"
+        "Can I play Sunday Morning Services: 11:00 AM Service at Urbancrest?"
       ],
       "ministries": [
         "churchwide"
@@ -21728,14 +21874,7 @@
       "resources": [],
       "event_id": "event-09a75fc73580f4a3",
       "activity_aliases": [
-        "Sunday Morning Services: 11:00 AM Service",
-        "Sunday Morning Services",
-        "00 AM Service"
-      ],
-      "event_aliases": [
-        "Sunday Morning Services: 11:00 AM Service",
-        "Sunday Morning Services",
-        "00 AM Service"
+        "Sunday Morning Services: 11:00 AM Service"
       ],
       "event_category": "general_event",
       "event_start": "2026-08-30T11:00:00-04:00",
@@ -21780,9 +21919,7 @@
         "upcoming",
         "activity",
         "general_event",
-        "Sunday Morning Services: 11:00 AM Service",
-        "Sunday Morning Services",
-        "00 AM Service"
+        "Sunday Morning Services: 11:00 AM Service"
       ],
       "search_terms": [
         "Sunday Morning Services: 11:00 AM Service",
@@ -21797,23 +21934,7 @@
         "Do you offer Sunday Morning Services: 11:00 AM Service?",
         "Is there Sunday Morning Services: 11:00 AM Service at Urbancrest?",
         "Can I participate in Sunday Morning Services: 11:00 AM Service?",
-        "Can I play Sunday Morning Services: 11:00 AM Service at Urbancrest?",
-        "Sunday Morning Services",
-        "Does Urbancrest have Sunday Morning Services?",
-        "Does Urbancrest offer Sunday Morning Services?",
-        "Do you have Sunday Morning Services?",
-        "Do you offer Sunday Morning Services?",
-        "Is there Sunday Morning Services at Urbancrest?",
-        "Can I participate in Sunday Morning Services?",
-        "Can I play Sunday Morning Services at Urbancrest?",
-        "00 AM Service",
-        "Does Urbancrest have 00 AM Service?",
-        "Does Urbancrest offer 00 AM Service?",
-        "Do you have 00 AM Service?",
-        "Do you offer 00 AM Service?",
-        "Is there 00 AM Service at Urbancrest?",
-        "Can I participate in 00 AM Service?",
-        "Can I play 00 AM Service at Urbancrest?"
+        "Can I play Sunday Morning Services: 11:00 AM Service at Urbancrest?"
       ],
       "ministries": [
         "churchwide"
@@ -21824,14 +21945,7 @@
       "resources": [],
       "event_id": "event-d51c8e6d158a985a",
       "activity_aliases": [
-        "Sunday Morning Services: 11:00 AM Service",
-        "Sunday Morning Services",
-        "00 AM Service"
-      ],
-      "event_aliases": [
-        "Sunday Morning Services: 11:00 AM Service",
-        "Sunday Morning Services",
-        "00 AM Service"
+        "Sunday Morning Services: 11:00 AM Service"
       ],
       "event_category": "general_event",
       "event_start": "2026-09-06T11:00:00-04:00",
@@ -21876,9 +21990,7 @@
         "upcoming",
         "activity",
         "general_event",
-        "Sunday Morning Services: 11:00 AM Service",
-        "Sunday Morning Services",
-        "00 AM Service"
+        "Sunday Morning Services: 11:00 AM Service"
       ],
       "search_terms": [
         "Sunday Morning Services: 11:00 AM Service",
@@ -21893,23 +22005,7 @@
         "Do you offer Sunday Morning Services: 11:00 AM Service?",
         "Is there Sunday Morning Services: 11:00 AM Service at Urbancrest?",
         "Can I participate in Sunday Morning Services: 11:00 AM Service?",
-        "Can I play Sunday Morning Services: 11:00 AM Service at Urbancrest?",
-        "Sunday Morning Services",
-        "Does Urbancrest have Sunday Morning Services?",
-        "Does Urbancrest offer Sunday Morning Services?",
-        "Do you have Sunday Morning Services?",
-        "Do you offer Sunday Morning Services?",
-        "Is there Sunday Morning Services at Urbancrest?",
-        "Can I participate in Sunday Morning Services?",
-        "Can I play Sunday Morning Services at Urbancrest?",
-        "00 AM Service",
-        "Does Urbancrest have 00 AM Service?",
-        "Does Urbancrest offer 00 AM Service?",
-        "Do you have 00 AM Service?",
-        "Do you offer 00 AM Service?",
-        "Is there 00 AM Service at Urbancrest?",
-        "Can I participate in 00 AM Service?",
-        "Can I play 00 AM Service at Urbancrest?"
+        "Can I play Sunday Morning Services: 11:00 AM Service at Urbancrest?"
       ],
       "ministries": [
         "churchwide"
@@ -21920,14 +22016,7 @@
       "resources": [],
       "event_id": "event-d86eca8c10153e7f",
       "activity_aliases": [
-        "Sunday Morning Services: 11:00 AM Service",
-        "Sunday Morning Services",
-        "00 AM Service"
-      ],
-      "event_aliases": [
-        "Sunday Morning Services: 11:00 AM Service",
-        "Sunday Morning Services",
-        "00 AM Service"
+        "Sunday Morning Services: 11:00 AM Service"
       ],
       "event_category": "general_event",
       "event_start": "2026-09-13T11:00:00-04:00",
@@ -21972,9 +22061,7 @@
         "upcoming",
         "activity",
         "general_event",
-        "Sunday Morning Services: 9:30 AM Service",
-        "Sunday Morning Services",
-        "30 AM Service"
+        "Sunday Morning Services: 9:30 AM Service"
       ],
       "search_terms": [
         "Sunday Morning Services: 9:30 AM Service",
@@ -21989,23 +22076,7 @@
         "Do you offer Sunday Morning Services: 9:30 AM Service?",
         "Is there Sunday Morning Services: 9:30 AM Service at Urbancrest?",
         "Can I participate in Sunday Morning Services: 9:30 AM Service?",
-        "Can I play Sunday Morning Services: 9:30 AM Service at Urbancrest?",
-        "Sunday Morning Services",
-        "Does Urbancrest have Sunday Morning Services?",
-        "Does Urbancrest offer Sunday Morning Services?",
-        "Do you have Sunday Morning Services?",
-        "Do you offer Sunday Morning Services?",
-        "Is there Sunday Morning Services at Urbancrest?",
-        "Can I participate in Sunday Morning Services?",
-        "Can I play Sunday Morning Services at Urbancrest?",
-        "30 AM Service",
-        "Does Urbancrest have 30 AM Service?",
-        "Does Urbancrest offer 30 AM Service?",
-        "Do you have 30 AM Service?",
-        "Do you offer 30 AM Service?",
-        "Is there 30 AM Service at Urbancrest?",
-        "Can I participate in 30 AM Service?",
-        "Can I play 30 AM Service at Urbancrest?"
+        "Can I play Sunday Morning Services: 9:30 AM Service at Urbancrest?"
       ],
       "ministries": [
         "churchwide"
@@ -22016,14 +22087,7 @@
       "resources": [],
       "event_id": "event-e65395a6e223a343",
       "activity_aliases": [
-        "Sunday Morning Services: 9:30 AM Service",
-        "Sunday Morning Services",
-        "30 AM Service"
-      ],
-      "event_aliases": [
-        "Sunday Morning Services: 9:30 AM Service",
-        "Sunday Morning Services",
-        "30 AM Service"
+        "Sunday Morning Services: 9:30 AM Service"
       ],
       "event_category": "general_event",
       "event_start": "2026-08-23T09:30:00-04:00",
@@ -22068,9 +22132,7 @@
         "upcoming",
         "activity",
         "general_event",
-        "Sunday Morning Services: 9:30 AM Service",
-        "Sunday Morning Services",
-        "30 AM Service"
+        "Sunday Morning Services: 9:30 AM Service"
       ],
       "search_terms": [
         "Sunday Morning Services: 9:30 AM Service",
@@ -22085,23 +22147,7 @@
         "Do you offer Sunday Morning Services: 9:30 AM Service?",
         "Is there Sunday Morning Services: 9:30 AM Service at Urbancrest?",
         "Can I participate in Sunday Morning Services: 9:30 AM Service?",
-        "Can I play Sunday Morning Services: 9:30 AM Service at Urbancrest?",
-        "Sunday Morning Services",
-        "Does Urbancrest have Sunday Morning Services?",
-        "Does Urbancrest offer Sunday Morning Services?",
-        "Do you have Sunday Morning Services?",
-        "Do you offer Sunday Morning Services?",
-        "Is there Sunday Morning Services at Urbancrest?",
-        "Can I participate in Sunday Morning Services?",
-        "Can I play Sunday Morning Services at Urbancrest?",
-        "30 AM Service",
-        "Does Urbancrest have 30 AM Service?",
-        "Does Urbancrest offer 30 AM Service?",
-        "Do you have 30 AM Service?",
-        "Do you offer 30 AM Service?",
-        "Is there 30 AM Service at Urbancrest?",
-        "Can I participate in 30 AM Service?",
-        "Can I play 30 AM Service at Urbancrest?"
+        "Can I play Sunday Morning Services: 9:30 AM Service at Urbancrest?"
       ],
       "ministries": [
         "churchwide"
@@ -22112,14 +22158,7 @@
       "resources": [],
       "event_id": "event-87018d6b99faf099",
       "activity_aliases": [
-        "Sunday Morning Services: 9:30 AM Service",
-        "Sunday Morning Services",
-        "30 AM Service"
-      ],
-      "event_aliases": [
-        "Sunday Morning Services: 9:30 AM Service",
-        "Sunday Morning Services",
-        "30 AM Service"
+        "Sunday Morning Services: 9:30 AM Service"
       ],
       "event_category": "general_event",
       "event_start": "2026-08-30T09:30:00-04:00",
@@ -22164,9 +22203,7 @@
         "upcoming",
         "activity",
         "general_event",
-        "Sunday Morning Services: 9:30 AM Service",
-        "Sunday Morning Services",
-        "30 AM Service"
+        "Sunday Morning Services: 9:30 AM Service"
       ],
       "search_terms": [
         "Sunday Morning Services: 9:30 AM Service",
@@ -22181,23 +22218,7 @@
         "Do you offer Sunday Morning Services: 9:30 AM Service?",
         "Is there Sunday Morning Services: 9:30 AM Service at Urbancrest?",
         "Can I participate in Sunday Morning Services: 9:30 AM Service?",
-        "Can I play Sunday Morning Services: 9:30 AM Service at Urbancrest?",
-        "Sunday Morning Services",
-        "Does Urbancrest have Sunday Morning Services?",
-        "Does Urbancrest offer Sunday Morning Services?",
-        "Do you have Sunday Morning Services?",
-        "Do you offer Sunday Morning Services?",
-        "Is there Sunday Morning Services at Urbancrest?",
-        "Can I participate in Sunday Morning Services?",
-        "Can I play Sunday Morning Services at Urbancrest?",
-        "30 AM Service",
-        "Does Urbancrest have 30 AM Service?",
-        "Does Urbancrest offer 30 AM Service?",
-        "Do you have 30 AM Service?",
-        "Do you offer 30 AM Service?",
-        "Is there 30 AM Service at Urbancrest?",
-        "Can I participate in 30 AM Service?",
-        "Can I play 30 AM Service at Urbancrest?"
+        "Can I play Sunday Morning Services: 9:30 AM Service at Urbancrest?"
       ],
       "ministries": [
         "churchwide"
@@ -22208,14 +22229,7 @@
       "resources": [],
       "event_id": "event-d27ce5ef423e5884",
       "activity_aliases": [
-        "Sunday Morning Services: 9:30 AM Service",
-        "Sunday Morning Services",
-        "30 AM Service"
-      ],
-      "event_aliases": [
-        "Sunday Morning Services: 9:30 AM Service",
-        "Sunday Morning Services",
-        "30 AM Service"
+        "Sunday Morning Services: 9:30 AM Service"
       ],
       "event_category": "general_event",
       "event_start": "2026-09-06T09:30:00-04:00",
@@ -22260,9 +22274,7 @@
         "upcoming",
         "activity",
         "general_event",
-        "Sunday Morning Services: 9:30 AM Service",
-        "Sunday Morning Services",
-        "30 AM Service"
+        "Sunday Morning Services: 9:30 AM Service"
       ],
       "search_terms": [
         "Sunday Morning Services: 9:30 AM Service",
@@ -22277,23 +22289,7 @@
         "Do you offer Sunday Morning Services: 9:30 AM Service?",
         "Is there Sunday Morning Services: 9:30 AM Service at Urbancrest?",
         "Can I participate in Sunday Morning Services: 9:30 AM Service?",
-        "Can I play Sunday Morning Services: 9:30 AM Service at Urbancrest?",
-        "Sunday Morning Services",
-        "Does Urbancrest have Sunday Morning Services?",
-        "Does Urbancrest offer Sunday Morning Services?",
-        "Do you have Sunday Morning Services?",
-        "Do you offer Sunday Morning Services?",
-        "Is there Sunday Morning Services at Urbancrest?",
-        "Can I participate in Sunday Morning Services?",
-        "Can I play Sunday Morning Services at Urbancrest?",
-        "30 AM Service",
-        "Does Urbancrest have 30 AM Service?",
-        "Does Urbancrest offer 30 AM Service?",
-        "Do you have 30 AM Service?",
-        "Do you offer 30 AM Service?",
-        "Is there 30 AM Service at Urbancrest?",
-        "Can I participate in 30 AM Service?",
-        "Can I play 30 AM Service at Urbancrest?"
+        "Can I play Sunday Morning Services: 9:30 AM Service at Urbancrest?"
       ],
       "ministries": [
         "churchwide"
@@ -22304,14 +22300,7 @@
       "resources": [],
       "event_id": "event-a417c1725cb32add",
       "activity_aliases": [
-        "Sunday Morning Services: 9:30 AM Service",
-        "Sunday Morning Services",
-        "30 AM Service"
-      ],
-      "event_aliases": [
-        "Sunday Morning Services: 9:30 AM Service",
-        "Sunday Morning Services",
-        "30 AM Service"
+        "Sunday Morning Services: 9:30 AM Service"
       ],
       "event_category": "general_event",
       "event_start": "2026-09-13T09:30:00-04:00",
