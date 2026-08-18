@@ -43,7 +43,7 @@ info_url: "https://urbancrest.churchcenter.com/calendar/event/221662897"
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "221662897"
 planning_center_event_time_id: "30414252"
-last_generated: 2026-08-18T01:51:11.899370Z
+last_generated: 2026-08-18T03:58:50.484618Z
 ---
 
 # Guest Services Team Meeting
