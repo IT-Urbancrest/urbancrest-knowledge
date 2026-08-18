@@ -35,7 +35,7 @@ event_start: "2026-09-02T17:30:00-04:00"
 event_end: "2026-09-02T18:15:00-04:00"
 sort_start_utc: "2026-09-02T21:30:00Z"
 sort_end_utc: "2026-09-02T22:15:00Z"
-chronological_rank: 16
+chronological_rank: 15
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
@@ -45,7 +45,7 @@ location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "230122706"
 planning_center_event_time_id: "31870601"
-last_generated: 2026-08-17T21:42:12.439211Z
+last_generated: 2026-08-18T01:51:11.899370Z
 ---
 
 # Wednesday Night Dinner

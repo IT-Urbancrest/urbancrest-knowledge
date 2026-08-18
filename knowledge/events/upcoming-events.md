@@ -16,25 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-08-17T21:42:13.914499Z
+last_generated: 2026-08-18T01:51:12.725788Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## Mexico Missions Meeting
-
-**Category:** Ministry Event
-
-**When:** Monday, August 17, 2026, 6:30 PM to 8 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/230675507
-
-Detailed event file: `knowledge/events/generated/2026-08-17-mexico-missions-meeting-bef8bf.md`
 
 ## Monthly Baskets of Hope - Volunteers
 
@@ -419,6 +407,18 @@ Detailed event file: `knowledge/events/generated/2026-09-16-monthly-baskets-of-h
 
 Detailed event file: `knowledge/events/generated/2026-09-16-wednesday-night-dinner-89e119.md`
 
+## OPEN GYM Pickleball
+
+**Category:** General Event
+
+**When:** Thursday, September 17, 2026, 6 PM to 8 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+**More information:** https://urbancrest.churchcenter.com/calendar/event/216277435
+
+Detailed event file: `knowledge/events/generated/2026-09-17-open-gym-pickleball-556aa9.md`
+
 ## P U R S U E
 
 **Category:** Ministry Event
@@ -445,11 +445,13 @@ Detailed event file: `knowledge/events/generated/2026-09-23-wednesday-night-dinn
 
 ## Waynesville Fall Fest
 
-**Category:** Student Event
+**Category:** General Event
 
-**When:** Saturday, September 26, 2026 at 2:30 PM - 6:00 PM
+**When:** Saturday, September 26, 2026, 2:30 PM to 6 PM
 
 **Registration:** https://urbancrest.churchcenter.com/registrations/events/3732292/reservations/new
+
+Detailed event file: `knowledge/events/generated/2026-09-26-waynesville-fall-fest-5aaab7.md`
 
 ## P U R S U E
 
