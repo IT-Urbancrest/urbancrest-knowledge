@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.9.7",
-  "generated_at": "2026-08-19T13:09:28.615102Z",
+  "generated_at": "2026-08-19T13:27:24.052804Z",
   "timezone": "America/New_York",
   "record_count": 411,
   "config": {
@@ -3147,75 +3147,6 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230615455",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3791849/medium_image-1785669189641.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-10-17-urbancrest-women-s-conference-af3c3f.md",
-      "chronological_rank": 45,
-      "routine_schedule_occurrence": false
-    },
-    {
-      "id": "events.live.event-9d496596f1bf84ac",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-10-17-women-s-conference-bf84ac.md",
-      "title": "Women's Conference",
-      "summary": "The Women's Ministry invites all ladies to attend the Urbancrest Women's Conference on Saturday, October 17 at 9:00 AM, right here in the Urbancrest Worship Center!",
-      "content": "The Women's Ministry invites all ladies to attend the Urbancrest Women's Conference on Saturday, October 17 at 9:00 AM, right here in the Urbancrest Worship Center!",
-      "priority": 100,
-      "category": [
-        "events",
-        "major_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "major_event",
-        "Women's Conference"
-      ],
-      "search_terms": [
-        "Women's Conference",
-        "When is Women's Conference?",
-        "Tell me about Women's Conference",
-        "What are the details for Women's Conference?",
-        "What is the menu for Women's Conference?",
-        "How do I register for Women's Conference?",
-        "Does Urbancrest have Women's Conference?",
-        "Does Urbancrest offer Women's Conference?",
-        "Do you have Women's Conference?",
-        "Do you offer Women's Conference?",
-        "Is there Women's Conference at Urbancrest?",
-        "Can I participate in Women's Conference?",
-        "Can I play Women's Conference at Urbancrest?"
-      ],
-      "ministries": [
-        "men",
-        "women",
-        "worship"
-      ],
-      "audiences": [
-        "men",
-        "women"
-      ],
-      "resources": [],
-      "event_id": "event-9d496596f1bf84ac",
-      "activity_aliases": [
-        "Women's Conference"
-      ],
-      "event_category": "major_event",
-      "event_start": "2026-10-17T09:00:00-04:00",
-      "event_end": "2026-10-17T14:00:00-04:00",
-      "sort_start_utc": "2026-10-17T13:00:00Z",
-      "sort_end_utc": "2026-10-17T18:00:00Z",
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "planning_center_event_instance_id": "203958381",
-      "planning_center_event_time_id": "27323186",
-      "info_url": "https://urbancrest.churchcenter.com/calendar/event/203958381",
-      "knowledge_file": "knowledge/events/generated/2026-10-17-women-s-conference-bf84ac.md",
       "chronological_rank": 46,
       "routine_schedule_occurrence": false
     },
@@ -11682,7 +11613,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/168792298",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576",
       "knowledge_file": "knowledge/events/generated/2026-10-03-men-s-breakfast-dec2d7.md",
-      "chronological_rank": 39,
+      "chronological_rank": 40,
       "routine_schedule_occurrence": false
     },
     {
@@ -12454,7 +12385,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/228745978",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3755569/medium_image-1784126802561.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-10-04-night-of-worship-choir-2a753e.md",
-      "chronological_rank": 41,
+      "chronological_rank": 42,
       "routine_schedule_occurrence": false
     },
     {
@@ -12882,7 +12813,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/167708212",
       "knowledge_file": "knowledge/events/generated/2026-09-20-p-u-r-s-u-e-f8f18d.md",
-      "chronological_rank": 33,
+      "chronological_rank": 34,
       "routine_schedule_occurrence": false
     },
     {
@@ -12948,7 +12879,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/168372882",
       "knowledge_file": "knowledge/events/generated/2026-09-27-p-u-r-s-u-e-724217.md",
-      "chronological_rank": 36,
+      "chronological_rank": 37,
       "routine_schedule_occurrence": false
     },
     {
@@ -13014,7 +12945,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/168914339",
       "knowledge_file": "knowledge/events/generated/2026-10-04-p-u-r-s-u-e-e5c34f.md",
-      "chronological_rank": 40,
+      "chronological_rank": 41,
       "routine_schedule_occurrence": false
     },
     {
@@ -13080,7 +13011,7 @@
       "planning_center_event_time_id": "8762150",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/169483179",
       "knowledge_file": "knowledge/events/generated/2026-10-11-p-u-r-s-u-e-8f8f87.md",
-      "chronological_rank": 43,
+      "chronological_rank": 44,
       "routine_schedule_occurrence": false
     },
     {
@@ -16104,16 +16035,16 @@
       "routine_schedule_occurrence": false
     },
     {
-      "id": "events.live.pc-registration-3732292-8b530c1d53f6",
+      "id": "events.live.event-a33c3a5ecf5aaab7",
       "record_type": "event",
-      "path": "registry/events-live.yaml",
+      "path": "knowledge/events/generated/2026-09-26-waynesville-fall-fest-5aaab7.md",
       "title": "Waynesville Fall Fest",
       "summary": "We will be meeting at the church prior to 2:30 to leave at 2:30 for the Waynesville Fall Fest!!! We will be staying for the remainder of their opening until 6!!! The costs is $13 plus any food or arcade games you want to play there! If you have any questions please do not...",
       "content": "We will be meeting at the church prior to 2:30 to leave at 2:30 for the Waynesville Fall Fest!!! We will be staying for the remainder of their opening until 6!!! The costs is $13 plus any food or arcade games you want to play there! If you have any questions please do not hesitate to reach out!!!\n\nDetails:\nWe will be meeting at the church prior to 2:30 to leave at 2:30 for the Waynesville Fall Fest!!! We will be staying for the remainder of their opening until 6!!! The costs is $13 plus any food or arcade games you want to play there! If you have any questions please do not hesitate to reach out!!!\n\nRegistration is open.\n\nRegistration status: open\nRegistration opens: 2026-07-01T18:07:26Z\nRegistration categories: Students (Grades 7-12)\nRegistration option: Waynesville Fall Fest; price: $13",
       "priority": 80,
       "category": [
         "events",
-        "student_event"
+        "general_event"
       ],
       "intents": [
         "event_details",
@@ -16127,7 +16058,7 @@
         "calendar",
         "upcoming",
         "activity",
-        "student_event",
+        "general_event",
         "Waynesville Fall Fest",
         "Students (Grades 7-12)"
       ],
@@ -16148,27 +16079,32 @@
         "Can I play Waynesville Fall Fest at Urbancrest?"
       ],
       "ministries": [
+        "churchwide",
         "students"
       ],
       "audiences": [
+        "everyone",
         "students"
       ],
       "resources": [],
-      "event_id": "pc-registration-3732292-8b530c1d53f6",
+      "event_id": "event-a33c3a5ecf5aaab7",
       "activity_aliases": [
         "Waynesville Fall Fest"
       ],
-      "event_category": "student_event",
-      "event_start": "2026-09-26T18:30:00+00:00",
-      "event_end": "2026-09-26T22:00:00+00:00",
+      "event_category": "general_event",
+      "event_start": "2026-09-26T14:30:00-04:00",
+      "event_end": "2026-09-26T18:00:00-04:00",
       "sort_start_utc": "2026-09-26T18:30:00Z",
       "sort_end_utc": "2026-09-26T22:00:00Z",
       "details": "We will be meeting at the church prior to 2:30 to leave at 2:30 for the Waynesville Fall Fest!!! We will be staying for the remainder of their opening until 6!!! The costs is $13 plus any food or arcade games you want to play there! If you have any questions please do not hesitate to reach out!!!\n\nRegistration is open.",
       "details_source": "planning_center_registrations_api",
+      "planning_center_event_instance_id": "227518757",
+      "planning_center_event_time_id": "31447186",
       "planning_center_signup_id": "3732292",
       "planning_center_signup_time_id": "6247650",
-      "event_source": "planning_center_registrations_api",
+      "event_source": "merged",
       "event_sources": [
+        "planning_center_ical",
         "planning_center_registrations_api"
       ],
       "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3732292/reservations/new",
@@ -16190,9 +16126,10 @@
           "waitlist": false
         }
       ],
-      "info_url": "https://urbancrest.churchcenter.com/registrations/events/3732292/reservations/new",
+      "info_url": "https://urbancrest.churchcenter.com/calendar/event/227518757",
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3732292/medium_image-1782929258210.jpeg",
-      "chronological_rank": 35,
+      "knowledge_file": "knowledge/events/generated/2026-09-26-waynesville-fall-fest-5aaab7.md",
+      "chronological_rank": 36,
       "routine_schedule_occurrence": false
     },
     {
@@ -16436,7 +16373,7 @@
       "planning_center_event_time_id": "27323022",
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/203958056",
       "knowledge_file": "knowledge/events/generated/2026-09-27-women-s-fall-fest-8698aa.md",
-      "chronological_rank": 37,
+      "chronological_rank": 38,
       "routine_schedule_occurrence": false
     },
     {
@@ -17792,7 +17729,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122709",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-09-23-wednesday-night-dinner-c7bf0d.md",
-      "chronological_rank": 34,
+      "chronological_rank": 35,
       "routine_schedule_occurrence": false
     },
     {
@@ -17861,7 +17798,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122710",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-09-30-wednesday-night-dinner-36f49b.md",
-      "chronological_rank": 38,
+      "chronological_rank": 39,
       "routine_schedule_occurrence": false
     },
     {
@@ -17930,7 +17867,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122711",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-10-07-wednesday-night-dinner-9fc5ad.md",
-      "chronological_rank": 42,
+      "chronological_rank": 43,
       "routine_schedule_occurrence": false
     },
     {
@@ -17999,7 +17936,7 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/230122712",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-10-14-wednesday-night-dinner-d9103e.md",
-      "chronological_rank": 44,
+      "chronological_rank": 45,
       "routine_schedule_occurrence": false
     },
     {
@@ -21849,6 +21786,102 @@
       "info_url": "https://urbancrest.churchcenter.com/calendar/event/216277434",
       "knowledge_file": "knowledge/events/generated/2026-09-10-open-gym-pickleball-fe7030.md",
       "chronological_rank": 27,
+      "routine_schedule_occurrence": false
+    },
+    {
+      "id": "events.live.event-cd61a9d143556aa9",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-09-17-open-gym-pickleball-556aa9.md",
+      "title": "OPEN GYM Pickleball",
+      "summary": "On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.",
+      "content": "On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.",
+      "priority": 50,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "general_event",
+        "OPEN GYM Pickleball",
+        "Pickleball",
+        "OPEN GYM Pickle ball",
+        "Pickle ball"
+      ],
+      "search_terms": [
+        "OPEN GYM Pickleball",
+        "When is OPEN GYM Pickleball?",
+        "Tell me about OPEN GYM Pickleball",
+        "What are the details for OPEN GYM Pickleball?",
+        "What is the menu for OPEN GYM Pickleball?",
+        "How do I register for OPEN GYM Pickleball?",
+        "Does Urbancrest have OPEN GYM Pickleball?",
+        "Does Urbancrest offer OPEN GYM Pickleball?",
+        "Do you have OPEN GYM Pickleball?",
+        "Do you offer OPEN GYM Pickleball?",
+        "Is there OPEN GYM Pickleball at Urbancrest?",
+        "Can I participate in OPEN GYM Pickleball?",
+        "Can I play OPEN GYM Pickleball at Urbancrest?",
+        "Pickleball",
+        "Does Urbancrest have Pickleball?",
+        "Does Urbancrest offer Pickleball?",
+        "Do you have Pickleball?",
+        "Do you offer Pickleball?",
+        "Is there Pickleball at Urbancrest?",
+        "Can I participate in Pickleball?",
+        "Can I play Pickleball at Urbancrest?",
+        "OPEN GYM Pickle ball",
+        "Does Urbancrest have OPEN GYM Pickle ball?",
+        "Does Urbancrest offer OPEN GYM Pickle ball?",
+        "Do you have OPEN GYM Pickle ball?",
+        "Do you offer OPEN GYM Pickle ball?",
+        "Is there OPEN GYM Pickle ball at Urbancrest?",
+        "Can I participate in OPEN GYM Pickle ball?",
+        "Can I play OPEN GYM Pickle ball at Urbancrest?",
+        "Pickle ball",
+        "Does Urbancrest have Pickle ball?",
+        "Does Urbancrest offer Pickle ball?",
+        "Do you have Pickle ball?",
+        "Do you offer Pickle ball?",
+        "Is there Pickle ball at Urbancrest?",
+        "Can I participate in Pickle ball?",
+        "Can I play Pickle ball at Urbancrest?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-cd61a9d143556aa9",
+      "activity_aliases": [
+        "OPEN GYM Pickleball",
+        "Pickleball",
+        "OPEN GYM Pickle ball",
+        "Pickle ball"
+      ],
+      "event_category": "general_event",
+      "event_start": "2026-09-17T18:00:00-04:00",
+      "event_end": "2026-09-17T20:00:00-04:00",
+      "sort_start_utc": "2026-09-17T22:00:00Z",
+      "sort_end_utc": "2026-09-18T00:00:00Z",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "planning_center_event_instance_id": "216277435",
+      "planning_center_event_time_id": "29468516",
+      "info_url": "https://urbancrest.churchcenter.com/calendar/event/216277435",
+      "knowledge_file": "knowledge/events/generated/2026-09-17-open-gym-pickleball-556aa9.md",
+      "chronological_rank": 33,
       "routine_schedule_occurrence": false
     },
     {

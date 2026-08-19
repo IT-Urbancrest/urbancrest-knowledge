@@ -1,11 +1,11 @@
 version: 1.5.4
-generated_at: '2026-08-19T13:09:27.310181Z'
+generated_at: '2026-08-19T13:27:22.696446Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
   enabled: true
-  target_instance_count: 424
-  matched_instance_count: 424
+  target_instance_count: 423
+  matched_instance_count: 423
   page_count: 9
   api_version: '2026-06-22'
 source_of_truth_for_calendar_intents: true
@@ -1696,6 +1696,34 @@ events:
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-16-wednesday-night-dinner-89e119.md
+- id: event-cd61a9d143556aa9
+  uid: ET-29468516-216277435@resources.planningcenteronline.com
+  title: OPEN GYM Pickleball
+  summary: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
+  start: '2026-09-17T18:00:00-04:00'
+  end: '2026-09-17T20:00:00-04:00'
+  sort_start_utc: '2026-09-17T22:00:00Z'
+  sort_end_utc: '2026-09-18T00:00:00Z'
+  display_when: Thursday, September 17, 2026, 6 PM to 8 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to
+    attend and open to anyone ages 13+.
+  planning_center_event_instance_id: '216277435'
+  planning_center_event_time_id: '29468516'
+  info_url: https://urbancrest.churchcenter.com/calendar/event/216277435
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 33
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-17-open-gym-pickleball-556aa9.md
 - id: event-ffac0db3c7f8f18d
   uid: ET-8762150-167708212@resources.planningcenteronline.com
   title: P U R S U E
@@ -1719,7 +1747,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 33
+  chronological_rank: 34
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-20-p-u-r-s-u-e-f8f18d.md
@@ -1817,34 +1845,47 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 34
+  chronological_rank: 35
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-23-wednesday-night-dinner-c7bf0d.md
-- id: pc-registration-3732292-8b530c1d53f6
-  uid: registrations-3732292-6247650@planningcenter
+- id: event-a33c3a5ecf5aaab7
+  uid: ET-31447186-227518757@resources.planningcenteronline.com
   title: Waynesville Fall Fest
   summary: We will be meeting at the church prior to 2:30 to leave at 2:30 for the Waynesville Fall Fest!!! We will be staying
     for the remainder of their opening until 6!!! The costs is $13 plus any food or arcade games you want to play there! If
     you have any questions please do not...
-  start: '2026-09-26T18:30:00+00:00'
-  end: '2026-09-26T22:00:00+00:00'
+  start: '2026-09-26T14:30:00-04:00'
+  end: '2026-09-26T18:00:00-04:00'
   sort_start_utc: '2026-09-26T18:30:00Z'
   sort_end_utc: '2026-09-26T22:00:00Z'
-  display_when: Saturday, September 26, 2026 at 2:30 PM - 6:00 PM
+  display_when: Saturday, September 26, 2026, 2:30 PM to 6 PM
   all_day: false
-  location: ''
-  location_structured: {}
   description: We will be meeting at the church prior to 2:30 to leave at 2:30 for the Waynesville Fall Fest!!! We will be
     staying for the remainder of their opening until 6!!! The costs is $13 plus any food or arcade games you want to play
     there! If you have any questions please do not hesitate to reach out!!!
-  details: 'We will be meeting at the church prior to 2:30 to leave at 2:30 for the Waynesville Fall Fest!!! We will be staying
-    for the remainder of their opening until 6!!! The costs is $13 plus any food or arcade games you want to play there! If
-    you have any questions please do not hesitate to reach out!!!
-
-
-    Registration is open.'
-  details_source: planning_center_registrations_api
+  planning_center_event_instance_id: '227518757'
+  planning_center_event_time_id: '31447186'
+  info_url: https://urbancrest.churchcenter.com/calendar/event/227518757
+  image_url: https://registrations-production.s3.amazonaws.com/uploads/event/logo/3732292/medium_image-1782929258210.jpeg
+  ministries:
+  - churchwide
+  - students
+  audiences:
+  - everyone
+  - students
+  event_category: general_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 36
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-26-waynesville-fall-fest-5aaab7.md
+  event_sources:
+  - planning_center_ical
+  - planning_center_registrations_api
+  event_source: merged
   planning_center_signup_id: '3732292'
   planning_center_signup_time_id: '6247650'
   registration_url: https://urbancrest.churchcenter.com/registrations/events/3732292/reservations/new
@@ -1865,20 +1906,13 @@ events:
     price_formatted: '13'
     at_maximum_capacity: false
     waitlist: false
-  info_url: https://urbancrest.churchcenter.com/registrations/events/3732292/reservations/new
-  image_url: https://registrations-production.s3.amazonaws.com/uploads/event/logo/3732292/medium_image-1782929258210.jpeg
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: student_event
-  event_priority: 80
-  collection: main_events
-  status: published
-  event_source: planning_center_registrations_api
-  event_sources:
-  - planning_center_registrations_api
-  chronological_rank: 35
+  details: 'We will be meeting at the church prior to 2:30 to leave at 2:30 for the Waynesville Fall Fest!!! We will be staying
+    for the remainder of their opening until 6!!! The costs is $13 plus any food or arcade games you want to play there! If
+    you have any questions please do not hesitate to reach out!!!
+
+
+    Registration is open.'
+  details_source: planning_center_registrations_api
 - id: event-9e2c9a2b0c724217
   uid: ET-8762150-168372882@resources.planningcenteronline.com
   title: P U R S U E
@@ -1902,7 +1936,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 36
+  chronological_rank: 37
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-27-p-u-r-s-u-e-724217.md
@@ -1932,7 +1966,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 37
+  chronological_rank: 38
   next_for_ministries:
   - women
   next_for_audiences:
@@ -2032,7 +2066,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 38
+  chronological_rank: 39
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-30-wednesday-night-dinner-36f49b.md
@@ -2061,7 +2095,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 39
+  chronological_rank: 40
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-03-men-s-breakfast-dec2d7.md
@@ -2088,7 +2122,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 40
+  chronological_rank: 41
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-04-p-u-r-s-u-e-e5c34f.md
@@ -2147,7 +2181,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 41
+  chronological_rank: 42
   next_for_ministries:
   - worship
   next_for_audiences: []
@@ -2278,7 +2312,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 42
+  chronological_rank: 43
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-07-wednesday-night-dinner-9fc5ad.md
@@ -2305,7 +2339,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 43
+  chronological_rank: 44
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-11-p-u-r-s-u-e-8f8f87.md
@@ -2403,7 +2437,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 44
+  chronological_rank: 45
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-14-wednesday-night-dinner-d9103e.md
@@ -2463,7 +2497,7 @@ events:
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 45
+  chronological_rank: 46
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-17-urbancrest-women-s-conference-af3c3f.md
@@ -2499,38 +2533,6 @@ events:
       Lebanon, OH 45036'
     latitude: '39.4748875'
     longitude: '-84.1793592'
-- id: event-9d496596f1bf84ac
-  uid: ET-27323186-203958381@resources.planningcenteronline.com
-  title: Women's Conference
-  summary: The Women's Ministry invites all ladies to attend the Urbancrest Women's Conference on Saturday, October 17 at
-    9:00 AM, right here in the Urbancrest Worship Center!
-  start: '2026-10-17T09:00:00-04:00'
-  end: '2026-10-17T14:00:00-04:00'
-  sort_start_utc: '2026-10-17T13:00:00Z'
-  sort_end_utc: '2026-10-17T18:00:00Z'
-  display_when: Saturday, October 17, 2026, 9 AM to 2 PM
-  all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: The Women's Ministry invites all ladies to attend the Urbancrest Women's Conference on Saturday, October 17
-    at 9:00 AM, right here in the Urbancrest Worship Center!
-  planning_center_event_instance_id: '203958381'
-  planning_center_event_time_id: '27323186'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/203958381
-  ministries:
-  - men
-  - women
-  - worship
-  audiences:
-  - men
-  - women
-  event_category: major_event
-  event_priority: 100
-  collection: main_events
-  status: confirmed
-  chronological_rank: 46
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-10-17-women-s-conference-bf84ac.md
 - id: event-355987c6282350e7
   uid: ET-8762150-169990121@resources.planningcenteronline.com
   title: P U R S U E
@@ -8634,8 +8636,8 @@ registrations_api:
   api_version: '2025-05-01'
   signup_time_strategy: next_signup_time_then_signup_times_preserve_relationship_linkage
   future_signup_count: 11
-  added_registration_only_events: 5
-  enriched_existing_events: 6
+  added_registration_only_events: 4
+  enriched_existing_events: 7
   category_allowlist: []
   category_denylist: []
   signup_count_received: 20
