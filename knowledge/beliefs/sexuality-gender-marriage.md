@@ -38,6 +38,8 @@ search_terms:
 - What is Urbancrest's stance on LGBTQ?
 - What does Urbancrest believe about homosexuality?
 - What does Urbancrest believe about gay and lesbian relationships?
+- What does Urbancrest believe about bisexuality?
+- What does Urbancrest believe about queer identity?
 - What does Urbancrest believe about same-sex marriage?
 - Does Urbancrest affirm same-sex marriage?
 - What does Urbancrest believe about transgender identity?
@@ -92,7 +94,7 @@ We therefore understand being male or female as part of God's created design rat
 
 Urbancrest does not affirm same-sex sexual relationships or same-sex marriage because we believe Scripture reserves sexual intimacy for marriage between one man and one woman.
 
-At the same time, this conviction does not make same-sex attraction or sexual sin an uniquely unforgivable category. Like every person, each of us needs the grace, forgiveness, and transforming work of Jesus Christ.
+At the same time, this conviction does not make same-sex attraction or sexual sin a uniquely unforgivable category. Like every person, each of us needs the grace, forgiveness, and transforming work of Jesus Christ.
 
 ## How Does Urbancrest Treat People Who Identify as LGBTQ?
 
