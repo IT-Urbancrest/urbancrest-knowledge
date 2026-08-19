@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.9.7",
-  "generated_at": "2026-08-19T12:13:01.880863Z",
+  "generated_at": "2026-08-19T12:19:04.424749Z",
   "timezone": "America/New_York",
   "record_count": 411,
   "config": {
@@ -1131,8 +1131,8 @@
       "record_type": "knowledge",
       "path": "knowledge/ministries/local-missions/red-barn.md",
       "title": "What is Red Barn Ministry?",
-      "summary": "Red Barn is part of Urbancrest Local Missions and serves people in the Lebanon community through regular food assistance and donated small furniture and household items.",
-      "content": "# Red Barn Ministry\n\n**Red Barn** is part of Urbancrest's Local Missions work in the Lebanon community. The ministry serves people in need through **regular food assistance** and donated **small furniture and household items**.\n\nThe goal is to show the love of Jesus through practical care and to encourage people in their faith.\n\nPeople can support Red Barn by donating food and usable small furniture or household items, helping pack food, making local deliveries, and praying for the ministry.\n\nBecause furniture, household items, and other donated supplies depend on what is currently available, specific inventory can change.",
+      "summary": "Red Barn is part of Urbancrest Local Missions and serves people in the Lebanon community through regular food assistance and donated furniture and household items.",
+      "content": "# Red Barn Ministry\n\n**Red Barn** is part of Urbancrest's Local Missions work in the Lebanon community. The ministry serves people in need through **regular food assistance** and donated furniture and household items**.\n\nThe goal is to show the love of Jesus through practical care and to encourage people in their faith.\n\nPeople can support Red Barn by donating food and usable furniture or household items, helping pack food, making local deliveries, and praying for the ministry.\n\nBecause furniture, household items, and other donated supplies depend on what is currently available, specific inventory can change.",
       "priority": 115,
       "category": [
         "ministries",
