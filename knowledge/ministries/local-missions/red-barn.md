@@ -5,7 +5,7 @@ status: published
 priority: 115
 
 title: What is Red Barn Ministry?
-summary: Red Barn is part of Urbancrest Local Missions and serves people in the Lebanon community through regular food assistance and donated small furniture and household items.
+summary: Red Barn is part of Urbancrest Local Missions and serves people in the Lebanon community through regular food assistance and donated furniture and household items.
 
 category:
   - ministries
@@ -61,10 +61,10 @@ last_updated: 2026-08-19
 
 # Red Barn Ministry
 
-**Red Barn** is part of Urbancrest's Local Missions work in the Lebanon community. The ministry serves people in need through **regular food assistance** and donated **small furniture and household items**.
+**Red Barn** is part of Urbancrest's Local Missions work in the Lebanon community. The ministry serves people in need through **regular food assistance** and donated furniture and household items**.
 
 The goal is to show the love of Jesus through practical care and to encourage people in their faith.
 
-People can support Red Barn by donating food and usable small furniture or household items, helping pack food, making local deliveries, and praying for the ministry.
+People can support Red Barn by donating food and usable furniture or household items, helping pack food, making local deliveries, and praying for the ministry.
 
 Because furniture, household items, and other donated supplies depend on what is currently available, specific inventory can change.
