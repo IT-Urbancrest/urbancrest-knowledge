@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.9.7",
-  "generated_at": "2026-08-19T12:22:13.191480Z",
+  "generated_at": "2026-08-19T13:02:56.286117Z",
   "timezone": "America/New_York",
   "record_count": 411,
   "config": {
@@ -6163,7 +6163,7 @@
       "path": "relationships/ministry-staff.yaml",
       "title": "Global Missions staff relationship",
       "summary": "Staff relationship for Global Missions. Open role: Global Missions Pastor. Recommended staff key: jennifer_prows.",
-      "content": "Ministry: global_missions\nLabel: Global Missions\nAliases: global missions, international missions, global missions pastor, mission trips, international mission trips\nTopics: global missions, mission trips, missions coordination, international missions\nLeadership status: vacant\nPrimary staff key: none\nRecommended contact staff key: jennifer_prows\nRelated staff keys: \nOpen role: Global Missions Pastor\nAnswer guidance: Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the recommended current contact for global missions questions, mission trips, and missions coordination. Do not describe Jennifer as the Global Missions Pastor.",
+      "content": "Ministry: global_missions\nLabel: Global Missions\nAliases: global missions, international missions, global missions pastor, mission trips, international mission trips\nTopics: global missions, mission trips, missions coordination, international missions\nLeadership status: vacant\nPrimary staff key: none\nRecommended contact staff key: jennifer_prows\nRelated staff keys: \nOpen role: Global Missions Pastor\nAnswer guidance: Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the current point person for Global Missions questions, mission trips, and missions coordination.",
       "priority": 95,
       "category": [
         "relationship",
@@ -6222,7 +6222,7 @@
         "missions coordination",
         "international missions"
       ],
-      "answer_guidance": "Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the recommended current contact for global missions questions, mission trips, and missions coordination. Do not describe Jennifer as the Global Missions Pastor."
+      "answer_guidance": "Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the current point person for Global Missions questions, mission trips, and missions coordination."
     },
     {
       "id": "relationship.ministry_staff.kids",
@@ -6230,7 +6230,7 @@
       "path": "relationships/ministry-staff.yaml",
       "title": "Kids staff relationship",
       "summary": "Staff relationship for Kids. Open role: Kids Ministry Director. Recommended staff key: sarah_coleman.",
-      "content": "Ministry: kids\nLabel: Kids\nAliases: kids, kids ministry, urbancrest kids, children, children's ministry, childrens ministry, awana, kids safety, child check-in, child checkout\nTopics: kids ministry, children, families, AWANA, Kids Ministry safety, child check-in, child checkout, volunteer screening\nLeadership status: vacant\nPrimary staff key: none\nRecommended contact staff key: sarah_coleman\nRelated staff keys: mikhael_mastalerz\nOpen role: Kids Ministry Director\nAnswer guidance: The Kids Ministry Director position is currently vacant. Sarah Coleman serves as Preschool Director and is the recommended current point person for Kids Ministry questions. Do not describe Sarah as the Kids Ministry Director. Mikhael Mastalerz serves as Nursery Ministry Director.",
+      "content": "Ministry: kids\nLabel: Kids\nAliases: kids, kids ministry, urbancrest kids, children, children's ministry, childrens ministry, awana, kids safety, child check-in, child checkout\nTopics: kids ministry, children, families, AWANA, Kids Ministry safety, child check-in, child checkout, volunteer screening\nLeadership status: vacant\nPrimary staff key: none\nRecommended contact staff key: sarah_coleman\nRelated staff keys: mikhael_mastalerz\nOpen role: Kids Ministry Director\nAnswer guidance: Urbancrest is currently searching for its next Kids Ministry Director. Sarah Coleman serves as Preschool Director and is the current point person for Kids Ministry questions.",
       "priority": 95,
       "category": [
         "relationship",
@@ -6314,7 +6314,7 @@
         "child checkout",
         "volunteer screening"
       ],
-      "answer_guidance": "The Kids Ministry Director position is currently vacant. Sarah Coleman serves as Preschool Director and is the recommended current point person for Kids Ministry questions. Do not describe Sarah as the Kids Ministry Director. Mikhael Mastalerz serves as Nursery Ministry Director."
+      "answer_guidance": "Urbancrest is currently searching for its next Kids Ministry Director. Sarah Coleman serves as Preschool Director and is the current point person for Kids Ministry questions."
     },
     {
       "id": "relationship.ministry_staff.missions",
