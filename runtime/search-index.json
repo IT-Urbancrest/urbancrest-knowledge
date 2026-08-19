@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.9.7",
-  "generated_at": "2026-08-19T18:49:59.727963Z",
+  "generated_at": "2026-08-19T18:53:40.200645Z",
   "timezone": "America/New_York",
   "record_count": 425,
   "config": {
@@ -3393,7 +3393,7 @@
       "path": "knowledge/events/generated/2026-10-17-urbancrest-women-s-conference-af3c3f.md",
       "title": "Urbancrest Women's Conference",
       "summary": "Join us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God. This year’s keynote speaker is Barb Roose , who will...",
-      "content": "Join us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.\n\nThis year’s keynote speaker is Barb Roose, who will challenge and encourage women to grow in their faith and walk confidently in God’s truth.\n\nDoors open at 8:00 AM, and the cost is just $5, which includes lunch (more details coming soon). Invite a friend and make plans to be part of this special day together.\nRegister: https://urbancrest.churchcenter.com/registrations/events/3791849\n\nDetails:\nJoin us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.\n\nThis year’s keynote speaker is Barb Roose , who will challenge and encourage women to grow in their faith and walk confidently in God’s truth.\n\nDoors open at 8:00 AM , and the cost is just $5 , which includes lunch (more details coming soon). Invite a friend and make plans to be part of this special day together.\n\nRegistration is open.\n\nRegistration status: open\nRegistration opens: 2026-08-02T11:12:58Z\nRegistration closes: 2026-10-12T04:00:00Z\nRegistration option: Standard; price: $5",
+      "content": "Join us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.\n\nThis year’s keynote speaker is Barb Roose, who will challenge and encourage women to grow in their faith and walk confidently in God’s truth.\n\nDoors open at 8:00 AM, and the cost is just $5, which includes lunch (more details coming soon). Invite a friend and make plans to be part of this special day together.\nRegister: https://urbancrest.churchcenter.com/registrations/events/3791849\n\nDetails:\nJoin us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.\n\nThis year’s keynote speaker is Barb Roose , who will challenge and encourage women to grow in their faith and walk confidently in God’s truth.\n\nDoors open at 8:00 AM , and the cost is just $5 , which includes lunch (more details coming soon). Invite a friend and make plans to be part of this special day together.\n\nRegistration is open.\n\nRegistration status: open\nRegistration opens: 2026-08-02T11:12:58Z\nRegistration closes: 2026-10-12T04:00:00Z\nRegistration categories: Women, Special Events\nRegistration option: Standard; price: $5",
       "priority": 100,
       "category": [
         "events",
@@ -3414,6 +3414,8 @@
         "major_event",
         "Urbancrest Women's Conference",
         "Women's Conference",
+        "Women",
+        "Special Events",
         "Standard"
       ],
       "search_terms": [
@@ -3423,6 +3425,8 @@
         "What are the details for Urbancrest Women's Conference?",
         "What is the menu for Urbancrest Women's Conference?",
         "How do I register for Urbancrest Women's Conference?",
+        "Women",
+        "Special Events",
         "Standard",
         "Does Urbancrest have Urbancrest Women's Conference?",
         "Does Urbancrest offer Urbancrest Women's Conference?",
@@ -3479,6 +3483,10 @@
       "registration_closed": false,
       "registration_open_at": "2026-08-02T11:12:58Z",
       "registration_close_at": "2026-10-12T04:00:00Z",
+      "registration_categories": [
+        "Women",
+        "Special Events"
+      ],
       "registration_options": [
         {
           "id": "8664547",
