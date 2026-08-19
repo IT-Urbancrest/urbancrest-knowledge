@@ -1,16 +1,16 @@
 ---
 id: beliefs.salvation
-version: 1.0
+version: 1.1
 status: published
-priority: 85
+priority: 100
 title: What does Urbancrest believe about salvation?
-summary: Salvation is God's gift of grace received through repentance and faith in
-  Jesus Christ.
+summary: Salvation is God's gift of grace received through repentance and faith in Jesus Christ.
 category:
 - beliefs
 intent:
   primary: beliefs
-  secondary: []
+  secondary:
+  - salvation
 audience:
 - everyone
 answer_style: pastoral
@@ -23,32 +23,49 @@ review:
 tags:
 - beliefs
 - doctrine
+- salvation
+- grace
+- faith
 search_terms:
 - What does Urbancrest believe about salvation?
+- What is salvation?
+- How are we saved?
+- Is salvation by grace?
+- Can good works save me?
+- Can I earn salvation?
 scripture:
 - Ephesians 2:8-9
 - Romans 10:9-10
 resources:
 - church_center.connect_card
 next_steps: []
-related: []
-last_updated: '2026-07-20'
+related:
+- beliefs.salvation.get-saved
+- beliefs.assurance
+- beliefs.eternal-security
+- beliefs.repentance
+- beliefs.gospel
+last_updated: '2026-08-19'
+authoritative: true
 ---
-
 # What does Urbancrest believe about salvation?
 
 ## Short Answer
 
 Salvation is God's gift of grace received through repentance and faith in Jesus Christ.
 
-## Detailed Answer
+## Salvation Is By Grace
+
+Salvation is a gift of God's grace. It cannot be earned through good works, religious activity, or personal effort.
+
+## Repentance and Faith
 
 Jesus lived without sin, died for sinners, and rose from the dead. Anyone who turns from sin and trusts Him is forgiven, made new, and reconciled to God.
 
-## Urbancrest Information
+## Good Works Do Not Save
 
-Urbancrest's doctrinal framework is consistent with the Baptist Faith and Message 2000. Scripture remains the final authority.
+**No.** Good works cannot earn salvation. Salvation is received by grace through faith in Jesus Christ.
 
-## Next Step
+## Detailed Answer
 
-Complete the Connect Card if you would like to talk with a pastor about this belief.
+Jesus lived without sin, died for sinners, and rose from the dead. Anyone who turns from sin and trusts Him is forgiven, made new, and reconciled to God. Salvation is God's gift, not something we earn.

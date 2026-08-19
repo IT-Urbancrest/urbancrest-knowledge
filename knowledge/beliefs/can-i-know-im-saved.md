@@ -1,15 +1,16 @@
 ---
 id: beliefs.assurance
-version: 1.0
+version: 1.1
 status: published
-priority: 100
+priority: 110
 title: Can I know that I am saved?
 summary: Yes. Believers can have assurance by trusting Christ and His promises.
 category:
 - beliefs
 intent:
   primary: salvation
-  secondary: []
+  secondary:
+  - assurance
 audience:
 - seeker
 - believer
@@ -23,32 +24,36 @@ review:
 tags:
 - gospel
 - faith
+- salvation
+- assurance
 search_terms:
 - Can I know that I am saved?
+- How can I know I am saved?
+- How do I know if I am saved?
+- Can I have assurance of salvation?
+- Am I really saved?
 scripture:
 - 1 John 5:11-13
 - Romans 8:16
 resources:
 - church_center.connect_card
 next_steps: []
-related: []
-last_updated: '2026-07-20'
+related:
+- beliefs.salvation
+- beliefs.eternal-security
+last_updated: '2026-08-19'
+authoritative: true
 ---
-
 # Can I know that I am saved?
 
 ## Short Answer
 
-Yes. Believers can have assurance by trusting Christ and His promises.
+**Yes.** Believers can have assurance by trusting Christ and His promises.
+
+## How Can I Know
+
+You can have assurance by trusting Christ and His promises. Assurance does not come from being perfect. It grows through faith in the finished work of Jesus, the witness of the Holy Spirit, and the fruit God produces in a believer's life.
 
 ## Detailed Answer
 
 Assurance does not come from being perfect. It grows through faith in the finished work of Jesus, the witness of the Holy Spirit, and the fruit God produces in a believer's life.
-
-## Urbancrest Information
-
-Urbancrest is ready to help you talk through questions about faith and following Jesus.
-
-## Next Step
-
-Complete the Connect Card to ask a question or request a conversation with a pastor.

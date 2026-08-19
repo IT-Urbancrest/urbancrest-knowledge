@@ -1,15 +1,16 @@
 ---
 id: beliefs.salvation.get-saved
-version: 1.0
+version: 1.1
 status: published
-priority: 100
+priority: 110
 title: How do I get saved?
 summary: Turn from sin and trust in Jesus Christ as Lord and Savior.
 category:
 - beliefs
 intent:
   primary: salvation
-  secondary: []
+  secondary:
+  - gospel
 audience:
 - seeker
 - believer
@@ -23,8 +24,14 @@ review:
 tags:
 - gospel
 - faith
+- salvation
 search_terms:
 - How do I get saved?
+- How can I be saved?
+- What must I do to be saved?
+- How do I become a Christian?
+- I want to follow Jesus
+- How do I trust Jesus?
 scripture:
 - Romans 3:23
 - Romans 5:8
@@ -33,10 +40,13 @@ scripture:
 resources:
 - church_center.connect_card
 next_steps: []
-related: []
-last_updated: '2026-07-20'
+related:
+- beliefs.salvation
+- beliefs.gospel
+- beliefs.repentance
+last_updated: '2026-08-19'
+authoritative: true
 ---
-
 # How do I get saved?
 
 ## Short Answer
@@ -46,11 +56,3 @@ Turn from sin and trust in Jesus Christ as Lord and Savior.
 ## Detailed Answer
 
 Everyone has sinned and cannot earn salvation. Jesus died for sinners and rose again. God saves everyone who repents and places faith in Christ. Salvation is a gift of grace, not a reward for good works.
-
-## Urbancrest Information
-
-Urbancrest is ready to help you talk through questions about faith and following Jesus.
-
-## Next Step
-
-Complete the Connect Card to ask a question or request a conversation with a pastor.
