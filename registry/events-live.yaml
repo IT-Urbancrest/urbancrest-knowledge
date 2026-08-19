@@ -1,5 +1,5 @@
 version: 1.5.4
-generated_at: '2026-08-19T15:49:57.627410Z'
+generated_at: '2026-08-19T18:53:38.912826Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
@@ -2496,7 +2496,9 @@ events:
   registration_open_at: '2026-08-02T11:12:58Z'
   registration_close_at: '2026-10-12T04:00:00Z'
   registration_maximum_capacity: null
-  registration_categories: []
+  registration_categories:
+  - Women
+  - Special Events
   registration_options:
   - id: '8664547'
     name: Standard
@@ -8631,7 +8633,7 @@ registrations_api:
     signup_location_relationship_present: 20
     signup_location_with_linkage: 18
     categories_relationship_present: 20
-    categories_with_linkage: 15
+    categories_with_linkage: 16
     selection_types_relationship_present: 20
     selection_types_with_linkage: 20
   skipped_signup_count: 9

@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.9.7",
-  "generated_at": "2026-08-19T17:43:35.557737Z",
+  "generated_at": "2026-08-19T18:53:40.200645Z",
   "timezone": "America/New_York",
-  "record_count": 423,
+  "record_count": 425,
   "config": {
     "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step. For directions requests, include both approved map links.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership Transition\n\nUrbancrest is currently searching for its next Global Missions Pastor.\n\nFor broad or global missions leadership questions:\n\n1. State that Urbancrest is currently searching for its next Global Missions Pastor.\n2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.\n3. Return `jennifer_prows` when one staff card is appropriate.\n4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nState the times found in those authoritative records directly. Do not hardcode service times in runtime application logic or prompt instructions.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
     "style_guide": "# Style Guide\n\n## Writing\n\n- Use short paragraphs.\n- Prefer plain language.\n- Avoid church jargon unless it is explained.\n- Do not use em dashes.\n- Do not use the word meaningful as a filler.\n- Use Small Groups, never Grow Groups.\n- Refer to Urbancrest Church as Urbancrest after the first use.\n- Use believer's baptism by immersion when describing baptism.\n\n## Theology\n\n- Scripture is the final authority.\n- The Baptist Faith and Message 2000 is a helpful doctrinal summary, not equal to Scripture.\n- Salvation is by grace alone through faith alone in Jesus Christ alone.\n- Baptism follows salvation and does not save.\n",
@@ -3393,7 +3393,7 @@
       "path": "knowledge/events/generated/2026-10-17-urbancrest-women-s-conference-af3c3f.md",
       "title": "Urbancrest Women's Conference",
       "summary": "Join us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God. This year’s keynote speaker is Barb Roose , who will...",
-      "content": "Join us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.\n\nThis year’s keynote speaker is Barb Roose, who will challenge and encourage women to grow in their faith and walk confidently in God’s truth.\n\nDoors open at 8:00 AM, and the cost is just $5, which includes lunch (more details coming soon). Invite a friend and make plans to be part of this special day together.\nRegister: https://urbancrest.churchcenter.com/registrations/events/3791849\n\nDetails:\nJoin us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.\n\nThis year’s keynote speaker is Barb Roose , who will challenge and encourage women to grow in their faith and walk confidently in God’s truth.\n\nDoors open at 8:00 AM , and the cost is just $5 , which includes lunch (more details coming soon). Invite a friend and make plans to be part of this special day together.\n\nRegistration is open.\n\nRegistration status: open\nRegistration opens: 2026-08-02T11:12:58Z\nRegistration closes: 2026-10-12T04:00:00Z\nRegistration option: Standard; price: $5",
+      "content": "Join us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.\n\nThis year’s keynote speaker is Barb Roose, who will challenge and encourage women to grow in their faith and walk confidently in God’s truth.\n\nDoors open at 8:00 AM, and the cost is just $5, which includes lunch (more details coming soon). Invite a friend and make plans to be part of this special day together.\nRegister: https://urbancrest.churchcenter.com/registrations/events/3791849\n\nDetails:\nJoin us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.\n\nThis year’s keynote speaker is Barb Roose , who will challenge and encourage women to grow in their faith and walk confidently in God’s truth.\n\nDoors open at 8:00 AM , and the cost is just $5 , which includes lunch (more details coming soon). Invite a friend and make plans to be part of this special day together.\n\nRegistration is open.\n\nRegistration status: open\nRegistration opens: 2026-08-02T11:12:58Z\nRegistration closes: 2026-10-12T04:00:00Z\nRegistration categories: Women, Special Events\nRegistration option: Standard; price: $5",
       "priority": 100,
       "category": [
         "events",
@@ -3414,6 +3414,8 @@
         "major_event",
         "Urbancrest Women's Conference",
         "Women's Conference",
+        "Women",
+        "Special Events",
         "Standard"
       ],
       "search_terms": [
@@ -3423,6 +3425,8 @@
         "What are the details for Urbancrest Women's Conference?",
         "What is the menu for Urbancrest Women's Conference?",
         "How do I register for Urbancrest Women's Conference?",
+        "Women",
+        "Special Events",
         "Standard",
         "Does Urbancrest have Urbancrest Women's Conference?",
         "Does Urbancrest offer Urbancrest Women's Conference?",
@@ -3479,6 +3483,10 @@
       "registration_closed": false,
       "registration_open_at": "2026-08-02T11:12:58Z",
       "registration_close_at": "2026-10-12T04:00:00Z",
+      "registration_categories": [
+        "Women",
+        "Special Events"
+      ],
       "registration_options": [
         {
           "id": "8664547",
@@ -4020,6 +4028,57 @@
         "sarah_coleman"
       ],
       "confidence": "high"
+    },
+    {
+      "id": "beliefs.transubstantiation",
+      "record_type": "knowledge",
+      "path": "knowledge/beliefs/transubstantiation.md",
+      "title": "Does Urbancrest believe in transubstantiation?",
+      "summary": "No. Urbancrest understands the bread and cup in the Lord's Supper as symbols that help believers remember Christ's sacrifice rather than elements that become His literal body and blood.",
+      "content": "# Does Urbancrest believe in transubstantiation?\n\n## Short Answer\n\n**No.** Urbancrest does not believe that the bread and cup become the literal body and blood of Jesus during the Lord's Supper. We understand the elements as **symbols that help believers remember Christ's sacrifice**.\n\n## What Is Transubstantiation?\n\nTransubstantiation is the belief that the substance of the bread and wine changes into the actual body and blood of Christ while their outward appearance remains the same.\n\nUrbancrest does not hold this view.\n\n## What Does Urbancrest Believe Happens During Communion?\n\nThe Lord's Supper is a **symbolic act of obedience and remembrance**. The bread represents Christ's body given for us, and the cup represents His blood shed for us.\n\nBelievers participate in Communion to remember Christ's sacrifice, proclaim His death, examine themselves, and look forward to His return.\n\n## Are the Bread and Cup Literally Jesus' Body and Blood?\n\n**No.** Urbancrest understands Jesus' words at the Last Supper within the symbolic and memorial nature of the ordinance. The bread and cup point us to the body and blood of Christ, but they do not change in substance into His physical body and blood.\n\n## Detailed Answer\n\nUrbancrest does not affirm the doctrine of transubstantiation.\n\nWe believe the Lord's Supper was given by Jesus as a symbolic act of obedience for His followers. Through the bread and the cup, believers remember His body given for them and His blood shed for the forgiveness of sins.\n\nCommunion directs our attention to the once-for-all sacrifice of Jesus, calls believers to examine themselves, proclaims His death, and reminds us that He is coming again.",
+      "priority": 100,
+      "category": [
+        "beliefs"
+      ],
+      "intents": [
+        "beliefs",
+        "communion",
+        "lords_supper",
+        "transubstantiation"
+      ],
+      "tags": [
+        "beliefs",
+        "doctrine",
+        "transubstantiation",
+        "communion",
+        "Lord's Supper",
+        "bread and cup",
+        "symbolic",
+        "memorial"
+      ],
+      "search_terms": [
+        "Does Urbancrest believe in transubstantiation?",
+        "What is transubstantiation?",
+        "Do Baptists believe in transubstantiation?",
+        "Does the bread become Jesus' body?",
+        "Does the bread become the body of Christ?",
+        "Does the cup become Jesus' blood?",
+        "Does the wine become the blood of Christ?",
+        "Is Communion literally the body and blood of Jesus?",
+        "Is the Lord's Supper symbolic?",
+        "Are the Communion elements symbolic?",
+        "What happens to the bread and cup during Communion?",
+        "What does Urbancrest believe happens during Communion?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "status": "published",
+      "answer_guidance": "Define transubstantiation accurately and respectfully, then explain that Urbancrest does not affirm it. Urbancrest understands the Lord's Supper as a symbolic act of obedience in which the bread and cup memorialize Christ's body given and blood shed for us. Do not say that Catholics believe Communion is merely symbolic. Do not conflate transubstantiation with questions about who may participate in Communion; route participation questions to beliefs.lords_supper.",
+      "confidence": "high",
+      "authoritative": true
     },
     {
       "id": "ministries.kids.volunteer_screening",
@@ -4636,6 +4695,55 @@
       "resources": [],
       "status": "published",
       "answer_guidance": "Explain that Urbancrest practices close communion. Participation is for people who have trusted in Jesus Christ for salvation and have followed Him in believer's baptism. Church membership at Urbancrest is not required. If someone has not trusted Christ or has not yet been baptized, explain that Urbancrest asks them to refrain from taking the elements.",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
+      "id": "beliefs.trinity",
+      "record_type": "knowledge",
+      "path": "knowledge/beliefs/trinity.md",
+      "title": "What does Urbancrest believe about the Trinity?",
+      "summary": "There is one God who eternally exists as three distinct Persons: Father, Son, and Holy Spirit.",
+      "content": "# What does Urbancrest believe about the Trinity?\n\n## Short Answer\n\nThere is **one God who eternally exists as three distinct Persons: Father, Son, and Holy Spirit**. Each Person is fully God, yet God is one.\n\n## Is the Trinity Three Gods?\n\n**No.** Christianity teaches that there is only one God. The Father, Son, and Holy Spirit are not three separate gods. They share the same divine nature and are eternally one God.\n\n## Are the Father, Son, and Holy Spirit the Same Person?\n\n**No.** The Father, Son, and Holy Spirit are distinct Persons. The Father is not the Son, the Son is not the Holy Spirit, and the Holy Spirit is not the Father. Yet each is fully and eternally God.\n\n## What Does \"Three in One\" Mean?\n\nThe Trinity means that God is **one in being and three in Person**. God has eternally revealed Himself as Father, Son, and Holy Spirit without division of His nature or essence.\n\n## Detailed Answer\n\nUrbancrest believes in one living and true God who eternally exists as **Father, Son, and Holy Spirit**.\n\nThe three Persons of the Trinity are distinct from one another, but they are not divided in their divine nature. The Father is God, the Son is God, and the Holy Spirit is God, yet there is only one God.\n\nThe Trinity is not the belief that there are three gods, nor that one Person simply appears in three different forms. Father, Son, and Holy Spirit eternally exist together as the one triune God.",
+      "priority": 100,
+      "category": [
+        "beliefs"
+      ],
+      "intents": [
+        "beliefs",
+        "trinity"
+      ],
+      "tags": [
+        "beliefs",
+        "doctrine",
+        "Trinity",
+        "triune God",
+        "Father",
+        "Son",
+        "Holy Spirit",
+        "one God",
+        "three Persons"
+      ],
+      "search_terms": [
+        "What does Urbancrest believe about the Trinity?",
+        "What is the Trinity?",
+        "Do you believe in the Trinity?",
+        "What does Trinity mean?",
+        "Is God three persons?",
+        "Is the Trinity three gods?",
+        "How can God be three in one?",
+        "Who are the three persons of the Trinity?",
+        "Are the Father Son and Holy Spirit one God?",
+        "Are the Father Son and Holy Spirit the same person?",
+        "What does triune God mean?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "status": "published",
+      "answer_guidance": "Explain that there is one God who eternally exists as three distinct Persons, Father, Son, and Holy Spirit. Each Person is fully God, yet there are not three gods. The Father, Son, and Holy Spirit are distinct Persons who share one divine nature. Do not describe the Trinity as one Person merely appearing in three different forms.",
       "confidence": "high",
       "authoritative": true
     },
