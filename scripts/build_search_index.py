@@ -58,8 +58,10 @@ def flatten_text(value: Any) -> str:
     return str(value)
 
 
-def truncate(value: str, limit: int = 2400) -> str:
+def truncate(value: str, limit: int | None = 2400) -> str:
     value = value.strip()
+    if limit is None:
+        return value
     return value if len(value) <= limit else value[: limit - 3].rstrip() + "..."
 
 
@@ -134,6 +136,7 @@ def record_base(
     ministries: list[str] | None = None,
     audiences: list[str] | None = None,
     resources: list[str] | None = None,
+    content_limit: int | None = 2400,
     **extra: Any,
 ) -> dict[str, Any]:
     record = {
@@ -142,7 +145,7 @@ def record_base(
         "path": path,
         "title": title,
         "summary": summary,
-        "content": truncate(content),
+        "content": truncate(content, content_limit),
         "priority": int(priority or 0),
         "category": unique(category or []),
         "intents": unique(intents or []),
@@ -181,6 +184,7 @@ def markdown_records() -> list[dict[str, Any]]:
                 title=title,
                 summary=str(metadata.get("summary") or ""),
                 content=body,
+                content_limit=None if relative.startswith("knowledge/beliefs/") else 2400,
                 priority=int(metadata.get("priority") or 50),
                 category=as_list(metadata.get("category")),
                 intents=intent_values(metadata),
