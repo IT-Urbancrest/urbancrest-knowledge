@@ -4,7 +4,7 @@ version: 1.0
 status: published
 priority: 100
 title: What does Urbancrest believe about the Trinity?
-summary: There is one God who eternally exists as three distinct Persons: Father, Son, and Holy Spirit.
+summary: "There is one God who eternally exists as three distinct Persons: Father, Son, and Holy Spirit."
 category:
 - beliefs
 intent:
