@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.9.7",
-  "generated_at": "2026-08-19T15:23:47.971143Z",
+  "generated_at": "2026-08-19T15:47:12.238725Z",
   "timezone": "America/New_York",
   "record_count": 422,
   "config": {
@@ -4736,7 +4736,7 @@
       "path": "knowledge/ministries/stephen-ministry/overview.md",
       "title": "What is Stephen Ministry?",
       "summary": "Stephen Ministry at Urbancrest provides confidential, Christ-centered, one-to-one care through trained lay caregivers for people going through difficult times.",
-      "content": "# Stephen Ministry at Urbancrest\n\nStephen Ministry provides **confidential, Christ-centered, one-to-one care** for people going through difficult times. Trained congregation members, called Stephen Ministers, walk alongside a care receiver by listening, encouraging, praying, and offering a caring Christian presence.\n\nStephen Ministry is available to people in the congregation and community and serves as an additional care option alongside pastoral care.\n\nStephen Ministers are trained lay caregivers. They are not professional counselors or therapists.\n\nLearn more about Urbancrest's Stephen Ministry at https://urbancrest.church/get-involved/stephen-ministry.",
+      "content": "# Stephen Ministry at Urbancrest\n\nStephen Ministry provides **confidential, Christ-centered, one-to-one care** for people going through difficult times. Trained congregation members, called Stephen Ministers, walk alongside a care receiver by listening, encouraging, praying, and offering a caring Christian presence.\n\nStephen Ministry is available to people in the congregation and community and serves as an additional care option alongside pastoral care.\n\nStephen Ministers are trained lay caregivers. They are not professional counselors or therapists.\n\nLearn more on the [Stephen Ministry page](https://urbancrest.church/get-involved/stephen-ministry).",
       "priority": 100,
       "category": [
         "ministries",
