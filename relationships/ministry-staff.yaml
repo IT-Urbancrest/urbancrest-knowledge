@@ -141,8 +141,7 @@ relationships:
   recommended_contact_staff_key: jennifer_prows
   related_staff_keys: []
   answer_guidance: Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions
-    Administrator and is the recommended current contact for global missions questions, mission trips, and missions coordination.
-    Do not describe Jennifer as the Global Missions Pastor.
+    Administrator and is the current point person for Global Missions questions, mission trips, and missions coordination.
 - ministry: local_missions
   label: Local Missions
   aliases:
@@ -203,9 +202,8 @@ relationships:
   recommended_contact_staff_key: sarah_coleman
   related_staff_keys:
   - mikhael_mastalerz
-  answer_guidance: The Kids Ministry Director position is currently vacant. Sarah Coleman serves as Preschool Director and
-    is the recommended current point person for Kids Ministry questions. Do not describe Sarah as the Kids Ministry Director.
-    Mikhael Mastalerz serves as Nursery Ministry Director.
+  answer_guidance: Urbancrest is currently searching for its next Kids Ministry Director. Sarah Coleman serves as Preschool
+    Director and is the current point person for Kids Ministry questions.
 - ministry: preschool
   label: Preschool
   aliases:
