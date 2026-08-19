@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.9.7",
-  "generated_at": "2026-08-19T18:53:40.200645Z",
+  "generated_at": "2026-08-19T19:12:31.127228Z",
   "timezone": "America/New_York",
-  "record_count": 425,
+  "record_count": 428,
   "config": {
     "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step. For directions requests, include both approved map links.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership Transition\n\nUrbancrest is currently searching for its next Global Missions Pastor.\n\nFor broad or global missions leadership questions:\n\n1. State that Urbancrest is currently searching for its next Global Missions Pastor.\n2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.\n3. Return `jennifer_prows` when one staff card is appropriate.\n4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nState the times found in those authoritative records directly. Do not hardcode service times in runtime application logic or prompt instructions.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
     "style_guide": "# Style Guide\n\n## Writing\n\n- Use short paragraphs.\n- Prefer plain language.\n- Avoid church jargon unless it is explained.\n- Do not use em dashes.\n- Do not use the word meaningful as a filler.\n- Use Small Groups, never Grow Groups.\n- Refer to Urbancrest Church as Urbancrest after the first use.\n- Use believer's baptism by immersion when describing baptism.\n\n## Theology\n\n- Scripture is the final authority.\n- The Baptist Faith and Message 2000 is a helpful doctrinal summary, not equal to Scripture.\n- Salvation is by grace alone through faith alone in Jesus Christ alone.\n- Baptism follows salvation and does not save.\n",
@@ -4561,6 +4561,64 @@
       ]
     },
     {
+      "id": "beliefs.bible_translations",
+      "record_type": "knowledge",
+      "path": "knowledge/beliefs/bible-translations.md",
+      "title": "What Bible translation does Urbancrest use?",
+      "summary": "Urbancrest does not require one English Bible translation. Pastor Geoff most commonly preaches from the NASB, while Pastor Dave typically uses the NKJV.",
+      "content": "# What Bible translation does Urbancrest use?\n\n## Short Answer\n\nUrbancrest does not require a single English Bible translation. **Pastor Geoff most commonly preaches from the New American Standard Bible (NASB), while Pastor Dave typically uses the New King James Version (NKJV).**\n\nBoth translations lean toward **formal equivalence**, often described as a \"word-for-word\" approach.\n\n## What Translation Does Pastor Geoff Use?\n\nPastor Geoff most commonly preaches from the **New American Standard Bible (NASB)**.\n\nThe NASB leans strongly toward formal equivalence, seeking to preserve the wording and structure of the original biblical languages as closely as clear English allows.\n\n## What Translation Does Pastor Dave Use?\n\nPastor Dave typically preaches and teaches from the **New King James Version (NKJV)**.\n\nThe NKJV also leans toward formal equivalence, seeking to closely represent the wording and structure of the original languages while using updated English.\n\n## Does Urbancrest Require One Bible Translation?\n\n**No.** Urbancrest does not require everyone to use the NASB, NKJV, or any single English translation.\n\nOur conviction is that **the Bible is God's inspired and authoritative Word**. The Baptist Faith & Message affirms the inspiration, truthfulness, and authority of Scripture but does not prescribe one English translation.\n\n## What Is a Word-for-Word Translation?\n\n\"Word-for-word\" is a common shorthand for **formal equivalence**. This approach places greater emphasis on preserving the words, grammar, and structure of the Hebrew, Aramaic, and Greek texts when translating them into English.\n\nNo responsible translation is mechanically one English word for every original-language word. Languages work differently, so translators must still make careful judgments about grammar, context, and meaning.\n\n## What Is a Thought-for-Thought Translation?\n\n\"Thought-for-thought\" commonly refers to **functional or dynamic equivalence**. This approach places greater emphasis on expressing the meaning of a phrase or sentence in natural contemporary English.\n\nFormal-equivalence and functional-equivalence translations exist on a spectrum rather than as two completely separate categories. Every translation must consider both wording and meaning.\n\n## Why Do Our Pastors Often Use Word-for-Word Translations?\n\nTranslations that lean toward formal equivalence can be especially use...",
+      "priority": 100,
+      "category": [
+        "beliefs"
+      ],
+      "intents": [
+        "beliefs",
+        "scripture",
+        "bible_translation"
+      ],
+      "tags": [
+        "beliefs",
+        "Bible",
+        "Scripture",
+        "Bible translation",
+        "Bible version",
+        "NASB",
+        "NKJV",
+        "formal equivalence",
+        "word-for-word",
+        "thought-for-thought"
+      ],
+      "search_terms": [
+        "What Bible translation does Urbancrest use?",
+        "What Bible version does Urbancrest use?",
+        "What Bible do you use?",
+        "What Bible do you preach from?",
+        "What Bible does Pastor Geoff use?",
+        "What Bible does Geoff preach from?",
+        "What Bible version does Pastor Geoff use?",
+        "What Bible does Pastor Dave use?",
+        "What Bible does Dave preach from?",
+        "What Bible version does Pastor Dave use?",
+        "Does Urbancrest only use the NASB?",
+        "Does Urbancrest require one Bible translation?",
+        "What is a word-for-word Bible translation?",
+        "What is formal equivalence?",
+        "What is a thought-for-thought Bible translation?",
+        "What is dynamic equivalence?",
+        "Can I use another Bible translation?",
+        "Are other Bible translations okay?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "status": "published",
+      "answer_guidance": "Explain that Urbancrest's authority is Scripture itself, not one required English translation. Pastor Geoff most commonly preaches from the New American Standard Bible (NASB), and Pastor Dave typically uses the New King James Version (NKJV). Both lean toward formal equivalence, often described as word-for-word translation. Explain the difference between formal equivalence and functional or thought-for-thought translation without implying that translation is mechanically one English word for every Hebrew or Greek word. Do not claim that Urbancrest forbids other faithful English translations.",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
       "id": "beliefs.salvation",
       "record_type": "knowledge",
       "path": "knowledge/beliefs/salvation.md",
@@ -4602,6 +4660,61 @@
       "authoritative": true
     },
     {
+      "id": "beliefs.sexuality_gender_marriage",
+      "record_type": "knowledge",
+      "path": "knowledge/beliefs/sexuality-gender-marriage.md",
+      "title": "What does Urbancrest believe about sexuality, gender, and marriage?",
+      "summary": "Every person is created in God's image and worthy of respect and Christian love. Urbancrest believes God created humanity male and female, marriage is the covenant union of one man and one woman, and sexual intimacy belongs within marriage.",
+      "content": "# What does Urbancrest believe about sexuality, gender, and marriage?\n\n## Short Answer\n\nUrbancrest believes **every person is created in the image of God** and therefore possesses God-given dignity and is worthy of respect, compassion, and Christian love.\n\nWe also believe God created humanity male and female, that marriage is the covenant union of **one man and one woman for life**, and that God intends sexual intimacy for marriage.\n\nBecause of those convictions, Urbancrest does not affirm same-sex sexual relationships or a view of gender that separates a person's identity as male or female from God's created design. Disagreement with someone's beliefs or choices never removes that person's dignity or our responsibility to treat them with love and respect.\n\n## What Does Urbancrest Believe About Marriage?\n\nUrbancrest believes marriage is the covenant union of **one man and one woman for life**. Marriage is God's design for the intimate relationship between husband and wife and provides the biblical context for sexual intimacy.\n\n## What Does Urbancrest Believe About Sexuality?\n\nSexuality is part of God's good creation, but Scripture also gives boundaries for how sexual desires and relationships should be expressed.\n\nUrbancrest believes sexual intimacy is intended for marriage between one man and one woman. This standard applies to everyone and is part of the broader Christian call to submit every area of life to Jesus.\n\n## What Does Urbancrest Believe About Gender?\n\nUrbancrest believes God created human beings **male and female**, both equally made in His image and possessing equal dignity and worth.\n\nWe therefore understand being male or female as part of God's created design rather than an identity that is ultimately self-defined apart from the body God has given us.\n\n## What Does Urbancrest Believe About Same-Sex Relationships?\n\nUrbancrest does not affirm same-sex sexual relationships or same-sex marriage because we believe Scripture reserves sexual intimacy for marriage between one man and one woman.\n\nAt the same time, this conviction does not make same-sex attraction or sexual sin an uniquely unforgivable category. Like every person, each of us needs the grace, forgiveness, and transforming work of Jesus Christ.\n\n## How Does Urbancrest Treat People Who Identify as LGBTQ?\n\nEvery person should be treated with **dignity, compassion, respect, and Christian...",
+      "priority": 100,
+      "category": [
+        "beliefs"
+      ],
+      "intents": [
+        "beliefs",
+        "sexuality",
+        "gender",
+        "marriage",
+        "lgbtq"
+      ],
+      "tags": [
+        "beliefs",
+        "doctrine",
+        "LGBTQ",
+        "sexuality",
+        "marriage",
+        "gender",
+        "male and female",
+        "same-sex relationships",
+        "human dignity"
+      ],
+      "search_terms": [
+        "What does Urbancrest believe about LGBTQ?",
+        "What is Urbancrest's stance on LGBTQ?",
+        "What does Urbancrest believe about homosexuality?",
+        "What does Urbancrest believe about gay and lesbian relationships?",
+        "What does Urbancrest believe about same-sex marriage?",
+        "Does Urbancrest affirm same-sex marriage?",
+        "What does Urbancrest believe about transgender identity?",
+        "What does Urbancrest believe about gender identity?",
+        "What does Urbancrest believe about sexuality?",
+        "What does Urbancrest believe about marriage?",
+        "Can someone who is LGBTQ attend Urbancrest?",
+        "Can someone who is gay attend Urbancrest?",
+        "Are LGBTQ people welcome at Urbancrest?",
+        "How does Urbancrest treat LGBTQ people?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "status": "published",
+      "answer_guidance": "State Urbancrest's convictions clearly and pastorally. Every person is created in God's image and should be treated with dignity, compassion, respect, and Christian love. Urbancrest believes God created humanity male and female, marriage is the covenant union of one man and one woman for life, and sexual intimacy is intended for marriage. Urbancrest therefore does not affirm same-sex sexual relationships or views of gender that separate male or female identity from God's created design. Do not portray sexual sin as uniquely unforgivable or imply that LGBTQ people are unwelcome to attend. Do not infer membership, employment, volunteer, or leadership policies that are not stated in this record.",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
       "id": "beliefs.stewardship",
       "record_type": "knowledge",
       "path": "knowledge/beliefs/stewardship.md",
@@ -4639,6 +4752,54 @@
         "church_center.giving"
       ],
       "status": "published",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
+      "id": "beliefs.antichrist",
+      "record_type": "knowledge",
+      "path": "knowledge/beliefs/antichrist.md",
+      "title": "What does Urbancrest believe about the Antichrist?",
+      "summary": "Scripture warns of antichrists and points to a future climactic opponent of Christ, but the Christian's confidence is in the promised return and final victory of Jesus.",
+      "content": "# What does Urbancrest believe about the Antichrist?\n\n## Short Answer\n\nScripture warns that opposition to Christ is already at work in the world and also points to a **future personal and climactic opponent of Christ**, commonly referred to as the Antichrist. Christians should take these warnings seriously without becoming consumed by speculation.\n\n## Who Is the Antichrist?\n\nThe New Testament uses the term **antichrist** for those who deny or oppose Christ and says that a spirit of antichrist is already at work in the world.\n\nScripture also describes a future figure of extraordinary rebellion and opposition to God, including the \"man of lawlessness\" in 2 Thessalonians 2. Urbancrest understands these passages to point to a future personal and climactic opponent of Christ.\n\n## Does the Bible Teach That There Will Be a Final Antichrist?\n\n**Yes.** Urbancrest understands Scripture to teach that opposition to Christ will culminate in a final personal opponent before Christ's ultimate victory.\n\nThe Baptist Faith & Message does not require a detailed end-times timeline or identify the Antichrist by name. Its central emphasis is that Jesus Christ will return personally and visibly, humanity will be judged, and God's purposes will be fulfilled.\n\n## Can We Know Who the Antichrist Is Today?\n\nScripture does not give Christians permission to confidently identify a contemporary political, religious, or public figure as the Antichrist.\n\nChristians should be discerning about false teaching and opposition to Christ, but speculation about a particular person's identity can distract from the Bible's clearer commands to remain faithful to Jesus.\n\n## How Should Christians Respond to Teaching About the Antichrist?\n\nChristians should be **watchful, discerning, and faithful**, but not fearful or obsessed with speculation.\n\nOur confidence is not in correctly predicting every detail of end-times events. Our confidence is in Jesus Christ, His promised return, and His final victory over sin and evil.\n\n## Detailed Answer\n\nUrbancrest believes Scripture teaches that opposition to Christ is already present in the world and will ultimately culminate in a final personal opponent of Christ.\n\nWe do not believe Christians are called to continually identify contemporary candidates for the Antichrist or build their faith around speculative end-times predictions. The emphasis of biblical teachin...",
+      "priority": 100,
+      "category": [
+        "beliefs"
+      ],
+      "intents": [
+        "beliefs",
+        "antichrist",
+        "last_things"
+      ],
+      "tags": [
+        "beliefs",
+        "doctrine",
+        "Antichrist",
+        "end times",
+        "last things",
+        "man of lawlessness",
+        "return of Christ"
+      ],
+      "search_terms": [
+        "What does Urbancrest believe about the Antichrist?",
+        "What is the Antichrist?",
+        "Who is the Antichrist?",
+        "Does Urbancrest believe in a literal Antichrist?",
+        "Will there be a future Antichrist?",
+        "Is the Antichrist alive today?",
+        "Can we know who the Antichrist is?",
+        "Who do you think the Antichrist is?",
+        "What does the Bible say about the Antichrist?",
+        "Should Christians be afraid of the Antichrist?",
+        "What is the man of lawlessness?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "status": "published",
+      "answer_guidance": "Explain that Scripture uses antichrist language for opposition to Christ in the present age and also points to a future personal and climactic opponent of Christ. Do not speculate that a particular contemporary political, religious, or public figure is the Antichrist. Keep the focus on Christ's promised return, judgment, and final victory rather than sensational timelines.",
       "confidence": "high",
       "authoritative": true
     },
