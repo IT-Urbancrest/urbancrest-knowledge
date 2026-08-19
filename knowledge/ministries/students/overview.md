@@ -1,6 +1,6 @@
 ---
 id: ministries.students
-version: 1.0
+version: 1.1
 status: published
 priority: 95
 title: What is Urbancrest Student Ministry?
@@ -33,6 +33,8 @@ search_terms:
 - What is Student Ministry?
 - Tell me about youth ministry
 - What does Urbancrest offer for teenagers?
+- What do you have for students?
+- What do you have for teenagers?
 - Student Ministry overview
 ministries:
 - students
@@ -42,17 +44,16 @@ resources:
 - action_link.get_involved
 next_steps: []
 related: []
-last_updated: '2026-07-30'
+last_updated: '2026-08-19'
 recommended_contact_staff_key: tucker_howard
 ---
-
 # What is Urbancrest Student Ministry?
 
 Urbancrest Student Ministry partners with parents in leading students in grades 7 through 12 to become fully devoted followers of Jesus Christ.
 
 The ministry creates a Christ-centered environment where students can:
 
-- Belong and build meaningful relationships
+- Belong and build strong relationships
 - Study God's Word
 - Worship together
 - Serve others
@@ -60,5 +61,3 @@ The ministry creates a Christ-centered environment where students can:
 - Learn to live out and share their faith
 
 Throughout the year, students participate in weekly gatherings, small groups, discipleship opportunities, outreach events, retreats, camps, and service projects. Each part of the ministry is designed to help students know Jesus more deeply, develop biblical convictions, grow in authentic Christian community, and become disciples who make disciples.
-
-For current events and seasonal opportunities, visit [Urbancrest Events](https://urbancrest.church/events).
