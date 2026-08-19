@@ -1,6 +1,6 @@
 ---
 id: beliefs.ordinances
-version: 1.0
+version: 1.1
 status: published
 priority: 85
 title: What does Urbancrest believe about baptism and the Lord's Supper?
@@ -24,16 +24,18 @@ tags:
 - doctrine
 search_terms:
 - What does Urbancrest believe about baptism and the Lord's Supper?
+- What does Urbancrest believe about baptism and communion?
 scripture:
 - Matthew 28:19
 - 1 Corinthians 11:23-26
 resources:
 - church_center.connect_card
 next_steps: []
-related: []
-last_updated: '2026-07-20'
+related:
+- beliefs.baptism.meaning
+- beliefs.lords_supper
+last_updated: '2026-08-19'
 ---
-
 # What does Urbancrest believe about baptism and the Lord's Supper?
 
 ## Short Answer
@@ -42,7 +44,9 @@ Baptism and the Lord's Supper are ordinances given by Jesus to His church.
 
 ## Detailed Answer
 
-Baptism by immersion follows personal faith in Christ and pictures His death, burial, and resurrection. The Lord's Supper remembers Christ's sacrifice and proclaims His death until He returns.
+Baptism by immersion follows personal faith in Christ and pictures His death, burial, and resurrection.
+
+The Lord's Supper remembers Christ's sacrifice and proclaims His death until He returns. Urbancrest practices **close communion**, inviting baptized followers of Jesus to participate. Church membership at Urbancrest is not required.
 
 ## Urbancrest Information
 
