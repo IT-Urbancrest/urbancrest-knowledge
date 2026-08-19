@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.9.7",
-  "generated_at": "2026-08-19T13:27:24.052804Z",
+  "generated_at": "2026-08-19T15:05:59.331491Z",
   "timezone": "America/New_York",
-  "record_count": 411,
+  "record_count": 422,
   "config": {
     "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step. For directions requests, include both approved map links.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership Transition\n\nUrbancrest is currently searching for its next Global Missions Pastor.\n\nFor broad or global missions leadership questions:\n\n1. State that Urbancrest is currently searching for its next Global Missions Pastor.\n2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.\n3. Return `jennifer_prows` when one staff card is appropriate.\n4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nState the times found in those authoritative records directly. Do not hardcode service times in runtime application logic or prompt instructions.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
     "style_guide": "# Style Guide\n\n## Writing\n\n- Use short paragraphs.\n- Prefer plain language.\n- Avoid church jargon unless it is explained.\n- Do not use em dashes.\n- Do not use the word meaningful as a filler.\n- Use Small Groups, never Grow Groups.\n- Refer to Urbancrest Church as Urbancrest after the first use.\n- Use believer's baptism by immersion when describing baptism.\n\n## Theology\n\n- Scripture is the final authority.\n- The Baptist Faith and Message 2000 is a helpful doctrinal summary, not equal to Scripture.\n- Salvation is by grace alone through faith alone in Jesus Christ alone.\n- Baptism follows salvation and does not save.\n",
@@ -1610,7 +1610,7 @@
     {
       "id": "ministries.kids.leadership",
       "record_type": "knowledge",
-      "path": "knowledge/ministries/kids/who-oversees-kids-ministry.md",
+      "path": "knowledge/ministries/kids/faq/who-oversees-kids-ministry.md",
       "title": "Who oversees Kids Ministry?",
       "summary": "The Kids Ministry Director position is currently vacant. Sarah Coleman, Preschool Director, is the recommended current point person for Kids Ministry questions.",
       "content": "# Who oversees Kids Ministry?\n\nThe **Kids Ministry Director position is currently vacant**.\n\nIn the meantime, **Sarah Coleman serves as Preschool Director** and is the recommended current point person for Kids Ministry questions.\n\n**Mikhael Mastalerz serves as Nursery Ministry Director** for nursery-specific questions.\n\nSarah should not be described as the Kids Ministry Director. Her staff card may be shown for Kids Ministry questions because she is the recommended current point person while the position is vacant.",
@@ -2068,6 +2068,101 @@
       "authoritative": true
     },
     {
+      "id": "ministries.men.pursuit_groups",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/men/faq/what-are-pursuit-groups.md",
+      "title": "What are Pursuit Groups?",
+      "summary": "Pursuit Groups are smaller groups of men who meet regularly to study God's Word, encourage one another, and grow together in eight areas of biblical manhood.",
+      "content": "# What are Pursuit Groups?\n\n**Pursuit Groups** are smaller groups of men who meet regularly to study God's Word, encourage one another, and grow together.\n\nThe groups focus on eight areas of biblical manhood:\n\n- **Identity**\n- **Integrity**\n- **Purpose**\n- **Surrender**\n- **Passion**\n- **Commitment**\n- **Compassion**\n- **Influence**",
+      "priority": 105,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "small_group",
+        "mens_ministry",
+        "battle_ready_brotherhood",
+        "pursuit_groups",
+        "discipleship"
+      ],
+      "tags": [
+        "Men's Ministry",
+        "Battle Ready Brotherhood",
+        "Pursuit Groups",
+        "discipleship",
+        "biblical manhood"
+      ],
+      "search_terms": [
+        "What are Pursuit Groups?",
+        "What is a Pursuit Group?",
+        "Tell me about Men's Pursuit Groups",
+        "Men's small groups",
+        "Men's discipleship groups"
+      ],
+      "ministries": [
+        "men",
+        "small_groups"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "men"
+      ],
+      "resources": [
+        "church_center.small_groups"
+      ],
+      "status": "published",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.men.goal",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/men/faq/what-is-the-goal.md",
+      "title": "What is the goal of Battle Ready Brotherhood?",
+      "summary": "Battle Ready Brotherhood seeks to develop battle-ready disciples who know their identity in Christ, live with integrity and purpose, lead and serve well, and walk alongside other godly men.",
+      "content": "# What is the goal of Battle Ready Brotherhood?\n\nOur goal is not simply to create more activities for men. We want to develop **battle-ready disciples**: men who know their identity in Christ, live with integrity and purpose, lead and serve well, and have brothers beside them who will encourage, challenge, and stand with them.",
+      "priority": 105,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "mens_ministry",
+        "battle_ready_brotherhood",
+        "discipleship",
+        "biblical_manhood"
+      ],
+      "tags": [
+        "Men's Ministry",
+        "Battle Ready Brotherhood",
+        "discipleship",
+        "biblical manhood",
+        "identity",
+        "integrity",
+        "purpose"
+      ],
+      "search_terms": [
+        "What is the goal of Battle Ready Brotherhood?",
+        "What is the purpose of Men's Ministry?",
+        "What does Battle Ready Brotherhood want to develop?"
+      ],
+      "ministries": [
+        "men"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "men"
+      ],
+      "resources": [],
+      "status": "published",
+      "confidence": "high"
+    },
+    {
       "id": "ministries.legacy_builders.ministries_and_activities",
       "record_type": "knowledge",
       "path": "knowledge/ministries/legacy-builders/ministries-and-activities.md",
@@ -2209,6 +2304,52 @@
       "answer_guidance": "State that Howard and Sue Pauley lead Legacy Builders. Do not imply that either person is a church staff member unless a separate authoritative staff source establishes that.",
       "confidence": "high",
       "authoritative": true
+    },
+    {
+      "id": "ministries.men.why_battle_ready",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/men/faq/why-battle-ready.md",
+      "title": "Why is Urbancrest Men's Ministry called Battle Ready Brotherhood?",
+      "summary": "The name Battle Ready Brotherhood reflects the biblical reality that the Christian life includes spiritual battle and that men need biblical truth, spiritual disciplines, accountability, and brotherhood to follow Christ faithfully.",
+      "content": "# Why is Urbancrest Men's Ministry called Battle Ready Brotherhood?\n\nScripture reminds us that our ultimate struggle is spiritual. **Ephesians 6:12** teaches that our struggle is not ultimately against flesh and blood.\n\nBeing battle ready means intentionally developing the biblical foundation, spiritual disciplines, relationships, and accountability necessary to faithfully follow Christ in everyday life.",
+      "priority": 105,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "mens_ministry",
+        "battle_ready_brotherhood",
+        "biblical_manhood",
+        "spiritual_warfare"
+      ],
+      "tags": [
+        "Men's Ministry",
+        "Battle Ready Brotherhood",
+        "spiritual battle",
+        "spiritual warfare",
+        "discipleship",
+        "Ephesians 6"
+      ],
+      "search_terms": [
+        "Why Battle Ready?",
+        "Why is Men's Ministry called Battle Ready Brotherhood?",
+        "What does Battle Ready mean?",
+        "Why BRB?"
+      ],
+      "ministries": [
+        "men"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "men"
+      ],
+      "resources": [],
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "ministries.nursery.check_in_out",
@@ -3302,6 +3443,51 @@
       "confidence": "high"
     },
     {
+      "id": "ministries.men.pursuit_group_join_late",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/men/faq/can-i-join-a-pursuit-group-after-it-starts.md",
+      "title": "Can I join a Pursuit Group after it has already started?",
+      "summary": "Yes. Men are encouraged to join a Pursuit Group when they are ready rather than waiting for a perfect starting point.",
+      "content": "# Can I join a Pursuit Group after it has already started?\n\nYes. Do not wait for the perfect starting point. If you are ready to grow and connect with other men, we encourage you to jump in.",
+      "priority": 100,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "small_group",
+        "mens_ministry",
+        "pursuit_groups",
+        "joining"
+      ],
+      "tags": [
+        "Men's Ministry",
+        "Pursuit Groups",
+        "joining",
+        "small groups"
+      ],
+      "search_terms": [
+        "Can I join a Pursuit Group after it has already started?",
+        "Can I join a Pursuit Group late?",
+        "Is it too late to join a Men's group?"
+      ],
+      "ministries": [
+        "men",
+        "small_groups"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "men"
+      ],
+      "resources": [
+        "church_center.small_groups"
+      ],
+      "status": "published",
+      "confidence": "high"
+    },
+    {
       "id": "beliefs.assurance",
       "record_type": "knowledge",
       "path": "knowledge/beliefs/can-i-know-im-saved.md",
@@ -3459,6 +3645,50 @@
       "confidence": "high"
     },
     {
+      "id": "ministries.men.pursuit_group_required",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/men/faq/do-i-have-to-attend-a-pursuit-group.md",
+      "title": "Do I have to attend a Pursuit Group to participate in Men's Ministry?",
+      "summary": "No. Men can participate in Battle Ready Brotherhood events and activities whether or not they currently belong to a Pursuit Group.",
+      "content": "# Do I have to attend a Pursuit Group to participate in Men's Ministry?\n\nNo. Men are welcome to participate in breakfasts, special events, service opportunities, fellowship activities, and other Battle Ready Brotherhood events whether or not they currently belong to a Pursuit Group.",
+      "priority": 100,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "mens_ministry",
+        "pursuit_groups",
+        "participation"
+      ],
+      "tags": [
+        "Men's Ministry",
+        "Battle Ready Brotherhood",
+        "Pursuit Groups",
+        "participation"
+      ],
+      "search_terms": [
+        "Do I have to attend a Pursuit Group to participate in Men's Ministry?",
+        "Do I have to join a Pursuit Group?",
+        "Can I attend Men's Ministry without joining a group?"
+      ],
+      "ministries": [
+        "men"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "men"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "confidence": "high"
+    },
+    {
       "id": "ministries.women.membership_required",
       "record_type": "knowledge",
       "path": "knowledge/ministries/women/faq/do-i-need-to-be-a-member.md",
@@ -3497,6 +3727,50 @@
         "attendee",
         "member",
         "women"
+      ],
+      "resources": [],
+      "status": "published",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.men.membership_required",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/men/faq/do-i-need-to-be-a-member.md",
+      "title": "Do I need to be a member of Urbancrest to participate in Men's Ministry?",
+      "summary": "No. Men do not need to be Urbancrest members to participate in Battle Ready Brotherhood. Men from the community are welcome.",
+      "content": "# Do I need to be a member of Urbancrest to participate in Men's Ministry?\n\nNo. You do not need to be a church member to participate. Men from the community are welcome.",
+      "priority": 100,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "mens_ministry",
+        "membership",
+        "eligibility"
+      ],
+      "tags": [
+        "Men's Ministry",
+        "Battle Ready Brotherhood",
+        "membership",
+        "community",
+        "welcome"
+      ],
+      "search_terms": [
+        "Do I need to be a member of Urbancrest to participate in Men's Ministry?",
+        "Do I have to be a church member for Men's Ministry?",
+        "Can non-members attend Men's Ministry?",
+        "Can men from the community participate?"
+      ],
+      "ministries": [
+        "men"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "men"
       ],
       "resources": [],
       "status": "published",
@@ -3740,6 +4014,57 @@
         "women"
       ],
       "resources": [
+        "church_center.serving"
+      ],
+      "status": "published",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.men.get_involved",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/men/faq/how-do-i-get-involved.md",
+      "title": "How do I get involved with Battle Ready Brotherhood?",
+      "summary": "A man can get involved by attending a Men's Ministry event, visiting a Pursuit Group, meeting ministry leaders, and beginning to build relationships with other men who are pursuing Christ.",
+      "content": "# How do I get involved with Battle Ready Brotherhood?\n\nStart by showing up. Attend a Men's Ministry event, visit a Pursuit Group, introduce yourself to one of our leaders, and begin building relationships with other men who are pursuing Christ.",
+      "priority": 100,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "mens_ministry",
+        "battle_ready_brotherhood",
+        "get_involved",
+        "serving",
+        "small_group"
+      ],
+      "tags": [
+        "Men's Ministry",
+        "Battle Ready Brotherhood",
+        "get involved",
+        "Pursuit Groups",
+        "events",
+        "serving"
+      ],
+      "search_terms": [
+        "How do I get involved with Battle Ready Brotherhood?",
+        "How do I get involved with Men's Ministry?",
+        "How do I join Men's Ministry?",
+        "How can I meet other men at Urbancrest?"
+      ],
+      "ministries": [
+        "men"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "men"
+      ],
+      "resources": [
+        "action_link.events",
+        "church_center.small_groups",
         "church_center.serving"
       ],
       "status": "published",
@@ -4133,6 +4458,97 @@
       "confidence": "high"
     },
     {
+      "id": "ministries.men.events",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/men/faq/what-happens-at-mens-ministry-events.md",
+      "title": "What happens at Men's Ministry events?",
+      "summary": "Battle Ready Brotherhood events vary throughout the year and may include breakfasts, biblical teaching, outdoor activities, fellowship, service projects, retreats, and other opportunities for men.",
+      "content": "# What happens at Men's Ministry events?\n\nEvents vary throughout the year and may include men's breakfasts, biblical teaching, outdoor activities, fellowship, service projects, retreats, and other opportunities designed to strengthen relationships with God and with other men.",
+      "priority": 100,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "mens_ministry",
+        "mens_events",
+        "battle_ready_brotherhood"
+      ],
+      "tags": [
+        "Men's Ministry",
+        "Battle Ready Brotherhood",
+        "Men's events",
+        "breakfast",
+        "retreat",
+        "service"
+      ],
+      "search_terms": [
+        "What happens at Men's Ministry events?",
+        "What kind of events does Men's Ministry have?",
+        "What does Battle Ready Brotherhood do?",
+        "Are there Men's breakfasts?"
+      ],
+      "ministries": [
+        "men"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "men"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.men.new_here",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/men/faq/what-if-im-new.md",
+      "title": "What if I'm new to Urbancrest or don't know anyone in Men's Ministry?",
+      "summary": "New men are welcome. Battle Ready Brotherhood is designed to help men move beyond simply attending church and build strong relationships with other Christian men.",
+      "content": "# What if I'm new to Urbancrest or don't know anyone in Men's Ministry?\n\nThat is a great reason to come. One of Battle Ready Brotherhood's primary goals is helping men move beyond simply attending church to developing strong relationships with other Christian men.",
+      "priority": 100,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "mens_ministry",
+        "first_visit",
+        "connection"
+      ],
+      "tags": [
+        "Men's Ministry",
+        "Battle Ready Brotherhood",
+        "new here",
+        "connection",
+        "brotherhood"
+      ],
+      "search_terms": [
+        "What if I'm new to the church or don't know anyone?",
+        "Can I come to Men's Ministry if I don't know anyone?",
+        "Is Men's Ministry good for someone new?"
+      ],
+      "ministries": [
+        "men"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "men"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "confidence": "high"
+    },
+    {
       "id": "about.urbancrest_sports_complex.phases",
       "record_type": "knowledge",
       "path": "knowledge/about/urbancrest-sports-complex-phases.md",
@@ -4226,6 +4642,61 @@
       "answer_guidance": "Describe Legacy Builders as Urbancrest's active ministry for adults age 50 and older. Use the phrase senior adults only when it clearly refers to adults. Do not use the standalone word senior as an alias for this ministry because it can be confused with high school seniors.",
       "confidence": "high",
       "authoritative": true
+    },
+    {
+      "id": "ministries.mens_ministry",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/men/overview.md",
+      "title": "What is Men's Ministry?",
+      "summary": "Urbancrest Men's Ministry, Battle Ready Brotherhood, equips men to grow in faith, strengthen their families, build authentic brotherhood, and prepare for the spiritual battles of everyday life.",
+      "content": "# What is Men's Ministry?\n\nUrbancrest Men's Ministry, **Battle Ready Brotherhood**, exists to equip men to become the godly men God has called them to be. We want men to be strong in their faith, committed to their families, connected in authentic brotherhood, and prepared for the spiritual battles of everyday life.\n\nThrough biblical teaching, **Pursuit Groups**, fellowship, service, and accountability, men are challenged to pursue Christ together. Proverbs 27:17 reminds us, **\"As iron sharpens iron, so one man sharpens another.\"**\n\nThe goal is not simply to create more activities for men. Battle Ready Brotherhood seeks to develop **battle-ready disciples** who know their identity in Christ, live with integrity and purpose, lead and serve well, and have brothers beside them who will encourage, challenge, and stand with them.",
+      "priority": 100,
+      "category": [
+        "ministries"
+      ],
+      "intents": [
+        "ministry_info",
+        "mens_ministry",
+        "battle_ready_brotherhood",
+        "biblical_manhood"
+      ],
+      "tags": [
+        "Men's Ministry",
+        "Battle Ready Brotherhood",
+        "BRB",
+        "men",
+        "biblical manhood",
+        "brotherhood",
+        "discipleship",
+        "Pursuit Groups"
+      ],
+      "search_terms": [
+        "Men's Ministry",
+        "What is Men's Ministry?",
+        "Tell me about Men's Ministry",
+        "What is Battle Ready Brotherhood?",
+        "Battle Ready Brotherhood",
+        "BRB",
+        "What do you have for men?",
+        "What does Urbancrest offer for men?",
+        "How can men get connected at Urbancrest?"
+      ],
+      "ministries": [
+        "men"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "men"
+      ],
+      "resources": [
+        "action_link.events",
+        "church_center.small_groups",
+        "church_center.serving"
+      ],
+      "status": "published",
+      "confidence": "high"
     },
     {
       "id": "beliefs.repentance",
@@ -4632,10 +5103,10 @@
     {
       "id": "ministries.kids",
       "record_type": "knowledge",
-      "path": "knowledge/ministries/kids.md",
+      "path": "knowledge/ministries/kids/overview.md",
       "title": "What is Urbancrest Kids?",
-      "summary": "Urbancrest Kids equips families to help children become fully devoted disciples of Jesus. The Kids Ministry Director position is currently vacant, and Sarah Coleman is the recommended current point person.",
-      "content": "# What is Urbancrest Kids?\n\nUrbancrest Kids exists to equip families to become fully devoted disciples of Jesus, raising children who worship and serve with biblical authenticity and bring transformation to the home, church, and community.\n\nThe ministry emphasizes that discipleship is lived out, not only learned. Children grow through relationships with parents, leaders, and peers who model what following Jesus looks like in everyday life. Urbancrest Kids seeks to create a community where children are known, encouraged, taught God's Word, and given opportunities to have fun while growing in faith.\n\nParents are the strongest spiritual influence in a child's life, so the ministry is committed to serving, supporting, and partnering with families.\n\n## Current Leadership\n\nThe **Kids Ministry Director position is currently vacant**. **Sarah Coleman serves as Preschool Director** and is the recommended current point person for Kids Ministry questions while Urbancrest fills that leadership position. Sarah should not be described as the Kids Ministry Director.",
+      "summary": "Urbancrest Kids equips families to help children become fully devoted disciples of Jesus.",
+      "content": "# What is Urbancrest Kids?\n\nUrbancrest Kids exists to equip families to become fully devoted disciples of Jesus, raising children who worship and serve with biblical authenticity and bring transformation to the home, church, and community.\n\nThe ministry emphasizes that discipleship is lived out, not only learned. Children grow through relationships with parents, leaders, and peers who model what following Jesus looks like in everyday life. Urbancrest Kids seeks to create a community where children are known, encouraged, taught God's Word, and given opportunities to have fun while growing in faith.\n\nParents are the strongest spiritual influence in a child's life, so the ministry is committed to serving, supporting, and partnering with families.",
       "priority": 100,
       "category": [
         "ministries"
@@ -4657,7 +5128,9 @@
         "What is Urbancrest Kids?",
         "Tell me about Kids Ministry",
         "What does Urbancrest offer children?",
-        "What is the vision of Kids Ministry?"
+        "What is the vision of Kids Ministry?",
+        "What do you have for kids?",
+        "What do you have for children?"
       ],
       "ministries": [
         "kids",
@@ -4680,6 +5153,50 @@
       "leadership_status": "vacant",
       "open_role": "Kids Ministry Director",
       "review_trigger": "kids_ministry_director_hired",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.men.participation",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/men/faq/who-can-participate.md",
+      "title": "Who can participate in Battle Ready Brotherhood?",
+      "summary": "All men are welcome to participate in Urbancrest Men's Ministry, regardless of age, background, or where they are in their walk with Christ.",
+      "content": "# Who can participate in Battle Ready Brotherhood?\n\nAll men are welcome, regardless of age, background, or where they are in their walk with Christ. You do not need to have everything figured out. You just need to be willing to take the next step.",
+      "priority": 100,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "mens_ministry",
+        "battle_ready_brotherhood",
+        "eligibility"
+      ],
+      "tags": [
+        "Men's Ministry",
+        "Battle Ready Brotherhood",
+        "men",
+        "eligibility",
+        "welcome"
+      ],
+      "search_terms": [
+        "Who can participate in Battle Ready Brotherhood?",
+        "Who can attend Men's Ministry?",
+        "Who is Men's Ministry for?",
+        "Are all men welcome?"
+      ],
+      "ministries": [
+        "men"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "men"
+      ],
+      "resources": [],
+      "status": "published",
       "confidence": "high"
     },
     {
@@ -5121,7 +5638,7 @@
     {
       "id": "ministries.missions.leadership",
       "record_type": "knowledge",
-      "path": "knowledge/ministries/who-oversees-missions.md",
+      "path": "knowledge/ministries/missions/faq/who-oversees-missions.md",
       "title": "Who oversees missions?",
       "summary": "Urbancrest is searching for its next Global Missions Pastor; Jennifer Prows is the recommended current contact as Missions Administrator.",
       "content": "# Who oversees missions?\n\nUrbancrest is currently searching for its next **Global Missions Pastor**.\n\nIn the meantime, **Jennifer Prows serves as Missions Administrator** and is the recommended current contact for global missions questions, mission trips, and missions coordination.\n\nFor **local missions and community outreach**, **Darrel Schick serves as Local Missions Strategist**.\n\nJennifer should not be described as the Global Missions Pastor. Her staff card may be shown for general or global missions questions because she is the recommended current contact.",
@@ -5867,10 +6384,10 @@
     {
       "id": "ministries.students",
       "record_type": "knowledge",
-      "path": "knowledge/ministries/students.md",
+      "path": "knowledge/ministries/students/overview.md",
       "title": "What is Urbancrest Student Ministry?",
       "summary": "Urbancrest Student Ministry partners with parents to help students in grades 7 through 12 become fully devoted followers of Jesus Christ.",
-      "content": "# What is Urbancrest Student Ministry?\n\nUrbancrest Student Ministry partners with parents in leading students in grades 7 through 12 to become fully devoted followers of Jesus Christ.\n\nThe ministry creates a Christ-centered environment where students can:\n\n- Belong and build meaningful relationships\n- Study God's Word\n- Worship together\n- Serve others\n- Grow into mature disciples\n- Learn to live out and share their faith\n\nThroughout the year, students participate in weekly gatherings, small groups, discipleship opportunities, outreach events, retreats, camps, and service projects. Each part of the ministry is designed to help students know Jesus more deeply, develop biblical convictions, grow in authentic Christian community, and become disciples who make disciples.\n\nFor current events and seasonal opportunities, visit [Urbancrest Events](https://urbancrest.church/events).",
+      "content": "# What is Urbancrest Student Ministry?\n\nUrbancrest Student Ministry partners with parents in leading students in grades 7 through 12 to become fully devoted followers of Jesus Christ.\n\nThe ministry creates a Christ-centered environment where students can:\n\n- Belong and build strong relationships\n- Study God's Word\n- Worship together\n- Serve others\n- Grow into mature disciples\n- Learn to live out and share their faith\n\nThroughout the year, students participate in weekly gatherings, small groups, discipleship opportunities, outreach events, retreats, camps, and service projects. Each part of the ministry is designed to help students know Jesus more deeply, develop biblical convictions, grow in authentic Christian community, and become disciples who make disciples.",
       "priority": 95,
       "category": [
         "ministries"
@@ -5891,6 +6408,8 @@
         "What is Student Ministry?",
         "Tell me about youth ministry",
         "What does Urbancrest offer for teenagers?",
+        "What do you have for students?",
+        "What do you have for teenagers?",
         "Student Ministry overview"
       ],
       "ministries": [
@@ -5912,7 +6431,7 @@
     {
       "id": "ministries.worship",
       "record_type": "knowledge",
-      "path": "knowledge/ministries/worship.md",
+      "path": "knowledge/ministries/worship/overview.md",
       "title": "What is Urbancrest Worship Ministry?",
       "summary": "Urbancrest Worship Ministry helps the church respond to God through Christ-centered, Scripture-shaped congregational worship.",
       "content": "# What is Urbancrest Worship Ministry?\n\nAt Urbancrest, worship is more than music. It is the joyful response of God's people to who God is and what He has done through Jesus Christ.\n\nEvery worship service is intentionally planned to help the church:\n\n- See the greatness of God\n- Celebrate the hope of the gospel\n- Respond to God's Word with faith and obedience\n- Worship together through singing, prayer, Scripture, and preaching\n\nThe Worship Ministry exists to exalt Christ and help the congregation worship Him together.",
@@ -6670,7 +7189,7 @@
     {
       "id": "ministries.guest_services",
       "record_type": "knowledge",
-      "path": "knowledge/ministries/guest-services.md",
+      "path": "knowledge/ministries/guest-services/overview.md",
       "title": "What is Guest Services?",
       "summary": "Guest Services helps create a welcoming, helpful environment for everyone who comes to worship at Urbancrest.",
       "content": "# What is Guest Services?\n\nThe Guest Services team is dedicated to creating a welcoming environment for everyone who comes to worship at Urbancrest. The team helps guests and members feel valued, comfortable, and supported throughout their visit.\n\nGuest Services team members can assist with directions, seating, accessibility needs, and general questions.\n\n[Plan Your Visit](https://urbancrest.church/plan-a-visit)",
@@ -7036,10 +7555,10 @@
     {
       "id": "ministries.missions",
       "record_type": "knowledge",
-      "path": "knowledge/ministries/missions.md",
+      "path": "knowledge/ministries/missions/overview.md",
       "title": "What is Missions?",
-      "summary": "Urbancrest engages in local and global missions and is currently searching for its next Global Missions Pastor.",
-      "content": "# What is Missions?\n\n## Short Answer\n\nUrbancrest helps people live on mission through local and global mission engagement.\n\nUrbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the recommended current contact for global missions questions, mission trips, and missions coordination.\n\nFor local missions and community outreach, Darrel Schick serves as Local Missions Strategist.\n\n## Current Leadership Context\n\nJennifer should be described as the **Missions Administrator**, not the Global Missions Pastor. She is the recommended contact while the church searches for its next Global Missions Pastor.\n\nDarrel is the primary contact for local missions and community outreach.\n\n## Urbancrest Information\n\nCurrent schedules, trip details, event information, and registration availability should come from verified Urbancrest sources.\n\n## Next Step\n\nComplete the Serving or Volunteer Interest Form to ask about getting involved in missions.",
+      "summary": "Urbancrest helps people live on mission through local and global mission engagement.",
+      "content": "# What is Missions?\n\nUrbancrest helps people live on mission through both local and global mission engagement.\n\nGlobal missions creates opportunities for people to participate in mission trips, support mission work, and serve beyond the local community. Local Missions focuses on practical outreach and serving people in and around Lebanon.\n\nWhether the opportunity is across the street or around the world, the goal is to help people faithfully take the gospel to others and serve in Jesus' name.",
       "priority": 90,
       "category": [
         "ministries"
@@ -7088,7 +7607,7 @@
     {
       "id": "ministries.production",
       "record_type": "knowledge",
-      "path": "knowledge/ministries/production.md",
+      "path": "knowledge/ministries/production/overview.md",
       "title": "What is Production Ministry?",
       "summary": "Production Ministry serves people interested in audio, video, lighting, livestream, and service technology and supports Urbancrest's mission.",
       "content": "# What is Production Ministry?\n\n## Short Answer\n\nProduction Ministry is Urbancrest's ministry for people interested in audio, video, lighting, livestream, and service technology.\n\n## Detailed Answer\n\nThe ministry helps people connect, grow, serve, and live on mission in ways appropriate to its audience and purpose. Current schedules, age ranges, locations, and event details should come from verified Urbancrest sources.\n\n## Urbancrest Information\n\nThis article intentionally avoids unverified schedules or contact details.\n\n## Next Step\n\nComplete the Serving or Volunteer Interest Form to ask about getting involved.",
@@ -7169,7 +7688,7 @@
     {
       "id": "ministries.mens_summit",
       "record_type": "knowledge",
-      "path": "knowledge/ministries/mens-summit.md",
+      "path": "knowledge/ministries/men/programs/mens-summit.md",
       "title": "What is the Men's Summit?",
       "summary": "The Men's Summit is an annual late-January event that helps men grow spiritually, understand biblical manhood, and live it out.",
       "content": "# What is the Men's Summit?\n\nThe Men's Summit grew from a desire to help men grow spiritually, understand biblical manhood, and live it out in today's world.\n\nThe first Summit was held in **2005** and welcomed 250 men. It has since grown to reach nearly **1,000 men** and has represented more than **260 churches** from many denominations over the years. Men travel from across Ohio and several surrounding states to attend, and the event has welcomed many nationally recognized speakers.\n\nThe Men's Summit is held each year in **late January**. Current dates, speakers, and registration details are available on [Urbancrest Events](https://urbancrest.church/events).",
@@ -7212,7 +7731,7 @@
     {
       "id": "ministries.golf_classic",
       "record_type": "knowledge",
-      "path": "knowledge/ministries/urbancrest-golf-classic.md",
+      "path": "knowledge/ministries/golf-classic/overview.md",
       "title": "What is the Urbancrest Golf Classic?",
       "summary": "The Urbancrest Golf Classic is an annual late-August four-person scramble that raises support for one of three ministry partners.",
       "content": "# What is the Urbancrest Golf Classic?\n\nThe Urbancrest Golf Classic began in **1999** and is held each year in **late August**. It is a four-person scramble tournament that raises funds for a ministry partner sharing the love of Jesus Christ.\n\nThe supported ministry rotates among three partner organizations:\n\n- **You Turn Ministries**, which shares the gospel, equips leaders, and meets tangible needs in southeast Africa\n- **Caring Partners International**, which equips churches to use healthcare to share the gospel\n- **A Child's Hope International**, which mobilizes churches and communities to care for orphans and vulnerable children\n\nCurrent tournament dates and registration details are available on [Urbancrest Events](https://urbancrest.church/events).",
@@ -7256,7 +7775,7 @@
     {
       "id": "ministries.womens_ministry",
       "record_type": "knowledge",
-      "path": "knowledge/ministries/womens-ministry.md",
+      "path": "knowledge/ministries/women/overview.md",
       "title": "What is Women's Ministry?",
       "summary": "Urbancrest Women's Ministry helps women build meaningful connections with one another and deepen their relationship with Jesus through engaging events and gatherings.",
       "content": "# What is Women's Ministry?\n\nUrbancrest Women's Ministry exists to help women build meaningful connections with one another and deepen their relationship with Jesus. Through engaging events and opportunities to gather together, we seek to create an environment where every woman feels supported, encouraged, and equipped to grow in her faith.",
@@ -16897,7 +17416,7 @@
     {
       "id": "ministries.care_and_prayer",
       "record_type": "knowledge",
-      "path": "knowledge/ministries/care-and-prayer.md",
+      "path": "knowledge/ministries/care-and-prayer/overview.md",
       "title": "What is Care and Prayer?",
       "summary": "Care and Prayer serves people seeking prayer, encouragement, or pastoral care and supports Urbancrest's mission.",
       "content": "# What is Care and Prayer?\n\n## Short Answer\n\nCare and Prayer is Urbancrest's ministry for people seeking prayer, encouragement, or pastoral care.\n\n## Detailed Answer\n\nThe ministry helps people connect, grow, serve, and live on mission in ways appropriate to its audience and purpose. Current schedules, age ranges, locations, and event details should come from verified Urbancrest sources.\n\n## Urbancrest Information\n\nThis article intentionally avoids unverified schedules or contact details.\n\n## Next Step\n\nSubmit a prayer request through the Connect Card.",
@@ -16928,42 +17447,9 @@
       "confidence": "high"
     },
     {
-      "id": "ministries.mens_ministry",
-      "record_type": "knowledge",
-      "path": "knowledge/ministries/mens-ministry.md",
-      "title": "What is Men's Ministry?",
-      "summary": "Men's Ministry serves men and supports Urbancrest's mission.",
-      "content": "# What is Men's Ministry?\n\n## Short Answer\n\nMen's Ministry is Urbancrest's ministry for men.\n\n## Detailed Answer\n\nThe ministry helps people connect, grow, serve, and live on mission in ways appropriate to its audience and purpose. Current schedules, age ranges, locations, and event details should come from verified Urbancrest sources.\n\n## Urbancrest Information\n\nThis article intentionally avoids unverified schedules or contact details.\n\n## Next Step\n\nComplete the Serving or Volunteer Interest Form to ask about getting involved.",
-      "priority": 65,
-      "category": [
-        "ministries"
-      ],
-      "intents": [
-        "ministry_info"
-      ],
-      "tags": [
-        "ministry",
-        "Men's Ministry"
-      ],
-      "search_terms": [
-        "Men's Ministry",
-        "How do I join Men's Ministry?"
-      ],
-      "ministries": [],
-      "audiences": [
-        "visitor",
-        "attendee"
-      ],
-      "resources": [
-        "church_center.serving"
-      ],
-      "status": "published",
-      "confidence": "high"
-    },
-    {
       "id": "ministries.small_groups",
       "record_type": "knowledge",
-      "path": "knowledge/ministries/small-groups.md",
+      "path": "knowledge/ministries/small-groups/overview.md",
       "title": "What is Small Groups?",
       "summary": "Small Groups serves adults seeking biblical community and supports Urbancrest's mission.",
       "content": "# What is Small Groups?\n\n## Short Answer\n\nSmall Groups is Urbancrest's ministry for adults seeking biblical community.\n\n## Detailed Answer\n\nThe ministry helps people connect, grow, serve, and live on mission in ways appropriate to its audience and purpose. Current schedules, age ranges, locations, and event details should come from verified Urbancrest sources.\n\n## Urbancrest Information\n\nThis article intentionally avoids unverified schedules or contact details.\n\n## Next Step\n\nUse the official Small Groups directory.",
@@ -21883,6 +22369,23 @@
       "knowledge_file": "knowledge/events/generated/2026-09-17-open-gym-pickleball-556aa9.md",
       "chronological_rank": 33,
       "routine_schedule_occurrence": false
+    },
+    {
+      "id": "knowledge/ministries/README.md",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/README.md",
+      "title": "Readme",
+      "summary": "",
+      "content": "# Ministry Knowledge Structure\n\nEach canonical ministry should live in its own folder. The canonical entry point is always `overview.md`.\n\n## Standard layout\n\n```text\nknowledge/ministries/\n  <ministry-slug>/\n    overview.md\n    faq/\n      <question>.md\n    programs/\n      <evergreen-program>.md\n```\n\nExamples:\n\n```text\nmen/\n  overview.md\n  faq/\n  programs/\n\nwomen/\n  overview.md\n  faq/\n\nkids/\n  overview.md\n  faq/\n\nstudents/\n  overview.md\n  faq/\n```\n\n## File paths are not record identity\n\nThe frontmatter `id` is the stable record identity. Moving a file must **not** change its canonical ID merely because its path changes.\n\nFor example:\n\n```yaml\n# knowledge/ministries/men/overview.md\nid: ministries.mens_ministry\n```\n\n## Overview documents\n\nEvery canonical overview should contain:\n\n- stable `id`\n- `version`\n- `status: published`\n- `priority`\n- visitor-facing `title`\n- concise `summary`\n- `category: [ministries]`\n- `intent.primary: ministry_info`\n- ministry-specific secondary intents\n- audience\n- `owner.ministry`\n- focused tags and natural search terms\n- canonical `ministries`\n- approved resources\n- related record IDs when useful\n- `last_updated`\n\nThe body should explain:\n\n1. what the ministry is,\n2. who it serves,\n3. its purpose and vision,\n4. its primary pathways or activities.\n\nDo not put internal routing instructions, selection rules, or staff-description warnings in public article bodies.\n\n## FAQs\n\nUse `faq/` for direct question-and-answer records. One file should answer one question.\n\nKeep the ministry's canonical intent as a secondary intent when the FAQ has a more specific primary intent such as `small_groups`, `serving`, `registration`, or `ministry_contact`.\n\n## Programs\n\nUse `programs/` for evergreen ministry-specific programs that are more substantial than a FAQ but are not the ministry overview itself.\n\nDo not hardcode current event dates in these files. Live dates belong in the live event registry.\n\n## Leadership\n\nLeadership ownership, vacancies, and current points of contact belong primarily in `relationships/ministry-staff.yaml` and structured frontmatter. Broad ministry overview bodies should focus on the ministry itself.\n\nQuestions such as `Who leads Kids Ministry?` should use the ownership relationship rather than relying on prose in the overview.\n\n## Events\n\nBroad ministry answers may combine the canonical overview with deterministic live-ev...",
+      "priority": 50,
+      "category": [],
+      "intents": [],
+      "tags": [],
+      "search_terms": [],
+      "ministries": [],
+      "audiences": [],
+      "resources": [],
+      "status": "published"
     },
     {
       "id": "events.live.event-fa5c7d47754475b5",
