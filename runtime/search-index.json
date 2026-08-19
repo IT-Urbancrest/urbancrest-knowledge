@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.9.7",
-  "generated_at": "2026-08-19T16:03:28.116053Z",
+  "generated_at": "2026-08-19T17:43:35.557737Z",
   "timezone": "America/New_York",
   "record_count": 423,
   "config": {
@@ -1286,6 +1286,86 @@
       "confidence": "high"
     },
     {
+      "id": "beliefs.assurance",
+      "record_type": "knowledge",
+      "path": "knowledge/beliefs/can-i-know-im-saved.md",
+      "title": "Can I know that I am saved?",
+      "summary": "Yes. Believers can have assurance by trusting Christ and His promises.",
+      "content": "# Can I know that I am saved?\n\n## Short Answer\n\n**Yes.** Believers can have assurance by trusting Christ and His promises.\n\n## How Can I Know\n\nYou can have assurance by trusting Christ and His promises. Assurance does not come from being perfect. It grows through faith in the finished work of Jesus, the witness of the Holy Spirit, and the fruit God produces in a believer's life.\n\n## Detailed Answer\n\nAssurance does not come from being perfect. It grows through faith in the finished work of Jesus, the witness of the Holy Spirit, and the fruit God produces in a believer's life.",
+      "priority": 110,
+      "category": [
+        "beliefs"
+      ],
+      "intents": [
+        "salvation",
+        "assurance"
+      ],
+      "tags": [
+        "gospel",
+        "faith",
+        "salvation",
+        "assurance"
+      ],
+      "search_terms": [
+        "Can I know that I am saved?",
+        "How can I know I am saved?",
+        "How do I know if I am saved?",
+        "Can I have assurance of salvation?",
+        "Am I really saved?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "seeker",
+        "believer"
+      ],
+      "resources": [
+        "church_center.connect_card"
+      ],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
+      "id": "beliefs.eternal-security",
+      "record_type": "knowledge",
+      "path": "knowledge/beliefs/can-i-lose-my-salvation.md",
+      "title": "Can I lose my salvation?",
+      "summary": "No. Everyone who has truly been saved by Christ is kept by God's power and will persevere in faith.",
+      "content": "# Can I lose my salvation?\n\n## Short Answer\n\n**No.** Everyone who has truly been saved by Christ is kept by God's power and will persevere in faith.\n\n## Detailed Answer\n\nA genuine believer may struggle or wander, but God disciplines, restores, and preserves His children. Eternal security is not permission to live in unrepentant sin.",
+      "priority": 110,
+      "category": [
+        "beliefs"
+      ],
+      "intents": [
+        "salvation",
+        "eternal_security"
+      ],
+      "tags": [
+        "gospel",
+        "faith",
+        "salvation",
+        "eternal security"
+      ],
+      "search_terms": [
+        "Can I lose my salvation?",
+        "Can I lose my faith and still be saved?",
+        "Once saved always saved",
+        "What is eternal security?",
+        "Can a Christian lose salvation?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "seeker",
+        "believer"
+      ],
+      "resources": [
+        "church_center.connect_card"
+      ],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
       "id": "ministries.stephen_ministry.sunday_availability",
       "record_type": "knowledge",
       "path": "knowledge/ministries/stephen-ministry/sunday-availability.md",
@@ -1382,6 +1462,46 @@
       "confidence": "high"
     },
     {
+      "id": "beliefs.salvation.get-saved",
+      "record_type": "knowledge",
+      "path": "knowledge/beliefs/how-do-i-get-saved.md",
+      "title": "How do I get saved?",
+      "summary": "Turn from sin and trust in Jesus Christ as Lord and Savior.",
+      "content": "# How do I get saved?\n\n## Short Answer\n\nTurn from sin and trust in Jesus Christ as Lord and Savior.\n\n## Detailed Answer\n\nEveryone has sinned and cannot earn salvation. Jesus died for sinners and rose again. God saves everyone who repents and places faith in Christ. Salvation is a gift of grace, not a reward for good works.",
+      "priority": 110,
+      "category": [
+        "beliefs"
+      ],
+      "intents": [
+        "salvation",
+        "gospel"
+      ],
+      "tags": [
+        "gospel",
+        "faith",
+        "salvation"
+      ],
+      "search_terms": [
+        "How do I get saved?",
+        "How can I be saved?",
+        "What must I do to be saved?",
+        "How do I become a Christian?",
+        "I want to follow Jesus",
+        "How do I trust Jesus?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "seeker",
+        "believer"
+      ],
+      "resources": [
+        "church_center.connect_card"
+      ],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
       "id": "ministries.legacy_builders.laundry_ministry",
       "record_type": "knowledge",
       "path": "knowledge/ministries/legacy-builders/laundry-ministry.md",
@@ -1473,6 +1593,47 @@
       "authoritative": true
     },
     {
+      "id": "beliefs.baptism.again",
+      "record_type": "knowledge",
+      "path": "knowledge/beliefs/should-i-get-baptized-again.md",
+      "title": "Should I get baptized again?",
+      "summary": "A person should consider baptism if a previous baptism happened before personal faith in Jesus or did not reflect believer's baptism.",
+      "content": "# Should I get baptized again?\n\n## Short Answer\n\nA person should consider baptism if a previous baptism happened before personal faith in Jesus or did not reflect believer's baptism.\n\n## Detailed Answer\n\nThe key question is whether the earlier baptism followed a genuine profession of faith in Christ. If you were baptized before personally trusting Jesus, including as an infant, believer's baptism would be an appropriate next step. A pastor can help you think through your situation biblically.",
+      "priority": 110,
+      "category": [
+        "beliefs"
+      ],
+      "intents": [
+        "baptism",
+        "beliefs"
+      ],
+      "tags": [
+        "gospel",
+        "faith",
+        "baptism",
+        "believer's baptism"
+      ],
+      "search_terms": [
+        "Should I get baptized again?",
+        "I was baptized as a baby",
+        "I was baptized before I was saved",
+        "Do I need to be rebaptized?",
+        "Does infant baptism count?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "seeker",
+        "believer"
+      ],
+      "resources": [
+        "church_center.connect_card",
+        "church_center.baptism"
+      ],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
       "id": "about.sunday.worship",
       "record_type": "knowledge",
       "path": "knowledge/about/sunday-worship.md",
@@ -1513,6 +1674,51 @@
       "authoritative_for": [
         "sunday_service_times"
       ]
+    },
+    {
+      "id": "beliefs.baptism.meaning",
+      "record_type": "knowledge",
+      "path": "knowledge/beliefs/what-does-baptism-mean.md",
+      "title": "What does baptism mean?",
+      "summary": "Baptism is a public declaration that a believer belongs to Jesus.",
+      "content": "# What does baptism mean?\n\n## Short Answer\n\nBaptism is a public declaration that a believer belongs to Jesus.\n\n## Who Should Be Baptized\n\nBaptism is for someone who has personally trusted in Jesus Christ. It follows salvation as an act of obedience and a public declaration of faith.\n\n## Does Baptism Save\n\n**No.** Baptism does not cause salvation. It follows salvation and publicly identifies a believer with Jesus.\n\n## Why Immersion\n\nUrbancrest practices baptism by immersion. Immersion pictures the believer's union with Christ in His death, burial, and resurrection.\n\n## Detailed Answer\n\nBaptism is a public declaration that a believer belongs to Jesus. Immersion pictures the believer's union with Christ in His death, burial, and resurrection. Baptism follows salvation and does not cause salvation.",
+      "priority": 110,
+      "category": [
+        "beliefs"
+      ],
+      "intents": [
+        "baptism",
+        "beliefs"
+      ],
+      "tags": [
+        "gospel",
+        "faith",
+        "baptism",
+        "believer's baptism",
+        "immersion"
+      ],
+      "search_terms": [
+        "What does baptism mean?",
+        "What is baptism?",
+        "Who should be baptized?",
+        "Should I get baptized?",
+        "Does baptism save you?",
+        "Do I need baptism to be saved?",
+        "Why does Urbancrest baptize by immersion?",
+        "How does Urbancrest baptize?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "seeker",
+        "believer"
+      ],
+      "resources": [
+        "church_center.connect_card",
+        "church_center.baptism"
+      ],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
     },
     {
       "id": "ministries.legacy_builders.bears",
@@ -3488,70 +3694,6 @@
       "confidence": "high"
     },
     {
-      "id": "beliefs.assurance",
-      "record_type": "knowledge",
-      "path": "knowledge/beliefs/can-i-know-im-saved.md",
-      "title": "Can I know that I am saved?",
-      "summary": "Yes. Believers can have assurance by trusting Christ and His promises.",
-      "content": "# Can I know that I am saved?\n\n## Short Answer\n\nYes. Believers can have assurance by trusting Christ and His promises.\n\n## Detailed Answer\n\nAssurance does not come from being perfect. It grows through faith in the finished work of Jesus, the witness of the Holy Spirit, and the fruit God produces in a believer's life.\n\n## Urbancrest Information\n\nUrbancrest is ready to help you talk through questions about faith and following Jesus.\n\n## Next Step\n\nComplete the Connect Card to ask a question or request a conversation with a pastor.",
-      "priority": 100,
-      "category": [
-        "beliefs"
-      ],
-      "intents": [
-        "salvation"
-      ],
-      "tags": [
-        "gospel",
-        "faith"
-      ],
-      "search_terms": [
-        "Can I know that I am saved?"
-      ],
-      "ministries": [],
-      "audiences": [
-        "seeker",
-        "believer"
-      ],
-      "resources": [
-        "church_center.connect_card"
-      ],
-      "status": "published",
-      "confidence": "high"
-    },
-    {
-      "id": "beliefs.eternal-security",
-      "record_type": "knowledge",
-      "path": "knowledge/beliefs/can-i-lose-my-salvation.md",
-      "title": "Can I lose my salvation?",
-      "summary": "Everyone who has truly been saved by Christ is kept by God's power and will persevere in faith.",
-      "content": "# Can I lose my salvation?\n\n## Short Answer\n\nEveryone who has truly been saved by Christ is kept by God's power and will persevere in faith.\n\n## Detailed Answer\n\nA genuine believer may struggle or wander, but God disciplines, restores, and preserves His children. Eternal security is not permission to live in unrepentant sin.\n\n## Urbancrest Information\n\nUrbancrest is ready to help you talk through questions about faith and following Jesus.\n\n## Next Step\n\nComplete the Connect Card to ask a question or request a conversation with a pastor.",
-      "priority": 100,
-      "category": [
-        "beliefs"
-      ],
-      "intents": [
-        "baptism"
-      ],
-      "tags": [
-        "gospel",
-        "faith"
-      ],
-      "search_terms": [
-        "Can I lose my salvation?"
-      ],
-      "ministries": [],
-      "audiences": [
-        "seeker",
-        "believer"
-      ],
-      "resources": [
-        "church_center.connect_card"
-      ],
-      "status": "published",
-      "confidence": "high"
-    },
-    {
       "id": "ministries.nursery.both_services",
       "record_type": "knowledge",
       "path": "knowledge/ministries/nursery/faq/can-my-child-stay-for-both-sunday-services.md",
@@ -4071,38 +4213,6 @@
       "confidence": "high"
     },
     {
-      "id": "beliefs.salvation.get-saved",
-      "record_type": "knowledge",
-      "path": "knowledge/beliefs/how-do-i-get-saved.md",
-      "title": "How do I get saved?",
-      "summary": "Turn from sin and trust in Jesus Christ as Lord and Savior.",
-      "content": "# How do I get saved?\n\n## Short Answer\n\nTurn from sin and trust in Jesus Christ as Lord and Savior.\n\n## Detailed Answer\n\nEveryone has sinned and cannot earn salvation. Jesus died for sinners and rose again. God saves everyone who repents and places faith in Christ. Salvation is a gift of grace, not a reward for good works.\n\n## Urbancrest Information\n\nUrbancrest is ready to help you talk through questions about faith and following Jesus.\n\n## Next Step\n\nComplete the Connect Card to ask a question or request a conversation with a pastor.",
-      "priority": 100,
-      "category": [
-        "beliefs"
-      ],
-      "intents": [
-        "salvation"
-      ],
-      "tags": [
-        "gospel",
-        "faith"
-      ],
-      "search_terms": [
-        "How do I get saved?"
-      ],
-      "ministries": [],
-      "audiences": [
-        "seeker",
-        "believer"
-      ],
-      "resources": [
-        "church_center.connect_card"
-      ],
-      "status": "published",
-      "confidence": "high"
-    },
-    {
       "id": "ministries.women.small_groups",
       "record_type": "knowledge",
       "path": "knowledge/ministries/women/faq/how-do-i-join-a-small-group-or-bible-study.md",
@@ -4286,39 +4396,6 @@
       "confidence": "high"
     },
     {
-      "id": "beliefs.baptism.again",
-      "record_type": "knowledge",
-      "path": "knowledge/beliefs/should-i-get-baptized-again.md",
-      "title": "Should I get baptized again?",
-      "summary": "A person should consider baptism if a previous baptism happened before personal faith in Jesus or did not reflect believer's baptism.",
-      "content": "# Should I get baptized again?\n\n## Short Answer\n\nA person should consider baptism if a previous baptism happened before personal faith in Jesus or did not reflect believer's baptism.\n\n## Detailed Answer\n\nThe key question is whether the earlier baptism followed a genuine profession of faith in Christ. A pastor can help you think through your situation biblically.\n\n## Urbancrest Information\n\nUrbancrest is ready to help you talk through questions about faith and following Jesus.\n\n## Next Step\n\nComplete the Connect Card to ask a question or request a conversation with a pastor.",
-      "priority": 100,
-      "category": [
-        "beliefs"
-      ],
-      "intents": [
-        "baptism"
-      ],
-      "tags": [
-        "gospel",
-        "faith"
-      ],
-      "search_terms": [
-        "Should I get baptized again?"
-      ],
-      "ministries": [],
-      "audiences": [
-        "seeker",
-        "believer"
-      ],
-      "resources": [
-        "church_center.connect_card",
-        "church_center.baptism"
-      ],
-      "status": "published",
-      "confidence": "high"
-    },
-    {
       "id": "ministries.legacy_builders.special_events",
       "record_type": "knowledge",
       "path": "knowledge/ministries/legacy-builders/special-events.md",
@@ -4425,37 +4502,86 @@
       ]
     },
     {
-      "id": "beliefs.baptism.meaning",
+      "id": "beliefs.salvation",
       "record_type": "knowledge",
-      "path": "knowledge/beliefs/what-does-baptism-mean.md",
-      "title": "What does baptism mean?",
-      "summary": "Baptism is a public declaration that a believer belongs to Jesus.",
-      "content": "# What does baptism mean?\n\n## Short Answer\n\nBaptism is a public declaration that a believer belongs to Jesus.\n\n## Detailed Answer\n\nImmersion pictures the believer's union with Christ in His death, burial, and resurrection. Baptism follows salvation and does not cause salvation.\n\n## Urbancrest Information\n\nUrbancrest is ready to help you talk through questions about faith and following Jesus.\n\n## Next Step\n\nComplete the Connect Card to ask a question or request a conversation with a pastor.",
+      "path": "knowledge/beliefs/salvation.md",
+      "title": "What does Urbancrest believe about salvation?",
+      "summary": "Salvation is God's gift of grace received through repentance and faith in Jesus Christ.",
+      "content": "# What does Urbancrest believe about salvation?\n\n## Short Answer\n\nSalvation is God's gift of grace received through repentance and faith in Jesus Christ.\n\n## Salvation Is By Grace\n\nSalvation is a gift of God's grace. It cannot be earned through good works, religious activity, or personal effort.\n\n## Repentance and Faith\n\nJesus lived without sin, died for sinners, and rose from the dead. Anyone who turns from sin and trusts Him is forgiven, made new, and reconciled to God.\n\n## Good Works Do Not Save\n\n**No.** Good works cannot earn salvation. Salvation is received by grace through faith in Jesus Christ.\n\n## Detailed Answer\n\nJesus lived without sin, died for sinners, and rose from the dead. Anyone who turns from sin and trusts Him is forgiven, made new, and reconciled to God. Salvation is God's gift, not something we earn.",
       "priority": 100,
       "category": [
         "beliefs"
       ],
       "intents": [
-        "baptism"
+        "beliefs",
+        "salvation"
       ],
       "tags": [
-        "gospel",
+        "beliefs",
+        "doctrine",
+        "salvation",
+        "grace",
         "faith"
       ],
       "search_terms": [
-        "What does baptism mean?"
+        "What does Urbancrest believe about salvation?",
+        "What is salvation?",
+        "How are we saved?",
+        "Is salvation by grace?",
+        "Can good works save me?",
+        "Can I earn salvation?"
       ],
       "ministries": [],
       "audiences": [
-        "seeker",
-        "believer"
+        "everyone"
       ],
       "resources": [
-        "church_center.connect_card",
-        "church_center.baptism"
+        "church_center.connect_card"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
+      "id": "beliefs.stewardship",
+      "record_type": "knowledge",
+      "path": "knowledge/beliefs/stewardship.md",
+      "title": "What does Urbancrest believe about stewardship?",
+      "summary": "Everything belongs to God, and Christians should faithfully use their time, abilities, possessions, and finances for His glory.",
+      "content": "# What does Urbancrest believe about stewardship?\n\n## Short Answer\n\nEverything belongs to God, and Christians should faithfully use their time, abilities, possessions, and finances for His glory.\n\n## What Stewardship Includes\n\nStewardship is about more than money. Christians are called to faithfully use their **time, abilities, possessions, and finances** for God's glory.\n\n## How Christians Should Give\n\nGiving should be **willing, generous, and joyful**, not driven by pressure or obligation.\n\n## Why Giving Matters\n\nFaithful giving supports the church's ministry, care for others, and the spread of the gospel.\n\n## Detailed Answer\n\nEverything belongs to God. Christians should faithfully use what He has entrusted to them for His glory. Giving should be willing, generous, and joyful, supporting ministry, care for others, and the spread of the gospel.",
+      "priority": 100,
+      "category": [
+        "beliefs"
+      ],
+      "intents": [
+        "beliefs",
+        "stewardship"
+      ],
+      "tags": [
+        "beliefs",
+        "doctrine",
+        "stewardship",
+        "giving",
+        "generosity"
+      ],
+      "search_terms": [
+        "What does Urbancrest believe about stewardship?",
+        "What does Urbancrest believe about giving?",
+        "What is stewardship?",
+        "Why should Christians give?",
+        "How should Christians give?",
+        "Is stewardship only about money?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "church_center.giving"
+      ],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
     },
     {
       "id": "beliefs.lords_supper",
@@ -4463,7 +4589,7 @@
       "path": "knowledge/beliefs/lords-supper.md",
       "title": "What does Urbancrest believe about the Lord's Supper?",
       "summary": "Urbancrest practices close communion. The Lord's Supper is for baptized followers of Jesus, and church membership is not required.",
-      "content": "# What does Urbancrest believe about the Lord's Supper?\n\n## Short Answer\n\nThe Lord's Supper, also called Communion, is an ordinance given by Jesus in which believers remember His sacrifice and proclaim His death until He returns.\n\n## Detailed Answer\n\nUrbancrest practices **close communion**. The Lord's Supper is for those who have trusted in Jesus Christ for salvation and have followed Him in believer's baptism.\n\n**You do not need to be a member of Urbancrest to participate.**\n\nIf you have not yet trusted Christ or have not yet been baptized, we ask that you refrain from taking the elements.\n\nWe understand the Lord's Supper as an ordinance for baptized followers of Jesus. Participating is an opportunity for believers to remember Christ's sacrifice, examine themselves, and proclaim the gospel together.",
+      "content": "# What does Urbancrest believe about the Lord's Supper?\n\n## Short Answer\n\nThe Lord's Supper, also called Communion, is an ordinance given by Jesus in which believers remember His sacrifice and proclaim His death until He returns.\n\n## Who May Participate\n\nCommunion at Urbancrest is for **baptized followers of Jesus**. You do not need to be a member of Urbancrest to participate.\n\n## Baptism\n\n**Yes.** Urbancrest practices close communion, so we ask that those participating in the Lord's Supper have trusted in Jesus and followed Him in believer's baptism. Church membership is not required.\n\n## If You Have Not Been Baptized\n\nWe ask that you **wait to participate until after believer's baptism**. Urbancrest practices close communion, which means the Lord's Supper is for baptized followers of Jesus.\n\n## Church Membership\n\n**No.** You do not need to be a member of Urbancrest to participate in Communion. If you are a follower of Jesus and have been baptized, you are welcome to participate in the Lord's Supper.\n\n## Visitors and Guests\n\n**Yes.** Visitors and guests are welcome to participate if they are followers of Jesus who have been baptized. You do not need to be an Urbancrest member.\n\n## What Close Communion Means\n\n**Close communion** means Urbancrest invites baptized followers of Jesus to participate in the Lord's Supper. Participation is not limited to Urbancrest members.\n\n## Open, Close, and Closed Communion\n\nUrbancrest practices **close communion**. We ask participants to be followers of Jesus who have been baptized, but we do not require them to be members of Urbancrest.\n\n## Detailed Answer\n\nUrbancrest practices **close communion**. The Lord's Supper is for those who have trusted in Jesus Christ for salvation and have followed Him in believer's baptism.\n\nChurch membership at Urbancrest is not required.\n\nIf you have not yet trusted Christ or have not yet been baptized, we ask that you refrain from taking the elements. Participating in the Lord's Supper is an opportunity for believers to remember Christ's sacrifice, examine themselves, and proclaim the gospel together.",
       "priority": 100,
       "category": [
         "beliefs"
@@ -4484,6 +4610,8 @@
       "search_terms": [
         "What does Urbancrest believe about the Lord's Supper?",
         "What does Urbancrest believe about communion?",
+        "Communion",
+        "Lord's Supper",
         "What is communion?",
         "What is the Lord's Supper?",
         "Who can take communion?",
@@ -4494,6 +4622,7 @@
         "Can non-members take communion?",
         "Do I have to be baptized to take communion?",
         "Can I take communion if I have not been baptized?",
+        "Can I take communion if I haven't been baptized?",
         "Who is allowed to take the Lord's Supper?",
         "What is close communion?",
         "Does Urbancrest practice close communion?",
@@ -10004,68 +10133,6 @@
       ],
       "search_terms": [
         "What does Urbancrest believe about religious liberty?"
-      ],
-      "ministries": [],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [
-        "church_center.connect_card"
-      ],
-      "status": "published",
-      "confidence": "high"
-    },
-    {
-      "id": "beliefs.salvation",
-      "record_type": "knowledge",
-      "path": "knowledge/beliefs/salvation.md",
-      "title": "What does Urbancrest believe about salvation?",
-      "summary": "Salvation is God's gift of grace received through repentance and faith in Jesus Christ.",
-      "content": "# What does Urbancrest believe about salvation?\n\n## Short Answer\n\nSalvation is God's gift of grace received through repentance and faith in Jesus Christ.\n\n## Detailed Answer\n\nJesus lived without sin, died for sinners, and rose from the dead. Anyone who turns from sin and trusts Him is forgiven, made new, and reconciled to God.\n\n## Urbancrest Information\n\nUrbancrest's doctrinal framework is consistent with the Baptist Faith and Message 2000. Scripture remains the final authority.\n\n## Next Step\n\nComplete the Connect Card if you would like to talk with a pastor about this belief.",
-      "priority": 85,
-      "category": [
-        "beliefs"
-      ],
-      "intents": [
-        "beliefs"
-      ],
-      "tags": [
-        "beliefs",
-        "doctrine"
-      ],
-      "search_terms": [
-        "What does Urbancrest believe about salvation?"
-      ],
-      "ministries": [],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [
-        "church_center.connect_card"
-      ],
-      "status": "published",
-      "confidence": "high"
-    },
-    {
-      "id": "beliefs.stewardship",
-      "record_type": "knowledge",
-      "path": "knowledge/beliefs/stewardship.md",
-      "title": "What does Urbancrest believe about stewardship?",
-      "summary": "Everything belongs to God, and Christians should faithfully use their time, abilities, possessions, and finances for His glory.",
-      "content": "# What does Urbancrest believe about stewardship?\n\n## Short Answer\n\nEverything belongs to God, and Christians should faithfully use their time, abilities, possessions, and finances for His glory.\n\n## Detailed Answer\n\nGiving should be willing, generous, and joyful. Stewardship supports the church's ministry, care for others, and the spread of the gospel.\n\n## Urbancrest Information\n\nUrbancrest's doctrinal framework is consistent with the Baptist Faith and Message 2000. Scripture remains the final authority.\n\n## Next Step\n\nComplete the Connect Card if you would like to talk with a pastor about this belief.",
-      "priority": 85,
-      "category": [
-        "beliefs"
-      ],
-      "intents": [
-        "beliefs"
-      ],
-      "tags": [
-        "beliefs",
-        "doctrine"
-      ],
-      "search_terms": [
-        "What does Urbancrest believe about stewardship?"
       ],
       "ministries": [],
       "audiences": [
