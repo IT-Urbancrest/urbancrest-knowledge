@@ -36,6 +36,7 @@ search_terms:
 - Does Urbancrest believe in a literal Antichrist?
 - Will there be a future Antichrist?
 - Is the Antichrist alive today?
+- Is the Antichrist alive now?
 - Can we know who the Antichrist is?
 - Who do you think the Antichrist is?
 - What does the Bible say about the Antichrist?
@@ -73,6 +74,12 @@ Scripture also describes a future figure of extraordinary rebellion and oppositi
 **Yes.** Urbancrest understands Scripture to teach that opposition to Christ will culminate in a final personal opponent before Christ's ultimate victory.
 
 The Baptist Faith & Message does not require a detailed end-times timeline or identify the Antichrist by name. Its central emphasis is that Jesus Christ will return personally and visibly, humanity will be judged, and God's purposes will be fulfilled.
+
+## Is the Antichrist Alive Today?
+
+**We do not know.** Scripture does not tell us whether the final Antichrist is alive today, so Urbancrest would not claim certainty about that.
+
+What Scripture does make clear is that opposition to Christ is already at work in the world and that a final opponent of Christ will ultimately be defeated by Jesus.
 
 ## Can We Know Who the Antichrist Is Today?
 
