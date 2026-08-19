@@ -1,5 +1,5 @@
 ---
-id: events.live.event-cc6c730d57cf53fb
+id: events.live.event-d64828b4a08ab9de
 version: 1.4.3
 status: published
 priority: 60
@@ -30,20 +30,20 @@ search_terms:
   - "How do I register for Wednesday Night Dinner?"
 resources:
   - events.live
-event_id: event-cc6c730d57cf53fb
-event_start: "2026-11-18T17:30:00-05:00"
-event_end: "2026-11-18T18:15:00-05:00"
-sort_start_utc: "2026-11-18T22:30:00Z"
-sort_end_utc: "2026-11-18T23:15:00Z"
-chronological_rank: 59
+event_id: event-d64828b4a08ab9de
+event_start: "2027-08-18T17:30:00-04:00"
+event_end: "2027-08-18T18:15:00-04:00"
+sort_start_utc: "2027-08-18T21:30:00Z"
+sort_end_utc: "2027-08-18T22:15:00Z"
+chronological_rank: 150
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
-info_url: "https://urbancrest.churchcenter.com/calendar/event/230122717"
+info_url: "https://urbancrest.churchcenter.com/calendar/event/230122756"
 image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243"
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
-planning_center_event_instance_id: "230122717"
+planning_center_event_instance_id: "230122756"
 planning_center_event_time_id: "31870601"
 last_generated: 2026-08-19T09:49:57.850832Z
 ---
@@ -52,7 +52,7 @@ last_generated: 2026-08-19T09:49:57.850832Z
 
 Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
 
-**When:** Wednesday, November 18, 2026, 5:30 PM to 6:15 PM
+**When:** Wednesday, August 18, 2027, 5:30 PM to 6:15 PM
 
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
@@ -96,7 +96,7 @@ Chili & Coneys
 Salad Bar
 Brownies
 
-**More information:** https://urbancrest.churchcenter.com/calendar/event/230122717
+**More information:** https://urbancrest.churchcenter.com/calendar/event/230122756
 
 **Event image:** https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
 
