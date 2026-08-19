@@ -1,5 +1,5 @@
 version: 1.5.4
-generated_at: '2026-08-19T13:27:22.696446Z'
+generated_at: '2026-08-19T15:49:57.627410Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
@@ -81,16 +81,13 @@ events:
 
     Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.
 
-
-    ***When registering your child, please input 25/26 grade, it will automatically change in August***
-
     Register: https://urbancrest.churchcenter.com/registrations/events/3737699'
   details: "**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person\
     \ any Wednesday at 6:05** \n\nApproved Workmen Are Not Ashamed (A.W.A.N.A.)\n\nA program focusing on learning the Bible\
     \ and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.\n\nMeets Wednesdays\
     \ from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm \n\nSTART ANYTIME throughout\
-    \ the year!\n\nDinners before club each night! We will start serving at 5:30 and close serving at 6:10pm. \n\n***When\
-    \ registering your child, please input 25/26 grade, it will automatically change in August***\n\nRegistration is open."
+    \ the year!\n\nDinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.\n\nRegistration\
+    \ is open."
   details_source: planning_center_registrations_api
   planning_center_event_instance_id: '227855427'
   planning_center_event_time_id: '31487702'
@@ -627,9 +624,6 @@ events:
 
     Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.
 
-
-    ***When registering your child, please input 25/26 grade, it will automatically change in August***
-
     Register: https://urbancrest.churchcenter.com/registrations/events/3737699'
   details: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
     any Wednesday at 6:05**
@@ -643,9 +637,7 @@ events:
 
     START ANYTIME throughout the year!
 
-    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm. 
-
-    ***When registering your child, please input 25/26 grade, it will automatically change in August***'
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '227855428'
   planning_center_event_time_id: '31487702'
@@ -939,9 +931,6 @@ events:
 
     Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.
 
-
-    ***When registering your child, please input 25/26 grade, it will automatically change in August***
-
     Register: https://urbancrest.churchcenter.com/registrations/events/3737699'
   details: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
     any Wednesday at 6:05**
@@ -955,9 +944,7 @@ events:
 
     START ANYTIME throughout the year!
 
-    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm. 
-
-    ***When registering your child, please input 25/26 grade, it will automatically change in August***'
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '227855429'
   planning_center_event_time_id: '31487702'
@@ -1419,9 +1406,6 @@ events:
 
     Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.
 
-
-    ***When registering your child, please input 25/26 grade, it will automatically change in August***
-
     Register: https://urbancrest.churchcenter.com/registrations/events/3737699'
   details: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
     any Wednesday at 6:05**
@@ -1435,9 +1419,7 @@ events:
 
     START ANYTIME throughout the year!
 
-    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm. 
-
-    ***When registering your child, please input 25/26 grade, it will automatically change in August***'
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '227855430'
   planning_center_event_time_id: '31487702'
