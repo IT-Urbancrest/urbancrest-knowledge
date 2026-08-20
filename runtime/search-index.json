@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.9.7",
-  "generated_at": "2026-08-20T15:49:34.690465Z",
+  "generated_at": "2026-08-20T19:00:02.433982Z",
   "timezone": "America/New_York",
   "record_count": 428,
   "config": {
@@ -12390,7 +12390,7 @@
         }
       ],
       "info_url": "https://urbancrest.churchcenter.com/registrations/events/3763259/reservations/new",
-      "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3763259/medium_image-1725375110939.jpeg",
+      "image_url": "https://registrations.planningcenteronline.com/signups/3763259/logo",
       "chronological_rank": 16,
       "routine_schedule_occurrence": false
     },
@@ -13394,7 +13394,7 @@
         }
       ],
       "info_url": "https://urbancrest.churchcenter.com/registrations/events/3613427/reservations/new",
-      "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3613427/medium_image-1777302371887.jpeg",
+      "image_url": "https://registrations.planningcenteronline.com/signups/3613427/logo",
       "chronological_rank": 19,
       "routine_schedule_occurrence": false
     },
@@ -16942,7 +16942,7 @@
         }
       ],
       "info_url": "https://urbancrest.churchcenter.com/registrations/events/3775272/reservations/new",
-      "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3775272/medium_image-1784920483707.jpeg",
+      "image_url": "https://registrations.planningcenteronline.com/signups/3775272/logo",
       "chronological_rank": 78,
       "routine_schedule_occurrence": false
     },
@@ -17148,7 +17148,7 @@
         }
       ],
       "info_url": "https://urbancrest.churchcenter.com/registrations/events/3719897/reservations/new",
-      "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3719897/medium_image-1782318571714.jpeg",
+      "image_url": "https://registrations.planningcenteronline.com/signups/3719897/logo",
       "chronological_rank": 7,
       "routine_schedule_occurrence": false
     },
