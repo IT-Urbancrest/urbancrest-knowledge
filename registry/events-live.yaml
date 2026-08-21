@@ -1,11 +1,11 @@
 version: 1.5.4
-generated_at: '2026-08-20T21:44:42.227943Z'
+generated_at: '2026-08-21T01:58:29.833705Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
   enabled: true
-  target_instance_count: 424
-  matched_instance_count: 422
+  target_instance_count: 421
+  matched_instance_count: 421
   page_count: 9
   api_version: '2026-06-22'
 source_of_truth_for_calendar_intents: true
@@ -19,34 +19,6 @@ selection:
   policy: Protect all major and ministry events before lower-priority events.
 event_count: 150
 events:
-- id: event-04b13efc65307382
-  uid: ET-29468516-216277431@resources.planningcenteronline.com
-  title: OPEN GYM Pickleball
-  summary: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
-  start: '2026-08-20T18:00:00-04:00'
-  end: '2026-08-20T20:00:00-04:00'
-  sort_start_utc: '2026-08-20T22:00:00Z'
-  sort_end_utc: '2026-08-21T00:00:00Z'
-  display_when: Thursday, August 20, 2026, 6 PM to 8 PM
-  all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to
-    attend and open to anyone ages 13+.
-  planning_center_event_instance_id: '216277431'
-  planning_center_event_time_id: '29468516'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/216277431
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 1
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-08-20-open-gym-pickleball-307382.md
 - id: event-6d5b8302174f4169
   uid: ET-29648335-217375495@resources.planningcenteronline.com
   title: Urbancrest Golf Classic
@@ -136,7 +108,7 @@ events:
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 2
+  chronological_rank: 1
   next_for_ministries:
   - kids
   - sports
@@ -211,7 +183,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 3
+  chronological_rank: 2
   next_for_ministries:
   - students
   next_for_audiences:
@@ -241,7 +213,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 4
+  chronological_rank: 3
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-23-sunday-morning-services-9-30-am-service-23a343.md
@@ -269,7 +241,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 5
+  chronological_rank: 4
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-23-sunday-morning-services-11-00-am-service-4475b5.md
@@ -367,7 +339,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 6
+  chronological_rank: 5
   next_for_ministries: []
   next_for_audiences:
   - volunteers
@@ -454,7 +426,7 @@ events:
   event_source: planning_center_registrations_api
   event_sources:
   - planning_center_registrations_api
-  chronological_rank: 7
+  chronological_rank: 6
 - id: event-73b5389e4282128d
   uid: ET-31487702-227855428@resources.planningcenteronline.com
   title: Awana 2026-2027
@@ -513,7 +485,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 8
+  chronological_rank: 7
   next_for_ministries:
   - men
   next_for_audiences:
@@ -582,7 +554,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 9
+  chronological_rank: 8
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-27-open-gym-pickleball-e0bc06.md
@@ -609,7 +581,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 10
+  chronological_rank: 9
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-30-p-u-r-s-u-e-63faac.md
@@ -637,7 +609,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 11
+  chronological_rank: 10
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-30-sunday-morning-services-9-30-am-service-faf099.md
@@ -665,7 +637,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 12
+  chronological_rank: 11
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-30-sunday-morning-services-11-00-am-service-80f4a3.md
@@ -691,7 +663,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 13
+  chronological_rank: 12
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-01-card-ministry-7202ff.md
@@ -789,7 +761,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 14
+  chronological_rank: 13
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-02-wednesday-night-dinner-8cbe52.md
@@ -861,7 +833,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 15
+  chronological_rank: 14
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-02-awana-2026-2027-b657f3.md
@@ -958,7 +930,7 @@ events:
   event_source: planning_center_registrations_api
   event_sources:
   - planning_center_registrations_api
-  chronological_rank: 16
+  chronological_rank: 15
 - id: event-ec88cabfa3473ecc
   uid: ET-29468516-216277433@resources.planningcenteronline.com
   title: OPEN GYM Pickleball
@@ -983,7 +955,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 17
+  chronological_rank: 16
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-03-open-gym-pickleball-473ecc.md
@@ -1012,7 +984,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 18
+  chronological_rank: 17
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-05-men-s-breakfast-336f62.md
@@ -1086,7 +1058,7 @@ events:
   event_source: planning_center_registrations_api
   event_sources:
   - planning_center_registrations_api
-  chronological_rank: 19
+  chronological_rank: 18
 - id: event-ee5bfd5ead7f42b9
   uid: ET-8762150-166271990@resources.planningcenteronline.com
   title: P U R S U E
@@ -1110,7 +1082,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 20
+  chronological_rank: 19
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-06-p-u-r-s-u-e-7f42b9.md
@@ -1138,7 +1110,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 21
+  chronological_rank: 20
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-06-sunday-morning-services-9-30-am-service-3e5884.md
@@ -1166,7 +1138,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 22
+  chronological_rank: 21
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-06-sunday-morning-services-11-00-am-service-8a985a.md
@@ -1264,7 +1236,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 23
+  chronological_rank: 22
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-09-wednesday-night-dinner-f2ed46.md
@@ -1336,7 +1308,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 24
+  chronological_rank: 23
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-09-awana-2026-2027-ca71ea.md
@@ -1364,7 +1336,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 25
+  chronological_rank: 24
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-10-open-gym-pickleball-fe7030.md
@@ -1391,7 +1363,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 26
+  chronological_rank: 25
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-13-p-u-r-s-u-e-300fb0.md
@@ -1419,7 +1391,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 27
+  chronological_rank: 26
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-13-sunday-morning-services-9-30-am-service-b32add.md
@@ -1447,7 +1419,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 28
+  chronological_rank: 27
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-13-sunday-morning-services-11-00-am-service-153e7f.md
@@ -1475,7 +1447,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 29
+  chronological_rank: 28
   next_for_ministries: []
   next_for_audiences:
   - families
@@ -1574,7 +1546,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 30
+  chronological_rank: 29
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-16-wednesday-night-dinner-89e119.md
@@ -1602,7 +1574,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 31
+  chronological_rank: 30
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-17-open-gym-pickleball-556aa9.md
@@ -1629,7 +1601,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 32
+  chronological_rank: 31
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-20-p-u-r-s-u-e-f8f18d.md
@@ -1657,7 +1629,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 33
+  chronological_rank: 32
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-20-sunday-morning-services-9-30-am-service-25697d.md
@@ -1685,10 +1657,37 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 34
+  chronological_rank: 33
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-20-sunday-morning-services-11-00-am-service-9ace48.md
+- id: event-399a8cbba5681d28
+  uid: ET-30414252-221662897@resources.planningcenteronline.com
+  title: Guest Services Team Meeting
+  summary: Guest Services Team Dinner Meeting
+  start: '2026-09-22T17:30:00-04:00'
+  end: '2026-09-22T20:30:00-04:00'
+  sort_start_utc: '2026-09-22T21:30:00Z'
+  sort_end_utc: '2026-09-23T00:30:00Z'
+  display_when: Tuesday, September 22, 2026, 5:30 PM to 8:30 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Guest Services Team Dinner Meeting
+  planning_center_event_instance_id: '221662897'
+  planning_center_event_time_id: '30414252'
+  info_url: https://urbancrest.churchcenter.com/calendar/event/221662897
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 34
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-22-guest-services-team-meeting-681d28.md
 - id: event-19c7f09112c7bf0d
   uid: ET-31870601-230122709@resources.planningcenteronline.com
   title: Wednesday Night Dinner

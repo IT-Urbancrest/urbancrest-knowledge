@@ -35,7 +35,7 @@ event_start: "2026-08-21T08:30:00-04:00"
 event_end: "2026-08-21T16:00:00-04:00"
 sort_start_utc: "2026-08-21T12:30:00Z"
 sort_end_utc: "2026-08-21T20:00:00Z"
-chronological_rank: 2
+chronological_rank: 1
 next_for_ministries: ["kids", "sports"]
 next_for_audiences: ["children"]
 all_day: false
@@ -45,7 +45,7 @@ location: "Heatherwoode Golf Club - 88 Heatherwoode Blvd\nSpringboro, OH 45066"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "217375495"
 planning_center_event_time_id: "29648335"
-last_generated: 2026-08-20T21:44:39.159711Z
+last_generated: 2026-08-21T01:58:26.526632Z
 ---
 
 # Urbancrest Golf Classic
