@@ -1,5 +1,5 @@
 version: 1.5.4
-generated_at: '2026-08-21T18:56:55.007984Z'
+generated_at: '2026-08-21T21:39:54.521915Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
@@ -19,147 +19,6 @@ selection:
   policy: Protect all major and ministry events before lower-priority events.
 event_count: 150
 events:
-- id: event-6d5b8302174f4169
-  uid: ET-29648335-217375495@resources.planningcenteronline.com
-  title: Urbancrest Golf Classic
-  summary: Please join us for Urbancrest's 28th Annual Golf Classic! The Urbancrest Golf Classic is Urbancrest's annual foursome
-    scramble tournament, located at Heatherwoode Golf Club. Each year, we also raise money for a non-profit organization.
-    We are excited to announce this year's...
-  start: '2026-08-21T08:30:00-04:00'
-  end: '2026-08-21T16:00:00-04:00'
-  sort_start_utc: '2026-08-21T12:30:00Z'
-  sort_end_utc: '2026-08-21T20:00:00Z'
-  display_when: Friday, August 21, 2026, 8:30 AM to 4 PM
-  all_day: false
-  location: 'Heatherwoode Golf Club - 88 Heatherwoode Blvd
-
-    Springboro, OH 45066'
-  description: '*********************************************************
-
-    Please join us for Urbancrest''s 28th Annual Golf Classic!
-
-    *********************************************************
-
-
-    The Urbancrest Golf Classic is Urbancrest''s annual foursome scramble tournament, located at Heatherwoode Golf Club.
-
-
-    Each year, we also raise money for a non-profit organization. We are excited to announce this year''s donation recipient:
-    A Child''s Hope International!
-
-
-    Be sure to register early to secure your spot, and visit classic.urbancrest.org ( http://classic.urbancrest.org ) for
-    more information.
-
-
-    Tournament Details:
-
-
-    Location
-
-    Heatherwoode Golf Club
-
-    88 Heatherwoode Blvd.
-
-    Springboro, OH 45066 ( https://www.google.com/maps/place/Heatherwoode+Golf+Club/@39.5378539,-84.2320634,15z/data=!4m2!3m1!1s0x0:0xaba6d7afa167d970?ved=2ahUKEwjAq-v17IvhAhVP1VkKHSjzA-EQ_BIwCnoECAAQCA
-    )
-
-    (Click or tap for directions.)
-
-
-    Date/Schedule
-
-    Friday, August 21, 2026
-
-    8:30 AM – Check-in & Driving Range
-
-    9:30 AM – Shotgun Start
-
-    2:00 AM – Lunch & Awards
-
-
-    Sponsorship
-
-    Become a sponsor of the Urbancrest Golf Classic! Please visit classic.urbancrest.org ( http://classic.urbancrest.org )
-    to make your sponsorship selection.
-
-
-    If you have any questions about the Urbancrest Golf Classic, please reach out to Mark Daubenmire at mdaubenmire@urbancrest.org.'
-  details: "Please join us for Urbancrest's 28th Annual Golf Classic! The Urbancrest Golf Classic is Urbancrest's annual foursome\
-    \ scramble tournament, located at Heatherwoode Golf Club. \n\nEach year, we also raise money for a non-profit organization.\
-    \ We are excited to announce this year's donation recipient: A Child's Hope International!\n\nBe sure to register early\
-    \ to secure your spot, and visit classic.urbancrest.org for more information.\n\nTournament Details:\n\nLocation\nHeatherwoode\
-    \ Golf Club\n88 Heatherwoode Blvd.\nSpringboro, OH 45066 \n( Click or tap for directions.) \n\nDate/Schedule\nFriday,\
-    \ August 21, 2026\n 8:30 AM – Check-in & Driving Range\n 9:30 AM – Shotgun Start\n 2:00 AM – Lunch & Awards\n\nSponsorship\n\
-    Become a sponsor of the Urbancrest Golf Classic! Please visit classic.urbancrest.org to make your sponsorship selection.\
-    \ \n\nIf you have any questions about the Urbancrest Golf Classic, please reach out to Mark Daubenmire at mdaubenmire@urbancrest.org\
-    \ .\n\nRegistration is not currently open."
-  details_source: planning_center_registrations_api
-  planning_center_event_instance_id: '217375495'
-  planning_center_event_time_id: '29648335'
-  info_url: http://classic.urbancrest.org
-  image_url: https://registrations-production.s3.amazonaws.com/uploads/event/logo/3517003/medium_image-1773084020561.jpeg
-  ministries:
-  - kids
-  - sports
-  audiences:
-  - children
-  event_category: major_event
-  event_priority: 100
-  collection: main_events
-  status: confirmed
-  chronological_rank: 1
-  next_for_ministries:
-  - kids
-  - sports
-  next_for_audiences:
-  - children
-  knowledge_file: knowledge/events/generated/2026-08-21-urbancrest-golf-classic-4f4169.md
-  event_sources:
-  - planning_center_ical
-  - planning_center_calendar_api
-  - planning_center_registrations_api
-  event_source: merged
-  planning_center_signup_id: '3517003'
-  planning_center_signup_time_id: '5882876'
-  registration_url: https://urbancrest.churchcenter.com/registrations/events/3517003/reservations/new
-  registration_open: false
-  registration_closed: true
-  registration_at_maximum_capacity: null
-  registration_open_at: null
-  registration_close_at: null
-  registration_maximum_capacity: 72
-  registration_categories:
-  - Sports
-  - Special Events
-  registration_options:
-  - id: '8015568'
-    name: Individual
-    price_cents: 15000
-    price_currency: USD
-    price_currency_symbol: $
-    price_formatted: '150'
-    maximum_capacity: 48
-    available_capacity: 0
-    at_maximum_capacity: true
-    waitlist: false
-  - id: '8015571'
-    name: Team Captain
-    price_cents: 15000
-    price_currency: USD
-    price_currency_symbol: $
-    price_formatted: '150'
-    maximum_capacity: 16
-    available_capacity: 0
-    at_maximum_capacity: true
-    waitlist: false
-  location_structured:
-    name: Heatherwoode Golf Club
-    address: '88 Heatherwoode Blvd
-
-      Springboro, OH 45066'
-    latitude: '39.537854'
-    longitude: '-84.232063'
 - id: event-1d404dab04db0b00
   uid: ET-8762150-164649170@resources.planningcenteronline.com
   title: P U R S U E
@@ -183,7 +42,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 2
+  chronological_rank: 1
   next_for_ministries:
   - students
   next_for_audiences:
@@ -213,7 +72,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 3
+  chronological_rank: 2
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-23-sunday-morning-services-9-30-am-service-23a343.md
@@ -241,7 +100,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 4
+  chronological_rank: 3
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-23-sunday-morning-services-11-00-am-service-4475b5.md
@@ -339,7 +198,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 5
+  chronological_rank: 4
   next_for_ministries: []
   next_for_audiences:
   - volunteers
@@ -426,7 +285,7 @@ events:
   event_source: planning_center_registrations_api
   event_sources:
   - planning_center_registrations_api
-  chronological_rank: 6
+  chronological_rank: 5
 - id: event-73b5389e4282128d
   uid: ET-31487702-227855428@resources.planningcenteronline.com
   title: Awana 2026-2027
@@ -485,10 +344,12 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 7
+  chronological_rank: 6
   next_for_ministries:
+  - kids
   - men
   next_for_audiences:
+  - children
   - men
   knowledge_file: knowledge/events/generated/2026-08-26-awana-2026-2027-82128d.md
   event_sources:
@@ -554,7 +415,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 8
+  chronological_rank: 7
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-27-open-gym-pickleball-e0bc06.md
@@ -581,7 +442,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 9
+  chronological_rank: 8
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-30-p-u-r-s-u-e-63faac.md
@@ -609,7 +470,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 10
+  chronological_rank: 9
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-30-sunday-morning-services-9-30-am-service-faf099.md
@@ -637,7 +498,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 11
+  chronological_rank: 10
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-30-sunday-morning-services-11-00-am-service-80f4a3.md
@@ -663,7 +524,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 12
+  chronological_rank: 11
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-01-card-ministry-7202ff.md
@@ -761,7 +622,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 13
+  chronological_rank: 12
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-02-wednesday-night-dinner-8cbe52.md
@@ -833,7 +694,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 14
+  chronological_rank: 13
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-02-awana-2026-2027-b657f3.md
@@ -930,7 +791,7 @@ events:
   event_source: planning_center_registrations_api
   event_sources:
   - planning_center_registrations_api
-  chronological_rank: 15
+  chronological_rank: 14
 - id: event-ec88cabfa3473ecc
   uid: ET-29468516-216277433@resources.planningcenteronline.com
   title: OPEN GYM Pickleball
@@ -955,7 +816,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 16
+  chronological_rank: 15
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-03-open-gym-pickleball-473ecc.md
@@ -984,7 +845,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 17
+  chronological_rank: 16
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-05-men-s-breakfast-336f62.md
@@ -1058,7 +919,7 @@ events:
   event_source: planning_center_registrations_api
   event_sources:
   - planning_center_registrations_api
-  chronological_rank: 18
+  chronological_rank: 17
 - id: event-ee5bfd5ead7f42b9
   uid: ET-8762150-166271990@resources.planningcenteronline.com
   title: P U R S U E
@@ -1082,7 +943,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 19
+  chronological_rank: 18
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-06-p-u-r-s-u-e-7f42b9.md
@@ -1110,7 +971,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 20
+  chronological_rank: 19
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-06-sunday-morning-services-9-30-am-service-3e5884.md
@@ -1138,7 +999,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 21
+  chronological_rank: 20
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-06-sunday-morning-services-11-00-am-service-8a985a.md
@@ -1236,7 +1097,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 22
+  chronological_rank: 21
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-09-wednesday-night-dinner-f2ed46.md
@@ -1308,7 +1169,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 23
+  chronological_rank: 22
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-09-awana-2026-2027-ca71ea.md
@@ -1336,7 +1197,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 24
+  chronological_rank: 23
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-10-open-gym-pickleball-fe7030.md
@@ -1363,7 +1224,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 25
+  chronological_rank: 24
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-13-p-u-r-s-u-e-300fb0.md
@@ -1391,7 +1252,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 26
+  chronological_rank: 25
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-13-sunday-morning-services-9-30-am-service-b32add.md
@@ -1419,7 +1280,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 27
+  chronological_rank: 26
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-13-sunday-morning-services-11-00-am-service-153e7f.md
@@ -1447,7 +1308,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 28
+  chronological_rank: 27
   next_for_ministries: []
   next_for_audiences:
   - families
@@ -1546,7 +1407,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 29
+  chronological_rank: 28
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-16-wednesday-night-dinner-89e119.md
@@ -1574,7 +1435,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 30
+  chronological_rank: 29
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-17-open-gym-pickleball-556aa9.md
@@ -1601,7 +1462,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 31
+  chronological_rank: 30
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-20-p-u-r-s-u-e-f8f18d.md
@@ -1629,7 +1490,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 32
+  chronological_rank: 31
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-20-sunday-morning-services-9-30-am-service-25697d.md
@@ -1657,7 +1518,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 33
+  chronological_rank: 32
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-20-sunday-morning-services-11-00-am-service-9ace48.md
@@ -1684,7 +1545,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 34
+  chronological_rank: 33
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-22-guest-services-team-meeting-681d28.md
@@ -1782,10 +1643,38 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 35
+  chronological_rank: 34
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-23-wednesday-night-dinner-c7bf0d.md
+- id: event-5c9aa6986b309c7f
+  uid: ET-29468516-216277436@resources.planningcenteronline.com
+  title: OPEN GYM Pickleball
+  summary: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
+  start: '2026-09-24T18:00:00-04:00'
+  end: '2026-09-24T20:00:00-04:00'
+  sort_start_utc: '2026-09-24T22:00:00Z'
+  sort_end_utc: '2026-09-25T00:00:00Z'
+  display_when: Thursday, September 24, 2026, 6 PM to 8 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to
+    attend and open to anyone ages 13+.
+  planning_center_event_instance_id: '216277436'
+  planning_center_event_time_id: '29468516'
+  info_url: https://urbancrest.churchcenter.com/calendar/event/216277436
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 35
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-24-open-gym-pickleball-309c7f.md
 - id: event-a33c3a5ecf5aaab7
   uid: ET-31447186-227518757@resources.planningcenteronline.com
   title: Waynesville Fall Fest
@@ -8574,15 +8463,15 @@ registrations_api:
   status: ok
   api_version: '2025-05-01'
   signup_time_strategy: next_signup_time_then_signup_times_preserve_relationship_linkage
-  future_signup_count: 11
+  future_signup_count: 10
   added_registration_only_events: 4
-  enriched_existing_events: 7
+  enriched_existing_events: 6
   category_allowlist: []
   category_denylist: []
   signup_count_received: 20
   relationship_linkage_counts:
     next_signup_time_relationship_present: 20
-    next_signup_time_with_linkage: 11
+    next_signup_time_with_linkage: 10
     signup_times_relationship_present: 20
     signup_times_with_linkage: 16
     signup_location_relationship_present: 20
@@ -8591,7 +8480,7 @@ registrations_api:
     categories_with_linkage: 16
     selection_types_relationship_present: 20
     selection_types_with_linkage: 20
-  skipped_signup_count: 9
+  skipped_signup_count: 10
   skipped_reasons:
-    no_current_or_future_signup_time_within_lookahead: 9
+    no_current_or_future_signup_time_within_lookahead: 10
   page_count: 1

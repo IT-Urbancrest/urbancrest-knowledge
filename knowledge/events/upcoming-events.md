@@ -16,26 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-08-21T18:56:55.007984Z
+last_generated: 2026-08-21T21:39:54.521915Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## Urbancrest Golf Classic
-
-**Category:** Major Event
-
-**When:** Friday, August 21, 2026, 8:30 AM to 4 PM
-
-**Where:** Heatherwoode Golf Club - 88 Heatherwoode Blvd
-Springboro, OH 45066
-
-**Registration:** https://urbancrest.churchcenter.com/registrations/events/3517003/reservations/new
-
-Detailed event file: `knowledge/events/generated/2026-08-21-urbancrest-golf-classic-4f4169.md`
 
 ## P U R S U E
 
@@ -442,6 +429,18 @@ Detailed event file: `knowledge/events/generated/2026-09-22-guest-services-team-
 **More information:** https://urbancrest.churchcenter.com/calendar/event/230122709
 
 Detailed event file: `knowledge/events/generated/2026-09-23-wednesday-night-dinner-c7bf0d.md`
+
+## OPEN GYM Pickleball
+
+**Category:** General Event
+
+**When:** Thursday, September 24, 2026, 6 PM to 8 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+**More information:** https://urbancrest.churchcenter.com/calendar/event/216277436
+
+Detailed event file: `knowledge/events/generated/2026-09-24-open-gym-pickleball-309c7f.md`
 
 ## Waynesville Fall Fest
 
