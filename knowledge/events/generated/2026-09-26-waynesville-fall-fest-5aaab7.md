@@ -43,7 +43,7 @@ info_url: "https://urbancrest.churchcenter.com/calendar/event/227518757"
 image_url: "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3732292/medium_image-1782929258210.jpeg"
 planning_center_event_instance_id: "227518757"
 planning_center_event_time_id: "31447186"
-last_generated: 2026-08-21T09:52:55.559015Z
+last_generated: 2026-08-21T13:11:52.342774Z
 ---
 
 # Waynesville Fall Fest
