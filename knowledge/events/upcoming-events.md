@@ -16,7 +16,7 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-08-22T13:01:12.486889Z
+last_generated: 2026-08-22T15:35:37.649466Z
 ---
 
 # Upcoming Events
@@ -429,18 +429,6 @@ Detailed event file: `knowledge/events/generated/2026-09-22-guest-services-team-
 **More information:** https://urbancrest.churchcenter.com/calendar/event/230122709
 
 Detailed event file: `knowledge/events/generated/2026-09-23-wednesday-night-dinner-c7bf0d.md`
-
-## OPEN GYM Pickleball
-
-**Category:** General Event
-
-**When:** Thursday, September 24, 2026, 6 PM to 8 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/216277436
-
-Detailed event file: `knowledge/events/generated/2026-09-24-open-gym-pickleball-309c7f.md`
 
 ## Waynesville Fall Fest
 
@@ -1818,3 +1806,15 @@ Detailed event file: `knowledge/events/generated/2027-08-15-p-u-r-s-u-e-cd683d.m
 **More information:** https://urbancrest.churchcenter.com/calendar/event/230122756
 
 Detailed event file: `knowledge/events/generated/2027-08-18-wednesday-night-dinner-8ab9de.md`
+
+## P U R S U E
+
+**Category:** Ministry Event
+
+**When:** Sunday, August 22, 2027, 9:30 AM to 10:30 AM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+**More information:** https://urbancrest.churchcenter.com/calendar/event/197056906
+
+Detailed event file: `knowledge/events/generated/2027-08-22-p-u-r-s-u-e-6faf4c.md`
