@@ -45,7 +45,7 @@ location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "228745978"
 planning_center_event_time_id: "31639046"
-last_generated: 2026-08-22T03:56:52.147018Z
+last_generated: 2026-08-22T06:59:48.841310Z
 ---
 
 # Night of Worship Choir
