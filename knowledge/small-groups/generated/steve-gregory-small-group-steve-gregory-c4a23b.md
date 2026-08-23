@@ -28,7 +28,7 @@ meeting_count_in_window: 52
 info_url: "https://urbancrest.churchcenter.com/calendar/event/164754228"
 planning_center_event_instance_id: "164754228"
 planning_center_event_time_id: "28363570"
-last_generated: 2026-08-22T21:35:57.297790Z
+last_generated: 2026-08-23T02:00:35.010210Z
 ---
 
 # Steve Gregory Small Group: Steve Gregory
