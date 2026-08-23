@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.9.7",
-  "generated_at": "2026-08-23T09:44:21.171853Z",
+  "generated_at": "2026-08-23T13:02:50.755342Z",
   "timezone": "America/New_York",
   "record_count": 428,
   "config": {
@@ -16772,7 +16772,7 @@
       "path": "registry/events-live.yaml",
       "title": "Strength to Stand",
       "summary": "Deadline to sign up is September 30th!!!",
-      "content": "Deadline to sign up is September 30th!!!\n\nDetails:\nDeadline to sign up is September 30th!!!\n\nRegistration is open.\n\nRegistration status: open\nRegistration opens: 2026-07-24T04:00:00Z\nRegistration option: STS Youth Guy; price: $250; available capacity: 19\nRegistration option: STS Youth Girl; price: $250; available capacity: 17\nRegistration option: STS Youth Adult Leader; price: $0; available capacity: 3",
+      "content": "Deadline to sign up is September 30th!!!\n\nDetails:\nDeadline to sign up is September 30th!!!\n\nRegistration is open.\n\nRegistration status: open\nRegistration opens: 2026-07-24T04:00:00Z\nRegistration option: STS Youth Guy; price: $250; available capacity: 19\nRegistration option: STS Youth Girl; price: $250; available capacity: 16\nRegistration option: STS Youth Adult Leader; price: $0; available capacity: 3",
       "priority": 80,
       "category": [
         "events",
@@ -16860,7 +16860,7 @@
           "price_currency_symbol": "$",
           "price_formatted": "250",
           "maximum_capacity": 22,
-          "available_capacity": 17,
+          "available_capacity": 16,
           "at_maximum_capacity": false,
           "waitlist": false
         },

@@ -16,7 +16,7 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-08-23T09:44:19.714993Z
+last_generated: 2026-08-23T13:02:49.483517Z
 ---
 
 # Upcoming Events
