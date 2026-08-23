@@ -16,37 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-08-23T13:02:49.483517Z
+last_generated: 2026-08-23T15:36:55.429047Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## P U R S U E
-
-**Category:** Ministry Event
-
-**When:** Sunday, August 23, 2026, 9:30 AM to 10:30 AM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/164649170
-
-Detailed event file: `knowledge/events/generated/2026-08-23-p-u-r-s-u-e-db0b00.md`
-
-## Sunday Morning Services: 9:30 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, August 23, 2026, 9:30 AM to 10:40 AM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/164649168
-
-Detailed event file: `knowledge/events/generated/2026-08-23-sunday-morning-services-9-30-am-service-23a343.md`
 
 ## Sunday Morning Services: 11:00 AM Service
 
@@ -430,6 +406,18 @@ Detailed event file: `knowledge/events/generated/2026-09-22-guest-services-team-
 
 Detailed event file: `knowledge/events/generated/2026-09-23-wednesday-night-dinner-c7bf0d.md`
 
+## OPEN GYM Pickleball
+
+**Category:** General Event
+
+**When:** Thursday, September 24, 2026, 6 PM to 8 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+**More information:** https://urbancrest.churchcenter.com/calendar/event/216277436
+
+Detailed event file: `knowledge/events/generated/2026-09-24-open-gym-pickleball-309c7f.md`
+
 ## Waynesville Fall Fest
 
 **Category:** General Event
@@ -451,6 +439,18 @@ Detailed event file: `knowledge/events/generated/2026-09-26-waynesville-fall-fes
 **More information:** https://urbancrest.churchcenter.com/calendar/event/168372882
 
 Detailed event file: `knowledge/events/generated/2026-09-27-p-u-r-s-u-e-724217.md`
+
+## Sunday Morning Services: 9:30 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, September 27, 2026, 9:30 AM to 10:40 AM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+**More information:** https://urbancrest.churchcenter.com/calendar/event/168372883
+
+Detailed event file: `knowledge/events/generated/2026-09-27-sunday-morning-services-9-30-am-service-a45069.md`
 
 ## Women's Fall Fest
 

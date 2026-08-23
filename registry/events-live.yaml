@@ -1,5 +1,5 @@
 version: 1.5.4
-generated_at: '2026-08-23T13:02:49.483517Z'
+generated_at: '2026-08-23T15:36:55.429047Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
@@ -19,63 +19,6 @@ selection:
   policy: Protect all major and ministry events before lower-priority events.
 event_count: 150
 events:
-- id: event-1d404dab04db0b00
-  uid: ET-8762150-164649170@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2026-08-23T09:30:00-04:00'
-  end: '2026-08-23T10:30:00-04:00'
-  sort_start_utc: '2026-08-23T13:30:00Z'
-  sort_end_utc: '2026-08-23T14:30:00Z'
-  display_when: Sunday, August 23, 2026, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '164649170'
-  planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/164649170
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 1
-  next_for_ministries:
-  - students
-  next_for_audiences:
-  - students
-  knowledge_file: knowledge/events/generated/2026-08-23-p-u-r-s-u-e-db0b00.md
-- id: event-e65395a6e223a343
-  uid: ET-9127131-164649168@resources.planningcenteronline.com
-  title: 'Sunday Morning Services: 9:30 AM Service'
-  summary: Join us in person or online!...
-  start: '2026-08-23T09:30:00-04:00'
-  end: '2026-08-23T10:40:00-04:00'
-  sort_start_utc: '2026-08-23T13:30:00Z'
-  sort_end_utc: '2026-08-23T14:40:00Z'
-  display_when: Sunday, August 23, 2026, 9:30 AM to 10:40 AM
-  all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
-    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
-  planning_center_event_instance_id: '164649168'
-  planning_center_event_time_id: '9127131'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/164649168
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 2
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-08-23-sunday-morning-services-9-30-am-service-23a343.md
 - id: event-fa5c7d47754475b5
   uid: ET-9127132-164649168@resources.planningcenteronline.com
   title: 'Sunday Morning Services: 11:00 AM Service'
@@ -100,7 +43,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 3
+  chronological_rank: 1
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-23-sunday-morning-services-11-00-am-service-4475b5.md
@@ -198,7 +141,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 4
+  chronological_rank: 2
   next_for_ministries: []
   next_for_audiences:
   - volunteers
@@ -285,7 +228,7 @@ events:
   event_source: planning_center_registrations_api
   event_sources:
   - planning_center_registrations_api
-  chronological_rank: 5
+  chronological_rank: 3
 - id: event-73b5389e4282128d
   uid: ET-31487702-227855428@resources.planningcenteronline.com
   title: Awana 2026-2027
@@ -344,7 +287,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 6
+  chronological_rank: 4
   next_for_ministries:
   - kids
   - men
@@ -415,7 +358,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 7
+  chronological_rank: 5
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-27-open-gym-pickleball-e0bc06.md
@@ -442,9 +385,11 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 8
-  next_for_ministries: []
-  next_for_audiences: []
+  chronological_rank: 6
+  next_for_ministries:
+  - students
+  next_for_audiences:
+  - students
   knowledge_file: knowledge/events/generated/2026-08-30-p-u-r-s-u-e-63faac.md
 - id: event-87018d6b99faf099
   uid: ET-9127131-165474591@resources.planningcenteronline.com
@@ -470,7 +415,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 9
+  chronological_rank: 7
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-30-sunday-morning-services-9-30-am-service-faf099.md
@@ -498,7 +443,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 10
+  chronological_rank: 8
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-08-30-sunday-morning-services-11-00-am-service-80f4a3.md
@@ -524,7 +469,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 11
+  chronological_rank: 9
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-01-card-ministry-7202ff.md
@@ -622,7 +567,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 12
+  chronological_rank: 10
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-02-wednesday-night-dinner-8cbe52.md
@@ -694,7 +639,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 13
+  chronological_rank: 11
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-02-awana-2026-2027-b657f3.md
@@ -791,7 +736,7 @@ events:
   event_source: planning_center_registrations_api
   event_sources:
   - planning_center_registrations_api
-  chronological_rank: 14
+  chronological_rank: 12
 - id: event-ec88cabfa3473ecc
   uid: ET-29468516-216277433@resources.planningcenteronline.com
   title: OPEN GYM Pickleball
@@ -816,7 +761,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 15
+  chronological_rank: 13
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-03-open-gym-pickleball-473ecc.md
@@ -845,7 +790,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 16
+  chronological_rank: 14
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-05-men-s-breakfast-336f62.md
@@ -919,7 +864,7 @@ events:
   event_source: planning_center_registrations_api
   event_sources:
   - planning_center_registrations_api
-  chronological_rank: 17
+  chronological_rank: 15
 - id: event-ee5bfd5ead7f42b9
   uid: ET-8762150-166271990@resources.planningcenteronline.com
   title: P U R S U E
@@ -943,7 +888,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 18
+  chronological_rank: 16
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-06-p-u-r-s-u-e-7f42b9.md
@@ -971,7 +916,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 19
+  chronological_rank: 17
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-06-sunday-morning-services-9-30-am-service-3e5884.md
@@ -999,7 +944,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 20
+  chronological_rank: 18
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-06-sunday-morning-services-11-00-am-service-8a985a.md
@@ -1097,7 +1042,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 21
+  chronological_rank: 19
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-09-wednesday-night-dinner-f2ed46.md
@@ -1169,7 +1114,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 22
+  chronological_rank: 20
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-09-awana-2026-2027-ca71ea.md
@@ -1197,7 +1142,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 23
+  chronological_rank: 21
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-10-open-gym-pickleball-fe7030.md
@@ -1224,7 +1169,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 24
+  chronological_rank: 22
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-13-p-u-r-s-u-e-300fb0.md
@@ -1252,7 +1197,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 25
+  chronological_rank: 23
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-13-sunday-morning-services-9-30-am-service-b32add.md
@@ -1280,7 +1225,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 26
+  chronological_rank: 24
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-13-sunday-morning-services-11-00-am-service-153e7f.md
@@ -1308,7 +1253,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 27
+  chronological_rank: 25
   next_for_ministries: []
   next_for_audiences:
   - families
@@ -1407,7 +1352,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 28
+  chronological_rank: 26
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-16-wednesday-night-dinner-89e119.md
@@ -1435,7 +1380,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 29
+  chronological_rank: 27
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-17-open-gym-pickleball-556aa9.md
@@ -1462,7 +1407,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 30
+  chronological_rank: 28
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-20-p-u-r-s-u-e-f8f18d.md
@@ -1490,7 +1435,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 31
+  chronological_rank: 29
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-20-sunday-morning-services-9-30-am-service-25697d.md
@@ -1518,7 +1463,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 32
+  chronological_rank: 30
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-20-sunday-morning-services-11-00-am-service-9ace48.md
@@ -1545,7 +1490,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 33
+  chronological_rank: 31
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-22-guest-services-team-meeting-681d28.md
@@ -1643,10 +1588,38 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 34
+  chronological_rank: 32
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-23-wednesday-night-dinner-c7bf0d.md
+- id: event-5c9aa6986b309c7f
+  uid: ET-29468516-216277436@resources.planningcenteronline.com
+  title: OPEN GYM Pickleball
+  summary: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
+  start: '2026-09-24T18:00:00-04:00'
+  end: '2026-09-24T20:00:00-04:00'
+  sort_start_utc: '2026-09-24T22:00:00Z'
+  sort_end_utc: '2026-09-25T00:00:00Z'
+  display_when: Thursday, September 24, 2026, 6 PM to 8 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to
+    attend and open to anyone ages 13+.
+  planning_center_event_instance_id: '216277436'
+  planning_center_event_time_id: '29468516'
+  info_url: https://urbancrest.churchcenter.com/calendar/event/216277436
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 33
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-24-open-gym-pickleball-309c7f.md
 - id: event-a33c3a5ecf5aaab7
   uid: ET-31447186-227518757@resources.planningcenteronline.com
   title: Waynesville Fall Fest
@@ -1676,7 +1649,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 35
+  chronological_rank: 34
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-26-waynesville-fall-fest-5aaab7.md
@@ -1734,10 +1707,38 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 36
+  chronological_rank: 35
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-27-p-u-r-s-u-e-724217.md
+- id: event-94b57b98e1a45069
+  uid: ET-9127131-168372883@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-09-27T09:30:00-04:00'
+  end: '2026-09-27T10:40:00-04:00'
+  sort_start_utc: '2026-09-27T13:30:00Z'
+  sort_end_utc: '2026-09-27T14:40:00Z'
+  display_when: Sunday, September 27, 2026, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '168372883'
+  planning_center_event_time_id: '9127131'
+  info_url: https://urbancrest.churchcenter.com/calendar/event/168372883
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 36
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-27-sunday-morning-services-9-30-am-service-a45069.md
 - id: event-6b34cb8d668698aa
   uid: ET-27323022-203958056@resources.planningcenteronline.com
   title: Women's Fall Fest
