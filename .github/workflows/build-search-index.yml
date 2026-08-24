@@ -15,6 +15,7 @@ on:
       - intents/**
       - tests/**
       - scripts/build_search_index.py
+      - scripts/migrate_schedule_index_builder.py
       - scripts/validate_search_index.py
       - scripts/requirements-index.txt
 
@@ -43,21 +44,24 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements-index.txt
 
+      - name: Migrate schedule index compiler
+        run: python scripts/migrate_schedule_index_builder.py
+
       - name: Build search index
         run: python scripts/build_search_index.py
 
       - name: Validate search index and fixtures
         run: python scripts/validate_search_index.py
 
-      - name: Commit search index
+      - name: Commit search index and compiler migration
         run: |
           git config user.name "urbancrest-knowledge-bot"
           git config user.email "actions@users.noreply.github.com"
 
-          git add runtime/search-index.json
+          git add scripts/build_search_index.py runtime/search-index.json
 
           if git diff --cached --quiet; then
-            echo "Search index is already current."
+            echo "Search index and compiler are already current."
             exit 0
           fi
 
