@@ -1,5 +1,5 @@
 version: 1.4.3
-generated_at: '2026-08-24T21:44:54.444632Z'
+generated_at: '2026-08-24T22:47:27.520887Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api
 api_enrichment:
@@ -80,7 +80,6 @@ groups:
   planning_center_event_instance_id: '164754226'
   planning_center_event_time_id: '31398539'
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  info_url: https://urbancrest.churchcenter.com/calendar/event/164754226
   ministries:
   - small_groups
   audiences:
@@ -223,7 +222,6 @@ groups:
   summary: 'Steve Gregory Small Group: Steve Gregory is scheduled for Monday, August 24, 2026, 7 PM to 8:30 PM.'
   planning_center_event_instance_id: '164754228'
   planning_center_event_time_id: '28363570'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/164754228
   ministries:
   - small_groups
   audiences:
@@ -366,7 +364,6 @@ groups:
   description: Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.
   planning_center_event_instance_id: '164868627'
   planning_center_event_time_id: '25282532'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/164868627
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fsfkgtiufdgafjg73tuqant7jmhz3&thumb=960x540%23&signature=2db167b2732b93383b1c79d14da2d10fa8317b64841e7af6b3592b203363d6f1
   ministries:
   - students

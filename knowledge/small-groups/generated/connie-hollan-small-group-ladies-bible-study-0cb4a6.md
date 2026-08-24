@@ -25,12 +25,11 @@ next_meeting_end: "2026-08-24T20:30:00-04:00"
 sort_start_utc: "2026-08-24T23:00:00Z"
 sort_end_utc: "2026-08-25T00:30:00Z"
 meeting_count_in_window: 53
-info_url: "https://urbancrest.churchcenter.com/calendar/event/164754226"
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "164754226"
 planning_center_event_time_id: "31398539"
-last_generated: 2026-08-24T21:44:54.444632Z
+last_generated: 2026-08-24T22:47:27.520887Z
 ---
 
 # Connie Hollan Small Group: Ladies Bible Study
@@ -46,8 +45,6 @@ Connie Hollan
 ## Details
 
 Ladies Bible Study led by Connie Hollan
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/164754226
 
 ## Upcoming meetings
 

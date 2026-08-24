@@ -39,11 +39,10 @@ chronological_rank: 65
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
-info_url: "https://urbancrest.churchcenter.com/calendar/event/203958301"
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "203958301"
 planning_center_event_time_id: "27323098"
-last_generated: 2026-08-24T21:44:54.444632Z
+last_generated: 2026-08-24T22:47:27.520887Z
 ---
 
 # Women's Christmas Event
@@ -55,7 +54,5 @@ The Women's Ministry presents their Christmas event on Sunday, December 6 at 4:0
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
 The Women's Ministry presents their Christmas event on Sunday, December 6 at 4:00 PM in the gymnasium.
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/203958301
 
 This information is synchronized automatically from Urbancrest's live calendar.

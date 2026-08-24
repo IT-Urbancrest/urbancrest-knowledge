@@ -531,6 +531,27 @@ def classify_urls(urls: list[str]) -> tuple[str | None, str | None]:
     return registration, info
 
 
+def public_calendar_info_url(
+    info_url: str | None,
+    api_data: dict[str, object],
+) -> str | None:
+    """Return only public-safe event information URLs.
+
+    Church Center calendar-instance URLs are only trustworthy when the parent
+    Planning Center event is explicitly visible in Church Center. Registration
+    URLs are handled separately and are not affected by this policy.
+    """
+    candidate = clean_text(info_url) or clean_text(api_data.get("church_center_url"))
+    if not candidate:
+        return None
+
+    if "churchcenter.com/calendar/event/" in candidate.casefold():
+        if api_data.get("visible_in_church_center") is not True:
+            return None
+
+    return candidate
+
+
 def extract_image(component, *text_fields: str) -> str | None:
     candidates: list[str] = []
 
@@ -1212,7 +1233,7 @@ def main() -> int:
         registration_url = (
             clean_text(api_data.get("registration_url")) or registration_url
         )
-        info_url = info_url or clean_text(api_data.get("church_center_url")) or None
+        info_url = public_calendar_info_url(info_url, api_data)
         image_url = (
             extract_image(component, description, details)
             or clean_text(api_data.get("instance_image_url"))
@@ -1250,6 +1271,11 @@ def main() -> int:
             ),
             "registration_url": registration_url,
             "info_url": info_url,
+            "publicly_listed": (
+                api_data.get("visible_in_church_center")
+                if isinstance(api_data.get("visible_in_church_center"), bool)
+                else None
+            ),
             "image_url": image_url,
             "ministries": ministries,
             "audiences": audiences,

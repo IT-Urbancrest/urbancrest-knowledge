@@ -40,13 +40,12 @@ next_for_ministries: []
 next_for_audiences: []
 all_day: false
 registration_url: "https://urbancrest.churchcenter.com/registrations/events/3791849"
-info_url: "https://urbancrest.churchcenter.com/calendar/event/230615455"
 image_url: "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3791849/medium_image-1785669189641.jpeg"
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "230615455"
 planning_center_event_time_id: "31936721"
-last_generated: 2026-08-24T21:44:54.444632Z
+last_generated: 2026-08-24T22:47:27.520887Z
 ---
 
 # Urbancrest Women's Conference

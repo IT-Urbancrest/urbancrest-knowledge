@@ -25,11 +25,10 @@ next_meeting_end: "2026-08-26T20:30:00-04:00"
 sort_start_utc: "2026-08-26T22:30:00Z"
 sort_end_utc: "2026-08-27T00:30:00Z"
 meeting_count_in_window: 52
-info_url: "https://urbancrest.churchcenter.com/calendar/event/164868627"
 image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fsfkgtiufdgafjg73tuqant7jmhz3&thumb=960x540%23&signature=2db167b2732b93383b1c79d14da2d10fa8317b64841e7af6b3592b203363d6f1"
 planning_center_event_instance_id: "164868627"
 planning_center_event_time_id: "25282532"
-last_generated: 2026-08-24T21:44:54.444632Z
+last_generated: 2026-08-24T22:47:27.520887Z
 ---
 
 # P U R S U E
@@ -39,8 +38,6 @@ Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, wo
 **Next meeting:** Wednesday, August 26, 2026, 6:30 PM to 8:30 PM
 
 Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/164868627
 
 ## Upcoming meetings
 

@@ -39,10 +39,9 @@ chronological_rank: 82
 next_for_ministries: []
 next_for_audiences: []
 all_day: true
-info_url: "https://urbancrest.churchcenter.com/calendar/event/178563594"
 planning_center_event_instance_id: "178563594"
 planning_center_event_time_id: "14177442"
-last_generated: 2026-08-24T21:44:54.444632Z
+last_generated: 2026-08-24T22:47:27.520887Z
 ---
 
 # Summit - Gym Set-up
@@ -50,7 +49,5 @@ last_generated: 2026-08-24T21:44:54.444632Z
 Summit - Gym Set-up is scheduled for Thursday, January 28, 2027.
 
 **When:** Thursday, January 28, 2027
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/178563594
 
 This information is synchronized automatically from Urbancrest's live calendar.

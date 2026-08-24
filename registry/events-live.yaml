@@ -1,5 +1,5 @@
 version: 1.5.4
-generated_at: '2026-08-24T21:44:57.142634Z'
+generated_at: '2026-08-24T22:47:30.351143Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
@@ -103,7 +103,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122705'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122705
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -245,7 +244,6 @@ events:
   planning_center_event_instance_id: '227855428'
   planning_center_event_time_id: '31487702'
   registration_url: https://urbancrest.churchcenter.com/registrations/events/3737699/reservations/new
-  info_url: https://urbancrest.churchcenter.com/calendar/event/227855428
   image_url: https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg
   ministries:
   - kids
@@ -323,7 +321,6 @@ events:
     attend and open to anyone ages 13+.
   planning_center_event_instance_id: '216277432'
   planning_center_event_time_id: '29468516'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/216277432
   ministries:
   - churchwide
   audiences:
@@ -350,7 +347,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '165474589'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/165474589
   ministries:
   - students
   audiences:
@@ -380,7 +376,6 @@ events:
     smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '165474591'
   planning_center_event_time_id: '9127131'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/165474591
   ministries:
   - churchwide
   audiences:
@@ -408,7 +403,6 @@ events:
     smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '165474591'
   planning_center_event_time_id: '9127132'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/165474591
   ministries:
   - churchwide
   audiences:
@@ -434,7 +428,6 @@ events:
   description: Rai Lynn Guidone
   planning_center_event_instance_id: '165657702'
   planning_center_event_time_id: '28363612'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/165657702
   ministries:
   - churchwide
   audiences:
@@ -531,7 +524,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122706'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122706
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -600,7 +592,6 @@ events:
   planning_center_event_instance_id: '227855429'
   planning_center_event_time_id: '31487702'
   registration_url: https://urbancrest.churchcenter.com/registrations/events/3737699
-  info_url: https://urbancrest.churchcenter.com/calendar/event/227855429
   image_url: https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg
   ministries:
   - kids
@@ -727,7 +718,6 @@ events:
     attend and open to anyone ages 13+.
   planning_center_event_instance_id: '216277433'
   planning_center_event_time_id: '29468516'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/216277433
   ministries:
   - churchwide
   audiences:
@@ -755,7 +745,6 @@ events:
     at Urbancrest
   planning_center_event_instance_id: '166086980'
   planning_center_event_time_id: '30270334'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/166086980
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
@@ -855,7 +844,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '166271990'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/166271990
   ministries:
   - students
   audiences:
@@ -883,7 +871,6 @@ events:
     smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '166271992'
   planning_center_event_time_id: '9127131'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/166271992
   ministries:
   - churchwide
   audiences:
@@ -911,7 +898,6 @@ events:
     smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '166271992'
   planning_center_event_time_id: '9127132'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/166271992
   ministries:
   - churchwide
   audiences:
@@ -1008,7 +994,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122707'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122707
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -1077,7 +1062,6 @@ events:
   planning_center_event_instance_id: '227855430'
   planning_center_event_time_id: '31487702'
   registration_url: https://urbancrest.churchcenter.com/registrations/events/3737699
-  info_url: https://urbancrest.churchcenter.com/calendar/event/227855430
   image_url: https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg
   ministries:
   - kids
@@ -1109,7 +1093,6 @@ events:
     attend and open to anyone ages 13+.
   planning_center_event_instance_id: '216277434'
   planning_center_event_time_id: '29468516'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/216277434
   ministries:
   - churchwide
   audiences:
@@ -1136,7 +1119,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '167074214'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/167074214
   ministries:
   - students
   audiences:
@@ -1164,7 +1146,6 @@ events:
     smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '167074215'
   planning_center_event_time_id: '9127131'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/167074215
   ministries:
   - churchwide
   audiences:
@@ -1192,7 +1173,6 @@ events:
     smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '167074215'
   planning_center_event_time_id: '9127132'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/167074215
   ministries:
   - churchwide
   audiences:
@@ -1219,7 +1199,6 @@ events:
   description: This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
   planning_center_event_instance_id: '167230919'
   planning_center_event_time_id: '16193422'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/167230919
   ministries:
   - churchwide
   audiences:
@@ -1318,7 +1297,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122708'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122708
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -1347,7 +1325,6 @@ events:
     attend and open to anyone ages 13+.
   planning_center_event_instance_id: '216277435'
   planning_center_event_time_id: '29468516'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/216277435
   ministries:
   - churchwide
   audiences:
@@ -1374,7 +1351,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '167708212'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/167708212
   ministries:
   - students
   audiences:
@@ -1402,7 +1378,6 @@ events:
     smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '167708219'
   planning_center_event_time_id: '9127131'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/167708219
   ministries:
   - churchwide
   audiences:
@@ -1430,7 +1405,6 @@ events:
     smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '167708219'
   planning_center_event_time_id: '9127132'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/167708219
   ministries:
   - churchwide
   audiences:
@@ -1457,7 +1431,6 @@ events:
   description: Guest Services Team Dinner Meeting
   planning_center_event_instance_id: '221662897'
   planning_center_event_time_id: '30414252'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/221662897
   ministries:
   - churchwide
   audiences:
@@ -1554,7 +1527,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122709'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122709
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -1583,7 +1555,6 @@ events:
     attend and open to anyone ages 13+.
   planning_center_event_instance_id: '216277436'
   planning_center_event_time_id: '29468516'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/216277436
   ministries:
   - churchwide
   audiences:
@@ -1613,7 +1584,6 @@ events:
     there! If you have any questions please do not hesitate to reach out!!!
   planning_center_event_instance_id: '227518757'
   planning_center_event_time_id: '31447186'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/227518757
   image_url: https://registrations-production.s3.amazonaws.com/uploads/event/logo/3732292/medium_image-1782929258210.jpeg
   ministries:
   - churchwide
@@ -1675,7 +1645,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '168372882'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/168372882
   ministries:
   - students
   audiences:
@@ -1703,7 +1672,6 @@ events:
     smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '168372883'
   planning_center_event_time_id: '9127131'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/168372883
   ministries:
   - churchwide
   audiences:
@@ -1731,7 +1699,6 @@ events:
     smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '168372883'
   planning_center_event_time_id: '9127132'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/168372883
   ministries:
   - churchwide
   audiences:
@@ -1759,7 +1726,6 @@ events:
     year's Fall Fest, we will be having a chili cook-off! We hope you will join us and participate in the fun.
   planning_center_event_instance_id: '203958056'
   planning_center_event_time_id: '27323022'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/203958056
   ministries:
   - men
   - women
@@ -1860,7 +1826,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122710'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122710
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -1889,7 +1854,6 @@ events:
     at Urbancrest
   planning_center_event_instance_id: '168792298'
   planning_center_event_time_id: '30270334'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/168792298
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
@@ -1917,7 +1881,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '168914339'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/168914339
   ministries:
   - students
   audiences:
@@ -1973,7 +1936,6 @@ events:
   details_source: planning_center_registrations_api
   planning_center_event_instance_id: '228745978'
   planning_center_event_time_id: '31639046'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/228745978
   image_url: https://registrations-production.s3.amazonaws.com/uploads/event/logo/3755569/medium_image-1784126802561.jpeg
   ministries:
   - worship
@@ -2107,7 +2069,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122711'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122711
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -2135,7 +2096,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '169483179'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/169483179
   ministries:
   - students
   audiences:
@@ -2232,7 +2192,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122712'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122712
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -2288,7 +2247,6 @@ events:
   planning_center_event_instance_id: '230615455'
   planning_center_event_time_id: '31936721'
   registration_url: https://urbancrest.churchcenter.com/registrations/events/3791849/reservations/new
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230615455
   image_url: https://registrations-production.s3.amazonaws.com/uploads/event/logo/3791849/medium_image-1785669189641.jpeg
   ministries:
   - men
@@ -2355,7 +2313,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '169990121'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/169990121
   ministries:
   - students
   audiences:
@@ -2452,7 +2409,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122713'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122713
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -2480,7 +2436,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '170494272'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/170494272
   ministries:
   - students
   audiences:
@@ -2577,7 +2532,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122714'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122714
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -2605,7 +2559,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '171026771'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/171026771
   ministries:
   - students
   audiences:
@@ -2702,7 +2655,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122715'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122715
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -2731,7 +2683,6 @@ events:
     at Urbancrest
   planning_center_event_instance_id: '171450066'
   planning_center_event_time_id: '30270334'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/171450066
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
@@ -2759,7 +2710,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '171522665'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/171522665
   ministries:
   - students
   audiences:
@@ -2856,7 +2806,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122716'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122716
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -2888,7 +2837,6 @@ events:
     of our lives!
   planning_center_event_instance_id: '230487173'
   planning_center_event_time_id: '31924846'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230487173
   image_url: https://registrations-production.s3.amazonaws.com/uploads/event/logo/3790005/medium_image-1785514673084.jpeg
   ministries:
   - students
@@ -2961,7 +2909,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '172162011'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/172162011
   ministries:
   - students
   audiences:
@@ -3058,7 +3005,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122717'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122717
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -3086,7 +3032,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '172745994'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/172745994
   ministries:
   - students
   audiences:
@@ -3183,7 +3128,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122718'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122718
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -3211,7 +3155,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '173125610'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/173125610
   ministries:
   - students
   audiences:
@@ -3308,7 +3251,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122719'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122719
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -3337,7 +3279,6 @@ events:
     at Urbancrest
   planning_center_event_instance_id: '173559224'
   planning_center_event_time_id: '30270334'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/173559224
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
@@ -3365,7 +3306,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '173665460'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/173665460
   ministries:
   - students
   audiences:
@@ -3392,7 +3332,6 @@ events:
   description: The Women's Ministry presents their Christmas event on Sunday, December 6 at 4:00 PM in the gymnasium.
   planning_center_event_instance_id: '203958301'
   planning_center_event_time_id: '27323098'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/203958301
   ministries:
   - men
   - women
@@ -3491,7 +3430,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122720'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122720
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -3519,7 +3457,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '174228981'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/174228981
   ministries:
   - students
   audiences:
@@ -3616,7 +3553,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122721'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122721
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -3644,7 +3580,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '174858350'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/174858350
   ministries:
   - students
   audiences:
@@ -3741,7 +3676,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122722'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122722
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -3769,7 +3703,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '175168854'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/175168854
   ministries:
   - students
   audiences:
@@ -3866,7 +3799,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122723'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122723
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -3895,7 +3827,6 @@ events:
     at Urbancrest
   planning_center_event_instance_id: '175505238'
   planning_center_event_time_id: '30270334'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/175505238
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
@@ -3923,7 +3854,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '175628417'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/175628417
   ministries:
   - students
   audiences:
@@ -4020,7 +3950,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122724'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122724
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -4048,7 +3977,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '176633356'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/176633356
   ministries:
   - students
   audiences:
@@ -4145,7 +4073,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122725'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122725
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -4253,7 +4180,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '177521375'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/177521375
   ministries:
   - students
   audiences:
@@ -4350,7 +4276,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122726'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122726
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -4378,7 +4303,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '178227937'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/178227937
   ministries:
   - students
   audiences:
@@ -4475,7 +4399,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122727'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122727
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -4501,7 +4424,6 @@ events:
   all_day: true
   planning_center_event_instance_id: '178563594'
   planning_center_event_time_id: '14177442'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/178563594
   ministries:
   - churchwide
   audiences:
@@ -4528,7 +4450,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '178993061'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/178993061
   ministries:
   - students
   audiences:
@@ -4625,7 +4546,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122728'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122728
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -4654,7 +4574,6 @@ events:
     at Urbancrest
   planning_center_event_instance_id: '179599397'
   planning_center_event_time_id: '30270334'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/179599397
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
@@ -4682,7 +4601,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '179714952'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/179714952
   ministries:
   - students
   audiences:
@@ -4779,7 +4697,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122729'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122729
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -4807,7 +4724,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '180379778'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/180379778
   ministries:
   - students
   audiences:
@@ -4904,7 +4820,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122730'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122730
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -4932,7 +4847,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '181029213'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/181029213
   ministries:
   - students
   audiences:
@@ -5029,7 +4943,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122731'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122731
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -5057,7 +4970,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '181712613'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/181712613
   ministries:
   - students
   audiences:
@@ -5154,7 +5066,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122732'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122732
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -5183,7 +5094,6 @@ events:
     at Urbancrest
   planning_center_event_instance_id: '182177829'
   planning_center_event_time_id: '30270334'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/182177829
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
@@ -5211,7 +5121,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '182308662'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/182308662
   ministries:
   - students
   audiences:
@@ -5308,7 +5217,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122733'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122733
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -5336,7 +5244,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '182961870'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/182961870
   ministries:
   - students
   audiences:
@@ -5433,7 +5340,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122734'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122734
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -5461,7 +5367,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '183553238'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/183553238
   ministries:
   - students
   audiences:
@@ -5558,7 +5463,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122735'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122735
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -5586,7 +5490,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '184127574'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/184127574
   ministries:
   - students
   audiences:
@@ -5683,7 +5586,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122736'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122736
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -5712,7 +5614,6 @@ events:
     at Urbancrest
   planning_center_event_instance_id: '184574784'
   planning_center_event_time_id: '30270334'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/184574784
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
@@ -5740,7 +5641,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '184709692'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/184709692
   ministries:
   - students
   audiences:
@@ -5767,7 +5667,6 @@ events:
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   planning_center_event_instance_id: '229161073'
   planning_center_event_time_id: '31703048'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/229161073
   ministries:
   - missions
   audiences:
@@ -5865,7 +5764,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122737'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122737
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -5893,7 +5791,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '185242407'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/185242407
   ministries:
   - students
   audiences:
@@ -5990,7 +5887,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122738'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122738
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -6018,7 +5914,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '185783917'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/185783917
   ministries:
   - students
   audiences:
@@ -6115,7 +6010,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122739'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122739
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -6147,7 +6041,6 @@ events:
     more students the chance to attend. Gather your team, enjoy some friendly competition, and help invest in the next generation.
   planning_center_event_instance_id: '229172206'
   planning_center_event_time_id: '31705455'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/229172206
   image_url: https://registrations-production.s3.amazonaws.com/uploads/event/logo/3763678/medium_image-1784563400067.jpeg
   ministries:
   - students
@@ -6215,7 +6108,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '186242939'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/186242939
   ministries:
   - students
   audiences:
@@ -6312,7 +6204,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122740'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122740
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -6341,7 +6232,6 @@ events:
     at Urbancrest
   planning_center_event_instance_id: '186694422'
   planning_center_event_time_id: '30270334'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/186694422
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
@@ -6369,7 +6259,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '186833875'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/186833875
   ministries:
   - students
   audiences:
@@ -6466,7 +6355,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122741'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122741
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -6494,7 +6382,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '187438411'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/187438411
   ministries:
   - students
   audiences:
@@ -6591,7 +6478,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122742'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122742
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -6619,7 +6505,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '187978015'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/187978015
   ministries:
   - students
   audiences:
@@ -6716,7 +6601,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122743'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122743
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -6744,7 +6628,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '188635612'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/188635612
   ministries:
   - students
   audiences:
@@ -6841,7 +6724,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122744'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122744
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -6869,7 +6751,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '189178223'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/189178223
   ministries:
   - students
   audiences:
@@ -6966,7 +6847,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122745'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122745
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -6995,7 +6875,6 @@ events:
     at Urbancrest
   planning_center_event_instance_id: '189635733'
   planning_center_event_time_id: '30270334'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/189635733
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
@@ -7023,7 +6902,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '189755214'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/189755214
   ministries:
   - students
   audiences:
@@ -7120,7 +6998,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122746'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122746
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -7148,7 +7025,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '190366386'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/190366386
   ministries:
   - students
   audiences:
@@ -7245,7 +7121,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122747'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122747
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -7273,7 +7148,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '190927289'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/190927289
   ministries:
   - students
   audiences:
@@ -7370,7 +7244,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122748'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122748
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -7398,7 +7271,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '191499597'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/191499597
   ministries:
   - students
   audiences:
@@ -7495,7 +7367,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122749'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122749
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -7524,7 +7395,6 @@ events:
     at Urbancrest
   planning_center_event_instance_id: '191939841'
   planning_center_event_time_id: '30270334'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/191939841
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
@@ -7552,7 +7422,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '192039973'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/192039973
   ministries:
   - students
   audiences:
@@ -7649,7 +7518,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122750'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122750
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -7677,7 +7545,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '192570407'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/192570407
   ministries:
   - students
   audiences:
@@ -7774,7 +7641,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122751'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122751
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -7802,7 +7668,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '193205936'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/193205936
   ministries:
   - students
   audiences:
@@ -7899,7 +7764,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122752'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122752
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -7927,7 +7791,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '193794020'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/193794020
   ministries:
   - students
   audiences:
@@ -8024,7 +7887,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122753'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122753
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -8052,7 +7914,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '194487310'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/194487310
   ministries:
   - students
   audiences:
@@ -8149,7 +8010,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122754'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122754
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -8178,7 +8038,6 @@ events:
     at Urbancrest
   planning_center_event_instance_id: '195114700'
   planning_center_event_time_id: '30270334'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/195114700
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576
   ministries:
   - men
@@ -8206,7 +8065,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '195239941'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/195239941
   ministries:
   - students
   audiences:
@@ -8303,7 +8161,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122755'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122755
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -8331,7 +8188,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '196140166'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/196140166
   ministries:
   - students
   audiences:
@@ -8428,7 +8284,6 @@ events:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122756'
   planning_center_event_time_id: '31870601'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/230122756
   image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243
   ministries:
   - churchwide
@@ -8456,7 +8311,6 @@ events:
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '197056906'
   planning_center_event_time_id: '8762150'
-  info_url: https://urbancrest.churchcenter.com/calendar/event/197056906
   ministries:
   - students
   audiences:

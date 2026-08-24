@@ -39,11 +39,10 @@ chronological_rank: 21
 next_for_ministries: []
 next_for_audiences: ["families"]
 all_day: false
-info_url: "https://urbancrest.churchcenter.com/calendar/event/167230919"
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "167230919"
 planning_center_event_time_id: "16193422"
-last_generated: 2026-08-24T21:44:54.444632Z
+last_generated: 2026-08-24T22:47:27.520887Z
 ---
 
 # Monthly Baskets of Hope - Volunteers
@@ -55,7 +54,5 @@ This is a time for volunteers to assemble, pack, and distribute monthly boxes of
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
 This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/167230919
 
 This information is synchronized automatically from Urbancrest's live calendar.

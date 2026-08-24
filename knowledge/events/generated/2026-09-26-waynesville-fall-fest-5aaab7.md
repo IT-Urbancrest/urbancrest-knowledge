@@ -39,11 +39,10 @@ chronological_rank: 30
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
-info_url: "https://urbancrest.churchcenter.com/calendar/event/227518757"
 image_url: "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3732292/medium_image-1782929258210.jpeg"
 planning_center_event_instance_id: "227518757"
 planning_center_event_time_id: "31447186"
-last_generated: 2026-08-24T21:44:54.444632Z
+last_generated: 2026-08-24T22:47:27.520887Z
 ---
 
 # Waynesville Fall Fest
@@ -53,8 +52,6 @@ We will be meeting at the church prior to 2:30 to leave at 2:30 for the Waynesvi
 **When:** Saturday, September 26, 2026, 2:30 PM to 6 PM
 
 We will be meeting at the church prior to 2:30 to leave at 2:30 for the Waynesville Fall Fest!!! We will be staying for the remainder of their opening until 6!!! The costs is $13 plus any food or arcade games you want to play there! If you have any questions please do not hesitate to reach out!!!
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/227518757
 
 **Event image:** https://registrations-production.s3.amazonaws.com/uploads/event/logo/3732292/medium_image-1782929258210.jpeg
 

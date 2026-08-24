@@ -39,12 +39,11 @@ chronological_rank: 111
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
-info_url: "https://urbancrest.churchcenter.com/calendar/event/229172206"
 image_url: "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3763678/medium_image-1784563400067.jpeg"
 location: "Lebanon High School - 1916 Drake Rd\nLebanon, OH 45036"
 planning_center_event_instance_id: "229172206"
 planning_center_event_time_id: "31705455"
-last_generated: 2026-08-24T21:44:54.444632Z
+last_generated: 2026-08-24T22:47:27.520887Z
 ---
 
 # 3V3 Basketball Tournament
@@ -57,8 +56,6 @@ last_generated: 2026-08-24T21:44:54.444632Z
 Lebanon, OH 45036
 
 100% of proceeds go toward sending students to Youth Summer Camp - helping make camp more affordable and giving more students the chance to attend. Gather your team, enjoy some friendly competition, and help invest in the next generation.
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/229172206
 
 **Event image:** https://registrations-production.s3.amazonaws.com/uploads/event/logo/3763678/medium_image-1784563400067.jpeg
 

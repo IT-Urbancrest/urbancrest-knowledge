@@ -39,13 +39,12 @@ chronological_rank: 41
 next_for_ministries: ["worship"]
 next_for_audiences: []
 all_day: false
-info_url: "https://urbancrest.churchcenter.com/calendar/event/228745978"
 image_url: "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3755569/medium_image-1784126802561.jpeg"
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "228745978"
 planning_center_event_time_id: "31639046"
-last_generated: 2026-08-24T21:44:54.444632Z
+last_generated: 2026-08-24T22:47:27.520887Z
 ---
 
 # Night of Worship Choir
@@ -77,8 +76,6 @@ To make the evening even more meaningful, we're putting together a
 Special Event Choir
 , and we'd love for you to join us!
 Whether you've sung in choir before or it's been years since you've stood on the risers, this is a wonderful opportunity to worship together and lead our church family in lifting high the name of Jesus. You don't have to be a professional singer-just someone who enjoys worshiping through music and is willing to prepare the music with us.
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/228745978
 
 **Event image:** https://registrations-production.s3.amazonaws.com/uploads/event/logo/3755569/medium_image-1784126802561.jpeg
 

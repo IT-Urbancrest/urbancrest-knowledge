@@ -39,11 +39,10 @@ chronological_rank: 27
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
-info_url: "https://urbancrest.churchcenter.com/calendar/event/221662897"
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "221662897"
 planning_center_event_time_id: "30414252"
-last_generated: 2026-08-24T21:44:54.444632Z
+last_generated: 2026-08-24T22:47:27.520887Z
 ---
 
 # Guest Services Team Meeting
@@ -55,7 +54,5 @@ Guest Services Team Dinner Meeting
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
 Guest Services Team Dinner Meeting
-
-**More information:** https://urbancrest.churchcenter.com/calendar/event/221662897
 
 This information is synchronized automatically from Urbancrest's live calendar.
