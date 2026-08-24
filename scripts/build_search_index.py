@@ -958,6 +958,59 @@ def generic_yaml_records() -> list[dict[str, Any]]:
     return records
 
 
+
+def live_freshness_metadata() -> dict[str, dict[str, Any]]:
+    runtime_sources_path = ROOT / "registry/runtime-sources.yaml"
+    runtime_sources = yaml.safe_load(runtime_sources_path.read_text(encoding="utf-8")) or {}
+    policies = runtime_sources.get("freshness") or {}
+    if not isinstance(policies, dict):
+        raise ValueError("registry/runtime-sources.yaml freshness must be an object")
+
+    required_keys = ("calendar", "small_groups")
+    result: dict[str, dict[str, Any]] = {}
+    for key in required_keys:
+        policy = policies.get(key)
+        if not isinstance(policy, dict):
+            raise ValueError(f"registry/runtime-sources.yaml freshness.{key} is missing")
+
+        heartbeat_path = str(policy.get("heartbeat_path") or "").strip()
+        heartbeat_field = str(policy.get("heartbeat_field") or "generated_at").strip()
+        fallback_action_key = str(policy.get("fallback_action_key") or "").strip()
+        stale_behavior = str(policy.get("stale_behavior") or "").strip()
+        max_age_hours = policy.get("max_age_hours")
+
+        if not heartbeat_path:
+            raise ValueError(f"freshness.{key}.heartbeat_path is required")
+        source_path = ROOT / heartbeat_path
+        if not source_path.is_file():
+            raise ValueError(f"freshness.{key} heartbeat source does not exist: {heartbeat_path}")
+
+        source_data = yaml.safe_load(source_path.read_text(encoding="utf-8")) or {}
+        generated_at = str(source_data.get(heartbeat_field) or "").strip()
+        if not generated_at:
+            raise ValueError(
+                f"freshness.{key} source {heartbeat_path} has no {heartbeat_field} value"
+            )
+
+        try:
+            numeric_max_age = float(max_age_hours)
+        except (TypeError, ValueError) as exc:
+            raise ValueError(f"freshness.{key}.max_age_hours must be numeric") from exc
+        if numeric_max_age <= 0:
+            raise ValueError(f"freshness.{key}.max_age_hours must be positive")
+
+        result[key] = {
+            "generated_at": generated_at,
+            "max_age_hours": int(numeric_max_age) if numeric_max_age.is_integer() else numeric_max_age,
+            "source_path": heartbeat_path,
+            "heartbeat_field": heartbeat_field,
+            "fallback_action_key": fallback_action_key,
+            "stale_behavior": stale_behavior,
+        }
+
+    return result
+
+
 def main() -> None:
     records = []
     records.extend(markdown_records())
@@ -1008,6 +1061,7 @@ def main() -> None:
             "admin_knowledge_source": "base44.KnowledgeEntry",
         },
         "source_rules": yaml.safe_load((ROOT / "registry/runtime-sources.yaml").read_text(encoding="utf-8")),
+        "freshness": live_freshness_metadata(),
         "records": records,
     }
 

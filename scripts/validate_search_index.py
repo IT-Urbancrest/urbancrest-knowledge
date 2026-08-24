@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+from datetime import datetime
 from pathlib import Path
 from typing import Any
 
@@ -74,6 +75,59 @@ def validate_index(index: dict[str, Any]) -> dict[str, dict[str, Any]]:
         url = str(record.get("url") or "").strip()
         if url and not url.startswith("https://"):
             fail(f"action link {record['id']} must use HTTPS: {url}")
+
+    freshness = index.get("freshness")
+    if not isinstance(freshness, dict):
+        fail("runtime/search-index.json must contain freshness metadata")
+
+    for key in ("calendar", "small_groups"):
+        item = freshness.get(key)
+        if not isinstance(item, dict):
+            fail(f"freshness.{key} is missing")
+
+        generated_at = str(item.get("generated_at") or "").strip()
+        if not generated_at:
+            fail(f"freshness.{key}.generated_at is missing")
+        try:
+            parsed = datetime.fromisoformat(generated_at.replace("Z", "+00:00"))
+        except ValueError:
+            fail(f"freshness.{key}.generated_at is not ISO-8601: {generated_at}")
+        if parsed.tzinfo is None:
+            fail(f"freshness.{key}.generated_at must include a timezone")
+
+        try:
+            max_age_hours = float(item.get("max_age_hours"))
+        except (TypeError, ValueError):
+            fail(f"freshness.{key}.max_age_hours must be numeric")
+        if max_age_hours <= 0:
+            fail(f"freshness.{key}.max_age_hours must be positive")
+
+        source_path_value = str(item.get("source_path") or "").strip()
+        heartbeat_field = str(item.get("heartbeat_field") or "generated_at").strip()
+        if not source_path_value:
+            fail(f"freshness.{key}.source_path is missing")
+        source_path = ROOT / source_path_value
+        if not source_path.is_file():
+            fail(f"freshness.{key} source does not exist: {source_path_value}")
+        source_data = yaml.safe_load(source_path.read_text(encoding="utf-8")) or {}
+        expected_heartbeat = str(source_data.get(heartbeat_field) or "").strip()
+        if generated_at != expected_heartbeat:
+            fail(
+                f"freshness.{key}.generated_at does not match {source_path_value} "
+                f"field {heartbeat_field}"
+            )
+
+        fallback_action_key = str(item.get("fallback_action_key") or "").strip()
+        if not fallback_action_key:
+            fail(f"freshness.{key}.fallback_action_key is missing")
+        fallback = by_id.get(f"action_link.{fallback_action_key}")
+        if not fallback:
+            fail(
+                f"freshness.{key} references missing fallback action "
+                f"action_link.{fallback_action_key}"
+            )
+        if not str(fallback.get("url") or "").startswith("https://"):
+            fail(f"freshness.{key} fallback action must use HTTPS")
 
     return by_id
 
