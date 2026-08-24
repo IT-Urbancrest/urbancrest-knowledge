@@ -32,7 +32,9 @@ tags:
 search_terms:
 - What does Urbancrest believe about the Antichrist?
 - What is the Antichrist?
+- What is the anti christ?
 - Who is the Antichrist?
+- Who is the anti christ?
 - Does Urbancrest believe in a literal Antichrist?
 - Will there be a future Antichrist?
 - Is the Antichrist alive today?
