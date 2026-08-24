@@ -30,6 +30,7 @@ That compiled index is the runtime boundary between the knowledge repository and
 - Live events: `registry/events-live.yaml`
 - Small Groups: `registry/small-groups-live.yaml`
 - Staff identity and routing: `registry/staff.yaml` and `registry/staff-routing.yaml`
+- Ministry-to-staff ownership and contact routing: `relationships/ministry-staff.yaml`
 - Staff biographies, photos, contact information, and fun facts: Base44 `Staff`
 - Approved response links: `registry/action-links.yaml`
 - Public knowledge: `knowledge/`
