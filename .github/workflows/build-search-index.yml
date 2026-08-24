@@ -44,8 +44,33 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements-index.txt
 
+      - name: Normalize schedule migration template
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          path = Path("scripts/migrate_schedule_index_builder.py")
+          text = path.read_text(encoding="utf-8")
+          old = "NEW_FUNCTION = '''"
+          new = "NEW_FUNCTION = r'''"
+
+          if new not in text:
+              if old not in text:
+                  raise SystemExit("Could not find schedule migration template declaration")
+              text = text.replace(old, new, 1)
+              path.write_text(text, encoding="utf-8")
+              print("Converted schedule migration template to a raw string.")
+          else:
+              print("Schedule migration template is already a raw string.")
+          PY
+
       - name: Migrate schedule index compiler
         run: python scripts/migrate_schedule_index_builder.py
+
+      - name: Check Python syntax
+        run: |
+          python -m py_compile scripts/migrate_schedule_index_builder.py
+          python -m py_compile scripts/build_search_index.py
 
       - name: Build search index
         run: python scripts/build_search_index.py
@@ -53,15 +78,15 @@ jobs:
       - name: Validate search index and fixtures
         run: python scripts/validate_search_index.py
 
-      - name: Commit search index and compiler migration
+      - name: Commit search index
         run: |
           git config user.name "urbancrest-knowledge-bot"
           git config user.email "actions@users.noreply.github.com"
 
-          git add scripts/build_search_index.py runtime/search-index.json
+          git add scripts/migrate_schedule_index_builder.py scripts/build_search_index.py runtime/search-index.json
 
           if git diff --cached --quiet; then
-            echo "Search index and compiler are already current."
+            echo "Search index is already current."
             exit 0
           fi
 
