@@ -19,6 +19,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -60,6 +62,9 @@ jobs:
 
       - name: Rebuild knowledge search index
         run: python scripts/build_search_index.py
+
+      - name: Finalize search index
+        run: python scripts/finalize_search_index.py
 
       - name: Validate search index and fixtures
         run: python scripts/validate_search_index.py
