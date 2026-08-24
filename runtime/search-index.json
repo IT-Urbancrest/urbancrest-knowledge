@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.9.7",
-  "generated_at": "2026-08-24T13:52:41.650529Z",
+  "generated_at": "2026-08-24T14:10:11.176563Z",
   "timezone": "America/New_York",
   "record_count": 429,
   "config": {
@@ -7425,7 +7425,63 @@
       "series_id": "summer_on_the_mount_2026",
       "series_status": "active",
       "start_date": "2026-06-07",
-      "primary_scripture": "Matthew 5-7"
+      "primary_scripture": "Matthew 5-7",
+      "sermons": [
+        {
+          "date": "2026-06-07",
+          "title": "A Blueprint for God’s Blessing",
+          "speaker": "Geoff Prows",
+          "primary_scripture": "Matthew 5:1-6"
+        },
+        {
+          "date": "2026-06-14",
+          "title": "God’s Blueprint for Your Blessing",
+          "speaker": "Geoff Prows",
+          "primary_scripture": "Matthew 5:7-12"
+        },
+        {
+          "date": "2026-06-21",
+          "title": "Faith That Influences",
+          "speaker": "Geoff Prows",
+          "primary_scripture": "Matthew 5:13-16"
+        },
+        {
+          "date": "2026-06-28",
+          "title": "Christ Fulfills the Law",
+          "speaker": "David Bickers",
+          "primary_scripture": "Matthew 5:17-20"
+        },
+        {
+          "date": "2026-07-05",
+          "title": "Radical Righteousness and Kingdom Relationships",
+          "speaker": "Geoff Prows",
+          "primary_scripture": "Matthew 5:21-26"
+        },
+        {
+          "date": "2026-07-12",
+          "title": "Radical Purity",
+          "speaker": "Geoff Prows",
+          "primary_scripture": "Matthew 5:27-30"
+        },
+        {
+          "date": "2026-07-26",
+          "title": "Truthfulness and Revenge",
+          "speaker": "Geoff Prows",
+          "primary_scripture": "Matthew 5:33-42"
+        },
+        {
+          "date": "2026-08-02",
+          "title": "What To Do With People Who Do Not Love You Back",
+          "speaker": "Geoff Prows",
+          "primary_scripture": "Matthew 5:43-48"
+        },
+        {
+          "date": "2026-08-09",
+          "title": "Becoming Real, Lasting Fruit",
+          "speaker": "Jerry Shannon",
+          "primary_scripture": "Matthew 6:1-8"
+        }
+      ]
     },
     {
       "id": "action_link.directions_google",
