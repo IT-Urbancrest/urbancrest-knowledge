@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.9.7",
-  "generated_at": "2026-08-24T19:47:46.095975Z",
+  "generated_at": "2026-08-24T19:51:08.671689Z",
   "timezone": "America/New_York",
   "record_count": 449,
   "config": {
@@ -6012,10 +6012,10 @@
         "Why Do Our Pastors Often Use Word-for-Word Translations?",
         "Are Other Bible Translations Okay to Use?",
         "Detailed Answer",
-        "for preaching and close Bible study because they allow readers to see more of the wording and structure reflected in the original biblical languages.",
         "That is one reason the NASB and NKJV are regularly used in Urbancrest's preaching and teaching.",
         "Yes. You do not need to own an NASB or NKJV to participate at Urbancrest.",
-        "Faithful English Bible translations can be valuable for reading and study, and comparing translations can sometimes help clarify how a passage is being expressed."
+        "Faithful English Bible translations can be valuable for reading and study, and comparing translations can sometimes help clarify how a passage is being expressed.",
+        "Our pastors may also reference other translations when teaching."
       ],
       "ministries": [],
       "audiences": [
@@ -6225,7 +6225,6 @@
         "Can We Know Who the Antichrist Is Today?",
         "How Should Christians Respond to Teaching About the Antichrist?",
         "Detailed Answer",
-        "ture teaches that opposition to Christ is already present in the world and will ultimately culminate in a final personal opponent of Christ.",
         "We do not believe Christians are called to continually identify contemporary candidates for the Antichrist or build their faith around speculative end-times predictions.",
         "The emphasis of biblical teaching about the last things is the certain return, judgment, reign, and victory of Jesus Christ.",
         "Because Christ wins, believers can face the future with faithfulness and hope rather than fear."
@@ -6239,7 +6238,7 @@
       "answer_guidance": "Explain that Scripture uses antichrist language for opposition to Christ in the present age and also points to a future personal and climactic opponent of Christ. Do not speculate that a particular contemporary political, religious, or public figure is the Antichrist. Keep the focus on Christ's promised return, judgment, and final victory rather than sensational timelines.",
       "confidence": "high",
       "authoritative": true,
-      "supplemental_search_term_count": 9
+      "supplemental_search_term_count": 8
     },
     {
       "id": "beliefs.lords_supper",
@@ -23991,27 +23990,11 @@
       "category": [],
       "intents": [],
       "tags": [],
-      "search_terms": [
-        "Ministry Knowledge Structure",
-        "Standard layout",
-        "File paths are not record identity",
-        "knowledge/ministries/men/overview.md",
-        "Overview documents",
-        "FAQs",
-        "Programs",
-        "Leadership",
-        "Events",
-        "Repository hygiene",
-        "Specific event/date questions should use live event records directly.",
-        "No duplicate frontmatter IDs.",
-        "No canonical overview Markdown files directly under knowledge/ministries/ other than this README.",
-        "Preserve IDs when moving files."
-      ],
+      "search_terms": [],
       "ministries": [],
       "audiences": [],
       "resources": [],
-      "status": "published",
-      "supplemental_search_term_count": 14
+      "status": "published"
     },
     {
       "id": "events.live.event-09a75fc73580f4a3",
