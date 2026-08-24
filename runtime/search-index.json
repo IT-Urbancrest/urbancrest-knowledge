@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-08-24T22:10:01.432469Z",
+  "generated_at": "2026-08-24T22:15:15.656742Z",
   "timezone": "America/New_York",
   "record_count": 450,
   "config": {
@@ -10601,8 +10601,8 @@
       "record_type": "knowledge",
       "path": "knowledge/ministries/guest-services/faq/does-urbancrest-provide-refreshments.md",
       "title": "Does Urbancrest provide refreshments?",
-      "summary": "Coffee, tea, hot chocolate, donuts, and water are available free of charge in the foyer.",
-      "content": "# Does Urbancrest provide refreshments?\n\nYes. The foyer offers free refreshments, including:\n\n- Coffee with cream, sugar, and flavorings\n- Tea\n- Hot chocolate\n- Donuts\n- Water\n\nThere is no charge for refreshments.",
+      "summary": "All refreshments are free. Coffee, tea, hot chocolate, donuts, and water are available in the foyer.",
+      "content": "# Does Urbancrest provide refreshments?\n\nRefreshments are free. The foyer offers:\n\n- Coffee with cream, sugar, and flavorings\n- Tea\n- Hot chocolate\n- Donuts\n- Water\n\nThere is no charge for refreshments.",
       "priority": 88,
       "category": [
         "ministries",
