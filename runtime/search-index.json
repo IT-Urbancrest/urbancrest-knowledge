@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "0.9.7",
-  "generated_at": "2026-08-24T19:51:08.671689Z",
+  "generated_at": "2026-08-24T21:05:35.078129Z",
   "timezone": "America/New_York",
   "record_count": 449,
   "config": {
@@ -13,8 +13,8 @@
     "admin_knowledge_source": "base44.KnowledgeEntry"
   },
   "source_rules": {
-    "version": "1.0",
-    "last_updated": "2026-07-30",
+    "version": "1.1",
+    "last_updated": "2026-08-24",
     "sources": {
       "github_knowledge": {
         "authority": "authoritative_public_knowledge",
@@ -53,6 +53,22 @@
           "SearchQueryLog",
           "UnansweredQuestion"
         ]
+      }
+    },
+    "freshness": {
+      "calendar": {
+        "heartbeat_path": "registry/events-live.yaml",
+        "heartbeat_field": "generated_at",
+        "max_age_hours": 8,
+        "fallback_action_key": "events",
+        "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
+      },
+      "small_groups": {
+        "heartbeat_path": "registry/small-groups-live.yaml",
+        "heartbeat_field": "generated_at",
+        "max_age_hours": 8,
+        "fallback_action_key": "small_groups",
+        "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
       }
     },
     "precedence": [
@@ -23237,7 +23253,7 @@
       "path": "registry/runtime-sources.yaml",
       "title": "Runtime Sources",
       "summary": "Structured registry data from registry/runtime-sources.yaml.",
-      "content": "version: 1.0\nlast_updated: 2026-07-30\nsources: github_knowledge: authority: authoritative_public_knowledge\nincludes: knowledge\nregistry\nrelationships\nintents\nbase44_staff: authority: authoritative_staff_profile_and_card_data\nentity: Staff\nfields: bio\nfunFact\nphoto\nphone\nemail\nrole\nactive\norder\nbase44_admin_knowledge: authority: approved_supplemental_knowledge\nentity: KnowledgeEntry\npublic_filter: status: published\napproved: True\nbase44_query_analytics: authority: operational_only\nentities: SearchQueryLog\nUnansweredQuestion\nprecedence: Structured recurring schedule data from registry/schedule.yaml overrides conflicting general knowledge and approved Base44 admin entries for normal weekly service and ministry meeting times.\nFor a specific date, structured live event data may override the recurring schedule when it explicitly represents a cancellation, changed time, special occurrence, or other exception for that date.\nStructured live event and Small Group data from GitHub overrides conflicting admin entries.\nBase44 Staff overrides GitHub for biography, fun fact, contact, photo, active status, and display order.\nGitHub staff routing determines staffKey and ministry relationships.\nApproved Base44 KnowledgeEntry records may supplement public knowledge but must not silently replace authoritative structured records.",
+      "content": "version: 1.1\nlast_updated: 2026-08-24\nsources: github_knowledge: authority: authoritative_public_knowledge\nincludes: knowledge\nregistry\nrelationships\nintents\nbase44_staff: authority: authoritative_staff_profile_and_card_data\nentity: Staff\nfields: bio\nfunFact\nphoto\nphone\nemail\nrole\nactive\norder\nbase44_admin_knowledge: authority: approved_supplemental_knowledge\nentity: KnowledgeEntry\npublic_filter: status: published\napproved: True\nbase44_query_analytics: authority: operational_only\nentities: SearchQueryLog\nUnansweredQuestion\nfreshness: calendar: heartbeat_path: registry/events-live.yaml\nheartbeat_field: generated_at\nmax_age_hours: 8\nfallback_action_key: events\nstale_behavior: refuse_current_details_and_link_to_authoritative_destination\nsmall_groups: heartbeat_path: registry/small-groups-live.yaml\nheartbeat_field: generated_at\nmax_age_hours: 8\nfallback_action_key: small_groups\nstale_behavior: refuse_current_details_and_link_to_authoritative_destination\nprecedence: Structured recurring schedule data from registry/schedule.yaml overrides conflicting general knowledge and approved Base44 admin entries for normal weekly service and ministry meeting times.\nFor a specific date, structured live event data may override the recurring schedule when it explicitly represents a cancellation, changed time, special occurrence, or other exception for that date.\nStructured live event and Small Group data from GitHub overrides conflicting admin entries.\nBase44 Staff overrides GitHub for biography, fun fact, contact, photo, active status, and display order.\nGitHub staff routing determines staffKey and ministry relationships.\nApproved Base44 KnowledgeEntry records may supplement public knowledge but must not silently replace authoritative structured records.",
       "priority": 60,
       "category": [
         "registry"
