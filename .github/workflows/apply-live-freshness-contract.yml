@@ -1,0 +1,78 @@
+name: Apply Live Freshness Contract
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/apply-live-freshness-contract.yml
+      - scripts/apply_live_freshness_contract.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: urbancrest-knowledge-writes
+  cancel-in-progress: false
+
+jobs:
+  patch-and-verify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements-index.txt
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements-index.txt
+
+      - name: Apply guarded freshness patch
+        run: |
+          python -m py_compile scripts/apply_live_freshness_contract.py
+          python scripts/apply_live_freshness_contract.py
+          python -m py_compile scripts/build_search_index.py
+          python -m py_compile scripts/finalize_search_index.py
+          python -m py_compile scripts/validate_search_index.py
+
+      - name: Build and finalize search index
+        run: |
+          python scripts/build_search_index.py
+          python scripts/finalize_search_index.py
+
+      - name: Validate search index and fixtures
+        run: python scripts/validate_search_index.py
+
+      - name: Commit freshness compiler
+        run: |
+          git config user.name "urbancrest-knowledge-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add \
+            scripts/build_search_index.py \
+            scripts/validate_search_index.py \
+            runtime/search-index.json
+
+          if git diff --cached --quiet; then
+            echo "Live freshness contract is already applied."
+            exit 0
+          fi
+
+          git commit -m "feat: compile live data freshness metadata"
+
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            if [ "$attempt" -eq 3 ]; then exit 1; fi
+          done
