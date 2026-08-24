@@ -1,5 +1,5 @@
-version: '1.0'
-last_updated: '2026-07-30'
+version: '1.1'
+last_updated: '2026-08-24'
 sources:
   github_knowledge:
     authority: authoritative_public_knowledge
@@ -31,6 +31,19 @@ sources:
     entities:
     - SearchQueryLog
     - UnansweredQuestion
+freshness:
+  calendar:
+    heartbeat_path: registry/events-live.yaml
+    heartbeat_field: generated_at
+    max_age_hours: 8
+    fallback_action_key: events
+    stale_behavior: refuse_current_details_and_link_to_authoritative_destination
+  small_groups:
+    heartbeat_path: registry/small-groups-live.yaml
+    heartbeat_field: generated_at
+    max_age_hours: 8
+    fallback_action_key: small_groups
+    stale_behavior: refuse_current_details_and_link_to_authoritative_destination
 precedence:
 - Structured recurring schedule data from registry/schedule.yaml overrides conflicting
   general knowledge and approved Base44 admin entries for normal weekly service and
