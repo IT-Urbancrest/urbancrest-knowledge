@@ -527,60 +527,77 @@ def markdown_records() -> list[dict[str, Any]]:
                 or ""
             ).strip()
 
-            raw_sermons = metadata.get(
-                "sermons"
-            )
+            # Automatically build the series message list from
+# individual sermon files that share this series_id.
+normalized_sermons: list[
+    dict[str, Any]
+] = []
 
-            normalized_sermons: list[
-                dict[str, Any]
-            ] = []
+if series_id:
+    for (
+        sermon_path,
+        sermon_relative,
+        sermon_metadata,
+        sermon_body,
+    ) in sources:
 
-            if isinstance(
-                raw_sermons,
-                list,
-            ):
-                for sermon in raw_sermons:
-                    if not isinstance(
-                        sermon,
-                        dict,
-                    ):
-                        continue
+        sermon_record_type = markdown_record_type(
+            sermon_relative,
+            sermon_metadata,
+        )
 
-                    normalized_sermons.append(
-                        {
-                            "date": (
-                                str(
-                                    sermon.get(
-                                        "date"
-                                    )
-                                )
-                                if sermon.get(
-                                    "date"
-                                )
-                                is not None
-                                else ""
-                            ),
-                            "title": str(
-                                sermon.get(
-                                    "title"
-                                )
-                                or ""
-                            ),
-                            "speaker": str(
-                                sermon.get(
-                                    "speaker"
-                                )
-                                or ""
-                            ),
-                            "primary_scripture":
-                                str(
-                                    sermon.get(
-                                        "primary_scripture"
-                                    )
-                                    or ""
-                                ),
-                        }
+        if sermon_record_type != "sermon":
+            continue
+
+        sermon_series_id = str(
+            sermon_metadata.get("series_id")
+            or ""
+        ).strip()
+
+        if sermon_series_id != series_id:
+            continue
+
+        sermon_date = (
+            sermon_metadata.get("sermon_date")
+            or sermon_metadata.get("date")
+        )
+
+        sermon_title = str(
+            sermon_metadata.get("title")
+            or sermon_path.stem.replace(
+                "-",
+                " ",
+            ).title()
+        )
+
+        normalized_sermons.append(
+            {
+                "date": (
+                    str(sermon_date)
+                    if sermon_date is not None
+                    else ""
+                ),
+                "title": sermon_title,
+                "speaker": str(
+                    sermon_metadata.get("speaker")
+                    or ""
+                ),
+                "primary_scripture": str(
+                    sermon_metadata.get(
+                        "primary_scripture"
                     )
+                    or ""
+                ),
+            }
+        )
+
+# Always keep the series messages chronological.
+normalized_sermons.sort(
+    key=lambda sermon: sermon.get(
+        "date",
+        "",
+    )
+)
 
             tags = unique(
                 [
