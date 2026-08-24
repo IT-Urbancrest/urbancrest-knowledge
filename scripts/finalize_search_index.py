@@ -60,10 +60,15 @@ def supplemental_terms(body: str) -> list[str]:
         if 3 <= len(heading) <= MAX_TERM_LENGTH:
             candidates.append(heading)
 
-    # The builder keeps the first CONTENT_CAP characters in prompt content. Pull a
-    # bounded set of later-body sentences/lines into search_terms so information
-    # after that cap remains retrievable without expanding every model prompt.
-    tail = body[CONTENT_CAP:]
+    # The builder keeps the first CONTENT_CAP characters in prompt content. Start
+    # supplemental extraction only after the next sentence/paragraph boundary so
+    # a hard character cap can never produce a partial leading word or sentence.
+    tail_offset = CONTENT_CAP
+    boundary = re.search(r"(?:[.!?](?:\s+|$)|\n{2,})", body[CONTENT_CAP:])
+    if boundary:
+        tail_offset += boundary.end()
+    tail = body[tail_offset:]
+
     raw_chunks = re.split(r"(?<=[.!?])\s+|\n{2,}", tail)
     for chunk in raw_chunks:
         phrase = clean_markdown_phrase(chunk)
@@ -86,6 +91,8 @@ def enrich_long_markdown_records(payload: dict[str, Any]) -> int:
             continue
         relative = str(record.get("path") or "")
         if not relative.startswith("knowledge/") or not relative.endswith(".md"):
+            continue
+        if Path(relative).name.casefold() == "readme.md":
             continue
         source_path = ROOT / relative
         if not source_path.is_file():
