@@ -61,6 +61,9 @@ jobs:
       - name: Rebuild knowledge search index
         run: python scripts/build_search_index.py
 
+      - name: Validate search index and fixtures
+        run: python scripts/validate_search_index.py
+
       - name: Commit updated event and index data
         run: |
           git config user.name "urbancrest-events-bot"
