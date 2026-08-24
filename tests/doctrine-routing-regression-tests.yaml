@@ -1,0 +1,18 @@
+version: 1.0
+purpose: Guard deterministic doctrine routing for named belief topics and common spelling variants.
+
+cases:
+  - query: What does Urbancrest believe about the antichrist?
+    expected_record: beliefs.antichrist
+
+  - query: What does Urbancrest believe about the anti-christ?
+    expected_record: beliefs.antichrist
+
+  - query: What does Urbancrest believe about the anti christ?
+    expected_record: beliefs.antichrist
+
+  - query: What does Urbancrest believe about the Trinity?
+    expected_record: beliefs.trinity
+
+  - query: What does Urbancrest believe about transubstantiation?
+    expected_record: beliefs.transubstantiation
