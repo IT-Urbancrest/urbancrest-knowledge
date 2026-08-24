@@ -8,7 +8,7 @@ START_MARKER = "def schedule_records() -> list[dict[str, Any]]:\n"
 END_MARKER = "\n\ndef event_records() -> list[dict[str, Any]]:\n"
 MIGRATED_MARKER = "# schedule schema 2.1 compiler"
 
-NEW_FUNCTION = '''def schedule_records() -> list[dict[str, Any]]:
+NEW_FUNCTION = r'''def schedule_records() -> list[dict[str, Any]]:
     # schedule schema 2.1 compiler
     path = ROOT / "registry/schedule.yaml"
     data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
