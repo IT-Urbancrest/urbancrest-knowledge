@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.0.0
+
+- Stabilized the retrieval-first architecture across the GitHub knowledge repository and the Base44 `queryKnowledgeBase` runtime.
+- Migrated recurring schedule compilation to the authoritative schema 2.1 registry and added individual activity and ministry schedule records.
+- Preserved structured live-event metadata including all-day state, registration availability and status, capacity, source metadata, and public-listing state.
+- Added executable routing regressions that run the actual production `entry.ts` handler against the current search index and fixed-time synthetic calendar fixtures.
+- Added deterministic regression coverage for doctrine, sermons, schedules, ministry routing, staff ownership, directions, live calendar boundaries, unmatched event queries, and critical safety short-circuiting.
+- Fixed activity-availability false positives so generic words such as `upcoming` and `events` cannot qualify unrelated live records.
+- Added consistent event-year formatting plus conservative no-end event handling, including a six-hour timed-event grace window and local-day handling for all-day events.
+- Added live-data freshness contracts for calendar and Small Group sources using the sync registries' independent `generated_at` heartbeats and an eight-hour stale threshold.
+- Added deterministic stale-data responses that refuse potentially outdated live details and route users to the approved Events page or Small Groups directory.
+- Added SHA-pinned search-index fetching, retryable Turnstile loading, aligned Base44 SDK versions, and server-side question-length protection while preserving critical safety precedence.
+- Added deeper long-article retrieval through bounded supplemental search terms without expanding prompt content, and eliminated timestamp-only index commits when semantic output is unchanged.
+- Expanded permanent build, index, fixture, runtime-invariant, and executable routing validation so future changes fail before publishing when core behavior regresses.
+
 ## 0.9.7
 
 - Revised all nine structured sermon records using the published Subsplash fill-in notes as the canonical source for official titles, primary Scripture, and sermon outlines.
