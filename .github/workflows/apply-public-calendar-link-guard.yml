@@ -1,0 +1,115 @@
+name: Apply Public Calendar Link Guard
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - scripts/apply_public_calendar_link_guard.py
+      - scripts/test_event_link_policy.py
+      - .github/workflows/apply-public-calendar-link-guard.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: urbancrest-knowledge-writes
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: |
+            scripts/requirements-events.txt
+            scripts/requirements-index.txt
+
+      - name: Install dependencies
+        run: |
+          pip install -r scripts/requirements-events.txt
+          pip install -r scripts/requirements-index.txt
+
+      - name: Apply guarded sync patch
+        run: python scripts/apply_public_calendar_link_guard.py
+
+      - name: Validate sync policy
+        run: |
+          python -m py_compile scripts/sync_events.py scripts/test_event_link_policy.py
+          python scripts/test_event_link_policy.py
+
+      - name: Regenerate live calendar files
+        env:
+          ICAL_FEED_URL: ${{ secrets.ICAL_FEED_URL }}
+          PLANNING_CENTER_APP_ID: ${{ secrets.PLANNING_CENTER_APP_ID }}
+          PLANNING_CENTER_SECRET: ${{ secrets.PLANNING_CENTER_SECRET }}
+          PLANNING_CENTER_API_VERSION: "2026-06-22"
+          EVENT_LOOKAHEAD_DAYS: "365"
+          EVENT_MAX_MAIN_EVENTS: "150"
+          SMALL_GROUP_MAX_SERIES: "100"
+          SMALL_GROUP_MAX_OCCURRENCES: "12"
+          EVENT_DEFAULT_IMAGE: ""
+        run: python scripts/sync_events.py
+
+      - name: Merge Planning Center Registrations events
+        env:
+          PLANNING_CENTER_APP_ID: ${{ secrets.PLANNING_CENTER_APP_ID }}
+          PLANNING_CENTER_SECRET: ${{ secrets.PLANNING_CENTER_SECRET }}
+          PLANNING_CENTER_REGISTRATIONS_API_VERSION: "2025-05-01"
+          EVENT_LOOKAHEAD_DAYS: "365"
+          EVENT_MAX_MAIN_EVENTS: "150"
+          REGISTRATIONS_CATEGORY_ALLOWLIST: ""
+          REGISTRATIONS_CATEGORY_DENYLIST: ""
+        run: python scripts/sync_registrations.py
+
+      - name: Rebuild and validate search index
+        run: |
+          python scripts/build_search_index.py
+          python scripts/finalize_search_index.py
+          python scripts/validate_search_index.py
+
+      - name: Commit guarded sync and regenerated data
+        run: |
+          git config user.name "urbancrest-events-bot"
+          git config user.email "actions@users.noreply.github.com"
+
+          git add -A -- \
+            scripts/sync_events.py \
+            registry/events-live.yaml \
+            registry/small-groups-live.yaml \
+            knowledge/events \
+            knowledge/small-groups \
+            runtime/search-index.json
+
+          if git diff --cached --quiet; then
+            echo "Public calendar link guard is already applied."
+            exit 0
+          fi
+
+          git commit -m "fix: suppress non-public Church Center calendar links"
+
+          for attempt in 1 2 3; do
+            echo "Push attempt ${attempt}: rebasing onto latest origin/main"
+            git fetch origin main
+            git rebase origin/main
+
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            if [ "${attempt}" -eq 3 ]; then
+              echo "Push still failed after ${attempt} attempts."
+              exit 1
+            fi
+          done
