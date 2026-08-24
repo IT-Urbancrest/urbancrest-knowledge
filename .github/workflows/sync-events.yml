@@ -36,6 +36,11 @@ jobs:
           pip install -r scripts/requirements-events.txt
           pip install -r scripts/requirements-index.txt
 
+      - name: Validate public event link policy
+        run: |
+          python -m py_compile scripts/sync_events.py scripts/test_event_link_policy.py
+          python scripts/test_event_link_policy.py
+
       - name: Generate calendar event files
         env:
           ICAL_FEED_URL: ${{ secrets.ICAL_FEED_URL }}
