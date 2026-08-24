@@ -343,16 +343,28 @@ def markdown_records() -> list[dict[str, Any]]:
 
     return records
 
+
 def schedule_records() -> list[dict[str, Any]]:
     path = ROOT / "registry/schedule.yaml"
     data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
     weekly = data.get("schedule", {}).get("weekly", {})
     sunday_times = weekly.get("sunday", {}).get("worship", [])
     wednesday = weekly.get("wednesday", {})
+    sunday_labels = [str(value).strip() for value in sunday_times if str(value).strip()]
+
+    if not sunday_labels:
+        raise ValueError("registry/schedule.yaml must contain at least one Sunday worship time")
+
+    if len(sunday_labels) == 1:
+        sunday_summary = f"Sunday worship service is at {sunday_labels[0]}."
+    elif len(sunday_labels) == 2:
+        sunday_summary = f"Sunday worship services are at {sunday_labels[0]} and {sunday_labels[1]}."
+    else:
+        sunday_summary = f"Sunday worship services are at {', '.join(sunday_labels[:-1])}, and {sunday_labels[-1]}."
 
     content_lines = [
         "Regular weekly schedule:",
-        "Sunday worship: " + ", ".join(str(value) for value in sunday_times),
+        "Sunday worship: " + ", ".join(sunday_labels),
     ]
 
     for key, item in wednesday.items():
@@ -372,7 +384,7 @@ def schedule_records() -> list[dict[str, Any]]:
             record_type="schedule",
             path="registry/schedule.yaml",
             title="Urbancrest Weekly Service Schedule",
-            summary="Sunday worship services are at 9:30 AM and 11:00 AM.",
+            summary=sunday_summary,
             content="\n".join(content_lines),
             priority=int(data.get("priority") or 120),
             category=["schedule", "about"],
@@ -392,7 +404,7 @@ def schedule_records() -> list[dict[str, Any]]:
             authoritative_for=as_list(data.get("source_of_truth_for")),
             confidence="high",
             answer_guidance=data.get("answer_guidance"),
-            sunday_service_times=as_list(sunday_times),
+            sunday_service_times=sunday_labels,
             timezone=data.get("timezone", "America/New_York"),
         )
     ]
@@ -753,11 +765,26 @@ def main() -> None:
     records.extend(relationship_records())
     records.extend(generic_yaml_records())
 
-    deduped: dict[str, dict[str, Any]] = {}
+    by_id: dict[str, dict[str, Any]] = {}
+    duplicate_details: list[str] = []
     for record in records:
-        deduped[record["id"]] = record
+        record_id = str(record.get("id") or "").strip()
+        if not record_id:
+            raise ValueError(f"Search-index record from {record.get('path', 'unknown source')} has no id")
+        previous = by_id.get(record_id)
+        if previous is not None:
+            duplicate_details.append(
+                f"{record_id}: {previous.get('path', 'unknown source')} <-> {record.get('path', 'unknown source')}"
+            )
+        else:
+            by_id[record_id] = record
+
+    if duplicate_details:
+        details = "\n  - ".join(duplicate_details)
+        raise ValueError(f"Duplicate search-index record IDs detected:\n  - {details}")
+
     records = sorted(
-        deduped.values(),
+        records,
         key=lambda item: (-int(item.get("priority", 0)), item.get("record_type", ""), item.get("title", "").casefold()),
     )
 
