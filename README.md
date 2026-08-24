@@ -12,15 +12,17 @@ Public knowledge and structured retrieval data for the Urbancrest Church website
 - Search-index and sync scripts in `scripts/`
 - Retrieval regression tests in `tests/`
 
-## Runtime architecture
+## 1.0 runtime contract
 
-Base44 does not send this entire repository to the language model. The repository is compiled into:
+This repository is the authoritative public knowledge layer for the Urbancrest website assistant. Base44 does not send the entire repository to the language model. The repository is compiled into:
 
 ```text
 runtime/search-index.json
 ```
 
-`queryKnowledgeBase` fetches that index, retrieves a small set of relevant records locally, applies deterministic handling for schedules, live events, directions, Local Missions, food assistance, benevolence, staff routing, and action links, then sends only the selected context to the model.
+That compiled index is the runtime boundary between the knowledge repository and `queryKnowledgeBase`. Do not edit `runtime/search-index.json` manually.
+
+`queryKnowledgeBase` retrieves a small set of relevant records locally and uses deterministic handling where exact church-owned behavior is required. Deterministic routes include critical safety responses, doctrine, recurring schedules and service times, sermons, directions, staff ownership, current events, Small Groups, and other structured live-data lookups. The language model is used only after deterministic routing and record selection when a generated response is appropriate.
 
 ### Sources of truth
 
@@ -32,7 +34,30 @@ runtime/search-index.json
 - Approved response links: `registry/action-links.yaml`
 - Public knowledge: `knowledge/`
 
-Source precedence is defined in `registry/runtime-sources.yaml`.
+Source precedence and live-data freshness policy are defined in `registry/runtime-sources.yaml`.
+
+### Informational and transactional boundaries
+
+Urbancrest knowledge and the website assistant are the informational layer. They should answer questions directly from approved church-owned sources.
+
+Church Center is the transactional layer for actions such as registration, giving, baptism interest, Small Groups, and serving interest. Approved Church Center destinations are maintained in the registries rather than reconstructed by the runtime.
+
+### Live-data freshness
+
+Current event and Small Group answers use independent source heartbeats compiled from the `generated_at` value in their live registries. The freshness threshold is currently eight hours.
+
+Freshness is based on the live source registry heartbeat, not the search index `generated_at` timestamp. If a live source exceeds its configured freshness threshold, the runtime does not present its records as current. It returns the approved fallback destination instead. Evergreen knowledge remains available, while stale live-event enrichment is omitted.
+
+## Validation and regression protection
+
+Knowledge changes are protected by the permanent build pipeline:
+
+1. Build `runtime/search-index.json`.
+2. Finalize the generated index.
+3. Run `scripts/validate_search_index.py` against the index and regression declarations.
+4. Commit the compiled index only after validation passes.
+
+The Base44 app has a separate permanent CI gate that validates runtime invariants, executes the actual production `queryKnowledgeBase` routing source through the executable regression harness, and builds the application. This protects deterministic routing behavior rather than relying only on source-marker checks.
 
 ## Rebuild the search index
 
@@ -40,9 +65,7 @@ After changing knowledge, registries, intents, or relationships, run:
 
 **Actions → Build Knowledge Search Index → Run workflow**
 
-The live-event sync also rebuilds the index after updating calendar data.
-
-Do not edit `runtime/search-index.json` manually.
+The live-event sync also rebuilds and validates the index after updating calendar data.
 
 ## Live events
 
