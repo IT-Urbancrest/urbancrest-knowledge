@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
-  "repository_version": "0.9.7",
-  "generated_at": "2026-08-24T21:06:33.519754Z",
+  "repository_version": "1.0.0",
+  "generated_at": "2026-08-24T21:13:39.956510Z",
   "timezone": "America/New_York",
   "record_count": 450,
   "config": {
