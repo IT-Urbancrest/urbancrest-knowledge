@@ -11,6 +11,9 @@ cases:
   - query: What does Urbancrest believe about the anti christ?
     expected_record: beliefs.antichrist
 
+  - query: Who is the man of lawlessness?
+    expected_record: beliefs.antichrist
+
   - query: What does Urbancrest believe about the Trinity?
     expected_record: beliefs.trinity
 
