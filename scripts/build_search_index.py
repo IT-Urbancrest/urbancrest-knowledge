@@ -163,49 +163,235 @@ def record_base(
 
 def markdown_records() -> list[dict[str, Any]]:
     records: list[dict[str, Any]] = []
+
+    # Parse the Markdown files first so we can resolve sermon series titles
+    # before building individual sermon records.
+    sources: list[tuple[Path, str, dict[str, Any], str]] = []
+
     for path in sorted((ROOT / "knowledge").rglob("*.md")):
         relative = path.relative_to(ROOT).as_posix()
+
         if relative in SKIP_MARKDOWN:
             continue
         if relative.startswith("knowledge/events/generated/"):
             continue
         if relative.startswith("knowledge/small-groups/generated/"):
             continue
+
         metadata, body = parse_markdown(path)
+
         status = str(metadata.get("status", "published"))
         if status not in {"published", "active"}:
             continue
-        title = str(metadata.get("title") or path.stem.replace("-", " ").title())
+
+        sources.append((path, relative, metadata, body))
+
+    # Build series_id -> series title lookup so individual sermon records
+    # can expose the human-readable series title to retrieval.
+    series_titles: dict[str, str] = {}
+
+    for path, relative, metadata, body in sources:
+        record_type = str(metadata.get("record_type") or "knowledge").strip()
+
+        if record_type != "sermon_series":
+            continue
+
+        series_id = str(metadata.get("series_id") or "").strip()
+        title = str(
+            metadata.get("title")
+            or path.stem.replace("-", " ").title()
+        )
+
+        if series_id:
+            series_titles[series_id] = title
+
+    for path, relative, metadata, body in sources:
+        title = str(
+            metadata.get("title")
+            or path.stem.replace("-", " ").title()
+        )
+
+        status = str(metadata.get("status", "published"))
+
+        # IMPORTANT:
+        # Preserve the authored record type instead of turning every
+        # Markdown file into generic "knowledge".
+        record_type = str(
+            metadata.get("record_type")
+            or "knowledge"
+        ).strip()
+
+        category = as_list(metadata.get("category"))
+        intents = intent_values(metadata)
+        tags = as_list(metadata.get("tags"))
+        search_terms = as_list(metadata.get("search_terms"))
+        topics = as_list(metadata.get("topics"))
+
+        extra: dict[str, Any] = {
+            "status": status,
+            "staff_key": metadata.get("staff_key"),
+            "recommended_contact_staff_key": metadata.get(
+                "recommended_contact_staff_key"
+            ),
+            "related_staff_keys": as_list(
+                metadata.get("related_staff_keys")
+            ),
+            "leadership_status": metadata.get("leadership_status"),
+            "open_role": metadata.get("open_role"),
+            "review_trigger": metadata.get("review_trigger"),
+            "answer_guidance": metadata.get("answer_guidance"),
+            "confidence": metadata.get("confidence"),
+            "authoritative": metadata.get("authoritative"),
+            "authoritative_for": as_list(
+                metadata.get("authoritative_for")
+            ),
+        }
+
+        # Preserve sermon-specific structured metadata.
+        if record_type == "sermon":
+            sermon_date = (
+                metadata.get("sermon_date")
+                or metadata.get("date")
+            )
+
+            series_id = str(
+                metadata.get("series_id") or ""
+            ).strip()
+
+            series_title = (
+                metadata.get("series_title")
+                or series_titles.get(series_id)
+            )
+
+            # Topics are useful retrieval signals for questions such as
+            # "What sermon talked about generosity?"
+            tags = unique([
+                *tags,
+                "sermon",
+                *topics,
+            ])
+
+            search_terms = unique([
+                *search_terms,
+                *topics,
+            ])
+
+            if "sermon" not in intents:
+                intents.append("sermon")
+
+            extra.update({
+                # Retrieval expects sermon_date even though the Markdown
+                # sermon schema historically uses "date".
+                "sermon_date": (
+                    str(sermon_date)
+                    if sermon_date is not None
+                    else None
+                ),
+                "date": (
+                    str(sermon_date)
+                    if sermon_date is not None
+                    else None
+                ),
+                "speaker": metadata.get("speaker"),
+                "series_id": series_id or None,
+                "series_title": series_title,
+                "primary_scripture": metadata.get(
+                    "primary_scripture"
+                ),
+                "notes_url": metadata.get("notes_url"),
+                "topics": topics,
+                "title_source": metadata.get("title_source"),
+                "outline_source": metadata.get("outline_source"),
+                "summary_source": metadata.get("summary_source"),
+            })
+
+        # Preserve sermon-series structured metadata.
+        elif record_type == "sermon_series":
+            series_id = str(
+                metadata.get("series_id") or ""
+            ).strip()
+
+            raw_sermons = metadata.get("sermons")
+            normalized_sermons: list[dict[str, Any]] = []
+
+            if isinstance(raw_sermons, list):
+                for sermon in raw_sermons:
+                    if not isinstance(sermon, dict):
+                        continue
+
+                    normalized_sermons.append({
+                        "date": (
+                            str(sermon.get("date"))
+                            if sermon.get("date") is not None
+                            else ""
+                        ),
+                        "title": str(
+                            sermon.get("title") or ""
+                        ),
+                        "speaker": str(
+                            sermon.get("speaker") or ""
+                        ),
+                        "primary_scripture": str(
+                            sermon.get("primary_scripture") or ""
+                        ),
+                    })
+
+            tags = unique([
+                *tags,
+                "sermon",
+                "sermon series",
+            ])
+
+            if "sermon_series" not in intents:
+                intents.append("sermon_series")
+
+            extra.update({
+                "series_id": series_id or None,
+                "series_status": metadata.get("series_status"),
+                "start_date": (
+                    str(metadata.get("start_date"))
+                    if metadata.get("start_date") is not None
+                    else None
+                ),
+                "end_date": (
+                    str(metadata.get("end_date"))
+                    if metadata.get("end_date") is not None
+                    else None
+                ),
+                "primary_scripture": metadata.get(
+                    "primary_scripture"
+                ),
+                "sermons": normalized_sermons,
+                "artwork_url": metadata.get("artwork_url"),
+                "image_url": metadata.get("image_url"),
+                "series_artwork_url": metadata.get(
+                    "series_artwork_url"
+                ),
+            })
+
         records.append(
             record_base(
-                record_id=str(metadata.get("id") or relative),
-                record_type="knowledge",
+                record_id=str(
+                    metadata.get("id")
+                    or relative
+                ),
+                record_type=record_type,
                 path=relative,
                 title=title,
                 summary=str(metadata.get("summary") or ""),
                 content=body,
-                content_limit=None if relative.startswith("knowledge/beliefs/") else 2400,
                 priority=int(metadata.get("priority") or 50),
-                category=as_list(metadata.get("category")),
-                intents=intent_values(metadata),
-                tags=as_list(metadata.get("tags")),
-                search_terms=as_list(metadata.get("search_terms")),
+                category=category,
+                intents=intents,
+                tags=tags,
+                search_terms=search_terms,
                 ministries=as_list(metadata.get("ministries")),
                 audiences=as_list(metadata.get("audience")),
                 resources=as_list(metadata.get("resources")),
-                status=status,
-                staff_key=metadata.get("staff_key"),
-                recommended_contact_staff_key=metadata.get("recommended_contact_staff_key"),
-                related_staff_keys=as_list(metadata.get("related_staff_keys")),
-                leadership_status=metadata.get("leadership_status"),
-                open_role=metadata.get("open_role"),
-                review_trigger=metadata.get("review_trigger"),
-                answer_guidance=metadata.get("answer_guidance"),
-                confidence=metadata.get("confidence"),
-                authoritative=metadata.get("authoritative"),
-                authoritative_for=as_list(metadata.get("authoritative_for")),
+                **extra,
             )
         )
+
     return records
 
 
