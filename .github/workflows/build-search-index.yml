@@ -13,7 +13,9 @@ on:
       - registry/**
       - relationships/**
       - intents/**
+      - tests/**
       - scripts/build_search_index.py
+      - scripts/validate_search_index.py
       - scripts/requirements-index.txt
 
 permissions:
@@ -43,6 +45,9 @@ jobs:
 
       - name: Build search index
         run: python scripts/build_search_index.py
+
+      - name: Validate search index and fixtures
+        run: python scripts/validate_search_index.py
 
       - name: Commit search index
         run: |
