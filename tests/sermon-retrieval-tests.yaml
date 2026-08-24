@@ -1,13 +1,14 @@
-version: 1.2
+version: 1.3
 purpose: Regression coverage for structured sermon and sermon-series retrieval using fill-in notes as the canonical structural source.
 
 cases:
   - query: What was the sermon about last Sunday?
-    expected_record: sermons.2026_08_02
-    expected_title: What To Do With People Who Do Not Love You Back
-    expected_topic: love your enemies
+    now: '2026-08-10T12:00:00-04:00'
+    expected_record: sermons.2026_08_09
+    expected_title: Becoming Real, Lasting Fruit
+    expected_topic: authentic kingdom living
     expected_record_count: 1
-    relative_date_behavior: most_recent_available_sermon
+    relative_date_behavior: previous_calendar_sunday
 
   - query: What did Geoff preach on June 7?
     expected_record: sermons.2026_06_07
@@ -49,12 +50,18 @@ cases:
     expected_record: sermons.2026_08_02
     expected_title: What To Do With People Who Do Not Love You Back
 
+  - query: What did Jerry Shannon preach on August 9?
+    expected_record: sermons.2026_08_09
+    expected_title: Becoming Real, Lasting Fruit
+    expected_speaker: Jerry Shannon
+    expected_scripture: Matthew 6:1-8
+
   - query: What is the current sermon series?
     expected_record: sermons.series.summer_on_the_mount_2026
 
   - query: Which sermons have been in Summer on the Mount?
     expected_record: sermons.series.summer_on_the_mount_2026
-    expected_member_count: 8
+    expected_member_count: 9
     answer_must_list_all_members: true
     expected_image_url: https://cdn.subsplash.com/images/VRR5NM/_source/3259fdd8-2fcf-4d63-9fd7-fa81b3796edb/image.jpg
 
@@ -64,6 +71,11 @@ cases:
   - query: Do you have fill-in notes for the August 2 message?
     expected_record: sermons.2026_08_02
     expected_url: https://notes.subsplash.com/fill-in/view?page=Syw90ydSMl
+    answer_must_include_exact_url: true
+
+  - query: Do you have fill-in notes for the August 9 message?
+    expected_record: sermons.2026_08_09
+    expected_url: https://notes.subsplash.com/fill-in/view?page=HkhqpRSUMl
     answer_must_include_exact_url: true
 
   - query: What did Geoff say about waiting on God?
