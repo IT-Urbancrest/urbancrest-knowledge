@@ -521,83 +521,83 @@ def markdown_records() -> list[dict[str, Any]]:
             )
 
         # Preserve sermon-series structured metadata.
-        elif record_type == "sermon_series":
+                elif record_type == "sermon_series":
             series_id = str(
                 metadata.get("series_id")
                 or ""
             ).strip()
 
             # Automatically build the series message list from
-# individual sermon files that share this series_id.
-normalized_sermons: list[
-    dict[str, Any]
-] = []
+            # individual sermon files that share this series_id.
+            normalized_sermons: list[
+                dict[str, Any]
+            ] = []
 
-if series_id:
-    for (
-        sermon_path,
-        sermon_relative,
-        sermon_metadata,
-        sermon_body,
-    ) in sources:
+            if series_id:
+                for (
+                    sermon_path,
+                    sermon_relative,
+                    sermon_metadata,
+                    sermon_body,
+                ) in sources:
 
-        sermon_record_type = markdown_record_type(
-            sermon_relative,
-            sermon_metadata,
-        )
-
-        if sermon_record_type != "sermon":
-            continue
-
-        sermon_series_id = str(
-            sermon_metadata.get("series_id")
-            or ""
-        ).strip()
-
-        if sermon_series_id != series_id:
-            continue
-
-        sermon_date = (
-            sermon_metadata.get("sermon_date")
-            or sermon_metadata.get("date")
-        )
-
-        sermon_title = str(
-            sermon_metadata.get("title")
-            or sermon_path.stem.replace(
-                "-",
-                " ",
-            ).title()
-        )
-
-        normalized_sermons.append(
-            {
-                "date": (
-                    str(sermon_date)
-                    if sermon_date is not None
-                    else ""
-                ),
-                "title": sermon_title,
-                "speaker": str(
-                    sermon_metadata.get("speaker")
-                    or ""
-                ),
-                "primary_scripture": str(
-                    sermon_metadata.get(
-                        "primary_scripture"
+                    sermon_record_type = markdown_record_type(
+                        sermon_relative,
+                        sermon_metadata,
                     )
-                    or ""
-                ),
-            }
-        )
 
-# Always keep the series messages chronological.
-normalized_sermons.sort(
-    key=lambda sermon: sermon.get(
-        "date",
-        "",
-    )
-)
+                    if sermon_record_type != "sermon":
+                        continue
+
+                    sermon_series_id = str(
+                        sermon_metadata.get("series_id")
+                        or ""
+                    ).strip()
+
+                    if sermon_series_id != series_id:
+                        continue
+
+                    sermon_date = (
+                        sermon_metadata.get("sermon_date")
+                        or sermon_metadata.get("date")
+                    )
+
+                    sermon_title = str(
+                        sermon_metadata.get("title")
+                        or sermon_path.stem.replace(
+                            "-",
+                            " ",
+                        ).title()
+                    )
+
+                    normalized_sermons.append(
+                        {
+                            "date": (
+                                str(sermon_date)
+                                if sermon_date is not None
+                                else ""
+                            ),
+                            "title": sermon_title,
+                            "speaker": str(
+                                sermon_metadata.get("speaker")
+                                or ""
+                            ),
+                            "primary_scripture": str(
+                                sermon_metadata.get(
+                                    "primary_scripture"
+                                )
+                                or ""
+                            ),
+                        }
+                    )
+
+            # Keep the series messages chronological.
+            normalized_sermons.sort(
+                key=lambda sermon: sermon.get(
+                    "date",
+                    "",
+                )
+            )
 
             tags = unique(
                 [
@@ -607,10 +607,7 @@ normalized_sermons.sort(
                 ]
             )
 
-            if (
-                "sermon_series"
-                not in intents
-            ):
+            if "sermon_series" not in intents:
                 intents.append(
                     "sermon_series"
                 )
@@ -621,10 +618,9 @@ normalized_sermons.sort(
                         series_id
                         or None
                     ),
-                    "series_status":
-                        metadata.get(
-                            "series_status"
-                        ),
+                    "series_status": metadata.get(
+                        "series_status"
+                    ),
                     "start_date": (
                         str(
                             metadata.get(
@@ -649,24 +645,19 @@ normalized_sermons.sort(
                         is not None
                         else None
                     ),
-                    "primary_scripture":
-                        metadata.get(
-                            "primary_scripture"
-                        ),
-                    "sermons":
-                        normalized_sermons,
-                    "artwork_url":
-                        metadata.get(
-                            "artwork_url"
-                        ),
-                    "image_url":
-                        metadata.get(
-                            "image_url"
-                        ),
-                    "series_artwork_url":
-                        metadata.get(
-                            "series_artwork_url"
-                        ),
+                    "primary_scripture": metadata.get(
+                        "primary_scripture"
+                    ),
+                    "sermons": normalized_sermons,
+                    "artwork_url": metadata.get(
+                        "artwork_url"
+                    ),
+                    "image_url": metadata.get(
+                        "image_url"
+                    ),
+                    "series_artwork_url": metadata.get(
+                        "series_artwork_url"
+                    ),
                 }
             )
 
