@@ -24,6 +24,11 @@ def as_text(value: Any) -> str:
     return json.dumps(value, ensure_ascii=False, sort_keys=True)
 
 
+def case_prompt(case: dict[str, Any]) -> str:
+    """Return the user prompt from any fixture convention in this repository."""
+    return str(case.get("query") or case.get("question") or "").strip()
+
+
 def validate_index(index: dict[str, Any]) -> dict[str, dict[str, Any]]:
     records = index.get("records")
     if not isinstance(records, list):
@@ -76,11 +81,10 @@ def validate_index(index: dict[str, Any]) -> dict[str, dict[str, Any]]:
 def fixture_cases(fixture_path: Path, data: dict[str, Any]) -> tuple[str, list[Any]]:
     """Return regression cases from either supported fixture convention.
 
-    The repository contains two established formats:
-      * newer fixtures use top-level ``cases:``
-      * older routing fixtures use top-level ``tests:`` with nested ``expected:``
-
-    Validation intentionally supports both rather than rewriting historical fixtures.
+    The repository contains established fixtures using either top-level ``cases:``
+    or top-level ``tests:``. Individual test prompts may be named ``query`` or
+    ``question``. Validation supports these historical formats rather than forcing
+    a bulk fixture rewrite.
     """
     cases = data.get("cases")
     if isinstance(cases, list):
@@ -113,6 +117,21 @@ def require_record_exists(
     return record
 
 
+def validate_record_id_list(
+    fixture_path: Path,
+    case_number: int,
+    label: str,
+    value: Any,
+    by_id: dict[str, dict[str, Any]],
+) -> None:
+    if value in (None, []):
+        return
+    if not isinstance(value, list):
+        fail(f"{fixture_path.name} case {case_number} field {label} must be a list")
+    for record_id in value:
+        require_record_exists(fixture_path, case_number, label, record_id, by_id)
+
+
 def validate_current_case(
     fixture_path: Path,
     case_number: int,
@@ -121,9 +140,9 @@ def validate_current_case(
 ) -> None:
     """Validate the newer ``cases:`` fixture format."""
     label = f"{fixture_path.name} case {case_number}"
-    query = str(case.get("query") or "").strip()
-    if not query:
-        fail(f"{label} has no query")
+    prompt = case_prompt(case)
+    if not prompt:
+        fail(f"{label} has no query or question")
 
     expected_record_id = str(case.get("expected_record") or "").strip()
     expected_record = None
@@ -175,22 +194,22 @@ def validate_legacy_test(
     case: dict[str, Any],
     by_id: dict[str, dict[str, Any]],
 ) -> None:
-    """Validate declarations in the older ``tests:`` fixture format.
+    """Validate declarations in the older ``tests:`` fixture formats.
 
     These files describe runtime retrieval expectations that this lightweight index
     validator cannot execute. We can still catch stale/broken fixture references by
     verifying every explicitly named record and action-link key exists.
     """
     label = f"{fixture_path.name} test {case_number}"
-    query = str(case.get("query") or "").strip()
-    if not query:
-        fail(f"{label} has no query")
+    prompt = case_prompt(case)
+    if not prompt:
+        fail(f"{label} has no query or question")
 
     expected = case.get("expected") or {}
     if not isinstance(expected, dict):
         fail(f"{label} expected must be an object")
 
-    # Positive and negative record references should all point at real records.
+    # Single explicit record references.
     for field_name in (
         "first_record_id",
         "required_record_id",
@@ -206,16 +225,17 @@ def validate_legacy_test(
                 by_id,
             )
 
-    # Some suites use a list of explicitly required records.
-    required_record_ids = expected.get("required_record_ids") or []
-    if required_record_ids and not isinstance(required_record_ids, list):
-        fail(f"{label} expected.required_record_ids must be a list")
-    for record_id in required_record_ids:
-        require_record_exists(
+    # List-based record references used by different generations of fixtures.
+    for field_name in (
+        "required_record_ids",
+        "retrieved_record_ids_include",
+        "retrieved_record_ids_exclude",
+    ):
+        validate_record_id_list(
             fixture_path,
             case_number,
-            "expected.required_record_ids",
-            record_id,
+            f"expected.{field_name}",
+            expected.get(field_name),
             by_id,
         )
 
