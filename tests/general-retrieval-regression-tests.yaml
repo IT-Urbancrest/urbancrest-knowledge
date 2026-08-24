@@ -1,40 +1,55 @@
-version: '1.2'
+version: '1.3'
 suite: general_retrieval_regressions
-last_updated: '2026-08-05'
+last_updated: '2026-08-24'
 purpose: Guard against over-filtering natural-language questions while preserving the rule that priority alone cannot make a record eligible.
 
 tests:
-- name: donut suggested donation explanation
-  query: Why are donuts $1?
+- name: donuts are free
+  query: How much are donuts?
   expected:
     required_record_id: ministries.guest_services.refreshments
     selected_record_count: 1
     answer_must_include:
-    - suggested donation
+    - free
+    answer_must_not_include:
     - $1
-    - missions
+    - suggested donation
 
-- name: coffee price paraphrase
+- name: coffee is free
   query: How much is coffee?
   expected:
     first_record_id: ministries.guest_services.refreshments
     selected_record_count: 1
     answer_must_include:
+    - free
+    answer_must_not_include:
     - $1
     - suggested donation
 
-- name: refreshment donation destination paraphrase
-  query: Where do coffee donations go?
+- name: refreshments are free
+  query: Are refreshments free?
   expected:
     first_record_id: ministries.guest_services.refreshments
     selected_record_count: 1
     answer_must_include:
+    - free
+    answer_must_not_include:
+    - suggested donation
     - missions
     must_not_select_record_types:
     - relationship
     - staff_route
     - routing
     - registry
+
+- name: water is available free
+  query: Do you have free water?
+  expected:
+    first_record_id: ministries.guest_services.refreshments
+    selected_record_count: 1
+    answer_must_include:
+    - water
+    - free
 
 - name: concise guest parking paraphrase
   query: Where do I park?
