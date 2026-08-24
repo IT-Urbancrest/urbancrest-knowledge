@@ -1,10 +1,10 @@
 ---
 id: ministries.guest_services.refreshments
-version: 1.2
+version: 1.3
 status: published
 priority: 88
 title: Does Urbancrest provide refreshments?
-summary: Coffee, tea, hot chocolate, donuts, and water are available free of charge in the foyer.
+summary: All refreshments are free. Coffee, tea, hot chocolate, donuts, and water are available in the foyer.
 category:
 - ministries
 - faq
@@ -61,7 +61,7 @@ recommended_contact_staff_key: sydni_neptune
 
 # Does Urbancrest provide refreshments?
 
-Yes. The foyer offers free refreshments, including:
+Refreshments are free. The foyer offers:
 
 - Coffee with cream, sugar, and flavorings
 - Tea
