@@ -15,6 +15,7 @@ on:
       - intents/**
       - tests/**
       - scripts/build_search_index.py
+      - scripts/finalize_search_index.py
       - scripts/validate_search_index.py
       - scripts/requirements-index.txt
 
@@ -32,6 +33,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -46,10 +49,14 @@ jobs:
       - name: Check Python syntax
         run: |
           python -m py_compile scripts/build_search_index.py
+          python -m py_compile scripts/finalize_search_index.py
           python -m py_compile scripts/validate_search_index.py
 
       - name: Build search index
         run: python scripts/build_search_index.py
+
+      - name: Finalize search index
+        run: python scripts/finalize_search_index.py
 
       - name: Validate search index and fixtures
         run: python scripts/validate_search_index.py
