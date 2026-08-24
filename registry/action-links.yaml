@@ -24,6 +24,16 @@ links:
     - calendar
     - event_details
     priority: 90
+  small_groups:
+    label: Find a Small Group
+    url: https://urbancrest.churchcenter.com/groups
+    intents:
+    - small_groups
+    - small_group_details
+    - group_schedule
+    priority: 100
+    external: true
+    church_center_modal: true
   plan_visit:
     label: Plan Your Visit
     url: https://urbancrest.church/plan-a-visit
@@ -115,6 +125,7 @@ links:
 selection_rules:
 - Include one relevant action link at the end of an answer when it helps the user take a clear next step.
 - For directions or church-location questions, include both Google Maps and Apple Maps from the directions_maps bundle.
+- For Small Group questions, use the canonical Small Groups directory when a direct group-finding link is helpful.
 - For broad serving or volunteering questions, include Get Involved and the Volunteer Interest Form.
 - For service times, parking, what to expect, or first visit questions, prefer plan_visit.
 - Do not add an unrelated link merely because a link record matched one word in the question.
