@@ -524,6 +524,9 @@ def signup_to_event(
         "planning_center_signup_id": signup_id,
         "planning_center_signup_time_id": signup_time_id,
         "registration_url": registration_url,
+        # This flag means an exact public registration action exists. Open/closed/full
+        # state remains separate so the runtime can describe those states precisely.
+        "registration_available": True,
         "registration_open": registration_open,
         "registration_closed": registration_closed,
         "registration_at_maximum_capacity": at_capacity,
@@ -587,6 +590,7 @@ def merge_event(existing: dict[str, Any], incoming: dict[str, Any]) -> dict[str,
         "planning_center_signup_id",
         "planning_center_signup_time_id",
         "registration_url",
+        "registration_available",
         "registration_open",
         "registration_closed",
         "registration_at_maximum_capacity",
