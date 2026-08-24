@@ -1,5 +1,5 @@
 version: '1.0'
-last_updated: '2026-07-27'
+last_updated: '2026-08-24'
 domain_rules:
   preferred_domain: urbancrest.church
   allowed_external_hosts:
@@ -43,6 +43,17 @@ links:
     - volunteering
     - ministries
     priority: 90
+  serving_interest:
+    label: Volunteer Interest Form
+    url: https://urbancrest.churchcenter.com/people/forms/4085
+    intents:
+    - serving
+    - volunteering
+    - volunteer
+    - serving_interest
+    priority: 100
+    external: true
+    church_center_modal: true
   staff:
     label: Meet Our Staff
     url: https://urbancrest.church/staff
@@ -104,5 +115,6 @@ links:
 selection_rules:
 - Include one relevant action link at the end of an answer when it helps the user take a clear next step.
 - For directions or church-location questions, include both Google Maps and Apple Maps from the directions_maps bundle.
+- For broad serving or volunteering questions, include Get Involved and the Volunteer Interest Form.
 - For service times, parking, what to expect, or first visit questions, prefer plan_visit.
 - Do not add an unrelated link merely because a link record matched one word in the question.
