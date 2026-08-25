@@ -1,9 +1,24 @@
-version: '1.5'
+version: '1.6'
 suite: general_retrieval_regressions
 last_updated: '2026-08-25'
 purpose: Guard against over-filtering natural-language questions while preserving the rule that priority alone cannot make a record eligible.
 
 tests:
+- name: donuts are unavailable but alternatives are offered
+  query: Do you have donuts?
+  expected:
+    first_record_id: ministries.guest_services.refreshments
+    selected_record_count: 1
+    answer_must_include:
+    - no
+    - coffee
+    - tea
+    - hot chocolate
+    - water
+    answer_must_not_include:
+    - $1
+    - suggested donation
+
 - name: coffee is free
   query: How much is coffee?
   expected:
