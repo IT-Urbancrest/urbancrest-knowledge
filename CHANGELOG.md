@@ -1,5 +1,69 @@
 # Changelog
 
+## Post-1.0 Base44 query runtime improvements
+
+The knowledge architecture remains `1.0.0`. The following changes were made in the independently versioned Base44 `queryKnowledgeBase` runtime and its permanent regression coverage.
+
+### 0.10.50
+
+- Added broad staff fun-fact routing for natural questions about hobbies, interests, free time, spare time, and what a staff member likes to do for fun.
+- Prevented broad fun-fact questions such as `What does he do for fun?` from falling through to the biography route.
+- Preserved targeted fun-fact extraction for specific questions such as whether a staff member likes a particular food, activity, team, or interest.
+- Expanded multi-turn staff regression coverage to verify broad and targeted profile-detail questions remain on the same canonical staff subject and do not require the language model.
+
+### 0.10.49
+
+- Made short-lived session conversation context resilient to blocked out-of-scope side branches.
+- Preserved the last trusted canonical subject after an out-of-scope request so the user can resume the prior Urbancrest topic.
+- Added referential named-event follow-up routing and canonical event pinning so generic phrases such as `the conference` cannot drift to a different event.
+- Added a four-turn regression proving that an out-of-scope interruption does not break a subsequent Women’s Conference follow-up.
+- Added prompt-content regression assertions so authoritative event details can be verified even when the executable harness mocks the final language-model answer.
+
+### 0.10.48
+
+- Added Phase 1 session conversation context with a 30-minute inactivity TTL.
+- Stored only one trusted canonical subject in browser `sessionStorage`; no conversation transcript or history is stored or sent.
+- Added backend context revalidation against current authoritative records before context can influence routing.
+- Added context-aware response caching and explicit Clear behavior.
+- Added permanent multi-turn regressions for staff pronouns, named-event follow-ups, scope protection, and critical-safety precedence.
+
+### 0.10.47
+
+- Improved targeted staff fun-fact answers so a specific profile-detail question returns the smallest relevant sentence or clause instead of the entire fun-fact field.
+- Added permanent regression coverage for focused Skyline/Coney Bowl extraction while excluding unrelated hobbies and sports details.
+
+### 0.10.46
+
+- Added deterministic Base44 Staff profile routing for biographies, fun facts, and other published profile details.
+- Made Base44 `Staff` the authoritative source for staff biographies, fun facts, photos, phone, email, and active/display status while GitHub registries remain the source for stable identity and routing.
+- Added no-guess behavior when a requested personal detail is absent from the published staff profile.
+- Added regression coverage for Senior Pastor profile resolution and named staff fun-fact questions.
+
+### 0.10.45
+
+- Added an institutional-role guard preventing users from assigning the assistant a fabricated Urbancrest role or using user-supplied premises to create new official doctrine, policy, identity, or institutional positions.
+- Added permanent regression coverage for declarative role assignment and invented institutional-belief prompts.
+
+### 0.10.44
+
+- Added a deterministic scope firewall before index retrieval for unrelated translation, roleplay, coding, homework, creative-use, and general-trivia requests.
+- Added a fixed product-identity response for blocked requests and a second-stage no-record guard to prevent the runtime from becoming a general-purpose assistant.
+- Preserved critical safety handling ahead of the scope firewall.
+
+### 0.10.43
+
+- Added deterministic shorthand location routing for natural variants such as `Where r u at?` so location questions resolve to the canonical Urbancrest directions record instead of general retrieval.
+
+### 0.10.42
+
+- Added event hero images for single named Planning Center Registration event answers when an approved event image is present.
+- Kept broad event and ministry lists image-free and preserved existing sermon-series artwork behavior.
+
+### 0.10.41
+
+- Added named-event precedence so event queries such as `women's conference` select the specific event instead of being captured by a broad ministry overview.
+- Added regression coverage requiring the Women’s Conference event record and excluding the Women’s Ministry overview for that query.
+
 ## 1.0.0
 
 - Stabilized the retrieval-first architecture across the GitHub knowledge repository and the Base44 `queryKnowledgeBase` runtime.
