@@ -1,5 +1,5 @@
 version: 1.5.4
-generated_at: '2026-08-25T16:01:07.275370Z'
+generated_at: '2026-08-25T18:58:02.560246Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
@@ -8332,19 +8332,19 @@ registrations_api:
   enriched_existing_events: 6
   category_allowlist: []
   category_denylist: []
-  signup_count_received: 20
+  signup_count_received: 11
   relationship_linkage_counts:
-    next_signup_time_relationship_present: 20
+    next_signup_time_relationship_present: 11
     next_signup_time_with_linkage: 10
-    signup_times_relationship_present: 20
-    signup_times_with_linkage: 16
-    signup_location_relationship_present: 20
-    signup_location_with_linkage: 18
-    categories_relationship_present: 20
-    categories_with_linkage: 16
-    selection_types_relationship_present: 20
-    selection_types_with_linkage: 20
-  skipped_signup_count: 10
+    signup_times_relationship_present: 11
+    signup_times_with_linkage: 10
+    signup_location_relationship_present: 11
+    signup_location_with_linkage: 10
+    categories_relationship_present: 11
+    categories_with_linkage: 8
+    selection_types_relationship_present: 11
+    selection_types_with_linkage: 11
+  skipped_signup_count: 1
   skipped_reasons:
-    no_current_or_future_signup_time_within_lookahead: 10
+    no_current_or_future_signup_time_within_lookahead: 1
   page_count: 1
