@@ -24,6 +24,15 @@ That compiled index is the runtime boundary between the knowledge repository and
 
 `queryKnowledgeBase` retrieves a small set of relevant records locally and uses deterministic handling where exact church-owned behavior is required. Deterministic routes include critical safety responses, doctrine, recurring schedules and service times, sermons, directions, staff ownership, current events, Small Groups, and other structured live-data lookups. The language model is used only after deterministic routing and record selection when a generated response is appropriate.
 
+### Versioning
+
+The knowledge architecture and the Base44 query runtime are versioned independently.
+
+- Knowledge architecture: `1.0.0`
+- Current Base44 `queryKnowledgeBase` runtime: `0.10.50`
+
+The knowledge architecture version changes when the repository contract, source-of-truth structure, compiled-index schema, precedence rules, or other platform-level behavior changes. Query-runtime versions may advance independently for routing, conversational context, deterministic answer handling, regression coverage, and other application-layer improvements that do not change the knowledge architecture contract.
+
 ### Sources of truth
 
 - Recurring service and ministry schedules: `registry/schedule.yaml`
