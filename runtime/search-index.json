@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-08-25T13:31:14.563306Z",
+  "generated_at": "2026-08-25T13:32:53.745933Z",
   "timezone": "America/New_York",
   "record_count": 450,
   "config": {
@@ -10597,8 +10597,8 @@
       "record_type": "knowledge",
       "path": "knowledge/ministries/guest-services/faq/does-urbancrest-provide-refreshments.md",
       "title": "Does Urbancrest provide refreshments?",
-      "summary": "All refreshments are free. Coffee, tea, hot chocolate, and water are available in the foyer. Donuts are no longer provided.",
-      "content": "# Does Urbancrest provide refreshments?\n\nRefreshments are free. The foyer offers:\n\n- Coffee with cream, sugar, and flavorings\n- Tea\n- Hot chocolate\n- Water\n\nDonuts are no longer provided.\n\nThere is no charge for the refreshments that are available.",
+      "summary": "All refreshments are free. Coffee, tea, hot chocolate, and water are available in the foyer.",
+      "content": "# Does Urbancrest provide refreshments?\n\nRefreshments are free. The foyer offers:\n\n- Coffee with cream, sugar, and flavorings\n- Tea\n- Hot chocolate\n- Water\n\nThere is no charge for refreshments.",
       "priority": 88,
       "category": [
         "ministries",
@@ -10616,21 +10616,16 @@
         "coffee",
         "tea",
         "hot chocolate",
-        "donuts",
         "water",
         "free refreshments"
       ],
       "search_terms": [
         "Does Urbancrest have coffee?",
-        "Are donuts available?",
-        "Does Urbancrest have donuts?",
         "Does Urbancrest have tea?",
         "Does Urbancrest have water?",
         "Are refreshments free?",
         "Is coffee free?",
         "How much is coffee?",
-        "Do you have donuts?",
-        "Are donuts still available?",
         "How much are refreshments?",
         "Do I need to pay for coffee?"
       ],
