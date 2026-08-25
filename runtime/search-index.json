@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-08-25T13:12:03.571457Z",
+  "generated_at": "2026-08-25T13:31:14.563306Z",
   "timezone": "America/New_York",
   "record_count": 450,
   "config": {
@@ -10597,8 +10597,8 @@
       "record_type": "knowledge",
       "path": "knowledge/ministries/guest-services/faq/does-urbancrest-provide-refreshments.md",
       "title": "Does Urbancrest provide refreshments?",
-      "summary": "All refreshments are free. Coffee, tea, hot chocolate, donuts, and water are available in the foyer.",
-      "content": "# Does Urbancrest provide refreshments?\n\nRefreshments are free. The foyer offers:\n\n- Coffee with cream, sugar, and flavorings\n- Tea\n- Hot chocolate\n- Donuts\n- Water\n\nThere is no charge for refreshments.",
+      "summary": "All refreshments are free. Coffee, tea, hot chocolate, and water are available in the foyer. Donuts are no longer provided.",
+      "content": "# Does Urbancrest provide refreshments?\n\nRefreshments are free. The foyer offers:\n\n- Coffee with cream, sugar, and flavorings\n- Tea\n- Hot chocolate\n- Water\n\nDonuts are no longer provided.\n\nThere is no charge for the refreshments that are available.",
       "priority": 88,
       "category": [
         "ministries",
@@ -10623,16 +10623,16 @@
       "search_terms": [
         "Does Urbancrest have coffee?",
         "Are donuts available?",
+        "Does Urbancrest have donuts?",
         "Does Urbancrest have tea?",
         "Does Urbancrest have water?",
         "Are refreshments free?",
         "Is coffee free?",
-        "Are donuts free?",
         "How much is coffee?",
-        "How much are donuts?",
+        "Do you have donuts?",
+        "Are donuts still available?",
         "How much are refreshments?",
-        "Do I need to pay for coffee?",
-        "Do I need to pay for donuts?"
+        "Do I need to pay for coffee?"
       ],
       "ministries": [
         "guest_services",
