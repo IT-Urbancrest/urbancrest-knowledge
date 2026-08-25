@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-08-25T13:32:53.745933Z",
+  "generated_at": "2026-08-25T13:38:41.939268Z",
   "timezone": "America/New_York",
   "record_count": 450,
   "config": {
@@ -10627,7 +10627,10 @@
         "Is coffee free?",
         "How much is coffee?",
         "How much are refreshments?",
-        "Do I need to pay for coffee?"
+        "Do I need to pay for coffee?",
+        "Do you have donuts?",
+        "Does Urbancrest have donuts?",
+        "Are donuts available?"
       ],
       "ministries": [
         "guest_services",
@@ -10643,6 +10646,7 @@
       ],
       "status": "published",
       "recommended_contact_staff_key": "sydni_neptune",
+      "answer_guidance": "For a question specifically asking whether donuts are available, answer no gracefully, then mention that Urbancrest does offer free coffee, tea, hot chocolate, and water in the foyer. Do not mention donuts in general refreshments answers unless the user asks about them.",
       "confidence": "high"
     },
     {
