@@ -41,7 +41,7 @@ next_for_audiences: []
 all_day: false
 planning_center_event_instance_id: "165657702"
 planning_center_event_time_id: "28363612"
-last_generated: 2026-08-25T04:00:27.112826Z
+last_generated: 2026-08-25T07:09:02.418617Z
 ---
 
 # Card Ministry
