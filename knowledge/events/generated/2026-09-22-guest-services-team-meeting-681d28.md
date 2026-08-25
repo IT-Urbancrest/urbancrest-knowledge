@@ -42,7 +42,7 @@ all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "221662897"
 planning_center_event_time_id: "30414252"
-last_generated: 2026-08-25T07:09:02.418617Z
+last_generated: 2026-08-25T09:52:07.955641Z
 ---
 
 # Guest Services Team Meeting
