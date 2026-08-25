@@ -1,6 +1,6 @@
 ---
 id: ministries.guest_services.refreshments
-version: 1.5
+version: 1.6
 status: published
 priority: 88
 title: Does Urbancrest provide refreshments?
@@ -42,6 +42,10 @@ search_terms:
 - How much is coffee?
 - How much are refreshments?
 - Do I need to pay for coffee?
+- Do you have donuts?
+- Does Urbancrest have donuts?
+- Are donuts available?
+answer_guidance: For a question specifically asking whether donuts are available, answer no gracefully, then mention that Urbancrest does offer free coffee, tea, hot chocolate, and water in the foyer. Do not mention donuts in general refreshments answers unless the user asks about them.
 ministries:
 - guest_services
 - first_visit
