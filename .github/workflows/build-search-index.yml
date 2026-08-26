@@ -15,6 +15,7 @@ on:
       - intents/**
       - tests/**
       - scripts/build_search_index.py
+      - scripts/build_live_data_freshness.py
       - scripts/finalize_search_index.py
       - scripts/validate_search_index.py
       - scripts/requirements-index.txt
@@ -49,11 +50,15 @@ jobs:
       - name: Check Python syntax
         run: |
           python -m py_compile scripts/build_search_index.py
+          python -m py_compile scripts/build_live_data_freshness.py
           python -m py_compile scripts/finalize_search_index.py
           python -m py_compile scripts/validate_search_index.py
 
       - name: Build search index
         run: python scripts/build_search_index.py
+
+      - name: Build compact live-data freshness metadata
+        run: python scripts/build_live_data_freshness.py
 
       - name: Finalize search index
         run: python scripts/finalize_search_index.py
@@ -66,7 +71,7 @@ jobs:
           git config user.name "urbancrest-knowledge-bot"
           git config user.email "actions@users.noreply.github.com"
 
-          git add runtime/search-index.json
+          git add runtime/search-index.json runtime/live-data-freshness.json
 
           if git diff --cached --quiet; then
             echo "Search index is already current."
