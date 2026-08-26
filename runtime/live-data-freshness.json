@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "timezone": "America/New_York",
+  "sources": {
+    "calendar": {
+      "generated_at": "2026-08-26T16:34:34.475940Z",
+      "normal_max_age_hours": 24,
+      "max_age_hours": 48,
+      "fallback_action_key": "events",
+      "grace_behavior": "answer_last_known_good_and_caveat_only_for_time_sensitive_queries",
+      "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
+    },
+    "small_groups": {
+      "generated_at": "2026-08-26T16:34:33.323966Z",
+      "normal_max_age_hours": 24,
+      "max_age_hours": 48,
+      "fallback_action_key": "small_groups",
+      "grace_behavior": "answer_last_known_good_and_caveat_only_for_time_sensitive_queries",
+      "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
+    }
+  }
+}
