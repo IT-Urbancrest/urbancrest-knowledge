@@ -68,6 +68,11 @@ jobs:
       - name: Rebuild knowledge search index
         run: python scripts/build_search_index.py
 
+      - name: Build compact live-data freshness metadata
+        run: |
+          python -m py_compile scripts/build_live_data_freshness.py
+          python scripts/build_live_data_freshness.py
+
       - name: Finalize search index
         run: python scripts/finalize_search_index.py
 
@@ -84,7 +89,8 @@ jobs:
             registry/small-groups-live.yaml \
             knowledge/events \
             knowledge/small-groups \
-            runtime/search-index.json
+            runtime/search-index.json \
+            runtime/live-data-freshness.json
 
           echo "Files staged for commit:"
           git status --short
