@@ -16,7 +16,7 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-08-26T07:09:32.364600Z
+last_generated: 2026-08-26T16:34:34.475940Z
 ---
 
 # Upcoming Events
@@ -202,6 +202,14 @@ Detailed event file: `knowledge/events/generated/2026-09-06-sunday-morning-servi
 
 Detailed event file: `knowledge/events/generated/2026-09-06-sunday-morning-services-11-00-am-service-8a985a.md`
 
+## Sims Family Reunion
+
+**Category:** General Event
+
+**When:** Sunday, September 6, 2026, 12 PM to 9 PM
+
+Detailed event file: `knowledge/events/generated/2026-09-06-sims-family-reunion-93a8fc.md`
+
 ## Wednesday Night Dinner
 
 **Category:** Churchwide Program
@@ -344,16 +352,6 @@ Detailed event file: `knowledge/events/generated/2026-09-22-guest-services-team-
 
 Detailed event file: `knowledge/events/generated/2026-09-23-wednesday-night-dinner-c7bf0d.md`
 
-## OPEN GYM Pickleball
-
-**Category:** General Event
-
-**When:** Thursday, September 24, 2026, 6 PM to 8 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-09-24-open-gym-pickleball-309c7f.md`
-
 ## Waynesville Fall Fest
 
 **Category:** General Event
@@ -374,15 +372,17 @@ Detailed event file: `knowledge/events/generated/2026-09-26-waynesville-fall-fes
 
 Detailed event file: `knowledge/events/generated/2026-09-27-p-u-r-s-u-e-724217.md`
 
-## Sunday Morning Services: 9:30 AM Service
+## Women's Fall Fest
 
-**Category:** General Event
+**Category:** Ministry Event
 
-**When:** Sunday, September 27, 2026, 9:30 AM to 10:40 AM
+**When:** Sunday, September 27, 2026, 5 PM to 7 PM
 
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
-Detailed event file: `knowledge/events/generated/2026-09-27-sunday-morning-services-9-30-am-service-a45069.md`
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3848043/reservations/new
+
+Detailed event file: `knowledge/events/generated/2026-09-27-women-s-fall-fest-3b206f.md`
 
 ## Women's Fall Fest
 
