@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-08-26T17:20:01.362737Z",
+  "generated_at": "2026-08-26T20:03:37.704415Z",
   "timezone": "America/New_York",
   "record_count": 451,
   "config": {
@@ -90,7 +90,7 @@
   },
   "freshness": {
     "calendar": {
-      "generated_at": "2026-08-26T16:34:34.475940Z",
+      "generated_at": "2026-08-26T20:03:36.417248Z",
       "max_age_hours": 48,
       "source_path": "registry/events-live.yaml",
       "heartbeat_field": "generated_at",
@@ -98,7 +98,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-08-26T16:34:33.323966Z",
+      "generated_at": "2026-08-26T20:03:35.327811Z",
       "max_age_hours": 48,
       "source_path": "registry/small-groups-live.yaml",
       "heartbeat_field": "generated_at",
@@ -13551,7 +13551,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576",
       "knowledge_file": "knowledge/events/generated/2026-10-03-men-s-breakfast-dec2d7.md",
-      "chronological_rank": 38,
+      "chronological_rank": 37,
       "routine_schedule_occurrence": false
     },
     {
@@ -14245,6 +14245,103 @@
       "routine_schedule_occurrence": false
     },
     {
+      "id": "events.live.event-4385d71a13c05019",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-10-03-men-s-cornhole-bbq-c05019.md",
+      "title": "Men's Cornhole & BBQ",
+      "summary": "Battle Ready Brotherhood presents a Men's Cornhole and BBQ day on Saturday, October 3, 2026 at 9:00 AM at the Urbancrest Pavilion. Enjoy a Cornhole tournament that includes a BBQ lunch. Get to know some other men and enjoy some great fellowship!",
+      "content": "Battle Ready Brotherhood presents a Men's Cornhole and BBQ day on Saturday, October 3, 2026 at 9:00 AM at the Urbancrest Pavilion. Enjoy a Cornhole tournament that includes a BBQ lunch. Get to know some other men and enjoy some great fellowship!\n\nDetails:\nBattle Ready Brotherhood presents a Men's Cornhole and BBQ day on Saturday, October 3, 2026 at 9:00 AM at the Urbancrest Pavilion. Enjoy a Cornhole tournament that includes a BBQ lunch. Get to know some other men and enjoy some great fellowship!\n\nRegistration is not currently open.",
+      "priority": 80,
+      "category": [
+        "events",
+        "ministry_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "ministry_event",
+        "Men's Cornhole & BBQ"
+      ],
+      "search_terms": [
+        "Men's Cornhole & BBQ",
+        "When is Men's Cornhole & BBQ?",
+        "Tell me about Men's Cornhole & BBQ",
+        "What are the details for Men's Cornhole & BBQ?",
+        "What is the menu for Men's Cornhole & BBQ?",
+        "How do I register for Men's Cornhole & BBQ?",
+        "Does Urbancrest have Men's Cornhole & BBQ?",
+        "Does Urbancrest offer Men's Cornhole & BBQ?",
+        "Do you have Men's Cornhole & BBQ?",
+        "Do you offer Men's Cornhole & BBQ?",
+        "Is there Men's Cornhole & BBQ at Urbancrest?",
+        "Can I participate in Men's Cornhole & BBQ?",
+        "Can I play Men's Cornhole & BBQ at Urbancrest?"
+      ],
+      "ministries": [
+        "men"
+      ],
+      "audiences": [
+        "men"
+      ],
+      "resources": [],
+      "event_id": "event-4385d71a13c05019",
+      "activity_aliases": [
+        "Men's Cornhole & BBQ"
+      ],
+      "event_category": "ministry_event",
+      "event_start": "2026-10-03T09:00:00-04:00",
+      "event_end": "2026-10-03T14:00:00-04:00",
+      "sort_start_utc": "2026-10-03T13:00:00Z",
+      "sort_end_utc": "2026-10-03T18:00:00Z",
+      "display_when": "Saturday, October 3, 2026, 9 AM to 2 PM",
+      "all_day": false,
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "location_structured": {
+        "name": "Urbancrest At Lebanon",
+        "address": "2634 Drake Road\nPavilion\nLebanon, OH 45036",
+        "latitude": "39.4748875",
+        "longitude": "-84.1793592"
+      },
+      "details": "Battle Ready Brotherhood presents a Men's Cornhole and BBQ day on Saturday, October 3, 2026 at 9:00 AM at the Urbancrest Pavilion. Enjoy a Cornhole tournament that includes a BBQ lunch. Get to know some other men and enjoy some great fellowship!\n\nRegistration is not currently open.",
+      "details_source": "planning_center_registrations_api",
+      "planning_center_event_instance_id": "233964133",
+      "planning_center_event_time_id": "32456802",
+      "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3849948/reservations/new",
+      "registration_available": true,
+      "registration_open": false,
+      "registration_closed": true,
+      "registration_options": [
+        {
+          "id": "8796770",
+          "name": "Standard",
+          "price_cents": 0,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "0",
+          "at_maximum_capacity": false,
+          "waitlist": false
+        }
+      ],
+      "event_source": "merged",
+      "event_sources": [
+        "planning_center_ical",
+        "planning_center_registrations_api"
+      ],
+      "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1787846400&key=uploads%2Fevent%2Flogo%2F3849948%2Fimage-1752240922469.jpeg&thumb=720x405%23&version=1787770346&signature=61275a1208b2621448e2b1d579ae96c25d5ab763558333b46b61b4d8544828d3",
+      "knowledge_file": "knowledge/events/generated/2026-10-03-men-s-cornhole-bbq-c05019.md",
+      "chronological_rank": 38,
+      "routine_schedule_occurrence": false
+    },
+    {
       "id": "events.live.event-afab721d8e2a753e",
       "record_type": "event",
       "path": "knowledge/events/generated/2026-10-04-night-of-worship-choir-2a753e.md",
@@ -14786,7 +14883,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-27-p-u-r-s-u-e-724217.md",
-      "chronological_rank": 34,
+      "chronological_rank": 33,
       "routine_schedule_occurrence": false
     },
     {
@@ -18195,7 +18292,7 @@
       ],
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3732292/medium_image-1782929258210.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-09-26-waynesville-fall-fest-5aaab7.md",
-      "chronological_rank": 33,
+      "chronological_rank": 32,
       "routine_schedule_occurrence": false
     },
     {
@@ -18476,7 +18573,7 @@
       ],
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1787803200&key=uploads%2Fevent%2Flogo%2F3848043%2Fimage-1787747623394.jpeg&thumb=720x405%23&version=1787747843&signature=969a307f353d0cc363fa5892205915de3594be7d77cdd27228f236e8b9adecb3",
       "knowledge_file": "knowledge/events/generated/2026-09-27-women-s-fall-fest-3b206f.md",
-      "chronological_rank": 35,
+      "chronological_rank": 34,
       "routine_schedule_occurrence": false
     },
     {
@@ -18546,7 +18643,7 @@
       "planning_center_event_time_id": "27323022",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-27-women-s-fall-fest-8698aa.md",
-      "chronological_rank": 36,
+      "chronological_rank": 35,
       "routine_schedule_occurrence": false
     },
     {
@@ -19810,7 +19907,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-09-23-wednesday-night-dinner-c7bf0d.md",
-      "chronological_rank": 32,
+      "chronological_rank": 31,
       "routine_schedule_occurrence": false
     },
     {
@@ -19881,7 +19978,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-09-30-wednesday-night-dinner-36f49b.md",
-      "chronological_rank": 37,
+      "chronological_rank": 36,
       "routine_schedule_occurrence": false
     },
     {
@@ -23516,74 +23613,6 @@
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-01-card-ministry-7202ff.md",
       "chronological_rank": 8,
-      "routine_schedule_occurrence": false
-    },
-    {
-      "id": "events.live.event-399a8cbba5681d28",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-09-22-guest-services-team-meeting-681d28.md",
-      "title": "Guest Services Team Meeting",
-      "summary": "Guest Services Team Dinner Meeting",
-      "content": "Guest Services Team Dinner Meeting",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "general_event",
-        "Guest Services Team Meeting"
-      ],
-      "search_terms": [
-        "Guest Services Team Meeting",
-        "When is Guest Services Team Meeting?",
-        "Tell me about Guest Services Team Meeting",
-        "What are the details for Guest Services Team Meeting?",
-        "What is the menu for Guest Services Team Meeting?",
-        "How do I register for Guest Services Team Meeting?",
-        "Does Urbancrest have Guest Services Team Meeting?",
-        "Does Urbancrest offer Guest Services Team Meeting?",
-        "Do you have Guest Services Team Meeting?",
-        "Do you offer Guest Services Team Meeting?",
-        "Is there Guest Services Team Meeting at Urbancrest?",
-        "Can I participate in Guest Services Team Meeting?",
-        "Can I play Guest Services Team Meeting at Urbancrest?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-399a8cbba5681d28",
-      "activity_aliases": [
-        "Guest Services Team Meeting"
-      ],
-      "event_category": "general_event",
-      "event_start": "2026-09-22T17:30:00-04:00",
-      "event_end": "2026-09-22T20:30:00-04:00",
-      "sort_start_utc": "2026-09-22T21:30:00Z",
-      "sort_end_utc": "2026-09-23T00:30:00Z",
-      "display_when": "Tuesday, September 22, 2026, 5:30 PM to 8:30 PM",
-      "all_day": false,
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "planning_center_event_instance_id": "221662897",
-      "planning_center_event_time_id": "30414252",
-      "registration_available": false,
-      "knowledge_file": "knowledge/events/generated/2026-09-22-guest-services-team-meeting-681d28.md",
-      "chronological_rank": 31,
       "routine_schedule_occurrence": false
     },
     {

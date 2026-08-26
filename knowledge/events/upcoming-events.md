@@ -16,7 +16,7 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-08-26T16:34:34.475940Z
+last_generated: 2026-08-26T20:03:36.417248Z
 ---
 
 # Upcoming Events
@@ -332,16 +332,6 @@ Detailed event file: `knowledge/events/generated/2026-09-20-sunday-morning-servi
 
 Detailed event file: `knowledge/events/generated/2026-09-20-sunday-morning-services-11-00-am-service-9ace48.md`
 
-## Guest Services Team Meeting
-
-**Category:** General Event
-
-**When:** Tuesday, September 22, 2026, 5:30 PM to 8:30 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-09-22-guest-services-team-meeting-681d28.md`
-
 ## Wednesday Night Dinner
 
 **Category:** Churchwide Program
@@ -413,6 +403,18 @@ Detailed event file: `knowledge/events/generated/2026-09-30-wednesday-night-dinn
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-10-03-men-s-breakfast-dec2d7.md`
+
+## Men's Cornhole & BBQ
+
+**Category:** Ministry Event
+
+**When:** Saturday, October 3, 2026, 9 AM to 2 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3849948/reservations/new
+
+Detailed event file: `knowledge/events/generated/2026-10-03-men-s-cornhole-bbq-c05019.md`
 
 ## P U R S U E
 
