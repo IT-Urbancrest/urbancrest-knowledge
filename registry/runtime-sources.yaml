@@ -1,5 +1,5 @@
-version: '1.1'
-last_updated: '2026-08-24'
+version: '1.2'
+last_updated: '2026-08-26'
 sources:
   github_knowledge:
     authority: authoritative_public_knowledge
@@ -35,15 +35,23 @@ freshness:
   calendar:
     heartbeat_path: registry/events-live.yaml
     heartbeat_field: generated_at
-    max_age_hours: 8
+    normal_max_age_hours: 24
+    grace_max_age_hours: 48
     fallback_action_key: events
+    grace_behavior: answer_last_known_good_and_caveat_only_for_time_sensitive_queries
     stale_behavior: refuse_current_details_and_link_to_authoritative_destination
+    stale_scope: current_or_upcoming_event_details_only
+    allow_authoritative_non_live_fallback: true
   small_groups:
     heartbeat_path: registry/small-groups-live.yaml
     heartbeat_field: generated_at
-    max_age_hours: 8
+    normal_max_age_hours: 24
+    grace_max_age_hours: 48
     fallback_action_key: small_groups
+    grace_behavior: answer_last_known_good_and_caveat_only_for_time_sensitive_queries
     stale_behavior: refuse_current_details_and_link_to_authoritative_destination
+    stale_scope: current_or_upcoming_small_group_details_only
+    allow_authoritative_non_live_fallback: true
 precedence:
 - Structured recurring schedule data from registry/schedule.yaml overrides conflicting
   general knowledge and approved Base44 admin entries for normal weekly service and
