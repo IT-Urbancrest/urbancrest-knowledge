@@ -16,47 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-08-26T20:03:36.417248Z
+last_generated: 2026-08-27T00:48:28.175112Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## Wednesday Night Dinner
-
-**Category:** Churchwide Program
-
-**When:** Wednesday, August 26, 2026, 5:30 PM to 6:15 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-08-26-wednesday-night-dinner-31bf8a.md`
-
-## Wednesday Night Kickoff
-
-**Category:** Student Event
-
-**When:** Wednesday, August 26, 2026 at 5:30 PM - 8:00 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road
-Gymnasium
-Lebanon, OH 45036
-
-**Registration:** https://urbancrest.churchcenter.com/registrations/events/3719897/reservations/new
-
-## Awana 2026-2027
-
-**Category:** Churchwide Program
-
-**When:** Wednesday, August 26, 2026, 6:15 PM to 7:30 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-**Registration:** https://urbancrest.churchcenter.com/registrations/events/3737699/reservations/new
-
-Detailed event file: `knowledge/events/generated/2026-08-26-awana-2026-2027-82128d.md`
 
 ## OPEN GYM Pickleball
 
@@ -124,7 +90,7 @@ Detailed event file: `knowledge/events/generated/2026-09-02-wednesday-night-dinn
 
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
-**Registration:** https://urbancrest.churchcenter.com/registrations/events/3737699
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3737699/reservations/new
 
 Detailed event file: `knowledge/events/generated/2026-09-02-awana-2026-2027-b657f3.md`
 
@@ -332,6 +298,16 @@ Detailed event file: `knowledge/events/generated/2026-09-20-sunday-morning-servi
 
 Detailed event file: `knowledge/events/generated/2026-09-20-sunday-morning-services-11-00-am-service-9ace48.md`
 
+## Guest Services Team Meeting
+
+**Category:** General Event
+
+**When:** Tuesday, September 22, 2026, 5:30 PM to 8:30 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2026-09-22-guest-services-team-meeting-681d28.md`
+
 ## Wednesday Night Dinner
 
 **Category:** Churchwide Program
@@ -341,6 +317,16 @@ Detailed event file: `knowledge/events/generated/2026-09-20-sunday-morning-servi
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-09-23-wednesday-night-dinner-c7bf0d.md`
+
+## OPEN GYM Pickleball
+
+**Category:** General Event
+
+**When:** Thursday, September 24, 2026, 6 PM to 8 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2026-09-24-open-gym-pickleball-309c7f.md`
 
 ## Waynesville Fall Fest
 
@@ -361,6 +347,16 @@ Detailed event file: `knowledge/events/generated/2026-09-26-waynesville-fall-fes
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-09-27-p-u-r-s-u-e-724217.md`
+
+## Sunday Morning Services: 9:30 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, September 27, 2026, 9:30 AM to 10:40 AM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2026-09-27-sunday-morning-services-9-30-am-service-a45069.md`
 
 ## Women's Fall Fest
 

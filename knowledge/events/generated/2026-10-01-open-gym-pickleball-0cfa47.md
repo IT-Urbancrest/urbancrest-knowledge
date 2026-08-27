@@ -1,5 +1,5 @@
 ---
-id: events.live.event-b497f1cb2de0bc06
+id: events.live.event-ff384c23f40cfa47
 version: 1.4.3
 status: published
 priority: 50
@@ -30,17 +30,17 @@ search_terms:
   - "How do I register for OPEN GYM Pickleball?"
 resources:
   - events.live
-event_id: event-b497f1cb2de0bc06
-event_start: "2026-08-27T18:00:00-04:00"
-event_end: "2026-08-27T20:00:00-04:00"
-sort_start_utc: "2026-08-27T22:00:00Z"
-sort_end_utc: "2026-08-28T00:00:00Z"
-chronological_rank: 1
+event_id: event-ff384c23f40cfa47
+event_start: "2026-10-01T18:00:00-04:00"
+event_end: "2026-10-01T20:00:00-04:00"
+sort_start_utc: "2026-10-01T22:00:00Z"
+sort_end_utc: "2026-10-02T00:00:00Z"
+chronological_rank: 36
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-planning_center_event_instance_id: "216277432"
+planning_center_event_instance_id: "216277437"
 planning_center_event_time_id: "29468516"
 last_generated: 2026-08-27T00:48:27.231535Z
 ---
@@ -49,7 +49,7 @@ last_generated: 2026-08-27T00:48:27.231535Z
 
 On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
 
-**When:** Thursday, August 27, 2026, 6 PM to 8 PM
+**When:** Thursday, October 1, 2026, 6 PM to 8 PM
 
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
