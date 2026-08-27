@@ -1,5 +1,5 @@
 version: 1.5.4
-generated_at: '2026-08-27T00:48:28.175112Z'
+generated_at: '2026-08-27T14:13:44.079711Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
@@ -1485,7 +1485,7 @@ events:
   planning_center_event_instance_id: '233866833'
   planning_center_event_time_id: '32438143'
   registration_url: https://urbancrest.churchcenter.com/registrations/events/3848043/reservations/new
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1787803200&key=uploads%2Fevent%2Flogo%2F3848043%2Fimage-1787747623394.jpeg&thumb=720x405%23&version=1787747843&signature=969a307f353d0cc363fa5892205915de3594be7d77cdd27228f236e8b9adecb3
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1787889600&key=uploads%2Fevent%2Flogo%2F3848043%2Fimage-1787747623394.jpeg&thumb=720x405%23&version=1787747843&signature=11aa145e5e471c884eb4c619680518f30e2765f0a1005fc7da03cab6eeae360c
   ministries:
   - men
   - women
@@ -1735,7 +1735,9 @@ events:
   registration_open_at: null
   registration_close_at: null
   registration_maximum_capacity: null
-  registration_categories: []
+  registration_categories:
+  - Men
+  - Special Events
   registration_options:
   - id: '8796770'
     name: Standard
@@ -4016,7 +4018,8 @@ events:
   registration_open_at: '2026-07-24T04:00:00Z'
   registration_close_at: null
   registration_maximum_capacity: null
-  registration_categories: []
+  registration_categories:
+  - Students (Grades 7-12)
   registration_options:
   - id: '8623472'
     name: STS Youth Guy
@@ -4050,9 +4053,11 @@ events:
     waitlist: false
   info_url: https://urbancrest.churchcenter.com/registrations/events/3775272/reservations/new
   image_url: https://registrations.planningcenteronline.com/signups/3775272/logo
-  ministries: []
-  audiences: []
-  event_category: general_event
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: student_event
   event_priority: 80
   collection: main_events
   status: published
@@ -8332,7 +8337,7 @@ registrations_api:
     signup_location_relationship_present: 13
     signup_location_with_linkage: 12
     categories_relationship_present: 13
-    categories_with_linkage: 9
+    categories_with_linkage: 11
     selection_types_relationship_present: 13
     selection_types_with_linkage: 13
   skipped_signup_count: 2

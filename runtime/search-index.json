@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-08-27T00:48:29.179192Z",
+  "generated_at": "2026-08-27T14:13:45.446012Z",
   "timezone": "America/New_York",
   "record_count": 451,
   "config": {
@@ -90,7 +90,7 @@
   },
   "freshness": {
     "calendar": {
-      "generated_at": "2026-08-27T00:48:28.175112Z",
+      "generated_at": "2026-08-27T14:13:44.079711Z",
       "max_age_hours": 48,
       "source_path": "registry/events-live.yaml",
       "heartbeat_field": "generated_at",
@@ -98,7 +98,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-08-27T00:48:27.231535Z",
+      "generated_at": "2026-08-27T14:13:43.048652Z",
       "max_age_hours": 48,
       "source_path": "registry/small-groups-live.yaml",
       "heartbeat_field": "generated_at",
@@ -14319,6 +14319,10 @@
       "registration_available": true,
       "registration_open": false,
       "registration_closed": true,
+      "registration_categories": [
+        "Men",
+        "Special Events"
+      ],
       "registration_options": [
         {
           "id": "8796770",
@@ -18092,7 +18096,7 @@
       "priority": 80,
       "category": [
         "events",
-        "general_event"
+        "student_event"
       ],
       "intents": [
         "event_details",
@@ -18106,7 +18110,7 @@
         "calendar",
         "upcoming",
         "activity",
-        "general_event",
+        "student_event",
         "Strength to Stand"
       ],
       "search_terms": [
@@ -18124,14 +18128,18 @@
         "Can I participate in Strength to Stand?",
         "Can I play Strength to Stand at Urbancrest?"
       ],
-      "ministries": [],
-      "audiences": [],
+      "ministries": [
+        "students"
+      ],
+      "audiences": [
+        "students"
+      ],
       "resources": [],
       "event_id": "pc-registration-3775272-e3627f27396c",
       "activity_aliases": [
         "Strength to Stand"
       ],
-      "event_category": "general_event",
+      "event_category": "student_event",
       "event_start": "2027-01-16T23:00:00+00:00",
       "event_end": "2027-01-19T00:00:00+00:00",
       "sort_start_utc": "2027-01-16T23:00:00Z",
@@ -18152,6 +18160,9 @@
       "registration_open": true,
       "registration_closed": false,
       "registration_open_at": "2026-07-24T04:00:00Z",
+      "registration_categories": [
+        "Students (Grades 7-12)"
+      ],
       "registration_options": [
         {
           "id": "8623472",
@@ -18466,7 +18477,7 @@
         "planning_center_calendar_api",
         "planning_center_registrations_api"
       ],
-      "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1787803200&key=uploads%2Fevent%2Flogo%2F3848043%2Fimage-1787747623394.jpeg&thumb=720x405%23&version=1787747843&signature=969a307f353d0cc363fa5892205915de3594be7d77cdd27228f236e8b9adecb3",
+      "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1787889600&key=uploads%2Fevent%2Flogo%2F3848043%2Fimage-1787747623394.jpeg&thumb=720x405%23&version=1787747843&signature=11aa145e5e471c884eb4c619680518f30e2765f0a1005fc7da03cab6eeae360c",
       "knowledge_file": "knowledge/events/generated/2026-09-27-women-s-fall-fest-3b206f.md",
       "chronological_rank": 34,
       "routine_schedule_occurrence": false

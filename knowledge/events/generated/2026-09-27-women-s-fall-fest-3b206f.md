@@ -40,12 +40,12 @@ next_for_ministries: ["women"]
 next_for_audiences: ["women"]
 all_day: false
 registration_url: "https://urbancrest.churchcenter.com/registrations/events/3848043"
-image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1787803200&key=uploads%2Fevent%2Flogo%2F3848043%2Fimage-1787747623394.jpeg&thumb=720x405%23&version=1787747843&signature=969a307f353d0cc363fa5892205915de3594be7d77cdd27228f236e8b9adecb3"
+image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1787889600&key=uploads%2Fevent%2Flogo%2F3848043%2Fimage-1787747623394.jpeg&thumb=720x405%23&version=1787747843&signature=11aa145e5e471c884eb4c619680518f30e2765f0a1005fc7da03cab6eeae360c"
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "233866833"
 planning_center_event_time_id: "32438143"
-last_generated: 2026-08-27T00:48:27.231535Z
+last_generated: 2026-08-27T14:13:43.048652Z
 ---
 
 # Women's Fall Fest
@@ -65,6 +65,6 @@ Urbancrest's Women's Ministry is excited to welcome all ladies to their 4th annu
 
 **Registration:** https://urbancrest.churchcenter.com/registrations/events/3848043
 
-**Event image:** https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1787803200&key=uploads%2Fevent%2Flogo%2F3848043%2Fimage-1787747623394.jpeg&thumb=720x405%23&version=1787747843&signature=969a307f353d0cc363fa5892205915de3594be7d77cdd27228f236e8b9adecb3
+**Event image:** https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1787889600&key=uploads%2Fevent%2Flogo%2F3848043%2Fimage-1787747623394.jpeg&thumb=720x405%23&version=1787747843&signature=11aa145e5e471c884eb4c619680518f30e2765f0a1005fc7da03cab6eeae360c
 
 This information is synchronized automatically from Urbancrest's live calendar.

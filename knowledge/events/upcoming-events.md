@@ -16,7 +16,7 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-08-27T00:48:28.175112Z
+last_generated: 2026-08-27T14:13:44.079711Z
 ---
 
 # Upcoming Events
@@ -791,7 +791,7 @@ Detailed event file: `knowledge/events/generated/2027-01-13-wednesday-night-dinn
 
 ## Strength to Stand
 
-**Category:** General Event
+**Category:** Student Event
 
 **When:** Saturday, January 16, 2027
 
