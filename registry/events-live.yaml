@@ -1,10 +1,10 @@
 version: 1.5.4
-generated_at: '2026-08-28T00:25:27.939475Z'
+generated_at: '2026-08-28T15:24:19.352268Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
   enabled: true
-  target_instance_count: 422
+  target_instance_count: 421
   matched_instance_count: 421
   page_count: 9
   api_version: '2026-06-22'
@@ -1694,8 +1694,10 @@ events:
 - id: event-4385d71a13c05019
   uid: ET-32456802-233964133@resources.planningcenteronline.com
   title: Men's Cornhole & BBQ
-  summary: Battle Ready Brotherhood presents a Men's Cornhole and BBQ day on Saturday, October 3, 2026 at 9:00 AM at the Urbancrest
-    Pavilion. Enjoy a Cornhole tournament that includes a BBQ lunch. Get to know some other men and enjoy some great fellowship!
+  summary: '( https://registrations-production.s3.amazonaws.com/uploads/image/file/437162/9f82e639924a58965b5c00b4504caa1c.jpg?content-disposition=attachment
+    )
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/38499...'
   start: '2026-10-03T09:00:00-04:00'
   end: '2026-10-03T14:00:00-04:00'
   sort_start_utc: '2026-10-03T13:00:00Z'
@@ -1703,12 +1705,15 @@ events:
   display_when: Saturday, October 3, 2026, 9 AM to 2 PM
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Battle Ready Brotherhood presents a Men's Cornhole and BBQ day on Saturday, October 3, 2026 at 9:00 AM at the
-    Urbancrest Pavilion. Enjoy a Cornhole tournament that includes a BBQ lunch. Get to know some other men and enjoy some
-    great fellowship!
+  description: '( https://registrations-production.s3.amazonaws.com/uploads/image/file/437162/9f82e639924a58965b5c00b4504caa1c.jpg?content-disposition=attachment
+    )
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/3849948'
   planning_center_event_instance_id: '233964133'
   planning_center_event_time_id: '32456802'
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1787846400&key=uploads%2Fevent%2Flogo%2F3849948%2Fimage-1752240922469.jpeg&thumb=720x405%23&version=1787770346&signature=61275a1208b2621448e2b1d579ae96c25d5ab763558333b46b61b4d8544828d3
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3849948/reservations/new
+  info_url: https://registrations-production.s3.amazonaws.com/uploads/image/file/437162/9f82e639924a58965b5c00b4504caa1c.jpg?content-disposition=attachment
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1787976000&key=uploads%2Fevent%2Flogo%2F3849948%2Fimage-1752240922469.jpeg&thumb=720x405%23&version=1787924083&signature=a0d90fbd41c6e9ebfbc39142f70d307f9e3e520662909f7308ef56e015b2fa06
   ministries:
   - men
   audiences:
@@ -1727,12 +1732,11 @@ events:
   event_source: merged
   planning_center_signup_id: '3849948'
   planning_center_signup_time_id: '6479194'
-  registration_url: https://urbancrest.churchcenter.com/registrations/events/3849948/reservations/new
   registration_available: true
-  registration_open: false
-  registration_closed: true
+  registration_open: true
+  registration_closed: false
   registration_at_maximum_capacity: null
-  registration_open_at: null
+  registration_open_at: '2026-08-28T04:00:00Z'
   registration_close_at: null
   registration_maximum_capacity: null
   registration_categories:
@@ -1747,12 +1751,7 @@ events:
     price_formatted: '0'
     at_maximum_capacity: false
     waitlist: false
-  details: 'Battle Ready Brotherhood presents a Men''s Cornhole and BBQ day on Saturday, October 3, 2026 at 9:00 AM at the
-    Urbancrest Pavilion. Enjoy a Cornhole tournament that includes a BBQ lunch. Get to know some other men and enjoy some
-    great fellowship!
-
-
-    Registration is not currently open.'
+  details: Registration is open.
   details_source: planning_center_registrations_api
   location_structured:
     name: Urbancrest At Lebanon
@@ -3985,7 +3984,7 @@ events:
 - id: pc-registration-3775272-e3627f27396c
   uid: registrations-3775272-6327882@planningcenter
   title: Strength to Stand
-  summary: Deadline to sign up is September 30th!!!
+  summary: Deadline to sign up is October 21st!!!
   start: '2027-01-16T23:00:00+00:00'
   end: '2027-01-19T00:00:00+00:00'
   sort_start_utc: '2027-01-16T23:00:00Z'
@@ -4002,8 +4001,8 @@ events:
       Pigeon Forge, TN 37863'
     latitude: '35.797711'
     longitude: '-83.562142'
-  description: Deadline to sign up is September 30th!!!
-  details: 'Deadline to sign up is September 30th!!!
+  description: Deadline to sign up is October 21st!!!
+  details: 'Deadline to sign up is October 21st!!!
 
 
     Registration is open.'

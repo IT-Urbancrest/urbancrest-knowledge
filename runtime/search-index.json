@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-08-28T00:25:29.234210Z",
+  "generated_at": "2026-08-28T15:24:20.347880Z",
   "timezone": "America/New_York",
   "record_count": 451,
   "config": {
@@ -90,7 +90,7 @@
   },
   "freshness": {
     "calendar": {
-      "generated_at": "2026-08-28T00:25:27.939475Z",
+      "generated_at": "2026-08-28T15:24:19.352268Z",
       "max_age_hours": 48,
       "source_path": "registry/events-live.yaml",
       "heartbeat_field": "generated_at",
@@ -98,7 +98,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-08-28T00:25:26.919979Z",
+      "generated_at": "2026-08-28T15:24:18.443615Z",
       "max_age_hours": 48,
       "source_path": "registry/small-groups-live.yaml",
       "heartbeat_field": "generated_at",
@@ -14249,8 +14249,8 @@
       "record_type": "event",
       "path": "knowledge/events/generated/2026-10-03-men-s-cornhole-bbq-c05019.md",
       "title": "Men's Cornhole & BBQ",
-      "summary": "Battle Ready Brotherhood presents a Men's Cornhole and BBQ day on Saturday, October 3, 2026 at 9:00 AM at the Urbancrest Pavilion. Enjoy a Cornhole tournament that includes a BBQ lunch. Get to know some other men and enjoy some great fellowship!",
-      "content": "Battle Ready Brotherhood presents a Men's Cornhole and BBQ day on Saturday, October 3, 2026 at 9:00 AM at the Urbancrest Pavilion. Enjoy a Cornhole tournament that includes a BBQ lunch. Get to know some other men and enjoy some great fellowship!\n\nDetails:\nBattle Ready Brotherhood presents a Men's Cornhole and BBQ day on Saturday, October 3, 2026 at 9:00 AM at the Urbancrest Pavilion. Enjoy a Cornhole tournament that includes a BBQ lunch. Get to know some other men and enjoy some great fellowship!\n\nRegistration is not currently open.",
+      "summary": "( https://registrations-production.s3.amazonaws.com/uploads/image/file/437162/9f82e639924a58965b5c00b4504caa1c.jpg?content-disposition=attachment )\nRegister: https://urbancrest.churchcenter.com/registrations/events/38499...",
+      "content": "( https://registrations-production.s3.amazonaws.com/uploads/image/file/437162/9f82e639924a58965b5c00b4504caa1c.jpg?content-disposition=attachment )\nRegister: https://urbancrest.churchcenter.com/registrations/events/3849948\n\nDetails:\nRegistration is open.",
       "priority": 80,
       "category": [
         "events",
@@ -14311,14 +14311,15 @@
         "latitude": "39.4748875",
         "longitude": "-84.1793592"
       },
-      "details": "Battle Ready Brotherhood presents a Men's Cornhole and BBQ day on Saturday, October 3, 2026 at 9:00 AM at the Urbancrest Pavilion. Enjoy a Cornhole tournament that includes a BBQ lunch. Get to know some other men and enjoy some great fellowship!\n\nRegistration is not currently open.",
+      "details": "Registration is open.",
       "details_source": "planning_center_registrations_api",
       "planning_center_event_instance_id": "233964133",
       "planning_center_event_time_id": "32456802",
       "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3849948/reservations/new",
       "registration_available": true,
-      "registration_open": false,
-      "registration_closed": true,
+      "registration_open": true,
+      "registration_closed": false,
+      "registration_open_at": "2026-08-28T04:00:00Z",
       "registration_categories": [
         "Men",
         "Special Events"
@@ -14340,7 +14341,8 @@
         "planning_center_ical",
         "planning_center_registrations_api"
       ],
-      "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1787846400&key=uploads%2Fevent%2Flogo%2F3849948%2Fimage-1752240922469.jpeg&thumb=720x405%23&version=1787770346&signature=61275a1208b2621448e2b1d579ae96c25d5ab763558333b46b61b4d8544828d3",
+      "info_url": "https://registrations-production.s3.amazonaws.com/uploads/image/file/437162/9f82e639924a58965b5c00b4504caa1c.jpg?content-disposition=attachment",
+      "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1787976000&key=uploads%2Fevent%2Flogo%2F3849948%2Fimage-1752240922469.jpeg&thumb=720x405%23&version=1787924083&signature=a0d90fbd41c6e9ebfbc39142f70d307f9e3e520662909f7308ef56e015b2fa06",
       "knowledge_file": "knowledge/events/generated/2026-10-03-men-s-cornhole-bbq-c05019.md",
       "chronological_rank": 38,
       "routine_schedule_occurrence": false
@@ -18091,8 +18093,8 @@
       "record_type": "event",
       "path": "registry/events-live.yaml",
       "title": "Strength to Stand",
-      "summary": "Deadline to sign up is September 30th!!!",
-      "content": "Deadline to sign up is September 30th!!!\n\nDetails:\nDeadline to sign up is September 30th!!!\n\nRegistration is open.",
+      "summary": "Deadline to sign up is October 21st!!!",
+      "content": "Deadline to sign up is October 21st!!!\n\nDetails:\nDeadline to sign up is October 21st!!!\n\nRegistration is open.",
       "priority": 80,
       "category": [
         "events",
@@ -18153,7 +18155,7 @@
         "latitude": "35.797711",
         "longitude": "-83.562142"
       },
-      "details": "Deadline to sign up is September 30th!!!\n\nRegistration is open.",
+      "details": "Deadline to sign up is October 21st!!!\n\nRegistration is open.",
       "details_source": "planning_center_registrations_api",
       "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3775272/reservations/new",
       "registration_available": true,

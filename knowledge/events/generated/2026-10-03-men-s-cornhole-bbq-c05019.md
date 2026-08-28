@@ -4,7 +4,7 @@ version: 1.4.3
 status: published
 priority: 80
 title: "Men's Cornhole & BBQ"
-summary: "Battle Ready Brotherhood presents a Men's Cornhole and BBQ day on Saturday, October 3, 2026 at 9:00 AM at the Urbancrest Pavilion...."
+summary: "( https://registrations-production.s3.amazonaws.com/uploads/image/file/437162/9f82e639924a58965b5c00b4504caa1c.jpg?content-disposition=attachment )\nRegister: https://urbancrest.churchcenter.com/registrations/events/38499..."
 category: [events]
 event_category: "ministry_event"
 intent:
@@ -39,23 +39,29 @@ chronological_rank: 37
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
-image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1787846400&key=uploads%2Fevent%2Flogo%2F3849948%2Fimage-1752240922469.jpeg&thumb=720x405%23&version=1787770346&signature=61275a1208b2621448e2b1d579ae96c25d5ab763558333b46b61b4d8544828d3"
+registration_url: "https://urbancrest.churchcenter.com/registrations/events/3849948"
+info_url: "https://registrations-production.s3.amazonaws.com/uploads/image/file/437162/9f82e639924a58965b5c00b4504caa1c.jpg?content-disposition=attachment"
+image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1787976000&key=uploads%2Fevent%2Flogo%2F3849948%2Fimage-1752240922469.jpeg&thumb=720x405%23&version=1787924083&signature=a0d90fbd41c6e9ebfbc39142f70d307f9e3e520662909f7308ef56e015b2fa06"
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "233964133"
 planning_center_event_time_id: "32456802"
-last_generated: 2026-08-28T00:25:26.919979Z
+last_generated: 2026-08-28T15:24:18.443615Z
 ---
 
 # Men's Cornhole & BBQ
 
-Battle Ready Brotherhood presents a Men's Cornhole and BBQ day on Saturday, October 3, 2026 at 9:00 AM at the Urbancrest Pavilion....
+( https://registrations-production.s3.amazonaws.com/uploads/image/file/437162/9f82e639924a58965b5c00b4504caa1c.jpg?content-disposition=attachment )
+Register: https://urbancrest.churchcenter.com/registrations/events/38499...
 
 **When:** Saturday, October 3, 2026, 9 AM to 2 PM
 
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
-Battle Ready Brotherhood presents a Men's Cornhole and BBQ day on Saturday, October 3, 2026 at 9:00 AM at the Urbancrest Pavilion. Enjoy a Cornhole tournament that includes a BBQ lunch. Get to know some other men and enjoy some great fellowship!
+( https://registrations-production.s3.amazonaws.com/uploads/image/file/437162/9f82e639924a58965b5c00b4504caa1c.jpg?content-disposition=attachment )
+Register: https://urbancrest.churchcenter.com/registrations/events/3849948
 
-**Event image:** https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1787846400&key=uploads%2Fevent%2Flogo%2F3849948%2Fimage-1752240922469.jpeg&thumb=720x405%23&version=1787770346&signature=61275a1208b2621448e2b1d579ae96c25d5ab763558333b46b61b4d8544828d3
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3849948
+
+**Event image:** https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1787976000&key=uploads%2Fevent%2Flogo%2F3849948%2Fimage-1752240922469.jpeg&thumb=720x405%23&version=1787924083&signature=a0d90fbd41c6e9ebfbc39142f70d307f9e3e520662909f7308ef56e015b2fa06
 
 This information is synchronized automatically from Urbancrest's live calendar.
