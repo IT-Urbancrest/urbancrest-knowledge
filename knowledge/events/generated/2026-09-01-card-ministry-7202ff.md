@@ -35,13 +35,13 @@ event_start: "2026-09-01T09:00:00-04:00"
 event_end: "2026-09-01T12:00:00-04:00"
 sort_start_utc: "2026-09-01T13:00:00Z"
 sort_end_utc: "2026-09-01T16:00:00Z"
-chronological_rank: 5
+chronological_rank: 4
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
 planning_center_event_instance_id: "165657702"
 planning_center_event_time_id: "28363612"
-last_generated: 2026-08-27T14:13:43.048652Z
+last_generated: 2026-08-28T00:25:26.919979Z
 ---
 
 # Card Ministry

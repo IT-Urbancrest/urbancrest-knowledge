@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-08-27T14:13:45.446012Z",
+  "generated_at": "2026-08-28T00:25:29.234210Z",
   "timezone": "America/New_York",
   "record_count": 451,
   "config": {
@@ -90,7 +90,7 @@
   },
   "freshness": {
     "calendar": {
-      "generated_at": "2026-08-27T14:13:44.079711Z",
+      "generated_at": "2026-08-28T00:25:27.939475Z",
       "max_age_hours": 48,
       "source_path": "registry/events-live.yaml",
       "heartbeat_field": "generated_at",
@@ -98,7 +98,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-08-27T14:13:43.048652Z",
+      "generated_at": "2026-08-28T00:25:26.919979Z",
       "max_age_hours": 48,
       "source_path": "registry/small-groups-live.yaml",
       "heartbeat_field": "generated_at",
@@ -13302,7 +13302,7 @@
       ],
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-09-02-awana-2026-2027-b657f3.md",
-      "chronological_rank": 7,
+      "chronological_rank": 6,
       "routine_schedule_occurrence": false
     },
     {
@@ -13413,7 +13413,7 @@
       ],
       "info_url": "https://urbancrest.churchcenter.com/registrations/events/3763259/reservations/new",
       "image_url": "https://registrations.planningcenteronline.com/signups/3763259/logo",
-      "chronological_rank": 8,
+      "chronological_rank": 7,
       "routine_schedule_occurrence": false
     },
     {
@@ -13482,7 +13482,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=e215e90aed8b2198deba2c87ba1f26b7fa0a86de0c6595b05f3c0071a38bc576",
       "knowledge_file": "knowledge/events/generated/2026-09-05-men-s-breakfast-336f62.md",
-      "chronological_rank": 10,
+      "chronological_rank": 9,
       "routine_schedule_occurrence": false
     },
     {
@@ -14547,7 +14547,7 @@
       ],
       "info_url": "https://urbancrest.churchcenter.com/registrations/events/3613427/reservations/new",
       "image_url": "https://registrations.planningcenteronline.com/signups/3613427/logo",
-      "chronological_rank": 11,
+      "chronological_rank": 10,
       "routine_schedule_occurrence": false
     },
     {
@@ -14615,7 +14615,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-08-30-p-u-r-s-u-e-63faac.md",
-      "chronological_rank": 2,
+      "chronological_rank": 1,
       "routine_schedule_occurrence": false
     },
     {
@@ -14683,7 +14683,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-06-p-u-r-s-u-e-7f42b9.md",
-      "chronological_rank": 12,
+      "chronological_rank": 11,
       "routine_schedule_occurrence": false
     },
     {
@@ -14751,7 +14751,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-13-p-u-r-s-u-e-300fb0.md",
-      "chronological_rank": 19,
+      "chronological_rank": 18,
       "routine_schedule_occurrence": false
     },
     {
@@ -14819,7 +14819,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-20-p-u-r-s-u-e-f8f18d.md",
-      "chronological_rank": 25,
+      "chronological_rank": 24,
       "routine_schedule_occurrence": false
     },
     {
@@ -14887,7 +14887,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-27-p-u-r-s-u-e-724217.md",
-      "chronological_rank": 32,
+      "chronological_rank": 31,
       "routine_schedule_occurrence": false
     },
     {
@@ -18303,7 +18303,7 @@
       ],
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3732292/medium_image-1782929258210.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-09-26-waynesville-fall-fest-5aaab7.md",
-      "chronological_rank": 31,
+      "chronological_rank": 30,
       "routine_schedule_occurrence": false
     },
     {
@@ -19383,7 +19383,7 @@
       "registration_available": true,
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-09-09-awana-2026-2027-ca71ea.md",
-      "chronological_rank": 17,
+      "chronological_rank": 16,
       "routine_schedule_occurrence": false
     },
     {
@@ -19454,7 +19454,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-09-02-wednesday-night-dinner-8cbe52.md",
-      "chronological_rank": 6,
+      "chronological_rank": 5,
       "routine_schedule_occurrence": false
     },
     {
@@ -19525,7 +19525,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-09-09-wednesday-night-dinner-f2ed46.md",
-      "chronological_rank": 16,
+      "chronological_rank": 15,
       "routine_schedule_occurrence": false
     },
     {
@@ -19596,7 +19596,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-09-16-wednesday-night-dinner-89e119.md",
-      "chronological_rank": 23,
+      "chronological_rank": 22,
       "routine_schedule_occurrence": false
     },
     {
@@ -19667,7 +19667,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1788238799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=e69f3dda9772aa2e16145b3ba05ea0273a100d363677bc332e41a3f966967243",
       "knowledge_file": "knowledge/events/generated/2026-09-23-wednesday-night-dinner-c7bf0d.md",
-      "chronological_rank": 29,
+      "chronological_rank": 28,
       "routine_schedule_occurrence": false
     },
     {
@@ -23372,7 +23372,7 @@
       "planning_center_event_time_id": "28363612",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-01-card-ministry-7202ff.md",
-      "chronological_rank": 5,
+      "chronological_rank": 4,
       "routine_schedule_occurrence": false
     },
     {
@@ -23440,7 +23440,7 @@
       "planning_center_event_time_id": "30414252",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-22-guest-services-team-meeting-681d28.md",
-      "chronological_rank": 28,
+      "chronological_rank": 27,
       "routine_schedule_occurrence": false
     },
     {
@@ -23509,105 +23509,7 @@
       "planning_center_event_time_id": "16193422",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-16-monthly-baskets-of-hope-volunteers-77387f.md",
-      "chronological_rank": 22,
-      "routine_schedule_occurrence": false
-    },
-    {
-      "id": "events.live.event-b497f1cb2de0bc06",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-08-27-open-gym-pickleball-e0bc06.md",
-      "title": "OPEN GYM Pickleball",
-      "summary": "On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.",
-      "content": "On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "general_event",
-        "OPEN GYM Pickleball",
-        "Pickleball",
-        "OPEN GYM Pickle ball",
-        "Pickle ball"
-      ],
-      "search_terms": [
-        "OPEN GYM Pickleball",
-        "When is OPEN GYM Pickleball?",
-        "Tell me about OPEN GYM Pickleball",
-        "What are the details for OPEN GYM Pickleball?",
-        "What is the menu for OPEN GYM Pickleball?",
-        "How do I register for OPEN GYM Pickleball?",
-        "Does Urbancrest have OPEN GYM Pickleball?",
-        "Does Urbancrest offer OPEN GYM Pickleball?",
-        "Do you have OPEN GYM Pickleball?",
-        "Do you offer OPEN GYM Pickleball?",
-        "Is there OPEN GYM Pickleball at Urbancrest?",
-        "Can I participate in OPEN GYM Pickleball?",
-        "Can I play OPEN GYM Pickleball at Urbancrest?",
-        "Pickleball",
-        "Does Urbancrest have Pickleball?",
-        "Does Urbancrest offer Pickleball?",
-        "Do you have Pickleball?",
-        "Do you offer Pickleball?",
-        "Is there Pickleball at Urbancrest?",
-        "Can I participate in Pickleball?",
-        "Can I play Pickleball at Urbancrest?",
-        "OPEN GYM Pickle ball",
-        "Does Urbancrest have OPEN GYM Pickle ball?",
-        "Does Urbancrest offer OPEN GYM Pickle ball?",
-        "Do you have OPEN GYM Pickle ball?",
-        "Do you offer OPEN GYM Pickle ball?",
-        "Is there OPEN GYM Pickle ball at Urbancrest?",
-        "Can I participate in OPEN GYM Pickle ball?",
-        "Can I play OPEN GYM Pickle ball at Urbancrest?",
-        "Pickle ball",
-        "Does Urbancrest have Pickle ball?",
-        "Does Urbancrest offer Pickle ball?",
-        "Do you have Pickle ball?",
-        "Do you offer Pickle ball?",
-        "Is there Pickle ball at Urbancrest?",
-        "Can I participate in Pickle ball?",
-        "Can I play Pickle ball at Urbancrest?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-b497f1cb2de0bc06",
-      "activity_aliases": [
-        "OPEN GYM Pickleball",
-        "Pickleball",
-        "OPEN GYM Pickle ball",
-        "Pickle ball"
-      ],
-      "event_category": "general_event",
-      "event_start": "2026-08-27T18:00:00-04:00",
-      "event_end": "2026-08-27T20:00:00-04:00",
-      "sort_start_utc": "2026-08-27T22:00:00Z",
-      "sort_end_utc": "2026-08-28T00:00:00Z",
-      "display_when": "Thursday, August 27, 2026, 6 PM to 8 PM",
-      "all_day": false,
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "planning_center_event_instance_id": "216277432",
-      "planning_center_event_time_id": "29468516",
-      "registration_available": false,
-      "knowledge_file": "knowledge/events/generated/2026-08-27-open-gym-pickleball-e0bc06.md",
-      "chronological_rank": 1,
+      "chronological_rank": 21,
       "routine_schedule_occurrence": false
     },
     {
@@ -23705,7 +23607,7 @@
       "planning_center_event_time_id": "29468516",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-03-open-gym-pickleball-473ecc.md",
-      "chronological_rank": 9,
+      "chronological_rank": 8,
       "routine_schedule_occurrence": false
     },
     {
@@ -23803,7 +23705,7 @@
       "planning_center_event_time_id": "29468516",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-10-open-gym-pickleball-fe7030.md",
-      "chronological_rank": 18,
+      "chronological_rank": 17,
       "routine_schedule_occurrence": false
     },
     {
@@ -23901,7 +23803,7 @@
       "planning_center_event_time_id": "29468516",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-17-open-gym-pickleball-556aa9.md",
-      "chronological_rank": 24,
+      "chronological_rank": 23,
       "routine_schedule_occurrence": false
     },
     {
@@ -23999,7 +23901,7 @@
       "planning_center_event_time_id": "29468516",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-24-open-gym-pickleball-309c7f.md",
-      "chronological_rank": 30,
+      "chronological_rank": 29,
       "routine_schedule_occurrence": false
     },
     {
@@ -24066,7 +23968,7 @@
       "planning_center_event_time_id": "32446810",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-06-sims-family-reunion-93a8fc.md",
-      "chronological_rank": 15,
+      "chronological_rank": 14,
       "routine_schedule_occurrence": false
     },
     {
@@ -24151,7 +24053,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-08-30-sunday-morning-services-11-00-am-service-80f4a3.md",
-      "chronological_rank": 4,
+      "chronological_rank": 3,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24224,7 +24126,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-06-sunday-morning-services-11-00-am-service-8a985a.md",
-      "chronological_rank": 14,
+      "chronological_rank": 13,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24297,7 +24199,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-13-sunday-morning-services-11-00-am-service-153e7f.md",
-      "chronological_rank": 21,
+      "chronological_rank": 20,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24370,7 +24272,80 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-20-sunday-morning-services-11-00-am-service-9ace48.md",
-      "chronological_rank": 27,
+      "chronological_rank": 26,
+      "routine_schedule_occurrence": true,
+      "retrieval_exclude_for_intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ]
+    },
+    {
+      "id": "events.live.event-2ec9127af3b8b3b1",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-09-27-sunday-morning-services-11-00-am-service-b8b3b1.md",
+      "title": "Sunday Morning Services: 11:00 AM Service",
+      "summary": "Join us in person or online!...",
+      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
+      "priority": 20,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "general_event",
+        "Sunday Morning Services: 11:00 AM Service"
+      ],
+      "search_terms": [
+        "Sunday Morning Services: 11:00 AM Service",
+        "When is Sunday Morning Services: 11:00 AM Service?",
+        "Tell me about Sunday Morning Services: 11:00 AM Service",
+        "What are the details for Sunday Morning Services: 11:00 AM Service?",
+        "What is the menu for Sunday Morning Services: 11:00 AM Service?",
+        "How do I register for Sunday Morning Services: 11:00 AM Service?",
+        "Does Urbancrest have Sunday Morning Services: 11:00 AM Service?",
+        "Does Urbancrest offer Sunday Morning Services: 11:00 AM Service?",
+        "Do you have Sunday Morning Services: 11:00 AM Service?",
+        "Do you offer Sunday Morning Services: 11:00 AM Service?",
+        "Is there Sunday Morning Services: 11:00 AM Service at Urbancrest?",
+        "Can I participate in Sunday Morning Services: 11:00 AM Service?",
+        "Can I play Sunday Morning Services: 11:00 AM Service at Urbancrest?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-2ec9127af3b8b3b1",
+      "activity_aliases": [
+        "Sunday Morning Services: 11:00 AM Service"
+      ],
+      "event_category": "general_event",
+      "event_start": "2026-09-27T11:00:00-04:00",
+      "event_end": "2026-09-27T12:10:00-04:00",
+      "sort_start_utc": "2026-09-27T15:00:00Z",
+      "sort_end_utc": "2026-09-27T16:10:00Z",
+      "display_when": "Sunday, September 27, 2026, 11 AM to 12:10 PM",
+      "all_day": false,
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "planning_center_event_instance_id": "168372883",
+      "planning_center_event_time_id": "9127132",
+      "registration_available": false,
+      "knowledge_file": "knowledge/events/generated/2026-09-27-sunday-morning-services-11-00-am-service-b8b3b1.md",
+      "chronological_rank": 33,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24443,7 +24418,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-08-30-sunday-morning-services-9-30-am-service-faf099.md",
-      "chronological_rank": 3,
+      "chronological_rank": 2,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24516,7 +24491,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-06-sunday-morning-services-9-30-am-service-3e5884.md",
-      "chronological_rank": 13,
+      "chronological_rank": 12,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24589,7 +24564,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-13-sunday-morning-services-9-30-am-service-b32add.md",
-      "chronological_rank": 20,
+      "chronological_rank": 19,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24662,7 +24637,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-20-sunday-morning-services-9-30-am-service-25697d.md",
-      "chronological_rank": 26,
+      "chronological_rank": 25,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24735,7 +24710,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-27-sunday-morning-services-9-30-am-service-a45069.md",
-      "chronological_rank": 33,
+      "chronological_rank": 32,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",

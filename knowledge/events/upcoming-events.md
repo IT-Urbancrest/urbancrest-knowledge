@@ -16,23 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-08-27T14:13:44.079711Z
+last_generated: 2026-08-28T00:25:27.939475Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## OPEN GYM Pickleball
-
-**Category:** General Event
-
-**When:** Thursday, August 27, 2026, 6 PM to 8 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-08-27-open-gym-pickleball-e0bc06.md`
 
 ## P U R S U E
 
@@ -357,6 +347,16 @@ Detailed event file: `knowledge/events/generated/2026-09-27-p-u-r-s-u-e-724217.m
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-09-27-sunday-morning-services-9-30-am-service-a45069.md`
+
+## Sunday Morning Services: 11:00 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, September 27, 2026, 11 AM to 12:10 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2026-09-27-sunday-morning-services-11-00-am-service-b8b3b1.md`
 
 ## Women's Fall Fest
 
