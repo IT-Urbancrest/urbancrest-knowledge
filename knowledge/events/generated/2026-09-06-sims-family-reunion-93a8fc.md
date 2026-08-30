@@ -41,7 +41,7 @@ next_for_audiences: ["families"]
 all_day: false
 planning_center_event_instance_id: "233914981"
 planning_center_event_time_id: "32446810"
-last_generated: 2026-08-30T21:07:49.274301Z
+last_generated: 2026-08-30T23:30:47.973592Z
 ---
 
 # Sims Family Reunion
