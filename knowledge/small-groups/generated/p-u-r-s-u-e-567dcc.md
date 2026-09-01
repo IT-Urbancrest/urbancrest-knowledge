@@ -24,11 +24,11 @@ next_meeting_start: "2026-09-02T18:30:00-04:00"
 next_meeting_end: "2026-09-02T20:30:00-04:00"
 sort_start_utc: "2026-09-02T22:30:00Z"
 sort_end_utc: "2026-09-03T00:30:00Z"
-meeting_count_in_window: 52
+meeting_count_in_window: 53
 image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Fsfkgtiufdgafjg73tuqant7jmhz3&thumb=960x540%23&signature=a05fd72902e9d63e043f20e85ede145c85d9ba7487292f37fc0fbf9de21d2a7b"
 planning_center_event_instance_id: "165713307"
 planning_center_event_time_id: "25282532"
-last_generated: 2026-09-01T18:32:04.598495Z
+last_generated: 2026-09-01T23:19:26.723740Z
 ---
 
 # P U R S U E
