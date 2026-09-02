@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-09-02T16:35:58.855554Z",
+  "generated_at": "2026-09-02T21:04:31.233108Z",
   "timezone": "America/New_York",
   "record_count": 451,
   "config": {
@@ -90,7 +90,7 @@
   },
   "freshness": {
     "calendar": {
-      "generated_at": "2026-09-02T16:35:57.457607Z",
+      "generated_at": "2026-09-02T21:04:29.957695Z",
       "max_age_hours": 48,
       "source_path": "registry/events-live.yaml",
       "heartbeat_field": "generated_at",
@@ -98,7 +98,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-09-02T16:35:56.180837Z",
+      "generated_at": "2026-09-02T21:04:28.822507Z",
       "max_age_hours": 48,
       "source_path": "registry/small-groups-live.yaml",
       "heartbeat_field": "generated_at",
@@ -14353,7 +14353,7 @@
       "path": "knowledge/events/generated/2026-10-04-night-of-worship-choir-2a753e.md",
       "title": "Night of Worship Choir",
       "summary": "On Sunday, October 4 , Urbancrest will host a Night of Worship featuring the Cedarville University Orchestra alongside the Urbancrest Worship Team . It promises to be an incredible evening of celebrating God's greatness through powerful congregational worship. To make the...",
-      "content": "On Sunday, October 4 , Urbancrest will host a Night of Worship featuring the Cedarville University Orchestra alongside the Urbancrest Worship Team . It promises to be an incredible evening of celebrating God's greatness through powerful congregational worship.\n\nTo make the evening even more meaningful, we're putting together a Special Event Choir , and we'd love for you to join us!\n\nWhether you've sung in choir before or it's been years since you've stood on the risers, this is a wonderful opportunity to worship together and lead our church family in lifting high the name of Jesus. You don't have to be a professional singer—just someone who enjoys worshiping through music and is willing to prepare the music with us.\n\nDetails:\nOn Sunday, October 4 , Urbancrest will host a Night of Worship featuring the Cedarville University Orchestra alongside the Urbancrest Worship Team . It promises to be an incredible evening of celebrating God's greatness through powerful congregational worship.\n\nTo make the evening even more meaningful, we're putting together a Special Event Choir , and we'd love for you to join us!\n\nWhether you've sung in choir before or it's been years since you've stood on the risers, this is a wonderful opportunity to worship together and lead our church family in lifting high the name of Jesus. You don't have to be a professional singer—just someone who enjoys worshiping through music and is willing to prepare the music with us.\n\nRegistration is open.",
+      "content": "On Sunday, October 4, Urbancrest will host a Night of Worship featuring the Cedarville University Orchestra alongside the Urbancrest Worship Team. It promises to be an incredible evening of celebrating God's greatness through powerful congregational worship.\n\nTo make the evening even more meaningful, we're putting together a Special Event Choir, and we'd love for you to join us!\n\nWhether you've sung in choir before or it's been years since you've stood on the risers, this is a wonderful opportunity to worship together and lead our church family in lifting high the name of Jesus. You don't have to be a professional singer-just someone who enjoys worshiping through music and is willing to prepare the music with us.\nRegister: https://urbancrest.churchcenter.com/registrations/events/3755569\n\nDetails:\nOn Sunday, October 4 , Urbancrest will host a Night of Worship featuring the Cedarville University Orchestra alongside the Urbancrest Worship Team . It promises to be an incredible evening of celebrating God's greatness through powerful congregational worship.\n\nTo make the evening even more meaningful, we're putting together a Special Event Choir , and we'd love for you to join us!\n\nWhether you've sung in choir before or it's been years since you've stood on the risers, this is a wonderful opportunity to worship together and lead our church family in lifting high the name of Jesus. You don't have to be a professional singer—just someone who enjoys worshiping through music and is willing to prepare the music with us.\n\nRegistration is open.",
       "priority": 80,
       "category": [
         "events",
@@ -14446,7 +14446,7 @@
         "planning_center_calendar_api",
         "planning_center_registrations_api"
       ],
-      "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3755569/medium_image-1784126802561.jpeg",
+      "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1788451200&key=uploads%2Fevent%2Flogo%2F3755569%2Fimage-1784126802561.jpeg&thumb=720x405%23&version=1788368236&signature=233e7df1a2a4650967513321d18dbfb90f05a1da8a15cc138d1b987970c9968a",
       "knowledge_file": "knowledge/events/generated/2026-10-04-night-of-worship-choir-2a753e.md",
       "chronological_rank": 38,
       "routine_schedule_occurrence": false

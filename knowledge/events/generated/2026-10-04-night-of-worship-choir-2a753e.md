@@ -39,12 +39,13 @@ chronological_rank: 37
 next_for_ministries: ["worship"]
 next_for_audiences: []
 all_day: false
-image_url: "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3755569/medium_image-1784126802561.jpeg"
+registration_url: "https://urbancrest.churchcenter.com/registrations/events/3755569"
+image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1788451200&key=uploads%2Fevent%2Flogo%2F3755569%2Fimage-1784126802561.jpeg&thumb=720x405%23&version=1788368236&signature=233e7df1a2a4650967513321d18dbfb90f05a1da8a15cc138d1b987970c9968a"
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "228745978"
 planning_center_event_time_id: "31639046"
-last_generated: 2026-09-02T16:35:56.180837Z
+last_generated: 2026-09-02T21:04:28.822507Z
 ---
 
 # Night of Worship Choir
@@ -60,6 +61,7 @@ On Sunday, October 4, Urbancrest will host a Night of Worship featuring the Ceda
 To make the evening even more meaningful, we're putting together a Special Event Choir, and we'd love for you to join us!
 
 Whether you've sung in choir before or it's been years since you've stood on the risers, this is a wonderful opportunity to worship together and lead our church family in lifting high the name of Jesus. You don't have to be a professional singer-just someone who enjoys worshiping through music and is willing to prepare the music with us.
+Register: https://urbancrest.churchcenter.com/registrations/events/3755569
 
 ## Details
 
@@ -77,6 +79,8 @@ Special Event Choir
 , and we'd love for you to join us!
 Whether you've sung in choir before or it's been years since you've stood on the risers, this is a wonderful opportunity to worship together and lead our church family in lifting high the name of Jesus. You don't have to be a professional singer-just someone who enjoys worshiping through music and is willing to prepare the music with us.
 
-**Event image:** https://registrations-production.s3.amazonaws.com/uploads/event/logo/3755569/medium_image-1784126802561.jpeg
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3755569
+
+**Event image:** https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1788451200&key=uploads%2Fevent%2Flogo%2F3755569%2Fimage-1784126802561.jpeg&thumb=720x405%23&version=1788368236&signature=233e7df1a2a4650967513321d18dbfb90f05a1da8a15cc138d1b987970c9968a
 
 This information is synchronized automatically from Urbancrest's live calendar.
