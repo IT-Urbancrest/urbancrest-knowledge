@@ -35,13 +35,13 @@ event_start: "2026-09-06T12:00:00-04:00"
 event_end: "2026-09-06T21:00:00-04:00"
 sort_start_utc: "2026-09-06T16:00:00Z"
 sort_end_utc: "2026-09-07T01:00:00Z"
-chronological_rank: 8
+chronological_rank: 7
 next_for_ministries: []
 next_for_audiences: ["families"]
 all_day: false
 planning_center_event_instance_id: "233914981"
 planning_center_event_time_id: "32446810"
-last_generated: 2026-09-02T21:04:28.822507Z
+last_generated: 2026-09-02T23:19:50.417820Z
 ---
 
 # Sims Family Reunion
