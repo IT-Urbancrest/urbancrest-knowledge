@@ -1,11 +1,11 @@
 version: 1.5.4
-generated_at: '2026-09-02T11:20:00.651363Z'
+generated_at: '2026-09-02T16:35:57.457607Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
   enabled: true
-  target_instance_count: 423
-  matched_instance_count: 423
+  target_instance_count: 422
+  matched_instance_count: 422
   page_count: 10
   api_version: '2026-06-22'
 source_of_truth_for_calendar_intents: true
@@ -270,14 +270,14 @@ events:
     Sign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.org .
 
 
-    Registration is open.'
+    Registration is not currently open.'
   details_source: planning_center_registrations_api
   planning_center_signup_id: '3763259'
   planning_center_signup_time_id: '6302878'
   registration_url: https://urbancrest.churchcenter.com/registrations/events/3763259/reservations/new
   registration_available: true
-  registration_open: true
-  registration_closed: false
+  registration_open: false
+  registration_closed: true
   registration_at_maximum_capacity: null
   registration_open_at: '2026-07-02T04:00:00Z'
   registration_close_at: '2026-09-02T16:00:00Z'

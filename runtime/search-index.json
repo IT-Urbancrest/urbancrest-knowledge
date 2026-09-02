@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-09-02T11:20:02.056344Z",
+  "generated_at": "2026-09-02T16:35:58.855554Z",
   "timezone": "America/New_York",
   "record_count": 451,
   "config": {
@@ -90,7 +90,7 @@
   },
   "freshness": {
     "calendar": {
-      "generated_at": "2026-09-02T11:20:00.651363Z",
+      "generated_at": "2026-09-02T16:35:57.457607Z",
       "max_age_hours": 48,
       "source_path": "registry/events-live.yaml",
       "heartbeat_field": "generated_at",
@@ -98,7 +98,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-09-02T11:19:59.505651Z",
+      "generated_at": "2026-09-02T16:35:56.180837Z",
       "max_age_hours": 48,
       "source_path": "registry/small-groups-live.yaml",
       "heartbeat_field": "generated_at",
@@ -13311,7 +13311,7 @@
       "path": "registry/events-live.yaml",
       "title": "Engage: New Members Class - Summer 2026",
       "summary": "Wondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, September 2! The Engage Class is a gathering that allows...",
-      "content": "Wondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, September 2!\n\nThe Engage Class is a gathering that allows individuals and families to explore and pray through becoming members of our church. This class is designed to have teaching, interaction, and a time to hear the vision for several of our ministries that you can get involved in!\n\nSign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.org .\n\nDetails:\nWondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, September 2!\n\nThe Engage Class is a gathering that allows individuals and families to explore and pray through becoming members of our church. This class is designed to have teaching, interaction, and a time to hear the vision for several of our ministries that you can get involved in!\n\nSign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.org .\n\nRegistration is open.",
+      "content": "Wondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, September 2!\n\nThe Engage Class is a gathering that allows individuals and families to explore and pray through becoming members of our church. This class is designed to have teaching, interaction, and a time to hear the vision for several of our ministries that you can get involved in!\n\nSign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.org .\n\nDetails:\nWondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, September 2!\n\nThe Engage Class is a gathering that allows individuals and families to explore and pray through becoming members of our church. This class is designed to have teaching, interaction, and a time to hear the vision for several of our ministries that you can get involved in!\n\nSign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.org .\n\nRegistration is not currently open.",
       "priority": 80,
       "category": [
         "events",
@@ -13372,12 +13372,12 @@
         "latitude": "39.4748875",
         "longitude": "-84.1793592"
       },
-      "details": "Wondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, September 2!\n\nThe Engage Class is a gathering that allows individuals and families to explore and pray through becoming members of our church. This class is designed to have teaching, interaction, and a time to hear the vision for several of our ministries that you can get involved in!\n\nSign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.org .\n\nRegistration is open.",
+      "details": "Wondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, September 2!\n\nThe Engage Class is a gathering that allows individuals and families to explore and pray through becoming members of our church. This class is designed to have teaching, interaction, and a time to hear the vision for several of our ministries that you can get involved in!\n\nSign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.org .\n\nRegistration is not currently open.",
       "details_source": "planning_center_registrations_api",
       "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3763259/reservations/new",
       "registration_available": true,
-      "registration_open": true,
-      "registration_closed": false,
+      "registration_open": false,
+      "registration_closed": true,
       "registration_open_at": "2026-07-02T04:00:00Z",
       "registration_close_at": "2026-09-02T16:00:00Z",
       "registration_categories": [
