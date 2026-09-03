@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-09-02T23:19:52.834075Z",
+  "generated_at": "2026-09-03T04:35:00.715405Z",
   "timezone": "America/New_York",
   "record_count": 451,
   "config": {
@@ -90,7 +90,7 @@
   },
   "freshness": {
     "calendar": {
-      "generated_at": "2026-09-02T23:19:51.569568Z",
+      "generated_at": "2026-09-03T04:34:59.400688Z",
       "max_age_hours": 48,
       "source_path": "registry/events-live.yaml",
       "heartbeat_field": "generated_at",
@@ -98,7 +98,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-09-02T23:19:50.417820Z",
+      "generated_at": "2026-09-03T04:34:58.246965Z",
       "max_age_hours": 48,
       "source_path": "registry/small-groups-live.yaml",
       "heartbeat_field": "generated_at",
@@ -13189,9 +13189,9 @@
       "routine_schedule_occurrence": false
     },
     {
-      "id": "events.live.event-ba71b480f7b657f3",
+      "id": "events.live.event-a15a9379d2ca71ea",
       "record_type": "event",
-      "path": "knowledge/events/generated/2026-09-02-awana-2026-2027-b657f3.md",
+      "path": "knowledge/events/generated/2026-09-09-awana-2026-2027-ca71ea.md",
       "title": "Awana 2026-2027",
       "summary": "**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05** Approved Workmen Are Not Ashamed (A.W.A.N.A.) A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has...",
       "content": "**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**\n\nApproved Workmen Are Not Ashamed (A.W.A.N.A.)\n\nA program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.\n\nMeets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm\n\nSTART ANYTIME throughout the year!\n\nDinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.\nRegister: https://urbancrest.churchcenter.com/registrations/events/3737699\n\nDetails:\n**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05** \n\nApproved Workmen Are Not Ashamed (A.W.A.N.A.)\n\nA program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.\n\nMeets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm \n\nSTART ANYTIME throughout the year!\n\nDinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.\n\nRegistration is open.",
@@ -13242,16 +13242,16 @@
         "all"
       ],
       "resources": [],
-      "event_id": "event-ba71b480f7b657f3",
+      "event_id": "event-a15a9379d2ca71ea",
       "activity_aliases": [
         "Awana 2026-2027"
       ],
       "event_category": "churchwide_program",
-      "event_start": "2026-09-02T18:15:00-04:00",
-      "event_end": "2026-09-02T19:30:00-04:00",
-      "sort_start_utc": "2026-09-02T22:15:00Z",
-      "sort_end_utc": "2026-09-02T23:30:00Z",
-      "display_when": "Wednesday, September 2, 2026, 6:15 PM to 7:30 PM",
+      "event_start": "2026-09-09T18:15:00-04:00",
+      "event_end": "2026-09-09T19:30:00-04:00",
+      "sort_start_utc": "2026-09-09T22:15:00Z",
+      "sort_end_utc": "2026-09-09T23:30:00Z",
+      "display_when": "Wednesday, September 9, 2026, 6:15 PM to 7:30 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
       "location_structured": {
@@ -13262,7 +13262,7 @@
       },
       "details": "**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05** \n\nApproved Workmen Are Not Ashamed (A.W.A.N.A.)\n\nA program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.\n\nMeets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm \n\nSTART ANYTIME throughout the year!\n\nDinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.\n\nRegistration is open.",
       "details_source": "planning_center_registrations_api",
-      "planning_center_event_instance_id": "227855429",
+      "planning_center_event_instance_id": "227855430",
       "planning_center_event_time_id": "31487702",
       "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3737699/reservations/new",
       "registration_available": true,
@@ -13301,119 +13301,8 @@
         "planning_center_registrations_api"
       ],
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg",
-      "knowledge_file": "knowledge/events/generated/2026-09-02-awana-2026-2027-b657f3.md",
-      "chronological_rank": 1,
-      "routine_schedule_occurrence": false
-    },
-    {
-      "id": "events.live.pc-registration-3763259-c357fb9bf7e1",
-      "record_type": "event",
-      "path": "registry/events-live.yaml",
-      "title": "Engage: New Members Class - Summer 2026",
-      "summary": "Wondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, September 2! The Engage Class is a gathering that allows...",
-      "content": "Wondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, September 2!\n\nThe Engage Class is a gathering that allows individuals and families to explore and pray through becoming members of our church. This class is designed to have teaching, interaction, and a time to hear the vision for several of our ministries that you can get involved in!\n\nSign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.org .\n\nDetails:\nWondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, September 2!\n\nThe Engage Class is a gathering that allows individuals and families to explore and pray through becoming members of our church. This class is designed to have teaching, interaction, and a time to hear the vision for several of our ministries that you can get involved in!\n\nSign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.org .\n\nRegistration is not currently open.",
-      "priority": 80,
-      "category": [
-        "events",
-        "family_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "family_event",
-        "Engage: New Members Class - Summer 2026"
-      ],
-      "search_terms": [
-        "Engage: New Members Class - Summer 2026",
-        "When is Engage: New Members Class - Summer 2026?",
-        "Tell me about Engage: New Members Class - Summer 2026",
-        "What are the details for Engage: New Members Class - Summer 2026?",
-        "What is the menu for Engage: New Members Class - Summer 2026?",
-        "How do I register for Engage: New Members Class - Summer 2026?",
-        "Does Urbancrest have Engage: New Members Class - Summer 2026?",
-        "Does Urbancrest offer Engage: New Members Class - Summer 2026?",
-        "Do you have Engage: New Members Class - Summer 2026?",
-        "Do you offer Engage: New Members Class - Summer 2026?",
-        "Is there Engage: New Members Class - Summer 2026 at Urbancrest?",
-        "Can I participate in Engage: New Members Class - Summer 2026?",
-        "Can I play Engage: New Members Class - Summer 2026 at Urbancrest?"
-      ],
-      "ministries": [
-        "family"
-      ],
-      "audiences": [
-        "families"
-      ],
-      "resources": [],
-      "event_id": "pc-registration-3763259-c357fb9bf7e1",
-      "activity_aliases": [
-        "Engage: New Members Class - Summer 2026"
-      ],
-      "event_category": "family_event",
-      "event_start": "2026-09-02T22:30:00+00:00",
-      "event_end": "2026-09-03T00:00:00+00:00",
-      "sort_start_utc": "2026-09-02T22:30:00Z",
-      "sort_end_utc": "2026-09-03T00:00:00Z",
-      "display_when": "Wednesday, September 2, 2026 at 6:30 PM - 8:00 PM",
-      "all_day": false,
-      "location": "Urbancrest At Lebanon - 2634 Drake Road\nRoom 201\nLebanon, OH 45036",
-      "location_structured": {
-        "name": "Urbancrest At Lebanon",
-        "address": "2634 Drake Road\nRoom 201\nLebanon, OH 45036",
-        "latitude": "39.4748875",
-        "longitude": "-84.1793592"
-      },
-      "details": "Wondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, September 2!\n\nThe Engage Class is a gathering that allows individuals and families to explore and pray through becoming members of our church. This class is designed to have teaching, interaction, and a time to hear the vision for several of our ministries that you can get involved in!\n\nSign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.org .\n\nRegistration is not currently open.",
-      "details_source": "planning_center_registrations_api",
-      "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3763259/reservations/new",
-      "registration_available": true,
-      "registration_open": false,
-      "registration_closed": true,
-      "registration_open_at": "2026-07-02T04:00:00Z",
-      "registration_close_at": "2026-09-02T16:00:00Z",
-      "registration_categories": [
-        "Family",
-        "Special Events",
-        "New Here"
-      ],
-      "registration_options": [
-        {
-          "id": "8595770",
-          "name": "Adult",
-          "price_cents": 0,
-          "price_currency": "USD",
-          "price_currency_symbol": "$",
-          "price_formatted": "0",
-          "at_maximum_capacity": false,
-          "waitlist": false
-        },
-        {
-          "id": "8595771",
-          "name": "Child",
-          "price_cents": 0,
-          "price_currency": "USD",
-          "price_currency_symbol": "$",
-          "price_formatted": "0",
-          "at_maximum_capacity": false,
-          "waitlist": false
-        }
-      ],
-      "event_source": "planning_center_registrations_api",
-      "event_sources": [
-        "planning_center_registrations_api"
-      ],
-      "info_url": "https://urbancrest.churchcenter.com/registrations/events/3763259/reservations/new",
-      "image_url": "https://registrations.planningcenteronline.com/signups/3763259/logo",
-      "chronological_rank": 2,
+      "knowledge_file": "knowledge/events/generated/2026-09-09-awana-2026-2027-ca71ea.md",
+      "chronological_rank": 9,
       "routine_schedule_occurrence": false
     },
     {
@@ -13482,7 +13371,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=058d17f1b81369bc1275502f9bfab7c3324ca5b970a6a39720a87348da9b781e",
       "knowledge_file": "knowledge/events/generated/2026-09-05-men-s-breakfast-336f62.md",
-      "chronological_rank": 4,
+      "chronological_rank": 2,
       "routine_schedule_occurrence": false
     },
     {
@@ -13551,7 +13440,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=058d17f1b81369bc1275502f9bfab7c3324ca5b970a6a39720a87348da9b781e",
       "knowledge_file": "knowledge/events/generated/2026-10-03-men-s-breakfast-dec2d7.md",
-      "chronological_rank": 33,
+      "chronological_rank": 31,
       "routine_schedule_occurrence": false
     },
     {
@@ -14344,7 +14233,7 @@
       "info_url": "https://registrations-production.s3.amazonaws.com/uploads/image/file/437162/9f82e639924a58965b5c00b4504caa1c.jpg?content-disposition=attachment",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1787976000&key=uploads%2Fevent%2Flogo%2F3849948%2Fimage-1752240922469.jpeg&thumb=720x405%23&version=1787924083&signature=a0d90fbd41c6e9ebfbc39142f70d307f9e3e520662909f7308ef56e015b2fa06",
       "knowledge_file": "knowledge/events/generated/2026-10-03-men-s-cornhole-bbq-c05019.md",
-      "chronological_rank": 34,
+      "chronological_rank": 32,
       "routine_schedule_occurrence": false
     },
     {
@@ -14448,7 +14337,7 @@
       ],
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1788451200&key=uploads%2Fevent%2Flogo%2F3755569%2Fimage-1784126802561.jpeg&thumb=720x405%23&version=1788368236&signature=233e7df1a2a4650967513321d18dbfb90f05a1da8a15cc138d1b987970c9968a",
       "knowledge_file": "knowledge/events/generated/2026-10-04-night-of-worship-choir-2a753e.md",
-      "chronological_rank": 38,
+      "chronological_rank": 36,
       "routine_schedule_occurrence": false
     },
     {
@@ -14549,7 +14438,7 @@
       ],
       "info_url": "https://urbancrest.churchcenter.com/registrations/events/3613427/reservations/new",
       "image_url": "https://registrations.planningcenteronline.com/signups/3613427/logo",
-      "chronological_rank": 5,
+      "chronological_rank": 3,
       "routine_schedule_occurrence": false
     },
     {
@@ -14617,7 +14506,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-06-p-u-r-s-u-e-7f42b9.md",
-      "chronological_rank": 6,
+      "chronological_rank": 4,
       "routine_schedule_occurrence": false
     },
     {
@@ -14685,7 +14574,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-13-p-u-r-s-u-e-300fb0.md",
-      "chronological_rank": 13,
+      "chronological_rank": 11,
       "routine_schedule_occurrence": false
     },
     {
@@ -14753,7 +14642,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-20-p-u-r-s-u-e-f8f18d.md",
-      "chronological_rank": 19,
+      "chronological_rank": 17,
       "routine_schedule_occurrence": false
     },
     {
@@ -14821,7 +14710,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-27-p-u-r-s-u-e-724217.md",
-      "chronological_rank": 26,
+      "chronological_rank": 24,
       "routine_schedule_occurrence": false
     },
     {
@@ -14889,7 +14778,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-04-p-u-r-s-u-e-e5c34f.md",
-      "chronological_rank": 35,
+      "chronological_rank": 33,
       "routine_schedule_occurrence": false
     },
     {
@@ -18305,7 +18194,7 @@
       ],
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3732292/medium_image-1782929258210.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-09-26-waynesville-fall-fest-5aaab7.md",
-      "chronological_rank": 25,
+      "chronological_rank": 23,
       "routine_schedule_occurrence": false
     },
     {
@@ -18481,7 +18370,7 @@
       ],
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1787889600&key=uploads%2Fevent%2Flogo%2F3848043%2Fimage-1787747623394.jpeg&thumb=720x405%23&version=1787747843&signature=11aa145e5e471c884eb4c619680518f30e2765f0a1005fc7da03cab6eeae360c",
       "knowledge_file": "knowledge/events/generated/2026-09-27-women-s-fall-fest-3b206f.md",
-      "chronological_rank": 29,
+      "chronological_rank": 27,
       "routine_schedule_occurrence": false
     },
     {
@@ -18551,7 +18440,7 @@
       "planning_center_event_time_id": "27323022",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-27-women-s-fall-fest-8698aa.md",
-      "chronological_rank": 30,
+      "chronological_rank": 28,
       "routine_schedule_occurrence": false
     },
     {
@@ -19314,81 +19203,6 @@
       "resources": []
     },
     {
-      "id": "events.live.event-a15a9379d2ca71ea",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-09-09-awana-2026-2027-ca71ea.md",
-      "title": "Awana 2026-2027",
-      "summary": "**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**\n\nApproved Workmen Are Not Ashamed (A.W.A.N.A.)\n\nA program focusing on learning the B...",
-      "content": "**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**\n\nApproved Workmen Are Not Ashamed (A.W.A.N.A.)\n\nA program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.\n\nMeets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm\n\nSTART ANYTIME throughout the year!\n\nDinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.\nRegister: https://urbancrest.churchcenter.com/registrations/events/3737699\n\nDetails:\n**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**\nApproved Workmen Are Not Ashamed (A.W.A.N.A.)\nA program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.\nMeets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm \nSTART ANYTIME throughout the year!\nDinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.",
-      "priority": 60,
-      "category": [
-        "events",
-        "churchwide_program"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "churchwide_program",
-        "Awana 2026-2027"
-      ],
-      "search_terms": [
-        "Awana 2026-2027",
-        "When is Awana 2026-2027?",
-        "Tell me about Awana 2026-2027",
-        "What are the details for Awana 2026-2027?",
-        "What is the menu for Awana 2026-2027?",
-        "How do I register for Awana 2026-2027?",
-        "Does Urbancrest have Awana 2026-2027?",
-        "Does Urbancrest offer Awana 2026-2027?",
-        "Do you have Awana 2026-2027?",
-        "Do you offer Awana 2026-2027?",
-        "Is there Awana 2026-2027 at Urbancrest?",
-        "Can I participate in Awana 2026-2027?",
-        "Can I play Awana 2026-2027 at Urbancrest?"
-      ],
-      "ministries": [
-        "kids",
-        "men"
-      ],
-      "audiences": [
-        "children",
-        "men",
-        "volunteers"
-      ],
-      "resources": [],
-      "event_id": "event-a15a9379d2ca71ea",
-      "activity_aliases": [
-        "Awana 2026-2027"
-      ],
-      "event_category": "churchwide_program",
-      "event_start": "2026-09-09T18:15:00-04:00",
-      "event_end": "2026-09-09T19:30:00-04:00",
-      "sort_start_utc": "2026-09-09T22:15:00Z",
-      "sort_end_utc": "2026-09-09T23:30:00Z",
-      "display_when": "Wednesday, September 9, 2026, 6:15 PM to 7:30 PM",
-      "all_day": false,
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**\nApproved Workmen Are Not Ashamed (A.W.A.N.A.)\nA program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.\nMeets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm \nSTART ANYTIME throughout the year!\nDinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.",
-      "details_source": "planning_center_calendar_api",
-      "planning_center_event_instance_id": "227855430",
-      "planning_center_event_time_id": "31487702",
-      "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3737699",
-      "registration_available": true,
-      "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg",
-      "knowledge_file": "knowledge/events/generated/2026-09-09-awana-2026-2027-ca71ea.md",
-      "chronological_rank": 11,
-      "routine_schedule_occurrence": false
-    },
-    {
       "id": "events.live.event-603382a30ef2ed46",
       "record_type": "event",
       "path": "knowledge/events/generated/2026-09-09-wednesday-night-dinner-f2ed46.md",
@@ -19456,7 +19270,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=0b8c190d56325cbe0983da665c529dd8556e161d746bb60b6cb3d5a931891e63",
       "knowledge_file": "knowledge/events/generated/2026-09-09-wednesday-night-dinner-f2ed46.md",
-      "chronological_rank": 10,
+      "chronological_rank": 8,
       "routine_schedule_occurrence": false
     },
     {
@@ -19527,7 +19341,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=0b8c190d56325cbe0983da665c529dd8556e161d746bb60b6cb3d5a931891e63",
       "knowledge_file": "knowledge/events/generated/2026-09-16-wednesday-night-dinner-89e119.md",
-      "chronological_rank": 17,
+      "chronological_rank": 15,
       "routine_schedule_occurrence": false
     },
     {
@@ -19598,7 +19412,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=0b8c190d56325cbe0983da665c529dd8556e161d746bb60b6cb3d5a931891e63",
       "knowledge_file": "knowledge/events/generated/2026-09-23-wednesday-night-dinner-c7bf0d.md",
-      "chronological_rank": 23,
+      "chronological_rank": 21,
       "routine_schedule_occurrence": false
     },
     {
@@ -19669,7 +19483,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=0b8c190d56325cbe0983da665c529dd8556e161d746bb60b6cb3d5a931891e63",
       "knowledge_file": "knowledge/events/generated/2026-09-30-wednesday-night-dinner-36f49b.md",
-      "chronological_rank": 31,
+      "chronological_rank": 29,
       "routine_schedule_occurrence": false
     },
     {
@@ -19740,7 +19554,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=0b8c190d56325cbe0983da665c529dd8556e161d746bb60b6cb3d5a931891e63",
       "knowledge_file": "knowledge/events/generated/2026-10-07-wednesday-night-dinner-9fc5ad.md",
-      "chronological_rank": 39,
+      "chronological_rank": 38,
       "routine_schedule_occurrence": false
     },
     {
@@ -23311,6 +23125,73 @@
       "resources": []
     },
     {
+      "id": "events.live.event-b5610e364a8e6732",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-10-06-card-ministry-8e6732.md",
+      "title": "Card Ministry",
+      "summary": "Rai Lynn Guidone",
+      "content": "Rai Lynn Guidone",
+      "priority": 50,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "general_event",
+        "Card Ministry"
+      ],
+      "search_terms": [
+        "Card Ministry",
+        "When is Card Ministry?",
+        "Tell me about Card Ministry",
+        "What are the details for Card Ministry?",
+        "What is the menu for Card Ministry?",
+        "How do I register for Card Ministry?",
+        "Does Urbancrest have Card Ministry?",
+        "Does Urbancrest offer Card Ministry?",
+        "Do you have Card Ministry?",
+        "Do you offer Card Ministry?",
+        "Is there Card Ministry at Urbancrest?",
+        "Can I participate in Card Ministry?",
+        "Can I play Card Ministry at Urbancrest?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-b5610e364a8e6732",
+      "activity_aliases": [
+        "Card Ministry"
+      ],
+      "event_category": "general_event",
+      "event_start": "2026-10-06T09:00:00-04:00",
+      "event_end": "2026-10-06T12:00:00-04:00",
+      "sort_start_utc": "2026-10-06T13:00:00Z",
+      "sort_end_utc": "2026-10-06T16:00:00Z",
+      "display_when": "Tuesday, October 6, 2026, 9 AM to 12 PM",
+      "all_day": false,
+      "planning_center_event_instance_id": "169009947",
+      "planning_center_event_time_id": "28363612",
+      "registration_available": false,
+      "knowledge_file": "knowledge/events/generated/2026-10-06-card-ministry-8e6732.md",
+      "chronological_rank": 37,
+      "routine_schedule_occurrence": false
+    },
+    {
       "id": "events.live.event-399a8cbba5681d28",
       "record_type": "event",
       "path": "knowledge/events/generated/2026-09-22-guest-services-team-meeting-681d28.md",
@@ -23375,7 +23256,7 @@
       "planning_center_event_time_id": "30414252",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-22-guest-services-team-meeting-681d28.md",
-      "chronological_rank": 22,
+      "chronological_rank": 20,
       "routine_schedule_occurrence": false
     },
     {
@@ -23444,7 +23325,7 @@
       "planning_center_event_time_id": "16193422",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-16-monthly-baskets-of-hope-volunteers-77387f.md",
-      "chronological_rank": 16,
+      "chronological_rank": 14,
       "routine_schedule_occurrence": false
     },
     {
@@ -23542,7 +23423,7 @@
       "planning_center_event_time_id": "29468516",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-03-open-gym-pickleball-473ecc.md",
-      "chronological_rank": 3,
+      "chronological_rank": 1,
       "routine_schedule_occurrence": false
     },
     {
@@ -23640,7 +23521,7 @@
       "planning_center_event_time_id": "29468516",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-10-open-gym-pickleball-fe7030.md",
-      "chronological_rank": 12,
+      "chronological_rank": 10,
       "routine_schedule_occurrence": false
     },
     {
@@ -23738,7 +23619,7 @@
       "planning_center_event_time_id": "29468516",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-17-open-gym-pickleball-556aa9.md",
-      "chronological_rank": 18,
+      "chronological_rank": 16,
       "routine_schedule_occurrence": false
     },
     {
@@ -23836,7 +23717,7 @@
       "planning_center_event_time_id": "29468516",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-24-open-gym-pickleball-309c7f.md",
-      "chronological_rank": 24,
+      "chronological_rank": 22,
       "routine_schedule_occurrence": false
     },
     {
@@ -23934,7 +23815,105 @@
       "planning_center_event_time_id": "29468516",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-01-open-gym-pickleball-0cfa47.md",
-      "chronological_rank": 32,
+      "chronological_rank": 30,
+      "routine_schedule_occurrence": false
+    },
+    {
+      "id": "events.live.event-5a6c2377094d6218",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-10-08-open-gym-pickleball-4d6218.md",
+      "title": "OPEN GYM Pickleball",
+      "summary": "On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.",
+      "content": "On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.",
+      "priority": 50,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "general_event",
+        "OPEN GYM Pickleball",
+        "Pickleball",
+        "OPEN GYM Pickle ball",
+        "Pickle ball"
+      ],
+      "search_terms": [
+        "OPEN GYM Pickleball",
+        "When is OPEN GYM Pickleball?",
+        "Tell me about OPEN GYM Pickleball",
+        "What are the details for OPEN GYM Pickleball?",
+        "What is the menu for OPEN GYM Pickleball?",
+        "How do I register for OPEN GYM Pickleball?",
+        "Does Urbancrest have OPEN GYM Pickleball?",
+        "Does Urbancrest offer OPEN GYM Pickleball?",
+        "Do you have OPEN GYM Pickleball?",
+        "Do you offer OPEN GYM Pickleball?",
+        "Is there OPEN GYM Pickleball at Urbancrest?",
+        "Can I participate in OPEN GYM Pickleball?",
+        "Can I play OPEN GYM Pickleball at Urbancrest?",
+        "Pickleball",
+        "Does Urbancrest have Pickleball?",
+        "Does Urbancrest offer Pickleball?",
+        "Do you have Pickleball?",
+        "Do you offer Pickleball?",
+        "Is there Pickleball at Urbancrest?",
+        "Can I participate in Pickleball?",
+        "Can I play Pickleball at Urbancrest?",
+        "OPEN GYM Pickle ball",
+        "Does Urbancrest have OPEN GYM Pickle ball?",
+        "Does Urbancrest offer OPEN GYM Pickle ball?",
+        "Do you have OPEN GYM Pickle ball?",
+        "Do you offer OPEN GYM Pickle ball?",
+        "Is there OPEN GYM Pickle ball at Urbancrest?",
+        "Can I participate in OPEN GYM Pickle ball?",
+        "Can I play OPEN GYM Pickle ball at Urbancrest?",
+        "Pickle ball",
+        "Does Urbancrest have Pickle ball?",
+        "Does Urbancrest offer Pickle ball?",
+        "Do you have Pickle ball?",
+        "Do you offer Pickle ball?",
+        "Is there Pickle ball at Urbancrest?",
+        "Can I participate in Pickle ball?",
+        "Can I play Pickle ball at Urbancrest?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-5a6c2377094d6218",
+      "activity_aliases": [
+        "OPEN GYM Pickleball",
+        "Pickleball",
+        "OPEN GYM Pickle ball",
+        "Pickle ball"
+      ],
+      "event_category": "general_event",
+      "event_start": "2026-10-08T18:00:00-04:00",
+      "event_end": "2026-10-08T20:00:00-04:00",
+      "sort_start_utc": "2026-10-08T22:00:00Z",
+      "sort_end_utc": "2026-10-09T00:00:00Z",
+      "display_when": "Thursday, October 8, 2026, 6 PM to 8 PM",
+      "all_day": false,
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "planning_center_event_instance_id": "216277438",
+      "planning_center_event_time_id": "29468516",
+      "registration_available": false,
+      "knowledge_file": "knowledge/events/generated/2026-10-08-open-gym-pickleball-4d6218.md",
+      "chronological_rank": 39,
       "routine_schedule_occurrence": false
     },
     {
@@ -24001,7 +23980,7 @@
       "planning_center_event_time_id": "32446810",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-06-sims-family-reunion-93a8fc.md",
-      "chronological_rank": 9,
+      "chronological_rank": 7,
       "routine_schedule_occurrence": false
     },
     {
@@ -24086,7 +24065,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-06-sunday-morning-services-11-00-am-service-8a985a.md",
-      "chronological_rank": 8,
+      "chronological_rank": 6,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24159,7 +24138,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-13-sunday-morning-services-11-00-am-service-153e7f.md",
-      "chronological_rank": 15,
+      "chronological_rank": 13,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24232,7 +24211,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-20-sunday-morning-services-11-00-am-service-9ace48.md",
-      "chronological_rank": 21,
+      "chronological_rank": 19,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24305,7 +24284,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-27-sunday-morning-services-11-00-am-service-b8b3b1.md",
-      "chronological_rank": 28,
+      "chronological_rank": 26,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24378,7 +24357,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-04-sunday-morning-services-11-00-am-service-391224.md",
-      "chronological_rank": 37,
+      "chronological_rank": 35,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24451,7 +24430,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-06-sunday-morning-services-9-30-am-service-3e5884.md",
-      "chronological_rank": 7,
+      "chronological_rank": 5,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24524,7 +24503,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-13-sunday-morning-services-9-30-am-service-b32add.md",
-      "chronological_rank": 14,
+      "chronological_rank": 12,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24597,7 +24576,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-20-sunday-morning-services-9-30-am-service-25697d.md",
-      "chronological_rank": 20,
+      "chronological_rank": 18,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24670,7 +24649,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-27-sunday-morning-services-9-30-am-service-a45069.md",
-      "chronological_rank": 27,
+      "chronological_rank": 25,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24743,7 +24722,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-04-sunday-morning-services-9-30-am-service-160a39.md",
-      "chronological_rank": 36,
+      "chronological_rank": 34,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24908,7 +24887,7 @@
       "path": "knowledge/small-groups/generated/p-u-r-s-u-e-567dcc.md",
       "title": "P U R S U E",
       "summary": "Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.",
-      "content": "Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.\n\nUpcoming meetings:\nWednesday, September 2, 2026, 6:30 PM to 8:30 PM\nWednesday, September 9, 2026, 6:30 PM to 8:30 PM\nWednesday, September 16, 2026, 6:30 PM to 8:30 PM\nWednesday, September 23, 2026, 6:30 PM to 8:30 PM\nWednesday, September 30, 2026, 6:30 PM to 8:30 PM\nWednesday, October 7, 2026, 6:30 PM to 8:30 PM\nWednesday, October 14, 2026, 6:30 PM to 8:30 PM\nWednesday, October 21, 2026, 6:30 PM to 8:30 PM\nWednesday, October 28, 2026, 6:30 PM to 8:30 PM\nWednesday, November 4, 2026, 6:30 PM to 8:30 PM\nWednesday, November 11, 2026, 6:30 PM to 8:30 PM\nWednesday, November 18, 2026, 6:30 PM to 8:30 PM",
+      "content": "Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.\n\nUpcoming meetings:\nWednesday, September 9, 2026, 6:30 PM to 8:30 PM\nWednesday, September 16, 2026, 6:30 PM to 8:30 PM\nWednesday, September 23, 2026, 6:30 PM to 8:30 PM\nWednesday, September 30, 2026, 6:30 PM to 8:30 PM\nWednesday, October 7, 2026, 6:30 PM to 8:30 PM\nWednesday, October 14, 2026, 6:30 PM to 8:30 PM\nWednesday, October 21, 2026, 6:30 PM to 8:30 PM\nWednesday, October 28, 2026, 6:30 PM to 8:30 PM\nWednesday, November 4, 2026, 6:30 PM to 8:30 PM\nWednesday, November 11, 2026, 6:30 PM to 8:30 PM\nWednesday, November 18, 2026, 6:30 PM to 8:30 PM\nWednesday, November 25, 2026, 6:30 PM to 8:30 PM",
       "priority": 20,
       "category": [
         "small_groups"
@@ -24941,22 +24920,14 @@
       "resources": [],
       "group_id": "group-d895be1a40567dcc",
       "next_meeting": {
-        "start": "2026-09-02T18:30:00-04:00",
-        "end": "2026-09-02T20:30:00-04:00",
-        "sort_start_utc": "2026-09-02T22:30:00Z",
-        "sort_end_utc": "2026-09-03T00:30:00Z",
-        "display_when": "Wednesday, September 2, 2026, 6:30 PM to 8:30 PM",
+        "start": "2026-09-09T18:30:00-04:00",
+        "end": "2026-09-09T20:30:00-04:00",
+        "sort_start_utc": "2026-09-09T22:30:00Z",
+        "sort_end_utc": "2026-09-10T00:30:00Z",
+        "display_when": "Wednesday, September 9, 2026, 6:30 PM to 8:30 PM",
         "all_day": false
       },
       "future_meetings": [
-        {
-          "start": "2026-09-02T18:30:00-04:00",
-          "end": "2026-09-02T20:30:00-04:00",
-          "sort_start_utc": "2026-09-02T22:30:00Z",
-          "sort_end_utc": "2026-09-03T00:30:00Z",
-          "display_when": "Wednesday, September 2, 2026, 6:30 PM to 8:30 PM",
-          "all_day": false
-        },
         {
           "start": "2026-09-09T18:30:00-04:00",
           "end": "2026-09-09T20:30:00-04:00",
@@ -25044,11 +25015,19 @@
           "sort_end_utc": "2026-11-19T01:30:00Z",
           "display_when": "Wednesday, November 18, 2026, 6:30 PM to 8:30 PM",
           "all_day": false
+        },
+        {
+          "start": "2026-11-25T18:30:00-05:00",
+          "end": "2026-11-25T20:30:00-05:00",
+          "sort_start_utc": "2026-11-25T23:30:00Z",
+          "sort_end_utc": "2026-11-26T01:30:00Z",
+          "display_when": "Wednesday, November 25, 2026, 6:30 PM to 8:30 PM",
+          "all_day": false
         }
       ],
-      "sort_start_utc": "2026-09-02T22:30:00Z",
-      "sort_end_utc": "2026-09-03T00:30:00Z",
-      "planning_center_event_instance_id": "165713307",
+      "sort_start_utc": "2026-09-09T22:30:00Z",
+      "sort_end_utc": "2026-09-10T00:30:00Z",
+      "planning_center_event_instance_id": "166458546",
       "planning_center_event_time_id": "25282532",
       "knowledge_file": "knowledge/small-groups/generated/p-u-r-s-u-e-567dcc.md"
     },

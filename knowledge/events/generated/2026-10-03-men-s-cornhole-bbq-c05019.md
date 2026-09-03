@@ -35,7 +35,7 @@ event_start: "2026-10-03T09:00:00-04:00"
 event_end: "2026-10-03T14:00:00-04:00"
 sort_start_utc: "2026-10-03T13:00:00Z"
 sort_end_utc: "2026-10-03T18:00:00Z"
-chronological_rank: 32
+chronological_rank: 31
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
@@ -45,7 +45,7 @@ image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=reg
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "233964133"
 planning_center_event_time_id: "32456802"
-last_generated: 2026-09-02T23:19:50.417820Z
+last_generated: 2026-09-03T04:34:58.246965Z
 ---
 
 # Men's Cornhole & BBQ

@@ -16,37 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-09-02T23:19:51.569568Z
+last_generated: 2026-09-03T04:34:59.400688Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## Awana 2026-2027
-
-**Category:** Churchwide Program
-
-**When:** Wednesday, September 2, 2026, 6:15 PM to 7:30 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-**Registration:** https://urbancrest.churchcenter.com/registrations/events/3737699/reservations/new
-
-Detailed event file: `knowledge/events/generated/2026-09-02-awana-2026-2027-b657f3.md`
-
-## Engage: New Members Class - Summer 2026
-
-**Category:** Family Event
-
-**When:** Wednesday, September 2, 2026 at 6:30 PM - 8:00 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road
-Room 201
-Lebanon, OH 45036
-
-**Registration:** https://urbancrest.churchcenter.com/registrations/events/3763259/reservations/new
 
 ## OPEN GYM Pickleball
 
@@ -136,7 +112,7 @@ Detailed event file: `knowledge/events/generated/2026-09-09-wednesday-night-dinn
 
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
-**Registration:** https://urbancrest.churchcenter.com/registrations/events/3737699
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3737699/reservations/new
 
 Detailed event file: `knowledge/events/generated/2026-09-09-awana-2026-2027-ca71ea.md`
 
@@ -416,6 +392,14 @@ Detailed event file: `knowledge/events/generated/2026-10-04-sunday-morning-servi
 
 Detailed event file: `knowledge/events/generated/2026-10-04-night-of-worship-choir-2a753e.md`
 
+## Card Ministry
+
+**Category:** General Event
+
+**When:** Tuesday, October 6, 2026, 9 AM to 12 PM
+
+Detailed event file: `knowledge/events/generated/2026-10-06-card-ministry-8e6732.md`
+
 ## Wednesday Night Dinner
 
 **Category:** Churchwide Program
@@ -425,6 +409,16 @@ Detailed event file: `knowledge/events/generated/2026-10-04-night-of-worship-cho
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-10-07-wednesday-night-dinner-9fc5ad.md`
+
+## OPEN GYM Pickleball
+
+**Category:** General Event
+
+**When:** Thursday, October 8, 2026, 6 PM to 8 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2026-10-08-open-gym-pickleball-4d6218.md`
 
 ## P U R S U E
 

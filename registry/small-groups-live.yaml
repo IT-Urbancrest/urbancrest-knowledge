@@ -1,5 +1,5 @@
 version: 1.4.3
-generated_at: '2026-09-02T23:19:50.417820Z'
+generated_at: '2026-09-03T04:34:58.246965Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api
 api_enrichment:
@@ -15,154 +15,8 @@ lookahead_days: 365
 max_series: 100
 max_occurrences_per_series: 12
 group_count: 3
-source_occurrence_count: 157
+source_occurrence_count: 156
 groups:
-- id: group-d895be1a40567dcc
-  source_uids:
-  - ET-25282532-165713307@resources.planningcenteronline.com
-  - ET-25282532-166458546@resources.planningcenteronline.com
-  - ET-25282532-167230921@resources.planningcenteronline.com
-  - ET-25282532-167910854@resources.planningcenteronline.com
-  - ET-25282532-168488948@resources.planningcenteronline.com
-  - ET-25282532-169073295@resources.planningcenteronline.com
-  - ET-25282532-169619084@resources.planningcenteronline.com
-  - ET-25282532-170149016@resources.planningcenteronline.com
-  - ET-25282532-170658346@resources.planningcenteronline.com
-  - ET-25282532-171164710@resources.planningcenteronline.com
-  - ET-25282532-171691161@resources.planningcenteronline.com
-  - ET-25282532-172353751@resources.planningcenteronline.com
-  - ET-25282532-172879412@resources.planningcenteronline.com
-  - ET-25282532-173254599@resources.planningcenteronline.com
-  - ET-25282532-173816325@resources.planningcenteronline.com
-  - ET-25282532-174392997@resources.planningcenteronline.com
-  - ET-25282532-174992500@resources.planningcenteronline.com
-  - ET-25282532-175309972@resources.planningcenteronline.com
-  - ET-25282532-175918480@resources.planningcenteronline.com
-  - ET-25282532-176872236@resources.planningcenteronline.com
-  - ET-25282532-177703616@resources.planningcenteronline.com
-  - ET-25282532-178415451@resources.planningcenteronline.com
-  - ET-25282532-179207649@resources.planningcenteronline.com
-  - ET-25282532-179927998@resources.planningcenteronline.com
-  - ET-25282532-180582230@resources.planningcenteronline.com
-  - ET-25282532-181202422@resources.planningcenteronline.com
-  - ET-25282532-181870917@resources.planningcenteronline.com
-  - ET-25282532-182488962@resources.planningcenteronline.com
-  - ET-25282532-183117197@resources.planningcenteronline.com
-  - ET-25282532-183710530@resources.planningcenteronline.com
-  - ET-25282532-184283267@resources.planningcenteronline.com
-  - ET-25282532-184863328@resources.planningcenteronline.com
-  - ET-25282532-185387863@resources.planningcenteronline.com
-  - ET-25282532-185880441@resources.planningcenteronline.com
-  - ET-25282532-186383290@resources.planningcenteronline.com
-  - ET-25282532-186976331@resources.planningcenteronline.com
-  - ET-25282532-187536031@resources.planningcenteronline.com
-  - ET-25282532-188181931@resources.planningcenteronline.com
-  - ET-25282532-188773067@resources.planningcenteronline.com
-  - ET-25282532-189320894@resources.planningcenteronline.com
-  - ET-25282532-189916337@resources.planningcenteronline.com
-  - ET-25282532-190515652@resources.planningcenteronline.com
-  - ET-25282532-191065631@resources.planningcenteronline.com
-  - ET-25282532-191659908@resources.planningcenteronline.com
-  - ET-25282532-192149760@resources.planningcenteronline.com
-  - ET-25282532-192756450@resources.planningcenteronline.com
-  - ET-25282532-193317575@resources.planningcenteronline.com
-  - ET-25282532-193952683@resources.planningcenteronline.com
-  - ET-25282532-194682083@resources.planningcenteronline.com
-  - ET-25282532-195448841@resources.planningcenteronline.com
-  - ET-25282532-196326516@resources.planningcenteronline.com
-  - ET-25282532-197289056@resources.planningcenteronline.com
-  - ET-25282532-198297008@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.
-  description: Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.
-  planning_center_event_instance_id: '165713307'
-  planning_center_event_time_id: '25282532'
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Fsfkgtiufdgafjg73tuqant7jmhz3&thumb=960x540%23&signature=a05fd72902e9d63e043f20e85ede145c85d9ba7487292f37fc0fbf9de21d2a7b
-  ministries:
-  - students
-  - worship
-  - small_groups
-  audiences:
-  - students
-  event_category: small_group_meeting
-  event_priority: 20
-  next_meeting: &id001
-    start: '2026-09-02T18:30:00-04:00'
-    end: '2026-09-02T20:30:00-04:00'
-    sort_start_utc: '2026-09-02T22:30:00Z'
-    sort_end_utc: '2026-09-03T00:30:00Z'
-    display_when: Wednesday, September 2, 2026, 6:30 PM to 8:30 PM
-    all_day: false
-  future_meetings:
-  - *id001
-  - start: '2026-09-09T18:30:00-04:00'
-    end: '2026-09-09T20:30:00-04:00'
-    sort_start_utc: '2026-09-09T22:30:00Z'
-    sort_end_utc: '2026-09-10T00:30:00Z'
-    display_when: Wednesday, September 9, 2026, 6:30 PM to 8:30 PM
-    all_day: false
-  - start: '2026-09-16T18:30:00-04:00'
-    end: '2026-09-16T20:30:00-04:00'
-    sort_start_utc: '2026-09-16T22:30:00Z'
-    sort_end_utc: '2026-09-17T00:30:00Z'
-    display_when: Wednesday, September 16, 2026, 6:30 PM to 8:30 PM
-    all_day: false
-  - start: '2026-09-23T18:30:00-04:00'
-    end: '2026-09-23T20:30:00-04:00'
-    sort_start_utc: '2026-09-23T22:30:00Z'
-    sort_end_utc: '2026-09-24T00:30:00Z'
-    display_when: Wednesday, September 23, 2026, 6:30 PM to 8:30 PM
-    all_day: false
-  - start: '2026-09-30T18:30:00-04:00'
-    end: '2026-09-30T20:30:00-04:00'
-    sort_start_utc: '2026-09-30T22:30:00Z'
-    sort_end_utc: '2026-10-01T00:30:00Z'
-    display_when: Wednesday, September 30, 2026, 6:30 PM to 8:30 PM
-    all_day: false
-  - start: '2026-10-07T18:30:00-04:00'
-    end: '2026-10-07T20:30:00-04:00'
-    sort_start_utc: '2026-10-07T22:30:00Z'
-    sort_end_utc: '2026-10-08T00:30:00Z'
-    display_when: Wednesday, October 7, 2026, 6:30 PM to 8:30 PM
-    all_day: false
-  - start: '2026-10-14T18:30:00-04:00'
-    end: '2026-10-14T20:30:00-04:00'
-    sort_start_utc: '2026-10-14T22:30:00Z'
-    sort_end_utc: '2026-10-15T00:30:00Z'
-    display_when: Wednesday, October 14, 2026, 6:30 PM to 8:30 PM
-    all_day: false
-  - start: '2026-10-21T18:30:00-04:00'
-    end: '2026-10-21T20:30:00-04:00'
-    sort_start_utc: '2026-10-21T22:30:00Z'
-    sort_end_utc: '2026-10-22T00:30:00Z'
-    display_when: Wednesday, October 21, 2026, 6:30 PM to 8:30 PM
-    all_day: false
-  - start: '2026-10-28T18:30:00-04:00'
-    end: '2026-10-28T20:30:00-04:00'
-    sort_start_utc: '2026-10-28T22:30:00Z'
-    sort_end_utc: '2026-10-29T00:30:00Z'
-    display_when: Wednesday, October 28, 2026, 6:30 PM to 8:30 PM
-    all_day: false
-  - start: '2026-11-04T18:30:00-05:00'
-    end: '2026-11-04T20:30:00-05:00'
-    sort_start_utc: '2026-11-04T23:30:00Z'
-    sort_end_utc: '2026-11-05T01:30:00Z'
-    display_when: Wednesday, November 4, 2026, 6:30 PM to 8:30 PM
-    all_day: false
-  - start: '2026-11-11T18:30:00-05:00'
-    end: '2026-11-11T20:30:00-05:00'
-    sort_start_utc: '2026-11-11T23:30:00Z'
-    sort_end_utc: '2026-11-12T01:30:00Z'
-    display_when: Wednesday, November 11, 2026, 6:30 PM to 8:30 PM
-    all_day: false
-  - start: '2026-11-18T18:30:00-05:00'
-    end: '2026-11-18T20:30:00-05:00'
-    sort_start_utc: '2026-11-18T23:30:00Z'
-    sort_end_utc: '2026-11-19T01:30:00Z'
-    display_when: Wednesday, November 18, 2026, 6:30 PM to 8:30 PM
-    all_day: false
-  meeting_count_in_window: 53
-  knowledge_file: knowledge/small-groups/generated/p-u-r-s-u-e-567dcc.md
 - id: group-5aa8f1e4bd0cb4a6
   source_uids:
   - ET-31398539-166359004@resources.planningcenteronline.com
@@ -231,7 +85,7 @@ groups:
   - everyone
   event_category: small_group_meeting
   event_priority: 20
-  next_meeting: &id002
+  next_meeting: &id001
     start: '2026-09-07T19:00:00-04:00'
     end: '2026-09-07T20:30:00-04:00'
     sort_start_utc: '2026-09-07T23:00:00Z'
@@ -239,7 +93,7 @@ groups:
     display_when: Monday, September 7, 2026, 7 PM to 8:30 PM
     all_day: false
   future_meetings:
-  - *id002
+  - *id001
   - start: '2026-09-14T19:00:00-04:00'
     end: '2026-09-14T20:30:00-04:00'
     sort_start_utc: '2026-09-14T23:00:00Z'
@@ -372,7 +226,7 @@ groups:
   - everyone
   event_category: small_group_meeting
   event_priority: 20
-  next_meeting: &id003
+  next_meeting: &id002
     start: '2026-09-07T19:00:00-04:00'
     end: '2026-09-07T20:30:00-04:00'
     sort_start_utc: '2026-09-07T23:00:00Z'
@@ -380,7 +234,7 @@ groups:
     display_when: Monday, September 7, 2026, 7 PM to 8:30 PM
     all_day: false
   future_meetings:
-  - *id003
+  - *id002
   - start: '2026-09-14T19:00:00-04:00'
     end: '2026-09-14T20:30:00-04:00'
     sort_start_utc: '2026-09-14T23:00:00Z'
@@ -449,3 +303,148 @@ groups:
     all_day: false
   meeting_count_in_window: 52
   knowledge_file: knowledge/small-groups/generated/steve-gregory-small-group-steve-gregory-c4a23b.md
+- id: group-d895be1a40567dcc
+  source_uids:
+  - ET-25282532-166458546@resources.planningcenteronline.com
+  - ET-25282532-167230921@resources.planningcenteronline.com
+  - ET-25282532-167910854@resources.planningcenteronline.com
+  - ET-25282532-168488948@resources.planningcenteronline.com
+  - ET-25282532-169073295@resources.planningcenteronline.com
+  - ET-25282532-169619084@resources.planningcenteronline.com
+  - ET-25282532-170149016@resources.planningcenteronline.com
+  - ET-25282532-170658346@resources.planningcenteronline.com
+  - ET-25282532-171164710@resources.planningcenteronline.com
+  - ET-25282532-171691161@resources.planningcenteronline.com
+  - ET-25282532-172353751@resources.planningcenteronline.com
+  - ET-25282532-172879412@resources.planningcenteronline.com
+  - ET-25282532-173254599@resources.planningcenteronline.com
+  - ET-25282532-173816325@resources.planningcenteronline.com
+  - ET-25282532-174392997@resources.planningcenteronline.com
+  - ET-25282532-174992500@resources.planningcenteronline.com
+  - ET-25282532-175309972@resources.planningcenteronline.com
+  - ET-25282532-175918480@resources.planningcenteronline.com
+  - ET-25282532-176872236@resources.planningcenteronline.com
+  - ET-25282532-177703616@resources.planningcenteronline.com
+  - ET-25282532-178415451@resources.planningcenteronline.com
+  - ET-25282532-179207649@resources.planningcenteronline.com
+  - ET-25282532-179927998@resources.planningcenteronline.com
+  - ET-25282532-180582230@resources.planningcenteronline.com
+  - ET-25282532-181202422@resources.planningcenteronline.com
+  - ET-25282532-181870917@resources.planningcenteronline.com
+  - ET-25282532-182488962@resources.planningcenteronline.com
+  - ET-25282532-183117197@resources.planningcenteronline.com
+  - ET-25282532-183710530@resources.planningcenteronline.com
+  - ET-25282532-184283267@resources.planningcenteronline.com
+  - ET-25282532-184863328@resources.planningcenteronline.com
+  - ET-25282532-185387863@resources.planningcenteronline.com
+  - ET-25282532-185880441@resources.planningcenteronline.com
+  - ET-25282532-186383290@resources.planningcenteronline.com
+  - ET-25282532-186976331@resources.planningcenteronline.com
+  - ET-25282532-187536031@resources.planningcenteronline.com
+  - ET-25282532-188181931@resources.planningcenteronline.com
+  - ET-25282532-188773067@resources.planningcenteronline.com
+  - ET-25282532-189320894@resources.planningcenteronline.com
+  - ET-25282532-189916337@resources.planningcenteronline.com
+  - ET-25282532-190515652@resources.planningcenteronline.com
+  - ET-25282532-191065631@resources.planningcenteronline.com
+  - ET-25282532-191659908@resources.planningcenteronline.com
+  - ET-25282532-192149760@resources.planningcenteronline.com
+  - ET-25282532-192756450@resources.planningcenteronline.com
+  - ET-25282532-193317575@resources.planningcenteronline.com
+  - ET-25282532-193952683@resources.planningcenteronline.com
+  - ET-25282532-194682083@resources.planningcenteronline.com
+  - ET-25282532-195448841@resources.planningcenteronline.com
+  - ET-25282532-196326516@resources.planningcenteronline.com
+  - ET-25282532-197289056@resources.planningcenteronline.com
+  - ET-25282532-198297008@resources.planningcenteronline.com
+  title: P U R S U E
+  summary: Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.
+  description: Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.
+  planning_center_event_instance_id: '166458546'
+  planning_center_event_time_id: '25282532'
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Fsfkgtiufdgafjg73tuqant7jmhz3&thumb=960x540%23&signature=a05fd72902e9d63e043f20e85ede145c85d9ba7487292f37fc0fbf9de21d2a7b
+  ministries:
+  - students
+  - worship
+  - small_groups
+  audiences:
+  - students
+  event_category: small_group_meeting
+  event_priority: 20
+  next_meeting: &id003
+    start: '2026-09-09T18:30:00-04:00'
+    end: '2026-09-09T20:30:00-04:00'
+    sort_start_utc: '2026-09-09T22:30:00Z'
+    sort_end_utc: '2026-09-10T00:30:00Z'
+    display_when: Wednesday, September 9, 2026, 6:30 PM to 8:30 PM
+    all_day: false
+  future_meetings:
+  - *id003
+  - start: '2026-09-16T18:30:00-04:00'
+    end: '2026-09-16T20:30:00-04:00'
+    sort_start_utc: '2026-09-16T22:30:00Z'
+    sort_end_utc: '2026-09-17T00:30:00Z'
+    display_when: Wednesday, September 16, 2026, 6:30 PM to 8:30 PM
+    all_day: false
+  - start: '2026-09-23T18:30:00-04:00'
+    end: '2026-09-23T20:30:00-04:00'
+    sort_start_utc: '2026-09-23T22:30:00Z'
+    sort_end_utc: '2026-09-24T00:30:00Z'
+    display_when: Wednesday, September 23, 2026, 6:30 PM to 8:30 PM
+    all_day: false
+  - start: '2026-09-30T18:30:00-04:00'
+    end: '2026-09-30T20:30:00-04:00'
+    sort_start_utc: '2026-09-30T22:30:00Z'
+    sort_end_utc: '2026-10-01T00:30:00Z'
+    display_when: Wednesday, September 30, 2026, 6:30 PM to 8:30 PM
+    all_day: false
+  - start: '2026-10-07T18:30:00-04:00'
+    end: '2026-10-07T20:30:00-04:00'
+    sort_start_utc: '2026-10-07T22:30:00Z'
+    sort_end_utc: '2026-10-08T00:30:00Z'
+    display_when: Wednesday, October 7, 2026, 6:30 PM to 8:30 PM
+    all_day: false
+  - start: '2026-10-14T18:30:00-04:00'
+    end: '2026-10-14T20:30:00-04:00'
+    sort_start_utc: '2026-10-14T22:30:00Z'
+    sort_end_utc: '2026-10-15T00:30:00Z'
+    display_when: Wednesday, October 14, 2026, 6:30 PM to 8:30 PM
+    all_day: false
+  - start: '2026-10-21T18:30:00-04:00'
+    end: '2026-10-21T20:30:00-04:00'
+    sort_start_utc: '2026-10-21T22:30:00Z'
+    sort_end_utc: '2026-10-22T00:30:00Z'
+    display_when: Wednesday, October 21, 2026, 6:30 PM to 8:30 PM
+    all_day: false
+  - start: '2026-10-28T18:30:00-04:00'
+    end: '2026-10-28T20:30:00-04:00'
+    sort_start_utc: '2026-10-28T22:30:00Z'
+    sort_end_utc: '2026-10-29T00:30:00Z'
+    display_when: Wednesday, October 28, 2026, 6:30 PM to 8:30 PM
+    all_day: false
+  - start: '2026-11-04T18:30:00-05:00'
+    end: '2026-11-04T20:30:00-05:00'
+    sort_start_utc: '2026-11-04T23:30:00Z'
+    sort_end_utc: '2026-11-05T01:30:00Z'
+    display_when: Wednesday, November 4, 2026, 6:30 PM to 8:30 PM
+    all_day: false
+  - start: '2026-11-11T18:30:00-05:00'
+    end: '2026-11-11T20:30:00-05:00'
+    sort_start_utc: '2026-11-11T23:30:00Z'
+    sort_end_utc: '2026-11-12T01:30:00Z'
+    display_when: Wednesday, November 11, 2026, 6:30 PM to 8:30 PM
+    all_day: false
+  - start: '2026-11-18T18:30:00-05:00'
+    end: '2026-11-18T20:30:00-05:00'
+    sort_start_utc: '2026-11-18T23:30:00Z'
+    sort_end_utc: '2026-11-19T01:30:00Z'
+    display_when: Wednesday, November 18, 2026, 6:30 PM to 8:30 PM
+    all_day: false
+  - start: '2026-11-25T18:30:00-05:00'
+    end: '2026-11-25T20:30:00-05:00'
+    sort_start_utc: '2026-11-25T23:30:00Z'
+    sort_end_utc: '2026-11-26T01:30:00Z'
+    display_when: Wednesday, November 25, 2026, 6:30 PM to 8:30 PM
+    all_day: false
+  meeting_count_in_window: 52
+  knowledge_file: knowledge/small-groups/generated/p-u-r-s-u-e-567dcc.md

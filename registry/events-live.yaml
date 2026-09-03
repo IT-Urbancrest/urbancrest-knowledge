@@ -1,5 +1,5 @@
 version: 1.5.4
-generated_at: '2026-09-02T23:19:51.569568Z'
+generated_at: '2026-09-03T04:34:59.400688Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
@@ -19,207 +19,6 @@ selection:
   policy: Protect all major and ministry events before lower-priority events.
 event_count: 150
 events:
-- id: event-ba71b480f7b657f3
-  uid: ET-31487702-227855429@resources.planningcenteronline.com
-  title: Awana 2026-2027
-  summary: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
-    any Wednesday at 6:05** Approved Workmen Are Not Ashamed (A.W.A.N.A.) A program focusing on learning the Bible and fun
-    with small age/graded groups. Urbancrest has...'
-  start: '2026-09-02T18:15:00-04:00'
-  end: '2026-09-02T19:30:00-04:00'
-  sort_start_utc: '2026-09-02T22:15:00Z'
-  sort_end_utc: '2026-09-02T23:30:00Z'
-  display_when: Wednesday, September 2, 2026, 6:15 PM to 7:30 PM
-  all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
-    any Wednesday at 6:05**
-
-
-    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
-
-
-    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
-    through 6th grade.
-
-
-    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm
-
-
-    START ANYTIME throughout the year!
-
-
-    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.
-
-    Register: https://urbancrest.churchcenter.com/registrations/events/3737699'
-  details: "**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person\
-    \ any Wednesday at 6:05** \n\nApproved Workmen Are Not Ashamed (A.W.A.N.A.)\n\nA program focusing on learning the Bible\
-    \ and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.\n\nMeets Wednesdays\
-    \ from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm \n\nSTART ANYTIME throughout\
-    \ the year!\n\nDinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.\n\nRegistration\
-    \ is open."
-  details_source: planning_center_registrations_api
-  planning_center_event_instance_id: '227855429'
-  planning_center_event_time_id: '31487702'
-  registration_url: https://urbancrest.churchcenter.com/registrations/events/3737699/reservations/new
-  image_url: https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg
-  ministries:
-  - kids
-  - men
-  - volunteer
-  audiences:
-  - children
-  - men
-  - volunteers
-  - all
-  event_category: churchwide_program
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 1
-  next_for_ministries:
-  - kids
-  - men
-  next_for_audiences:
-  - children
-  - men
-  - volunteers
-  knowledge_file: knowledge/events/generated/2026-09-02-awana-2026-2027-b657f3.md
-  event_sources:
-  - planning_center_ical
-  - planning_center_calendar_api
-  - planning_center_registrations_api
-  event_source: merged
-  planning_center_signup_id: '3737699'
-  planning_center_signup_time_id: '6256779'
-  registration_available: true
-  registration_open: true
-  registration_closed: false
-  registration_at_maximum_capacity: null
-  registration_open_at: '2026-07-06T04:00:00Z'
-  registration_close_at: null
-  registration_maximum_capacity: null
-  registration_categories:
-  - Kids (4 yrs. - 6th Grade)
-  registration_options:
-  - id: '8537769'
-    name: Clubber
-    price_cents: 0
-    price_currency: USD
-    price_currency_symbol: $
-    price_formatted: '0'
-    at_maximum_capacity: false
-    waitlist: false
-  - id: '8537770'
-    name: Volunteer
-    price_cents: 0
-    price_currency: USD
-    price_currency_symbol: $
-    price_formatted: '0'
-    at_maximum_capacity: false
-    waitlist: false
-  location_structured:
-    name: Urbancrest At Lebanon
-    address: '2634 Drake Road
-
-      Lebanon, OH 45036'
-    latitude: '39.4748875'
-    longitude: '-84.1793592'
-- id: pc-registration-3763259-c357fb9bf7e1
-  uid: registrations-3763259-6302878@planningcenter
-  title: 'Engage: New Members Class - Summer 2026'
-  summary: Wondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious
-    to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, September 2! The Engage
-    Class is a gathering that allows...
-  start: '2026-09-02T22:30:00+00:00'
-  end: '2026-09-03T00:00:00+00:00'
-  sort_start_utc: '2026-09-02T22:30:00Z'
-  sort_end_utc: '2026-09-03T00:00:00Z'
-  display_when: Wednesday, September 2, 2026 at 6:30 PM - 8:00 PM
-  all_day: false
-  location: 'Urbancrest At Lebanon - 2634 Drake Road
-
-    Room 201
-
-    Lebanon, OH 45036'
-  location_structured:
-    name: Urbancrest At Lebanon
-    address: '2634 Drake Road
-
-      Room 201
-
-      Lebanon, OH 45036'
-    latitude: '39.4748875'
-    longitude: '-84.1793592'
-  description: 'Wondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you''re
-    curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, September 2!
-
-
-    The Engage Class is a gathering that allows individuals and families to explore and pray through becoming members of our
-    church. This class is designed to have teaching, interaction, and a time to hear the vision for several of our ministries
-    that you can get involved in!
-
-
-    Sign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.org .'
-  details: 'Wondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you''re curious
-    to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, September 2!
-
-
-    The Engage Class is a gathering that allows individuals and families to explore and pray through becoming members of our
-    church. This class is designed to have teaching, interaction, and a time to hear the vision for several of our ministries
-    that you can get involved in!
-
-
-    Sign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.org .
-
-
-    Registration is not currently open.'
-  details_source: planning_center_registrations_api
-  planning_center_signup_id: '3763259'
-  planning_center_signup_time_id: '6302878'
-  registration_url: https://urbancrest.churchcenter.com/registrations/events/3763259/reservations/new
-  registration_available: true
-  registration_open: false
-  registration_closed: true
-  registration_at_maximum_capacity: null
-  registration_open_at: '2026-07-02T04:00:00Z'
-  registration_close_at: '2026-09-02T16:00:00Z'
-  registration_maximum_capacity: null
-  registration_categories:
-  - Family
-  - Special Events
-  - New Here
-  registration_options:
-  - id: '8595770'
-    name: Adult
-    price_cents: 0
-    price_currency: USD
-    price_currency_symbol: $
-    price_formatted: '0'
-    at_maximum_capacity: false
-    waitlist: false
-  - id: '8595771'
-    name: Child
-    price_cents: 0
-    price_currency: USD
-    price_currency_symbol: $
-    price_formatted: '0'
-    at_maximum_capacity: false
-    waitlist: false
-  info_url: https://urbancrest.churchcenter.com/registrations/events/3763259/reservations/new
-  image_url: https://registrations.planningcenteronline.com/signups/3763259/logo
-  ministries:
-  - family
-  audiences:
-  - families
-  event_category: family_event
-  event_priority: 80
-  collection: main_events
-  status: published
-  event_source: planning_center_registrations_api
-  event_sources:
-  - planning_center_registrations_api
-  chronological_rank: 2
 - id: event-ec88cabfa3473ecc
   uid: ET-29468516-216277433@resources.planningcenteronline.com
   title: OPEN GYM Pickleball
@@ -243,7 +42,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 3
+  chronological_rank: 1
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-03-open-gym-pickleball-473ecc.md
@@ -271,9 +70,11 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 4
-  next_for_ministries: []
-  next_for_audiences: []
+  chronological_rank: 2
+  next_for_ministries:
+  - men
+  next_for_audiences:
+  - men
   knowledge_file: knowledge/events/generated/2026-09-05-men-s-breakfast-336f62.md
 - id: pc-registration-3613427-1498a63e7156
   uid: registrations-3613427-6039111@planningcenter
@@ -346,7 +147,7 @@ events:
   event_source: planning_center_registrations_api
   event_sources:
   - planning_center_registrations_api
-  chronological_rank: 5
+  chronological_rank: 3
 - id: event-ee5bfd5ead7f42b9
   uid: ET-8762150-166271990@resources.planningcenteronline.com
   title: P U R S U E
@@ -369,7 +170,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 6
+  chronological_rank: 4
   next_for_ministries:
   - students
   next_for_audiences:
@@ -398,7 +199,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 7
+  chronological_rank: 5
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-06-sunday-morning-services-9-30-am-service-3e5884.md
@@ -425,7 +226,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 8
+  chronological_rank: 6
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-06-sunday-morning-services-11-00-am-service-8a985a.md
@@ -450,7 +251,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 9
+  chronological_rank: 7
   next_for_ministries: []
   next_for_audiences:
   - families
@@ -548,21 +349,17 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 10
+  chronological_rank: 8
   next_for_ministries: []
-  next_for_audiences: []
+  next_for_audiences:
+  - volunteers
   knowledge_file: knowledge/events/generated/2026-09-09-wednesday-night-dinner-f2ed46.md
 - id: event-a15a9379d2ca71ea
   uid: ET-31487702-227855430@resources.planningcenteronline.com
   title: Awana 2026-2027
   summary: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
-    any Wednesday at 6:05**
-
-
-    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
-
-
-    A program focusing on learning the B...'
+    any Wednesday at 6:05** Approved Workmen Are Not Ashamed (A.W.A.N.A.) A program focusing on learning the Bible and fun
+    with small age/graded groups. Urbancrest has...'
   start: '2026-09-09T18:15:00-04:00'
   end: '2026-09-09T19:30:00-04:00'
   sort_start_utc: '2026-09-09T22:15:00Z'
@@ -590,39 +387,76 @@ events:
     Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.
 
     Register: https://urbancrest.churchcenter.com/registrations/events/3737699'
-  details: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
-    any Wednesday at 6:05**
-
-    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
-
-    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
-    through 6th grade.
-
-    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm 
-
-    START ANYTIME throughout the year!
-
-    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.'
-  details_source: planning_center_calendar_api
+  details: "**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person\
+    \ any Wednesday at 6:05** \n\nApproved Workmen Are Not Ashamed (A.W.A.N.A.)\n\nA program focusing on learning the Bible\
+    \ and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.\n\nMeets Wednesdays\
+    \ from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm \n\nSTART ANYTIME throughout\
+    \ the year!\n\nDinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.\n\nRegistration\
+    \ is open."
+  details_source: planning_center_registrations_api
   planning_center_event_instance_id: '227855430'
   planning_center_event_time_id: '31487702'
-  registration_url: https://urbancrest.churchcenter.com/registrations/events/3737699
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3737699/reservations/new
   image_url: https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg
   ministries:
   - kids
   - men
+  - volunteer
   audiences:
   - children
   - men
   - volunteers
+  - all
   event_category: churchwide_program
-  event_priority: 60
+  event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 11
-  next_for_ministries: []
-  next_for_audiences: []
+  chronological_rank: 9
+  next_for_ministries:
+  - kids
+  next_for_audiences:
+  - children
   knowledge_file: knowledge/events/generated/2026-09-09-awana-2026-2027-ca71ea.md
+  event_sources:
+  - planning_center_ical
+  - planning_center_calendar_api
+  - planning_center_registrations_api
+  event_source: merged
+  planning_center_signup_id: '3737699'
+  planning_center_signup_time_id: '6256780'
+  registration_available: true
+  registration_open: true
+  registration_closed: false
+  registration_at_maximum_capacity: null
+  registration_open_at: '2026-07-06T04:00:00Z'
+  registration_close_at: null
+  registration_maximum_capacity: null
+  registration_categories:
+  - Kids (4 yrs. - 6th Grade)
+  registration_options:
+  - id: '8537769'
+    name: Clubber
+    price_cents: 0
+    price_currency: USD
+    price_currency_symbol: $
+    price_formatted: '0'
+    at_maximum_capacity: false
+    waitlist: false
+  - id: '8537770'
+    name: Volunteer
+    price_cents: 0
+    price_currency: USD
+    price_currency_symbol: $
+    price_formatted: '0'
+    at_maximum_capacity: false
+    waitlist: false
+  location_structured:
+    name: Urbancrest At Lebanon
+    address: '2634 Drake Road
+
+      Lebanon, OH 45036'
+    latitude: '39.4748875'
+    longitude: '-84.1793592'
 - id: event-b9f5a417bbfe7030
   uid: ET-29468516-216277434@resources.planningcenteronline.com
   title: OPEN GYM Pickleball
@@ -646,7 +480,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 12
+  chronological_rank: 10
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-10-open-gym-pickleball-fe7030.md
@@ -672,7 +506,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 13
+  chronological_rank: 11
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-13-p-u-r-s-u-e-300fb0.md
@@ -699,7 +533,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 14
+  chronological_rank: 12
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-13-sunday-morning-services-9-30-am-service-b32add.md
@@ -726,7 +560,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 15
+  chronological_rank: 13
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-13-sunday-morning-services-11-00-am-service-153e7f.md
@@ -753,7 +587,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 16
+  chronological_rank: 14
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-16-monthly-baskets-of-hope-volunteers-77387f.md
@@ -850,7 +684,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 17
+  chronological_rank: 15
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-16-wednesday-night-dinner-89e119.md
@@ -877,7 +711,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 18
+  chronological_rank: 16
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-17-open-gym-pickleball-556aa9.md
@@ -903,7 +737,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 19
+  chronological_rank: 17
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-20-p-u-r-s-u-e-f8f18d.md
@@ -930,7 +764,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 20
+  chronological_rank: 18
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-20-sunday-morning-services-9-30-am-service-25697d.md
@@ -957,7 +791,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 21
+  chronological_rank: 19
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-20-sunday-morning-services-11-00-am-service-9ace48.md
@@ -983,7 +817,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 22
+  chronological_rank: 20
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-22-guest-services-team-meeting-681d28.md
@@ -1080,7 +914,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 23
+  chronological_rank: 21
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-23-wednesday-night-dinner-c7bf0d.md
@@ -1107,7 +941,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 24
+  chronological_rank: 22
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-24-open-gym-pickleball-309c7f.md
@@ -1139,7 +973,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 25
+  chronological_rank: 23
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-26-waynesville-fall-fest-5aaab7.md
@@ -1197,7 +1031,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 26
+  chronological_rank: 24
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-27-p-u-r-s-u-e-724217.md
@@ -1224,7 +1058,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 27
+  chronological_rank: 25
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-27-sunday-morning-services-9-30-am-service-a45069.md
@@ -1251,7 +1085,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 28
+  chronological_rank: 26
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-27-sunday-morning-services-11-00-am-service-b8b3b1.md
@@ -1294,7 +1128,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 29
+  chronological_rank: 27
   next_for_ministries:
   - women
   next_for_audiences:
@@ -1360,7 +1194,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 30
+  chronological_rank: 28
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-27-women-s-fall-fest-8698aa.md
@@ -1457,7 +1291,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 31
+  chronological_rank: 29
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-30-wednesday-night-dinner-36f49b.md
@@ -1484,7 +1318,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 32
+  chronological_rank: 30
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-01-open-gym-pickleball-0cfa47.md
@@ -1512,7 +1346,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 33
+  chronological_rank: 31
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-03-men-s-breakfast-dec2d7.md
@@ -1547,7 +1381,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 34
+  chronological_rank: 32
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-03-men-s-cornhole-bbq-c05019.md
@@ -1609,7 +1443,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 35
+  chronological_rank: 33
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-04-p-u-r-s-u-e-e5c34f.md
@@ -1636,7 +1470,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 36
+  chronological_rank: 34
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-04-sunday-morning-services-9-30-am-service-160a39.md
@@ -1663,7 +1497,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 37
+  chronological_rank: 35
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-04-sunday-morning-services-11-00-am-service-391224.md
@@ -1724,7 +1558,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 38
+  chronological_rank: 36
   next_for_ministries:
   - worship
   next_for_audiences: []
@@ -1761,6 +1595,31 @@ events:
       Lebanon, OH 45036'
     latitude: '39.4748875'
     longitude: '-84.1793592'
+- id: event-b5610e364a8e6732
+  uid: ET-28363612-169009947@resources.planningcenteronline.com
+  title: Card Ministry
+  summary: Rai Lynn Guidone
+  start: '2026-10-06T09:00:00-04:00'
+  end: '2026-10-06T12:00:00-04:00'
+  sort_start_utc: '2026-10-06T13:00:00Z'
+  sort_end_utc: '2026-10-06T16:00:00Z'
+  display_when: Tuesday, October 6, 2026, 9 AM to 12 PM
+  all_day: false
+  description: Rai Lynn Guidone
+  planning_center_event_instance_id: '169009947'
+  planning_center_event_time_id: '28363612'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 37
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-10-06-card-ministry-8e6732.md
 - id: event-99e86fed5a9fc5ad
   uid: ET-31870601-230122711@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -1854,10 +1713,37 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 39
+  chronological_rank: 38
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-07-wednesday-night-dinner-9fc5ad.md
+- id: event-5a6c2377094d6218
+  uid: ET-29468516-216277438@resources.planningcenteronline.com
+  title: OPEN GYM Pickleball
+  summary: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
+  start: '2026-10-08T18:00:00-04:00'
+  end: '2026-10-08T20:00:00-04:00'
+  sort_start_utc: '2026-10-08T22:00:00Z'
+  sort_end_utc: '2026-10-09T00:00:00Z'
+  display_when: Thursday, October 8, 2026, 6 PM to 8 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to
+    attend and open to anyone ages 13+.
+  planning_center_event_instance_id: '216277438'
+  planning_center_event_time_id: '29468516'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 39
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-10-08-open-gym-pickleball-4d6218.md
 - id: event-335555bbce8f8f87
   uid: ET-8762150-169483179@resources.planningcenteronline.com
   title: P U R S U E
@@ -8326,15 +8212,15 @@ registrations_api:
   status: ok
   api_version: '2025-05-01'
   signup_time_strategy: next_signup_time_then_signup_times_preserve_relationship_linkage
-  future_signup_count: 11
-  added_registration_only_events: 3
+  future_signup_count: 10
+  added_registration_only_events: 2
   enriched_existing_events: 8
   category_allowlist: []
   category_denylist: []
   signup_count_received: 13
   relationship_linkage_counts:
     next_signup_time_relationship_present: 13
-    next_signup_time_with_linkage: 11
+    next_signup_time_with_linkage: 10
     signup_times_relationship_present: 13
     signup_times_with_linkage: 12
     signup_location_relationship_present: 13
@@ -8343,7 +8229,7 @@ registrations_api:
     categories_with_linkage: 11
     selection_types_relationship_present: 13
     selection_types_with_linkage: 13
-  skipped_signup_count: 2
+  skipped_signup_count: 3
   skipped_reasons:
-    no_current_or_future_signup_time_within_lookahead: 2
+    no_current_or_future_signup_time_within_lookahead: 3
   page_count: 1

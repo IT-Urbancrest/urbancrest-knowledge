@@ -20,28 +20,27 @@ search_terms:
   - "Tell me about P U R S U E"
   - "What are the details for P U R S U E?"
 series_id: group-d895be1a40567dcc
-next_meeting_start: "2026-09-02T18:30:00-04:00"
-next_meeting_end: "2026-09-02T20:30:00-04:00"
-sort_start_utc: "2026-09-02T22:30:00Z"
-sort_end_utc: "2026-09-03T00:30:00Z"
-meeting_count_in_window: 53
+next_meeting_start: "2026-09-09T18:30:00-04:00"
+next_meeting_end: "2026-09-09T20:30:00-04:00"
+sort_start_utc: "2026-09-09T22:30:00Z"
+sort_end_utc: "2026-09-10T00:30:00Z"
+meeting_count_in_window: 52
 image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Fsfkgtiufdgafjg73tuqant7jmhz3&thumb=960x540%23&signature=a05fd72902e9d63e043f20e85ede145c85d9ba7487292f37fc0fbf9de21d2a7b"
-planning_center_event_instance_id: "165713307"
+planning_center_event_instance_id: "166458546"
 planning_center_event_time_id: "25282532"
-last_generated: 2026-09-02T23:19:50.417820Z
+last_generated: 2026-09-03T04:34:58.246965Z
 ---
 
 # P U R S U E
 
 Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.
 
-**Next meeting:** Wednesday, September 2, 2026, 6:30 PM to 8:30 PM
+**Next meeting:** Wednesday, September 9, 2026, 6:30 PM to 8:30 PM
 
 Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.
 
 ## Upcoming meetings
 
-- Wednesday, September 2, 2026, 6:30 PM to 8:30 PM
 - Wednesday, September 9, 2026, 6:30 PM to 8:30 PM
 - Wednesday, September 16, 2026, 6:30 PM to 8:30 PM
 - Wednesday, September 23, 2026, 6:30 PM to 8:30 PM
@@ -53,5 +52,6 @@ Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, wo
 - Wednesday, November 4, 2026, 6:30 PM to 8:30 PM
 - Wednesday, November 11, 2026, 6:30 PM to 8:30 PM
 - Wednesday, November 18, 2026, 6:30 PM to 8:30 PM
+- Wednesday, November 25, 2026, 6:30 PM to 8:30 PM
 
 This small group schedule is synchronized automatically from Urbancrest's live calendar.
