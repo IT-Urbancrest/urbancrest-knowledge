@@ -45,7 +45,7 @@ image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=reg
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "233964133"
 planning_center_event_time_id: "32456802"
-last_generated: 2026-09-03T04:34:58.246965Z
+last_generated: 2026-09-03T11:16:17.390347Z
 ---
 
 # Men's Cornhole & BBQ
