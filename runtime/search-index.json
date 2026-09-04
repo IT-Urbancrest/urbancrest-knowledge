@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-09-04T16:22:36.862978Z",
+  "generated_at": "2026-09-04T20:46:51.575201Z",
   "timezone": "America/New_York",
   "record_count": 451,
   "config": {
@@ -90,7 +90,7 @@
   },
   "freshness": {
     "calendar": {
-      "generated_at": "2026-09-04T16:22:35.607101Z",
+      "generated_at": "2026-09-04T20:46:50.214507Z",
       "max_age_hours": 48,
       "source_path": "registry/events-live.yaml",
       "heartbeat_field": "generated_at",
@@ -98,7 +98,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-09-04T16:22:34.492600Z",
+      "generated_at": "2026-09-04T20:46:49.038222Z",
       "max_age_hours": 48,
       "source_path": "registry/small-groups-live.yaml",
       "heartbeat_field": "generated_at",
@@ -4723,11 +4723,11 @@
       "church_center_modal": true
     },
     {
-      "id": "events.live.event-d947400124da82c5",
+      "id": "events.live.event-2e6d2e449fbb21d0",
       "record_type": "event",
-      "path": "knowledge/events/generated/2026-09-07-men-s-summit-meeting-da82c5.md",
+      "path": "knowledge/events/generated/2026-09-08-men-s-summit-meeting-bb21d0.md",
       "title": "Men's Summit Meeting",
-      "summary": "Men's Summit Meeting is scheduled for Monday, September 7, 2026, 1 PM to 2 PM.",
+      "summary": "Men's Summit Meeting is scheduled for Tuesday, September 8, 2026, 1 PM to 2 PM.",
       "content": "",
       "priority": 100,
       "category": [
@@ -4771,21 +4771,21 @@
         "men"
       ],
       "resources": [],
-      "event_id": "event-d947400124da82c5",
+      "event_id": "event-2e6d2e449fbb21d0",
       "activity_aliases": [
         "Men's Summit Meeting"
       ],
       "event_category": "major_event",
-      "event_start": "2026-09-07T13:00:00-04:00",
-      "event_end": "2026-09-07T14:00:00-04:00",
-      "sort_start_utc": "2026-09-07T17:00:00Z",
-      "sort_end_utc": "2026-09-07T18:00:00Z",
-      "display_when": "Monday, September 7, 2026, 1 PM to 2 PM",
+      "event_start": "2026-09-08T13:00:00-04:00",
+      "event_end": "2026-09-08T14:00:00-04:00",
+      "sort_start_utc": "2026-09-08T17:00:00Z",
+      "sort_end_utc": "2026-09-08T18:00:00Z",
+      "display_when": "Tuesday, September 8, 2026, 1 PM to 2 PM",
       "all_day": false,
-      "planning_center_event_instance_id": "235355999",
-      "planning_center_event_time_id": "32659847",
+      "planning_center_event_instance_id": "235392153",
+      "planning_center_event_time_id": "32666142",
       "registration_available": false,
-      "knowledge_file": "knowledge/events/generated/2026-09-07-men-s-summit-meeting-da82c5.md",
+      "knowledge_file": "knowledge/events/generated/2026-09-08-men-s-summit-meeting-bb21d0.md",
       "chronological_rank": 7,
       "routine_schedule_occurrence": false
     },

@@ -1,10 +1,10 @@
 ---
-id: events.live.event-d947400124da82c5
+id: events.live.event-2e6d2e449fbb21d0
 version: 1.4.3
 status: published
 priority: 100
 title: "Men's Summit Meeting"
-summary: "Men's Summit Meeting is scheduled for Monday, September 7, 2026, 1 PM to 2 PM."
+summary: "Men's Summit Meeting is scheduled for Tuesday, September 8, 2026, 1 PM to 2 PM."
 category: [events]
 event_category: "major_event"
 intent:
@@ -30,24 +30,24 @@ search_terms:
   - "How do I register for Men's Summit Meeting?"
 resources:
   - events.live
-event_id: event-d947400124da82c5
-event_start: "2026-09-07T13:00:00-04:00"
-event_end: "2026-09-07T14:00:00-04:00"
-sort_start_utc: "2026-09-07T17:00:00Z"
-sort_end_utc: "2026-09-07T18:00:00Z"
+event_id: event-2e6d2e449fbb21d0
+event_start: "2026-09-08T13:00:00-04:00"
+event_end: "2026-09-08T14:00:00-04:00"
+sort_start_utc: "2026-09-08T17:00:00Z"
+sort_end_utc: "2026-09-08T18:00:00Z"
 chronological_rank: 6
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
-planning_center_event_instance_id: "235355999"
-planning_center_event_time_id: "32659847"
-last_generated: 2026-09-04T16:22:34.492600Z
+planning_center_event_instance_id: "235392153"
+planning_center_event_time_id: "32666142"
+last_generated: 2026-09-04T20:46:49.038222Z
 ---
 
 # Men's Summit Meeting
 
-Men's Summit Meeting is scheduled for Monday, September 7, 2026, 1 PM to 2 PM.
+Men's Summit Meeting is scheduled for Tuesday, September 8, 2026, 1 PM to 2 PM.
 
-**When:** Monday, September 7, 2026, 1 PM to 2 PM
+**When:** Tuesday, September 8, 2026, 1 PM to 2 PM
 
 This information is synchronized automatically from Urbancrest's live calendar.

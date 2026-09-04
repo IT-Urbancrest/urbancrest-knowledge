@@ -16,7 +16,7 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-09-04T16:22:35.607101Z
+last_generated: 2026-09-04T20:46:50.214507Z
 ---
 
 # Upcoming Events
@@ -88,9 +88,9 @@ Detailed event file: `knowledge/events/generated/2026-09-06-sims-family-reunion-
 
 **Category:** Major Event
 
-**When:** Monday, September 7, 2026, 1 PM to 2 PM
+**When:** Tuesday, September 8, 2026, 1 PM to 2 PM
 
-Detailed event file: `knowledge/events/generated/2026-09-07-men-s-summit-meeting-da82c5.md`
+Detailed event file: `knowledge/events/generated/2026-09-08-men-s-summit-meeting-bb21d0.md`
 
 ## Wednesday Night Dinner
 

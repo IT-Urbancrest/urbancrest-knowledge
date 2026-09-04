@@ -1,5 +1,5 @@
 version: 1.5.4
-generated_at: '2026-09-04T16:22:35.607101Z'
+generated_at: '2026-09-04T20:46:50.214507Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
@@ -229,18 +229,18 @@ events:
   next_for_audiences:
   - families
   knowledge_file: knowledge/events/generated/2026-09-06-sims-family-reunion-93a8fc.md
-- id: event-d947400124da82c5
-  uid: ET-32659847-235355999@resources.planningcenteronline.com
+- id: event-2e6d2e449fbb21d0
+  uid: ET-32666142-235392153@resources.planningcenteronline.com
   title: Men's Summit Meeting
-  summary: Men's Summit Meeting is scheduled for Monday, September 7, 2026, 1 PM to 2 PM.
-  start: '2026-09-07T13:00:00-04:00'
-  end: '2026-09-07T14:00:00-04:00'
-  sort_start_utc: '2026-09-07T17:00:00Z'
-  sort_end_utc: '2026-09-07T18:00:00Z'
-  display_when: Monday, September 7, 2026, 1 PM to 2 PM
+  summary: Men's Summit Meeting is scheduled for Tuesday, September 8, 2026, 1 PM to 2 PM.
+  start: '2026-09-08T13:00:00-04:00'
+  end: '2026-09-08T14:00:00-04:00'
+  sort_start_utc: '2026-09-08T17:00:00Z'
+  sort_end_utc: '2026-09-08T18:00:00Z'
+  display_when: Tuesday, September 8, 2026, 1 PM to 2 PM
   all_day: false
-  planning_center_event_instance_id: '235355999'
-  planning_center_event_time_id: '32659847'
+  planning_center_event_instance_id: '235392153'
+  planning_center_event_time_id: '32666142'
   ministries:
   - men
   audiences:
@@ -252,7 +252,7 @@ events:
   chronological_rank: 7
   next_for_ministries: []
   next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-09-07-men-s-summit-meeting-da82c5.md
+  knowledge_file: knowledge/events/generated/2026-09-08-men-s-summit-meeting-bb21d0.md
 - id: event-603382a30ef2ed46
   uid: ET-31870601-230122707@resources.planningcenteronline.com
   title: Wednesday Night Dinner
