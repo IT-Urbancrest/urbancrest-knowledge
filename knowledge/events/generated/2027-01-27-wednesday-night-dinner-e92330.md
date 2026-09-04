@@ -10,7 +10,7 @@ event_category: "churchwide_program"
 intent:
   primary: event_details
   secondary: [upcoming_events, calendar, schedule, registration, next_ministry_event]
-audience: ["volunteers"]
+audience: ["everyone"]
 ministries: ["churchwide"]
 answer_style: helpful
 confidence: high
@@ -19,7 +19,7 @@ owner:
 review:
   doctrinal: not_required
   factual: automated
-tags: ["event", "calendar", "upcoming", "churchwide_program", "churchwide", "volunteers"]
+tags: ["event", "calendar", "upcoming", "churchwide_program", "churchwide", "everyone"]
 search_terms:
   - "Wednesday Night Dinner"
   - "When is Wednesday Night Dinner?"
@@ -44,7 +44,7 @@ location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "230122727"
 planning_center_event_time_id: "31870601"
-last_generated: 2026-09-03T23:17:45.305589Z
+last_generated: 2026-09-04T04:35:38.235559Z
 ---
 
 # Wednesday Night Dinner
@@ -59,14 +59,6 @@ Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM 
 
 ## Details
 
-Hot dogs & chips will be served at every meal. See below for the weekly menu.
-August 26, 2026
-Pizza
-Salad Bar
-Ice Cream Bars
-September 2, 2026
-Taco Bar
-Ice Cream Cups & Cookies
 September 9, 2026
 Sloppy Joes
 Tater Tots

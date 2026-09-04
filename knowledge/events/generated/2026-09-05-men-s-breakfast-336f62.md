@@ -35,7 +35,7 @@ event_start: "2026-09-05T08:00:00-04:00"
 event_end: "2026-09-05T10:00:00-04:00"
 sort_start_utc: "2026-09-05T12:00:00Z"
 sort_end_utc: "2026-09-05T14:00:00Z"
-chronological_rank: 2
+chronological_rank: 1
 next_for_ministries: ["men"]
 next_for_audiences: ["men"]
 all_day: false
@@ -43,7 +43,7 @@ image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=res
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "166086980"
 planning_center_event_time_id: "30270334"
-last_generated: 2026-09-03T23:17:45.305589Z
+last_generated: 2026-09-04T04:35:38.235559Z
 ---
 
 # Men's Breakfast

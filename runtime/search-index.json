@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-09-03T23:17:47.701111Z",
+  "generated_at": "2026-09-04T04:35:40.663855Z",
   "timezone": "America/New_York",
   "record_count": 451,
   "config": {
@@ -90,7 +90,7 @@
   },
   "freshness": {
     "calendar": {
-      "generated_at": "2026-09-03T23:17:46.452533Z",
+      "generated_at": "2026-09-04T04:35:39.325278Z",
       "max_age_hours": 48,
       "source_path": "registry/events-live.yaml",
       "heartbeat_field": "generated_at",
@@ -98,7 +98,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-09-03T23:17:45.305589Z",
+      "generated_at": "2026-09-04T04:35:38.235559Z",
       "max_age_hours": 48,
       "source_path": "registry/small-groups-live.yaml",
       "heartbeat_field": "generated_at",
@@ -13302,7 +13302,7 @@
       ],
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-09-09-awana-2026-2027-ca71ea.md",
-      "chronological_rank": 9,
+      "chronological_rank": 8,
       "routine_schedule_occurrence": false
     },
     {
@@ -13371,7 +13371,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=058d17f1b81369bc1275502f9bfab7c3324ca5b970a6a39720a87348da9b781e",
       "knowledge_file": "knowledge/events/generated/2026-09-05-men-s-breakfast-336f62.md",
-      "chronological_rank": 2,
+      "chronological_rank": 1,
       "routine_schedule_occurrence": false
     },
     {
@@ -13440,7 +13440,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=058d17f1b81369bc1275502f9bfab7c3324ca5b970a6a39720a87348da9b781e",
       "knowledge_file": "knowledge/events/generated/2026-10-03-men-s-breakfast-dec2d7.md",
-      "chronological_rank": 31,
+      "chronological_rank": 30,
       "routine_schedule_occurrence": false
     },
     {
@@ -14233,7 +14233,7 @@
       "info_url": "https://registrations-production.s3.amazonaws.com/uploads/image/file/437162/9f82e639924a58965b5c00b4504caa1c.jpg?content-disposition=attachment",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1787976000&key=uploads%2Fevent%2Flogo%2F3849948%2Fimage-1752240922469.jpeg&thumb=720x405%23&version=1787924083&signature=a0d90fbd41c6e9ebfbc39142f70d307f9e3e520662909f7308ef56e015b2fa06",
       "knowledge_file": "knowledge/events/generated/2026-10-03-men-s-cornhole-bbq-c05019.md",
-      "chronological_rank": 32,
+      "chronological_rank": 31,
       "routine_schedule_occurrence": false
     },
     {
@@ -14337,7 +14337,7 @@
       ],
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1788451200&key=uploads%2Fevent%2Flogo%2F3755569%2Fimage-1784126802561.jpeg&thumb=720x405%23&version=1788368236&signature=233e7df1a2a4650967513321d18dbfb90f05a1da8a15cc138d1b987970c9968a",
       "knowledge_file": "knowledge/events/generated/2026-10-04-night-of-worship-choir-2a753e.md",
-      "chronological_rank": 36,
+      "chronological_rank": 35,
       "routine_schedule_occurrence": false
     },
     {
@@ -14438,7 +14438,7 @@
       ],
       "info_url": "https://urbancrest.churchcenter.com/registrations/events/3613427/reservations/new",
       "image_url": "https://registrations.planningcenteronline.com/signups/3613427/logo",
-      "chronological_rank": 3,
+      "chronological_rank": 2,
       "routine_schedule_occurrence": false
     },
     {
@@ -14506,7 +14506,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-06-p-u-r-s-u-e-7f42b9.md",
-      "chronological_rank": 4,
+      "chronological_rank": 3,
       "routine_schedule_occurrence": false
     },
     {
@@ -14574,7 +14574,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-13-p-u-r-s-u-e-300fb0.md",
-      "chronological_rank": 11,
+      "chronological_rank": 10,
       "routine_schedule_occurrence": false
     },
     {
@@ -14642,7 +14642,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-20-p-u-r-s-u-e-f8f18d.md",
-      "chronological_rank": 17,
+      "chronological_rank": 16,
       "routine_schedule_occurrence": false
     },
     {
@@ -14710,7 +14710,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-27-p-u-r-s-u-e-724217.md",
-      "chronological_rank": 24,
+      "chronological_rank": 23,
       "routine_schedule_occurrence": false
     },
     {
@@ -14778,7 +14778,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-04-p-u-r-s-u-e-e5c34f.md",
-      "chronological_rank": 33,
+      "chronological_rank": 32,
       "routine_schedule_occurrence": false
     },
     {
@@ -18194,7 +18194,7 @@
       ],
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3732292/medium_image-1782929258210.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-09-26-waynesville-fall-fest-5aaab7.md",
-      "chronological_rank": 23,
+      "chronological_rank": 22,
       "routine_schedule_occurrence": false
     },
     {
@@ -18370,7 +18370,7 @@
       ],
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1787889600&key=uploads%2Fevent%2Flogo%2F3848043%2Fimage-1787747623394.jpeg&thumb=720x405%23&version=1787747843&signature=11aa145e5e471c884eb4c619680518f30e2765f0a1005fc7da03cab6eeae360c",
       "knowledge_file": "knowledge/events/generated/2026-09-27-women-s-fall-fest-3b206f.md",
-      "chronological_rank": 27,
+      "chronological_rank": 26,
       "routine_schedule_occurrence": false
     },
     {
@@ -18440,7 +18440,7 @@
       "planning_center_event_time_id": "27323022",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-27-women-s-fall-fest-8698aa.md",
-      "chronological_rank": 28,
+      "chronological_rank": 27,
       "routine_schedule_occurrence": false
     },
     {
@@ -19208,7 +19208,7 @@
       "path": "knowledge/events/generated/2026-09-09-wednesday-night-dinner-f2ed46.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -19248,7 +19248,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-603382a30ef2ed46",
@@ -19263,14 +19263,14 @@
       "display_when": "Wednesday, September 9, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122707",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=0b8c190d56325cbe0983da665c529dd8556e161d746bb60b6cb3d5a931891e63",
       "knowledge_file": "knowledge/events/generated/2026-09-09-wednesday-night-dinner-f2ed46.md",
-      "chronological_rank": 8,
+      "chronological_rank": 7,
       "routine_schedule_occurrence": false
     },
     {
@@ -19279,7 +19279,7 @@
       "path": "knowledge/events/generated/2026-09-16-wednesday-night-dinner-89e119.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -19319,7 +19319,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-8536fe3c9889e119",
@@ -19334,14 +19334,14 @@
       "display_when": "Wednesday, September 16, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122708",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=0b8c190d56325cbe0983da665c529dd8556e161d746bb60b6cb3d5a931891e63",
       "knowledge_file": "knowledge/events/generated/2026-09-16-wednesday-night-dinner-89e119.md",
-      "chronological_rank": 15,
+      "chronological_rank": 14,
       "routine_schedule_occurrence": false
     },
     {
@@ -19350,7 +19350,7 @@
       "path": "knowledge/events/generated/2026-09-23-wednesday-night-dinner-c7bf0d.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -19390,7 +19390,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-19c7f09112c7bf0d",
@@ -19405,14 +19405,14 @@
       "display_when": "Wednesday, September 23, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122709",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=0b8c190d56325cbe0983da665c529dd8556e161d746bb60b6cb3d5a931891e63",
       "knowledge_file": "knowledge/events/generated/2026-09-23-wednesday-night-dinner-c7bf0d.md",
-      "chronological_rank": 21,
+      "chronological_rank": 20,
       "routine_schedule_occurrence": false
     },
     {
@@ -19421,7 +19421,7 @@
       "path": "knowledge/events/generated/2026-09-30-wednesday-night-dinner-36f49b.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -19461,7 +19461,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-4738dbcd6f36f49b",
@@ -19476,14 +19476,14 @@
       "display_when": "Wednesday, September 30, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122710",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=0b8c190d56325cbe0983da665c529dd8556e161d746bb60b6cb3d5a931891e63",
       "knowledge_file": "knowledge/events/generated/2026-09-30-wednesday-night-dinner-36f49b.md",
-      "chronological_rank": 29,
+      "chronological_rank": 28,
       "routine_schedule_occurrence": false
     },
     {
@@ -19492,7 +19492,7 @@
       "path": "knowledge/events/generated/2026-10-07-wednesday-night-dinner-9fc5ad.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -19532,7 +19532,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-99e86fed5a9fc5ad",
@@ -19547,14 +19547,14 @@
       "display_when": "Wednesday, October 7, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122711",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=0b8c190d56325cbe0983da665c529dd8556e161d746bb60b6cb3d5a931891e63",
       "knowledge_file": "knowledge/events/generated/2026-10-07-wednesday-night-dinner-9fc5ad.md",
-      "chronological_rank": 38,
+      "chronological_rank": 37,
       "routine_schedule_occurrence": false
     },
     {
@@ -19563,7 +19563,7 @@
       "path": "knowledge/events/generated/2026-10-14-wednesday-night-dinner-d9103e.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -19603,7 +19603,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-44129fdd6fd9103e",
@@ -19618,7 +19618,7 @@
       "display_when": "Wednesday, October 14, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122712",
       "planning_center_event_time_id": "31870601",
@@ -19634,7 +19634,7 @@
       "path": "knowledge/events/generated/2026-10-21-wednesday-night-dinner-0edf1f.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -19674,7 +19674,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-b08f2e2b300edf1f",
@@ -19689,7 +19689,7 @@
       "display_when": "Wednesday, October 21, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122713",
       "planning_center_event_time_id": "31870601",
@@ -19705,7 +19705,7 @@
       "path": "knowledge/events/generated/2026-10-28-wednesday-night-dinner-acac27.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -19745,7 +19745,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-ed4dc1da2facac27",
@@ -19760,7 +19760,7 @@
       "display_when": "Wednesday, October 28, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122714",
       "planning_center_event_time_id": "31870601",
@@ -19776,7 +19776,7 @@
       "path": "knowledge/events/generated/2026-11-04-wednesday-night-dinner-55fdc7.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -19816,7 +19816,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-1aae13f9c455fdc7",
@@ -19831,7 +19831,7 @@
       "display_when": "Wednesday, November 4, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122715",
       "planning_center_event_time_id": "31870601",
@@ -19847,7 +19847,7 @@
       "path": "knowledge/events/generated/2026-11-11-wednesday-night-dinner-af1c1c.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -19887,7 +19887,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-4040df5714af1c1c",
@@ -19902,7 +19902,7 @@
       "display_when": "Wednesday, November 11, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122716",
       "planning_center_event_time_id": "31870601",
@@ -19918,7 +19918,7 @@
       "path": "knowledge/events/generated/2026-11-18-wednesday-night-dinner-cf53fb.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -19958,7 +19958,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-cc6c730d57cf53fb",
@@ -19973,7 +19973,7 @@
       "display_when": "Wednesday, November 18, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122717",
       "planning_center_event_time_id": "31870601",
@@ -19989,7 +19989,7 @@
       "path": "knowledge/events/generated/2026-11-25-wednesday-night-dinner-77d08c.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -20029,7 +20029,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-47f30d4d3d77d08c",
@@ -20044,7 +20044,7 @@
       "display_when": "Wednesday, November 25, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122718",
       "planning_center_event_time_id": "31870601",
@@ -20060,7 +20060,7 @@
       "path": "knowledge/events/generated/2026-12-02-wednesday-night-dinner-809fdf.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -20100,7 +20100,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-5612690198809fdf",
@@ -20115,7 +20115,7 @@
       "display_when": "Wednesday, December 2, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122719",
       "planning_center_event_time_id": "31870601",
@@ -20131,7 +20131,7 @@
       "path": "knowledge/events/generated/2026-12-09-wednesday-night-dinner-6f6ed6.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -20171,7 +20171,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-b3f6c988846f6ed6",
@@ -20186,7 +20186,7 @@
       "display_when": "Wednesday, December 9, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122720",
       "planning_center_event_time_id": "31870601",
@@ -20202,7 +20202,7 @@
       "path": "knowledge/events/generated/2026-12-16-wednesday-night-dinner-d35842.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -20242,7 +20242,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-6ee1c01620d35842",
@@ -20257,7 +20257,7 @@
       "display_when": "Wednesday, December 16, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122721",
       "planning_center_event_time_id": "31870601",
@@ -20273,7 +20273,7 @@
       "path": "knowledge/events/generated/2026-12-23-wednesday-night-dinner-8995f6.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -20313,7 +20313,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-ef3fd2b9fd8995f6",
@@ -20328,7 +20328,7 @@
       "display_when": "Wednesday, December 23, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122722",
       "planning_center_event_time_id": "31870601",
@@ -20344,7 +20344,7 @@
       "path": "knowledge/events/generated/2026-12-30-wednesday-night-dinner-85ac1d.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -20384,7 +20384,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-b038724c0385ac1d",
@@ -20399,7 +20399,7 @@
       "display_when": "Wednesday, December 30, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122723",
       "planning_center_event_time_id": "31870601",
@@ -20415,7 +20415,7 @@
       "path": "knowledge/events/generated/2027-01-06-wednesday-night-dinner-cd86db.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -20455,7 +20455,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-72dbe349a7cd86db",
@@ -20470,7 +20470,7 @@
       "display_when": "Wednesday, January 6, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122724",
       "planning_center_event_time_id": "31870601",
@@ -20486,7 +20486,7 @@
       "path": "knowledge/events/generated/2027-01-13-wednesday-night-dinner-ed64ec.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -20526,7 +20526,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-90772338f7ed64ec",
@@ -20541,7 +20541,7 @@
       "display_when": "Wednesday, January 13, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122725",
       "planning_center_event_time_id": "31870601",
@@ -20557,7 +20557,7 @@
       "path": "knowledge/events/generated/2027-01-20-wednesday-night-dinner-c3c878.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -20597,7 +20597,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-e8371c9d2ec3c878",
@@ -20612,7 +20612,7 @@
       "display_when": "Wednesday, January 20, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122726",
       "planning_center_event_time_id": "31870601",
@@ -20628,7 +20628,7 @@
       "path": "knowledge/events/generated/2027-01-27-wednesday-night-dinner-e92330.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -20668,7 +20668,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-1728511bf3e92330",
@@ -20683,7 +20683,7 @@
       "display_when": "Wednesday, January 27, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122727",
       "planning_center_event_time_id": "31870601",
@@ -20699,7 +20699,7 @@
       "path": "knowledge/events/generated/2027-02-03-wednesday-night-dinner-56372f.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -20739,7 +20739,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-bcc630694256372f",
@@ -20754,7 +20754,7 @@
       "display_when": "Wednesday, February 3, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122728",
       "planning_center_event_time_id": "31870601",
@@ -20770,7 +20770,7 @@
       "path": "knowledge/events/generated/2027-02-10-wednesday-night-dinner-818c3d.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -20810,7 +20810,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-caa7e598c1818c3d",
@@ -20825,7 +20825,7 @@
       "display_when": "Wednesday, February 10, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122729",
       "planning_center_event_time_id": "31870601",
@@ -20841,7 +20841,7 @@
       "path": "knowledge/events/generated/2027-02-17-wednesday-night-dinner-e2ee59.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -20881,7 +20881,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-320ffbfd4fe2ee59",
@@ -20896,7 +20896,7 @@
       "display_when": "Wednesday, February 17, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122730",
       "planning_center_event_time_id": "31870601",
@@ -20912,7 +20912,7 @@
       "path": "knowledge/events/generated/2027-02-24-wednesday-night-dinner-8f0b45.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -20952,7 +20952,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-9328a094b78f0b45",
@@ -20967,7 +20967,7 @@
       "display_when": "Wednesday, February 24, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122731",
       "planning_center_event_time_id": "31870601",
@@ -20983,7 +20983,7 @@
       "path": "knowledge/events/generated/2027-03-03-wednesday-night-dinner-8fb3dd.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -21023,7 +21023,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-2301be18d98fb3dd",
@@ -21038,7 +21038,7 @@
       "display_when": "Wednesday, March 3, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122732",
       "planning_center_event_time_id": "31870601",
@@ -21054,7 +21054,7 @@
       "path": "knowledge/events/generated/2027-03-10-wednesday-night-dinner-48508a.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -21094,7 +21094,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-ac490fb30248508a",
@@ -21109,7 +21109,7 @@
       "display_when": "Wednesday, March 10, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122733",
       "planning_center_event_time_id": "31870601",
@@ -21125,7 +21125,7 @@
       "path": "knowledge/events/generated/2027-03-17-wednesday-night-dinner-ab6c0d.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -21165,7 +21165,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-866cc6f60bab6c0d",
@@ -21180,7 +21180,7 @@
       "display_when": "Wednesday, March 17, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122734",
       "planning_center_event_time_id": "31870601",
@@ -21196,7 +21196,7 @@
       "path": "knowledge/events/generated/2027-03-24-wednesday-night-dinner-46db45.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -21236,7 +21236,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-bc25cccea346db45",
@@ -21251,7 +21251,7 @@
       "display_when": "Wednesday, March 24, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122735",
       "planning_center_event_time_id": "31870601",
@@ -21267,7 +21267,7 @@
       "path": "knowledge/events/generated/2027-03-31-wednesday-night-dinner-fc63a5.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -21307,7 +21307,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-522c842215fc63a5",
@@ -21322,7 +21322,7 @@
       "display_when": "Wednesday, March 31, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122736",
       "planning_center_event_time_id": "31870601",
@@ -21338,7 +21338,7 @@
       "path": "knowledge/events/generated/2027-04-07-wednesday-night-dinner-8df64a.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -21378,7 +21378,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-35844b133e8df64a",
@@ -21393,7 +21393,7 @@
       "display_when": "Wednesday, April 7, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122737",
       "planning_center_event_time_id": "31870601",
@@ -21409,7 +21409,7 @@
       "path": "knowledge/events/generated/2027-04-14-wednesday-night-dinner-e2d05a.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -21449,7 +21449,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-8743b3c4d0e2d05a",
@@ -21464,7 +21464,7 @@
       "display_when": "Wednesday, April 14, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122738",
       "planning_center_event_time_id": "31870601",
@@ -21480,7 +21480,7 @@
       "path": "knowledge/events/generated/2027-04-21-wednesday-night-dinner-0a84c3.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -21520,7 +21520,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-f5f64f835c0a84c3",
@@ -21535,7 +21535,7 @@
       "display_when": "Wednesday, April 21, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122739",
       "planning_center_event_time_id": "31870601",
@@ -21551,7 +21551,7 @@
       "path": "knowledge/events/generated/2027-04-28-wednesday-night-dinner-6a7394.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -21591,7 +21591,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-a6de6e036f6a7394",
@@ -21606,7 +21606,7 @@
       "display_when": "Wednesday, April 28, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122740",
       "planning_center_event_time_id": "31870601",
@@ -21622,7 +21622,7 @@
       "path": "knowledge/events/generated/2027-05-05-wednesday-night-dinner-30e195.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -21662,7 +21662,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-2ed07b2f6430e195",
@@ -21677,7 +21677,7 @@
       "display_when": "Wednesday, May 5, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122741",
       "planning_center_event_time_id": "31870601",
@@ -21693,7 +21693,7 @@
       "path": "knowledge/events/generated/2027-05-12-wednesday-night-dinner-e125ce.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -21733,7 +21733,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-e686734aafe125ce",
@@ -21748,7 +21748,7 @@
       "display_when": "Wednesday, May 12, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122742",
       "planning_center_event_time_id": "31870601",
@@ -21764,7 +21764,7 @@
       "path": "knowledge/events/generated/2027-05-19-wednesday-night-dinner-0df29f.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -21804,7 +21804,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-38c528dd850df29f",
@@ -21819,7 +21819,7 @@
       "display_when": "Wednesday, May 19, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122743",
       "planning_center_event_time_id": "31870601",
@@ -21835,7 +21835,7 @@
       "path": "knowledge/events/generated/2027-05-26-wednesday-night-dinner-46fce3.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -21875,7 +21875,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-a100cd2dd446fce3",
@@ -21890,7 +21890,7 @@
       "display_when": "Wednesday, May 26, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122744",
       "planning_center_event_time_id": "31870601",
@@ -21906,7 +21906,7 @@
       "path": "knowledge/events/generated/2027-06-02-wednesday-night-dinner-ba0347.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -21946,7 +21946,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-b056b3dfedba0347",
@@ -21961,7 +21961,7 @@
       "display_when": "Wednesday, June 2, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122745",
       "planning_center_event_time_id": "31870601",
@@ -21977,7 +21977,7 @@
       "path": "knowledge/events/generated/2027-06-09-wednesday-night-dinner-764b7d.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -22017,7 +22017,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-219fd965af764b7d",
@@ -22032,7 +22032,7 @@
       "display_when": "Wednesday, June 9, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122746",
       "planning_center_event_time_id": "31870601",
@@ -22048,7 +22048,7 @@
       "path": "knowledge/events/generated/2027-06-16-wednesday-night-dinner-6fef1b.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -22088,7 +22088,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-3d993f73ed6fef1b",
@@ -22103,7 +22103,7 @@
       "display_when": "Wednesday, June 16, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122747",
       "planning_center_event_time_id": "31870601",
@@ -22119,7 +22119,7 @@
       "path": "knowledge/events/generated/2027-06-23-wednesday-night-dinner-8a9a7f.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -22159,7 +22159,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-f562df9d668a9a7f",
@@ -22174,7 +22174,7 @@
       "display_when": "Wednesday, June 23, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122748",
       "planning_center_event_time_id": "31870601",
@@ -22190,7 +22190,7 @@
       "path": "knowledge/events/generated/2027-06-30-wednesday-night-dinner-34486c.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -22230,7 +22230,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-7a6499128234486c",
@@ -22245,7 +22245,7 @@
       "display_when": "Wednesday, June 30, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122749",
       "planning_center_event_time_id": "31870601",
@@ -22261,7 +22261,7 @@
       "path": "knowledge/events/generated/2027-07-07-wednesday-night-dinner-36b6bb.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -22301,7 +22301,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-50d5c3da5b36b6bb",
@@ -22316,7 +22316,7 @@
       "display_when": "Wednesday, July 7, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122750",
       "planning_center_event_time_id": "31870601",
@@ -22332,7 +22332,7 @@
       "path": "knowledge/events/generated/2027-07-14-wednesday-night-dinner-e48c19.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -22372,7 +22372,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-9f903404a7e48c19",
@@ -22387,7 +22387,7 @@
       "display_when": "Wednesday, July 14, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122751",
       "planning_center_event_time_id": "31870601",
@@ -22403,7 +22403,7 @@
       "path": "knowledge/events/generated/2027-07-21-wednesday-night-dinner-f4b889.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -22443,7 +22443,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-97f698e017f4b889",
@@ -22458,7 +22458,7 @@
       "display_when": "Wednesday, July 21, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122752",
       "planning_center_event_time_id": "31870601",
@@ -22474,7 +22474,7 @@
       "path": "knowledge/events/generated/2027-07-28-wednesday-night-dinner-7b2465.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -22514,7 +22514,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-e645ce6a5b7b2465",
@@ -22529,7 +22529,7 @@
       "display_when": "Wednesday, July 28, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122753",
       "planning_center_event_time_id": "31870601",
@@ -22545,7 +22545,7 @@
       "path": "knowledge/events/generated/2027-08-04-wednesday-night-dinner-c4767b.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -22585,7 +22585,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-6d28727f98c4767b",
@@ -22600,7 +22600,7 @@
       "display_when": "Wednesday, August 4, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122754",
       "planning_center_event_time_id": "31870601",
@@ -22616,7 +22616,7 @@
       "path": "knowledge/events/generated/2027-08-11-wednesday-night-dinner-19d9cb.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -22656,7 +22656,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-241c9236f919d9cb",
@@ -22671,7 +22671,7 @@
       "display_when": "Wednesday, August 11, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122755",
       "planning_center_event_time_id": "31870601",
@@ -22687,7 +22687,7 @@
       "path": "knowledge/events/generated/2027-08-18-wednesday-night-dinner-8ab9de.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -22727,7 +22727,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-d64828b4a08ab9de",
@@ -22742,7 +22742,7 @@
       "display_when": "Wednesday, August 18, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122756",
       "planning_center_event_time_id": "31870601",
@@ -22758,7 +22758,7 @@
       "path": "knowledge/events/generated/2027-08-25-wednesday-night-dinner-11c5e0.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -22798,7 +22798,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-0a8555383511c5e0",
@@ -22813,7 +22813,7 @@
       "display_when": "Wednesday, August 25, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122757",
       "planning_center_event_time_id": "31870601",
@@ -22829,7 +22829,7 @@
       "path": "knowledge/events/generated/2027-09-01-wednesday-night-dinner-a91f0f.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nHot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "priority": 60,
       "category": [
         "events",
@@ -22869,7 +22869,7 @@
         "churchwide"
       ],
       "audiences": [
-        "volunteers"
+        "everyone"
       ],
       "resources": [],
       "event_id": "event-da3330a2fea91f0f",
@@ -22884,7 +22884,7 @@
       "display_when": "Wednesday, September 1, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "Hot dogs & chips will be served at every meal. See below for the weekly menu.\nAugust 26, 2026\nPizza\nSalad Bar\nIce Cream Bars\nSeptember 2, 2026\nTaco Bar\nIce Cream Cups & Cookies\nSeptember 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
+      "details": "September 9, 2026\nSloppy Joes\nTater Tots\nSalad Bar\nPudding Cups & Cookies\nSeptember 16, 2026\nFried Chicken\nMashed Potatoes\nGreen Beans\nSalad Bar\nRolls\nBrownies\nSeptember 23, 2026\nSpaghetti & Meatballs\nSalad Bar\nIce Cream Bars\nSeptember 30, 2026\nHam\nScalloped Potatoes\nGreen Beans\nSalad Bar\nRolls\nIce Cream Cups & Cookies\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nBrownies",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122758",
       "planning_center_event_time_id": "31870601",
@@ -23188,7 +23188,7 @@
       "planning_center_event_time_id": "28363612",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-06-card-ministry-8e6732.md",
-      "chronological_rank": 37,
+      "chronological_rank": 36,
       "routine_schedule_occurrence": false
     },
     {
@@ -23256,7 +23256,7 @@
       "planning_center_event_time_id": "30414252",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-22-guest-services-team-meeting-681d28.md",
-      "chronological_rank": 20,
+      "chronological_rank": 19,
       "routine_schedule_occurrence": false
     },
     {
@@ -23325,16 +23325,16 @@
       "planning_center_event_time_id": "16193422",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-16-monthly-baskets-of-hope-volunteers-77387f.md",
-      "chronological_rank": 14,
+      "chronological_rank": 13,
       "routine_schedule_occurrence": false
     },
     {
-      "id": "events.live.event-ec88cabfa3473ecc",
+      "id": "events.live.event-612f2437be23f9ee",
       "record_type": "event",
-      "path": "knowledge/events/generated/2026-09-03-open-gym-pickleball-473ecc.md",
-      "title": "OPEN GYM Pickleball",
-      "summary": "On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.",
-      "content": "On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.",
+      "path": "knowledge/events/generated/2026-10-10-ohio-detectorists-association-23f9ee.md",
+      "title": "Ohio Detectorists Association",
+      "summary": "Ohio Detectorists Association is scheduled for Saturday, October 10, 2026, 8 AM to 5 PM at Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036.",
+      "content": "",
       "priority": 50,
       "category": [
         "events",
@@ -23353,49 +23353,22 @@
         "upcoming",
         "activity",
         "general_event",
-        "OPEN GYM Pickleball",
-        "Pickleball",
-        "OPEN GYM Pickle ball",
-        "Pickle ball"
+        "Ohio Detectorists Association"
       ],
       "search_terms": [
-        "OPEN GYM Pickleball",
-        "When is OPEN GYM Pickleball?",
-        "Tell me about OPEN GYM Pickleball",
-        "What are the details for OPEN GYM Pickleball?",
-        "What is the menu for OPEN GYM Pickleball?",
-        "How do I register for OPEN GYM Pickleball?",
-        "Does Urbancrest have OPEN GYM Pickleball?",
-        "Does Urbancrest offer OPEN GYM Pickleball?",
-        "Do you have OPEN GYM Pickleball?",
-        "Do you offer OPEN GYM Pickleball?",
-        "Is there OPEN GYM Pickleball at Urbancrest?",
-        "Can I participate in OPEN GYM Pickleball?",
-        "Can I play OPEN GYM Pickleball at Urbancrest?",
-        "Pickleball",
-        "Does Urbancrest have Pickleball?",
-        "Does Urbancrest offer Pickleball?",
-        "Do you have Pickleball?",
-        "Do you offer Pickleball?",
-        "Is there Pickleball at Urbancrest?",
-        "Can I participate in Pickleball?",
-        "Can I play Pickleball at Urbancrest?",
-        "OPEN GYM Pickle ball",
-        "Does Urbancrest have OPEN GYM Pickle ball?",
-        "Does Urbancrest offer OPEN GYM Pickle ball?",
-        "Do you have OPEN GYM Pickle ball?",
-        "Do you offer OPEN GYM Pickle ball?",
-        "Is there OPEN GYM Pickle ball at Urbancrest?",
-        "Can I participate in OPEN GYM Pickle ball?",
-        "Can I play OPEN GYM Pickle ball at Urbancrest?",
-        "Pickle ball",
-        "Does Urbancrest have Pickle ball?",
-        "Does Urbancrest offer Pickle ball?",
-        "Do you have Pickle ball?",
-        "Do you offer Pickle ball?",
-        "Is there Pickle ball at Urbancrest?",
-        "Can I participate in Pickle ball?",
-        "Can I play Pickle ball at Urbancrest?"
+        "Ohio Detectorists Association",
+        "When is Ohio Detectorists Association?",
+        "Tell me about Ohio Detectorists Association",
+        "What are the details for Ohio Detectorists Association?",
+        "What is the menu for Ohio Detectorists Association?",
+        "How do I register for Ohio Detectorists Association?",
+        "Does Urbancrest have Ohio Detectorists Association?",
+        "Does Urbancrest offer Ohio Detectorists Association?",
+        "Do you have Ohio Detectorists Association?",
+        "Do you offer Ohio Detectorists Association?",
+        "Is there Ohio Detectorists Association at Urbancrest?",
+        "Can I participate in Ohio Detectorists Association?",
+        "Can I play Ohio Detectorists Association at Urbancrest?"
       ],
       "ministries": [
         "churchwide"
@@ -23404,26 +23377,23 @@
         "everyone"
       ],
       "resources": [],
-      "event_id": "event-ec88cabfa3473ecc",
+      "event_id": "event-612f2437be23f9ee",
       "activity_aliases": [
-        "OPEN GYM Pickleball",
-        "Pickleball",
-        "OPEN GYM Pickle ball",
-        "Pickle ball"
+        "Ohio Detectorists Association"
       ],
       "event_category": "general_event",
-      "event_start": "2026-09-03T18:00:00-04:00",
-      "event_end": "2026-09-03T20:00:00-04:00",
-      "sort_start_utc": "2026-09-03T22:00:00Z",
-      "sort_end_utc": "2026-09-04T00:00:00Z",
-      "display_when": "Thursday, September 3, 2026, 6 PM to 8 PM",
+      "event_start": "2026-10-10T08:00:00-04:00",
+      "event_end": "2026-10-10T17:00:00-04:00",
+      "sort_start_utc": "2026-10-10T12:00:00Z",
+      "sort_end_utc": "2026-10-10T21:00:00Z",
+      "display_when": "Saturday, October 10, 2026, 8 AM to 5 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "planning_center_event_instance_id": "216277433",
-      "planning_center_event_time_id": "29468516",
+      "planning_center_event_instance_id": "234607566",
+      "planning_center_event_time_id": "32547092",
       "registration_available": false,
-      "knowledge_file": "knowledge/events/generated/2026-09-03-open-gym-pickleball-473ecc.md",
-      "chronological_rank": 1,
+      "knowledge_file": "knowledge/events/generated/2026-10-10-ohio-detectorists-association-23f9ee.md",
+      "chronological_rank": 39,
       "routine_schedule_occurrence": false
     },
     {
@@ -23521,7 +23491,7 @@
       "planning_center_event_time_id": "29468516",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-10-open-gym-pickleball-fe7030.md",
-      "chronological_rank": 10,
+      "chronological_rank": 9,
       "routine_schedule_occurrence": false
     },
     {
@@ -23619,7 +23589,7 @@
       "planning_center_event_time_id": "29468516",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-17-open-gym-pickleball-556aa9.md",
-      "chronological_rank": 16,
+      "chronological_rank": 15,
       "routine_schedule_occurrence": false
     },
     {
@@ -23717,7 +23687,7 @@
       "planning_center_event_time_id": "29468516",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-24-open-gym-pickleball-309c7f.md",
-      "chronological_rank": 22,
+      "chronological_rank": 21,
       "routine_schedule_occurrence": false
     },
     {
@@ -23815,7 +23785,7 @@
       "planning_center_event_time_id": "29468516",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-01-open-gym-pickleball-0cfa47.md",
-      "chronological_rank": 30,
+      "chronological_rank": 29,
       "routine_schedule_occurrence": false
     },
     {
@@ -23913,7 +23883,7 @@
       "planning_center_event_time_id": "29468516",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-08-open-gym-pickleball-4d6218.md",
-      "chronological_rank": 39,
+      "chronological_rank": 38,
       "routine_schedule_occurrence": false
     },
     {
@@ -23980,7 +23950,7 @@
       "planning_center_event_time_id": "32446810",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-06-sims-family-reunion-93a8fc.md",
-      "chronological_rank": 7,
+      "chronological_rank": 6,
       "routine_schedule_occurrence": false
     },
     {
@@ -24065,7 +24035,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-06-sunday-morning-services-11-00-am-service-8a985a.md",
-      "chronological_rank": 6,
+      "chronological_rank": 5,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24138,7 +24108,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-13-sunday-morning-services-11-00-am-service-153e7f.md",
-      "chronological_rank": 13,
+      "chronological_rank": 12,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24211,7 +24181,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-20-sunday-morning-services-11-00-am-service-9ace48.md",
-      "chronological_rank": 19,
+      "chronological_rank": 18,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24284,7 +24254,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-27-sunday-morning-services-11-00-am-service-b8b3b1.md",
-      "chronological_rank": 26,
+      "chronological_rank": 25,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24357,7 +24327,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-04-sunday-morning-services-11-00-am-service-391224.md",
-      "chronological_rank": 35,
+      "chronological_rank": 34,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24430,7 +24400,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-06-sunday-morning-services-9-30-am-service-3e5884.md",
-      "chronological_rank": 5,
+      "chronological_rank": 4,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24503,7 +24473,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-13-sunday-morning-services-9-30-am-service-b32add.md",
-      "chronological_rank": 12,
+      "chronological_rank": 11,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24576,7 +24546,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-20-sunday-morning-services-9-30-am-service-25697d.md",
-      "chronological_rank": 18,
+      "chronological_rank": 17,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24649,7 +24619,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-27-sunday-morning-services-9-30-am-service-a45069.md",
-      "chronological_rank": 25,
+      "chronological_rank": 24,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24722,7 +24692,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-04-sunday-morning-services-9-30-am-service-160a39.md",
-      "chronological_rank": 34,
+      "chronological_rank": 33,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",

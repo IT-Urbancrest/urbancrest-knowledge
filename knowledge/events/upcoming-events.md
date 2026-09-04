@@ -16,23 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-09-03T23:17:46.452533Z
+last_generated: 2026-09-04T04:35:39.325278Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## OPEN GYM Pickleball
-
-**Category:** General Event
-
-**When:** Thursday, September 3, 2026, 6 PM to 8 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-09-03-open-gym-pickleball-473ecc.md`
 
 ## Men's Breakfast
 
@@ -419,6 +409,16 @@ Detailed event file: `knowledge/events/generated/2026-10-07-wednesday-night-dinn
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-10-08-open-gym-pickleball-4d6218.md`
+
+## Ohio Detectorists Association
+
+**Category:** General Event
+
+**When:** Saturday, October 10, 2026, 8 AM to 5 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2026-10-10-ohio-detectorists-association-23f9ee.md`
 
 ## P U R S U E
 

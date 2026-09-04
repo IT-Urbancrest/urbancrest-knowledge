@@ -1,10 +1,10 @@
 version: 1.5.4
-generated_at: '2026-09-03T23:17:46.452533Z'
+generated_at: '2026-09-04T04:35:39.325278Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
   enabled: true
-  target_instance_count: 422
+  target_instance_count: 419
   matched_instance_count: 419
   page_count: 10
   api_version: '2026-06-22'
@@ -19,33 +19,6 @@ selection:
   policy: Protect all major and ministry events before lower-priority events.
 event_count: 150
 events:
-- id: event-ec88cabfa3473ecc
-  uid: ET-29468516-216277433@resources.planningcenteronline.com
-  title: OPEN GYM Pickleball
-  summary: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
-  start: '2026-09-03T18:00:00-04:00'
-  end: '2026-09-03T20:00:00-04:00'
-  sort_start_utc: '2026-09-03T22:00:00Z'
-  sort_end_utc: '2026-09-04T00:00:00Z'
-  display_when: Thursday, September 3, 2026, 6 PM to 8 PM
-  all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to
-    attend and open to anyone ages 13+.
-  planning_center_event_instance_id: '216277433'
-  planning_center_event_time_id: '29468516'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 1
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-09-03-open-gym-pickleball-473ecc.md
 - id: event-d7e69dfab7336f62
   uid: ET-30270334-166086980@resources.planningcenteronline.com
   title: Men's Breakfast
@@ -70,7 +43,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 2
+  chronological_rank: 1
   next_for_ministries:
   - men
   next_for_audiences:
@@ -147,7 +120,7 @@ events:
   event_source: planning_center_registrations_api
   event_sources:
   - planning_center_registrations_api
-  chronological_rank: 3
+  chronological_rank: 2
 - id: event-ee5bfd5ead7f42b9
   uid: ET-8762150-166271990@resources.planningcenteronline.com
   title: P U R S U E
@@ -170,7 +143,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 4
+  chronological_rank: 3
   next_for_ministries:
   - students
   next_for_audiences:
@@ -199,7 +172,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 5
+  chronological_rank: 4
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-06-sunday-morning-services-9-30-am-service-3e5884.md
@@ -226,7 +199,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 6
+  chronological_rank: 5
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-06-sunday-morning-services-11-00-am-service-8a985a.md
@@ -251,7 +224,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 7
+  chronological_rank: 6
   next_for_ministries: []
   next_for_audiences:
   - families
@@ -268,23 +241,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -344,15 +301,14 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 8
+  chronological_rank: 7
   next_for_ministries: []
-  next_for_audiences:
-  - volunteers
+  next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-09-wednesday-night-dinner-f2ed46.md
 - id: event-a15a9379d2ca71ea
   uid: ET-31487702-227855430@resources.planningcenteronline.com
@@ -411,11 +367,12 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 9
+  chronological_rank: 8
   next_for_ministries:
   - kids
   next_for_audiences:
   - children
+  - volunteers
   knowledge_file: knowledge/events/generated/2026-09-09-awana-2026-2027-ca71ea.md
   event_sources:
   - planning_center_ical
@@ -480,7 +437,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 10
+  chronological_rank: 9
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-10-open-gym-pickleball-fe7030.md
@@ -506,7 +463,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 11
+  chronological_rank: 10
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-13-p-u-r-s-u-e-300fb0.md
@@ -533,7 +490,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 12
+  chronological_rank: 11
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-13-sunday-morning-services-9-30-am-service-b32add.md
@@ -560,7 +517,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 13
+  chronological_rank: 12
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-13-sunday-morning-services-11-00-am-service-153e7f.md
@@ -587,7 +544,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 14
+  chronological_rank: 13
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-16-monthly-baskets-of-hope-volunteers-77387f.md
@@ -603,23 +560,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -679,12 +620,12 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 15
+  chronological_rank: 14
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-16-wednesday-night-dinner-89e119.md
@@ -711,7 +652,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 16
+  chronological_rank: 15
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-17-open-gym-pickleball-556aa9.md
@@ -737,7 +678,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 17
+  chronological_rank: 16
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-20-p-u-r-s-u-e-f8f18d.md
@@ -764,7 +705,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 18
+  chronological_rank: 17
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-20-sunday-morning-services-9-30-am-service-25697d.md
@@ -791,7 +732,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 19
+  chronological_rank: 18
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-20-sunday-morning-services-11-00-am-service-9ace48.md
@@ -817,7 +758,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 20
+  chronological_rank: 19
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-22-guest-services-team-meeting-681d28.md
@@ -833,23 +774,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -909,12 +834,12 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 21
+  chronological_rank: 20
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-23-wednesday-night-dinner-c7bf0d.md
@@ -941,7 +866,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 22
+  chronological_rank: 21
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-24-open-gym-pickleball-309c7f.md
@@ -973,7 +898,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 23
+  chronological_rank: 22
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-26-waynesville-fall-fest-5aaab7.md
@@ -1031,7 +956,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 24
+  chronological_rank: 23
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-27-p-u-r-s-u-e-724217.md
@@ -1058,7 +983,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 25
+  chronological_rank: 24
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-27-sunday-morning-services-9-30-am-service-a45069.md
@@ -1085,7 +1010,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 26
+  chronological_rank: 25
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-27-sunday-morning-services-11-00-am-service-b8b3b1.md
@@ -1128,7 +1053,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 27
+  chronological_rank: 26
   next_for_ministries:
   - women
   next_for_audiences:
@@ -1194,7 +1119,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 28
+  chronological_rank: 27
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-27-women-s-fall-fest-8698aa.md
@@ -1210,23 +1135,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -1286,12 +1195,12 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 29
+  chronological_rank: 28
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-30-wednesday-night-dinner-36f49b.md
@@ -1318,7 +1227,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 30
+  chronological_rank: 29
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-01-open-gym-pickleball-0cfa47.md
@@ -1346,7 +1255,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 31
+  chronological_rank: 30
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-03-men-s-breakfast-dec2d7.md
@@ -1381,7 +1290,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 32
+  chronological_rank: 31
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-03-men-s-cornhole-bbq-c05019.md
@@ -1443,7 +1352,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 33
+  chronological_rank: 32
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-04-p-u-r-s-u-e-e5c34f.md
@@ -1470,7 +1379,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 34
+  chronological_rank: 33
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-04-sunday-morning-services-9-30-am-service-160a39.md
@@ -1497,7 +1406,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 35
+  chronological_rank: 34
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-04-sunday-morning-services-11-00-am-service-391224.md
@@ -1558,7 +1467,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 36
+  chronological_rank: 35
   next_for_ministries:
   - worship
   next_for_audiences: []
@@ -1616,7 +1525,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 37
+  chronological_rank: 36
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-06-card-ministry-8e6732.md
@@ -1632,23 +1541,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -1708,12 +1601,12 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 38
+  chronological_rank: 37
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-07-wednesday-night-dinner-9fc5ad.md
@@ -1740,10 +1633,36 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 39
+  chronological_rank: 38
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-08-open-gym-pickleball-4d6218.md
+- id: event-612f2437be23f9ee
+  uid: ET-32547092-234607566@resources.planningcenteronline.com
+  title: Ohio Detectorists Association
+  summary: Ohio Detectorists Association is scheduled for Saturday, October 10, 2026, 8 AM to 5 PM at Urbancrest At Lebanon
+    - 2634 Drake Road, Lebanon, OH 45036.
+  start: '2026-10-10T08:00:00-04:00'
+  end: '2026-10-10T17:00:00-04:00'
+  sort_start_utc: '2026-10-10T12:00:00Z'
+  sort_end_utc: '2026-10-10T21:00:00Z'
+  display_when: Saturday, October 10, 2026, 8 AM to 5 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  planning_center_event_instance_id: '234607566'
+  planning_center_event_time_id: '32547092'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 39
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-10-10-ohio-detectorists-association-23f9ee.md
 - id: event-335555bbce8f8f87
   uid: ET-8762150-169483179@resources.planningcenteronline.com
   title: P U R S U E
@@ -1782,23 +1701,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -1858,7 +1761,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -1999,23 +1902,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -2075,7 +1962,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -2122,23 +2009,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -2198,7 +2069,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -2245,23 +2116,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -2321,7 +2176,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -2396,23 +2251,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -2472,7 +2311,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -2595,23 +2434,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -2671,7 +2494,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -2718,23 +2541,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -2794,7 +2601,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -2841,23 +2648,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -2917,7 +2708,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -3020,23 +2811,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -3096,7 +2871,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -3143,23 +2918,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -3219,7 +2978,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -3266,23 +3025,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -3342,7 +3085,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -3389,23 +3132,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -3465,7 +3192,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -3540,23 +3267,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -3616,7 +3327,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -3663,23 +3374,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -3739,7 +3434,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -3869,23 +3564,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -3945,7 +3624,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -3992,23 +3671,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -4068,7 +3731,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -4139,23 +3802,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -4215,7 +3862,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -4290,23 +3937,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -4366,7 +3997,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -4413,23 +4044,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -4489,7 +4104,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -4536,23 +4151,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -4612,7 +4211,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -4659,23 +4258,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -4735,7 +4318,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -4810,23 +4393,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -4886,7 +4453,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -4933,23 +4500,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -5009,7 +4560,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -5056,23 +4607,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -5132,7 +4667,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -5179,23 +4714,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -5255,7 +4774,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -5357,23 +4876,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -5433,7 +4936,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -5480,23 +4983,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -5556,7 +5043,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -5603,23 +5090,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -5679,7 +5150,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -5797,23 +5268,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -5873,7 +5328,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -5948,23 +5403,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -6024,7 +5463,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -6071,23 +5510,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -6147,7 +5570,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -6194,23 +5617,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -6270,7 +5677,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -6317,23 +5724,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -6393,7 +5784,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -6440,23 +5831,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -6516,7 +5891,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -6591,23 +5966,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -6667,7 +6026,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -6714,23 +6073,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -6790,7 +6133,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -6837,23 +6180,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -6913,7 +6240,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -6960,23 +6287,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -7036,7 +6347,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -7111,23 +6422,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -7187,7 +6482,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -7234,23 +6529,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -7310,7 +6589,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -7357,23 +6636,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -7433,7 +6696,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -7480,23 +6743,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -7556,7 +6803,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -7603,23 +6850,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -7679,7 +6910,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -7754,23 +6985,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -7830,7 +7045,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -7877,23 +7092,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -7953,7 +7152,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -8000,23 +7199,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -8076,7 +7259,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
@@ -8123,23 +7306,7 @@ events:
   all_day: false
   location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'Hot dogs & chips will be served at every meal. See below for the weekly menu.
-
-    August 26, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 2, 2026
-
-    Taco Bar
-
-    Ice Cream Cups & Cookies
-
-    September 9, 2026
+  details: 'September 9, 2026
 
     Sloppy Joes
 
@@ -8199,7 +7366,7 @@ events:
   ministries:
   - churchwide
   audiences:
-  - volunteers
+  - everyone
   event_category: churchwide_program
   event_priority: 60
   collection: main_events
