@@ -1,5 +1,5 @@
 ---
-id: events.live.event-5ee7e8f2ebdec2d7
+id: events.live.event-cb901341e79a794b
 version: 1.4.3
 status: published
 priority: 80
@@ -30,18 +30,18 @@ search_terms:
   - "How do I register for Men's Breakfast?"
 resources:
   - events.live
-event_id: event-5ee7e8f2ebdec2d7
-event_start: "2026-10-03T08:00:00-04:00"
-event_end: "2026-10-03T10:00:00-04:00"
-sort_start_utc: "2026-10-03T12:00:00Z"
-sort_end_utc: "2026-10-03T14:00:00Z"
-chronological_rank: 30
+event_id: event-cb901341e79a794b
+event_start: "2027-09-04T08:00:00-04:00"
+event_end: "2027-09-04T10:00:00-04:00"
+sort_start_utc: "2027-09-04T12:00:00Z"
+sort_end_utc: "2027-09-04T14:00:00Z"
+chronological_rank: 150
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
 image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=058d17f1b81369bc1275502f9bfab7c3324ca5b970a6a39720a87348da9b781e"
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-planning_center_event_instance_id: "168792298"
+planning_center_event_instance_id: "198718400"
 planning_center_event_time_id: "30270334"
 last_generated: 2026-09-04T16:22:34.492600Z
 ---
@@ -50,7 +50,7 @@ last_generated: 2026-09-04T16:22:34.492600Z
 
 Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast.
 
-**When:** Saturday, October 3, 2026, 8 AM to 10 AM
+**When:** Saturday, September 4, 2027, 8 AM to 10 AM
 
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 

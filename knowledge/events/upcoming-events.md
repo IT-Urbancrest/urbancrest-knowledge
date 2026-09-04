@@ -16,7 +16,7 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-09-04T11:19:30.535421Z
+last_generated: 2026-09-04T16:22:35.607101Z
 ---
 
 # Upcoming Events
@@ -83,6 +83,14 @@ Detailed event file: `knowledge/events/generated/2026-09-06-sunday-morning-servi
 **When:** Sunday, September 6, 2026, 12 PM to 9 PM
 
 Detailed event file: `knowledge/events/generated/2026-09-06-sims-family-reunion-93a8fc.md`
+
+## Men's Summit Meeting
+
+**Category:** Major Event
+
+**When:** Monday, September 7, 2026, 1 PM to 2 PM
+
+Detailed event file: `knowledge/events/generated/2026-09-07-men-s-summit-meeting-da82c5.md`
 
 ## Wednesday Night Dinner
 
@@ -399,26 +407,6 @@ Detailed event file: `knowledge/events/generated/2026-10-06-card-ministry-8e6732
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-10-07-wednesday-night-dinner-9fc5ad.md`
-
-## OPEN GYM Pickleball
-
-**Category:** General Event
-
-**When:** Thursday, October 8, 2026, 6 PM to 8 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-10-08-open-gym-pickleball-4d6218.md`
-
-## Ohio Detectorists Association
-
-**Category:** General Event
-
-**When:** Saturday, October 10, 2026, 8 AM to 5 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-10-10-ohio-detectorists-association-23f9ee.md`
 
 ## P U R S U E
 
@@ -1536,3 +1524,13 @@ Detailed event file: `knowledge/events/generated/2027-08-29-p-u-r-s-u-e-2329d2.m
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2027-09-01-wednesday-night-dinner-a91f0f.md`
+
+## Men's Breakfast
+
+**Category:** Ministry Event
+
+**When:** Saturday, September 4, 2027, 8 AM to 10 AM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2027-09-04-men-s-breakfast-9a794b.md`
