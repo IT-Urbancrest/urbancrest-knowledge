@@ -41,7 +41,7 @@ next_for_audiences: []
 all_day: false
 planning_center_event_instance_id: "235392153"
 planning_center_event_time_id: "32666142"
-last_generated: 2026-09-04T23:03:23.578119Z
+last_generated: 2026-09-05T04:31:28.652755Z
 ---
 
 # Men's Summit Meeting
