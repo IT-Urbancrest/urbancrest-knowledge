@@ -16,23 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-09-05T10:36:54.078542Z
+last_generated: 2026-09-05T15:15:30.998461Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## Men's Breakfast
-
-**Category:** Ministry Event
-
-**When:** Saturday, September 5, 2026, 8 AM to 10 AM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-09-05-men-s-breakfast-336f62.md`
 
 ## One Service Only at 9:30 AM – Labor Day Weekend
 
@@ -1534,3 +1524,13 @@ Detailed event file: `knowledge/events/generated/2027-09-01-wednesday-night-dinn
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2027-09-04-men-s-breakfast-9a794b.md`
+
+## P U R S U E
+
+**Category:** Ministry Event
+
+**When:** Sunday, September 5, 2027, 9:30 AM to 10:30 AM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2027-09-05-p-u-r-s-u-e-77c3df.md`

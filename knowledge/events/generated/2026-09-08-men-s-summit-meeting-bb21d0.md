@@ -35,13 +35,13 @@ event_start: "2026-09-08T13:00:00-04:00"
 event_end: "2026-09-08T14:00:00-04:00"
 sort_start_utc: "2026-09-08T17:00:00Z"
 sort_end_utc: "2026-09-08T18:00:00Z"
-chronological_rank: 6
-next_for_ministries: []
-next_for_audiences: []
+chronological_rank: 5
+next_for_ministries: ["men"]
+next_for_audiences: ["men"]
 all_day: false
 planning_center_event_instance_id: "235392153"
 planning_center_event_time_id: "32666142"
-last_generated: 2026-09-05T10:36:52.892155Z
+last_generated: 2026-09-05T15:15:29.907733Z
 ---
 
 # Men's Summit Meeting
