@@ -16,45 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-09-06T10:58:52.533658Z
+last_generated: 2026-09-06T15:28:54.456680Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## One Service Only at 9:30 AM – Labor Day Weekend
-
-**Category:** Worship Event
-
-**When:** Sunday, September 6, 2026 at 9:30 AM - 11:00 AM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road
-Worship Center
-Lebanon, OH 45036
-
-**Registration:** https://urbancrest.churchcenter.com/registrations/events/3613427/reservations/new
-
-## P U R S U E
-
-**Category:** Ministry Event
-
-**When:** Sunday, September 6, 2026, 9:30 AM to 10:30 AM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-09-06-p-u-r-s-u-e-7f42b9.md`
-
-## Sunday Morning Services: 9:30 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, September 6, 2026, 9:30 AM to 10:40 AM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-09-06-sunday-morning-services-9-30-am-service-3e5884.md`
 
 ## Sunday Morning Services: 11:00 AM Service
 
@@ -398,6 +366,26 @@ Detailed event file: `knowledge/events/generated/2026-10-06-card-ministry-8e6732
 
 Detailed event file: `knowledge/events/generated/2026-10-07-wednesday-night-dinner-9fc5ad.md`
 
+## OPEN GYM Pickleball
+
+**Category:** General Event
+
+**When:** Thursday, October 8, 2026, 6 PM to 8 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2026-10-08-open-gym-pickleball-4d6218.md`
+
+## Ohio Detectorists Association
+
+**Category:** General Event
+
+**When:** Saturday, October 10, 2026, 8 AM to 5 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2026-10-10-ohio-detectorists-association-23f9ee.md`
+
 ## P U R S U E
 
 **Category:** Ministry Event
@@ -407,6 +395,16 @@ Detailed event file: `knowledge/events/generated/2026-10-07-wednesday-night-dinn
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-10-11-p-u-r-s-u-e-8f8f87.md`
+
+## Sunday Morning Services: 9:30 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, October 11, 2026, 9:30 AM to 10:40 AM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2026-10-11-sunday-morning-services-9-30-am-service-0b689c.md`
 
 ## Wednesday Night Dinner
 

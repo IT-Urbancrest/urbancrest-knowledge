@@ -1,5 +1,5 @@
 ---
-id: events.live.event-d27ce5ef423e5884
+id: events.live.event-367906f93e0b689c
 version: 1.4.3
 status: published
 priority: 50
@@ -30,26 +30,26 @@ search_terms:
   - "How do I register for Sunday Morning Services: 9:30 AM Service?"
 resources:
   - events.live
-event_id: event-d27ce5ef423e5884
-event_start: "2026-09-06T09:30:00-04:00"
-event_end: "2026-09-06T10:40:00-04:00"
-sort_start_utc: "2026-09-06T13:30:00Z"
-sort_end_utc: "2026-09-06T14:40:00Z"
-chronological_rank: 2
+event_id: event-367906f93e0b689c
+event_start: "2026-10-11T09:30:00-04:00"
+event_end: "2026-10-11T10:40:00-04:00"
+sort_start_utc: "2026-10-11T13:30:00Z"
+sort_end_utc: "2026-10-11T14:40:00Z"
+chronological_rank: 38
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-planning_center_event_instance_id: "166271992"
+planning_center_event_instance_id: "169483181"
 planning_center_event_time_id: "9127131"
-last_generated: 2026-09-06T10:58:51.421750Z
+last_generated: 2026-09-06T15:28:53.243656Z
 ---
 
 # Sunday Morning Services: 9:30 AM Service
 
 Join us in person or online!...
 
-**When:** Sunday, September 6, 2026, 9:30 AM to 10:40 AM
+**When:** Sunday, October 11, 2026, 9:30 AM to 10:40 AM
 
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
