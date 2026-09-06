@@ -42,7 +42,7 @@ all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "203958056"
 planning_center_event_time_id: "27323022"
-last_generated: 2026-09-06T20:25:23.532663Z
+last_generated: 2026-09-06T22:53:58.580061Z
 ---
 
 # Women's Fall Fest
