@@ -1,7 +1,7 @@
-version: '1.0'
+version: '1.1'
 suite: staff_and_serving_routing
-last_updated: '2026-08-10'
-purpose: Verify conservative staff-card routing, finance ownership, and serving next-step action links.
+last_updated: '2026-09-07'
+purpose: Verify conservative staff-card routing, finance ownership, serving next-step action links, and staff-free Kids logistics answers.
 
 tests:
 - name: church finances resolves Tanya
@@ -36,6 +36,41 @@ tests:
   query: What are Small Groups?
   expected:
     staff_key: null
+
+- name: Kids check-in logistics has no staff card
+  query: Where do I check in my kids?
+  expected:
+    first_record_id: ministries.kids.check_in_out
+    staff_key: null
+    must_not_staff_key:
+    - sarah_coleman
+    - mikhael_mastalerz
+
+- name: generic check-in station lookup has no staff card
+  query: Where are the check-in stations?
+  expected:
+    first_record_id: ministries.kids.check_in_out
+    staff_key: null
+    must_not_staff_key:
+    - sarah_coleman
+    - mikhael_mastalerz
+
+- name: located wording stays on Kids check-in
+  query: Where are the check-in stations located?
+  expected:
+    first_record_id: ministries.kids.check_in_out
+    must_not_first_record_id: about.location
+    staff_key: null
+    must_not_staff_key:
+    - sarah_coleman
+    - mikhael_mastalerz
+
+- name: Children's Church schedule has no staff card
+  query: What time is Children's Church?
+  expected:
+    staff_key: null
+    must_not_staff_key:
+    - sarah_coleman
 
 - name: serving next step gets both action links
   query: How can I get involved in serving?
