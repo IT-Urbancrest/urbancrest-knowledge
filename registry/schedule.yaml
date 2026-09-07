@@ -136,7 +136,8 @@ schedules:
   - day: Sunday
     time: 11:00 AM
     grades: 1-3
-  answer_guidance: For grades 1-6, Sunday School is the small-group format. Grades 4-6 attend Sunday School at 9:30 AM, and
+  answer_guidance: >-
+    For grades 1-6, Sunday School is the small-group format. Grades 4-6 attend Sunday School at 9:30 AM, and
     grades 1-3 attend Sunday School at 11:00 AM. When describing the full Sunday rotation for grades 1-6, explain that the groups
     switch formats between services: grades 1-3 have Children's Church at 9:30 and Sunday School at 11:00, while grades 4-6 have
     Sunday School at 9:30 and Children's Church at 11:00.
