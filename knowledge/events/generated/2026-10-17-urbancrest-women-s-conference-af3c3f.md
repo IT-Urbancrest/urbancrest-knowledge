@@ -35,7 +35,7 @@ event_start: "2026-10-17T09:00:00-04:00"
 event_end: "2026-10-17T15:00:00-04:00"
 sort_start_utc: "2026-10-17T13:00:00Z"
 sort_end_utc: "2026-10-17T19:00:00Z"
-chronological_rank: 41
+chronological_rank: 40
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
@@ -45,7 +45,7 @@ location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "230615455"
 planning_center_event_time_id: "31936721"
-last_generated: 2026-09-06T22:53:58.580061Z
+last_generated: 2026-09-07T04:43:51.254026Z
 ---
 
 # Urbancrest Women's Conference

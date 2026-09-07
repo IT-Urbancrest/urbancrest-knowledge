@@ -16,21 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-09-06T22:53:59.563851Z
+last_generated: 2026-09-07T04:43:52.457873Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## Sims Family Reunion
-
-**Category:** General Event
-
-**When:** Sunday, September 6, 2026, 12 PM to 9 PM
-
-Detailed event file: `knowledge/events/generated/2026-09-06-sims-family-reunion-93a8fc.md`
 
 ## Men's Summit Meeting
 
@@ -415,6 +407,16 @@ Detailed event file: `knowledge/events/generated/2026-10-11-sunday-morning-servi
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-10-14-wednesday-night-dinner-d9103e.md`
+
+## OPEN GYM Pickleball
+
+**Category:** General Event
+
+**When:** Thursday, October 15, 2026, 6 PM to 8 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2026-10-15-open-gym-pickleball-67f76a.md`
 
 ## Urbancrest Women's Conference
 
