@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-09-07T20:22:22.043455Z",
+  "generated_at": "2026-09-07T20:22:42.108305Z",
   "timezone": "America/New_York",
   "record_count": 452,
   "config": {
@@ -1011,7 +1011,7 @@
         "children"
       ],
       "recommended_contact_staff_key": "sarah_coleman",
-      "show_staff_card_on_schedule_queries": true,
+      "show_staff_card_on_schedule_queries": false,
       "timezone": "America/New_York"
     },
     {
@@ -1254,7 +1254,7 @@
         "children"
       ],
       "recommended_contact_staff_key": "sarah_coleman",
-      "show_staff_card_on_schedule_queries": true,
+      "show_staff_card_on_schedule_queries": false,
       "timezone": "America/New_York"
     },
     {
@@ -1343,7 +1343,7 @@
         "children"
       ],
       "recommended_contact_staff_key": "sarah_coleman",
-      "show_staff_card_on_schedule_queries": true,
+      "show_staff_card_on_schedule_queries": false,
       "timezone": "America/New_York"
     },
     {
@@ -1473,7 +1473,7 @@
         "children"
       ],
       "recommended_contact_staff_key": "sarah_coleman",
-      "show_staff_card_on_schedule_queries": true,
+      "show_staff_card_on_schedule_queries": false,
       "timezone": "America/New_York"
     },
     {
