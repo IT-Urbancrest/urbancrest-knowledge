@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-09-07T19:10:36.876288Z",
+  "generated_at": "2026-09-07T20:10:48.616096Z",
   "timezone": "America/New_York",
-  "record_count": 451,
+  "record_count": 452,
   "config": {
     "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step. For directions requests, include both approved map links.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership Transition\n\nUrbancrest is currently searching for its next Global Missions Pastor.\n\nFor broad or global missions leadership questions:\n\n1. State that Urbancrest is currently searching for its next Global Missions Pastor.\n2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.\n3. Return `jennifer_prows` when one staff card is appropriate.\n4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nState the times found in those authoritative records directly. Do not hardcode service times in runtime application logic or prompt instructions.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
     "style_guide": "# Style Guide\n\n## Writing\n\n- Use short paragraphs.\n- Prefer plain language.\n- Avoid church jargon unless it is explained.\n- Do not use em dashes.\n- Do not use the word meaningful as a filler.\n- Use Small Groups, never Grow Groups.\n- Refer to Urbancrest Church as Urbancrest after the first use.\n- Use believer's baptism by immersion when describing baptism.\n\n## Theology\n\n- Scripture is the final authority.\n- The Baptist Faith and Message 2000 is a helpful doctrinal summary, not equal to Scripture.\n- Salvation is by grace alone through faith alone in Jesus Christ alone.\n- Baptism follows salvation and does not save.\n",
@@ -934,6 +934,87 @@
       ]
     },
     {
+      "id": "schedule.kids.childrens_church",
+      "record_type": "schedule",
+      "path": "registry/schedule.yaml",
+      "title": "Children's Church",
+      "summary": "Children's Church meets Sunday at 9:30 AM; Sunday at 11:00 AM.",
+      "content": "Recurring schedule: Children's Church\nMeeting: Sunday at 9:30 AM\nMeeting: Sunday at 11:00 AM\nAnswer guidance: Children's Church is the large-group format for grades 1-6. Grades 1-3 attend Children's Church at 9:30 AM, and grades 4-6 attend Children's Church at 11:00 AM.",
+      "priority": 122,
+      "category": [
+        "schedule",
+        "ministry_schedule"
+      ],
+      "intents": [
+        "schedule",
+        "weekly_schedule"
+      ],
+      "tags": [
+        "Sunday",
+        "children",
+        "grades 1-6",
+        "large group",
+        "schedule",
+        "recurring",
+        "kids"
+      ],
+      "search_terms": [
+        "Children's Church",
+        "Childrens Church",
+        "Kids Church",
+        "Kid's Church",
+        "Kids Ministry",
+        "kids",
+        "children's ministry",
+        "children",
+        "When does Children's Church meet?",
+        "What time does Children's Church meet?",
+        "What is the Children's Church schedule?"
+      ],
+      "ministries": [
+        "kids"
+      ],
+      "audiences": [],
+      "resources": [],
+      "authoritative": true,
+      "authoritative_for": [
+        "recurring_schedule",
+        "weekly_schedule",
+        "ministry_schedule",
+        "service_times"
+      ],
+      "confidence": "high",
+      "answer_guidance": "Children's Church is the large-group format for grades 1-6. Grades 1-3 attend Children's Church at 9:30 AM, and grades 4-6 attend Children's Church at 11:00 AM.",
+      "schedule_scope": "activity",
+      "meetings": [
+        {
+          "day": "Sunday",
+          "time": "9:30 AM",
+          "grades": "1-3"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM",
+          "grades": "4-6"
+        }
+      ],
+      "schedule_aliases": [
+        "Children's Church",
+        "Childrens Church",
+        "Kids Church",
+        "Kid's Church"
+      ],
+      "ministry_aliases": [
+        "Kids Ministry",
+        "kids",
+        "children's ministry",
+        "children"
+      ],
+      "recommended_contact_staff_key": "sarah_coleman",
+      "show_staff_card_on_schedule_queries": true,
+      "timezone": "America/New_York"
+    },
+    {
       "id": "schedule.students.weekly",
       "record_type": "schedule",
       "path": "registry/schedule.yaml",
@@ -1089,6 +1170,179 @@
       ],
       "seasonal_note": "Regular Student Ministry gatherings pause during the summer while students participate in local missions efforts in the community.",
       "recommended_contact_staff_key": "tucker_howard",
+      "show_staff_card_on_schedule_queries": true,
+      "timezone": "America/New_York"
+    },
+    {
+      "id": "schedule.kids.sunday_school",
+      "record_type": "schedule",
+      "path": "registry/schedule.yaml",
+      "title": "Sunday School",
+      "summary": "Sunday School meets Sunday at 9:30 AM; Sunday at 11:00 AM.",
+      "content": "Recurring schedule: Sunday School\nMeeting: Sunday at 9:30 AM\nMeeting: Sunday at 11:00 AM\nAnswer guidance: For grades 1-6, Sunday School is the small-group format. Grades 4-6 attend Sunday School at 9:30 AM, and grades 1-3 attend Sunday School at 11:00 AM. When describing the full Sunday rotation for grades 1-6, explain that the groups switch formats between services: grades 1-3 have Children's Church at 9:30 and Sunday School at 11:00, while grades 4-6 have Sunday School at 9:30 and Children's Church at 11:00.",
+      "priority": 122,
+      "category": [
+        "schedule",
+        "ministry_schedule"
+      ],
+      "intents": [
+        "schedule",
+        "weekly_schedule"
+      ],
+      "tags": [
+        "Sunday",
+        "children",
+        "grades 1-6",
+        "small group",
+        "schedule",
+        "recurring",
+        "kids"
+      ],
+      "search_terms": [
+        "Sunday School",
+        "Kids Sunday School",
+        "children's Sunday School",
+        "Sunday School classes",
+        "small group",
+        "small groups",
+        "Kids Ministry",
+        "kids",
+        "children's ministry",
+        "children",
+        "When does Sunday School meet?",
+        "What time does Sunday School meet?",
+        "What is the Sunday School schedule?"
+      ],
+      "ministries": [
+        "kids"
+      ],
+      "audiences": [],
+      "resources": [],
+      "authoritative": true,
+      "authoritative_for": [
+        "recurring_schedule",
+        "weekly_schedule",
+        "ministry_schedule",
+        "service_times"
+      ],
+      "confidence": "high",
+      "answer_guidance": "For grades 1-6, Sunday School is the small-group format. Grades 4-6 attend Sunday School at 9:30 AM, and grades 1-3 attend Sunday School at 11:00 AM. When describing the full Sunday rotation for grades 1-6, explain that the groups switch formats between services: grades 1-3 have Children's Church at 9:30 and Sunday School at 11:00, while grades 4-6 have Sunday School at 9:30 and Children's Church at 11:00.",
+      "schedule_scope": "activity",
+      "meetings": [
+        {
+          "day": "Sunday",
+          "time": "9:30 AM",
+          "grades": "4-6"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM",
+          "grades": "1-3"
+        }
+      ],
+      "schedule_aliases": [
+        "Kids Sunday School",
+        "children's Sunday School",
+        "Sunday School classes",
+        "small group",
+        "small groups"
+      ],
+      "ministry_aliases": [
+        "Kids Ministry",
+        "kids",
+        "children's ministry",
+        "children"
+      ],
+      "recommended_contact_staff_key": "sarah_coleman",
+      "show_staff_card_on_schedule_queries": true,
+      "timezone": "America/New_York"
+    },
+    {
+      "id": "schedule.ministry.kids",
+      "record_type": "schedule",
+      "path": "registry/schedule.yaml",
+      "title": "Urbancrest Kids Schedule",
+      "summary": "Urbancrest Kids meets Sunday at 9:30 AM; Sunday at 11:00 AM; Sunday at 9:30 AM; Sunday at 11:00 AM; Wednesday at 6:15 PM.",
+      "content": "Recurring schedules for Urbancrest Kids:\nChildren's Church: Sunday at 9:30 AM; Sunday at 11:00 AM\nSunday School: Sunday at 9:30 AM; Sunday at 11:00 AM\nAWANA: Wednesday at 6:15 PM",
+      "priority": 122,
+      "category": [
+        "schedule",
+        "ministry_schedule"
+      ],
+      "intents": [
+        "schedule",
+        "weekly_schedule",
+        "ministry_schedule"
+      ],
+      "tags": [
+        "schedule",
+        "recurring",
+        "kids",
+        "Urbancrest Kids"
+      ],
+      "search_terms": [
+        "Urbancrest Kids",
+        "Kids Ministry",
+        "kids",
+        "children's ministry",
+        "children",
+        "When does Urbancrest Kids meet?",
+        "What is the Urbancrest Kids schedule?"
+      ],
+      "ministries": [
+        "kids"
+      ],
+      "audiences": [],
+      "resources": [],
+      "authoritative": true,
+      "authoritative_for": [
+        "recurring_schedule",
+        "weekly_schedule",
+        "ministry_schedule",
+        "service_times"
+      ],
+      "confidence": "high",
+      "answer_guidance": "Use this registry as the source of truth for normal recurring service and ministry meeting times. For date-specific exceptions, special events, cancellations, or holiday schedules, prefer matching live calendar data when it explicitly applies to the requested date.",
+      "schedule_scope": "ministry",
+      "meetings": [
+        {
+          "day": "Sunday",
+          "time": "9:30 AM",
+          "grades": "1-3"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM",
+          "grades": "4-6"
+        },
+        {
+          "day": "Sunday",
+          "time": "9:30 AM",
+          "grades": "4-6"
+        },
+        {
+          "day": "Sunday",
+          "time": "11:00 AM",
+          "grades": "1-3"
+        },
+        {
+          "day": "Wednesday",
+          "time": "6:15 PM"
+        }
+      ],
+      "schedule_aliases": [
+        "Kids Ministry",
+        "kids",
+        "children's ministry",
+        "children"
+      ],
+      "ministry_aliases": [
+        "Kids Ministry",
+        "kids",
+        "children's ministry",
+        "children"
+      ],
+      "recommended_contact_staff_key": "sarah_coleman",
       "show_staff_card_on_schedule_queries": true,
       "timezone": "America/New_York"
     },
@@ -1404,165 +1658,12 @@
       "timezone": "America/New_York"
     },
     {
-      "id": "schedule.kids.sunday_school",
-      "record_type": "schedule",
-      "path": "registry/schedule.yaml",
-      "title": "Sunday School",
-      "summary": "Sunday School meets Sunday at 9:30 AM; Sunday at 11:00 AM.",
-      "content": "Recurring schedule: Sunday School\nMeeting: Sunday at 9:30 AM\nMeeting: Sunday at 11:00 AM\nAnswer guidance: Sunday School classes for kids are available during both Sunday morning services.",
-      "priority": 120,
-      "category": [
-        "schedule",
-        "ministry_schedule"
-      ],
-      "intents": [
-        "schedule",
-        "weekly_schedule"
-      ],
-      "tags": [
-        "Sunday",
-        "children",
-        "schedule",
-        "recurring",
-        "kids"
-      ],
-      "search_terms": [
-        "Sunday School",
-        "Kids Sunday School",
-        "children's Sunday School",
-        "Sunday School classes",
-        "Kids Ministry",
-        "kids",
-        "children's ministry",
-        "children",
-        "When does Sunday School meet?",
-        "What time does Sunday School meet?",
-        "What is the Sunday School schedule?"
-      ],
-      "ministries": [
-        "kids"
-      ],
-      "audiences": [],
-      "resources": [],
-      "authoritative": true,
-      "authoritative_for": [
-        "recurring_schedule",
-        "weekly_schedule",
-        "ministry_schedule",
-        "service_times"
-      ],
-      "confidence": "high",
-      "answer_guidance": "Sunday School classes for kids are available during both Sunday morning services.",
-      "schedule_scope": "activity",
-      "meetings": [
-        {
-          "day": "Sunday",
-          "time": "9:30 AM"
-        },
-        {
-          "day": "Sunday",
-          "time": "11:00 AM"
-        }
-      ],
-      "schedule_aliases": [
-        "Kids Sunday School",
-        "children's Sunday School",
-        "Sunday School classes"
-      ],
-      "ministry_aliases": [
-        "Kids Ministry",
-        "kids",
-        "children's ministry",
-        "children"
-      ],
-      "recommended_contact_staff_key": "sarah_coleman",
-      "show_staff_card_on_schedule_queries": true,
-      "timezone": "America/New_York"
-    },
-    {
-      "id": "schedule.ministry.kids",
-      "record_type": "schedule",
-      "path": "registry/schedule.yaml",
-      "title": "Urbancrest Kids Schedule",
-      "summary": "Urbancrest Kids meets Sunday at 9:30 AM; Sunday at 11:00 AM; Wednesday at 6:15 PM.",
-      "content": "Recurring schedules for Urbancrest Kids:\nSunday School: Sunday at 9:30 AM; Sunday at 11:00 AM\nAWANA: Wednesday at 6:15 PM",
-      "priority": 120,
-      "category": [
-        "schedule",
-        "ministry_schedule"
-      ],
-      "intents": [
-        "schedule",
-        "weekly_schedule",
-        "ministry_schedule"
-      ],
-      "tags": [
-        "schedule",
-        "recurring",
-        "kids",
-        "Urbancrest Kids"
-      ],
-      "search_terms": [
-        "Urbancrest Kids",
-        "Kids Ministry",
-        "kids",
-        "children's ministry",
-        "children",
-        "When does Urbancrest Kids meet?",
-        "What is the Urbancrest Kids schedule?"
-      ],
-      "ministries": [
-        "kids"
-      ],
-      "audiences": [],
-      "resources": [],
-      "authoritative": true,
-      "authoritative_for": [
-        "recurring_schedule",
-        "weekly_schedule",
-        "ministry_schedule",
-        "service_times"
-      ],
-      "confidence": "high",
-      "answer_guidance": "Use this registry as the source of truth for normal recurring service and ministry meeting times. For date-specific exceptions, special events, cancellations, or holiday schedules, prefer matching live calendar data when it explicitly applies to the requested date.",
-      "schedule_scope": "ministry",
-      "meetings": [
-        {
-          "day": "Sunday",
-          "time": "9:30 AM"
-        },
-        {
-          "day": "Sunday",
-          "time": "11:00 AM"
-        },
-        {
-          "day": "Wednesday",
-          "time": "6:15 PM"
-        }
-      ],
-      "schedule_aliases": [
-        "Kids Ministry",
-        "kids",
-        "children's ministry",
-        "children"
-      ],
-      "ministry_aliases": [
-        "Kids Ministry",
-        "kids",
-        "children's ministry",
-        "children"
-      ],
-      "recommended_contact_staff_key": "sarah_coleman",
-      "show_staff_card_on_schedule_queries": true,
-      "timezone": "America/New_York"
-    },
-    {
       "id": "schedule.weekly",
       "record_type": "schedule",
       "path": "registry/schedule.yaml",
       "title": "Urbancrest Weekly Service Schedule",
       "summary": "Sunday worship services are at 9:30 AM and 11:00 AM.",
-      "content": "Regular recurring schedule:\nSunday Worship Services: Sunday at 9:30 AM; Sunday at 11:00 AM\nSunday School: Sunday at 9:30 AM; Sunday at 11:00 AM\nAWANA: Wednesday at 6:15 PM\nStudent Ministry: Sunday at 9:30 AM; Wednesday at 6:30 PM\nStudent Ministry seasonal note: Regular Student Ministry gatherings pause during the summer while students participate in local missions efforts in the community.\nAdult Bible Studies: Wednesday at 6:30 PM\nWednesday Night Dinner: Wednesday at 5:30 PM in Gymnasium\nInJoy Adult Sunday School Class: Sunday at 11:30 AM\nLegacy Builders Bears: Second Tuesday of each month\nLegacy Builders Kitchen Ministry Support: Each week\nLegacy Builders Laundry Ministry: Third Wednesday of each month\nLegacy Builders Bernie's Place Meals: Wednesday\nLegacy Builders Spring Mission Trip: Each spring\nLegacy Builders Spring Mission Trip seasonal note: The trip usually lasts four days and serves at a children's home, usually in Tennessee, Virginia, or North Carolina. Exact dates and destinations can vary.\nLegacy Builders Special Events: Every other month",
+      "content": "Regular recurring schedule:\nSunday Worship Services: Sunday at 9:30 AM; Sunday at 11:00 AM\nChildren's Church: Sunday at 9:30 AM; Sunday at 11:00 AM\nSunday School: Sunday at 9:30 AM; Sunday at 11:00 AM\nAWANA: Wednesday at 6:15 PM\nStudent Ministry: Sunday at 9:30 AM; Wednesday at 6:30 PM\nStudent Ministry seasonal note: Regular Student Ministry gatherings pause during the summer while students participate in local missions efforts in the community.\nAdult Bible Studies: Wednesday at 6:30 PM\nWednesday Night Dinner: Wednesday at 5:30 PM in Gymnasium\nInJoy Adult Sunday School Class: Sunday at 11:30 AM\nLegacy Builders Bears: Second Tuesday of each month\nLegacy Builders Kitchen Ministry Support: Each week\nLegacy Builders Laundry Ministry: Third Wednesday of each month\nLegacy Builders Bernie's Place Meals: Wednesday\nLegacy Builders Spring Mission Trip: Each spring\nLegacy Builders Spring Mission Trip seasonal note: The trip usually lasts four days and serves at a children's home, usually in Tennessee, Virginia, or North Carolina. Exact dates and destinations can vary.\nLegacy Builders Special Events: Every other month",
       "priority": 120,
       "category": [
         "schedule",
@@ -5862,8 +5963,8 @@
       "record_type": "knowledge",
       "path": "knowledge/ministries/kids/faq/how-does-kids-check-in-and-check-out-work.md",
       "title": "How does Kids Ministry check-in and check-out work?",
-      "summary": "Families check in at hallway stations, children receive name tags, and an adult must present the matching security tag at pickup.",
-      "content": "# How does Kids Ministry check-in and check-out work?\n\nEvery family checks in at a designated hallway station before entering a classroom. The child receives a printed name tag, and the adult receives a matching checkout tag.\n\nAt pickup, the adult must present the matching tag and state the child's name. If a tag is missing or does not match, the child will remain with the ministry while a Kids Ministry leader or security team member verifies the authorized pickup.",
+      "summary": "Families may check in all of their children at any Kids Ministry check-in station. Each child receives a name label, and adults use the matching security tag for classroom pickup.",
+      "content": "# How does Kids Ministry check-in and check-out work?\n\nCheck-in is available at five locations throughout the 300/400 wing: in front of the nursery, between Rooms 304/305, across from Room 307, across from Rooms 401/402, and just inside the main 400-wing entrance near the elevator.\n\nAll children in your family can be checked in at any location, so families with multiple children do not need to visit a separate check-in station for each classroom or age group.\n\nEach child receives a printed name label, and the adult receives a security tag with a matching code. Check-out takes place at each child's individual classroom. At pickup, present the security tag that matches the code on your child's name label.\n\nIf a security tag is missing or does not match, the child will remain with the ministry while a Kids Ministry leader or security team member verifies the authorized pickup.",
       "priority": 100,
       "category": [
         "ministries",
@@ -5883,6 +5984,9 @@
       ],
       "search_terms": [
         "How do I check my child in?",
+        "Where do I check my kids in?",
+        "Can I check all of my children in at one location?",
+        "Do I need to check each child in near their classroom?",
         "How does Kids Ministry pickup work?",
         "What if I lose my checkout tag?",
         "Do parents need a matching security tag?"
