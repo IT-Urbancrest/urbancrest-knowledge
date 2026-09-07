@@ -1,5 +1,5 @@
-version: '2.1'
-last_updated: '2026-08-08'
+version: '2.2'
+last_updated: '2026-09-07'
 timezone: America/New_York
 authoritative: true
 source_of_truth_for:
@@ -91,6 +91,29 @@ schedules:
     time: 11:00 AM
   answer_guidance: For normal Sunday service-time questions, confidently state that worship services are at 9:30 AM and 11:00
     AM.
+- id: kids.childrens_church
+  ministry: kids
+  name: Children's Church
+  aliases:
+  - Children's Church
+  - Childrens Church
+  - Kids Church
+  - Kid's Church
+  priority: 122
+  tags:
+  - Sunday
+  - children
+  - grades 1-6
+  - large group
+  meetings:
+  - day: Sunday
+    time: 9:30 AM
+    grades: 1-3
+  - day: Sunday
+    time: 11:00 AM
+    grades: 4-6
+  answer_guidance: Children's Church is the large-group format for grades 1-6. Grades 1-3 attend Children's Church at 9:30 AM,
+    and grades 4-6 attend Children's Church at 11:00 AM.
 - id: kids.sunday_school
   ministry: kids
   name: Sunday School
@@ -98,16 +121,25 @@ schedules:
   - Kids Sunday School
   - children's Sunday School
   - Sunday School classes
-  priority: 120
+  - small group
+  - small groups
+  priority: 122
   tags:
   - Sunday
   - children
+  - grades 1-6
+  - small group
   meetings:
   - day: Sunday
     time: 9:30 AM
+    grades: 4-6
   - day: Sunday
     time: 11:00 AM
-  answer_guidance: Sunday School classes for kids are available during both Sunday morning services.
+    grades: 1-3
+  answer_guidance: For grades 1-6, Sunday School is the small-group format. Grades 4-6 attend Sunday School at 9:30 AM, and
+    grades 1-3 attend Sunday School at 11:00 AM. When describing the full Sunday rotation for grades 1-6, explain that the groups
+    switch formats between services: grades 1-3 have Children's Church at 9:30 and Sunday School at 11:00, while grades 4-6 have
+    Sunday School at 9:30 and Children's Church at 11:00.
 - id: kids.awana
   ministry: kids
   name: AWANA
