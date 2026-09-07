@@ -1,5 +1,5 @@
 ---
-version: 1.0
+version: 1.1
 status: published
 category:
 - ministries
@@ -38,8 +38,7 @@ scripture: []
 resources:
 - action_link.plan_visit
 next_steps: []
-last_updated: '2026-08-03'
-recommended_contact_staff_key: mikhael_mastalerz
+last_updated: '2026-09-07'
 related_staff_keys:
 - sarah_coleman
 id: ministries.nursery.check_in_out
