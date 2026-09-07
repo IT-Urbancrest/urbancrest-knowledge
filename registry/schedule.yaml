@@ -1,4 +1,4 @@
-version: '2.2'
+version: '2.3'
 last_updated: '2026-09-07'
 timezone: America/New_York
 authoritative: true
@@ -28,7 +28,7 @@ ministries:
     - children's ministry
     - children
     recommended_contact_staff_key: sarah_coleman
-    show_staff_card_on_schedule_queries: true
+    show_staff_card_on_schedule_queries: false
   students:
     name: Student Ministry
     aliases:
