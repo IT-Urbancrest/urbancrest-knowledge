@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-09-07T20:10:48.616096Z",
+  "generated_at": "2026-09-07T20:22:22.043455Z",
   "timezone": "America/New_York",
   "record_count": 452,
   "config": {
@@ -2154,6 +2154,58 @@
       "authoritative": true
     },
     {
+      "id": "ministries.kids.check_in_out",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/kids/faq/how-does-kids-check-in-and-check-out-work.md",
+      "title": "How does Kids Ministry check-in and check-out work?",
+      "summary": "Families may check in all of their children at any Kids Ministry check-in station. Each child receives a name label, and adults use the matching security tag for classroom pickup.",
+      "content": "# How does Kids Ministry check-in and check-out work?\n\nCheck-in is available at five locations throughout the 300/400 wing: in front of the nursery, between Rooms 304/305, across from Room 307, across from Rooms 401/402, and just inside the main 400-wing entrance near the elevator.\n\nAll children in your family can be checked in at any location, so families with multiple children do not need to visit a separate check-in station for each classroom or age group.\n\nEach child receives a printed name label, and the adult receives a security tag with a matching code. Check-out takes place at each child's individual classroom. At pickup, present the security tag that matches the code on your child's name label.\n\nIf a security tag is missing or does not match, the child will remain with the ministry while a Kids Ministry leader or security team member verifies the authorized pickup.",
+      "priority": 115,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "kids_check_in",
+        "kids_check_out",
+        "child_security"
+      ],
+      "tags": [
+        "Urbancrest Kids",
+        "Kids Ministry",
+        "children",
+        "safety",
+        "check-in",
+        "check-out"
+      ],
+      "search_terms": [
+        "How do I check my child in?",
+        "Where do I check my kids in?",
+        "Where are the check-in stations?",
+        "Where are the check-in stations located?",
+        "Where are Kids Ministry check-in stations?",
+        "Can I check all of my children in at one location?",
+        "Do I need to check each child in near their classroom?",
+        "How does Kids Ministry pickup work?",
+        "What if I lose my checkout tag?",
+        "Do parents need a matching security tag?"
+      ],
+      "ministries": [
+        "kids",
+        "preschool",
+        "nursery"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [],
+      "status": "published",
+      "confidence": "high"
+    },
+    {
       "id": "ministries.local_missions.red_barn",
       "record_type": "knowledge",
       "path": "knowledge/ministries/local-missions/red-barn.md",
@@ -4230,7 +4282,6 @@
         "action_link.plan_visit"
       ],
       "status": "published",
-      "recommended_contact_staff_key": "mikhael_mastalerz",
       "related_staff_keys": [
         "sarah_coleman"
       ],
@@ -5956,54 +6007,6 @@
         "church_center.small_groups"
       ],
       "status": "published",
-      "confidence": "high"
-    },
-    {
-      "id": "ministries.kids.check_in_out",
-      "record_type": "knowledge",
-      "path": "knowledge/ministries/kids/faq/how-does-kids-check-in-and-check-out-work.md",
-      "title": "How does Kids Ministry check-in and check-out work?",
-      "summary": "Families may check in all of their children at any Kids Ministry check-in station. Each child receives a name label, and adults use the matching security tag for classroom pickup.",
-      "content": "# How does Kids Ministry check-in and check-out work?\n\nCheck-in is available at five locations throughout the 300/400 wing: in front of the nursery, between Rooms 304/305, across from Room 307, across from Rooms 401/402, and just inside the main 400-wing entrance near the elevator.\n\nAll children in your family can be checked in at any location, so families with multiple children do not need to visit a separate check-in station for each classroom or age group.\n\nEach child receives a printed name label, and the adult receives a security tag with a matching code. Check-out takes place at each child's individual classroom. At pickup, present the security tag that matches the code on your child's name label.\n\nIf a security tag is missing or does not match, the child will remain with the ministry while a Kids Ministry leader or security team member verifies the authorized pickup.",
-      "priority": 100,
-      "category": [
-        "ministries",
-        "faq"
-      ],
-      "intents": [
-        "ministry_info",
-        "kids_check_in",
-        "kids_check_out",
-        "child_security"
-      ],
-      "tags": [
-        "Urbancrest Kids",
-        "Kids Ministry",
-        "children",
-        "safety"
-      ],
-      "search_terms": [
-        "How do I check my child in?",
-        "Where do I check my kids in?",
-        "Can I check all of my children in at one location?",
-        "Do I need to check each child in near their classroom?",
-        "How does Kids Ministry pickup work?",
-        "What if I lose my checkout tag?",
-        "Do parents need a matching security tag?"
-      ],
-      "ministries": [
-        "kids",
-        "preschool",
-        "nursery"
-      ],
-      "audiences": [
-        "visitor",
-        "attendee",
-        "member"
-      ],
-      "resources": [],
-      "status": "published",
-      "recommended_contact_staff_key": "sarah_coleman",
       "confidence": "high"
     },
     {
