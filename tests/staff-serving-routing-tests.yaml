@@ -1,7 +1,7 @@
-version: '1.1'
+version: '1.2'
 suite: staff_and_serving_routing
 last_updated: '2026-09-07'
-purpose: Verify conservative staff-card routing, finance ownership, serving next-step action links, and staff-free Kids logistics answers.
+purpose: Verify conservative staff-card routing, finance ownership, serving next-step action links, staff-free Kids logistics answers, and explicit Kids contact routing.
 
 tests:
 - name: church finances resolves Tanya
@@ -64,6 +64,14 @@ tests:
     must_not_staff_key:
     - sarah_coleman
     - mikhael_mastalerz
+
+- name: explicit Kids check-in help resolves current point person
+  query: Who can help me with check-in?
+  expected:
+    first_record_id: ministries.kids.check_in_contact
+    staff_key: sarah_coleman
+    answer_must_include:
+    - Sarah Coleman
 
 - name: Children's Church schedule has no staff card
   query: What time is Children's Church?
