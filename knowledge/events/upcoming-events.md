@@ -16,21 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-09-08T16:39:29.707167Z
+last_generated: 2026-09-08T21:10:27.786064Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## Men's Summit Meeting
-
-**Category:** Major Event
-
-**When:** Tuesday, September 8, 2026, 1 PM to 2 PM
-
-Detailed event file: `knowledge/events/generated/2026-09-08-men-s-summit-meeting-bb21d0.md`
 
 ## Wednesday Night Dinner
 
@@ -439,6 +431,16 @@ Detailed event file: `knowledge/events/generated/2026-10-17-urbancrest-women-s-c
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-10-18-p-u-r-s-u-e-2350e7.md`
+
+## Sunday Morning Services: 9:30 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, October 18, 2026, 9:30 AM to 10:40 AM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2026-10-18-sunday-morning-services-9-30-am-service-d0a2ae.md`
 
 ## Wednesday Night Dinner
 
