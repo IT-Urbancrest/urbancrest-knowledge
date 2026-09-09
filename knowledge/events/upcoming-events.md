@@ -16,23 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-09-09T20:56:37.333749Z
+last_generated: 2026-09-09T23:16:11.557830Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## Wednesday Night Dinner
-
-**Category:** Churchwide Program
-
-**When:** Wednesday, September 9, 2026, 5:30 PM to 6:15 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-09-09-wednesday-night-dinner-f2ed46.md`
 
 ## Awana 2026-2027
 
@@ -431,6 +421,16 @@ Detailed event file: `knowledge/events/generated/2026-10-17-urbancrest-women-s-c
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-10-18-p-u-r-s-u-e-2350e7.md`
+
+## Sunday Morning Services: 9:30 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, October 18, 2026, 9:30 AM to 10:40 AM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2026-10-18-sunday-morning-services-9-30-am-service-d0a2ae.md`
 
 ## Wednesday Night Dinner
 
