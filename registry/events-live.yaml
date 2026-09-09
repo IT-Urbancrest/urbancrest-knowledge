@@ -1,5 +1,5 @@
 version: 1.5.4
-generated_at: '2026-09-09T11:25:01.792609Z'
+generated_at: '2026-09-09T16:39:52.545369Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
@@ -2210,11 +2210,20 @@ events:
   location: 'Butler Springs Christian Camp - 3701 State Rte 41
 
     Hillsboro, OH 45133'
-  description: November 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area
+  description: 'November 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area
     of our lives!
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/3790005'
+  details: 'November 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area
+    of our lives!
+
+
+    Registration is open.'
+  details_source: planning_center_registrations_api
   planning_center_event_instance_id: '230487173'
   planning_center_event_time_id: '31924846'
-  image_url: https://registrations-production.s3.amazonaws.com/uploads/event/logo/3790005/medium_image-1785514673084.jpeg
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3790005/reservations/new
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1789012800&key=uploads%2Fevent%2Flogo%2F3790005%2Fimage-1785514673084.jpeg&thumb=720x405%23&version=1788966560&signature=9f081450a610ae3835f39bd2f44cc9d3a935c95752ac1771b37415322cc3ab31
   ministries:
   - students
   audiences:
@@ -2229,17 +2238,17 @@ events:
   knowledge_file: knowledge/events/generated/2026-11-13-youth-fall-retreat-99f87a.md
   event_sources:
   - planning_center_ical
+  - planning_center_calendar_api
   - planning_center_registrations_api
   event_source: merged
   planning_center_signup_id: '3790005'
   planning_center_signup_time_id: '6359723'
-  registration_url: https://urbancrest.churchcenter.com/registrations/events/3790005/reservations/new
   registration_available: true
   registration_open: true
   registration_closed: false
   registration_at_maximum_capacity: null
   registration_open_at: '2026-07-31T14:40:11Z'
-  registration_close_at: null
+  registration_close_at: '2026-10-29T04:00:00Z'
   registration_maximum_capacity: null
   registration_categories: []
   registration_options:
@@ -2259,12 +2268,6 @@ events:
     price_formatted: '0'
     at_maximum_capacity: false
     waitlist: false
-  details: 'November 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area
-    of our lives!
-
-
-    Registration is open.'
-  details_source: planning_center_registrations_api
   location_structured:
     name: Butler Springs Christian Camp
     address: '3701 State Rte 41
@@ -3353,7 +3356,7 @@ events:
   registration_closed: false
   registration_at_maximum_capacity: null
   registration_open_at: '2026-07-24T04:00:00Z'
-  registration_close_at: null
+  registration_close_at: '2027-01-01T05:00:00Z'
   registration_maximum_capacity: null
   registration_categories:
   - Students (Grades 7-12)

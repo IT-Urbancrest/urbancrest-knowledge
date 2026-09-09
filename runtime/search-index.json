@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-09-09T11:25:03.141938Z",
+  "generated_at": "2026-09-09T16:39:53.806489Z",
   "timezone": "America/New_York",
   "record_count": 453,
   "config": {
@@ -90,7 +90,7 @@
   },
   "freshness": {
     "calendar": {
-      "generated_at": "2026-09-09T11:25:01.792609Z",
+      "generated_at": "2026-09-09T16:39:52.545369Z",
       "max_age_hours": 48,
       "source_path": "registry/events-live.yaml",
       "heartbeat_field": "generated_at",
@@ -98,7 +98,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-09-09T11:25:00.733074Z",
+      "generated_at": "2026-09-09T16:39:51.333422Z",
       "max_age_hours": 48,
       "source_path": "registry/small-groups-live.yaml",
       "heartbeat_field": "generated_at",
@@ -5178,7 +5178,7 @@
       "path": "knowledge/events/generated/2026-11-13-youth-fall-retreat-99f87a.md",
       "title": "Youth Fall Retreat",
       "summary": "November 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area of our lives!",
-      "content": "November 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area of our lives!\n\nDetails:\nNovember 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area of our lives!\n\nRegistration is open.",
+      "content": "November 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area of our lives!\nRegister: https://urbancrest.churchcenter.com/registrations/events/3790005\n\nDetails:\nNovember 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area of our lives!\n\nRegistration is open.",
       "priority": 100,
       "category": [
         "events",
@@ -5248,6 +5248,7 @@
       "registration_open": true,
       "registration_closed": false,
       "registration_open_at": "2026-07-31T14:40:11Z",
+      "registration_close_at": "2026-10-29T04:00:00Z",
       "registration_options": [
         {
           "id": "8660665",
@@ -5273,9 +5274,10 @@
       "event_source": "merged",
       "event_sources": [
         "planning_center_ical",
+        "planning_center_calendar_api",
         "planning_center_registrations_api"
       ],
-      "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3790005/medium_image-1785514673084.jpeg",
+      "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1789012800&key=uploads%2Fevent%2Flogo%2F3790005%2Fimage-1785514673084.jpeg&thumb=720x405%23&version=1788966560&signature=9f081450a610ae3835f39bd2f44cc9d3a935c95752ac1771b37415322cc3ab31",
       "knowledge_file": "knowledge/events/generated/2026-11-13-youth-fall-retreat-99f87a.md",
       "chronological_rank": 49,
       "routine_schedule_occurrence": false
@@ -18102,6 +18104,7 @@
       "registration_open": true,
       "registration_closed": false,
       "registration_open_at": "2026-07-24T04:00:00Z",
+      "registration_close_at": "2027-01-01T05:00:00Z",
       "registration_categories": [
         "Students (Grades 7-12)"
       ],
