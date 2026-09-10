@@ -35,14 +35,14 @@ event_start: "2026-10-10T08:00:00-04:00"
 event_end: "2026-10-10T17:00:00-04:00"
 sort_start_utc: "2026-10-10T12:00:00Z"
 sort_end_utc: "2026-10-10T21:00:00Z"
-chronological_rank: 32
+chronological_rank: 31
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "234607566"
 planning_center_event_time_id: "32547092"
-last_generated: 2026-09-09T23:16:10.613695Z
+last_generated: 2026-09-10T04:44:40.683930Z
 ---
 
 # Ohio Detectorists Association

@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-09-09T23:16:12.809757Z",
+  "generated_at": "2026-09-10T04:44:42.995497Z",
   "timezone": "America/New_York",
   "record_count": 453,
   "config": {
@@ -90,7 +90,7 @@
   },
   "freshness": {
     "calendar": {
-      "generated_at": "2026-09-09T23:16:11.557830Z",
+      "generated_at": "2026-09-10T04:44:41.770547Z",
       "max_age_hours": 48,
       "source_path": "registry/events-live.yaml",
       "heartbeat_field": "generated_at",
@@ -98,7 +98,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-09-09T23:16:10.613695Z",
+      "generated_at": "2026-09-10T04:44:40.683930Z",
       "max_age_hours": 48,
       "source_path": "registry/small-groups-live.yaml",
       "heartbeat_field": "generated_at",
@@ -5169,7 +5169,7 @@
       ],
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3791849/medium_image-1785669189641.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-10-17-urbancrest-women-s-conference-af3c3f.md",
-      "chronological_rank": 38,
+      "chronological_rank": 37,
       "routine_schedule_occurrence": false
     },
     {
@@ -13343,123 +13343,6 @@
       "routine_schedule_occurrence": false
     },
     {
-      "id": "events.live.event-a15a9379d2ca71ea",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-09-09-awana-2026-2027-ca71ea.md",
-      "title": "Awana 2026-2027",
-      "summary": "**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05** Approved Workmen Are Not Ashamed (A.W.A.N.A.) A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has...",
-      "content": "**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05**\n\nApproved Workmen Are Not Ashamed (A.W.A.N.A.)\n\nA program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.\n\nMeets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm\n\nSTART ANYTIME throughout the year!\n\nDinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.\nRegister: https://urbancrest.churchcenter.com/registrations/events/3737699\n\nDetails:\n**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05** \n\nApproved Workmen Are Not Ashamed (A.W.A.N.A.)\n\nA program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.\n\nMeets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm \n\nSTART ANYTIME throughout the year!\n\nDinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.\n\nRegistration is open.",
-      "priority": 80,
-      "category": [
-        "events",
-        "churchwide_program"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "churchwide_program",
-        "Awana 2026-2027"
-      ],
-      "search_terms": [
-        "Awana 2026-2027",
-        "When is Awana 2026-2027?",
-        "Tell me about Awana 2026-2027",
-        "What are the details for Awana 2026-2027?",
-        "What is the menu for Awana 2026-2027?",
-        "How do I register for Awana 2026-2027?",
-        "Does Urbancrest have Awana 2026-2027?",
-        "Does Urbancrest offer Awana 2026-2027?",
-        "Do you have Awana 2026-2027?",
-        "Do you offer Awana 2026-2027?",
-        "Is there Awana 2026-2027 at Urbancrest?",
-        "Can I participate in Awana 2026-2027?",
-        "Can I play Awana 2026-2027 at Urbancrest?"
-      ],
-      "ministries": [
-        "kids",
-        "men",
-        "volunteer"
-      ],
-      "audiences": [
-        "children",
-        "men",
-        "volunteers",
-        "all"
-      ],
-      "resources": [],
-      "event_id": "event-a15a9379d2ca71ea",
-      "activity_aliases": [
-        "Awana 2026-2027"
-      ],
-      "event_category": "churchwide_program",
-      "event_start": "2026-09-09T18:15:00-04:00",
-      "event_end": "2026-09-09T19:30:00-04:00",
-      "sort_start_utc": "2026-09-09T22:15:00Z",
-      "sort_end_utc": "2026-09-09T23:30:00Z",
-      "display_when": "Wednesday, September 9, 2026, 6:15 PM to 7:30 PM",
-      "all_day": false,
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "location_structured": {
-        "name": "Urbancrest At Lebanon",
-        "address": "2634 Drake Road\nLebanon, OH 45036",
-        "latitude": "39.4748875",
-        "longitude": "-84.1793592"
-      },
-      "details": "**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person any Wednesday at 6:05** \n\nApproved Workmen Are Not Ashamed (A.W.A.N.A.)\n\nA program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.\n\nMeets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm \n\nSTART ANYTIME throughout the year!\n\nDinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.\n\nRegistration is open.",
-      "details_source": "planning_center_registrations_api",
-      "planning_center_event_instance_id": "227855430",
-      "planning_center_event_time_id": "31487702",
-      "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3737699/reservations/new",
-      "registration_available": true,
-      "registration_open": true,
-      "registration_closed": false,
-      "registration_open_at": "2026-07-06T04:00:00Z",
-      "registration_categories": [
-        "Kids (4 yrs. - 6th Grade)"
-      ],
-      "registration_options": [
-        {
-          "id": "8537769",
-          "name": "Clubber",
-          "price_cents": 0,
-          "price_currency": "USD",
-          "price_currency_symbol": "$",
-          "price_formatted": "0",
-          "at_maximum_capacity": false,
-          "waitlist": false
-        },
-        {
-          "id": "8537770",
-          "name": "Volunteer",
-          "price_cents": 0,
-          "price_currency": "USD",
-          "price_currency_symbol": "$",
-          "price_formatted": "0",
-          "at_maximum_capacity": false,
-          "waitlist": false
-        }
-      ],
-      "event_source": "merged",
-      "event_sources": [
-        "planning_center_ical",
-        "planning_center_calendar_api",
-        "planning_center_registrations_api"
-      ],
-      "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3737699/medium_image-1600369375660.jpeg",
-      "knowledge_file": "knowledge/events/generated/2026-09-09-awana-2026-2027-ca71ea.md",
-      "chronological_rank": 1,
-      "routine_schedule_occurrence": false
-    },
-    {
       "id": "events.live.event-5ee7e8f2ebdec2d7",
       "record_type": "event",
       "path": "knowledge/events/generated/2026-10-03-men-s-breakfast-dec2d7.md",
@@ -13525,7 +13408,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=058d17f1b81369bc1275502f9bfab7c3324ca5b970a6a39720a87348da9b781e",
       "knowledge_file": "knowledge/events/generated/2026-10-03-men-s-breakfast-dec2d7.md",
-      "chronological_rank": 23,
+      "chronological_rank": 22,
       "routine_schedule_occurrence": false
     },
     {
@@ -14387,7 +14270,7 @@
       "info_url": "https://registrations-production.s3.amazonaws.com/uploads/image/file/437162/9f82e639924a58965b5c00b4504caa1c.jpg?content-disposition=attachment",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1787976000&key=uploads%2Fevent%2Flogo%2F3849948%2Fimage-1752240922469.jpeg&thumb=720x405%23&version=1787924083&signature=a0d90fbd41c6e9ebfbc39142f70d307f9e3e520662909f7308ef56e015b2fa06",
       "knowledge_file": "knowledge/events/generated/2026-10-03-men-s-cornhole-bbq-c05019.md",
-      "chronological_rank": 24,
+      "chronological_rank": 23,
       "routine_schedule_occurrence": false
     },
     {
@@ -14491,7 +14374,7 @@
       ],
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1788451200&key=uploads%2Fevent%2Flogo%2F3755569%2Fimage-1784126802561.jpeg&thumb=720x405%23&version=1788368236&signature=233e7df1a2a4650967513321d18dbfb90f05a1da8a15cc138d1b987970c9968a",
       "knowledge_file": "knowledge/events/generated/2026-10-04-night-of-worship-choir-2a753e.md",
-      "chronological_rank": 28,
+      "chronological_rank": 27,
       "routine_schedule_occurrence": false
     },
     {
@@ -14559,7 +14442,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-13-p-u-r-s-u-e-300fb0.md",
-      "chronological_rank": 3,
+      "chronological_rank": 2,
       "routine_schedule_occurrence": false
     },
     {
@@ -14627,7 +14510,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-20-p-u-r-s-u-e-f8f18d.md",
-      "chronological_rank": 9,
+      "chronological_rank": 8,
       "routine_schedule_occurrence": false
     },
     {
@@ -14695,7 +14578,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-27-p-u-r-s-u-e-724217.md",
-      "chronological_rank": 16,
+      "chronological_rank": 15,
       "routine_schedule_occurrence": false
     },
     {
@@ -14763,7 +14646,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-04-p-u-r-s-u-e-e5c34f.md",
-      "chronological_rank": 25,
+      "chronological_rank": 24,
       "routine_schedule_occurrence": false
     },
     {
@@ -14831,7 +14714,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-11-p-u-r-s-u-e-8f8f87.md",
-      "chronological_rank": 33,
+      "chronological_rank": 32,
       "routine_schedule_occurrence": false
     },
     {
@@ -14899,7 +14782,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-18-p-u-r-s-u-e-2350e7.md",
-      "chronological_rank": 39,
+      "chronological_rank": 38,
       "routine_schedule_occurrence": false
     },
     {
@@ -18248,7 +18131,7 @@
       ],
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3732292/medium_image-1782929258210.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-09-26-waynesville-fall-fest-5aaab7.md",
-      "chronological_rank": 15,
+      "chronological_rank": 14,
       "routine_schedule_occurrence": false
     },
     {
@@ -18424,7 +18307,7 @@
       ],
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1787889600&key=uploads%2Fevent%2Flogo%2F3848043%2Fimage-1787747623394.jpeg&thumb=720x405%23&version=1787747843&signature=11aa145e5e471c884eb4c619680518f30e2765f0a1005fc7da03cab6eeae360c",
       "knowledge_file": "knowledge/events/generated/2026-09-27-women-s-fall-fest-3b206f.md",
-      "chronological_rank": 19,
+      "chronological_rank": 18,
       "routine_schedule_occurrence": false
     },
     {
@@ -18494,7 +18377,7 @@
       "planning_center_event_time_id": "27323022",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-27-women-s-fall-fest-8698aa.md",
-      "chronological_rank": 20,
+      "chronological_rank": 19,
       "routine_schedule_occurrence": false
     },
     {
@@ -19324,7 +19207,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=0b8c190d56325cbe0983da665c529dd8556e161d746bb60b6cb3d5a931891e63",
       "knowledge_file": "knowledge/events/generated/2026-09-16-wednesday-night-dinner-89e119.md",
-      "chronological_rank": 7,
+      "chronological_rank": 6,
       "routine_schedule_occurrence": false
     },
     {
@@ -19395,7 +19278,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=0b8c190d56325cbe0983da665c529dd8556e161d746bb60b6cb3d5a931891e63",
       "knowledge_file": "knowledge/events/generated/2026-09-23-wednesday-night-dinner-c7bf0d.md",
-      "chronological_rank": 13,
+      "chronological_rank": 12,
       "routine_schedule_occurrence": false
     },
     {
@@ -19466,7 +19349,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=0b8c190d56325cbe0983da665c529dd8556e161d746bb60b6cb3d5a931891e63",
       "knowledge_file": "knowledge/events/generated/2026-09-30-wednesday-night-dinner-36f49b.md",
-      "chronological_rank": 21,
+      "chronological_rank": 20,
       "routine_schedule_occurrence": false
     },
     {
@@ -19537,7 +19420,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=0b8c190d56325cbe0983da665c529dd8556e161d746bb60b6cb3d5a931891e63",
       "knowledge_file": "knowledge/events/generated/2026-10-07-wednesday-night-dinner-9fc5ad.md",
-      "chronological_rank": 30,
+      "chronological_rank": 29,
       "routine_schedule_occurrence": false
     },
     {
@@ -19608,7 +19491,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=0b8c190d56325cbe0983da665c529dd8556e161d746bb60b6cb3d5a931891e63",
       "knowledge_file": "knowledge/events/generated/2026-10-14-wednesday-night-dinner-d9103e.md",
-      "chronological_rank": 36,
+      "chronological_rank": 35,
       "routine_schedule_occurrence": false
     },
     {
@@ -23242,7 +23125,7 @@
       "planning_center_event_time_id": "28363612",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-06-card-ministry-8e6732.md",
-      "chronological_rank": 29,
+      "chronological_rank": 28,
       "routine_schedule_occurrence": false
     },
     {
@@ -23310,7 +23193,7 @@
       "planning_center_event_time_id": "30414252",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-22-guest-services-team-meeting-681d28.md",
-      "chronological_rank": 12,
+      "chronological_rank": 11,
       "routine_schedule_occurrence": false
     },
     {
@@ -23379,7 +23262,7 @@
       "planning_center_event_time_id": "16193422",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-16-monthly-baskets-of-hope-volunteers-77387f.md",
-      "chronological_rank": 6,
+      "chronological_rank": 5,
       "routine_schedule_occurrence": false
     },
     {
@@ -23447,7 +23330,7 @@
       "planning_center_event_time_id": "32547092",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-10-ohio-detectorists-association-23f9ee.md",
-      "chronological_rank": 32,
+      "chronological_rank": 31,
       "routine_schedule_occurrence": false
     },
     {
@@ -23545,7 +23428,7 @@
       "planning_center_event_time_id": "29468516",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-10-open-gym-pickleball-fe7030.md",
-      "chronological_rank": 2,
+      "chronological_rank": 1,
       "routine_schedule_occurrence": false
     },
     {
@@ -23643,7 +23526,7 @@
       "planning_center_event_time_id": "29468516",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-17-open-gym-pickleball-556aa9.md",
-      "chronological_rank": 8,
+      "chronological_rank": 7,
       "routine_schedule_occurrence": false
     },
     {
@@ -23741,7 +23624,7 @@
       "planning_center_event_time_id": "29468516",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-24-open-gym-pickleball-309c7f.md",
-      "chronological_rank": 14,
+      "chronological_rank": 13,
       "routine_schedule_occurrence": false
     },
     {
@@ -23839,7 +23722,7 @@
       "planning_center_event_time_id": "29468516",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-01-open-gym-pickleball-0cfa47.md",
-      "chronological_rank": 22,
+      "chronological_rank": 21,
       "routine_schedule_occurrence": false
     },
     {
@@ -23937,7 +23820,7 @@
       "planning_center_event_time_id": "29468516",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-08-open-gym-pickleball-4d6218.md",
-      "chronological_rank": 31,
+      "chronological_rank": 30,
       "routine_schedule_occurrence": false
     },
     {
@@ -24035,7 +23918,7 @@
       "planning_center_event_time_id": "29468516",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-15-open-gym-pickleball-67f76a.md",
-      "chronological_rank": 37,
+      "chronological_rank": 36,
       "routine_schedule_occurrence": false
     },
     {
@@ -24120,7 +24003,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-13-sunday-morning-services-11-00-am-service-153e7f.md",
-      "chronological_rank": 5,
+      "chronological_rank": 4,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24193,7 +24076,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-20-sunday-morning-services-11-00-am-service-9ace48.md",
-      "chronological_rank": 11,
+      "chronological_rank": 10,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24266,7 +24149,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-27-sunday-morning-services-11-00-am-service-b8b3b1.md",
-      "chronological_rank": 18,
+      "chronological_rank": 17,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24339,7 +24222,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-04-sunday-morning-services-11-00-am-service-391224.md",
-      "chronological_rank": 27,
+      "chronological_rank": 26,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24412,7 +24295,80 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-11-sunday-morning-services-11-00-am-service-31230b.md",
-      "chronological_rank": 35,
+      "chronological_rank": 34,
+      "routine_schedule_occurrence": true,
+      "retrieval_exclude_for_intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ]
+    },
+    {
+      "id": "events.live.event-5c4d09b7bec4ad2d",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-10-18-sunday-morning-services-11-00-am-service-c4ad2d.md",
+      "title": "Sunday Morning Services: 11:00 AM Service",
+      "summary": "Join us in person or online!...",
+      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
+      "priority": 20,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "general_event",
+        "Sunday Morning Services: 11:00 AM Service"
+      ],
+      "search_terms": [
+        "Sunday Morning Services: 11:00 AM Service",
+        "When is Sunday Morning Services: 11:00 AM Service?",
+        "Tell me about Sunday Morning Services: 11:00 AM Service",
+        "What are the details for Sunday Morning Services: 11:00 AM Service?",
+        "What is the menu for Sunday Morning Services: 11:00 AM Service?",
+        "How do I register for Sunday Morning Services: 11:00 AM Service?",
+        "Does Urbancrest have Sunday Morning Services: 11:00 AM Service?",
+        "Does Urbancrest offer Sunday Morning Services: 11:00 AM Service?",
+        "Do you have Sunday Morning Services: 11:00 AM Service?",
+        "Do you offer Sunday Morning Services: 11:00 AM Service?",
+        "Is there Sunday Morning Services: 11:00 AM Service at Urbancrest?",
+        "Can I participate in Sunday Morning Services: 11:00 AM Service?",
+        "Can I play Sunday Morning Services: 11:00 AM Service at Urbancrest?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-5c4d09b7bec4ad2d",
+      "activity_aliases": [
+        "Sunday Morning Services: 11:00 AM Service"
+      ],
+      "event_category": "general_event",
+      "event_start": "2026-10-18T11:00:00-04:00",
+      "event_end": "2026-10-18T12:10:00-04:00",
+      "sort_start_utc": "2026-10-18T15:00:00Z",
+      "sort_end_utc": "2026-10-18T16:10:00Z",
+      "display_when": "Sunday, October 18, 2026, 11 AM to 12:10 PM",
+      "all_day": false,
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "planning_center_event_instance_id": "169990120",
+      "planning_center_event_time_id": "9127132",
+      "registration_available": false,
+      "knowledge_file": "knowledge/events/generated/2026-10-18-sunday-morning-services-11-00-am-service-c4ad2d.md",
+      "chronological_rank": 40,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24485,7 +24441,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-13-sunday-morning-services-9-30-am-service-b32add.md",
-      "chronological_rank": 4,
+      "chronological_rank": 3,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24558,7 +24514,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-20-sunday-morning-services-9-30-am-service-25697d.md",
-      "chronological_rank": 10,
+      "chronological_rank": 9,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24631,7 +24587,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-27-sunday-morning-services-9-30-am-service-a45069.md",
-      "chronological_rank": 17,
+      "chronological_rank": 16,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24704,7 +24660,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-04-sunday-morning-services-9-30-am-service-160a39.md",
-      "chronological_rank": 26,
+      "chronological_rank": 25,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24777,7 +24733,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-11-sunday-morning-services-9-30-am-service-0b689c.md",
-      "chronological_rank": 34,
+      "chronological_rank": 33,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24850,7 +24806,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-18-sunday-morning-services-9-30-am-service-d0a2ae.md",
-      "chronological_rank": 40,
+      "chronological_rank": 39,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -25015,7 +24971,7 @@
       "path": "knowledge/small-groups/generated/p-u-r-s-u-e-567dcc.md",
       "title": "P U R S U E",
       "summary": "Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.",
-      "content": "Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.\n\nUpcoming meetings:\nWednesday, September 9, 2026, 6:30 PM to 8:30 PM\nWednesday, September 16, 2026, 6:30 PM to 8:30 PM\nWednesday, September 23, 2026, 6:30 PM to 8:30 PM\nWednesday, September 30, 2026, 6:30 PM to 8:30 PM\nWednesday, October 7, 2026, 6:30 PM to 8:30 PM\nWednesday, October 14, 2026, 6:30 PM to 8:30 PM\nWednesday, October 21, 2026, 6:30 PM to 8:30 PM\nWednesday, October 28, 2026, 6:30 PM to 8:30 PM\nWednesday, November 4, 2026, 6:30 PM to 8:30 PM\nWednesday, November 11, 2026, 6:30 PM to 8:30 PM\nWednesday, November 18, 2026, 6:30 PM to 8:30 PM\nWednesday, November 25, 2026, 6:30 PM to 8:30 PM",
+      "content": "Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.\n\nUpcoming meetings:\nWednesday, September 16, 2026, 6:30 PM to 8:30 PM\nWednesday, September 23, 2026, 6:30 PM to 8:30 PM\nWednesday, September 30, 2026, 6:30 PM to 8:30 PM\nWednesday, October 7, 2026, 6:30 PM to 8:30 PM\nWednesday, October 14, 2026, 6:30 PM to 8:30 PM\nWednesday, October 21, 2026, 6:30 PM to 8:30 PM\nWednesday, October 28, 2026, 6:30 PM to 8:30 PM\nWednesday, November 4, 2026, 6:30 PM to 8:30 PM\nWednesday, November 11, 2026, 6:30 PM to 8:30 PM\nWednesday, November 18, 2026, 6:30 PM to 8:30 PM\nWednesday, November 25, 2026, 6:30 PM to 8:30 PM\nWednesday, December 2, 2026, 6:30 PM to 8:30 PM",
       "priority": 20,
       "category": [
         "small_groups"
@@ -25048,22 +25004,14 @@
       "resources": [],
       "group_id": "group-d895be1a40567dcc",
       "next_meeting": {
-        "start": "2026-09-09T18:30:00-04:00",
-        "end": "2026-09-09T20:30:00-04:00",
-        "sort_start_utc": "2026-09-09T22:30:00Z",
-        "sort_end_utc": "2026-09-10T00:30:00Z",
-        "display_when": "Wednesday, September 9, 2026, 6:30 PM to 8:30 PM",
+        "start": "2026-09-16T18:30:00-04:00",
+        "end": "2026-09-16T20:30:00-04:00",
+        "sort_start_utc": "2026-09-16T22:30:00Z",
+        "sort_end_utc": "2026-09-17T00:30:00Z",
+        "display_when": "Wednesday, September 16, 2026, 6:30 PM to 8:30 PM",
         "all_day": false
       },
       "future_meetings": [
-        {
-          "start": "2026-09-09T18:30:00-04:00",
-          "end": "2026-09-09T20:30:00-04:00",
-          "sort_start_utc": "2026-09-09T22:30:00Z",
-          "sort_end_utc": "2026-09-10T00:30:00Z",
-          "display_when": "Wednesday, September 9, 2026, 6:30 PM to 8:30 PM",
-          "all_day": false
-        },
         {
           "start": "2026-09-16T18:30:00-04:00",
           "end": "2026-09-16T20:30:00-04:00",
@@ -25151,11 +25099,19 @@
           "sort_end_utc": "2026-11-26T01:30:00Z",
           "display_when": "Wednesday, November 25, 2026, 6:30 PM to 8:30 PM",
           "all_day": false
+        },
+        {
+          "start": "2026-12-02T18:30:00-05:00",
+          "end": "2026-12-02T20:30:00-05:00",
+          "sort_start_utc": "2026-12-02T23:30:00Z",
+          "sort_end_utc": "2026-12-03T01:30:00Z",
+          "display_when": "Wednesday, December 2, 2026, 6:30 PM to 8:30 PM",
+          "all_day": false
         }
       ],
-      "sort_start_utc": "2026-09-09T22:30:00Z",
-      "sort_end_utc": "2026-09-10T00:30:00Z",
-      "planning_center_event_instance_id": "166458546",
+      "sort_start_utc": "2026-09-16T22:30:00Z",
+      "sort_end_utc": "2026-09-17T00:30:00Z",
+      "planning_center_event_instance_id": "167230921",
       "planning_center_event_time_id": "25282532",
       "knowledge_file": "knowledge/small-groups/generated/p-u-r-s-u-e-567dcc.md"
     },

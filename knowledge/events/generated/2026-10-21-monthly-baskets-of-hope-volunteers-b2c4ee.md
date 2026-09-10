@@ -1,5 +1,5 @@
 ---
-id: events.live.event-e0476e22fc77387f
+id: events.live.event-cca4bc8898b2c4ee
 version: 1.4.3
 status: published
 priority: 50
@@ -30,17 +30,17 @@ search_terms:
   - "How do I register for Monthly Baskets of Hope - Volunteers?"
 resources:
   - events.live
-event_id: event-e0476e22fc77387f
-event_start: "2026-09-16T16:30:00-04:00"
-event_end: "2026-09-16T18:30:00-04:00"
-sort_start_utc: "2026-09-16T20:30:00Z"
-sort_end_utc: "2026-09-16T22:30:00Z"
-chronological_rank: 5
+event_id: event-cca4bc8898b2c4ee
+event_start: "2026-10-21T16:30:00-04:00"
+event_end: "2026-10-21T18:30:00-04:00"
+sort_start_utc: "2026-10-21T20:30:00Z"
+sort_end_utc: "2026-10-21T22:30:00Z"
+chronological_rank: 41
 next_for_ministries: []
-next_for_audiences: ["families", "volunteers"]
+next_for_audiences: []
 all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
-planning_center_event_instance_id: "167230919"
+planning_center_event_instance_id: "170149013"
 planning_center_event_time_id: "16193422"
 last_generated: 2026-09-10T04:44:40.683930Z
 ---
@@ -49,7 +49,7 @@ last_generated: 2026-09-10T04:44:40.683930Z
 
 This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
 
-**When:** Wednesday, September 16, 2026, 4:30 PM to 6:30 PM
+**When:** Wednesday, October 21, 2026, 4:30 PM to 6:30 PM
 
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
