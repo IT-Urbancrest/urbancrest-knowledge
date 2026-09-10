@@ -1,11 +1,13 @@
 version: '1.0'
-last_updated: '2026-08-24'
+last_updated: '2026-09-10'
 domain_rules:
   preferred_domain: urbancrest.church
   allowed_external_hosts:
   - urbancrest.churchcenter.com
   - www.google.com
   - maps.apple.com
+  - app.rightnowmedia.org
+  - help.rightnowmedia.org
   church_center_form_behavior: modal
 links:
   messages:
@@ -100,6 +102,23 @@ links:
     priority: 100
     external: true
     church_center_modal: true
+  rightnow_media:
+    label: Sign Up for RightNow Media
+    url: https://app.rightnowmedia.org/en/user/urbancrest
+    intents:
+    - rightnow_media
+    - bible_studies_online
+    - christian_resources
+    priority: 100
+    external: true
+  rightnow_media_support:
+    label: RightNow Media Help Center
+    url: https://help.rightnowmedia.org/
+    intents:
+    - rightnow_media_support
+    - rightnow_media_account_help
+    priority: 100
+    external: true
   directions_google:
     label: Get Directions on Google Maps
     url: https://www.google.com/maps/dir/?api=1&destination=2634+Drake+Rd,+Lebanon,+OH+45036
@@ -128,4 +147,5 @@ selection_rules:
 - For Small Group questions, use the canonical Small Groups directory when a direct group-finding link is helpful.
 - For broad serving or volunteering questions, include Get Involved and the Volunteer Interest Form.
 - For service times, parking, what to expect, or first visit questions, prefer plan_visit.
+- For RightNow Media questions, use the signup link for access and the Help Center for technical or account support.
 - Do not add an unrelated link merely because a link record matched one word in the question.
