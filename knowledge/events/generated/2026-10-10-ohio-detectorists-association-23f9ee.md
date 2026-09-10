@@ -42,7 +42,7 @@ all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "234607566"
 planning_center_event_time_id: "32547092"
-last_generated: 2026-09-10T16:25:30.727044Z
+last_generated: 2026-09-10T20:53:12.043016Z
 ---
 
 # Ohio Detectorists Association
