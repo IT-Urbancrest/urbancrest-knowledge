@@ -8,8 +8,11 @@ import subprocess
 from pathlib import Path
 from typing import Any
 
+import yaml
+
 ROOT = Path(__file__).resolve().parents[1]
 INDEX_PATH = ROOT / "runtime" / "search-index.json"
+ACTION_LINKS_PATH = ROOT / "registry" / "action-links.yaml"
 MAX_SUPPLEMENTAL_TERMS = 14
 MAX_TERM_LENGTH = 220
 CONTENT_CAP = 2400
@@ -115,6 +118,52 @@ def enrich_long_markdown_records(payload: dict[str, Any]) -> int:
     return enriched
 
 
+def enrich_action_link_bundle_metadata(payload: dict[str, Any]) -> int:
+    """Preserve bundle metadata from the canonical action-link registry.
+
+    The base search-index builder intentionally normalizes action-link records but
+    historically omitted bundle fields. The query runtime expands bundles only
+    when these fields are present on compiled action-link records, so finalization
+    restores the canonical registry metadata before validation and publication.
+    """
+    data = yaml.safe_load(ACTION_LINKS_PATH.read_text(encoding="utf-8")) or {}
+    links = data.get("links", {})
+    if not isinstance(links, dict):
+        raise SystemExit("registry/action-links.yaml links must be an object")
+
+    enriched = 0
+    for record in payload.get("records", []):
+        if not isinstance(record, dict) or record.get("record_type") != "action_link":
+            continue
+
+        action_key = str(record.get("action_key") or "").strip()
+        source = links.get(action_key)
+        if not isinstance(source, dict):
+            continue
+
+        before = (record.get("bundle"), record.get("include_with_bundle"))
+
+        if "bundle" in source:
+            bundle = str(source.get("bundle") or "").strip()
+            if bundle:
+                record["bundle"] = bundle
+            else:
+                record.pop("bundle", None)
+        else:
+            record.pop("bundle", None)
+
+        if "include_with_bundle" in source:
+            record["include_with_bundle"] = bool(source.get("include_with_bundle"))
+        else:
+            record.pop("include_with_bundle", None)
+
+        after = (record.get("bundle"), record.get("include_with_bundle"))
+        if after != before:
+            enriched += 1
+
+    return enriched
+
+
 def previous_committed_index() -> dict[str, Any] | None:
     try:
         raw = subprocess.check_output(
@@ -144,6 +193,7 @@ def main() -> None:
         raise SystemExit("runtime/search-index.json root must be an object")
 
     enriched = enrich_long_markdown_records(payload)
+    bundled = enrich_action_link_bundle_metadata(payload)
     previous = previous_committed_index()
 
     preserved_timestamp = False
@@ -165,7 +215,7 @@ def main() -> None:
     )
     print(
         f"Finalized search index: enriched {enriched} long Markdown records; "
-        f"{timestamp_message}."
+        f"restored bundle metadata on {bundled} action links; {timestamp_message}."
     )
 
 
