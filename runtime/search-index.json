@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-09-11T18:27:39.495055Z",
+  "generated_at": "2026-09-11T18:28:45.864539Z",
   "timezone": "America/New_York",
   "record_count": 460,
   "config": {
@@ -1380,7 +1380,7 @@
       "path": "knowledge/about/wednesday-nights.md",
       "title": "What happens on Wednesday nights?",
       "summary": "Urbancrest's regular Wednesday evening schedule includes dinner, AWANA for kids, Student Ministry, and Adult Bible Studies.",
-      "content": "# Wednesday Nights\n\nUrbancrest has activities for the whole family each Wednesday.\n\n- **5:30 PM** - Free Dinner in the Gymnasium\n- **6:15 PM** - AWANA for Kids\n- **6:30 PM** - Student Ministry\n- **6:30 PM** - Adult Bible Studies\n\nFor a broad question about Wednesday nights, include all four regular activities. Dinner menu details should only be included when someone specifically asks about dinner or the menu.",
+      "content": "# Wednesday Nights\n\nUrbancrest has activities for the whole family each Wednesday.\n\n- **5:30 PM** - Free Dinner in the Gymnasium\n- **6:15 PM** - AWANA for Kids\n- **6:30 PM** - Student Ministry\n- **6:30 PM** - Adult Bible Studies",
       "priority": 120,
       "category": [
         "about",
