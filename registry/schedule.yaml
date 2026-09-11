@@ -1,5 +1,5 @@
-version: '2.3'
-last_updated: '2026-09-07'
+version: '2.4'
+last_updated: '2026-09-11'
 timezone: America/New_York
 authoritative: true
 source_of_truth_for:
@@ -27,6 +27,10 @@ ministries:
     - kids
     - children's ministry
     - children
+    - childcare
+    - child care
+    - children's programming
+    - kids programming
     recommended_contact_staff_key: sarah_coleman
     show_staff_card_on_schedule_queries: false
   students:
