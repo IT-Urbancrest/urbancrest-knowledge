@@ -1,6 +1,6 @@
-version: '1.7'
+version: '1.8'
 suite: general_retrieval_regressions
-last_updated: '2026-08-25'
+last_updated: '2026-09-11'
 purpose: Guard against over-filtering natural-language questions while preserving the rule that priority alone cannot make a record eligible.
 
 tests:
@@ -54,6 +54,19 @@ tests:
     answer_must_include:
     - water
     - free
+
+- name: childcare routes to Urbancrest Kids
+  query: Do you have Childcare?
+  expected:
+    first_record_id: ministries.kids
+    answer_must_include:
+    - Sunday
+    - AWANA
+    retrieved_record_ids_exclude:
+    - ministries.local_missions.pickleball
+    must_not_select_record_types:
+    - relationship
+    - staff_route
 
 - name: concise guest parking paraphrase
   query: Where do I park?
