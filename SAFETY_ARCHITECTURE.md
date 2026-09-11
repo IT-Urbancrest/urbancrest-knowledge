@@ -18,9 +18,13 @@ Non-immediate grief, depression, abuse, addiction, marriage/family crisis, and g
 
 Generated answers are checked for phone numbers before being returned. A phone number is allowed only when the exact normalized number is present in selected authoritative records or the approved safety-resource/contact configuration. Sentences containing unapproved phone numbers are removed.
 
-## Privacy
+## Privacy and audit logging
 
-Sensitive and critical user questions and answers are redacted in `SearchQueryLog`. The log keeps the safety category in a placeholder and the selected safety/pastoral record IDs without storing the raw sensitive text.
+Sensitive and critical searches are preserved in `SearchQueryLog` as the canonical audit record. The stored record keeps the exact user question, the exact response returned by the AI search, the selected safety/pastoral record IDs, and sensitivity metadata when available. This preserves the underlying record for authorized legal, compliance, or incident-response review.
+
+The normal Admin Hub analytics experience must not display the raw sensitive question or answer. Redaction is applied only at presentation time in the Admin Hub, using the configured sensitive category and redacted question/answer formats from `registry/safety.yaml`. The display-layer redaction must not overwrite or mutate the underlying `SearchQueryLog` record.
+
+Historical logs that were already stored as redacted placeholders cannot be reconstructed and remain as originally recorded.
 
 ## Normal retrieval
 
