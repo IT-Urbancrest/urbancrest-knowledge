@@ -10,6 +10,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 INDEX_PATH = ROOT / "runtime" / "search-index.json"
+ACTION_LINKS_PATH = ROOT / "registry" / "action-links.yaml"
 TESTS_DIR = ROOT / "tests"
 
 
@@ -75,6 +76,40 @@ def validate_index(index: dict[str, Any]) -> dict[str, dict[str, Any]]:
         url = str(record.get("url") or "").strip()
         if url and not url.startswith("https://"):
             fail(f"action link {record['id']} must use HTTPS: {url}")
+
+    action_link_data = yaml.safe_load(ACTION_LINKS_PATH.read_text(encoding="utf-8")) or {}
+    source_links = action_link_data.get("links", {})
+    if not isinstance(source_links, dict):
+        fail("registry/action-links.yaml links must be an object")
+
+    for action_key, source in source_links.items():
+        if not isinstance(source, dict):
+            fail(f"registry/action-links.yaml link {action_key} must be an object")
+
+        record_id = f"action_link.{action_key}"
+        record = by_id.get(record_id)
+        if not record:
+            fail(f"registry/action-links.yaml link {action_key} has no compiled record {record_id}")
+
+        if "bundle" in source:
+            expected_bundle = str(source.get("bundle") or "").strip()
+            actual_bundle = str(record.get("bundle") or "").strip()
+            if actual_bundle != expected_bundle:
+                fail(
+                    f"{record_id} bundle metadata mismatch: "
+                    f"expected {expected_bundle!r}, got {actual_bundle!r}"
+                )
+
+        if "include_with_bundle" in source:
+            if "include_with_bundle" not in record:
+                fail(f"{record_id} is missing include_with_bundle metadata")
+            expected_include = bool(source.get("include_with_bundle"))
+            actual_include = bool(record.get("include_with_bundle"))
+            if actual_include != expected_include:
+                fail(
+                    f"{record_id} include_with_bundle metadata mismatch: "
+                    f"expected {expected_include}, got {actual_include}"
+                )
 
     freshness = index.get("freshness")
     if not isinstance(freshness, dict):
