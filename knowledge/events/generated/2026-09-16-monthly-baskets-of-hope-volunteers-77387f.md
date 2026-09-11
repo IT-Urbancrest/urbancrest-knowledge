@@ -35,14 +35,14 @@ event_start: "2026-09-16T16:30:00-04:00"
 event_end: "2026-09-16T18:30:00-04:00"
 sort_start_utc: "2026-09-16T20:30:00Z"
 sort_end_utc: "2026-09-16T22:30:00Z"
-chronological_rank: 5
+chronological_rank: 4
 next_for_ministries: []
 next_for_audiences: ["families", "volunteers"]
 all_day: false
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "167230919"
 planning_center_event_time_id: "16193422"
-last_generated: 2026-09-10T23:11:49.811059Z
+last_generated: 2026-09-11T04:42:39.906874Z
 ---
 
 # Monthly Baskets of Hope - Volunteers

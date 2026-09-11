@@ -16,23 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-09-10T23:11:50.990709Z
+last_generated: 2026-09-11T04:42:41.035512Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## OPEN GYM Pickleball
-
-**Category:** General Event
-
-**When:** Thursday, September 10, 2026, 6 PM to 8 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-09-10-open-gym-pickleball-fe7030.md`
 
 ## P U R S U E
 
@@ -429,6 +419,16 @@ Detailed event file: `knowledge/events/generated/2026-10-18-sunday-morning-servi
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-10-18-sunday-morning-services-11-00-am-service-c4ad2d.md`
+
+## Monthly Baskets of Hope - Volunteers
+
+**Category:** General Event
+
+**When:** Wednesday, October 21, 2026, 4:30 PM to 6:30 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2026-10-21-monthly-baskets-of-hope-volunteers-b2c4ee.md`
 
 ## Wednesday Night Dinner
 
