@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-09-11T15:07:47.226890Z",
+  "generated_at": "2026-09-11T15:20:32.122878Z",
   "timezone": "America/New_York",
   "record_count": 460,
   "config": {
@@ -4797,7 +4797,9 @@
       "action_key": "facebook",
       "url": "https://www.facebook.com/urbancrestchurch",
       "external": true,
-      "church_center_modal": false
+      "church_center_modal": false,
+      "bundle": "social_media",
+      "include_with_bundle": true
     },
     {
       "id": "action_link.instagram",
@@ -4831,7 +4833,9 @@
       "action_key": "instagram",
       "url": "https://www.instagram.com/urbancrestchurch",
       "external": true,
-      "church_center_modal": false
+      "church_center_modal": false,
+      "bundle": "social_media",
+      "include_with_bundle": true
     },
     {
       "id": "action_link.giving",
@@ -5093,7 +5097,9 @@
       "action_key": "youtube",
       "url": "https://www.youtube.com/@urbancrestchurch",
       "external": true,
-      "church_center_modal": false
+      "church_center_modal": false,
+      "bundle": "social_media",
+      "include_with_bundle": true
     },
     {
       "id": "events.live.event-f2f8bb3688f6a6f7",
@@ -9612,7 +9618,9 @@
       "action_key": "directions_google",
       "url": "https://www.google.com/maps/dir/?api=1&destination=2634+Drake+Rd,+Lebanon,+OH+45036",
       "external": true,
-      "church_center_modal": false
+      "church_center_modal": false,
+      "bundle": "directions_maps",
+      "include_with_bundle": true
     },
     {
       "id": "action_link.get_involved",
@@ -13445,7 +13453,9 @@
       "action_key": "directions_apple",
       "url": "https://maps.apple.com/?daddr=2634+Drake+Rd,+Lebanon,+OH+45036",
       "external": true,
-      "church_center_modal": false
+      "church_center_modal": false,
+      "bundle": "directions_maps",
+      "include_with_bundle": true
     },
     {
       "id": "action_link.staff",
