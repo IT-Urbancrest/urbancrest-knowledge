@@ -1,7 +1,8 @@
-version: '1.1'
-last_updated: '2026-08-05'
+version: '1.2'
+last_updated: '2026-09-11'
 privacy:
-  redact_sensitive_query_logs: true
+  preserve_sensitive_query_logs: true
+  redact_sensitive_admin_display: true
   redacted_question_format: '[sensitive query redacted: {category}]'
   redacted_answer: '[sensitive response redacted]'
 resources:
@@ -14,8 +15,7 @@ resources:
     description: Crisis support for people in suicidal crisis or emotional distress.
 critical_categories:
   self_harm:
-    resource_ids:
-    - us_988
+    resource_ids: []
     staff_key: null
     response_guidance:
     - Lead with immediate safety and crisis support.
