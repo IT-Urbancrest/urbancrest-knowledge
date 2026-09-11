@@ -1,5 +1,5 @@
 version: '1.0'
-last_updated: '2026-09-10'
+last_updated: '2026-09-11'
 domain_rules:
   preferred_domain: urbancrest.church
   allowed_external_hosts:
@@ -8,6 +8,9 @@ domain_rules:
   - maps.apple.com
   - app.rightnowmedia.org
   - help.rightnowmedia.org
+  - www.instagram.com
+  - www.facebook.com
+  - www.youtube.com
   church_center_form_behavior: modal
 links:
   messages:
@@ -119,6 +122,37 @@ links:
     - rightnow_media_account_help
     priority: 100
     external: true
+  instagram:
+    label: Follow Urbancrest on Instagram
+    url: https://www.instagram.com/urbancrestchurch
+    intents:
+    - social_media
+    - instagram
+    priority: 100
+    external: true
+    bundle: social_media
+    include_with_bundle: true
+  facebook:
+    label: Follow Urbancrest on Facebook
+    url: https://www.facebook.com/urbancrestchurch
+    intents:
+    - social_media
+    - facebook
+    priority: 100
+    external: true
+    bundle: social_media
+    include_with_bundle: true
+  youtube:
+    label: Watch Urbancrest on YouTube
+    url: https://www.youtube.com/@urbancrestchurch
+    intents:
+    - social_media
+    - youtube
+    - videos
+    priority: 100
+    external: true
+    bundle: social_media
+    include_with_bundle: true
   directions_google:
     label: Get Directions on Google Maps
     url: https://www.google.com/maps/dir/?api=1&destination=2634+Drake+Rd,+Lebanon,+OH+45036
@@ -148,4 +182,5 @@ selection_rules:
 - For broad serving or volunteering questions, include Get Involved and the Volunteer Interest Form.
 - For service times, parking, what to expect, or first visit questions, prefer plan_visit.
 - For RightNow Media questions, use the signup link for access and the Help Center for technical or account support.
+- For broad social media questions, include Instagram, Facebook, and YouTube from the social_media bundle. For a question about one specific platform, use only that platform's link.
 - Do not add an unrelated link merely because a link record matched one word in the question.
