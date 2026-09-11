@@ -15,7 +15,8 @@ resources:
     description: Crisis support for people in suicidal crisis or emotional distress.
 critical_categories:
   self_harm:
-    resource_ids: []
+    resource_ids:
+    - us_988
     staff_key: null
     response_guidance:
     - Lead with immediate safety and crisis support.
