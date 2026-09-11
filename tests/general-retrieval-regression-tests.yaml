@@ -1,4 +1,4 @@
-version: '1.8'
+version: '1.9'
 suite: general_retrieval_regressions
 last_updated: '2026-09-11'
 purpose: Guard against over-filtering natural-language questions while preserving the rule that priority alone cannot make a record eligible.
@@ -67,6 +67,34 @@ tests:
     must_not_select_record_types:
     - relationship
     - staff_route
+
+- name: broad Wednesday nights returns full weekly overview
+  query: Wednesday Nights
+  expected:
+    first_record_id: about.wednesday.nights
+    answer_must_include:
+    - Dinner
+    - AWANA
+    - Student Ministry
+    - Adult Bible Studies
+    answer_must_not_include:
+    - all currently listed upcoming dates
+    retrieved_record_ids_exclude_prefixes:
+    - events.live.
+
+- name: natural Wednesday night question returns full weekly overview
+  query: What do you have on Wednesday nights?
+  expected:
+    first_record_id: about.wednesday.nights
+    answer_must_include:
+    - Dinner
+    - AWANA
+    - Student Ministry
+    - Adult Bible Studies
+    answer_must_not_include:
+    - all currently listed upcoming dates
+    retrieved_record_ids_exclude_prefixes:
+    - events.live.
 
 - name: concise guest parking paraphrase
   query: Where do I park?
