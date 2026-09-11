@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-09-11T15:20:32.122878Z",
+  "generated_at": "2026-09-11T15:50:58.967172Z",
   "timezone": "America/New_York",
   "record_count": 460,
   "config": {
@@ -7405,7 +7405,7 @@
       "path": "knowledge/ministries/kids/overview.md",
       "title": "What is Urbancrest Kids?",
       "summary": "Urbancrest Kids equips families to help children become fully devoted disciples of Jesus.",
-      "content": "# What is Urbancrest Kids?\n\nUrbancrest Kids exists to equip families to become fully devoted disciples of Jesus, raising children who worship and serve with biblical authenticity and bring transformation to the home, church, and community.\n\nThe ministry emphasizes that discipleship is lived out, not only learned. Children grow through relationships with parents, leaders, and peers who model what following Jesus looks like in everyday life. Urbancrest Kids seeks to create a community where children are known, encouraged, taught God's Word, and given opportunities to have fun while growing in faith.\n\nParents are the strongest spiritual influence in a child's life, so the ministry is committed to serving, supporting, and partnering with families.",
+      "content": "# What is Urbancrest Kids?\n\nUrbancrest Kids exists to equip families to become fully devoted disciples of Jesus, raising children who worship and serve with biblical authenticity and bring transformation to the home, church, and community.\n\nThe ministry emphasizes that discipleship is lived out, not only learned. Children grow through relationships with parents, leaders, and peers who model what following Jesus looks like in everyday life. Urbancrest Kids seeks to create a community where children are known, encouraged, taught God's Word, and given opportunities to have fun while growing in faith.\n\nParents are the strongest spiritual influence in a child's life, so the ministry is committed to serving, supporting, and partnering with families.\n\n## When does Urbancrest Kids meet?\n\nIf you are asking about childcare or children's programming, Urbancrest has regular ministry for children on Sunday mornings. For grades 1-6, Children's Church and Sunday School rotate between the two Sunday worship services. Nursery care is also available during both Sunday services.\n\nOn Wednesday nights, kids can participate in AWANA. Use the current recurring schedule records for exact service and AWANA times.",
       "priority": 100,
       "category": [
         "ministries"
@@ -7421,7 +7421,9 @@
         "Kids Ministry",
         "children",
         "families",
-        "discipleship"
+        "discipleship",
+        "childcare",
+        "child care"
       ],
       "search_terms": [
         "What is Urbancrest Kids?",
@@ -7429,7 +7431,13 @@
         "What does Urbancrest offer children?",
         "What is the vision of Kids Ministry?",
         "What do you have for kids?",
-        "What do you have for children?"
+        "What do you have for children?",
+        "Do you have childcare?",
+        "Does Urbancrest have childcare?",
+        "Do you offer childcare?",
+        "Is there child care at church?",
+        "Is childcare available during Sunday services?",
+        "What children's programming does Urbancrest have?"
       ],
       "ministries": [
         "kids",
