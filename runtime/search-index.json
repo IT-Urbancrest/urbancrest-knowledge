@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-09-11T16:29:49.772921Z",
+  "generated_at": "2026-09-11T18:27:39.495055Z",
   "timezone": "America/New_York",
   "record_count": 460,
   "config": {
@@ -1373,6 +1373,66 @@
       "recommended_contact_staff_key": "sarah_coleman",
       "show_staff_card_on_schedule_queries": false,
       "timezone": "America/New_York"
+    },
+    {
+      "id": "about.wednesday.nights",
+      "record_type": "knowledge",
+      "path": "knowledge/about/wednesday-nights.md",
+      "title": "What happens on Wednesday nights?",
+      "summary": "Urbancrest's regular Wednesday evening schedule includes dinner, AWANA for kids, Student Ministry, and Adult Bible Studies.",
+      "content": "# Wednesday Nights\n\nUrbancrest has activities for the whole family each Wednesday.\n\n- **5:30 PM** - Free Dinner in the Gymnasium\n- **6:15 PM** - AWANA for Kids\n- **6:30 PM** - Student Ministry\n- **6:30 PM** - Adult Bible Studies\n\nFor a broad question about Wednesday nights, include all four regular activities. Dinner menu details should only be included when someone specifically asks about dinner or the menu.",
+      "priority": 120,
+      "category": [
+        "about",
+        "schedule"
+      ],
+      "intents": [
+        "wednesday_nights",
+        "weekly_schedule",
+        "schedule",
+        "family"
+      ],
+      "tags": [
+        "Wednesday",
+        "Wednesday nights",
+        "Wednesday evenings",
+        "Wednesday activities",
+        "family schedule",
+        "dinner",
+        "AWANA",
+        "Student Ministry",
+        "Adult Bible Studies"
+      ],
+      "search_terms": [
+        "Wednesday nights",
+        "Wednesday evenings",
+        "What happens on Wednesday nights?",
+        "What do you have on Wednesday nights?",
+        "What do you have on Wednesday evenings?",
+        "What's happening Wednesday night?",
+        "What happens on Wednesdays?",
+        "Wednesday activities",
+        "Wednesday evening activities",
+        "What is there for families on Wednesday nights?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "schedule.weekly",
+        "schedule.churchwide.wednesday_dinner",
+        "schedule.kids.awana",
+        "schedule.students.weekly",
+        "schedule.adults.wednesday_bible_studies"
+      ],
+      "status": "published",
+      "answer_guidance": "For broad questions about Wednesday nights or Wednesday evening activities, answer with the full regular Wednesday schedule: dinner, AWANA, Student Ministry, and Adult Bible Studies. Do not treat a broad Wednesday-night question as a Wednesday Night Dinner question. Only provide dinner menus when the user explicitly asks about dinner, supper, food, or the menu. Use registry/schedule.yaml as the source of truth for exact recurring times and live calendar data only for date-specific exceptions or cancellations.\n",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "wednesday_nights"
+      ]
     },
     {
       "id": "about.services.times",
@@ -12722,32 +12782,6 @@
       ],
       "status": "published",
       "confidence": "high"
-    },
-    {
-      "id": "about.wednesday.nights",
-      "record_type": "knowledge",
-      "path": "knowledge/about/wednesday-nights.md",
-      "title": "What happens on Wednesday nights?",
-      "summary": "Wednesday evening schedule for the whole family.",
-      "content": "# Wednesday Nights\n\nUrbancrest has activities for the whole family each Wednesday.\n\n- **5:30 PM** - Free Dinner (Gymnasium)\n- **6:15 PM** - AWANA for Kids\n- **6:30 PM** - Student Ministry\n- **6:30 PM** - Adult Bible Studies",
-      "priority": 85,
-      "category": [
-        "about"
-      ],
-      "intents": [
-        "wednesday",
-        "family"
-      ],
-      "tags": [],
-      "search_terms": [],
-      "ministries": [],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [
-        "schedule.weekly"
-      ],
-      "status": "published"
     },
     {
       "id": "beliefs.grace",
