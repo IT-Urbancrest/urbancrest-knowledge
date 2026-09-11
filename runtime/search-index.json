@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-09-11T15:50:58.967172Z",
+  "generated_at": "2026-09-11T15:51:46.786123Z",
   "timezone": "America/New_York",
   "record_count": 460,
   "config": {
@@ -967,6 +967,10 @@
         "kids",
         "children's ministry",
         "children",
+        "childcare",
+        "child care",
+        "children's programming",
+        "kids programming",
         "When does Children's Church meet?",
         "What time does Children's Church meet?",
         "What is the Children's Church schedule?"
@@ -1008,7 +1012,11 @@
         "Kids Ministry",
         "kids",
         "children's ministry",
-        "children"
+        "children",
+        "childcare",
+        "child care",
+        "children's programming",
+        "kids programming"
       ],
       "recommended_contact_staff_key": "sarah_coleman",
       "show_staff_card_on_schedule_queries": false,
@@ -1209,6 +1217,10 @@
         "kids",
         "children's ministry",
         "children",
+        "childcare",
+        "child care",
+        "children's programming",
+        "kids programming",
         "When does Sunday School meet?",
         "What time does Sunday School meet?",
         "What is the Sunday School schedule?"
@@ -1251,7 +1263,11 @@
         "Kids Ministry",
         "kids",
         "children's ministry",
-        "children"
+        "children",
+        "childcare",
+        "child care",
+        "children's programming",
+        "kids programming"
       ],
       "recommended_contact_staff_key": "sarah_coleman",
       "show_staff_card_on_schedule_queries": false,
@@ -1286,6 +1302,10 @@
         "kids",
         "children's ministry",
         "children",
+        "childcare",
+        "child care",
+        "children's programming",
+        "kids programming",
         "When does Urbancrest Kids meet?",
         "What is the Urbancrest Kids schedule?"
       ],
@@ -1334,13 +1354,21 @@
         "Kids Ministry",
         "kids",
         "children's ministry",
-        "children"
+        "children",
+        "childcare",
+        "child care",
+        "children's programming",
+        "kids programming"
       ],
       "ministry_aliases": [
         "Kids Ministry",
         "kids",
         "children's ministry",
-        "children"
+        "children",
+        "childcare",
+        "child care",
+        "children's programming",
+        "kids programming"
       ],
       "recommended_contact_staff_key": "sarah_coleman",
       "show_staff_card_on_schedule_queries": false,
@@ -1436,6 +1464,10 @@
         "kids",
         "children's ministry",
         "children",
+        "childcare",
+        "child care",
+        "children's programming",
+        "kids programming",
         "When does AWANA meet?",
         "What time does AWANA meet?",
         "What is the AWANA schedule?"
@@ -1470,7 +1502,11 @@
         "Kids Ministry",
         "kids",
         "children's ministry",
-        "children"
+        "children",
+        "childcare",
+        "child care",
+        "children's programming",
+        "kids programming"
       ],
       "recommended_contact_staff_key": "sarah_coleman",
       "show_staff_card_on_schedule_queries": false,
