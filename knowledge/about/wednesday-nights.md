@@ -61,5 +61,3 @@ Urbancrest has activities for the whole family each Wednesday.
 - **6:15 PM** - AWANA for Kids
 - **6:30 PM** - Student Ministry
 - **6:30 PM** - Adult Bible Studies
-
-For a broad question about Wednesday nights, include all four regular activities. Dinner menu details should only be included when someone specifically asks about dinner or the menu.
