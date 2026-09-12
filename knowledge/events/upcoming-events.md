@@ -16,7 +16,7 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-09-12T10:48:50.584576Z
+last_generated: 2026-09-12T15:33:06.381408Z
 ---
 
 # Upcoming Events
@@ -419,16 +419,6 @@ Detailed event file: `knowledge/events/generated/2026-10-18-sunday-morning-servi
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-10-18-sunday-morning-services-11-00-am-service-c4ad2d.md`
-
-## Monthly Baskets of Hope - Volunteers
-
-**Category:** General Event
-
-**When:** Wednesday, October 21, 2026, 4:30 PM to 6:30 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-10-21-monthly-baskets-of-hope-volunteers-b2c4ee.md`
 
 ## Wednesday Night Dinner
 
@@ -1534,3 +1524,13 @@ Detailed event file: `knowledge/events/generated/2027-09-05-p-u-r-s-u-e-77c3df.m
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2027-09-08-wednesday-night-dinner-77f2fa.md`
+
+## P U R S U E
+
+**Category:** Ministry Event
+
+**When:** Sunday, September 12, 2027, 9:30 AM to 10:30 AM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2027-09-12-p-u-r-s-u-e-330032.md`

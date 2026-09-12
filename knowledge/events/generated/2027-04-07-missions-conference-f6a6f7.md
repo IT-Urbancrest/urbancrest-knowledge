@@ -35,14 +35,14 @@ event_start: "2027-04-07"
 event_end: "2027-04-12"
 sort_start_utc: "2027-04-07T04:00:00Z"
 sort_end_utc: "2027-04-12T04:00:00Z"
-chronological_rank: 99
+chronological_rank: 98
 next_for_ministries: ["missions"]
 next_for_audiences: []
 all_day: true
 location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "229161073"
 planning_center_event_time_id: "31703048"
-last_generated: 2026-09-12T10:48:49.536456Z
+last_generated: 2026-09-12T15:33:05.345818Z
 ---
 
 # Missions Conference
