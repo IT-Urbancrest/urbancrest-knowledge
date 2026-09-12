@@ -1,12 +1,12 @@
 version: 1.5.4
-generated_at: '2026-09-12T15:33:06.381408Z'
+generated_at: '2026-09-12T16:44:44.973137Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
   enabled: true
-  target_instance_count: 418
-  matched_instance_count: 418
-  page_count: 10
+  target_instance_count: 367
+  matched_instance_count: 367
+  page_count: 9
   api_version: '2026-06-22'
 source_of_truth_for_calendar_intents: true
 collection: main_events
@@ -211,33 +211,6 @@ events:
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-16-wednesday-night-dinner-89e119.md
-- id: event-cd61a9d143556aa9
-  uid: ET-29468516-216277435@resources.planningcenteronline.com
-  title: OPEN GYM Pickleball
-  summary: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
-  start: '2026-09-17T18:00:00-04:00'
-  end: '2026-09-17T20:00:00-04:00'
-  sort_start_utc: '2026-09-17T22:00:00Z'
-  sort_end_utc: '2026-09-18T00:00:00Z'
-  display_when: Thursday, September 17, 2026, 6 PM to 8 PM
-  all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to
-    attend and open to anyone ages 13+.
-  planning_center_event_instance_id: '216277435'
-  planning_center_event_time_id: '29468516'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 6
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-09-17-open-gym-pickleball-556aa9.md
 - id: event-ffac0db3c7f8f18d
   uid: ET-8762150-167708212@resources.planningcenteronline.com
   title: P U R S U E
@@ -260,7 +233,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 7
+  chronological_rank: 6
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-20-p-u-r-s-u-e-f8f18d.md
@@ -287,7 +260,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 8
+  chronological_rank: 7
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-20-sunday-morning-services-9-30-am-service-25697d.md
@@ -314,7 +287,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 9
+  chronological_rank: 8
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-20-sunday-morning-services-11-00-am-service-9ace48.md
@@ -340,7 +313,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 10
+  chronological_rank: 9
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-22-guest-services-team-meeting-681d28.md
@@ -421,37 +394,10 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 11
+  chronological_rank: 10
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-23-wednesday-night-dinner-c7bf0d.md
-- id: event-5c9aa6986b309c7f
-  uid: ET-29468516-216277436@resources.planningcenteronline.com
-  title: OPEN GYM Pickleball
-  summary: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
-  start: '2026-09-24T18:00:00-04:00'
-  end: '2026-09-24T20:00:00-04:00'
-  sort_start_utc: '2026-09-24T22:00:00Z'
-  sort_end_utc: '2026-09-25T00:00:00Z'
-  display_when: Thursday, September 24, 2026, 6 PM to 8 PM
-  all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to
-    attend and open to anyone ages 13+.
-  planning_center_event_instance_id: '216277436'
-  planning_center_event_time_id: '29468516'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 12
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-09-24-open-gym-pickleball-309c7f.md
 - id: event-a33c3a5ecf5aaab7
   uid: ET-31447186-227518757@resources.planningcenteronline.com
   title: Waynesville Fall Fest
@@ -480,7 +426,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 13
+  chronological_rank: 11
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-26-waynesville-fall-fest-5aaab7.md
@@ -538,7 +484,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 14
+  chronological_rank: 12
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-27-p-u-r-s-u-e-724217.md
@@ -565,7 +511,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 15
+  chronological_rank: 13
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-27-sunday-morning-services-9-30-am-service-a45069.md
@@ -592,7 +538,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 16
+  chronological_rank: 14
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-27-sunday-morning-services-11-00-am-service-b8b3b1.md
@@ -635,7 +581,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 17
+  chronological_rank: 15
   next_for_ministries:
   - men
   - women
@@ -703,7 +649,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 18
+  chronological_rank: 16
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-27-women-s-fall-fest-8698aa.md
@@ -784,37 +730,10 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 19
+  chronological_rank: 17
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-30-wednesday-night-dinner-36f49b.md
-- id: event-ff384c23f40cfa47
-  uid: ET-29468516-216277437@resources.planningcenteronline.com
-  title: OPEN GYM Pickleball
-  summary: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
-  start: '2026-10-01T18:00:00-04:00'
-  end: '2026-10-01T20:00:00-04:00'
-  sort_start_utc: '2026-10-01T22:00:00Z'
-  sort_end_utc: '2026-10-02T00:00:00Z'
-  display_when: Thursday, October 1, 2026, 6 PM to 8 PM
-  all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to
-    attend and open to anyone ages 13+.
-  planning_center_event_instance_id: '216277437'
-  planning_center_event_time_id: '29468516'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 20
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-10-01-open-gym-pickleball-0cfa47.md
 - id: event-5ee7e8f2ebdec2d7
   uid: ET-30270334-168792298@resources.planningcenteronline.com
   title: Men's Breakfast
@@ -839,7 +758,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 21
+  chronological_rank: 18
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-03-men-s-breakfast-dec2d7.md
@@ -874,7 +793,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 22
+  chronological_rank: 19
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-03-men-s-cornhole-bbq-c05019.md
@@ -936,7 +855,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 23
+  chronological_rank: 20
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-04-p-u-r-s-u-e-e5c34f.md
@@ -963,7 +882,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 24
+  chronological_rank: 21
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-04-sunday-morning-services-9-30-am-service-160a39.md
@@ -990,7 +909,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 25
+  chronological_rank: 22
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-04-sunday-morning-services-11-00-am-service-391224.md
@@ -1051,7 +970,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 26
+  chronological_rank: 23
   next_for_ministries:
   - worship
   next_for_audiences: []
@@ -1109,7 +1028,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 27
+  chronological_rank: 24
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-06-card-ministry-8e6732.md
@@ -1190,37 +1109,10 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 28
+  chronological_rank: 25
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-07-wednesday-night-dinner-9fc5ad.md
-- id: event-5a6c2377094d6218
-  uid: ET-29468516-216277438@resources.planningcenteronline.com
-  title: OPEN GYM Pickleball
-  summary: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
-  start: '2026-10-08T18:00:00-04:00'
-  end: '2026-10-08T20:00:00-04:00'
-  sort_start_utc: '2026-10-08T22:00:00Z'
-  sort_end_utc: '2026-10-09T00:00:00Z'
-  display_when: Thursday, October 8, 2026, 6 PM to 8 PM
-  all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to
-    attend and open to anyone ages 13+.
-  planning_center_event_instance_id: '216277438'
-  planning_center_event_time_id: '29468516'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 29
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-10-08-open-gym-pickleball-4d6218.md
 - id: event-612f2437be23f9ee
   uid: ET-32547092-234607566@resources.planningcenteronline.com
   title: Ohio Detectorists Association
@@ -1243,7 +1135,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 30
+  chronological_rank: 26
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-10-ohio-detectorists-association-23f9ee.md
@@ -1269,7 +1161,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 31
+  chronological_rank: 27
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-11-p-u-r-s-u-e-8f8f87.md
@@ -1296,7 +1188,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 32
+  chronological_rank: 28
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-11-sunday-morning-services-9-30-am-service-0b689c.md
@@ -1323,7 +1215,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 33
+  chronological_rank: 29
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-11-sunday-morning-services-11-00-am-service-31230b.md
@@ -1404,37 +1296,10 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 34
+  chronological_rank: 30
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-14-wednesday-night-dinner-d9103e.md
-- id: event-5c67e99d1b67f76a
-  uid: ET-29468516-216277439@resources.planningcenteronline.com
-  title: OPEN GYM Pickleball
-  summary: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.
-  start: '2026-10-15T18:00:00-04:00'
-  end: '2026-10-15T20:00:00-04:00'
-  sort_start_utc: '2026-10-15T22:00:00Z'
-  sort_end_utc: '2026-10-16T00:00:00Z'
-  display_when: Thursday, October 15, 2026, 6 PM to 8 PM
-  all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to
-    attend and open to anyone ages 13+.
-  planning_center_event_instance_id: '216277439'
-  planning_center_event_time_id: '29468516'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 35
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-10-15-open-gym-pickleball-67f76a.md
 - id: event-7b60e9c4c5af3c3f
   uid: ET-31936721-230615455@resources.planningcenteronline.com
   title: Urbancrest Women's Conference
@@ -1490,7 +1355,7 @@ events:
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 36
+  chronological_rank: 31
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-17-urbancrest-women-s-conference-af3c3f.md
@@ -1551,7 +1416,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 37
+  chronological_rank: 32
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-18-p-u-r-s-u-e-2350e7.md
@@ -1578,7 +1443,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 38
+  chronological_rank: 33
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-18-sunday-morning-services-9-30-am-service-d0a2ae.md
@@ -1605,10 +1470,37 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 39
+  chronological_rank: 34
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-18-sunday-morning-services-11-00-am-service-c4ad2d.md
+- id: event-cca4bc8898b2c4ee
+  uid: ET-16193422-170149013@resources.planningcenteronline.com
+  title: Monthly Baskets of Hope - Volunteers
+  summary: This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
+  start: '2026-10-21T16:30:00-04:00'
+  end: '2026-10-21T18:30:00-04:00'
+  sort_start_utc: '2026-10-21T20:30:00Z'
+  sort_end_utc: '2026-10-21T22:30:00Z'
+  display_when: Wednesday, October 21, 2026, 4:30 PM to 6:30 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
+  planning_center_event_instance_id: '170149013'
+  planning_center_event_time_id: '16193422'
+  ministries:
+  - churchwide
+  audiences:
+  - families
+  - volunteers
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 35
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-10-21-monthly-baskets-of-hope-volunteers-b2c4ee.md
 - id: event-b08f2e2b300edf1f
   uid: ET-31870601-230122713@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -1686,7 +1578,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 40
+  chronological_rank: 36
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-21-wednesday-night-dinner-0edf1f.md
@@ -1712,10 +1604,88 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 41
+  chronological_rank: 37
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-25-p-u-r-s-u-e-3a39cd.md
+- id: event-5be762b6dc9724fc
+  uid: ET-9127131-170494276@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-10-25T09:30:00-04:00'
+  end: '2026-10-25T10:40:00-04:00'
+  sort_start_utc: '2026-10-25T13:30:00Z'
+  sort_end_utc: '2026-10-25T14:40:00Z'
+  display_when: Sunday, October 25, 2026, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '170494276'
+  planning_center_event_time_id: '9127131'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 38
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-10-25-sunday-morning-services-9-30-am-service-9724fc.md
+- id: event-2158e0ed36d92cdf
+  uid: ET-9127132-170494276@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-10-25T11:00:00-04:00'
+  end: '2026-10-25T12:10:00-04:00'
+  sort_start_utc: '2026-10-25T15:00:00Z'
+  sort_end_utc: '2026-10-25T16:10:00Z'
+  display_when: Sunday, October 25, 2026, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '170494276'
+  planning_center_event_time_id: '9127132'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 39
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-10-25-sunday-morning-services-11-00-am-service-d92cdf.md
+- id: event-09e1ddbf6fc2dfe7
+  uid: ET-30542855-222367934@resources.planningcenteronline.com
+  title: Trail of Treats
+  summary: Trail of Treats is scheduled for Sunday, October 25, 2026, 3 PM to 10 PM.
+  start: '2026-10-25T15:00:00-04:00'
+  end: '2026-10-25T22:00:00-04:00'
+  sort_start_utc: '2026-10-25T19:00:00Z'
+  sort_end_utc: '2026-10-26T02:00:00Z'
+  display_when: Sunday, October 25, 2026, 3 PM to 10 PM
+  all_day: false
+  planning_center_event_instance_id: '222367934'
+  planning_center_event_time_id: '30542855'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 40
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-10-25-trail-of-treats-c2dfe7.md
 - id: event-ed4dc1da2facac27
   uid: ET-31870601-230122714@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -1793,7 +1763,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 42
+  chronological_rank: 41
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-28-wednesday-night-dinner-acac27.md
@@ -1819,10 +1789,37 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 43
+  chronological_rank: 42
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-01-p-u-r-s-u-e-96a55e.md
+- id: event-5260c3af76a90a62
+  uid: ET-9127131-171026769@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-11-01T09:30:00-05:00'
+  end: '2026-11-01T10:40:00-05:00'
+  sort_start_utc: '2026-11-01T14:30:00Z'
+  sort_end_utc: '2026-11-01T15:40:00Z'
+  display_when: Sunday, November 1, 2026, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '171026769'
+  planning_center_event_time_id: '9127131'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 43
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-01-sunday-morning-services-9-30-am-service-a90a62.md
 - id: event-1aae13f9c455fdc7
   uid: ET-31870601-230122715@resources.planningcenteronline.com
   title: Wednesday Night Dinner

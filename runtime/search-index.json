@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-09-12T15:33:07.566745Z",
+  "generated_at": "2026-09-12T16:44:46.370070Z",
   "timezone": "America/New_York",
   "record_count": 460,
   "config": {
@@ -90,7 +90,7 @@
   },
   "freshness": {
     "calendar": {
-      "generated_at": "2026-09-12T15:33:06.381408Z",
+      "generated_at": "2026-09-12T16:44:44.973137Z",
       "max_age_hours": 48,
       "source_path": "registry/events-live.yaml",
       "heartbeat_field": "generated_at",
@@ -98,7 +98,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-09-12T15:33:05.345818Z",
+      "generated_at": "2026-09-12T16:44:43.873326Z",
       "max_age_hours": 48,
       "source_path": "registry/small-groups-live.yaml",
       "heartbeat_field": "generated_at",
@@ -5447,7 +5447,7 @@
       ],
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3791849/medium_image-1785669189641.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-10-17-urbancrest-women-s-conference-af3c3f.md",
-      "chronological_rank": 36,
+      "chronological_rank": 31,
       "routine_schedule_occurrence": false
     },
     {
@@ -13776,7 +13776,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=058d17f1b81369bc1275502f9bfab7c3324ca5b970a6a39720a87348da9b781e",
       "knowledge_file": "knowledge/events/generated/2026-10-03-men-s-breakfast-dec2d7.md",
-      "chronological_rank": 21,
+      "chronological_rank": 18,
       "routine_schedule_occurrence": false
     },
     {
@@ -14638,7 +14638,7 @@
       "info_url": "https://registrations-production.s3.amazonaws.com/uploads/image/file/437162/9f82e639924a58965b5c00b4504caa1c.jpg?content-disposition=attachment",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1787976000&key=uploads%2Fevent%2Flogo%2F3849948%2Fimage-1752240922469.jpeg&thumb=720x405%23&version=1787924083&signature=a0d90fbd41c6e9ebfbc39142f70d307f9e3e520662909f7308ef56e015b2fa06",
       "knowledge_file": "knowledge/events/generated/2026-10-03-men-s-cornhole-bbq-c05019.md",
-      "chronological_rank": 22,
+      "chronological_rank": 19,
       "routine_schedule_occurrence": false
     },
     {
@@ -14742,7 +14742,7 @@
       ],
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1788451200&key=uploads%2Fevent%2Flogo%2F3755569%2Fimage-1784126802561.jpeg&thumb=720x405%23&version=1788368236&signature=233e7df1a2a4650967513321d18dbfb90f05a1da8a15cc138d1b987970c9968a",
       "knowledge_file": "knowledge/events/generated/2026-10-04-night-of-worship-choir-2a753e.md",
-      "chronological_rank": 26,
+      "chronological_rank": 23,
       "routine_schedule_occurrence": false
     },
     {
@@ -14878,7 +14878,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-20-p-u-r-s-u-e-f8f18d.md",
-      "chronological_rank": 7,
+      "chronological_rank": 6,
       "routine_schedule_occurrence": false
     },
     {
@@ -14946,7 +14946,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-27-p-u-r-s-u-e-724217.md",
-      "chronological_rank": 14,
+      "chronological_rank": 12,
       "routine_schedule_occurrence": false
     },
     {
@@ -15014,7 +15014,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-04-p-u-r-s-u-e-e5c34f.md",
-      "chronological_rank": 23,
+      "chronological_rank": 20,
       "routine_schedule_occurrence": false
     },
     {
@@ -15082,7 +15082,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-11-p-u-r-s-u-e-8f8f87.md",
-      "chronological_rank": 31,
+      "chronological_rank": 27,
       "routine_schedule_occurrence": false
     },
     {
@@ -15150,7 +15150,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-18-p-u-r-s-u-e-2350e7.md",
-      "chronological_rank": 37,
+      "chronological_rank": 32,
       "routine_schedule_occurrence": false
     },
     {
@@ -15218,7 +15218,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-25-p-u-r-s-u-e-3a39cd.md",
-      "chronological_rank": 41,
+      "chronological_rank": 37,
       "routine_schedule_occurrence": false
     },
     {
@@ -15286,7 +15286,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-11-01-p-u-r-s-u-e-96a55e.md",
-      "chronological_rank": 43,
+      "chronological_rank": 42,
       "routine_schedule_occurrence": false
     },
     {
@@ -18567,7 +18567,7 @@
       ],
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3732292/medium_image-1782929258210.jpeg",
       "knowledge_file": "knowledge/events/generated/2026-09-26-waynesville-fall-fest-5aaab7.md",
-      "chronological_rank": 13,
+      "chronological_rank": 11,
       "routine_schedule_occurrence": false
     },
     {
@@ -18743,7 +18743,7 @@
       ],
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1787889600&key=uploads%2Fevent%2Flogo%2F3848043%2Fimage-1787747623394.jpeg&thumb=720x405%23&version=1787747843&signature=11aa145e5e471c884eb4c619680518f30e2765f0a1005fc7da03cab6eeae360c",
       "knowledge_file": "knowledge/events/generated/2026-09-27-women-s-fall-fest-3b206f.md",
-      "chronological_rank": 17,
+      "chronological_rank": 15,
       "routine_schedule_occurrence": false
     },
     {
@@ -18813,7 +18813,7 @@
       "planning_center_event_time_id": "27323022",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-27-women-s-fall-fest-8698aa.md",
-      "chronological_rank": 18,
+      "chronological_rank": 16,
       "routine_schedule_occurrence": false
     },
     {
@@ -19714,7 +19714,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=0b8c190d56325cbe0983da665c529dd8556e161d746bb60b6cb3d5a931891e63",
       "knowledge_file": "knowledge/events/generated/2026-09-23-wednesday-night-dinner-c7bf0d.md",
-      "chronological_rank": 11,
+      "chronological_rank": 10,
       "routine_schedule_occurrence": false
     },
     {
@@ -19785,7 +19785,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=0b8c190d56325cbe0983da665c529dd8556e161d746bb60b6cb3d5a931891e63",
       "knowledge_file": "knowledge/events/generated/2026-09-30-wednesday-night-dinner-36f49b.md",
-      "chronological_rank": 19,
+      "chronological_rank": 17,
       "routine_schedule_occurrence": false
     },
     {
@@ -19856,7 +19856,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=0b8c190d56325cbe0983da665c529dd8556e161d746bb60b6cb3d5a931891e63",
       "knowledge_file": "knowledge/events/generated/2026-10-07-wednesday-night-dinner-9fc5ad.md",
-      "chronological_rank": 28,
+      "chronological_rank": 25,
       "routine_schedule_occurrence": false
     },
     {
@@ -19927,7 +19927,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=0b8c190d56325cbe0983da665c529dd8556e161d746bb60b6cb3d5a931891e63",
       "knowledge_file": "knowledge/events/generated/2026-10-14-wednesday-night-dinner-d9103e.md",
-      "chronological_rank": 34,
+      "chronological_rank": 30,
       "routine_schedule_occurrence": false
     },
     {
@@ -19998,7 +19998,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=0b8c190d56325cbe0983da665c529dd8556e161d746bb60b6cb3d5a931891e63",
       "knowledge_file": "knowledge/events/generated/2026-10-21-wednesday-night-dinner-0edf1f.md",
-      "chronological_rank": 40,
+      "chronological_rank": 36,
       "routine_schedule_occurrence": false
     },
     {
@@ -20069,7 +20069,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=0b8c190d56325cbe0983da665c529dd8556e161d746bb60b6cb3d5a931891e63",
       "knowledge_file": "knowledge/events/generated/2026-10-28-wednesday-night-dinner-acac27.md",
-      "chronological_rank": 42,
+      "chronological_rank": 41,
       "routine_schedule_occurrence": false
     },
     {
@@ -23561,7 +23561,7 @@
       "planning_center_event_time_id": "28363612",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-06-card-ministry-8e6732.md",
-      "chronological_rank": 27,
+      "chronological_rank": 24,
       "routine_schedule_occurrence": false
     },
     {
@@ -23629,7 +23629,7 @@
       "planning_center_event_time_id": "30414252",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-22-guest-services-team-meeting-681d28.md",
-      "chronological_rank": 10,
+      "chronological_rank": 9,
       "routine_schedule_occurrence": false
     },
     {
@@ -23702,6 +23702,75 @@
       "routine_schedule_occurrence": false
     },
     {
+      "id": "events.live.event-cca4bc8898b2c4ee",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-10-21-monthly-baskets-of-hope-volunteers-b2c4ee.md",
+      "title": "Monthly Baskets of Hope - Volunteers",
+      "summary": "This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.",
+      "content": "This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.",
+      "priority": 50,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "general_event",
+        "Monthly Baskets of Hope - Volunteers"
+      ],
+      "search_terms": [
+        "Monthly Baskets of Hope - Volunteers",
+        "When is Monthly Baskets of Hope - Volunteers?",
+        "Tell me about Monthly Baskets of Hope - Volunteers",
+        "What are the details for Monthly Baskets of Hope - Volunteers?",
+        "What is the menu for Monthly Baskets of Hope - Volunteers?",
+        "How do I register for Monthly Baskets of Hope - Volunteers?",
+        "Does Urbancrest have Monthly Baskets of Hope - Volunteers?",
+        "Does Urbancrest offer Monthly Baskets of Hope - Volunteers?",
+        "Do you have Monthly Baskets of Hope - Volunteers?",
+        "Do you offer Monthly Baskets of Hope - Volunteers?",
+        "Is there Monthly Baskets of Hope - Volunteers at Urbancrest?",
+        "Can I participate in Monthly Baskets of Hope - Volunteers?",
+        "Can I play Monthly Baskets of Hope - Volunteers at Urbancrest?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "families",
+        "volunteers"
+      ],
+      "resources": [],
+      "event_id": "event-cca4bc8898b2c4ee",
+      "activity_aliases": [
+        "Monthly Baskets of Hope - Volunteers"
+      ],
+      "event_category": "general_event",
+      "event_start": "2026-10-21T16:30:00-04:00",
+      "event_end": "2026-10-21T18:30:00-04:00",
+      "sort_start_utc": "2026-10-21T20:30:00Z",
+      "sort_end_utc": "2026-10-21T22:30:00Z",
+      "display_when": "Wednesday, October 21, 2026, 4:30 PM to 6:30 PM",
+      "all_day": false,
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "planning_center_event_instance_id": "170149013",
+      "planning_center_event_time_id": "16193422",
+      "registration_available": false,
+      "knowledge_file": "knowledge/events/generated/2026-10-21-monthly-baskets-of-hope-volunteers-b2c4ee.md",
+      "chronological_rank": 35,
+      "routine_schedule_occurrence": false
+    },
+    {
       "id": "events.live.event-612f2437be23f9ee",
       "record_type": "event",
       "path": "knowledge/events/generated/2026-10-10-ohio-detectorists-association-23f9ee.md",
@@ -23766,16 +23835,16 @@
       "planning_center_event_time_id": "32547092",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-10-ohio-detectorists-association-23f9ee.md",
-      "chronological_rank": 30,
+      "chronological_rank": 26,
       "routine_schedule_occurrence": false
     },
     {
-      "id": "events.live.event-cd61a9d143556aa9",
+      "id": "events.live.event-09e1ddbf6fc2dfe7",
       "record_type": "event",
-      "path": "knowledge/events/generated/2026-09-17-open-gym-pickleball-556aa9.md",
-      "title": "OPEN GYM Pickleball",
-      "summary": "On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.",
-      "content": "On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.",
+      "path": "knowledge/events/generated/2026-10-25-trail-of-treats-c2dfe7.md",
+      "title": "Trail of Treats",
+      "summary": "Trail of Treats is scheduled for Sunday, October 25, 2026, 3 PM to 10 PM.",
+      "content": "",
       "priority": 50,
       "category": [
         "events",
@@ -23794,49 +23863,22 @@
         "upcoming",
         "activity",
         "general_event",
-        "OPEN GYM Pickleball",
-        "Pickleball",
-        "OPEN GYM Pickle ball",
-        "Pickle ball"
+        "Trail of Treats"
       ],
       "search_terms": [
-        "OPEN GYM Pickleball",
-        "When is OPEN GYM Pickleball?",
-        "Tell me about OPEN GYM Pickleball",
-        "What are the details for OPEN GYM Pickleball?",
-        "What is the menu for OPEN GYM Pickleball?",
-        "How do I register for OPEN GYM Pickleball?",
-        "Does Urbancrest have OPEN GYM Pickleball?",
-        "Does Urbancrest offer OPEN GYM Pickleball?",
-        "Do you have OPEN GYM Pickleball?",
-        "Do you offer OPEN GYM Pickleball?",
-        "Is there OPEN GYM Pickleball at Urbancrest?",
-        "Can I participate in OPEN GYM Pickleball?",
-        "Can I play OPEN GYM Pickleball at Urbancrest?",
-        "Pickleball",
-        "Does Urbancrest have Pickleball?",
-        "Does Urbancrest offer Pickleball?",
-        "Do you have Pickleball?",
-        "Do you offer Pickleball?",
-        "Is there Pickleball at Urbancrest?",
-        "Can I participate in Pickleball?",
-        "Can I play Pickleball at Urbancrest?",
-        "OPEN GYM Pickle ball",
-        "Does Urbancrest have OPEN GYM Pickle ball?",
-        "Does Urbancrest offer OPEN GYM Pickle ball?",
-        "Do you have OPEN GYM Pickle ball?",
-        "Do you offer OPEN GYM Pickle ball?",
-        "Is there OPEN GYM Pickle ball at Urbancrest?",
-        "Can I participate in OPEN GYM Pickle ball?",
-        "Can I play OPEN GYM Pickle ball at Urbancrest?",
-        "Pickle ball",
-        "Does Urbancrest have Pickle ball?",
-        "Does Urbancrest offer Pickle ball?",
-        "Do you have Pickle ball?",
-        "Do you offer Pickle ball?",
-        "Is there Pickle ball at Urbancrest?",
-        "Can I participate in Pickle ball?",
-        "Can I play Pickle ball at Urbancrest?"
+        "Trail of Treats",
+        "When is Trail of Treats?",
+        "Tell me about Trail of Treats",
+        "What are the details for Trail of Treats?",
+        "What is the menu for Trail of Treats?",
+        "How do I register for Trail of Treats?",
+        "Does Urbancrest have Trail of Treats?",
+        "Does Urbancrest offer Trail of Treats?",
+        "Do you have Trail of Treats?",
+        "Do you offer Trail of Treats?",
+        "Is there Trail of Treats at Urbancrest?",
+        "Can I participate in Trail of Treats?",
+        "Can I play Trail of Treats at Urbancrest?"
       ],
       "ministries": [
         "churchwide"
@@ -23845,418 +23887,22 @@
         "everyone"
       ],
       "resources": [],
-      "event_id": "event-cd61a9d143556aa9",
+      "event_id": "event-09e1ddbf6fc2dfe7",
       "activity_aliases": [
-        "OPEN GYM Pickleball",
-        "Pickleball",
-        "OPEN GYM Pickle ball",
-        "Pickle ball"
+        "Trail of Treats"
       ],
       "event_category": "general_event",
-      "event_start": "2026-09-17T18:00:00-04:00",
-      "event_end": "2026-09-17T20:00:00-04:00",
-      "sort_start_utc": "2026-09-17T22:00:00Z",
-      "sort_end_utc": "2026-09-18T00:00:00Z",
-      "display_when": "Thursday, September 17, 2026, 6 PM to 8 PM",
+      "event_start": "2026-10-25T15:00:00-04:00",
+      "event_end": "2026-10-25T22:00:00-04:00",
+      "sort_start_utc": "2026-10-25T19:00:00Z",
+      "sort_end_utc": "2026-10-26T02:00:00Z",
+      "display_when": "Sunday, October 25, 2026, 3 PM to 10 PM",
       "all_day": false,
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "planning_center_event_instance_id": "216277435",
-      "planning_center_event_time_id": "29468516",
+      "planning_center_event_instance_id": "222367934",
+      "planning_center_event_time_id": "30542855",
       "registration_available": false,
-      "knowledge_file": "knowledge/events/generated/2026-09-17-open-gym-pickleball-556aa9.md",
-      "chronological_rank": 6,
-      "routine_schedule_occurrence": false
-    },
-    {
-      "id": "events.live.event-5c9aa6986b309c7f",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-09-24-open-gym-pickleball-309c7f.md",
-      "title": "OPEN GYM Pickleball",
-      "summary": "On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.",
-      "content": "On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "general_event",
-        "OPEN GYM Pickleball",
-        "Pickleball",
-        "OPEN GYM Pickle ball",
-        "Pickle ball"
-      ],
-      "search_terms": [
-        "OPEN GYM Pickleball",
-        "When is OPEN GYM Pickleball?",
-        "Tell me about OPEN GYM Pickleball",
-        "What are the details for OPEN GYM Pickleball?",
-        "What is the menu for OPEN GYM Pickleball?",
-        "How do I register for OPEN GYM Pickleball?",
-        "Does Urbancrest have OPEN GYM Pickleball?",
-        "Does Urbancrest offer OPEN GYM Pickleball?",
-        "Do you have OPEN GYM Pickleball?",
-        "Do you offer OPEN GYM Pickleball?",
-        "Is there OPEN GYM Pickleball at Urbancrest?",
-        "Can I participate in OPEN GYM Pickleball?",
-        "Can I play OPEN GYM Pickleball at Urbancrest?",
-        "Pickleball",
-        "Does Urbancrest have Pickleball?",
-        "Does Urbancrest offer Pickleball?",
-        "Do you have Pickleball?",
-        "Do you offer Pickleball?",
-        "Is there Pickleball at Urbancrest?",
-        "Can I participate in Pickleball?",
-        "Can I play Pickleball at Urbancrest?",
-        "OPEN GYM Pickle ball",
-        "Does Urbancrest have OPEN GYM Pickle ball?",
-        "Does Urbancrest offer OPEN GYM Pickle ball?",
-        "Do you have OPEN GYM Pickle ball?",
-        "Do you offer OPEN GYM Pickle ball?",
-        "Is there OPEN GYM Pickle ball at Urbancrest?",
-        "Can I participate in OPEN GYM Pickle ball?",
-        "Can I play OPEN GYM Pickle ball at Urbancrest?",
-        "Pickle ball",
-        "Does Urbancrest have Pickle ball?",
-        "Does Urbancrest offer Pickle ball?",
-        "Do you have Pickle ball?",
-        "Do you offer Pickle ball?",
-        "Is there Pickle ball at Urbancrest?",
-        "Can I participate in Pickle ball?",
-        "Can I play Pickle ball at Urbancrest?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-5c9aa6986b309c7f",
-      "activity_aliases": [
-        "OPEN GYM Pickleball",
-        "Pickleball",
-        "OPEN GYM Pickle ball",
-        "Pickle ball"
-      ],
-      "event_category": "general_event",
-      "event_start": "2026-09-24T18:00:00-04:00",
-      "event_end": "2026-09-24T20:00:00-04:00",
-      "sort_start_utc": "2026-09-24T22:00:00Z",
-      "sort_end_utc": "2026-09-25T00:00:00Z",
-      "display_when": "Thursday, September 24, 2026, 6 PM to 8 PM",
-      "all_day": false,
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "planning_center_event_instance_id": "216277436",
-      "planning_center_event_time_id": "29468516",
-      "registration_available": false,
-      "knowledge_file": "knowledge/events/generated/2026-09-24-open-gym-pickleball-309c7f.md",
-      "chronological_rank": 12,
-      "routine_schedule_occurrence": false
-    },
-    {
-      "id": "events.live.event-ff384c23f40cfa47",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-10-01-open-gym-pickleball-0cfa47.md",
-      "title": "OPEN GYM Pickleball",
-      "summary": "On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.",
-      "content": "On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "general_event",
-        "OPEN GYM Pickleball",
-        "Pickleball",
-        "OPEN GYM Pickle ball",
-        "Pickle ball"
-      ],
-      "search_terms": [
-        "OPEN GYM Pickleball",
-        "When is OPEN GYM Pickleball?",
-        "Tell me about OPEN GYM Pickleball",
-        "What are the details for OPEN GYM Pickleball?",
-        "What is the menu for OPEN GYM Pickleball?",
-        "How do I register for OPEN GYM Pickleball?",
-        "Does Urbancrest have OPEN GYM Pickleball?",
-        "Does Urbancrest offer OPEN GYM Pickleball?",
-        "Do you have OPEN GYM Pickleball?",
-        "Do you offer OPEN GYM Pickleball?",
-        "Is there OPEN GYM Pickleball at Urbancrest?",
-        "Can I participate in OPEN GYM Pickleball?",
-        "Can I play OPEN GYM Pickleball at Urbancrest?",
-        "Pickleball",
-        "Does Urbancrest have Pickleball?",
-        "Does Urbancrest offer Pickleball?",
-        "Do you have Pickleball?",
-        "Do you offer Pickleball?",
-        "Is there Pickleball at Urbancrest?",
-        "Can I participate in Pickleball?",
-        "Can I play Pickleball at Urbancrest?",
-        "OPEN GYM Pickle ball",
-        "Does Urbancrest have OPEN GYM Pickle ball?",
-        "Does Urbancrest offer OPEN GYM Pickle ball?",
-        "Do you have OPEN GYM Pickle ball?",
-        "Do you offer OPEN GYM Pickle ball?",
-        "Is there OPEN GYM Pickle ball at Urbancrest?",
-        "Can I participate in OPEN GYM Pickle ball?",
-        "Can I play OPEN GYM Pickle ball at Urbancrest?",
-        "Pickle ball",
-        "Does Urbancrest have Pickle ball?",
-        "Does Urbancrest offer Pickle ball?",
-        "Do you have Pickle ball?",
-        "Do you offer Pickle ball?",
-        "Is there Pickle ball at Urbancrest?",
-        "Can I participate in Pickle ball?",
-        "Can I play Pickle ball at Urbancrest?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-ff384c23f40cfa47",
-      "activity_aliases": [
-        "OPEN GYM Pickleball",
-        "Pickleball",
-        "OPEN GYM Pickle ball",
-        "Pickle ball"
-      ],
-      "event_category": "general_event",
-      "event_start": "2026-10-01T18:00:00-04:00",
-      "event_end": "2026-10-01T20:00:00-04:00",
-      "sort_start_utc": "2026-10-01T22:00:00Z",
-      "sort_end_utc": "2026-10-02T00:00:00Z",
-      "display_when": "Thursday, October 1, 2026, 6 PM to 8 PM",
-      "all_day": false,
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "planning_center_event_instance_id": "216277437",
-      "planning_center_event_time_id": "29468516",
-      "registration_available": false,
-      "knowledge_file": "knowledge/events/generated/2026-10-01-open-gym-pickleball-0cfa47.md",
-      "chronological_rank": 20,
-      "routine_schedule_occurrence": false
-    },
-    {
-      "id": "events.live.event-5a6c2377094d6218",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-10-08-open-gym-pickleball-4d6218.md",
-      "title": "OPEN GYM Pickleball",
-      "summary": "On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.",
-      "content": "On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "general_event",
-        "OPEN GYM Pickleball",
-        "Pickleball",
-        "OPEN GYM Pickle ball",
-        "Pickle ball"
-      ],
-      "search_terms": [
-        "OPEN GYM Pickleball",
-        "When is OPEN GYM Pickleball?",
-        "Tell me about OPEN GYM Pickleball",
-        "What are the details for OPEN GYM Pickleball?",
-        "What is the menu for OPEN GYM Pickleball?",
-        "How do I register for OPEN GYM Pickleball?",
-        "Does Urbancrest have OPEN GYM Pickleball?",
-        "Does Urbancrest offer OPEN GYM Pickleball?",
-        "Do you have OPEN GYM Pickleball?",
-        "Do you offer OPEN GYM Pickleball?",
-        "Is there OPEN GYM Pickleball at Urbancrest?",
-        "Can I participate in OPEN GYM Pickleball?",
-        "Can I play OPEN GYM Pickleball at Urbancrest?",
-        "Pickleball",
-        "Does Urbancrest have Pickleball?",
-        "Does Urbancrest offer Pickleball?",
-        "Do you have Pickleball?",
-        "Do you offer Pickleball?",
-        "Is there Pickleball at Urbancrest?",
-        "Can I participate in Pickleball?",
-        "Can I play Pickleball at Urbancrest?",
-        "OPEN GYM Pickle ball",
-        "Does Urbancrest have OPEN GYM Pickle ball?",
-        "Does Urbancrest offer OPEN GYM Pickle ball?",
-        "Do you have OPEN GYM Pickle ball?",
-        "Do you offer OPEN GYM Pickle ball?",
-        "Is there OPEN GYM Pickle ball at Urbancrest?",
-        "Can I participate in OPEN GYM Pickle ball?",
-        "Can I play OPEN GYM Pickle ball at Urbancrest?",
-        "Pickle ball",
-        "Does Urbancrest have Pickle ball?",
-        "Does Urbancrest offer Pickle ball?",
-        "Do you have Pickle ball?",
-        "Do you offer Pickle ball?",
-        "Is there Pickle ball at Urbancrest?",
-        "Can I participate in Pickle ball?",
-        "Can I play Pickle ball at Urbancrest?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-5a6c2377094d6218",
-      "activity_aliases": [
-        "OPEN GYM Pickleball",
-        "Pickleball",
-        "OPEN GYM Pickle ball",
-        "Pickle ball"
-      ],
-      "event_category": "general_event",
-      "event_start": "2026-10-08T18:00:00-04:00",
-      "event_end": "2026-10-08T20:00:00-04:00",
-      "sort_start_utc": "2026-10-08T22:00:00Z",
-      "sort_end_utc": "2026-10-09T00:00:00Z",
-      "display_when": "Thursday, October 8, 2026, 6 PM to 8 PM",
-      "all_day": false,
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "planning_center_event_instance_id": "216277438",
-      "planning_center_event_time_id": "29468516",
-      "registration_available": false,
-      "knowledge_file": "knowledge/events/generated/2026-10-08-open-gym-pickleball-4d6218.md",
-      "chronological_rank": 29,
-      "routine_schedule_occurrence": false
-    },
-    {
-      "id": "events.live.event-5c67e99d1b67f76a",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-10-15-open-gym-pickleball-67f76a.md",
-      "title": "OPEN GYM Pickleball",
-      "summary": "On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium.",
-      "content": "On Thursday evenings, Urbancrest will host Open Gym Pickleball in the gymnasium. These open gyms are free to attend and open to anyone ages 13+.",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "general_event",
-        "OPEN GYM Pickleball",
-        "Pickleball",
-        "OPEN GYM Pickle ball",
-        "Pickle ball"
-      ],
-      "search_terms": [
-        "OPEN GYM Pickleball",
-        "When is OPEN GYM Pickleball?",
-        "Tell me about OPEN GYM Pickleball",
-        "What are the details for OPEN GYM Pickleball?",
-        "What is the menu for OPEN GYM Pickleball?",
-        "How do I register for OPEN GYM Pickleball?",
-        "Does Urbancrest have OPEN GYM Pickleball?",
-        "Does Urbancrest offer OPEN GYM Pickleball?",
-        "Do you have OPEN GYM Pickleball?",
-        "Do you offer OPEN GYM Pickleball?",
-        "Is there OPEN GYM Pickleball at Urbancrest?",
-        "Can I participate in OPEN GYM Pickleball?",
-        "Can I play OPEN GYM Pickleball at Urbancrest?",
-        "Pickleball",
-        "Does Urbancrest have Pickleball?",
-        "Does Urbancrest offer Pickleball?",
-        "Do you have Pickleball?",
-        "Do you offer Pickleball?",
-        "Is there Pickleball at Urbancrest?",
-        "Can I participate in Pickleball?",
-        "Can I play Pickleball at Urbancrest?",
-        "OPEN GYM Pickle ball",
-        "Does Urbancrest have OPEN GYM Pickle ball?",
-        "Does Urbancrest offer OPEN GYM Pickle ball?",
-        "Do you have OPEN GYM Pickle ball?",
-        "Do you offer OPEN GYM Pickle ball?",
-        "Is there OPEN GYM Pickle ball at Urbancrest?",
-        "Can I participate in OPEN GYM Pickle ball?",
-        "Can I play OPEN GYM Pickle ball at Urbancrest?",
-        "Pickle ball",
-        "Does Urbancrest have Pickle ball?",
-        "Does Urbancrest offer Pickle ball?",
-        "Do you have Pickle ball?",
-        "Do you offer Pickle ball?",
-        "Is there Pickle ball at Urbancrest?",
-        "Can I participate in Pickle ball?",
-        "Can I play Pickle ball at Urbancrest?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-5c67e99d1b67f76a",
-      "activity_aliases": [
-        "OPEN GYM Pickleball",
-        "Pickleball",
-        "OPEN GYM Pickle ball",
-        "Pickle ball"
-      ],
-      "event_category": "general_event",
-      "event_start": "2026-10-15T18:00:00-04:00",
-      "event_end": "2026-10-15T20:00:00-04:00",
-      "sort_start_utc": "2026-10-15T22:00:00Z",
-      "sort_end_utc": "2026-10-16T00:00:00Z",
-      "display_when": "Thursday, October 15, 2026, 6 PM to 8 PM",
-      "all_day": false,
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "planning_center_event_instance_id": "216277439",
-      "planning_center_event_time_id": "29468516",
-      "registration_available": false,
-      "knowledge_file": "knowledge/events/generated/2026-10-15-open-gym-pickleball-67f76a.md",
-      "chronological_rank": 35,
+      "knowledge_file": "knowledge/events/generated/2026-10-25-trail-of-treats-c2dfe7.md",
+      "chronological_rank": 40,
       "routine_schedule_occurrence": false
     },
     {
@@ -24414,7 +24060,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-20-sunday-morning-services-11-00-am-service-9ace48.md",
-      "chronological_rank": 9,
+      "chronological_rank": 8,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24487,7 +24133,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-27-sunday-morning-services-11-00-am-service-b8b3b1.md",
-      "chronological_rank": 16,
+      "chronological_rank": 14,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24560,7 +24206,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-04-sunday-morning-services-11-00-am-service-391224.md",
-      "chronological_rank": 25,
+      "chronological_rank": 22,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24633,7 +24279,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-11-sunday-morning-services-11-00-am-service-31230b.md",
-      "chronological_rank": 33,
+      "chronological_rank": 29,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24706,6 +24352,79 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-18-sunday-morning-services-11-00-am-service-c4ad2d.md",
+      "chronological_rank": 34,
+      "routine_schedule_occurrence": true,
+      "retrieval_exclude_for_intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ]
+    },
+    {
+      "id": "events.live.event-2158e0ed36d92cdf",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-10-25-sunday-morning-services-11-00-am-service-d92cdf.md",
+      "title": "Sunday Morning Services: 11:00 AM Service",
+      "summary": "Join us in person or online!...",
+      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
+      "priority": 20,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "general_event",
+        "Sunday Morning Services: 11:00 AM Service"
+      ],
+      "search_terms": [
+        "Sunday Morning Services: 11:00 AM Service",
+        "When is Sunday Morning Services: 11:00 AM Service?",
+        "Tell me about Sunday Morning Services: 11:00 AM Service",
+        "What are the details for Sunday Morning Services: 11:00 AM Service?",
+        "What is the menu for Sunday Morning Services: 11:00 AM Service?",
+        "How do I register for Sunday Morning Services: 11:00 AM Service?",
+        "Does Urbancrest have Sunday Morning Services: 11:00 AM Service?",
+        "Does Urbancrest offer Sunday Morning Services: 11:00 AM Service?",
+        "Do you have Sunday Morning Services: 11:00 AM Service?",
+        "Do you offer Sunday Morning Services: 11:00 AM Service?",
+        "Is there Sunday Morning Services: 11:00 AM Service at Urbancrest?",
+        "Can I participate in Sunday Morning Services: 11:00 AM Service?",
+        "Can I play Sunday Morning Services: 11:00 AM Service at Urbancrest?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-2158e0ed36d92cdf",
+      "activity_aliases": [
+        "Sunday Morning Services: 11:00 AM Service"
+      ],
+      "event_category": "general_event",
+      "event_start": "2026-10-25T11:00:00-04:00",
+      "event_end": "2026-10-25T12:10:00-04:00",
+      "sort_start_utc": "2026-10-25T15:00:00Z",
+      "sort_end_utc": "2026-10-25T16:10:00Z",
+      "display_when": "Sunday, October 25, 2026, 11 AM to 12:10 PM",
+      "all_day": false,
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "planning_center_event_instance_id": "170494276",
+      "planning_center_event_time_id": "9127132",
+      "registration_available": false,
+      "knowledge_file": "knowledge/events/generated/2026-10-25-sunday-morning-services-11-00-am-service-d92cdf.md",
       "chronological_rank": 39,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
@@ -24852,7 +24571,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-20-sunday-morning-services-9-30-am-service-25697d.md",
-      "chronological_rank": 8,
+      "chronological_rank": 7,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24925,7 +24644,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-09-27-sunday-morning-services-9-30-am-service-a45069.md",
-      "chronological_rank": 15,
+      "chronological_rank": 13,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24998,7 +24717,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-04-sunday-morning-services-9-30-am-service-160a39.md",
-      "chronological_rank": 24,
+      "chronological_rank": 21,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -25071,7 +24790,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-11-sunday-morning-services-9-30-am-service-0b689c.md",
-      "chronological_rank": 32,
+      "chronological_rank": 28,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -25144,7 +24863,153 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-10-18-sunday-morning-services-9-30-am-service-d0a2ae.md",
+      "chronological_rank": 33,
+      "routine_schedule_occurrence": true,
+      "retrieval_exclude_for_intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ]
+    },
+    {
+      "id": "events.live.event-5be762b6dc9724fc",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-10-25-sunday-morning-services-9-30-am-service-9724fc.md",
+      "title": "Sunday Morning Services: 9:30 AM Service",
+      "summary": "Join us in person or online!...",
+      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
+      "priority": 20,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "general_event",
+        "Sunday Morning Services: 9:30 AM Service"
+      ],
+      "search_terms": [
+        "Sunday Morning Services: 9:30 AM Service",
+        "When is Sunday Morning Services: 9:30 AM Service?",
+        "Tell me about Sunday Morning Services: 9:30 AM Service",
+        "What are the details for Sunday Morning Services: 9:30 AM Service?",
+        "What is the menu for Sunday Morning Services: 9:30 AM Service?",
+        "How do I register for Sunday Morning Services: 9:30 AM Service?",
+        "Does Urbancrest have Sunday Morning Services: 9:30 AM Service?",
+        "Does Urbancrest offer Sunday Morning Services: 9:30 AM Service?",
+        "Do you have Sunday Morning Services: 9:30 AM Service?",
+        "Do you offer Sunday Morning Services: 9:30 AM Service?",
+        "Is there Sunday Morning Services: 9:30 AM Service at Urbancrest?",
+        "Can I participate in Sunday Morning Services: 9:30 AM Service?",
+        "Can I play Sunday Morning Services: 9:30 AM Service at Urbancrest?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-5be762b6dc9724fc",
+      "activity_aliases": [
+        "Sunday Morning Services: 9:30 AM Service"
+      ],
+      "event_category": "general_event",
+      "event_start": "2026-10-25T09:30:00-04:00",
+      "event_end": "2026-10-25T10:40:00-04:00",
+      "sort_start_utc": "2026-10-25T13:30:00Z",
+      "sort_end_utc": "2026-10-25T14:40:00Z",
+      "display_when": "Sunday, October 25, 2026, 9:30 AM to 10:40 AM",
+      "all_day": false,
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "planning_center_event_instance_id": "170494276",
+      "planning_center_event_time_id": "9127131",
+      "registration_available": false,
+      "knowledge_file": "knowledge/events/generated/2026-10-25-sunday-morning-services-9-30-am-service-9724fc.md",
       "chronological_rank": 38,
+      "routine_schedule_occurrence": true,
+      "retrieval_exclude_for_intents": [
+        "service_times",
+        "sunday_service_times",
+        "weekly_schedule"
+      ]
+    },
+    {
+      "id": "events.live.event-5260c3af76a90a62",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-11-01-sunday-morning-services-9-30-am-service-a90a62.md",
+      "title": "Sunday Morning Services: 9:30 AM Service",
+      "summary": "Join us in person or online!...",
+      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
+      "priority": 20,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "general_event",
+        "Sunday Morning Services: 9:30 AM Service"
+      ],
+      "search_terms": [
+        "Sunday Morning Services: 9:30 AM Service",
+        "When is Sunday Morning Services: 9:30 AM Service?",
+        "Tell me about Sunday Morning Services: 9:30 AM Service",
+        "What are the details for Sunday Morning Services: 9:30 AM Service?",
+        "What is the menu for Sunday Morning Services: 9:30 AM Service?",
+        "How do I register for Sunday Morning Services: 9:30 AM Service?",
+        "Does Urbancrest have Sunday Morning Services: 9:30 AM Service?",
+        "Does Urbancrest offer Sunday Morning Services: 9:30 AM Service?",
+        "Do you have Sunday Morning Services: 9:30 AM Service?",
+        "Do you offer Sunday Morning Services: 9:30 AM Service?",
+        "Is there Sunday Morning Services: 9:30 AM Service at Urbancrest?",
+        "Can I participate in Sunday Morning Services: 9:30 AM Service?",
+        "Can I play Sunday Morning Services: 9:30 AM Service at Urbancrest?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-5260c3af76a90a62",
+      "activity_aliases": [
+        "Sunday Morning Services: 9:30 AM Service"
+      ],
+      "event_category": "general_event",
+      "event_start": "2026-11-01T09:30:00-05:00",
+      "event_end": "2026-11-01T10:40:00-05:00",
+      "sort_start_utc": "2026-11-01T14:30:00Z",
+      "sort_end_utc": "2026-11-01T15:40:00Z",
+      "display_when": "Sunday, November 1, 2026, 9:30 AM to 10:40 AM",
+      "all_day": false,
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "planning_center_event_instance_id": "171026769",
+      "planning_center_event_time_id": "9127131",
+      "registration_available": false,
+      "knowledge_file": "knowledge/events/generated/2026-11-01-sunday-morning-services-9-30-am-service-a90a62.md",
+      "chronological_rank": 43,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
