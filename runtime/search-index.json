@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-09-13T11:23:20.459224Z",
+  "generated_at": "2026-09-13T11:26:58.546412Z",
   "timezone": "America/New_York",
-  "record_count": 461,
+  "record_count": 462,
   "config": {
     "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step. For directions requests, include both approved map links.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership Transition\n\nUrbancrest is currently searching for its next Global Missions Pastor.\n\nFor broad or global missions leadership questions:\n\n1. State that Urbancrest is currently searching for its next Global Missions Pastor.\n2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.\n3. Return `jennifer_prows` when one staff card is appropriate.\n4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nState the times found in those authoritative records directly. Do not hardcode service times in runtime application logic or prompt instructions.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
     "style_guide": "# Style Guide\n\n## Writing\n\n- Use short paragraphs.\n- Prefer plain language.\n- Avoid church jargon unless it is explained.\n- Do not use em dashes.\n- Do not use the word meaningful as a filler.\n- Use Small Groups, never Grow Groups.\n- Refer to Urbancrest Church as Urbancrest after the first use.\n- Use believer's baptism by immersion when describing baptism.\n\n## Theology\n\n- Scripture is the final authority.\n- The Baptist Faith and Message 2000 is a helpful doctrinal summary, not equal to Scripture.\n- Salvation is by grace alone through faith alone in Jesus Christ alone.\n- Baptism follows salvation and does not save.\n",
@@ -9690,6 +9690,12 @@
           "title": "The Lord's Prayer",
           "speaker": "Tucker Howard",
           "primary_scripture": "Matthew 6:9-15"
+        },
+        {
+          "date": "2026-08-23",
+          "title": "Trivial Pursuits: Chasing What Doesn’t Last",
+          "speaker": "Geoff Prows",
+          "primary_scripture": "Matthew 6:19-24"
         }
       ]
     },
@@ -12119,6 +12125,100 @@
       "series_title": "Summer on the Mount: Kingdom Living for the Here and Now",
       "primary_scripture": "Matthew 6:9-15",
       "notes_url": "https://notes.subsplash.com/fill-in/view?page=r1xcizywGe",
+      "title_source": "fill_in_notes",
+      "outline_source": "fill_in_notes",
+      "summary_source": "sermon_transcript",
+      "supplemental_search_term_count": 14
+    },
+    {
+      "id": "sermons.2026_08_23",
+      "record_type": "sermon",
+      "path": "knowledge/sermons/2026/2026-08-23-trivial-pursuits-chasing-what-doesnt-last.md",
+      "title": "Trivial Pursuits: Chasing What Doesn’t Last",
+      "summary": "Pastor Geoff Prows taught from Matthew 6:19-24 that kingdom citizens must reject trivial pursuits and devote themselves to what lasts. Through the images of two treasures, two eyes, and two masters, Jesus reveals that what people treasure exposes the heart, generosity reflects clear spiritual vision, and no one can serve both God and wealth.",
+      "content": "# Trivial Pursuits: Chasing What Doesn’t Last\n\n**Speaker:** Geoff Prows  \n**Date:** 2026-08-23  \n**Primary Scripture:** Matthew 6:19-24 (NASB 1995)  \n**Series:** Summer on the Mount: Kingdom Living for the Here and Now\n\n## Message Summary\n\nPastor Geoff Prows taught that followers of Jesus must be distinguished from the world by what they pursue. Using the board game Trivial Pursuit as an illustration, he warned that many people spend their lives chasing personal happiness, wealth, position, recognition, comfort, or retirement while neglecting what will matter eternally.\n\nIn Matthew 6:19-24, Jesus uses three contrasts to expose the heart: two treasures, two eyes, and two masters. Earthly treasure is temporary and vulnerable, while heavenly treasure lasts. Clear spiritual vision produces single devotion and generosity, while a divided and stingy heart darkens a person's view of life. Ultimately, every person serves a master, and no one can serve both God and wealth.\n\n## Main Idea\n\nKingdom citizens must stop chasing what will not last and pursue eternal treasure through generous stewardship and undivided devotion to Jesus as their only Master.\n\n## Official Fill-In Outline\n\n### I. Two Treasures\n\nJesus contrasts earthly treasure, which can decay, disappear, or be stolen, with heavenly treasure that cannot be taken away. The command is not that possessing money or material things is inherently sinful, but that believers must not allow possessions to possess them or place their hope in uncertain riches.\n\nWhat people treasure reveals the condition of their hearts. Prows challenged listeners to ask what fills their daydreams, what they fear losing most, and what they believe they cannot be happy without. Those answers expose whether they are exchanging eternal priorities for temporary pursuits.\n\n### II. Two Eyes\n\nThe eye represents the spiritual window through which a person sees life. The clear eye is both generous and singly devoted to God, while the bad eye is stingy and divided.\n\nBelievers recognize that everything belongs to God and that they are stewards rather than owners. This frees them from hoarding and makes generosity a natural expression of devotion. An ungenerous spirit clouds a person's view of happiness, success, and God's will.\n\n### III. Two Masters\n\nJesus states that no one can serve two masters. Every person is already serving someone or somethi...",
+      "priority": 86,
+      "category": [
+        "sermon"
+      ],
+      "intents": [
+        "sermon",
+        "sermon_content",
+        "messages",
+        "preaching",
+        "sermon_notes"
+      ],
+      "tags": [
+        "Summer on the Mount",
+        "Sermon on the Mount",
+        "Matthew 6",
+        "treasure in heaven",
+        "earthly treasure",
+        "money",
+        "wealth",
+        "generosity",
+        "stewardship",
+        "divided heart",
+        "devotion",
+        "serving God",
+        "two masters",
+        "kingdom living",
+        "eternal priorities",
+        "sermon"
+      ],
+      "search_terms": [
+        "What was the August 23 sermon about?",
+        "Who preached on August 23?",
+        "What did Geoff Prows preach about?",
+        "What was Pastor Geoff's August 23 sermon about?",
+        "What is Trivial Pursuits about?",
+        "What does Chasing What Doesn't Last mean?",
+        "What did Geoff say about treasure in heaven?",
+        "What did the sermon say about money and wealth?",
+        "What did Geoff say about generosity?",
+        "What did the sermon say about two treasures?",
+        "What did the sermon say about two eyes?",
+        "What did the sermon say about two masters?",
+        "Can Christians serve God and money?",
+        "What did Geoff say about a divided heart?",
+        "What does Matthew 6:19-24 mean in the sermon?",
+        "Trivial Pursuits: Chasing What Doesn’t Last",
+        "Message Summary",
+        "Main Idea",
+        "Official Fill-In Outline",
+        "I. Two Treasures",
+        "II. Two Eyes",
+        "III. Two Masters",
+        "Pursuing What Lasts",
+        "Supporting Scriptures from Fill-In Notes",
+        "Fill-In Notes",
+        "Topics",
+        "Prows explained that Jesus does not merely want a prominent place in a believer's life but the preeminent place.",
+        "Wealth, possessions, self, and worldly desires cannot share mastery with Christ.",
+        "Paradoxically, complete surrender to Jesus brings true freedom because the Son sets His people free from slavery to sin."
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "https://notes.subsplash.com/fill-in/view?page=rzF1R-WbU",
+        "action_link.messages"
+      ],
+      "status": "published",
+      "answer_guidance": "This is a historical summary of a specific Urbancrest sermon. Use it for questions about what Geoff Prows preached on August 23, 2026, including Matthew 6:19-24, earthly and heavenly treasure, generosity, stewardship, spiritual vision, divided devotion, and serving God rather than wealth. The official title, primary Scripture, and outline come from the published fill-in notes; the summary and explanatory detail are condensed from the sermon transcript. Do not use sermon records as the canonical source for Urbancrest doctrine, policy, current schedules, or current ministry information when a dedicated knowledge article exists.",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "sermon_content"
+      ],
+      "sermon_date": "2026-08-23",
+      "date": "2026-08-23",
+      "speaker": "Geoff Prows",
+      "series_id": "summer_on_the_mount_2026",
+      "series_title": "Summer on the Mount: Kingdom Living for the Here and Now",
+      "primary_scripture": "Matthew 6:19-24",
+      "notes_url": "https://notes.subsplash.com/fill-in/view?page=rzF1R-WbU",
       "title_source": "fill_in_notes",
       "outline_source": "fill_in_notes",
       "summary_source": "sermon_transcript",
