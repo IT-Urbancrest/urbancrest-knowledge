@@ -1,4 +1,4 @@
-version: 1.5
+version: 1.6
 purpose: Regression coverage for structured sermon and sermon-series retrieval using fill-in notes as the canonical structural source.
 
 cases:
@@ -78,12 +78,23 @@ cases:
     expected_record: sermons.2026_08_23
     expected_topic: serving God rather than wealth
 
+  - query: What did Geoff Prows preach on August 30?
+    expected_record: sermons.2026_08_30
+    expected_title: A Word for Worriers
+    expected_speaker: Geoff Prows
+    expected_scripture: Matthew 6:25-34
+    expected_staff_key: geoff_prows
+
+  - query: What did the August 30 sermon say about worry?
+    expected_record: sermons.2026_08_30
+    expected_topic: trust in God's provision
+
   - query: What is the current sermon series?
     expected_record: sermons.series.summer_on_the_mount_2026
 
   - query: Which sermons have been in Summer on the Mount?
     expected_record: sermons.series.summer_on_the_mount_2026
-    expected_member_count: 11
+    expected_member_count: 12
     answer_must_list_all_members: true
     expected_image_url: https://cdn.subsplash.com/images/VRR5NM/_source/3259fdd8-2fcf-4d63-9fd7-fa81b3796edb/image.jpg
 
@@ -108,6 +119,11 @@ cases:
   - query: Do you have fill-in notes for the August 23 message?
     expected_record: sermons.2026_08_23
     expected_url: https://notes.subsplash.com/fill-in/view?page=rzF1R-WbU
+    answer_must_include_exact_url: true
+
+  - query: Do you have fill-in notes for the August 30 message?
+    expected_record: sermons.2026_08_30
+    expected_url: https://notes.subsplash.com/fill-in/view?page=6R5jZvvvAM
     answer_must_include_exact_url: true
 
   - query: What did Geoff say about waiting on God?
