@@ -35,13 +35,13 @@ event_start: "2026-10-25T15:00:00-04:00"
 event_end: "2026-10-25T22:00:00-04:00"
 sort_start_utc: "2026-10-25T19:00:00Z"
 sort_end_utc: "2026-10-26T02:00:00Z"
-chronological_rank: 40
+chronological_rank: 37
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
 planning_center_event_instance_id: "222367934"
 planning_center_event_time_id: "30542855"
-last_generated: 2026-09-13T11:54:19.665161Z
+last_generated: 2026-09-13T16:18:49.367394Z
 ---
 
 # Trail of Treats
