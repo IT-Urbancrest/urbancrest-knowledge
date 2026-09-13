@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-09-13T04:49:55.426330Z",
+  "generated_at": "2026-09-13T11:23:20.459224Z",
   "timezone": "America/New_York",
-  "record_count": 460,
+  "record_count": 461,
   "config": {
     "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step. For directions requests, include both approved map links.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership Transition\n\nUrbancrest is currently searching for its next Global Missions Pastor.\n\nFor broad or global missions leadership questions:\n\n1. State that Urbancrest is currently searching for its next Global Missions Pastor.\n2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.\n3. Return `jennifer_prows` when one staff card is appropriate.\n4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nState the times found in those authoritative records directly. Do not hardcode service times in runtime application logic or prompt instructions.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
     "style_guide": "# Style Guide\n\n## Writing\n\n- Use short paragraphs.\n- Prefer plain language.\n- Avoid church jargon unless it is explained.\n- Do not use em dashes.\n- Do not use the word meaningful as a filler.\n- Use Small Groups, never Grow Groups.\n- Refer to Urbancrest Church as Urbancrest after the first use.\n- Use believer's baptism by immersion when describing baptism.\n\n## Theology\n\n- Scripture is the final authority.\n- The Baptist Faith and Message 2000 is a helpful doctrinal summary, not equal to Scripture.\n- Salvation is by grace alone through faith alone in Jesus Christ alone.\n- Baptism follows salvation and does not save.\n",
@@ -9684,6 +9684,12 @@
           "title": "Becoming Real, Lasting Fruit",
           "speaker": "Jerry Shannon",
           "primary_scripture": "Matthew 6:1-8"
+        },
+        {
+          "date": "2026-08-16",
+          "title": "The Lord's Prayer",
+          "speaker": "Tucker Howard",
+          "primary_scripture": "Matthew 6:9-15"
         }
       ]
     },
@@ -12024,6 +12030,99 @@
       "title_source": "fill_in_notes",
       "outline_source": "fill_in_notes",
       "summary_source": "sermon_transcript"
+    },
+    {
+      "id": "sermons.2026_08_16",
+      "record_type": "sermon",
+      "path": "knowledge/sermons/2026/2026-08-16-the-lords-prayer.md",
+      "title": "The Lord's Prayer",
+      "summary": "Pastor Tucker Howard taught from Matthew 6:9-15 that the Lord's Prayer is a model of complete dependence on God, not merely words to recite. Jesus teaches His followers to approach God as Father, seek His kingdom and will, trust Him for daily provision, receive and extend forgiveness, and depend on Him for deliverance from temptation and evil.",
+      "content": "# The Lord's Prayer\n\n**Speaker:** Tucker Howard  \n**Date:** 2026-08-16  \n**Primary Scripture:** Matthew 6:9-15 (CSB)  \n**Series:** Summer on the Mount: Kingdom Living for the Here and Now\n\n## Message Summary\n\nPastor Tucker Howard taught that the Lord's Prayer is not merely a set of words to recite. Jesus gave it as a model that teaches His followers how to pray and whom to depend on. Located at the center of the Sermon on the Mount, the prayer points believers toward a life centered on prayer and complete dependence on God.\n\nThe prayer begins with a personal relationship with God as Father, honors His holiness, and asks for His kingdom and will rather than our own. It teaches daily dependence on God's provision, regular confession of sin, forgiveness toward others, and reliance on God for protection from temptation and the evil one.\n\n## Main Idea\n\nThe Lord's Prayer is a model of complete dependence on God that reshapes how believers approach the Father, seek His kingdom, trust His provision, forgive others, and face temptation.\n\n## Official Fill-In Outline\n\n### “Our Father”\n\nJesus teaches His disciples to approach God personally as Father. Prayer is not a performance but an expression of dependence, trusting that the Father knows, cares, and invites His children to know Him.\n\n### “Your Name be Honored as holy”\n\nGod's name is honored when His people depend on Him rather than merely performing religious acts. How believers understand God shapes the way they pray.\n\n### “Your Kingdom Come”\n\nThis request includes submitting to God's rule, praying for the gospel to advance and disciples to be made, and looking expectantly toward Christ's return. Praying for the coming kingdom reminds believers that God's work is **not finished** and that the best is yet to come.\n\n### “Your will be done on earth as it is in heaven”\n\nBelievers surrender their own agendas to the lordship of Jesus and ask God to use ordinary people, ordinary work, and ordinary days to accomplish His restoring purposes. The posture of faithful prayer is, “Not my will, but Yours be done.”\n\n### “Give us today our daily bread”\n\nDaily bread includes physical provision and serves as an invitation to daily dependence. Instead of trusting paychecks, plans, possessions, or personal ability, believers acknowledge God as the giver of everything they need and Jesus as the Bread of Life.\n\n### “And forgive us ou...",
+      "priority": 86,
+      "category": [
+        "sermon"
+      ],
+      "intents": [
+        "sermon",
+        "sermon_content",
+        "messages",
+        "preaching",
+        "sermon_notes"
+      ],
+      "tags": [
+        "Summer on the Mount",
+        "Sermon on the Mount",
+        "Matthew 6",
+        "Lord's Prayer",
+        "prayer",
+        "dependence on God",
+        "God as Father",
+        "kingdom of God",
+        "God's will",
+        "daily bread",
+        "forgiveness",
+        "temptation",
+        "deliverance",
+        "grace",
+        "sermon"
+      ],
+      "search_terms": [
+        "What was the August 16 sermon about?",
+        "Who preached on August 16?",
+        "What did Tucker Howard preach about?",
+        "What was Pastor Tucker's sermon about?",
+        "What is The Lord's Prayer sermon about?",
+        "What did the sermon say about the Lord's Prayer?",
+        "Is the Lord's Prayer meant to be recited?",
+        "What did Tucker say about prayer and dependence?",
+        "What did the sermon say about God as Father?",
+        "What did Tucker say about your kingdom come?",
+        "What did the sermon say about God's will?",
+        "What does daily bread mean in the Lord's Prayer?",
+        "What did Tucker say about forgiveness?",
+        "What did the sermon say about temptation?",
+        "What does Matthew 6:9-15 mean in the sermon?",
+        "The Lord's Prayer",
+        "Message Summary",
+        "Main Idea",
+        "Official Fill-In Outline",
+        "“Our Father”",
+        "“Your Name be Honored as holy”",
+        "“Your Kingdom Come”",
+        "“Your will be done on earth as it is in heaven”",
+        "“Give us today our daily bread”",
+        "“And forgive us our debts, as we also have forgiven our debtors”",
+        "“And do not bring us into temptation, but deliver us from the evil one”",
+        "“For if you forgive others their offenses...”",
+        "Closing Applications from the Fill-In Notes",
+        "Examine How You Pray"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "https://notes.subsplash.com/fill-in/view?page=r1xcizywGe",
+        "action_link.messages"
+      ],
+      "status": "published",
+      "answer_guidance": "This is a historical summary of a specific Urbancrest sermon. Use it for questions about what Tucker Howard preached on August 16, 2026, including Matthew 6:9-15, the Lord's Prayer as a model for prayer, dependence on God, God's kingdom and will, daily provision, forgiveness, temptation, and deliverance. The official title, primary Scripture, and outline come from the published fill-in notes; the summary and explanatory detail are condensed from the sermon transcript. Do not use sermon records as the canonical source for Urbancrest doctrine, policy, current schedules, or current ministry information when a dedicated knowledge article exists.",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "sermon_content"
+      ],
+      "sermon_date": "2026-08-16",
+      "date": "2026-08-16",
+      "speaker": "Tucker Howard",
+      "series_id": "summer_on_the_mount_2026",
+      "series_title": "Summer on the Mount: Kingdom Living for the Here and Now",
+      "primary_scripture": "Matthew 6:9-15",
+      "notes_url": "https://notes.subsplash.com/fill-in/view?page=r1xcizywGe",
+      "title_source": "fill_in_notes",
+      "outline_source": "fill_in_notes",
+      "summary_source": "sermon_transcript",
+      "supplemental_search_term_count": 14
     },
     {
       "id": "sermons.2026_07_26",
