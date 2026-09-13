@@ -1,4 +1,4 @@
-version: 1.6
+version: 1.7
 purpose: Regression coverage for structured sermon and sermon-series retrieval using fill-in notes as the canonical structural source.
 
 cases:
@@ -89,12 +89,23 @@ cases:
     expected_record: sermons.2026_08_30
     expected_topic: trust in God's provision
 
+  - query: What did Geoff Prows preach on September 6?
+    expected_record: sermons.2026_09_06
+    expected_title: Logs, Dogs, and Hogs
+    expected_speaker: Geoff Prows
+    expected_scripture: Matthew 7:1-6, 15-16
+    expected_staff_key: geoff_prows
+
+  - query: What did the September 6 sermon say about judging others?
+    expected_record: sermons.2026_09_06
+    expected_topic: judgmentalism and biblical discernment
+
   - query: What is the current sermon series?
     expected_record: sermons.series.summer_on_the_mount_2026
 
   - query: Which sermons have been in Summer on the Mount?
     expected_record: sermons.series.summer_on_the_mount_2026
-    expected_member_count: 12
+    expected_member_count: 13
     answer_must_list_all_members: true
     expected_image_url: https://cdn.subsplash.com/images/VRR5NM/_source/3259fdd8-2fcf-4d63-9fd7-fa81b3796edb/image.jpg
 
@@ -124,6 +135,11 @@ cases:
   - query: Do you have fill-in notes for the August 30 message?
     expected_record: sermons.2026_08_30
     expected_url: https://notes.subsplash.com/fill-in/view?page=6R5jZvvvAM
+    answer_must_include_exact_url: true
+
+  - query: Do you have fill-in notes for the September 6 message?
+    expected_record: sermons.2026_09_06
+    expected_url: https://notes.subsplash.com/fill-in/view?page=KE2bS_nrTC
     answer_must_include_exact_url: true
 
   - query: What did Geoff say about waiting on God?
