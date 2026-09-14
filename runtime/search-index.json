@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-09-14T12:49:53.862658Z",
+  "generated_at": "2026-09-14T19:51:13.886751Z",
   "timezone": "America/New_York",
   "record_count": 464,
   "config": {
@@ -90,7 +90,7 @@
   },
   "freshness": {
     "calendar": {
-      "generated_at": "2026-09-14T12:49:52.608397Z",
+      "generated_at": "2026-09-14T19:51:12.484264Z",
       "max_age_hours": 48,
       "source_path": "registry/events-live.yaml",
       "heartbeat_field": "generated_at",
@@ -98,7 +98,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-09-14T12:49:51.509667Z",
+      "generated_at": "2026-09-14T19:51:11.294444Z",
       "max_age_hours": 48,
       "source_path": "registry/small-groups-live.yaml",
       "heartbeat_field": "generated_at",
@@ -20045,7 +20045,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=0b8c190d56325cbe0983da665c529dd8556e161d746bb60b6cb3d5a931891e63",
       "knowledge_file": "knowledge/events/generated/2026-09-23-wednesday-night-dinner-c7bf0d.md",
-      "chronological_rank": 7,
+      "chronological_rank": 6,
       "routine_schedule_occurrence": false
     },
     {
@@ -23963,12 +23963,12 @@
       "routine_schedule_occurrence": false
     },
     {
-      "id": "events.live.event-399a8cbba5681d28",
+      "id": "events.live.event-f697e6f793540d9c",
       "record_type": "event",
-      "path": "knowledge/events/generated/2026-09-22-guest-services-team-meeting-681d28.md",
-      "title": "Guest Services Team Meeting",
-      "summary": "Guest Services Team Dinner Meeting",
-      "content": "Guest Services Team Dinner Meeting",
+      "path": "knowledge/events/generated/2026-09-24-guest-service-team-540d9c.md",
+      "title": "Guest Service Team",
+      "summary": "Team dinner / meeting for Guest Service",
+      "content": "Team dinner / meeting for Guest Service",
       "priority": 50,
       "category": [
         "events",
@@ -23987,22 +23987,22 @@
         "upcoming",
         "activity",
         "general_event",
-        "Guest Services Team Meeting"
+        "Guest Service Team"
       ],
       "search_terms": [
-        "Guest Services Team Meeting",
-        "When is Guest Services Team Meeting?",
-        "Tell me about Guest Services Team Meeting",
-        "What are the details for Guest Services Team Meeting?",
-        "What is the menu for Guest Services Team Meeting?",
-        "How do I register for Guest Services Team Meeting?",
-        "Does Urbancrest have Guest Services Team Meeting?",
-        "Does Urbancrest offer Guest Services Team Meeting?",
-        "Do you have Guest Services Team Meeting?",
-        "Do you offer Guest Services Team Meeting?",
-        "Is there Guest Services Team Meeting at Urbancrest?",
-        "Can I participate in Guest Services Team Meeting?",
-        "Can I play Guest Services Team Meeting at Urbancrest?"
+        "Guest Service Team",
+        "When is Guest Service Team?",
+        "Tell me about Guest Service Team",
+        "What are the details for Guest Service Team?",
+        "What is the menu for Guest Service Team?",
+        "How do I register for Guest Service Team?",
+        "Does Urbancrest have Guest Service Team?",
+        "Does Urbancrest offer Guest Service Team?",
+        "Do you have Guest Service Team?",
+        "Do you offer Guest Service Team?",
+        "Is there Guest Service Team at Urbancrest?",
+        "Can I participate in Guest Service Team?",
+        "Can I play Guest Service Team at Urbancrest?"
       ],
       "ministries": [
         "churchwide"
@@ -24011,23 +24011,23 @@
         "everyone"
       ],
       "resources": [],
-      "event_id": "event-399a8cbba5681d28",
+      "event_id": "event-f697e6f793540d9c",
       "activity_aliases": [
-        "Guest Services Team Meeting"
+        "Guest Service Team"
       ],
       "event_category": "general_event",
-      "event_start": "2026-09-22T17:30:00-04:00",
-      "event_end": "2026-09-22T20:30:00-04:00",
-      "sort_start_utc": "2026-09-22T21:30:00Z",
-      "sort_end_utc": "2026-09-23T00:30:00Z",
-      "display_when": "Tuesday, September 22, 2026, 5:30 PM to 8:30 PM",
+      "event_start": "2026-09-24T17:30:00-04:00",
+      "event_end": "2026-09-24T20:30:00-04:00",
+      "sort_start_utc": "2026-09-24T21:30:00Z",
+      "sort_end_utc": "2026-09-25T00:30:00Z",
+      "display_when": "Thursday, September 24, 2026, 5:30 PM to 8:30 PM",
       "all_day": false,
       "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "planning_center_event_instance_id": "221662897",
-      "planning_center_event_time_id": "30414252",
+      "planning_center_event_instance_id": "236546210",
+      "planning_center_event_time_id": "32843126",
       "registration_available": false,
-      "knowledge_file": "knowledge/events/generated/2026-09-22-guest-services-team-meeting-681d28.md",
-      "chronological_rank": 6,
+      "knowledge_file": "knowledge/events/generated/2026-09-24-guest-service-team-540d9c.md",
+      "chronological_rank": 7,
       "routine_schedule_occurrence": false
     },
     {

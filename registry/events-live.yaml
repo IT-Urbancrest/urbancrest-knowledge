@@ -1,11 +1,11 @@
 version: 1.5.4
-generated_at: '2026-09-14T12:49:52.608397Z'
+generated_at: '2026-09-14T19:51:12.484264Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
   enabled: true
-  target_instance_count: 369
-  matched_instance_count: 368
+  target_instance_count: 367
+  matched_instance_count: 367
   page_count: 9
   api_version: '2026-06-22'
 source_of_truth_for_calendar_intents: true
@@ -211,32 +211,6 @@ events:
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-20-sunday-morning-services-11-00-am-service-9ace48.md
-- id: event-399a8cbba5681d28
-  uid: ET-30414252-221662897@resources.planningcenteronline.com
-  title: Guest Services Team Meeting
-  summary: Guest Services Team Dinner Meeting
-  start: '2026-09-22T17:30:00-04:00'
-  end: '2026-09-22T20:30:00-04:00'
-  sort_start_utc: '2026-09-22T21:30:00Z'
-  sort_end_utc: '2026-09-23T00:30:00Z'
-  display_when: Tuesday, September 22, 2026, 5:30 PM to 8:30 PM
-  all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: Guest Services Team Dinner Meeting
-  planning_center_event_instance_id: '221662897'
-  planning_center_event_time_id: '30414252'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 6
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-09-22-guest-services-team-meeting-681d28.md
 - id: event-19c7f09112c7bf0d
   uid: ET-31870601-230122709@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -314,10 +288,36 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 7
+  chronological_rank: 6
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-23-wednesday-night-dinner-c7bf0d.md
+- id: event-f697e6f793540d9c
+  uid: ET-32843126-236546210@resources.planningcenteronline.com
+  title: Guest Service Team
+  summary: Team dinner / meeting for Guest Service
+  start: '2026-09-24T17:30:00-04:00'
+  end: '2026-09-24T20:30:00-04:00'
+  sort_start_utc: '2026-09-24T21:30:00Z'
+  sort_end_utc: '2026-09-25T00:30:00Z'
+  display_when: Thursday, September 24, 2026, 5:30 PM to 8:30 PM
+  all_day: false
+  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  description: Team dinner / meeting for Guest Service
+  planning_center_event_instance_id: '236546210'
+  planning_center_event_time_id: '32843126'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 7
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-09-24-guest-service-team-540d9c.md
 - id: event-a33c3a5ecf5aaab7
   uid: ET-31447186-227518757@resources.planningcenteronline.com
   title: Waynesville Fall Fest

@@ -16,7 +16,7 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-09-14T12:49:52.608397Z
+last_generated: 2026-09-14T19:51:12.484264Z
 ---
 
 # Upcoming Events
@@ -74,16 +74,6 @@ Detailed event file: `knowledge/events/generated/2026-09-20-sunday-morning-servi
 
 Detailed event file: `knowledge/events/generated/2026-09-20-sunday-morning-services-11-00-am-service-9ace48.md`
 
-## Guest Services Team Meeting
-
-**Category:** General Event
-
-**When:** Tuesday, September 22, 2026, 5:30 PM to 8:30 PM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-09-22-guest-services-team-meeting-681d28.md`
-
 ## Wednesday Night Dinner
 
 **Category:** Churchwide Program
@@ -93,6 +83,16 @@ Detailed event file: `knowledge/events/generated/2026-09-22-guest-services-team-
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-09-23-wednesday-night-dinner-c7bf0d.md`
+
+## Guest Service Team
+
+**Category:** General Event
+
+**When:** Thursday, September 24, 2026, 5:30 PM to 8:30 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2026-09-24-guest-service-team-540d9c.md`
 
 ## Waynesville Fall Fest
 
