@@ -1,5 +1,5 @@
 ---
-id: events.live.event-f73a6c816dcc2d25
+id: events.live.event-4d33ffcaeb7a5a96
 version: 1.4.3
 status: published
 priority: 50
@@ -30,22 +30,22 @@ search_terms:
   - "How do I register for Trail of Treats?"
 resources:
   - events.live
-event_id: event-f73a6c816dcc2d25
+event_id: event-4d33ffcaeb7a5a96
 event_start: "2026-10-25T17:00:00-04:00"
 event_end: "2026-10-25T19:30:00-04:00"
 sort_start_utc: "2026-10-25T21:00:00Z"
 sort_end_utc: "2026-10-25T23:30:00Z"
-chronological_rank: 38
+chronological_rank: 37
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
 registration_url: "https://urbancrest.churchcenter.com/registrations/events/3892183"
 image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1789574400&key=uploads%2Fevent%2Flogo%2F3892183%2Fimage-1789492969330.jpeg&thumb=720x405%23&version=1789493211&signature=0d4f7702179a20a5ae851e77f2c8e1410a1dd52d39503fe8dd26982857e6cc45"
-location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
+location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
-planning_center_event_instance_id: "236675315"
-planning_center_event_time_id: "32870388"
-last_generated: 2026-09-15T17:29:33.230551Z
+planning_center_event_instance_id: "236678223"
+planning_center_event_time_id: "32871096"
+last_generated: 2026-09-15T17:42:14.951810Z
 ---
 
 # Trail of Treats
@@ -58,7 +58,7 @@ Bring the whole family to Urbancrest’s Trail of Treats for an evening of candy
 
 **When:** Sunday, October 25, 2026, 5 PM to 7:30 PM
 
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 ****************
 Trail of Treats:

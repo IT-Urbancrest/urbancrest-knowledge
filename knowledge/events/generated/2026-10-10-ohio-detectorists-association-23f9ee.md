@@ -4,7 +4,7 @@ version: 1.4.3
 status: published
 priority: 50
 title: "Ohio Detectorists Association"
-summary: "Ohio Detectorists Association is scheduled for Saturday, October 10, 2026, 8 AM to 5 PM at Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036."
+summary: "Ohio Detectorists Association is scheduled for Saturday, October 10, 2026, 8 AM to 5 PM at Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036."
 category: [events]
 event_category: "general_event"
 intent:
@@ -39,18 +39,18 @@ chronological_rank: 23
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
-location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
+location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "234607566"
 planning_center_event_time_id: "32547092"
-last_generated: 2026-09-15T17:29:33.230551Z
+last_generated: 2026-09-15T17:42:14.951810Z
 ---
 
 # Ohio Detectorists Association
 
-Ohio Detectorists Association is scheduled for Saturday, October 10, 2026, 8 AM to 5 PM at Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036.
+Ohio Detectorists Association is scheduled for Saturday, October 10, 2026, 8 AM to 5 PM at Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036.
 
 **When:** Saturday, October 10, 2026, 8 AM to 5 PM
 
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 This information is synchronized automatically from Urbancrest's live calendar.

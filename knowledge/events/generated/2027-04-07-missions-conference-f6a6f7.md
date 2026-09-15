@@ -4,7 +4,7 @@ version: 1.4.3
 status: published
 priority: 100
 title: "Missions Conference"
-summary: "Missions Conference is scheduled for Wednesday, April 7, 2027 through Sunday, April 11, 2027 at Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036."
+summary: "Missions Conference is scheduled for Wednesday, April 7, 2027 through Sunday, April 11, 2027 at Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036."
 category: [events]
 event_category: "major_event"
 intent:
@@ -39,18 +39,18 @@ chronological_rank: 98
 next_for_ministries: ["missions"]
 next_for_audiences: []
 all_day: true
-location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
+location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "229161073"
 planning_center_event_time_id: "31703048"
-last_generated: 2026-09-15T17:29:33.230551Z
+last_generated: 2026-09-15T17:42:14.951810Z
 ---
 
 # Missions Conference
 
-Missions Conference is scheduled for Wednesday, April 7, 2027 through Sunday, April 11, 2027 at Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036.
+Missions Conference is scheduled for Wednesday, April 7, 2027 through Sunday, April 11, 2027 at Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036.
 
 **When:** Wednesday, April 7, 2027 through Sunday, April 11, 2027
 
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 This information is synchronized automatically from Urbancrest's live calendar.

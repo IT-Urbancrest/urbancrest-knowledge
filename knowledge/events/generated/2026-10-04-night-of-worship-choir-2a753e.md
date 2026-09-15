@@ -41,11 +41,11 @@ next_for_audiences: []
 all_day: false
 registration_url: "https://urbancrest.churchcenter.com/registrations/events/3755569"
 image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1788451200&key=uploads%2Fevent%2Flogo%2F3755569%2Fimage-1784126802561.jpeg&thumb=720x405%23&version=1788368236&signature=233e7df1a2a4650967513321d18dbfb90f05a1da8a15cc138d1b987970c9968a"
-location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
+location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "228745978"
 planning_center_event_time_id: "31639046"
-last_generated: 2026-09-15T17:29:33.230551Z
+last_generated: 2026-09-15T17:42:14.951810Z
 ---
 
 # Night of Worship Choir
@@ -54,7 +54,7 @@ On Sunday, October 4, Urbancrest will host a Night of Worship featuring the Ceda
 
 **When:** Sunday, October 4, 2026, 6 PM to 7:30 PM
 
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 On Sunday, October 4, Urbancrest will host a Night of Worship featuring the Cedarville University Orchestra alongside the Urbancrest Worship Team. It promises to be an incredible evening of celebrating God's greatness through powerful congregational worship.
 

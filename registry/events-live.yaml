@@ -1,11 +1,11 @@
 version: 1.5.4
-generated_at: '2026-09-15T17:29:33.941122Z'
+generated_at: '2026-09-15T17:42:16.140505Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
   enabled: true
-  target_instance_count: 368
-  matched_instance_count: 368
+  target_instance_count: 367
+  matched_instance_count: 367
   page_count: 9
   api_version: '2026-06-22'
 source_of_truth_for_calendar_intents: true
@@ -29,7 +29,7 @@ events:
   sort_end_utc: '2026-09-16T22:30:00Z'
   display_when: Wednesday, September 16, 2026, 4:30 PM to 6:30 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
   planning_center_event_instance_id: '167230919'
   planning_center_event_time_id: '16193422'
@@ -58,7 +58,7 @@ events:
   sort_end_utc: '2026-09-16T22:15:00Z'
   display_when: Wednesday, September 16, 2026, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -139,7 +139,7 @@ events:
   sort_end_utc: '2026-09-20T14:30:00Z'
   display_when: Sunday, September 20, 2026, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '167708212'
   planning_center_event_time_id: '8762150'
@@ -167,7 +167,7 @@ events:
   sort_end_utc: '2026-09-20T14:40:00Z'
   display_when: Sunday, September 20, 2026, 9:30 AM to 10:40 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
     smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '167708219'
@@ -194,7 +194,7 @@ events:
   sort_end_utc: '2026-09-20T16:10:00Z'
   display_when: Sunday, September 20, 2026, 11 AM to 12:10 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
     smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '167708219'
@@ -221,7 +221,7 @@ events:
   sort_end_utc: '2026-09-23T22:15:00Z'
   display_when: Wednesday, September 23, 2026, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -302,7 +302,7 @@ events:
   sort_end_utc: '2026-09-25T00:30:00Z'
   display_when: Thursday, September 24, 2026, 5:30 PM to 8:30 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Team dinner / meeting for Guest Service
   planning_center_event_instance_id: '236546210'
   planning_center_event_time_id: '32843126'
@@ -392,7 +392,7 @@ events:
   sort_end_utc: '2026-09-27T14:30:00Z'
   display_when: Sunday, September 27, 2026, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '168372882'
   planning_center_event_time_id: '8762150'
@@ -418,7 +418,7 @@ events:
   sort_end_utc: '2026-09-27T14:40:00Z'
   display_when: Sunday, September 27, 2026, 9:30 AM to 10:40 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
     smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '168372883'
@@ -445,7 +445,7 @@ events:
   sort_end_utc: '2026-09-27T16:10:00Z'
   display_when: Sunday, September 27, 2026, 11 AM to 12:10 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
     smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '168372883'
@@ -474,7 +474,7 @@ events:
   sort_end_utc: '2026-09-27T23:00:00Z'
   display_when: Sunday, September 27, 2026, 5 PM to 7 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: 'Urbancrest''s Women''s Ministry is excited to welcome all ladies to their 4th annual Fall Fest! Join us at
     the Urbancrest Pavilion on Sunday evening, September 27! We will have a great time of fellowship, food (including a chili
     cook-off), and fun crafts!
@@ -536,14 +536,14 @@ events:
     at_maximum_capacity: false
     waitlist: false
   location_structured:
-    name: Urbancrest At Lebanon
+    name: Urbancrest Church
     address: '2634 Drake Road
 
       Pavilion
 
       Lebanon, OH 45036'
-    latitude: '39.4748875'
-    longitude: '-84.1793592'
+    latitude: '39.4747445'
+    longitude: '-84.1792958'
 - id: event-6b34cb8d668698aa
   uid: ET-27323022-203958056@resources.planningcenteronline.com
   title: Women's Fall Fest
@@ -554,7 +554,7 @@ events:
   sort_end_utc: '2026-09-28T00:00:00Z'
   display_when: Sunday, September 27, 2026, 5:30 PM to 8 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Women's Ministry is excited to host their third-annual Fall Fest! All women are invited to attend. At this
     year's Fall Fest, we will be having a chili cook-off! We hope you will join us and participate in the fun.
   planning_center_event_instance_id: '203958056'
@@ -583,7 +583,7 @@ events:
   sort_end_utc: '2026-09-30T22:15:00Z'
   display_when: Wednesday, September 30, 2026, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -664,7 +664,7 @@ events:
   sort_end_utc: '2026-10-03T14:00:00Z'
   display_when: Saturday, October 3, 2026, 8 AM to 10 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium
     at Urbancrest
   planning_center_event_instance_id: '168792298'
@@ -695,7 +695,7 @@ events:
   sort_end_utc: '2026-10-03T18:00:00Z'
   display_when: Saturday, October 3, 2026, 9 AM to 2 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: '( https://registrations-production.s3.amazonaws.com/uploads/image/file/437162/9f82e639924a58965b5c00b4504caa1c.jpg?content-disposition=attachment
     )
 
@@ -745,14 +745,14 @@ events:
   details: Registration is open.
   details_source: planning_center_registrations_api
   location_structured:
-    name: Urbancrest At Lebanon
+    name: Urbancrest Church
     address: '2634 Drake Road
 
       Pavilion
 
       Lebanon, OH 45036'
-    latitude: '39.4748875'
-    longitude: '-84.1793592'
+    latitude: '39.4747445'
+    longitude: '-84.1792958'
 - id: event-59d784adbee5c34f
   uid: ET-8762150-168914339@resources.planningcenteronline.com
   title: P U R S U E
@@ -763,7 +763,7 @@ events:
   sort_end_utc: '2026-10-04T14:30:00Z'
   display_when: Sunday, October 4, 2026, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '168914339'
   planning_center_event_time_id: '8762150'
@@ -789,7 +789,7 @@ events:
   sort_end_utc: '2026-10-04T14:40:00Z'
   display_when: Sunday, October 4, 2026, 9:30 AM to 10:40 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
     smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '168914342'
@@ -816,7 +816,7 @@ events:
   sort_end_utc: '2026-10-04T16:10:00Z'
   display_when: Sunday, October 4, 2026, 11 AM to 12:10 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
     smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '168914342'
@@ -845,7 +845,7 @@ events:
   sort_end_utc: '2026-10-04T23:30:00Z'
   display_when: Sunday, October 4, 2026, 6 PM to 7:30 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: 'On Sunday, October 4, Urbancrest will host a Night of Worship featuring the Cedarville University Orchestra
     alongside the Urbancrest Worship Team. It promises to be an incredible evening of celebrating God''s greatness through
     powerful congregational worship.
@@ -921,12 +921,12 @@ events:
     at_maximum_capacity: false
     waitlist: false
   location_structured:
-    name: Urbancrest At Lebanon
+    name: Urbancrest Church
     address: '2634 Drake Road
 
       Lebanon, OH 45036'
-    latitude: '39.4748875'
-    longitude: '-84.1793592'
+    latitude: '39.4747445'
+    longitude: '-84.1792958'
 - id: event-b5610e364a8e6732
   uid: ET-28363612-169009947@resources.planningcenteronline.com
   title: Card Ministry
@@ -962,7 +962,7 @@ events:
   sort_end_utc: '2026-10-07T22:15:00Z'
   display_when: Wednesday, October 7, 2026, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -1036,15 +1036,15 @@ events:
 - id: event-612f2437be23f9ee
   uid: ET-32547092-234607566@resources.planningcenteronline.com
   title: Ohio Detectorists Association
-  summary: Ohio Detectorists Association is scheduled for Saturday, October 10, 2026, 8 AM to 5 PM at Urbancrest At Lebanon
-    - 2634 Drake Road, Lebanon, OH 45036.
+  summary: Ohio Detectorists Association is scheduled for Saturday, October 10, 2026, 8 AM to 5 PM at Urbancrest Church -
+    2634 Drake Road, Lebanon, OH 45036.
   start: '2026-10-10T08:00:00-04:00'
   end: '2026-10-10T17:00:00-04:00'
   sort_start_utc: '2026-10-10T12:00:00Z'
   sort_end_utc: '2026-10-10T21:00:00Z'
   display_when: Saturday, October 10, 2026, 8 AM to 5 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   planning_center_event_instance_id: '234607566'
   planning_center_event_time_id: '32547092'
   ministries:
@@ -1069,7 +1069,7 @@ events:
   sort_end_utc: '2026-10-11T14:30:00Z'
   display_when: Sunday, October 11, 2026, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '169483179'
   planning_center_event_time_id: '8762150'
@@ -1095,7 +1095,7 @@ events:
   sort_end_utc: '2026-10-11T14:40:00Z'
   display_when: Sunday, October 11, 2026, 9:30 AM to 10:40 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
     smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '169483181'
@@ -1122,7 +1122,7 @@ events:
   sort_end_utc: '2026-10-11T16:10:00Z'
   display_when: Sunday, October 11, 2026, 11 AM to 12:10 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
     smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '169483181'
@@ -1149,7 +1149,7 @@ events:
   sort_end_utc: '2026-10-14T22:15:00Z'
   display_when: Wednesday, October 14, 2026, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -1232,7 +1232,7 @@ events:
   sort_end_utc: '2026-10-17T19:00:00Z'
   display_when: Saturday, October 17, 2026, 9 AM to 3 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: 'Join us for the Urbancrest Women’s Conference ''Known & Loved'' on Saturday, October 17 for a morning of encouragement,
     worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.
 
@@ -1306,14 +1306,14 @@ events:
     at_maximum_capacity: false
     waitlist: false
   location_structured:
-    name: Urbancrest At Lebanon
+    name: Urbancrest Church
     address: '2634 Drake Road
 
       Worship Center
 
       Lebanon, OH 45036'
-    latitude: '39.4748875'
-    longitude: '-84.1793592'
+    latitude: '39.4747445'
+    longitude: '-84.1792958'
 - id: event-355987c6282350e7
   uid: ET-8762150-169990121@resources.planningcenteronline.com
   title: P U R S U E
@@ -1324,7 +1324,7 @@ events:
   sort_end_utc: '2026-10-18T14:30:00Z'
   display_when: Sunday, October 18, 2026, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '169990121'
   planning_center_event_time_id: '8762150'
@@ -1350,7 +1350,7 @@ events:
   sort_end_utc: '2026-10-18T14:40:00Z'
   display_when: Sunday, October 18, 2026, 9:30 AM to 10:40 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
     smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '169990120'
@@ -1377,7 +1377,7 @@ events:
   sort_end_utc: '2026-10-18T16:10:00Z'
   display_when: Sunday, October 18, 2026, 11 AM to 12:10 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
     smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '169990120'
@@ -1404,7 +1404,7 @@ events:
   sort_end_utc: '2026-10-21T22:30:00Z'
   display_when: Wednesday, October 21, 2026, 4:30 PM to 6:30 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
   planning_center_event_instance_id: '170149013'
   planning_center_event_time_id: '16193422'
@@ -1431,7 +1431,7 @@ events:
   sort_end_utc: '2026-10-21T22:15:00Z'
   display_when: Wednesday, October 21, 2026, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -1512,7 +1512,7 @@ events:
   sort_end_utc: '2026-10-25T14:30:00Z'
   display_when: Sunday, October 25, 2026, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '170494272'
   planning_center_event_time_id: '8762150'
@@ -1538,7 +1538,7 @@ events:
   sort_end_utc: '2026-10-25T14:40:00Z'
   display_when: Sunday, October 25, 2026, 9:30 AM to 10:40 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
     smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '170494276'
@@ -1565,7 +1565,7 @@ events:
   sort_end_utc: '2026-10-25T16:10:00Z'
   display_when: Sunday, October 25, 2026, 11 AM to 12:10 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
     smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '170494276'
@@ -1582,29 +1582,87 @@ events:
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-25-sunday-morning-services-11-00-am-service-d92cdf.md
-- id: event-09e1ddbf6fc2dfe7
-  uid: ET-30542855-222367934@resources.planningcenteronline.com
+- id: event-4d33ffcaeb7a5a96
+  uid: ET-32871096-236678223@resources.planningcenteronline.com
   title: Trail of Treats
   summary: 'Trail of Treats: Bring the whole family to Urbancrest’s Trail of Treats for an evening of candy, treats, and outdoor
     fun. Costumes are welcome, but not required. Sunday, October 25, 5:00–7:30 PM Urbancrest Church 2634 Drake Rd. Lebanon,
     OH 45036 This is a free, outdoor event,...'
-  start: '2026-10-25T15:00:00-04:00'
-  end: '2026-10-25T22:00:00-04:00'
-  sort_start_utc: '2026-10-25T19:00:00Z'
-  sort_end_utc: '2026-10-26T02:00:00Z'
-  display_when: Sunday, October 25, 2026, 3 PM to 10 PM
+  start: '2026-10-25T17:00:00-04:00'
+  end: '2026-10-25T19:30:00-04:00'
+  sort_start_utc: '2026-10-25T21:00:00Z'
+  sort_end_utc: '2026-10-25T23:30:00Z'
+  display_when: Sunday, October 25, 2026, 5 PM to 7:30 PM
   all_day: false
-  planning_center_event_instance_id: '222367934'
-  planning_center_event_time_id: '30542855'
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: '****************
+
+    Trail of Treats:
+
+    ****************
+
+
+    Bring the whole family to Urbancrest’s Trail of Treats for an evening of candy, treats, and outdoor fun. Costumes are
+    welcome, but not required.
+
+
+    Sunday, October 25, 5:00–7:30 PM
+
+    Urbancrest Church
+
+    2634 Drake Rd.
+
+    Lebanon, OH 45036
+
+
+    This is a free, outdoor event, so please dress for the weather.
+
+
+    Attending? No registration is required. Just come and enjoy the evening!
+
+
+    Volunteering or bringing a Trunk or Treat vehicle? Volunteers and vehicle hosts do need to register for their serving
+    area. Volunteer opportunities include:
+
+
+    * Trunk or Treat
+
+    * Food and Block Party Stations
+
+    * Greeters
+
+    * Parking Lot Helpers
+
+
+    Trunk or Treat vehicle hosts are encouraged to decorate their trunks and bring their own candy. Donated candy will be
+    distributed to vehicles that need more throughout the evening.
+
+
+    Questions? Contact the Urbancrest office at office@urbancrest.org.
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/3892183'
+  details: "Trail of Treats: Bring the whole family to Urbancrest’s Trail of Treats for an evening of candy, treats, and outdoor\
+    \ fun. Costumes are welcome, but not required.\n\nSunday, October 25, 5:00–7:30 PM \nUrbancrest Church \n2634 Drake Rd.\n\
+    Lebanon, OH 45036\n\nThis is a free, outdoor event, so please dress for the weather.\n\nAttending? No registration is\
+    \ required. Just come and enjoy the evening!\n\nVolunteering or bringing a Trunk or Treat vehicle? Volunteers and vehicle\
+    \ hosts do need to register for their serving area. Volunteer opportunities include:\n\nTrunk or Treat Food and Block\
+    \ Party Stations Greeters Parking Lot Helpers Trunk or Treat vehicle hosts are encouraged to decorate their trunks and\
+    \ bring their own candy. Donated candy will be distributed to vehicles that need more throughout the evening.\n\nQuestions?\
+    \ Contact the Urbancrest office at office@urbancrest.org .\n\nRegistration is open."
+  details_source: planning_center_registrations_api
+  planning_center_event_instance_id: '236678223'
+  planning_center_event_time_id: '32871096'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3892183/reservations/new
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1789574400&key=uploads%2Fevent%2Flogo%2F3892183%2Fimage-1789492969330.jpeg&thumb=720x405%23&version=1789493211&signature=0d4f7702179a20a5ae851e77f2c8e1410a1dd52d39503fe8dd26982857e6cc45
   ministries:
   - churchwide
   - kids
   - family
   - volunteer
   audiences:
-  - everyone
-  - children
   - families
+  - volunteers
+  - children
   - all
   event_category: general_event
   event_priority: 80
@@ -1613,14 +1671,14 @@ events:
   chronological_rank: 37
   next_for_ministries: []
   next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-10-25-trail-of-treats-c2dfe7.md
+  knowledge_file: knowledge/events/generated/2026-10-25-trail-of-treats-7a5a96.md
   event_sources:
   - planning_center_ical
+  - planning_center_calendar_api
   - planning_center_registrations_api
   event_source: merged
   planning_center_signup_id: '3892183'
   planning_center_signup_time_id: '6555103'
-  registration_url: https://urbancrest.churchcenter.com/registrations/events/3892183/reservations/new
   registration_available: true
   registration_open: true
   registration_closed: false
@@ -1693,128 +1751,15 @@ events:
     available_capacity: 25
     at_maximum_capacity: false
     waitlist: false
-  description: "Trail of Treats: Bring the whole family to Urbancrest’s Trail of Treats for an evening of candy, treats, and\
-    \ outdoor fun. Costumes are welcome, but not required.\n\nSunday, October 25, 5:00–7:30 PM \nUrbancrest Church \n2634\
-    \ Drake Rd.\nLebanon, OH 45036\n\nThis is a free, outdoor event, so please dress for the weather.\n\nAttending? No registration\
-    \ is required. Just come and enjoy the evening!\n\nVolunteering or bringing a Trunk or Treat vehicle? Volunteers and vehicle\
-    \ hosts do need to register for their serving area. Volunteer opportunities include:\n\nTrunk or Treat Food and Block\
-    \ Party Stations Greeters Parking Lot Helpers Trunk or Treat vehicle hosts are encouraged to decorate their trunks and\
-    \ bring their own candy. Donated candy will be distributed to vehicles that need more throughout the evening.\n\nQuestions?\
-    \ Contact the Urbancrest office at office@urbancrest.org ."
-  details: "Trail of Treats: Bring the whole family to Urbancrest’s Trail of Treats for an evening of candy, treats, and outdoor\
-    \ fun. Costumes are welcome, but not required.\n\nSunday, October 25, 5:00–7:30 PM \nUrbancrest Church \n2634 Drake Rd.\n\
-    Lebanon, OH 45036\n\nThis is a free, outdoor event, so please dress for the weather.\n\nAttending? No registration is\
-    \ required. Just come and enjoy the evening!\n\nVolunteering or bringing a Trunk or Treat vehicle? Volunteers and vehicle\
-    \ hosts do need to register for their serving area. Volunteer opportunities include:\n\nTrunk or Treat Food and Block\
-    \ Party Stations Greeters Parking Lot Helpers Trunk or Treat vehicle hosts are encouraged to decorate their trunks and\
-    \ bring their own candy. Donated candy will be distributed to vehicles that need more throughout the evening.\n\nQuestions?\
-    \ Contact the Urbancrest office at office@urbancrest.org .\n\nRegistration is open."
-  details_source: planning_center_registrations_api
-  image_url: https://registrations.planningcenteronline.com/signups/3892183/logo
-  location: 'Urbancrest At Lebanon - 2634 Drake Road
-
-    Parking Lot & Pavilion
-
-    Lebanon, OH 45036'
   location_structured:
-    name: Urbancrest At Lebanon
+    name: Urbancrest Church
     address: '2634 Drake Road
 
       Parking Lot & Pavilion
 
       Lebanon, OH 45036'
-    latitude: '39.4748875'
-    longitude: '-84.1793592'
-- id: event-f73a6c816dcc2d25
-  uid: ET-32870388-236675315@resources.planningcenteronline.com
-  title: Trail of Treats
-  summary: '****************
-
-    Trail of Treats:
-
-    ****************
-
-
-    Bring the whole family to Urbancrest’s Trail of Treats for an evening of candy, treats, and outdoor fun....'
-  start: '2026-10-25T17:00:00-04:00'
-  end: '2026-10-25T19:30:00-04:00'
-  sort_start_utc: '2026-10-25T21:00:00Z'
-  sort_end_utc: '2026-10-25T23:30:00Z'
-  display_when: Sunday, October 25, 2026, 5 PM to 7:30 PM
-  all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-  description: '****************
-
-    Trail of Treats:
-
-    ****************
-
-
-    Bring the whole family to Urbancrest’s Trail of Treats for an evening of candy, treats, and outdoor fun. Costumes are
-    welcome, but not required.
-
-
-    Sunday, October 25, 5:00–7:30 PM
-
-    Urbancrest Church
-
-    2634 Drake Rd.
-
-    Lebanon, OH 45036
-
-
-    This is a free, outdoor event, so please dress for the weather.
-
-
-    Attending? No registration is required. Just come and enjoy the evening!
-
-
-    Volunteering or bringing a Trunk or Treat vehicle? Volunteers and vehicle hosts do need to register for their serving
-    area. Volunteer opportunities include:
-
-
-    * Trunk or Treat
-
-    * Food and Block Party Stations
-
-    * Greeters
-
-    * Parking Lot Helpers
-
-
-    Trunk or Treat vehicle hosts are encouraged to decorate their trunks and bring their own candy. Donated candy will be
-    distributed to vehicles that need more throughout the evening.
-
-
-    Questions? Contact the Urbancrest office at office@urbancrest.org.
-
-    Register: https://urbancrest.churchcenter.com/registrations/events/3892183'
-  details: "Trail of Treats:\nBring the whole family to Urbancrest’s Trail of Treats for an evening of candy, treats, and\
-    \ outdoor fun. Costumes are welcome, but not required.\nSunday, October 25, 5:00–7:30 PM\nUrbancrest Church\n2634 Drake\
-    \ Rd.\nLebanon, OH 45036\nThis is a free, outdoor event, so please dress for the weather.\nAttending?\n No registration\
-    \ is required. Just come and enjoy the evening!\nVolunteering or bringing a Trunk or Treat vehicle?\n Volunteers and vehicle\
-    \ hosts do need to register for their serving area. Volunteer opportunities include:\nTrunk or Treat\nFood and Block Party\
-    \ Stations\nGreeters\nParking Lot Helpers\nTrunk or Treat vehicle hosts are encouraged to decorate their trunks and bring\
-    \ their own candy. Donated candy will be distributed to vehicles that need more throughout the evening.\nQuestions? Contact\
-    \ the Urbancrest office at \noffice@urbancrest.org\n."
-  details_source: planning_center_calendar_api
-  planning_center_event_instance_id: '236675315'
-  planning_center_event_time_id: '32870388'
-  registration_url: https://urbancrest.churchcenter.com/registrations/events/3892183
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1789574400&key=uploads%2Fevent%2Flogo%2F3892183%2Fimage-1789492969330.jpeg&thumb=720x405%23&version=1789493211&signature=0d4f7702179a20a5ae851e77f2c8e1410a1dd52d39503fe8dd26982857e6cc45
-  ministries:
-  - churchwide
-  audiences:
-  - families
-  - volunteers
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 38
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-10-25-trail-of-treats-cc2d25.md
+    latitude: '39.4747445'
+    longitude: '-84.1792958'
 - id: event-ed4dc1da2facac27
   uid: ET-31870601-230122714@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -1825,7 +1770,7 @@ events:
   sort_end_utc: '2026-10-28T22:15:00Z'
   display_when: Wednesday, October 28, 2026, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -1892,7 +1837,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 39
+  chronological_rank: 38
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-28-wednesday-night-dinner-acac27.md
@@ -1906,7 +1851,7 @@ events:
   sort_end_utc: '2026-11-01T15:30:00Z'
   display_when: Sunday, November 1, 2026, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '171026771'
   planning_center_event_time_id: '8762150'
@@ -1918,7 +1863,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 40
+  chronological_rank: 39
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-01-p-u-r-s-u-e-96a55e.md
@@ -1932,7 +1877,7 @@ events:
   sort_end_utc: '2026-11-01T15:40:00Z'
   display_when: Sunday, November 1, 2026, 9:30 AM to 10:40 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
     smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '171026769'
@@ -1945,7 +1890,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 41
+  chronological_rank: 40
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-01-sunday-morning-services-9-30-am-service-a90a62.md
@@ -1959,7 +1904,7 @@ events:
   sort_end_utc: '2026-11-01T17:10:00Z'
   display_when: Sunday, November 1, 2026, 11 AM to 12:10 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
     smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
   planning_center_event_instance_id: '171026769'
@@ -1972,7 +1917,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 42
+  chronological_rank: 41
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-01-sunday-morning-services-11-00-am-service-5b69af.md
@@ -1997,7 +1942,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 43
+  chronological_rank: 42
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-03-card-ministry-7a8829.md
@@ -2011,7 +1956,7 @@ events:
   sort_end_utc: '2026-11-04T23:15:00Z'
   display_when: Wednesday, November 4, 2026, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -2078,7 +2023,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 44
+  chronological_rank: 43
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-04-wednesday-night-dinner-55fdc7.md
@@ -2092,7 +2037,7 @@ events:
   sort_end_utc: '2026-11-07T15:00:00Z'
   display_when: Saturday, November 7, 2026, 8 AM to 10 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium
     at Urbancrest
   planning_center_event_instance_id: '171450066'
@@ -2106,7 +2051,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 45
+  chronological_rank: 44
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-07-men-s-breakfast-b349ea.md
@@ -2120,7 +2065,7 @@ events:
   sort_end_utc: '2026-11-08T15:30:00Z'
   display_when: Sunday, November 8, 2026, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '171522665'
   planning_center_event_time_id: '8762150'
@@ -2132,10 +2077,37 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 46
+  chronological_rank: 45
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-08-p-u-r-s-u-e-4c1a4d.md
+- id: event-37b1feeb225cd74e
+  uid: ET-9127131-171522666@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-11-08T09:30:00-05:00'
+  end: '2026-11-08T10:40:00-05:00'
+  sort_start_utc: '2026-11-08T14:30:00Z'
+  sort_end_utc: '2026-11-08T15:40:00Z'
+  display_when: Sunday, November 8, 2026, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '171522666'
+  planning_center_event_time_id: '9127131'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 46
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-08-sunday-morning-services-9-30-am-service-5cd74e.md
 - id: event-4040df5714af1c1c
   uid: ET-31870601-230122716@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -2146,7 +2118,7 @@ events:
   sort_end_utc: '2026-11-11T23:15:00Z'
   display_when: Wednesday, November 11, 2026, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -2306,7 +2278,7 @@ events:
   sort_end_utc: '2026-11-15T15:30:00Z'
   display_when: Sunday, November 15, 2026, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '172162011'
   planning_center_event_time_id: '8762150'
@@ -2332,7 +2304,7 @@ events:
   sort_end_utc: '2026-11-18T23:15:00Z'
   display_when: Wednesday, November 18, 2026, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -2413,7 +2385,7 @@ events:
   sort_end_utc: '2026-11-22T15:30:00Z'
   display_when: Sunday, November 22, 2026, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '172745994'
   planning_center_event_time_id: '8762150'
@@ -2439,7 +2411,7 @@ events:
   sort_end_utc: '2026-11-25T23:15:00Z'
   display_when: Wednesday, November 25, 2026, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -2520,7 +2492,7 @@ events:
   sort_end_utc: '2026-11-29T15:30:00Z'
   display_when: Sunday, November 29, 2026, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '173125610'
   planning_center_event_time_id: '8762150'
@@ -2546,7 +2518,7 @@ events:
   sort_end_utc: '2026-12-02T23:15:00Z'
   display_when: Wednesday, December 2, 2026, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -2627,7 +2599,7 @@ events:
   sort_end_utc: '2026-12-05T15:00:00Z'
   display_when: Saturday, December 5, 2026, 8 AM to 10 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium
     at Urbancrest
   planning_center_event_instance_id: '173559224'
@@ -2655,7 +2627,7 @@ events:
   sort_end_utc: '2026-12-06T15:30:00Z'
   display_when: Sunday, December 6, 2026, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '173665460'
   planning_center_event_time_id: '8762150'
@@ -2681,7 +2653,7 @@ events:
   sort_end_utc: '2026-12-06T23:00:00Z'
   display_when: Sunday, December 6, 2026, 4 PM to 6 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: The Women's Ministry presents their Christmas event on Sunday, December 6 at 4:00 PM in the gymnasium.
   planning_center_event_instance_id: '203958301'
   planning_center_event_time_id: '27323098'
@@ -2709,7 +2681,7 @@ events:
   sort_end_utc: '2026-12-09T23:15:00Z'
   display_when: Wednesday, December 9, 2026, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -2790,7 +2762,7 @@ events:
   sort_end_utc: '2026-12-13T15:30:00Z'
   display_when: Sunday, December 13, 2026, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '174228981'
   planning_center_event_time_id: '8762150'
@@ -2816,7 +2788,7 @@ events:
   sort_end_utc: '2026-12-16T23:15:00Z'
   display_when: Wednesday, December 16, 2026, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -2897,7 +2869,7 @@ events:
   sort_end_utc: '2026-12-20T15:30:00Z'
   display_when: Sunday, December 20, 2026, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '174858350'
   planning_center_event_time_id: '8762150'
@@ -2923,7 +2895,7 @@ events:
   sort_end_utc: '2026-12-23T23:15:00Z'
   display_when: Wednesday, December 23, 2026, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -3004,7 +2976,7 @@ events:
   sort_end_utc: '2026-12-27T15:30:00Z'
   display_when: Sunday, December 27, 2026, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '175168854'
   planning_center_event_time_id: '8762150'
@@ -3030,7 +3002,7 @@ events:
   sort_end_utc: '2026-12-30T23:15:00Z'
   display_when: Wednesday, December 30, 2026, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -3111,7 +3083,7 @@ events:
   sort_end_utc: '2027-01-02T15:00:00Z'
   display_when: Saturday, January 2, 2027, 8 AM to 10 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium
     at Urbancrest
   planning_center_event_instance_id: '175505238'
@@ -3139,7 +3111,7 @@ events:
   sort_end_utc: '2027-01-03T15:30:00Z'
   display_when: Sunday, January 3, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '175628417'
   planning_center_event_time_id: '8762150'
@@ -3165,7 +3137,7 @@ events:
   sort_end_utc: '2027-01-06T23:15:00Z'
   display_when: Wednesday, January 6, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -3246,7 +3218,7 @@ events:
   sort_end_utc: '2027-01-10T15:30:00Z'
   display_when: Sunday, January 10, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '176633356'
   planning_center_event_time_id: '8762150'
@@ -3272,7 +3244,7 @@ events:
   sort_end_utc: '2027-01-13T23:15:00Z'
   display_when: Wednesday, January 13, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -3436,7 +3408,7 @@ events:
   sort_end_utc: '2027-01-17T15:30:00Z'
   display_when: Sunday, January 17, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '177521375'
   planning_center_event_time_id: '8762150'
@@ -3462,7 +3434,7 @@ events:
   sort_end_utc: '2027-01-20T23:15:00Z'
   display_when: Wednesday, January 20, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -3543,7 +3515,7 @@ events:
   sort_end_utc: '2027-01-24T15:30:00Z'
   display_when: Sunday, January 24, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '178227937'
   planning_center_event_time_id: '8762150'
@@ -3569,7 +3541,7 @@ events:
   sort_end_utc: '2027-01-27T23:15:00Z'
   display_when: Wednesday, January 27, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -3674,7 +3646,7 @@ events:
   sort_end_utc: '2027-01-31T15:30:00Z'
   display_when: Sunday, January 31, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '178993061'
   planning_center_event_time_id: '8762150'
@@ -3700,7 +3672,7 @@ events:
   sort_end_utc: '2027-02-03T23:15:00Z'
   display_when: Wednesday, February 3, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -3781,7 +3753,7 @@ events:
   sort_end_utc: '2027-02-06T15:00:00Z'
   display_when: Saturday, February 6, 2027, 8 AM to 10 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium
     at Urbancrest
   planning_center_event_instance_id: '179599397'
@@ -3809,7 +3781,7 @@ events:
   sort_end_utc: '2027-02-07T15:30:00Z'
   display_when: Sunday, February 7, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '179714952'
   planning_center_event_time_id: '8762150'
@@ -3835,7 +3807,7 @@ events:
   sort_end_utc: '2027-02-10T23:15:00Z'
   display_when: Wednesday, February 10, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -3916,7 +3888,7 @@ events:
   sort_end_utc: '2027-02-14T15:30:00Z'
   display_when: Sunday, February 14, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '180379778'
   planning_center_event_time_id: '8762150'
@@ -3942,7 +3914,7 @@ events:
   sort_end_utc: '2027-02-17T23:15:00Z'
   display_when: Wednesday, February 17, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -4023,7 +3995,7 @@ events:
   sort_end_utc: '2027-02-21T15:30:00Z'
   display_when: Sunday, February 21, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '181029213'
   planning_center_event_time_id: '8762150'
@@ -4049,7 +4021,7 @@ events:
   sort_end_utc: '2027-02-24T23:15:00Z'
   display_when: Wednesday, February 24, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -4130,7 +4102,7 @@ events:
   sort_end_utc: '2027-02-28T15:30:00Z'
   display_when: Sunday, February 28, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '181712613'
   planning_center_event_time_id: '8762150'
@@ -4156,7 +4128,7 @@ events:
   sort_end_utc: '2027-03-03T23:15:00Z'
   display_when: Wednesday, March 3, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -4237,7 +4209,7 @@ events:
   sort_end_utc: '2027-03-06T15:00:00Z'
   display_when: Saturday, March 6, 2027, 8 AM to 10 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium
     at Urbancrest
   planning_center_event_instance_id: '182177829'
@@ -4265,7 +4237,7 @@ events:
   sort_end_utc: '2027-03-07T15:30:00Z'
   display_when: Sunday, March 7, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '182308662'
   planning_center_event_time_id: '8762150'
@@ -4291,7 +4263,7 @@ events:
   sort_end_utc: '2027-03-10T23:15:00Z'
   display_when: Wednesday, March 10, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -4372,7 +4344,7 @@ events:
   sort_end_utc: '2027-03-14T14:30:00Z'
   display_when: Sunday, March 14, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '182961870'
   planning_center_event_time_id: '8762150'
@@ -4398,7 +4370,7 @@ events:
   sort_end_utc: '2027-03-17T22:15:00Z'
   display_when: Wednesday, March 17, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -4479,7 +4451,7 @@ events:
   sort_end_utc: '2027-03-21T14:30:00Z'
   display_when: Sunday, March 21, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '183553238'
   planning_center_event_time_id: '8762150'
@@ -4505,7 +4477,7 @@ events:
   sort_end_utc: '2027-03-24T22:15:00Z'
   display_when: Wednesday, March 24, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -4586,7 +4558,7 @@ events:
   sort_end_utc: '2027-03-28T14:30:00Z'
   display_when: Sunday, March 28, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '184127574'
   planning_center_event_time_id: '8762150'
@@ -4612,7 +4584,7 @@ events:
   sort_end_utc: '2027-03-31T22:15:00Z'
   display_when: Wednesday, March 31, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -4693,7 +4665,7 @@ events:
   sort_end_utc: '2027-04-03T14:00:00Z'
   display_when: Saturday, April 3, 2027, 8 AM to 10 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium
     at Urbancrest
   planning_center_event_instance_id: '184574784'
@@ -4721,7 +4693,7 @@ events:
   sort_end_utc: '2027-04-04T14:30:00Z'
   display_when: Sunday, April 4, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '184709692'
   planning_center_event_time_id: '8762150'
@@ -4740,7 +4712,7 @@ events:
 - id: event-f2f8bb3688f6a6f7
   uid: ET-31703048-229161073@resources.planningcenteronline.com
   title: Missions Conference
-  summary: Missions Conference is scheduled for Wednesday, April 7, 2027 through Sunday, April 11, 2027 at Urbancrest At Lebanon
+  summary: Missions Conference is scheduled for Wednesday, April 7, 2027 through Sunday, April 11, 2027 at Urbancrest Church
     - 2634 Drake Road, Lebanon, OH 45036.
   start: '2027-04-07'
   end: '2027-04-12'
@@ -4748,7 +4720,7 @@ events:
   sort_end_utc: '2027-04-12T04:00:00Z'
   display_when: Wednesday, April 7, 2027 through Sunday, April 11, 2027
   all_day: true
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   planning_center_event_instance_id: '229161073'
   planning_center_event_time_id: '31703048'
   ministries:
@@ -4774,7 +4746,7 @@ events:
   sort_end_utc: '2027-04-07T22:15:00Z'
   display_when: Wednesday, April 7, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -4855,7 +4827,7 @@ events:
   sort_end_utc: '2027-04-11T14:30:00Z'
   display_when: Sunday, April 11, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '185242407'
   planning_center_event_time_id: '8762150'
@@ -4881,7 +4853,7 @@ events:
   sort_end_utc: '2027-04-14T22:15:00Z'
   display_when: Wednesday, April 14, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -4962,7 +4934,7 @@ events:
   sort_end_utc: '2027-04-18T14:30:00Z'
   display_when: Sunday, April 18, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '185783917'
   planning_center_event_time_id: '8762150'
@@ -4988,7 +4960,7 @@ events:
   sort_end_utc: '2027-04-21T22:15:00Z'
   display_when: Wednesday, April 21, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -5140,7 +5112,7 @@ events:
   sort_end_utc: '2027-04-25T14:30:00Z'
   display_when: Sunday, April 25, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '186242939'
   planning_center_event_time_id: '8762150'
@@ -5166,7 +5138,7 @@ events:
   sort_end_utc: '2027-04-28T22:15:00Z'
   display_when: Wednesday, April 28, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -5247,7 +5219,7 @@ events:
   sort_end_utc: '2027-05-01T14:00:00Z'
   display_when: Saturday, May 1, 2027, 8 AM to 10 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium
     at Urbancrest
   planning_center_event_instance_id: '186694422'
@@ -5275,7 +5247,7 @@ events:
   sort_end_utc: '2027-05-02T14:30:00Z'
   display_when: Sunday, May 2, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '186833875'
   planning_center_event_time_id: '8762150'
@@ -5301,7 +5273,7 @@ events:
   sort_end_utc: '2027-05-05T22:15:00Z'
   display_when: Wednesday, May 5, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -5382,7 +5354,7 @@ events:
   sort_end_utc: '2027-05-09T14:30:00Z'
   display_when: Sunday, May 9, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '187438411'
   planning_center_event_time_id: '8762150'
@@ -5408,7 +5380,7 @@ events:
   sort_end_utc: '2027-05-12T22:15:00Z'
   display_when: Wednesday, May 12, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -5489,7 +5461,7 @@ events:
   sort_end_utc: '2027-05-16T14:30:00Z'
   display_when: Sunday, May 16, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '187978015'
   planning_center_event_time_id: '8762150'
@@ -5515,7 +5487,7 @@ events:
   sort_end_utc: '2027-05-19T22:15:00Z'
   display_when: Wednesday, May 19, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -5596,7 +5568,7 @@ events:
   sort_end_utc: '2027-05-23T14:30:00Z'
   display_when: Sunday, May 23, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '188635612'
   planning_center_event_time_id: '8762150'
@@ -5622,7 +5594,7 @@ events:
   sort_end_utc: '2027-05-26T22:15:00Z'
   display_when: Wednesday, May 26, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -5703,7 +5675,7 @@ events:
   sort_end_utc: '2027-05-30T14:30:00Z'
   display_when: Sunday, May 30, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '189178223'
   planning_center_event_time_id: '8762150'
@@ -5729,7 +5701,7 @@ events:
   sort_end_utc: '2027-06-02T22:15:00Z'
   display_when: Wednesday, June 2, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -5810,7 +5782,7 @@ events:
   sort_end_utc: '2027-06-05T14:00:00Z'
   display_when: Saturday, June 5, 2027, 8 AM to 10 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium
     at Urbancrest
   planning_center_event_instance_id: '189635733'
@@ -5838,7 +5810,7 @@ events:
   sort_end_utc: '2027-06-06T14:30:00Z'
   display_when: Sunday, June 6, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '189755214'
   planning_center_event_time_id: '8762150'
@@ -5864,7 +5836,7 @@ events:
   sort_end_utc: '2027-06-09T22:15:00Z'
   display_when: Wednesday, June 9, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -5945,7 +5917,7 @@ events:
   sort_end_utc: '2027-06-13T14:30:00Z'
   display_when: Sunday, June 13, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '190366386'
   planning_center_event_time_id: '8762150'
@@ -5971,7 +5943,7 @@ events:
   sort_end_utc: '2027-06-16T22:15:00Z'
   display_when: Wednesday, June 16, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -6052,7 +6024,7 @@ events:
   sort_end_utc: '2027-06-20T14:30:00Z'
   display_when: Sunday, June 20, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '190927289'
   planning_center_event_time_id: '8762150'
@@ -6078,7 +6050,7 @@ events:
   sort_end_utc: '2027-06-23T22:15:00Z'
   display_when: Wednesday, June 23, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -6159,7 +6131,7 @@ events:
   sort_end_utc: '2027-06-27T14:30:00Z'
   display_when: Sunday, June 27, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '191499597'
   planning_center_event_time_id: '8762150'
@@ -6185,7 +6157,7 @@ events:
   sort_end_utc: '2027-06-30T22:15:00Z'
   display_when: Wednesday, June 30, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -6266,7 +6238,7 @@ events:
   sort_end_utc: '2027-07-03T14:00:00Z'
   display_when: Saturday, July 3, 2027, 8 AM to 10 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium
     at Urbancrest
   planning_center_event_instance_id: '191939841'
@@ -6294,7 +6266,7 @@ events:
   sort_end_utc: '2027-07-04T14:30:00Z'
   display_when: Sunday, July 4, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '192039973'
   planning_center_event_time_id: '8762150'
@@ -6320,7 +6292,7 @@ events:
   sort_end_utc: '2027-07-07T22:15:00Z'
   display_when: Wednesday, July 7, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -6401,7 +6373,7 @@ events:
   sort_end_utc: '2027-07-11T14:30:00Z'
   display_when: Sunday, July 11, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '192570407'
   planning_center_event_time_id: '8762150'
@@ -6427,7 +6399,7 @@ events:
   sort_end_utc: '2027-07-14T22:15:00Z'
   display_when: Wednesday, July 14, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -6508,7 +6480,7 @@ events:
   sort_end_utc: '2027-07-18T14:30:00Z'
   display_when: Sunday, July 18, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '193205936'
   planning_center_event_time_id: '8762150'
@@ -6534,7 +6506,7 @@ events:
   sort_end_utc: '2027-07-21T22:15:00Z'
   display_when: Wednesday, July 21, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -6615,7 +6587,7 @@ events:
   sort_end_utc: '2027-07-25T14:30:00Z'
   display_when: Sunday, July 25, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '193794020'
   planning_center_event_time_id: '8762150'
@@ -6641,7 +6613,7 @@ events:
   sort_end_utc: '2027-07-28T22:15:00Z'
   display_when: Wednesday, July 28, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -6722,7 +6694,7 @@ events:
   sort_end_utc: '2027-08-01T14:30:00Z'
   display_when: Sunday, August 1, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '194487310'
   planning_center_event_time_id: '8762150'
@@ -6748,7 +6720,7 @@ events:
   sort_end_utc: '2027-08-04T22:15:00Z'
   display_when: Wednesday, August 4, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -6829,7 +6801,7 @@ events:
   sort_end_utc: '2027-08-07T14:00:00Z'
   display_when: Saturday, August 7, 2027, 8 AM to 10 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium
     at Urbancrest
   planning_center_event_instance_id: '195114700'
@@ -6857,7 +6829,7 @@ events:
   sort_end_utc: '2027-08-08T14:30:00Z'
   display_when: Sunday, August 8, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '195239941'
   planning_center_event_time_id: '8762150'
@@ -6883,7 +6855,7 @@ events:
   sort_end_utc: '2027-08-11T22:15:00Z'
   display_when: Wednesday, August 11, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -6964,7 +6936,7 @@ events:
   sort_end_utc: '2027-08-15T14:30:00Z'
   display_when: Sunday, August 15, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '196140166'
   planning_center_event_time_id: '8762150'
@@ -6990,7 +6962,7 @@ events:
   sort_end_utc: '2027-08-18T22:15:00Z'
   display_when: Wednesday, August 18, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -7071,7 +7043,7 @@ events:
   sort_end_utc: '2027-08-22T14:30:00Z'
   display_when: Sunday, August 22, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '197056906'
   planning_center_event_time_id: '8762150'
@@ -7097,7 +7069,7 @@ events:
   sort_end_utc: '2027-08-25T22:15:00Z'
   display_when: Wednesday, August 25, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -7178,7 +7150,7 @@ events:
   sort_end_utc: '2027-08-29T14:30:00Z'
   display_when: Sunday, August 29, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '198062220'
   planning_center_event_time_id: '8762150'
@@ -7204,7 +7176,7 @@ events:
   sort_end_utc: '2027-09-01T22:15:00Z'
   display_when: Wednesday, September 1, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -7285,7 +7257,7 @@ events:
   sort_end_utc: '2027-09-04T14:00:00Z'
   display_when: Saturday, September 4, 2027, 8 AM to 10 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium
     at Urbancrest
   planning_center_event_instance_id: '198718400'
@@ -7313,7 +7285,7 @@ events:
   sort_end_utc: '2027-09-05T14:30:00Z'
   display_when: Sunday, September 5, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '198916692'
   planning_center_event_time_id: '8762150'
@@ -7339,7 +7311,7 @@ events:
   sort_end_utc: '2027-09-08T22:15:00Z'
   display_when: Wednesday, September 8, 2027, 5:30 PM to 6:15 PM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
   details: 'September 9, 2026
 
@@ -7420,7 +7392,7 @@ events:
   sort_end_utc: '2027-09-12T14:30:00Z'
   display_when: Sunday, September 12, 2027, 9:30 AM to 10:30 AM
   all_day: false
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Sunday Morning Youth Service
   planning_center_event_instance_id: '199754818'
   planning_center_event_time_id: '8762150'

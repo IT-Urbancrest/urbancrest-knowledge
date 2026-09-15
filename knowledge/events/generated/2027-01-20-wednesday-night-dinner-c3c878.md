@@ -40,11 +40,11 @@ next_for_ministries: []
 next_for_audiences: []
 all_day: false
 image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=0b8c190d56325cbe0983da665c529dd8556e161d746bb60b6cb3d5a931891e63"
-location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
+location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "230122726"
 planning_center_event_time_id: "31870601"
-last_generated: 2026-09-15T17:29:33.230551Z
+last_generated: 2026-09-15T17:42:14.951810Z
 ---
 
 # Wednesday Night Dinner
@@ -53,7 +53,7 @@ Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM 
 
 **When:** Wednesday, January 20, 2027, 5:30 PM to 6:15 PM
 
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
 

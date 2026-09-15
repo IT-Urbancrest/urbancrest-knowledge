@@ -35,14 +35,14 @@ event_start: "2026-11-01T09:30:00-05:00"
 event_end: "2026-11-01T10:40:00-05:00"
 sort_start_utc: "2026-11-01T14:30:00Z"
 sort_end_utc: "2026-11-01T15:40:00Z"
-chronological_rank: 41
+chronological_rank: 40
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
-location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
+location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "171026769"
 planning_center_event_time_id: "9127131"
-last_generated: 2026-09-15T17:29:33.230551Z
+last_generated: 2026-09-15T17:42:14.951810Z
 ---
 
 # Sunday Morning Services: 9:30 AM Service
@@ -51,7 +51,7 @@ Join us in person or online!...
 
 **When:** Sunday, November 1, 2026, 9:30 AM to 10:40 AM
 
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
 

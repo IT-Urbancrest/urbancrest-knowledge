@@ -41,11 +41,11 @@ next_for_audiences: []
 all_day: false
 registration_url: "https://urbancrest.churchcenter.com/registrations/events/3791849"
 image_url: "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3791849/medium_image-1785669189641.jpeg"
-location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
+location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "230615455"
 planning_center_event_time_id: "31936721"
-last_generated: 2026-09-15T17:29:33.230551Z
+last_generated: 2026-09-15T17:42:14.951810Z
 ---
 
 # Urbancrest Women's Conference
@@ -54,7 +54,7 @@ Join us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, Oct
 
 **When:** Saturday, October 17, 2026, 9 AM to 3 PM
 
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Join us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.
 

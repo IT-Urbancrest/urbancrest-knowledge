@@ -41,11 +41,11 @@ next_for_audiences: ["men", "women"]
 all_day: false
 registration_url: "https://urbancrest.churchcenter.com/registrations/events/3848043"
 image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1787889600&key=uploads%2Fevent%2Flogo%2F3848043%2Fimage-1787747623394.jpeg&thumb=720x405%23&version=1787747843&signature=11aa145e5e471c884eb4c619680518f30e2765f0a1005fc7da03cab6eeae360c"
-location: "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036"
+location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "233866833"
 planning_center_event_time_id: "32438143"
-last_generated: 2026-09-15T17:29:33.230551Z
+last_generated: 2026-09-15T17:42:14.951810Z
 ---
 
 # Women's Fall Fest
@@ -54,7 +54,7 @@ Urbancrest's Women's Ministry is excited to welcome all ladies to their 4th annu
 
 **When:** Sunday, September 27, 2026, 5 PM to 7 PM
 
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Urbancrest's Women's Ministry is excited to welcome all ladies to their 4th annual Fall Fest! Join us at the Urbancrest Pavilion on Sunday evening, September 27! We will have a great time of fellowship, food (including a chili cook-off), and fun crafts!
 Register: https://urbancrest.churchcenter.com/registrations/events/3848043

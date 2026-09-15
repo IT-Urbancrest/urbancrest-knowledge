@@ -1,11 +1,11 @@
 version: 1.4.3
-generated_at: '2026-09-15T17:29:33.230551Z'
+generated_at: '2026-09-15T17:42:14.951810Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api
 api_enrichment:
   enabled: true
-  target_instance_count: 368
-  matched_instance_count: 368
+  target_instance_count: 367
+  matched_instance_count: 367
   page_count: 9
   api_version: '2026-06-22'
 source_of_truth_for_small_group_intents: true
@@ -162,7 +162,7 @@ groups:
     all_day: false
   meeting_count_in_window: 52
   knowledge_file: knowledge/small-groups/generated/p-u-r-s-u-e-567dcc.md
-- id: group-5aa8f1e4bd0cb4a6
+- id: group-02cae8d54895a0af
   source_uids:
   - ET-31398539-167802281@resources.planningcenteronline.com
   - ET-31398539-168413666@resources.planningcenteronline.com
@@ -223,7 +223,7 @@ groups:
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '167802281'
   planning_center_event_time_id: '31398539'
-  location: Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   ministries:
   - small_groups
   audiences:
@@ -306,7 +306,7 @@ groups:
     display_when: Monday, December 7, 2026, 7 PM to 8:30 PM
     all_day: false
   meeting_count_in_window: 52
-  knowledge_file: knowledge/small-groups/generated/connie-hollan-small-group-ladies-bible-study-0cb4a6.md
+  knowledge_file: knowledge/small-groups/generated/connie-hollan-small-group-ladies-bible-study-95a0af.md
 - id: group-f356eaa371c4a23b
   source_uids:
   - ET-28363570-167802282@resources.planningcenteronline.com
