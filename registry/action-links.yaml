@@ -1,5 +1,5 @@
 version: '1.0'
-last_updated: '2026-09-11'
+last_updated: '2026-09-15'
 domain_rules:
   preferred_domain: urbancrest.church
   allowed_external_hosts:
@@ -21,6 +21,15 @@ links:
     - messages
     - preaching
     priority: 80
+  newsletter:
+    label: Newsletter Signup
+    url: https://urbancrest.church/newsletter
+    intents:
+    - newsletter
+    - newsletter_signup
+    - email_updates
+    - mailing_list
+    priority: 100
   events:
     label: View All Events
     url: https://urbancrest.church/events
@@ -182,5 +191,6 @@ selection_rules:
 - For broad serving or volunteering questions, include Get Involved and the Volunteer Interest Form.
 - For service times, parking, what to expect, or first visit questions, prefer plan_visit.
 - For RightNow Media questions, use the signup link for access and the Help Center for technical or account support.
+- For newsletter, email-update, or mailing-list questions, use the Newsletter Signup link.
 - For broad social media questions, include Instagram, Facebook, and YouTube from the social_media bundle. For a question about one specific platform, use only that platform's link.
 - Do not add an unrelated link merely because a link record matched one word in the question.
