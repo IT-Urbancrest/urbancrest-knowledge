@@ -16,7 +16,7 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-09-15T17:00:52.375243Z
+last_generated: 2026-09-15T17:29:33.941122Z
 ---
 
 # Upcoming Events
@@ -397,6 +397,7 @@ Detailed event file: `knowledge/events/generated/2026-10-25-sunday-morning-servi
 **When:** Sunday, October 25, 2026, 3 PM to 10 PM
 
 **Where:** Urbancrest At Lebanon - 2634 Drake Road
+Parking Lot & Pavilion
 Lebanon, OH 45036
 
 **Registration:** https://urbancrest.churchcenter.com/registrations/events/3892183/reservations/new
@@ -407,11 +408,13 @@ Detailed event file: `knowledge/events/generated/2026-10-25-trail-of-treats-c2df
 
 **Category:** General Event
 
-**When:** Sunday, October 25, 2026, 5 PM to 6:30 PM
+**When:** Sunday, October 25, 2026, 5 PM to 7:30 PM
 
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
-Detailed event file: `knowledge/events/generated/2026-10-25-trail-of-treats-378026.md`
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3892183
+
+Detailed event file: `knowledge/events/generated/2026-10-25-trail-of-treats-cc2d25.md`
 
 ## Wednesday Night Dinner
 
