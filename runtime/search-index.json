@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-09-15T13:09:44.625249Z",
+  "generated_at": "2026-09-15T17:00:53.404213Z",
   "timezone": "America/New_York",
   "record_count": 466,
   "config": {
@@ -90,7 +90,7 @@
   },
   "freshness": {
     "calendar": {
-      "generated_at": "2026-09-15T11:45:46.419027Z",
+      "generated_at": "2026-09-15T17:00:52.375243Z",
       "max_age_hours": 48,
       "source_path": "registry/events-live.yaml",
       "heartbeat_field": "generated_at",
@@ -98,7 +98,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-09-15T11:45:45.225970Z",
+      "generated_at": "2026-09-15T17:00:51.567461Z",
       "max_age_hours": 48,
       "source_path": "registry/small-groups-live.yaml",
       "heartbeat_field": "generated_at",
@@ -14386,7 +14386,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=058d17f1b81369bc1275502f9bfab7c3324ca5b970a6a39720a87348da9b781e",
       "knowledge_file": "knowledge/events/generated/2026-11-07-men-s-breakfast-b349ea.md",
-      "chronological_rank": 44,
+      "chronological_rank": 45,
       "routine_schedule_occurrence": false
     },
     {
@@ -15759,7 +15759,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-11-01-p-u-r-s-u-e-96a55e.md",
-      "chronological_rank": 39,
+      "chronological_rank": 40,
       "routine_schedule_occurrence": false
     },
     {
@@ -15827,7 +15827,7 @@
       "planning_center_event_time_id": "8762150",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-11-08-p-u-r-s-u-e-4c1a4d.md",
-      "chronological_rank": 45,
+      "chronological_rank": 46,
       "routine_schedule_occurrence": false
     },
     {
@@ -18948,6 +18948,178 @@
       "routine_schedule_occurrence": false
     },
     {
+      "id": "events.live.event-09e1ddbf6fc2dfe7",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-10-25-trail-of-treats-c2dfe7.md",
+      "title": "Trail of Treats",
+      "summary": "No signup required to attend! Only volunteers need to register. YOU'RE INVITED! All are invited and welcome to attend Urbancrest's Trail of Treats event on Sunday evening, October 25 from 5:00-7:30 PM! This FREE event will feature candy and other treats around the church....",
+      "content": "No signup required to attend! Only volunteers need to register. \n\nYOU'RE INVITED! \nAll are invited and welcome to attend Urbancrest's Trail of Treats event on Sunday evening, October 25 from 5:00-7:30 PM!\n\nThis FREE event will feature candy and other treats around the church. Costumes are welcome, but not required, and the whole family is welcome to attend! Be advised, this is an OUTDOOR event, so please dress accordingly.\n\nWHEN? Sunday, October 26 from 5:00-7:30 PM\nWHERE? Urbancrest at Lebanon • 2634 Drake Rd. Lebanon, OH 45036\n\nQuestions? Reach out to the Urbancrest office at office@urbancrest.org .\n\nNo signup required to attend! \n\n–––––––––––––––––––––––––––––––––––––––\n\nVolunteers: \nIf you are volunteering and/or registering your vehicle for the Trunk or Treat, please sign up for your respective area here!\n\nAreas to volunteer: \n• Trunk or Treat\n• Food/Block Party Stations\n• Greeters\n• Parking Lot Helpers\n\nDetails:\nNo signup required to attend! Only volunteers need to register. \n\nYOU'RE INVITED! \nAll are invited and welcome to attend Urbancrest's Trail of Treats event on Sunday evening, October 25 from 5:00-7:30 PM!\n\nThis FREE event will feature candy and other treats around the church. Costumes are welcome, but not required, and the whole family is welcome to attend! Be advised, this is an OUTDOOR event, so please dress accordingly.\n\nWHEN? Sunday, October 26 from 5:00-7:30 PM\nWHERE? Urbancrest at Lebanon • 2634 Drake Rd. Lebanon, OH 45036\n\nQuestions? Reach out to the Urbancrest office at office@urbancrest.org .\n\nNo signup required to attend! \n\n–––––––––––––––––––––––––––––––––––––––\n\nVolunteers: \nIf you are volunteering and/or registering your vehicle for the Trunk or Treat, please sign up for your respective area here!\n\nAreas to volunteer: \n• Trunk or Treat\n• Food/Block Party Stations\n• Greeters\n• Parking Lot Helpers\n\nRegistration is open.",
+      "priority": 80,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "general_event",
+        "Trail of Treats"
+      ],
+      "search_terms": [
+        "Trail of Treats",
+        "When is Trail of Treats?",
+        "Tell me about Trail of Treats",
+        "What are the details for Trail of Treats?",
+        "What is the menu for Trail of Treats?",
+        "How do I register for Trail of Treats?",
+        "Does Urbancrest have Trail of Treats?",
+        "Does Urbancrest offer Trail of Treats?",
+        "Do you have Trail of Treats?",
+        "Do you offer Trail of Treats?",
+        "Is there Trail of Treats at Urbancrest?",
+        "Can I participate in Trail of Treats?",
+        "Can I play Trail of Treats at Urbancrest?"
+      ],
+      "ministries": [
+        "churchwide",
+        "kids",
+        "family",
+        "volunteer"
+      ],
+      "audiences": [
+        "everyone",
+        "children",
+        "families",
+        "all"
+      ],
+      "resources": [],
+      "event_id": "event-09e1ddbf6fc2dfe7",
+      "activity_aliases": [
+        "Trail of Treats"
+      ],
+      "event_category": "general_event",
+      "event_start": "2026-10-25T15:00:00-04:00",
+      "event_end": "2026-10-25T22:00:00-04:00",
+      "sort_start_utc": "2026-10-25T19:00:00Z",
+      "sort_end_utc": "2026-10-26T02:00:00Z",
+      "display_when": "Sunday, October 25, 2026, 3 PM to 10 PM",
+      "all_day": false,
+      "location": "Urbancrest At Lebanon - 2634 Drake Road\nLebanon, OH 45036",
+      "location_structured": {
+        "name": "Urbancrest At Lebanon",
+        "address": "2634 Drake Road\nLebanon, OH 45036",
+        "latitude": "39.4748875",
+        "longitude": "-84.1793592"
+      },
+      "details": "No signup required to attend! Only volunteers need to register. \n\nYOU'RE INVITED! \nAll are invited and welcome to attend Urbancrest's Trail of Treats event on Sunday evening, October 25 from 5:00-7:30 PM!\n\nThis FREE event will feature candy and other treats around the church. Costumes are welcome, but not required, and the whole family is welcome to attend! Be advised, this is an OUTDOOR event, so please dress accordingly.\n\nWHEN? Sunday, October 26 from 5:00-7:30 PM\nWHERE? Urbancrest at Lebanon • 2634 Drake Rd. Lebanon, OH 45036\n\nQuestions? Reach out to the Urbancrest office at office@urbancrest.org .\n\nNo signup required to attend! \n\n–––––––––––––––––––––––––––––––––––––––\n\nVolunteers: \nIf you are volunteering and/or registering your vehicle for the Trunk or Treat, please sign up for your respective area here!\n\nAreas to volunteer: \n• Trunk or Treat\n• Food/Block Party Stations\n• Greeters\n• Parking Lot Helpers\n\nRegistration is open.",
+      "details_source": "planning_center_registrations_api",
+      "planning_center_event_instance_id": "222367934",
+      "planning_center_event_time_id": "30542855",
+      "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3892183/reservations/new",
+      "registration_available": true,
+      "registration_open": true,
+      "registration_closed": false,
+      "registration_open_at": "2026-09-15T04:00:00Z",
+      "registration_close_at": "2026-10-24T04:00:00Z",
+      "registration_categories": [
+        "Kids (4 yrs. - 6th Grade)",
+        "Family",
+        "Special Events"
+      ],
+      "registration_options": [
+        {
+          "id": "8895876",
+          "name": "Trunk or Treat: Standard Vehicle",
+          "price_cents": 0,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "0",
+          "maximum_capacity": 44,
+          "available_capacity": 44,
+          "at_maximum_capacity": false,
+          "waitlist": false
+        },
+        {
+          "id": "8896323",
+          "name": "Trunk or Treat: Vehicle with Game",
+          "price_cents": 0,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "0",
+          "maximum_capacity": 10,
+          "available_capacity": 10,
+          "at_maximum_capacity": false,
+          "waitlist": false
+        },
+        {
+          "id": "8895880",
+          "name": "Trunk or Treat: Trail of Salvation Vehicle",
+          "price_cents": 0,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "0",
+          "maximum_capacity": 6,
+          "available_capacity": 6,
+          "at_maximum_capacity": false,
+          "waitlist": false
+        },
+        {
+          "id": "8895877",
+          "name": "Greeter",
+          "price_cents": 0,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "0",
+          "maximum_capacity": 6,
+          "available_capacity": 6,
+          "at_maximum_capacity": false,
+          "waitlist": false
+        },
+        {
+          "id": "8895878",
+          "name": "Parking Lot Helper",
+          "price_cents": 0,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "0",
+          "maximum_capacity": 10,
+          "available_capacity": 10,
+          "at_maximum_capacity": false,
+          "waitlist": false
+        },
+        {
+          "id": "8895879",
+          "name": "Food/Block Party Volunteer",
+          "price_cents": 0,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "0",
+          "maximum_capacity": 25,
+          "available_capacity": 25,
+          "at_maximum_capacity": false,
+          "waitlist": false
+        }
+      ],
+      "event_source": "merged",
+      "event_sources": [
+        "planning_center_ical",
+        "planning_center_registrations_api"
+      ],
+      "image_url": "https://registrations.planningcenteronline.com/signups/3892183/logo",
+      "knowledge_file": "knowledge/events/generated/2026-10-25-trail-of-treats-c2dfe7.md",
+      "chronological_rank": 37,
+      "routine_schedule_occurrence": false
+    },
+    {
       "id": "events.live.event-a33c3a5ecf5aaab7",
       "record_type": "event",
       "path": "knowledge/events/generated/2026-09-26-waynesville-fall-fest-5aaab7.md",
@@ -20542,7 +20714,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=0b8c190d56325cbe0983da665c529dd8556e161d746bb60b6cb3d5a931891e63",
       "knowledge_file": "knowledge/events/generated/2026-10-28-wednesday-night-dinner-acac27.md",
-      "chronological_rank": 38,
+      "chronological_rank": 39,
       "routine_schedule_occurrence": false
     },
     {
@@ -20613,7 +20785,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=0b8c190d56325cbe0983da665c529dd8556e161d746bb60b6cb3d5a931891e63",
       "knowledge_file": "knowledge/events/generated/2026-11-04-wednesday-night-dinner-55fdc7.md",
-      "chronological_rank": 43,
+      "chronological_rank": 44,
       "routine_schedule_occurrence": false
     },
     {
@@ -24101,7 +24273,7 @@
       "planning_center_event_time_id": "28363612",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-11-03-card-ministry-7a8829.md",
-      "chronological_rank": 42,
+      "chronological_rank": 43,
       "routine_schedule_occurrence": false
     },
     {
@@ -24379,12 +24551,12 @@
       "routine_schedule_occurrence": false
     },
     {
-      "id": "events.live.event-09e1ddbf6fc2dfe7",
+      "id": "events.live.event-ab8b36515c378026",
       "record_type": "event",
-      "path": "knowledge/events/generated/2026-10-25-trail-of-treats-c2dfe7.md",
+      "path": "knowledge/events/generated/2026-10-25-trail-of-treats-378026.md",
       "title": "Trail of Treats",
-      "summary": "Trail of Treats is scheduled for Sunday, October 25, 2026, 3 PM to 10 PM.",
-      "content": "",
+      "summary": "No signup required to attend!...",
+      "content": "No signup required to attend! Only volunteers need to register.\n\nYOU'RE INVITED!\nAll are invited and welcome to attend Urbancrest's Trail of Treats event on Sunday evening, October 25 from 5:00-7:30 PM!\n\nThis FREE event will feature candy and other treats around the church. Costumes are welcome, but not required, and the whole family is welcome to attend! Be advised, this is an OUTDOOR event, so please dress accordingly.\n\nWHEN? Sunday, October 26 from 5:00-7:30 PM\nWHERE? Urbancrest at Lebanon • 2634 Drake Rd. Lebanon, OH 45036\n\nQuestions? Reach out to the Urbancrest office at office@urbancrest.org.\n\nNo signup required to attend!\n\n–––––––––––––––––––––––––––––––––––––––\n\nVolunteers:\nIf you are volunteering and/or registering your vehicle for the Trunk or Treat, please sign up for your respective area here!\n\nAreas to volunteer:\n• Trunk or Treat\n• Food/Block Party Stations\n• Greeters\n• Parking Lot Helpers\n\nDetails:\nNo signup required to attend! Only volunteers need to register. \nYOU'RE INVITED!\nAll are invited and welcome to attend Urbancrest's Trail of Treats event on Sunday evening, October 25 from 5:00-7:30 PM!\nThis FREE event will feature candy and other treats around the church. Costumes are welcome, but not required, and the whole family is welcome to attend! Be advised, this is an OUTDOOR event, so please dress accordingly.\nWHEN? Sunday, October 26 from 5:00-7:30 PM\nWHERE? Urbancrest at Lebanon • 2634 Drake Rd. Lebanon, OH 45036\nQuestions? Reach out to the Urbancrest office at \noffice@urbancrest.org\n.\nNo signup required to attend! \n–––––––––––––––––––––––––––––––––––––––\nVolunteers:\nIf you are volunteering and/or registering your vehicle for the Trunk or Treat, please sign up for your respective area here!\nAreas to volunteer: \n• Trunk or Treat\n• Food/Block Party Stations\n• Greeters\n• Parking Lot Helpers",
       "priority": 50,
       "category": [
         "events",
@@ -24418,32 +24590,39 @@
         "Do you offer Trail of Treats?",
         "Is there Trail of Treats at Urbancrest?",
         "Can I participate in Trail of Treats?",
-        "Can I play Trail of Treats at Urbancrest?"
+        "Can I play Trail of Treats at Urbancrest?",
+        "Details"
       ],
       "ministries": [
         "churchwide"
       ],
       "audiences": [
-        "everyone"
+        "families",
+        "volunteers"
       ],
       "resources": [],
-      "event_id": "event-09e1ddbf6fc2dfe7",
+      "event_id": "event-ab8b36515c378026",
       "activity_aliases": [
         "Trail of Treats"
       ],
       "event_category": "general_event",
-      "event_start": "2026-10-25T15:00:00-04:00",
-      "event_end": "2026-10-25T22:00:00-04:00",
-      "sort_start_utc": "2026-10-25T19:00:00Z",
-      "sort_end_utc": "2026-10-26T02:00:00Z",
-      "display_when": "Sunday, October 25, 2026, 3 PM to 10 PM",
+      "event_start": "2026-10-25T17:00:00-04:00",
+      "event_end": "2026-10-25T18:30:00-04:00",
+      "sort_start_utc": "2026-10-25T21:00:00Z",
+      "sort_end_utc": "2026-10-25T22:30:00Z",
+      "display_when": "Sunday, October 25, 2026, 5 PM to 6:30 PM",
       "all_day": false,
-      "planning_center_event_instance_id": "222367934",
-      "planning_center_event_time_id": "30542855",
+      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
+      "details": "No signup required to attend! Only volunteers need to register. \nYOU'RE INVITED!\nAll are invited and welcome to attend Urbancrest's Trail of Treats event on Sunday evening, October 25 from 5:00-7:30 PM!\nThis FREE event will feature candy and other treats around the church. Costumes are welcome, but not required, and the whole family is welcome to attend! Be advised, this is an OUTDOOR event, so please dress accordingly.\nWHEN? Sunday, October 26 from 5:00-7:30 PM\nWHERE? Urbancrest at Lebanon • 2634 Drake Rd. Lebanon, OH 45036\nQuestions? Reach out to the Urbancrest office at \noffice@urbancrest.org\n.\nNo signup required to attend! \n–––––––––––––––––––––––––––––––––––––––\nVolunteers:\nIf you are volunteering and/or registering your vehicle for the Trunk or Treat, please sign up for your respective area here!\nAreas to volunteer: \n• Trunk or Treat\n• Food/Block Party Stations\n• Greeters\n• Parking Lot Helpers",
+      "details_source": "planning_center_calendar_api",
+      "planning_center_event_instance_id": "236659880",
+      "planning_center_event_time_id": "32867237",
       "registration_available": false,
-      "knowledge_file": "knowledge/events/generated/2026-10-25-trail-of-treats-c2dfe7.md",
-      "chronological_rank": 37,
-      "routine_schedule_occurrence": false
+      "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1789574400&key=uploads%2Fevent%2Flogo%2F3892183%2Fimage-1756135195971.png&thumb=720x405%23&version=1789489594&signature=5811b97a498a35860fb60b41ee0486a20c96ea8d7465e2ca217af7345707000a",
+      "knowledge_file": "knowledge/events/generated/2026-10-25-trail-of-treats-378026.md",
+      "chronological_rank": 38,
+      "routine_schedule_occurrence": false,
+      "supplemental_search_term_count": 1
     },
     {
       "id": "knowledge/ministries/README.md",
@@ -24965,7 +25144,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-11-01-sunday-morning-services-11-00-am-service-5b69af.md",
-      "chronological_rank": 41,
+      "chronological_rank": 42,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -25476,80 +25655,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-11-01-sunday-morning-services-9-30-am-service-a90a62.md",
-      "chronological_rank": 40,
-      "routine_schedule_occurrence": true,
-      "retrieval_exclude_for_intents": [
-        "service_times",
-        "sunday_service_times",
-        "weekly_schedule"
-      ]
-    },
-    {
-      "id": "events.live.event-37b1feeb225cd74e",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-11-08-sunday-morning-services-9-30-am-service-5cd74e.md",
-      "title": "Sunday Morning Services: 9:30 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 20,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "general_event",
-        "Sunday Morning Services: 9:30 AM Service"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 9:30 AM Service",
-        "When is Sunday Morning Services: 9:30 AM Service?",
-        "Tell me about Sunday Morning Services: 9:30 AM Service",
-        "What are the details for Sunday Morning Services: 9:30 AM Service?",
-        "What is the menu for Sunday Morning Services: 9:30 AM Service?",
-        "How do I register for Sunday Morning Services: 9:30 AM Service?",
-        "Does Urbancrest have Sunday Morning Services: 9:30 AM Service?",
-        "Does Urbancrest offer Sunday Morning Services: 9:30 AM Service?",
-        "Do you have Sunday Morning Services: 9:30 AM Service?",
-        "Do you offer Sunday Morning Services: 9:30 AM Service?",
-        "Is there Sunday Morning Services: 9:30 AM Service at Urbancrest?",
-        "Can I participate in Sunday Morning Services: 9:30 AM Service?",
-        "Can I play Sunday Morning Services: 9:30 AM Service at Urbancrest?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-37b1feeb225cd74e",
-      "activity_aliases": [
-        "Sunday Morning Services: 9:30 AM Service"
-      ],
-      "event_category": "general_event",
-      "event_start": "2026-11-08T09:30:00-05:00",
-      "event_end": "2026-11-08T10:40:00-05:00",
-      "sort_start_utc": "2026-11-08T14:30:00Z",
-      "sort_end_utc": "2026-11-08T15:40:00Z",
-      "display_when": "Sunday, November 8, 2026, 9:30 AM to 10:40 AM",
-      "all_day": false,
-      "location": "Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036",
-      "planning_center_event_instance_id": "171522666",
-      "planning_center_event_time_id": "9127131",
-      "registration_available": false,
-      "knowledge_file": "knowledge/events/generated/2026-11-08-sunday-morning-services-9-30-am-service-5cd74e.md",
-      "chronological_rank": 46,
+      "chronological_rank": 41,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",

@@ -16,7 +16,7 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-09-15T11:45:46.419027Z
+last_generated: 2026-09-15T17:00:52.375243Z
 ---
 
 # Upcoming Events
@@ -396,7 +396,22 @@ Detailed event file: `knowledge/events/generated/2026-10-25-sunday-morning-servi
 
 **When:** Sunday, October 25, 2026, 3 PM to 10 PM
 
+**Where:** Urbancrest At Lebanon - 2634 Drake Road
+Lebanon, OH 45036
+
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3892183/reservations/new
+
 Detailed event file: `knowledge/events/generated/2026-10-25-trail-of-treats-c2dfe7.md`
+
+## Trail of Treats
+
+**Category:** General Event
+
+**When:** Sunday, October 25, 2026, 5 PM to 6:30 PM
+
+**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2026-10-25-trail-of-treats-378026.md`
 
 ## Wednesday Night Dinner
 
@@ -475,16 +490,6 @@ Detailed event file: `knowledge/events/generated/2026-11-07-men-s-breakfast-b349
 **Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-11-08-p-u-r-s-u-e-4c1a4d.md`
-
-## Sunday Morning Services: 9:30 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, November 8, 2026, 9:30 AM to 10:40 AM
-
-**Where:** Urbancrest At Lebanon - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-11-08-sunday-morning-services-9-30-am-service-5cd74e.md`
 
 ## Wednesday Night Dinner
 
