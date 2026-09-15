@@ -41,7 +41,7 @@ next_for_audiences: []
 all_day: false
 planning_center_event_instance_id: "222367934"
 planning_center_event_time_id: "30542855"
-last_generated: 2026-09-14T23:52:46.857900Z
+last_generated: 2026-09-15T04:56:16.327036Z
 ---
 
 # Trail of Treats
