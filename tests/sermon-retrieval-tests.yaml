@@ -1,4 +1,4 @@
-version: 1.7
+version: 1.8
 purpose: Regression coverage for structured sermon and sermon-series retrieval using fill-in notes as the canonical structural source.
 
 cases:
@@ -100,12 +100,23 @@ cases:
     expected_record: sermons.2026_09_06
     expected_topic: judgmentalism and biblical discernment
 
+  - query: What did Geoff Prows preach on September 13?
+    expected_record: sermons.2026_09_13
+    expected_title: A Great Promise and a Golden Rule
+    expected_speaker: Geoff Prows
+    expected_scripture: Matthew 7:7-12
+    expected_staff_key: geoff_prows
+
+  - query: What did the September 13 sermon say about asking, seeking, and knocking?
+    expected_record: sermons.2026_09_13
+    expected_topic: persistent and confident prayer
+
   - query: What is the current sermon series?
     expected_record: sermons.series.summer_on_the_mount_2026
 
   - query: Which sermons have been in Summer on the Mount?
     expected_record: sermons.series.summer_on_the_mount_2026
-    expected_member_count: 13
+    expected_member_count: 14
     answer_must_list_all_members: true
     expected_image_url: https://cdn.subsplash.com/images/VRR5NM/_source/3259fdd8-2fcf-4d63-9fd7-fa81b3796edb/image.jpg
 
@@ -140,6 +151,11 @@ cases:
   - query: Do you have fill-in notes for the September 6 message?
     expected_record: sermons.2026_09_06
     expected_url: https://notes.subsplash.com/fill-in/view?page=KE2bS_nrTC
+    answer_must_include_exact_url: true
+
+  - query: Do you have fill-in notes for the September 13 message?
+    expected_record: sermons.2026_09_13
+    expected_url: https://notes.subsplash.com/fill-in/view?page=zrIdj3cJTq
     answer_must_include_exact_url: true
 
   - query: What did Geoff say about waiting on God?
