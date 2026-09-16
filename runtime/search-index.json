@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-09-16T19:07:31.422427Z",
+  "generated_at": "2026-09-16T19:19:13.463412Z",
   "timezone": "America/New_York",
   "record_count": 467,
   "config": {
@@ -5289,6 +5289,7 @@
       ],
       "resources": [],
       "event_id": "event-62fe0d7a16d35740",
+      "overview_article_id": "events.mens_summit_2027",
       "activity_aliases": [
         "Men's Summit"
       ],
@@ -24238,7 +24239,7 @@
       "path": "registry/event-overrides.yaml",
       "title": "Event Overrides",
       "summary": "Structured registry data from registry/event-overrides.yaml.",
-      "content": "version: 1.0\nuid_overrides: \ntitle_rules: \nsearch_response_rules: title_equals: Men's Summit\nomit_text: Where God Sharpens Man\nsingle_action_url: https://urbancrest.church/events/mens-summit\ntitle_equals: Men's Summit\nevent_start_date: 2027-01-22\nticket_sales_open_at: 2026-10-01T00:00:00-04:00",
+      "content": "version: 1.0\nuid_overrides: \ntitle_rules: \nsearch_response_rules: title_equals: Men's Summit\nomit_text: Where God Sharpens Man\nsingle_action_url: https://urbancrest.church/events/mens-summit\ntitle_equals: Men's Summit\nevent_start_date: 2027-01-22\noverview_article_id: events.mens_summit_2027\nticket_sales_open_at: 2026-10-01T00:00:00-04:00",
       "priority": 60,
       "category": [
         "registry"
