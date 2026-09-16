@@ -609,6 +609,9 @@ def event_search_response(event: dict[str, Any], rules: list[dict[str, Any]]) ->
         if destination and not destination.startswith("https://urbancrest.church/"):
             raise ValueError("search response single_action_url must use the Urbancrest website")
         source_urls = [str(result.get(key) or "") for key in ("registration_url", "info_url")]
+        # Calendar descriptions often contain the signup landing page, while
+        # Registrations supplies the /reservations/new action for the same signup.
+        source_urls += [url.removesuffix("/reservations/new") for url in source_urls if url.endswith("/reservations/new")]
         for field in ("summary", "description", "details"):
             text = str(result.get(field) or "")
             for phrase in as_list(rule.get("omit_text")):
