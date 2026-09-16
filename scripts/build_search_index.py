@@ -599,12 +599,27 @@ def schedule_records() -> list[dict[str, Any]]:
     return records
 
 
-def event_search_response(event: dict[str, Any], rules: list[dict[str, Any]]) -> dict[str, Any]:
+def event_search_response(event: dict[str, Any], rules: list[dict[str, Any]], now: datetime | None = None) -> dict[str, Any]:
     """Apply search-only presentation rules without changing synced source data."""
     result = dict(event)
+    now = now or datetime.now(timezone.utc)
     for rule in rules:
         if str(rule.get("title_equals") or "").casefold() != str(event.get("title") or "").casefold():
             continue
+        start_date = str(rule.get("event_start_date") or "")
+        if start_date and not str(event.get("start") or "").startswith(start_date):
+            continue
+        ticket_open_at = str(rule.get("ticket_sales_open_at") or "")
+        before_ticket_sales = False
+        if ticket_open_at:
+            opens = datetime.fromisoformat(ticket_open_at.replace("Z", "+00:00"))
+            if opens.tzinfo is None:
+                raise ValueError("ticket_sales_open_at must include a timezone")
+            before_ticket_sales = now < opens
+            result["registration_open_at"] = ticket_open_at
+            if before_ticket_sales:
+                result["registration_open"] = False
+                result["registration_closed"] = False
         destination = str(rule.get("single_action_url") or "").strip()
         if destination and not destination.startswith("https://urbancrest.church/"):
             raise ValueError("search response single_action_url must use the Urbancrest website")
@@ -616,6 +631,8 @@ def event_search_response(event: dict[str, Any], rules: list[dict[str, Any]]) ->
             text = str(result.get(field) or "")
             for phrase in as_list(rule.get("omit_text")):
                 text = re.sub(re.escape(phrase), "", text, flags=re.IGNORECASE)
+            if before_ticket_sales:
+                text = re.sub(r"\bregistration is (?:now )?open\.?", "", text, flags=re.IGNORECASE)
             if destination:
                 for url in source_urls:
                     if url:

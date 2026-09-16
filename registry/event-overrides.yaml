@@ -37,6 +37,9 @@ search_response_rules:
     omit_text:
       - "Where God Sharpens Man"
     single_action_url: "https://urbancrest.church/events/mens-summit"
+  - title_equals: "Men's Summit"
+    event_start_date: "2027-01-22"
+    ticket_sales_open_at: "2026-10-01T00:00:00-04:00"
 
 # Small Group grouping examples:
 #
