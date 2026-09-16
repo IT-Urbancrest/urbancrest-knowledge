@@ -611,6 +611,8 @@ def event_search_response(event: dict[str, Any], rules: list[dict[str, Any]], no
             continue
         if rule.get("overview_article_id"):
             result["overview_article_id"] = str(rule["overview_article_id"])
+        if rule.get("event_aliases"):
+            result["event_aliases"] = unique(as_list(result.get("event_aliases")) + as_list(rule["event_aliases"]))
         ticket_open_at = str(rule.get("ticket_sales_open_at") or "")
         before_ticket_sales = False
         if ticket_open_at:
@@ -730,6 +732,7 @@ def event_records() -> list[dict[str, Any]]:
                 audiences=as_list(event.get("audiences")),
                 event_id=event_id,
                 overview_article_id=event.get("overview_article_id"),
+                event_aliases=event.get("event_aliases"),
                 activity_aliases=activity_aliases,
                 event_category=event.get("event_category"),
                 event_start=event.get("start"),
