@@ -18,7 +18,7 @@ class EventSearchResponseTests(unittest.TestCase):
             "summary": "Men's Summit 2027: Where God Sharpens Man",
             "description": "WHERE GOD SHARPENS MAN",
             "details": "Register: https://urbancrest.churchcenter.com/registrations/events/3894841",
-            "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3894841",
+            "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3894841/reservations/new",
             "registration_available": True,
             "registration_open": False,
             "info_url": "https://urbancrest.church/events/mens-summit",
