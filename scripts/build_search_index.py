@@ -599,11 +599,40 @@ def schedule_records() -> list[dict[str, Any]]:
     return records
 
 
+def event_search_response(event: dict[str, Any], rules: list[dict[str, Any]]) -> dict[str, Any]:
+    """Apply search-only presentation rules without changing synced source data."""
+    result = dict(event)
+    for rule in rules:
+        if str(rule.get("title_equals") or "").casefold() != str(event.get("title") or "").casefold():
+            continue
+        destination = str(rule.get("single_action_url") or "").strip()
+        if destination and not destination.startswith("https://urbancrest.church/"):
+            raise ValueError("search response single_action_url must use the Urbancrest website")
+        source_urls = [str(result.get(key) or "") for key in ("registration_url", "info_url")]
+        for field in ("summary", "description", "details"):
+            text = str(result.get(field) or "")
+            for phrase in as_list(rule.get("omit_text")):
+                text = re.sub(re.escape(phrase), "", text, flags=re.IGNORECASE)
+            if destination:
+                for url in source_urls:
+                    if url:
+                        text = text.replace(url, destination)
+            result[field] = text.strip()
+        if destination:
+            # A single next-step destination, not two competing event actions.
+            result["registration_url"] = destination
+            result["info_url"] = None
+    return result
+
+
 def event_records() -> list[dict[str, Any]]:
     path = ROOT / "registry/events-live.yaml"
     data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    overrides = yaml.safe_load((ROOT / "registry/event-overrides.yaml").read_text(encoding="utf-8")) or {}
+    response_rules = overrides.get("search_response_rules") or []
     records: list[dict[str, Any]] = []
     for event in data.get("events", []):
+        event = event_search_response(event, response_rules)
         event_id = str(event.get("id") or "")
         title = str(event.get("title") or "Untitled Event")
         description = str(event.get("description") or "")

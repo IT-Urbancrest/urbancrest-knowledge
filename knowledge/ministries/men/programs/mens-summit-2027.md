@@ -1,6 +1,6 @@
 ---
 id: events.mens_summit_2027
-version: 1.0
+version: 1.1
 status: published
 priority: 90
 title: What are the details for Men's Summit 2027?
@@ -137,4 +137,4 @@ Tickets are non-refundable but may be transferred to another attendee.
 
 Ticket sales begin October 1, 2026.
 
-Explore the schedule, speakers, and ticket options on the [Men's Summit page](https://urbancrest.church/events/mens-summit). For ticket purchases, use the [Men's Summit 2027 registration page](https://urbancrest.churchcenter.com/registrations/events/3894841).
+Explore the schedule, speakers, and ticket options on the [Men's Summit page](https://urbancrest.church/events/mens-summit).

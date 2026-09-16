@@ -30,6 +30,14 @@ uid_overrides: {}
 
 title_rules: []
 
+# Search-answer presentation only. Calendar and Registrations source data remain
+# unchanged. Applied after Registrations enrichment on every index rebuild.
+search_response_rules:
+  - title_equals: "Men's Summit"
+    omit_text:
+      - "Where God Sharpens Man"
+    single_action_url: "https://urbancrest.church/events/mens-summit"
+
 # Small Group grouping examples:
 #
 # Merge occurrences even when the location changes:
