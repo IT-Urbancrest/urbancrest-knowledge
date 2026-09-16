@@ -1,5 +1,5 @@
 version: 1.5.4
-generated_at: '2026-09-16T16:57:48.890348Z'
+generated_at: '2026-09-16T19:46:11.828179Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
@@ -60,17 +60,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -112,7 +102,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122708'
   planning_center_event_time_id: '31870601'
@@ -223,17 +245,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -275,7 +287,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122709'
   planning_center_event_time_id: '31870601'
@@ -559,17 +603,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -611,7 +645,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122710'
   planning_center_event_time_id: '31870601'
@@ -938,17 +1004,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -990,7 +1046,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122711'
   planning_center_event_time_id: '31870601'
@@ -1125,17 +1213,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -1177,7 +1255,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122712'
   planning_center_event_time_id: '31870601'
@@ -1407,17 +1517,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -1459,7 +1559,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122713'
   planning_center_event_time_id: '31870601'
@@ -1746,17 +1878,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -1798,7 +1920,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122714'
   planning_center_event_time_id: '31870601'
@@ -1932,17 +2086,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -1984,7 +2128,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122715'
   planning_center_event_time_id: '31870601'
@@ -2067,17 +2243,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -2119,7 +2285,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122716'
   planning_center_event_time_id: '31870601'
@@ -2253,17 +2451,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -2305,7 +2493,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122717'
   planning_center_event_time_id: '31870601'
@@ -2360,17 +2580,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -2412,7 +2622,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122718'
   planning_center_event_time_id: '31870601'
@@ -2467,17 +2709,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -2519,7 +2751,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122719'
   planning_center_event_time_id: '31870601'
@@ -2630,17 +2894,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -2682,7 +2936,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122720'
   planning_center_event_time_id: '31870601'
@@ -2737,17 +3023,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -2789,7 +3065,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122721'
   planning_center_event_time_id: '31870601'
@@ -2844,17 +3152,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -2896,7 +3194,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122722'
   planning_center_event_time_id: '31870601'
@@ -2951,17 +3281,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -3003,7 +3323,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122723'
   planning_center_event_time_id: '31870601'
@@ -3086,17 +3438,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -3138,7 +3480,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122724'
   planning_center_event_time_id: '31870601'
@@ -3193,17 +3567,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -3245,7 +3609,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122725'
   planning_center_event_time_id: '31870601'
@@ -3383,17 +3779,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -3435,7 +3821,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122726'
   planning_center_event_time_id: '31870601'
@@ -3586,17 +4004,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -3638,7 +4046,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122727'
   planning_center_event_time_id: '31870601'
@@ -3717,17 +4157,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -3769,7 +4199,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122728'
   planning_center_event_time_id: '31870601'
@@ -3852,17 +4314,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -3904,7 +4356,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122729'
   planning_center_event_time_id: '31870601'
@@ -3959,17 +4443,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -4011,7 +4485,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122730'
   planning_center_event_time_id: '31870601'
@@ -4066,17 +4572,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -4118,7 +4614,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122731'
   planning_center_event_time_id: '31870601'
@@ -4173,17 +4701,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -4225,7 +4743,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122732'
   planning_center_event_time_id: '31870601'
@@ -4308,17 +4858,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -4360,7 +4900,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122733'
   planning_center_event_time_id: '31870601'
@@ -4415,17 +4987,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -4467,7 +5029,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122734'
   planning_center_event_time_id: '31870601'
@@ -4522,17 +5116,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -4574,7 +5158,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122735'
   planning_center_event_time_id: '31870601'
@@ -4629,17 +5245,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -4681,7 +5287,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122736'
   planning_center_event_time_id: '31870601'
@@ -4791,17 +5429,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -4843,7 +5471,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122737'
   planning_center_event_time_id: '31870601'
@@ -4898,17 +5558,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -4950,7 +5600,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122738'
   planning_center_event_time_id: '31870601'
@@ -5005,17 +5687,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -5057,7 +5729,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122739'
   planning_center_event_time_id: '31870601'
@@ -5183,17 +5887,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -5235,7 +5929,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122740'
   planning_center_event_time_id: '31870601'
@@ -5318,17 +6044,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -5370,7 +6086,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122741'
   planning_center_event_time_id: '31870601'
@@ -5425,17 +6173,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -5477,7 +6215,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122742'
   planning_center_event_time_id: '31870601'
@@ -5532,17 +6302,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -5584,7 +6344,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122743'
   planning_center_event_time_id: '31870601'
@@ -5639,17 +6431,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -5691,7 +6473,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122744'
   planning_center_event_time_id: '31870601'
@@ -5746,17 +6560,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -5798,7 +6602,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122745'
   planning_center_event_time_id: '31870601'
@@ -5881,17 +6717,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -5933,7 +6759,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122746'
   planning_center_event_time_id: '31870601'
@@ -5988,17 +6846,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -6040,7 +6888,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122747'
   planning_center_event_time_id: '31870601'
@@ -6095,17 +6975,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -6147,7 +7017,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122748'
   planning_center_event_time_id: '31870601'
@@ -6202,17 +7104,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -6254,7 +7146,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122749'
   planning_center_event_time_id: '31870601'
@@ -6337,17 +7261,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -6389,7 +7303,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122750'
   planning_center_event_time_id: '31870601'
@@ -6444,17 +7390,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -6496,7 +7432,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122751'
   planning_center_event_time_id: '31870601'
@@ -6551,17 +7519,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -6603,7 +7561,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122752'
   planning_center_event_time_id: '31870601'
@@ -6658,17 +7648,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -6710,7 +7690,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122753'
   planning_center_event_time_id: '31870601'
@@ -6765,17 +7777,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -6817,7 +7819,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122754'
   planning_center_event_time_id: '31870601'
@@ -6900,17 +7934,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -6952,7 +7976,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122755'
   planning_center_event_time_id: '31870601'
@@ -7007,17 +8063,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -7059,7 +8105,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122756'
   planning_center_event_time_id: '31870601'
@@ -7114,17 +8192,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -7166,7 +8234,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122757'
   planning_center_event_time_id: '31870601'
@@ -7221,17 +8321,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -7273,7 +8363,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122758'
   planning_center_event_time_id: '31870601'
@@ -7356,17 +8478,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -7408,7 +8520,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122759'
   planning_center_event_time_id: '31870601'
@@ -7463,17 +8607,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 9, 2026
-
-    Sloppy Joes
-
-    Tater Tots
-
-    Salad Bar
-
-    Pudding Cups & Cookies
-
-    September 16, 2026
+  details: 'September 16, 2026
 
     Fried Chicken
 
@@ -7515,7 +8649,39 @@ events:
 
     Salad Bar
 
-    Brownies'
+    Ice Cream Bars
+
+    October 14, 2026
+
+    Meatball Subs
+
+    Chips
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    October 21, 2026
+
+    Chicken & Noodles
+
+    Mashed Potatoes
+
+    Green Beans
+
+    Rolls
+
+    Salad Bar
+
+    Hot Fudge Brownies
+
+    October 28, 2026
+
+    Lasagna
+
+    Salad Bar
+
+    Ice Cream Bars'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122760'
   planning_center_event_time_id: '31870601'
