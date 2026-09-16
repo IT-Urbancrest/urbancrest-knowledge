@@ -609,6 +609,8 @@ def event_search_response(event: dict[str, Any], rules: list[dict[str, Any]], no
         start_date = str(rule.get("event_start_date") or "")
         if start_date and not str(event.get("start") or "").startswith(start_date):
             continue
+        if rule.get("overview_article_id"):
+            result["overview_article_id"] = str(rule["overview_article_id"])
         ticket_open_at = str(rule.get("ticket_sales_open_at") or "")
         before_ticket_sales = False
         if ticket_open_at:
@@ -727,6 +729,7 @@ def event_records() -> list[dict[str, Any]]:
                 ministries=as_list(event.get("ministries")),
                 audiences=as_list(event.get("audiences")),
                 event_id=event_id,
+                overview_article_id=event.get("overview_article_id"),
                 activity_aliases=activity_aliases,
                 event_category=event.get("event_category"),
                 event_start=event.get("start"),
