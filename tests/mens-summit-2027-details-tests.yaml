@@ -1,0 +1,41 @@
+version: '1.0'
+suite: mens_summit_2027_details
+last_updated: '2026-09-16'
+purpose: Preserve year-specific Men's Summit details separately from the evergreen overview.
+
+tests:
+- name: 2027 schedule details are available
+  query: What time do doors open for Men's Summit 2027?
+  expected:
+    required_record_id: events.mens_summit_2027
+    answer_must_include:
+    - '4:00 PM'
+    - '6:30 AM'
+    - 'January 22'
+    - 'January 23'
+
+- name: 2027 simulcast pricing is available
+  query: How much is the Men's Summit 2027 simulcast?
+  expected:
+    required_record_id: events.mens_summit_2027
+    answer_must_include:
+    - '$10'
+    - '$50'
+    - '30 days'
+
+- name: 2027 meal details are available
+  query: What meals are included at Men's Summit 2027?
+  expected:
+    required_record_id: events.mens_summit_2027
+    answer_must_include:
+    - '$35'
+    - 'Friday dinner'
+    - 'Saturday breakfast'
+
+- name: 2027 ticket policy is available
+  query: Are Men's Summit 2027 tickets refundable?
+  expected:
+    required_record_id: events.mens_summit_2027
+    answer_must_include:
+    - 'non-refundable'
+    - 'transferred'
