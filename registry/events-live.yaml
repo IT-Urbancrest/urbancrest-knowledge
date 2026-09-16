@@ -1,11 +1,11 @@
 version: 1.5.4
-generated_at: '2026-09-16T11:36:49.449726Z'
+generated_at: '2026-09-16T16:57:48.890348Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
   enabled: true
-  target_instance_count: 367
-  matched_instance_count: 367
+  target_instance_count: 368
+  matched_instance_count: 368
   page_count: 9
   api_version: '2026-06-22'
 source_of_truth_for_calendar_intents: true
@@ -2055,33 +2055,6 @@ events:
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-08-p-u-r-s-u-e-4c1a4d.md
-- id: event-37b1feeb225cd74e
-  uid: ET-9127131-171522666@resources.planningcenteronline.com
-  title: 'Sunday Morning Services: 9:30 AM Service'
-  summary: Join us in person or online!...
-  start: '2026-11-08T09:30:00-05:00'
-  end: '2026-11-08T10:40:00-05:00'
-  sort_start_utc: '2026-11-08T14:30:00Z'
-  sort_end_utc: '2026-11-08T15:40:00Z'
-  display_when: Sunday, November 8, 2026, 9:30 AM to 10:40 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
-    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
-  planning_center_event_instance_id: '171522666'
-  planning_center_event_time_id: '9127131'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 45
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-11-08-sunday-morning-services-9-30-am-service-5cd74e.md
 - id: event-4040df5714af1c1c
   uid: ET-31870601-230122716@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -2159,7 +2132,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 46
+  chronological_rank: 45
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-11-wednesday-night-dinner-af1c1c.md
@@ -2199,7 +2172,7 @@ events:
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 47
+  chronological_rank: 46
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-13-youth-fall-retreat-99f87a.md
@@ -2264,7 +2237,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 48
+  chronological_rank: 47
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-15-p-u-r-s-u-e-b86e1d.md
@@ -2345,7 +2318,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 49
+  chronological_rank: 48
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-18-wednesday-night-dinner-cf53fb.md
@@ -2371,7 +2344,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 50
+  chronological_rank: 49
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-22-p-u-r-s-u-e-c3d97b.md
@@ -2452,7 +2425,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 51
+  chronological_rank: 50
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-25-wednesday-night-dinner-77d08c.md
@@ -2478,7 +2451,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 52
+  chronological_rank: 51
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-29-p-u-r-s-u-e-80f80e.md
@@ -2559,7 +2532,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 53
+  chronological_rank: 52
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-02-wednesday-night-dinner-809fdf.md
@@ -2587,7 +2560,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 54
+  chronological_rank: 53
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-05-men-s-breakfast-549ccc.md
@@ -2613,7 +2586,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 55
+  chronological_rank: 54
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-06-p-u-r-s-u-e-e5b958.md
@@ -2641,7 +2614,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 56
+  chronological_rank: 55
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-06-women-s-christmas-event-d6795d.md
@@ -2722,7 +2695,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 57
+  chronological_rank: 56
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-09-wednesday-night-dinner-6f6ed6.md
@@ -2748,7 +2721,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 58
+  chronological_rank: 57
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-13-p-u-r-s-u-e-e9bfa2.md
@@ -2829,7 +2802,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 59
+  chronological_rank: 58
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-16-wednesday-night-dinner-d35842.md
@@ -2855,7 +2828,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 60
+  chronological_rank: 59
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-20-p-u-r-s-u-e-0fd347.md
@@ -2936,7 +2909,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 61
+  chronological_rank: 60
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-23-wednesday-night-dinner-8995f6.md
@@ -2962,7 +2935,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 62
+  chronological_rank: 61
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-27-p-u-r-s-u-e-440985.md
@@ -3043,7 +3016,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 63
+  chronological_rank: 62
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-30-wednesday-night-dinner-85ac1d.md
@@ -3071,7 +3044,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 64
+  chronological_rank: 63
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-02-men-s-breakfast-3d2c83.md
@@ -3097,7 +3070,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 65
+  chronological_rank: 64
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-03-p-u-r-s-u-e-b9a311.md
@@ -3178,7 +3151,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 66
+  chronological_rank: 65
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-06-wednesday-night-dinner-cd86db.md
@@ -3204,7 +3177,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 67
+  chronological_rank: 66
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-10-p-u-r-s-u-e-573975.md
@@ -3285,7 +3258,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 68
+  chronological_rank: 67
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-13-wednesday-night-dinner-ed64ec.md
@@ -3371,7 +3344,7 @@ events:
   event_source: planning_center_registrations_api
   event_sources:
   - planning_center_registrations_api
-  chronological_rank: 69
+  chronological_rank: 68
 - id: event-8029c470e3849556
   uid: ET-8762150-177521375@resources.planningcenteronline.com
   title: P U R S U E
@@ -3394,7 +3367,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 70
+  chronological_rank: 69
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-17-p-u-r-s-u-e-849556.md
@@ -3475,10 +3448,106 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 71
+  chronological_rank: 70
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-20-wednesday-night-dinner-c3c878.md
+- id: event-62fe0d7a16d35740
+  uid: ET-32892074-236793247@resources.planningcenteronline.com
+  title: Men's Summit
+  summary: Men’s Summit 2027 Where God Sharpens Man Join us January 22–23 at Urbancrest Church for two days of biblical teaching,
+    worship, and encouragement. Hear from Dean Fulks, Ken Bevel, Ted Traylor, Sean McDowell, and Brent Snook , with worship
+    led by Charles Billingsley alongside...
+  start: '2027-01-22T17:00:00-05:00'
+  end: '2027-01-23T11:00:00-05:00'
+  sort_start_utc: '2027-01-22T22:00:00Z'
+  sort_end_utc: '2027-01-23T16:00:00Z'
+  display_when: Friday, January 22, 2027 at 5 PM through Saturday, January 23, 2027 at 11 AM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: '*****************
+
+    Men’s Summit 2027
+
+    *****************
+
+
+    Where God Sharpens Man
+
+
+    Join us January 22–23 at Urbancrest Church for two days of biblical teaching, worship, and encouragement.
+
+
+    Hear from Dean Fulks, Ken Bevel, Ted Traylor, Sean McDowell, and Brent Snook, with worship led by Charles Billingsley
+    alongside the Urbancrest Worship team.
+
+
+    In-person tickets are $35, including Friday dinner and Saturday breakfast. Simulcast options are also available. Ticket
+    sales begin October 1.
+
+
+    Click here to explore the schedule, speakers, and ticket options on the Men’s Summit page ( https://urbancrest.church/events/mens-summit
+    )
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/3894841'
+  details: "Men’s Summit 2027 Where God Sharpens Man \n\nJoin us January 22–23 at Urbancrest Church for two days of biblical\
+    \ teaching, worship, and encouragement.\n\nHear from Dean Fulks, Ken Bevel, Ted Traylor, Sean McDowell, and Brent Snook\
+    \ , with worship led by Charles Billingsley alongside the Urbancrest Worship team .\n\nIn-person tickets are $35 , including\
+    \ Friday dinner and Saturday breakfast. Simulcast options are also available. Ticket sales begin October 1 .\n\nClick\
+    \ here to explore the schedule, speakers, and ticket options on the Men’s Summit page\n\nRegistration is open."
+  details_source: planning_center_registrations_api
+  planning_center_event_instance_id: '236793247'
+  planning_center_event_time_id: '32892074'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3894841/reservations/new
+  info_url: https://urbancrest.church/events/mens-summit
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1789617600&key=uploads%2Fevent%2Flogo%2F3894841%2Fimage-1789567912819.jpeg&thumb=720x405%23&version=1789574259&signature=d7621b4c7bacd08be0f88f9d9bf59d91edcae06ec555dff400e0f62dd59ae3b1
+  ministries:
+  - men
+  - worship
+  audiences:
+  - men
+  - all
+  event_category: major_event
+  event_priority: 100
+  collection: main_events
+  status: confirmed
+  chronological_rank: 71
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-01-22-men-s-summit-d35740.md
+  event_sources:
+  - planning_center_ical
+  - planning_center_calendar_api
+  - planning_center_registrations_api
+  event_source: merged
+  planning_center_signup_id: '3894841'
+  planning_center_signup_time_id: '6559323'
+  registration_available: true
+  registration_open: true
+  registration_closed: false
+  registration_at_maximum_capacity: null
+  registration_open_at: '2026-09-16T13:43:30Z'
+  registration_close_at: null
+  registration_maximum_capacity: null
+  registration_categories:
+  - Men
+  - Special Events
+  registration_options:
+  - id: '8902082'
+    name: Standard
+    price_cents: 0
+    price_currency: USD
+    price_currency_symbol: $
+    price_formatted: '0'
+    at_maximum_capacity: false
+    waitlist: false
+  location_structured:
+    name: Urbancrest Church
+    address: '2634 Drake Road
+
+      Lebanon, OH 45036'
+    latitude: '39.4747445'
+    longitude: '-84.1792958'
 - id: event-3d7f9c7b59696271
   uid: ET-8762150-178227937@resources.planningcenteronline.com
   title: P U R S U E
@@ -7467,23 +7536,23 @@ registrations_api:
   status: ok
   api_version: '2025-05-01'
   signup_time_strategy: next_signup_time_then_signup_times_preserve_relationship_linkage
-  future_signup_count: 9
+  future_signup_count: 10
   added_registration_only_events: 1
-  enriched_existing_events: 8
+  enriched_existing_events: 9
   category_allowlist: []
   category_denylist: []
-  signup_count_received: 14
+  signup_count_received: 15
   relationship_linkage_counts:
-    next_signup_time_relationship_present: 14
-    next_signup_time_with_linkage: 9
-    signup_times_relationship_present: 14
-    signup_times_with_linkage: 13
-    signup_location_relationship_present: 14
-    signup_location_with_linkage: 13
-    categories_relationship_present: 14
-    categories_with_linkage: 12
-    selection_types_relationship_present: 14
-    selection_types_with_linkage: 14
+    next_signup_time_relationship_present: 15
+    next_signup_time_with_linkage: 10
+    signup_times_relationship_present: 15
+    signup_times_with_linkage: 14
+    signup_location_relationship_present: 15
+    signup_location_with_linkage: 14
+    categories_relationship_present: 15
+    categories_with_linkage: 13
+    selection_types_relationship_present: 15
+    selection_types_with_linkage: 15
   skipped_signup_count: 5
   skipped_reasons:
     no_current_or_future_signup_time_within_lookahead: 5

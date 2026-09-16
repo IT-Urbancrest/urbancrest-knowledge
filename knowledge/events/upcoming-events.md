@@ -16,7 +16,7 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-09-16T11:36:49.449726Z
+last_generated: 2026-09-16T16:57:48.890348Z
 ---
 
 # Upcoming Events
@@ -470,16 +470,6 @@ Detailed event file: `knowledge/events/generated/2026-11-07-men-s-breakfast-b349
 
 Detailed event file: `knowledge/events/generated/2026-11-08-p-u-r-s-u-e-4c1a4d.md`
 
-## Sunday Morning Services: 9:30 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, November 8, 2026, 9:30 AM to 10:40 AM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-11-08-sunday-morning-services-9-30-am-service-5cd74e.md`
-
 ## Wednesday Night Dinner
 
 **Category:** Churchwide Program
@@ -743,6 +733,18 @@ Detailed event file: `knowledge/events/generated/2027-01-17-p-u-r-s-u-e-849556.m
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2027-01-20-wednesday-night-dinner-c3c878.md`
+
+## Men's Summit
+
+**Category:** Major Event
+
+**When:** Friday, January 22, 2027 at 5 PM through Saturday, January 23, 2027 at 11 AM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3894841/reservations/new
+
+Detailed event file: `knowledge/events/generated/2027-01-22-men-s-summit-d35740.md`
 
 ## P U R S U E
 
