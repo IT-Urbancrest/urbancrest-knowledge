@@ -16,18 +16,12 @@ tags: [small_groups, groups, calendar, recurring]
 resources:
   - small_groups.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-09-16T21:19:38.360166Z
+last_generated: 2026-09-17T04:54:51.686799Z
 ---
 
 # Upcoming Small Groups
 
 Each recurring Small Group appears once with its next meeting and future schedule.
-
-## P U R S U E
-
-**Next meeting:** Wednesday, September 16, 2026, 6:30 PM to 8:30 PM
-
-Detailed group file: `knowledge/small-groups/generated/p-u-r-s-u-e-567dcc.md`
 
 ## Connie Hollan Small Group: Ladies Bible Study
 
@@ -42,3 +36,9 @@ Detailed group file: `knowledge/small-groups/generated/connie-hollan-small-group
 **Next meeting:** Monday, September 21, 2026, 7 PM to 8:30 PM
 
 Detailed group file: `knowledge/small-groups/generated/steve-gregory-small-group-steve-gregory-c4a23b.md`
+
+## P U R S U E
+
+**Next meeting:** Wednesday, September 23, 2026, 6:30 PM to 8:30 PM
+
+Detailed group file: `knowledge/small-groups/generated/p-u-r-s-u-e-567dcc.md`
