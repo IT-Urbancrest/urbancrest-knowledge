@@ -42,7 +42,7 @@ all_day: true
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "229161073"
 planning_center_event_time_id: "31703048"
-last_generated: 2026-09-18T23:19:03.789843Z
+last_generated: 2026-09-19T04:39:20.218708Z
 ---
 
 # Missions Conference
