@@ -35,7 +35,7 @@ event_start: "2026-10-25T17:00:00-04:00"
 event_end: "2026-10-25T19:30:00-04:00"
 sort_start_utc: "2026-10-25T21:00:00Z"
 sort_end_utc: "2026-10-25T23:30:00Z"
-chronological_rank: 34
+chronological_rank: 32
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
@@ -45,7 +45,7 @@ location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "236678223"
 planning_center_event_time_id: "32871096"
-last_generated: 2026-09-20T11:26:14.989196Z
+last_generated: 2026-09-20T16:08:01.956075Z
 ---
 
 # Trail of Treats

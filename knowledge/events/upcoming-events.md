@@ -16,33 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-09-20T11:26:15.656203Z
+last_generated: 2026-09-20T16:08:03.219459Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## P U R S U E
-
-**Category:** Ministry Event
-
-**When:** Sunday, September 20, 2026, 9:30 AM to 10:30 AM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-09-20-p-u-r-s-u-e-f8f18d.md`
-
-## Sunday Morning Services: 9:30 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, September 20, 2026, 9:30 AM to 10:40 AM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-09-20-sunday-morning-services-9-30-am-service-25697d.md`
 
 ## Sunday Morning Services: 11:00 AM Service
 
@@ -461,6 +441,26 @@ Detailed event file: `knowledge/events/generated/2026-11-07-men-s-breakfast-b349
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-11-08-p-u-r-s-u-e-4c1a4d.md`
+
+## Sunday Morning Services: 9:30 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, November 8, 2026, 9:30 AM to 10:40 AM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2026-11-08-sunday-morning-services-9-30-am-service-5cd74e.md`
+
+## Sunday Morning Services: 11:00 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, November 8, 2026, 11 AM to 12:10 PM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2026-11-08-sunday-morning-services-11-00-am-service-7c486d.md`
 
 ## Wednesday Night Dinner
 
