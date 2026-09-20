@@ -45,7 +45,7 @@ image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=reg
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "233964133"
 planning_center_event_time_id: "32456802"
-last_generated: 2026-09-19T23:07:41.468951Z
+last_generated: 2026-09-20T04:55:24.589910Z
 ---
 
 # Men's Cornhole & BBQ
