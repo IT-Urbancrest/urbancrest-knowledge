@@ -42,7 +42,7 @@ all_day: false
 image_url: "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3732292/medium_image-1782929258210.jpeg"
 planning_center_event_instance_id: "227518757"
 planning_center_event_time_id: "31447186"
-last_generated: 2026-09-20T20:50:16.898077Z
+last_generated: 2026-09-20T23:15:29.757899Z
 ---
 
 # Waynesville Fall Fest
