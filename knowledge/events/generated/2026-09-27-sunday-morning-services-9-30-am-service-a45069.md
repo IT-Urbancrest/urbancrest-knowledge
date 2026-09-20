@@ -35,14 +35,14 @@ event_start: "2026-09-27T09:30:00-04:00"
 event_end: "2026-09-27T10:40:00-04:00"
 sort_start_utc: "2026-09-27T13:30:00Z"
 sort_end_utc: "2026-09-27T14:40:00Z"
-chronological_rank: 5
+chronological_rank: 4
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "168372883"
 planning_center_event_time_id: "9127131"
-last_generated: 2026-09-20T16:08:01.956075Z
+last_generated: 2026-09-20T20:50:16.898077Z
 ---
 
 # Sunday Morning Services: 9:30 AM Service

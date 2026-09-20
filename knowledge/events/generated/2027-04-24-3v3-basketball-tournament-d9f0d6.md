@@ -43,7 +43,7 @@ image_url: "https://registrations-production.s3.amazonaws.com/uploads/event/logo
 location: "Lebanon High School - 1916 Drake Rd\nLebanon, OH 45036"
 planning_center_event_instance_id: "229172206"
 planning_center_event_time_id: "31705455"
-last_generated: 2026-09-20T16:08:01.956075Z
+last_generated: 2026-09-20T20:50:16.898077Z
 ---
 
 # 3V3 Basketball Tournament
