@@ -65,7 +65,7 @@ scripture:
 - Romans 6:16
 - 1 Timothy 6:17-19
 resources:
-- https://notes.subsplash.com/fill-in/view?page=rzF1R-WbU
+- https://urbancrest.church/follow-along/trivial-pursuits-chasing-what-doesn-t-last
 - action_link.messages
 next_steps:
 - action_link.messages
@@ -77,7 +77,7 @@ speaker: Geoff Prows
 speaker_key: geoff_prows
 primary_scripture: Matthew 6:19-24
 primary_scripture_translation: NASB 1995
-notes_url: https://notes.subsplash.com/fill-in/view?page=rzF1R-WbU
+notes_url: https://urbancrest.church/follow-along/trivial-pursuits-chasing-what-doesn-t-last
 title_source: fill_in_notes
 outline_source: fill_in_notes
 primary_scripture_source: fill_in_notes
@@ -144,7 +144,7 @@ Prows closed by asking who or what is the true master of each person's life. He 
 
 ## Fill-In Notes
 
-[Open the fill-in notes for this message](https://notes.subsplash.com/fill-in/view?page=rzF1R-WbU)
+[Open the fill-in notes for this message](https://urbancrest.church/follow-along/trivial-pursuits-chasing-what-doesn-t-last)
 
 ## Topics
 
