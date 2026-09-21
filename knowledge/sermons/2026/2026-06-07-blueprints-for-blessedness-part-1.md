@@ -58,7 +58,7 @@ scripture:
 - Psalm 63:1
 - Proverbs 27:20
 resources:
-- https://notes.subsplash.com/fill-in/view?page=S1AKeCTxMe
+- https://urbancrest.church/follow-along/a-blueprint-for-god-s-blessing
 - action_link.messages
 next_steps:
 - action_link.messages
@@ -70,7 +70,7 @@ speaker: Geoff Prows
 speaker_key: geoff_prows
 primary_scripture: Matthew 5:1-6
 primary_scripture_translation: NASB 1995
-notes_url: https://notes.subsplash.com/fill-in/view?page=S1AKeCTxMe
+notes_url: https://urbancrest.church/follow-along/a-blueprint-for-god-s-blessing
 title_source: fill_in_notes
 outline_source: fill_in_notes
 primary_scripture_source: fill_in_notes
@@ -135,7 +135,7 @@ Those who hunger and thirst for righteousness develop a growing appetite for God
 
 ## Fill-In Notes
 
-[Open the fill-in notes for this message](https://notes.subsplash.com/fill-in/view?page=S1AKeCTxMe)
+[Open the fill-in notes for this message](https://urbancrest.church/follow-along/a-blueprint-for-god-s-blessing)
 
 ## Topics
 
