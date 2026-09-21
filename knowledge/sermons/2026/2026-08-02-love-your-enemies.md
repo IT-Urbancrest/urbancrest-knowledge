@@ -51,7 +51,7 @@ scripture:
 - 1 John 3:2
 - Romans 5:8-10
 resources:
-- https://notes.subsplash.com/fill-in/view?page=Syw90ydSMl
+- https://urbancrest.church/follow-along/what-to-do-with-people-who-do-not-love-you-back
 - action_link.messages
 next_steps:
 - action_link.messages
@@ -63,7 +63,7 @@ speaker: Geoff Prows
 speaker_key: geoff_prows
 primary_scripture: Matthew 5:43-48
 primary_scripture_translation: NASB 1995
-notes_url: https://notes.subsplash.com/fill-in/view?page=Syw90ydSMl
+notes_url: https://urbancrest.church/follow-along/what-to-do-with-people-who-do-not-love-you-back
 title_source: fill_in_notes
 outline_source: fill_in_notes
 primary_scripture_source: fill_in_notes
@@ -120,7 +120,7 @@ Kingdom love goes beyond natural reciprocity and responds differently than the w
 
 ## Fill-In Notes
 
-[Open the fill-in notes for this message](https://notes.subsplash.com/fill-in/view?page=Syw90ydSMl)
+[Open the fill-in notes for this message](https://urbancrest.church/follow-along/what-to-do-with-people-who-do-not-love-you-back)
 
 ## Topics
 
