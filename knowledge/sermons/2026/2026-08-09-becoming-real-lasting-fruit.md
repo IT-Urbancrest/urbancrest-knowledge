@@ -66,7 +66,7 @@ scripture:
 - Acts 5:1-11
 - John 3:16
 resources:
-- https://notes.subsplash.com/fill-in/view?page=HkhqpRSUMl
+- https://urbancrest.church/follow-along/becoming-real-lasting-fruit
 - action_link.messages
 next_steps:
 - action_link.messages
@@ -78,7 +78,7 @@ speaker: Jerry Shannon
 speaker_role: Director, A Child's Hope International
 primary_scripture: Matthew 6:1-8
 primary_scripture_translation: ESV
-notes_url: https://notes.subsplash.com/fill-in/view?page=HkhqpRSUMl
+notes_url: https://urbancrest.church/follow-along/becoming-real-lasting-fruit
 title_source: user_supplied
 outline_source: sermon_transcript
 primary_scripture_source: sermon_transcript
@@ -166,7 +166,7 @@ Jerry Shannon serves as Director of **A Child's Hope International**, an organiz
 
 ## Fill-In Notes
 
-[Open the fill-in notes for this message](https://notes.subsplash.com/fill-in/view?page=HkhqpRSUMl)
+[Open the fill-in notes for this message](https://urbancrest.church/follow-along/becoming-real-lasting-fruit)
 
 ## Topics
 
