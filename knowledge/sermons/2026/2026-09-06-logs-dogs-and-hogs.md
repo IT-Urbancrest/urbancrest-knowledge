@@ -67,7 +67,7 @@ scripture:
 - Matthew 10:14
 - Acts 18:5-6
 resources:
-- https://notes.subsplash.com/fill-in/view?page=KE2bS_nrTC
+- https://urbancrest.church/follow-along/logs-dogs-and-hogs
 - action_link.messages
 next_steps:
 - action_link.messages
@@ -79,7 +79,7 @@ speaker: Geoff Prows
 speaker_key: geoff_prows
 primary_scripture: Matthew 7:1-6, 15-16
 primary_scripture_translation: NASB 1995
-notes_url: https://notes.subsplash.com/fill-in/view?page=KE2bS_nrTC
+notes_url: https://urbancrest.church/follow-along/logs-dogs-and-hogs
 title_source: fill_in_notes
 outline_source: fill_in_notes
 primary_scripture_source: fill_in_notes
@@ -164,7 +164,7 @@ True faith abandons self-righteousness because every person has sinned and falle
 
 ## Fill-In Notes
 
-[Open the fill-in notes for this message](https://notes.subsplash.com/fill-in/view?page=KE2bS_nrTC)
+[Open the fill-in notes for this message](https://urbancrest.church/follow-along/logs-dogs-and-hogs)
 
 ## Topics
 
