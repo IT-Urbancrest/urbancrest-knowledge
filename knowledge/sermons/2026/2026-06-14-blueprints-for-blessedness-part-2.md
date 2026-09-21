@@ -52,7 +52,7 @@ scripture:
 - 2 Timothy 3:12
 - 1 Peter 4:14
 resources:
-- https://notes.subsplash.com/fill-in/view?page=Sy9J6qd-fe
+- https://urbancrest.church/follow-along/god-s-blueprint-for-your-blessing
 - action_link.messages
 next_steps:
 - action_link.messages
@@ -64,7 +64,7 @@ speaker: Geoff Prows
 speaker_key: geoff_prows
 primary_scripture: Matthew 5:7-12
 primary_scripture_translation: NASB 1995
-notes_url: https://notes.subsplash.com/fill-in/view?page=Sy9J6qd-fe
+notes_url: https://urbancrest.church/follow-along/god-s-blueprint-for-your-blessing
 title_source: fill_in_notes
 outline_source: fill_in_notes
 primary_scripture_source: fill_in_notes
@@ -125,7 +125,7 @@ Followers of Jesus can remain faithful and rejoice when they suffer for righteou
 
 ## Fill-In Notes
 
-[Open the fill-in notes for this message](https://notes.subsplash.com/fill-in/view?page=Sy9J6qd-fe)
+[Open the fill-in notes for this message](https://urbancrest.church/follow-along/god-s-blueprint-for-your-blessing)
 
 ## Topics
 
