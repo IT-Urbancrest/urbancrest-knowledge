@@ -65,7 +65,7 @@ scripture:
 - James 4:8
 - James 5:16
 resources:
-- https://notes.subsplash.com/fill-in/view?page=zrIdj3cJTq
+- https://urbancrest.church/follow-along/a-great-promise-and-a-golden-rule
 - action_link.messages
 next_steps:
 - action_link.messages
@@ -77,7 +77,7 @@ speaker: Geoff Prows
 speaker_key: geoff_prows
 primary_scripture: Matthew 7:7-12
 primary_scripture_translation: NASB 1995
-notes_url: https://notes.subsplash.com/fill-in/view?page=zrIdj3cJTq
+notes_url: https://urbancrest.church/follow-along/a-great-promise-and-a-golden-rule
 title_source: fill_in_notes
 outline_source: fill_in_notes
 primary_scripture_source: fill_in_notes
@@ -148,7 +148,7 @@ God's grace is greater than every sin and failure. Through Jesus, those who turn
 
 ## Fill-In Notes
 
-[Open the fill-in notes for this message](https://notes.subsplash.com/fill-in/view?page=zrIdj3cJTq)
+[Open the fill-in notes for this message](https://urbancrest.church/follow-along/a-great-promise-and-a-golden-rule)
 
 ## Topics
 
