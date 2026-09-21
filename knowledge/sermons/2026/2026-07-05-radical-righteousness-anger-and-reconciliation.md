@@ -51,7 +51,7 @@ scripture:
 - Matthew 5:25
 - John 13:35
 resources:
-- https://notes.subsplash.com/fill-in/view?page=SkDYzcZQzx
+- https://urbancrest.church/follow-along/radical-righteousness-and-kingdom-relationships
 - action_link.messages
 next_steps:
 - action_link.messages
@@ -63,7 +63,7 @@ speaker: Geoff Prows
 speaker_key: geoff_prows
 primary_scripture: Matthew 5:21-26
 primary_scripture_translation: NASB 1995
-notes_url: https://notes.subsplash.com/fill-in/view?page=SkDYzcZQzx
+notes_url: https://urbancrest.church/follow-along/radical-righteousness-and-kingdom-relationships
 title_source: fill_in_notes
 outline_source: fill_in_notes
 primary_scripture_source: fill_in_notes
@@ -119,7 +119,7 @@ Believers should act quickly and do what depends on them to seek peace and right
 
 ## Fill-In Notes
 
-[Open the fill-in notes for this message](https://notes.subsplash.com/fill-in/view?page=SkDYzcZQzx)
+[Open the fill-in notes for this message](https://urbancrest.church/follow-along/radical-righteousness-and-kingdom-relationships)
 
 ## Topics
 
