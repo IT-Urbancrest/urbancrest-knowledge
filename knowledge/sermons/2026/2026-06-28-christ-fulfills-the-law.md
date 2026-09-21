@@ -45,7 +45,7 @@ scripture:
 - Matthew 5:17-20
 - Romans 10:4
 resources:
-- https://notes.subsplash.com/fill-in/view?page=HJPoeoKzMl
+- https://urbancrest.church/follow-along/christ-fulfills-the-law
 - action_link.messages
 next_steps:
 - action_link.messages
@@ -57,7 +57,7 @@ speaker: David Bickers
 speaker_key: david_bickers
 primary_scripture: Matthew 5:17-20
 primary_scripture_translation: NKJV
-notes_url: https://notes.subsplash.com/fill-in/view?page=HJPoeoKzMl
+notes_url: https://urbancrest.church/follow-along/christ-fulfills-the-law
 title_source: fill_in_notes
 outline_source: fill_in_notes
 primary_scripture_source: fill_in_notes
@@ -112,7 +112,7 @@ Human goodness cannot meet God’s perfect standard; Christ provides the righteo
 
 ## Fill-In Notes
 
-[Open the fill-in notes for this message](https://notes.subsplash.com/fill-in/view?page=HJPoeoKzMl)
+[Open the fill-in notes for this message](https://urbancrest.church/follow-along/christ-fulfills-the-law)
 
 ## Topics
 
