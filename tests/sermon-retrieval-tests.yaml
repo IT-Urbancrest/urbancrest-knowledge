@@ -125,37 +125,37 @@ cases:
 
   - query: Do you have fill-in notes for the August 2 message?
     expected_record: sermons.2026_08_02
-    expected_url: https://notes.subsplash.com/fill-in/view?page=Syw90ydSMl
+    expected_url: https://urbancrest.church/follow-along/what-to-do-with-people-who-do-not-love-you-back
     answer_must_include_exact_url: true
 
   - query: Do you have fill-in notes for the August 9 message?
     expected_record: sermons.2026_08_09
-    expected_url: https://notes.subsplash.com/fill-in/view?page=HkhqpRSUMl
+    expected_url: https://urbancrest.church/follow-along/becoming-real-lasting-fruit
     answer_must_include_exact_url: true
 
   - query: Do you have fill-in notes for the August 16 message?
     expected_record: sermons.2026_08_16
-    expected_url: https://notes.subsplash.com/fill-in/view?page=r1xcizywGe
+    expected_url: https://urbancrest.church/follow-along/the-lord-s-prayer
     answer_must_include_exact_url: true
 
   - query: Do you have fill-in notes for the August 23 message?
     expected_record: sermons.2026_08_23
-    expected_url: https://notes.subsplash.com/fill-in/view?page=rzF1R-WbU
+    expected_url: https://urbancrest.church/follow-along/trivial-pursuits-chasing-what-doesn-t-last
     answer_must_include_exact_url: true
 
   - query: Do you have fill-in notes for the August 30 message?
     expected_record: sermons.2026_08_30
-    expected_url: https://notes.subsplash.com/fill-in/view?page=6R5jZvvvAM
+    expected_url: https://urbancrest.church/follow-along/a-word-for-worriers
     answer_must_include_exact_url: true
 
   - query: Do you have fill-in notes for the September 6 message?
     expected_record: sermons.2026_09_06
-    expected_url: https://notes.subsplash.com/fill-in/view?page=KE2bS_nrTC
+    expected_url: https://urbancrest.church/follow-along/logs-dogs-and-hogs
     answer_must_include_exact_url: true
 
   - query: Do you have fill-in notes for the September 13 message?
     expected_record: sermons.2026_09_13
-    expected_url: https://notes.subsplash.com/fill-in/view?page=zrIdj3cJTq
+    expected_url: https://urbancrest.church/follow-along/a-great-promise-and-a-golden-rule
     answer_must_include_exact_url: true
 
   - query: What did Geoff say about waiting on God?
