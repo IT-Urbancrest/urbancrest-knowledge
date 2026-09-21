@@ -53,7 +53,7 @@ scripture:
 - Romans 12:20-21
 - Titus 3:5-7
 resources:
-- https://notes.subsplash.com/fill-in/view?page=BkuIyRkHze
+- https://urbancrest.church/follow-along/truthfulness-and-revenge
 - action_link.messages
 next_steps:
 - action_link.messages
@@ -65,7 +65,7 @@ speaker: Geoff Prows
 speaker_key: geoff_prows
 primary_scripture: Matthew 5:33-42
 primary_scripture_translation: NASB 1995
-notes_url: https://notes.subsplash.com/fill-in/view?page=BkuIyRkHze
+notes_url: https://urbancrest.church/follow-along/truthfulness-and-revenge
 title_source: fill_in_notes
 outline_source: fill_in_notes
 primary_scripture_source: fill_in_notes
@@ -118,7 +118,7 @@ Jesus rejects personal revenge and calls His followers to respond to insult, los
 
 ## Fill-In Notes
 
-[Open the fill-in notes for this message](https://notes.subsplash.com/fill-in/view?page=BkuIyRkHze)
+[Open the fill-in notes for this message](https://urbancrest.church/follow-along/truthfulness-and-revenge)
 
 ## Topics
 
