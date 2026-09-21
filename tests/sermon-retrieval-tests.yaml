@@ -1,4 +1,4 @@
-version: 1.8
+version: 1.9
 purpose: Regression coverage for structured sermon and sermon-series retrieval using fill-in notes as the canonical structural source.
 
 cases:
@@ -111,12 +111,31 @@ cases:
     expected_record: sermons.2026_09_13
     expected_topic: persistent and confident prayer
 
+  - query: What did Geoff Prows preach on September 20?
+    expected_record: sermons.2026_09_20
+    expected_title: Consequential Choices
+    expected_speaker: Geoff Prows
+    expected_scripture: Matthew 7:13-23
+    expected_staff_key: geoff_prows
+
+  - query: What did the September 20 sermon say about the narrow road?
+    expected_record: sermons.2026_09_20
+    expected_topic: broad and narrow roads
+
+  - query: What did Geoff say about false teachers?
+    expected_record: sermons.2026_09_20
+    expected_topic: false teachers and their fruit
+
+  - query: What did Geoff say about saying Lord Lord?
+    expected_record: sermons.2026_09_20
+    expected_topic: genuine faith and obedience
+
   - query: What is the current sermon series?
     expected_record: sermons.series.summer_on_the_mount_2026
 
   - query: Which sermons have been in Summer on the Mount?
     expected_record: sermons.series.summer_on_the_mount_2026
-    expected_member_count: 14
+    expected_member_count: 15
     answer_must_list_all_members: true
     expected_image_url: https://cdn.subsplash.com/images/VRR5NM/_source/3259fdd8-2fcf-4d63-9fd7-fa81b3796edb/image.jpg
 
@@ -156,6 +175,11 @@ cases:
   - query: Do you have fill-in notes for the September 13 message?
     expected_record: sermons.2026_09_13
     expected_url: https://urbancrest.church/follow-along/a-great-promise-and-a-golden-rule
+    answer_must_include_exact_url: true
+
+  - query: Do you have fill-in notes for the September 20 message?
+    expected_record: sermons.2026_09_20
+    expected_url: https://urbancrest.church/follow-along/consequential-choices
     answer_must_include_exact_url: true
 
   - query: What did Geoff say about waiting on God?
