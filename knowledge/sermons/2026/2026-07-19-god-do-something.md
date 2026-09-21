@@ -48,7 +48,7 @@ scripture:
 - Psalm 106:13
 - Joshua 23:14
 resources:
-- https://notes.subsplash.com/fill-in/view?page=rkgz7rSEfe
+- https://urbancrest.church/follow-along/god-is-up-to-something
 - action_link.messages
 next_steps:
 - action_link.messages
@@ -59,7 +59,7 @@ speaker: Geoff Prows
 speaker_key: geoff_prows
 primary_scripture: Habakkuk 2:1-4
 primary_scripture_translation: NASB 1995
-notes_url: https://notes.subsplash.com/fill-in/view?page=rkgz7rSEfe
+notes_url: https://urbancrest.church/follow-along/god-is-up-to-something
 title_source: fill_in_notes
 outline_source: fill_in_notes
 primary_scripture_source: fill_in_notes
@@ -113,7 +113,7 @@ The message challenged Urbancrest to respond in faith to where God is leading an
 
 ## Fill-In Notes
 
-[Open the fill-in notes for this message](https://notes.subsplash.com/fill-in/view?page=rkgz7rSEfe)
+[Open the fill-in notes for this message](https://urbancrest.church/follow-along/god-is-up-to-something)
 
 ## Topics
 
