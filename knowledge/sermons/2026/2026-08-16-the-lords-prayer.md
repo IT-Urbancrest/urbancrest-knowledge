@@ -60,7 +60,7 @@ scripture:
 - Colossians 2:14
 - James 1:13
 resources:
-- https://notes.subsplash.com/fill-in/view?page=r1xcizywGe
+- https://urbancrest.church/follow-along/the-lord-s-prayer
 - action_link.messages
 next_steps:
 - action_link.messages
@@ -72,7 +72,7 @@ speaker: Tucker Howard
 speaker_key: tucker_howard
 primary_scripture: Matthew 6:9-15
 primary_scripture_translation: CSB
-notes_url: https://notes.subsplash.com/fill-in/view?page=r1xcizywGe
+notes_url: https://urbancrest.church/follow-along/the-lord-s-prayer
 title_source: fill_in_notes
 outline_source: fill_in_notes
 primary_scripture_source: fill_in_notes
@@ -157,7 +157,7 @@ Believers are called to forgive because they have been forgiven. Howard urged li
 
 ## Fill-In Notes
 
-[Open the fill-in notes for this message](https://notes.subsplash.com/fill-in/view?page=r1xcizywGe)
+[Open the fill-in notes for this message](https://urbancrest.church/follow-along/the-lord-s-prayer)
 
 ## Topics
 
