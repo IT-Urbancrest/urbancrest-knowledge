@@ -1,6 +1,6 @@
 ---
 id: sermons.series.summer_on_the_mount_2026
-version: 1.2
+version: 1.3
 status: published
 priority: 92
 title: "Summer on the Mount: Kingdom Living for the Here and Now"
@@ -47,7 +47,7 @@ resources:
 next_steps:
   - action_link.messages
 related: []
-last_updated: '2026-08-05'
+last_updated: '2026-09-21'
 series_id: summer_on_the_mount_2026
 series_status: active
 start_date: '2026-06-07'
