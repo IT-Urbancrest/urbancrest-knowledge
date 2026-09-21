@@ -54,7 +54,7 @@ scripture:
 - James 1:15
 - 2 Timothy 2:22
 resources:
-- https://notes.subsplash.com/fill-in/view?page=S1T3kXaQGx
+- https://urbancrest.church/follow-along/radical-purity
 - action_link.messages
 next_steps:
 - action_link.messages
@@ -66,7 +66,7 @@ speaker: Geoff Prows
 speaker_key: geoff_prows
 primary_scripture: Matthew 5:27-30
 primary_scripture_translation: NASB 1995
-notes_url: https://notes.subsplash.com/fill-in/view?page=S1T3kXaQGx
+notes_url: https://urbancrest.church/follow-along/radical-purity
 title_source: fill_in_notes
 outline_source: fill_in_notes
 primary_scripture_source: fill_in_notes
@@ -129,7 +129,7 @@ Purity requires decisive action to flee temptation rather than make provision fo
 
 ## Fill-In Notes
 
-[Open the fill-in notes for this message](https://notes.subsplash.com/fill-in/view?page=S1T3kXaQGx)
+[Open the fill-in notes for this message](https://urbancrest.church/follow-along/radical-purity)
 
 ## Topics
 
