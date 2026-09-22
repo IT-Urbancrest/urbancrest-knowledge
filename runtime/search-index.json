@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-09-22T00:08:02.350179Z",
+  "generated_at": "2026-09-22T04:58:41.152538Z",
   "timezone": "America/New_York",
   "record_count": 469,
   "config": {
@@ -90,7 +90,7 @@
   },
   "freshness": {
     "calendar": {
-      "generated_at": "2026-09-22T00:08:01.358193Z",
+      "generated_at": "2026-09-22T04:58:39.702528Z",
       "max_age_hours": 48,
       "source_path": "registry/events-live.yaml",
       "heartbeat_field": "generated_at",
@@ -98,7 +98,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-09-22T00:08:00.395171Z",
+      "generated_at": "2026-09-22T04:58:38.548309Z",
       "max_age_hours": 48,
       "source_path": "registry/small-groups-live.yaml",
       "heartbeat_field": "generated_at",
@@ -26002,7 +26002,7 @@
       "path": "knowledge/small-groups/generated/connie-hollan-small-group-ladies-bible-study-95a0af.md",
       "title": "Connie Hollan Small Group: Ladies Bible Study",
       "summary": "Connie Hollan",
-      "content": "Connie Hollan\n\nDetails:\nLadies Bible Study led by Connie Hollan\n\nUpcoming meetings:\nMonday, September 21, 2026, 7 PM to 8:30 PM\nMonday, September 28, 2026, 7 PM to 8:30 PM\nMonday, October 5, 2026, 7 PM to 8:30 PM\nMonday, October 12, 2026, 7 PM to 8:30 PM\nMonday, October 19, 2026, 7 PM to 8:30 PM\nMonday, October 26, 2026, 7 PM to 8:30 PM\nMonday, November 2, 2026, 7 PM to 8:30 PM\nMonday, November 9, 2026, 7 PM to 8:30 PM\nMonday, November 16, 2026, 7 PM to 8:30 PM\nMonday, November 23, 2026, 7 PM to 8:30 PM\nMonday, November 30, 2026, 7 PM to 8:30 PM\nMonday, December 7, 2026, 7 PM to 8:30 PM",
+      "content": "Connie Hollan\n\nDetails:\nLadies Bible Study led by Connie Hollan\n\nUpcoming meetings:\nMonday, September 28, 2026, 7 PM to 8:30 PM\nMonday, October 5, 2026, 7 PM to 8:30 PM\nMonday, October 12, 2026, 7 PM to 8:30 PM\nMonday, October 19, 2026, 7 PM to 8:30 PM\nMonday, October 26, 2026, 7 PM to 8:30 PM\nMonday, November 2, 2026, 7 PM to 8:30 PM\nMonday, November 9, 2026, 7 PM to 8:30 PM\nMonday, November 16, 2026, 7 PM to 8:30 PM\nMonday, November 23, 2026, 7 PM to 8:30 PM\nMonday, November 30, 2026, 7 PM to 8:30 PM\nMonday, December 7, 2026, 7 PM to 8:30 PM\nMonday, December 14, 2026, 7 PM to 8:30 PM",
       "priority": 20,
       "category": [
         "small_groups"
@@ -26033,22 +26033,14 @@
       "resources": [],
       "group_id": "group-02cae8d54895a0af",
       "next_meeting": {
-        "start": "2026-09-21T19:00:00-04:00",
-        "end": "2026-09-21T20:30:00-04:00",
-        "sort_start_utc": "2026-09-21T23:00:00Z",
-        "sort_end_utc": "2026-09-22T00:30:00Z",
-        "display_when": "Monday, September 21, 2026, 7 PM to 8:30 PM",
+        "start": "2026-09-28T19:00:00-04:00",
+        "end": "2026-09-28T20:30:00-04:00",
+        "sort_start_utc": "2026-09-28T23:00:00Z",
+        "sort_end_utc": "2026-09-29T00:30:00Z",
+        "display_when": "Monday, September 28, 2026, 7 PM to 8:30 PM",
         "all_day": false
       },
       "future_meetings": [
-        {
-          "start": "2026-09-21T19:00:00-04:00",
-          "end": "2026-09-21T20:30:00-04:00",
-          "sort_start_utc": "2026-09-21T23:00:00Z",
-          "sort_end_utc": "2026-09-22T00:30:00Z",
-          "display_when": "Monday, September 21, 2026, 7 PM to 8:30 PM",
-          "all_day": false
-        },
         {
           "start": "2026-09-28T19:00:00-04:00",
           "end": "2026-09-28T20:30:00-04:00",
@@ -26136,14 +26128,22 @@
           "sort_end_utc": "2026-12-08T01:30:00Z",
           "display_when": "Monday, December 7, 2026, 7 PM to 8:30 PM",
           "all_day": false
+        },
+        {
+          "start": "2026-12-14T19:00:00-05:00",
+          "end": "2026-12-14T20:30:00-05:00",
+          "sort_start_utc": "2026-12-15T00:00:00Z",
+          "sort_end_utc": "2026-12-15T01:30:00Z",
+          "display_when": "Monday, December 14, 2026, 7 PM to 8:30 PM",
+          "all_day": false
         }
       ],
-      "sort_start_utc": "2026-09-21T23:00:00Z",
-      "sort_end_utc": "2026-09-22T00:30:00Z",
+      "sort_start_utc": "2026-09-28T23:00:00Z",
+      "sort_end_utc": "2026-09-29T00:30:00Z",
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
       "details": "Ladies Bible Study led by Connie Hollan",
       "details_source": "planning_center_calendar_api",
-      "planning_center_event_instance_id": "167802281",
+      "planning_center_event_instance_id": "168413666",
       "planning_center_event_time_id": "31398539",
       "knowledge_file": "knowledge/small-groups/generated/connie-hollan-small-group-ladies-bible-study-95a0af.md"
     },
@@ -26302,8 +26302,8 @@
       "record_type": "small_group",
       "path": "knowledge/small-groups/generated/steve-gregory-small-group-steve-gregory-c4a23b.md",
       "title": "Steve Gregory Small Group: Steve Gregory",
-      "summary": "Steve Gregory Small Group: Steve Gregory is scheduled for Monday, September 21, 2026, 7 PM to 8:30 PM.",
-      "content": "Upcoming meetings:\nMonday, September 21, 2026, 7 PM to 8:30 PM\nMonday, September 28, 2026, 7 PM to 8:30 PM\nMonday, October 5, 2026, 7 PM to 8:30 PM\nMonday, October 12, 2026, 7 PM to 8:30 PM\nMonday, October 19, 2026, 7 PM to 8:30 PM\nMonday, October 26, 2026, 7 PM to 8:30 PM\nMonday, November 2, 2026, 7 PM to 8:30 PM\nMonday, November 9, 2026, 7 PM to 8:30 PM\nMonday, November 16, 2026, 7 PM to 8:30 PM\nMonday, November 23, 2026, 7 PM to 8:30 PM\nMonday, November 30, 2026, 7 PM to 8:30 PM\nMonday, December 7, 2026, 7 PM to 8:30 PM",
+      "summary": "Steve Gregory Small Group: Steve Gregory is scheduled for Monday, September 28, 2026, 7 PM to 8:30 PM.",
+      "content": "Upcoming meetings:\nMonday, September 28, 2026, 7 PM to 8:30 PM\nMonday, October 5, 2026, 7 PM to 8:30 PM\nMonday, October 12, 2026, 7 PM to 8:30 PM\nMonday, October 19, 2026, 7 PM to 8:30 PM\nMonday, October 26, 2026, 7 PM to 8:30 PM\nMonday, November 2, 2026, 7 PM to 8:30 PM\nMonday, November 9, 2026, 7 PM to 8:30 PM\nMonday, November 16, 2026, 7 PM to 8:30 PM\nMonday, November 23, 2026, 7 PM to 8:30 PM\nMonday, November 30, 2026, 7 PM to 8:30 PM\nMonday, December 7, 2026, 7 PM to 8:30 PM\nMonday, December 14, 2026, 7 PM to 8:30 PM",
       "priority": 20,
       "category": [
         "small_groups"
@@ -26334,22 +26334,14 @@
       "resources": [],
       "group_id": "group-f356eaa371c4a23b",
       "next_meeting": {
-        "start": "2026-09-21T19:00:00-04:00",
-        "end": "2026-09-21T20:30:00-04:00",
-        "sort_start_utc": "2026-09-21T23:00:00Z",
-        "sort_end_utc": "2026-09-22T00:30:00Z",
-        "display_when": "Monday, September 21, 2026, 7 PM to 8:30 PM",
+        "start": "2026-09-28T19:00:00-04:00",
+        "end": "2026-09-28T20:30:00-04:00",
+        "sort_start_utc": "2026-09-28T23:00:00Z",
+        "sort_end_utc": "2026-09-29T00:30:00Z",
+        "display_when": "Monday, September 28, 2026, 7 PM to 8:30 PM",
         "all_day": false
       },
       "future_meetings": [
-        {
-          "start": "2026-09-21T19:00:00-04:00",
-          "end": "2026-09-21T20:30:00-04:00",
-          "sort_start_utc": "2026-09-21T23:00:00Z",
-          "sort_end_utc": "2026-09-22T00:30:00Z",
-          "display_when": "Monday, September 21, 2026, 7 PM to 8:30 PM",
-          "all_day": false
-        },
         {
           "start": "2026-09-28T19:00:00-04:00",
           "end": "2026-09-28T20:30:00-04:00",
@@ -26437,11 +26429,19 @@
           "sort_end_utc": "2026-12-08T01:30:00Z",
           "display_when": "Monday, December 7, 2026, 7 PM to 8:30 PM",
           "all_day": false
+        },
+        {
+          "start": "2026-12-14T19:00:00-05:00",
+          "end": "2026-12-14T20:30:00-05:00",
+          "sort_start_utc": "2026-12-15T00:00:00Z",
+          "sort_end_utc": "2026-12-15T01:30:00Z",
+          "display_when": "Monday, December 14, 2026, 7 PM to 8:30 PM",
+          "all_day": false
         }
       ],
-      "sort_start_utc": "2026-09-21T23:00:00Z",
-      "sort_end_utc": "2026-09-22T00:30:00Z",
-      "planning_center_event_instance_id": "167802282",
+      "sort_start_utc": "2026-09-28T23:00:00Z",
+      "sort_end_utc": "2026-09-29T00:30:00Z",
+      "planning_center_event_instance_id": "168413669",
       "planning_center_event_time_id": "28363570",
       "knowledge_file": "knowledge/small-groups/generated/steve-gregory-small-group-steve-gregory-c4a23b.md"
     }

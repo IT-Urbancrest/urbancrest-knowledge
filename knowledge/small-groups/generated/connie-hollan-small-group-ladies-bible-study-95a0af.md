@@ -20,23 +20,23 @@ search_terms:
   - "Tell me about Connie Hollan Small Group: Ladies Bible Study"
   - "What are the details for Connie Hollan Small Group: Ladies Bible Study?"
 series_id: group-02cae8d54895a0af
-next_meeting_start: "2026-09-21T19:00:00-04:00"
-next_meeting_end: "2026-09-21T20:30:00-04:00"
-sort_start_utc: "2026-09-21T23:00:00Z"
-sort_end_utc: "2026-09-22T00:30:00Z"
-meeting_count_in_window: 53
+next_meeting_start: "2026-09-28T19:00:00-04:00"
+next_meeting_end: "2026-09-28T20:30:00-04:00"
+sort_start_utc: "2026-09-28T23:00:00Z"
+sort_end_utc: "2026-09-29T00:30:00Z"
+meeting_count_in_window: 52
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
-planning_center_event_instance_id: "167802281"
+planning_center_event_instance_id: "168413666"
 planning_center_event_time_id: "31398539"
-last_generated: 2026-09-22T00:08:00.395171Z
+last_generated: 2026-09-22T04:58:38.548309Z
 ---
 
 # Connie Hollan Small Group: Ladies Bible Study
 
 Connie Hollan
 
-**Next meeting:** Monday, September 21, 2026, 7 PM to 8:30 PM
+**Next meeting:** Monday, September 28, 2026, 7 PM to 8:30 PM
 
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
@@ -48,7 +48,6 @@ Ladies Bible Study led by Connie Hollan
 
 ## Upcoming meetings
 
-- Monday, September 21, 2026, 7 PM to 8:30 PM
 - Monday, September 28, 2026, 7 PM to 8:30 PM
 - Monday, October 5, 2026, 7 PM to 8:30 PM
 - Monday, October 12, 2026, 7 PM to 8:30 PM
@@ -60,5 +59,6 @@ Ladies Bible Study led by Connie Hollan
 - Monday, November 23, 2026, 7 PM to 8:30 PM
 - Monday, November 30, 2026, 7 PM to 8:30 PM
 - Monday, December 7, 2026, 7 PM to 8:30 PM
+- Monday, December 14, 2026, 7 PM to 8:30 PM
 
 This small group schedule is synchronized automatically from Urbancrest's live calendar.
