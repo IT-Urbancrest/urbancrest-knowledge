@@ -42,7 +42,7 @@ all_day: false
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "203958056"
 planning_center_event_time_id: "27323022"
-last_generated: 2026-09-23T04:46:42.571577Z
+last_generated: 2026-09-23T11:39:04.517017Z
 ---
 
 # Women's Fall Fest
