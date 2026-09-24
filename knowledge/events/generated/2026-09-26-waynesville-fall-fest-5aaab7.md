@@ -35,14 +35,14 @@ event_start: "2026-09-26T14:30:00-04:00"
 event_end: "2026-09-26T18:00:00-04:00"
 sort_start_utc: "2026-09-26T18:30:00Z"
 sort_end_utc: "2026-09-26T22:00:00Z"
-chronological_rank: 2
+chronological_rank: 1
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
 image_url: "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3732292/medium_image-1782929258210.jpeg"
 planning_center_event_instance_id: "227518757"
 planning_center_event_time_id: "31447186"
-last_generated: 2026-09-23T21:31:05.273815Z
+last_generated: 2026-09-24T04:53:18.104817Z
 ---
 
 # Waynesville Fall Fest
