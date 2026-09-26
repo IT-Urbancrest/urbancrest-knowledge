@@ -35,7 +35,7 @@ event_start: "2026-10-04T18:00:00-04:00"
 event_end: "2026-10-04T19:30:00-04:00"
 sort_start_utc: "2026-10-04T22:00:00Z"
 sort_end_utc: "2026-10-04T23:30:00Z"
-chronological_rank: 13
+chronological_rank: 12
 next_for_ministries: ["worship"]
 next_for_audiences: ["families"]
 all_day: false
@@ -45,7 +45,7 @@ location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "228745978"
 planning_center_event_time_id: "31639046"
-last_generated: 2026-09-26T21:11:36.857556Z
+last_generated: 2026-09-26T23:38:13.263432Z
 ---
 
 # Night of Worship Choir
