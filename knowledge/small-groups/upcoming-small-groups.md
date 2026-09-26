@@ -16,7 +16,7 @@ tags: [small_groups, groups, calendar, recurring]
 resources:
   - small_groups.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-09-26T04:59:41.854314Z
+last_generated: 2026-09-26T11:26:48.328465Z
 ---
 
 # Upcoming Small Groups
