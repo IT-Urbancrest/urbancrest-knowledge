@@ -27,7 +27,7 @@ sort_end_utc: "2026-09-29T00:30:00Z"
 meeting_count_in_window: 52
 planning_center_event_instance_id: "168413669"
 planning_center_event_time_id: "28363570"
-last_generated: 2026-09-26T16:24:52.156832Z
+last_generated: 2026-09-26T21:11:36.857556Z
 ---
 
 # Steve Gregory Small Group: Steve Gregory
