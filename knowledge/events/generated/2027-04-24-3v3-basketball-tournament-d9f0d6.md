@@ -35,7 +35,7 @@ event_start: "2027-04-24T12:00:00-04:00"
 event_end: "2027-04-24T19:00:00-04:00"
 sort_start_utc: "2027-04-24T16:00:00Z"
 sort_end_utc: "2027-04-24T23:00:00Z"
-chronological_rank: 101
+chronological_rank: 100
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
@@ -43,7 +43,7 @@ image_url: "https://registrations-production.s3.amazonaws.com/uploads/event/logo
 location: "Lebanon High School - 1916 Drake Rd\nLebanon, OH 45036"
 planning_center_event_instance_id: "229172206"
 planning_center_event_time_id: "31705455"
-last_generated: 2026-09-26T11:26:48.328465Z
+last_generated: 2026-09-26T16:24:52.156832Z
 ---
 
 # 3V3 Basketball Tournament
