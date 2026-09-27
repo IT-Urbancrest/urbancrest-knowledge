@@ -37,6 +37,9 @@ search_terms:
 - Can outside agencies reserve the pavilion?
 - Does the pavilion have restrooms?
 - Does the pavilion have a fireplace?
+- Can we drink alcohol on the property?
+- Is alcohol allowed on church grounds?
+- Can I bring alcohol to Urbancrest?
 - Is alcohol allowed at the pavilion?
 resources: []
 next_steps: []

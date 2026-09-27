@@ -36,6 +36,9 @@ search_terms:
 - Do you allow catch and release fishing?
 - Can I fish on Sundays?
 - Can I fish during church services?
+- Can we drink alcohol on the property?
+- Is alcohol allowed on church grounds?
+- Can I bring alcohol to Urbancrest?
 - Is alcohol allowed at the pond?
 resources: []
 next_steps: []

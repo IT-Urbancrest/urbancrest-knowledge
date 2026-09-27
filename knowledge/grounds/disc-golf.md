@@ -39,6 +39,9 @@ search_terms:
 - Do you have Frisbee golf?
 - Can I play Frisbee golf?
 - How many holes are on the disc golf course?
+- Can we drink alcohol on the property?
+- Is alcohol allowed on church grounds?
+- Can I bring alcohol to Urbancrest?
 - Is alcohol allowed on the disc golf course?
 resources: []
 next_steps: []
