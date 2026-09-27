@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-09-27T11:18:34.946630Z",
+  "generated_at": "2026-09-27T11:24:27.710800Z",
   "timezone": "America/New_York",
   "record_count": 472,
   "config": {
@@ -10136,6 +10136,9 @@
         "Do you have Frisbee golf?",
         "Can I play Frisbee golf?",
         "How many holes are on the disc golf course?",
+        "Can we drink alcohol on the property?",
+        "Is alcohol allowed on church grounds?",
+        "Can I bring alcohol to Urbancrest?",
         "Is alcohol allowed on the disc golf course?"
       ],
       "ministries": [],
@@ -10298,6 +10301,9 @@
         "Can outside agencies reserve the pavilion?",
         "Does the pavilion have restrooms?",
         "Does the pavilion have a fireplace?",
+        "Can we drink alcohol on the property?",
+        "Is alcohol allowed on church grounds?",
+        "Can I bring alcohol to Urbancrest?",
         "Is alcohol allowed at the pavilion?"
       ],
       "ministries": [],
@@ -10340,6 +10346,9 @@
         "Do you allow catch and release fishing?",
         "Can I fish on Sundays?",
         "Can I fish during church services?",
+        "Can we drink alcohol on the property?",
+        "Is alcohol allowed on church grounds?",
+        "Can I bring alcohol to Urbancrest?",
         "Is alcohol allowed at the pond?"
       ],
       "ministries": [],
