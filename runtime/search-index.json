@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-09-27T05:20:13.845154Z",
+  "generated_at": "2026-09-27T11:18:34.946630Z",
   "timezone": "America/New_York",
-  "record_count": 469,
+  "record_count": 472,
   "config": {
     "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step. For directions requests, include both approved map links.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership Transition\n\nUrbancrest is currently searching for its next Global Missions Pastor.\n\nFor broad or global missions leadership questions:\n\n1. State that Urbancrest is currently searching for its next Global Missions Pastor.\n2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.\n3. Return `jennifer_prows` when one staff card is appropriate.\n4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nState the times found in those authoritative records directly. Do not hardcode service times in runtime application logic or prompt instructions.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
     "style_guide": "# Style Guide\n\n## Writing\n\n- Use short paragraphs.\n- Prefer plain language.\n- Avoid church jargon unless it is explained.\n- Do not use em dashes.\n- Do not use the word meaningful as a filler.\n- Use Small Groups, never Grow Groups.\n- Refer to Urbancrest Church as Urbancrest after the first use.\n- Use believer's baptism by immersion when describing baptism.\n\n## Theology\n\n- Scripture is the final authority.\n- The Baptist Faith and Message 2000 is a helpful doctrinal summary, not equal to Scripture.\n- Salvation is by grace alone through faith alone in Jesus Christ alone.\n- Baptism follows salvation and does not save.\n",
@@ -10103,6 +10103,51 @@
       "authoritative": true
     },
     {
+      "id": "grounds.disc_golf",
+      "record_type": "knowledge",
+      "path": "knowledge/grounds/disc-golf.md",
+      "title": "Disc Golf",
+      "summary": "Urbancrest has a nine-hole disc golf course, also called Frisbee golf, open to the public on a first-come, first-served basis.",
+      "content": "# Disc Golf\n\nUrbancrest has a nine-hole disc golf course, also called Frisbee golf. It is open to the public on a first-come, first-served basis.\n\nAlcohol is not permitted anywhere on Urbancrest's property, including on the disc golf course.",
+      "priority": 90,
+      "category": [
+        "grounds",
+        "recreation"
+      ],
+      "intents": [
+        "grounds_use",
+        "activity_availability"
+      ],
+      "tags": [
+        "disc golf",
+        "frisbee golf",
+        "frisbee-golf",
+        "nine-hole course",
+        "9-hole course",
+        "public recreation",
+        "alcohol policy"
+      ],
+      "search_terms": [
+        "Does Urbancrest have disc golf?",
+        "Do you have a disc golf course?",
+        "Can I play disc golf at Urbancrest?",
+        "Is the disc golf course open to the public?",
+        "Is disc golf first come first served?",
+        "Do you have Frisbee golf?",
+        "Can I play Frisbee golf?",
+        "How many holes are on the disc golf course?",
+        "Is alcohol allowed on the disc golf course?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone",
+        "community"
+      ],
+      "resources": [],
+      "status": "published",
+      "confidence": "high"
+    },
+    {
       "id": "ministries.worship.auditions",
       "record_type": "knowledge",
       "path": "knowledge/ministries/worship/faq/do-i-have-to-audition.md",
@@ -10216,6 +10261,91 @@
         "visitor",
         "attendee",
         "member"
+      ],
+      "resources": [],
+      "status": "published",
+      "confidence": "high"
+    },
+    {
+      "id": "grounds.pavilion",
+      "record_type": "knowledge",
+      "path": "knowledge/grounds/pavilion.md",
+      "title": "Pavilion",
+      "summary": "Urbancrest's pavilion can be reserved on a limited basis by church members and, at Urbancrest's discretion, outside agencies. It has men's and women's restrooms and a fireplace.",
+      "content": "# Pavilion\n\nUrbancrest's pavilion is available to reserve on a limited basis. Church members may request a reservation. Outside agencies may also request use of the pavilion, subject to Urbancrest's discretion and availability.\n\nThe pavilion has men's and women's restrooms and a fireplace. Contact the church office to ask about availability and reservation details.\n\nAlcohol is not permitted anywhere on Urbancrest's property, including at the pavilion.",
+      "priority": 90,
+      "category": [
+        "grounds",
+        "facilities"
+      ],
+      "intents": [
+        "grounds_use",
+        "activity_availability"
+      ],
+      "tags": [
+        "pavilion",
+        "pavilion reservation",
+        "outdoor space",
+        "restrooms",
+        "fireplace",
+        "alcohol policy"
+      ],
+      "search_terms": [
+        "Can I reserve the pavilion?",
+        "How do I reserve the pavilion?",
+        "Is the pavilion available to rent?",
+        "Can church members use the pavilion?",
+        "Can outside agencies reserve the pavilion?",
+        "Does the pavilion have restrooms?",
+        "Does the pavilion have a fireplace?",
+        "Is alcohol allowed at the pavilion?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone",
+        "community"
+      ],
+      "resources": [],
+      "status": "published",
+      "confidence": "high"
+    },
+    {
+      "id": "grounds.pond",
+      "record_type": "knowledge",
+      "path": "knowledge/grounds/pond.md",
+      "title": "Pond",
+      "summary": "Urbancrest's pond is open to the public for catch-and-release fishing. Please do not fish during church services on Sundays. Alcohol is not permitted on the property.",
+      "content": "# Pond\n\nUrbancrest's pond is open to the public for catch-and-release fishing. We ask that you do not fish during church services on Sundays.\n\nAlcohol is not permitted anywhere on Urbancrest's property, including around the pond.",
+      "priority": 90,
+      "category": [
+        "grounds",
+        "recreation"
+      ],
+      "intents": [
+        "grounds_use",
+        "activity_availability"
+      ],
+      "tags": [
+        "pond",
+        "fishing",
+        "catch and release",
+        "public fishing",
+        "alcohol policy"
+      ],
+      "search_terms": [
+        "Can I fish at Urbancrest?",
+        "Can I fish in the pond?",
+        "Is the pond open to the public?",
+        "Is fishing catch and release?",
+        "Do you allow catch and release fishing?",
+        "Can I fish on Sundays?",
+        "Can I fish during church services?",
+        "Is alcohol allowed at the pond?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone",
+        "community"
       ],
       "resources": [],
       "status": "published",
