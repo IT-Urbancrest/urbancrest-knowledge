@@ -1,4 +1,4 @@
-version: 1.9
+version: 1.10
 purpose: Regression coverage for structured sermon and sermon-series retrieval using fill-in notes as the canonical structural source.
 
 cases:
@@ -130,12 +130,23 @@ cases:
     expected_record: sermons.2026_09_20
     expected_topic: genuine faith and obedience
 
-  - query: What is the current sermon series?
+  - query: What was the Summer on the Mount sermon series?
     expected_record: sermons.series.summer_on_the_mount_2026
+
+  - query: What did Geoff Prows preach on September 27?
+    expected_record: sermons.2026_09_27
+    expected_title: Foundations Matter
+    expected_speaker: Geoff Prows
+    expected_scripture: Matthew 7:24-29
+    expected_staff_key: geoff_prows
+
+  - query: What was the last Summer on the Mount sermon?
+    expected_record: sermons.2026_09_27
+    expected_topic: wise and foolish builders
 
   - query: Which sermons have been in Summer on the Mount?
     expected_record: sermons.series.summer_on_the_mount_2026
-    expected_member_count: 15
+    expected_member_count: 16
     answer_must_list_all_members: true
     expected_image_url: https://cdn.subsplash.com/images/VRR5NM/_source/3259fdd8-2fcf-4d63-9fd7-fa81b3796edb/image.jpg
 
@@ -180,6 +191,11 @@ cases:
   - query: Do you have fill-in notes for the September 20 message?
     expected_record: sermons.2026_09_20
     expected_url: https://urbancrest.church/follow-along/consequential-choices
+    answer_must_include_exact_url: true
+
+  - query: Do you have notes for the September 27 message?
+    expected_record: sermons.2026_09_27
+    expected_url: https://urbancrest.church/follow-along/foundations-matter
     answer_must_include_exact_url: true
 
   - query: What did Geoff say about waiting on God?
