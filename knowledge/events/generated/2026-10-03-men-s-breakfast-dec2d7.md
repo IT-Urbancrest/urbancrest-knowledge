@@ -35,15 +35,15 @@ event_start: "2026-10-03T08:00:00-04:00"
 event_end: "2026-10-03T10:00:00-04:00"
 sort_start_utc: "2026-10-03T12:00:00Z"
 sort_end_utc: "2026-10-03T14:00:00Z"
-chronological_rank: 4
-next_for_ministries: []
-next_for_audiences: []
+chronological_rank: 2
+next_for_ministries: ["men"]
+next_for_audiences: ["men"]
 all_day: false
 image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=058d17f1b81369bc1275502f9bfab7c3324ca5b970a6a39720a87348da9b781e"
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "168792298"
 planning_center_event_time_id: "30270334"
-last_generated: 2026-09-27T21:21:46.106772Z
+last_generated: 2026-09-28T05:25:54.591366Z
 ---
 
 # Men's Breakfast

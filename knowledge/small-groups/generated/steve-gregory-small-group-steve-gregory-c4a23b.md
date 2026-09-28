@@ -24,10 +24,10 @@ next_meeting_start: "2026-09-28T19:00:00-04:00"
 next_meeting_end: "2026-09-28T20:30:00-04:00"
 sort_start_utc: "2026-09-28T23:00:00Z"
 sort_end_utc: "2026-09-29T00:30:00Z"
-meeting_count_in_window: 52
+meeting_count_in_window: 53
 planning_center_event_instance_id: "168413669"
 planning_center_event_time_id: "28363570"
-last_generated: 2026-09-27T21:21:46.106772Z
+last_generated: 2026-09-28T05:25:54.591366Z
 ---
 
 # Steve Gregory Small Group: Steve Gregory
