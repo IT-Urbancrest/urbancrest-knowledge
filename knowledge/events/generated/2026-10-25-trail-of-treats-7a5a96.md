@@ -40,12 +40,12 @@ next_for_ministries: []
 next_for_audiences: []
 all_day: false
 registration_url: "https://urbancrest.churchcenter.com/registrations/events/3892183"
-image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1789574400&key=uploads%2Fevent%2Flogo%2F3892183%2Fimage-1789492969330.jpeg&thumb=720x405%23&version=1789493211&signature=0d4f7702179a20a5ae851e77f2c8e1410a1dd52d39503fe8dd26982857e6cc45"
+image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1790654400&key=uploads%2Fevent%2Flogo%2F3892183%2Fimage-1790611024418.jpeg&thumb=720x405%23&version=1790611024&signature=8602f1f0bb21aec4fa3ec466dd69e883340e3649d8193872aebf86a4e5e5ed34"
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "236678223"
 planning_center_event_time_id: "32871096"
-last_generated: 2026-09-28T13:57:40.242549Z
+last_generated: 2026-09-28T21:14:47.388194Z
 ---
 
 # Trail of Treats
@@ -111,6 +111,6 @@ office@urbancrest.org
 
 **Registration:** https://urbancrest.churchcenter.com/registrations/events/3892183
 
-**Event image:** https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1789574400&key=uploads%2Fevent%2Flogo%2F3892183%2Fimage-1789492969330.jpeg&thumb=720x405%23&version=1789493211&signature=0d4f7702179a20a5ae851e77f2c8e1410a1dd52d39503fe8dd26982857e6cc45
+**Event image:** https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1790654400&key=uploads%2Fevent%2Flogo%2F3892183%2Fimage-1790611024418.jpeg&thumb=720x405%23&version=1790611024&signature=8602f1f0bb21aec4fa3ec466dd69e883340e3649d8193872aebf86a4e5e5ed34
 
 This information is synchronized automatically from Urbancrest's live calendar.

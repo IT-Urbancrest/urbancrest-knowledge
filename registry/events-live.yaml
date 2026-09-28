@@ -1,11 +1,11 @@
 version: 1.5.4
-generated_at: '2026-09-28T13:57:40.981782Z'
+generated_at: '2026-09-28T21:14:48.361945Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
   enabled: true
-  target_instance_count: 370
-  matched_instance_count: 368
+  target_instance_count: 368
+  matched_instance_count: 366
   page_count: 9
   api_version: '2026-06-22'
 source_of_truth_for_calendar_intents: true
@@ -1139,7 +1139,7 @@ events:
   planning_center_event_instance_id: '236678223'
   planning_center_event_time_id: '32871096'
   registration_url: https://urbancrest.churchcenter.com/registrations/events/3892183/reservations/new
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1789574400&key=uploads%2Fevent%2Flogo%2F3892183%2Fimage-1789492969330.jpeg&thumb=720x405%23&version=1789493211&signature=0d4f7702179a20a5ae851e77f2c8e1410a1dd52d39503fe8dd26982857e6cc45
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1790654400&key=uploads%2Fevent%2Flogo%2F3892183%2Fimage-1790611024418.jpeg&thumb=720x405%23&version=1790611024&signature=8602f1f0bb21aec4fa3ec466dd69e883340e3649d8193872aebf86a4e5e5ed34
   ministries:
   - churchwide
   - kids
@@ -1184,7 +1184,7 @@ events:
     price_currency_symbol: $
     price_formatted: '0'
     maximum_capacity: 44
-    available_capacity: 41
+    available_capacity: 40
     at_maximum_capacity: false
     waitlist: false
   - id: '8896323'

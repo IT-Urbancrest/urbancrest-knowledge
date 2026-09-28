@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-09-28T13:57:41.768243Z",
+  "generated_at": "2026-09-28T21:14:49.348169Z",
   "timezone": "America/New_York",
   "record_count": 474,
   "config": {
@@ -90,7 +90,7 @@
   },
   "freshness": {
     "calendar": {
-      "generated_at": "2026-09-28T13:57:40.981782Z",
+      "generated_at": "2026-09-28T21:14:48.361945Z",
       "max_age_hours": 48,
       "source_path": "registry/events-live.yaml",
       "heartbeat_field": "generated_at",
@@ -98,7 +98,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-09-28T13:57:40.242549Z",
+      "generated_at": "2026-09-28T21:14:47.388194Z",
       "max_age_hours": 48,
       "source_path": "registry/small-groups-live.yaml",
       "heartbeat_field": "generated_at",
@@ -19796,7 +19796,7 @@
           "price_currency_symbol": "$",
           "price_formatted": "0",
           "maximum_capacity": 44,
-          "available_capacity": 41,
+          "available_capacity": 40,
           "at_maximum_capacity": false,
           "waitlist": false
         },
@@ -19867,7 +19867,7 @@
         "planning_center_calendar_api",
         "planning_center_registrations_api"
       ],
-      "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1789574400&key=uploads%2Fevent%2Flogo%2F3892183%2Fimage-1789492969330.jpeg&thumb=720x405%23&version=1789493211&signature=0d4f7702179a20a5ae851e77f2c8e1410a1dd52d39503fe8dd26982857e6cc45",
+      "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1790654400&key=uploads%2Fevent%2Flogo%2F3892183%2Fimage-1790611024418.jpeg&thumb=720x405%23&version=1790611024&signature=8602f1f0bb21aec4fa3ec466dd69e883340e3649d8193872aebf86a4e5e5ed34",
       "knowledge_file": "knowledge/events/generated/2026-10-25-trail-of-treats-7a5a96.md",
       "chronological_rank": 24,
       "routine_schedule_occurrence": false,
