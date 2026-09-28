@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-09-28T05:25:56.322537Z",
+  "generated_at": "2026-09-28T12:26:43.420861Z",
   "timezone": "America/New_York",
-  "record_count": 473,
+  "record_count": 474,
   "config": {
     "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step. For directions requests, include both approved map links.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership Transition\n\nUrbancrest is currently searching for its next Global Missions Pastor.\n\nFor broad or global missions leadership questions:\n\n1. State that Urbancrest is currently searching for its next Global Missions Pastor.\n2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.\n3. Return `jennifer_prows` when one staff card is appropriate.\n4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nState the times found in those authoritative records directly. Do not hardcode service times in runtime application logic or prompt instructions.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
     "style_guide": "# Style Guide\n\n## Writing\n\n- Use short paragraphs.\n- Prefer plain language.\n- Avoid church jargon unless it is explained.\n- Do not use em dashes.\n- Do not use the word meaningful as a filler.\n- Use Small Groups, never Grow Groups.\n- Refer to Urbancrest Church as Urbancrest after the first use.\n- Use believer's baptism by immersion when describing baptism.\n\n## Theology\n\n- Scripture is the final authority.\n- The Baptist Faith and Message 2000 is a helpful doctrinal summary, not equal to Scripture.\n- Salvation is by grace alone through faith alone in Jesus Christ alone.\n- Baptism follows salvation and does not save.\n",
@@ -9796,7 +9796,7 @@
       "path": "knowledge/sermons/series/summer-on-the-mount-2026.md",
       "title": "Summer on the Mount: Kingdom Living for the Here and Now",
       "summary": "Urbancrest's Summer 2026 sermon series through Jesus' Sermon on the Mount in Matthew 5-7, focused on living as citizens of God's kingdom here and now.",
-      "content": "# Summer on the Mount: Kingdom Living for the Here and Now\n\n**Summer on the Mount: Kingdom Living for the Here and Now** is Urbancrest's Summer 2026 sermon series through Jesus' Sermon on the Mount in **Matthew 5-7**.\n\nThe series explores what it means for followers of Jesus to live as citizens of God's kingdom in everyday life. It began with the Beatitudes and continues through Jesus' teaching about influence, righteousness, relationships, purity, truthfulness, responding to mistreatment, and other kingdom priorities.\n\nThe July 19, 2026 message from Habakkuk 2:1-4 was a standalone message and is not part of this series.\n\n## Messages in This Series\n\nThe searchable sermon index automatically associates weekly sermon records with this series. Ask about a particular Sunday, topic, Scripture passage, speaker, or message to find the relevant sermon summary.\n\nWeekly sermon titles, primary passages, and outlines come from the published fill-in notes. Summaries and explanatory detail are condensed from the sermon transcript.",
+      "content": "# Summer on the Mount: Kingdom Living for the Here and Now\n\n**Summer on the Mount: Kingdom Living for the Here and Now** is Urbancrest's Summer 2026 sermon series through Jesus' Sermon on the Mount in **Matthew 5-7**.\n\nThe series explored what it means for followers of Jesus to live as citizens of God's kingdom in everyday life. It began with the Beatitudes and covered Jesus' teaching about influence, righteousness, relationships, purity, truthfulness, responding to mistreatment, and other kingdom priorities. The series concluded September 27, 2026, with Jesus' picture of the wise and foolish builders in Matthew 7:24-29.\n\nThe July 19, 2026 message from Habakkuk 2:1-4 was a standalone message and is not part of this series.\n\n## Messages in This Series\n\nThe searchable sermon index automatically associates weekly sermon records with this series. Ask about a particular Sunday, topic, Scripture passage, speaker, or message to find the relevant sermon summary.\n\nWeekly sermon titles, primary passages, and outlines come from the published fill-in notes. Summaries and explanatory detail are condensed from the sermon transcript.",
       "priority": 92,
       "category": [
         "sermon_series"
@@ -9844,8 +9844,9 @@
         "sermon_series"
       ],
       "series_id": "summer_on_the_mount_2026",
-      "series_status": "active",
+      "series_status": "completed",
       "start_date": "2026-06-07",
+      "end_date": "2026-09-27",
       "primary_scripture": "Matthew 5-7",
       "sermons": [
         {
@@ -9937,6 +9938,12 @@
           "title": "Consequential Choices",
           "speaker": "Geoff Prows",
           "primary_scripture": "Matthew 7:13-23"
+        },
+        {
+          "date": "2026-09-27",
+          "title": "Foundations Matter",
+          "speaker": "Geoff Prows",
+          "primary_scripture": "Matthew 7:24-29"
         }
       ]
     },
@@ -12571,6 +12578,94 @@
       "title_source": "fill_in_notes",
       "outline_source": "fill_in_notes",
       "summary_source": "sermon_transcript"
+    },
+    {
+      "id": "sermons.2026_09_27",
+      "record_type": "sermon",
+      "path": "knowledge/sermons/2026/2026-09-27-foundations-matter.md",
+      "title": "Foundations Matter",
+      "summary": "In the final Summer on the Mount message, Geoff Prows taught from Matthew 7:24-29 that both the wise and foolish builders hear Jesus' words, but only the wise builder acts on them. Storms reveal what a life rests upon. Jesus calls listeners to build on Him and His authoritative word through faith that responds in obedience.",
+      "content": "# Foundations Matter\n\n**Speaker:** Geoff Prows  \n**Date:** 2026-09-27  \n**Primary Scripture:** Matthew 7:24-29 (NASB 1995)  \n**Series:** Summer on the Mount: Kingdom Living for the Here and Now\n\n## Message Summary\n\nIn the final message of Summer on the Mount, Geoff Prows turned to Jesus' closing picture in the Sermon on the Mount: two builders, two houses, and two foundations. Both builders hear Jesus' words. The difference is what they do with them. The wise builder hears and acts; the foolish builder hears but does not act.\n\nThe rain, floods, and wind strike both houses. Storms do not create the foundation, but they reveal it. Geoff named money, success, relationships, and even religious activity as things people may rely on for security that cannot bear the weight of a life. A life built on Christ and His word has a lasting foundation, even when faith feels weak and circumstances are hard. Jesus holds His people fast.\n\nJesus' words deserve more than admiration. The crowd was amazed because He taught with His own authority, unlike the scribes who appealed to other teachers. Geoff urged listeners to trust Jesus' authority, receive Him as Lord and Savior, and respond to His teaching with obedience. Obedience is a response to Christ, not a way to earn salvation.\n\n## Main Idea\n\nFoundations matter: hear Jesus' words, trust Him as the solid rock, and put His teaching into practice.\n\n## Message Outline\n\n### I. What Makes a Builder Wise? (Matthew 7:24-27)\n\nThe wise builder **hears** Jesus' words attentively and **heeds** them by acting on them. Geoff connected this to James 1:22-25: listening without doing can leave a person deceived about the condition of their life.\n\nThe foolish builder also hears, but does not act. The houses may look similar until the storm exposes what lies beneath them. The point is not that following Jesus prevents sickness, sorrow, or disappointment. Rather, Jesus gives His people a firm foundation through those trials. Geoff also pointed beyond present hardships to the final judgment: a foundation that rests on anything other than Christ will not stand.\n\nGeoff invited listeners to consider where they seek security. Jobs, money, relationships, status, and religious routine cannot replace trusting Christ. God's commands are good boundaries, and choosing one's own way instead can bring needless pain and regret.\n\n### II. Why Build on Jesus...",
+      "priority": 86,
+      "category": [
+        "sermon"
+      ],
+      "intents": [
+        "sermon",
+        "sermon_content",
+        "messages",
+        "preaching",
+        "sermon_notes"
+      ],
+      "tags": [
+        "Summer on the Mount",
+        "Sermon on the Mount",
+        "Matthew 7",
+        "foundations matter",
+        "wise builder",
+        "foolish builder",
+        "house on the rock",
+        "house on the sand",
+        "hearing and doing",
+        "obedience",
+        "storms of life",
+        "authority of Jesus",
+        "faith in Christ",
+        "sermon"
+      ],
+      "search_terms": [
+        "What was the September 27 sermon about?",
+        "Who preached Foundations Matter?",
+        "What did Geoff Prows preach on September 27?",
+        "What was the last Summer on the Mount sermon?",
+        "What does it mean to build your house on the rock?",
+        "What did Geoff say about the wise and foolish builders?",
+        "What is the difference between hearing and doing Jesus' words?",
+        "What did the sermon say about storms revealing our foundation?",
+        "Why do Jesus' words have authority?",
+        "What does Matthew 7:24-29 mean in the sermon?",
+        "Do you have the notes for Foundations Matter?",
+        "Foundations Matter",
+        "Message Summary",
+        "Main Idea",
+        "Message Outline",
+        "I. What Makes a Builder Wise? (Matthew 7:24-27)",
+        "II. Why Build on Jesus' Words? (Matthew 7:28-29)",
+        "A Call to Respond",
+        "Supporting Scriptures Mentioned in the Message",
+        "Follow-Along Notes",
+        "Topics",
+        "The crowds were amazed at Jesus' teaching.",
+        "He spoke with authority , rather than citing a chain of other teachers as the source of His claims.",
+        "Geoff connected this authority to Jesus' statement in Matthew 28:18 that all authority in heaven and on earth belongs to Him.",
+        "The question for each listener is whose authority governs their life."
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "https://urbancrest.church/follow-along/foundations-matter",
+        "action_link.messages"
+      ],
+      "status": "published",
+      "answer_guidance": "This is a historical summary of Geoff Prows's September 27, 2026 sermon, the final message in Summer on the Mount. Use it for questions about the wise and foolish builders, hearing and doing Jesus' words, storms revealing a foundation, and Jesus' authority. The title and notes URL were supplied by the user; the passage, outline, and message detail were condensed from the sermon transcript. Do not use sermon records as the canonical source for Urbancrest doctrine, policy, current schedules, or current ministry information when a dedicated knowledge article exists.",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "sermon_content"
+      ],
+      "sermon_date": "2026-09-27",
+      "date": "2026-09-27",
+      "speaker": "Geoff Prows",
+      "series_id": "summer_on_the_mount_2026",
+      "series_title": "Summer on the Mount: Kingdom Living for the Here and Now",
+      "primary_scripture": "Matthew 7:24-29",
+      "notes_url": "https://urbancrest.church/follow-along/foundations-matter",
+      "title_source": "user_provided",
+      "outline_source": "sermon_transcript",
+      "summary_source": "sermon_transcript",
+      "supplemental_search_term_count": 14
     },
     {
       "id": "sermons.2026_07_19",
