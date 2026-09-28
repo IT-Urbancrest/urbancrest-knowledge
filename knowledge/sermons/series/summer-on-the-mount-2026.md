@@ -1,6 +1,6 @@
 ---
 id: sermons.series.summer_on_the_mount_2026
-version: 1.3
+version: 1.4
 status: published
 priority: 92
 title: "Summer on the Mount: Kingdom Living for the Here and Now"
@@ -47,9 +47,10 @@ resources:
 next_steps:
   - action_link.messages
 related: []
-last_updated: '2026-09-21'
+last_updated: '2026-09-28'
 series_id: summer_on_the_mount_2026
-series_status: active
+series_status: completed
+end_date: '2026-09-27'
 start_date: '2026-06-07'
 primary_scripture: Matthew 5-7
 authoritative: true
@@ -62,7 +63,7 @@ answer_guidance: This record describes a sermon series and its messages. Use ded
 
 **Summer on the Mount: Kingdom Living for the Here and Now** is Urbancrest's Summer 2026 sermon series through Jesus' Sermon on the Mount in **Matthew 5-7**.
 
-The series explores what it means for followers of Jesus to live as citizens of God's kingdom in everyday life. It began with the Beatitudes and continues through Jesus' teaching about influence, righteousness, relationships, purity, truthfulness, responding to mistreatment, and other kingdom priorities.
+The series explored what it means for followers of Jesus to live as citizens of God's kingdom in everyday life. It began with the Beatitudes and covered Jesus' teaching about influence, righteousness, relationships, purity, truthfulness, responding to mistreatment, and other kingdom priorities. The series concluded September 27, 2026, with Jesus' picture of the wise and foolish builders in Matthew 7:24-29.
 
 The July 19, 2026 message from Habakkuk 2:1-4 was a standalone message and is not part of this series.
 
