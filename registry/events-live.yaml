@@ -1,11 +1,11 @@
 version: 1.5.4
-generated_at: '2026-09-30T12:36:36.394002Z'
+generated_at: '2026-09-30T20:02:52.411505Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
   enabled: true
-  target_instance_count: 366
-  matched_instance_count: 366
+  target_instance_count: 379
+  matched_instance_count: 379
   page_count: 9
   api_version: '2026-06-22'
 source_of_truth_for_calendar_intents: true
@@ -108,6 +108,112 @@ events:
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-09-30-wednesday-night-dinner-36f49b.md
+- id: event-bf84e30d18284c03
+  uid: ET-31487702-238359369@resources.planningcenteronline.com
+  title: Awana 2026-2027
+  summary: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05** Approved Workmen Are Not Ashamed (A.W.A.N.A.) A program focusing on learning the Bible and fun
+    with small age/graded groups. Urbancrest has...'
+  start: '2026-09-30T18:15:00-04:00'
+  end: '2026-09-30T19:30:00-04:00'
+  sort_start_utc: '2026-09-30T22:15:00Z'
+  sort_end_utc: '2026-09-30T23:30:00Z'
+  display_when: Wednesday, September 30, 2026, 6:15 PM to 7:30 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
+
+
+    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm
+
+
+    START ANYTIME throughout the year!
+
+
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/3737699'
+  details: "**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person\
+    \ any Wednesday at 6:05** \n\nApproved Workmen Are Not Ashamed (A.W.A.N.A.)\n\nA program focusing on learning the Bible\
+    \ and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old through 6th grade.\n\nMeets Wednesdays\
+    \ from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm \n\nSTART ANYTIME throughout\
+    \ the year!\n\nDinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.\n\nRegistration\
+    \ is open."
+  details_source: planning_center_registrations_api
+  planning_center_event_instance_id: '238359369'
+  planning_center_event_time_id: '31487702'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3737699/reservations/new
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1790827200&key=uploads%2Fevent%2Flogo%2F3737699%2Fimage-1600369375660.jpeg&thumb=720x405%23&version=1787148556&signature=6d15aefae58f3a6d6341dae202341d6a81ad49d1d6984a7ebf618c3143377f40
+  ministries:
+  - kids
+  - men
+  - volunteer
+  audiences:
+  - children
+  - men
+  - volunteers
+  - all
+  event_category: churchwide_program
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 2
+  next_for_ministries:
+  - kids
+  - men
+  next_for_audiences:
+  - children
+  - men
+  - volunteers
+  knowledge_file: knowledge/events/generated/2026-09-30-awana-2026-2027-284c03.md
+  event_sources:
+  - planning_center_ical
+  - planning_center_calendar_api
+  - planning_center_registrations_api
+  event_source: merged
+  planning_center_signup_id: '3737699'
+  planning_center_signup_time_id: '6607176'
+  registration_available: true
+  registration_open: true
+  registration_closed: false
+  registration_at_maximum_capacity: null
+  registration_open_at: '2026-07-06T04:00:00Z'
+  registration_close_at: null
+  registration_maximum_capacity: null
+  registration_categories:
+  - Kids (4 yrs. - 6th Grade)
+  registration_options:
+  - id: '8537769'
+    name: Clubber
+    price_cents: 0
+    price_currency: USD
+    price_currency_symbol: $
+    price_formatted: '0'
+    at_maximum_capacity: false
+    waitlist: false
+  - id: '8537770'
+    name: Volunteer
+    price_cents: 0
+    price_currency: USD
+    price_currency_symbol: $
+    price_formatted: '0'
+    at_maximum_capacity: false
+    waitlist: false
+  location_structured:
+    name: Urbancrest Church
+    address: '2634 Drake Road
+
+      Lebanon, OH 45036'
+    latitude: '39.4747445'
+    longitude: '-84.1792958'
 - id: event-5ee7e8f2ebdec2d7
   uid: ET-30270334-168792298@resources.planningcenteronline.com
   title: Men's Breakfast
@@ -132,11 +238,9 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 2
-  next_for_ministries:
-  - men
-  next_for_audiences:
-  - men
+  chronological_rank: 3
+  next_for_ministries: []
+  next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-03-men-s-breakfast-dec2d7.md
 - id: event-4385d71a13c05019
   uid: ET-32456802-233964133@resources.planningcenteronline.com
@@ -169,7 +273,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 3
+  chronological_rank: 4
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-03-men-s-cornhole-bbq-c05019.md
@@ -231,7 +335,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 4
+  chronological_rank: 5
   next_for_ministries:
   - students
   next_for_audiences:
@@ -260,7 +364,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 5
+  chronological_rank: 6
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-04-sunday-morning-services-9-30-am-service-160a39.md
@@ -287,7 +391,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 6
+  chronological_rank: 7
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-04-sunday-morning-services-11-00-am-service-391224.md
@@ -348,7 +452,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 7
+  chronological_rank: 8
   next_for_ministries:
   - worship
   next_for_audiences:
@@ -407,7 +511,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 8
+  chronological_rank: 9
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-06-card-ministry-8e6732.md
@@ -496,10 +600,81 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 9
+  chronological_rank: 10
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-07-wednesday-night-dinner-9fc5ad.md
+- id: event-24807d0435741b6b
+  uid: ET-31487702-238359370@resources.planningcenteronline.com
+  title: Awana 2026-2027
+  summary: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the B...'
+  start: '2026-10-07T18:15:00-04:00'
+  end: '2026-10-07T19:30:00-04:00'
+  sort_start_utc: '2026-10-07T22:15:00Z'
+  sort_end_utc: '2026-10-07T23:30:00Z'
+  display_when: Wednesday, October 7, 2026, 6:15 PM to 7:30 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
+
+
+    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm
+
+
+    START ANYTIME throughout the year!
+
+
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/3737699'
+  details: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
+
+    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm 
+
+    START ANYTIME throughout the year!
+
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.'
+  details_source: planning_center_calendar_api
+  planning_center_event_instance_id: '238359370'
+  planning_center_event_time_id: '31487702'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3737699
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1790827200&key=uploads%2Fevent%2Flogo%2F3737699%2Fimage-1600369375660.jpeg&thumb=720x405%23&version=1787148556&signature=6d15aefae58f3a6d6341dae202341d6a81ad49d1d6984a7ebf618c3143377f40
+  ministries:
+  - kids
+  - men
+  audiences:
+  - children
+  - men
+  - volunteers
+  event_category: churchwide_program
+  event_priority: 60
+  collection: main_events
+  status: confirmed
+  chronological_rank: 11
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-10-07-awana-2026-2027-741b6b.md
 - id: event-612f2437be23f9ee
   uid: ET-32547092-234607566@resources.planningcenteronline.com
   title: Ohio Detectorists Association
@@ -522,7 +697,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 10
+  chronological_rank: 12
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-10-ohio-detectorists-association-23f9ee.md
@@ -548,7 +723,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 11
+  chronological_rank: 13
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-11-p-u-r-s-u-e-8f8f87.md
@@ -575,7 +750,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 12
+  chronological_rank: 14
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-11-sunday-morning-services-9-30-am-service-0b689c.md
@@ -602,7 +777,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 13
+  chronological_rank: 15
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-11-sunday-morning-services-11-00-am-service-31230b.md
@@ -691,10 +866,81 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 14
+  chronological_rank: 16
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-14-wednesday-night-dinner-d9103e.md
+- id: event-3f67a79362c83ebf
+  uid: ET-31487702-238359371@resources.planningcenteronline.com
+  title: Awana 2026-2027
+  summary: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the B...'
+  start: '2026-10-14T18:15:00-04:00'
+  end: '2026-10-14T19:30:00-04:00'
+  sort_start_utc: '2026-10-14T22:15:00Z'
+  sort_end_utc: '2026-10-14T23:30:00Z'
+  display_when: Wednesday, October 14, 2026, 6:15 PM to 7:30 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
+
+
+    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm
+
+
+    START ANYTIME throughout the year!
+
+
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/3737699'
+  details: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
+
+    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm 
+
+    START ANYTIME throughout the year!
+
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.'
+  details_source: planning_center_calendar_api
+  planning_center_event_instance_id: '238359371'
+  planning_center_event_time_id: '31487702'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3737699
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1790827200&key=uploads%2Fevent%2Flogo%2F3737699%2Fimage-1600369375660.jpeg&thumb=720x405%23&version=1787148556&signature=6d15aefae58f3a6d6341dae202341d6a81ad49d1d6984a7ebf618c3143377f40
+  ministries:
+  - kids
+  - men
+  audiences:
+  - children
+  - men
+  - volunteers
+  event_category: churchwide_program
+  event_priority: 60
+  collection: main_events
+  status: confirmed
+  chronological_rank: 17
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-10-14-awana-2026-2027-c83ebf.md
 - id: event-7b60e9c4c5af3c3f
   uid: ET-31936721-230615455@resources.planningcenteronline.com
   title: Urbancrest Women's Conference
@@ -750,7 +996,7 @@ events:
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 15
+  chronological_rank: 18
   next_for_ministries:
   - women
   next_for_audiences:
@@ -813,7 +1059,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 16
+  chronological_rank: 19
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-18-p-u-r-s-u-e-2350e7.md
@@ -840,7 +1086,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 17
+  chronological_rank: 20
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-18-sunday-morning-services-9-30-am-service-d0a2ae.md
@@ -867,38 +1113,10 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 18
+  chronological_rank: 21
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-18-sunday-morning-services-11-00-am-service-c4ad2d.md
-- id: event-cca4bc8898b2c4ee
-  uid: ET-16193422-170149013@resources.planningcenteronline.com
-  title: Monthly Baskets of Hope - Volunteers
-  summary: This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
-  start: '2026-10-21T16:30:00-04:00'
-  end: '2026-10-21T18:30:00-04:00'
-  sort_start_utc: '2026-10-21T20:30:00Z'
-  sort_end_utc: '2026-10-21T22:30:00Z'
-  display_when: Wednesday, October 21, 2026, 4:30 PM to 6:30 PM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
-  planning_center_event_instance_id: '170149013'
-  planning_center_event_time_id: '16193422'
-  ministries:
-  - churchwide
-  audiences:
-  - families
-  - volunteers
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 19
-  next_for_ministries: []
-  next_for_audiences:
-  - volunteers
-  knowledge_file: knowledge/events/generated/2026-10-21-monthly-baskets-of-hope-volunteers-b2c4ee.md
 - id: event-b08f2e2b300edf1f
   uid: ET-31870601-230122713@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -984,10 +1202,81 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 20
+  chronological_rank: 22
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-21-wednesday-night-dinner-0edf1f.md
+- id: event-ef9e79a84c20b181
+  uid: ET-31487702-238359372@resources.planningcenteronline.com
+  title: Awana 2026-2027
+  summary: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the B...'
+  start: '2026-10-21T18:15:00-04:00'
+  end: '2026-10-21T19:30:00-04:00'
+  sort_start_utc: '2026-10-21T22:15:00Z'
+  sort_end_utc: '2026-10-21T23:30:00Z'
+  display_when: Wednesday, October 21, 2026, 6:15 PM to 7:30 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
+
+
+    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm
+
+
+    START ANYTIME throughout the year!
+
+
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/3737699'
+  details: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
+
+    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm 
+
+    START ANYTIME throughout the year!
+
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.'
+  details_source: planning_center_calendar_api
+  planning_center_event_instance_id: '238359372'
+  planning_center_event_time_id: '31487702'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3737699
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1790827200&key=uploads%2Fevent%2Flogo%2F3737699%2Fimage-1600369375660.jpeg&thumb=720x405%23&version=1787148556&signature=6d15aefae58f3a6d6341dae202341d6a81ad49d1d6984a7ebf618c3143377f40
+  ministries:
+  - kids
+  - men
+  audiences:
+  - children
+  - men
+  - volunteers
+  event_category: churchwide_program
+  event_priority: 60
+  collection: main_events
+  status: confirmed
+  chronological_rank: 23
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-10-21-awana-2026-2027-20b181.md
 - id: event-d05c3ac79e3a39cd
   uid: ET-8762150-170494272@resources.planningcenteronline.com
   title: P U R S U E
@@ -1010,123 +1299,44 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 21
+  chronological_rank: 24
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-25-p-u-r-s-u-e-3a39cd.md
-- id: event-5be762b6dc9724fc
-  uid: ET-9127131-170494276@resources.planningcenteronline.com
-  title: 'Sunday Morning Services: 9:30 AM Service'
-  summary: Join us in person or online!...
-  start: '2026-10-25T09:30:00-04:00'
-  end: '2026-10-25T10:40:00-04:00'
-  sort_start_utc: '2026-10-25T13:30:00Z'
-  sort_end_utc: '2026-10-25T14:40:00Z'
-  display_when: Sunday, October 25, 2026, 9:30 AM to 10:40 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
-    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
-  planning_center_event_instance_id: '170494276'
-  planning_center_event_time_id: '9127131'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 22
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-10-25-sunday-morning-services-9-30-am-service-9724fc.md
-- id: event-2158e0ed36d92cdf
-  uid: ET-9127132-170494276@resources.planningcenteronline.com
-  title: 'Sunday Morning Services: 11:00 AM Service'
-  summary: Join us in person or online!...
-  start: '2026-10-25T11:00:00-04:00'
-  end: '2026-10-25T12:10:00-04:00'
-  sort_start_utc: '2026-10-25T15:00:00Z'
-  sort_end_utc: '2026-10-25T16:10:00Z'
-  display_when: Sunday, October 25, 2026, 11 AM to 12:10 PM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
-    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
-  planning_center_event_instance_id: '170494276'
-  planning_center_event_time_id: '9127132'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 23
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-10-25-sunday-morning-services-11-00-am-service-d92cdf.md
-- id: event-4d33ffcaeb7a5a96
-  uid: ET-32871096-236678223@resources.planningcenteronline.com
+- id: pc-registration-3892183-6e5c8e3c7619
+  uid: registrations-3892183-6555103@planningcenter
   title: Trail of Treats
   summary: 'Trail of Treats: Bring the whole family to Urbancrest’s Trail of Treats for an evening of candy, treats, and outdoor
     fun. Costumes are welcome, but not required. Sunday, October 25, 5:00–7:30 PM Urbancrest Church 2634 Drake Rd. Lebanon,
     OH 45036 This is a free, outdoor event,...'
-  start: '2026-10-25T17:00:00-04:00'
-  end: '2026-10-25T19:30:00-04:00'
+  start: '2026-10-25T21:00:00+00:00'
+  end: '2026-10-25T23:30:00+00:00'
   sort_start_utc: '2026-10-25T21:00:00Z'
   sort_end_utc: '2026-10-25T23:30:00Z'
-  display_when: Sunday, October 25, 2026, 5 PM to 7:30 PM
+  display_when: Sunday, October 25, 2026 at 5:00 PM - 7:30 PM
   all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: '****************
+  location: 'Urbancrest Church - 2634 Drake Road
 
-    Trail of Treats:
+    Parking Lot & Pavilion
 
-    ****************
+    Lebanon, OH 45036'
+  location_structured:
+    name: Urbancrest Church
+    address: '2634 Drake Road
 
+      Parking Lot & Pavilion
 
-    Bring the whole family to Urbancrest’s Trail of Treats for an evening of candy, treats, and outdoor fun. Costumes are
-    welcome, but not required.
-
-
-    Sunday, October 25, 5:00–7:30 PM
-
-    Urbancrest Church
-
-    2634 Drake Rd.
-
-    Lebanon, OH 45036
-
-
-    This is a free, outdoor event, so please dress for the weather.
-
-
-    Attending? No registration is required. Just come and enjoy the evening!
-
-
-    Volunteering or bringing a Trunk or Treat vehicle? Volunteers and vehicle hosts do need to register for their serving
-    area. Volunteer opportunities include:
-
-
-    * Trunk or Treat
-
-    * Food and Block Party Stations
-
-    * Greeters
-
-    * Parking Lot Helpers
-
-
-    Trunk or Treat vehicle hosts are encouraged to decorate their trunks and bring their own candy. Donated candy will be
-    distributed to vehicles that need more throughout the evening.
-
-
-    Questions? Contact the Urbancrest office at office@urbancrest.org.
-
-    Register: https://urbancrest.churchcenter.com/registrations/events/3892183'
+      Lebanon, OH 45036'
+    latitude: '39.4747445'
+    longitude: '-84.1792958'
+  description: "Trail of Treats: Bring the whole family to Urbancrest’s Trail of Treats for an evening of candy, treats, and\
+    \ outdoor fun. Costumes are welcome, but not required.\n\nSunday, October 25, 5:00–7:30 PM \nUrbancrest Church \n2634\
+    \ Drake Rd.\nLebanon, OH 45036\n\nThis is a free, outdoor event, so please dress for the weather.\n\nAttending? No registration\
+    \ is required. Just come and enjoy the evening!\n\nVolunteering or bringing a Trunk or Treat vehicle? Volunteers and vehicle\
+    \ hosts do need to register for their serving area. Volunteer opportunities include:\n\nTrunk or Treat Food and Block\
+    \ Party Stations Greeters Parking Lot Helpers Trunk or Treat vehicle hosts are encouraged to decorate their trunks and\
+    \ bring their own candy. Donated candy will be distributed to vehicles that need more throughout the evening.\n\nQuestions?\
+    \ Contact the Urbancrest office at office@urbancrest.org ."
   details: "Trail of Treats: Bring the whole family to Urbancrest’s Trail of Treats for an evening of candy, treats, and outdoor\
     \ fun. Costumes are welcome, but not required.\n\nSunday, October 25, 5:00–7:30 PM \nUrbancrest Church \n2634 Drake Rd.\n\
     Lebanon, OH 45036\n\nThis is a free, outdoor event, so please dress for the weather.\n\nAttending? No registration is\
@@ -1136,35 +1346,9 @@ events:
     \ bring their own candy. Donated candy will be distributed to vehicles that need more throughout the evening.\n\nQuestions?\
     \ Contact the Urbancrest office at office@urbancrest.org .\n\nRegistration is open."
   details_source: planning_center_registrations_api
-  planning_center_event_instance_id: '236678223'
-  planning_center_event_time_id: '32871096'
-  registration_url: https://urbancrest.churchcenter.com/registrations/events/3892183/reservations/new
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1790654400&key=uploads%2Fevent%2Flogo%2F3892183%2Fimage-1790611024418.jpeg&thumb=720x405%23&version=1790611024&signature=8602f1f0bb21aec4fa3ec466dd69e883340e3649d8193872aebf86a4e5e5ed34
-  ministries:
-  - churchwide
-  - kids
-  - family
-  - volunteer
-  audiences:
-  - families
-  - volunteers
-  - children
-  - all
-  event_category: general_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 24
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-10-25-trail-of-treats-7a5a96.md
-  event_sources:
-  - planning_center_ical
-  - planning_center_calendar_api
-  - planning_center_registrations_api
-  event_source: merged
   planning_center_signup_id: '3892183'
   planning_center_signup_time_id: '6555103'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3892183/reservations/new
   registration_available: true
   registration_open: true
   registration_closed: false
@@ -1184,7 +1368,7 @@ events:
     price_currency_symbol: $
     price_formatted: '0'
     maximum_capacity: 44
-    available_capacity: 40
+    available_capacity: 39
     at_maximum_capacity: false
     waitlist: false
   - id: '8896323'
@@ -1237,15 +1421,24 @@ events:
     available_capacity: 22
     at_maximum_capacity: false
     waitlist: false
-  location_structured:
-    name: Urbancrest Church
-    address: '2634 Drake Road
-
-      Parking Lot & Pavilion
-
-      Lebanon, OH 45036'
-    latitude: '39.4747445'
-    longitude: '-84.1792958'
+  info_url: https://urbancrest.churchcenter.com/registrations/events/3892183/reservations/new
+  image_url: https://registrations.planningcenteronline.com/signups/3892183/logo
+  ministries:
+  - kids
+  - family
+  - volunteer
+  audiences:
+  - children
+  - families
+  - all
+  event_category: kids_event
+  event_priority: 80
+  collection: main_events
+  status: published
+  event_source: planning_center_registrations_api
+  event_sources:
+  - planning_center_registrations_api
+  chronological_rank: 25
 - id: event-ed4dc1da2facac27
   uid: ET-31870601-230122714@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -1331,10 +1524,152 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 25
+  chronological_rank: 26
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-28-wednesday-night-dinner-acac27.md
+- id: event-d1e4272feee274b3
+  uid: ET-31487702-238359373@resources.planningcenteronline.com
+  title: Awana 2026-2027
+  summary: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the B...'
+  start: '2026-10-28T18:15:00-04:00'
+  end: '2026-10-28T19:30:00-04:00'
+  sort_start_utc: '2026-10-28T22:15:00Z'
+  sort_end_utc: '2026-10-28T23:30:00Z'
+  display_when: Wednesday, October 28, 2026, 6:15 PM to 7:30 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
+
+
+    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm
+
+
+    START ANYTIME throughout the year!
+
+
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/3737699'
+  details: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
+
+    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm 
+
+    START ANYTIME throughout the year!
+
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.'
+  details_source: planning_center_calendar_api
+  planning_center_event_instance_id: '238359373'
+  planning_center_event_time_id: '31487702'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3737699
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1790827200&key=uploads%2Fevent%2Flogo%2F3737699%2Fimage-1600369375660.jpeg&thumb=720x405%23&version=1787148556&signature=6d15aefae58f3a6d6341dae202341d6a81ad49d1d6984a7ebf618c3143377f40
+  ministries:
+  - kids
+  - men
+  audiences:
+  - children
+  - men
+  - volunteers
+  event_category: churchwide_program
+  event_priority: 60
+  collection: main_events
+  status: confirmed
+  chronological_rank: 27
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-10-28-awana-2026-2027-e274b3.md
+- id: event-c5d002b6f2a4c69b
+  uid: ET-31487702-238359374@resources.planningcenteronline.com
+  title: Awana 2026-2027
+  summary: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the B...'
+  start: '2026-10-28T18:15:00-04:00'
+  end: '2026-10-28T19:30:00-04:00'
+  sort_start_utc: '2026-10-28T22:15:00Z'
+  sort_end_utc: '2026-10-28T23:30:00Z'
+  display_when: Wednesday, October 28, 2026, 6:15 PM to 7:30 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
+
+
+    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm
+
+
+    START ANYTIME throughout the year!
+
+
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/3737699'
+  details: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
+
+    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm 
+
+    START ANYTIME throughout the year!
+
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.'
+  details_source: planning_center_calendar_api
+  planning_center_event_instance_id: '238359374'
+  planning_center_event_time_id: '31487702'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3737699
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1790827200&key=uploads%2Fevent%2Flogo%2F3737699%2Fimage-1600369375660.jpeg&thumb=720x405%23&version=1787148556&signature=6d15aefae58f3a6d6341dae202341d6a81ad49d1d6984a7ebf618c3143377f40
+  ministries:
+  - kids
+  - men
+  audiences:
+  - children
+  - men
+  - volunteers
+  event_category: churchwide_program
+  event_priority: 60
+  collection: main_events
+  status: confirmed
+  chronological_rank: 28
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-10-28-awana-2026-2027-a4c69b.md
 - id: pc-registration-3901985-7053c98d4719
   uid: registrations-3901985-6571043@planningcenter
   title: 'Engage: New Members Class - Fall 2026'
@@ -1429,7 +1764,7 @@ events:
   event_source: planning_center_registrations_api
   event_sources:
   - planning_center_registrations_api
-  chronological_rank: 26
+  chronological_rank: 29
 - id: event-64ae9a123396a55e
   uid: ET-8762150-171026771@resources.planningcenteronline.com
   title: P U R S U E
@@ -1452,89 +1787,10 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 27
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-11-01-p-u-r-s-u-e-96a55e.md
-- id: event-5260c3af76a90a62
-  uid: ET-9127131-171026769@resources.planningcenteronline.com
-  title: 'Sunday Morning Services: 9:30 AM Service'
-  summary: Join us in person or online!...
-  start: '2026-11-01T09:30:00-05:00'
-  end: '2026-11-01T10:40:00-05:00'
-  sort_start_utc: '2026-11-01T14:30:00Z'
-  sort_end_utc: '2026-11-01T15:40:00Z'
-  display_when: Sunday, November 1, 2026, 9:30 AM to 10:40 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
-    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
-  planning_center_event_instance_id: '171026769'
-  planning_center_event_time_id: '9127131'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 28
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-11-01-sunday-morning-services-9-30-am-service-a90a62.md
-- id: event-d191171a7d5b69af
-  uid: ET-9127132-171026769@resources.planningcenteronline.com
-  title: 'Sunday Morning Services: 11:00 AM Service'
-  summary: Join us in person or online!...
-  start: '2026-11-01T11:00:00-05:00'
-  end: '2026-11-01T12:10:00-05:00'
-  sort_start_utc: '2026-11-01T16:00:00Z'
-  sort_end_utc: '2026-11-01T17:10:00Z'
-  display_when: Sunday, November 1, 2026, 11 AM to 12:10 PM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
-    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
-  planning_center_event_instance_id: '171026769'
-  planning_center_event_time_id: '9127132'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 29
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-11-01-sunday-morning-services-11-00-am-service-5b69af.md
-- id: event-66ea7967217a8829
-  uid: ET-28363612-171120675@resources.planningcenteronline.com
-  title: Card Ministry
-  summary: Rai Lynn Guidone
-  start: '2026-11-03T09:00:00-05:00'
-  end: '2026-11-03T12:00:00-05:00'
-  sort_start_utc: '2026-11-03T14:00:00Z'
-  sort_end_utc: '2026-11-03T17:00:00Z'
-  display_when: Tuesday, November 3, 2026, 9 AM to 12 PM
-  all_day: false
-  description: Rai Lynn Guidone
-  planning_center_event_instance_id: '171120675'
-  planning_center_event_time_id: '28363612'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
   chronological_rank: 30
   next_for_ministries: []
   next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-11-03-card-ministry-7a8829.md
+  knowledge_file: knowledge/events/generated/2026-11-01-p-u-r-s-u-e-96a55e.md
 - id: event-1aae13f9c455fdc7
   uid: ET-31870601-230122715@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -1624,6 +1880,77 @@ events:
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-04-wednesday-night-dinner-55fdc7.md
+- id: event-f311d37787570e69
+  uid: ET-31487702-238359375@resources.planningcenteronline.com
+  title: Awana 2026-2027
+  summary: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the B...'
+  start: '2026-11-04T18:15:00-05:00'
+  end: '2026-11-04T19:30:00-05:00'
+  sort_start_utc: '2026-11-04T23:15:00Z'
+  sort_end_utc: '2026-11-05T00:30:00Z'
+  display_when: Wednesday, November 4, 2026, 6:15 PM to 7:30 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
+
+
+    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm
+
+
+    START ANYTIME throughout the year!
+
+
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/3737699'
+  details: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
+
+    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm 
+
+    START ANYTIME throughout the year!
+
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.'
+  details_source: planning_center_calendar_api
+  planning_center_event_instance_id: '238359375'
+  planning_center_event_time_id: '31487702'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3737699
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1790827200&key=uploads%2Fevent%2Flogo%2F3737699%2Fimage-1600369375660.jpeg&thumb=720x405%23&version=1787148556&signature=6d15aefae58f3a6d6341dae202341d6a81ad49d1d6984a7ebf618c3143377f40
+  ministries:
+  - kids
+  - men
+  audiences:
+  - children
+  - men
+  - volunteers
+  event_category: churchwide_program
+  event_priority: 60
+  collection: main_events
+  status: confirmed
+  chronological_rank: 32
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-04-awana-2026-2027-570e69.md
 - id: event-f93e5d4a42b349ea
   uid: ET-30270334-171450066@resources.planningcenteronline.com
   title: Men's Breakfast
@@ -1648,7 +1975,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 32
+  chronological_rank: 33
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-07-men-s-breakfast-b349ea.md
@@ -1674,64 +2001,10 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 33
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-11-08-p-u-r-s-u-e-4c1a4d.md
-- id: event-37b1feeb225cd74e
-  uid: ET-9127131-171522666@resources.planningcenteronline.com
-  title: 'Sunday Morning Services: 9:30 AM Service'
-  summary: Join us in person or online!...
-  start: '2026-11-08T09:30:00-05:00'
-  end: '2026-11-08T10:40:00-05:00'
-  sort_start_utc: '2026-11-08T14:30:00Z'
-  sort_end_utc: '2026-11-08T15:40:00Z'
-  display_when: Sunday, November 8, 2026, 9:30 AM to 10:40 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
-    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
-  planning_center_event_instance_id: '171522666'
-  planning_center_event_time_id: '9127131'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
   chronological_rank: 34
   next_for_ministries: []
   next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-11-08-sunday-morning-services-9-30-am-service-5cd74e.md
-- id: event-35f1265bb37c486d
-  uid: ET-9127132-171522666@resources.planningcenteronline.com
-  title: 'Sunday Morning Services: 11:00 AM Service'
-  summary: Join us in person or online!...
-  start: '2026-11-08T11:00:00-05:00'
-  end: '2026-11-08T12:10:00-05:00'
-  sort_start_utc: '2026-11-08T16:00:00Z'
-  sort_end_utc: '2026-11-08T17:10:00Z'
-  display_when: Sunday, November 8, 2026, 11 AM to 12:10 PM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
-    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
-  planning_center_event_instance_id: '171522666'
-  planning_center_event_time_id: '9127132'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 35
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-11-08-sunday-morning-services-11-00-am-service-7c486d.md
+  knowledge_file: knowledge/events/generated/2026-11-08-p-u-r-s-u-e-4c1a4d.md
 - id: event-4040df5714af1c1c
   uid: ET-31870601-230122716@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -1817,10 +2090,81 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 36
+  chronological_rank: 35
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-11-wednesday-night-dinner-af1c1c.md
+- id: event-63403aaf28cd3adc
+  uid: ET-31487702-238359376@resources.planningcenteronline.com
+  title: Awana 2026-2027
+  summary: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the B...'
+  start: '2026-11-11T18:15:00-05:00'
+  end: '2026-11-11T19:30:00-05:00'
+  sort_start_utc: '2026-11-11T23:15:00Z'
+  sort_end_utc: '2026-11-12T00:30:00Z'
+  display_when: Wednesday, November 11, 2026, 6:15 PM to 7:30 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
+
+
+    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm
+
+
+    START ANYTIME throughout the year!
+
+
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/3737699'
+  details: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
+
+    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm 
+
+    START ANYTIME throughout the year!
+
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.'
+  details_source: planning_center_calendar_api
+  planning_center_event_instance_id: '238359376'
+  planning_center_event_time_id: '31487702'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3737699
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1790827200&key=uploads%2Fevent%2Flogo%2F3737699%2Fimage-1600369375660.jpeg&thumb=720x405%23&version=1787148556&signature=6d15aefae58f3a6d6341dae202341d6a81ad49d1d6984a7ebf618c3143377f40
+  ministries:
+  - kids
+  - men
+  audiences:
+  - children
+  - men
+  - volunteers
+  event_category: churchwide_program
+  event_priority: 60
+  collection: main_events
+  status: confirmed
+  chronological_rank: 36
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-11-awana-2026-2027-cd3adc.md
 - id: event-1c0771e7f499f87a
   uid: ET-31924846-230487173@resources.planningcenteronline.com
   title: Youth Fall Retreat
@@ -1900,32 +2244,6 @@ events:
       Hillsboro, OH 45133'
     latitude: '39.113261'
     longitude: '-83.378668'
-- id: event-b18a11de2647a8c2
-  uid: ET-31623389-228651524@resources.planningcenteronline.com
-  title: OCC packing party
-  summary: OCC packing party is scheduled for Saturday, November 14, 2026, 1 PM to 2 PM at Urbancrest Church - 2634 Drake
-    Road, Lebanon, OH 45036.
-  start: '2026-11-14T13:00:00-05:00'
-  end: '2026-11-14T14:00:00-05:00'
-  sort_start_utc: '2026-11-14T18:00:00Z'
-  sort_end_utc: '2026-11-14T19:00:00Z'
-  display_when: Saturday, November 14, 2026, 1 PM to 2 PM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  planning_center_event_instance_id: '228651524'
-  planning_center_event_time_id: '31623389'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 38
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-11-14-occ-packing-party-47a8c2.md
 - id: event-1652bc35e5b86e1d
   uid: ET-8762150-172162011@resources.planningcenteronline.com
   title: P U R S U E
@@ -1948,91 +2266,10 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 39
+  chronological_rank: 38
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-15-p-u-r-s-u-e-b86e1d.md
-- id: event-6bc5aa1e27add3db
-  uid: ET-9127131-172162010@resources.planningcenteronline.com
-  title: 'Sunday Morning Services: 9:30 AM Service'
-  summary: Join us in person or online!...
-  start: '2026-11-15T09:30:00-05:00'
-  end: '2026-11-15T10:40:00-05:00'
-  sort_start_utc: '2026-11-15T14:30:00Z'
-  sort_end_utc: '2026-11-15T15:40:00Z'
-  display_when: Sunday, November 15, 2026, 9:30 AM to 10:40 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
-    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
-  planning_center_event_instance_id: '172162010'
-  planning_center_event_time_id: '9127131'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 40
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-11-15-sunday-morning-services-9-30-am-service-add3db.md
-- id: event-361f8f98cea656ef
-  uid: ET-9127132-172162010@resources.planningcenteronline.com
-  title: 'Sunday Morning Services: 11:00 AM Service'
-  summary: Join us in person or online!...
-  start: '2026-11-15T11:00:00-05:00'
-  end: '2026-11-15T12:10:00-05:00'
-  sort_start_utc: '2026-11-15T16:00:00Z'
-  sort_end_utc: '2026-11-15T17:10:00Z'
-  display_when: Sunday, November 15, 2026, 11 AM to 12:10 PM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
-    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
-  planning_center_event_instance_id: '172162010'
-  planning_center_event_time_id: '9127132'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 41
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-11-15-sunday-morning-services-11-00-am-service-a656ef.md
-- id: event-c98c09871d7ab8b6
-  uid: ET-16193422-172353747@resources.planningcenteronline.com
-  title: Monthly Baskets of Hope - Volunteers
-  summary: This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
-  start: '2026-11-18T16:30:00-05:00'
-  end: '2026-11-18T18:30:00-05:00'
-  sort_start_utc: '2026-11-18T21:30:00Z'
-  sort_end_utc: '2026-11-18T23:30:00Z'
-  display_when: Wednesday, November 18, 2026, 4:30 PM to 6:30 PM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
-  planning_center_event_instance_id: '172353747'
-  planning_center_event_time_id: '16193422'
-  ministries:
-  - churchwide
-  audiences:
-  - families
-  - volunteers
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 42
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-11-18-monthly-baskets-of-hope-volunteers-7ab8b6.md
 - id: event-cc6c730d57cf53fb
   uid: ET-31870601-230122717@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -2118,10 +2355,81 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 43
+  chronological_rank: 39
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-18-wednesday-night-dinner-cf53fb.md
+- id: event-bbea764057743617
+  uid: ET-31487702-238359377@resources.planningcenteronline.com
+  title: Awana 2026-2027
+  summary: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the B...'
+  start: '2026-11-18T18:15:00-05:00'
+  end: '2026-11-18T19:30:00-05:00'
+  sort_start_utc: '2026-11-18T23:15:00Z'
+  sort_end_utc: '2026-11-19T00:30:00Z'
+  display_when: Wednesday, November 18, 2026, 6:15 PM to 7:30 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
+
+
+    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm
+
+
+    START ANYTIME throughout the year!
+
+
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/3737699'
+  details: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
+
+    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm 
+
+    START ANYTIME throughout the year!
+
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.'
+  details_source: planning_center_calendar_api
+  planning_center_event_instance_id: '238359377'
+  planning_center_event_time_id: '31487702'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3737699
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1790827200&key=uploads%2Fevent%2Flogo%2F3737699%2Fimage-1600369375660.jpeg&thumb=720x405%23&version=1787148556&signature=6d15aefae58f3a6d6341dae202341d6a81ad49d1d6984a7ebf618c3143377f40
+  ministries:
+  - kids
+  - men
+  audiences:
+  - children
+  - men
+  - volunteers
+  event_category: churchwide_program
+  event_priority: 60
+  collection: main_events
+  status: confirmed
+  chronological_rank: 40
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-18-awana-2026-2027-743617.md
 - id: event-be431ccdabc3d97b
   uid: ET-8762150-172745994@resources.planningcenteronline.com
   title: P U R S U E
@@ -2144,37 +2452,10 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 44
+  chronological_rank: 41
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-22-p-u-r-s-u-e-c3d97b.md
-- id: event-51aab645f93e574a
-  uid: ET-9127131-172745996@resources.planningcenteronline.com
-  title: 'Sunday Morning Services: 9:30 AM Service'
-  summary: Join us in person or online!...
-  start: '2026-11-22T09:30:00-05:00'
-  end: '2026-11-22T10:40:00-05:00'
-  sort_start_utc: '2026-11-22T14:30:00Z'
-  sort_end_utc: '2026-11-22T15:40:00Z'
-  display_when: Sunday, November 22, 2026, 9:30 AM to 10:40 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
-    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
-  planning_center_event_instance_id: '172745996'
-  planning_center_event_time_id: '9127131'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 45
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-11-22-sunday-morning-services-9-30-am-service-3e574a.md
 - id: event-47f30d4d3d77d08c
   uid: ET-31870601-230122718@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -2260,7 +2541,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 46
+  chronological_rank: 42
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-25-wednesday-night-dinner-77d08c.md
@@ -2286,7 +2567,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 47
+  chronological_rank: 43
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-29-p-u-r-s-u-e-80f80e.md
@@ -2375,10 +2656,81 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 48
+  chronological_rank: 44
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-02-wednesday-night-dinner-809fdf.md
+- id: event-6589494125b78b32
+  uid: ET-31487702-238359378@resources.planningcenteronline.com
+  title: Awana 2026-2027
+  summary: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the B...'
+  start: '2026-12-02T18:15:00-05:00'
+  end: '2026-12-02T19:30:00-05:00'
+  sort_start_utc: '2026-12-02T23:15:00Z'
+  sort_end_utc: '2026-12-03T00:30:00Z'
+  display_when: Wednesday, December 2, 2026, 6:15 PM to 7:30 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
+
+
+    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm
+
+
+    START ANYTIME throughout the year!
+
+
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/3737699'
+  details: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
+
+    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm 
+
+    START ANYTIME throughout the year!
+
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.'
+  details_source: planning_center_calendar_api
+  planning_center_event_instance_id: '238359378'
+  planning_center_event_time_id: '31487702'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3737699
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1790827200&key=uploads%2Fevent%2Flogo%2F3737699%2Fimage-1600369375660.jpeg&thumb=720x405%23&version=1787148556&signature=6d15aefae58f3a6d6341dae202341d6a81ad49d1d6984a7ebf618c3143377f40
+  ministries:
+  - kids
+  - men
+  audiences:
+  - children
+  - men
+  - volunteers
+  event_category: churchwide_program
+  event_priority: 60
+  collection: main_events
+  status: confirmed
+  chronological_rank: 45
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-12-02-awana-2026-2027-b78b32.md
 - id: event-296f50798c549ccc
   uid: ET-30270334-173559224@resources.planningcenteronline.com
   title: Men's Breakfast
@@ -2403,7 +2755,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 49
+  chronological_rank: 46
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-05-men-s-breakfast-549ccc.md
@@ -2429,7 +2781,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 50
+  chronological_rank: 47
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-06-p-u-r-s-u-e-e5b958.md
@@ -2457,7 +2809,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 51
+  chronological_rank: 48
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-06-women-s-christmas-event-d6795d.md
@@ -2546,10 +2898,81 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 52
+  chronological_rank: 49
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-09-wednesday-night-dinner-6f6ed6.md
+- id: event-c3c900daaf983471
+  uid: ET-31487702-238359379@resources.planningcenteronline.com
+  title: Awana 2026-2027
+  summary: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the B...'
+  start: '2026-12-09T18:15:00-05:00'
+  end: '2026-12-09T19:30:00-05:00'
+  sort_start_utc: '2026-12-09T23:15:00Z'
+  sort_end_utc: '2026-12-10T00:30:00Z'
+  display_when: Wednesday, December 9, 2026, 6:15 PM to 7:30 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
+
+
+    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm
+
+
+    START ANYTIME throughout the year!
+
+
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/3737699'
+  details: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
+
+    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm 
+
+    START ANYTIME throughout the year!
+
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.'
+  details_source: planning_center_calendar_api
+  planning_center_event_instance_id: '238359379'
+  planning_center_event_time_id: '31487702'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3737699
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1790827200&key=uploads%2Fevent%2Flogo%2F3737699%2Fimage-1600369375660.jpeg&thumb=720x405%23&version=1787148556&signature=6d15aefae58f3a6d6341dae202341d6a81ad49d1d6984a7ebf618c3143377f40
+  ministries:
+  - kids
+  - men
+  audiences:
+  - children
+  - men
+  - volunteers
+  event_category: churchwide_program
+  event_priority: 60
+  collection: main_events
+  status: confirmed
+  chronological_rank: 50
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-12-09-awana-2026-2027-983471.md
 - id: event-cdb046e5d9e9bfa2
   uid: ET-8762150-174228981@resources.planningcenteronline.com
   title: P U R S U E
@@ -2572,7 +2995,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 53
+  chronological_rank: 51
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-13-p-u-r-s-u-e-e9bfa2.md
@@ -2661,10 +3084,81 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 54
+  chronological_rank: 52
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-16-wednesday-night-dinner-d35842.md
+- id: event-d90c350182a96a01
+  uid: ET-31487702-238359380@resources.planningcenteronline.com
+  title: Awana 2026-2027
+  summary: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the B...'
+  start: '2026-12-16T18:15:00-05:00'
+  end: '2026-12-16T19:30:00-05:00'
+  sort_start_utc: '2026-12-16T23:15:00Z'
+  sort_end_utc: '2026-12-17T00:30:00Z'
+  display_when: Wednesday, December 16, 2026, 6:15 PM to 7:30 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
+
+
+    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm
+
+
+    START ANYTIME throughout the year!
+
+
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/3737699'
+  details: '**To register in person please come to the AWANA bookstore (located in the 300s hallway) and register in person
+    any Wednesday at 6:05**
+
+    Approved Workmen Are Not Ashamed (A.W.A.N.A.)
+
+    A program focusing on learning the Bible and fun with small age/graded groups. Urbancrest has clubs for kids 4 years old
+    through 6th grade.
+
+    Meets Wednesdays from August 19 (Open House - Regular club begins August 26) through May 18 -- 6:15-7:30pm 
+
+    START ANYTIME throughout the year!
+
+    Dinners before club each night! We will start serving at 5:30 and close serving at 6:10pm.'
+  details_source: planning_center_calendar_api
+  planning_center_event_instance_id: '238359380'
+  planning_center_event_time_id: '31487702'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3737699
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1790827200&key=uploads%2Fevent%2Flogo%2F3737699%2Fimage-1600369375660.jpeg&thumb=720x405%23&version=1787148556&signature=6d15aefae58f3a6d6341dae202341d6a81ad49d1d6984a7ebf618c3143377f40
+  ministries:
+  - kids
+  - men
+  audiences:
+  - children
+  - men
+  - volunteers
+  event_category: churchwide_program
+  event_priority: 60
+  collection: main_events
+  status: confirmed
+  chronological_rank: 53
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-12-16-awana-2026-2027-a96a01.md
 - id: event-64c2ccc43d0fd347
   uid: ET-8762150-174858350@resources.planningcenteronline.com
   title: P U R S U E
@@ -2687,7 +3181,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 55
+  chronological_rank: 54
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-20-p-u-r-s-u-e-0fd347.md
@@ -2776,7 +3270,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 56
+  chronological_rank: 55
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-23-wednesday-night-dinner-8995f6.md
@@ -2802,7 +3296,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 57
+  chronological_rank: 56
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-27-p-u-r-s-u-e-440985.md
@@ -2891,7 +3385,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 58
+  chronological_rank: 57
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-30-wednesday-night-dinner-85ac1d.md
@@ -2919,7 +3413,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 59
+  chronological_rank: 58
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-02-men-s-breakfast-3d2c83.md
@@ -2945,7 +3439,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 60
+  chronological_rank: 59
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-03-p-u-r-s-u-e-b9a311.md
@@ -3034,7 +3528,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 61
+  chronological_rank: 60
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-06-wednesday-night-dinner-cd86db.md
@@ -3060,7 +3554,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 62
+  chronological_rank: 61
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-10-p-u-r-s-u-e-573975.md
@@ -3149,7 +3643,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 63
+  chronological_rank: 62
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-13-wednesday-night-dinner-ed64ec.md
@@ -3235,7 +3729,7 @@ events:
   event_source: planning_center_registrations_api
   event_sources:
   - planning_center_registrations_api
-  chronological_rank: 64
+  chronological_rank: 63
 - id: event-8029c470e3849556
   uid: ET-8762150-177521375@resources.planningcenteronline.com
   title: P U R S U E
@@ -3258,7 +3752,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 65
+  chronological_rank: 64
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-17-p-u-r-s-u-e-849556.md
@@ -3347,7 +3841,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 66
+  chronological_rank: 65
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-20-wednesday-night-dinner-c3c878.md
@@ -3410,7 +3904,7 @@ events:
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 67
+  chronological_rank: 66
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-22-men-s-summit-d35740.md
@@ -3469,7 +3963,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 68
+  chronological_rank: 67
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-24-p-u-r-s-u-e-696271.md
@@ -3558,7 +4052,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 69
+  chronological_rank: 68
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-27-wednesday-night-dinner-e92330.md
@@ -3582,7 +4076,7 @@ events:
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 70
+  chronological_rank: 69
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-28-summit-gym-set-up-50aaa2.md
@@ -3608,7 +4102,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 71
+  chronological_rank: 70
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-31-p-u-r-s-u-e-0ad28e.md
@@ -3697,7 +4191,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 72
+  chronological_rank: 71
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-03-wednesday-night-dinner-56372f.md
@@ -3725,7 +4219,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 73
+  chronological_rank: 72
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-06-men-s-breakfast-fa0b3e.md
@@ -3751,7 +4245,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 74
+  chronological_rank: 73
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-07-p-u-r-s-u-e-5d7610.md
@@ -3840,7 +4334,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 75
+  chronological_rank: 74
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-10-wednesday-night-dinner-818c3d.md
@@ -3866,7 +4360,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 76
+  chronological_rank: 75
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-14-p-u-r-s-u-e-b0cdee.md
@@ -3955,7 +4449,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 77
+  chronological_rank: 76
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-17-wednesday-night-dinner-e2ee59.md
@@ -3981,7 +4475,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 78
+  chronological_rank: 77
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-21-p-u-r-s-u-e-0f2ef6.md
@@ -4070,7 +4564,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 79
+  chronological_rank: 78
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-24-wednesday-night-dinner-8f0b45.md
@@ -4096,7 +4590,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 80
+  chronological_rank: 79
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-28-p-u-r-s-u-e-c08e98.md
@@ -4185,7 +4679,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 81
+  chronological_rank: 80
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-03-wednesday-night-dinner-8fb3dd.md
@@ -4213,7 +4707,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 82
+  chronological_rank: 81
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-06-men-s-breakfast-b236b5.md
@@ -4239,7 +4733,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 83
+  chronological_rank: 82
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-07-p-u-r-s-u-e-030fbd.md
@@ -4328,7 +4822,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 84
+  chronological_rank: 83
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-10-wednesday-night-dinner-48508a.md
@@ -4354,7 +4848,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 85
+  chronological_rank: 84
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-14-p-u-r-s-u-e-790e5a.md
@@ -4443,7 +4937,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 86
+  chronological_rank: 85
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-17-wednesday-night-dinner-ab6c0d.md
@@ -4469,7 +4963,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 87
+  chronological_rank: 86
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-21-p-u-r-s-u-e-217b95.md
@@ -4558,7 +5052,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 88
+  chronological_rank: 87
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-24-wednesday-night-dinner-46db45.md
@@ -4584,7 +5078,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 89
+  chronological_rank: 88
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-28-p-u-r-s-u-e-b2c788.md
@@ -4673,7 +5167,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 90
+  chronological_rank: 89
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-31-wednesday-night-dinner-fc63a5.md
@@ -4701,7 +5195,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 91
+  chronological_rank: 90
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-03-men-s-breakfast-069bd4.md
@@ -4727,7 +5221,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 92
+  chronological_rank: 91
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-04-p-u-r-s-u-e-2e9727.md
@@ -4753,7 +5247,7 @@ events:
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 93
+  chronological_rank: 92
   next_for_ministries:
   - missions
   next_for_audiences: []
@@ -4843,7 +5337,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 94
+  chronological_rank: 93
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-07-wednesday-night-dinner-8df64a.md
@@ -4869,7 +5363,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 95
+  chronological_rank: 94
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-11-p-u-r-s-u-e-93c2dd.md
@@ -4958,7 +5452,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 96
+  chronological_rank: 95
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-14-wednesday-night-dinner-e2d05a.md
@@ -4984,7 +5478,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 97
+  chronological_rank: 96
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-18-p-u-r-s-u-e-e41c24.md
@@ -5073,7 +5567,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 98
+  chronological_rank: 97
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-21-wednesday-night-dinner-0a84c3.md
@@ -5104,7 +5598,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 99
+  chronological_rank: 98
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-24-3v3-basketball-tournament-d9f0d6.md
@@ -5170,7 +5664,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 100
+  chronological_rank: 99
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-25-p-u-r-s-u-e-95a8d5.md
@@ -5259,7 +5753,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 101
+  chronological_rank: 100
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-28-wednesday-night-dinner-6a7394.md
@@ -5287,7 +5781,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 102
+  chronological_rank: 101
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-01-men-s-breakfast-d1cfba.md
@@ -5313,7 +5807,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 103
+  chronological_rank: 102
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-02-p-u-r-s-u-e-c4a599.md
@@ -5402,7 +5896,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 104
+  chronological_rank: 103
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-05-wednesday-night-dinner-30e195.md
@@ -5428,7 +5922,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 105
+  chronological_rank: 104
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-09-p-u-r-s-u-e-585e9e.md
@@ -5517,7 +6011,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 106
+  chronological_rank: 105
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-12-wednesday-night-dinner-e125ce.md
@@ -5543,7 +6037,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 107
+  chronological_rank: 106
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-16-p-u-r-s-u-e-5b41df.md
@@ -5632,7 +6126,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 108
+  chronological_rank: 107
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-19-wednesday-night-dinner-0df29f.md
@@ -5658,7 +6152,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 109
+  chronological_rank: 108
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-23-p-u-r-s-u-e-471aa6.md
@@ -5747,7 +6241,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 110
+  chronological_rank: 109
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-26-wednesday-night-dinner-46fce3.md
@@ -5773,7 +6267,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 111
+  chronological_rank: 110
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-30-p-u-r-s-u-e-518e4a.md
@@ -5862,7 +6356,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 112
+  chronological_rank: 111
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-02-wednesday-night-dinner-ba0347.md
@@ -5890,7 +6384,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 113
+  chronological_rank: 112
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-05-men-s-breakfast-456a52.md
@@ -5916,7 +6410,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 114
+  chronological_rank: 113
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-06-p-u-r-s-u-e-57106e.md
@@ -6005,7 +6499,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 115
+  chronological_rank: 114
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-09-wednesday-night-dinner-764b7d.md
@@ -6031,7 +6525,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 116
+  chronological_rank: 115
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-13-p-u-r-s-u-e-951848.md
@@ -6120,7 +6614,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 117
+  chronological_rank: 116
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-16-wednesday-night-dinner-6fef1b.md
@@ -6146,10 +6640,106 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 118
+  chronological_rank: 117
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-20-p-u-r-s-u-e-d091a4.md
+- id: event-a211e17e0b67d01b
+  uid: ET-33165311-238425288@resources.planningcenteronline.com
+  title: Kids Camp 2027
+  summary: 'Current 2nd through 6th graders CentriKid is… an overnight camp for 2nd–6th graders to experience the time of
+    their lives and learn more about the message of Jesus Christ! We will be doing fundraisers so sign up soon to get the
+    info! Location: Campbellsville University in...'
+  start: '2027-06-21T11:00:00-04:00'
+  end: '2027-06-25T16:00:00-04:00'
+  sort_start_utc: '2027-06-21T15:00:00Z'
+  sort_end_utc: '2027-06-25T20:00:00Z'
+  display_when: Monday, June 21, 2027 at 11 AM through Friday, June 25, 2027 at 4 PM
+  all_day: false
+  location: Campbellsville University
+  description: 'Current 2nd through 6th graders
+
+
+    CentriKid is… an overnight camp for 2nd–6th graders to experience the time of their lives and learn more about the message
+    of Jesus Christ!
+
+
+    We will be doing fundraisers so sign up soon to get the info!
+
+
+    Location: Campbellsville University in Campbellsville, KY (about 3 hrs)
+
+
+    Cost: $375 although multi-kid discounts and fundraisers are available! Deposit of $60 needed to reserve your spot.
+
+
+    Go to centrikid.com ( https://centrikid.com/ ) for more camp info.
+
+
+    Questions? Email Leah Green or Caren Whitmer'
+  details: "Current 2nd through 6th graders\n\nCentriKid is… an overnight camp for 2nd–6th graders to experience the time\
+    \ of their lives and learn more about the message of Jesus Christ! \n\nWe will be doing fundraisers so sign up soon to\
+    \ get the info!\n\nLocation: Campbellsville University in Campbellsville, KY (about 3 hrs)\n\nCost: $375 although multi-kid\
+    \ discounts and fundraisers are available!  Deposit of $60 needed to reserve your spot.\n\nGo to centrikid.com for more\
+    \ camp info.\n\nQuestions? Email Leah Green or Caren Whitmer\n\nRegistration is not currently open."
+  details_source: planning_center_registrations_api
+  planning_center_event_instance_id: '238425288'
+  planning_center_event_time_id: '33165311'
+  info_url: https://centrikid.com/
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1790870400&key=uploads%2Fevent%2Flogo%2F3928514%2Fimage-1736980568489.png&thumb=720x405%23&version=1790798551&signature=449ddfefb3a3235ea6ca6fe92d63d05b4bec223762679a57d94b26bf708905b7
+  ministries:
+  - kids
+  audiences:
+  - children
+  - volunteers
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 118
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-06-21-kids-camp-2027-67d01b.md
+  event_sources:
+  - planning_center_ical
+  - planning_center_calendar_api
+  - planning_center_registrations_api
+  event_source: merged
+  planning_center_signup_id: '3928514'
+  planning_center_signup_time_id: '6608933'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3928514/reservations/new
+  registration_available: true
+  registration_open: false
+  registration_closed: true
+  registration_at_maximum_capacity: null
+  registration_open_at: null
+  registration_close_at: null
+  registration_maximum_capacity: 60
+  registration_categories:
+  - Kids (4 yrs. - 6th Grade)
+  registration_options:
+  - id: '8980263'
+    name: Kid
+    price_cents: 37500
+    price_currency: USD
+    price_currency_symbol: $
+    price_formatted: '375'
+    maximum_capacity: 30
+    available_capacity: 30
+    at_maximum_capacity: false
+    waitlist: false
+  - id: '8980264'
+    name: Leaders
+    price_cents: 0
+    price_currency: USD
+    price_currency_symbol: $
+    price_formatted: '0'
+    maximum_capacity: 12
+    available_capacity: 12
+    at_maximum_capacity: false
+    waitlist: false
+  location_structured:
+    name: Campbellsville University
 - id: event-f562df9d668a9a7f
   uid: ET-31870601-230122748@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -7937,24 +8527,24 @@ registrations_api:
   status: ok
   api_version: '2025-05-01'
   signup_time_strategy: next_signup_time_then_signup_times_preserve_relationship_linkage
-  future_signup_count: 9
-  added_registration_only_events: 2
-  enriched_existing_events: 7
+  future_signup_count: 11
+  added_registration_only_events: 3
+  enriched_existing_events: 8
   category_allowlist: []
   category_denylist: []
-  signup_count_received: 16
+  signup_count_received: 12
   relationship_linkage_counts:
-    next_signup_time_relationship_present: 16
-    next_signup_time_with_linkage: 9
-    signup_times_relationship_present: 16
-    signup_times_with_linkage: 15
-    signup_location_relationship_present: 16
-    signup_location_with_linkage: 15
-    categories_relationship_present: 16
-    categories_with_linkage: 14
-    selection_types_relationship_present: 16
-    selection_types_with_linkage: 16
-  skipped_signup_count: 7
+    next_signup_time_relationship_present: 12
+    next_signup_time_with_linkage: 11
+    signup_times_relationship_present: 12
+    signup_times_with_linkage: 11
+    signup_location_relationship_present: 12
+    signup_location_with_linkage: 12
+    categories_relationship_present: 12
+    categories_with_linkage: 10
+    selection_types_relationship_present: 12
+    selection_types_with_linkage: 12
+  skipped_signup_count: 1
   skipped_reasons:
-    no_current_or_future_signup_time_within_lookahead: 7
+    no_current_or_future_signup_time_within_lookahead: 1
   page_count: 1

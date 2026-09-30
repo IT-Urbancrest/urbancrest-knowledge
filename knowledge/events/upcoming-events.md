@@ -16,7 +16,7 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-09-30T12:36:36.394002Z
+last_generated: 2026-09-30T20:02:52.411505Z
 ---
 
 # Upcoming Events
@@ -33,6 +33,18 @@ Events are listed in ascending chronological order.
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-09-30-wednesday-night-dinner-36f49b.md`
+
+## Awana 2026-2027
+
+**Category:** Churchwide Program
+
+**When:** Wednesday, September 30, 2026, 6:15 PM to 7:30 PM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3737699/reservations/new
+
+Detailed event file: `knowledge/events/generated/2026-09-30-awana-2026-2027-284c03.md`
 
 ## Men's Breakfast
 
@@ -116,6 +128,18 @@ Detailed event file: `knowledge/events/generated/2026-10-06-card-ministry-8e6732
 
 Detailed event file: `knowledge/events/generated/2026-10-07-wednesday-night-dinner-9fc5ad.md`
 
+## Awana 2026-2027
+
+**Category:** Churchwide Program
+
+**When:** Wednesday, October 7, 2026, 6:15 PM to 7:30 PM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3737699
+
+Detailed event file: `knowledge/events/generated/2026-10-07-awana-2026-2027-741b6b.md`
+
 ## Ohio Detectorists Association
 
 **Category:** General Event
@@ -166,6 +190,18 @@ Detailed event file: `knowledge/events/generated/2026-10-11-sunday-morning-servi
 
 Detailed event file: `knowledge/events/generated/2026-10-14-wednesday-night-dinner-d9103e.md`
 
+## Awana 2026-2027
+
+**Category:** Churchwide Program
+
+**When:** Wednesday, October 14, 2026, 6:15 PM to 7:30 PM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3737699
+
+Detailed event file: `knowledge/events/generated/2026-10-14-awana-2026-2027-c83ebf.md`
+
 ## Urbancrest Women's Conference
 
 **Category:** Major Event
@@ -208,16 +244,6 @@ Detailed event file: `knowledge/events/generated/2026-10-18-sunday-morning-servi
 
 Detailed event file: `knowledge/events/generated/2026-10-18-sunday-morning-services-11-00-am-service-c4ad2d.md`
 
-## Monthly Baskets of Hope - Volunteers
-
-**Category:** General Event
-
-**When:** Wednesday, October 21, 2026, 4:30 PM to 6:30 PM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-10-21-monthly-baskets-of-hope-volunteers-b2c4ee.md`
-
 ## Wednesday Night Dinner
 
 **Category:** Churchwide Program
@@ -227,6 +253,18 @@ Detailed event file: `knowledge/events/generated/2026-10-21-monthly-baskets-of-h
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-10-21-wednesday-night-dinner-0edf1f.md`
+
+## Awana 2026-2027
+
+**Category:** Churchwide Program
+
+**When:** Wednesday, October 21, 2026, 6:15 PM to 7:30 PM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3737699
+
+Detailed event file: `knowledge/events/generated/2026-10-21-awana-2026-2027-20b181.md`
 
 ## P U R S U E
 
@@ -238,37 +276,17 @@ Detailed event file: `knowledge/events/generated/2026-10-21-wednesday-night-dinn
 
 Detailed event file: `knowledge/events/generated/2026-10-25-p-u-r-s-u-e-3a39cd.md`
 
-## Sunday Morning Services: 9:30 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, October 25, 2026, 9:30 AM to 10:40 AM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-10-25-sunday-morning-services-9-30-am-service-9724fc.md`
-
-## Sunday Morning Services: 11:00 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, October 25, 2026, 11 AM to 12:10 PM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-10-25-sunday-morning-services-11-00-am-service-d92cdf.md`
-
 ## Trail of Treats
 
-**Category:** General Event
+**Category:** Kids Event
 
-**When:** Sunday, October 25, 2026, 5 PM to 7:30 PM
+**When:** Sunday, October 25, 2026 at 5:00 PM - 7:30 PM
 
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+**Where:** Urbancrest Church - 2634 Drake Road
+Parking Lot & Pavilion
+Lebanon, OH 45036
 
 **Registration:** https://urbancrest.churchcenter.com/registrations/events/3892183/reservations/new
-
-Detailed event file: `knowledge/events/generated/2026-10-25-trail-of-treats-7a5a96.md`
 
 ## Wednesday Night Dinner
 
@@ -279,6 +297,30 @@ Detailed event file: `knowledge/events/generated/2026-10-25-trail-of-treats-7a5a
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-10-28-wednesday-night-dinner-acac27.md`
+
+## Awana 2026-2027
+
+**Category:** Churchwide Program
+
+**When:** Wednesday, October 28, 2026, 6:15 PM to 7:30 PM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3737699
+
+Detailed event file: `knowledge/events/generated/2026-10-28-awana-2026-2027-e274b3.md`
+
+## Awana 2026-2027
+
+**Category:** Churchwide Program
+
+**When:** Wednesday, October 28, 2026, 6:15 PM to 7:30 PM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3737699
+
+Detailed event file: `knowledge/events/generated/2026-10-28-awana-2026-2027-a4c69b.md`
 
 ## Engage: New Members Class - Fall 2026
 
@@ -302,34 +344,6 @@ Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-11-01-p-u-r-s-u-e-96a55e.md`
 
-## Sunday Morning Services: 9:30 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, November 1, 2026, 9:30 AM to 10:40 AM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-11-01-sunday-morning-services-9-30-am-service-a90a62.md`
-
-## Sunday Morning Services: 11:00 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, November 1, 2026, 11 AM to 12:10 PM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-11-01-sunday-morning-services-11-00-am-service-5b69af.md`
-
-## Card Ministry
-
-**Category:** General Event
-
-**When:** Tuesday, November 3, 2026, 9 AM to 12 PM
-
-Detailed event file: `knowledge/events/generated/2026-11-03-card-ministry-7a8829.md`
-
 ## Wednesday Night Dinner
 
 **Category:** Churchwide Program
@@ -339,6 +353,18 @@ Detailed event file: `knowledge/events/generated/2026-11-03-card-ministry-7a8829
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-11-04-wednesday-night-dinner-55fdc7.md`
+
+## Awana 2026-2027
+
+**Category:** Churchwide Program
+
+**When:** Wednesday, November 4, 2026, 6:15 PM to 7:30 PM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3737699
+
+Detailed event file: `knowledge/events/generated/2026-11-04-awana-2026-2027-570e69.md`
 
 ## Men's Breakfast
 
@@ -360,26 +386,6 @@ Detailed event file: `knowledge/events/generated/2026-11-07-men-s-breakfast-b349
 
 Detailed event file: `knowledge/events/generated/2026-11-08-p-u-r-s-u-e-4c1a4d.md`
 
-## Sunday Morning Services: 9:30 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, November 8, 2026, 9:30 AM to 10:40 AM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-11-08-sunday-morning-services-9-30-am-service-5cd74e.md`
-
-## Sunday Morning Services: 11:00 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, November 8, 2026, 11 AM to 12:10 PM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-11-08-sunday-morning-services-11-00-am-service-7c486d.md`
-
 ## Wednesday Night Dinner
 
 **Category:** Churchwide Program
@@ -389,6 +395,18 @@ Detailed event file: `knowledge/events/generated/2026-11-08-sunday-morning-servi
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-11-11-wednesday-night-dinner-af1c1c.md`
+
+## Awana 2026-2027
+
+**Category:** Churchwide Program
+
+**When:** Wednesday, November 11, 2026, 6:15 PM to 7:30 PM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3737699
+
+Detailed event file: `knowledge/events/generated/2026-11-11-awana-2026-2027-cd3adc.md`
 
 ## Youth Fall Retreat
 
@@ -403,16 +421,6 @@ Hillsboro, OH 45133
 
 Detailed event file: `knowledge/events/generated/2026-11-13-youth-fall-retreat-99f87a.md`
 
-## OCC packing party
-
-**Category:** General Event
-
-**When:** Saturday, November 14, 2026, 1 PM to 2 PM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-11-14-occ-packing-party-47a8c2.md`
-
 ## P U R S U E
 
 **Category:** Ministry Event
@@ -422,36 +430,6 @@ Detailed event file: `knowledge/events/generated/2026-11-14-occ-packing-party-47
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-11-15-p-u-r-s-u-e-b86e1d.md`
-
-## Sunday Morning Services: 9:30 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, November 15, 2026, 9:30 AM to 10:40 AM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-11-15-sunday-morning-services-9-30-am-service-add3db.md`
-
-## Sunday Morning Services: 11:00 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, November 15, 2026, 11 AM to 12:10 PM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-11-15-sunday-morning-services-11-00-am-service-a656ef.md`
-
-## Monthly Baskets of Hope - Volunteers
-
-**Category:** General Event
-
-**When:** Wednesday, November 18, 2026, 4:30 PM to 6:30 PM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-11-18-monthly-baskets-of-hope-volunteers-7ab8b6.md`
 
 ## Wednesday Night Dinner
 
@@ -463,6 +441,18 @@ Detailed event file: `knowledge/events/generated/2026-11-18-monthly-baskets-of-h
 
 Detailed event file: `knowledge/events/generated/2026-11-18-wednesday-night-dinner-cf53fb.md`
 
+## Awana 2026-2027
+
+**Category:** Churchwide Program
+
+**When:** Wednesday, November 18, 2026, 6:15 PM to 7:30 PM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3737699
+
+Detailed event file: `knowledge/events/generated/2026-11-18-awana-2026-2027-743617.md`
+
 ## P U R S U E
 
 **Category:** Ministry Event
@@ -472,16 +462,6 @@ Detailed event file: `knowledge/events/generated/2026-11-18-wednesday-night-dinn
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-11-22-p-u-r-s-u-e-c3d97b.md`
-
-## Sunday Morning Services: 9:30 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, November 22, 2026, 9:30 AM to 10:40 AM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-11-22-sunday-morning-services-9-30-am-service-3e574a.md`
 
 ## Wednesday Night Dinner
 
@@ -512,6 +492,18 @@ Detailed event file: `knowledge/events/generated/2026-11-29-p-u-r-s-u-e-80f80e.m
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-12-02-wednesday-night-dinner-809fdf.md`
+
+## Awana 2026-2027
+
+**Category:** Churchwide Program
+
+**When:** Wednesday, December 2, 2026, 6:15 PM to 7:30 PM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3737699
+
+Detailed event file: `knowledge/events/generated/2026-12-02-awana-2026-2027-b78b32.md`
 
 ## Men's Breakfast
 
@@ -553,6 +545,18 @@ Detailed event file: `knowledge/events/generated/2026-12-06-women-s-christmas-ev
 
 Detailed event file: `knowledge/events/generated/2026-12-09-wednesday-night-dinner-6f6ed6.md`
 
+## Awana 2026-2027
+
+**Category:** Churchwide Program
+
+**When:** Wednesday, December 9, 2026, 6:15 PM to 7:30 PM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3737699
+
+Detailed event file: `knowledge/events/generated/2026-12-09-awana-2026-2027-983471.md`
+
 ## P U R S U E
 
 **Category:** Ministry Event
@@ -572,6 +576,18 @@ Detailed event file: `knowledge/events/generated/2026-12-13-p-u-r-s-u-e-e9bfa2.m
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-12-16-wednesday-night-dinner-d35842.md`
+
+## Awana 2026-2027
+
+**Category:** Churchwide Program
+
+**When:** Wednesday, December 16, 2026, 6:15 PM to 7:30 PM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3737699
+
+Detailed event file: `knowledge/events/generated/2026-12-16-awana-2026-2027-a96a01.md`
 
 ## P U R S U E
 
@@ -1216,6 +1232,18 @@ Detailed event file: `knowledge/events/generated/2027-06-16-wednesday-night-dinn
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2027-06-20-p-u-r-s-u-e-d091a4.md`
+
+## Kids Camp 2027
+
+**Category:** Ministry Event
+
+**When:** Monday, June 21, 2027 at 11 AM through Friday, June 25, 2027 at 4 PM
+
+**Where:** Campbellsville University
+
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3928514/reservations/new
+
+Detailed event file: `knowledge/events/generated/2027-06-21-kids-camp-2027-67d01b.md`
 
 ## Wednesday Night Dinner
 
