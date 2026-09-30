@@ -45,7 +45,7 @@ location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "230615455"
 planning_center_event_time_id: "31936721"
-last_generated: 2026-09-30T05:34:46.034383Z
+last_generated: 2026-09-30T12:36:35.242398Z
 ---
 
 # Urbancrest Women's Conference
