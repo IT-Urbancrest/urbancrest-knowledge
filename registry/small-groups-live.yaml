@@ -1,5 +1,5 @@
 version: 1.4.3
-generated_at: '2026-10-01T00:33:56.851936Z'
+generated_at: '2026-10-01T10:10:00.870233Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api
 api_enrichment:
@@ -362,7 +362,7 @@ groups:
   description: Wednesday Youth Gathering for students in grades 7-12 consisting of teaching, worship, and small group time.
   planning_center_event_instance_id: '169073295'
   planning_center_event_time_id: '25282532'
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Fsfkgtiufdgafjg73tuqant7jmhz3&thumb=960x540%23&signature=a05fd72902e9d63e043f20e85ede145c85d9ba7487292f37fc0fbf9de21d2a7b
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Fsfkgtiufdgafjg73tuqant7jmhz3&thumb=960x540%23&signature=63fa961fd073f0457e1f25c6ab5c57a58123b5bc8084358665bc95b6721bb177
   ministries:
   - students
   - worship

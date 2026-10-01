@@ -39,12 +39,12 @@ chronological_rank: 21
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
-image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=0b8c190d56325cbe0983da665c529dd8556e161d746bb60b6cb3d5a931891e63"
+image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6"
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "230122713"
 planning_center_event_time_id: "31870601"
-last_generated: 2026-10-01T00:33:56.851936Z
+last_generated: 2026-10-01T10:10:00.870233Z
 ---
 
 # Wednesday Night Dinner
@@ -91,6 +91,6 @@ Lasagna
 Salad Bar
 Ice Cream Bars
 
-**Event image:** https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1790830799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=0b8c190d56325cbe0983da665c529dd8556e161d746bb60b6cb3d5a931891e63
+**Event image:** https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6
 
 This information is synchronized automatically from Urbancrest's live calendar.
