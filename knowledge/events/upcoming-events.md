@@ -16,35 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-09-30T20:02:52.411505Z
+last_generated: 2026-10-01T00:33:58.102100Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## Wednesday Night Dinner
-
-**Category:** Churchwide Program
-
-**When:** Wednesday, September 30, 2026, 5:30 PM to 6:15 PM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-09-30-wednesday-night-dinner-36f49b.md`
-
-## Awana 2026-2027
-
-**Category:** Churchwide Program
-
-**When:** Wednesday, September 30, 2026, 6:15 PM to 7:30 PM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-**Registration:** https://urbancrest.churchcenter.com/registrations/events/3737699/reservations/new
-
-Detailed event file: `knowledge/events/generated/2026-09-30-awana-2026-2027-284c03.md`
 
 ## Men's Breakfast
 
@@ -136,7 +114,7 @@ Detailed event file: `knowledge/events/generated/2026-10-07-wednesday-night-dinn
 
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
-**Registration:** https://urbancrest.churchcenter.com/registrations/events/3737699
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3737699/reservations/new
 
 Detailed event file: `knowledge/events/generated/2026-10-07-awana-2026-2027-741b6b.md`
 
@@ -244,6 +222,16 @@ Detailed event file: `knowledge/events/generated/2026-10-18-sunday-morning-servi
 
 Detailed event file: `knowledge/events/generated/2026-10-18-sunday-morning-services-11-00-am-service-c4ad2d.md`
 
+## Monthly Baskets of Hope - Volunteers
+
+**Category:** General Event
+
+**When:** Wednesday, October 21, 2026, 4:30 PM to 6:30 PM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2026-10-21-monthly-baskets-of-hope-volunteers-b2c4ee.md`
+
 ## Wednesday Night Dinner
 
 **Category:** Churchwide Program
@@ -276,17 +264,27 @@ Detailed event file: `knowledge/events/generated/2026-10-21-awana-2026-2027-20b1
 
 Detailed event file: `knowledge/events/generated/2026-10-25-p-u-r-s-u-e-3a39cd.md`
 
+## Sunday Morning Services: 9:30 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, October 25, 2026, 9:30 AM to 10:40 AM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2026-10-25-sunday-morning-services-9-30-am-service-9724fc.md`
+
 ## Trail of Treats
 
-**Category:** Kids Event
+**Category:** General Event
 
-**When:** Sunday, October 25, 2026 at 5:00 PM - 7:30 PM
+**When:** Sunday, October 25, 2026, 5 PM to 7:30 PM
 
-**Where:** Urbancrest Church - 2634 Drake Road
-Parking Lot & Pavilion
-Lebanon, OH 45036
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 **Registration:** https://urbancrest.churchcenter.com/registrations/events/3892183/reservations/new
+
+Detailed event file: `knowledge/events/generated/2026-10-25-trail-of-treats-7a5a96.md`
 
 ## Wednesday Night Dinner
 
