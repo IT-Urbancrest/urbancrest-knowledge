@@ -16,7 +16,7 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-10-02T09:47:57.978267Z
+last_generated: 2026-10-02T17:52:59.023917Z
 ---
 
 # Upcoming Events
@@ -263,16 +263,6 @@ Detailed event file: `knowledge/events/generated/2026-10-21-awana-2026-2027-20b1
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-10-25-p-u-r-s-u-e-3a39cd.md`
-
-## Sunday Morning Services: 9:30 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, October 25, 2026, 9:30 AM to 10:40 AM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-10-25-sunday-morning-services-9-30-am-service-9724fc.md`
 
 ## Trail of Treats
 
@@ -1562,3 +1552,13 @@ Detailed event file: `knowledge/events/generated/2027-09-26-p-u-r-s-u-e-8ab4ad.m
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2027-09-29-wednesday-night-dinner-4040f9.md`
+
+## Men's Breakfast
+
+**Category:** Ministry Event
+
+**When:** Saturday, October 2, 2027, 8 AM to 10 AM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2027-10-02-men-s-breakfast-3640b7.md`
