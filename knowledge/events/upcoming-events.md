@@ -16,25 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-10-03T16:18:53.719084Z
+last_generated: 2026-10-03T21:17:30.156245Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## Men's Cornhole & BBQ
-
-**Category:** Ministry Event
-
-**When:** Saturday, October 3, 2026, 9 AM to 2 PM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-**Registration:** https://urbancrest.churchcenter.com/registrations/events/3849948/reservations/new
-
-Detailed event file: `knowledge/events/generated/2026-10-03-men-s-cornhole-bbq-c05019.md`
 
 ## P U R S U E
 
@@ -253,6 +241,16 @@ Detailed event file: `knowledge/events/generated/2026-10-21-awana-2026-2027-20b1
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-10-25-p-u-r-s-u-e-3a39cd.md`
+
+## Sunday Morning Services: 9:30 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, October 25, 2026, 9:30 AM to 10:40 AM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2026-10-25-sunday-morning-services-9-30-am-service-9724fc.md`
 
 ## Trail of Treats
 
