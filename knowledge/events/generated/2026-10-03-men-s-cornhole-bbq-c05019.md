@@ -35,9 +35,9 @@ event_start: "2026-10-03T09:00:00-04:00"
 event_end: "2026-10-03T14:00:00-04:00"
 sort_start_utc: "2026-10-03T13:00:00Z"
 sort_end_utc: "2026-10-03T18:00:00Z"
-chronological_rank: 2
-next_for_ministries: []
-next_for_audiences: []
+chronological_rank: 1
+next_for_ministries: ["men"]
+next_for_audiences: ["men"]
 all_day: false
 registration_url: "https://urbancrest.churchcenter.com/registrations/events/3849948"
 info_url: "https://registrations-production.s3.amazonaws.com/uploads/image/file/437162/9f82e639924a58965b5c00b4504caa1c.jpg?content-disposition=attachment"
@@ -45,7 +45,7 @@ image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=reg
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "233964133"
 planning_center_event_time_id: "32456802"
-last_generated: 2026-10-03T11:42:33.442221Z
+last_generated: 2026-10-03T16:18:52.756817Z
 ---
 
 # Men's Cornhole & BBQ

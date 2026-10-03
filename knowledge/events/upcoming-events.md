@@ -16,23 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-10-03T11:42:34.571519Z
+last_generated: 2026-10-03T16:18:53.719084Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## Men's Breakfast
-
-**Category:** Ministry Event
-
-**When:** Saturday, October 3, 2026, 8 AM to 10 AM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-10-03-men-s-breakfast-dec2d7.md`
 
 ## Men's Cornhole & BBQ
 
@@ -1562,3 +1552,13 @@ Detailed event file: `knowledge/events/generated/2027-09-29-wednesday-night-dinn
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2027-10-02-men-s-breakfast-3640b7.md`
+
+## P U R S U E
+
+**Category:** Ministry Event
+
+**When:** Sunday, October 3, 2027, 9:30 AM to 10:30 AM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2027-10-03-p-u-r-s-u-e-b32d1c.md`
