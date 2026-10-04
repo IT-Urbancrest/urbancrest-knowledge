@@ -1,9 +1,9 @@
 ---
-id: events.live.event-a48cd575ad391224
+id: events.live.event-37b1feeb225cd74e
 version: 1.4.3
 status: published
 priority: 50
-title: "Sunday Morning Services: 11:00 AM Service"
+title: "Sunday Morning Services: 9:30 AM Service"
 summary: "Join us in person or online!..."
 category: [events]
 event_category: "general_event"
@@ -21,35 +21,35 @@ review:
   factual: automated
 tags: ["event", "calendar", "upcoming", "general_event", "churchwide", "everyone"]
 search_terms:
-  - "Sunday Morning Services: 11:00 AM Service"
-  - "When is Sunday Morning Services: 11:00 AM Service?"
-  - "Where is Sunday Morning Services: 11:00 AM Service?"
-  - "Tell me about Sunday Morning Services: 11:00 AM Service"
-  - "What are the details for Sunday Morning Services: 11:00 AM Service?"
-  - "What is the menu for Sunday Morning Services: 11:00 AM Service?"
-  - "How do I register for Sunday Morning Services: 11:00 AM Service?"
+  - "Sunday Morning Services: 9:30 AM Service"
+  - "When is Sunday Morning Services: 9:30 AM Service?"
+  - "Where is Sunday Morning Services: 9:30 AM Service?"
+  - "Tell me about Sunday Morning Services: 9:30 AM Service"
+  - "What are the details for Sunday Morning Services: 9:30 AM Service?"
+  - "What is the menu for Sunday Morning Services: 9:30 AM Service?"
+  - "How do I register for Sunday Morning Services: 9:30 AM Service?"
 resources:
   - events.live
-event_id: event-a48cd575ad391224
-event_start: "2026-10-04T11:00:00-04:00"
-event_end: "2026-10-04T12:10:00-04:00"
-sort_start_utc: "2026-10-04T15:00:00Z"
-sort_end_utc: "2026-10-04T16:10:00Z"
-chronological_rank: 3
+event_id: event-37b1feeb225cd74e
+event_start: "2026-11-08T09:30:00-05:00"
+event_end: "2026-11-08T10:40:00-05:00"
+sort_start_utc: "2026-11-08T14:30:00Z"
+sort_end_utc: "2026-11-08T15:40:00Z"
+chronological_rank: 33
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
-planning_center_event_instance_id: "168914342"
-planning_center_event_time_id: "9127132"
-last_generated: 2026-10-04T12:24:28.625756Z
+planning_center_event_instance_id: "171522666"
+planning_center_event_time_id: "9127131"
+last_generated: 2026-10-04T18:38:45.765182Z
 ---
 
-# Sunday Morning Services: 11:00 AM Service
+# Sunday Morning Services: 9:30 AM Service
 
 Join us in person or online!...
 
-**When:** Sunday, October 4, 2026, 11 AM to 12:10 PM
+**When:** Sunday, November 8, 2026, 9:30 AM to 10:40 AM
 
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
