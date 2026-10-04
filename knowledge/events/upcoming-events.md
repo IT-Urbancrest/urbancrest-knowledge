@@ -16,25 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-10-04T18:38:46.780748Z
+last_generated: 2026-10-04T23:57:44.023235Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## Night of Worship Choir
-
-**Category:** Ministry Event
-
-**When:** Sunday, October 4, 2026, 6 PM to 7:30 PM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-**Registration:** https://urbancrest.churchcenter.com/registrations/events/3755569/reservations/new
-
-Detailed event file: `knowledge/events/generated/2026-10-04-night-of-worship-choir-2a753e.md`
 
 ## Card Ministry
 
@@ -319,6 +307,14 @@ Detailed event file: `knowledge/events/generated/2026-11-01-sunday-morning-servi
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-11-01-sunday-morning-services-11-00-am-service-5b69af.md`
+
+## Card Ministry
+
+**Category:** General Event
+
+**When:** Tuesday, November 3, 2026, 9 AM to 12 PM
+
+Detailed event file: `knowledge/events/generated/2026-11-03-card-ministry-7a8829.md`
 
 ## Wednesday Night Dinner
 
