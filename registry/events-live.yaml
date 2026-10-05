@@ -1,11 +1,11 @@
 version: 1.5.4
-generated_at: '2026-10-05T14:42:26.355457Z'
+generated_at: '2026-10-05T22:01:44.602922Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
   enabled: true
-  target_instance_count: 379
-  matched_instance_count: 378
+  target_instance_count: 378
+  matched_instance_count: 377
   page_count: 9
   api_version: '2026-06-22'
 source_of_truth_for_calendar_intents: true
@@ -56,29 +56,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -359,29 +337,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -724,29 +680,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -1142,29 +1076,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -1573,29 +1485,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -1787,29 +1677,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -2052,29 +1920,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -2238,29 +2084,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -2353,29 +2177,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -2595,29 +2397,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -2781,29 +2561,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -2967,29 +2725,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -3082,29 +2818,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -3225,29 +2939,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -3340,29 +3032,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -3538,29 +3208,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -3749,29 +3397,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -3888,29 +3514,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -4031,29 +3635,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -4146,29 +3728,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -4261,29 +3821,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -4376,29 +3914,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -4519,29 +4035,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -4634,29 +4128,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -4749,29 +4221,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -4864,29 +4314,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -5034,29 +4462,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -5149,29 +4555,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -5264,29 +4648,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -5450,29 +4812,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -5593,29 +4933,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -5708,29 +5026,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -5823,29 +5119,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -5938,29 +5212,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -6053,29 +5305,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -6196,29 +5426,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -6311,29 +5519,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -6522,29 +5708,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -6637,29 +5801,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -6780,29 +5922,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -6895,29 +6015,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -7010,29 +6108,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -7125,29 +6201,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -7240,29 +6294,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -7383,29 +6415,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -7498,29 +6508,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -7613,29 +6601,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -7728,29 +6694,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -7871,29 +6815,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -7986,29 +6908,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -8101,29 +7001,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
@@ -8216,29 +7094,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'September 23, 2026
-
-    Spaghetti & Meatballs
-
-    Salad Bar
-
-    Ice Cream Bars
-
-    September 30, 2026
-
-    Ham
-
-    Scalloped Potatoes
-
-    Green Beans
-
-    Salad Bar
-
-    Rolls
-
-    Ice Cream Cups & Cookies
-
-    October 7, 2026
+  details: 'October 7, 2026
 
     Chili & Coneys
 
