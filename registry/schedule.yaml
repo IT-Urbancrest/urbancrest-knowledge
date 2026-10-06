@@ -211,6 +211,8 @@ schedules:
     time: 5:30 PM
     location: Gymnasium
   answer_guidance: The regular Wednesday dinner begins at 5:30 PM in the Gymnasium.
+  recurring_menu_notes:
+  - Hot dogs and chips are also available at every Wednesday Night Dinner.
 - id: legacy_builders.injoy_sunday_school
   ministry: legacy_builders
   name: InJoy Adult Sunday School Class
