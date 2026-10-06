@@ -1,5 +1,5 @@
 ---
-id: events.live.event-50d5c3da5b36b6bb
+id: events.live.event-8697ad3fa97e1f00
 version: 1.4.3
 status: published
 priority: 60
@@ -30,19 +30,19 @@ search_terms:
   - "How do I register for Wednesday Night Dinner?"
 resources:
   - events.live
-event_id: event-50d5c3da5b36b6bb
-event_start: "2027-07-07T17:30:00-04:00"
-event_end: "2027-07-07T18:15:00-04:00"
-sort_start_utc: "2027-07-07T21:30:00Z"
-sort_end_utc: "2027-07-07T22:15:00Z"
-chronological_rank: 121
+event_id: event-8697ad3fa97e1f00
+event_start: "2027-10-06T17:30:00-04:00"
+event_end: "2027-10-06T18:15:00-04:00"
+sort_start_utc: "2027-10-06T21:30:00Z"
+sort_end_utc: "2027-10-06T22:15:00Z"
+chronological_rank: 150
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
 image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6"
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
-planning_center_event_instance_id: "230122750"
+planning_center_event_instance_id: "230122763"
 planning_center_event_time_id: "31870601"
 last_generated: 2026-10-06T22:39:49.065162Z
 ---
@@ -51,7 +51,7 @@ last_generated: 2026-10-06T22:39:49.065162Z
 
 Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
 
-**When:** Wednesday, July 7, 2027, 5:30 PM to 6:15 PM
+**When:** Wednesday, October 6, 2027, 5:30 PM to 6:15 PM
 
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 

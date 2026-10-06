@@ -16,21 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-10-06T15:58:07.438068Z
+last_generated: 2026-10-06T22:39:50.042498Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## Card Ministry
-
-**Category:** General Event
-
-**When:** Tuesday, October 6, 2026, 9 AM to 12 PM
-
-Detailed event file: `knowledge/events/generated/2026-10-06-card-ministry-8e6732.md`
 
 ## Wednesday Night Dinner
 
@@ -1556,3 +1548,13 @@ Detailed event file: `knowledge/events/generated/2027-10-02-men-s-breakfast-3640
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2027-10-03-p-u-r-s-u-e-b32d1c.md`
+
+## Wednesday Night Dinner
+
+**Category:** Churchwide Program
+
+**When:** Wednesday, October 6, 2027, 5:30 PM to 6:15 PM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2027-10-06-wednesday-night-dinner-7e1f00.md`
