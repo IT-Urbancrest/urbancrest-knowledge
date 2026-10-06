@@ -1,10 +1,10 @@
 version: 1.5.4
-generated_at: '2026-10-05T22:01:44.602922Z'
+generated_at: '2026-10-06T06:22:44.254740Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
   enabled: true
-  target_instance_count: 378
+  target_instance_count: 377
   matched_instance_count: 377
   page_count: 9
   api_version: '2026-06-22'
