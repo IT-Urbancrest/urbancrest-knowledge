@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-10-05T22:01:45.670587Z",
+  "generated_at": "2026-10-06T01:33:28.723028Z",
   "timezone": "America/New_York",
   "record_count": 476,
   "config": {
@@ -2665,6 +2665,9 @@
         "churchwide",
         "Wednesday activities",
         "Wednesday nights"
+      ],
+      "recurring_menu_notes": [
+        "Hot dogs and chips are also available at every Wednesday Night Dinner."
       ],
       "show_staff_card_on_schedule_queries": false,
       "timezone": "America/New_York"
