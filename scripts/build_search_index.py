@@ -529,6 +529,7 @@ def schedule_records() -> list[dict[str, Any]]:
                 schedule_aliases=as_list(schedule.get("aliases")),
                 ministry_aliases=as_list(ministry_config.get("aliases")),
                 seasonal_note=seasonal_note,
+                recurring_menu_notes=as_list(schedule.get("recurring_menu_notes")),
                 recommended_contact_staff_key=recommended_staff_key,
                 show_staff_card_on_schedule_queries=bool(show_staff_card),
                 timezone=data.get("timezone", "America/New_York"),
