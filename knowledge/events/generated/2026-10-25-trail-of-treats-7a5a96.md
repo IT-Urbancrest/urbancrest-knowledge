@@ -45,7 +45,7 @@ location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "236678223"
 planning_center_event_time_id: "32871096"
-last_generated: 2026-10-09T10:35:43.135215Z
+last_generated: 2026-10-09T18:21:49.492199Z
 ---
 
 # Trail of Treats
