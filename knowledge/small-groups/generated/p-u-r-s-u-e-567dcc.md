@@ -28,7 +28,7 @@ meeting_count_in_window: 52
 image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Fsfkgtiufdgafjg73tuqant7jmhz3&thumb=960x540%23&signature=63fa961fd073f0457e1f25c6ab5c57a58123b5bc8084358665bc95b6721bb177"
 planning_center_event_instance_id: "169619084"
 planning_center_event_time_id: "25282532"
-last_generated: 2026-10-10T00:52:57.136694Z
+last_generated: 2026-10-10T09:52:16.555456Z
 ---
 
 # P U R S U E
