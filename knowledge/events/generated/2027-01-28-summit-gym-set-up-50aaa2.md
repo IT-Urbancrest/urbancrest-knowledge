@@ -41,7 +41,7 @@ next_for_audiences: []
 all_day: true
 planning_center_event_instance_id: "178563594"
 planning_center_event_time_id: "14177442"
-last_generated: 2026-10-10T17:21:02.175371Z
+last_generated: 2026-10-10T21:45:58.092516Z
 ---
 
 # Summit - Gym Set-up

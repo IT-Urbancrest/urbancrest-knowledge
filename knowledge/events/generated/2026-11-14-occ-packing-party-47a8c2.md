@@ -35,14 +35,14 @@ event_start: "2026-11-14T13:00:00-05:00"
 event_end: "2026-11-14T14:00:00-05:00"
 sort_start_utc: "2026-11-14T18:00:00Z"
 sort_end_utc: "2026-11-14T19:00:00Z"
-chronological_rank: 34
+chronological_rank: 33
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "228651524"
 planning_center_event_time_id: "31623389"
-last_generated: 2026-10-10T17:21:02.175371Z
+last_generated: 2026-10-10T21:45:58.092516Z
 ---
 
 # OCC packing party
