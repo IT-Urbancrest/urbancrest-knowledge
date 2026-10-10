@@ -16,7 +16,7 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-10-10T09:52:17.683617Z
+last_generated: 2026-10-10T17:21:03.321692Z
 ---
 
 # Upcoming Events
@@ -337,16 +337,6 @@ Detailed event file: `knowledge/events/generated/2026-11-08-p-u-r-s-u-e-4c1a4d.m
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-11-08-sunday-morning-services-9-30-am-service-5cd74e.md`
-
-## Sunday Morning Services: 11:00 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, November 8, 2026, 11 AM to 12:10 PM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-11-08-sunday-morning-services-11-00-am-service-7c486d.md`
 
 ## Wednesday Night Dinner
 
@@ -1556,3 +1546,13 @@ Detailed event file: `knowledge/events/generated/2027-10-03-p-u-r-s-u-e-b32d1c.m
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2027-10-06-wednesday-night-dinner-7e1f00.md`
+
+## P U R S U E
+
+**Category:** Ministry Event
+
+**When:** Sunday, October 10, 2027, 9:30 AM to 10:30 AM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2027-10-10-p-u-r-s-u-e-47a78b.md`
