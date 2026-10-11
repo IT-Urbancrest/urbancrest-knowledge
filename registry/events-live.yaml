@@ -1,5 +1,5 @@
 version: 1.5.4
-generated_at: '2026-10-11T12:52:20.640655Z'
+generated_at: '2026-10-11T19:34:11.747566Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
@@ -19,88 +19,6 @@ selection:
   policy: Protect all major and ministry events before lower-priority events.
 event_count: 150
 events:
-- id: event-335555bbce8f8f87
-  uid: ET-8762150-169483179@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2026-10-11T09:30:00-04:00'
-  end: '2026-10-11T10:30:00-04:00'
-  sort_start_utc: '2026-10-11T13:30:00Z'
-  sort_end_utc: '2026-10-11T14:30:00Z'
-  display_when: Sunday, October 11, 2026, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '169483179'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 1
-  next_for_ministries:
-  - students
-  next_for_audiences:
-  - students
-  knowledge_file: knowledge/events/generated/2026-10-11-p-u-r-s-u-e-8f8f87.md
-- id: event-367906f93e0b689c
-  uid: ET-9127131-169483181@resources.planningcenteronline.com
-  title: 'Sunday Morning Services: 9:30 AM Service'
-  summary: Join us in person or online!...
-  start: '2026-10-11T09:30:00-04:00'
-  end: '2026-10-11T10:40:00-04:00'
-  sort_start_utc: '2026-10-11T13:30:00Z'
-  sort_end_utc: '2026-10-11T14:40:00Z'
-  display_when: Sunday, October 11, 2026, 9:30 AM to 10:40 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
-    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
-  planning_center_event_instance_id: '169483181'
-  planning_center_event_time_id: '9127131'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 2
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-10-11-sunday-morning-services-9-30-am-service-0b689c.md
-- id: event-d2e5dfa8bb31230b
-  uid: ET-9127132-169483181@resources.planningcenteronline.com
-  title: 'Sunday Morning Services: 11:00 AM Service'
-  summary: Join us in person or online!...
-  start: '2026-10-11T11:00:00-04:00'
-  end: '2026-10-11T12:10:00-04:00'
-  sort_start_utc: '2026-10-11T15:00:00Z'
-  sort_end_utc: '2026-10-11T16:10:00Z'
-  display_when: Sunday, October 11, 2026, 11 AM to 12:10 PM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
-    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
-  planning_center_event_instance_id: '169483181'
-  planning_center_event_time_id: '9127132'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 3
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-10-11-sunday-morning-services-11-00-am-service-31230b.md
 - id: event-44129fdd6fd9103e
   uid: ET-31870601-230122712@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -164,7 +82,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 4
+  chronological_rank: 1
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-14-wednesday-night-dinner-d9103e.md
@@ -225,7 +143,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 5
+  chronological_rank: 2
   next_for_ministries:
   - kids
   - men
@@ -329,7 +247,7 @@ events:
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 6
+  chronological_rank: 3
   next_for_ministries:
   - women
   - worship
@@ -393,9 +311,11 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 7
-  next_for_ministries: []
-  next_for_audiences: []
+  chronological_rank: 4
+  next_for_ministries:
+  - students
+  next_for_audiences:
+  - students
   knowledge_file: knowledge/events/generated/2026-10-18-p-u-r-s-u-e-2350e7.md
 - id: event-ff59e84543d0a2ae
   uid: ET-9127131-169990120@resources.planningcenteronline.com
@@ -420,7 +340,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 8
+  chronological_rank: 5
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-18-sunday-morning-services-9-30-am-service-d0a2ae.md
@@ -447,7 +367,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 9
+  chronological_rank: 6
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-18-sunday-morning-services-11-00-am-service-c4ad2d.md
@@ -474,7 +394,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 10
+  chronological_rank: 7
   next_for_ministries: []
   next_for_audiences:
   - families
@@ -542,7 +462,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 11
+  chronological_rank: 8
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-21-wednesday-night-dinner-0edf1f.md
@@ -613,7 +533,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 12
+  chronological_rank: 9
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-21-awana-2026-2027-20b181.md
@@ -639,7 +559,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 13
+  chronological_rank: 10
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-25-p-u-r-s-u-e-3a39cd.md
@@ -666,7 +586,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 14
+  chronological_rank: 11
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-25-sunday-morning-services-9-30-am-service-9724fc.md
@@ -693,7 +613,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 15
+  chronological_rank: 12
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-25-sunday-morning-services-11-00-am-service-d92cdf.md
@@ -783,7 +703,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 16
+  chronological_rank: 13
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-25-trail-of-treats-7a5a96.md
@@ -938,7 +858,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 17
+  chronological_rank: 14
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-28-wednesday-night-dinner-acac27.md
@@ -1009,7 +929,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 18
+  chronological_rank: 15
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-28-awana-2026-2027-e274b3.md
@@ -1080,7 +1000,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 19
+  chronological_rank: 16
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-28-awana-2026-2027-a4c69b.md
@@ -1178,7 +1098,7 @@ events:
   event_source: planning_center_registrations_api
   event_sources:
   - planning_center_registrations_api
-  chronological_rank: 20
+  chronological_rank: 17
 - id: event-64ae9a123396a55e
   uid: ET-8762150-171026771@resources.planningcenteronline.com
   title: P U R S U E
@@ -1201,7 +1121,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 21
+  chronological_rank: 18
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-01-p-u-r-s-u-e-96a55e.md
@@ -1228,7 +1148,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 22
+  chronological_rank: 19
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-01-sunday-morning-services-9-30-am-service-a90a62.md
@@ -1255,7 +1175,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 23
+  chronological_rank: 20
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-01-sunday-morning-services-11-00-am-service-5b69af.md
@@ -1280,7 +1200,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 24
+  chronological_rank: 21
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-03-card-ministry-7a8829.md
@@ -1347,7 +1267,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 25
+  chronological_rank: 22
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-04-wednesday-night-dinner-55fdc7.md
@@ -1418,7 +1338,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 26
+  chronological_rank: 23
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-04-awana-2026-2027-570e69.md
@@ -1446,7 +1366,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 27
+  chronological_rank: 24
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-07-men-s-breakfast-b349ea.md
@@ -1472,7 +1392,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 28
+  chronological_rank: 25
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-08-p-u-r-s-u-e-4c1a4d.md
@@ -1499,7 +1419,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 29
+  chronological_rank: 26
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-08-sunday-morning-services-9-30-am-service-5cd74e.md
@@ -1526,7 +1446,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 30
+  chronological_rank: 27
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-08-sunday-morning-services-11-00-am-service-7c486d.md
@@ -1593,7 +1513,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 31
+  chronological_rank: 28
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-11-wednesday-night-dinner-af1c1c.md
@@ -1664,7 +1584,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 32
+  chronological_rank: 29
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-11-awana-2026-2027-cd3adc.md
@@ -1704,7 +1624,7 @@ events:
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 33
+  chronological_rank: 30
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-13-youth-fall-retreat-99f87a.md
@@ -1747,6 +1667,32 @@ events:
       Hillsboro, OH 45133'
     latitude: '39.113261'
     longitude: '-83.378668'
+- id: event-b18a11de2647a8c2
+  uid: ET-31623389-228651524@resources.planningcenteronline.com
+  title: OCC packing party
+  summary: OCC packing party is scheduled for Saturday, November 14, 2026, 1 PM to 2 PM at Urbancrest Church - 2634 Drake
+    Road, Lebanon, OH 45036.
+  start: '2026-11-14T13:00:00-05:00'
+  end: '2026-11-14T14:00:00-05:00'
+  sort_start_utc: '2026-11-14T18:00:00Z'
+  sort_end_utc: '2026-11-14T19:00:00Z'
+  display_when: Saturday, November 14, 2026, 1 PM to 2 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  planning_center_event_instance_id: '228651524'
+  planning_center_event_time_id: '31623389'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 31
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-14-occ-packing-party-47a8c2.md
 - id: event-1652bc35e5b86e1d
   uid: ET-8762150-172162011@resources.planningcenteronline.com
   title: P U R S U E
@@ -1769,10 +1715,64 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 34
+  chronological_rank: 32
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-15-p-u-r-s-u-e-b86e1d.md
+- id: event-6bc5aa1e27add3db
+  uid: ET-9127131-172162010@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-11-15T09:30:00-05:00'
+  end: '2026-11-15T10:40:00-05:00'
+  sort_start_utc: '2026-11-15T14:30:00Z'
+  sort_end_utc: '2026-11-15T15:40:00Z'
+  display_when: Sunday, November 15, 2026, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '172162010'
+  planning_center_event_time_id: '9127131'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 33
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-15-sunday-morning-services-9-30-am-service-add3db.md
+- id: event-361f8f98cea656ef
+  uid: ET-9127132-172162010@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-11-15T11:00:00-05:00'
+  end: '2026-11-15T12:10:00-05:00'
+  sort_start_utc: '2026-11-15T16:00:00Z'
+  sort_end_utc: '2026-11-15T17:10:00Z'
+  display_when: Sunday, November 15, 2026, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '172162010'
+  planning_center_event_time_id: '9127132'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 34
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-15-sunday-morning-services-11-00-am-service-a656ef.md
 - id: event-cc6c730d57cf53fb
   uid: ET-31870601-230122717@resources.planningcenteronline.com
   title: Wednesday Night Dinner

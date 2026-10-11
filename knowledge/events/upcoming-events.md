@@ -16,43 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-10-11T12:52:20.640655Z
+last_generated: 2026-10-11T19:34:11.747566Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## P U R S U E
-
-**Category:** Ministry Event
-
-**When:** Sunday, October 11, 2026, 9:30 AM to 10:30 AM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-10-11-p-u-r-s-u-e-8f8f87.md`
-
-## Sunday Morning Services: 9:30 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, October 11, 2026, 9:30 AM to 10:40 AM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-10-11-sunday-morning-services-9-30-am-service-0b689c.md`
-
-## Sunday Morning Services: 11:00 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, October 11, 2026, 11 AM to 12:10 PM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-10-11-sunday-morning-services-11-00-am-service-31230b.md`
 
 ## Wednesday Night Dinner
 
@@ -373,6 +343,16 @@ Hillsboro, OH 45133
 
 Detailed event file: `knowledge/events/generated/2026-11-13-youth-fall-retreat-99f87a.md`
 
+## OCC packing party
+
+**Category:** General Event
+
+**When:** Saturday, November 14, 2026, 1 PM to 2 PM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2026-11-14-occ-packing-party-47a8c2.md`
+
 ## P U R S U E
 
 **Category:** Ministry Event
@@ -382,6 +362,26 @@ Detailed event file: `knowledge/events/generated/2026-11-13-youth-fall-retreat-9
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-11-15-p-u-r-s-u-e-b86e1d.md`
+
+## Sunday Morning Services: 9:30 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, November 15, 2026, 9:30 AM to 10:40 AM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2026-11-15-sunday-morning-services-9-30-am-service-add3db.md`
+
+## Sunday Morning Services: 11:00 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, November 15, 2026, 11 AM to 12:10 PM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2026-11-15-sunday-morning-services-11-00-am-service-a656ef.md`
 
 ## Wednesday Night Dinner
 
