@@ -35,9 +35,9 @@ event_start: "2026-11-13"
 event_end: "2026-11-16"
 sort_start_utc: "2026-11-13T05:00:00Z"
 sort_end_utc: "2026-11-16T05:00:00Z"
-chronological_rank: 29
-next_for_ministries: []
-next_for_audiences: []
+chronological_rank: 26
+next_for_ministries: ["students"]
+next_for_audiences: ["students"]
 all_day: true
 registration_url: "https://urbancrest.churchcenter.com/registrations/events/3790005"
 image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1789012800&key=uploads%2Fevent%2Flogo%2F3790005%2Fimage-1785514673084.jpeg&thumb=720x405%23&version=1788966560&signature=9f081450a610ae3835f39bd2f44cc9d3a935c95752ac1771b37415322cc3ab31"
@@ -45,7 +45,7 @@ location: "Butler Springs Christian Camp - 3701 State Rte 41\nHillsboro, OH 4513
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "230487173"
 planning_center_event_time_id: "31924846"
-last_generated: 2026-10-12T10:52:12.420180Z
+last_generated: 2026-10-12T21:17:00.115696Z
 ---
 
 # Youth Fall Retreat

@@ -1,11 +1,11 @@
 version: 1.5.4
-generated_at: '2026-10-12T10:52:13.206628Z'
+generated_at: '2026-10-12T21:17:00.780036Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
   enabled: true
-  target_instance_count: 396
-  matched_instance_count: 396
+  target_instance_count: 232
+  matched_instance_count: 232
   page_count: 8
   api_version: '2026-06-22'
 source_of_truth_for_calendar_intents: true
@@ -289,34 +289,6 @@ events:
       Lebanon, OH 45036'
     latitude: '39.4747445'
     longitude: '-84.1792958'
-- id: event-355987c6282350e7
-  uid: ET-8762150-169990121@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2026-10-18T09:30:00-04:00'
-  end: '2026-10-18T10:30:00-04:00'
-  sort_start_utc: '2026-10-18T13:30:00Z'
-  sort_end_utc: '2026-10-18T14:30:00Z'
-  display_when: Sunday, October 18, 2026, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '169990121'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 4
-  next_for_ministries:
-  - students
-  next_for_audiences:
-  - students
-  knowledge_file: knowledge/events/generated/2026-10-18-p-u-r-s-u-e-2350e7.md
 - id: event-ff59e84543d0a2ae
   uid: ET-9127131-169990120@resources.planningcenteronline.com
   title: 'Sunday Morning Services: 9:30 AM Service'
@@ -340,7 +312,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 5
+  chronological_rank: 4
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-18-sunday-morning-services-9-30-am-service-d0a2ae.md
@@ -367,7 +339,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 6
+  chronological_rank: 5
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-18-sunday-morning-services-11-00-am-service-c4ad2d.md
@@ -394,7 +366,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 7
+  chronological_rank: 6
   next_for_ministries: []
   next_for_audiences:
   - families
@@ -462,7 +434,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 8
+  chronological_rank: 7
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-21-wednesday-night-dinner-0edf1f.md
@@ -533,36 +505,10 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 9
+  chronological_rank: 8
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-21-awana-2026-2027-20b181.md
-- id: event-d05c3ac79e3a39cd
-  uid: ET-8762150-170494272@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2026-10-25T09:30:00-04:00'
-  end: '2026-10-25T10:30:00-04:00'
-  sort_start_utc: '2026-10-25T13:30:00Z'
-  sort_end_utc: '2026-10-25T14:30:00Z'
-  display_when: Sunday, October 25, 2026, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '170494272'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 10
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-10-25-p-u-r-s-u-e-3a39cd.md
 - id: event-5be762b6dc9724fc
   uid: ET-9127131-170494276@resources.planningcenteronline.com
   title: 'Sunday Morning Services: 9:30 AM Service'
@@ -586,7 +532,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 11
+  chronological_rank: 9
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-25-sunday-morning-services-9-30-am-service-9724fc.md
@@ -613,7 +559,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 12
+  chronological_rank: 10
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-25-sunday-morning-services-11-00-am-service-d92cdf.md
@@ -703,7 +649,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 13
+  chronological_rank: 11
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-25-trail-of-treats-7a5a96.md
@@ -733,7 +679,7 @@ events:
     price_currency_symbol: $
     price_formatted: '0'
     maximum_capacity: 44
-    available_capacity: 31
+    available_capacity: 30
     at_maximum_capacity: false
     waitlist: false
   - id: '8896323'
@@ -858,7 +804,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 14
+  chronological_rank: 12
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-28-wednesday-night-dinner-acac27.md
@@ -929,7 +875,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 15
+  chronological_rank: 13
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-28-awana-2026-2027-e274b3.md
@@ -1000,7 +946,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 16
+  chronological_rank: 14
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-10-28-awana-2026-2027-a4c69b.md
@@ -1098,33 +1044,7 @@ events:
   event_source: planning_center_registrations_api
   event_sources:
   - planning_center_registrations_api
-  chronological_rank: 17
-- id: event-64ae9a123396a55e
-  uid: ET-8762150-171026771@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2026-11-01T09:30:00-05:00'
-  end: '2026-11-01T10:30:00-05:00'
-  sort_start_utc: '2026-11-01T14:30:00Z'
-  sort_end_utc: '2026-11-01T15:30:00Z'
-  display_when: Sunday, November 1, 2026, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '171026771'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 18
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-11-01-p-u-r-s-u-e-96a55e.md
+  chronological_rank: 15
 - id: event-5260c3af76a90a62
   uid: ET-9127131-171026769@resources.planningcenteronline.com
   title: 'Sunday Morning Services: 9:30 AM Service'
@@ -1148,7 +1068,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 19
+  chronological_rank: 16
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-01-sunday-morning-services-9-30-am-service-a90a62.md
@@ -1175,35 +1095,10 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 20
+  chronological_rank: 17
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-01-sunday-morning-services-11-00-am-service-5b69af.md
-- id: event-66ea7967217a8829
-  uid: ET-28363612-171120675@resources.planningcenteronline.com
-  title: Card Ministry
-  summary: Rai Lynn Guidone
-  start: '2026-11-03T09:00:00-05:00'
-  end: '2026-11-03T12:00:00-05:00'
-  sort_start_utc: '2026-11-03T14:00:00Z'
-  sort_end_utc: '2026-11-03T17:00:00Z'
-  display_when: Tuesday, November 3, 2026, 9 AM to 12 PM
-  all_day: false
-  description: Rai Lynn Guidone
-  planning_center_event_instance_id: '171120675'
-  planning_center_event_time_id: '28363612'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 21
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-11-03-card-ministry-7a8829.md
 - id: event-1aae13f9c455fdc7
   uid: ET-31870601-230122715@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -1267,7 +1162,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 22
+  chronological_rank: 18
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-04-wednesday-night-dinner-55fdc7.md
@@ -1338,10 +1233,36 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 23
+  chronological_rank: 19
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-04-awana-2026-2027-570e69.md
+- id: event-ca0ce2edaf58f69f
+  uid: ET-33357839-239644657@resources.planningcenteronline.com
+  title: Christmas Choir Rehearsal
+  summary: Join us for this special event Choir to celebrate the Christmas Season.
+  start: '2026-11-05T17:30:00-05:00'
+  end: '2026-11-05T18:30:00-05:00'
+  sort_start_utc: '2026-11-05T22:30:00Z'
+  sort_end_utc: '2026-11-05T23:30:00Z'
+  display_when: Thursday, November 5, 2026, 5:30 PM to 6:30 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us for this special event Choir to celebrate the Christmas Season. email questions to Pastor Larry (lnichols@urbancrest.org)
+  planning_center_event_instance_id: '239644657'
+  planning_center_event_time_id: '33357839'
+  ministries:
+  - worship
+  audiences:
+  - everyone
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 20
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-05-christmas-choir-rehearsal-58f69f.md
 - id: event-f93e5d4a42b349ea
   uid: ET-30270334-171450066@resources.planningcenteronline.com
   title: Men's Breakfast
@@ -1366,36 +1287,10 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 24
+  chronological_rank: 21
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-07-men-s-breakfast-b349ea.md
-- id: event-1df0d9cbb84c1a4d
-  uid: ET-8762150-171522665@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2026-11-08T09:30:00-05:00'
-  end: '2026-11-08T10:30:00-05:00'
-  sort_start_utc: '2026-11-08T14:30:00Z'
-  sort_end_utc: '2026-11-08T15:30:00Z'
-  display_when: Sunday, November 8, 2026, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '171522665'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 25
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-11-08-p-u-r-s-u-e-4c1a4d.md
 - id: event-37b1feeb225cd74e
   uid: ET-9127131-171522666@resources.planningcenteronline.com
   title: 'Sunday Morning Services: 9:30 AM Service'
@@ -1419,7 +1314,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 26
+  chronological_rank: 22
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-08-sunday-morning-services-9-30-am-service-5cd74e.md
@@ -1446,7 +1341,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 27
+  chronological_rank: 23
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-08-sunday-morning-services-11-00-am-service-7c486d.md
@@ -1513,7 +1408,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 28
+  chronological_rank: 24
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-11-wednesday-night-dinner-af1c1c.md
@@ -1584,10 +1479,36 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 29
+  chronological_rank: 25
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-11-awana-2026-2027-cd3adc.md
+- id: event-d5eb9a2e69d5524e
+  uid: ET-33357839-239644658@resources.planningcenteronline.com
+  title: Christmas Choir Rehearsal
+  summary: Join us for this special event Choir to celebrate the Christmas Season.
+  start: '2026-11-12T17:30:00-05:00'
+  end: '2026-11-12T18:30:00-05:00'
+  sort_start_utc: '2026-11-12T22:30:00Z'
+  sort_end_utc: '2026-11-12T23:30:00Z'
+  display_when: Thursday, November 12, 2026, 5:30 PM to 6:30 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us for this special event Choir to celebrate the Christmas Season. email questions to Pastor Larry (lnichols@urbancrest.org)
+  planning_center_event_instance_id: '239644658'
+  planning_center_event_time_id: '33357839'
+  ministries:
+  - worship
+  audiences:
+  - everyone
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 26
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-12-christmas-choir-rehearsal-d5524e.md
 - id: event-1c0771e7f499f87a
   uid: ET-31924846-230487173@resources.planningcenteronline.com
   title: Youth Fall Retreat
@@ -1624,9 +1545,11 @@ events:
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 30
-  next_for_ministries: []
-  next_for_audiences: []
+  chronological_rank: 27
+  next_for_ministries:
+  - students
+  next_for_audiences:
+  - students
   knowledge_file: knowledge/events/generated/2026-11-13-youth-fall-retreat-99f87a.md
   event_sources:
   - planning_center_ical
@@ -1689,36 +1612,10 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 31
+  chronological_rank: 28
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-14-occ-packing-party-47a8c2.md
-- id: event-1652bc35e5b86e1d
-  uid: ET-8762150-172162011@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2026-11-15T09:30:00-05:00'
-  end: '2026-11-15T10:30:00-05:00'
-  sort_start_utc: '2026-11-15T14:30:00Z'
-  sort_end_utc: '2026-11-15T15:30:00Z'
-  display_when: Sunday, November 15, 2026, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '172162011'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 32
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-11-15-p-u-r-s-u-e-b86e1d.md
 - id: event-6bc5aa1e27add3db
   uid: ET-9127131-172162010@resources.planningcenteronline.com
   title: 'Sunday Morning Services: 9:30 AM Service'
@@ -1742,7 +1639,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 33
+  chronological_rank: 29
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-15-sunday-morning-services-9-30-am-service-add3db.md
@@ -1769,10 +1666,37 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 34
+  chronological_rank: 30
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-15-sunday-morning-services-11-00-am-service-a656ef.md
+- id: event-c98c09871d7ab8b6
+  uid: ET-16193422-172353747@resources.planningcenteronline.com
+  title: Monthly Baskets of Hope - Volunteers
+  summary: This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
+  start: '2026-11-18T16:30:00-05:00'
+  end: '2026-11-18T18:30:00-05:00'
+  sort_start_utc: '2026-11-18T21:30:00Z'
+  sort_end_utc: '2026-11-18T23:30:00Z'
+  display_when: Wednesday, November 18, 2026, 4:30 PM to 6:30 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
+  planning_center_event_instance_id: '172353747'
+  planning_center_event_time_id: '16193422'
+  ministries:
+  - churchwide
+  audiences:
+  - families
+  - volunteers
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 31
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-18-monthly-baskets-of-hope-volunteers-7ab8b6.md
 - id: event-cc6c730d57cf53fb
   uid: ET-31870601-230122717@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -1836,7 +1760,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 35
+  chronological_rank: 32
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-18-wednesday-night-dinner-cf53fb.md
@@ -1907,36 +1831,88 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 36
+  chronological_rank: 33
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-18-awana-2026-2027-743617.md
-- id: event-be431ccdabc3d97b
-  uid: ET-8762150-172745994@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2026-11-22T09:30:00-05:00'
-  end: '2026-11-22T10:30:00-05:00'
-  sort_start_utc: '2026-11-22T14:30:00Z'
-  sort_end_utc: '2026-11-22T15:30:00Z'
-  display_when: Sunday, November 22, 2026, 9:30 AM to 10:30 AM
+- id: event-4033fea71dffc2bd
+  uid: ET-33357996-239645060@resources.planningcenteronline.com
+  title: Christmas Choir Rehearsal
+  summary: Christmas Choir Rehearsal is scheduled for Saturday, November 21, 2026, 9:30 AM to 11:30 AM.
+  start: '2026-11-21T09:30:00-05:00'
+  end: '2026-11-21T11:30:00-05:00'
+  sort_start_utc: '2026-11-21T14:30:00Z'
+  sort_end_utc: '2026-11-21T16:30:00Z'
+  display_when: Saturday, November 21, 2026, 9:30 AM to 11:30 AM
   all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '172745994'
-  planning_center_event_time_id: '8762150'
+  planning_center_event_instance_id: '239645060'
+  planning_center_event_time_id: '33357996'
   ministries:
-  - students
+  - worship
   audiences:
-  - students
+  - everyone
   event_category: ministry_event
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 37
+  chronological_rank: 34
   next_for_ministries: []
   next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-11-22-p-u-r-s-u-e-c3d97b.md
+  knowledge_file: knowledge/events/generated/2026-11-21-christmas-choir-rehearsal-ffc2bd.md
+- id: event-51aab645f93e574a
+  uid: ET-9127131-172745996@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-11-22T09:30:00-05:00'
+  end: '2026-11-22T10:40:00-05:00'
+  sort_start_utc: '2026-11-22T14:30:00Z'
+  sort_end_utc: '2026-11-22T15:40:00Z'
+  display_when: Sunday, November 22, 2026, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '172745996'
+  planning_center_event_time_id: '9127131'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 35
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-22-sunday-morning-services-9-30-am-service-3e574a.md
+- id: event-0cce4f48b0774f3d
+  uid: ET-9127132-172745996@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-11-22T11:00:00-05:00'
+  end: '2026-11-22T12:10:00-05:00'
+  sort_start_utc: '2026-11-22T16:00:00Z'
+  sort_end_utc: '2026-11-22T17:10:00Z'
+  display_when: Sunday, November 22, 2026, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '172745996'
+  planning_center_event_time_id: '9127132'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 36
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-22-sunday-morning-services-11-00-am-service-774f3d.md
 - id: event-47f30d4d3d77d08c
   uid: ET-31870601-230122718@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -2000,36 +1976,64 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 38
+  chronological_rank: 37
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-25-wednesday-night-dinner-77d08c.md
-- id: event-881ba52aa080f80e
-  uid: ET-8762150-173125610@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
+- id: event-99ba394ddaf67a70
+  uid: ET-9127131-173125611@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
   start: '2026-11-29T09:30:00-05:00'
-  end: '2026-11-29T10:30:00-05:00'
+  end: '2026-11-29T10:40:00-05:00'
   sort_start_utc: '2026-11-29T14:30:00Z'
-  sort_end_utc: '2026-11-29T15:30:00Z'
-  display_when: Sunday, November 29, 2026, 9:30 AM to 10:30 AM
+  sort_end_utc: '2026-11-29T15:40:00Z'
+  display_when: Sunday, November 29, 2026, 9:30 AM to 10:40 AM
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '173125610'
-  planning_center_event_time_id: '8762150'
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '173125611'
+  planning_center_event_time_id: '9127131'
   ministries:
-  - students
+  - churchwide
   audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 38
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-11-29-sunday-morning-services-9-30-am-service-f67a70.md
+- id: event-638c7e47a90d501a
+  uid: ET-9127132-173125611@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-11-29T11:00:00-05:00'
+  end: '2026-11-29T12:10:00-05:00'
+  sort_start_utc: '2026-11-29T16:00:00Z'
+  sort_end_utc: '2026-11-29T17:10:00Z'
+  display_when: Sunday, November 29, 2026, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '173125611'
+  planning_center_event_time_id: '9127132'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
   collection: main_events
   status: confirmed
   chronological_rank: 39
   next_for_ministries: []
   next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-11-29-p-u-r-s-u-e-80f80e.md
+  knowledge_file: knowledge/events/generated/2026-11-29-sunday-morning-services-11-00-am-service-0d501a.md
 - id: event-5612690198809fdf
   uid: ET-31870601-230122719@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -2168,6 +2172,32 @@ events:
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-02-awana-2026-2027-b78b32.md
+- id: event-d40a11bed06a6ebc
+  uid: ET-33357839-239644661@resources.planningcenteronline.com
+  title: Christmas Choir Rehearsal
+  summary: Join us for this special event Choir to celebrate the Christmas Season.
+  start: '2026-12-03T17:30:00-05:00'
+  end: '2026-12-03T18:30:00-05:00'
+  sort_start_utc: '2026-12-03T22:30:00Z'
+  sort_end_utc: '2026-12-03T23:30:00Z'
+  display_when: Thursday, December 3, 2026, 5:30 PM to 6:30 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us for this special event Choir to celebrate the Christmas Season. email questions to Pastor Larry (lnichols@urbancrest.org)
+  planning_center_event_instance_id: '239644661'
+  planning_center_event_time_id: '33357839'
+  ministries:
+  - worship
+  audiences:
+  - everyone
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 42
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-12-03-christmas-choir-rehearsal-6a6ebc.md
 - id: event-296f50798c549ccc
   uid: ET-30270334-173559224@resources.planningcenteronline.com
   title: Men's Breakfast
@@ -2192,36 +2222,64 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 42
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-12-05-men-s-breakfast-549ccc.md
-- id: event-b29ea6677fe5b958
-  uid: ET-8762150-173665460@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2026-12-06T09:30:00-05:00'
-  end: '2026-12-06T10:30:00-05:00'
-  sort_start_utc: '2026-12-06T14:30:00Z'
-  sort_end_utc: '2026-12-06T15:30:00Z'
-  display_when: Sunday, December 6, 2026, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '173665460'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
   chronological_rank: 43
   next_for_ministries: []
   next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-12-06-p-u-r-s-u-e-e5b958.md
+  knowledge_file: knowledge/events/generated/2026-12-05-men-s-breakfast-549ccc.md
+- id: event-86008d8c46ca6790
+  uid: ET-9127131-173665461@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-12-06T09:30:00-05:00'
+  end: '2026-12-06T10:40:00-05:00'
+  sort_start_utc: '2026-12-06T14:30:00Z'
+  sort_end_utc: '2026-12-06T15:40:00Z'
+  display_when: Sunday, December 6, 2026, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '173665461'
+  planning_center_event_time_id: '9127131'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 44
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-12-06-sunday-morning-services-9-30-am-service-ca6790.md
+- id: event-85ac25d7d6672784
+  uid: ET-9127132-173665461@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-12-06T11:00:00-05:00'
+  end: '2026-12-06T12:10:00-05:00'
+  sort_start_utc: '2026-12-06T16:00:00Z'
+  sort_end_utc: '2026-12-06T17:10:00Z'
+  display_when: Sunday, December 6, 2026, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '173665461'
+  planning_center_event_time_id: '9127132'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 45
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-12-06-sunday-morning-services-11-00-am-service-672784.md
 - id: event-14d5eeb361d6795d
   uid: ET-27323098-203958301@resources.planningcenteronline.com
   title: Women's Christmas Event
@@ -2246,7 +2304,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 44
+  chronological_rank: 46
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-06-women-s-christmas-event-d6795d.md
@@ -2313,7 +2371,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 45
+  chronological_rank: 47
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-09-wednesday-night-dinner-6f6ed6.md
@@ -2384,36 +2442,117 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 46
+  chronological_rank: 48
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-09-awana-2026-2027-983471.md
-- id: event-cdb046e5d9e9bfa2
-  uid: ET-8762150-174228981@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2026-12-13T09:30:00-05:00'
-  end: '2026-12-13T10:30:00-05:00'
-  sort_start_utc: '2026-12-13T14:30:00Z'
-  sort_end_utc: '2026-12-13T15:30:00Z'
-  display_when: Sunday, December 13, 2026, 9:30 AM to 10:30 AM
+- id: event-db175a63b649f3f0
+  uid: ET-33357897-239644753@resources.planningcenteronline.com
+  title: Christmas Choir Rehearsal
+  summary: Join us for this special event Choir to celebrate the Christmas Season.
+  start: '2026-12-10T17:30:00-05:00'
+  end: '2026-12-10T18:30:00-05:00'
+  sort_start_utc: '2026-12-10T22:30:00Z'
+  sort_end_utc: '2026-12-10T23:30:00Z'
+  display_when: Thursday, December 10, 2026, 5:30 PM to 6:30 PM
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '174228981'
-  planning_center_event_time_id: '8762150'
+  description: Join us for this special event Choir to celebrate the Christmas Season. email questions to Pastor Larry (lnichols@urbancrest.org)
+  planning_center_event_instance_id: '239644753'
+  planning_center_event_time_id: '33357897'
   ministries:
-  - students
+  - worship
   audiences:
-  - students
+  - everyone
   event_category: ministry_event
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 47
+  chronological_rank: 49
   next_for_ministries: []
   next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-12-13-p-u-r-s-u-e-e9bfa2.md
+  knowledge_file: knowledge/events/generated/2026-12-10-christmas-choir-rehearsal-49f3f0.md
+- id: event-ab180000d4df44e2
+  uid: ET-9127131-174228982@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-12-13T09:30:00-05:00'
+  end: '2026-12-13T10:40:00-05:00'
+  sort_start_utc: '2026-12-13T14:30:00Z'
+  sort_end_utc: '2026-12-13T15:40:00Z'
+  display_when: Sunday, December 13, 2026, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '174228982'
+  planning_center_event_time_id: '9127131'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 50
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-12-13-sunday-morning-services-9-30-am-service-df44e2.md
+- id: event-a92c0198286c8860
+  uid: ET-9127132-174228982@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-12-13T11:00:00-05:00'
+  end: '2026-12-13T12:10:00-05:00'
+  sort_start_utc: '2026-12-13T16:00:00Z'
+  sort_end_utc: '2026-12-13T17:10:00Z'
+  display_when: Sunday, December 13, 2026, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '174228982'
+  planning_center_event_time_id: '9127132'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 51
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-12-13-sunday-morning-services-11-00-am-service-6c8860.md
+- id: event-6d89eb9ba0f08ec6
+  uid: ET-16193422-174392995@resources.planningcenteronline.com
+  title: Monthly Baskets of Hope - Volunteers
+  summary: This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
+  start: '2026-12-16T16:30:00-05:00'
+  end: '2026-12-16T18:30:00-05:00'
+  sort_start_utc: '2026-12-16T21:30:00Z'
+  sort_end_utc: '2026-12-16T23:30:00Z'
+  display_when: Wednesday, December 16, 2026, 4:30 PM to 6:30 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
+  planning_center_event_instance_id: '174392995'
+  planning_center_event_time_id: '16193422'
+  ministries:
+  - churchwide
+  audiences:
+  - families
+  - volunteers
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 52
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-12-16-monthly-baskets-of-hope-volunteers-f08ec6.md
 - id: event-6ee1c01620d35842
   uid: ET-31870601-230122721@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -2477,7 +2616,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 48
+  chronological_rank: 53
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-16-wednesday-night-dinner-d35842.md
@@ -2548,36 +2687,204 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 49
+  chronological_rank: 54
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-16-awana-2026-2027-a96a01.md
-- id: event-64c2ccc43d0fd347
-  uid: ET-8762150-174858350@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2026-12-20T09:30:00-05:00'
-  end: '2026-12-20T10:30:00-05:00'
-  sort_start_utc: '2026-12-20T14:30:00Z'
-  sort_end_utc: '2026-12-20T15:30:00Z'
-  display_when: Sunday, December 20, 2026, 9:30 AM to 10:30 AM
+- id: event-ac00271c112514c7
+  uid: ET-33357897-239644754@resources.planningcenteronline.com
+  title: Christmas Choir Rehearsal
+  summary: Join us for this special event Choir to celebrate the Christmas Season.
+  start: '2026-12-17T17:30:00-05:00'
+  end: '2026-12-17T18:30:00-05:00'
+  sort_start_utc: '2026-12-17T22:30:00Z'
+  sort_end_utc: '2026-12-17T23:30:00Z'
+  display_when: Thursday, December 17, 2026, 5:30 PM to 6:30 PM
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '174858350'
-  planning_center_event_time_id: '8762150'
+  description: Join us for this special event Choir to celebrate the Christmas Season. email questions to Pastor Larry (lnichols@urbancrest.org)
+  planning_center_event_instance_id: '239644754'
+  planning_center_event_time_id: '33357897'
   ministries:
-  - students
+  - worship
   audiences:
-  - students
+  - everyone
   event_category: ministry_event
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 50
+  chronological_rank: 55
   next_for_ministries: []
   next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-12-20-p-u-r-s-u-e-0fd347.md
+  knowledge_file: knowledge/events/generated/2026-12-17-christmas-choir-rehearsal-2514c7.md
+- id: event-80e5a36175c3d70a
+  uid: ET-33065181-237849087@resources.planningcenteronline.com
+  title: Family Christmas Movie Night
+  summary: Family Christmas Movie Night is scheduled for Friday, December 18, 2026, 6 PM to 8 PM at Urbancrest Church - 2634
+    Drake Road, Lebanon, OH 45036.
+  start: '2026-12-18T18:00:00-05:00'
+  end: '2026-12-18T20:00:00-05:00'
+  sort_start_utc: '2026-12-18T23:00:00Z'
+  sort_end_utc: '2026-12-19T01:00:00Z'
+  display_when: Friday, December 18, 2026, 6 PM to 8 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  planning_center_event_instance_id: '237849087'
+  planning_center_event_time_id: '33065181'
+  ministries:
+  - churchwide
+  audiences:
+  - families
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 56
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-12-18-family-christmas-movie-night-c3d70a.md
+- id: event-cb4c6c17cdddc31f
+  uid: ET-33357938-239644840@resources.planningcenteronline.com
+  title: Christmas Worship Rehearsal
+  summary: Christmas Worship Rehearsal is scheduled for Saturday, December 19, 2026, 9:30 AM to 11:30 AM at Urbancrest Church
+    - 2634 Drake Road, Lebanon, OH 45036.
+  start: '2026-12-19T09:30:00-05:00'
+  end: '2026-12-19T11:30:00-05:00'
+  sort_start_utc: '2026-12-19T14:30:00Z'
+  sort_end_utc: '2026-12-19T16:30:00Z'
+  display_when: Saturday, December 19, 2026, 9:30 AM to 11:30 AM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  planning_center_event_instance_id: '239644840'
+  planning_center_event_time_id: '33357938'
+  ministries:
+  - worship
+  audiences:
+  - everyone
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 57
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-12-19-christmas-worship-rehearsal-ddc31f.md
+- id: event-fb8e9e038b7f0fe3
+  uid: ET-33357296-239642379@resources.planningcenteronline.com
+  title: Christmas Choir
+  summary: Join us for this Special Event Choir to celebrate the Christmas Season. Music provided. No experience required.
+    All are welcome. You do not need to be an Urbancrest member or regular attender to participate. Questions? Contact Pastor
+    Larry Nichols at lnichols@urbancrest.org
+  start: '2026-12-20T09:30:00-05:00'
+  end: '2026-12-20T11:00:00-05:00'
+  sort_start_utc: '2026-12-20T14:30:00Z'
+  sort_end_utc: '2026-12-20T16:00:00Z'
+  display_when: Sunday, December 20, 2026, 9:30 AM to 11 AM
+  all_day: false
+  description: Join us for this Special Event Choir to celebrate the Christmas Season. Music provided. No experience required.
+    All are welcome. You do not need to be an Urbancrest member or regular attender to participate. Questions? Contact Pastor
+    Larry Nichols at lnichols@urbancrest.org
+  planning_center_event_instance_id: '239642379'
+  planning_center_event_time_id: '33357296'
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1791907200&key=uploads%2Fevent%2Flogo%2F3953731%2Fimage-1791828904219.jpeg&thumb=720x405%23&version=1791829083&signature=de57f84929d9bfb6221a62996c2b1c914ad3d8e36d28047780c35b83d239009a
+  ministries:
+  - worship
+  audiences:
+  - everyone
+  - all
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 58
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-12-20-christmas-choir-7f0fe3.md
+  event_sources:
+  - planning_center_ical
+  - planning_center_registrations_api
+  event_source: merged
+  planning_center_signup_id: '3953731'
+  planning_center_signup_time_id: '6643269'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3953731/reservations/new
+  registration_available: true
+  registration_open: true
+  registration_closed: false
+  registration_at_maximum_capacity: null
+  registration_open_at: '2026-10-12T18:14:44Z'
+  registration_close_at: null
+  registration_maximum_capacity: null
+  registration_categories: []
+  registration_options:
+  - id: '9037015'
+    name: Standard
+    price_cents: 0
+    price_currency: USD
+    price_currency_symbol: $
+    price_formatted: '0'
+    at_maximum_capacity: false
+    waitlist: false
+  details: 'Join us for this Special Event Choir to celebrate the Christmas Season. Music provided. No experience required.
+    All are welcome. You do not need to be an Urbancrest member or regular attender to participate. Questions? Contact Pastor
+    Larry Nichols at lnichols@urbancrest.org
+
+
+    Registration is open.'
+  details_source: planning_center_registrations_api
+- id: event-5c40f274601bfe59
+  uid: ET-9127131-174858351@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-12-20T09:30:00-05:00'
+  end: '2026-12-20T10:40:00-05:00'
+  sort_start_utc: '2026-12-20T14:30:00Z'
+  sort_end_utc: '2026-12-20T15:40:00Z'
+  display_when: Sunday, December 20, 2026, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '174858351'
+  planning_center_event_time_id: '9127131'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 59
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-12-20-sunday-morning-services-9-30-am-service-1bfe59.md
+- id: event-a0087b15578ed068
+  uid: ET-9127132-174858351@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-12-20T11:00:00-05:00'
+  end: '2026-12-20T12:10:00-05:00'
+  sort_start_utc: '2026-12-20T16:00:00Z'
+  sort_end_utc: '2026-12-20T17:10:00Z'
+  display_when: Sunday, December 20, 2026, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '174858351'
+  planning_center_event_time_id: '9127132'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 60
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-12-20-sunday-morning-services-11-00-am-service-8ed068.md
 - id: event-ef3fd2b9fd8995f6
   uid: ET-31870601-230122722@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -2641,36 +2948,64 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 51
+  chronological_rank: 61
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-23-wednesday-night-dinner-8995f6.md
-- id: event-f31b6a2fb7440985
-  uid: ET-8762150-175168854@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
+- id: event-6fc65a82155a6936
+  uid: ET-9127131-175168855@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
   start: '2026-12-27T09:30:00-05:00'
-  end: '2026-12-27T10:30:00-05:00'
+  end: '2026-12-27T10:40:00-05:00'
   sort_start_utc: '2026-12-27T14:30:00Z'
-  sort_end_utc: '2026-12-27T15:30:00Z'
-  display_when: Sunday, December 27, 2026, 9:30 AM to 10:30 AM
+  sort_end_utc: '2026-12-27T15:40:00Z'
+  display_when: Sunday, December 27, 2026, 9:30 AM to 10:40 AM
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '175168854'
-  planning_center_event_time_id: '8762150'
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '175168855'
+  planning_center_event_time_id: '9127131'
   ministries:
-  - students
+  - churchwide
   audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
+  - everyone
+  event_category: general_event
+  event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 52
+  chronological_rank: 62
   next_for_ministries: []
   next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-12-27-p-u-r-s-u-e-440985.md
+  knowledge_file: knowledge/events/generated/2026-12-27-sunday-morning-services-9-30-am-service-5a6936.md
+- id: event-f79287016e003b62
+  uid: ET-9127132-175168855@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2026-12-27T11:00:00-05:00'
+  end: '2026-12-27T12:10:00-05:00'
+  sort_start_utc: '2026-12-27T16:00:00Z'
+  sort_end_utc: '2026-12-27T17:10:00Z'
+  display_when: Sunday, December 27, 2026, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '175168855'
+  planning_center_event_time_id: '9127132'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 63
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-12-27-sunday-morning-services-11-00-am-service-003b62.md
 - id: event-b038724c0385ac1d
   uid: ET-31870601-230122723@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -2734,7 +3069,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 53
+  chronological_rank: 64
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-30-wednesday-night-dinner-85ac1d.md
@@ -2762,36 +3097,64 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 54
+  chronological_rank: 65
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-02-men-s-breakfast-3d2c83.md
-- id: event-dc26652f5bb9a311
-  uid: ET-8762150-175628417@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
+- id: event-c51ec25d112e7a40
+  uid: ET-9127131-175628418@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
   start: '2027-01-03T09:30:00-05:00'
-  end: '2027-01-03T10:30:00-05:00'
+  end: '2027-01-03T10:40:00-05:00'
   sort_start_utc: '2027-01-03T14:30:00Z'
-  sort_end_utc: '2027-01-03T15:30:00Z'
-  display_when: Sunday, January 3, 2027, 9:30 AM to 10:30 AM
+  sort_end_utc: '2027-01-03T15:40:00Z'
+  display_when: Sunday, January 3, 2027, 9:30 AM to 10:40 AM
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '175628417'
-  planning_center_event_time_id: '8762150'
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '175628418'
+  planning_center_event_time_id: '9127131'
   ministries:
-  - students
+  - churchwide
   audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
+  - everyone
+  event_category: general_event
+  event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 55
+  chronological_rank: 66
   next_for_ministries: []
   next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-01-03-p-u-r-s-u-e-b9a311.md
+  knowledge_file: knowledge/events/generated/2027-01-03-sunday-morning-services-9-30-am-service-2e7a40.md
+- id: event-f8245a05399b4cbb
+  uid: ET-9127132-175628418@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2027-01-03T11:00:00-05:00'
+  end: '2027-01-03T12:10:00-05:00'
+  sort_start_utc: '2027-01-03T16:00:00Z'
+  sort_end_utc: '2027-01-03T17:10:00Z'
+  display_when: Sunday, January 3, 2027, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '175628418'
+  planning_center_event_time_id: '9127132'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 67
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-01-03-sunday-morning-services-11-00-am-service-9b4cbb.md
 - id: event-72dbe349a7cd86db
   uid: ET-31870601-230122724@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -2855,36 +3218,89 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 56
+  chronological_rank: 68
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-06-wednesday-night-dinner-cd86db.md
-- id: event-9b74a5b831573975
-  uid: ET-8762150-176633356@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-01-10T09:30:00-05:00'
-  end: '2027-01-10T10:30:00-05:00'
-  sort_start_utc: '2027-01-10T14:30:00Z'
-  sort_end_utc: '2027-01-10T15:30:00Z'
-  display_when: Sunday, January 10, 2027, 9:30 AM to 10:30 AM
+- id: event-285b585de6a6bc8a
+  uid: ET-33269493-239078200@resources.planningcenteronline.com
+  title: Pickleball
+  summary: Darrel Schick
+  start: '2027-01-07T18:00:00-05:00'
+  end: '2027-01-07T20:00:00-05:00'
+  sort_start_utc: '2027-01-07T23:00:00Z'
+  sort_end_utc: '2027-01-08T01:00:00Z'
+  display_when: Thursday, January 7, 2027, 6 PM to 8 PM
   all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '176633356'
-  planning_center_event_time_id: '8762150'
+  description: Darrel Schick
+  planning_center_event_instance_id: '239078200'
+  planning_center_event_time_id: '33269493'
   ministries:
-  - students
+  - churchwide
   audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
+  - everyone
+  event_category: general_event
+  event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 57
+  chronological_rank: 69
   next_for_ministries: []
   next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-01-10-p-u-r-s-u-e-573975.md
+  knowledge_file: knowledge/events/generated/2027-01-07-pickleball-a6bc8a.md
+- id: event-13e951b12e0c0f91
+  uid: ET-9127131-176633358@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2027-01-10T09:30:00-05:00'
+  end: '2027-01-10T10:40:00-05:00'
+  sort_start_utc: '2027-01-10T14:30:00Z'
+  sort_end_utc: '2027-01-10T15:40:00Z'
+  display_when: Sunday, January 10, 2027, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '176633358'
+  planning_center_event_time_id: '9127131'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 70
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-01-10-sunday-morning-services-9-30-am-service-0c0f91.md
+- id: event-8ce7cdb25e73fa11
+  uid: ET-9127132-176633358@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2027-01-10T11:00:00-05:00'
+  end: '2027-01-10T12:10:00-05:00'
+  sort_start_utc: '2027-01-10T16:00:00Z'
+  sort_end_utc: '2027-01-10T17:10:00Z'
+  display_when: Sunday, January 10, 2027, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '176633358'
+  planning_center_event_time_id: '9127132'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 71
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-01-10-sunday-morning-services-11-00-am-service-73fa11.md
 - id: event-90772338f7ed64ec
   uid: ET-31870601-230122725@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -2948,39 +3364,81 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 58
+  chronological_rank: 72
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-13-wednesday-night-dinner-ed64ec.md
-- id: pc-registration-3775272-e3627f27396c
-  uid: registrations-3775272-6327882@planningcenter
+- id: event-4c3997170363a83d
+  uid: ET-33269493-239078201@resources.planningcenteronline.com
+  title: Pickleball
+  summary: Darrel Schick
+  start: '2027-01-14T18:00:00-05:00'
+  end: '2027-01-14T20:00:00-05:00'
+  sort_start_utc: '2027-01-14T23:00:00Z'
+  sort_end_utc: '2027-01-15T01:00:00Z'
+  display_when: Thursday, January 14, 2027, 6 PM to 8 PM
+  all_day: false
+  description: Darrel Schick
+  planning_center_event_instance_id: '239078201'
+  planning_center_event_time_id: '33269493'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 73
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-01-14-pickleball-63a83d.md
+- id: event-0560f21c6fba076b
+  uid: ET-31797247-229691378@resources.planningcenteronline.com
   title: Strength to Stand
   summary: Deadline to sign up is October 21st!!!
-  start: '2027-01-16T23:00:00+00:00'
-  end: '2027-01-19T00:00:00+00:00'
-  sort_start_utc: '2027-01-16T23:00:00Z'
-  sort_end_utc: '2027-01-19T00:00:00Z'
-  display_when: Saturday, January 16, 2027
+  start: '2027-01-16'
+  end: '2027-01-19'
+  sort_start_utc: '2027-01-16T05:00:00Z'
+  sort_end_utc: '2027-01-19T05:00:00Z'
+  display_when: Saturday, January 16, 2027 through Monday, January 18, 2027
   all_day: true
   location: 'LaConte Center - 2986 Teaster Ln
 
     Pigeon Forge, TN 37863'
-  location_structured:
-    name: LaConte Center
-    address: '2986 Teaster Ln
+  description: 'Deadline to sign up is October 21st!!!
 
-      Pigeon Forge, TN 37863'
-    latitude: '35.797711'
-    longitude: '-83.562142'
-  description: Deadline to sign up is October 21st!!!
+    Register: https://urbancrest.churchcenter.com/registrations/events/3775272'
   details: 'Deadline to sign up is October 21st!!!
 
 
     Registration is open.'
   details_source: planning_center_registrations_api
+  planning_center_event_instance_id: '229691378'
+  planning_center_event_time_id: '31797247'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3775272/reservations/new
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1789012800&key=uploads%2Fevent%2Flogo%2F3775272%2Fimage-1784920483707.jpeg&thumb=720x405%23&version=1788966611&signature=9553057aa354de2229a87395d2f678b237138043ce3d910c7d238c165912fbd4
+  ministries:
+  - churchwide
+  - students
+  audiences:
+  - everyone
+  - students
+  event_category: general_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 74
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-01-16-strength-to-stand-ba076b.md
+  event_sources:
+  - planning_center_ical
+  - planning_center_calendar_api
+  - planning_center_registrations_api
+  event_source: merged
   planning_center_signup_id: '3775272'
   planning_center_signup_time_id: '6327882'
-  registration_url: https://urbancrest.churchcenter.com/registrations/events/3775272/reservations/new
   registration_available: true
   registration_open: true
   registration_closed: false
@@ -2998,7 +3456,7 @@ events:
     price_currency_symbol: $
     price_formatted: '250'
     maximum_capacity: 22
-    available_capacity: 12
+    available_capacity: 10
     at_maximum_capacity: false
     waitlist: false
   - id: '8623473'
@@ -3021,46 +3479,94 @@ events:
     available_capacity: 3
     at_maximum_capacity: false
     waitlist: false
-  info_url: https://urbancrest.churchcenter.com/registrations/events/3775272/reservations/new
-  image_url: https://registrations.planningcenteronline.com/signups/3775272/logo
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: student_event
-  event_priority: 80
-  collection: main_events
-  status: published
-  event_source: planning_center_registrations_api
-  event_sources:
-  - planning_center_registrations_api
-  chronological_rank: 59
-- id: event-8029c470e3849556
-  uid: ET-8762150-177521375@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
+  location_structured:
+    name: LaConte Center
+    address: '2986 Teaster Ln
+
+      Pigeon Forge, TN 37863'
+    latitude: '35.797711'
+    longitude: '-83.562142'
+- id: event-d5c0f7f0982f9d83
+  uid: ET-9127131-177521381@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
   start: '2027-01-17T09:30:00-05:00'
-  end: '2027-01-17T10:30:00-05:00'
+  end: '2027-01-17T10:40:00-05:00'
   sort_start_utc: '2027-01-17T14:30:00Z'
-  sort_end_utc: '2027-01-17T15:30:00Z'
-  display_when: Sunday, January 17, 2027, 9:30 AM to 10:30 AM
+  sort_end_utc: '2027-01-17T15:40:00Z'
+  display_when: Sunday, January 17, 2027, 9:30 AM to 10:40 AM
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '177521375'
-  planning_center_event_time_id: '8762150'
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '177521381'
+  planning_center_event_time_id: '9127131'
   ministries:
-  - students
+  - churchwide
   audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
+  - everyone
+  event_category: general_event
+  event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 60
+  chronological_rank: 75
   next_for_ministries: []
   next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-01-17-p-u-r-s-u-e-849556.md
+  knowledge_file: knowledge/events/generated/2027-01-17-sunday-morning-services-9-30-am-service-2f9d83.md
+- id: event-1172ad7814f8161b
+  uid: ET-9127132-177521381@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2027-01-17T11:00:00-05:00'
+  end: '2027-01-17T12:10:00-05:00'
+  sort_start_utc: '2027-01-17T16:00:00Z'
+  sort_end_utc: '2027-01-17T17:10:00Z'
+  display_when: Sunday, January 17, 2027, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '177521381'
+  planning_center_event_time_id: '9127132'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 76
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-01-17-sunday-morning-services-11-00-am-service-f8161b.md
+- id: event-7dd94c7ce9561fe2
+  uid: ET-16193422-177703612@resources.planningcenteronline.com
+  title: Monthly Baskets of Hope - Volunteers
+  summary: This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
+  start: '2027-01-20T16:30:00-05:00'
+  end: '2027-01-20T18:30:00-05:00'
+  sort_start_utc: '2027-01-20T21:30:00Z'
+  sort_end_utc: '2027-01-20T23:30:00Z'
+  display_when: Wednesday, January 20, 2027, 4:30 PM to 6:30 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
+  planning_center_event_instance_id: '177703612'
+  planning_center_event_time_id: '16193422'
+  ministries:
+  - churchwide
+  audiences:
+  - families
+  - volunteers
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 77
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-01-20-monthly-baskets-of-hope-volunteers-561fe2.md
 - id: event-e8371c9d2ec3c878
   uid: ET-31870601-230122726@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -3124,10 +3630,35 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 61
+  chronological_rank: 78
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-20-wednesday-night-dinner-c3c878.md
+- id: event-76f2bb06446008f4
+  uid: ET-33269493-239078202@resources.planningcenteronline.com
+  title: Pickleball
+  summary: Darrel Schick
+  start: '2027-01-21T18:00:00-05:00'
+  end: '2027-01-21T20:00:00-05:00'
+  sort_start_utc: '2027-01-21T23:00:00Z'
+  sort_end_utc: '2027-01-22T01:00:00Z'
+  display_when: Thursday, January 21, 2027, 6 PM to 8 PM
+  all_day: false
+  description: Darrel Schick
+  planning_center_event_instance_id: '239078202'
+  planning_center_event_time_id: '33269493'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 79
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-01-21-pickleball-6008f4.md
 - id: event-62fe0d7a16d35740
   uid: ET-32892074-236793247@resources.planningcenteronline.com
   title: Men's Summit
@@ -3187,7 +3718,7 @@ events:
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 62
+  chronological_rank: 80
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-22-men-s-summit-d35740.md
@@ -3224,32 +3755,60 @@ events:
       Lebanon, OH 45036'
     latitude: '39.4747445'
     longitude: '-84.1792958'
-- id: event-3d7f9c7b59696271
-  uid: ET-8762150-178227937@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
+- id: event-7512e85b88aa02da
+  uid: ET-9127131-178227939@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
   start: '2027-01-24T09:30:00-05:00'
-  end: '2027-01-24T10:30:00-05:00'
+  end: '2027-01-24T10:40:00-05:00'
   sort_start_utc: '2027-01-24T14:30:00Z'
-  sort_end_utc: '2027-01-24T15:30:00Z'
-  display_when: Sunday, January 24, 2027, 9:30 AM to 10:30 AM
+  sort_end_utc: '2027-01-24T15:40:00Z'
+  display_when: Sunday, January 24, 2027, 9:30 AM to 10:40 AM
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '178227937'
-  planning_center_event_time_id: '8762150'
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '178227939'
+  planning_center_event_time_id: '9127131'
   ministries:
-  - students
+  - churchwide
   audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
+  - everyone
+  event_category: general_event
+  event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 63
+  chronological_rank: 81
   next_for_ministries: []
   next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-01-24-p-u-r-s-u-e-696271.md
+  knowledge_file: knowledge/events/generated/2027-01-24-sunday-morning-services-9-30-am-service-aa02da.md
+- id: event-e1e1c322bf8af7a9
+  uid: ET-9127132-178227939@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2027-01-24T11:00:00-05:00'
+  end: '2027-01-24T12:10:00-05:00'
+  sort_start_utc: '2027-01-24T16:00:00Z'
+  sort_end_utc: '2027-01-24T17:10:00Z'
+  display_when: Sunday, January 24, 2027, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '178227939'
+  planning_center_event_time_id: '9127132'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 82
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-01-24-sunday-morning-services-11-00-am-service-8af7a9.md
 - id: event-1728511bf3e92330
   uid: ET-31870601-230122727@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -3313,7 +3872,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 64
+  chronological_rank: 83
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-27-wednesday-night-dinner-e92330.md
@@ -3337,36 +3896,64 @@ events:
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 65
+  chronological_rank: 84
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-28-summit-gym-set-up-50aaa2.md
-- id: event-14f4a495890ad28e
-  uid: ET-8762150-178993061@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
+- id: event-3c9f79564660da2d
+  uid: ET-9127131-178993062@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
   start: '2027-01-31T09:30:00-05:00'
-  end: '2027-01-31T10:30:00-05:00'
+  end: '2027-01-31T10:40:00-05:00'
   sort_start_utc: '2027-01-31T14:30:00Z'
-  sort_end_utc: '2027-01-31T15:30:00Z'
-  display_when: Sunday, January 31, 2027, 9:30 AM to 10:30 AM
+  sort_end_utc: '2027-01-31T15:40:00Z'
+  display_when: Sunday, January 31, 2027, 9:30 AM to 10:40 AM
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '178993061'
-  planning_center_event_time_id: '8762150'
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '178993062'
+  planning_center_event_time_id: '9127131'
   ministries:
-  - students
+  - churchwide
   audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
+  - everyone
+  event_category: general_event
+  event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 66
+  chronological_rank: 85
   next_for_ministries: []
   next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-01-31-p-u-r-s-u-e-0ad28e.md
+  knowledge_file: knowledge/events/generated/2027-01-31-sunday-morning-services-9-30-am-service-60da2d.md
+- id: event-40df3dfd64113011
+  uid: ET-9127132-178993062@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2027-01-31T11:00:00-05:00'
+  end: '2027-01-31T12:10:00-05:00'
+  sort_start_utc: '2027-01-31T16:00:00Z'
+  sort_end_utc: '2027-01-31T17:10:00Z'
+  display_when: Sunday, January 31, 2027, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '178993062'
+  planning_center_event_time_id: '9127132'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 86
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-01-31-sunday-morning-services-11-00-am-service-113011.md
 - id: event-bcc630694256372f
   uid: ET-31870601-230122728@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -3430,10 +4017,35 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 67
+  chronological_rank: 87
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-03-wednesday-night-dinner-56372f.md
+- id: event-0a095b8c2064c442
+  uid: ET-33269493-239078204@resources.planningcenteronline.com
+  title: Pickleball
+  summary: Darrel Schick
+  start: '2027-02-04T18:00:00-05:00'
+  end: '2027-02-04T20:00:00-05:00'
+  sort_start_utc: '2027-02-04T23:00:00Z'
+  sort_end_utc: '2027-02-05T01:00:00Z'
+  display_when: Thursday, February 4, 2027, 6 PM to 8 PM
+  all_day: false
+  description: Darrel Schick
+  planning_center_event_instance_id: '239078204'
+  planning_center_event_time_id: '33269493'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 88
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-02-04-pickleball-64c442.md
 - id: event-2f1f828e89fa0b3e
   uid: ET-30270334-179599397@resources.planningcenteronline.com
   title: Men's Breakfast
@@ -3458,36 +4070,64 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 68
+  chronological_rank: 89
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-06-men-s-breakfast-fa0b3e.md
-- id: event-fd310285e95d7610
-  uid: ET-8762150-179714952@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
+- id: event-9245959a1a27d598
+  uid: ET-9127131-179714951@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
   start: '2027-02-07T09:30:00-05:00'
-  end: '2027-02-07T10:30:00-05:00'
+  end: '2027-02-07T10:40:00-05:00'
   sort_start_utc: '2027-02-07T14:30:00Z'
-  sort_end_utc: '2027-02-07T15:30:00Z'
-  display_when: Sunday, February 7, 2027, 9:30 AM to 10:30 AM
+  sort_end_utc: '2027-02-07T15:40:00Z'
+  display_when: Sunday, February 7, 2027, 9:30 AM to 10:40 AM
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '179714952'
-  planning_center_event_time_id: '8762150'
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '179714951'
+  planning_center_event_time_id: '9127131'
   ministries:
-  - students
+  - churchwide
   audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
+  - everyone
+  event_category: general_event
+  event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 69
+  chronological_rank: 90
   next_for_ministries: []
   next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-02-07-p-u-r-s-u-e-5d7610.md
+  knowledge_file: knowledge/events/generated/2027-02-07-sunday-morning-services-9-30-am-service-27d598.md
+- id: event-80cddbc045281dc7
+  uid: ET-9127132-179714951@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2027-02-07T11:00:00-05:00'
+  end: '2027-02-07T12:10:00-05:00'
+  sort_start_utc: '2027-02-07T16:00:00Z'
+  sort_end_utc: '2027-02-07T17:10:00Z'
+  display_when: Sunday, February 7, 2027, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '179714951'
+  planning_center_event_time_id: '9127132'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 91
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-02-07-sunday-morning-services-11-00-am-service-281dc7.md
 - id: event-caa7e598c1818c3d
   uid: ET-31870601-230122729@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -3551,36 +4191,116 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 70
+  chronological_rank: 92
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-10-wednesday-night-dinner-818c3d.md
-- id: event-2ab85a2a40b0cdee
-  uid: ET-8762150-180379778@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-02-14T09:30:00-05:00'
-  end: '2027-02-14T10:30:00-05:00'
-  sort_start_utc: '2027-02-14T14:30:00Z'
-  sort_end_utc: '2027-02-14T15:30:00Z'
-  display_when: Sunday, February 14, 2027, 9:30 AM to 10:30 AM
+- id: event-6b4a027e052a4a7c
+  uid: ET-33269493-239078205@resources.planningcenteronline.com
+  title: Pickleball
+  summary: Darrel Schick
+  start: '2027-02-11T18:00:00-05:00'
+  end: '2027-02-11T20:00:00-05:00'
+  sort_start_utc: '2027-02-11T23:00:00Z'
+  sort_end_utc: '2027-02-12T01:00:00Z'
+  display_when: Thursday, February 11, 2027, 6 PM to 8 PM
   all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '180379778'
-  planning_center_event_time_id: '8762150'
+  description: Darrel Schick
+  planning_center_event_instance_id: '239078205'
+  planning_center_event_time_id: '33269493'
   ministries:
-  - students
+  - churchwide
   audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
+  - everyone
+  event_category: general_event
+  event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 71
+  chronological_rank: 93
   next_for_ministries: []
   next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-02-14-p-u-r-s-u-e-b0cdee.md
+  knowledge_file: knowledge/events/generated/2027-02-11-pickleball-2a4a7c.md
+- id: event-7f32cce953f8a787
+  uid: ET-9127131-180379779@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2027-02-14T09:30:00-05:00'
+  end: '2027-02-14T10:40:00-05:00'
+  sort_start_utc: '2027-02-14T14:30:00Z'
+  sort_end_utc: '2027-02-14T15:40:00Z'
+  display_when: Sunday, February 14, 2027, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '180379779'
+  planning_center_event_time_id: '9127131'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 94
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-02-14-sunday-morning-services-9-30-am-service-f8a787.md
+- id: event-493a661b5e77215c
+  uid: ET-9127132-180379779@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2027-02-14T11:00:00-05:00'
+  end: '2027-02-14T12:10:00-05:00'
+  sort_start_utc: '2027-02-14T16:00:00Z'
+  sort_end_utc: '2027-02-14T17:10:00Z'
+  display_when: Sunday, February 14, 2027, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '180379779'
+  planning_center_event_time_id: '9127132'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 95
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-02-14-sunday-morning-services-11-00-am-service-77215c.md
+- id: event-903a87a8d3dc8320
+  uid: ET-16193422-180582227@resources.planningcenteronline.com
+  title: Monthly Baskets of Hope - Volunteers
+  summary: This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
+  start: '2027-02-17T16:30:00-05:00'
+  end: '2027-02-17T18:30:00-05:00'
+  sort_start_utc: '2027-02-17T21:30:00Z'
+  sort_end_utc: '2027-02-17T23:30:00Z'
+  display_when: Wednesday, February 17, 2027, 4:30 PM to 6:30 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: This is a time for volunteers to assemble, pack, and distribute monthly boxes of food to families needing assistance.
+  planning_center_event_instance_id: '180582227'
+  planning_center_event_time_id: '16193422'
+  ministries:
+  - churchwide
+  audiences:
+  - families
+  - volunteers
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 96
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-02-17-monthly-baskets-of-hope-volunteers-dc8320.md
 - id: event-320ffbfd4fe2ee59
   uid: ET-31870601-230122730@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -3644,36 +4364,89 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 72
+  chronological_rank: 97
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-17-wednesday-night-dinner-e2ee59.md
-- id: event-910e5866020f2ef6
-  uid: ET-8762150-181029213@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-02-21T09:30:00-05:00'
-  end: '2027-02-21T10:30:00-05:00'
-  sort_start_utc: '2027-02-21T14:30:00Z'
-  sort_end_utc: '2027-02-21T15:30:00Z'
-  display_when: Sunday, February 21, 2027, 9:30 AM to 10:30 AM
+- id: event-0d92a949b15d13c4
+  uid: ET-33269493-239078206@resources.planningcenteronline.com
+  title: Pickleball
+  summary: Darrel Schick
+  start: '2027-02-18T18:00:00-05:00'
+  end: '2027-02-18T20:00:00-05:00'
+  sort_start_utc: '2027-02-18T23:00:00Z'
+  sort_end_utc: '2027-02-19T01:00:00Z'
+  display_when: Thursday, February 18, 2027, 6 PM to 8 PM
   all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '181029213'
-  planning_center_event_time_id: '8762150'
+  description: Darrel Schick
+  planning_center_event_instance_id: '239078206'
+  planning_center_event_time_id: '33269493'
   ministries:
-  - students
+  - churchwide
   audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
+  - everyone
+  event_category: general_event
+  event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 73
+  chronological_rank: 98
   next_for_ministries: []
   next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-02-21-p-u-r-s-u-e-0f2ef6.md
+  knowledge_file: knowledge/events/generated/2027-02-18-pickleball-5d13c4.md
+- id: event-b11ad1db558771ed
+  uid: ET-9127131-181029215@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2027-02-21T09:30:00-05:00'
+  end: '2027-02-21T10:40:00-05:00'
+  sort_start_utc: '2027-02-21T14:30:00Z'
+  sort_end_utc: '2027-02-21T15:40:00Z'
+  display_when: Sunday, February 21, 2027, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '181029215'
+  planning_center_event_time_id: '9127131'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 99
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-02-21-sunday-morning-services-9-30-am-service-8771ed.md
+- id: event-ebebc23210d9642b
+  uid: ET-9127132-181029215@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2027-02-21T11:00:00-05:00'
+  end: '2027-02-21T12:10:00-05:00'
+  sort_start_utc: '2027-02-21T16:00:00Z'
+  sort_end_utc: '2027-02-21T17:10:00Z'
+  display_when: Sunday, February 21, 2027, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '181029215'
+  planning_center_event_time_id: '9127132'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 100
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-02-21-sunday-morning-services-11-00-am-service-d9642b.md
 - id: event-9328a094b78f0b45
   uid: ET-31870601-230122731@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -3737,36 +4510,89 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 74
+  chronological_rank: 101
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-24-wednesday-night-dinner-8f0b45.md
-- id: event-1003d48ddfc08e98
-  uid: ET-8762150-181712613@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-02-28T09:30:00-05:00'
-  end: '2027-02-28T10:30:00-05:00'
-  sort_start_utc: '2027-02-28T14:30:00Z'
-  sort_end_utc: '2027-02-28T15:30:00Z'
-  display_when: Sunday, February 28, 2027, 9:30 AM to 10:30 AM
+- id: event-9ca220010c3d291e
+  uid: ET-33269493-239078207@resources.planningcenteronline.com
+  title: Pickleball
+  summary: Darrel Schick
+  start: '2027-02-25T18:00:00-05:00'
+  end: '2027-02-25T20:00:00-05:00'
+  sort_start_utc: '2027-02-25T23:00:00Z'
+  sort_end_utc: '2027-02-26T01:00:00Z'
+  display_when: Thursday, February 25, 2027, 6 PM to 8 PM
   all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '181712613'
-  planning_center_event_time_id: '8762150'
+  description: Darrel Schick
+  planning_center_event_instance_id: '239078207'
+  planning_center_event_time_id: '33269493'
   ministries:
-  - students
+  - churchwide
   audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
+  - everyone
+  event_category: general_event
+  event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 75
+  chronological_rank: 102
   next_for_ministries: []
   next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-02-28-p-u-r-s-u-e-c08e98.md
+  knowledge_file: knowledge/events/generated/2027-02-25-pickleball-3d291e.md
+- id: event-20f969f770baf9ef
+  uid: ET-9127131-181712614@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
+  start: '2027-02-28T09:30:00-05:00'
+  end: '2027-02-28T10:40:00-05:00'
+  sort_start_utc: '2027-02-28T14:30:00Z'
+  sort_end_utc: '2027-02-28T15:40:00Z'
+  display_when: Sunday, February 28, 2027, 9:30 AM to 10:40 AM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '181712614'
+  planning_center_event_time_id: '9127131'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 103
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-02-28-sunday-morning-services-9-30-am-service-baf9ef.md
+- id: event-9c5ca13356a03c95
+  uid: ET-9127132-181712614@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2027-02-28T11:00:00-05:00'
+  end: '2027-02-28T12:10:00-05:00'
+  sort_start_utc: '2027-02-28T16:00:00Z'
+  sort_end_utc: '2027-02-28T17:10:00Z'
+  display_when: Sunday, February 28, 2027, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '181712614'
+  planning_center_event_time_id: '9127132'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 104
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-02-28-sunday-morning-services-11-00-am-service-a03c95.md
 - id: event-2301be18d98fb3dd
   uid: ET-31870601-230122732@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -3830,10 +4656,35 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 76
+  chronological_rank: 105
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-03-wednesday-night-dinner-8fb3dd.md
+- id: event-ecebe2064fdbc953
+  uid: ET-33269493-239078208@resources.planningcenteronline.com
+  title: Pickleball
+  summary: Darrel Schick
+  start: '2027-03-04T18:00:00-05:00'
+  end: '2027-03-04T20:00:00-05:00'
+  sort_start_utc: '2027-03-04T23:00:00Z'
+  sort_end_utc: '2027-03-05T01:00:00Z'
+  display_when: Thursday, March 4, 2027, 6 PM to 8 PM
+  all_day: false
+  description: Darrel Schick
+  planning_center_event_instance_id: '239078208'
+  planning_center_event_time_id: '33269493'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 106
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-03-04-pickleball-dbc953.md
 - id: event-e20b9e6cbdb236b5
   uid: ET-30270334-182177829@resources.planningcenteronline.com
   title: Men's Breakfast
@@ -3858,36 +4709,64 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 77
+  chronological_rank: 107
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-06-men-s-breakfast-b236b5.md
-- id: event-c2762fa087030fbd
-  uid: ET-8762150-182308662@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
+- id: event-a000b91a438998da
+  uid: ET-9127131-182308661@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 9:30 AM Service'
+  summary: Join us in person or online!...
   start: '2027-03-07T09:30:00-05:00'
-  end: '2027-03-07T10:30:00-05:00'
+  end: '2027-03-07T10:40:00-05:00'
   sort_start_utc: '2027-03-07T14:30:00Z'
-  sort_end_utc: '2027-03-07T15:30:00Z'
-  display_when: Sunday, March 7, 2027, 9:30 AM to 10:30 AM
+  sort_end_utc: '2027-03-07T15:40:00Z'
+  display_when: Sunday, March 7, 2027, 9:30 AM to 10:40 AM
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '182308662'
-  planning_center_event_time_id: '8762150'
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '182308661'
+  planning_center_event_time_id: '9127131'
   ministries:
-  - students
+  - churchwide
   audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
+  - everyone
+  event_category: general_event
+  event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 78
+  chronological_rank: 108
   next_for_ministries: []
   next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-03-07-p-u-r-s-u-e-030fbd.md
+  knowledge_file: knowledge/events/generated/2027-03-07-sunday-morning-services-9-30-am-service-8998da.md
+- id: event-3f49f804aa5c5096
+  uid: ET-9127132-182308661@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2027-03-07T11:00:00-05:00'
+  end: '2027-03-07T12:10:00-05:00'
+  sort_start_utc: '2027-03-07T16:00:00Z'
+  sort_end_utc: '2027-03-07T17:10:00Z'
+  display_when: Sunday, March 7, 2027, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '182308661'
+  planning_center_event_time_id: '9127132'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 109
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-03-07-sunday-morning-services-11-00-am-service-5c5096.md
 - id: event-ac490fb30248508a
   uid: ET-31870601-230122733@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -3951,36 +4830,10 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 79
+  chronological_rank: 110
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-10-wednesday-night-dinner-48508a.md
-- id: event-9fc355d91b790e5a
-  uid: ET-8762150-182961870@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-03-14T09:30:00-04:00'
-  end: '2027-03-14T10:30:00-04:00'
-  sort_start_utc: '2027-03-14T13:30:00Z'
-  sort_end_utc: '2027-03-14T14:30:00Z'
-  display_when: Sunday, March 14, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '182961870'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 80
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-03-14-p-u-r-s-u-e-790e5a.md
 - id: event-866cc6f60bab6c0d
   uid: ET-31870601-230122734@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -4044,36 +4897,10 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 81
+  chronological_rank: 111
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-17-wednesday-night-dinner-ab6c0d.md
-- id: event-0b29a5aa7b217b95
-  uid: ET-8762150-183553238@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-03-21T09:30:00-04:00'
-  end: '2027-03-21T10:30:00-04:00'
-  sort_start_utc: '2027-03-21T13:30:00Z'
-  sort_end_utc: '2027-03-21T14:30:00Z'
-  display_when: Sunday, March 21, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '183553238'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 82
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-03-21-p-u-r-s-u-e-217b95.md
 - id: event-bc25cccea346db45
   uid: ET-31870601-230122735@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -4137,36 +4964,10 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 83
+  chronological_rank: 112
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-24-wednesday-night-dinner-46db45.md
-- id: event-56faced5dab2c788
-  uid: ET-8762150-184127574@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-03-28T09:30:00-04:00'
-  end: '2027-03-28T10:30:00-04:00'
-  sort_start_utc: '2027-03-28T13:30:00Z'
-  sort_end_utc: '2027-03-28T14:30:00Z'
-  display_when: Sunday, March 28, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '184127574'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 84
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-03-28-p-u-r-s-u-e-b2c788.md
 - id: event-522c842215fc63a5
   uid: ET-31870601-230122736@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -4230,7 +5031,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 85
+  chronological_rank: 113
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-31-wednesday-night-dinner-fc63a5.md
@@ -4258,36 +5059,10 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 86
+  chronological_rank: 114
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-03-men-s-breakfast-069bd4.md
-- id: event-79d054329a2e9727
-  uid: ET-8762150-184709692@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-04-04T09:30:00-04:00'
-  end: '2027-04-04T10:30:00-04:00'
-  sort_start_utc: '2027-04-04T13:30:00Z'
-  sort_end_utc: '2027-04-04T14:30:00Z'
-  display_when: Sunday, April 4, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '184709692'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 87
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-04-04-p-u-r-s-u-e-2e9727.md
 - id: event-f2f8bb3688f6a6f7
   uid: ET-31703048-229161073@resources.planningcenteronline.com
   title: Missions Conference
@@ -4310,7 +5085,7 @@ events:
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 88
+  chronological_rank: 115
   next_for_ministries:
   - missions
   next_for_audiences: []
@@ -4378,36 +5153,10 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 89
+  chronological_rank: 116
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-07-wednesday-night-dinner-8df64a.md
-- id: event-6dcb851bb193c2dd
-  uid: ET-8762150-185242407@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-04-11T09:30:00-04:00'
-  end: '2027-04-11T10:30:00-04:00'
-  sort_start_utc: '2027-04-11T13:30:00Z'
-  sort_end_utc: '2027-04-11T14:30:00Z'
-  display_when: Sunday, April 11, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '185242407'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 90
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-04-11-p-u-r-s-u-e-93c2dd.md
 - id: event-8743b3c4d0e2d05a
   uid: ET-31870601-230122738@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -4471,36 +5220,10 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 91
+  chronological_rank: 117
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-14-wednesday-night-dinner-e2d05a.md
-- id: event-c0489022b6e41c24
-  uid: ET-8762150-185783917@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-04-18T09:30:00-04:00'
-  end: '2027-04-18T10:30:00-04:00'
-  sort_start_utc: '2027-04-18T13:30:00Z'
-  sort_end_utc: '2027-04-18T14:30:00Z'
-  display_when: Sunday, April 18, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '185783917'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 92
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-04-18-p-u-r-s-u-e-e41c24.md
 - id: event-f5f64f835c0a84c3
   uid: ET-31870601-230122739@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -4564,7 +5287,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 93
+  chronological_rank: 118
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-21-wednesday-night-dinner-0a84c3.md
@@ -4595,7 +5318,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 94
+  chronological_rank: 119
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-24-3v3-basketball-tournament-d9f0d6.md
@@ -4639,32 +5362,6 @@ events:
       Lebanon, OH 45036'
     latitude: '39.464553'
     longitude: '-84.176202'
-- id: event-f6f8b5556e95a8d5
-  uid: ET-8762150-186242939@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-04-25T09:30:00-04:00'
-  end: '2027-04-25T10:30:00-04:00'
-  sort_start_utc: '2027-04-25T13:30:00Z'
-  sort_end_utc: '2027-04-25T14:30:00Z'
-  display_when: Sunday, April 25, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '186242939'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 95
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-04-25-p-u-r-s-u-e-95a8d5.md
 - id: event-a6de6e036f6a7394
   uid: ET-31870601-230122740@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -4728,7 +5425,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 96
+  chronological_rank: 120
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-28-wednesday-night-dinner-6a7394.md
@@ -4756,36 +5453,10 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 97
+  chronological_rank: 121
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-01-men-s-breakfast-d1cfba.md
-- id: event-650c2dd41dc4a599
-  uid: ET-8762150-186833875@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-05-02T09:30:00-04:00'
-  end: '2027-05-02T10:30:00-04:00'
-  sort_start_utc: '2027-05-02T13:30:00Z'
-  sort_end_utc: '2027-05-02T14:30:00Z'
-  display_when: Sunday, May 2, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '186833875'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 98
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-05-02-p-u-r-s-u-e-c4a599.md
 - id: event-2ed07b2f6430e195
   uid: ET-31870601-230122741@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -4849,36 +5520,10 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 99
+  chronological_rank: 122
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-05-wednesday-night-dinner-30e195.md
-- id: event-2b5d740b36585e9e
-  uid: ET-8762150-187438411@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-05-09T09:30:00-04:00'
-  end: '2027-05-09T10:30:00-04:00'
-  sort_start_utc: '2027-05-09T13:30:00Z'
-  sort_end_utc: '2027-05-09T14:30:00Z'
-  display_when: Sunday, May 9, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '187438411'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 100
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-05-09-p-u-r-s-u-e-585e9e.md
 - id: event-e686734aafe125ce
   uid: ET-31870601-230122742@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -4942,36 +5587,10 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 101
+  chronological_rank: 123
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-12-wednesday-night-dinner-e125ce.md
-- id: event-15dddcc1725b41df
-  uid: ET-8762150-187978015@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-05-16T09:30:00-04:00'
-  end: '2027-05-16T10:30:00-04:00'
-  sort_start_utc: '2027-05-16T13:30:00Z'
-  sort_end_utc: '2027-05-16T14:30:00Z'
-  display_when: Sunday, May 16, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '187978015'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 102
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-05-16-p-u-r-s-u-e-5b41df.md
 - id: event-38c528dd850df29f
   uid: ET-31870601-230122743@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -5035,36 +5654,10 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 103
+  chronological_rank: 124
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-19-wednesday-night-dinner-0df29f.md
-- id: event-e7e2b8325b471aa6
-  uid: ET-8762150-188635612@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-05-23T09:30:00-04:00'
-  end: '2027-05-23T10:30:00-04:00'
-  sort_start_utc: '2027-05-23T13:30:00Z'
-  sort_end_utc: '2027-05-23T14:30:00Z'
-  display_when: Sunday, May 23, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '188635612'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 104
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-05-23-p-u-r-s-u-e-471aa6.md
 - id: event-a100cd2dd446fce3
   uid: ET-31870601-230122744@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -5128,36 +5721,10 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 105
+  chronological_rank: 125
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-26-wednesday-night-dinner-46fce3.md
-- id: event-c93b21cfb5518e4a
-  uid: ET-8762150-189178223@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-05-30T09:30:00-04:00'
-  end: '2027-05-30T10:30:00-04:00'
-  sort_start_utc: '2027-05-30T13:30:00Z'
-  sort_end_utc: '2027-05-30T14:30:00Z'
-  display_when: Sunday, May 30, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '189178223'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 106
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-05-30-p-u-r-s-u-e-518e4a.md
 - id: event-b056b3dfedba0347
   uid: ET-31870601-230122745@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -5221,7 +5788,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 107
+  chronological_rank: 126
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-02-wednesday-night-dinner-ba0347.md
@@ -5249,36 +5816,10 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 108
+  chronological_rank: 127
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-05-men-s-breakfast-456a52.md
-- id: event-8392fb148d57106e
-  uid: ET-8762150-189755214@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-06-06T09:30:00-04:00'
-  end: '2027-06-06T10:30:00-04:00'
-  sort_start_utc: '2027-06-06T13:30:00Z'
-  sort_end_utc: '2027-06-06T14:30:00Z'
-  display_when: Sunday, June 6, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '189755214'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 109
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-06-06-p-u-r-s-u-e-57106e.md
 - id: event-219fd965af764b7d
   uid: ET-31870601-230122746@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -5342,36 +5883,10 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 110
+  chronological_rank: 128
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-09-wednesday-night-dinner-764b7d.md
-- id: event-08082aef78951848
-  uid: ET-8762150-190366386@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-06-13T09:30:00-04:00'
-  end: '2027-06-13T10:30:00-04:00'
-  sort_start_utc: '2027-06-13T13:30:00Z'
-  sort_end_utc: '2027-06-13T14:30:00Z'
-  display_when: Sunday, June 13, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '190366386'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 111
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-06-13-p-u-r-s-u-e-951848.md
 - id: event-3d993f73ed6fef1b
   uid: ET-31870601-230122747@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -5435,36 +5950,10 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 112
+  chronological_rank: 129
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-16-wednesday-night-dinner-6fef1b.md
-- id: event-ee387a7ae9d091a4
-  uid: ET-8762150-190927289@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-06-20T09:30:00-04:00'
-  end: '2027-06-20T10:30:00-04:00'
-  sort_start_utc: '2027-06-20T13:30:00Z'
-  sort_end_utc: '2027-06-20T14:30:00Z'
-  display_when: Sunday, June 20, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '190927289'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 113
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-06-20-p-u-r-s-u-e-d091a4.md
 - id: event-a211e17e0b67d01b
   uid: ET-33165311-238425288@resources.planningcenteronline.com
   title: Kids Camp 2027
@@ -5517,7 +6006,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 114
+  chronological_rank: 130
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-21-kids-camp-2027-67d01b.md
@@ -5624,36 +6113,10 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 115
+  chronological_rank: 131
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-23-wednesday-night-dinner-8a9a7f.md
-- id: event-c52817750c3a7cb2
-  uid: ET-8762150-191499597@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-06-27T09:30:00-04:00'
-  end: '2027-06-27T10:30:00-04:00'
-  sort_start_utc: '2027-06-27T13:30:00Z'
-  sort_end_utc: '2027-06-27T14:30:00Z'
-  display_when: Sunday, June 27, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '191499597'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 116
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-06-27-p-u-r-s-u-e-3a7cb2.md
 - id: event-7a6499128234486c
   uid: ET-31870601-230122749@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -5717,7 +6180,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 117
+  chronological_rank: 132
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-30-wednesday-night-dinner-34486c.md
@@ -5745,36 +6208,10 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 118
+  chronological_rank: 133
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-07-03-men-s-breakfast-7dcbd4.md
-- id: event-d19742fa819b16ca
-  uid: ET-8762150-192039973@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-07-04T09:30:00-04:00'
-  end: '2027-07-04T10:30:00-04:00'
-  sort_start_utc: '2027-07-04T13:30:00Z'
-  sort_end_utc: '2027-07-04T14:30:00Z'
-  display_when: Sunday, July 4, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '192039973'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 119
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-07-04-p-u-r-s-u-e-9b16ca.md
 - id: event-50d5c3da5b36b6bb
   uid: ET-31870601-230122750@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -5838,36 +6275,10 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 120
+  chronological_rank: 134
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-07-07-wednesday-night-dinner-36b6bb.md
-- id: event-d1d1d00b65652bc6
-  uid: ET-8762150-192570407@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-07-11T09:30:00-04:00'
-  end: '2027-07-11T10:30:00-04:00'
-  sort_start_utc: '2027-07-11T13:30:00Z'
-  sort_end_utc: '2027-07-11T14:30:00Z'
-  display_when: Sunday, July 11, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '192570407'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 121
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-07-11-p-u-r-s-u-e-652bc6.md
 - id: event-9f903404a7e48c19
   uid: ET-31870601-230122751@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -5931,36 +6342,10 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 122
+  chronological_rank: 135
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-07-14-wednesday-night-dinner-e48c19.md
-- id: event-3d91ef03a2eb405a
-  uid: ET-8762150-193205936@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-07-18T09:30:00-04:00'
-  end: '2027-07-18T10:30:00-04:00'
-  sort_start_utc: '2027-07-18T13:30:00Z'
-  sort_end_utc: '2027-07-18T14:30:00Z'
-  display_when: Sunday, July 18, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '193205936'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 123
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-07-18-p-u-r-s-u-e-eb405a.md
 - id: event-97f698e017f4b889
   uid: ET-31870601-230122752@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -6024,36 +6409,10 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 124
+  chronological_rank: 136
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-07-21-wednesday-night-dinner-f4b889.md
-- id: event-1b3cfc1ff2dbe1c1
-  uid: ET-8762150-193794020@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-07-25T09:30:00-04:00'
-  end: '2027-07-25T10:30:00-04:00'
-  sort_start_utc: '2027-07-25T13:30:00Z'
-  sort_end_utc: '2027-07-25T14:30:00Z'
-  display_when: Sunday, July 25, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '193794020'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 125
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-07-25-p-u-r-s-u-e-dbe1c1.md
 - id: event-e645ce6a5b7b2465
   uid: ET-31870601-230122753@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -6117,36 +6476,10 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 126
+  chronological_rank: 137
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-07-28-wednesday-night-dinner-7b2465.md
-- id: event-afe24860b47d9cde
-  uid: ET-8762150-194487310@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-08-01T09:30:00-04:00'
-  end: '2027-08-01T10:30:00-04:00'
-  sort_start_utc: '2027-08-01T13:30:00Z'
-  sort_end_utc: '2027-08-01T14:30:00Z'
-  display_when: Sunday, August 1, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '194487310'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 127
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-08-01-p-u-r-s-u-e-7d9cde.md
 - id: event-6d28727f98c4767b
   uid: ET-31870601-230122754@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -6210,7 +6543,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 128
+  chronological_rank: 138
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-08-04-wednesday-night-dinner-c4767b.md
@@ -6238,36 +6571,10 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 129
+  chronological_rank: 139
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-08-07-men-s-breakfast-ccb967.md
-- id: event-7f42201e535b5cf1
-  uid: ET-8762150-195239941@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-08-08T09:30:00-04:00'
-  end: '2027-08-08T10:30:00-04:00'
-  sort_start_utc: '2027-08-08T13:30:00Z'
-  sort_end_utc: '2027-08-08T14:30:00Z'
-  display_when: Sunday, August 8, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '195239941'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 130
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-08-08-p-u-r-s-u-e-5b5cf1.md
 - id: event-241c9236f919d9cb
   uid: ET-31870601-230122755@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -6331,36 +6638,10 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 131
+  chronological_rank: 140
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-08-11-wednesday-night-dinner-19d9cb.md
-- id: event-5027f3e8accd683d
-  uid: ET-8762150-196140166@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-08-15T09:30:00-04:00'
-  end: '2027-08-15T10:30:00-04:00'
-  sort_start_utc: '2027-08-15T13:30:00Z'
-  sort_end_utc: '2027-08-15T14:30:00Z'
-  display_when: Sunday, August 15, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '196140166'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 132
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-08-15-p-u-r-s-u-e-cd683d.md
 - id: event-d64828b4a08ab9de
   uid: ET-31870601-230122756@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -6424,36 +6705,10 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 133
+  chronological_rank: 141
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-08-18-wednesday-night-dinner-8ab9de.md
-- id: event-8805c7b0c36faf4c
-  uid: ET-8762150-197056906@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-08-22T09:30:00-04:00'
-  end: '2027-08-22T10:30:00-04:00'
-  sort_start_utc: '2027-08-22T13:30:00Z'
-  sort_end_utc: '2027-08-22T14:30:00Z'
-  display_when: Sunday, August 22, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '197056906'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 134
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-08-22-p-u-r-s-u-e-6faf4c.md
 - id: event-0a8555383511c5e0
   uid: ET-31870601-230122757@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -6517,36 +6772,10 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 135
+  chronological_rank: 142
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-08-25-wednesday-night-dinner-11c5e0.md
-- id: event-94d6272fe12329d2
-  uid: ET-8762150-198062220@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-08-29T09:30:00-04:00'
-  end: '2027-08-29T10:30:00-04:00'
-  sort_start_utc: '2027-08-29T13:30:00Z'
-  sort_end_utc: '2027-08-29T14:30:00Z'
-  display_when: Sunday, August 29, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '198062220'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 136
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-08-29-p-u-r-s-u-e-2329d2.md
 - id: event-da3330a2fea91f0f
   uid: ET-31870601-230122758@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -6610,7 +6839,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 137
+  chronological_rank: 143
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-09-01-wednesday-night-dinner-a91f0f.md
@@ -6638,36 +6867,10 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 138
+  chronological_rank: 144
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-09-04-men-s-breakfast-9a794b.md
-- id: event-e8f368bb6677c3df
-  uid: ET-8762150-198916692@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-09-05T09:30:00-04:00'
-  end: '2027-09-05T10:30:00-04:00'
-  sort_start_utc: '2027-09-05T13:30:00Z'
-  sort_end_utc: '2027-09-05T14:30:00Z'
-  display_when: Sunday, September 5, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '198916692'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 139
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-09-05-p-u-r-s-u-e-77c3df.md
 - id: event-2e7d2e11bc77f2fa
   uid: ET-31870601-230122759@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -6731,36 +6934,10 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 140
+  chronological_rank: 145
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-09-08-wednesday-night-dinner-77f2fa.md
-- id: event-b46dd73794330032
-  uid: ET-8762150-199754818@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-09-12T09:30:00-04:00'
-  end: '2027-09-12T10:30:00-04:00'
-  sort_start_utc: '2027-09-12T13:30:00Z'
-  sort_end_utc: '2027-09-12T14:30:00Z'
-  display_when: Sunday, September 12, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '199754818'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 141
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-09-12-p-u-r-s-u-e-330032.md
 - id: event-600001936461868d
   uid: ET-31870601-230122760@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -6824,36 +7001,10 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 142
+  chronological_rank: 146
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-09-15-wednesday-night-dinner-61868d.md
-- id: event-22d45f4f901560a5
-  uid: ET-8762150-200488721@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-09-19T09:30:00-04:00'
-  end: '2027-09-19T10:30:00-04:00'
-  sort_start_utc: '2027-09-19T13:30:00Z'
-  sort_end_utc: '2027-09-19T14:30:00Z'
-  display_when: Sunday, September 19, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '200488721'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 143
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-09-19-p-u-r-s-u-e-1560a5.md
 - id: event-ca75bb967aa81839
   uid: ET-31870601-230122761@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -6917,36 +7068,10 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 144
+  chronological_rank: 147
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-09-22-wednesday-night-dinner-a81839.md
-- id: event-3a543df4368ab4ad
-  uid: ET-8762150-201177917@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-09-26T09:30:00-04:00'
-  end: '2027-09-26T10:30:00-04:00'
-  sort_start_utc: '2027-09-26T13:30:00Z'
-  sort_end_utc: '2027-09-26T14:30:00Z'
-  display_when: Sunday, September 26, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '201177917'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 145
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-09-26-p-u-r-s-u-e-8ab4ad.md
 - id: event-d0bd1d54fb4040f9
   uid: ET-31870601-230122762@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -7010,7 +7135,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 146
+  chronological_rank: 148
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-09-29-wednesday-night-dinner-4040f9.md
@@ -7038,36 +7163,10 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 147
+  chronological_rank: 149
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-10-02-men-s-breakfast-3640b7.md
-- id: event-d412cfae32b32d1c
-  uid: ET-8762150-201928577@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-10-03T09:30:00-04:00'
-  end: '2027-10-03T10:30:00-04:00'
-  sort_start_utc: '2027-10-03T13:30:00Z'
-  sort_end_utc: '2027-10-03T14:30:00Z'
-  display_when: Sunday, October 3, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '201928577'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
-  chronological_rank: 148
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-10-03-p-u-r-s-u-e-b32d1c.md
 - id: event-8697ad3fa97e1f00
   uid: ET-31870601-230122763@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -7131,58 +7230,32 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 149
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-10-06-wednesday-night-dinner-7e1f00.md
-- id: event-48dd769cb147a78b
-  uid: ET-8762150-202545996@resources.planningcenteronline.com
-  title: P U R S U E
-  summary: Sunday Morning Youth Service
-  start: '2027-10-10T09:30:00-04:00'
-  end: '2027-10-10T10:30:00-04:00'
-  sort_start_utc: '2027-10-10T13:30:00Z'
-  sort_end_utc: '2027-10-10T14:30:00Z'
-  display_when: Sunday, October 10, 2027, 9:30 AM to 10:30 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Sunday Morning Youth Service
-  planning_center_event_instance_id: '202545996'
-  planning_center_event_time_id: '8762150'
-  ministries:
-  - students
-  audiences:
-  - students
-  event_category: ministry_event
-  event_priority: 80
-  collection: main_events
-  status: confirmed
   chronological_rank: 150
   next_for_ministries: []
   next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-10-10-p-u-r-s-u-e-47a78b.md
+  knowledge_file: knowledge/events/generated/2027-10-06-wednesday-night-dinner-7e1f00.md
 registrations_api:
   status: ok
   api_version: '2025-05-01'
   signup_time_strategy: next_signup_time_then_signup_times_preserve_relationship_linkage
-  future_signup_count: 9
-  added_registration_only_events: 2
-  enriched_existing_events: 7
+  future_signup_count: 10
+  added_registration_only_events: 1
+  enriched_existing_events: 9
   category_allowlist: []
   category_denylist: []
   signup_count_received: 12
   relationship_linkage_counts:
     next_signup_time_relationship_present: 12
-    next_signup_time_with_linkage: 9
+    next_signup_time_with_linkage: 10
     signup_times_relationship_present: 12
     signup_times_with_linkage: 11
     signup_location_relationship_present: 12
-    signup_location_with_linkage: 12
+    signup_location_with_linkage: 11
     categories_relationship_present: 12
-    categories_with_linkage: 10
+    categories_with_linkage: 9
     selection_types_relationship_present: 12
     selection_types_with_linkage: 12
-  skipped_signup_count: 3
+  skipped_signup_count: 2
   skipped_reasons:
-    no_current_or_future_signup_time_within_lookahead: 3
+    no_current_or_future_signup_time_within_lookahead: 2
   page_count: 1

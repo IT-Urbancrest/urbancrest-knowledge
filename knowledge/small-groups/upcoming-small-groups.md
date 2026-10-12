@@ -16,29 +16,15 @@ tags: [small_groups, groups, calendar, recurring]
 resources:
   - small_groups.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-10-12T10:52:12.420180Z
+last_generated: 2026-10-12T21:17:00.115696Z
 ---
 
 # Upcoming Small Groups
 
 Each recurring Small Group appears once with its next meeting and future schedule.
 
-## Connie Hollan Small Group: Ladies Bible Study
-
-**Next meeting:** Monday, October 12, 2026, 7 PM to 8:30 PM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed group file: `knowledge/small-groups/generated/connie-hollan-small-group-ladies-bible-study-95a0af.md`
-
-## Steve Gregory Small Group: Steve Gregory
-
-**Next meeting:** Monday, October 12, 2026, 7 PM to 8:30 PM
-
-Detailed group file: `knowledge/small-groups/generated/steve-gregory-small-group-steve-gregory-c4a23b.md`
-
-## P U R S U E
+## Urbancrest Student Ministry
 
 **Next meeting:** Wednesday, October 14, 2026, 6:30 PM to 8:30 PM
 
-Detailed group file: `knowledge/small-groups/generated/p-u-r-s-u-e-567dcc.md`
+Detailed group file: `knowledge/small-groups/generated/urbancrest-student-ministry-6b61fc.md`
