@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-10-12T13:30:19.960035Z",
+  "generated_at": "2026-10-12T13:40:01.662177Z",
   "timezone": "America/New_York",
   "record_count": 477,
   "config": {
@@ -11384,6 +11384,11 @@
         "Pastor Larry",
         "Worship Pastor",
         "Larry",
+        "Music leader",
+        "Worship music leader",
+        "Worship leader",
+        "Music pastor",
+        "Choir director",
         "worship",
         "music ministry",
         "choir",
@@ -14697,7 +14702,7 @@
       "path": "relationships/ministry-staff.yaml",
       "title": "Worship staff relationship",
       "summary": "Staff relationship for worship. Recommended staff key: larry_nichols.",
-      "content": "Ministry: worship\nLeadership status: staffed\nPrimary staff key: larry_nichols\nRecommended contact staff key: larry_nichols\nRelated staff keys: \nAnswer guidance: Larry Nichols serves as Worship Pastor and is the primary contact for Worship Ministry, music, choir, and serving with the worship team.",
+      "content": "Ministry: worship\nLeadership status: staffed\nPrimary staff key: larry_nichols\nRecommended contact staff key: larry_nichols\nRelated staff keys: \nRouting aliases: worship, worship music, music, music leader, worship music leader, worship leader, music ministry, worship ministry, worship team, worship band, choir\nAnswer guidance: Larry Nichols serves as Worship Pastor and is the primary contact for Worship Ministry, music, choir, and serving with the worship team.",
       "priority": 85,
       "category": [
         "relationship",
@@ -14718,7 +14723,17 @@
         "worship",
         "who oversees worship",
         "who leads worship",
-        "who do I contact about worship"
+        "who do I contact about worship",
+        "worship music",
+        "music",
+        "music leader",
+        "worship music leader",
+        "worship leader",
+        "music ministry",
+        "worship ministry",
+        "worship team",
+        "worship band",
+        "choir"
       ],
       "ministries": [
         "worship"
@@ -14726,6 +14741,19 @@
       "audiences": [],
       "resources": [],
       "ministry": "worship",
+      "routing_aliases": [
+        "worship",
+        "worship music",
+        "music",
+        "music leader",
+        "worship music leader",
+        "worship leader",
+        "music ministry",
+        "worship ministry",
+        "worship team",
+        "worship band",
+        "choir"
+      ],
       "relationship_label": "Worship",
       "staff_key": "larry_nichols",
       "primary_staff_key": "larry_nichols",
