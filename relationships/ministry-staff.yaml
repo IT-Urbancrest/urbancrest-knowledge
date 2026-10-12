@@ -1,5 +1,5 @@
-version: '2.0'
-last_updated: '2026-08-10'
+version: '2.1'
+last_updated: '2026-10-12'
 relationships:
 - ministry: pastoral
   label: Senior Leadership
@@ -53,6 +53,18 @@ relationships:
     and church operations.
 - ministry: worship
   label: Worship
+  routing_aliases:
+  - worship
+  - worship music
+  - music
+  - music leader
+  - worship music leader
+  - worship leader
+  - music ministry
+  - worship ministry
+  - worship team
+  - worship band
+  - choir
   aliases:
   - worship
   - worship ministry

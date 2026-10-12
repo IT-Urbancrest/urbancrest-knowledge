@@ -1,5 +1,5 @@
-version: '1.2'
-last_updated: '2026-08-03'
+version: '1.3'
+last_updated: '2026-10-12'
 profile_source: base44.Staff
 routing:
   geoff_prows:
@@ -48,6 +48,11 @@ routing:
     - Pastor Larry
     - Larry Nichols
     - Worship Pastor
+    - Music leader
+    - Worship music leader
+    - Worship leader
+    - Music pastor
+    - Choir director
     ministries:
     - worship
     - pastoral
