@@ -1,5 +1,5 @@
 version: 1.5.4
-generated_at: '2026-10-12T00:33:36.637818Z'
+generated_at: '2026-10-12T10:52:13.206628Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
@@ -229,7 +229,7 @@ events:
     make plans to be part of this special day together.
 
 
-    Registration is open.'
+    Registration is not currently open.'
   details_source: planning_center_registrations_api
   planning_center_event_instance_id: '230615455'
   planning_center_event_time_id: '31936721'
@@ -262,8 +262,8 @@ events:
   planning_center_signup_id: '3791849'
   planning_center_signup_time_id: '6363614'
   registration_available: true
-  registration_open: true
-  registration_closed: false
+  registration_open: false
+  registration_closed: true
   registration_at_maximum_capacity: null
   registration_open_at: '2026-08-02T11:12:58Z'
   registration_close_at: '2026-10-12T04:00:00Z'

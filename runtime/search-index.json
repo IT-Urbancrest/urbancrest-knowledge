@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-10-12T00:33:37.709519Z",
+  "generated_at": "2026-10-12T10:52:14.288363Z",
   "timezone": "America/New_York",
   "record_count": 476,
   "config": {
@@ -90,7 +90,7 @@
   },
   "freshness": {
     "calendar": {
-      "generated_at": "2026-10-12T00:33:36.637818Z",
+      "generated_at": "2026-10-12T10:52:13.206628Z",
       "max_age_hours": 48,
       "source_path": "registry/events-live.yaml",
       "heartbeat_field": "generated_at",
@@ -98,7 +98,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-10-12T00:33:35.609119Z",
+      "generated_at": "2026-10-12T10:52:12.420180Z",
       "max_age_hours": 48,
       "source_path": "registry/small-groups-live.yaml",
       "heartbeat_field": "generated_at",
@@ -5490,7 +5490,7 @@
       "path": "knowledge/events/generated/2026-10-17-urbancrest-women-s-conference-af3c3f.md",
       "title": "Urbancrest Women's Conference",
       "summary": "Join us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God. This year’s keynote speaker is Barb Roose , who will...",
-      "content": "Join us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.\n\nThis year’s keynote speaker is Barb Roose, who will challenge and encourage women to grow in their faith and walk confidently in God’s truth.\n\nDoors open at 8:00 AM, and the cost is just $5, which includes lunch (more details coming soon). Invite a friend and make plans to be part of this special day together.\nRegister: https://urbancrest.churchcenter.com/registrations/events/3791849\n\nDetails:\nJoin us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.\n\nThis year’s keynote speaker is Barb Roose , who will challenge and encourage women to grow in their faith and walk confidently in God’s truth.\n\nDoors open at 8:00 AM , and the cost is just $5 , which includes lunch (more details coming soon). Invite a friend and make plans to be part of this special day together.\n\nRegistration is open.",
+      "content": "Join us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.\n\nThis year’s keynote speaker is Barb Roose, who will challenge and encourage women to grow in their faith and walk confidently in God’s truth.\n\nDoors open at 8:00 AM, and the cost is just $5, which includes lunch (more details coming soon). Invite a friend and make plans to be part of this special day together.\nRegister: https://urbancrest.churchcenter.com/registrations/events/3791849\n\nDetails:\nJoin us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.\n\nThis year’s keynote speaker is Barb Roose , who will challenge and encourage women to grow in their faith and walk confidently in God’s truth.\n\nDoors open at 8:00 AM , and the cost is just $5 , which includes lunch (more details coming soon). Invite a friend and make plans to be part of this special day together.\n\nRegistration is not currently open.",
       "priority": 100,
       "category": [
         "events",
@@ -5565,14 +5565,14 @@
         "latitude": "39.4747445",
         "longitude": "-84.1792958"
       },
-      "details": "Join us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.\n\nThis year’s keynote speaker is Barb Roose , who will challenge and encourage women to grow in their faith and walk confidently in God’s truth.\n\nDoors open at 8:00 AM , and the cost is just $5 , which includes lunch (more details coming soon). Invite a friend and make plans to be part of this special day together.\n\nRegistration is open.",
+      "details": "Join us for the Urbancrest Women’s Conference 'Known & Loved' on Saturday, October 17 for a morning of encouragement, worship, and biblical teaching centered on the truth that we are fully known and deeply loved by God.\n\nThis year’s keynote speaker is Barb Roose , who will challenge and encourage women to grow in their faith and walk confidently in God’s truth.\n\nDoors open at 8:00 AM , and the cost is just $5 , which includes lunch (more details coming soon). Invite a friend and make plans to be part of this special day together.\n\nRegistration is not currently open.",
       "details_source": "planning_center_registrations_api",
       "planning_center_event_instance_id": "230615455",
       "planning_center_event_time_id": "31936721",
       "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3791849/reservations/new",
       "registration_available": true,
-      "registration_open": true,
-      "registration_closed": false,
+      "registration_open": false,
+      "registration_closed": true,
       "registration_open_at": "2026-08-02T11:12:58Z",
       "registration_close_at": "2026-10-12T04:00:00Z",
       "registration_categories": [
