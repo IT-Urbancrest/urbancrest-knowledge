@@ -42,7 +42,7 @@ all_day: false
 image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1791907200&key=uploads%2Fevent%2Flogo%2F3953731%2Fimage-1791828904219.jpeg&thumb=720x405%23&version=1791829083&signature=de57f84929d9bfb6221a62996c2b1c914ad3d8e36d28047780c35b83d239009a"
 planning_center_event_instance_id: "239642379"
 planning_center_event_time_id: "33357296"
-last_generated: 2026-10-13T02:36:54.231043Z
+last_generated: 2026-10-13T10:38:05.860632Z
 ---
 
 # Christmas Choir
