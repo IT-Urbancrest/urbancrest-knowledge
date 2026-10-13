@@ -1,12 +1,12 @@
 version: 1.4.3
-generated_at: '2026-10-13T10:38:05.860632Z'
+generated_at: '2026-10-13T19:18:23.053696Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api
 api_enrichment:
   enabled: true
-  target_instance_count: 232
-  matched_instance_count: 232
-  page_count: 8
+  target_instance_count: 337
+  matched_instance_count: 337
+  page_count: 10
   api_version: '2026-06-22'
 source_of_truth_for_small_group_intents: true
 collection: small_groups
@@ -14,8 +14,8 @@ sort_order: next_meeting.sort_start_utc_ascending
 lookahead_days: 365
 max_series: 100
 max_occurrences_per_series: 12
-group_count: 1
-source_occurrence_count: 52
+group_count: 2
+source_occurrence_count: 104
 groups:
 - id: group-d8ef73afd66b61fc
   source_uids:
@@ -162,3 +162,145 @@ groups:
     all_day: false
   meeting_count_in_window: 52
   knowledge_file: knowledge/small-groups/generated/urbancrest-student-ministry-6b61fc.md
+- id: group-95131c638f1a4d4c
+  source_uids:
+  - ET-33366261-239691731@resources.planningcenteronline.com
+  - ET-33366261-239691732@resources.planningcenteronline.com
+  - ET-33366261-239691733@resources.planningcenteronline.com
+  - ET-33366261-239691734@resources.planningcenteronline.com
+  - ET-33366261-239691735@resources.planningcenteronline.com
+  - ET-33366261-239691736@resources.planningcenteronline.com
+  - ET-33366261-239691737@resources.planningcenteronline.com
+  - ET-33366261-239691738@resources.planningcenteronline.com
+  - ET-33366261-239691739@resources.planningcenteronline.com
+  - ET-33366261-239691740@resources.planningcenteronline.com
+  - ET-33366261-239691741@resources.planningcenteronline.com
+  - ET-33366261-239691742@resources.planningcenteronline.com
+  - ET-33366261-239691743@resources.planningcenteronline.com
+  - ET-33366261-239691744@resources.planningcenteronline.com
+  - ET-33366261-239691745@resources.planningcenteronline.com
+  - ET-33366261-239691746@resources.planningcenteronline.com
+  - ET-33366261-239691747@resources.planningcenteronline.com
+  - ET-33366261-239691748@resources.planningcenteronline.com
+  - ET-33366261-239691749@resources.planningcenteronline.com
+  - ET-33366261-239691750@resources.planningcenteronline.com
+  - ET-33366261-239691751@resources.planningcenteronline.com
+  - ET-33366261-239691752@resources.planningcenteronline.com
+  - ET-33366261-239691753@resources.planningcenteronline.com
+  - ET-33366261-239691754@resources.planningcenteronline.com
+  - ET-33366261-239691755@resources.planningcenteronline.com
+  - ET-33366261-239691756@resources.planningcenteronline.com
+  - ET-33366261-239691757@resources.planningcenteronline.com
+  - ET-33366261-239691758@resources.planningcenteronline.com
+  - ET-33366261-239691759@resources.planningcenteronline.com
+  - ET-33366261-239691760@resources.planningcenteronline.com
+  - ET-33366261-239691761@resources.planningcenteronline.com
+  - ET-33366261-239691762@resources.planningcenteronline.com
+  - ET-33366261-239691763@resources.planningcenteronline.com
+  - ET-33366261-239691764@resources.planningcenteronline.com
+  - ET-33366261-239691765@resources.planningcenteronline.com
+  - ET-33366261-239691766@resources.planningcenteronline.com
+  - ET-33366261-239691767@resources.planningcenteronline.com
+  - ET-33366261-239691768@resources.planningcenteronline.com
+  - ET-33366261-239691769@resources.planningcenteronline.com
+  - ET-33366261-239691770@resources.planningcenteronline.com
+  - ET-33366261-239691771@resources.planningcenteronline.com
+  - ET-33366261-239691772@resources.planningcenteronline.com
+  - ET-33366261-239691773@resources.planningcenteronline.com
+  - ET-33366261-239691774@resources.planningcenteronline.com
+  - ET-33366261-239691775@resources.planningcenteronline.com
+  - ET-33366261-239691776@resources.planningcenteronline.com
+  - ET-33366261-239691777@resources.planningcenteronline.com
+  - ET-33366261-239691778@resources.planningcenteronline.com
+  - ET-33366261-239691779@resources.planningcenteronline.com
+  - ET-33366261-239691780@resources.planningcenteronline.com
+  - ET-33366261-239691781@resources.planningcenteronline.com
+  - ET-33366261-239691782@resources.planningcenteronline.com
+  title: Pursuit - Small Group
+  summary: Bob Woods
+  description: Bob Woods
+  planning_center_event_instance_id: '239691731'
+  planning_center_event_time_id: '33366261'
+  ministries:
+  - small_groups
+  audiences:
+  - everyone
+  event_category: small_group_meeting
+  event_priority: 20
+  next_meeting: &id002
+    start: '2026-10-20T10:30:00-04:00'
+    end: '2026-10-20T12:00:00-04:00'
+    sort_start_utc: '2026-10-20T14:30:00Z'
+    sort_end_utc: '2026-10-20T16:00:00Z'
+    display_when: Tuesday, October 20, 2026, 10:30 AM to 12 PM
+    all_day: false
+  future_meetings:
+  - *id002
+  - start: '2026-10-27T10:30:00-04:00'
+    end: '2026-10-27T12:00:00-04:00'
+    sort_start_utc: '2026-10-27T14:30:00Z'
+    sort_end_utc: '2026-10-27T16:00:00Z'
+    display_when: Tuesday, October 27, 2026, 10:30 AM to 12 PM
+    all_day: false
+  - start: '2026-11-03T10:30:00-05:00'
+    end: '2026-11-03T12:00:00-05:00'
+    sort_start_utc: '2026-11-03T15:30:00Z'
+    sort_end_utc: '2026-11-03T17:00:00Z'
+    display_when: Tuesday, November 3, 2026, 10:30 AM to 12 PM
+    all_day: false
+  - start: '2026-11-10T10:30:00-05:00'
+    end: '2026-11-10T12:00:00-05:00'
+    sort_start_utc: '2026-11-10T15:30:00Z'
+    sort_end_utc: '2026-11-10T17:00:00Z'
+    display_when: Tuesday, November 10, 2026, 10:30 AM to 12 PM
+    all_day: false
+  - start: '2026-11-17T10:30:00-05:00'
+    end: '2026-11-17T12:00:00-05:00'
+    sort_start_utc: '2026-11-17T15:30:00Z'
+    sort_end_utc: '2026-11-17T17:00:00Z'
+    display_when: Tuesday, November 17, 2026, 10:30 AM to 12 PM
+    all_day: false
+  - start: '2026-11-24T10:30:00-05:00'
+    end: '2026-11-24T12:00:00-05:00'
+    sort_start_utc: '2026-11-24T15:30:00Z'
+    sort_end_utc: '2026-11-24T17:00:00Z'
+    display_when: Tuesday, November 24, 2026, 10:30 AM to 12 PM
+    all_day: false
+  - start: '2026-12-01T10:30:00-05:00'
+    end: '2026-12-01T12:00:00-05:00'
+    sort_start_utc: '2026-12-01T15:30:00Z'
+    sort_end_utc: '2026-12-01T17:00:00Z'
+    display_when: Tuesday, December 1, 2026, 10:30 AM to 12 PM
+    all_day: false
+  - start: '2026-12-08T10:30:00-05:00'
+    end: '2026-12-08T12:00:00-05:00'
+    sort_start_utc: '2026-12-08T15:30:00Z'
+    sort_end_utc: '2026-12-08T17:00:00Z'
+    display_when: Tuesday, December 8, 2026, 10:30 AM to 12 PM
+    all_day: false
+  - start: '2026-12-15T10:30:00-05:00'
+    end: '2026-12-15T12:00:00-05:00'
+    sort_start_utc: '2026-12-15T15:30:00Z'
+    sort_end_utc: '2026-12-15T17:00:00Z'
+    display_when: Tuesday, December 15, 2026, 10:30 AM to 12 PM
+    all_day: false
+  - start: '2026-12-22T10:30:00-05:00'
+    end: '2026-12-22T12:00:00-05:00'
+    sort_start_utc: '2026-12-22T15:30:00Z'
+    sort_end_utc: '2026-12-22T17:00:00Z'
+    display_when: Tuesday, December 22, 2026, 10:30 AM to 12 PM
+    all_day: false
+  - start: '2026-12-29T10:30:00-05:00'
+    end: '2026-12-29T12:00:00-05:00'
+    sort_start_utc: '2026-12-29T15:30:00Z'
+    sort_end_utc: '2026-12-29T17:00:00Z'
+    display_when: Tuesday, December 29, 2026, 10:30 AM to 12 PM
+    all_day: false
+  - start: '2027-01-05T10:30:00-05:00'
+    end: '2027-01-05T12:00:00-05:00'
+    sort_start_utc: '2027-01-05T15:30:00Z'
+    sort_end_utc: '2027-01-05T17:00:00Z'
+    display_when: Tuesday, January 5, 2027, 10:30 AM to 12 PM
+    all_day: false
+  meeting_count_in_window: 52
+  knowledge_file: knowledge/small-groups/generated/pursuit-small-group-1a4d4c.md

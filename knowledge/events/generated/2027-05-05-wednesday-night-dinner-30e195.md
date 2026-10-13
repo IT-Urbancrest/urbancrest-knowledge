@@ -44,7 +44,7 @@ location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "230122741"
 planning_center_event_time_id: "31870601"
-last_generated: 2026-10-13T10:38:05.860632Z
+last_generated: 2026-10-13T19:18:23.053696Z
 ---
 
 # Wednesday Night Dinner
@@ -76,7 +76,7 @@ Rolls
 Salad Bar
 Hot Fudge Brownies
 October 28, 2026
-Lasagna
+Pizza
 Salad Bar
 Ice Cream Bars
 
