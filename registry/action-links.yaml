@@ -1,5 +1,5 @@
 version: '1.0'
-last_updated: '2026-09-15'
+last_updated: '2026-10-13'
 domain_rules:
   preferred_domain: urbancrest.church
   allowed_external_hosts:
@@ -184,6 +184,14 @@ links:
     external: true
     bundle: directions_maps
     include_with_bundle: true
+  proposed_budget:
+    label: View Proposed Budget
+    url: https://urbancrest.church/budget
+    intents:
+    - annual_business_meeting
+    - proposed_budget
+    - budget_access
+    priority: 100
 selection_rules:
 - Include one relevant action link at the end of an answer when it helps the user take a clear next step.
 - For directions or church-location questions, include both Google Maps and Apple Maps from the directions_maps bundle.
