@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-10-13T19:18:25.210079Z",
+  "generated_at": "2026-10-14T00:18:49.492260Z",
   "timezone": "America/New_York",
   "record_count": 479,
   "config": {
@@ -90,7 +90,7 @@
   },
   "freshness": {
     "calendar": {
-      "generated_at": "2026-10-13T19:18:24.065371Z",
+      "generated_at": "2026-10-14T00:18:48.372879Z",
       "max_age_hours": 48,
       "source_path": "registry/events-live.yaml",
       "heartbeat_field": "generated_at",
@@ -98,7 +98,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-10-13T19:18:23.053696Z",
+      "generated_at": "2026-10-14T00:18:47.548574Z",
       "max_age_hours": 48,
       "source_path": "registry/small-groups-live.yaml",
       "heartbeat_field": "generated_at",
@@ -5451,7 +5451,7 @@
       "planning_center_event_time_id": "31703048",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-04-07-missions-conference-f6a6f7.md",
-      "chronological_rank": 115,
+      "chronological_rank": 114,
       "routine_schedule_occurrence": false
     },
     {
@@ -15341,7 +15341,7 @@
       ],
       "image_url": "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3763678/medium_image-1784563400067.jpeg",
       "knowledge_file": "knowledge/events/generated/2027-04-24-3v3-basketball-tournament-d9f0d6.md",
-      "chronological_rank": 119,
+      "chronological_rank": 118,
       "routine_schedule_occurrence": false
     },
     {
@@ -16326,7 +16326,7 @@
       "info_url": "https://centrikid.com/",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1790870400&key=uploads%2Fevent%2Flogo%2F3928514%2Fimage-1736980568489.png&thumb=720x405%23&version=1790798671&signature=d43f67eb2f528561aedd63760cc007931ede914b14ae9adc47befc6bf76083bc",
       "knowledge_file": "knowledge/events/generated/2027-06-21-kids-camp-2027-67d01b.md",
-      "chronological_rank": 130,
+      "chronological_rank": 129,
       "routine_schedule_occurrence": false
     },
     {
@@ -16740,7 +16740,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=a34fd5b0ee03cb689e8d769fb652d593820b13d085b3dc27ce1d57b862d0a8fd",
       "knowledge_file": "knowledge/events/generated/2027-04-03-men-s-breakfast-069bd4.md",
-      "chronological_rank": 114,
+      "chronological_rank": 113,
       "routine_schedule_occurrence": false
     },
     {
@@ -16809,7 +16809,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=a34fd5b0ee03cb689e8d769fb652d593820b13d085b3dc27ce1d57b862d0a8fd",
       "knowledge_file": "knowledge/events/generated/2027-05-01-men-s-breakfast-d1cfba.md",
-      "chronological_rank": 121,
+      "chronological_rank": 120,
       "routine_schedule_occurrence": false
     },
     {
@@ -16878,7 +16878,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=a34fd5b0ee03cb689e8d769fb652d593820b13d085b3dc27ce1d57b862d0a8fd",
       "knowledge_file": "knowledge/events/generated/2027-06-05-men-s-breakfast-456a52.md",
-      "chronological_rank": 127,
+      "chronological_rank": 126,
       "routine_schedule_occurrence": false
     },
     {
@@ -16947,7 +16947,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=a34fd5b0ee03cb689e8d769fb652d593820b13d085b3dc27ce1d57b862d0a8fd",
       "knowledge_file": "knowledge/events/generated/2027-07-03-men-s-breakfast-7dcbd4.md",
-      "chronological_rank": 133,
+      "chronological_rank": 132,
       "routine_schedule_occurrence": false
     },
     {
@@ -17016,7 +17016,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=a34fd5b0ee03cb689e8d769fb652d593820b13d085b3dc27ce1d57b862d0a8fd",
       "knowledge_file": "knowledge/events/generated/2027-08-07-men-s-breakfast-ccb967.md",
-      "chronological_rank": 139,
+      "chronological_rank": 138,
       "routine_schedule_occurrence": false
     },
     {
@@ -17085,7 +17085,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=a34fd5b0ee03cb689e8d769fb652d593820b13d085b3dc27ce1d57b862d0a8fd",
       "knowledge_file": "knowledge/events/generated/2027-09-04-men-s-breakfast-9a794b.md",
-      "chronological_rank": 144,
+      "chronological_rank": 143,
       "routine_schedule_occurrence": false
     },
     {
@@ -17154,7 +17154,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=a34fd5b0ee03cb689e8d769fb652d593820b13d085b3dc27ce1d57b862d0a8fd",
       "knowledge_file": "knowledge/events/generated/2027-10-02-men-s-breakfast-3640b7.md",
-      "chronological_rank": 149,
+      "chronological_rank": 148,
       "routine_schedule_occurrence": false
     },
     {
@@ -20527,7 +20527,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-03-10-wednesday-night-dinner-48508a.md",
-      "chronological_rank": 110,
+      "chronological_rank": 109,
       "routine_schedule_occurrence": false
     },
     {
@@ -20598,7 +20598,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-03-17-wednesday-night-dinner-ab6c0d.md",
-      "chronological_rank": 111,
+      "chronological_rank": 110,
       "routine_schedule_occurrence": false
     },
     {
@@ -20669,7 +20669,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-03-24-wednesday-night-dinner-46db45.md",
-      "chronological_rank": 112,
+      "chronological_rank": 111,
       "routine_schedule_occurrence": false
     },
     {
@@ -20740,7 +20740,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-03-31-wednesday-night-dinner-fc63a5.md",
-      "chronological_rank": 113,
+      "chronological_rank": 112,
       "routine_schedule_occurrence": false
     },
     {
@@ -20811,7 +20811,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-04-07-wednesday-night-dinner-8df64a.md",
-      "chronological_rank": 116,
+      "chronological_rank": 115,
       "routine_schedule_occurrence": false
     },
     {
@@ -20882,7 +20882,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-04-14-wednesday-night-dinner-e2d05a.md",
-      "chronological_rank": 117,
+      "chronological_rank": 116,
       "routine_schedule_occurrence": false
     },
     {
@@ -20953,7 +20953,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-04-21-wednesday-night-dinner-0a84c3.md",
-      "chronological_rank": 118,
+      "chronological_rank": 117,
       "routine_schedule_occurrence": false
     },
     {
@@ -21024,7 +21024,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-04-28-wednesday-night-dinner-6a7394.md",
-      "chronological_rank": 120,
+      "chronological_rank": 119,
       "routine_schedule_occurrence": false
     },
     {
@@ -21095,7 +21095,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-05-05-wednesday-night-dinner-30e195.md",
-      "chronological_rank": 122,
+      "chronological_rank": 121,
       "routine_schedule_occurrence": false
     },
     {
@@ -21166,7 +21166,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-05-12-wednesday-night-dinner-e125ce.md",
-      "chronological_rank": 123,
+      "chronological_rank": 122,
       "routine_schedule_occurrence": false
     },
     {
@@ -21237,7 +21237,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-05-19-wednesday-night-dinner-0df29f.md",
-      "chronological_rank": 124,
+      "chronological_rank": 123,
       "routine_schedule_occurrence": false
     },
     {
@@ -21308,7 +21308,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-05-26-wednesday-night-dinner-46fce3.md",
-      "chronological_rank": 125,
+      "chronological_rank": 124,
       "routine_schedule_occurrence": false
     },
     {
@@ -21379,7 +21379,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-06-02-wednesday-night-dinner-ba0347.md",
-      "chronological_rank": 126,
+      "chronological_rank": 125,
       "routine_schedule_occurrence": false
     },
     {
@@ -21450,7 +21450,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-06-09-wednesday-night-dinner-764b7d.md",
-      "chronological_rank": 128,
+      "chronological_rank": 127,
       "routine_schedule_occurrence": false
     },
     {
@@ -21521,7 +21521,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-06-16-wednesday-night-dinner-6fef1b.md",
-      "chronological_rank": 129,
+      "chronological_rank": 128,
       "routine_schedule_occurrence": false
     },
     {
@@ -21592,7 +21592,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-06-23-wednesday-night-dinner-8a9a7f.md",
-      "chronological_rank": 131,
+      "chronological_rank": 130,
       "routine_schedule_occurrence": false
     },
     {
@@ -21663,7 +21663,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-06-30-wednesday-night-dinner-34486c.md",
-      "chronological_rank": 132,
+      "chronological_rank": 131,
       "routine_schedule_occurrence": false
     },
     {
@@ -21734,7 +21734,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-07-07-wednesday-night-dinner-36b6bb.md",
-      "chronological_rank": 134,
+      "chronological_rank": 133,
       "routine_schedule_occurrence": false
     },
     {
@@ -21805,7 +21805,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-07-14-wednesday-night-dinner-e48c19.md",
-      "chronological_rank": 135,
+      "chronological_rank": 134,
       "routine_schedule_occurrence": false
     },
     {
@@ -21876,7 +21876,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-07-21-wednesday-night-dinner-f4b889.md",
-      "chronological_rank": 136,
+      "chronological_rank": 135,
       "routine_schedule_occurrence": false
     },
     {
@@ -21947,7 +21947,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-07-28-wednesday-night-dinner-7b2465.md",
-      "chronological_rank": 137,
+      "chronological_rank": 136,
       "routine_schedule_occurrence": false
     },
     {
@@ -22018,7 +22018,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-08-04-wednesday-night-dinner-c4767b.md",
-      "chronological_rank": 138,
+      "chronological_rank": 137,
       "routine_schedule_occurrence": false
     },
     {
@@ -22089,7 +22089,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-08-11-wednesday-night-dinner-19d9cb.md",
-      "chronological_rank": 140,
+      "chronological_rank": 139,
       "routine_schedule_occurrence": false
     },
     {
@@ -22160,7 +22160,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-08-18-wednesday-night-dinner-8ab9de.md",
-      "chronological_rank": 141,
+      "chronological_rank": 140,
       "routine_schedule_occurrence": false
     },
     {
@@ -22231,7 +22231,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-08-25-wednesday-night-dinner-11c5e0.md",
-      "chronological_rank": 142,
+      "chronological_rank": 141,
       "routine_schedule_occurrence": false
     },
     {
@@ -22302,7 +22302,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-09-01-wednesday-night-dinner-a91f0f.md",
-      "chronological_rank": 143,
+      "chronological_rank": 142,
       "routine_schedule_occurrence": false
     },
     {
@@ -22373,7 +22373,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-09-08-wednesday-night-dinner-77f2fa.md",
-      "chronological_rank": 145,
+      "chronological_rank": 144,
       "routine_schedule_occurrence": false
     },
     {
@@ -22444,7 +22444,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-09-15-wednesday-night-dinner-61868d.md",
-      "chronological_rank": 146,
+      "chronological_rank": 145,
       "routine_schedule_occurrence": false
     },
     {
@@ -22515,7 +22515,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-09-22-wednesday-night-dinner-a81839.md",
-      "chronological_rank": 147,
+      "chronological_rank": 146,
       "routine_schedule_occurrence": false
     },
     {
@@ -22586,7 +22586,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-09-29-wednesday-night-dinner-4040f9.md",
-      "chronological_rank": 148,
+      "chronological_rank": 147,
       "routine_schedule_occurrence": false
     },
     {
@@ -22657,6 +22657,77 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-10-06-wednesday-night-dinner-7e1f00.md",
+      "chronological_rank": 149,
+      "routine_schedule_occurrence": false
+    },
+    {
+      "id": "events.live.event-85ae0ddbc3693da5",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2027-10-13-wednesday-night-dinner-693da5.md",
+      "title": "Wednesday Night Dinner",
+      "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "priority": 60,
+      "category": [
+        "events",
+        "churchwide_program"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "churchwide_program",
+        "Wednesday Night Dinner"
+      ],
+      "search_terms": [
+        "Wednesday Night Dinner",
+        "When is Wednesday Night Dinner?",
+        "Tell me about Wednesday Night Dinner",
+        "What are the details for Wednesday Night Dinner?",
+        "What is the menu for Wednesday Night Dinner?",
+        "How do I register for Wednesday Night Dinner?",
+        "Does Urbancrest have Wednesday Night Dinner?",
+        "Does Urbancrest offer Wednesday Night Dinner?",
+        "Do you have Wednesday Night Dinner?",
+        "Do you offer Wednesday Night Dinner?",
+        "Is there Wednesday Night Dinner at Urbancrest?",
+        "Can I participate in Wednesday Night Dinner?",
+        "Can I play Wednesday Night Dinner at Urbancrest?"
+      ],
+      "ministries": [
+        "churchwide"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "event_id": "event-85ae0ddbc3693da5",
+      "activity_aliases": [
+        "Wednesday Night Dinner"
+      ],
+      "event_category": "churchwide_program",
+      "event_start": "2027-10-13T17:30:00-04:00",
+      "event_end": "2027-10-13T18:15:00-04:00",
+      "sort_start_utc": "2027-10-13T21:30:00Z",
+      "sort_end_utc": "2027-10-13T22:15:00Z",
+      "display_when": "Wednesday, October 13, 2027, 5:30 PM to 6:15 PM",
+      "all_day": false,
+      "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
+      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details_source": "planning_center_calendar_api",
+      "planning_center_event_instance_id": "230122764",
+      "planning_center_event_time_id": "31870601",
+      "registration_available": false,
+      "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
+      "knowledge_file": "knowledge/events/generated/2027-10-13-wednesday-night-dinner-693da5.md",
       "chronological_rank": 150,
       "routine_schedule_occurrence": false
     },
@@ -26917,79 +26988,6 @@
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-28-sunday-morning-services-9-30-am-service-baf9ef.md",
       "chronological_rank": 104,
-      "routine_schedule_occurrence": true,
-      "retrieval_exclude_for_intents": [
-        "service_times",
-        "sunday_service_times",
-        "weekly_schedule"
-      ]
-    },
-    {
-      "id": "events.live.event-a000b91a438998da",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2027-03-07-sunday-morning-services-9-30-am-service-8998da.md",
-      "title": "Sunday Morning Services: 9:30 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 20,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "general_event",
-        "Sunday Morning Services: 9:30 AM Service"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 9:30 AM Service",
-        "When is Sunday Morning Services: 9:30 AM Service?",
-        "Tell me about Sunday Morning Services: 9:30 AM Service",
-        "What are the details for Sunday Morning Services: 9:30 AM Service?",
-        "What is the menu for Sunday Morning Services: 9:30 AM Service?",
-        "How do I register for Sunday Morning Services: 9:30 AM Service?",
-        "Does Urbancrest have Sunday Morning Services: 9:30 AM Service?",
-        "Does Urbancrest offer Sunday Morning Services: 9:30 AM Service?",
-        "Do you have Sunday Morning Services: 9:30 AM Service?",
-        "Do you offer Sunday Morning Services: 9:30 AM Service?",
-        "Is there Sunday Morning Services: 9:30 AM Service at Urbancrest?",
-        "Can I participate in Sunday Morning Services: 9:30 AM Service?",
-        "Can I play Sunday Morning Services: 9:30 AM Service at Urbancrest?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-a000b91a438998da",
-      "activity_aliases": [
-        "Sunday Morning Services: 9:30 AM Service"
-      ],
-      "event_category": "general_event",
-      "event_start": "2027-03-07T09:30:00-05:00",
-      "event_end": "2027-03-07T10:40:00-05:00",
-      "sort_start_utc": "2027-03-07T14:30:00Z",
-      "sort_end_utc": "2027-03-07T15:40:00Z",
-      "display_when": "Sunday, March 7, 2027, 9:30 AM to 10:40 AM",
-      "all_day": false,
-      "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "planning_center_event_instance_id": "182308661",
-      "planning_center_event_time_id": "9127131",
-      "registration_available": false,
-      "knowledge_file": "knowledge/events/generated/2027-03-07-sunday-morning-services-9-30-am-service-8998da.md",
-      "chronological_rank": 109,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
