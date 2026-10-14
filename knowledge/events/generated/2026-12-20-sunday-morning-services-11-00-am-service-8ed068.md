@@ -42,7 +42,7 @@ all_day: false
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "174858351"
 planning_center_event_time_id: "9127132"
-last_generated: 2026-10-14T00:18:47.548574Z
+last_generated: 2026-10-14T08:44:36.631271Z
 ---
 
 # Sunday Morning Services: 11:00 AM Service

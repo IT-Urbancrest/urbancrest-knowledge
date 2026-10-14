@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-10-14T00:18:49.492260Z",
+  "generated_at": "2026-10-14T08:44:39.184049Z",
   "timezone": "America/New_York",
   "record_count": 479,
   "config": {
@@ -90,7 +90,7 @@
   },
   "freshness": {
     "calendar": {
-      "generated_at": "2026-10-14T00:18:48.372879Z",
+      "generated_at": "2026-10-14T08:44:37.664252Z",
       "max_age_hours": 48,
       "source_path": "registry/events-live.yaml",
       "heartbeat_field": "generated_at",
@@ -98,7 +98,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-10-14T00:18:47.548574Z",
+      "generated_at": "2026-10-14T08:44:36.631271Z",
       "max_age_hours": 48,
       "source_path": "registry/small-groups-live.yaml",
       "heartbeat_field": "generated_at",
