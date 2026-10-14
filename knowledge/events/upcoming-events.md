@@ -16,7 +16,7 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-10-14T14:31:21.948431Z
+last_generated: 2026-10-14T19:25:20.636636Z
 ---
 
 # Upcoming Events
@@ -354,6 +354,18 @@ Detailed event file: `knowledge/events/generated/2026-11-15-sunday-morning-servi
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-11-15-sunday-morning-services-11-00-am-service-a656ef.md`
+
+## National Collection Week (OCC) Volunteer Signup
+
+**Category:** Kids Event
+
+**When:** Monday, November 16, 2026 at 6:00 PM
+
+**Where:** Urbancrest Church - 2634 Drake Road
+Gymnasium
+Lebanon, OH 45036
+
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3959067/reservations/new
 
 ## Monthly Baskets of Hope - Volunteers
 
@@ -1101,14 +1113,6 @@ Detailed event file: `knowledge/events/generated/2027-02-28-sunday-morning-servi
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2027-03-03-wednesday-night-dinner-8fb3dd.md`
-
-## Pickleball
-
-**Category:** General Event
-
-**When:** Thursday, March 4, 2027, 6 PM to 8 PM
-
-Detailed event file: `knowledge/events/generated/2027-03-04-pickleball-dbc953.md`
 
 ## Men's Breakfast
 

@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-10-14T14:31:23.237779Z",
+  "generated_at": "2026-10-14T19:25:22.190189Z",
   "timezone": "America/New_York",
-  "record_count": 479,
+  "record_count": 480,
   "config": {
     "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step. For directions requests, include both approved map links.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership Transition\n\nUrbancrest is currently searching for its next Global Missions Pastor.\n\nFor broad or global missions leadership questions:\n\n1. State that Urbancrest is currently searching for its next Global Missions Pastor.\n2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.\n3. Return `jennifer_prows` when one staff card is appropriate.\n4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nState the times found in those authoritative records directly. Do not hardcode service times in runtime application logic or prompt instructions.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
     "style_guide": "# Style Guide\n\n## Writing\n\n- Use short paragraphs.\n- Prefer plain language.\n- Avoid church jargon unless it is explained.\n- Do not use em dashes.\n- Do not use the word meaningful as a filler.\n- Use Small Groups, never Grow Groups.\n- Refer to Urbancrest Church as Urbancrest after the first use.\n- Use believer's baptism by immersion when describing baptism.\n\n## Theology\n\n- Scripture is the final authority.\n- The Baptist Faith and Message 2000 is a helpful doctrinal summary, not equal to Scripture.\n- Salvation is by grace alone through faith alone in Jesus Christ alone.\n- Baptism follows salvation and does not save.\n",
@@ -90,7 +90,7 @@
   },
   "freshness": {
     "calendar": {
-      "generated_at": "2026-10-14T14:31:21.948431Z",
+      "generated_at": "2026-10-14T19:25:20.636636Z",
       "max_age_hours": 48,
       "source_path": "registry/events-live.yaml",
       "heartbeat_field": "generated_at",
@@ -98,7 +98,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-10-14T14:31:20.814587Z",
+      "generated_at": "2026-10-14T19:25:19.321153Z",
       "max_age_hours": 48,
       "source_path": "registry/small-groups-live.yaml",
       "heartbeat_field": "generated_at",
@@ -5383,7 +5383,7 @@
       ],
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1789617600&key=uploads%2Fevent%2Flogo%2F3894841%2Fimage-1789567912819.jpeg&thumb=720x405%23&version=1789574259&signature=d7621b4c7bacd08be0f88f9d9bf59d91edcae06ec555dff400e0f62dd59ae3b1",
       "knowledge_file": "knowledge/events/generated/2027-01-22-men-s-summit-d35740.md",
-      "chronological_rank": 81,
+      "chronological_rank": 82,
       "routine_schedule_occurrence": false
     },
     {
@@ -5518,7 +5518,7 @@
       "planning_center_event_time_id": "14177442",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-28-summit-gym-set-up-50aaa2.md",
-      "chronological_rank": 85,
+      "chronological_rank": 86,
       "routine_schedule_occurrence": false
     },
     {
@@ -15625,7 +15625,7 @@
       ],
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1791993600&key=uploads%2Fevent%2Flogo%2F3953731%2Fimage-1791828904219.jpeg&thumb=720x405%23&version=1791910082&signature=00b115c8163c7551d89ca0fb6e959b9567ce9efe565f4c9fbe5db16e2fb81618",
       "knowledge_file": "knowledge/events/generated/2026-12-20-christmas-choir-7f0fe3.md",
-      "chronological_rank": 59,
+      "chronological_rank": 60,
       "routine_schedule_occurrence": false
     },
     {
@@ -15828,7 +15828,7 @@
       "planning_center_event_time_id": "33357996",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-11-21-christmas-choir-rehearsal-ffc2bd.md",
-      "chronological_rank": 35,
+      "chronological_rank": 36,
       "routine_schedule_occurrence": false
     },
     {
@@ -15896,7 +15896,7 @@
       "planning_center_event_time_id": "33357839",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-03-christmas-choir-rehearsal-6a6ebc.md",
-      "chronological_rank": 43,
+      "chronological_rank": 44,
       "routine_schedule_occurrence": false
     },
     {
@@ -15964,7 +15964,7 @@
       "planning_center_event_time_id": "33357897",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-10-christmas-choir-rehearsal-49f3f0.md",
-      "chronological_rank": 50,
+      "chronological_rank": 51,
       "routine_schedule_occurrence": false
     },
     {
@@ -16032,7 +16032,7 @@
       "planning_center_event_time_id": "33357897",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-17-christmas-choir-rehearsal-2514c7.md",
-      "chronological_rank": 56,
+      "chronological_rank": 57,
       "routine_schedule_occurrence": false
     },
     {
@@ -16100,7 +16100,7 @@
       "planning_center_event_time_id": "33357938",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-19-christmas-worship-rehearsal-ddc31f.md",
-      "chronological_rank": 58,
+      "chronological_rank": 59,
       "routine_schedule_occurrence": false
     },
     {
@@ -16464,7 +16464,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=a34fd5b0ee03cb689e8d769fb652d593820b13d085b3dc27ce1d57b862d0a8fd",
       "knowledge_file": "knowledge/events/generated/2026-12-05-men-s-breakfast-549ccc.md",
-      "chronological_rank": 44,
+      "chronological_rank": 45,
       "routine_schedule_occurrence": false
     },
     {
@@ -16533,7 +16533,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=a34fd5b0ee03cb689e8d769fb652d593820b13d085b3dc27ce1d57b862d0a8fd",
       "knowledge_file": "knowledge/events/generated/2027-01-02-men-s-breakfast-3d2c83.md",
-      "chronological_rank": 66,
+      "chronological_rank": 67,
       "routine_schedule_occurrence": false
     },
     {
@@ -16602,7 +16602,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=a34fd5b0ee03cb689e8d769fb652d593820b13d085b3dc27ce1d57b862d0a8fd",
       "knowledge_file": "knowledge/events/generated/2027-02-06-men-s-breakfast-fa0b3e.md",
-      "chronological_rank": 90,
+      "chronological_rank": 91,
       "routine_schedule_occurrence": false
     },
     {
@@ -17158,6 +17158,194 @@
       "routine_schedule_occurrence": false
     },
     {
+      "id": "events.live.pc-registration-3959067-b85f4700cfc8",
+      "record_type": "event",
+      "path": "registry/events-live.yaml",
+      "title": "National Collection Week (OCC) Volunteer Signup",
+      "summary": "This year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24. Our church will be open to collect boxes for a couple hours each day of collection...",
+      "content": "This year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24. \n\nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule. \n\nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at jprows@urbancrest.org .\n\nUrbancrest National Collection Week Schedule: \n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from 2:30-5:30 PM\n– Monday, November 24 from 8:00-11:00 AM\n\nFor information on Urbancrest's church-wide packing party on November 15, please click THIS LINK .\n\nDetails:\nThis year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24. \n\nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule. \n\nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at jprows@urbancrest.org .\n\nUrbancrest National Collection Week Schedule: \n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from 2:30-5:30 PM\n– Monday, November 24 from 8:00-11:00 AM\n\nFor informat...",
+      "priority": 80,
+      "category": [
+        "events",
+        "kids_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "kids_event",
+        "National Collection Week (OCC) Volunteer Signup"
+      ],
+      "search_terms": [
+        "National Collection Week (OCC) Volunteer Signup",
+        "When is National Collection Week (OCC) Volunteer Signup?",
+        "Tell me about National Collection Week (OCC) Volunteer Signup",
+        "What are the details for National Collection Week (OCC) Volunteer Signup?",
+        "What is the menu for National Collection Week (OCC) Volunteer Signup?",
+        "How do I register for National Collection Week (OCC) Volunteer Signup?",
+        "Does Urbancrest have National Collection Week (OCC) Volunteer Signup?",
+        "Does Urbancrest offer National Collection Week (OCC) Volunteer Signup?",
+        "Do you have National Collection Week (OCC) Volunteer Signup?",
+        "Do you offer National Collection Week (OCC) Volunteer Signup?",
+        "Is there National Collection Week (OCC) Volunteer Signup at Urbancrest?",
+        "Can I participate in National Collection Week (OCC) Volunteer Signup?",
+        "Can I play National Collection Week (OCC) Volunteer Signup at Urbancrest?"
+      ],
+      "ministries": [
+        "kids",
+        "missions",
+        "family",
+        "volunteer"
+      ],
+      "audiences": [
+        "children",
+        "all",
+        "families"
+      ],
+      "resources": [],
+      "event_id": "pc-registration-3959067-b85f4700cfc8",
+      "activity_aliases": [
+        "National Collection Week (OCC) Volunteer Signup"
+      ],
+      "event_category": "kids_event",
+      "event_start": "2026-11-16T23:00:00+00:00",
+      "event_end": "2026-11-23T16:00:00+00:00",
+      "sort_start_utc": "2026-11-16T23:00:00Z",
+      "sort_end_utc": "2026-11-23T16:00:00Z",
+      "display_when": "Monday, November 16, 2026 at 6:00 PM",
+      "all_day": false,
+      "location": "Urbancrest Church - 2634 Drake Road\nGymnasium\nLebanon, OH 45036",
+      "location_structured": {
+        "name": "Urbancrest Church",
+        "address": "2634 Drake Road\nGymnasium\nLebanon, OH 45036",
+        "latitude": "39.4747445",
+        "longitude": "-84.1792958"
+      },
+      "details": "This year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24. \n\nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule. \n\nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at jprows@urbancrest.org .\n\nUrbancrest National Collection Week Schedule: \n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from 2:30-5:30 PM\n– Monday, November 24 from 8:00-11:00 AM\n\nFor information on Urbancrest's church-wide packing party on November 15, please click THIS LINK .\n\nRegistration is not currently open.",
+      "details_source": "planning_center_registrations_api",
+      "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3959067/reservations/new",
+      "registration_available": true,
+      "registration_open": false,
+      "registration_closed": true,
+      "registration_categories": [
+        "Missions"
+      ],
+      "registration_options": [
+        {
+          "id": "9049949",
+          "name": "Monday, November 16 from 6:00-8:00 PM",
+          "price_cents": 0,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "0",
+          "maximum_capacity": 4,
+          "available_capacity": 4,
+          "at_maximum_capacity": false,
+          "waitlist": false
+        },
+        {
+          "id": "9049950",
+          "name": "Tuesday, November 17 from 10:00 AM-12:00 PM",
+          "price_cents": 0,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "0",
+          "maximum_capacity": 4,
+          "available_capacity": 4,
+          "at_maximum_capacity": false,
+          "waitlist": false
+        },
+        {
+          "id": "9049951",
+          "name": "Wednesday, November 18 from 10:00 AM-12:00 PM",
+          "price_cents": 0,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "0",
+          "maximum_capacity": 4,
+          "available_capacity": 4,
+          "at_maximum_capacity": false,
+          "waitlist": false
+        },
+        {
+          "id": "9049952",
+          "name": "Thursday, November 19 from 6:00-8:00 PM",
+          "price_cents": 0,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "0",
+          "maximum_capacity": 4,
+          "available_capacity": 4,
+          "at_maximum_capacity": false,
+          "waitlist": false
+        },
+        {
+          "id": "9049953",
+          "name": "Friday, November 20 from 5:00-7:00 PM",
+          "price_cents": 0,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "0",
+          "maximum_capacity": 4,
+          "available_capacity": 4,
+          "at_maximum_capacity": false,
+          "waitlist": false
+        },
+        {
+          "id": "9049954",
+          "name": "Saturday, November 21 from 10:00 AM-12:00 PM",
+          "price_cents": 0,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "0",
+          "maximum_capacity": 4,
+          "available_capacity": 4,
+          "at_maximum_capacity": false,
+          "waitlist": false
+        },
+        {
+          "id": "9049955",
+          "name": "Sunday, November 22 from 2:30-5:30 PM",
+          "price_cents": 0,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "0",
+          "maximum_capacity": 6,
+          "available_capacity": 6,
+          "at_maximum_capacity": false,
+          "waitlist": false
+        },
+        {
+          "id": "9049956",
+          "name": "Monday, November 23 from 8:00-11:00 AM",
+          "price_cents": 0,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "0",
+          "maximum_capacity": 6,
+          "available_capacity": 6,
+          "at_maximum_capacity": false,
+          "waitlist": false
+        }
+      ],
+      "event_source": "planning_center_registrations_api",
+      "event_sources": [
+        "planning_center_registrations_api"
+      ],
+      "info_url": "https://urbancrest.churchcenter.com/registrations/events/3959067/reservations/new",
+      "image_url": "https://registrations.planningcenteronline.com/signups/3959067/logo",
+      "chronological_rank": 32,
+      "routine_schedule_occurrence": false
+    },
+    {
       "id": "events.live.event-0560f21c6fba076b",
       "record_type": "event",
       "path": "knowledge/events/generated/2027-01-16-strength-to-stand-ba076b.md",
@@ -17260,7 +17448,7 @@
           "price_currency_symbol": "$",
           "price_formatted": "250",
           "maximum_capacity": 22,
-          "available_capacity": 11,
+          "available_capacity": 10,
           "at_maximum_capacity": false,
           "waitlist": false
         },
@@ -17285,7 +17473,7 @@
       ],
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1789012800&key=uploads%2Fevent%2Flogo%2F3775272%2Fimage-1784920483707.jpeg&thumb=720x405%23&version=1788966611&signature=9553057aa354de2229a87395d2f678b237138043ce3d910c7d238c165912fbd4",
       "knowledge_file": "knowledge/events/generated/2027-01-16-strength-to-stand-ba076b.md",
-      "chronological_rank": 75,
+      "chronological_rank": 76,
       "routine_schedule_occurrence": false
     },
     {
@@ -17531,7 +17719,7 @@
       "planning_center_event_time_id": "27323098",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-06-women-s-christmas-event-d6795d.md",
-      "chronological_rank": 47,
+      "chronological_rank": 48,
       "routine_schedule_occurrence": false
     },
     {
@@ -18740,7 +18928,7 @@
       "registration_available": true,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1790827200&key=uploads%2Fevent%2Flogo%2F3737699%2Fimage-1600369375660.jpeg&thumb=720x405%23&version=1787148556&signature=6d15aefae58f3a6d6341dae202341d6a81ad49d1d6984a7ebf618c3143377f40",
       "knowledge_file": "knowledge/events/generated/2026-11-18-awana-2026-2027-743617.md",
-      "chronological_rank": 34,
+      "chronological_rank": 35,
       "routine_schedule_occurrence": false
     },
     {
@@ -18815,7 +19003,7 @@
       "registration_available": true,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1790827200&key=uploads%2Fevent%2Flogo%2F3737699%2Fimage-1600369375660.jpeg&thumb=720x405%23&version=1787148556&signature=6d15aefae58f3a6d6341dae202341d6a81ad49d1d6984a7ebf618c3143377f40",
       "knowledge_file": "knowledge/events/generated/2026-12-02-awana-2026-2027-b78b32.md",
-      "chronological_rank": 42,
+      "chronological_rank": 43,
       "routine_schedule_occurrence": false
     },
     {
@@ -18890,7 +19078,7 @@
       "registration_available": true,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1790827200&key=uploads%2Fevent%2Flogo%2F3737699%2Fimage-1600369375660.jpeg&thumb=720x405%23&version=1787148556&signature=6d15aefae58f3a6d6341dae202341d6a81ad49d1d6984a7ebf618c3143377f40",
       "knowledge_file": "knowledge/events/generated/2026-12-09-awana-2026-2027-983471.md",
-      "chronological_rank": 49,
+      "chronological_rank": 50,
       "routine_schedule_occurrence": false
     },
     {
@@ -18965,7 +19153,7 @@
       "registration_available": true,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1790827200&key=uploads%2Fevent%2Flogo%2F3737699%2Fimage-1600369375660.jpeg&thumb=720x405%23&version=1787148556&signature=6d15aefae58f3a6d6341dae202341d6a81ad49d1d6984a7ebf618c3143377f40",
       "knowledge_file": "knowledge/events/generated/2026-12-16-awana-2026-2027-a96a01.md",
-      "chronological_rank": 55,
+      "chronological_rank": 56,
       "routine_schedule_occurrence": false
     },
     {
@@ -18974,7 +19162,7 @@
       "path": "knowledge/events/generated/2026-10-14-wednesday-night-dinner-d9103e.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -19029,7 +19217,7 @@
       "display_when": "Wednesday, October 14, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122712",
       "planning_center_event_time_id": "31870601",
@@ -19045,7 +19233,7 @@
       "path": "knowledge/events/generated/2026-10-21-wednesday-night-dinner-0edf1f.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -19100,7 +19288,7 @@
       "display_when": "Wednesday, October 21, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122713",
       "planning_center_event_time_id": "31870601",
@@ -19116,7 +19304,7 @@
       "path": "knowledge/events/generated/2026-10-28-wednesday-night-dinner-acac27.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -19171,7 +19359,7 @@
       "display_when": "Wednesday, October 28, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122714",
       "planning_center_event_time_id": "31870601",
@@ -19187,7 +19375,7 @@
       "path": "knowledge/events/generated/2026-11-04-wednesday-night-dinner-55fdc7.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -19242,7 +19430,7 @@
       "display_when": "Wednesday, November 4, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122715",
       "planning_center_event_time_id": "31870601",
@@ -19258,7 +19446,7 @@
       "path": "knowledge/events/generated/2026-11-11-wednesday-night-dinner-af1c1c.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -19313,7 +19501,7 @@
       "display_when": "Wednesday, November 11, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122716",
       "planning_center_event_time_id": "31870601",
@@ -19329,7 +19517,7 @@
       "path": "knowledge/events/generated/2026-11-18-wednesday-night-dinner-cf53fb.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -19384,14 +19572,14 @@
       "display_when": "Wednesday, November 18, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122717",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2026-11-18-wednesday-night-dinner-cf53fb.md",
-      "chronological_rank": 33,
+      "chronological_rank": 34,
       "routine_schedule_occurrence": false
     },
     {
@@ -19400,7 +19588,7 @@
       "path": "knowledge/events/generated/2026-11-25-wednesday-night-dinner-77d08c.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -19455,14 +19643,14 @@
       "display_when": "Wednesday, November 25, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122718",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2026-11-25-wednesday-night-dinner-77d08c.md",
-      "chronological_rank": 38,
+      "chronological_rank": 39,
       "routine_schedule_occurrence": false
     },
     {
@@ -19471,7 +19659,7 @@
       "path": "knowledge/events/generated/2026-12-02-wednesday-night-dinner-809fdf.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -19526,14 +19714,14 @@
       "display_when": "Wednesday, December 2, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122719",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2026-12-02-wednesday-night-dinner-809fdf.md",
-      "chronological_rank": 41,
+      "chronological_rank": 42,
       "routine_schedule_occurrence": false
     },
     {
@@ -19542,7 +19730,7 @@
       "path": "knowledge/events/generated/2026-12-09-wednesday-night-dinner-6f6ed6.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -19597,14 +19785,14 @@
       "display_when": "Wednesday, December 9, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122720",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2026-12-09-wednesday-night-dinner-6f6ed6.md",
-      "chronological_rank": 48,
+      "chronological_rank": 49,
       "routine_schedule_occurrence": false
     },
     {
@@ -19613,7 +19801,7 @@
       "path": "knowledge/events/generated/2026-12-16-wednesday-night-dinner-d35842.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -19668,14 +19856,14 @@
       "display_when": "Wednesday, December 16, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122721",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2026-12-16-wednesday-night-dinner-d35842.md",
-      "chronological_rank": 54,
+      "chronological_rank": 55,
       "routine_schedule_occurrence": false
     },
     {
@@ -19684,7 +19872,7 @@
       "path": "knowledge/events/generated/2026-12-23-wednesday-night-dinner-8995f6.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -19739,14 +19927,14 @@
       "display_when": "Wednesday, December 23, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122722",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2026-12-23-wednesday-night-dinner-8995f6.md",
-      "chronological_rank": 62,
+      "chronological_rank": 63,
       "routine_schedule_occurrence": false
     },
     {
@@ -19755,7 +19943,7 @@
       "path": "knowledge/events/generated/2026-12-30-wednesday-night-dinner-85ac1d.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -19810,14 +19998,14 @@
       "display_when": "Wednesday, December 30, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122723",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2026-12-30-wednesday-night-dinner-85ac1d.md",
-      "chronological_rank": 65,
+      "chronological_rank": 66,
       "routine_schedule_occurrence": false
     },
     {
@@ -19826,7 +20014,7 @@
       "path": "knowledge/events/generated/2027-01-06-wednesday-night-dinner-cd86db.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -19881,14 +20069,14 @@
       "display_when": "Wednesday, January 6, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122724",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-01-06-wednesday-night-dinner-cd86db.md",
-      "chronological_rank": 69,
+      "chronological_rank": 70,
       "routine_schedule_occurrence": false
     },
     {
@@ -19897,7 +20085,7 @@
       "path": "knowledge/events/generated/2027-01-13-wednesday-night-dinner-ed64ec.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -19952,14 +20140,14 @@
       "display_when": "Wednesday, January 13, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122725",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-01-13-wednesday-night-dinner-ed64ec.md",
-      "chronological_rank": 73,
+      "chronological_rank": 74,
       "routine_schedule_occurrence": false
     },
     {
@@ -19968,7 +20156,7 @@
       "path": "knowledge/events/generated/2027-01-20-wednesday-night-dinner-c3c878.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -20023,14 +20211,14 @@
       "display_when": "Wednesday, January 20, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122726",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-01-20-wednesday-night-dinner-c3c878.md",
-      "chronological_rank": 79,
+      "chronological_rank": 80,
       "routine_schedule_occurrence": false
     },
     {
@@ -20039,7 +20227,7 @@
       "path": "knowledge/events/generated/2027-01-27-wednesday-night-dinner-e92330.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -20094,14 +20282,14 @@
       "display_when": "Wednesday, January 27, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122727",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-01-27-wednesday-night-dinner-e92330.md",
-      "chronological_rank": 84,
+      "chronological_rank": 85,
       "routine_schedule_occurrence": false
     },
     {
@@ -20110,7 +20298,7 @@
       "path": "knowledge/events/generated/2027-02-03-wednesday-night-dinner-56372f.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -20165,14 +20353,14 @@
       "display_when": "Wednesday, February 3, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122728",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-02-03-wednesday-night-dinner-56372f.md",
-      "chronological_rank": 88,
+      "chronological_rank": 89,
       "routine_schedule_occurrence": false
     },
     {
@@ -20181,7 +20369,7 @@
       "path": "knowledge/events/generated/2027-02-10-wednesday-night-dinner-818c3d.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -20236,14 +20424,14 @@
       "display_when": "Wednesday, February 10, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122729",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-02-10-wednesday-night-dinner-818c3d.md",
-      "chronological_rank": 93,
+      "chronological_rank": 94,
       "routine_schedule_occurrence": false
     },
     {
@@ -20252,7 +20440,7 @@
       "path": "knowledge/events/generated/2027-02-17-wednesday-night-dinner-e2ee59.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -20307,14 +20495,14 @@
       "display_when": "Wednesday, February 17, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122730",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-02-17-wednesday-night-dinner-e2ee59.md",
-      "chronological_rank": 98,
+      "chronological_rank": 99,
       "routine_schedule_occurrence": false
     },
     {
@@ -20323,7 +20511,7 @@
       "path": "knowledge/events/generated/2027-02-24-wednesday-night-dinner-8f0b45.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -20378,14 +20566,14 @@
       "display_when": "Wednesday, February 24, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122731",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-02-24-wednesday-night-dinner-8f0b45.md",
-      "chronological_rank": 102,
+      "chronological_rank": 103,
       "routine_schedule_occurrence": false
     },
     {
@@ -20394,7 +20582,7 @@
       "path": "knowledge/events/generated/2027-03-03-wednesday-night-dinner-8fb3dd.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -20449,14 +20637,14 @@
       "display_when": "Wednesday, March 3, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122732",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-03-03-wednesday-night-dinner-8fb3dd.md",
-      "chronological_rank": 106,
+      "chronological_rank": 107,
       "routine_schedule_occurrence": false
     },
     {
@@ -20465,7 +20653,7 @@
       "path": "knowledge/events/generated/2027-03-10-wednesday-night-dinner-48508a.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -20520,7 +20708,7 @@
       "display_when": "Wednesday, March 10, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122733",
       "planning_center_event_time_id": "31870601",
@@ -20536,7 +20724,7 @@
       "path": "knowledge/events/generated/2027-03-17-wednesday-night-dinner-ab6c0d.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -20591,7 +20779,7 @@
       "display_when": "Wednesday, March 17, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122734",
       "planning_center_event_time_id": "31870601",
@@ -20607,7 +20795,7 @@
       "path": "knowledge/events/generated/2027-03-24-wednesday-night-dinner-46db45.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -20662,7 +20850,7 @@
       "display_when": "Wednesday, March 24, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122735",
       "planning_center_event_time_id": "31870601",
@@ -20678,7 +20866,7 @@
       "path": "knowledge/events/generated/2027-03-31-wednesday-night-dinner-fc63a5.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -20733,7 +20921,7 @@
       "display_when": "Wednesday, March 31, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122736",
       "planning_center_event_time_id": "31870601",
@@ -20749,7 +20937,7 @@
       "path": "knowledge/events/generated/2027-04-07-wednesday-night-dinner-8df64a.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -20804,7 +20992,7 @@
       "display_when": "Wednesday, April 7, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122737",
       "planning_center_event_time_id": "31870601",
@@ -20820,7 +21008,7 @@
       "path": "knowledge/events/generated/2027-04-14-wednesday-night-dinner-e2d05a.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -20875,7 +21063,7 @@
       "display_when": "Wednesday, April 14, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122738",
       "planning_center_event_time_id": "31870601",
@@ -20891,7 +21079,7 @@
       "path": "knowledge/events/generated/2027-04-21-wednesday-night-dinner-0a84c3.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -20946,7 +21134,7 @@
       "display_when": "Wednesday, April 21, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122739",
       "planning_center_event_time_id": "31870601",
@@ -20962,7 +21150,7 @@
       "path": "knowledge/events/generated/2027-04-28-wednesday-night-dinner-6a7394.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -21017,7 +21205,7 @@
       "display_when": "Wednesday, April 28, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122740",
       "planning_center_event_time_id": "31870601",
@@ -21033,7 +21221,7 @@
       "path": "knowledge/events/generated/2027-05-05-wednesday-night-dinner-30e195.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -21088,7 +21276,7 @@
       "display_when": "Wednesday, May 5, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122741",
       "planning_center_event_time_id": "31870601",
@@ -21104,7 +21292,7 @@
       "path": "knowledge/events/generated/2027-05-12-wednesday-night-dinner-e125ce.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -21159,7 +21347,7 @@
       "display_when": "Wednesday, May 12, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122742",
       "planning_center_event_time_id": "31870601",
@@ -21175,7 +21363,7 @@
       "path": "knowledge/events/generated/2027-05-19-wednesday-night-dinner-0df29f.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -21230,7 +21418,7 @@
       "display_when": "Wednesday, May 19, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122743",
       "planning_center_event_time_id": "31870601",
@@ -21246,7 +21434,7 @@
       "path": "knowledge/events/generated/2027-05-26-wednesday-night-dinner-46fce3.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -21301,7 +21489,7 @@
       "display_when": "Wednesday, May 26, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122744",
       "planning_center_event_time_id": "31870601",
@@ -21317,7 +21505,7 @@
       "path": "knowledge/events/generated/2027-06-02-wednesday-night-dinner-ba0347.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -21372,7 +21560,7 @@
       "display_when": "Wednesday, June 2, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122745",
       "planning_center_event_time_id": "31870601",
@@ -21388,7 +21576,7 @@
       "path": "knowledge/events/generated/2027-06-09-wednesday-night-dinner-764b7d.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -21443,7 +21631,7 @@
       "display_when": "Wednesday, June 9, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122746",
       "planning_center_event_time_id": "31870601",
@@ -21459,7 +21647,7 @@
       "path": "knowledge/events/generated/2027-06-16-wednesday-night-dinner-6fef1b.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -21514,7 +21702,7 @@
       "display_when": "Wednesday, June 16, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122747",
       "planning_center_event_time_id": "31870601",
@@ -21530,7 +21718,7 @@
       "path": "knowledge/events/generated/2027-06-23-wednesday-night-dinner-8a9a7f.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -21585,7 +21773,7 @@
       "display_when": "Wednesday, June 23, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122748",
       "planning_center_event_time_id": "31870601",
@@ -21601,7 +21789,7 @@
       "path": "knowledge/events/generated/2027-06-30-wednesday-night-dinner-34486c.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -21656,7 +21844,7 @@
       "display_when": "Wednesday, June 30, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122749",
       "planning_center_event_time_id": "31870601",
@@ -21672,7 +21860,7 @@
       "path": "knowledge/events/generated/2027-07-07-wednesday-night-dinner-36b6bb.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -21727,7 +21915,7 @@
       "display_when": "Wednesday, July 7, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122750",
       "planning_center_event_time_id": "31870601",
@@ -21743,7 +21931,7 @@
       "path": "knowledge/events/generated/2027-07-14-wednesday-night-dinner-e48c19.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -21798,7 +21986,7 @@
       "display_when": "Wednesday, July 14, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122751",
       "planning_center_event_time_id": "31870601",
@@ -21814,7 +22002,7 @@
       "path": "knowledge/events/generated/2027-07-21-wednesday-night-dinner-f4b889.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -21869,7 +22057,7 @@
       "display_when": "Wednesday, July 21, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122752",
       "planning_center_event_time_id": "31870601",
@@ -21885,7 +22073,7 @@
       "path": "knowledge/events/generated/2027-07-28-wednesday-night-dinner-7b2465.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -21940,7 +22128,7 @@
       "display_when": "Wednesday, July 28, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122753",
       "planning_center_event_time_id": "31870601",
@@ -21956,7 +22144,7 @@
       "path": "knowledge/events/generated/2027-08-04-wednesday-night-dinner-c4767b.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -22011,7 +22199,7 @@
       "display_when": "Wednesday, August 4, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122754",
       "planning_center_event_time_id": "31870601",
@@ -22027,7 +22215,7 @@
       "path": "knowledge/events/generated/2027-08-11-wednesday-night-dinner-19d9cb.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -22082,7 +22270,7 @@
       "display_when": "Wednesday, August 11, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122755",
       "planning_center_event_time_id": "31870601",
@@ -22098,7 +22286,7 @@
       "path": "knowledge/events/generated/2027-08-18-wednesday-night-dinner-8ab9de.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -22153,7 +22341,7 @@
       "display_when": "Wednesday, August 18, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122756",
       "planning_center_event_time_id": "31870601",
@@ -22169,7 +22357,7 @@
       "path": "knowledge/events/generated/2027-08-25-wednesday-night-dinner-11c5e0.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -22224,7 +22412,7 @@
       "display_when": "Wednesday, August 25, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122757",
       "planning_center_event_time_id": "31870601",
@@ -22240,7 +22428,7 @@
       "path": "knowledge/events/generated/2027-09-01-wednesday-night-dinner-a91f0f.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -22295,7 +22483,7 @@
       "display_when": "Wednesday, September 1, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122758",
       "planning_center_event_time_id": "31870601",
@@ -22311,7 +22499,7 @@
       "path": "knowledge/events/generated/2027-09-08-wednesday-night-dinner-77f2fa.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -22366,7 +22554,7 @@
       "display_when": "Wednesday, September 8, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122759",
       "planning_center_event_time_id": "31870601",
@@ -22382,7 +22570,7 @@
       "path": "knowledge/events/generated/2027-09-15-wednesday-night-dinner-61868d.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -22437,7 +22625,7 @@
       "display_when": "Wednesday, September 15, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122760",
       "planning_center_event_time_id": "31870601",
@@ -22453,7 +22641,7 @@
       "path": "knowledge/events/generated/2027-09-22-wednesday-night-dinner-a81839.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -22508,7 +22696,7 @@
       "display_when": "Wednesday, September 22, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122761",
       "planning_center_event_time_id": "31870601",
@@ -22524,7 +22712,7 @@
       "path": "knowledge/events/generated/2027-09-29-wednesday-night-dinner-4040f9.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -22579,7 +22767,7 @@
       "display_when": "Wednesday, September 29, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122762",
       "planning_center_event_time_id": "31870601",
@@ -22595,7 +22783,7 @@
       "path": "knowledge/events/generated/2027-10-06-wednesday-night-dinner-7e1f00.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -22650,7 +22838,7 @@
       "display_when": "Wednesday, October 6, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122763",
       "planning_center_event_time_id": "31870601",
@@ -22666,7 +22854,7 @@
       "path": "knowledge/events/generated/2027-10-13-wednesday-night-dinner-693da5.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "priority": 60,
       "category": [
         "events",
@@ -22721,7 +22909,7 @@
       "display_when": "Wednesday, October 13, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 7, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nOctober 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 14, 2026\nMeatball Subs\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 21, 2026\nChicken & Noodles\nMashed Potatoes\nGreen Beans\nRolls\nSalad Bar\nHot Fudge Brownies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122764",
       "planning_center_event_time_id": "31870601",
@@ -23026,7 +23214,7 @@
       "planning_center_event_time_id": "33065181",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-18-family-christmas-movie-night-c3d70a.md",
-      "chronological_rank": 57,
+      "chronological_rank": 58,
       "routine_schedule_occurrence": false
     },
     {
@@ -23164,7 +23352,7 @@
       "planning_center_event_time_id": "16193422",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-11-18-monthly-baskets-of-hope-volunteers-7ab8b6.md",
-      "chronological_rank": 32,
+      "chronological_rank": 33,
       "routine_schedule_occurrence": false
     },
     {
@@ -23233,7 +23421,7 @@
       "planning_center_event_time_id": "16193422",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-16-monthly-baskets-of-hope-volunteers-f08ec6.md",
-      "chronological_rank": 53,
+      "chronological_rank": 54,
       "routine_schedule_occurrence": false
     },
     {
@@ -23302,7 +23490,7 @@
       "planning_center_event_time_id": "16193422",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-20-monthly-baskets-of-hope-volunteers-561fe2.md",
-      "chronological_rank": 78,
+      "chronological_rank": 79,
       "routine_schedule_occurrence": false
     },
     {
@@ -23371,7 +23559,7 @@
       "planning_center_event_time_id": "16193422",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-17-monthly-baskets-of-hope-volunteers-dc8320.md",
-      "chronological_rank": 97,
+      "chronological_rank": 98,
       "routine_schedule_occurrence": false
     },
     {
@@ -23516,7 +23704,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-07-pickleball-a6bc8a.md",
-      "chronological_rank": 70,
+      "chronological_rank": 71,
       "routine_schedule_occurrence": false
     },
     {
@@ -23593,7 +23781,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-14-pickleball-63a83d.md",
-      "chronological_rank": 74,
+      "chronological_rank": 75,
       "routine_schedule_occurrence": false
     },
     {
@@ -23670,7 +23858,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-21-pickleball-6008f4.md",
-      "chronological_rank": 80,
+      "chronological_rank": 81,
       "routine_schedule_occurrence": false
     },
     {
@@ -23747,7 +23935,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-04-pickleball-64c442.md",
-      "chronological_rank": 89,
+      "chronological_rank": 90,
       "routine_schedule_occurrence": false
     },
     {
@@ -23824,7 +24012,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-11-pickleball-2a4a7c.md",
-      "chronological_rank": 94,
+      "chronological_rank": 95,
       "routine_schedule_occurrence": false
     },
     {
@@ -23901,7 +24089,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-18-pickleball-5d13c4.md",
-      "chronological_rank": 99,
+      "chronological_rank": 100,
       "routine_schedule_occurrence": false
     },
     {
@@ -23978,84 +24166,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-25-pickleball-3d291e.md",
-      "chronological_rank": 103,
-      "routine_schedule_occurrence": false
-    },
-    {
-      "id": "events.live.event-ecebe2064fdbc953",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2027-03-04-pickleball-dbc953.md",
-      "title": "Pickleball",
-      "summary": "Darrel Schick",
-      "content": "Darrel Schick",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "general_event",
-        "Pickleball",
-        "Pickle ball"
-      ],
-      "search_terms": [
-        "Pickleball",
-        "When is Pickleball?",
-        "Tell me about Pickleball",
-        "What are the details for Pickleball?",
-        "What is the menu for Pickleball?",
-        "How do I register for Pickleball?",
-        "Does Urbancrest have Pickleball?",
-        "Does Urbancrest offer Pickleball?",
-        "Do you have Pickleball?",
-        "Do you offer Pickleball?",
-        "Is there Pickleball at Urbancrest?",
-        "Can I participate in Pickleball?",
-        "Can I play Pickleball at Urbancrest?",
-        "Pickle ball",
-        "Does Urbancrest have Pickle ball?",
-        "Does Urbancrest offer Pickle ball?",
-        "Do you have Pickle ball?",
-        "Do you offer Pickle ball?",
-        "Is there Pickle ball at Urbancrest?",
-        "Can I participate in Pickle ball?",
-        "Can I play Pickle ball at Urbancrest?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-ecebe2064fdbc953",
-      "activity_aliases": [
-        "Pickleball",
-        "Pickle ball"
-      ],
-      "event_category": "general_event",
-      "event_start": "2027-03-04T18:00:00-05:00",
-      "event_end": "2027-03-04T20:00:00-05:00",
-      "sort_start_utc": "2027-03-04T23:00:00Z",
-      "sort_end_utc": "2027-03-05T01:00:00Z",
-      "display_when": "Thursday, March 4, 2027, 6 PM to 8 PM",
-      "all_day": false,
-      "planning_center_event_instance_id": "239078208",
-      "planning_center_event_time_id": "33269493",
-      "registration_available": false,
-      "knowledge_file": "knowledge/events/generated/2027-03-04-pickleball-dbc953.md",
-      "chronological_rank": 107,
+      "chronological_rank": 104,
       "routine_schedule_occurrence": false
     },
     {
@@ -24505,7 +24616,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-11-22-sunday-morning-services-11-00-am-service-774f3d.md",
-      "chronological_rank": 37,
+      "chronological_rank": 38,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24578,7 +24689,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-11-29-sunday-morning-services-11-00-am-service-0d501a.md",
-      "chronological_rank": 40,
+      "chronological_rank": 41,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24651,7 +24762,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-06-sunday-morning-services-11-00-am-service-672784.md",
-      "chronological_rank": 46,
+      "chronological_rank": 47,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24724,7 +24835,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-13-sunday-morning-services-11-00-am-service-6c8860.md",
-      "chronological_rank": 52,
+      "chronological_rank": 53,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24797,7 +24908,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-20-sunday-morning-services-11-00-am-service-8ed068.md",
-      "chronological_rank": 61,
+      "chronological_rank": 62,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24870,7 +24981,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-27-sunday-morning-services-11-00-am-service-003b62.md",
-      "chronological_rank": 64,
+      "chronological_rank": 65,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -24943,7 +25054,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-03-sunday-morning-services-11-00-am-service-9b4cbb.md",
-      "chronological_rank": 68,
+      "chronological_rank": 69,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -25016,7 +25127,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-10-sunday-morning-services-11-00-am-service-73fa11.md",
-      "chronological_rank": 72,
+      "chronological_rank": 73,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -25089,7 +25200,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-17-sunday-morning-services-11-00-am-service-f8161b.md",
-      "chronological_rank": 77,
+      "chronological_rank": 78,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -25162,7 +25273,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-24-sunday-morning-services-11-00-am-service-8af7a9.md",
-      "chronological_rank": 83,
+      "chronological_rank": 84,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -25235,7 +25346,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-31-sunday-morning-services-11-00-am-service-113011.md",
-      "chronological_rank": 87,
+      "chronological_rank": 88,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -25308,7 +25419,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-07-sunday-morning-services-11-00-am-service-281dc7.md",
-      "chronological_rank": 92,
+      "chronological_rank": 93,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -25381,7 +25492,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-14-sunday-morning-services-11-00-am-service-77215c.md",
-      "chronological_rank": 96,
+      "chronological_rank": 97,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -25454,7 +25565,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-21-sunday-morning-services-11-00-am-service-d9642b.md",
-      "chronological_rank": 101,
+      "chronological_rank": 102,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -25527,7 +25638,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-28-sunday-morning-services-11-00-am-service-a03c95.md",
-      "chronological_rank": 105,
+      "chronological_rank": 106,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -25965,7 +26076,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-11-22-sunday-morning-services-9-30-am-service-3e574a.md",
-      "chronological_rank": 36,
+      "chronological_rank": 37,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26038,7 +26149,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-11-29-sunday-morning-services-9-30-am-service-f67a70.md",
-      "chronological_rank": 39,
+      "chronological_rank": 40,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26111,7 +26222,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-06-sunday-morning-services-9-30-am-service-ca6790.md",
-      "chronological_rank": 45,
+      "chronological_rank": 46,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26184,7 +26295,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-13-sunday-morning-services-9-30-am-service-df44e2.md",
-      "chronological_rank": 51,
+      "chronological_rank": 52,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26257,7 +26368,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-20-sunday-morning-services-9-30-am-service-1bfe59.md",
-      "chronological_rank": 60,
+      "chronological_rank": 61,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26330,7 +26441,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-27-sunday-morning-services-9-30-am-service-5a6936.md",
-      "chronological_rank": 63,
+      "chronological_rank": 64,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26403,7 +26514,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-03-sunday-morning-services-9-30-am-service-2e7a40.md",
-      "chronological_rank": 67,
+      "chronological_rank": 68,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26476,7 +26587,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-10-sunday-morning-services-9-30-am-service-0c0f91.md",
-      "chronological_rank": 71,
+      "chronological_rank": 72,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26549,7 +26660,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-17-sunday-morning-services-9-30-am-service-2f9d83.md",
-      "chronological_rank": 76,
+      "chronological_rank": 77,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26622,7 +26733,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-24-sunday-morning-services-9-30-am-service-aa02da.md",
-      "chronological_rank": 82,
+      "chronological_rank": 83,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26695,7 +26806,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-31-sunday-morning-services-9-30-am-service-60da2d.md",
-      "chronological_rank": 86,
+      "chronological_rank": 87,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26768,7 +26879,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-07-sunday-morning-services-9-30-am-service-27d598.md",
-      "chronological_rank": 91,
+      "chronological_rank": 92,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26841,7 +26952,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-14-sunday-morning-services-9-30-am-service-f8a787.md",
-      "chronological_rank": 95,
+      "chronological_rank": 96,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26914,7 +27025,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-21-sunday-morning-services-9-30-am-service-8771ed.md",
-      "chronological_rank": 100,
+      "chronological_rank": 101,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26987,13 +27098,84 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-28-sunday-morning-services-9-30-am-service-baf9ef.md",
-      "chronological_rank": 104,
+      "chronological_rank": 105,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
         "sunday_service_times",
         "weekly_schedule"
       ]
+    },
+    {
+      "id": "small_groups.live.group-62598251f7ce52d7",
+      "record_type": "small_group",
+      "path": "knowledge/small-groups/generated/national-collection-week-occ-volunteer-signup-ce52d7.md",
+      "title": "National Collection Week (OCC) Volunteer Signup",
+      "summary": "This year, Urbancrest is an official collection center for Operation Christmas Child!...",
+      "content": "This year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24.\n\nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule.\n\nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at jprows@urbancrest.org.\n\nUrbancrest National Collection Week Schedule:\n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from 2:30-5:30 PM\n– Monday, November 24 from 8:00-11:00 AM\n\nFor information on Urbancrest's church-wide packing party on November 15, please click THIS LINK ( https://urbancrest.churchcenter.com/registrations/events/3219721 ).\n\nDetails:\nThis year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24. \nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule. \nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at \njprows@urbancrest.org\n.\nUrbancrest National Collection Week Schedule:\n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from 2:30-5...",
+      "priority": 20,
+      "category": [
+        "small_groups"
+      ],
+      "intents": [
+        "small_groups",
+        "small_group_details",
+        "next_small_group_meeting",
+        "group_schedule"
+      ],
+      "tags": [
+        "small_group",
+        "groups",
+        "calendar",
+        "recurring"
+      ],
+      "search_terms": [
+        "National Collection Week (OCC) Volunteer Signup",
+        "When does National Collection Week (OCC) Volunteer Signup meet?",
+        "Tell me about National Collection Week (OCC) Volunteer Signup",
+        "Details",
+        "Registration: https://urbancrest.churchcenter.com/registrations/events/3219721",
+        "This small group schedule is synchronized automatically from Urbancrest's live calendar."
+      ],
+      "ministries": [
+        "kids",
+        "small_groups"
+      ],
+      "audiences": [
+        "children",
+        "families",
+        "volunteers"
+      ],
+      "resources": [],
+      "group_id": "group-62598251f7ce52d7",
+      "next_meeting": {
+        "start": "2026-11-16T18:00:00-05:00",
+        "end": "2026-11-23T11:00:00-05:00",
+        "sort_start_utc": "2026-11-16T23:00:00Z",
+        "sort_end_utc": "2026-11-23T16:00:00Z",
+        "display_when": "Monday, November 16, 2026 at 6 PM through Monday, November 23, 2026 at 11 AM",
+        "all_day": false
+      },
+      "future_meetings": [
+        {
+          "start": "2026-11-16T18:00:00-05:00",
+          "end": "2026-11-23T11:00:00-05:00",
+          "sort_start_utc": "2026-11-16T23:00:00Z",
+          "sort_end_utc": "2026-11-23T16:00:00Z",
+          "display_when": "Monday, November 16, 2026 at 6 PM through Monday, November 23, 2026 at 11 AM",
+          "all_day": false
+        }
+      ],
+      "sort_start_utc": "2026-11-16T23:00:00Z",
+      "sort_end_utc": "2026-11-23T16:00:00Z",
+      "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
+      "details": "This year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24. \nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule. \nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at \njprows@urbancrest.org\n.\nUrbancrest National Collection Week Schedule:\n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from 2:30-5:30 PM\n– Monday, November 24 from 8:00-11:00 AM\nFor information on Urbancrest's church-wide packing party on November 15, please click \nTHIS LINK\n.",
+      "details_source": "planning_center_calendar_api",
+      "planning_center_event_instance_id": "239861554",
+      "planning_center_event_time_id": "33406085",
+      "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3219721",
+      "knowledge_file": "knowledge/small-groups/generated/national-collection-week-occ-volunteer-signup-ce52d7.md",
+      "supplemental_search_term_count": 3
     },
     {
       "id": "small_groups.live.group-95131c638f1a4d4c",

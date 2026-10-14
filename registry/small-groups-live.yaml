@@ -1,11 +1,11 @@
 version: 1.4.3
-generated_at: '2026-10-14T14:31:20.814587Z'
+generated_at: '2026-10-14T19:25:19.321153Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api
 api_enrichment:
   enabled: true
-  target_instance_count: 340
-  matched_instance_count: 340
+  target_instance_count: 341
+  matched_instance_count: 341
   page_count: 10
   api_version: '2026-06-22'
 source_of_truth_for_small_group_intents: true
@@ -14,8 +14,8 @@ sort_order: next_meeting.sort_start_utc_ascending
 lookahead_days: 365
 max_series: 100
 max_occurrences_per_series: 12
-group_count: 2
-source_occurrence_count: 105
+group_count: 3
+source_occurrence_count: 106
 groups:
 - id: group-d8ef73afd66b61fc
   source_uids:
@@ -305,3 +305,65 @@ groups:
     all_day: false
   meeting_count_in_window: 52
   knowledge_file: knowledge/small-groups/generated/pursuit-small-group-1a4d4c.md
+- id: group-62598251f7ce52d7
+  source_uids:
+  - ET-33406085-239861554@resources.planningcenteronline.com
+  title: National Collection Week (OCC) Volunteer Signup
+  summary: This year, Urbancrest is an official collection center for Operation Christmas Child!...
+  description: 'This year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24.
+
+
+    Our church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule.
+
+
+    We hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at jprows@urbancrest.org.
+
+
+    Urbancrest National Collection Week Schedule:
+
+    – Monday, November 17 from 6:00-8:00 PM
+
+    – Tuesday, November 18 from 10:00 AM-12:00 PM
+
+    – Wednesday, November 19 from 10:00 AM-12:00 PM
+
+    – Thursday, November 20 from 6:00-8:00 PM
+
+    – Friday, November 21 from 5:00-7:00 PM
+
+    – Saturday, November 22 from 10:00 AM-12:00 PM
+
+    – Sunday, November 23 from 2:30-5:30 PM
+
+    – Monday, November 24 from 8:00-11:00 AM
+
+
+    For information on Urbancrest''s church-wide packing party on November 15, please click THIS LINK ( https://urbancrest.churchcenter.com/registrations/events/3219721 ).'
+  details: "This year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24. \nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule. \nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at \njprows@urbancrest.org\n.\nUrbancrest National Collection Week Schedule:\n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November\
+    \ 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from 2:30-5:30 PM\n– Monday, November 24 from 8:00-11:00 AM\nFor information on Urbancrest's church-wide packing party on November 15, please click \nTHIS LINK\n."
+  details_source: planning_center_calendar_api
+  planning_center_event_instance_id: '239861554'
+  planning_center_event_time_id: '33406085'
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/3219721
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1792080000&key=uploads%2Fevent%2Flogo%2F3959067%2Fimage-1791997543078.jpeg&thumb=720x405%23&version=1791997543&signature=c2d8950cc262099bf996d23571ccbb99b8f12ec4494c9690f43270a79c3e1e6a
+  ministries:
+  - kids
+  - small_groups
+  audiences:
+  - children
+  - families
+  - volunteers
+  event_category: small_group_meeting
+  event_priority: 20
+  next_meeting: &id003
+    start: '2026-11-16T18:00:00-05:00'
+    end: '2026-11-23T11:00:00-05:00'
+    sort_start_utc: '2026-11-16T23:00:00Z'
+    sort_end_utc: '2026-11-23T16:00:00Z'
+    display_when: Monday, November 16, 2026 at 6 PM through Monday, November 23, 2026 at 11 AM
+    all_day: false
+  future_meetings:
+  - *id003
+  meeting_count_in_window: 1
+  knowledge_file: knowledge/small-groups/generated/national-collection-week-occ-volunteer-signup-ce52d7.md
