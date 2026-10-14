@@ -16,35 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-10-14T19:25:20.636636Z
+last_generated: 2026-10-14T23:55:55.268325Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## Wednesday Night Dinner
-
-**Category:** Churchwide Program
-
-**When:** Wednesday, October 14, 2026, 5:30 PM to 6:15 PM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-10-14-wednesday-night-dinner-d9103e.md`
-
-## Awana 2026-2027
-
-**Category:** Churchwide Program
-
-**When:** Wednesday, October 14, 2026, 6:15 PM to 7:30 PM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-**Registration:** https://urbancrest.churchcenter.com/registrations/events/3737699/reservations/new
-
-Detailed event file: `knowledge/events/generated/2026-10-14-awana-2026-2027-c83ebf.md`
 
 ## Urbancrest Women's Conference
 
@@ -106,7 +84,7 @@ Detailed event file: `knowledge/events/generated/2026-10-21-wednesday-night-dinn
 
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
-**Registration:** https://urbancrest.churchcenter.com/registrations/events/3737699
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3737699/reservations/new
 
 Detailed event file: `knowledge/events/generated/2026-10-21-awana-2026-2027-20b181.md`
 
@@ -1114,6 +1092,14 @@ Detailed event file: `knowledge/events/generated/2027-02-28-sunday-morning-servi
 
 Detailed event file: `knowledge/events/generated/2027-03-03-wednesday-night-dinner-8fb3dd.md`
 
+## Pickleball
+
+**Category:** General Event
+
+**When:** Thursday, March 4, 2027, 6 PM to 8 PM
+
+Detailed event file: `knowledge/events/generated/2027-03-04-pickleball-dbc953.md`
+
 ## Men's Breakfast
 
 **Category:** Ministry Event
@@ -1123,6 +1109,16 @@ Detailed event file: `knowledge/events/generated/2027-03-03-wednesday-night-dinn
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2027-03-06-men-s-breakfast-b236b5.md`
+
+## Sunday Morning Services: 9:30 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, March 7, 2027, 9:30 AM to 10:40 AM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2027-03-07-sunday-morning-services-9-30-am-service-8998da.md`
 
 ## Wednesday Night Dinner
 
@@ -1333,7 +1329,8 @@ Detailed event file: `knowledge/events/generated/2027-06-16-wednesday-night-dinn
 
 **When:** Monday, June 21, 2027 at 11 AM through Friday, June 25, 2027 at 4 PM
 
-**Where:** Campbellsville University
+**Where:** Campbellsville University - 1 University Dr
+Campbellsville, KY 42718
 
 **Registration:** https://urbancrest.churchcenter.com/registrations/events/3928514/reservations/new
 

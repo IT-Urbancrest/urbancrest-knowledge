@@ -35,9 +35,9 @@ event_start: "2026-10-17T09:00:00-04:00"
 event_end: "2026-10-17T15:00:00-04:00"
 sort_start_utc: "2026-10-17T13:00:00Z"
 sort_end_utc: "2026-10-17T19:00:00Z"
-chronological_rank: 3
-next_for_ministries: ["women", "worship"]
-next_for_audiences: ["women"]
+chronological_rank: 1
+next_for_ministries: ["men", "women", "worship"]
+next_for_audiences: ["men", "women"]
 all_day: false
 registration_url: "https://urbancrest.churchcenter.com/registrations/events/3791849"
 image_url: "https://registrations-production.s3.amazonaws.com/uploads/event/logo/3791849/medium_image-1785669189641.jpeg"
@@ -45,7 +45,7 @@ location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "230615455"
 planning_center_event_time_id: "31936721"
-last_generated: 2026-10-14T19:25:19.321153Z
+last_generated: 2026-10-14T23:55:54.320113Z
 ---
 
 # Urbancrest Women's Conference
