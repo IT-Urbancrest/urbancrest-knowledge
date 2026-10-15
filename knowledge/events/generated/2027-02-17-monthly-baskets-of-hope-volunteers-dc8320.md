@@ -42,7 +42,7 @@ all_day: false
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "180582227"
 planning_center_event_time_id: "16193422"
-last_generated: 2026-10-15T04:41:37.038053Z
+last_generated: 2026-10-15T11:31:15.368077Z
 ---
 
 # Monthly Baskets of Hope - Volunteers
