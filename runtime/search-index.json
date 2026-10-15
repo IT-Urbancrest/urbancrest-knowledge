@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-10-14T23:55:56.014507Z",
+  "generated_at": "2026-10-15T04:41:39.283844Z",
   "timezone": "America/New_York",
   "record_count": 480,
   "config": {
@@ -90,7 +90,7 @@
   },
   "freshness": {
     "calendar": {
-      "generated_at": "2026-10-14T23:55:55.268325Z",
+      "generated_at": "2026-10-15T04:41:38.064280Z",
       "max_age_hours": 48,
       "source_path": "registry/events-live.yaml",
       "heartbeat_field": "generated_at",
@@ -98,7 +98,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-10-14T23:55:54.320113Z",
+      "generated_at": "2026-10-15T04:41:37.038053Z",
       "max_age_hours": 48,
       "source_path": "registry/small-groups-live.yaml",
       "heartbeat_field": "generated_at",
@@ -17627,7 +17627,7 @@
           "price_currency_symbol": "$",
           "price_formatted": "0",
           "maximum_capacity": 25,
-          "available_capacity": 19,
+          "available_capacity": 17,
           "at_maximum_capacity": false,
           "waitlist": false
         }
@@ -27327,7 +27327,7 @@
       "path": "knowledge/small-groups/generated/urbancrest-student-ministry-6b61fc.md",
       "title": "Urbancrest Student Ministry",
       "summary": "Wednesday gathering for students in grades 7-12 consisting of teaching, worship, and small group time.",
-      "content": "Wednesday gathering for students in grades 7-12 consisting of teaching, worship, and small group time.\n\nUpcoming meetings:\nWednesday, October 14, 2026, 6:30 PM to 8:30 PM\nWednesday, October 21, 2026, 6:30 PM to 8:30 PM\nWednesday, October 28, 2026, 6:30 PM to 8:30 PM\nWednesday, November 4, 2026, 6:30 PM to 8:30 PM\nWednesday, November 11, 2026, 6:30 PM to 8:30 PM\nWednesday, November 18, 2026, 6:30 PM to 8:30 PM\nWednesday, November 25, 2026, 6:30 PM to 8:30 PM\nWednesday, December 2, 2026, 6:30 PM to 8:30 PM\nWednesday, December 9, 2026, 6:30 PM to 8:30 PM\nWednesday, December 16, 2026, 6:30 PM to 8:30 PM\nWednesday, December 23, 2026, 6:30 PM to 8:30 PM\nWednesday, December 30, 2026, 6:30 PM to 8:30 PM",
+      "content": "Wednesday gathering for students in grades 7-12 consisting of teaching, worship, and small group time.\n\nUpcoming meetings:\nWednesday, October 21, 2026, 6:30 PM to 8:30 PM\nWednesday, October 28, 2026, 6:30 PM to 8:30 PM\nWednesday, November 4, 2026, 6:30 PM to 8:30 PM\nWednesday, November 11, 2026, 6:30 PM to 8:30 PM\nWednesday, November 18, 2026, 6:30 PM to 8:30 PM\nWednesday, November 25, 2026, 6:30 PM to 8:30 PM\nWednesday, December 2, 2026, 6:30 PM to 8:30 PM\nWednesday, December 9, 2026, 6:30 PM to 8:30 PM\nWednesday, December 16, 2026, 6:30 PM to 8:30 PM\nWednesday, December 23, 2026, 6:30 PM to 8:30 PM\nWednesday, December 30, 2026, 6:30 PM to 8:30 PM\nWednesday, January 6, 2027, 6:30 PM to 8:30 PM",
       "priority": 20,
       "category": [
         "small_groups"
@@ -27360,22 +27360,14 @@
       "resources": [],
       "group_id": "group-d8ef73afd66b61fc",
       "next_meeting": {
-        "start": "2026-10-14T18:30:00-04:00",
-        "end": "2026-10-14T20:30:00-04:00",
-        "sort_start_utc": "2026-10-14T22:30:00Z",
-        "sort_end_utc": "2026-10-15T00:30:00Z",
-        "display_when": "Wednesday, October 14, 2026, 6:30 PM to 8:30 PM",
+        "start": "2026-10-21T18:30:00-04:00",
+        "end": "2026-10-21T20:30:00-04:00",
+        "sort_start_utc": "2026-10-21T22:30:00Z",
+        "sort_end_utc": "2026-10-22T00:30:00Z",
+        "display_when": "Wednesday, October 21, 2026, 6:30 PM to 8:30 PM",
         "all_day": false
       },
       "future_meetings": [
-        {
-          "start": "2026-10-14T18:30:00-04:00",
-          "end": "2026-10-14T20:30:00-04:00",
-          "sort_start_utc": "2026-10-14T22:30:00Z",
-          "sort_end_utc": "2026-10-15T00:30:00Z",
-          "display_when": "Wednesday, October 14, 2026, 6:30 PM to 8:30 PM",
-          "all_day": false
-        },
         {
           "start": "2026-10-21T18:30:00-04:00",
           "end": "2026-10-21T20:30:00-04:00",
@@ -27463,11 +27455,19 @@
           "sort_end_utc": "2026-12-31T01:30:00Z",
           "display_when": "Wednesday, December 30, 2026, 6:30 PM to 8:30 PM",
           "all_day": false
+        },
+        {
+          "start": "2027-01-06T18:30:00-05:00",
+          "end": "2027-01-06T20:30:00-05:00",
+          "sort_start_utc": "2027-01-06T23:30:00Z",
+          "sort_end_utc": "2027-01-07T01:30:00Z",
+          "display_when": "Wednesday, January 6, 2027, 6:30 PM to 8:30 PM",
+          "all_day": false
         }
       ],
-      "sort_start_utc": "2026-10-14T22:30:00Z",
-      "sort_end_utc": "2026-10-15T00:30:00Z",
-      "planning_center_event_instance_id": "169619084",
+      "sort_start_utc": "2026-10-21T22:30:00Z",
+      "sort_end_utc": "2026-10-22T00:30:00Z",
+      "planning_center_event_instance_id": "170149016",
       "planning_center_event_time_id": "25282532",
       "knowledge_file": "knowledge/small-groups/generated/urbancrest-student-ministry-6b61fc.md"
     }
