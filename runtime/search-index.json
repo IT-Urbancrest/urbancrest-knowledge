@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-10-16T16:40:44.857033Z",
+  "generated_at": "2026-10-16T19:16:31.745432Z",
   "timezone": "America/New_York",
-  "record_count": 480,
+  "record_count": 495,
   "config": {
     "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step. For directions requests, include both approved map links.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership Transition\n\nUrbancrest is currently searching for its next Global Missions Pastor.\n\nFor broad or global missions leadership questions:\n\n1. State that Urbancrest is currently searching for its next Global Missions Pastor.\n2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.\n3. Return `jennifer_prows` when one staff card is appropriate.\n4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nState the times found in those authoritative records directly. Do not hardcode service times in runtime application logic or prompt instructions.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
     "style_guide": "# Style Guide\n\n## Writing\n\n- Use short paragraphs.\n- Prefer plain language.\n- Avoid church jargon unless it is explained.\n- Do not use em dashes.\n- Do not use the word meaningful as a filler.\n- Use Small Groups, never Grow Groups.\n- Refer to Urbancrest Church as Urbancrest after the first use.\n- Use believer's baptism by immersion when describing baptism.\n\n## Theology\n\n- Scripture is the final authority.\n- The Baptist Faith and Message 2000 is a helpful doctrinal summary, not equal to Scripture.\n- Salvation is by grace alone through faith alone in Jesus Christ alone.\n- Baptism follows salvation and does not save.\n",
@@ -3461,6 +3461,83 @@
       "authoritative": true
     },
     {
+      "id": "knowledge.pastoral-care.struggling-with-doubt",
+      "record_type": "knowledge",
+      "path": "knowledge/pastoral-care/struggling-with-doubt.md",
+      "title": "What if I’m struggling with doubts about my faith?",
+      "summary": "You can be honest about your questions and seek help exploring what the Bible says about Jesus.",
+      "content": "# What if I’m struggling with doubts about my faith?\n\nIf you're wrestling with questions about God, the Bible, or Christianity, you don't have to pretend you aren't. Questions can be an opportunity to examine what you believe and look more closely at Jesus.\n\nStart by naming the question that's troubling you. Is it something you've experienced, a part of Scripture that's hard to understand, or a question about whether Christianity is true? Read what the Bible says in context, pray honestly, and talk with a trusted Christian who will listen rather than rush you toward an easy answer.\n\nWe won't claim that every question has a quick explanation. But you don't have to work through every doubt alone. If you'd like to talk, use Urbancrest's Connect Card to request a conversation with a pastor.",
+      "priority": 110,
+      "category": [
+        "pastoral_care"
+      ],
+      "intents": [
+        "pastoral_care",
+        "faith_questions"
+      ],
+      "tags": [
+        "What if I’m struggling with doubts about my faith?",
+        "pastoral_care",
+        "faith_questions"
+      ],
+      "search_terms": [
+        "I am doubting my faith",
+        "What if I have doubts about God?",
+        "I am struggling to believe",
+        "Can Christians have doubts?",
+        "I have questions about Christianity",
+        "I am losing my faith"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "church_center.connect_card"
+      ],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
+      "id": "knowledge.pastoral-care.hurt-by-a-church",
+      "record_type": "knowledge",
+      "path": "knowledge/pastoral-care/hurt-by-a-church.md",
+      "title": "What if I’ve been hurt by a church before?",
+      "summary": "If you’ve experienced hurt in a church setting, you can ask questions and take time before deciding whether to visit.",
+      "content": "# What if I’ve been hurt by a church before?\n\nIf you've been hurt, dismissed, or mistreated in a church setting, returning to church may feel complicated. We're sorry that happened, and we don't want to minimize your experience or ask you to pretend it didn't matter.\n\nYou are welcome to ask questions about Urbancrest, attend a service without committing to anything, or talk with a pastor before visiting if that would be helpful. You can take time to learn what our church believes and how we care for people.\n\nWe can't undo what happened elsewhere, and we won't promise that any church is perfect. But we'd be glad to listen if you want to begin a conversation. You can reach out through our Connect Card.",
+      "priority": 110,
+      "category": [
+        "pastoral_care"
+      ],
+      "intents": [
+        "pastoral_care",
+        "visitor_info"
+      ],
+      "tags": [
+        "What if I’ve been hurt by a church before?",
+        "pastoral_care",
+        "visitor_info"
+      ],
+      "search_terms": [
+        "I have been hurt by church",
+        "What if I have church hurt?",
+        "I had a bad church experience",
+        "I am afraid to come back to church",
+        "How do you treat people who were hurt by a church?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "church_center.connect_card"
+      ],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
       "id": "ministries.legacy_builders.bears",
       "record_type": "knowledge",
       "path": "knowledge/ministries/legacy-builders/bears-ministry.md",
@@ -5840,6 +5917,56 @@
       "confidence": "high"
     },
     {
+      "id": "about.livestream",
+      "record_type": "knowledge",
+      "path": "knowledge/about/is-there-a-livestream.md",
+      "title": "Can I watch Urbancrest services online?",
+      "summary": "Yes. Urbancrest livestreams the Sunday 9:30 AM worship service on the Messages page, Facebook, and YouTube.",
+      "content": "# Can I watch Urbancrest services online?\n\n**Yes!** Urbancrest livestreams our **Sunday 9:30 AM worship service** each week.\n\nYou can watch live on our [Messages page](https://urbancrest.church/messages), [Facebook page](https://www.facebook.com/urbancrestchurch), or [YouTube channel](https://www.youtube.com/@urbancrestchurch). You can also find past messages on our website and YouTube channel.\n\nIf you can't be with us in person, we're glad you can join from wherever you are. And when you're able, we'd love to welcome you on campus for a time of worship.",
+      "priority": 100,
+      "category": [
+        "about"
+      ],
+      "intents": [
+        "visitor_info",
+        "livestream",
+        "worship_online"
+      ],
+      "tags": [
+        "Can I watch Urbancrest services online?",
+        "about",
+        "livestream",
+        "worship_online"
+      ],
+      "search_terms": [
+        "Does Urbancrest livestream?",
+        "Can I watch church online?",
+        "What time is your livestream?",
+        "Where is the live service?",
+        "Is the 11 service streamed?",
+        "Where can I watch sermons?",
+        "Is the service live on Facebook?",
+        "Can I watch Urbancrest on YouTube?",
+        "Can I watch the livestream on social media?",
+        "Does Urbancrest stream on Facebook or YouTube?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.messages",
+        "action_link.facebook",
+        "action_link.youtube"
+      ],
+      "status": "published",
+      "answer_guidance": "Livestream the Sunday 9:30 AM service only; link to Messages, Facebook and YouTube. Do not claim the 11 AM service is livestreamed.",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
       "id": "ministries.nursery.both_services",
       "record_type": "knowledge",
       "path": "knowledge/ministries/nursery/faq/can-my-child-stay-for-both-sunday-services.md",
@@ -6359,6 +6486,97 @@
       "confidence": "high"
     },
     {
+      "id": "knowledge.beliefs.how-can-i-know-god-is-real",
+      "record_type": "knowledge",
+      "path": "knowledge/beliefs/how-can-i-know-god-is-real.md",
+      "title": "How can I know God is real?",
+      "summary": "Christian faith invites honest questions and points us to God’s creation, Scripture, and especially Jesus Christ.",
+      "content": "# How can I know God is real?\n\nIt's okay to ask whether God is real. Christians believe that God has made Himself known through what He has created, through Scripture, and most clearly through Jesus Christ.\n\nCreation can prompt questions about why anything exists at all. The Bible also speaks of a moral awareness that points beyond ourselves. But at the center of Christian faith is Jesus: His life, teaching, death, and resurrection. Christians believe Jesus shows us who God is.\n\nFaith doesn't require pretending we never have questions. If you're exploring Christianity, one place to start is reading one of the Gospels, such as John, and asking: Who does Jesus claim to be? What did He do? Why did His followers believe He rose from the dead?\n\nYou can explore these questions at your own pace. We'd be glad to connect you with a pastor if you want to talk about faith, evidence, or doubts.",
+      "priority": 100,
+      "category": [
+        "beliefs"
+      ],
+      "intents": [
+        "beliefs",
+        "apologetics",
+        "faith_questions"
+      ],
+      "tags": [
+        "How can I know God is real?",
+        "beliefs",
+        "apologetics",
+        "faith_questions"
+      ],
+      "search_terms": [
+        "Is God real?",
+        "How do I know God exists?",
+        "Is there evidence for God?",
+        "How can I believe in God?",
+        "Does God exist?",
+        "What if I am skeptical about Christianity?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "church_center.connect_card"
+      ],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
+      "id": "ministries.care_and_prayer",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/care-and-prayer/overview.md",
+      "title": "How can I receive prayer or pastoral care?",
+      "summary": "Ask for private pastoral follow-up through the Connect Card or share a moderated, public prayer request on the Prayer Wall.",
+      "content": "# How can I receive prayer or pastoral care?\n\nIf you need prayer, encouragement, or someone to talk with, we'd be glad to hear from you.\n\nOur pastors are available to listen, pray, and offer biblical pastoral guidance. If you're going through a particularly difficult season, **Stephen Ministry** offers confidential, Christ-centered, one-to-one support through trained members of our church. Stephen Ministers are trained lay caregivers, not professional counselors or therapists.\n\n## How can I share a prayer request?\n\nYou have two options:\n\n- **[Prayer Wall](https://urbancrest.church/prayer):** Share a request for our church family to pray over. Requests are reviewed before appearing **publicly** on the Prayer Wall and may be lightly edited for privacy or clarity. You can choose to display the request anonymously, but it's still a public request once approved.\n- **Connect Card:** If you'd like to share a concern **privately** or ask to speak with a pastor, the [Connect Card](https://urbancrest.churchcenter.com/people/forms/1494) is a better next step.\n\nPastoral care and Stephen Ministry can complement appropriate medical or mental-health care when needed. You can also learn more about [Stephen Ministry](https://urbancrest.church/get-involved/stephen-ministry).",
+      "priority": 100,
+      "category": [
+        "ministries"
+      ],
+      "intents": [
+        "ministry_info",
+        "pastoral_care"
+      ],
+      "tags": [
+        "How can I receive prayer or pastoral care?",
+        "ministries",
+        "pastoral_care"
+      ],
+      "search_terms": [
+        "Can someone pray for me?",
+        "How do I request prayer?",
+        "I need pastoral care",
+        "Can I talk to a pastor?",
+        "What is Care and Prayer?",
+        "Does Urbancrest offer counseling?",
+        "I am going through a hard time",
+        "Where do I post a prayer request?",
+        "Is my prayer request public?",
+        "How do I submit a private prayer request?",
+        "What is the Urbancrest Prayer Wall?",
+        "Prayer Wall",
+        "Can I request prayer anonymously?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "church_center.connect_card",
+        "action_link.prayer_wall"
+      ],
+      "status": "published",
+      "answer_guidance": "Distinguish the public moderated Prayer Wall from private requests to speak with a pastor via the Connect Card.",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
       "id": "ministries.men.get_involved",
       "record_type": "knowledge",
       "path": "knowledge/ministries/men/faq/how-do-i-get-involved.md",
@@ -6595,6 +6813,49 @@
       "authoritative": true
     },
     {
+      "id": "ministries.small_groups",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/small-groups/overview.md",
+      "title": "What are Small Groups at Urbancrest?",
+      "summary": "Small Groups help people build relationships, study Scripture, pray, and grow in faith together.",
+      "content": "# What are Small Groups at Urbancrest?\n\n**Find your place. Grow together.** Small Groups help people build relationships and grow as followers of Jesus. They're an opportunity to study the Bible, pray, encourage each other, and walk through life alongside other people.\n\nWhether you're new to Urbancrest or looking to get more connected, a Small Group can be a good next step. You don't need to know all the answers before exploring a group.\n\n## How do I find a group?\n\nBrowse the current [Small Groups directory](https://urbancrest.churchcenter.com/groups) to see available options. Each group listing is the best source for its current meeting schedule and other details, which may change.\n\nIf you're not sure where to start, reach out through our Connect Card and let us know you'd like help finding a group.",
+      "priority": 100,
+      "category": [
+        "ministries"
+      ],
+      "intents": [
+        "ministry_info",
+        "small_groups"
+      ],
+      "tags": [
+        "What are Small Groups at Urbancrest?",
+        "ministries",
+        "small_groups"
+      ],
+      "search_terms": [
+        "Small Groups",
+        "What small groups do you have?",
+        "How do I find a small group?",
+        "How do I join a group?",
+        "What happens at a small group?",
+        "Are groups open to new people?",
+        "What groups meet near me?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "church_center.small_groups",
+        "church_center.connect_card"
+      ],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
       "id": "about.office-hours",
       "record_type": "knowledge",
       "path": "knowledge/about/office-hours.md",
@@ -6652,6 +6913,55 @@
       "authoritative_for": [
         "office_hours"
       ]
+    },
+    {
+      "id": "knowledge.ministries.adults.wednesday-bible-studies",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/adults/wednesday-bible-studies.md",
+      "title": "What are Wednesday Night Adult Bible Studies?",
+      "summary": "Adult Bible Studies meet Wednesdays at 6:30 PM; find current options under Weekday Groups in Church Center.",
+      "content": "# What are Wednesday Night Adult Bible Studies?\n\nWednesday evenings are an opportunity to study God's Word, build relationships, and grow together with other adults at Urbancrest.\n\nOur regular **Adult Bible Studies begin Wednesdays at 6:30 PM**. You're also welcome to join us for **Wednesday Night Dinner at 5:30 PM** in the gym before the evening activities.\n\n## Which classes are available?\n\nThe available studies and their meeting locations can change. To find current options, visit our **[Church Center Groups directory](https://urbancrest.churchcenter.com/groups)** and look under **Weekday Groups**. Each listing is the best place to check the group's current details and any signup instructions.\n\nYou don't have to be a Bible expert to explore a group. If you're unsure which option would be a good fit, we'd be glad to help you get connected.",
+      "priority": 100,
+      "category": [
+        "ministries"
+      ],
+      "intents": [
+        "ministry_info",
+        "adult_bible_studies",
+        "wednesday_nights"
+      ],
+      "tags": [
+        "What are Wednesday Night Adult Bible Studies?",
+        "ministries",
+        "adult_bible_studies",
+        "wednesday_nights"
+      ],
+      "search_terms": [
+        "Adult Bible Studies",
+        "Wednesday Bible study",
+        "Are there Bible studies for adults?",
+        "What do adults do Wednesday nights?",
+        "When are adult classes?",
+        "Do you have Wednesday night classes?",
+        "What adult studies are available?",
+        "weekday groups",
+        "Weekday Groups in Church Center",
+        "What adult Bible studies are offered on Wednesdays?",
+        "Where do I find Wednesday adult classes?",
+        "Do I have to sign up for Wednesday adult Bible studies?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "church_center.small_groups"
+      ],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
     },
     {
       "id": "beliefs.bible_translations",
@@ -6723,6 +7033,56 @@
       "confidence": "high",
       "authoritative": true,
       "supplemental_search_term_count": 12
+    },
+    {
+      "id": "beliefs.last-things",
+      "record_type": "knowledge",
+      "path": "knowledge/beliefs/last-things.md",
+      "title": "What does Urbancrest believe about heaven, hell, and life after death?",
+      "summary": "Urbancrest believes Jesus will return, believers receive eternal life with God, and hell is a real place of eternal punishment and separation from God.",
+      "content": "# What does Urbancrest believe about heaven, hell, and life after death?\n\nChristians have real questions about death, eternity, heaven, and hell. At Urbancrest, we look to Scripture for what we can say with confidence.\n\nThe Bible teaches that **Jesus Christ will return**, that the dead will be raised, and that God will judge all people. Those who belong to Christ will live forever with God. Those who reject Him face eternal judgment. God promises to make all things new.\n\n## What is heaven?\n\nThe Christian hope is more than escaping this life. It is everlasting life with God through Jesus Christ, culminating in God's promised renewal of creation. Revelation 21 describes a future in which God dwells with His people and death and mourning are no more.\n\n## What does Urbancrest believe about hell?\n\n**Hell is a real place of everlasting punishment, eternal darkness, and separation from God.** Scripture describes hell as *outer darkness* and speaks of eternal punishment and separation from the presence of the Lord (Matthew 8:12; Matthew 25:46; 2 Thessalonians 1:9). Hell is not simply a metaphor for suffering in this life, and its judgment is not temporary.\n\nWe take this teaching seriously because Jesus Himself spoke about judgment and eternity. The Bible also clearly teaches that God offers forgiveness and eternal life through repentance and faith in Jesus Christ.\n\n## Can I know where I stand with God?\n\nThe gospel's promise is that forgiveness and eternal life are received through repentance and faith in Jesus Christ, not through our own good works. If you have questions about salvation or eternity, we'd be glad to talk with you.",
+      "priority": 100,
+      "category": [
+        "beliefs"
+      ],
+      "intents": [
+        "beliefs",
+        "last_things",
+        "eternal_life"
+      ],
+      "tags": [
+        "What does Urbancrest believe about heaven, hell, and life after death?",
+        "beliefs",
+        "last_things",
+        "eternal_life"
+      ],
+      "search_terms": [
+        "What happens after death?",
+        "What happens when I die?",
+        "Is heaven real?",
+        "What does Urbancrest believe about hell?",
+        "Is hell real?",
+        "Is hell a real place?",
+        "Is hell eternal?",
+        "Is hell forever?",
+        "Is hell a place of darkness?",
+        "What is eternal separation from God?",
+        "Do you believe in eternal judgment?",
+        "What happens at the resurrection?",
+        "What does the Bible say about heaven?",
+        "Will Jesus come back?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "church_center.connect_card"
+      ],
+      "status": "published",
+      "answer_guidance": "Affirm the reality of hell as a place of eternal darkness, punishment and separation from God; do not reduce it to a metaphor or temporary state.",
+      "confidence": "high",
+      "authoritative": true
     },
     {
       "id": "beliefs.salvation",
@@ -7201,6 +7561,57 @@
       "confidence": "high"
     },
     {
+      "id": "knowledge.ministries.kids.faq.what-is-awana",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/kids/faq/what-is-awana.md",
+      "title": "What is AWANA at Urbancrest?",
+      "summary": "AWANA meets Wednesdays for ages 4 through sixth grade. There are dues, but payment is not required to attend.",
+      "content": "# What is AWANA at Urbancrest?\n\nAWANA is a Wednesday-night program where kids learn the Bible and have fun with others in age- and grade-based groups. AWANA stands for **Approved Workmen Are Not Ashamed**.\n\nAt Urbancrest, AWANA welcomes **children ages 4 through sixth grade**. During its regular season, clubs meet on **Wednesdays from 6:15 to 7:30 PM**. Kids can join during the year rather than having to wait for a new season.\n\n## Does AWANA cost anything?\n\nThere are AWANA dues, but **paying them is not required for your child to attend**. We'd love to have your child participate regardless.\n\n## How do I register?\n\nRegistration is available through the current AWANA event in Church Center. Families can also register in person at the **AWANA bookstore in the 300s hallway** on Wednesday evenings. The current event information lists in-person registration at **6:05 PM**.\n\nYou're also welcome to join us for **Wednesday Night Dinner at 5:30 PM** in the gym before AWANA.\n\nFor the current season's dates, registration link, or any schedule exceptions, check our [Events page](https://urbancrest.church/events).",
+      "priority": 100,
+      "category": [
+        "ministries"
+      ],
+      "intents": [
+        "ministry_info",
+        "kids_ministry",
+        "awana"
+      ],
+      "tags": [
+        "What is AWANA at Urbancrest?",
+        "ministries",
+        "kids_ministry",
+        "awana"
+      ],
+      "search_terms": [
+        "What is AWANA?",
+        "What is Awana at Urbancrest?",
+        "Do you have Awana?",
+        "What ages can attend AWANA?",
+        "When is AWANA?",
+        "How do I register for AWANA?",
+        "Can kids join AWANA late?",
+        "What does Awana stand for?",
+        "Are AWANA dues required?",
+        "Is AWANA free if I cannot pay dues?",
+        "Is there a fee for AWANA?",
+        "Can kids attend AWANA without paying?",
+        "Where is the AWANA bookstore?",
+        "AWANA 6:15"
+      ],
+      "ministries": [],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
       "id": "about.urbancrest_sports_complex.phases",
       "record_type": "knowledge",
       "path": "knowledge/about/urbancrest-sports-complex-phases.md",
@@ -7381,6 +7792,47 @@
       ],
       "status": "published",
       "confidence": "high"
+    },
+    {
+      "id": "knowledge.beliefs.what-is-sin",
+      "record_type": "knowledge",
+      "path": "knowledge/beliefs/what-is-sin.md",
+      "title": "What is sin and why does it matter?",
+      "summary": "Sin is falling short of God’s holy character through what we think, desire, say, or do; Jesus offers forgiveness.",
+      "content": "# What is sin and why does it matter?\n\nThe Bible uses the word **sin** to describe our rebellion against God and our failure to live according to His good and holy ways. Sin isn't limited to the worst things people do. It reaches into our choices, attitudes, desires, and our failure to love God and others as we should.\n\nScripture teaches that everyone has sinned. Sin separates us from God, and we cannot repair that separation by trying to be good enough. That's why the good news about Jesus matters: He lived without sin, died for sinners, and rose again. Forgiveness and new life are God's gifts to those who repent and trust Christ.\n\nChristians don't talk about sin to claim they're better than anyone else. We all need God's grace. If you'd like to understand what it means to turn to Jesus, we'd love to help you explore the gospel.",
+      "priority": 100,
+      "category": [
+        "beliefs"
+      ],
+      "intents": [
+        "beliefs",
+        "salvation",
+        "gospel"
+      ],
+      "tags": [
+        "What is sin and why does it matter?",
+        "beliefs",
+        "salvation",
+        "gospel"
+      ],
+      "search_terms": [
+        "What is sin?",
+        "Why does sin matter?",
+        "Is everyone a sinner?",
+        "What does it mean to repent?",
+        "Why do I need forgiveness?",
+        "Why did Jesus die for sins?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "church_center.connect_card"
+      ],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
     },
     {
       "id": "ministries.stephen_ministry.overview",
@@ -7603,6 +8055,60 @@
       "confidence": "high"
     },
     {
+      "id": "ministries.production",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/production/overview.md",
+      "title": "What is the Production Team at Urbancrest?",
+      "summary": "The Urbancrest Production Team welcomes volunteers for FOH Audio, Livestream Audio, Camera, ProPresenter, and Video Switcher, with training provided.",
+      "content": "# What is the Production Team at Urbancrest?\n\nThe **Production Team** helps create a smooth, distraction-free environment for worship services and other ministry gatherings through audio, video, and presentation technology. It's one of the ways people can serve behind the scenes and help communicate the message of Jesus clearly.\n\n## What positions are available?\n\nThere are several areas where volunteers can serve:\n\n- **Front of House (FOH) Audio:** Mixes the sound heard by everyone in the Worship Center.\n- **Livestream Audio:** Mixes the audio heard by people watching online.\n- **Camera:** Operates cameras during worship services.\n- **ProPresenter:** Operates the presentation system for song lyrics, Scripture, and other on-screen elements.\n- **Video Switcher:** Chooses camera shots and other sources for the livestream.\n\n## Do I need experience?\n\n**No previous production experience is required.** We provide training for every position. Many of the positions can be learned in a service or two with guidance from the team. Audio positions normally take additional practice and training during services and/or Wednesday rehearsals.\n\nIf you're interested in joining us, complete the **Volunteer Interest Form** and let us know which areas you'd like to explore. **Matthew Kirby**, our Technical Director, oversees the Production Team and can help you take the next step.",
+      "priority": 100,
+      "category": [
+        "ministries"
+      ],
+      "intents": [
+        "ministry_info",
+        "volunteering"
+      ],
+      "tags": [
+        "What is the Production Team at Urbancrest?",
+        "ministries",
+        "volunteering"
+      ],
+      "search_terms": [
+        "What is Production Ministry?",
+        "Can I help with sound?",
+        "How do I volunteer on cameras?",
+        "Who runs the livestream?",
+        "Who manages ProPresenter?",
+        "Can I join the tech team?",
+        "Who leads production?",
+        "Are there opportunities in audio or video?",
+        "Production Team",
+        "How do I join the Production Team?",
+        "Do I need experience to volunteer on the production team?",
+        "What production volunteer roles do you have?",
+        "How do I volunteer for FOH audio?",
+        "Can someone train me on ProPresenter?",
+        "What is livestream audio?",
+        "Video switcher volunteer"
+      ],
+      "ministries": [
+        "technical_creative"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "church_center.serving"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "matthew_kirby",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
       "id": "about.urbancrest_sports_complex.overview",
       "record_type": "knowledge",
       "path": "knowledge/about/urbancrest-sports-complex.md",
@@ -7816,6 +8322,53 @@
       "confidence": "high"
     },
     {
+      "id": "about.visit.expect",
+      "record_type": "knowledge",
+      "path": "knowledge/about/what-should-i-expect.md",
+      "title": "What should I expect when I visit Urbancrest?",
+      "summary": "Plan a Sunday visit, including guest parking beside the main entrance, worship services, seating, and children’s ministry.",
+      "content": "# What should I expect when I visit Urbancrest?\n\nWe'd love to have you join us for a time of worship. Our regular Sunday services are at **9:30 AM and 11:00 AM**, and both follow the same format.\n\nEach service includes worship through music, prayer, Scripture, and biblical preaching. You can come as you are. There's no special dress code, and you don't need to know the songs or have all your questions answered to visit.\n\n## When you arrive\n\nLook for the **guest parking spaces near the main front entrance**, to both the left and right of the entrance and closest to the church building. Parking is also available around the building.\n\nThe Worship Center is centrally located. If you'd like directions, help finding a seat, or information about a ministry, our Guest Services team would be happy to help.\n\nSeating is open on the main floor and in the balcony. Wheelchair seating is available on the Worship Center main floor, and a quieter sensory-friendly worship space is available in The Upper Room.\n\n## Bringing kids?\n\nUrbancrest Kids offers Sunday programming and nursery care. Kids check-in stations are located in the 300/400 wing. A child receives a name label and the adult receives a matching security tag for pickup. Our team can help you get checked in.\n\n## Coming alone or just exploring?\n\nYou're welcome here. You can attend, listen, and ask questions at your own pace. If you'd like someone to meet you or help you find your way, let our Guest Services team know.\n\nLearn more through our [Plan Your Visit](https://urbancrest.church/plan-a-visit) page.",
+      "priority": 100,
+      "category": [
+        "about"
+      ],
+      "intents": [
+        "visitor_info",
+        "first_visit"
+      ],
+      "tags": [
+        "What should I expect when I visit Urbancrest?",
+        "about",
+        "first_visit"
+      ],
+      "search_terms": [
+        "What should I expect at Urbancrest?",
+        "I am visiting for the first time",
+        "What happens during a Sunday service?",
+        "Can I come alone?",
+        "Do I have to dress up?",
+        "What do I do when I arrive?",
+        "Where do I take my kids?",
+        "Is Urbancrest accessible?",
+        "Where is guest parking at Urbancrest?",
+        "Are there guest parking spots?",
+        "Where should a first-time guest park?",
+        "Where is the front entrance?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.plan_visit"
+      ],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
       "id": "ministries.men.participation",
       "record_type": "knowledge",
       "path": "knowledge/ministries/men/faq/who-can-participate.md",
@@ -7932,6 +8485,46 @@
       ],
       "status": "published",
       "confidence": "high"
+    },
+    {
+      "id": "knowledge.beliefs.why-does-god-allow-suffering",
+      "record_type": "knowledge",
+      "path": "knowledge/beliefs/why-does-god-allow-suffering.md",
+      "title": "Why does God allow suffering?",
+      "summary": "The Bible takes suffering seriously and points to Jesus, who entered our suffering and promises to make all things new.",
+      "content": "# Why does God allow suffering?\n\nPain and suffering raise some of the hardest questions we can ask about God. The Bible doesn't pretend suffering is easy, and it doesn't give us a simple explanation for every tragedy.\n\nScripture teaches that we live in a world affected by sin and brokenness. It also shows us that God has not remained distant from our pain. Jesus suffered, died on the cross, and rose again. Because of Him, Christians can have hope even while they are grieving, questioning, or waiting for answers.\n\nThis doesn't mean every painful event is a punishment for someone's wrongdoing. Jesus challenged that assumption in John 9:1–3. Nor does believing in God mean we never feel sadness or uncertainty.\n\nThe Bible promises that God will ultimately judge evil and make all things new. Until then, we can bring our questions and pain to Him and care for one another through difficult seasons.\n\nIf you're walking through something painful, we'd be glad to listen and pray with you. Urbancrest's pastors and Stephen Ministry are available as care options.",
+      "priority": 100,
+      "category": [
+        "beliefs"
+      ],
+      "intents": [
+        "beliefs",
+        "suffering",
+        "pastoral_care"
+      ],
+      "tags": [
+        "Why does God allow suffering?",
+        "beliefs",
+        "suffering",
+        "pastoral_care"
+      ],
+      "search_terms": [
+        "Why does God allow suffering?",
+        "Why do bad things happen to good people?",
+        "Why did God let this happen?",
+        "Why is there pain in the world?",
+        "Where is God when I am hurting?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "church_center.connect_card"
+      ],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
     },
     {
       "id": "ministries.nursery.diaper_supplies",
@@ -8626,6 +9219,43 @@
       "confidence": "high"
     },
     {
+      "id": "action_link.prayer_wall",
+      "record_type": "action_link",
+      "path": "registry/action-links.yaml",
+      "title": "Share a Prayer Request",
+      "summary": "Approved Urbancrest action link for prayer_request, public_prayer_wall, share_prayer.",
+      "content": "Label: Share a Prayer Request\nURL: https://urbancrest.church/prayer\nIntents: prayer_request, public_prayer_wall, share_prayer",
+      "priority": 95,
+      "category": [
+        "action_link"
+      ],
+      "intents": [
+        "prayer_request",
+        "public_prayer_wall",
+        "share_prayer"
+      ],
+      "tags": [
+        "action",
+        "link",
+        "prayer_request",
+        "public_prayer_wall",
+        "share_prayer"
+      ],
+      "search_terms": [
+        "Share a Prayer Request",
+        "prayer_request",
+        "public_prayer_wall",
+        "share_prayer"
+      ],
+      "ministries": [],
+      "audiences": [],
+      "resources": [],
+      "action_key": "prayer_wall",
+      "url": "https://urbancrest.church/prayer",
+      "external": false,
+      "church_center_modal": false
+    },
+    {
       "id": "about.annual_business_meeting",
       "record_type": "knowledge",
       "path": "knowledge/about/annual-business-meeting.md",
@@ -8781,12 +9411,61 @@
       "confidence": "high"
     },
     {
+      "id": "knowledge.resources.stay-connected",
+      "record_type": "knowledge",
+      "path": "knowledge/resources/stay-connected.md",
+      "title": "How can I stay connected with Urbancrest?",
+      "summary": "Find upcoming events, sign up for the newsletter, follow Urbancrest on social media, and use Church Center to get connected.",
+      "content": "# How can I stay connected with Urbancrest?\n\nThere are several ways to find out what's happening and take your next step at Urbancrest.\n\n- **See what's coming up:** Visit [Urbancrest Events](https://urbancrest.church/events) for upcoming activities and gatherings.\n- **Get email updates:** Sign up for the [Urbancrest newsletter](https://urbancrest.church/newsletter).\n- **Connect with a Small Group:** Browse the [Small Groups directory](https://urbancrest.churchcenter.com/groups).\n- **Watch messages:** Visit [Messages](https://urbancrest.church/messages) to watch sermons and find related content.\n- **Follow Urbancrest:** Find us on [Instagram](https://www.instagram.com/urbancrestchurch), [Facebook](https://www.facebook.com/urbancrestchurch), and [YouTube](https://www.youtube.com/@urbancrestchurch).\n\nWhen you want to register for an event, join a group, or submit a form, we'll direct you to the appropriate Church Center option.\n\nNew here or have a question? You can complete our Connect Card and let us know how we can help.",
+      "priority": 95,
+      "category": [
+        "resources"
+      ],
+      "intents": [
+        "resource_info",
+        "newsletter",
+        "social_media",
+        "events"
+      ],
+      "tags": [
+        "How can I stay connected with Urbancrest?",
+        "resources",
+        "newsletter",
+        "social_media",
+        "events"
+      ],
+      "search_terms": [
+        "How do I stay connected?",
+        "How do I get church updates?",
+        "How do I sign up for the newsletter?",
+        "Where can I find upcoming events?",
+        "Where can I follow Urbancrest?",
+        "Does Urbancrest have an app?",
+        "How do I hear about church events?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "action_link.newsletter",
+        "action_link.events",
+        "action_link.instagram",
+        "action_link.facebook",
+        "action_link.youtube",
+        "church_center.connect_card"
+      ],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
       "id": "next-steps.membership",
       "record_type": "knowledge",
       "path": "knowledge/next-steps/how-do-i-become-a-member.md",
-      "title": "How do I become a member?",
-      "summary": "Begin by completing the Connect Card and asking about membership.",
-      "content": "# How do I become a member?\n\n## Short Answer\n\nBegin by completing the Connect Card and asking about membership.\n\n## Detailed Answer\n\nMembership is a commitment to follow Christ together through worship, doctrine, fellowship, service, accountability, and mission. Urbancrest staff can explain the current membership process.\n\n## Urbancrest Information\n\nUse the official Urbancrest resource listed below.\n\n## Next Step\n\nUse `church_center.connect_card`.",
+      "title": "How do I become a member at Urbancrest?",
+      "summary": "Learn about Urbancrest membership, baptism, church-transfer pathways, and Engage: New Members Class.",
+      "content": "# How do I become a member at Urbancrest?\n\nWe'd love to help you explore what it means to be part of the Urbancrest church family. Membership is a commitment to follow Jesus together through worship, spiritual growth, service, and living on mission.\n\n## Where do I start?\n\n**Engage: New Members Class** is a great first step. You'll learn about Urbancrest's history, mission, and vision; explore how church membership works; complete a spiritual gifts assessment; and discover ways to start serving.\n\nYou don't have to attend Engage before expressing an interest in membership. You can begin the conversation during a regular worship service or by attending Engage. You're also welcome to complete our **Connect Card** and ask a pastor or staff member about membership.\n\n## What are the requirements for membership?\n\nChurch membership is for people who have personally trusted Jesus Christ as Lord and Savior and have been baptized as believers by immersion. If you've trusted Jesus but have not yet been baptized that way, a pastor can help you take that step.\n\nPeople may seek membership in several situations:\n\n- **A new profession of faith:** If you've decided to follow Jesus, we can talk with you about baptism and joining the church.\n- **Coming from another church:** If you're coming from another Southern Baptist church, membership may be requested through a letter from that church.\n- **A previous profession of faith and baptism:** If a letter isn't available, a pastor can discuss joining by a statement of faith and prior believer's baptism by immersion at a Baptist church or one of like faith and practice.\n\nThere is also a provision for people whose circumstances prevent them from coming forward or attending normally. A pastor can help with those situations individually.\n\n## Is Engage required?\n\nEngage isn't the only way to **start** the membership conversation. Urbancrest's written membership process includes participation in Engage before membership is **completed**. If your circumstances are unusual, or you have questions about the process, talk with a pastor so we can help you understand the appropriate next step.\n\n## What does being a member involve?\n\nMembers commit to protecting the unity of the church, praying for and welcoming others, discovering ways to serve, gathering faithfully, and seeking to live in a way that reflects Jesus at home and in the community...",
       "priority": 95,
       "category": [
         "next-steps"
@@ -8795,20 +9474,42 @@
         "membership"
       ],
       "tags": [
-        "next steps"
+        "How do I become a member at Urbancrest?",
+        "next-steps"
       ],
       "search_terms": [
-        "How do I become a member?"
+        "How do I become a member?",
+        "How can I join Urbancrest?",
+        "What is Engage?",
+        "Do I have to attend Engage to join?",
+        "How do I transfer my church membership?",
+        "How do I become a church member?",
+        "Is Engage required for membership?",
+        "Can I join without going to Engage first?",
+        "Can I transfer from another Baptist church?",
+        "Do I have to be baptized to become a member?",
+        "What happens in the Engage class?",
+        "What is the membership covenant?",
+        "How do I join Urbancrest Church?",
+        "How do I become a member at Urbancrest?",
+        "Where do I start?",
+        "What are the requirements for membership?",
+        "Is Engage required?",
+        "What does being a member involve?",
+        "We'd be glad to walk through the process with you."
       ],
       "ministries": [],
       "audiences": [
         "everyone"
       ],
       "resources": [
-        "church_center.connect_card"
+        "church_center.connect_card",
+        "action_link.events"
       ],
       "status": "published",
-      "confidence": "high"
+      "confidence": "high",
+      "authoritative": true,
+      "supplemental_search_term_count": 6
     },
     {
       "id": "next-steps.connect-card",
@@ -8901,6 +9602,47 @@
       "confidence": "high"
     },
     {
+      "id": "knowledge.discipleship.how-do-i-grow-in-my-faith",
+      "record_type": "knowledge",
+      "path": "knowledge/discipleship/how-do-i-grow-in-my-faith.md",
+      "title": "How do I grow in my faith?",
+      "summary": "Grow as a follower of Jesus through Scripture, prayer, gathering with the church, community, generosity, and service.",
+      "content": "# How do I grow in my faith?\n\nGrowing in faith isn't about having everything figured out. It's about learning to know Jesus, trust Him, and follow Him in everyday life.\n\nAt Urbancrest, we talk about making disciples who **Gather, Grow, Give, and Go**. These are practical ways to live out our faith:\n\n- **Gather** for worship, biblical teaching, prayer, and time with other believers.\n- **Grow** by reading Scripture, praying, asking questions, and building relationships that encourage you to follow Jesus.\n- **Give** by practicing generosity and using what God has entrusted to you to serve others.\n- **Go** by loving your neighbors, sharing the hope of Jesus, and participating in His mission wherever you are.\n\nYou don't have to do everything at once. Start with one next step: join us on Sunday, explore a Small Group, begin reading the Bible, or ask about an opportunity to serve.\n\nIf you're unsure where you fit, complete the Connect Card. We'd love to help you find a place to grow.",
+      "priority": 95,
+      "category": [
+        "discipleship"
+      ],
+      "intents": [
+        "discipleship",
+        "spiritual_growth"
+      ],
+      "tags": [
+        "How do I grow in my faith?",
+        "discipleship",
+        "spiritual_growth"
+      ],
+      "search_terms": [
+        "How do I grow in my faith?",
+        "How do I get closer to God?",
+        "How do I become a better follower of Jesus?",
+        "What is discipleship?",
+        "What are Gather Grow Give Go?",
+        "How do I grow spiritually?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "church_center.connect_card",
+        "church_center.small_groups",
+        "action_link.get_involved"
+      ],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
       "id": "next-steps.small-groups",
       "record_type": "knowledge",
       "path": "knowledge/next-steps/how-do-i-join-a-small-group.md",
@@ -8929,6 +9671,133 @@
       ],
       "status": "published",
       "confidence": "high"
+    },
+    {
+      "id": "knowledge.discipleship.how-do-i-pray",
+      "record_type": "knowledge",
+      "path": "knowledge/discipleship/how-do-i-pray.md",
+      "title": "How do I pray?",
+      "summary": "Prayer is talking with God. You can come to Him honestly with praise, thanks, confession, questions, and requests.",
+      "content": "# How do I pray?\n\nPrayer is talking with God. You don't need a special vocabulary, a certain posture, or perfectly worded sentences. You can come to Him honestly with what is on your heart.\n\nIf you aren't sure where to begin, try talking with God about these things:\n\n- **Praise:** Tell God what you know is true about Him.\n- **Thanks:** Thank Him for His goodness and for the things He has provided.\n- **Confession:** Be honest about sin and ask Him for forgiveness.\n- **Requests:** Ask for help, wisdom, and the needs of others.\n\nJesus taught His disciples how to pray in Matthew 6:9–13. The Lord's Prayer is a helpful model because it begins with God's name and purposes, includes our daily needs, asks for forgiveness, and expresses dependence on Him.\n\nPrayer doesn't have to be long. You can pray on your way to work, with your family, before reading Scripture, or during a difficult moment. God isn't impressed by polished words. He wants us to come to Him with sincere hearts.\n\nIf you'd like someone at Urbancrest to pray with you, you can share a request on our [Prayer Wall](https://urbancrest.church/prayer). Requests there are reviewed before appearing publicly, so use the **Connect Card** instead if you'd prefer to share something privately or ask to speak with a pastor.",
+      "priority": 95,
+      "category": [
+        "discipleship"
+      ],
+      "intents": [
+        "discipleship",
+        "prayer"
+      ],
+      "tags": [
+        "How do I pray?",
+        "discipleship",
+        "prayer"
+      ],
+      "search_terms": [
+        "How do I pray?",
+        "How do I talk to God?",
+        "What should I say when I pray?",
+        "I have never prayed before",
+        "Does prayer have to sound a certain way?",
+        "What is the Lord’s Prayer?",
+        "Can someone pray with me?",
+        "Where do I send a prayer request?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "church_center.connect_card",
+        "action_link.prayer_wall"
+      ],
+      "status": "published",
+      "answer_guidance": "Distinguish the public moderated Prayer Wall from private requests to speak with a pastor via the Connect Card.",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
+      "id": "knowledge.next-steps.how-do-i-start-following-jesus",
+      "record_type": "knowledge",
+      "path": "knowledge/next-steps/how-do-i-start-following-jesus.md",
+      "title": "How do I start following Jesus?",
+      "summary": "Following Jesus begins with repentance and faith in Him, and continues as you learn to trust and obey Him.",
+      "content": "# How do I start following Jesus?\n\nFollowing Jesus begins with trusting Him as Lord and Savior. The Bible teaches that we've all sinned and cannot make ourselves right with God. Jesus died for our sins and rose again. God offers forgiveness and new life to everyone who turns from sin and places their faith in Jesus. Salvation is a gift of grace, not something we earn.\n\nIf you are ready to take that step, you can talk with God honestly, acknowledging your need for Him and trusting Jesus. There aren't special words you have to say to make God accept you. The important thing is repentance and faith in Christ, not repeating a particular prayer.\n\n## What comes next?\n\nLearning to follow Jesus is a lifelong journey. Some good first steps are:\n\n- **Read the Bible.** The Gospel of John is one place to begin learning about Jesus.\n- **Pray.** Talk to God honestly about what you're learning, where you're struggling, and what you're thankful for.\n- **Gather with other believers.** Worship and grow alongside a local church.\n- **Ask about baptism.** Baptism is a public picture of your faith in Jesus, not a way to earn salvation.\n- **Keep growing.** Get connected with others who can help you learn to follow Christ.\n\nYou don't need to have every question answered before starting a conversation. We'd love to hear your story and help you think through your next step. Use our Connect Card to ask to talk with a pastor. If you've trusted Jesus and want to be baptized, you can complete the Baptism Interest Form.",
+      "priority": 95,
+      "category": [
+        "next-steps"
+      ],
+      "intents": [
+        "salvation",
+        "discipleship",
+        "next_steps"
+      ],
+      "tags": [
+        "How do I start following Jesus?",
+        "next-steps",
+        "discipleship",
+        "next_steps"
+      ],
+      "search_terms": [
+        "How do I start following Jesus?",
+        "How do I follow Jesus?",
+        "I want to become a Christian",
+        "What do I do after accepting Jesus?",
+        "I just became a Christian. What now?",
+        "I want to know Jesus",
+        "What are the first steps of faith?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "church_center.connect_card",
+        "church_center.baptism"
+      ],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
+    },
+    {
+      "id": "knowledge.discipleship.how-do-i-start-reading-the-bible",
+      "record_type": "knowledge",
+      "path": "knowledge/discipleship/how-do-i-start-reading-the-bible.md",
+      "title": "How do I start reading the Bible?",
+      "summary": "Start with a manageable passage, ask what it teaches about God, and keep reading consistently.",
+      "content": "# How do I start reading the Bible?\n\nIf you've never read the Bible before, you don't have to start on page one and read straight through. A great place to begin is the **Gospel of John**, which introduces Jesus through His words, actions, death, and resurrection.\n\nA simple way to get started is to:\n\n1. **Read a short passage.** A chapter or a few paragraphs is enough.\n2. **Ask what it says.** Who is speaking? What is happening? What does it teach about God and people?\n3. **Think about how to respond.** Is there something to believe, confess, thank God for, or obey?\n4. **Pray about what you've read.** Ask God for understanding and help putting His Word into practice.\n\nYou don't need one particular English Bible translation to participate at Urbancrest. Pastor Geoff commonly preaches from the NASB and Pastor Dave typically uses the NKJV, but other faithful translations can be helpful as you read and learn.\n\nIf you get confused, that's okay. Write down your questions and ask someone at church. Reading with a friend or a Small Group can also help you understand Scripture in context.\n\nUrbancrest also offers access to **RightNow Media** at no cost, with Bible study videos and other Christian resources. Church membership is not required to use it.",
+      "priority": 95,
+      "category": [
+        "discipleship"
+      ],
+      "intents": [
+        "discipleship",
+        "scripture",
+        "bible_study"
+      ],
+      "tags": [
+        "How do I start reading the Bible?",
+        "discipleship",
+        "scripture",
+        "bible_study"
+      ],
+      "search_terms": [
+        "How do I read the Bible?",
+        "Where should I start reading the Bible?",
+        "Which book of the Bible should I read first?",
+        "Bible reading for beginners",
+        "How can I understand the Bible?",
+        "What Bible should I use?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "action_link.rightnow_media"
+      ],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
     },
     {
       "id": "next-steps.prayer",
@@ -8989,6 +9858,58 @@
       ],
       "status": "published",
       "confidence": "high"
+    },
+    {
+      "id": "knowledge.resources.follow-along-notes",
+      "record_type": "knowledge",
+      "path": "knowledge/resources/follow-along-notes.md",
+      "title": "How do I use Follow Along sermon notes?",
+      "summary": "Follow Along offers interactive blanks, personal notes saved on your device, a searchable archive, and PDF export.",
+      "content": "# How do I use Follow Along sermon notes?\n\n**Follow Along** lets you read, fill in, and save your own notes as you listen to an Urbancrest message. You can use it on your phone, tablet, or computer without creating an account.\n\nGo to **https://urbancrest.church/follow-along** to open the current notes. To find earlier messages, choose **Previous Notes**, or visit **https://urbancrest.church/follow-along/archive** to browse and search past notes by title, Scripture, speaker, or series.\n\n## Filling in the notes\n\n- **Tap a blank** to type your answer.\n- **Tap the eye icon** beside a blank to reveal its prepared answer.\n- **Tap My Notes** to add personal thoughts, questions, or reflections.\n- Use **Reveal All Answers** near the bottom to show every prepared answer. You'll be asked to confirm because this will replace unfinished or typed fill-ins with the official answers; your personal notes will remain.\n- Choose **Reset My Notes** if you want to clear your saved responses and personal notes for that message on your device.\n\n## Are my notes saved?\n\nYes, if your browser allows local storage. Your fill-ins, revealed answers, and personal notes save automatically **on the device and browser you're using**. They are not uploaded to an Urbancrest account or synchronized across devices. Clearing your browser's site data or selecting Reset My Notes can remove them. A saving indicator tells you whether they can be saved on that device.\n\n## Can I print or export my notes?\n\nYes. Choose **Print / Export** to open a preview. From there you can print, or share/download a PDF depending on your device. The PDF includes the **prepared answers** to fill-in blanks and any personal notes you've written, even when you had not revealed those answers on screen. It does not preserve your typed fill-in guesses in place of the prepared answers.\n\nA specific sermon may also include a **Watch this message** link. You can find the message library at **https://urbancrest.church/messages**.",
+      "priority": 95,
+      "category": [
+        "resources"
+      ],
+      "intents": [
+        "resource_info",
+        "sermon_notes",
+        "follow_along"
+      ],
+      "tags": [
+        "How do I use Follow Along sermon notes?",
+        "resources",
+        "sermon_notes",
+        "follow_along"
+      ],
+      "search_terms": [
+        "Follow Along",
+        "How do I use Follow Along?",
+        "How do I take sermon notes?",
+        "Where are sermon notes?",
+        "How do I reveal sermon answers?",
+        "Can I print sermon notes?",
+        "Can I save my Follow Along notes?",
+        "Where can I find old sermon notes?",
+        "Where are old Follow Along notes?",
+        "Where are previous sermon notes?",
+        "Where are my notes saved?",
+        "Are my sermon notes saved in the cloud?",
+        "How do I show the answers in Follow Along?",
+        "How do I download sermon notes?",
+        "How do I reset my sermon notes?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "action_link.messages",
+        "https://urbancrest.church/follow-along",
+        "https://urbancrest.church/follow-along/archive"
+      ],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
     },
     {
       "id": "ministries.kids.parent_partnership",
@@ -9340,6 +10261,44 @@
       "status": "published",
       "answer_guidance": "Emphasize community service, relationships, accessibility, and opportunities to serve families with special needs. Do not frame the project as simply adding recreational amenities for the church's own use.\n",
       "confidence": "high"
+    },
+    {
+      "id": "knowledge.discipleship.why-should-i-go-to-church",
+      "record_type": "knowledge",
+      "path": "knowledge/discipleship/why-should-i-go-to-church.md",
+      "title": "Why should I go to church?",
+      "summary": "Christians gather as a church to worship God, learn His Word, pray, encourage one another, and live on mission.",
+      "content": "# Why should I go to church?\n\nFollowing Jesus is personal, but it isn't meant to be lived alone. The New Testament describes believers gathering to worship, learn from Scripture, pray, care for one another, and serve together.\n\nAt Urbancrest, we gather on Sundays for worship through music, Scripture, prayer, and biblical preaching. There are also opportunities to build relationships through Small Groups, ministry gatherings, serving, and missions.\n\nYou don't have to be a church member, have a perfect life, or know all the right words before coming. If you're exploring Christianity, you're welcome to come, listen, ask questions, and get to know people.\n\nOur regular Sunday services are at **9:30 AM and 11:00 AM**. You can learn more on the Plan Your Visit page.",
+      "priority": 95,
+      "category": [
+        "discipleship"
+      ],
+      "intents": [
+        "discipleship",
+        "church_attendance"
+      ],
+      "tags": [
+        "Why should I go to church?",
+        "discipleship",
+        "church_attendance"
+      ],
+      "search_terms": [
+        "Why should I go to church?",
+        "Do I need to go to church to follow Jesus?",
+        "Why is church important?",
+        "Can I be a Christian without church?",
+        "What is the point of attending church?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "action_link.plan_visit"
+      ],
+      "status": "published",
+      "confidence": "high",
+      "authoritative": true
     },
     {
       "id": "relationship.ministry_staff.global_missions",
@@ -10884,47 +11843,6 @@
       "recommended_contact_staff_key": "jennifer_prows",
       "leadership_status": "transitional",
       "open_role": "Global Missions Pastor",
-      "confidence": "high"
-    },
-    {
-      "id": "ministries.production",
-      "record_type": "knowledge",
-      "path": "knowledge/ministries/production/overview.md",
-      "title": "What is Production Ministry?",
-      "summary": "Production Ministry serves people interested in audio, video, lighting, livestream, and service technology and supports Urbancrest's mission.",
-      "content": "# What is Production Ministry?\n\n## Short Answer\n\nProduction Ministry is Urbancrest's ministry for people interested in audio, video, lighting, livestream, and service technology.\n\n## Detailed Answer\n\nThe ministry helps people connect, grow, serve, and live on mission in ways appropriate to its audience and purpose. Current schedules, age ranges, locations, and event details should come from verified Urbancrest sources.\n\n## Urbancrest Information\n\nThis article intentionally avoids unverified schedules or contact details.\n\n## Next Step\n\nComplete the Serving or Volunteer Interest Form to ask about getting involved.",
-      "priority": 90,
-      "category": [
-        "ministries"
-      ],
-      "intents": [
-        "ministry_info"
-      ],
-      "tags": [
-        "ministry",
-        "Production Ministry"
-      ],
-      "search_terms": [
-        "Production Ministry",
-        "How do I join Production Ministry?",
-        "Who oversees Production?",
-        "Who handles production?",
-        "Who handles audio?",
-        "Who handles livestream?",
-        "Who handles church technology?"
-      ],
-      "ministries": [
-        "technical_creative"
-      ],
-      "audiences": [
-        "visitor",
-        "attendee"
-      ],
-      "resources": [
-        "church_center.serving"
-      ],
-      "status": "published",
-      "recommended_contact_staff_key": "matthew_kirby",
       "confidence": "high"
     },
     {
@@ -14210,37 +15128,6 @@
       ],
       "search_terms": [
         "What does Urbancrest believe about the family?"
-      ],
-      "ministries": [],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [
-        "church_center.connect_card"
-      ],
-      "status": "published",
-      "confidence": "high"
-    },
-    {
-      "id": "beliefs.last-things",
-      "record_type": "knowledge",
-      "path": "knowledge/beliefs/last-things.md",
-      "title": "What does Urbancrest believe about the future?",
-      "summary": "Jesus Christ will return personally and visibly, the dead will be raised, and God will judge all people.",
-      "content": "# What does Urbancrest believe about the future?\n\n## Short Answer\n\nJesus Christ will return personally and visibly, the dead will be raised, and God will judge all people.\n\n## Detailed Answer\n\nThose who belong to Christ will live forever with God. Those who reject Him will face eternal judgment. God will make all things new.\n\n## Urbancrest Information\n\nUrbancrest's doctrinal framework is consistent with the Baptist Faith and Message 2000. Scripture remains the final authority.\n\n## Next Step\n\nComplete the Connect Card if you would like to talk with a pastor about this belief.",
-      "priority": 85,
-      "category": [
-        "beliefs"
-      ],
-      "intents": [
-        "beliefs"
-      ],
-      "tags": [
-        "beliefs",
-        "doctrine"
-      ],
-      "search_terms": [
-        "What does Urbancrest believe about the future?"
       ],
       "ministries": [],
       "audiences": [
@@ -17715,36 +18602,6 @@
       "routine_schedule_occurrence": false
     },
     {
-      "id": "about.livestream",
-      "record_type": "knowledge",
-      "path": "knowledge/about/is-there-a-livestream.md",
-      "title": "Does Urbancrest have a livestream?",
-      "summary": "Urbancrest provides online worship content when available.",
-      "content": "# Does Urbancrest have a livestream?\n\n## Short Answer\n\nUrbancrest provides online worship content when available.\n\n## Detailed Answer\n\nA livestream can help people participate when they cannot attend in person, but it does not replace the value of gathering with the local church when someone is able.\n\n## Urbancrest Information\n\nCurrent livestream details should come from the official Urbancrest website.\n\n## Next Step\n\nCheck the website for the latest viewing information.",
-      "priority": 80,
-      "category": [
-        "about"
-      ],
-      "intents": [
-        "visitor_info"
-      ],
-      "tags": [
-        "Urbancrest",
-        "visitor"
-      ],
-      "search_terms": [
-        "Does Urbancrest have a livestream?"
-      ],
-      "ministries": [],
-      "audiences": [
-        "visitor",
-        "everyone"
-      ],
-      "resources": [],
-      "status": "published",
-      "confidence": "high"
-    },
-    {
       "id": "ministries.stephen_ministry.care_duration",
       "record_type": "knowledge",
       "path": "knowledge/ministries/stephen-ministry/care-duration.md",
@@ -17801,38 +18658,6 @@
       ],
       "search_terms": [
         "What is Urbancrest's mission?"
-      ],
-      "ministries": [],
-      "audiences": [
-        "visitor",
-        "everyone"
-      ],
-      "resources": [
-        "church_center.connect_card"
-      ],
-      "status": "published",
-      "confidence": "high"
-    },
-    {
-      "id": "about.visit.expect",
-      "record_type": "knowledge",
-      "path": "knowledge/about/what-should-i-expect.md",
-      "title": "What should I expect when I visit?",
-      "summary": "You can expect a welcoming church gathering centered on worship, prayer, biblical teaching, and the gospel.",
-      "content": "# What should I expect when I visit?\n\n## Short Answer\n\nYou can expect a welcoming church gathering centered on worship, prayer, biblical teaching, and the gospel.\n\n## Detailed Answer\n\nA typical visit includes congregational singing, Scripture, prayer, a message from the Bible, and information about next steps. Volunteers can help you find where to go.\n\n## Urbancrest Information\n\nFirst-time guests can use guest parking and enter through the main entrance.\n\n## Next Step\n\nComplete the Connect Card after your visit or whenever you have questions.",
-      "priority": 80,
-      "category": [
-        "about"
-      ],
-      "intents": [
-        "visitor_info"
-      ],
-      "tags": [
-        "Urbancrest",
-        "visitor"
-      ],
-      "search_terms": [
-        "What should I expect when I visit?"
       ],
       "ministries": [],
       "audiences": [
@@ -18231,72 +19056,6 @@
       "status": "published",
       "confidence": "high",
       "authoritative": true
-    },
-    {
-      "id": "ministries.care_and_prayer",
-      "record_type": "knowledge",
-      "path": "knowledge/ministries/care-and-prayer/overview.md",
-      "title": "What is Care and Prayer?",
-      "summary": "Care and Prayer serves people seeking prayer, encouragement, or pastoral care and supports Urbancrest's mission.",
-      "content": "# What is Care and Prayer?\n\n## Short Answer\n\nCare and Prayer is Urbancrest's ministry for people seeking prayer, encouragement, or pastoral care.\n\n## Detailed Answer\n\nThe ministry helps people connect, grow, serve, and live on mission in ways appropriate to its audience and purpose. Current schedules, age ranges, locations, and event details should come from verified Urbancrest sources.\n\n## Urbancrest Information\n\nThis article intentionally avoids unverified schedules or contact details.\n\n## Next Step\n\nSubmit a prayer request through the Connect Card.",
-      "priority": 65,
-      "category": [
-        "ministries"
-      ],
-      "intents": [
-        "ministry_info"
-      ],
-      "tags": [
-        "ministry",
-        "Care and Prayer"
-      ],
-      "search_terms": [
-        "Care and Prayer",
-        "How do I join Care and Prayer?"
-      ],
-      "ministries": [],
-      "audiences": [
-        "visitor",
-        "attendee"
-      ],
-      "resources": [
-        "church_center.prayer_request"
-      ],
-      "status": "published",
-      "confidence": "high"
-    },
-    {
-      "id": "ministries.small_groups",
-      "record_type": "knowledge",
-      "path": "knowledge/ministries/small-groups/overview.md",
-      "title": "What is Small Groups?",
-      "summary": "Small Groups serves adults seeking biblical community and supports Urbancrest's mission.",
-      "content": "# What is Small Groups?\n\n## Short Answer\n\nSmall Groups is Urbancrest's ministry for adults seeking biblical community.\n\n## Detailed Answer\n\nThe ministry helps people connect, grow, serve, and live on mission in ways appropriate to its audience and purpose. Current schedules, age ranges, locations, and event details should come from verified Urbancrest sources.\n\n## Urbancrest Information\n\nThis article intentionally avoids unverified schedules or contact details.\n\n## Next Step\n\nUse the official Small Groups directory.",
-      "priority": 65,
-      "category": [
-        "ministries"
-      ],
-      "intents": [
-        "ministry_info"
-      ],
-      "tags": [
-        "ministry",
-        "Small Groups"
-      ],
-      "search_terms": [
-        "Small Groups",
-        "How do I join Small Groups?"
-      ],
-      "ministries": [],
-      "audiences": [
-        "visitor",
-        "attendee"
-      ],
-      "resources": [
-        "church_center.small_groups"
-      ],
-      "status": "published",
-      "confidence": "high"
     },
     {
       "id": "file.intents/action-links.yaml",
