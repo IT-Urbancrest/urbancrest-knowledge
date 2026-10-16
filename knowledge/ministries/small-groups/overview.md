@@ -1,19 +1,20 @@
 ---
-id: ministries.small_groups
-version: 1.0
+id: "ministries.small_groups"
+version: "1.1"
 status: published
-priority: 65
-title: What is Small Groups?
-summary: Small Groups serves adults seeking biblical community and supports Urbancrest's
-  mission.
+priority: 100
+title: "What are Small Groups at Urbancrest?"
+summary: "Small Groups help people build relationships, study Scripture, pray, and grow in faith together."
 category:
-- ministries
+- "ministries"
 intent:
-  primary: ministry_info
-  secondary: []
+  primary: "ministry_info"
+  secondary:
+  - "small_groups"
 audience:
-- visitor
-- attendee
+- "visitor"
+- "attendee"
+- "member"
 answer_style: conversational
 confidence: high
 owner:
@@ -22,33 +23,38 @@ review:
   doctrinal: not_required
   factual: required
 tags:
-- ministry
-- Small Groups
+- "What are Small Groups at Urbancrest?"
+- "ministries"
+- "small_groups"
 search_terms:
-- Small Groups
-- How do I join Small Groups?
-scripture: []
+- "Small Groups"
+- "What small groups do you have?"
+- "How do I find a small group?"
+- "How do I join a group?"
+- "What happens at a small group?"
+- "Are groups open to new people?"
+- "What groups meet near me?"
+scripture:
+  []
 resources:
-- church_center.small_groups
-next_steps: []
-related: []
-last_updated: '2026-07-20'
+- "church_center.small_groups"
+- "church_center.connect_card"
+next_steps:
+  []
+related:
+  []
+last_updated: "2026-10-16"
+authoritative: true
 ---
 
-# What is Small Groups?
+# What are Small Groups at Urbancrest?
 
-## Short Answer
+**Find your place. Grow together.** Small Groups help people build relationships and grow as followers of Jesus. They're an opportunity to study the Bible, pray, encourage each other, and walk through life alongside other people.
 
-Small Groups is Urbancrest's ministry for adults seeking biblical community.
+Whether you're new to Urbancrest or looking to get more connected, a Small Group can be a good next step. You don't need to know all the answers before exploring a group.
 
-## Detailed Answer
+## How do I find a group?
 
-The ministry helps people connect, grow, serve, and live on mission in ways appropriate to its audience and purpose. Current schedules, age ranges, locations, and event details should come from verified Urbancrest sources.
+Browse the current [Small Groups directory](https://urbancrest.churchcenter.com/groups) to see available options. Each group listing is the best source for its current meeting schedule and other details, which may change.
 
-## Urbancrest Information
-
-This article intentionally avoids unverified schedules or contact details.
-
-## Next Step
-
-Use the official Small Groups directory.
+If you're not sure where to start, reach out through our Connect Card and let us know you'd like help finding a group.

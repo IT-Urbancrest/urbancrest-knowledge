@@ -1,19 +1,20 @@
 ---
-id: ministries.production
-version: 1.1
+id: "ministries.production"
+version: "1.2"
 status: published
-priority: 90
-title: What is Production Ministry?
-summary: Production Ministry serves people interested in audio, video, lighting, livestream, and service technology and supports
-  Urbancrest's mission.
+priority: 100
+title: "What is the Production Team at Urbancrest?"
+summary: "The Urbancrest Production Team welcomes volunteers for FOH Audio, Livestream Audio, Camera, ProPresenter, and Video Switcher, with training provided."
 category:
-- ministries
+- "ministries"
 intent:
-  primary: ministry_info
-  secondary: []
+  primary: "ministry_info"
+  secondary:
+  - "volunteering"
 audience:
-- visitor
-- attendee
+- "visitor"
+- "attendee"
+- "member"
 answer_style: conversational
 confidence: high
 owner:
@@ -22,41 +23,57 @@ review:
   doctrinal: not_required
   factual: required
 tags:
-- ministry
-- Production Ministry
+- "What is the Production Team at Urbancrest?"
+- "ministries"
+- "volunteering"
 search_terms:
-- Production Ministry
-- How do I join Production Ministry?
-- Who oversees Production?
-- Who handles production?
-- Who handles audio?
-- Who handles livestream?
-- Who handles church technology?
-scripture: []
+- "What is Production Ministry?"
+- "Can I help with sound?"
+- "How do I volunteer on cameras?"
+- "Who runs the livestream?"
+- "Who manages ProPresenter?"
+- "Can I join the tech team?"
+- "Who leads production?"
+- "Are there opportunities in audio or video?"
+- "Production Team"
+- "How do I join the Production Team?"
+- "Do I need experience to volunteer on the production team?"
+- "What production volunteer roles do you have?"
+- "How do I volunteer for FOH audio?"
+- "Can someone train me on ProPresenter?"
+- "What is livestream audio?"
+- "Video switcher volunteer"
+scripture:
+  []
 resources:
-- church_center.serving
-next_steps: []
-related: []
-last_updated: '2026-08-03'
+- "church_center.serving"
+next_steps:
+  []
+related:
+  []
+last_updated: "2026-10-16"
+authoritative: true
 ministries:
 - technical_creative
 recommended_contact_staff_key: matthew_kirby
 ---
 
-# What is Production Ministry?
+# What is the Production Team at Urbancrest?
 
-## Short Answer
+The **Production Team** helps create a smooth, distraction-free environment for worship services and other ministry gatherings through audio, video, and presentation technology. It's one of the ways people can serve behind the scenes and help communicate the message of Jesus clearly.
 
-Production Ministry is Urbancrest's ministry for people interested in audio, video, lighting, livestream, and service technology.
+## What positions are available?
 
-## Detailed Answer
+There are several areas where volunteers can serve:
 
-The ministry helps people connect, grow, serve, and live on mission in ways appropriate to its audience and purpose. Current schedules, age ranges, locations, and event details should come from verified Urbancrest sources.
+- **Front of House (FOH) Audio:** Mixes the sound heard by everyone in the Worship Center.
+- **Livestream Audio:** Mixes the audio heard by people watching online.
+- **Camera:** Operates cameras during worship services.
+- **ProPresenter:** Operates the presentation system for song lyrics, Scripture, and other on-screen elements.
+- **Video Switcher:** Chooses camera shots and other sources for the livestream.
 
-## Urbancrest Information
+## Do I need experience?
 
-This article intentionally avoids unverified schedules or contact details.
+**No previous production experience is required.** We provide training for every position. Many of the positions can be learned in a service or two with guidance from the team. Audio positions normally take additional practice and training during services and/or Wednesday rehearsals.
 
-## Next Step
-
-Complete the Serving or Volunteer Interest Form to ask about getting involved.
+If you're interested in joining us, complete the **Volunteer Interest Form** and let us know which areas you'd like to explore. **Matthew Kirby**, our Technical Director, oversees the Production Team and can help you take the next step.

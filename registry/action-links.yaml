@@ -21,6 +21,14 @@ links:
     - messages
     - preaching
     priority: 80
+  prayer_wall:
+    label: Share a Prayer Request
+    url: https://urbancrest.church/prayer
+    intents:
+    - prayer_request
+    - public_prayer_wall
+    - share_prayer
+    priority: 95
   newsletter:
     label: Newsletter Signup
     url: https://urbancrest.church/newsletter
@@ -193,6 +201,7 @@ links:
     - budget_access
     priority: 100
 selection_rules:
+- When someone wants to share a public prayer request, link to the moderated Prayer Wall; for private pastoral follow-up, use the Connect Card.
 - Include one relevant action link at the end of an answer when it helps the user take a clear next step.
 - For directions or church-location questions, include both Google Maps and Apple Maps from the directions_maps bundle.
 - For Small Group questions, use the canonical Small Groups directory when a direct group-finding link is helpful.
