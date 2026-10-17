@@ -1,11 +1,11 @@
 version: 1.5.4
-generated_at: '2026-10-17T10:46:14.552268Z'
+generated_at: '2026-10-17T15:36:59.085710Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
   enabled: true
-  target_instance_count: 337
-  matched_instance_count: 337
+  target_instance_count: 338
+  matched_instance_count: 338
   page_count: 10
   api_version: '2026-06-22'
 source_of_truth_for_calendar_intents: true
@@ -533,7 +533,7 @@ events:
     price_currency_symbol: $
     price_formatted: '0'
     maximum_capacity: 44
-    available_capacity: 29
+    available_capacity: 28
     at_maximum_capacity: false
     waitlist: false
   - id: '8896323'
