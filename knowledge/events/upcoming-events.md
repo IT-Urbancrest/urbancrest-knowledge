@@ -16,25 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-10-17T15:36:59.085710Z
+last_generated: 2026-10-17T20:38:00.203139Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## Urbancrest Women's Conference
-
-**Category:** Major Event
-
-**When:** Saturday, October 17, 2026, 9 AM to 3 PM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-**Registration:** https://urbancrest.churchcenter.com/registrations/events/3791849/reservations/new
-
-Detailed event file: `knowledge/events/generated/2026-10-17-urbancrest-women-s-conference-af3c3f.md`
 
 ## Sunday Morning Services: 9:30 AM Service
 
@@ -1119,6 +1107,16 @@ Detailed event file: `knowledge/events/generated/2027-03-06-men-s-breakfast-b236
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2027-03-07-sunday-morning-services-9-30-am-service-8998da.md`
+
+## Sunday Morning Services: 11:00 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, March 7, 2027, 11 AM to 12:10 PM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2027-03-07-sunday-morning-services-11-00-am-service-5c5096.md`
 
 ## Wednesday Night Dinner
 
