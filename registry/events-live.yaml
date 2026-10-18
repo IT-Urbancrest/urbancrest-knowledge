@@ -1,5 +1,5 @@
 version: 1.5.4
-generated_at: '2026-10-18T20:45:01.660592Z'
+generated_at: '2026-10-18T23:14:04.211835Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
@@ -5684,7 +5684,7 @@ events:
   planning_center_event_time_id: '33165311'
   registration_url: https://urbancrest.churchcenter.com/registrations/events/3928514/reservations/new
   info_url: https://centrikid.com/
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1792425600&key=uploads%2Fevent%2Flogo%2F3928514%2Fimage-1736980568489.png&thumb=720x405%23&version=1792341196&signature=40de2b4f6166fd311da973e15774e2a278bfa879d5cc419e7497b04bcc8a0a70
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1792425600&key=uploads%2Fevent%2Flogo%2F3928514%2Fimage-1736980568489.png&thumb=720x405%23&version=1792363781&signature=3a09964d925d771859d46ab5e4deac7357174ae934791eb105ec504060855225
   ministries:
   - kids
   audiences:
