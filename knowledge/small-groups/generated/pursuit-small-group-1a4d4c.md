@@ -27,7 +27,7 @@ sort_end_utc: "2026-10-20T16:00:00Z"
 meeting_count_in_window: 52
 planning_center_event_instance_id: "239691731"
 planning_center_event_time_id: "33366261"
-last_generated: 2026-10-18T04:36:01.489893Z
+last_generated: 2026-10-18T11:08:12.941664Z
 ---
 
 # Pursuit - Small Group
