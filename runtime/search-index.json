@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-10-18T23:14:05.594946Z",
+  "generated_at": "2026-10-19T04:42:33.468208Z",
   "timezone": "America/New_York",
   "record_count": 495,
   "config": {
@@ -90,7 +90,7 @@
   },
   "freshness": {
     "calendar": {
-      "generated_at": "2026-10-18T23:14:04.211835Z",
+      "generated_at": "2026-10-19T04:42:31.932087Z",
       "max_age_hours": 48,
       "source_path": "registry/events-live.yaml",
       "heartbeat_field": "generated_at",
@@ -98,7 +98,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-10-18T23:14:03.302971Z",
+      "generated_at": "2026-10-19T04:42:30.849100Z",
       "max_age_hours": 48,
       "source_path": "registry/small-groups-live.yaml",
       "heartbeat_field": "generated_at",
@@ -17073,9 +17073,9 @@
           "price_currency_symbol": "$",
           "price_formatted": "375",
           "maximum_capacity": 30,
-          "available_capacity": 30,
+          "available_capacity": 29,
           "at_maximum_capacity": false,
-          "waitlist": false
+          "waitlist": true
         }
       ],
       "event_source": "merged",
@@ -17085,7 +17085,7 @@
         "planning_center_registrations_api"
       ],
       "info_url": "https://centrikid.com/",
-      "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1792425600&key=uploads%2Fevent%2Flogo%2F3928514%2Fimage-1736980568489.png&thumb=720x405%23&version=1792363781&signature=3a09964d925d771859d46ab5e4deac7357174ae934791eb105ec504060855225",
+      "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1792425600&key=uploads%2Fevent%2Flogo%2F3928514%2Fimage-1736980568489.png&thumb=720x405%23&version=1792365887&signature=c1ef0ff8a03972a72d2255a9c0869a69eb51166d835808055d769b5925b5e041",
       "knowledge_file": "knowledge/events/generated/2027-06-21-kids-camp-2027-67d01b.md",
       "chronological_rank": 129,
       "routine_schedule_occurrence": false
