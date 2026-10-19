@@ -1,11 +1,11 @@
 version: 1.5.4
-generated_at: '2026-10-19T04:42:31.932087Z'
+generated_at: '2026-10-19T13:18:54.735339Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
   enabled: true
   target_instance_count: 337
-  matched_instance_count: 337
+  matched_instance_count: 336
   page_count: 10
   api_version: '2026-06-22'
 source_of_truth_for_calendar_intents: true
@@ -60,29 +60,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -456,29 +442,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -835,29 +807,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -1074,29 +1032,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -1579,29 +1523,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -1787,29 +1717,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -1900,29 +1816,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -2168,29 +2070,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -2405,29 +2293,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -2737,29 +2611,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -2850,29 +2710,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -2991,29 +2837,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -3129,29 +2961,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -3387,29 +3205,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -3621,29 +3425,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -3758,29 +3548,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -3924,29 +3700,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -4089,29 +3851,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -4227,29 +3975,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -4365,29 +4099,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -4531,29 +4251,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -4642,29 +4348,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -4701,29 +4393,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -4760,29 +4438,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -4873,29 +4537,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -4932,29 +4582,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -4991,29 +4627,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -5121,29 +4743,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -5208,29 +4816,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -5267,29 +4861,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -5326,29 +4906,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -5385,29 +4951,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -5444,29 +4996,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -5531,29 +5069,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -5590,29 +5114,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -5665,7 +5175,7 @@ events:
     Location: Campbellsville University in Campbellsville, KY (about 3 hrs)
 
 
-    Cost: $375 although multi-kid discounts and fundraisers are available! Deposit of $60 needed to reserve your spot.
+    Cost: $385 although discounts and fundraisers are available! Deposit of $60 needed to reserve your spot.
 
 
     Go to centrikid.com ( https://centrikid.com/ ) for more camp info.
@@ -5676,15 +5186,15 @@ events:
     Register: https://urbancrest.churchcenter.com/registrations/events/3928514'
   details: "Current 2nd through 6th graders\n\nCentriKid is… an overnight camp for 2nd–6th graders to experience the time\
     \ of their lives and learn more about the message of Jesus Christ! \n\nWe will be doing fundraisers so sign up soon to\
-    \ get the info!\n\nLocation: Campbellsville University in Campbellsville, KY (about 3 hrs)\n\nCost: $375 although multi-kid\
-    \ discounts and fundraisers are available!  Deposit of $60 needed to reserve your spot.\n\nGo to centrikid.com for more\
-    \ camp info.\n\nQuestions? Email Leah Green or Caren Whitmer\n\nRegistration is open."
+    \ get the info!\n\nLocation: Campbellsville University in Campbellsville, KY (about 3 hrs)\n\nCost: $385 although discounts\
+    \ and fundraisers are available!  Deposit of $60 needed to reserve your spot.\n\nGo to centrikid.com for more camp info.\n\
+    \nQuestions? Email Leah Green or Caren Whitmer\n\nRegistration is open."
   details_source: planning_center_registrations_api
   planning_center_event_instance_id: '238425288'
   planning_center_event_time_id: '33165311'
   registration_url: https://urbancrest.churchcenter.com/registrations/events/3928514/reservations/new
   info_url: https://centrikid.com/
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1792425600&key=uploads%2Fevent%2Flogo%2F3928514%2Fimage-1736980568489.png&thumb=720x405%23&version=1792365887&signature=c1ef0ff8a03972a72d2255a9c0869a69eb51166d835808055d769b5925b5e041
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1792468800&key=uploads%2Fevent%2Flogo%2F3928514%2Fimage-1736980568489.png&thumb=720x405%23&version=1792411218&signature=253f7f3b8e0a3db31b50cdc3c354a0ef7c1a7f927c4b4b31df709d7cc19253df
   ministries:
   - kids
   audiences:
@@ -5717,10 +5227,10 @@ events:
   registration_options:
   - id: '8980263'
     name: Kid
-    price_cents: 37500
+    price_cents: 38500
     price_currency: USD
     price_currency_symbol: $
-    price_formatted: '375'
+    price_formatted: '385'
     maximum_capacity: 30
     available_capacity: 29
     at_maximum_capacity: false
@@ -5744,29 +5254,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -5803,29 +5299,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -5890,29 +5372,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -5949,29 +5417,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -6008,29 +5462,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -6067,29 +5507,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -6126,29 +5552,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -6213,29 +5625,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -6272,29 +5670,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -6331,29 +5715,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -6390,29 +5760,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -6477,29 +5833,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -6536,29 +5878,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -6595,29 +5923,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -6654,29 +5968,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -6741,29 +6041,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
@@ -6800,29 +6086,15 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 14, 2026
+  details: 'October 21, 2026
 
-    Meatball Subs
+    Sloppy Joes
 
     Chips
 
     Salad Bar
 
     Ice Cream Cups & Cookies
-
-    October 21, 2026
-
-    Chicken & Noodles
-
-    Mashed Potatoes
-
-    Green Beans
-
-    Rolls
-
-    Salad Bar
-
-    Hot Fudge Brownies
 
     October 28, 2026
 
