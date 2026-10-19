@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-10-19T13:18:56.298093Z",
+  "generated_at": "2026-10-19T17:52:15.745052Z",
   "timezone": "America/New_York",
-  "record_count": 495,
+  "record_count": 496,
   "config": {
     "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step. For directions requests, include both approved map links.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership Transition\n\nUrbancrest is currently searching for its next Global Missions Pastor.\n\nFor broad or global missions leadership questions:\n\n1. State that Urbancrest is currently searching for its next Global Missions Pastor.\n2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.\n3. Return `jennifer_prows` when one staff card is appropriate.\n4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nState the times found in those authoritative records directly. Do not hardcode service times in runtime application logic or prompt instructions.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
     "style_guide": "# Style Guide\n\n## Writing\n\n- Use short paragraphs.\n- Prefer plain language.\n- Avoid church jargon unless it is explained.\n- Do not use em dashes.\n- Do not use the word meaningful as a filler.\n- Use Small Groups, never Grow Groups.\n- Refer to Urbancrest Church as Urbancrest after the first use.\n- Use believer's baptism by immersion when describing baptism.\n\n## Theology\n\n- Scripture is the final authority.\n- The Baptist Faith and Message 2000 is a helpful doctrinal summary, not equal to Scripture.\n- Salvation is by grace alone through faith alone in Jesus Christ alone.\n- Baptism follows salvation and does not save.\n",
@@ -10815,6 +10815,12 @@
           "title": "Disconnected",
           "speaker": "Geoff Prows",
           "primary_scripture": "Jeremiah 7:1-11"
+        },
+        {
+          "date": "2026-10-18",
+          "title": "When Religion Leads to a Wrong Focus",
+          "speaker": "Geoff Prows",
+          "primary_scripture": "Luke 11:37-44"
         }
       ]
     },
@@ -14565,6 +14571,98 @@
       "notes_url": "https://urbancrest.church/follow-along/when-god-says-i-dont-want-your-worship",
       "title_source": "user_provided",
       "outline_source": "sermon_transcript",
+      "summary_source": "sermon_transcript",
+      "supplemental_search_term_count": 14
+    },
+    {
+      "id": "sermons.2026_10_18",
+      "record_type": "sermon",
+      "path": "knowledge/sermons/2026/2026-10-18-when-religion-leads-to-a-wrong-focus.md",
+      "title": "When Religion Leads to a Wrong Focus",
+      "summary": "In the third message of Bad Religion, Geoff Prows taught from Luke 11:37-44 that outward religious activity can hide a heart far from God. Jesus exposes three misplaced priorities: the external instead of the internal, lesser concerns while neglecting justice and love, and personal glory instead of God's glory. Authentic faith grows from a transformed heart and produces a life that reflects Jesus.",
+      "content": "# When Religion Leads to a Wrong Focus\n\n**Speaker:** Geoff Prows  \n**Date:** October 18, 2026  \n**Primary Scripture:** Luke 11:37-44  \n**Series:** Bad Religion, week three\n\n## Message Summary\n\nIn **When Religion Leads to a Wrong Focus**, Geoff Prows taught from Luke 11:37-44 about the difference between impressive religious activity and authentic faith. A Pharisee invited Jesus to lunch and was shocked when Jesus did not perform the customary ceremonial washing before the meal. Jesus used that moment to expose a deeper problem: the Pharisees carefully maintained their outward appearance while neglecting the condition of their hearts.\n\nGeoff opened with Mary and Martha, contrasting being busy doing things for Jesus with making time to be with Him. Religious activity is not the goal in itself. God wants a life that reflects His character and His heart.\n\nThe message identified three ways bad religion misdirects our focus: **the external instead of the internal, the less important while neglecting the more important, and personal glory instead of God's glory**. Jesus calls us beyond looking spiritual to receiving the inward transformation that changes how we love, give, serve, and treat people.\n\nGeoff closed by asking listeners to examine themselves rather than simply criticize the Pharisees. Our neighbors, coworkers, and people who have been hurt by religion are watching whether the Jesus we proclaim is reflected in the lives we live. The question is not whether we are perfect, but whether our lives are moving in His direction.\n\n## Main Idea\n\n**Authentic faith grows from a heart changed by Jesus, values what God values, and seeks His glory rather than our own.**\n\n## Message Outline\n\n### I. Bad Religion Will Lead You to Focus on the External Instead of the Internal\n\nIn Luke 11:38-41, the Pharisee focused on Jesus' failure to observe a ceremonial handwashing tradition. Geoff explained that this was a question of ritual purity, not hygiene. The Pharisees expected others to follow a man-made tradition, but Jesus addressed the greed and wickedness within them.\n\nJesus compared their religion to a cup or plate that looks clean on the outside while remaining dirty within. People can learn church language, become familiar with religious practices, and look the part without allowing God to transform their hearts. God sees the attitudes and motives that others cannot s...",
+      "priority": 86,
+      "category": [
+        "sermon"
+      ],
+      "intents": [
+        "sermon",
+        "sermon_content",
+        "messages",
+        "preaching",
+        "sermon_notes"
+      ],
+      "tags": [
+        "Bad Religion",
+        "Luke 11",
+        "authentic faith",
+        "Pharisees",
+        "heart transformation",
+        "religious performance",
+        "hypocrisy",
+        "misplaced focus",
+        "justice",
+        "love of God",
+        "humility",
+        "God's glory",
+        "serving",
+        "sermon"
+      ],
+      "search_terms": [
+        "What was the October 18 sermon about?",
+        "What did Geoff Prows preach on October 18, 2026?",
+        "Who preached When Religion Leads to a Wrong Focus?",
+        "What was the third Bad Religion message?",
+        "What were the three wrong things religion makes us focus on?",
+        "Do you have the notes for When Religion Leads to a Wrong Focus?",
+        "What did the sermon say about Luke 11?",
+        "What did Jesus say to the Pharisees about washing?",
+        "What is the difference between outward religion and a changed heart?",
+        "Why did Jesus criticize the Pharisees for tithing herbs?",
+        "What does counting leaves while neglecting lives mean?",
+        "How can church traditions distract us from the mission?",
+        "Am I serving for recognition or for God's glory?",
+        "What did Jesus mean by concealed tombs?",
+        "Is there a Pharisee in me?",
+        "When Religion Leads to a Wrong Focus",
+        "Message Summary",
+        "Main Idea",
+        "Message Outline",
+        "I. Bad Religion Will Lead You to Focus on the External Instead of the Internal",
+        "II. Bad Religion Will Lead You to Focus on the Less Important While Neglecting the More Important",
+        "III. Bad Religion Will Lead You to Focus on Personal Glory Instead of God's Glory",
+        "The Influence of Our Faith",
+        "Questions for Personal Reflection",
+        "Follow-Along Notes",
+        "Supporting Passages",
+        "Geoff explained that Jesus' words about giving to the poor do not teach that good works purchase cleansing or salvation.",
+        "Mercy, compassion, and generosity should flow from a heart that has been made right with God.",
+        "The call is to pursue the God of holiness rather than merely the appearance of holiness."
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "https://urbancrest.church/follow-along/when-religion-leads-to-a-wrong-focus",
+        "action_link.messages"
+      ],
+      "status": "published",
+      "answer_guidance": "This is a historical summary of Geoff Prows's October 18, 2026 sermon, the third message in Bad Religion. Use it for questions about this sermon, Luke 11:37-44, the Pharisees, outward appearance versus inward transformation, misplaced priorities, justice and love, humble service, personal recognition, and God's glory. The sermon does not condemn generosity, sound doctrine, worship, or every church tradition. It warns against religious performance that neglects a transformed heart, justice, love, and God's glory. Do not present good works or giving to the poor as a way to earn salvation. Use dedicated knowledge articles as the canonical source for Urbancrest doctrine, policy, or current ministry information when one exists.",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "sermon_content"
+      ],
+      "sermon_date": "2026-10-18",
+      "date": "2026-10-18",
+      "speaker": "Geoff Prows",
+      "series_id": "bad_religion_2026",
+      "series_title": "Bad Religion",
+      "primary_scripture": "Luke 11:37-44",
+      "notes_url": "https://urbancrest.church/follow-along/when-religion-leads-to-a-wrong-focus",
+      "title_source": "published_sermon_notes",
+      "outline_source": "published_sermon_notes",
       "summary_source": "sermon_transcript",
       "supplemental_search_term_count": 14
     },
