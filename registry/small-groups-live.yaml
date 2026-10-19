@@ -1,11 +1,11 @@
 version: 1.4.3
-generated_at: '2026-10-19T13:18:53.512388Z'
+generated_at: '2026-10-19T20:35:58.501722Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api
 api_enrichment:
   enabled: true
   target_instance_count: 337
-  matched_instance_count: 336
+  matched_instance_count: 337
   page_count: 10
   api_version: '2026-06-22'
 source_of_truth_for_small_group_intents: true
@@ -15,7 +15,7 @@ lookahead_days: 365
 max_series: 100
 max_occurrences_per_series: 12
 group_count: 3
-source_occurrence_count: 105
+source_occurrence_count: 106
 groups:
 - id: group-95131c638f1a4d4c
   source_uids:
@@ -71,6 +71,7 @@ groups:
   - ET-33366261-239691780@resources.planningcenteronline.com
   - ET-33366261-239691781@resources.planningcenteronline.com
   - ET-33366261-239691782@resources.planningcenteronline.com
+  - ET-33366261-239691783@resources.planningcenteronline.com
   title: Pursuit - Small Group
   summary: Bob Woods
   description: Bob Woods
@@ -157,7 +158,7 @@ groups:
     sort_end_utc: '2027-01-05T17:00:00Z'
     display_when: Tuesday, January 5, 2027, 10:30 AM to 12 PM
     all_day: false
-  meeting_count_in_window: 52
+  meeting_count_in_window: 53
   knowledge_file: knowledge/small-groups/generated/pursuit-small-group-1a4d4c.md
 - id: group-d8ef73afd66b61fc
   source_uids:
