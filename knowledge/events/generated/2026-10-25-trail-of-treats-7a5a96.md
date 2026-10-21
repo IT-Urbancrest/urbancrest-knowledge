@@ -84,7 +84,7 @@ Volunteering or bringing a Trunk or Treat vehicle? Volunteers and vehicle hosts 
 
 Trunk or Treat vehicle hosts are encouraged to decorate their trunks and bring their own candy. Donated candy will be distributed to vehicles that need more throughout the evening.
 
-Questions? Contact the Urbancrest office at office@urbancrest.org.
+Questions? Contact the Urbancrest office at office@urbancrest.church.
 Register: https://urbancrest.churchcenter.com/registrations/events/3892183
 
 ## Details
@@ -106,7 +106,7 @@ Greeters
 Parking Lot Helpers
 Trunk or Treat vehicle hosts are encouraged to decorate their trunks and bring their own candy. Donated candy will be distributed to vehicles that need more throughout the evening.
 Questions? Contact the Urbancrest office at 
-office@urbancrest.org
+office@urbancrest.church
 .
 
 **Registration:** https://urbancrest.churchcenter.com/registrations/events/3892183

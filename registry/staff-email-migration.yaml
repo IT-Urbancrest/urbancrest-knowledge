@@ -1,7 +1,7 @@
-# Public staff email migration approved October 21, 2026.
+# Public staff and office email migration approved October 21, 2026.
 # Profile contact details continue to come from Base44 Staff.
-# Normalize older Planning Center descriptions without changing shared inboxes.
-version: '1.0'
+# Normalize older Planning Center descriptions for explicitly approved mailboxes.
+version: '1.1'
 last_updated: '2026-10-21'
 old_domain: urbancrest.org
 new_domain: urbancrest.church
@@ -19,3 +19,4 @@ staff_mailboxes:
 - tbyrd
 - mkirby
 - jshort
+- office

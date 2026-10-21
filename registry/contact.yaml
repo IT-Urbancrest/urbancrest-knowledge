@@ -1,10 +1,10 @@
-version: '1.1'
-last_updated: '2026-08-05'
+version: '1.2'
+last_updated: '2026-10-21'
 church:
   name: Urbancrest Church
   address: 2634 Drake Road, Lebanon, Ohio 45036
   office_phone: null
-  office_email: null
+  office_email: office@urbancrest.church
   office_hours:
     timezone: America/New_York
     monday: 9:00 AM-4:00 PM

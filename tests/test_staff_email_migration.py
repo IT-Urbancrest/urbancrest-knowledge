@@ -16,13 +16,19 @@ class StaffEmailMigrationTests(unittest.TestCase):
         )
 
     def test_shared_inboxes_and_similar_addresses_remain_unchanged(self):
-        text = "office@urbancrest.org it@urbancrest.org other@urbancrest.org xlnichols@urbancrest.org lnichols@urbancrest.org.example lnichols@urbancrest.org.uk https://urbancrest.org lnichols@urbancrest.church"
+        text = "it@urbancrest.org other@urbancrest.org xlnichols@urbancrest.org lnichols@urbancrest.org.example lnichols@urbancrest.org.uk https://urbancrest.org lnichols@urbancrest.church"
         self.assertEqual(migrate_staff_emails(text), text)
 
     def test_calendar_and_registration_imports(self):
         for clean in (calendar_text, registration_text):
             self.assertEqual(clean("<p>Questions? JPROWS@urbancrest.org</p>"), "Questions? jprows@urbancrest.church")
             self.assertEqual(clean("Contact\nlnichols@urbancrest.org"), "Contact\nlnichols@urbancrest.church")
+
+    def test_office_address_and_future_syncs(self):
+        text = "Contact office@urbancrest.org."
+        for clean in (migrate_staff_emails, calendar_text, registration_text):
+            self.assertEqual(clean(text), "Contact office@urbancrest.church.")
+        self.assertEqual(migrate_staff_emails("mailto:office@urbancrest.org"), "mailto:office@urbancrest.church")
 
     def test_sentence_punctuation(self):
         self.assertEqual(migrate_staff_emails("Email jprows@urbancrest.org."), "Email jprows@urbancrest.church.")
