@@ -41,6 +41,8 @@ from zoneinfo import ZoneInfo
 import requests
 import yaml
 
+from staff_email_migration import migrate_staff_emails
+
 ROOT = Path(__file__).resolve().parents[1]
 EVENT_REGISTRY_PATH = ROOT / "registry" / "events-live.yaml"
 EVENT_INDEX_PATH = ROOT / "knowledge" / "events" / "upcoming-events.md"
@@ -80,7 +82,7 @@ def clean_text(value: Any) -> str:
     text = re.sub(r"[ \t]+", " ", text)
     text = re.sub(r"\n[ \t]+", "\n", text)
     text = re.sub(r"\n{3,}", "\n\n", text)
-    return text.strip()
+    return migrate_staff_emails(text.strip())
 
 
 def normalize_text(value: Any) -> str:

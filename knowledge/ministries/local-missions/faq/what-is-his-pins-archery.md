@@ -36,7 +36,7 @@ scripture: []
 resources:
 - action_link.events
 next_steps: []
-last_updated: '2026-08-03'
+last_updated: '2026-10-21'
 recommended_contact_staff_key: darrel_schick
 id: ministries.local_missions.his_pins_archery
 priority: 94
@@ -54,4 +54,4 @@ search_terms:
 
 **His Pins Archery Ministry** is a Local Missions outreach centered around archery skills and opportunities to connect with people in the community.
 
-For current meeting or participation details, contact Pastor Darrel at **dschick@urbancrest.org** or check the current events calendar.
+For current meeting or participation details, contact Pastor Darrel at **dschick@urbancrest.church** or check the current events calendar.

@@ -38,7 +38,7 @@ scripture: []
 resources:
 - action_link.events
 next_steps: []
-last_updated: '2026-08-03'
+last_updated: '2026-10-21'
 recommended_contact_staff_key: darrel_schick
 id: ministries.local_missions.baskets_of_hope_schedule
 priority: 114
@@ -61,4 +61,4 @@ Baskets of Hope takes place monthly on the **third Wednesday following the first
 
 On the other Wednesdays of the month, volunteers meet to restock and prepare the pantry shelves.
 
-For the exact date of the next distribution, check the current Urbancrest events calendar or contact Pastor Darrel at **dschick@urbancrest.org**.
+For the exact date of the next distribution, check the current Urbancrest events calendar or contact Pastor Darrel at **dschick@urbancrest.church**.

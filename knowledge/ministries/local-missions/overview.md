@@ -38,7 +38,7 @@ scripture: []
 resources:
 - action_link.events
 next_steps: []
-last_updated: '2026-08-03'
+last_updated: '2026-10-21'
 recommended_contact_staff_key: darrel_schick
 id: ministries.local_missions.overview
 priority: 118
@@ -75,4 +75,4 @@ Ministry efforts include food distribution and emergency food assistance, furnit
 
 The Local Missions Team is always looking for volunteers who want to love their neighbors through practical service and intentional relationships.
 
-For questions or to get involved, contact Pastor Darrel at **dschick@urbancrest.org**.
+For questions or to get involved, contact Pastor Darrel at **dschick@urbancrest.church**.

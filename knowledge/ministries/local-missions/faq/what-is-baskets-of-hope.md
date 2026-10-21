@@ -21,7 +21,7 @@ ministries:
 scripture: []
 resources: []
 next_steps: []
-last_updated: '2026-08-03'
+last_updated: '2026-10-21'
 recommended_contact_staff_key: darrel_schick
 id: ministries.local_missions.baskets_of_hope
 priority: 118
@@ -62,4 +62,4 @@ answer_guidance: Describe Baskets of Hope as Urbancrest's primary food assistanc
 
 The distribution takes place on the **third Wednesday following the first Monday of each month**. On the other Wednesdays of the month, volunteers restock and prepare the pantry.
 
-If you need help getting connected with Baskets of Hope, contact Pastor Darrel at **dschick@urbancrest.org**.
+If you need help getting connected with Baskets of Hope, contact Pastor Darrel at **dschick@urbancrest.church**.

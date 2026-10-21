@@ -21,6 +21,8 @@ import yaml
 from bs4 import BeautifulSoup
 from icalendar import Calendar
 
+from staff_email_migration import migrate_staff_emails
+
 TIMEZONE_NAME = os.getenv("EVENT_TIMEZONE", "America/New_York")
 TIMEZONE = ZoneInfo(TIMEZONE_NAME)
 LOOKAHEAD_DAYS = int(os.getenv("EVENT_LOOKAHEAD_DAYS", "365"))
@@ -110,7 +112,7 @@ def clean_text(value: object) -> str:
     text = re.sub(r"\r\n?", "\n", text)
     text = re.sub(r"[ \t]+", " ", text)
     text = re.sub(r"\n{3,}", "\n\n", text)
-    return text.strip()
+    return migrate_staff_emails(text.strip())
 
 
 DETAIL_PROPERTY_NAMES = (

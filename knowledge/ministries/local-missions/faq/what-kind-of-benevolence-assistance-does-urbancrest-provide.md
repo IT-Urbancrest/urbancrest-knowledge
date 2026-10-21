@@ -21,7 +21,7 @@ ministries:
 scripture: []
 resources: []
 next_steps: []
-last_updated: '2026-08-03'
+last_updated: '2026-10-21'
 recommended_contact_staff_key: darrel_schick
 id: ministries.local_missions.benevolence
 priority: 126
@@ -77,4 +77,4 @@ Urbancrest currently:
 
 Our goal is to help where we can while connecting people with the resources Urbancrest is equipped to provide.
 
-For questions about assistance, contact Pastor Darrel at **dschick@urbancrest.org**.
+For questions about assistance, contact Pastor Darrel at **dschick@urbancrest.church**.

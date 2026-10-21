@@ -21,7 +21,7 @@ ministries:
 scripture: []
 resources: []
 next_steps: []
-last_updated: '2026-08-03'
+last_updated: '2026-10-21'
 recommended_contact_staff_key: darrel_schick
 id: ministries.local_missions.gas_assistance
 priority: 124
@@ -60,6 +60,6 @@ answer_guidance: Explain that limited gas assistance may be available in some si
 
 In some situations, Urbancrest may be able to provide limited assistance with gas. Assistance is considered based on the individual situation and is not guaranteed.
 
-For questions about gas assistance, contact Pastor Darrel at **dschick@urbancrest.org**.
+For questions about gas assistance, contact Pastor Darrel at **dschick@urbancrest.church**.
 
 If you are also having difficulty affording groceries, **Baskets of Hope** may be able to provide food assistance to help offset some of your household expenses.

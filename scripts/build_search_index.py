@@ -17,6 +17,7 @@ SKIP_MARKDOWN = {
     "knowledge/small-groups/upcoming-small-groups.md",
 }
 SKIP_YAML = {
+    "registry/staff-email-migration.yaml",
     "registry/events-live.yaml",
     "registry/small-groups-live.yaml",
     "registry/staff.yaml",

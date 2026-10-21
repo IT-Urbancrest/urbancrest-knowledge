@@ -38,7 +38,7 @@ scripture: []
 resources:
 - action_link.events
 next_steps: []
-last_updated: '2026-08-03'
+last_updated: '2026-10-21'
 recommended_contact_staff_key: darrel_schick
 id: ministries.local_missions.get_involved
 priority: 110
@@ -57,4 +57,4 @@ search_terms:
 
 The Local Missions Team has opportunities to serve throughout the year, from food and furniture ministries to block parties, seasonal outreach, community meals, and other projects.
 
-To ask questions or find a place to serve, contact Pastor Darrel at **dschick@urbancrest.org**.
+To ask questions or find a place to serve, contact Pastor Darrel at **dschick@urbancrest.church**.

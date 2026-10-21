@@ -80,7 +80,7 @@ resources:
 - action_link.proposed_budget
 next_steps: []
 related: []
-last_updated: '2026-10-13'
+last_updated: '2026-10-21'
 ---
 
 # Annual Business Meeting
@@ -100,4 +100,4 @@ Printed copies of the proposed budget are also available at the back of the wors
 
 ## Questions about the budget?
 
-Our Stewardship Team would be glad to help. Contact **Tanya Byrd** at [tbyrd@urbancrest.org](mailto:tbyrd@urbancrest.org), and she will help connect you with the team.
+Our Stewardship Team would be glad to help. Contact **Tanya Byrd** at [tbyrd@urbancrest.church](mailto:tbyrd@urbancrest.church), and she will help connect you with the team.

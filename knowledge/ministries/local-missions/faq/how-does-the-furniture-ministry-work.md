@@ -37,7 +37,7 @@ scripture: []
 resources:
 - action_link.events
 next_steps: []
-last_updated: '2026-08-03'
+last_updated: '2026-10-21'
 recommended_contact_staff_key: darrel_schick
 id: ministries.local_missions.furniture_ministry
 priority: 108
@@ -58,4 +58,4 @@ Urbancrest's Furniture Ministry connects donated, gently used furniture with fam
 
 Church and community members donate furniture, and Local Missions volunteers help pick it up and deliver it directly to families in need.
 
-For questions about donating furniture, requesting assistance, or volunteering, contact Pastor Darrel at **dschick@urbancrest.org**.
+For questions about donating furniture, requesting assistance, or volunteering, contact Pastor Darrel at **dschick@urbancrest.church**.

@@ -36,7 +36,7 @@ scripture: []
 resources:
 - action_link.events
 next_steps: []
-last_updated: '2026-08-03'
+last_updated: '2026-10-21'
 recommended_contact_staff_key: darrel_schick
 id: ministries.local_missions.laundry_ministry
 priority: 96
@@ -53,4 +53,4 @@ search_terms:
 
 The Laundry Ministry is a practical outreach that provides assistance and care to local residents.
 
-For current details about how the ministry operates or how to help, contact Pastor Darrel at **dschick@urbancrest.org**.
+For current details about how the ministry operates or how to help, contact Pastor Darrel at **dschick@urbancrest.church**.

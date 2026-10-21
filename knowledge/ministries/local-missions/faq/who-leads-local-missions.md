@@ -37,7 +37,7 @@ scripture: []
 resources:
 - action_link.staff
 next_steps: []
-last_updated: '2026-08-03'
+last_updated: '2026-10-21'
 recommended_contact_staff_key: darrel_schick
 id: ministries.local_missions.leadership
 priority: 112
@@ -56,4 +56,4 @@ search_terms:
 
 Pastor Darrel Schick oversees Local Missions at Urbancrest.
 
-For questions about Local Missions or to volunteer, contact Pastor Darrel at **dschick@urbancrest.org**.
+For questions about Local Missions or to volunteer, contact Pastor Darrel at **dschick@urbancrest.church**.

@@ -46,7 +46,7 @@ This year, Urbancrest is an official collection center for Operation Christmas C
 
 Our church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule.
 
-We hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at jprows@urbancrest.org.
+We hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at jprows@urbancrest.church.
 
 Urbancrest National Collection Week Schedule:
 – Monday, November 17 from 6:00-8:00 PM
@@ -65,7 +65,7 @@ For information on Urbancrest's church-wide packing party on November 15, please
 This year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24. 
 Our church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule. 
 We hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at 
-jprows@urbancrest.org
+jprows@urbancrest.church
 .
 Urbancrest National Collection Week Schedule:
 – Monday, November 17 from 6:00-8:00 PM

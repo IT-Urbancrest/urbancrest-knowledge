@@ -54,7 +54,7 @@ Join us for this Special Event Choir to celebrate the Christmas Season....
 
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
-Join us for this Special Event Choir to celebrate the Christmas Season. Music provided. No experience required. All are welcome. You do not need to be an Urbancrest member or regular attender to participate. Questions? Contact Pastor Larry Nichols at lnichols@urbancrest.org
+Join us for this Special Event Choir to celebrate the Christmas Season. Music provided. No experience required. All are welcome. You do not need to be an Urbancrest member or regular attender to participate. Questions? Contact Pastor Larry Nichols at lnichols@urbancrest.church
 
 **Event image:** https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1791993600&key=uploads%2Fevent%2Flogo%2F3953731%2Fimage-1791828904219.jpeg&thumb=720x405%23&version=1791910082&signature=00b115c8163c7551d89ca0fb6e959b9567ce9efe565f4c9fbe5db16e2fb81618
 

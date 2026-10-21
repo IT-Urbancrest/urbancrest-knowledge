@@ -41,6 +41,9 @@ jobs:
           python -m py_compile scripts/sync_events.py scripts/test_event_link_policy.py
           python scripts/test_event_link_policy.py
 
+      - name: Validate staff email migration
+        run: python -m unittest discover -s tests -p "test_staff_email_migration.py"
+
       - name: Generate calendar event files
         env:
           ICAL_FEED_URL: ${{ secrets.ICAL_FEED_URL }}

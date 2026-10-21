@@ -21,7 +21,7 @@ ministries:
 scripture: []
 resources: []
 next_steps: []
-last_updated: '2026-08-03'
+last_updated: '2026-10-21'
 recommended_contact_staff_key: darrel_schick
 id: ministries.local_missions.financial_hardship
 priority: 122
@@ -64,4 +64,4 @@ Urbancrest may be able to help with certain practical needs, depending on the si
 
 While we do **not** provide assistance with rent, mortgage payments, or utility bills, we offer **food assistance through Baskets of Hope** and may be able to help with **gas in some situations**. Providing food assistance can help reduce grocery expenses and free up resources for other household needs.
 
-For help determining what assistance may be available, contact Pastor Darrel at **dschick@urbancrest.org**.
+For help determining what assistance may be available, contact Pastor Darrel at **dschick@urbancrest.church**.

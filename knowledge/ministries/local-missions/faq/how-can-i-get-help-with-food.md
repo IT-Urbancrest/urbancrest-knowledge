@@ -21,7 +21,7 @@ ministries:
 scripture: []
 resources: []
 next_steps: []
-last_updated: '2026-08-03'
+last_updated: '2026-10-21'
 recommended_contact_staff_key: darrel_schick
 id: ministries.local_missions.food_assistance
 priority: 124
@@ -79,4 +79,4 @@ Baskets of Hope provides a monthly food distribution on the **third Wednesday fo
 
 If you are already receiving assistance through Baskets of Hope and have a food need that cannot wait until the next distribution, you can ask about an **emergency food box**.
 
-For help getting connected with Baskets of Hope or to ask about an urgent need, contact Pastor Darrel at **dschick@urbancrest.org**.
+For help getting connected with Baskets of Hope or to ask about an urgent need, contact Pastor Darrel at **dschick@urbancrest.church**.

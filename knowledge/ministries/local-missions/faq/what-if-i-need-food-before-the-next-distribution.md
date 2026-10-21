@@ -21,7 +21,7 @@ ministries:
 scripture: []
 resources: []
 next_steps: []
-last_updated: '2026-08-03'
+last_updated: '2026-10-21'
 recommended_contact_staff_key: darrel_schick
 id: ministries.local_missions.emergency_food_boxes
 priority: 116
@@ -65,4 +65,4 @@ If you are already receiving assistance through **Baskets of Hope** and have a f
 
 For general food assistance or if you are not already connected with Baskets of Hope, start with the regular Baskets of Hope ministry.
 
-To ask about food assistance or an urgent need, contact Pastor Darrel at **dschick@urbancrest.org**.
+To ask about food assistance or an urgent need, contact Pastor Darrel at **dschick@urbancrest.church**.
