@@ -16,7 +16,7 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-10-21T11:51:05.274387Z
+last_generated: 2026-10-21T17:14:00.528751Z
 ---
 
 # Upcoming Events
@@ -820,6 +820,14 @@ Detailed event file: `knowledge/events/generated/2027-01-21-pickleball-6008f4.md
 
 Detailed event file: `knowledge/events/generated/2027-01-22-men-s-summit-d35740.md`
 
+## Kid-Min Breakfast
+
+**Category:** Ministry Event
+
+**When:** Sunday, January 24, 2027, 8 AM to 12 PM
+
+Detailed event file: `knowledge/events/generated/2027-01-24-kid-min-breakfast-c3ccc7.md`
+
 ## Sunday Morning Services: 9:30 AM Service
 
 **Category:** General Event
@@ -943,6 +951,14 @@ Detailed event file: `knowledge/events/generated/2027-02-10-wednesday-night-dinn
 **When:** Thursday, February 11, 2027, 6 PM to 8 PM
 
 Detailed event file: `knowledge/events/generated/2027-02-11-pickleball-2a4a7c.md`
+
+## Kid-Min Breakfast
+
+**Category:** Ministry Event
+
+**When:** Sunday, February 14, 2027, 8 AM to 12 PM
+
+Detailed event file: `knowledge/events/generated/2027-02-14-kid-min-breakfast-76640c.md`
 
 ## Sunday Morning Services: 9:30 AM Service
 
@@ -1078,26 +1094,6 @@ Detailed event file: `knowledge/events/generated/2027-03-04-pickleball-dbc953.md
 
 Detailed event file: `knowledge/events/generated/2027-03-06-men-s-breakfast-b236b5.md`
 
-## Sunday Morning Services: 9:30 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, March 7, 2027, 9:30 AM to 10:40 AM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2027-03-07-sunday-morning-services-9-30-am-service-8998da.md`
-
-## Sunday Morning Services: 11:00 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, March 7, 2027, 11 AM to 12:10 PM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2027-03-07-sunday-morning-services-11-00-am-service-5c5096.md`
-
 ## Wednesday Night Dinner
 
 **Category:** Churchwide Program
@@ -1107,14 +1103,6 @@ Detailed event file: `knowledge/events/generated/2027-03-07-sunday-morning-servi
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2027-03-10-wednesday-night-dinner-48508a.md`
-
-## Pickleball
-
-**Category:** General Event
-
-**When:** Thursday, March 11, 2027, 6 PM to 8 PM
-
-Detailed event file: `knowledge/events/generated/2027-03-11-pickleball-fee25a.md`
 
 ## Wednesday Night Dinner
 
@@ -1155,6 +1143,14 @@ Detailed event file: `knowledge/events/generated/2027-03-31-wednesday-night-dinn
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2027-04-03-men-s-breakfast-069bd4.md`
+
+## Kid-Min Breakfast
+
+**Category:** Ministry Event
+
+**When:** Sunday, April 4, 2027, 8 AM to 12 PM
+
+Detailed event file: `knowledge/events/generated/2027-04-04-kid-min-breakfast-68824b.md`
 
 ## Missions Conference
 

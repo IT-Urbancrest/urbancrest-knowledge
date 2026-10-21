@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-10-21T14:26:20.224961Z",
+  "generated_at": "2026-10-21T17:14:02.122625Z",
   "timezone": "America/New_York",
   "record_count": 496,
   "config": {
@@ -90,7 +90,7 @@
   },
   "freshness": {
     "calendar": {
-      "generated_at": "2026-10-21T11:51:05.274387Z",
+      "generated_at": "2026-10-21T17:14:00.528751Z",
       "max_age_hours": 48,
       "source_path": "registry/events-live.yaml",
       "heartbeat_field": "generated_at",
@@ -98,7 +98,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-10-21T11:51:04.197929Z",
+      "generated_at": "2026-10-21T17:13:59.333218Z",
       "max_age_hours": 48,
       "source_path": "registry/small-groups-live.yaml",
       "heartbeat_field": "generated_at",
@@ -5595,7 +5595,7 @@
       "planning_center_event_time_id": "14177442",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-28-summit-gym-set-up-50aaa2.md",
-      "chronological_rank": 81,
+      "chronological_rank": 82,
       "routine_schedule_occurrence": false
     },
     {
@@ -17082,6 +17082,207 @@
       "routine_schedule_occurrence": false
     },
     {
+      "id": "events.live.event-192d34cd25c3ccc7",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2027-01-24-kid-min-breakfast-c3ccc7.md",
+      "title": "Kid-Min Breakfast",
+      "summary": "Leah Green & Caren Whitmer - setting up in the 200-wing hallway",
+      "content": "Leah Green & Caren Whitmer - setting up in the 200-wing hallway",
+      "priority": 80,
+      "category": [
+        "events",
+        "ministry_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "ministry_event",
+        "Kid-Min Breakfast"
+      ],
+      "search_terms": [
+        "Kid-Min Breakfast",
+        "When is Kid-Min Breakfast?",
+        "Tell me about Kid-Min Breakfast",
+        "What are the details for Kid-Min Breakfast?",
+        "What is the menu for Kid-Min Breakfast?",
+        "How do I register for Kid-Min Breakfast?",
+        "Does Urbancrest have Kid-Min Breakfast?",
+        "Does Urbancrest offer Kid-Min Breakfast?",
+        "Do you have Kid-Min Breakfast?",
+        "Do you offer Kid-Min Breakfast?",
+        "Is there Kid-Min Breakfast at Urbancrest?",
+        "Can I participate in Kid-Min Breakfast?",
+        "Can I play Kid-Min Breakfast at Urbancrest?"
+      ],
+      "ministries": [
+        "kids"
+      ],
+      "audiences": [
+        "children"
+      ],
+      "resources": [],
+      "event_id": "event-192d34cd25c3ccc7",
+      "activity_aliases": [
+        "Kid-Min Breakfast"
+      ],
+      "event_category": "ministry_event",
+      "event_start": "2027-01-24T08:00:00-05:00",
+      "event_end": "2027-01-24T12:00:00-05:00",
+      "sort_start_utc": "2027-01-24T13:00:00Z",
+      "sort_end_utc": "2027-01-24T17:00:00Z",
+      "display_when": "Sunday, January 24, 2027, 8 AM to 12 PM",
+      "all_day": false,
+      "planning_center_event_instance_id": "240522926",
+      "planning_center_event_time_id": "33518569",
+      "registration_available": false,
+      "knowledge_file": "knowledge/events/generated/2027-01-24-kid-min-breakfast-c3ccc7.md",
+      "chronological_rank": 78,
+      "routine_schedule_occurrence": false
+    },
+    {
+      "id": "events.live.event-d22c7e013476640c",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2027-02-14-kid-min-breakfast-76640c.md",
+      "title": "Kid-Min Breakfast",
+      "summary": "Leah Green & Caren Whitmer - setting up in the 200-wing hallway",
+      "content": "Leah Green & Caren Whitmer - setting up in the 200-wing hallway",
+      "priority": 80,
+      "category": [
+        "events",
+        "ministry_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "ministry_event",
+        "Kid-Min Breakfast"
+      ],
+      "search_terms": [
+        "Kid-Min Breakfast",
+        "When is Kid-Min Breakfast?",
+        "Tell me about Kid-Min Breakfast",
+        "What are the details for Kid-Min Breakfast?",
+        "What is the menu for Kid-Min Breakfast?",
+        "How do I register for Kid-Min Breakfast?",
+        "Does Urbancrest have Kid-Min Breakfast?",
+        "Does Urbancrest offer Kid-Min Breakfast?",
+        "Do you have Kid-Min Breakfast?",
+        "Do you offer Kid-Min Breakfast?",
+        "Is there Kid-Min Breakfast at Urbancrest?",
+        "Can I participate in Kid-Min Breakfast?",
+        "Can I play Kid-Min Breakfast at Urbancrest?"
+      ],
+      "ministries": [
+        "kids"
+      ],
+      "audiences": [
+        "children"
+      ],
+      "resources": [],
+      "event_id": "event-d22c7e013476640c",
+      "activity_aliases": [
+        "Kid-Min Breakfast"
+      ],
+      "event_category": "ministry_event",
+      "event_start": "2027-02-14T08:00:00-05:00",
+      "event_end": "2027-02-14T12:00:00-05:00",
+      "sort_start_utc": "2027-02-14T13:00:00Z",
+      "sort_end_utc": "2027-02-14T17:00:00Z",
+      "display_when": "Sunday, February 14, 2027, 8 AM to 12 PM",
+      "all_day": false,
+      "planning_center_event_instance_id": "240522940",
+      "planning_center_event_time_id": "33518585",
+      "registration_available": false,
+      "knowledge_file": "knowledge/events/generated/2027-02-14-kid-min-breakfast-76640c.md",
+      "chronological_rank": 92,
+      "routine_schedule_occurrence": false
+    },
+    {
+      "id": "events.live.event-a65b6c73f668824b",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2027-04-04-kid-min-breakfast-68824b.md",
+      "title": "Kid-Min Breakfast",
+      "summary": "Leah Green & Caren Whitmer - setting up in the 200-wing hallway",
+      "content": "Leah Green & Caren Whitmer - setting up in the 200-wing hallway",
+      "priority": 80,
+      "category": [
+        "events",
+        "ministry_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "ministry_event",
+        "Kid-Min Breakfast"
+      ],
+      "search_terms": [
+        "Kid-Min Breakfast",
+        "When is Kid-Min Breakfast?",
+        "Tell me about Kid-Min Breakfast",
+        "What are the details for Kid-Min Breakfast?",
+        "What is the menu for Kid-Min Breakfast?",
+        "How do I register for Kid-Min Breakfast?",
+        "Does Urbancrest have Kid-Min Breakfast?",
+        "Does Urbancrest offer Kid-Min Breakfast?",
+        "Do you have Kid-Min Breakfast?",
+        "Do you offer Kid-Min Breakfast?",
+        "Is there Kid-Min Breakfast at Urbancrest?",
+        "Can I participate in Kid-Min Breakfast?",
+        "Can I play Kid-Min Breakfast at Urbancrest?"
+      ],
+      "ministries": [
+        "kids"
+      ],
+      "audiences": [
+        "children"
+      ],
+      "resources": [],
+      "event_id": "event-a65b6c73f668824b",
+      "activity_aliases": [
+        "Kid-Min Breakfast"
+      ],
+      "event_category": "ministry_event",
+      "event_start": "2027-04-04T08:00:00-04:00",
+      "event_end": "2027-04-04T12:00:00-04:00",
+      "sort_start_utc": "2027-04-04T12:00:00Z",
+      "sort_end_utc": "2027-04-04T16:00:00Z",
+      "display_when": "Sunday, April 4, 2027, 8 AM to 12 PM",
+      "all_day": false,
+      "planning_center_event_instance_id": "240523132",
+      "planning_center_event_time_id": "33518662",
+      "registration_available": false,
+      "knowledge_file": "knowledge/events/generated/2027-04-04-kid-min-breakfast-68824b.md",
+      "chronological_rank": 112,
+      "routine_schedule_occurrence": false
+    },
+    {
       "id": "events.live.event-a211e17e0b67d01b",
       "record_type": "event",
       "path": "knowledge/events/generated/2027-06-21-kids-camp-2027-67d01b.md",
@@ -17461,7 +17662,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=a34fd5b0ee03cb689e8d769fb652d593820b13d085b3dc27ce1d57b862d0a8fd",
       "knowledge_file": "knowledge/events/generated/2027-02-06-men-s-breakfast-fa0b3e.md",
-      "chronological_rank": 86,
+      "chronological_rank": 87,
       "routine_schedule_occurrence": false
     },
     {
@@ -17530,7 +17731,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=a34fd5b0ee03cb689e8d769fb652d593820b13d085b3dc27ce1d57b862d0a8fd",
       "knowledge_file": "knowledge/events/generated/2027-03-06-men-s-breakfast-b236b5.md",
-      "chronological_rank": 104,
+      "chronological_rank": 106,
       "routine_schedule_occurrence": false
     },
     {
@@ -17599,7 +17800,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=a34fd5b0ee03cb689e8d769fb652d593820b13d085b3dc27ce1d57b862d0a8fd",
       "knowledge_file": "knowledge/events/generated/2027-04-03-men-s-breakfast-069bd4.md",
-      "chronological_rank": 112,
+      "chronological_rank": 111,
       "routine_schedule_occurrence": false
     },
     {
@@ -20874,7 +21075,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-01-27-wednesday-night-dinner-e92330.md",
-      "chronological_rank": 80,
+      "chronological_rank": 81,
       "routine_schedule_occurrence": false
     },
     {
@@ -20945,7 +21146,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-02-03-wednesday-night-dinner-56372f.md",
-      "chronological_rank": 84,
+      "chronological_rank": 85,
       "routine_schedule_occurrence": false
     },
     {
@@ -21016,7 +21217,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-02-10-wednesday-night-dinner-818c3d.md",
-      "chronological_rank": 89,
+      "chronological_rank": 90,
       "routine_schedule_occurrence": false
     },
     {
@@ -21087,7 +21288,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-02-17-wednesday-night-dinner-e2ee59.md",
-      "chronological_rank": 94,
+      "chronological_rank": 96,
       "routine_schedule_occurrence": false
     },
     {
@@ -21158,7 +21359,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-02-24-wednesday-night-dinner-8f0b45.md",
-      "chronological_rank": 98,
+      "chronological_rank": 100,
       "routine_schedule_occurrence": false
     },
     {
@@ -21229,7 +21430,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-03-03-wednesday-night-dinner-8fb3dd.md",
-      "chronological_rank": 102,
+      "chronological_rank": 104,
       "routine_schedule_occurrence": false
     },
     {
@@ -21371,7 +21572,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-03-17-wednesday-night-dinner-ab6c0d.md",
-      "chronological_rank": 109,
+      "chronological_rank": 108,
       "routine_schedule_occurrence": false
     },
     {
@@ -21442,7 +21643,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-03-24-wednesday-night-dinner-46db45.md",
-      "chronological_rank": 110,
+      "chronological_rank": 109,
       "routine_schedule_occurrence": false
     },
     {
@@ -21513,7 +21714,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-03-31-wednesday-night-dinner-fc63a5.md",
-      "chronological_rank": 111,
+      "chronological_rank": 110,
       "routine_schedule_occurrence": false
     },
     {
@@ -24215,7 +24416,7 @@
       "planning_center_event_time_id": "16193422",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-17-monthly-baskets-of-hope-volunteers-dc8320.md",
-      "chronological_rank": 93,
+      "chronological_rank": 95,
       "routine_schedule_occurrence": false
     },
     {
@@ -24591,7 +24792,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-04-pickleball-64c442.md",
-      "chronological_rank": 85,
+      "chronological_rank": 86,
       "routine_schedule_occurrence": false
     },
     {
@@ -24668,7 +24869,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-11-pickleball-2a4a7c.md",
-      "chronological_rank": 90,
+      "chronological_rank": 91,
       "routine_schedule_occurrence": false
     },
     {
@@ -24745,7 +24946,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-18-pickleball-5d13c4.md",
-      "chronological_rank": 95,
+      "chronological_rank": 97,
       "routine_schedule_occurrence": false
     },
     {
@@ -24822,7 +25023,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-25-pickleball-3d291e.md",
-      "chronological_rank": 99,
+      "chronological_rank": 101,
       "routine_schedule_occurrence": false
     },
     {
@@ -24899,84 +25100,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-03-04-pickleball-dbc953.md",
-      "chronological_rank": 103,
-      "routine_schedule_occurrence": false
-    },
-    {
-      "id": "events.live.event-8cd8490ccefee25a",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2027-03-11-pickleball-fee25a.md",
-      "title": "Pickleball",
-      "summary": "Darrel Schick",
-      "content": "Darrel Schick",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "general_event",
-        "Pickleball",
-        "Pickle ball"
-      ],
-      "search_terms": [
-        "Pickleball",
-        "When is Pickleball?",
-        "Tell me about Pickleball",
-        "What are the details for Pickleball?",
-        "What is the menu for Pickleball?",
-        "How do I register for Pickleball?",
-        "Does Urbancrest have Pickleball?",
-        "Does Urbancrest offer Pickleball?",
-        "Do you have Pickleball?",
-        "Do you offer Pickleball?",
-        "Is there Pickleball at Urbancrest?",
-        "Can I participate in Pickleball?",
-        "Can I play Pickleball at Urbancrest?",
-        "Pickle ball",
-        "Does Urbancrest have Pickle ball?",
-        "Does Urbancrest offer Pickle ball?",
-        "Do you have Pickle ball?",
-        "Do you offer Pickle ball?",
-        "Is there Pickle ball at Urbancrest?",
-        "Can I participate in Pickle ball?",
-        "Can I play Pickle ball at Urbancrest?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-8cd8490ccefee25a",
-      "activity_aliases": [
-        "Pickleball",
-        "Pickle ball"
-      ],
-      "event_category": "general_event",
-      "event_start": "2027-03-11T18:00:00-05:00",
-      "event_end": "2027-03-11T20:00:00-05:00",
-      "sort_start_utc": "2027-03-11T23:00:00Z",
-      "sort_end_utc": "2027-03-12T01:00:00Z",
-      "display_when": "Thursday, March 11, 2027, 6 PM to 8 PM",
-      "all_day": false,
-      "planning_center_event_instance_id": "239078209",
-      "planning_center_event_time_id": "33269493",
-      "registration_available": false,
-      "knowledge_file": "knowledge/events/generated/2027-03-11-pickleball-fee25a.md",
-      "chronological_rank": 108,
+      "chronological_rank": 105,
       "routine_schedule_occurrence": false
     },
     {
@@ -26010,7 +26134,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-24-sunday-morning-services-11-00-am-service-8af7a9.md",
-      "chronological_rank": 79,
+      "chronological_rank": 80,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26083,7 +26207,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-31-sunday-morning-services-11-00-am-service-113011.md",
-      "chronological_rank": 83,
+      "chronological_rank": 84,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26156,7 +26280,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-07-sunday-morning-services-11-00-am-service-281dc7.md",
-      "chronological_rank": 88,
+      "chronological_rank": 89,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26229,7 +26353,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-14-sunday-morning-services-11-00-am-service-77215c.md",
-      "chronological_rank": 92,
+      "chronological_rank": 94,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26302,7 +26426,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-21-sunday-morning-services-11-00-am-service-d9642b.md",
-      "chronological_rank": 97,
+      "chronological_rank": 99,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26375,80 +26499,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-28-sunday-morning-services-11-00-am-service-a03c95.md",
-      "chronological_rank": 101,
-      "routine_schedule_occurrence": true,
-      "retrieval_exclude_for_intents": [
-        "service_times",
-        "sunday_service_times",
-        "weekly_schedule"
-      ]
-    },
-    {
-      "id": "events.live.event-3f49f804aa5c5096",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2027-03-07-sunday-morning-services-11-00-am-service-5c5096.md",
-      "title": "Sunday Morning Services: 11:00 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 20,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "general_event",
-        "Sunday Morning Services: 11:00 AM Service"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 11:00 AM Service",
-        "When is Sunday Morning Services: 11:00 AM Service?",
-        "Tell me about Sunday Morning Services: 11:00 AM Service",
-        "What are the details for Sunday Morning Services: 11:00 AM Service?",
-        "What is the menu for Sunday Morning Services: 11:00 AM Service?",
-        "How do I register for Sunday Morning Services: 11:00 AM Service?",
-        "Does Urbancrest have Sunday Morning Services: 11:00 AM Service?",
-        "Does Urbancrest offer Sunday Morning Services: 11:00 AM Service?",
-        "Do you have Sunday Morning Services: 11:00 AM Service?",
-        "Do you offer Sunday Morning Services: 11:00 AM Service?",
-        "Is there Sunday Morning Services: 11:00 AM Service at Urbancrest?",
-        "Can I participate in Sunday Morning Services: 11:00 AM Service?",
-        "Can I play Sunday Morning Services: 11:00 AM Service at Urbancrest?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-3f49f804aa5c5096",
-      "activity_aliases": [
-        "Sunday Morning Services: 11:00 AM Service"
-      ],
-      "event_category": "general_event",
-      "event_start": "2027-03-07T11:00:00-05:00",
-      "event_end": "2027-03-07T12:10:00-05:00",
-      "sort_start_utc": "2027-03-07T16:00:00Z",
-      "sort_end_utc": "2027-03-07T17:10:00Z",
-      "display_when": "Sunday, March 7, 2027, 11 AM to 12:10 PM",
-      "all_day": false,
-      "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "planning_center_event_instance_id": "182308661",
-      "planning_center_event_time_id": "9127132",
-      "registration_available": false,
-      "knowledge_file": "knowledge/events/generated/2027-03-07-sunday-morning-services-11-00-am-service-5c5096.md",
-      "chronological_rank": 106,
+      "chronological_rank": 103,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27470,7 +27521,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-24-sunday-morning-services-9-30-am-service-aa02da.md",
-      "chronological_rank": 78,
+      "chronological_rank": 79,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27543,7 +27594,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-31-sunday-morning-services-9-30-am-service-60da2d.md",
-      "chronological_rank": 82,
+      "chronological_rank": 83,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27616,7 +27667,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-07-sunday-morning-services-9-30-am-service-27d598.md",
-      "chronological_rank": 87,
+      "chronological_rank": 88,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27689,7 +27740,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-14-sunday-morning-services-9-30-am-service-f8a787.md",
-      "chronological_rank": 91,
+      "chronological_rank": 93,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27762,7 +27813,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-21-sunday-morning-services-9-30-am-service-8771ed.md",
-      "chronological_rank": 96,
+      "chronological_rank": 98,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27835,80 +27886,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-28-sunday-morning-services-9-30-am-service-baf9ef.md",
-      "chronological_rank": 100,
-      "routine_schedule_occurrence": true,
-      "retrieval_exclude_for_intents": [
-        "service_times",
-        "sunday_service_times",
-        "weekly_schedule"
-      ]
-    },
-    {
-      "id": "events.live.event-a000b91a438998da",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2027-03-07-sunday-morning-services-9-30-am-service-8998da.md",
-      "title": "Sunday Morning Services: 9:30 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 20,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "general_event",
-        "Sunday Morning Services: 9:30 AM Service"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 9:30 AM Service",
-        "When is Sunday Morning Services: 9:30 AM Service?",
-        "Tell me about Sunday Morning Services: 9:30 AM Service",
-        "What are the details for Sunday Morning Services: 9:30 AM Service?",
-        "What is the menu for Sunday Morning Services: 9:30 AM Service?",
-        "How do I register for Sunday Morning Services: 9:30 AM Service?",
-        "Does Urbancrest have Sunday Morning Services: 9:30 AM Service?",
-        "Does Urbancrest offer Sunday Morning Services: 9:30 AM Service?",
-        "Do you have Sunday Morning Services: 9:30 AM Service?",
-        "Do you offer Sunday Morning Services: 9:30 AM Service?",
-        "Is there Sunday Morning Services: 9:30 AM Service at Urbancrest?",
-        "Can I participate in Sunday Morning Services: 9:30 AM Service?",
-        "Can I play Sunday Morning Services: 9:30 AM Service at Urbancrest?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-a000b91a438998da",
-      "activity_aliases": [
-        "Sunday Morning Services: 9:30 AM Service"
-      ],
-      "event_category": "general_event",
-      "event_start": "2027-03-07T09:30:00-05:00",
-      "event_end": "2027-03-07T10:40:00-05:00",
-      "sort_start_utc": "2027-03-07T14:30:00Z",
-      "sort_end_utc": "2027-03-07T15:40:00Z",
-      "display_when": "Sunday, March 7, 2027, 9:30 AM to 10:40 AM",
-      "all_day": false,
-      "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "planning_center_event_instance_id": "182308661",
-      "planning_center_event_time_id": "9127131",
-      "registration_available": false,
-      "knowledge_file": "knowledge/events/generated/2027-03-07-sunday-morning-services-9-30-am-service-8998da.md",
-      "chronological_rank": 105,
+      "chronological_rank": 102,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",

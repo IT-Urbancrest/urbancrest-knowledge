@@ -1,11 +1,11 @@
 version: 1.5.4
-generated_at: '2026-10-21T11:51:05.274387Z'
+generated_at: '2026-10-21T17:14:00.528751Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
   enabled: true
-  target_instance_count: 341
-  matched_instance_count: 341
+  target_instance_count: 343
+  matched_instance_count: 343
   page_count: 10
   api_version: '2026-06-22'
 source_of_truth_for_calendar_intents: true
@@ -3359,6 +3359,31 @@ events:
       Lebanon, OH 45036'
     latitude: '39.4747445'
     longitude: '-84.1792958'
+- id: event-192d34cd25c3ccc7
+  uid: ET-33518569-240522926@resources.planningcenteronline.com
+  title: Kid-Min Breakfast
+  summary: Leah Green & Caren Whitmer - setting up in the 200-wing hallway
+  start: '2027-01-24T08:00:00-05:00'
+  end: '2027-01-24T12:00:00-05:00'
+  sort_start_utc: '2027-01-24T13:00:00Z'
+  sort_end_utc: '2027-01-24T17:00:00Z'
+  display_when: Sunday, January 24, 2027, 8 AM to 12 PM
+  all_day: false
+  description: Leah Green & Caren Whitmer - setting up in the 200-wing hallway
+  planning_center_event_instance_id: '240522926'
+  planning_center_event_time_id: '33518569'
+  ministries:
+  - kids
+  audiences:
+  - children
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 78
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-01-24-kid-min-breakfast-c3ccc7.md
 - id: event-7512e85b88aa02da
   uid: ET-9127131-178227939@resources.planningcenteronline.com
   title: 'Sunday Morning Services: 9:30 AM Service'
@@ -3382,7 +3407,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 78
+  chronological_rank: 79
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-24-sunday-morning-services-9-30-am-service-aa02da.md
@@ -3409,7 +3434,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 79
+  chronological_rank: 80
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-24-sunday-morning-services-11-00-am-service-8af7a9.md
@@ -3454,7 +3479,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 80
+  chronological_rank: 81
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-27-wednesday-night-dinner-e92330.md
@@ -3478,7 +3503,7 @@ events:
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 81
+  chronological_rank: 82
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-28-summit-gym-set-up-50aaa2.md
@@ -3505,7 +3530,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 82
+  chronological_rank: 83
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-31-sunday-morning-services-9-30-am-service-60da2d.md
@@ -3532,7 +3557,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 83
+  chronological_rank: 84
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-31-sunday-morning-services-11-00-am-service-113011.md
@@ -3577,7 +3602,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 84
+  chronological_rank: 85
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-03-wednesday-night-dinner-56372f.md
@@ -3602,7 +3627,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 85
+  chronological_rank: 86
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-04-pickleball-64c442.md
@@ -3630,7 +3655,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 86
+  chronological_rank: 87
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-06-men-s-breakfast-fa0b3e.md
@@ -3657,7 +3682,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 87
+  chronological_rank: 88
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-07-sunday-morning-services-9-30-am-service-27d598.md
@@ -3684,7 +3709,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 88
+  chronological_rank: 89
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-07-sunday-morning-services-11-00-am-service-281dc7.md
@@ -3729,7 +3754,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 89
+  chronological_rank: 90
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-10-wednesday-night-dinner-818c3d.md
@@ -3754,10 +3779,35 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 90
+  chronological_rank: 91
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-11-pickleball-2a4a7c.md
+- id: event-d22c7e013476640c
+  uid: ET-33518585-240522940@resources.planningcenteronline.com
+  title: Kid-Min Breakfast
+  summary: Leah Green & Caren Whitmer - setting up in the 200-wing hallway
+  start: '2027-02-14T08:00:00-05:00'
+  end: '2027-02-14T12:00:00-05:00'
+  sort_start_utc: '2027-02-14T13:00:00Z'
+  sort_end_utc: '2027-02-14T17:00:00Z'
+  display_when: Sunday, February 14, 2027, 8 AM to 12 PM
+  all_day: false
+  description: Leah Green & Caren Whitmer - setting up in the 200-wing hallway
+  planning_center_event_instance_id: '240522940'
+  planning_center_event_time_id: '33518585'
+  ministries:
+  - kids
+  audiences:
+  - children
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 92
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-02-14-kid-min-breakfast-76640c.md
 - id: event-7f32cce953f8a787
   uid: ET-9127131-180379779@resources.planningcenteronline.com
   title: 'Sunday Morning Services: 9:30 AM Service'
@@ -3781,7 +3831,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 91
+  chronological_rank: 93
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-14-sunday-morning-services-9-30-am-service-f8a787.md
@@ -3808,7 +3858,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 92
+  chronological_rank: 94
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-14-sunday-morning-services-11-00-am-service-77215c.md
@@ -3835,7 +3885,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 93
+  chronological_rank: 95
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-17-monthly-baskets-of-hope-volunteers-dc8320.md
@@ -3880,7 +3930,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 94
+  chronological_rank: 96
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-17-wednesday-night-dinner-e2ee59.md
@@ -3905,7 +3955,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 95
+  chronological_rank: 97
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-18-pickleball-5d13c4.md
@@ -3932,7 +3982,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 96
+  chronological_rank: 98
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-21-sunday-morning-services-9-30-am-service-8771ed.md
@@ -3959,7 +4009,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 97
+  chronological_rank: 99
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-21-sunday-morning-services-11-00-am-service-d9642b.md
@@ -4004,7 +4054,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 98
+  chronological_rank: 100
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-24-wednesday-night-dinner-8f0b45.md
@@ -4029,7 +4079,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 99
+  chronological_rank: 101
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-25-pickleball-3d291e.md
@@ -4056,7 +4106,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 100
+  chronological_rank: 102
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-28-sunday-morning-services-9-30-am-service-baf9ef.md
@@ -4083,7 +4133,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 101
+  chronological_rank: 103
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-28-sunday-morning-services-11-00-am-service-a03c95.md
@@ -4128,7 +4178,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 102
+  chronological_rank: 104
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-03-wednesday-night-dinner-8fb3dd.md
@@ -4153,7 +4203,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 103
+  chronological_rank: 105
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-04-pickleball-dbc953.md
@@ -4181,64 +4231,10 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 104
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-03-06-men-s-breakfast-b236b5.md
-- id: event-a000b91a438998da
-  uid: ET-9127131-182308661@resources.planningcenteronline.com
-  title: 'Sunday Morning Services: 9:30 AM Service'
-  summary: Join us in person or online!...
-  start: '2027-03-07T09:30:00-05:00'
-  end: '2027-03-07T10:40:00-05:00'
-  sort_start_utc: '2027-03-07T14:30:00Z'
-  sort_end_utc: '2027-03-07T15:40:00Z'
-  display_when: Sunday, March 7, 2027, 9:30 AM to 10:40 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
-    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
-  planning_center_event_instance_id: '182308661'
-  planning_center_event_time_id: '9127131'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 105
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-03-07-sunday-morning-services-9-30-am-service-8998da.md
-- id: event-3f49f804aa5c5096
-  uid: ET-9127132-182308661@resources.planningcenteronline.com
-  title: 'Sunday Morning Services: 11:00 AM Service'
-  summary: Join us in person or online!...
-  start: '2027-03-07T11:00:00-05:00'
-  end: '2027-03-07T12:10:00-05:00'
-  sort_start_utc: '2027-03-07T16:00:00Z'
-  sort_end_utc: '2027-03-07T17:10:00Z'
-  display_when: Sunday, March 7, 2027, 11 AM to 12:10 PM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
-    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
-  planning_center_event_instance_id: '182308661'
-  planning_center_event_time_id: '9127132'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
   chronological_rank: 106
   next_for_ministries: []
   next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-03-07-sunday-morning-services-11-00-am-service-5c5096.md
+  knowledge_file: knowledge/events/generated/2027-03-06-men-s-breakfast-b236b5.md
 - id: event-ac490fb30248508a
   uid: ET-31870601-230122733@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -4284,31 +4280,6 @@ events:
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-10-wednesday-night-dinner-48508a.md
-- id: event-8cd8490ccefee25a
-  uid: ET-33269493-239078209@resources.planningcenteronline.com
-  title: Pickleball
-  summary: Darrel Schick
-  start: '2027-03-11T18:00:00-05:00'
-  end: '2027-03-11T20:00:00-05:00'
-  sort_start_utc: '2027-03-11T23:00:00Z'
-  sort_end_utc: '2027-03-12T01:00:00Z'
-  display_when: Thursday, March 11, 2027, 6 PM to 8 PM
-  all_day: false
-  description: Darrel Schick
-  planning_center_event_instance_id: '239078209'
-  planning_center_event_time_id: '33269493'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 108
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-03-11-pickleball-fee25a.md
 - id: event-866cc6f60bab6c0d
   uid: ET-31870601-230122734@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -4350,7 +4321,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 109
+  chronological_rank: 108
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-17-wednesday-night-dinner-ab6c0d.md
@@ -4395,7 +4366,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 110
+  chronological_rank: 109
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-24-wednesday-night-dinner-46db45.md
@@ -4440,7 +4411,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 111
+  chronological_rank: 110
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-31-wednesday-night-dinner-fc63a5.md
@@ -4468,10 +4439,35 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 112
+  chronological_rank: 111
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-03-men-s-breakfast-069bd4.md
+- id: event-a65b6c73f668824b
+  uid: ET-33518662-240523132@resources.planningcenteronline.com
+  title: Kid-Min Breakfast
+  summary: Leah Green & Caren Whitmer - setting up in the 200-wing hallway
+  start: '2027-04-04T08:00:00-04:00'
+  end: '2027-04-04T12:00:00-04:00'
+  sort_start_utc: '2027-04-04T12:00:00Z'
+  sort_end_utc: '2027-04-04T16:00:00Z'
+  display_when: Sunday, April 4, 2027, 8 AM to 12 PM
+  all_day: false
+  description: Leah Green & Caren Whitmer - setting up in the 200-wing hallway
+  planning_center_event_instance_id: '240523132'
+  planning_center_event_time_id: '33518662'
+  ministries:
+  - kids
+  audiences:
+  - children
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 112
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-04-04-kid-min-breakfast-68824b.md
 - id: event-f2f8bb3688f6a6f7
   uid: ET-31703048-229161073@resources.planningcenteronline.com
   title: Missions Conference
