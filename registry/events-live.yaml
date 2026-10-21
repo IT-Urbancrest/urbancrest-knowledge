@@ -1,5 +1,5 @@
 version: 1.5.4
-generated_at: '2026-10-20T23:53:47.461600Z'
+generated_at: '2026-10-21T04:50:12.730624Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
@@ -3092,7 +3092,7 @@ events:
     price_currency_symbol: $
     price_formatted: '250'
     maximum_capacity: 22
-    available_capacity: 9
+    available_capacity: 8
     at_maximum_capacity: false
     waitlist: false
   - id: '8623476'
