@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-10-21T11:51:06.825855Z",
+  "generated_at": "2026-10-21T14:24:08.385942Z",
   "timezone": "America/New_York",
   "record_count": 496,
   "config": {
@@ -388,7 +388,7 @@
       "path": "knowledge/ministries/local-missions/faq/what-kind-of-benevolence-assistance-does-urbancrest-provide.md",
       "title": "What kind of financial or benevolence assistance does Urbancrest provide?",
       "summary": "Urbancrest focuses benevolence on practical needs. Food assistance is available through Baskets of Hope, limited gas assistance may be available in some situations, and Urbancrest does not provide rent, mortgage, or utility assistance.",
-      "content": "# What kind of financial or benevolence assistance does Urbancrest provide?\n\nUrbancrest's Local Missions ministry focuses primarily on meeting practical needs rather than providing direct assistance with household bills.\n\nUrbancrest currently:\n\n- Provides food assistance through **Baskets of Hope**\n- Offers emergency food boxes in certain situations for people already receiving food assistance who cannot wait until the next distribution\n- May provide limited **gas assistance** in some situations\n- Does **not** provide assistance with rent, mortgage payments, or utility bills\n\nOur goal is to help where we can while connecting people with the resources Urbancrest is equipped to provide.\n\nFor questions about assistance, contact Pastor Darrel at **dschick@urbancrest.org**.",
+      "content": "# What kind of financial or benevolence assistance does Urbancrest provide?\n\nUrbancrest's Local Missions ministry focuses primarily on meeting practical needs rather than providing direct assistance with household bills.\n\nUrbancrest currently:\n\n- Provides food assistance through **Baskets of Hope**\n- Offers emergency food boxes in certain situations for people already receiving food assistance who cannot wait until the next distribution\n- May provide limited **gas assistance** in some situations\n- Does **not** provide assistance with rent, mortgage payments, or utility bills\n\nOur goal is to help where we can while connecting people with the resources Urbancrest is equipped to provide.\n\nFor questions about assistance, contact Pastor Darrel at **dschick@urbancrest.church**.",
       "priority": 126,
       "category": [
         "ministries",
@@ -708,7 +708,7 @@
       "path": "knowledge/ministries/local-missions/faq/can-urbancrest-help-with-gas.md",
       "title": "Can Urbancrest help with gas?",
       "summary": "In some situations, Urbancrest may be able to provide limited gas assistance. Assistance is considered based on the individual situation and is not guaranteed.",
-      "content": "# Can Urbancrest help with gas?\n\nIn some situations, Urbancrest may be able to provide limited assistance with gas. Assistance is considered based on the individual situation and is not guaranteed.\n\nFor questions about gas assistance, contact Pastor Darrel at **dschick@urbancrest.org**.\n\nIf you are also having difficulty affording groceries, **Baskets of Hope** may be able to provide food assistance to help offset some of your household expenses.",
+      "content": "# Can Urbancrest help with gas?\n\nIn some situations, Urbancrest may be able to provide limited assistance with gas. Assistance is considered based on the individual situation and is not guaranteed.\n\nFor questions about gas assistance, contact Pastor Darrel at **dschick@urbancrest.church**.\n\nIf you are also having difficulty affording groceries, **Baskets of Hope** may be able to provide food assistance to help offset some of your household expenses.",
       "priority": 124,
       "category": [
         "ministries",
@@ -761,7 +761,7 @@
       "path": "knowledge/ministries/local-missions/faq/can-urbancrest-help-with-rent-or-utility-bills.md",
       "title": "Can Urbancrest help with rent or utility bills?",
       "summary": "Urbancrest does not provide rent, mortgage, or utility assistance. Food assistance through Baskets of Hope may help reduce grocery expenses while other household needs are being addressed.",
-      "content": "# Can Urbancrest help with rent or utility bills?\n\nUrbancrest does **not** provide financial assistance for rent, mortgage payments, or utility bills.\n\nIf you are experiencing financial hardship, we may still be able to help in other practical ways. **Baskets of Hope** provides food assistance to individuals and families in the community, which can help reduce grocery expenses while other household needs are being addressed.\n\nFor help getting connected with food assistance or to discuss other available Local Missions resources, contact Pastor Darrel at **dschick@urbancrest.org**.",
+      "content": "# Can Urbancrest help with rent or utility bills?\n\nUrbancrest does **not** provide financial assistance for rent, mortgage payments, or utility bills.\n\nIf you are experiencing financial hardship, we may still be able to help in other practical ways. **Baskets of Hope** provides food assistance to individuals and families in the community, which can help reduce grocery expenses while other household needs are being addressed.\n\nFor help getting connected with food assistance or to discuss other available Local Missions resources, contact Pastor Darrel at **dschick@urbancrest.church**.",
       "priority": 124,
       "category": [
         "ministries",
@@ -820,7 +820,7 @@
       "path": "knowledge/ministries/local-missions/faq/how-can-i-get-help-with-food.md",
       "title": "How can I get help with food?",
       "summary": "Baskets of Hope is Urbancrest's primary food assistance ministry. It provides a monthly food distribution, and people already receiving assistance who cannot wait until the next distribution can ask about an emergency food box.",
-      "content": "# How can I get help with food?\n\nIf you or your family need help with food, **Baskets of Hope** is Urbancrest's primary food assistance ministry.\n\nBaskets of Hope provides a monthly food distribution on the **third Wednesday following the first Monday of each month**.\n\nIf you are already receiving assistance through Baskets of Hope and have a food need that cannot wait until the next distribution, you can ask about an **emergency food box**.\n\nFor help getting connected with Baskets of Hope or to ask about an urgent need, contact Pastor Darrel at **dschick@urbancrest.org**.",
+      "content": "# How can I get help with food?\n\nIf you or your family need help with food, **Baskets of Hope** is Urbancrest's primary food assistance ministry.\n\nBaskets of Hope provides a monthly food distribution on the **third Wednesday following the first Monday of each month**.\n\nIf you are already receiving assistance through Baskets of Hope and have a food need that cannot wait until the next distribution, you can ask about an **emergency food box**.\n\nFor help getting connected with Baskets of Hope or to ask about an urgent need, contact Pastor Darrel at **dschick@urbancrest.church**.",
       "priority": 124,
       "category": [
         "ministries",
@@ -885,7 +885,7 @@
       "path": "knowledge/ministries/local-missions/faq/does-urbancrest-offer-help-if-i-am-struggling-financially.md",
       "title": "Does Urbancrest offer help if I am struggling financially?",
       "summary": "Urbancrest may help with certain practical needs. It does not provide rent, mortgage, or utility assistance, but offers food assistance through Baskets of Hope and may provide limited gas assistance in some situations.",
-      "content": "# Does Urbancrest offer help if I am struggling financially?\n\nUrbancrest may be able to help with certain practical needs, depending on the situation.\n\nWhile we do **not** provide assistance with rent, mortgage payments, or utility bills, we offer **food assistance through Baskets of Hope** and may be able to help with **gas in some situations**. Providing food assistance can help reduce grocery expenses and free up resources for other household needs.\n\nFor help determining what assistance may be available, contact Pastor Darrel at **dschick@urbancrest.org**.",
+      "content": "# Does Urbancrest offer help if I am struggling financially?\n\nUrbancrest may be able to help with certain practical needs, depending on the situation.\n\nWhile we do **not** provide assistance with rent, mortgage payments, or utility bills, we offer **food assistance through Baskets of Hope** and may be able to help with **gas in some situations**. Providing food assistance can help reduce grocery expenses and free up resources for other household needs.\n\nFor help determining what assistance may be available, contact Pastor Darrel at **dschick@urbancrest.church**.",
       "priority": 122,
       "category": [
         "ministries",
@@ -1815,7 +1815,7 @@
       "path": "knowledge/ministries/local-missions/faq/what-is-baskets-of-hope.md",
       "title": "What is Baskets of Hope?",
       "summary": "Baskets of Hope is Urbancrest's primary food assistance ministry, offering a monthly food distribution for individuals and families in the community.",
-      "content": "# What is Baskets of Hope?\n\n**Baskets of Hope** is Urbancrest's primary food assistance ministry. It provides a monthly food distribution for individuals and families in the community.\n\nThe distribution takes place on the **third Wednesday following the first Monday of each month**. On the other Wednesdays of the month, volunteers restock and prepare the pantry.\n\nIf you need help getting connected with Baskets of Hope, contact Pastor Darrel at **dschick@urbancrest.org**.",
+      "content": "# What is Baskets of Hope?\n\n**Baskets of Hope** is Urbancrest's primary food assistance ministry. It provides a monthly food distribution for individuals and families in the community.\n\nThe distribution takes place on the **third Wednesday following the first Monday of each month**. On the other Wednesdays of the month, volunteers restock and prepare the pantry.\n\nIf you need help getting connected with Baskets of Hope, contact Pastor Darrel at **dschick@urbancrest.church**.",
       "priority": 118,
       "category": [
         "ministries",
@@ -1868,7 +1868,7 @@
       "path": "knowledge/ministries/local-missions/overview.md",
       "title": "What is Urbancrest Local Missions?",
       "summary": "Urbancrest Local Missions serves neighbors in Lebanon and the surrounding community year round through food assistance, practical help, seasonal outreach, community events, and volunteer service.",
-      "content": "# What is Urbancrest Local Missions?\n\nUrbancrest Local Missions serves neighbors in Lebanon and the surrounding community throughout the year through practical care, relationship-building, and Gospel-centered outreach.\n\nMinistry efforts include food distribution and emergency food assistance, furniture and laundry ministries, community meals, seasonal outreach events, block parties, school supply distribution, the Giving Tree, archery, pickleball, car cruise-ins, Operation Christmas Child, and other opportunities to serve local families and community groups.\n\nThe Local Missions Team is always looking for volunteers who want to love their neighbors through practical service and intentional relationships.\n\nFor questions or to get involved, contact Pastor Darrel at **dschick@urbancrest.org**.",
+      "content": "# What is Urbancrest Local Missions?\n\nUrbancrest Local Missions serves neighbors in Lebanon and the surrounding community throughout the year through practical care, relationship-building, and Gospel-centered outreach.\n\nMinistry efforts include food distribution and emergency food assistance, furniture and laundry ministries, community meals, seasonal outreach events, block parties, school supply distribution, the Giving Tree, archery, pickleball, car cruise-ins, Operation Christmas Child, and other opportunities to serve local families and community groups.\n\nThe Local Missions Team is always looking for volunteers who want to love their neighbors through practical service and intentional relationships.\n\nFor questions or to get involved, contact Pastor Darrel at **dschick@urbancrest.church**.",
       "priority": 118,
       "category": [
         "ministries",
@@ -2196,7 +2196,7 @@
       "path": "knowledge/ministries/local-missions/faq/what-if-i-need-food-before-the-next-distribution.md",
       "title": "What if I need food before the next Baskets of Hope distribution?",
       "summary": "People already receiving assistance through Baskets of Hope who have a food need that cannot wait until the next distribution can ask about an emergency food box.",
-      "content": "# What if I need food before the next Baskets of Hope distribution?\n\nIf you are already receiving assistance through **Baskets of Hope** and have a food need that cannot wait until the next monthly distribution, you can ask about an **emergency food box**.\n\nFor general food assistance or if you are not already connected with Baskets of Hope, start with the regular Baskets of Hope ministry.\n\nTo ask about food assistance or an urgent need, contact Pastor Darrel at **dschick@urbancrest.org**.",
+      "content": "# What if I need food before the next Baskets of Hope distribution?\n\nIf you are already receiving assistance through **Baskets of Hope** and have a food need that cannot wait until the next monthly distribution, you can ask about an **emergency food box**.\n\nFor general food assistance or if you are not already connected with Baskets of Hope, start with the regular Baskets of Hope ministry.\n\nTo ask about food assistance or an urgent need, contact Pastor Darrel at **dschick@urbancrest.church**.",
       "priority": 116,
       "category": [
         "ministries",
@@ -2678,7 +2678,7 @@
       "path": "knowledge/ministries/local-missions/faq/when-is-baskets-of-hope.md",
       "title": "When is Baskets of Hope?",
       "summary": "The Baskets of Hope food distribution takes place monthly on the third Wednesday following the first Monday of each month.",
-      "content": "# When is Baskets of Hope?\n\nBaskets of Hope takes place monthly on the **third Wednesday following the first Monday of each month**.\n\nOn the other Wednesdays of the month, volunteers meet to restock and prepare the pantry shelves.\n\nFor the exact date of the next distribution, check the current Urbancrest events calendar or contact Pastor Darrel at **dschick@urbancrest.org**.",
+      "content": "# When is Baskets of Hope?\n\nBaskets of Hope takes place monthly on the **third Wednesday following the first Monday of each month**.\n\nOn the other Wednesdays of the month, volunteers meet to restock and prepare the pantry shelves.\n\nFor the exact date of the next distribution, check the current Urbancrest events calendar or contact Pastor Darrel at **dschick@urbancrest.church**.",
       "priority": 114,
       "category": [
         "ministries",
@@ -2820,7 +2820,7 @@
       "path": "knowledge/ministries/local-missions/faq/who-leads-local-missions.md",
       "title": "Who leads Local Missions at Urbancrest?",
       "summary": "Pastor Darrel Schick oversees Local Missions and is the primary contact for questions and volunteer opportunities.",
-      "content": "# Who leads Local Missions at Urbancrest?\n\nPastor Darrel Schick oversees Local Missions at Urbancrest.\n\nFor questions about Local Missions or to volunteer, contact Pastor Darrel at **dschick@urbancrest.org**.",
+      "content": "# Who leads Local Missions at Urbancrest?\n\nPastor Darrel Schick oversees Local Missions at Urbancrest.\n\nFor questions about Local Missions or to volunteer, contact Pastor Darrel at **dschick@urbancrest.church**.",
       "priority": 112,
       "category": [
         "ministries",
@@ -3155,7 +3155,7 @@
       "path": "knowledge/ministries/local-missions/faq/how-can-i-get-involved.md",
       "title": "How can I get involved with Local Missions?",
       "summary": "Local Missions has volunteer opportunities throughout the year, and Pastor Darrel can help people find a place to serve.",
-      "content": "# How can I get involved with Local Missions?\n\nThe Local Missions Team has opportunities to serve throughout the year, from food and furniture ministries to block parties, seasonal outreach, community meals, and other projects.\n\nTo ask questions or find a place to serve, contact Pastor Darrel at **dschick@urbancrest.org**.",
+      "content": "# How can I get involved with Local Missions?\n\nThe Local Missions Team has opportunities to serve throughout the year, from food and furniture ministries to block parties, seasonal outreach, community meals, and other projects.\n\nTo ask questions or find a place to serve, contact Pastor Darrel at **dschick@urbancrest.church**.",
       "priority": 110,
       "category": [
         "ministries",
@@ -3835,7 +3835,7 @@
       "path": "knowledge/ministries/local-missions/faq/how-does-the-furniture-ministry-work.md",
       "title": "How does the Furniture Ministry work?",
       "summary": "Gently used furniture is donated by church and community members, then volunteers pick it up and deliver it directly to families in need.",
-      "content": "# How does the Furniture Ministry work?\n\nUrbancrest's Furniture Ministry connects donated, gently used furniture with families who need it.\n\nChurch and community members donate furniture, and Local Missions volunteers help pick it up and deliver it directly to families in need.\n\nFor questions about donating furniture, requesting assistance, or volunteering, contact Pastor Darrel at **dschick@urbancrest.org**.",
+      "content": "# How does the Furniture Ministry work?\n\nUrbancrest's Furniture Ministry connects donated, gently used furniture with families who need it.\n\nChurch and community members donate furniture, and Local Missions volunteers help pick it up and deliver it directly to families in need.\n\nFor questions about donating furniture, requesting assistance, or volunteering, contact Pastor Darrel at **dschick@urbancrest.church**.",
       "priority": 108,
       "category": [
         "ministries",
@@ -9020,7 +9020,7 @@
       "path": "knowledge/ministries/local-missions/faq/what-is-the-laundry-ministry.md",
       "title": "What is the Laundry Ministry?",
       "summary": "The Laundry Ministry provides practical assistance and care to local residents.",
-      "content": "# What is the Laundry Ministry?\n\nThe Laundry Ministry is a practical outreach that provides assistance and care to local residents.\n\nFor current details about how the ministry operates or how to help, contact Pastor Darrel at **dschick@urbancrest.org**.",
+      "content": "# What is the Laundry Ministry?\n\nThe Laundry Ministry is a practical outreach that provides assistance and care to local residents.\n\nFor current details about how the ministry operates or how to help, contact Pastor Darrel at **dschick@urbancrest.church**.",
       "priority": 96,
       "category": [
         "ministries",
@@ -9143,7 +9143,7 @@
       "path": "knowledge/about/annual-business-meeting.md",
       "title": "Annual Business Meeting",
       "summary": "Urbancrest's Annual Business Meeting is held on the first Sunday of November each year at 6:00 PM to review and vote on the proposed annual budget and vote on candidates for the Stewardship Team, Missions Fund Team, and Trustees.",
-      "content": "# Annual Business Meeting\n\nUrbancrest's Annual Business Meeting is held on the **first Sunday of November each year at 6:00 PM**. It's a time for our church family to review plans for the coming year and take part in decisions that support our ministries and mission.\n\nDuring the meeting, we will:\n\n- Review and vote on the proposed annual budget.\n- Vote on candidates for the **Stewardship Team**, **Missions Fund Team**, and **Trustees**.\n\n## Review the proposed budget\n\nYou can review the proposed budget at [urbancrest.church/budget](https://urbancrest.church/budget). The page is password protected. You'll find the password in the **printed Connection Guide at the back of the worship center**.\n\nPrinted copies of the proposed budget are also available at the back of the worship center.\n\n## Questions about the budget?\n\nOur Stewardship Team would be glad to help. Contact **Tanya Byrd** at [tbyrd@urbancrest.org](mailto:tbyrd@urbancrest.org), and she will help connect you with the team.",
+      "content": "# Annual Business Meeting\n\nUrbancrest's Annual Business Meeting is held on the **first Sunday of November each year at 6:00 PM**. It's a time for our church family to review plans for the coming year and take part in decisions that support our ministries and mission.\n\nDuring the meeting, we will:\n\n- Review and vote on the proposed annual budget.\n- Vote on candidates for the **Stewardship Team**, **Missions Fund Team**, and **Trustees**.\n\n## Review the proposed budget\n\nYou can review the proposed budget at [urbancrest.church/budget](https://urbancrest.church/budget). The page is password protected. You'll find the password in the **printed Connection Guide at the back of the worship center**.\n\nPrinted copies of the proposed budget are also available at the back of the worship center.\n\n## Questions about the budget?\n\nOur Stewardship Team would be glad to help. Contact **Tanya Byrd** at [tbyrd@urbancrest.church](mailto:tbyrd@urbancrest.church), and she will help connect you with the team.",
       "priority": 95,
       "category": [
         "about",
@@ -10420,7 +10420,7 @@
       "path": "knowledge/ministries/local-missions/faq/what-is-his-pins-archery.md",
       "title": "What is His Pins Archery Ministry?",
       "summary": "His Pins is a Local Missions outreach centered around archery skills and community connection.",
-      "content": "# What is His Pins Archery Ministry?\n\n**His Pins Archery Ministry** is a Local Missions outreach centered around archery skills and opportunities to connect with people in the community.\n\nFor current meeting or participation details, contact Pastor Darrel at **dschick@urbancrest.org** or check the current events calendar.",
+      "content": "# What is His Pins Archery Ministry?\n\n**His Pins Archery Ministry** is a Local Missions outreach centered around archery skills and opportunities to connect with people in the community.\n\nFor current meeting or participation details, contact Pastor Darrel at **dschick@urbancrest.church** or check the current events calendar.",
       "priority": 94,
       "category": [
         "ministries",
@@ -16401,8 +16401,8 @@
       "record_type": "event",
       "path": "knowledge/events/generated/2026-12-20-christmas-choir-7f0fe3.md",
       "title": "Christmas Choir",
-      "summary": "Join us for this Special Event Choir to celebrate the Christmas Season. Music provided. No experience required. All are welcome. You do not need to be an Urbancrest member or regular attender to participate. Questions? Contact Pastor Larry Nichols at lnichols@urbancrest.org",
-      "content": "Join us for this Special Event Choir to celebrate the Christmas Season. Music provided. No experience required. All are welcome. You do not need to be an Urbancrest member or regular attender to participate. Questions? Contact Pastor Larry Nichols at lnichols@urbancrest.org\n\nDetails:\nJoin us for this Special Event Choir to celebrate the Christmas Season. Music provided. No experience required. All are welcome. You do not need to be an Urbancrest member or regular attender to participate. Questions? Contact Pastor Larry Nichols at lnichols@urbancrest.org\n\nRegistration is open.",
+      "summary": "Join us for this Special Event Choir to celebrate the Christmas Season. Music provided. No experience required. All are welcome. You do not need to be an Urbancrest member or regular attender to participate. Questions? Contact Pastor Larry Nichols at lnichols@urbancrest.church",
+      "content": "Join us for this Special Event Choir to celebrate the Christmas Season. Music provided. No experience required. All are welcome. You do not need to be an Urbancrest member or regular attender to participate. Questions? Contact Pastor Larry Nichols at lnichols@urbancrest.church\n\nDetails:\nJoin us for this Special Event Choir to celebrate the Christmas Season. Music provided. No experience required. All are welcome. You do not need to be an Urbancrest member or regular attender to participate. Questions? Contact Pastor Larry Nichols at lnichols@urbancrest.church\n\nRegistration is open.",
       "priority": 80,
       "category": [
         "events",
@@ -16464,7 +16464,7 @@
         "latitude": "39.4747445",
         "longitude": "-84.1792958"
       },
-      "details": "Join us for this Special Event Choir to celebrate the Christmas Season. Music provided. No experience required. All are welcome. You do not need to be an Urbancrest member or regular attender to participate. Questions? Contact Pastor Larry Nichols at lnichols@urbancrest.org\n\nRegistration is open.",
+      "details": "Join us for this Special Event Choir to celebrate the Christmas Season. Music provided. No experience required. All are welcome. You do not need to be an Urbancrest member or regular attender to participate. Questions? Contact Pastor Larry Nichols at lnichols@urbancrest.church\n\nRegistration is open.",
       "details_source": "planning_center_registrations_api",
       "planning_center_event_instance_id": "239642379",
       "planning_center_event_time_id": "33357296",
@@ -16501,7 +16501,7 @@
       "path": "knowledge/events/generated/2026-11-05-christmas-choir-rehearsal-58f69f.md",
       "title": "Christmas Choir Rehearsal",
       "summary": "Join us for this special event Choir to celebrate the Christmas Season.",
-      "content": "Join us for this special event Choir to celebrate the Christmas Season. email questions to Pastor Larry (lnichols@urbancrest.org)",
+      "content": "Join us for this special event Choir to celebrate the Christmas Season. email questions to Pastor Larry (lnichols@urbancrest.church)",
       "priority": 80,
       "category": [
         "events",
@@ -16569,7 +16569,7 @@
       "path": "knowledge/events/generated/2026-11-12-christmas-choir-rehearsal-d5524e.md",
       "title": "Christmas Choir Rehearsal",
       "summary": "Join us for this special event Choir to celebrate the Christmas Season.",
-      "content": "Join us for this special event Choir to celebrate the Christmas Season. email questions to Pastor Larry (lnichols@urbancrest.org)",
+      "content": "Join us for this special event Choir to celebrate the Christmas Season. email questions to Pastor Larry (lnichols@urbancrest.church)",
       "priority": 80,
       "category": [
         "events",
@@ -16704,7 +16704,7 @@
       "path": "knowledge/events/generated/2026-12-03-christmas-choir-rehearsal-6a6ebc.md",
       "title": "Christmas Choir Rehearsal",
       "summary": "Join us for this special event Choir to celebrate the Christmas Season.",
-      "content": "Join us for this special event Choir to celebrate the Christmas Season. email questions to Pastor Larry (lnichols@urbancrest.org)",
+      "content": "Join us for this special event Choir to celebrate the Christmas Season. email questions to Pastor Larry (lnichols@urbancrest.church)",
       "priority": 80,
       "category": [
         "events",
@@ -16772,7 +16772,7 @@
       "path": "knowledge/events/generated/2026-12-10-christmas-choir-rehearsal-49f3f0.md",
       "title": "Christmas Choir Rehearsal",
       "summary": "Join us for this special event Choir to celebrate the Christmas Season.",
-      "content": "Join us for this special event Choir to celebrate the Christmas Season. email questions to Pastor Larry (lnichols@urbancrest.org)",
+      "content": "Join us for this special event Choir to celebrate the Christmas Season. email questions to Pastor Larry (lnichols@urbancrest.church)",
       "priority": 80,
       "category": [
         "events",
@@ -16840,7 +16840,7 @@
       "path": "knowledge/events/generated/2026-12-17-christmas-choir-rehearsal-2514c7.md",
       "title": "Christmas Choir Rehearsal",
       "summary": "Join us for this special event Choir to celebrate the Christmas Season.",
-      "content": "Join us for this special event Choir to celebrate the Christmas Season. email questions to Pastor Larry (lnichols@urbancrest.org)",
+      "content": "Join us for this special event Choir to celebrate the Christmas Season. email questions to Pastor Larry (lnichols@urbancrest.church)",
       "priority": 80,
       "category": [
         "events",
@@ -16976,7 +16976,7 @@
       "path": "registry/events-live.yaml",
       "title": "Engage: New Members Class - Fall 2026",
       "summary": "Wondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, October 28! The Engage Class is a gathering that allows...",
-      "content": "Wondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, October 28!\n\nThe Engage Class is a gathering that allows individuals and families to explore and pray through becoming members of our church. This class is designed to have teaching, interaction, and a time to hear the vision for several of our ministries that you can get involved in!\n\nSign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.org .\n\nDetails:\nWondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, October 28!\n\nThe Engage Class is a gathering that allows individuals and families to explore and pray through becoming members of our church. This class is designed to have teaching, interaction, and a time to hear the vision for several of our ministries that you can get involved in!\n\nSign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.org .\n\nRegistration is open.",
+      "content": "Wondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, October 28!\n\nThe Engage Class is a gathering that allows individuals and families to explore and pray through becoming members of our church. This class is designed to have teaching, interaction, and a time to hear the vision for several of our ministries that you can get involved in!\n\nSign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.church .\n\nDetails:\nWondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, October 28!\n\nThe Engage Class is a gathering that allows individuals and families to explore and pray through becoming members of our church. This class is designed to have teaching, interaction, and a time to hear the vision for several of our ministries that you can get involved in!\n\nSign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.church .\n\nRegistration is open.",
       "priority": 80,
       "category": [
         "events",
@@ -17037,7 +17037,7 @@
         "latitude": "39.4747445",
         "longitude": "-84.1792958"
       },
-      "details": "Wondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, October 28!\n\nThe Engage Class is a gathering that allows individuals and families to explore and pray through becoming members of our church. This class is designed to have teaching, interaction, and a time to hear the vision for several of our ministries that you can get involved in!\n\nSign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.org .\n\nRegistration is open.",
+      "details": "Wondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, October 28!\n\nThe Engage Class is a gathering that allows individuals and families to explore and pray through becoming members of our church. This class is designed to have teaching, interaction, and a time to hear the vision for several of our ministries that you can get involved in!\n\nSign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.church .\n\nRegistration is open.",
       "details_source": "planning_center_registrations_api",
       "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3901985/reservations/new",
       "registration_available": true,
@@ -18022,7 +18022,7 @@
       "path": "registry/events-live.yaml",
       "title": "National Collection Week (OCC) Volunteer Signup",
       "summary": "This year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24. Our church will be open to collect boxes for a couple hours each day of collection...",
-      "content": "This year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24. \n\nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule. \n\nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at jprows@urbancrest.org .\n\nUrbancrest National Collection Week Schedule: \n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from 2:30-5:30 PM\n– Monday, November 24 from 8:00-11:00 AM\n\nFor information on Urbancrest's church-wide packing party on November 15, please click THIS LINK .\n\nDetails:\nThis year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24. \n\nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule. \n\nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at jprows@urbancrest.org .\n\nUrbancrest National Collection Week Schedule: \n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from 2:30-5:30 PM\n– Monday, November 24 from 8:00-11:00 AM\n\nFor informat...",
+      "content": "This year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24. \n\nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule. \n\nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at jprows@urbancrest.church .\n\nUrbancrest National Collection Week Schedule: \n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from 2:30-5:30 PM\n– Monday, November 24 from 8:00-11:00 AM\n\nFor information on Urbancrest's church-wide packing party on November 15, please click THIS LINK .\n\nDetails:\nThis year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24. \n\nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule. \n\nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at jprows@urbancrest.church .\n\nUrbancrest National Collection Week Schedule: \n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from 2:30-5:30 PM\n– Monday, November 24 from 8:00-11:00 AM\n\nFor in...",
       "priority": 80,
       "category": [
         "events",
@@ -18088,7 +18088,7 @@
         "latitude": "39.4747445",
         "longitude": "-84.1792958"
       },
-      "details": "This year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24. \n\nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule. \n\nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at jprows@urbancrest.org .\n\nUrbancrest National Collection Week Schedule: \n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from 2:30-5:30 PM\n– Monday, November 24 from 8:00-11:00 AM\n\nFor information on Urbancrest's church-wide packing party on November 15, please click THIS LINK .\n\nRegistration is not currently open.",
+      "details": "This year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24. \n\nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule. \n\nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at jprows@urbancrest.church .\n\nUrbancrest National Collection Week Schedule: \n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from 2:30-5:30 PM\n– Monday, November 24 from 8:00-11:00 AM\n\nFor information on Urbancrest's church-wide packing party on November 15, please click THIS LINK .\n\nRegistration is not currently open.",
       "details_source": "planning_center_registrations_api",
       "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3959067/reservations/new",
       "registration_available": true,
@@ -27922,7 +27922,7 @@
       "path": "knowledge/small-groups/generated/national-collection-week-occ-volunteer-signup-ce52d7.md",
       "title": "National Collection Week (OCC) Volunteer Signup",
       "summary": "This year, Urbancrest is an official collection center for Operation Christmas Child!...",
-      "content": "This year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24.\n\nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule.\n\nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at jprows@urbancrest.org.\n\nUrbancrest National Collection Week Schedule:\n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from 2:30-5:30 PM\n– Monday, November 24 from 8:00-11:00 AM\n\nFor information on Urbancrest's church-wide packing party on November 15, please click THIS LINK ( https://urbancrest.churchcenter.com/registrations/events/3219721 ).\n\nDetails:\nThis year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24. \nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule. \nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at \njprows@urbancrest.org\n.\nUrbancrest National Collection Week Schedule:\n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from 2:30-5...",
+      "content": "This year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24.\n\nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule.\n\nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at jprows@urbancrest.church.\n\nUrbancrest National Collection Week Schedule:\n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from 2:30-5:30 PM\n– Monday, November 24 from 8:00-11:00 AM\n\nFor information on Urbancrest's church-wide packing party on November 15, please click THIS LINK ( https://urbancrest.churchcenter.com/registrations/events/3219721 ).\n\nDetails:\nThis year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24. \nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule. \nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at \njprows@urbancrest.church\n.\nUrbancrest National Collection Week Schedule:\n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from...",
       "priority": 20,
       "category": [
         "small_groups"
@@ -27979,7 +27979,7 @@
       "sort_start_utc": "2026-11-16T23:00:00Z",
       "sort_end_utc": "2026-11-23T16:00:00Z",
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "This year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24. \nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule. \nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at \njprows@urbancrest.org\n.\nUrbancrest National Collection Week Schedule:\n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from 2:30-5:30 PM\n– Monday, November 24 from 8:00-11:00 AM\nFor information on Urbancrest's church-wide packing party on November 15, please click \nTHIS LINK\n.",
+      "details": "This year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24. \nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule. \nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at \njprows@urbancrest.church\n.\nUrbancrest National Collection Week Schedule:\n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from 2:30-5:30 PM\n– Monday, November 24 from 8:00-11:00 AM\nFor information on Urbancrest's church-wide packing party on November 15, please click \nTHIS LINK\n.",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "239861554",
       "planning_center_event_time_id": "33406085",
