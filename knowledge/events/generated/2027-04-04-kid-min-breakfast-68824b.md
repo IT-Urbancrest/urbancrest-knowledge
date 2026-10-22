@@ -41,7 +41,7 @@ next_for_audiences: []
 all_day: false
 planning_center_event_instance_id: "240523132"
 planning_center_event_time_id: "33518662"
-last_generated: 2026-10-22T11:54:51.137808Z
+last_generated: 2026-10-22T17:12:12.890900Z
 ---
 
 # Kid-Min Breakfast
