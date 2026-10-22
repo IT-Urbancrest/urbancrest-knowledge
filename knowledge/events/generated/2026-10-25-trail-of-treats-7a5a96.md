@@ -35,9 +35,9 @@ event_start: "2026-10-25T17:00:00-04:00"
 event_end: "2026-10-25T19:30:00-04:00"
 sort_start_utc: "2026-10-25T21:00:00Z"
 sort_end_utc: "2026-10-25T23:30:00Z"
-chronological_rank: 6
+chronological_rank: 3
 next_for_ministries: []
-next_for_audiences: []
+next_for_audiences: ["families", "volunteers"]
 all_day: false
 registration_url: "https://urbancrest.churchcenter.com/registrations/events/3892183"
 image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1790654400&key=uploads%2Fevent%2Flogo%2F3892183%2Fimage-1790611024418.jpeg&thumb=720x405%23&version=1790611024&signature=8602f1f0bb21aec4fa3ec466dd69e883340e3649d8193872aebf86a4e5e5ed34"
@@ -45,7 +45,7 @@ location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "236678223"
 planning_center_event_time_id: "32871096"
-last_generated: 2026-10-21T21:43:59.081505Z
+last_generated: 2026-10-22T04:49:25.565070Z
 ---
 
 # Trail of Treats
