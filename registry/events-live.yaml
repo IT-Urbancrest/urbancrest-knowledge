@@ -1,5 +1,5 @@
 version: 1.5.4
-generated_at: '2026-10-23T21:25:38.760295Z'
+generated_at: '2026-10-24T04:38:42.720515Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
@@ -139,7 +139,7 @@ events:
     \ hosts do need to register for their serving area. Volunteer opportunities include:\n\nTrunk or Treat Food and Block\
     \ Party Stations Greeters Parking Lot Helpers Trunk or Treat vehicle hosts are encouraged to decorate their trunks and\
     \ bring their own candy. Donated candy will be distributed to vehicles that need more throughout the evening.\n\nQuestions?\
-    \ Contact the Urbancrest office at office@urbancrest.church .\n\nRegistration is open."
+    \ Contact the Urbancrest office at office@urbancrest.church .\n\nRegistration is not currently open."
   details_source: planning_center_registrations_api
   planning_center_event_instance_id: '236678223'
   planning_center_event_time_id: '32871096'
@@ -173,8 +173,8 @@ events:
   planning_center_signup_id: '3892183'
   planning_center_signup_time_id: '6555103'
   registration_available: true
-  registration_open: true
-  registration_closed: false
+  registration_open: false
+  registration_closed: true
   registration_at_maximum_capacity: null
   registration_open_at: '2026-09-15T04:00:00Z'
   registration_close_at: '2026-10-24T04:00:00Z'
