@@ -41,7 +41,7 @@ next_for_audiences: []
 all_day: false
 planning_center_event_instance_id: "239645060"
 planning_center_event_time_id: "33357996"
-last_generated: 2026-10-25T16:22:35.240830Z
+last_generated: 2026-10-25T20:52:07.606016Z
 ---
 
 # Christmas Choir Rehearsal
