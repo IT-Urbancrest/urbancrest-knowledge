@@ -16,33 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-10-25T11:32:12.621169Z
+last_generated: 2026-10-25T16:22:36.354751Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## Sunday Morning Services: 9:30 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, October 25, 2026, 9:30 AM to 10:40 AM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-10-25-sunday-morning-services-9-30-am-service-9724fc.md`
-
-## Sunday Morning Services: 11:00 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, October 25, 2026, 11 AM to 12:10 PM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-10-25-sunday-morning-services-11-00-am-service-d92cdf.md`
 
 ## Trail of Treats
 
@@ -1096,6 +1076,16 @@ Detailed event file: `knowledge/events/generated/2027-03-06-men-s-breakfast-b236
 
 Detailed event file: `knowledge/events/generated/2027-03-07-sunday-morning-services-9-30-am-service-8998da.md`
 
+## Sunday Morning Services: 11:00 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, March 7, 2027, 11 AM to 12:10 PM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2027-03-07-sunday-morning-services-11-00-am-service-5c5096.md`
+
 ## Wednesday Night Dinner
 
 **Category:** Churchwide Program
@@ -1105,6 +1095,14 @@ Detailed event file: `knowledge/events/generated/2027-03-07-sunday-morning-servi
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2027-03-10-wednesday-night-dinner-48508a.md`
+
+## Pickleball
+
+**Category:** General Event
+
+**When:** Thursday, March 11, 2027, 6 PM to 8 PM
+
+Detailed event file: `knowledge/events/generated/2027-03-11-pickleball-fee25a.md`
 
 ## Wednesday Night Dinner
 
