@@ -1,6 +1,6 @@
 ---
 id: sermons.series.bad_religion_2026
-version: 1.0
+version: 1.1
 status: published
 priority: 92
 title: "Bad Religion"
@@ -40,15 +40,21 @@ search_terms:
   - What does Urbancrest mean by Bad Religion?
   - What is the difference between religion and authentic faith?
   - What messages are part of Bad Religion?
+  - When did the Bad Religion series end?
+  - What was the final Bad Religion sermon?
   - What is Urbancrest teaching right now?
 resources:
   - action_link.messages
 next_steps:
   - action_link.messages
-related: []
-last_updated: '2026-10-05'
+related:
+  - sermons.2026_10_04
+  - sermons.2026_10_11
+  - sermons.2026_10_18
+  - sermons.2026_10_25
+last_updated: '2026-10-26'
 series_id: bad_religion_2026
-series_status: active
+series_status: completed
 start_date: '2026-10-04'
 end_date: '2026-10-25'
 authoritative: true
@@ -59,7 +65,7 @@ answer_guidance: This record describes Urbancrest's October 2026 Bad Religion se
 
 # Bad Religion
 
-**Bad Religion** is Urbancrest's four-week sermon series for October 2026. The series contrasts **bad religion** with **authentic faith** and asks what happens when religious activity looks right on the outside but the heart and everyday life are far from God.
+**Bad Religion** was Urbancrest's four-week sermon series from October 4 through October 25, 2026. The series contrasts **bad religion** with **authentic faith** and asks what happens when religious activity looks right on the outside but the heart and everyday life are far from God.
 
 In introducing the series, Geoff Prows explained that the word religion can carry very different associations. For some people it suggests hope, purpose, peace, love, community, or heart transformation. For others it brings to mind hypocrisy, judgmentalism, guilt, shame, legalism, rules, rituals, or man-made traditions. The goal of the series is not to defend religion as a label, but to move past empty religion and point people toward authentic faith.
 
@@ -77,7 +83,12 @@ Authentic faith is rooted in **relationship with God through Jesus Christ**, tru
 
 ## Messages in This Series
 
-The series began Sunday, October 4, 2026, with **When God Says, “I Don’t Want Your Worship”**, a message from Amos 5:21-27 about worship that God rejects when it is separated from righteous living and a heart that belongs to Him.
+The four messages were preached by Geoff Prows:
+
+- **October 4, 2026: When God Says, “I Don’t Want Your Worship”** (Amos 5:21-27). Worship must be consistent with a heart and life that belong to God.
+- **October 11, 2026: Disconnected** (Jeremiah 7:1-11). Authentic faith reconnects Sunday worship with everyday trust, repentance, and obedience.
+- **October 18, 2026: When Religion Leads to a Wrong Focus** (Luke 11:37-44). A changed heart values what God values and seeks His glory rather than outward appearance or recognition.
+- **October 25, 2026: When Religion is Only Skin Deep** (James 1:21-27). The series finale contrasts hearing without obedience, information without transformation, and activity without fruit with authentic faith that produces care for vulnerable people and personal holiness.
 
 The searchable sermon index automatically associates weekly sermon records with this series. Ask about a particular Sunday, topic, Scripture passage, speaker, or message to find the relevant sermon summary.
 
