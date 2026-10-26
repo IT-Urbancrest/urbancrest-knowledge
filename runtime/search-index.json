@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-10-26T18:45:46.388438Z",
+  "generated_at": "2026-10-26T20:29:39.152707Z",
   "timezone": "America/New_York",
   "record_count": 497,
   "config": {
@@ -90,7 +90,7 @@
   },
   "freshness": {
     "calendar": {
-      "generated_at": "2026-10-26T13:05:57.455827Z",
+      "generated_at": "2026-10-26T20:29:38.350501Z",
       "max_age_hours": 48,
       "source_path": "registry/events-live.yaml",
       "heartbeat_field": "generated_at",
@@ -98,7 +98,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-10-26T13:05:56.608666Z",
+      "generated_at": "2026-10-26T20:29:37.542180Z",
       "max_age_hours": 48,
       "source_path": "registry/small-groups-live.yaml",
       "heartbeat_field": "generated_at",
@@ -16548,7 +16548,9 @@
         "Do you offer Christmas Baskets of Hope Signup 2026?",
         "Is there Christmas Baskets of Hope Signup 2026 at Urbancrest?",
         "Can I participate in Christmas Baskets of Hope Signup 2026?",
-        "Can I play Christmas Baskets of Hope Signup 2026 at Urbancrest?"
+        "Can I play Christmas Baskets of Hope Signup 2026 at Urbancrest?",
+        "Details",
+        "This information is synchronized automatically from Urbancrest's live calendar."
       ],
       "ministries": [
         "kids",
@@ -16621,9 +16623,11 @@
         "planning_center_registrations_api"
       ],
       "info_url": "https://registrations.planningcenteronline.com/+15134946734",
+      "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1793073600&key=uploads%2Fevent%2Flogo%2F3976382%2Fimage-1793024379926.jpeg&thumb=720x405%23&version=1793024380&signature=b7cae581102f0b1f84f643ad2ede143b496117015e47b5f502b2d79dceb2df45",
       "knowledge_file": "knowledge/events/generated/2026-12-16-christmas-baskets-of-hope-signup-2026-2077d0.md",
       "chronological_rank": 45,
-      "routine_schedule_occurrence": false
+      "routine_schedule_occurrence": false,
+      "supplemental_search_term_count": 2
     },
     {
       "id": "events.live.event-fb8e9e038b7f0fe3",
@@ -18760,7 +18764,7 @@
         "planning_center_calendar_api",
         "planning_center_registrations_api"
       ],
-      "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1789012800&key=uploads%2Fevent%2Flogo%2F3775272%2Fimage-1784920483707.jpeg&thumb=720x405%23&version=1788966611&signature=9553057aa354de2229a87395d2f678b237138043ce3d910c7d238c165912fbd4",
+      "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1793116800&key=uploads%2Fevent%2Flogo%2F3775272%2Fimage-1793031265335.jpeg&thumb=720x405%23&version=1793031265&signature=1119660debddf88c72b9f03a74ca79e990cfa890736b11967088811428048110",
       "knowledge_file": "knowledge/events/generated/2027-01-16-strength-to-stand-ba076b.md",
       "chronological_rank": 67,
       "routine_schedule_occurrence": false
@@ -18880,6 +18884,7 @@
         "planning_center_calendar_api",
         "planning_center_registrations_api"
       ],
+      "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1793073600&key=uploads%2Fevent%2Flogo%2F3976359%2Fimage-1793024360551.jpeg&thumb=720x405%23&version=1793024361&signature=0f09e98114296d8a0c8d735f67a26d83e90ec1f2d10afe28f310c6905ce70354",
       "knowledge_file": "knowledge/events/generated/2026-11-18-thanksgiving-baskets-of-hope-signup-02bd65.md",
       "chronological_rank": 23,
       "routine_schedule_occurrence": false,
@@ -20117,7 +20122,7 @@
       "path": "knowledge/events/generated/2026-10-28-wednesday-night-dinner-acac27.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -20154,7 +20159,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -20172,7 +20177,7 @@
       "display_when": "Wednesday, October 28, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122714",
       "planning_center_event_time_id": "31870601",
@@ -20188,7 +20193,7 @@
       "path": "knowledge/events/generated/2026-11-04-wednesday-night-dinner-55fdc7.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -20225,7 +20230,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -20243,7 +20248,7 @@
       "display_when": "Wednesday, November 4, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122715",
       "planning_center_event_time_id": "31870601",
@@ -20259,7 +20264,7 @@
       "path": "knowledge/events/generated/2026-11-11-wednesday-night-dinner-af1c1c.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -20296,7 +20301,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -20314,7 +20319,7 @@
       "display_when": "Wednesday, November 11, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122716",
       "planning_center_event_time_id": "31870601",
@@ -20330,7 +20335,7 @@
       "path": "knowledge/events/generated/2026-11-18-wednesday-night-dinner-cf53fb.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -20367,7 +20372,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -20385,7 +20390,7 @@
       "display_when": "Wednesday, November 18, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122717",
       "planning_center_event_time_id": "31870601",
@@ -20401,7 +20406,7 @@
       "path": "knowledge/events/generated/2026-11-25-wednesday-night-dinner-77d08c.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -20438,7 +20443,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -20456,7 +20461,7 @@
       "display_when": "Wednesday, November 25, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122718",
       "planning_center_event_time_id": "31870601",
@@ -20472,7 +20477,7 @@
       "path": "knowledge/events/generated/2026-12-02-wednesday-night-dinner-809fdf.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -20509,7 +20514,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -20527,7 +20532,7 @@
       "display_when": "Wednesday, December 2, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122719",
       "planning_center_event_time_id": "31870601",
@@ -20543,7 +20548,7 @@
       "path": "knowledge/events/generated/2026-12-09-wednesday-night-dinner-6f6ed6.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -20580,7 +20585,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -20598,7 +20603,7 @@
       "display_when": "Wednesday, December 9, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122720",
       "planning_center_event_time_id": "31870601",
@@ -20614,7 +20619,7 @@
       "path": "knowledge/events/generated/2026-12-16-wednesday-night-dinner-d35842.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -20651,7 +20656,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -20669,7 +20674,7 @@
       "display_when": "Wednesday, December 16, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122721",
       "planning_center_event_time_id": "31870601",
@@ -20685,7 +20690,7 @@
       "path": "knowledge/events/generated/2026-12-23-wednesday-night-dinner-8995f6.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -20722,7 +20727,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -20740,7 +20745,7 @@
       "display_when": "Wednesday, December 23, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122722",
       "planning_center_event_time_id": "31870601",
@@ -20756,7 +20761,7 @@
       "path": "knowledge/events/generated/2026-12-30-wednesday-night-dinner-85ac1d.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -20793,7 +20798,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -20811,7 +20816,7 @@
       "display_when": "Wednesday, December 30, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122723",
       "planning_center_event_time_id": "31870601",
@@ -20827,7 +20832,7 @@
       "path": "knowledge/events/generated/2027-01-06-wednesday-night-dinner-cd86db.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -20864,7 +20869,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -20882,7 +20887,7 @@
       "display_when": "Wednesday, January 6, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122724",
       "planning_center_event_time_id": "31870601",
@@ -20898,7 +20903,7 @@
       "path": "knowledge/events/generated/2027-01-13-wednesday-night-dinner-ed64ec.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -20935,7 +20940,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -20953,7 +20958,7 @@
       "display_when": "Wednesday, January 13, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122725",
       "planning_center_event_time_id": "31870601",
@@ -20969,7 +20974,7 @@
       "path": "knowledge/events/generated/2027-01-20-wednesday-night-dinner-c3c878.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -21006,7 +21011,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -21024,7 +21029,7 @@
       "display_when": "Wednesday, January 20, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122726",
       "planning_center_event_time_id": "31870601",
@@ -21040,7 +21045,7 @@
       "path": "knowledge/events/generated/2027-01-27-wednesday-night-dinner-e92330.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -21077,7 +21082,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -21095,7 +21100,7 @@
       "display_when": "Wednesday, January 27, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122727",
       "planning_center_event_time_id": "31870601",
@@ -21111,7 +21116,7 @@
       "path": "knowledge/events/generated/2027-02-03-wednesday-night-dinner-56372f.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -21148,7 +21153,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -21166,7 +21171,7 @@
       "display_when": "Wednesday, February 3, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122728",
       "planning_center_event_time_id": "31870601",
@@ -21182,7 +21187,7 @@
       "path": "knowledge/events/generated/2027-02-10-wednesday-night-dinner-818c3d.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -21219,7 +21224,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -21237,7 +21242,7 @@
       "display_when": "Wednesday, February 10, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122729",
       "planning_center_event_time_id": "31870601",
@@ -21253,7 +21258,7 @@
       "path": "knowledge/events/generated/2027-02-17-wednesday-night-dinner-e2ee59.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -21290,7 +21295,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -21308,7 +21313,7 @@
       "display_when": "Wednesday, February 17, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122730",
       "planning_center_event_time_id": "31870601",
@@ -21324,7 +21329,7 @@
       "path": "knowledge/events/generated/2027-02-24-wednesday-night-dinner-8f0b45.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -21361,7 +21366,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -21379,7 +21384,7 @@
       "display_when": "Wednesday, February 24, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122731",
       "planning_center_event_time_id": "31870601",
@@ -21395,7 +21400,7 @@
       "path": "knowledge/events/generated/2027-03-03-wednesday-night-dinner-8fb3dd.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -21432,7 +21437,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -21450,7 +21455,7 @@
       "display_when": "Wednesday, March 3, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122732",
       "planning_center_event_time_id": "31870601",
@@ -21466,7 +21471,7 @@
       "path": "knowledge/events/generated/2027-03-10-wednesday-night-dinner-48508a.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -21503,7 +21508,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -21521,7 +21526,7 @@
       "display_when": "Wednesday, March 10, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122733",
       "planning_center_event_time_id": "31870601",
@@ -21537,7 +21542,7 @@
       "path": "knowledge/events/generated/2027-03-17-wednesday-night-dinner-ab6c0d.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -21574,7 +21579,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -21592,7 +21597,7 @@
       "display_when": "Wednesday, March 17, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122734",
       "planning_center_event_time_id": "31870601",
@@ -21608,7 +21613,7 @@
       "path": "knowledge/events/generated/2027-03-24-wednesday-night-dinner-46db45.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -21645,7 +21650,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -21663,7 +21668,7 @@
       "display_when": "Wednesday, March 24, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122735",
       "planning_center_event_time_id": "31870601",
@@ -21679,7 +21684,7 @@
       "path": "knowledge/events/generated/2027-03-31-wednesday-night-dinner-fc63a5.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -21716,7 +21721,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -21734,7 +21739,7 @@
       "display_when": "Wednesday, March 31, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122736",
       "planning_center_event_time_id": "31870601",
@@ -21750,7 +21755,7 @@
       "path": "knowledge/events/generated/2027-04-07-wednesday-night-dinner-8df64a.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -21787,7 +21792,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -21805,7 +21810,7 @@
       "display_when": "Wednesday, April 7, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122737",
       "planning_center_event_time_id": "31870601",
@@ -21821,7 +21826,7 @@
       "path": "knowledge/events/generated/2027-04-14-wednesday-night-dinner-e2d05a.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -21858,7 +21863,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -21876,7 +21881,7 @@
       "display_when": "Wednesday, April 14, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122738",
       "planning_center_event_time_id": "31870601",
@@ -21892,7 +21897,7 @@
       "path": "knowledge/events/generated/2027-04-21-wednesday-night-dinner-0a84c3.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -21929,7 +21934,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -21947,7 +21952,7 @@
       "display_when": "Wednesday, April 21, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122739",
       "planning_center_event_time_id": "31870601",
@@ -21963,7 +21968,7 @@
       "path": "knowledge/events/generated/2027-04-28-wednesday-night-dinner-6a7394.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -22000,7 +22005,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -22018,7 +22023,7 @@
       "display_when": "Wednesday, April 28, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122740",
       "planning_center_event_time_id": "31870601",
@@ -22034,7 +22039,7 @@
       "path": "knowledge/events/generated/2027-05-05-wednesday-night-dinner-30e195.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -22071,7 +22076,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -22089,7 +22094,7 @@
       "display_when": "Wednesday, May 5, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122741",
       "planning_center_event_time_id": "31870601",
@@ -22105,7 +22110,7 @@
       "path": "knowledge/events/generated/2027-05-12-wednesday-night-dinner-e125ce.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -22142,7 +22147,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -22160,7 +22165,7 @@
       "display_when": "Wednesday, May 12, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122742",
       "planning_center_event_time_id": "31870601",
@@ -22176,7 +22181,7 @@
       "path": "knowledge/events/generated/2027-05-19-wednesday-night-dinner-0df29f.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -22213,7 +22218,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -22231,7 +22236,7 @@
       "display_when": "Wednesday, May 19, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122743",
       "planning_center_event_time_id": "31870601",
@@ -22247,7 +22252,7 @@
       "path": "knowledge/events/generated/2027-05-26-wednesday-night-dinner-46fce3.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -22284,7 +22289,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -22302,7 +22307,7 @@
       "display_when": "Wednesday, May 26, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122744",
       "planning_center_event_time_id": "31870601",
@@ -22318,7 +22323,7 @@
       "path": "knowledge/events/generated/2027-06-02-wednesday-night-dinner-ba0347.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -22355,7 +22360,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -22373,7 +22378,7 @@
       "display_when": "Wednesday, June 2, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122745",
       "planning_center_event_time_id": "31870601",
@@ -22389,7 +22394,7 @@
       "path": "knowledge/events/generated/2027-06-09-wednesday-night-dinner-764b7d.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -22426,7 +22431,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -22444,7 +22449,7 @@
       "display_when": "Wednesday, June 9, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122746",
       "planning_center_event_time_id": "31870601",
@@ -22460,7 +22465,7 @@
       "path": "knowledge/events/generated/2027-06-16-wednesday-night-dinner-6fef1b.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -22497,7 +22502,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -22515,7 +22520,7 @@
       "display_when": "Wednesday, June 16, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122747",
       "planning_center_event_time_id": "31870601",
@@ -22531,7 +22536,7 @@
       "path": "knowledge/events/generated/2027-06-23-wednesday-night-dinner-8a9a7f.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -22568,7 +22573,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -22586,7 +22591,7 @@
       "display_when": "Wednesday, June 23, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122748",
       "planning_center_event_time_id": "31870601",
@@ -22602,7 +22607,7 @@
       "path": "knowledge/events/generated/2027-06-30-wednesday-night-dinner-34486c.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -22639,7 +22644,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -22657,7 +22662,7 @@
       "display_when": "Wednesday, June 30, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122749",
       "planning_center_event_time_id": "31870601",
@@ -22673,7 +22678,7 @@
       "path": "knowledge/events/generated/2027-07-07-wednesday-night-dinner-36b6bb.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -22710,7 +22715,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -22728,7 +22733,7 @@
       "display_when": "Wednesday, July 7, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122750",
       "planning_center_event_time_id": "31870601",
@@ -22744,7 +22749,7 @@
       "path": "knowledge/events/generated/2027-07-14-wednesday-night-dinner-e48c19.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -22781,7 +22786,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -22799,7 +22804,7 @@
       "display_when": "Wednesday, July 14, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122751",
       "planning_center_event_time_id": "31870601",
@@ -22815,7 +22820,7 @@
       "path": "knowledge/events/generated/2027-07-21-wednesday-night-dinner-f4b889.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -22852,7 +22857,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -22870,7 +22875,7 @@
       "display_when": "Wednesday, July 21, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122752",
       "planning_center_event_time_id": "31870601",
@@ -22886,7 +22891,7 @@
       "path": "knowledge/events/generated/2027-07-28-wednesday-night-dinner-7b2465.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -22923,7 +22928,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -22941,7 +22946,7 @@
       "display_when": "Wednesday, July 28, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122753",
       "planning_center_event_time_id": "31870601",
@@ -22957,7 +22962,7 @@
       "path": "knowledge/events/generated/2027-08-04-wednesday-night-dinner-c4767b.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -22994,7 +22999,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -23012,7 +23017,7 @@
       "display_when": "Wednesday, August 4, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122754",
       "planning_center_event_time_id": "31870601",
@@ -23028,7 +23033,7 @@
       "path": "knowledge/events/generated/2027-08-11-wednesday-night-dinner-19d9cb.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -23065,7 +23070,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -23083,7 +23088,7 @@
       "display_when": "Wednesday, August 11, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122755",
       "planning_center_event_time_id": "31870601",
@@ -23099,7 +23104,7 @@
       "path": "knowledge/events/generated/2027-08-18-wednesday-night-dinner-8ab9de.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -23136,7 +23141,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -23154,7 +23159,7 @@
       "display_when": "Wednesday, August 18, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122756",
       "planning_center_event_time_id": "31870601",
@@ -23170,7 +23175,7 @@
       "path": "knowledge/events/generated/2027-08-25-wednesday-night-dinner-11c5e0.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -23207,7 +23212,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -23225,7 +23230,7 @@
       "display_when": "Wednesday, August 25, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122757",
       "planning_center_event_time_id": "31870601",
@@ -23241,7 +23246,7 @@
       "path": "knowledge/events/generated/2027-09-01-wednesday-night-dinner-a91f0f.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -23278,7 +23283,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -23296,7 +23301,7 @@
       "display_when": "Wednesday, September 1, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122758",
       "planning_center_event_time_id": "31870601",
@@ -23312,7 +23317,7 @@
       "path": "knowledge/events/generated/2027-09-08-wednesday-night-dinner-77f2fa.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -23349,7 +23354,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -23367,7 +23372,7 @@
       "display_when": "Wednesday, September 8, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122759",
       "planning_center_event_time_id": "31870601",
@@ -23383,7 +23388,7 @@
       "path": "knowledge/events/generated/2027-09-15-wednesday-night-dinner-61868d.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -23420,7 +23425,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -23438,7 +23443,7 @@
       "display_when": "Wednesday, September 15, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122760",
       "planning_center_event_time_id": "31870601",
@@ -23454,7 +23459,7 @@
       "path": "knowledge/events/generated/2027-09-22-wednesday-night-dinner-a81839.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -23491,7 +23496,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -23509,7 +23514,7 @@
       "display_when": "Wednesday, September 22, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122761",
       "planning_center_event_time_id": "31870601",
@@ -23525,7 +23530,7 @@
       "path": "knowledge/events/generated/2027-09-29-wednesday-night-dinner-4040f9.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -23562,7 +23567,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -23580,7 +23585,7 @@
       "display_when": "Wednesday, September 29, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122762",
       "planning_center_event_time_id": "31870601",
@@ -23596,7 +23601,7 @@
       "path": "knowledge/events/generated/2027-10-06-wednesday-night-dinner-7e1f00.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -23633,7 +23638,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -23651,7 +23656,7 @@
       "display_when": "Wednesday, October 6, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122763",
       "planning_center_event_time_id": "31870601",
@@ -23667,7 +23672,7 @@
       "path": "knowledge/events/generated/2027-10-13-wednesday-night-dinner-693da5.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -23704,7 +23709,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -23722,7 +23727,7 @@
       "display_when": "Wednesday, October 13, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122764",
       "planning_center_event_time_id": "31870601",
@@ -23738,7 +23743,7 @@
       "path": "knowledge/events/generated/2027-10-20-wednesday-night-dinner-13faac.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -23775,7 +23780,7 @@
         "Can I play Wednesday Night Dinner at Urbancrest?"
       ],
       "ministries": [
-        "churchwide"
+        "worship"
       ],
       "audiences": [
         "everyone"
@@ -23793,7 +23798,7 @@
       "display_when": "Wednesday, October 20, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 21, 2026\nSloppy Joes\nChips\nSalad Bar\nIce Cream Cups & Cookies\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars",
+      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122765",
       "planning_center_event_time_id": "31870601",

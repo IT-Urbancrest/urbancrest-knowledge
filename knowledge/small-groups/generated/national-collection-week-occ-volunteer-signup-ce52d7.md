@@ -26,12 +26,12 @@ sort_start_utc: "2026-11-16T23:00:00Z"
 sort_end_utc: "2026-11-23T16:00:00Z"
 meeting_count_in_window: 1
 registration_url: "https://urbancrest.churchcenter.com/registrations/events/3219721"
-image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1792080000&key=uploads%2Fevent%2Flogo%2F3959067%2Fimage-1791997543078.jpeg&thumb=720x405%23&version=1791997543&signature=c2d8950cc262099bf996d23571ccbb99b8f12ec4494c9690f43270a79c3e1e6a"
+image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1793073600&key=uploads%2Fevent%2Flogo%2F3959067%2Fimage-1793025094938.jpeg&thumb=720x405%23&version=1793025095&signature=f9c50355d3a4baef80eb7fcf2c052f1105b940ae4454e80e2ffadfa843234c79"
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "239861554"
 planning_center_event_time_id: "33406085"
-last_generated: 2026-10-26T13:05:56.608666Z
+last_generated: 2026-10-26T20:29:37.542180Z
 ---
 
 # National Collection Week (OCC) Volunteer Signup

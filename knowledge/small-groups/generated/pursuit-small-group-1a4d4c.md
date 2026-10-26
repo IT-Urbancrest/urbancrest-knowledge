@@ -24,10 +24,10 @@ next_meeting_start: "2026-10-27T10:30:00-04:00"
 next_meeting_end: "2026-10-27T12:00:00-04:00"
 sort_start_utc: "2026-10-27T14:30:00Z"
 sort_end_utc: "2026-10-27T16:00:00Z"
-meeting_count_in_window: 52
+meeting_count_in_window: 53
 planning_center_event_instance_id: "239691732"
 planning_center_event_time_id: "33366261"
-last_generated: 2026-10-26T13:05:56.608666Z
+last_generated: 2026-10-26T20:29:37.542180Z
 ---
 
 # Pursuit - Small Group

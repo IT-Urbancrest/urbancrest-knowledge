@@ -40,11 +40,12 @@ next_for_ministries: []
 next_for_audiences: []
 all_day: false
 registration_url: "https://urbancrest.churchcenter.com/registrations/events/3976359"
+image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1793073600&key=uploads%2Fevent%2Flogo%2F3976359%2Fimage-1793024360551.jpeg&thumb=720x405%23&version=1793024361&signature=0f09e98114296d8a0c8d735f67a26d83e90ec1f2d10afe28f310c6905ce70354"
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "240710463"
 planning_center_event_time_id: "33549672"
-last_generated: 2026-10-26T13:05:56.608666Z
+last_generated: 2026-10-26T20:29:37.542180Z
 ---
 
 # Thanksgiving Baskets of Hope Signup
@@ -78,5 +79,7 @@ If you have any questions, please get in touch with our Hope Line at
  (513-494-6734) and leave a message.
 
 **Registration:** https://urbancrest.churchcenter.com/registrations/events/3976359
+
+**Event image:** https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1793073600&key=uploads%2Fevent%2Flogo%2F3976359%2Fimage-1793024360551.jpeg&thumb=720x405%23&version=1793024361&signature=0f09e98114296d8a0c8d735f67a26d83e90ec1f2d10afe28f310c6905ce70354
 
 This information is synchronized automatically from Urbancrest's live calendar.

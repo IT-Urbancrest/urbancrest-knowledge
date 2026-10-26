@@ -11,7 +11,7 @@ intent:
   primary: event_details
   secondary: [upcoming_events, calendar, schedule, registration, next_ministry_event]
 audience: ["everyone"]
-ministries: ["churchwide"]
+ministries: ["worship"]
 answer_style: helpful
 confidence: high
 owner:
@@ -19,7 +19,7 @@ owner:
 review:
   doctrinal: not_required
   factual: automated
-tags: ["event", "calendar", "upcoming", "churchwide_program", "churchwide", "everyone"]
+tags: ["event", "calendar", "upcoming", "churchwide_program", "worship", "everyone"]
 search_terms:
   - "Wednesday Night Dinner"
   - "When is Wednesday Night Dinner?"
@@ -44,7 +44,7 @@ location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "230122723"
 planning_center_event_time_id: "31870601"
-last_generated: 2026-10-26T13:05:56.608666Z
+last_generated: 2026-10-26T20:29:37.542180Z
 ---
 
 # Wednesday Night Dinner
@@ -59,15 +59,25 @@ Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM 
 
 ## Details
 
-October 21, 2026
-Sloppy Joes
-Chips
-Salad Bar
-Ice Cream Cups & Cookies
 October 28, 2026
 Pizza
 Salad Bar
 Ice Cream Bars
+November 4, 2026
+Chili & Coneys
+Salad Bar
+Pumpkin Pie
+November 11, 2026
+Pizza
+Salad Bar
+Ice Cream Cups & Cookies
+November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+Baked Ham
+Mashed Potatoes & Gravy
+Green Beans
+Sheet Cake
+November 25, 2026
+No Dinner: Happy Thanksgiving!
 
 **Event image:** https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6
 

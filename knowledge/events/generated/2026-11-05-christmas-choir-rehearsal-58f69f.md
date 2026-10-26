@@ -36,13 +36,13 @@ event_end: "2026-11-05T18:30:00-05:00"
 sort_start_utc: "2026-11-05T22:30:00Z"
 sort_end_utc: "2026-11-05T23:30:00Z"
 chronological_rank: 9
-next_for_ministries: ["worship"]
+next_for_ministries: []
 next_for_audiences: []
 all_day: false
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "239644657"
 planning_center_event_time_id: "33357839"
-last_generated: 2026-10-26T13:05:56.608666Z
+last_generated: 2026-10-26T20:29:37.542180Z
 ---
 
 # Christmas Choir Rehearsal
