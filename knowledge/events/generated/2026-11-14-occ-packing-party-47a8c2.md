@@ -42,7 +42,7 @@ all_day: false
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "228651524"
 planning_center_event_time_id: "31623389"
-last_generated: 2026-10-26T04:49:25.847851Z
+last_generated: 2026-10-26T13:05:56.608666Z
 ---
 
 # OCC packing party
