@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-10-26T13:05:58.320897Z",
+  "generated_at": "2026-10-26T18:45:46.388438Z",
   "timezone": "America/New_York",
-  "record_count": 496,
+  "record_count": 497,
   "config": {
     "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step. For directions requests, include both approved map links.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership Transition\n\nUrbancrest is currently searching for its next Global Missions Pastor.\n\nFor broad or global missions leadership questions:\n\n1. State that Urbancrest is currently searching for its next Global Missions Pastor.\n2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.\n3. Return `jennifer_prows` when one staff card is appropriate.\n4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nState the times found in those authoritative records directly. Do not hardcode service times in runtime application logic or prompt instructions.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
     "style_guide": "# Style Guide\n\n## Writing\n\n- Use short paragraphs.\n- Prefer plain language.\n- Avoid church jargon unless it is explained.\n- Do not use em dashes.\n- Do not use the word meaningful as a filler.\n- Use Small Groups, never Grow Groups.\n- Refer to Urbancrest Church as Urbancrest after the first use.\n- Use believer's baptism by immersion when describing baptism.\n\n## Theology\n\n- Scripture is the final authority.\n- The Baptist Faith and Message 2000 is a helpful doctrinal summary, not equal to Scripture.\n- Salvation is by grace alone through faith alone in Jesus Christ alone.\n- Baptism follows salvation and does not save.\n",
@@ -10751,7 +10751,7 @@
       "path": "knowledge/sermons/series/bad-religion-2026.md",
       "title": "Bad Religion",
       "summary": "Urbancrest's October 2026 sermon series contrasts bad religion with authentic faith, showing that God wants more than outward religious activity. Authentic faith is rooted in relationship with God through Jesus Christ, trust in grace and mercy, heart transformation, and a life that reflects God's character.",
-      "content": "# Bad Religion\n\n**Bad Religion** is Urbancrest's four-week sermon series for October 2026. The series contrasts **bad religion** with **authentic faith** and asks what happens when religious activity looks right on the outside but the heart and everyday life are far from God.\n\nIn introducing the series, Geoff Prows explained that the word religion can carry very different associations. For some people it suggests hope, purpose, peace, love, community, or heart transformation. For others it brings to mind hypocrisy, judgmentalism, guilt, shame, legalism, rules, rituals, or man-made traditions. The goal of the series is not to defend religion as a label, but to move past empty religion and point people toward authentic faith.\n\nAuthentic faith is rooted in **relationship with God through Jesus Christ**, trust in God's grace and mercy, and heart transformation that changes how a person lives. The series examines the danger of outward religious performance without inward surrender and calls people to a faith that reaches beyond a worship service into relationships, integrity, obedience, mercy, justice, and everyday life.\n\n## Key Themes\n\n- the difference between outward religion and authentic faith\n- relationship with God through Jesus Christ\n- heart transformation rather than religious performance\n- grace and mercy rather than self-righteousness\n- worship that is consistent with everyday obedience\n- lives marked by justice, righteousness, love, and integrity\n- examining whether faith has become routine or compartmentalized\n\n## Messages in This Series\n\nThe series began Sunday, October 4, 2026, with **When God Says, “I Don’t Want Your Worship”**, a message from Amos 5:21-27 about worship that God rejects when it is separated from righteous living and a heart that belongs to Him.\n\nThe searchable sermon index automatically associates weekly sermon records with this series. Ask about a particular Sunday, topic, Scripture passage, speaker, or message to find the relevant sermon summary.\n\nWeekly sermon titles, primary passages, and outlines come from the published sermon notes and sermon transcript. Summaries and explanatory detail are condensed from the sermon transcript.",
+      "content": "# Bad Religion\n\n**Bad Religion** was Urbancrest's four-week sermon series from October 4 through October 25, 2026. The series contrasts **bad religion** with **authentic faith** and asks what happens when religious activity looks right on the outside but the heart and everyday life are far from God.\n\nIn introducing the series, Geoff Prows explained that the word religion can carry very different associations. For some people it suggests hope, purpose, peace, love, community, or heart transformation. For others it brings to mind hypocrisy, judgmentalism, guilt, shame, legalism, rules, rituals, or man-made traditions. The goal of the series is not to defend religion as a label, but to move past empty religion and point people toward authentic faith.\n\nAuthentic faith is rooted in **relationship with God through Jesus Christ**, trust in God's grace and mercy, and heart transformation that changes how a person lives. The series examines the danger of outward religious performance without inward surrender and calls people to a faith that reaches beyond a worship service into relationships, integrity, obedience, mercy, justice, and everyday life.\n\n## Key Themes\n\n- the difference between outward religion and authentic faith\n- relationship with God through Jesus Christ\n- heart transformation rather than religious performance\n- grace and mercy rather than self-righteousness\n- worship that is consistent with everyday obedience\n- lives marked by justice, righteousness, love, and integrity\n- examining whether faith has become routine or compartmentalized\n\n## Messages in This Series\n\nThe four messages were preached by Geoff Prows:\n\n- **October 4, 2026: When God Says, “I Don’t Want Your Worship”** (Amos 5:21-27). Worship must be consistent with a heart and life that belong to God.\n- **October 11, 2026: Disconnected** (Jeremiah 7:1-11). Authentic faith reconnects Sunday worship with everyday trust, repentance, and obedience.\n- **October 18, 2026: When Religion Leads to a Wrong Focus** (Luke 11:37-44). A changed heart values what God values and seeks His glory rather than outward appearance or recognition.\n- **October 25, 2026: When Religion is Only Skin Deep** (James 1:21-27). The series finale contrasts hearing without obedience, information without transformation, and activity without fruit with authentic faith that produces care for vulnerable people and personal holi...",
       "priority": 92,
       "category": [
         "sermon_series"
@@ -10783,7 +10783,16 @@
         "What does Urbancrest mean by Bad Religion?",
         "What is the difference between religion and authentic faith?",
         "What messages are part of Bad Religion?",
-        "What is Urbancrest teaching right now?"
+        "When did the Bad Religion series end?",
+        "What was the final Bad Religion sermon?",
+        "What is Urbancrest teaching right now?",
+        "Bad Religion",
+        "Key Themes",
+        "Messages in This Series",
+        "The searchable sermon index automatically associates weekly sermon records with this series.",
+        "Ask about a particular Sunday, topic, Scripture passage, speaker, or message to find the relevant sermon summary.",
+        "Weekly sermon titles, primary passages, and outlines come from the published sermon notes and sermon transcript.",
+        "Summaries and explanatory detail are condensed from the sermon transcript."
       ],
       "ministries": [],
       "audiences": [
@@ -10800,7 +10809,7 @@
         "sermon_series"
       ],
       "series_id": "bad_religion_2026",
-      "series_status": "active",
+      "series_status": "completed",
       "start_date": "2026-10-04",
       "end_date": "2026-10-25",
       "sermons": [
@@ -10821,8 +10830,15 @@
           "title": "When Religion Leads to a Wrong Focus",
           "speaker": "Geoff Prows",
           "primary_scripture": "Luke 11:37-44"
+        },
+        {
+          "date": "2026-10-25",
+          "title": "When Religion is Only Skin Deep",
+          "speaker": "Geoff Prows",
+          "primary_scripture": "James 1:21-27"
         }
-      ]
+      ],
+      "supplemental_search_term_count": 7
     },
     {
       "id": "sermons.series.summer_on_the_mount_2026",
@@ -14571,6 +14587,102 @@
       "notes_url": "https://urbancrest.church/follow-along/when-god-says-i-dont-want-your-worship",
       "title_source": "user_provided",
       "outline_source": "sermon_transcript",
+      "summary_source": "sermon_transcript",
+      "supplemental_search_term_count": 14
+    },
+    {
+      "id": "sermons.2026_10_25",
+      "record_type": "sermon",
+      "path": "knowledge/sermons/2026/2026-10-25-when-religion-is-only-skin-deep.md",
+      "title": "When Religion is Only Skin Deep",
+      "summary": "In the final message of Bad Religion, Geoff Prows taught from James 1:21-27 that outward religious activity cannot replace a heart transformed by Jesus. Bad religion produces hearing without obedience, information without transformation, and activity without fruit. Authentic faith receives and obeys God's Word, changes our speech, cares for vulnerable people, and pursues personal holiness.",
+      "content": "# When Religion is Only Skin Deep\n\n**Speaker:** Geoff Prows  \n**Date:** October 25, 2026  \n**Primary Scripture:** James 1:21-27  \n**Series:** Bad Religion, week four (series finale)\n\n## Message Summary\n\nIn **When Religion is Only Skin Deep**, Geoff Prows concluded Bad Religion by asking whether our faith reaches beyond outward appearance to a heart changed by Jesus. Religious activity can change what people see without changing who we are. James 1:21-27 shows that authentic faith receives God's Word, puts it into practice, and becomes visible in everyday relationships.\n\nThe message identified three things bad religion produces: **hearing without obedience, information without transformation, and activity without fruit**. We can listen to sermons, know Bible stories, and stay busy at church while avoiding what God is calling us to do. Authentic faith grows from a relationship with Jesus and produces the kind of religion James calls pure and undefiled: care for vulnerable people and personal holiness.\n\nGeoff closed by inviting listeners to examine what they are trusting. Church attendance, years of service, and religious knowledge cannot take the place of knowing Jesus. The invitation is to trust Him as Lord and Savior and allow Him to transform us from the inside out.\n\n## Main Idea\n\n**Religion can change what we know and how we appear, but authentic faith in Jesus transforms who we are and how we live.**\n\n## Message Outline\n\n### I. Bad Religion Produces Hearing Without Obedience\n\nIn James 1:21-22, receiving God's Word begins with humility and a willingness to put aside sin and selfishness. Geoff encouraged listeners to prepare their hearts throughout the week rather than expecting that preparation to begin when the sermon starts.\n\nReceiving the Word means welcoming what God says and allowing it to take root. As believers grow in spiritual maturity, their desire to obey Jesus should grow too. Knowing or admiring Scripture is not the same as putting it into practice.\n\nJames warns that hearing without doing is self-deception. Geoff connected this warning with Jesus' question in Luke 6:46 about calling Him Lord while refusing to do what He says. The question for each of us is where we need to move from listener to doer.\n\n### II. Bad Religion Produces Information Without Transformation\n\nIn James 1:23-25, God's Word is like a mirror that reveals our true conditi...",
+      "priority": 86,
+      "category": [
+        "sermon"
+      ],
+      "intents": [
+        "sermon",
+        "sermon_content",
+        "messages",
+        "preaching",
+        "sermon_notes"
+      ],
+      "tags": [
+        "Bad Religion",
+        "James 1",
+        "authentic faith",
+        "skin deep",
+        "hearing and doing",
+        "obedience",
+        "heart transformation",
+        "self-deception",
+        "spiritual maturity",
+        "gracious speech",
+        "care for the vulnerable",
+        "orphans and widows",
+        "personal holiness",
+        "sermon"
+      ],
+      "search_terms": [
+        "What was the October 25 sermon about?",
+        "What did Geoff Prows preach on October 25, 2026?",
+        "Who preached When Religion is Only Skin Deep?",
+        "What was the final Bad Religion message?",
+        "What was the fourth week of Bad Religion about?",
+        "How did the Bad Religion series end?",
+        "Do you have the notes for When Religion is Only Skin Deep?",
+        "What did the sermon say about James 1:21-27?",
+        "What are the three things bad religion produces?",
+        "What is hearing without obedience?",
+        "What is information without transformation?",
+        "What is activity without fruit?",
+        "What did James mean by being a doer of the Word?",
+        "How is the Bible like a mirror?",
+        "What does the way I speak reveal about my heart?",
+        "What is pure and undefiled religion?",
+        "What did the sermon say about orphans and widows?",
+        "What does authentic faith produce?",
+        "Is holiness about perfection or direction?",
+        "When Religion is Only Skin Deep",
+        "Message Summary",
+        "Main Idea",
+        "Message Outline",
+        "I. Bad Religion Produces Hearing Without Obedience",
+        "II. Bad Religion Produces Information Without Transformation",
+        "III. Bad Religion Produces Activity Without Fruit",
+        "What Authentic Faith Produces",
+        "Care for the Vulnerable",
+        "Personal Holiness",
+        "Questions for Personal Reflection",
+        "Follow-Along Notes",
+        "Supporting Passages",
+        "The problem comes when we walk away and forget what God has shown us."
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "https://urbancrest.church/follow-along/when-religion-is-only-skin-deep",
+        "action_link.messages"
+      ],
+      "status": "published",
+      "answer_guidance": "This is a historical summary of Geoff Prows's October 25, 2026 sermon, the fourth and final message in Bad Religion. Use it for questions about this sermon, James 1:21-27, hearing and doing, the Bible as a mirror, spiritual transformation, religious activity without fruit, speech, care for vulnerable people, and personal holiness. Obedience, compassion, and holiness are fruit of a heart changed through faith in Jesus, not a way to earn salvation. The sermon describes growth in Christlikeness as a lifelong process and holiness as the direction of a believer's life, not sinless perfection. Do not treat every stumble or struggle as proof that someone is unsaved. Use dedicated knowledge articles as the canonical source for Urbancrest doctrine, policy, or current ministry information when one exists.",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "sermon_content"
+      ],
+      "sermon_date": "2026-10-25",
+      "date": "2026-10-25",
+      "speaker": "Geoff Prows",
+      "series_id": "bad_religion_2026",
+      "series_title": "Bad Religion",
+      "primary_scripture": "James 1:21-27",
+      "notes_url": "https://urbancrest.church/follow-along/when-religion-is-only-skin-deep",
+      "title_source": "published_sermon_notes",
+      "outline_source": "published_sermon_notes",
       "summary_source": "sermon_transcript",
       "supplemental_search_term_count": 14
     },
