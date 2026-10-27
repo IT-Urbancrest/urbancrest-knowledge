@@ -44,7 +44,7 @@ location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "230122749"
 planning_center_event_time_id: "31870601"
-last_generated: 2026-10-27T00:26:43.418068Z
+last_generated: 2026-10-27T09:01:35.507258Z
 ---
 
 # Wednesday Night Dinner
