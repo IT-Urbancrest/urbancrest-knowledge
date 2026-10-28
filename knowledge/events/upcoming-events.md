@@ -16,7 +16,7 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-10-28T12:57:32.183122Z
+last_generated: 2026-10-28T20:16:25.519495Z
 ---
 
 # Upcoming Events
@@ -422,6 +422,18 @@ Detailed event file: `knowledge/events/generated/2026-12-06-sunday-morning-servi
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-12-06-women-s-christmas-event-d6795d.md`
+
+## Baking Spirits Bright: Christmas Cookie Exchange
+
+**Category:** General Event
+
+**When:** Sunday, December 6, 2026, 5:30 PM to 7:30 PM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/3988306/reservations/new
+
+Detailed event file: `knowledge/events/generated/2026-12-06-baking-spirits-bright-christmas-cookie-exchange-8bfb9b.md`
 
 ## Wednesday Night Dinner
 
@@ -1083,14 +1095,6 @@ Detailed event file: `knowledge/events/generated/2027-03-07-sunday-morning-servi
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2027-03-10-wednesday-night-dinner-48508a.md`
-
-## Pickleball
-
-**Category:** General Event
-
-**When:** Thursday, March 11, 2027, 6 PM to 8 PM
-
-Detailed event file: `knowledge/events/generated/2027-03-11-pickleball-fee25a.md`
 
 ## Wednesday Night Dinner
 

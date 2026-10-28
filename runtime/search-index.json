@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-10-28T17:50:29.365603Z",
+  "generated_at": "2026-10-28T20:16:27.102158Z",
   "timezone": "America/New_York",
   "record_count": 499,
   "config": {
@@ -90,7 +90,7 @@
   },
   "freshness": {
     "calendar": {
-      "generated_at": "2026-10-28T12:57:32.183122Z",
+      "generated_at": "2026-10-28T20:16:25.519495Z",
       "max_age_hours": 48,
       "source_path": "registry/events-live.yaml",
       "heartbeat_field": "generated_at",
@@ -98,7 +98,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-10-28T12:57:31.036523Z",
+      "generated_at": "2026-10-28T20:16:24.349610Z",
       "max_age_hours": 48,
       "source_path": "registry/small-groups-live.yaml",
       "heartbeat_field": "generated_at",
@@ -5494,7 +5494,7 @@
       ],
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1789617600&key=uploads%2Fevent%2Flogo%2F3894841%2Fimage-1789567912819.jpeg&thumb=720x405%23&version=1789574259&signature=d7621b4c7bacd08be0f88f9d9bf59d91edcae06ec555dff400e0f62dd59ae3b1",
       "knowledge_file": "knowledge/events/generated/2027-01-22-men-s-summit-d35740.md",
-      "chronological_rank": 73,
+      "chronological_rank": 74,
       "routine_schedule_occurrence": false
     },
     {
@@ -5629,7 +5629,7 @@
       "planning_center_event_time_id": "14177442",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-28-summit-gym-set-up-50aaa2.md",
-      "chronological_rank": 78,
+      "chronological_rank": 79,
       "routine_schedule_occurrence": false
     },
     {
@@ -16597,6 +16597,111 @@
       "routine_schedule_occurrence": false
     },
     {
+      "id": "events.live.event-7688c9dd948bfb9b",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-12-06-baking-spirits-bright-christmas-cookie-exchange-8bfb9b.md",
+      "title": "Baking Spirits Bright: Christmas Cookie Exchange",
+      "summary": "Ladies, it's time to pull out your Christmas cookie recipes! Join us for our first ever Christmas Cookie Exchange where we will sample and enjoy each others' favorite Christmas cookies. Please bring 6 dozen cookies to share (including platters to display them on), but don't...",
+      "content": "Ladies, it's time to pull out your Christmas cookie recipes! Join us for our first ever Christmas Cookie Exchange where we will sample and enjoy each others' favorite Christmas cookies. Please bring 6 dozen cookies to share (including platters to display them on), but don't forget your Tupperware containers, because you will be taking 4 dozen back home with you as we exchange with one another.\n\nLight refreshments will also be served. This is a free event, but please register so we can get a head count.\nRegister: https://urbancrest.churchcenter.com/registrations/events/3988306\n\nDetails:\nLadies, it's time to pull out your Christmas cookie recipes!  Join us for our first ever Christmas Cookie Exchange where we will sample and enjoy each others' favorite Christmas cookies. Please bring 6 dozen cookies to share (including platters to display them on), but don't forget your Tupperware containers, because you will be taking 4 dozen back home with you as we exchange with one another. \n\nLight refreshments will also be served. This is a free event, but please register so we can get a head count.\n\nRegistration is open.",
+      "priority": 80,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "general_event",
+        "Baking Spirits Bright: Christmas Cookie Exchange"
+      ],
+      "search_terms": [
+        "Baking Spirits Bright: Christmas Cookie Exchange",
+        "When is Baking Spirits Bright: Christmas Cookie Exchange?",
+        "Tell me about Baking Spirits Bright: Christmas Cookie Exchange",
+        "What are the details for Baking Spirits Bright: Christmas Cookie Exchange?",
+        "What is the menu for Baking Spirits Bright: Christmas Cookie Exchange?",
+        "How do I register for Baking Spirits Bright: Christmas Cookie Exchange?",
+        "Does Urbancrest have Baking Spirits Bright: Christmas Cookie Exchange?",
+        "Does Urbancrest offer Baking Spirits Bright: Christmas Cookie Exchange?",
+        "Do you have Baking Spirits Bright: Christmas Cookie Exchange?",
+        "Do you offer Baking Spirits Bright: Christmas Cookie Exchange?",
+        "Is there Baking Spirits Bright: Christmas Cookie Exchange at Urbancrest?",
+        "Can I participate in Baking Spirits Bright: Christmas Cookie Exchange?",
+        "Can I play Baking Spirits Bright: Christmas Cookie Exchange at Urbancrest?"
+      ],
+      "ministries": [
+        "churchwide",
+        "women"
+      ],
+      "audiences": [
+        "volunteers",
+        "women"
+      ],
+      "resources": [],
+      "event_id": "event-7688c9dd948bfb9b",
+      "activity_aliases": [
+        "Baking Spirits Bright: Christmas Cookie Exchange"
+      ],
+      "event_category": "general_event",
+      "event_start": "2026-12-06T17:30:00-05:00",
+      "event_end": "2026-12-06T19:30:00-05:00",
+      "sort_start_utc": "2026-12-06T22:30:00Z",
+      "sort_end_utc": "2026-12-07T00:30:00Z",
+      "display_when": "Sunday, December 6, 2026, 5:30 PM to 7:30 PM",
+      "all_day": false,
+      "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
+      "location_structured": {
+        "name": "Urbancrest Church",
+        "address": "2634 Drake Road\nGymnasium\nLebanon, OH 45036",
+        "latitude": "39.4747445",
+        "longitude": "-84.1792958"
+      },
+      "details": "Ladies, it's time to pull out your Christmas cookie recipes!  Join us for our first ever Christmas Cookie Exchange where we will sample and enjoy each others' favorite Christmas cookies. Please bring 6 dozen cookies to share (including platters to display them on), but don't forget your Tupperware containers, because you will be taking 4 dozen back home with you as we exchange with one another. \n\nLight refreshments will also be served. This is a free event, but please register so we can get a head count.\n\nRegistration is open.",
+      "details_source": "planning_center_registrations_api",
+      "planning_center_event_instance_id": "241225873",
+      "planning_center_event_time_id": "33644743",
+      "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3988306/reservations/new",
+      "registration_available": true,
+      "registration_open": true,
+      "registration_closed": false,
+      "registration_open_at": "2026-10-28T17:32:07Z",
+      "registration_categories": [
+        "Women",
+        "Special Events"
+      ],
+      "registration_options": [
+        {
+          "id": "9123292",
+          "name": "Standard",
+          "price_cents": 0,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "0",
+          "at_maximum_capacity": false,
+          "waitlist": false
+        }
+      ],
+      "event_source": "merged",
+      "event_sources": [
+        "planning_center_ical",
+        "planning_center_calendar_api",
+        "planning_center_registrations_api"
+      ],
+      "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1793289600&key=uploads%2Fevent%2Flogo%2F3988306%2Fimage-1793208738222.jpeg&thumb=720x405%23&version=1793208907&signature=d964193ff22214e2831434032f0cc23edfbfafa01d5036fd9341f7a6bde50588",
+      "knowledge_file": "knowledge/events/generated/2026-12-06-baking-spirits-bright-christmas-cookie-exchange-8bfb9b.md",
+      "chronological_rank": 39,
+      "routine_schedule_occurrence": false
+    },
+    {
       "id": "events.live.event-c4aae4c1fc2077d0",
       "record_type": "event",
       "path": "knowledge/events/generated/2026-12-16-christmas-baskets-of-hope-signup-2026-2077d0.md",
@@ -16713,7 +16818,7 @@
       "info_url": "https://registrations.planningcenteronline.com/+15134946734",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1793073600&key=uploads%2Fevent%2Flogo%2F3976382%2Fimage-1793024379926.jpeg&thumb=720x405%23&version=1793024380&signature=b7cae581102f0b1f84f643ad2ede143b496117015e47b5f502b2d79dceb2df45",
       "knowledge_file": "knowledge/events/generated/2026-12-16-christmas-baskets-of-hope-signup-2026-2077d0.md",
-      "chronological_rank": 45,
+      "chronological_rank": 46,
       "routine_schedule_occurrence": false,
       "supplemental_search_term_count": 2
     },
@@ -16813,7 +16918,7 @@
       ],
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1791993600&key=uploads%2Fevent%2Flogo%2F3953731%2Fimage-1791828904219.jpeg&thumb=720x405%23&version=1791910082&signature=00b115c8163c7551d89ca0fb6e959b9567ce9efe565f4c9fbe5db16e2fb81618",
       "knowledge_file": "knowledge/events/generated/2026-12-20-christmas-choir-7f0fe3.md",
-      "chronological_rank": 51,
+      "chronological_rank": 52,
       "routine_schedule_occurrence": false
     },
     {
@@ -17152,7 +17257,7 @@
       "planning_center_event_time_id": "33357897",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-10-christmas-choir-rehearsal-49f3f0.md",
-      "chronological_rank": 41,
+      "chronological_rank": 42,
       "routine_schedule_occurrence": false
     },
     {
@@ -17220,7 +17325,7 @@
       "planning_center_event_time_id": "33357897",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-17-christmas-choir-rehearsal-2514c7.md",
-      "chronological_rank": 48,
+      "chronological_rank": 49,
       "routine_schedule_occurrence": false
     },
     {
@@ -17288,7 +17393,7 @@
       "planning_center_event_time_id": "33357938",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-19-christmas-worship-rehearsal-ddc31f.md",
-      "chronological_rank": 50,
+      "chronological_rank": 51,
       "routine_schedule_occurrence": false
     },
     {
@@ -17297,7 +17402,7 @@
       "path": "registry/events-live.yaml",
       "title": "Engage: New Members Class - Fall 2026",
       "summary": "Wondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, October 28! The Engage Class is a gathering that allows...",
-      "content": "Wondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, October 28!\n\nThe Engage Class is a gathering that allows individuals and families to explore and pray through becoming members of our church. This class is designed to have teaching, interaction, and a time to hear the vision for several of our ministries that you can get involved in!\n\nSign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.church .\n\nDetails:\nWondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, October 28!\n\nThe Engage Class is a gathering that allows individuals and families to explore and pray through becoming members of our church. This class is designed to have teaching, interaction, and a time to hear the vision for several of our ministries that you can get involved in!\n\nSign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.church .\n\nRegistration is open.",
+      "content": "Wondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, October 28!\n\nThe Engage Class is a gathering that allows individuals and families to explore and pray through becoming members of our church. This class is designed to have teaching, interaction, and a time to hear the vision for several of our ministries that you can get involved in!\n\nSign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.church .\n\nDetails:\nWondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, October 28!\n\nThe Engage Class is a gathering that allows individuals and families to explore and pray through becoming members of our church. This class is designed to have teaching, interaction, and a time to hear the vision for several of our ministries that you can get involved in!\n\nSign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.church .\n\nRegistration is not currently open.",
       "priority": 80,
       "category": [
         "events",
@@ -17358,14 +17463,12 @@
         "latitude": "39.4747445",
         "longitude": "-84.1792958"
       },
-      "details": "Wondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, October 28!\n\nThe Engage Class is a gathering that allows individuals and families to explore and pray through becoming members of our church. This class is designed to have teaching, interaction, and a time to hear the vision for several of our ministries that you can get involved in!\n\nSign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.church .\n\nRegistration is open.",
+      "details": "Wondering how to become a member of Urbancrest? Want more information about what we believe? Maybe you're curious to hear the heartbeat and vision of our church? Attend our next Engage Class on Wednesday evening, October 28!\n\nThe Engage Class is a gathering that allows individuals and families to explore and pray through becoming members of our church. This class is designed to have teaching, interaction, and a time to hear the vision for several of our ministries that you can get involved in!\n\nSign up to attend here, and reach out to Pastor Dave with any questions at dbickers@urbancrest.church .\n\nRegistration is not currently open.",
       "details_source": "planning_center_registrations_api",
       "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3901985/reservations/new",
       "registration_available": true,
-      "registration_open": true,
-      "registration_closed": false,
-      "registration_open_at": "2026-08-27T04:00:00Z",
-      "registration_close_at": "2026-10-28T16:00:00Z",
+      "registration_open": false,
+      "registration_closed": true,
       "registration_categories": [
         "Family",
         "Special Events",
@@ -17466,7 +17569,7 @@
       "planning_center_event_time_id": "33518569",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-24-kid-min-breakfast-c3ccc7.md",
-      "chronological_rank": 74,
+      "chronological_rank": 75,
       "routine_schedule_occurrence": false
     },
     {
@@ -17533,7 +17636,7 @@
       "planning_center_event_time_id": "33518585",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-14-kid-min-breakfast-76640c.md",
-      "chronological_rank": 88,
+      "chronological_rank": 89,
       "routine_schedule_occurrence": false
     },
     {
@@ -17914,7 +18017,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=a34fd5b0ee03cb689e8d769fb652d593820b13d085b3dc27ce1d57b862d0a8fd",
       "knowledge_file": "knowledge/events/generated/2027-01-02-men-s-breakfast-3d2c83.md",
-      "chronological_rank": 58,
+      "chronological_rank": 59,
       "routine_schedule_occurrence": false
     },
     {
@@ -17983,7 +18086,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=a34fd5b0ee03cb689e8d769fb652d593820b13d085b3dc27ce1d57b862d0a8fd",
       "knowledge_file": "knowledge/events/generated/2027-02-06-men-s-breakfast-fa0b3e.md",
-      "chronological_rank": 83,
+      "chronological_rank": 84,
       "routine_schedule_occurrence": false
     },
     {
@@ -18052,7 +18155,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=a34fd5b0ee03cb689e8d769fb652d593820b13d085b3dc27ce1d57b862d0a8fd",
       "knowledge_file": "knowledge/events/generated/2027-03-06-men-s-breakfast-b236b5.md",
-      "chronological_rank": 102,
+      "chronological_rank": 103,
       "routine_schedule_occurrence": false
     },
     {
@@ -18543,8 +18646,8 @@
       "record_type": "event",
       "path": "registry/events-live.yaml",
       "title": "National Collection Week (OCC) Volunteer Signup",
-      "summary": "This year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24. Our church will be open to collect boxes for a couple hours each day of collection...",
-      "content": "This year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24. \n\nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule. \n\nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at jprows@urbancrest.church .\n\nUrbancrest National Collection Week Schedule: \n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from 2:30-5:30 PM\n– Monday, November 24 from 8:00-11:00 AM\n\nFor information on Urbancrest's church-wide packing party on November 15, please click THIS LINK .\n\nDetails:\nThis year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24. \n\nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule. \n\nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at jprows@urbancrest.church .\n\nUrbancrest National Collection Week Schedule: \n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from 2:30-5:30 PM\n– Monday, November 24 from 8:00-11:00 AM\n\nFor in...",
+      "summary": "Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 16-23. Our church will be open to collect boxes for a couple hours each day of collection week, and we...",
+      "content": "Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 16-23. \n\nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule. \n\nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at jprows@urbancrest.church\n\nUrbancrest National Collection Week Schedule: \n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from 2:30-5:30 PM\n– Monday, November 24 from 8:00-11:00 AM\n\nDetails:\nUrbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 16-23. \n\nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule. \n\nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at jprows@urbancrest.church\n\nUrbancrest National Collection Week Schedule: \n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from 2:30-5:30 PM\n– Monday, November 24 from 8:00-11:00 AM\n\nRegistration is open.",
       "priority": 80,
       "category": [
         "events",
@@ -18610,12 +18713,13 @@
         "latitude": "39.4747445",
         "longitude": "-84.1792958"
       },
-      "details": "This year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24. \n\nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule. \n\nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at jprows@urbancrest.church .\n\nUrbancrest National Collection Week Schedule: \n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from 2:30-5:30 PM\n– Monday, November 24 from 8:00-11:00 AM\n\nFor information on Urbancrest's church-wide packing party on November 15, please click THIS LINK .\n\nRegistration is not currently open.",
+      "details": "Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 16-23. \n\nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule. \n\nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at jprows@urbancrest.church\n\nUrbancrest National Collection Week Schedule: \n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from 2:30-5:30 PM\n– Monday, November 24 from 8:00-11:00 AM\n\nRegistration is open.",
       "details_source": "planning_center_registrations_api",
       "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3959067/reservations/new",
       "registration_available": true,
-      "registration_open": false,
-      "registration_closed": true,
+      "registration_open": true,
+      "registration_closed": false,
+      "registration_open_at": "2026-10-28T04:00:00Z",
       "registration_categories": [
         "Missions"
       ],
@@ -18854,7 +18958,7 @@
       ],
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1793116800&key=uploads%2Fevent%2Flogo%2F3775272%2Fimage-1793031265335.jpeg&thumb=720x405%23&version=1793031265&signature=1119660debddf88c72b9f03a74ca79e990cfa890736b11967088811428048110",
       "knowledge_file": "knowledge/events/generated/2027-01-16-strength-to-stand-ba076b.md",
-      "chronological_rank": 67,
+      "chronological_rank": 68,
       "routine_schedule_occurrence": false
     },
     {
@@ -20126,7 +20230,7 @@
       "registration_available": true,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1790827200&key=uploads%2Fevent%2Flogo%2F3737699%2Fimage-1600369375660.jpeg&thumb=720x405%23&version=1787148556&signature=6d15aefae58f3a6d6341dae202341d6a81ad49d1d6984a7ebf618c3143377f40",
       "knowledge_file": "knowledge/events/generated/2026-12-09-awana-2026-2027-983471.md",
-      "chronological_rank": 40,
+      "chronological_rank": 41,
       "routine_schedule_occurrence": false
     },
     {
@@ -20201,7 +20305,7 @@
       "registration_available": true,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1790827200&key=uploads%2Fevent%2Flogo%2F3737699%2Fimage-1600369375660.jpeg&thumb=720x405%23&version=1787148556&signature=6d15aefae58f3a6d6341dae202341d6a81ad49d1d6984a7ebf618c3143377f40",
       "knowledge_file": "knowledge/events/generated/2026-12-16-awana-2026-2027-a96a01.md",
-      "chronological_rank": 47,
+      "chronological_rank": 48,
       "routine_schedule_occurrence": false
     },
     {
@@ -20698,7 +20802,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2026-12-09-wednesday-night-dinner-6f6ed6.md",
-      "chronological_rank": 39,
+      "chronological_rank": 40,
       "routine_schedule_occurrence": false
     },
     {
@@ -20769,7 +20873,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2026-12-16-wednesday-night-dinner-d35842.md",
-      "chronological_rank": 46,
+      "chronological_rank": 47,
       "routine_schedule_occurrence": false
     },
     {
@@ -20840,7 +20944,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2026-12-23-wednesday-night-dinner-8995f6.md",
-      "chronological_rank": 54,
+      "chronological_rank": 55,
       "routine_schedule_occurrence": false
     },
     {
@@ -20911,7 +21015,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2026-12-30-wednesday-night-dinner-85ac1d.md",
-      "chronological_rank": 57,
+      "chronological_rank": 58,
       "routine_schedule_occurrence": false
     },
     {
@@ -20982,7 +21086,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-01-06-wednesday-night-dinner-cd86db.md",
-      "chronological_rank": 61,
+      "chronological_rank": 62,
       "routine_schedule_occurrence": false
     },
     {
@@ -21053,7 +21157,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-01-13-wednesday-night-dinner-ed64ec.md",
-      "chronological_rank": 65,
+      "chronological_rank": 66,
       "routine_schedule_occurrence": false
     },
     {
@@ -21124,7 +21228,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-01-20-wednesday-night-dinner-c3c878.md",
-      "chronological_rank": 71,
+      "chronological_rank": 72,
       "routine_schedule_occurrence": false
     },
     {
@@ -21195,7 +21299,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-01-27-wednesday-night-dinner-e92330.md",
-      "chronological_rank": 77,
+      "chronological_rank": 78,
       "routine_schedule_occurrence": false
     },
     {
@@ -21266,7 +21370,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-02-03-wednesday-night-dinner-56372f.md",
-      "chronological_rank": 81,
+      "chronological_rank": 82,
       "routine_schedule_occurrence": false
     },
     {
@@ -21337,7 +21441,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-02-10-wednesday-night-dinner-818c3d.md",
-      "chronological_rank": 86,
+      "chronological_rank": 87,
       "routine_schedule_occurrence": false
     },
     {
@@ -21408,7 +21512,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-02-17-wednesday-night-dinner-e2ee59.md",
-      "chronological_rank": 92,
+      "chronological_rank": 93,
       "routine_schedule_occurrence": false
     },
     {
@@ -21479,7 +21583,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-02-24-wednesday-night-dinner-8f0b45.md",
-      "chronological_rank": 96,
+      "chronological_rank": 97,
       "routine_schedule_occurrence": false
     },
     {
@@ -21550,7 +21654,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-03-03-wednesday-night-dinner-8fb3dd.md",
-      "chronological_rank": 100,
+      "chronological_rank": 101,
       "routine_schedule_occurrence": false
     },
     {
@@ -21621,7 +21725,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6",
       "knowledge_file": "knowledge/events/generated/2027-03-10-wednesday-night-dinner-48508a.md",
-      "chronological_rank": 105,
+      "chronological_rank": 106,
       "routine_schedule_occurrence": false
     },
     {
@@ -24262,7 +24366,7 @@
       "planning_center_event_time_id": "33065181",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-18-family-christmas-movie-night-c3d70a.md",
-      "chronological_rank": 49,
+      "chronological_rank": 50,
       "routine_schedule_occurrence": false
     },
     {
@@ -24400,7 +24504,7 @@
       "planning_center_event_time_id": "16193422",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-16-monthly-baskets-of-hope-volunteers-f08ec6.md",
-      "chronological_rank": 44,
+      "chronological_rank": 45,
       "routine_schedule_occurrence": false
     },
     {
@@ -24469,7 +24573,7 @@
       "planning_center_event_time_id": "16193422",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-20-monthly-baskets-of-hope-volunteers-561fe2.md",
-      "chronological_rank": 70,
+      "chronological_rank": 71,
       "routine_schedule_occurrence": false
     },
     {
@@ -24538,7 +24642,7 @@
       "planning_center_event_time_id": "16193422",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-17-monthly-baskets-of-hope-volunteers-dc8320.md",
-      "chronological_rank": 91,
+      "chronological_rank": 92,
       "routine_schedule_occurrence": false
     },
     {
@@ -24683,7 +24787,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-07-pickleball-a6bc8a.md",
-      "chronological_rank": 62,
+      "chronological_rank": 63,
       "routine_schedule_occurrence": false
     },
     {
@@ -24760,7 +24864,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-14-pickleball-63a83d.md",
-      "chronological_rank": 66,
+      "chronological_rank": 67,
       "routine_schedule_occurrence": false
     },
     {
@@ -24837,7 +24941,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-21-pickleball-6008f4.md",
-      "chronological_rank": 72,
+      "chronological_rank": 73,
       "routine_schedule_occurrence": false
     },
     {
@@ -24914,7 +25018,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-04-pickleball-64c442.md",
-      "chronological_rank": 82,
+      "chronological_rank": 83,
       "routine_schedule_occurrence": false
     },
     {
@@ -24991,7 +25095,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-11-pickleball-2a4a7c.md",
-      "chronological_rank": 87,
+      "chronological_rank": 88,
       "routine_schedule_occurrence": false
     },
     {
@@ -25068,7 +25172,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-18-pickleball-5d13c4.md",
-      "chronological_rank": 93,
+      "chronological_rank": 94,
       "routine_schedule_occurrence": false
     },
     {
@@ -25145,7 +25249,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-25-pickleball-3d291e.md",
-      "chronological_rank": 97,
+      "chronological_rank": 98,
       "routine_schedule_occurrence": false
     },
     {
@@ -25222,84 +25326,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-03-04-pickleball-dbc953.md",
-      "chronological_rank": 101,
-      "routine_schedule_occurrence": false
-    },
-    {
-      "id": "events.live.event-8cd8490ccefee25a",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2027-03-11-pickleball-fee25a.md",
-      "title": "Pickleball",
-      "summary": "Darrel Schick",
-      "content": "Darrel Schick",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "general_event",
-        "Pickleball",
-        "Pickle ball"
-      ],
-      "search_terms": [
-        "Pickleball",
-        "When is Pickleball?",
-        "Tell me about Pickleball",
-        "What are the details for Pickleball?",
-        "What is the menu for Pickleball?",
-        "How do I register for Pickleball?",
-        "Does Urbancrest have Pickleball?",
-        "Does Urbancrest offer Pickleball?",
-        "Do you have Pickleball?",
-        "Do you offer Pickleball?",
-        "Is there Pickleball at Urbancrest?",
-        "Can I participate in Pickleball?",
-        "Can I play Pickleball at Urbancrest?",
-        "Pickle ball",
-        "Does Urbancrest have Pickle ball?",
-        "Does Urbancrest offer Pickle ball?",
-        "Do you have Pickle ball?",
-        "Do you offer Pickle ball?",
-        "Is there Pickle ball at Urbancrest?",
-        "Can I participate in Pickle ball?",
-        "Can I play Pickle ball at Urbancrest?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-8cd8490ccefee25a",
-      "activity_aliases": [
-        "Pickleball",
-        "Pickle ball"
-      ],
-      "event_category": "general_event",
-      "event_start": "2027-03-11T18:00:00-05:00",
-      "event_end": "2027-03-11T20:00:00-05:00",
-      "sort_start_utc": "2027-03-11T23:00:00Z",
-      "sort_end_utc": "2027-03-12T01:00:00Z",
-      "display_when": "Thursday, March 11, 2027, 6 PM to 8 PM",
-      "all_day": false,
-      "planning_center_event_instance_id": "239078209",
-      "planning_center_event_time_id": "33269493",
-      "registration_available": false,
-      "knowledge_file": "knowledge/events/generated/2027-03-11-pickleball-fee25a.md",
-      "chronological_rank": 106,
+      "chronological_rank": 102,
       "routine_schedule_occurrence": false
     },
     {
@@ -25822,7 +25849,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-13-sunday-morning-services-11-00-am-service-6c8860.md",
-      "chronological_rank": 43,
+      "chronological_rank": 44,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -25895,7 +25922,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-20-sunday-morning-services-11-00-am-service-8ed068.md",
-      "chronological_rank": 53,
+      "chronological_rank": 54,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -25968,7 +25995,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-27-sunday-morning-services-11-00-am-service-003b62.md",
-      "chronological_rank": 56,
+      "chronological_rank": 57,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26041,7 +26068,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-03-sunday-morning-services-11-00-am-service-9b4cbb.md",
-      "chronological_rank": 60,
+      "chronological_rank": 61,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26114,7 +26141,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-10-sunday-morning-services-11-00-am-service-73fa11.md",
-      "chronological_rank": 64,
+      "chronological_rank": 65,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26187,7 +26214,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-17-sunday-morning-services-11-00-am-service-f8161b.md",
-      "chronological_rank": 69,
+      "chronological_rank": 70,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26260,7 +26287,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-24-sunday-morning-services-11-00-am-service-8af7a9.md",
-      "chronological_rank": 76,
+      "chronological_rank": 77,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26333,7 +26360,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-31-sunday-morning-services-11-00-am-service-113011.md",
-      "chronological_rank": 80,
+      "chronological_rank": 81,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26406,7 +26433,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-07-sunday-morning-services-11-00-am-service-281dc7.md",
-      "chronological_rank": 85,
+      "chronological_rank": 86,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26479,7 +26506,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-14-sunday-morning-services-11-00-am-service-77215c.md",
-      "chronological_rank": 90,
+      "chronological_rank": 91,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26552,7 +26579,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-21-sunday-morning-services-11-00-am-service-d9642b.md",
-      "chronological_rank": 95,
+      "chronological_rank": 96,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26625,7 +26652,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-28-sunday-morning-services-11-00-am-service-a03c95.md",
-      "chronological_rank": 99,
+      "chronological_rank": 100,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26698,7 +26725,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-03-07-sunday-morning-services-11-00-am-service-5c5096.md",
-      "chronological_rank": 104,
+      "chronological_rank": 105,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27209,7 +27236,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-13-sunday-morning-services-9-30-am-service-df44e2.md",
-      "chronological_rank": 42,
+      "chronological_rank": 43,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27282,7 +27309,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-20-sunday-morning-services-9-30-am-service-1bfe59.md",
-      "chronological_rank": 52,
+      "chronological_rank": 53,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27355,7 +27382,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-27-sunday-morning-services-9-30-am-service-5a6936.md",
-      "chronological_rank": 55,
+      "chronological_rank": 56,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27428,7 +27455,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-03-sunday-morning-services-9-30-am-service-2e7a40.md",
-      "chronological_rank": 59,
+      "chronological_rank": 60,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27501,7 +27528,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-10-sunday-morning-services-9-30-am-service-0c0f91.md",
-      "chronological_rank": 63,
+      "chronological_rank": 64,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27574,7 +27601,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-17-sunday-morning-services-9-30-am-service-2f9d83.md",
-      "chronological_rank": 68,
+      "chronological_rank": 69,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27647,7 +27674,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-24-sunday-morning-services-9-30-am-service-aa02da.md",
-      "chronological_rank": 75,
+      "chronological_rank": 76,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27720,7 +27747,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-31-sunday-morning-services-9-30-am-service-60da2d.md",
-      "chronological_rank": 79,
+      "chronological_rank": 80,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27793,7 +27820,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-07-sunday-morning-services-9-30-am-service-27d598.md",
-      "chronological_rank": 84,
+      "chronological_rank": 85,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27866,7 +27893,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-14-sunday-morning-services-9-30-am-service-f8a787.md",
-      "chronological_rank": 89,
+      "chronological_rank": 90,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27939,7 +27966,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-21-sunday-morning-services-9-30-am-service-8771ed.md",
-      "chronological_rank": 94,
+      "chronological_rank": 95,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -28012,7 +28039,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-28-sunday-morning-services-9-30-am-service-baf9ef.md",
-      "chronological_rank": 98,
+      "chronological_rank": 99,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -28085,7 +28112,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-03-07-sunday-morning-services-9-30-am-service-8998da.md",
-      "chronological_rank": 103,
+      "chronological_rank": 104,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -28098,8 +28125,8 @@
       "record_type": "small_group",
       "path": "knowledge/small-groups/generated/national-collection-week-occ-volunteer-signup-ce52d7.md",
       "title": "National Collection Week (OCC) Volunteer Signup",
-      "summary": "This year, Urbancrest is an official collection center for Operation Christmas Child!...",
-      "content": "This year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24.\n\nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule.\n\nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at jprows@urbancrest.church.\n\nUrbancrest National Collection Week Schedule:\n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from 2:30-5:30 PM\n– Monday, November 24 from 8:00-11:00 AM\n\nFor information on Urbancrest's church-wide packing party on November 15, please click THIS LINK ( https://urbancrest.churchcenter.com/registrations/events/3219721 ).\n\nDetails:\nThis year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24. \nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule. \nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at \njprows@urbancrest.church\n.\nUrbancrest National Collection Week Schedule:\n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from...",
+      "summary": "Urbancrest is an official collection center for Operation Christmas Child!...",
+      "content": "Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 16-23.\n\nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule.\n\nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at jprows@urbancrest.church\n\nUrbancrest National Collection Week Schedule:\n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from 2:30-5:30 PM\n– Monday, November 24 from 8:00-11:00 AM\nRegister: https://urbancrest.churchcenter.com/registrations/events/3959067\n\nDetails:\nUrbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 16-23. \nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule. \nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at jprows@urbancrest.church\nUrbancrest National Collection Week Schedule:\n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from 2:30-5:30 PM\n– Monday, November 24 from 8:00-11:00 AM\n\nUpcoming meetings:\nMonday, November 16, 2026 at 6 PM through Mon...",
       "priority": 20,
       "category": [
         "small_groups"
@@ -28121,7 +28148,7 @@
         "When does National Collection Week (OCC) Volunteer Signup meet?",
         "Tell me about National Collection Week (OCC) Volunteer Signup",
         "Details",
-        "Registration: https://urbancrest.churchcenter.com/registrations/events/3219721",
+        "Registration: https://urbancrest.churchcenter.com/registrations/events/3959067",
         "This small group schedule is synchronized automatically from Urbancrest's live calendar."
       ],
       "ministries": [
@@ -28156,11 +28183,11 @@
       "sort_start_utc": "2026-11-16T23:00:00Z",
       "sort_end_utc": "2026-11-23T16:00:00Z",
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "This year, Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 17-24. \nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule. \nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at \njprows@urbancrest.church\n.\nUrbancrest National Collection Week Schedule:\n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from 2:30-5:30 PM\n– Monday, November 24 from 8:00-11:00 AM\nFor information on Urbancrest's church-wide packing party on November 15, please click \nTHIS LINK\n.",
+      "details": "Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 16-23. \nOur church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule. \nWe hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at jprows@urbancrest.church\nUrbancrest National Collection Week Schedule:\n– Monday, November 17 from 6:00-8:00 PM\n– Tuesday, November 18 from 10:00 AM-12:00 PM\n– Wednesday, November 19 from 10:00 AM-12:00 PM\n– Thursday, November 20 from 6:00-8:00 PM\n– Friday, November 21 from 5:00-7:00 PM\n– Saturday, November 22 from 10:00 AM-12:00 PM\n– Sunday, November 23 from 2:30-5:30 PM\n– Monday, November 24 from 8:00-11:00 AM",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "239861554",
       "planning_center_event_time_id": "33406085",
-      "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3219721",
+      "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3959067",
       "knowledge_file": "knowledge/small-groups/generated/national-collection-week-occ-volunteer-signup-ce52d7.md",
       "supplemental_search_term_count": 3
     },
