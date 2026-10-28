@@ -1,8 +1,8 @@
-version: '1.9'
+version: '1.10'
 suite: general_retrieval_regressions
-last_updated: '2026-09-11'
-purpose: Guard against over-filtering natural-language questions while preserving the rule that priority alone cannot make a record eligible.
-
+last_updated: '2026-10-28'
+purpose: Guard against over-filtering natural-language questions while preserving
+  the rule that priority alone cannot make a record eligible.
 tests:
 - name: donuts are unavailable but alternatives are offered
   query: Do you have donuts?
@@ -10,7 +10,7 @@ tests:
     first_record_id: ministries.guest_services.donuts
     selected_record_count: 1
     answer_must_include:
-    - no
+    - false
     - coffee
     - tea
     - hot chocolate
@@ -18,7 +18,6 @@ tests:
     answer_must_not_include:
     - $1
     - suggested donation
-
 - name: coffee is free
   query: How much is coffee?
   expected:
@@ -29,7 +28,6 @@ tests:
     answer_must_not_include:
     - $1
     - suggested donation
-
 - name: refreshments are free
   query: Are refreshments free?
   expected:
@@ -45,7 +43,6 @@ tests:
     - staff_route
     - routing
     - registry
-
 - name: water is available free
   query: Do you have free water?
   expected:
@@ -54,7 +51,6 @@ tests:
     answer_must_include:
     - water
     - free
-
 - name: childcare routes to Urbancrest Kids
   query: Do you have Childcare?
   expected:
@@ -67,7 +63,6 @@ tests:
     must_not_select_record_types:
     - relationship
     - staff_route
-
 - name: broad Wednesday nights returns full weekly overview
   query: Wednesday Nights
   expected:
@@ -81,7 +76,6 @@ tests:
     - all currently listed upcoming dates
     retrieved_record_ids_exclude_prefixes:
     - events.live.
-
 - name: natural Wednesday night question returns full weekly overview
   query: What do you have on Wednesday nights?
   expected:
@@ -95,25 +89,21 @@ tests:
     - all currently listed upcoming dates
     retrieved_record_ids_exclude_prefixes:
     - events.live.
-
 - name: concise guest parking paraphrase
   query: Where do I park?
   expected:
     first_record_id: ministries.guest_services.parking
     selected_record_count: 1
-
 - name: concise online giving paraphrase
   query: How can I give?
   expected:
     first_record_id: next-steps.giving
     selected_record_count: 1
-
 - name: conversational livestream question
   query: Can I watch online?
   expected:
     first_record_id: ministries.worship.livestream
     selected_record_count: 1
-
 - name: church center lookup prefers answer article
   query: What is Church Center?
   expected:
@@ -122,9 +112,79 @@ tests:
     must_not_select_record_types:
     - registry
     - routing
-
 - name: unrelated priority must not qualify
   query: What do you know about purple llamas?
   expected:
     selected_record_count: 0
-    behavior: Do not select unrelated records merely because they have a priority value.
+    behavior: Do not select unrelated records merely because they have a priority
+      value.
+- name: 'Beyond Sunday: Beyond Sunday'
+  query: Beyond Sunday
+  expected:
+    first_record_id: resources.beyond-sunday
+    selected_record_count: 1
+    answer_must_include:
+    - Beyond Sunday
+    - Geoff Prows
+    - Darrel Schick
+    action_link_id: action_link.beyond_sunday
+    must_not_select_record_types:
+    - staff_route
+    - sermon
+    - event
+- name: 'Beyond Sunday: Does Urbancrest have a podcast?'
+  query: Does Urbancrest have a podcast?
+  expected:
+    first_record_id: resources.beyond-sunday
+    selected_record_count: 1
+    answer_must_include:
+    - Beyond Sunday
+    - Geoff Prows
+    - Darrel Schick
+    action_link_id: action_link.beyond_sunday
+    must_not_select_record_types:
+    - staff_route
+    - sermon
+    - event
+- name: 'Beyond Sunday: Where can I listen to Pastor Geoff''s podcast?'
+  query: Where can I listen to Pastor Geoff's podcast?
+  expected:
+    first_record_id: resources.beyond-sunday
+    selected_record_count: 1
+    answer_must_include:
+    - Beyond Sunday
+    - Geoff Prows
+    - Darrel Schick
+    action_link_id: action_link.beyond_sunday
+    must_not_select_record_types:
+    - staff_route
+    - sermon
+    - event
+- name: 'Beyond Sunday: Who hosts Beyond Sunday?'
+  query: Who hosts Beyond Sunday?
+  expected:
+    first_record_id: resources.beyond-sunday
+    selected_record_count: 1
+    answer_must_include:
+    - Beyond Sunday
+    - Geoff Prows
+    - Darrel Schick
+    action_link_id: action_link.beyond_sunday
+    must_not_select_record_types:
+    - staff_route
+    - sermon
+    - event
+- name: 'Beyond Sunday: Darrel Schick podcast'
+  query: Darrel Schick podcast
+  expected:
+    first_record_id: resources.beyond-sunday
+    selected_record_count: 1
+    answer_must_include:
+    - Beyond Sunday
+    - Geoff Prows
+    - Darrel Schick
+    action_link_id: action_link.beyond_sunday
+    must_not_select_record_types:
+    - staff_route
+    - sermon
+    - event

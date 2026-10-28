@@ -1,5 +1,5 @@
 version: '1.0'
-last_updated: '2026-10-13'
+last_updated: '2026-10-28'
 domain_rules:
   preferred_domain: urbancrest.church
   allowed_external_hosts:
@@ -11,6 +11,7 @@ domain_rules:
   - www.instagram.com
   - www.facebook.com
   - www.youtube.com
+  - open.spotify.com
   church_center_form_behavior: modal
 links:
   messages:
@@ -139,6 +140,14 @@ links:
     - rightnow_media_account_help
     priority: 100
     external: true
+  beyond_sunday:
+    label: Listen to Beyond Sunday on Spotify
+    url: https://open.spotify.com/show/2AlIHjMGr5menGl5RIha0D
+    intents:
+    - beyond_sunday
+    - urbancrest_podcast
+    priority: 100
+    external: true
   instagram:
     label: Follow Urbancrest on Instagram
     url: https://www.instagram.com/urbancrestchurch
@@ -201,6 +210,7 @@ links:
     - budget_access
     priority: 100
 selection_rules:
+- For Beyond Sunday or Urbancrest podcast questions, use the Beyond Sunday Spotify link. Do not substitute the sermon archive or general social media links.
 - When someone wants to share a public prayer request, link to the moderated Prayer Wall; for private pastoral follow-up, use the Connect Card.
 - Include one relevant action link at the end of an answer when it helps the user take a clear next step.
 - For directions or church-location questions, include both Google Maps and Apple Maps from the directions_maps bundle.
@@ -211,3 +221,4 @@ selection_rules:
 - For newsletter, email-update, or mailing-list questions, use the Newsletter Signup link.
 - For broad social media questions, include Instagram, Facebook, and YouTube from the social_media bundle. For a question about one specific platform, use only that platform's link.
 - Do not add an unrelated link merely because a link record matched one word in the question.
+
