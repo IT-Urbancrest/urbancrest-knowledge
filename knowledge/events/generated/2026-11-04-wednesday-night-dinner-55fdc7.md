@@ -35,8 +35,8 @@ event_start: "2026-11-04T17:30:00-05:00"
 event_end: "2026-11-04T18:15:00-05:00"
 sort_start_utc: "2026-11-04T22:30:00Z"
 sort_end_utc: "2026-11-04T23:15:00Z"
-chronological_rank: 7
-next_for_ministries: []
+chronological_rank: 4
+next_for_ministries: ["worship"]
 next_for_audiences: []
 all_day: false
 image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=6331144b83d6efc8d777db852d65aa8335ee50fe5620abc12539a8cb83b43ad6"
@@ -44,7 +44,7 @@ location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "230122715"
 planning_center_event_time_id: "31870601"
-last_generated: 2026-10-28T20:16:24.349610Z
+last_generated: 2026-10-29T00:58:35.823924Z
 ---
 
 # Wednesday Night Dinner

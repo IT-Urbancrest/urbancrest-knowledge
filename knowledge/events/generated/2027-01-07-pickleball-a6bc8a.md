@@ -35,13 +35,13 @@ event_start: "2027-01-07T18:00:00-05:00"
 event_end: "2027-01-07T20:00:00-05:00"
 sort_start_utc: "2027-01-07T23:00:00Z"
 sort_end_utc: "2027-01-08T01:00:00Z"
-chronological_rank: 61
+chronological_rank: 58
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
 planning_center_event_instance_id: "239078200"
 planning_center_event_time_id: "33269493"
-last_generated: 2026-10-28T20:16:24.349610Z
+last_generated: 2026-10-29T00:58:35.823924Z
 ---
 
 # Pickleball
