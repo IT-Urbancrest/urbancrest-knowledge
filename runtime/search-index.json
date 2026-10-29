@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-10-29T00:58:38.453745Z",
+  "generated_at": "2026-10-29T09:59:41.681933Z",
   "timezone": "America/New_York",
   "record_count": 499,
   "config": {
@@ -90,7 +90,7 @@
   },
   "freshness": {
     "calendar": {
-      "generated_at": "2026-10-29T00:58:36.864085Z",
+      "generated_at": "2026-10-29T09:59:40.108520Z",
       "max_age_hours": 48,
       "source_path": "registry/events-live.yaml",
       "heartbeat_field": "generated_at",
@@ -98,7 +98,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-10-29T00:58:35.823924Z",
+      "generated_at": "2026-10-29T09:59:39.079870Z",
       "max_age_hours": 48,
       "source_path": "registry/small-groups-live.yaml",
       "heartbeat_field": "generated_at",
@@ -5638,7 +5638,7 @@
       "path": "knowledge/events/generated/2026-11-13-youth-fall-retreat-99f87a.md",
       "title": "Youth Fall Retreat",
       "summary": "November 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area of our lives!",
-      "content": "November 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area of our lives!\nRegister: https://urbancrest.churchcenter.com/registrations/events/3790005\n\nDetails:\nNovember 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area of our lives!\n\nRegistration is open.",
+      "content": "November 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area of our lives!\n\nDetails:\nNovember 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area of our lives!\n\nRegistration is not currently open.",
       "priority": 100,
       "category": [
         "events",
@@ -5699,14 +5699,14 @@
         "latitude": "39.113261",
         "longitude": "-83.378668"
       },
-      "details": "November 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area of our lives!\n\nRegistration is open.",
+      "details": "November 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area of our lives!\n\nRegistration is not currently open.",
       "details_source": "planning_center_registrations_api",
       "planning_center_event_instance_id": "230487173",
       "planning_center_event_time_id": "31924846",
       "registration_url": "https://urbancrest.churchcenter.com/registrations/events/3790005/reservations/new",
       "registration_available": true,
-      "registration_open": true,
-      "registration_closed": false,
+      "registration_open": false,
+      "registration_closed": true,
       "registration_open_at": "2026-07-31T14:40:11Z",
       "registration_close_at": "2026-10-29T04:00:00Z",
       "registration_options": [
@@ -5734,7 +5734,6 @@
       "event_source": "merged",
       "event_sources": [
         "planning_center_ical",
-        "planning_center_calendar_api",
         "planning_center_registrations_api"
       ],
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1789012800&key=uploads%2Fevent%2Flogo%2F3790005%2Fimage-1785514673084.jpeg&thumb=720x405%23&version=1788966560&signature=9f081450a610ae3835f39bd2f44cc9d3a935c95752ac1771b37415322cc3ab31",

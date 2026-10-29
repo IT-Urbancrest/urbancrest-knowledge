@@ -39,13 +39,11 @@ chronological_rank: 13
 next_for_ministries: ["students"]
 next_for_audiences: ["students"]
 all_day: true
-registration_url: "https://urbancrest.churchcenter.com/registrations/events/3790005"
 image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1789012800&key=uploads%2Fevent%2Flogo%2F3790005%2Fimage-1785514673084.jpeg&thumb=720x405%23&version=1788966560&signature=9f081450a610ae3835f39bd2f44cc9d3a935c95752ac1771b37415322cc3ab31"
 location: "Butler Springs Christian Camp - 3701 State Rte 41\nHillsboro, OH 45133"
-details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "230487173"
 planning_center_event_time_id: "31924846"
-last_generated: 2026-10-29T00:58:35.823924Z
+last_generated: 2026-10-29T09:59:39.079870Z
 ---
 
 # Youth Fall Retreat
@@ -58,13 +56,6 @@ November 13-15, 2026 is a weekend you will not forget!
 Hillsboro, OH 45133
 
 November 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area of our lives!
-Register: https://urbancrest.churchcenter.com/registrations/events/3790005
-
-## Details
-
-November 13-15, 2026 is a weekend you will not forget! Join us as we take every thought captive in every area of our lives!
-
-**Registration:** https://urbancrest.churchcenter.com/registrations/events/3790005
 
 **Event image:** https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1789012800&key=uploads%2Fevent%2Flogo%2F3790005%2Fimage-1785514673084.jpeg&thumb=720x405%23&version=1788966560&signature=9f081450a610ae3835f39bd2f44cc9d3a935c95752ac1771b37415322cc3ab31
 
