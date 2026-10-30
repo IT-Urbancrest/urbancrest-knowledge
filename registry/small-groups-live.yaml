@@ -1,11 +1,11 @@
 version: 1.4.3
-generated_at: '2026-10-30T10:02:56.271853Z'
+generated_at: '2026-10-30T18:01:28.037239Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api
 api_enrichment:
   enabled: true
-  target_instance_count: 337
-  matched_instance_count: 337
+  target_instance_count: 334
+  matched_instance_count: 334
   page_count: 10
   api_version: '2026-06-22'
 source_of_truth_for_small_group_intents: true
@@ -15,7 +15,7 @@ lookahead_days: 365
 max_series: 100
 max_occurrences_per_series: 12
 group_count: 3
-source_occurrence_count: 105
+source_occurrence_count: 104
 groups:
 - id: group-95131c638f1a4d4c
   source_uids:
@@ -164,7 +164,6 @@ groups:
   - ET-25282532-171164710@resources.planningcenteronline.com
   - ET-25282532-171691161@resources.planningcenteronline.com
   - ET-25282532-172353751@resources.planningcenteronline.com
-  - ET-25282532-172879412@resources.planningcenteronline.com
   - ET-25282532-173254599@resources.planningcenteronline.com
   - ET-25282532-173816325@resources.planningcenteronline.com
   - ET-25282532-174392997@resources.planningcenteronline.com
@@ -248,12 +247,6 @@ groups:
     sort_end_utc: '2026-11-19T01:30:00Z'
     display_when: Wednesday, November 18, 2026, 6:30 PM to 8:30 PM
     all_day: false
-  - start: '2026-11-25T18:30:00-05:00'
-    end: '2026-11-25T20:30:00-05:00'
-    sort_start_utc: '2026-11-25T23:30:00Z'
-    sort_end_utc: '2026-11-26T01:30:00Z'
-    display_when: Wednesday, November 25, 2026, 6:30 PM to 8:30 PM
-    all_day: false
   - start: '2026-12-02T18:30:00-05:00'
     end: '2026-12-02T20:30:00-05:00'
     sort_start_utc: '2026-12-02T23:30:00Z'
@@ -302,7 +295,13 @@ groups:
     sort_end_utc: '2027-01-21T01:30:00Z'
     display_when: Wednesday, January 20, 2027, 6:30 PM to 8:30 PM
     all_day: false
-  meeting_count_in_window: 52
+  - start: '2027-01-27T18:30:00-05:00'
+    end: '2027-01-27T20:30:00-05:00'
+    sort_start_utc: '2027-01-27T23:30:00Z'
+    sort_end_utc: '2027-01-28T01:30:00Z'
+    display_when: Wednesday, January 27, 2027, 6:30 PM to 8:30 PM
+    all_day: false
+  meeting_count_in_window: 51
   knowledge_file: knowledge/small-groups/generated/urbancrest-student-ministry-6b61fc.md
 - id: group-62598251f7ce52d7
   source_uids:

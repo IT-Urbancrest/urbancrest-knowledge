@@ -16,7 +16,7 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-10-30T10:02:57.426162Z
+last_generated: 2026-10-30T18:01:28.839918Z
 ---
 
 # Upcoming Events
@@ -274,16 +274,6 @@ Detailed event file: `knowledge/events/generated/2026-11-22-sunday-morning-servi
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-11-22-sunday-morning-services-11-00-am-service-774f3d.md`
-
-## Wednesday Night Dinner
-
-**Category:** Churchwide Program
-
-**When:** Wednesday, November 25, 2026, 5:30 PM to 6:15 PM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-11-25-wednesday-night-dinner-77d08c.md`
 
 ## Sunday Morning Services: 9:30 AM Service
 
@@ -1097,6 +1087,14 @@ Detailed event file: `knowledge/events/generated/2027-03-17-monthly-baskets-of-h
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2027-03-17-wednesday-night-dinner-ab6c0d.md`
+
+## Pickleball
+
+**Category:** General Event
+
+**When:** Thursday, March 18, 2027, 6 PM to 8 PM
+
+Detailed event file: `knowledge/events/generated/2027-03-18-pickleball-3a28c7.md`
 
 ## Wednesday Night Dinner
 
