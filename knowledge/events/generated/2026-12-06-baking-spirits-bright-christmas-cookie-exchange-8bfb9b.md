@@ -45,7 +45,7 @@ location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "241225873"
 planning_center_event_time_id: "33644743"
-last_generated: 2026-10-30T01:01:03.906343Z
+last_generated: 2026-10-30T10:02:56.271853Z
 ---
 
 # Baking Spirits Bright: Christmas Cookie Exchange
