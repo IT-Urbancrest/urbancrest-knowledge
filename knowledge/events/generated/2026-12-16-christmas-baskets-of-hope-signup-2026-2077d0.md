@@ -46,7 +46,7 @@ location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "240710783"
 planning_center_event_time_id: "33549745"
-last_generated: 2026-10-30T18:01:28.037239Z
+last_generated: 2026-10-30T22:21:43.896373Z
 ---
 
 # Christmas Baskets of Hope Signup 2026
