@@ -42,7 +42,7 @@ all_day: false
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "239644661"
 planning_center_event_time_id: "33357839"
-last_generated: 2026-10-31T05:43:41.451809Z
+last_generated: 2026-10-31T12:33:06.971209Z
 ---
 
 # Christmas Choir Rehearsal
