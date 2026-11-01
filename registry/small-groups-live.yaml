@@ -1,5 +1,5 @@
 version: 1.4.3
-generated_at: '2026-11-01T00:08:38.155577Z'
+generated_at: '2026-11-01T06:07:54.051365Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api
 api_enrichment:
@@ -217,7 +217,7 @@ groups:
   description: Wednesday gathering for students in grades 7-12 consisting of teaching, worship, and small group time.
   planning_center_event_instance_id: '171164710'
   planning_center_event_time_id: '25282532'
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2F6pbrc92y0shnmekrwvuppv5d9k1y&thumb=960x540%23&signature=a4befd900e10c6f87ee024ba171af501d62a5fad1d1645bf535f6ae479d22d2b
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1796104799&key=uploads%2F128485%2F6pbrc92y0shnmekrwvuppv5d9k1y&thumb=960x540%23&signature=3a86582e2a2310034155cb2311c7aeb56a714be0219dd9d34c232481ba0bfca1
   ministries:
   - students
   - worship

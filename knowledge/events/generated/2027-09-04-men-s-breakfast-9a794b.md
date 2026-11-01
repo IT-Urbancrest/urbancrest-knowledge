@@ -39,11 +39,11 @@ chronological_rank: 141
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
-image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=a34fd5b0ee03cb689e8d769fb652d593820b13d085b3dc27ce1d57b862d0a8fd"
+image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1796104799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=0f6e211ca2df711e0dd5e733e9d2172fa795ca36c0e4411d2c0d1a01aff7a8ba"
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "198718400"
 planning_center_event_time_id: "30270334"
-last_generated: 2026-11-01T00:08:38.155577Z
+last_generated: 2026-11-01T06:07:54.051365Z
 ---
 
 # Men's Breakfast
@@ -56,6 +56,6 @@ Join us on the first Saturday of each month as the Legacy Builders host a Men's 
 
 Join us on the first Saturday of each month as the Legacy Builders host a Men's Breakfast. 8:00 AM in the gymnasium at Urbancrest
 
-**Event image:** https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1793509199&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=a34fd5b0ee03cb689e8d769fb652d593820b13d085b3dc27ce1d57b862d0a8fd
+**Event image:** https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1796104799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=0f6e211ca2df711e0dd5e733e9d2172fa795ca36c0e4411d2c0d1a01aff7a8ba
 
 This information is synchronized automatically from Urbancrest's live calendar.
