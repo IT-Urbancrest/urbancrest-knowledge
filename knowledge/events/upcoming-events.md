@@ -16,23 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-11-01T19:41:41.068577Z
+last_generated: 2026-11-02T00:45:53.415861Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## Annual Business Meeting
-
-**Category:** Ministry Event
-
-**When:** Sunday, November 1, 2026, 6 PM to 7 PM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-11-01-annual-business-meeting-8b2a4e.md`
 
 ## Wednesday Night Dinner
 
@@ -1105,6 +1095,14 @@ Detailed event file: `knowledge/events/generated/2027-03-21-sunday-morning-servi
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2027-03-24-wednesday-night-dinner-46db45.md`
+
+## Pickleball
+
+**Category:** General Event
+
+**When:** Thursday, March 25, 2027, 6 PM to 8 PM
+
+Detailed event file: `knowledge/events/generated/2027-03-25-pickleball-add5e5.md`
 
 ## Wednesday Night Dinner
 
