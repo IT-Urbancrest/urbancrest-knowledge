@@ -16,24 +16,24 @@ tags: [small_groups, groups, calendar, recurring]
 resources:
   - small_groups.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-11-03T06:50:00.410300Z
+last_generated: 2026-11-03T17:04:06.286790Z
 ---
 
 # Upcoming Small Groups
 
 Each recurring Small Group appears once with its next meeting and future schedule.
 
-## Pursuit - Small Group
-
-**Next meeting:** Tuesday, November 3, 2026, 10:30 AM to 12 PM
-
-Detailed group file: `knowledge/small-groups/generated/pursuit-small-group-1a4d4c.md`
-
 ## Urbancrest Student Ministry
 
 **Next meeting:** Wednesday, November 4, 2026, 6:30 PM to 8:30 PM
 
 Detailed group file: `knowledge/small-groups/generated/urbancrest-student-ministry-6b61fc.md`
+
+## Pursuit - Small Group
+
+**Next meeting:** Tuesday, November 10, 2026, 10:30 AM to 12 PM
+
+Detailed group file: `knowledge/small-groups/generated/pursuit-small-group-1a4d4c.md`
 
 ## National Collection Week (OCC) Volunteer Signup
 

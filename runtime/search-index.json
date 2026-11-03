@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-11-03T06:50:03.183557Z",
+  "generated_at": "2026-11-03T17:04:08.431124Z",
   "timezone": "America/New_York",
   "record_count": 499,
   "config": {
@@ -90,7 +90,7 @@
   },
   "freshness": {
     "calendar": {
-      "generated_at": "2026-11-03T06:50:01.675748Z",
+      "generated_at": "2026-11-03T17:04:07.321932Z",
       "max_age_hours": 48,
       "source_path": "registry/events-live.yaml",
       "heartbeat_field": "generated_at",
@@ -98,7 +98,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-11-03T06:50:00.410300Z",
+      "generated_at": "2026-11-03T17:04:06.286790Z",
       "max_age_hours": 48,
       "source_path": "registry/small-groups-live.yaml",
       "heartbeat_field": "generated_at",
@@ -28173,7 +28173,7 @@
       "path": "knowledge/small-groups/generated/pursuit-small-group-1a4d4c.md",
       "title": "Pursuit - Small Group",
       "summary": "Bob Woods",
-      "content": "Bob Woods\n\nUpcoming meetings:\nTuesday, November 3, 2026, 10:30 AM to 12 PM\nTuesday, November 10, 2026, 10:30 AM to 12 PM\nTuesday, November 17, 2026, 10:30 AM to 12 PM\nTuesday, November 24, 2026, 10:30 AM to 12 PM\nTuesday, December 1, 2026, 10:30 AM to 12 PM\nTuesday, December 8, 2026, 10:30 AM to 12 PM\nTuesday, December 15, 2026, 10:30 AM to 12 PM\nTuesday, December 22, 2026, 10:30 AM to 12 PM\nTuesday, December 29, 2026, 10:30 AM to 12 PM\nTuesday, January 5, 2027, 10:30 AM to 12 PM\nTuesday, January 12, 2027, 10:30 AM to 12 PM\nTuesday, January 19, 2027, 10:30 AM to 12 PM",
+      "content": "Bob Woods\n\nUpcoming meetings:\nTuesday, November 10, 2026, 10:30 AM to 12 PM\nTuesday, November 17, 2026, 10:30 AM to 12 PM\nTuesday, November 24, 2026, 10:30 AM to 12 PM\nTuesday, December 1, 2026, 10:30 AM to 12 PM\nTuesday, December 8, 2026, 10:30 AM to 12 PM\nTuesday, December 15, 2026, 10:30 AM to 12 PM\nTuesday, December 22, 2026, 10:30 AM to 12 PM\nTuesday, December 29, 2026, 10:30 AM to 12 PM\nTuesday, January 5, 2027, 10:30 AM to 12 PM\nTuesday, January 12, 2027, 10:30 AM to 12 PM\nTuesday, January 19, 2027, 10:30 AM to 12 PM\nTuesday, January 26, 2027, 10:30 AM to 12 PM",
       "priority": 20,
       "category": [
         "small_groups"
@@ -28204,22 +28204,14 @@
       "resources": [],
       "group_id": "group-95131c638f1a4d4c",
       "next_meeting": {
-        "start": "2026-11-03T10:30:00-05:00",
-        "end": "2026-11-03T12:00:00-05:00",
-        "sort_start_utc": "2026-11-03T15:30:00Z",
-        "sort_end_utc": "2026-11-03T17:00:00Z",
-        "display_when": "Tuesday, November 3, 2026, 10:30 AM to 12 PM",
+        "start": "2026-11-10T10:30:00-05:00",
+        "end": "2026-11-10T12:00:00-05:00",
+        "sort_start_utc": "2026-11-10T15:30:00Z",
+        "sort_end_utc": "2026-11-10T17:00:00Z",
+        "display_when": "Tuesday, November 10, 2026, 10:30 AM to 12 PM",
         "all_day": false
       },
       "future_meetings": [
-        {
-          "start": "2026-11-03T10:30:00-05:00",
-          "end": "2026-11-03T12:00:00-05:00",
-          "sort_start_utc": "2026-11-03T15:30:00Z",
-          "sort_end_utc": "2026-11-03T17:00:00Z",
-          "display_when": "Tuesday, November 3, 2026, 10:30 AM to 12 PM",
-          "all_day": false
-        },
         {
           "start": "2026-11-10T10:30:00-05:00",
           "end": "2026-11-10T12:00:00-05:00",
@@ -28307,11 +28299,19 @@
           "sort_end_utc": "2027-01-19T17:00:00Z",
           "display_when": "Tuesday, January 19, 2027, 10:30 AM to 12 PM",
           "all_day": false
+        },
+        {
+          "start": "2027-01-26T10:30:00-05:00",
+          "end": "2027-01-26T12:00:00-05:00",
+          "sort_start_utc": "2027-01-26T15:30:00Z",
+          "sort_end_utc": "2027-01-26T17:00:00Z",
+          "display_when": "Tuesday, January 26, 2027, 10:30 AM to 12 PM",
+          "all_day": false
         }
       ],
-      "sort_start_utc": "2026-11-03T15:30:00Z",
-      "sort_end_utc": "2026-11-03T17:00:00Z",
-      "planning_center_event_instance_id": "239691733",
+      "sort_start_utc": "2026-11-10T15:30:00Z",
+      "sort_end_utc": "2026-11-10T17:00:00Z",
+      "planning_center_event_instance_id": "239691734",
       "planning_center_event_time_id": "33366261",
       "knowledge_file": "knowledge/small-groups/generated/pursuit-small-group-1a4d4c.md"
     },
