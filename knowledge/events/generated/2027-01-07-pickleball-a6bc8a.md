@@ -41,7 +41,7 @@ next_for_audiences: []
 all_day: false
 planning_center_event_instance_id: "239078200"
 planning_center_event_time_id: "33269493"
-last_generated: 2026-11-04T06:24:57.876736Z
+last_generated: 2026-11-04T17:16:07.167681Z
 ---
 
 # Pickleball
