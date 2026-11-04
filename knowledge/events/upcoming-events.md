@@ -16,23 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-11-04T17:16:08.329984Z
+last_generated: 2026-11-04T23:41:00.997494Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## Wednesday Night Dinner
-
-**Category:** Churchwide Program
-
-**When:** Wednesday, November 4, 2026, 5:30 PM to 6:15 PM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-11-04-wednesday-night-dinner-55fdc7.md`
 
 ## Awana 2026-2027
 
@@ -1095,6 +1085,14 @@ Detailed event file: `knowledge/events/generated/2027-03-21-sunday-morning-servi
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2027-03-24-wednesday-night-dinner-46db45.md`
+
+## Pickleball
+
+**Category:** General Event
+
+**When:** Thursday, March 25, 2027, 6 PM to 8 PM
+
+Detailed event file: `knowledge/events/generated/2027-03-25-pickleball-add5e5.md`
 
 ## Wednesday Night Dinner
 

@@ -35,14 +35,14 @@ event_start: "2026-12-19T09:30:00-05:00"
 event_end: "2026-12-19T11:30:00-05:00"
 sort_start_utc: "2026-12-19T14:30:00Z"
 sort_end_utc: "2026-12-19T16:30:00Z"
-chronological_rank: 42
+chronological_rank: 41
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "239644840"
 planning_center_event_time_id: "33357938"
-last_generated: 2026-11-04T17:16:07.167681Z
+last_generated: 2026-11-04T23:40:59.777360Z
 ---
 
 # Christmas Worship Rehearsal
