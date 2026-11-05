@@ -35,7 +35,7 @@ event_start: "2026-11-18T17:30:00-05:00"
 event_end: "2026-11-18T19:00:00-05:00"
 sort_start_utc: "2026-11-18T22:30:00Z"
 sort_end_utc: "2026-11-19T00:00:00Z"
-chronological_rank: 13
+chronological_rank: 12
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
@@ -45,7 +45,7 @@ location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "240710463"
 planning_center_event_time_id: "33549672"
-last_generated: 2026-11-05T17:25:25.988801Z
+last_generated: 2026-11-05T23:38:56.123699Z
 ---
 
 # Thanksgiving Baskets of Hope Signup

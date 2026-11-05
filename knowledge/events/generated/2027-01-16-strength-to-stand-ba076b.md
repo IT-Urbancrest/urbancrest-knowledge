@@ -35,7 +35,7 @@ event_start: "2027-01-16"
 event_end: "2027-01-19"
 sort_start_utc: "2027-01-16T05:00:00Z"
 sort_end_utc: "2027-01-19T05:00:00Z"
-chronological_rank: 57
+chronological_rank: 56
 next_for_ministries: []
 next_for_audiences: []
 all_day: true
@@ -45,7 +45,7 @@ location: "LaConte Center - 2986 Teaster Ln\nPigeon Forge, TN 37863"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "229691378"
 planning_center_event_time_id: "31797247"
-last_generated: 2026-11-05T17:25:25.988801Z
+last_generated: 2026-11-05T23:38:56.123699Z
 ---
 
 # Strength to Stand
