@@ -16,23 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-11-07T13:03:26.576235Z
+last_generated: 2026-11-07T19:26:24.106838Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## Men's Breakfast
-
-**Category:** Ministry Event
-
-**When:** Saturday, November 7, 2026, 8 AM to 10 AM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-11-07-men-s-breakfast-b349ea.md`
 
 ## Sunday Morning Services: 9:30 AM Service
 
@@ -1081,6 +1071,16 @@ Detailed event file: `knowledge/events/generated/2027-03-25-pickleball-add5e5.md
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2027-03-28-sunday-morning-services-9-30-am-service-633acb.md`
+
+## Sunday Morning Services: 11:00 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, March 28, 2027, 11 AM to 12:10 PM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2027-03-28-sunday-morning-services-11-00-am-service-38a6f5.md`
 
 ## Wednesday Night Dinner
 

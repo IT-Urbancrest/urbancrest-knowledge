@@ -35,14 +35,14 @@ event_start: "2027-03-17T16:30:00-04:00"
 event_end: "2027-03-17T18:30:00-04:00"
 sort_start_utc: "2027-03-17T20:30:00Z"
 sort_end_utc: "2027-03-17T22:30:00Z"
-chronological_rank: 98
+chronological_rank: 97
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "183117192"
 planning_center_event_time_id: "16193422"
-last_generated: 2026-11-07T13:03:25.755211Z
+last_generated: 2026-11-07T19:26:22.937056Z
 ---
 
 # Monthly Baskets of Hope - Volunteers
