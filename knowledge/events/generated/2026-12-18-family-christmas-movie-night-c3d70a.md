@@ -35,14 +35,14 @@ event_start: "2026-12-18T18:00:00-05:00"
 event_end: "2026-12-18T20:00:00-05:00"
 sort_start_utc: "2026-12-18T23:00:00Z"
 sort_end_utc: "2026-12-19T01:00:00Z"
-chronological_rank: 37
+chronological_rank: 35
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "237849087"
 planning_center_event_time_id: "33065181"
-last_generated: 2026-11-08T10:24:54.565075Z
+last_generated: 2026-11-08T17:56:31.764706Z
 ---
 
 # Family Christmas Movie Night

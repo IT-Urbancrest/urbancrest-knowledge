@@ -16,33 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-11-08T10:24:55.394249Z
+last_generated: 2026-11-08T17:56:32.855999Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## Sunday Morning Services: 9:30 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, November 8, 2026, 9:30 AM to 10:40 AM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-11-08-sunday-morning-services-9-30-am-service-5cd74e.md`
-
-## Sunday Morning Services: 11:00 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, November 8, 2026, 11 AM to 12:10 PM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-11-08-sunday-morning-services-11-00-am-service-7c486d.md`
 
 ## Wednesday Night Dinner
 
@@ -1072,6 +1052,16 @@ Detailed event file: `knowledge/events/generated/2027-03-25-pickleball-add5e5.md
 
 Detailed event file: `knowledge/events/generated/2027-03-28-sunday-morning-services-9-30-am-service-633acb.md`
 
+## Sunday Morning Services: 11:00 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, March 28, 2027, 11 AM to 12:10 PM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2027-03-28-sunday-morning-services-11-00-am-service-38a6f5.md`
+
 ## Wednesday Night Dinner
 
 **Category:** Churchwide Program
@@ -1081,6 +1071,14 @@ Detailed event file: `knowledge/events/generated/2027-03-28-sunday-morning-servi
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2027-03-31-wednesday-night-dinner-fc63a5.md`
+
+## Pickleball
+
+**Category:** General Event
+
+**When:** Thursday, April 1, 2027, 6 PM to 8 PM
+
+Detailed event file: `knowledge/events/generated/2027-04-01-pickleball-a6b78e.md`
 
 ## Men's Breakfast
 

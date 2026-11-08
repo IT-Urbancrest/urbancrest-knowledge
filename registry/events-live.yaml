@@ -1,11 +1,11 @@
 version: 1.5.4
-generated_at: '2026-11-08T10:24:55.394249Z'
+generated_at: '2026-11-08T17:56:32.855999Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
   enabled: true
-  target_instance_count: 283
-  matched_instance_count: 283
+  target_instance_count: 282
+  matched_instance_count: 282
   page_count: 9
   api_version: '2026-06-22'
 source_of_truth_for_calendar_intents: true
@@ -19,60 +19,6 @@ selection:
   policy: Protect all major and ministry events before lower-priority events.
 event_count: 150
 events:
-- id: event-37b1feeb225cd74e
-  uid: ET-9127131-171522666@resources.planningcenteronline.com
-  title: 'Sunday Morning Services: 9:30 AM Service'
-  summary: Join us in person or online!...
-  start: '2026-11-08T09:30:00-05:00'
-  end: '2026-11-08T10:40:00-05:00'
-  sort_start_utc: '2026-11-08T14:30:00Z'
-  sort_end_utc: '2026-11-08T15:40:00Z'
-  display_when: Sunday, November 8, 2026, 9:30 AM to 10:40 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
-    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
-  planning_center_event_instance_id: '171522666'
-  planning_center_event_time_id: '9127131'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 1
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-11-08-sunday-morning-services-9-30-am-service-5cd74e.md
-- id: event-35f1265bb37c486d
-  uid: ET-9127132-171522666@resources.planningcenteronline.com
-  title: 'Sunday Morning Services: 11:00 AM Service'
-  summary: Join us in person or online!...
-  start: '2026-11-08T11:00:00-05:00'
-  end: '2026-11-08T12:10:00-05:00'
-  sort_start_utc: '2026-11-08T16:00:00Z'
-  sort_end_utc: '2026-11-08T17:10:00Z'
-  display_when: Sunday, November 8, 2026, 11 AM to 12:10 PM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
-    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
-  planning_center_event_instance_id: '171522666'
-  planning_center_event_time_id: '9127132'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 2
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2026-11-08-sunday-morning-services-11-00-am-service-7c486d.md
 - id: event-4040df5714af1c1c
   uid: ET-31870601-230122716@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -134,7 +80,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 3
+  chronological_rank: 1
   next_for_ministries:
   - worship
   next_for_audiences: []
@@ -196,7 +142,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 4
+  chronological_rank: 2
   next_for_ministries:
   - kids
   - men
@@ -267,7 +213,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 5
+  chronological_rank: 3
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-12-christmas-choir-rehearsal-d5524e.md
@@ -298,7 +244,7 @@ events:
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 6
+  chronological_rank: 4
   next_for_ministries:
   - students
   next_for_audiences:
@@ -371,7 +317,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 7
+  chronological_rank: 5
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-14-occ-packing-party-47a8c2.md
@@ -398,7 +344,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 8
+  chronological_rank: 6
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-15-sunday-morning-services-9-30-am-service-add3db.md
@@ -425,7 +371,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 9
+  chronological_rank: 7
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-15-sunday-morning-services-11-00-am-service-a656ef.md
@@ -496,7 +442,7 @@ events:
     price_currency_symbol: $
     price_formatted: '0'
     maximum_capacity: 4
-    available_capacity: 4
+    available_capacity: 3
     at_maximum_capacity: false
     waitlist: false
   - id: '9049950'
@@ -546,7 +492,7 @@ events:
     price_currency_symbol: $
     price_formatted: '0'
     maximum_capacity: 4
-    available_capacity: 4
+    available_capacity: 3
     at_maximum_capacity: false
     waitlist: false
   - id: '9049955'
@@ -587,7 +533,7 @@ events:
   event_source: planning_center_registrations_api
   event_sources:
   - planning_center_registrations_api
-  chronological_rank: 10
+  chronological_rank: 8
 - id: event-c98c09871d7ab8b6
   uid: ET-16193422-172353747@resources.planningcenteronline.com
   title: Monthly Baskets of Hope - Volunteers
@@ -611,7 +557,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 11
+  chronological_rank: 9
   next_for_ministries: []
   next_for_audiences:
   - families
@@ -689,7 +635,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 12
+  chronological_rank: 10
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-18-thanksgiving-baskets-of-hope-signup-02bd65.md
@@ -795,7 +741,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 13
+  chronological_rank: 11
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-18-wednesday-night-dinner-cf53fb.md
@@ -866,7 +812,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 14
+  chronological_rank: 12
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-18-awana-2026-2027-743617.md
@@ -890,7 +836,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 15
+  chronological_rank: 13
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-21-christmas-choir-rehearsal-ffc2bd.md
@@ -917,7 +863,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 16
+  chronological_rank: 14
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-22-sunday-morning-services-9-30-am-service-3e574a.md
@@ -944,7 +890,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 17
+  chronological_rank: 15
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-22-sunday-morning-services-11-00-am-service-774f3d.md
@@ -971,7 +917,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 18
+  chronological_rank: 16
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-29-sunday-morning-services-9-30-am-service-f67a70.md
@@ -998,7 +944,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 19
+  chronological_rank: 17
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-11-29-sunday-morning-services-11-00-am-service-0d501a.md
@@ -1063,7 +1009,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 20
+  chronological_rank: 18
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-02-wednesday-night-dinner-809fdf.md
@@ -1134,7 +1080,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 21
+  chronological_rank: 19
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-02-awana-2026-2027-b78b32.md
@@ -1160,7 +1106,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 22
+  chronological_rank: 20
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-03-christmas-choir-rehearsal-6a6ebc.md
@@ -1188,7 +1134,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 23
+  chronological_rank: 21
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-05-men-s-breakfast-549ccc.md
@@ -1215,7 +1161,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 24
+  chronological_rank: 22
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-06-sunday-morning-services-9-30-am-service-ca6790.md
@@ -1242,7 +1188,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 25
+  chronological_rank: 23
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-06-sunday-morning-services-11-00-am-service-672784.md
@@ -1270,7 +1216,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 26
+  chronological_rank: 24
   next_for_ministries:
   - women
   next_for_audiences:
@@ -1323,7 +1269,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 27
+  chronological_rank: 25
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-06-baking-spirits-bright-christmas-cookie-exchange-8bfb9b.md
@@ -1423,7 +1369,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 28
+  chronological_rank: 26
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-09-wednesday-night-dinner-6f6ed6.md
@@ -1494,7 +1440,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 29
+  chronological_rank: 27
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-09-awana-2026-2027-983471.md
@@ -1520,7 +1466,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 30
+  chronological_rank: 28
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-10-christmas-choir-rehearsal-49f3f0.md
@@ -1547,7 +1493,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 31
+  chronological_rank: 29
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-13-sunday-morning-services-9-30-am-service-df44e2.md
@@ -1574,7 +1520,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 32
+  chronological_rank: 30
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-13-sunday-morning-services-11-00-am-service-6c8860.md
@@ -1601,7 +1547,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 33
+  chronological_rank: 31
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-16-monthly-baskets-of-hope-volunteers-f08ec6.md
@@ -1676,7 +1622,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 34
+  chronological_rank: 32
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-16-christmas-baskets-of-hope-signup-2026-2077d0.md
@@ -1782,7 +1728,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 35
+  chronological_rank: 33
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-16-wednesday-night-dinner-d35842.md
@@ -1853,7 +1799,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 36
+  chronological_rank: 34
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-16-awana-2026-2027-a96a01.md
@@ -1879,7 +1825,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 37
+  chronological_rank: 35
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-17-christmas-choir-rehearsal-2514c7.md
@@ -1905,7 +1851,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 38
+  chronological_rank: 36
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-18-family-christmas-movie-night-c3d70a.md
@@ -1931,7 +1877,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 39
+  chronological_rank: 37
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-19-christmas-worship-rehearsal-ddc31f.md
@@ -1963,7 +1909,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 40
+  chronological_rank: 38
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-20-christmas-choir-7f0fe3.md
@@ -2028,7 +1974,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 41
+  chronological_rank: 39
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-20-sunday-morning-services-9-30-am-service-1bfe59.md
@@ -2055,7 +2001,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 42
+  chronological_rank: 40
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-20-sunday-morning-services-11-00-am-service-8ed068.md
@@ -2120,7 +2066,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 43
+  chronological_rank: 41
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-23-wednesday-night-dinner-8995f6.md
@@ -2147,7 +2093,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 44
+  chronological_rank: 42
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-27-sunday-morning-services-9-30-am-service-5a6936.md
@@ -2174,7 +2120,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 45
+  chronological_rank: 43
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-27-sunday-morning-services-11-00-am-service-003b62.md
@@ -2239,7 +2185,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 46
+  chronological_rank: 44
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-30-wednesday-night-dinner-85ac1d.md
@@ -2267,7 +2213,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 47
+  chronological_rank: 45
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-02-men-s-breakfast-3d2c83.md
@@ -2294,7 +2240,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 48
+  chronological_rank: 46
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-03-sunday-morning-services-9-30-am-service-2e7a40.md
@@ -2321,7 +2267,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 49
+  chronological_rank: 47
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-03-sunday-morning-services-11-00-am-service-9b4cbb.md
@@ -2386,7 +2332,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 50
+  chronological_rank: 48
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-06-wednesday-night-dinner-cd86db.md
@@ -2411,7 +2357,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 51
+  chronological_rank: 49
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-07-pickleball-a6bc8a.md
@@ -2438,7 +2384,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 52
+  chronological_rank: 50
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-10-sunday-morning-services-9-30-am-service-0c0f91.md
@@ -2465,7 +2411,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 53
+  chronological_rank: 51
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-10-sunday-morning-services-11-00-am-service-73fa11.md
@@ -2530,7 +2476,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 54
+  chronological_rank: 52
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-13-wednesday-night-dinner-ed64ec.md
@@ -2555,7 +2501,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 55
+  chronological_rank: 53
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-14-pickleball-63a83d.md
@@ -2594,7 +2540,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 56
+  chronological_rank: 54
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-16-strength-to-stand-ba076b.md
@@ -2675,7 +2621,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 57
+  chronological_rank: 55
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-17-sunday-morning-services-9-30-am-service-2f9d83.md
@@ -2702,7 +2648,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 58
+  chronological_rank: 56
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-17-sunday-morning-services-11-00-am-service-f8161b.md
@@ -2729,7 +2675,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 59
+  chronological_rank: 57
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-20-monthly-baskets-of-hope-volunteers-561fe2.md
@@ -2794,7 +2740,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 60
+  chronological_rank: 58
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-20-wednesday-night-dinner-c3c878.md
@@ -2819,7 +2765,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 61
+  chronological_rank: 59
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-21-pickleball-6008f4.md
@@ -2882,7 +2828,7 @@ events:
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 62
+  chronological_rank: 60
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-22-men-s-summit-d35740.md
@@ -2940,7 +2886,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 63
+  chronological_rank: 61
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-24-kid-min-breakfast-c3ccc7.md
@@ -2967,7 +2913,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 64
+  chronological_rank: 62
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-24-sunday-morning-services-9-30-am-service-aa02da.md
@@ -2994,7 +2940,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 65
+  chronological_rank: 63
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-24-sunday-morning-services-11-00-am-service-8af7a9.md
@@ -3059,7 +3005,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 66
+  chronological_rank: 64
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-27-wednesday-night-dinner-e92330.md
@@ -3083,7 +3029,7 @@ events:
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 67
+  chronological_rank: 65
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-28-summit-gym-set-up-50aaa2.md
@@ -3110,7 +3056,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 68
+  chronological_rank: 66
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-31-sunday-morning-services-9-30-am-service-60da2d.md
@@ -3137,7 +3083,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 69
+  chronological_rank: 67
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-31-sunday-morning-services-11-00-am-service-113011.md
@@ -3202,7 +3148,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 70
+  chronological_rank: 68
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-03-wednesday-night-dinner-56372f.md
@@ -3227,7 +3173,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 71
+  chronological_rank: 69
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-04-pickleball-64c442.md
@@ -3255,7 +3201,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 72
+  chronological_rank: 70
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-06-men-s-breakfast-fa0b3e.md
@@ -3282,7 +3228,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 73
+  chronological_rank: 71
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-07-sunday-morning-services-9-30-am-service-27d598.md
@@ -3309,7 +3255,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 74
+  chronological_rank: 72
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-07-sunday-morning-services-11-00-am-service-281dc7.md
@@ -3374,7 +3320,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 75
+  chronological_rank: 73
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-10-wednesday-night-dinner-818c3d.md
@@ -3399,7 +3345,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 76
+  chronological_rank: 74
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-11-pickleball-2a4a7c.md
@@ -3424,7 +3370,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 77
+  chronological_rank: 75
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-14-kid-min-breakfast-76640c.md
@@ -3451,7 +3397,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 78
+  chronological_rank: 76
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-14-sunday-morning-services-9-30-am-service-f8a787.md
@@ -3478,7 +3424,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 79
+  chronological_rank: 77
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-14-sunday-morning-services-11-00-am-service-77215c.md
@@ -3505,7 +3451,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 80
+  chronological_rank: 78
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-17-monthly-baskets-of-hope-volunteers-dc8320.md
@@ -3570,7 +3516,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 81
+  chronological_rank: 79
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-17-wednesday-night-dinner-e2ee59.md
@@ -3595,7 +3541,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 82
+  chronological_rank: 80
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-18-pickleball-5d13c4.md
@@ -3622,7 +3568,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 83
+  chronological_rank: 81
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-21-sunday-morning-services-9-30-am-service-8771ed.md
@@ -3649,7 +3595,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 84
+  chronological_rank: 82
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-21-sunday-morning-services-11-00-am-service-d9642b.md
@@ -3714,7 +3660,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 85
+  chronological_rank: 83
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-24-wednesday-night-dinner-8f0b45.md
@@ -3739,7 +3685,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 86
+  chronological_rank: 84
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-25-pickleball-3d291e.md
@@ -3766,7 +3712,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 87
+  chronological_rank: 85
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-28-sunday-morning-services-9-30-am-service-baf9ef.md
@@ -3793,7 +3739,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 88
+  chronological_rank: 86
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-28-sunday-morning-services-11-00-am-service-a03c95.md
@@ -3858,7 +3804,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 89
+  chronological_rank: 87
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-03-wednesday-night-dinner-8fb3dd.md
@@ -3883,7 +3829,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 90
+  chronological_rank: 88
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-04-pickleball-dbc953.md
@@ -3911,7 +3857,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 91
+  chronological_rank: 89
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-06-men-s-breakfast-b236b5.md
@@ -3938,7 +3884,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 92
+  chronological_rank: 90
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-07-sunday-morning-services-9-30-am-service-8998da.md
@@ -3965,7 +3911,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 93
+  chronological_rank: 91
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-07-sunday-morning-services-11-00-am-service-5c5096.md
@@ -4030,7 +3976,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 94
+  chronological_rank: 92
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-10-wednesday-night-dinner-48508a.md
@@ -4055,7 +4001,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 95
+  chronological_rank: 93
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-11-pickleball-fee25a.md
@@ -4082,7 +4028,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 96
+  chronological_rank: 94
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-14-sunday-morning-services-9-30-am-service-50c32f.md
@@ -4109,7 +4055,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 97
+  chronological_rank: 95
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-14-sunday-morning-services-11-00-am-service-dc5658.md
@@ -4136,7 +4082,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 98
+  chronological_rank: 96
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-17-monthly-baskets-of-hope-volunteers-8a5217.md
@@ -4201,7 +4147,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 99
+  chronological_rank: 97
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-17-wednesday-night-dinner-ab6c0d.md
@@ -4226,7 +4172,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 100
+  chronological_rank: 98
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-18-pickleball-3a28c7.md
@@ -4253,7 +4199,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 101
+  chronological_rank: 99
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-21-sunday-morning-services-9-30-am-service-eeeced.md
@@ -4280,7 +4226,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 102
+  chronological_rank: 100
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-21-sunday-morning-services-11-00-am-service-cda776.md
@@ -4345,7 +4291,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 103
+  chronological_rank: 101
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-24-wednesday-night-dinner-46db45.md
@@ -4370,7 +4316,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 104
+  chronological_rank: 102
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-25-pickleball-add5e5.md
@@ -4397,10 +4343,37 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 105
+  chronological_rank: 103
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-28-sunday-morning-services-9-30-am-service-633acb.md
+- id: event-1a678a2a2838a6f5
+  uid: ET-9127132-184127575@resources.planningcenteronline.com
+  title: 'Sunday Morning Services: 11:00 AM Service'
+  summary: Join us in person or online!...
+  start: '2027-03-28T11:00:00-04:00'
+  end: '2027-03-28T12:10:00-04:00'
+  sort_start_utc: '2027-03-28T15:00:00Z'
+  sort_end_utc: '2027-03-28T16:10:00Z'
+  display_when: Sunday, March 28, 2027, 11 AM to 12:10 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
+    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
+  planning_center_event_instance_id: '184127575'
+  planning_center_event_time_id: '9127132'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 104
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-03-28-sunday-morning-services-11-00-am-service-38a6f5.md
 - id: event-522c842215fc63a5
   uid: ET-31870601-230122736@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -4462,10 +4435,35 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 106
+  chronological_rank: 105
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-31-wednesday-night-dinner-fc63a5.md
+- id: event-8751f55040a6b78e
+  uid: ET-33269493-239078212@resources.planningcenteronline.com
+  title: Pickleball
+  summary: Darrel Schick
+  start: '2027-04-01T18:00:00-04:00'
+  end: '2027-04-01T20:00:00-04:00'
+  sort_start_utc: '2027-04-01T22:00:00Z'
+  sort_end_utc: '2027-04-02T00:00:00Z'
+  display_when: Thursday, April 1, 2027, 6 PM to 8 PM
+  all_day: false
+  description: Darrel Schick
+  planning_center_event_instance_id: '239078212'
+  planning_center_event_time_id: '33269493'
+  ministries:
+  - churchwide
+  audiences:
+  - everyone
+  event_category: general_event
+  event_priority: 50
+  collection: main_events
+  status: confirmed
+  chronological_rank: 106
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-04-01-pickleball-a6b78e.md
 - id: event-221b224bdc069bd4
   uid: ET-30270334-184574784@resources.planningcenteronline.com
   title: Men's Breakfast
