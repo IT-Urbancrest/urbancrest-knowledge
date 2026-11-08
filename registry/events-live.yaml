@@ -1,11 +1,11 @@
 version: 1.5.4
-generated_at: '2026-11-07T19:26:24.106838Z'
+generated_at: '2026-11-08T00:37:36.321698Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
   enabled: true
-  target_instance_count: 282
-  matched_instance_count: 282
+  target_instance_count: 283
+  matched_instance_count: 283
   page_count: 9
   api_version: '2026-06-22'
 source_of_truth_for_calendar_intents: true
@@ -4401,33 +4401,6 @@ events:
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-28-sunday-morning-services-9-30-am-service-633acb.md
-- id: event-1a678a2a2838a6f5
-  uid: ET-9127132-184127575@resources.planningcenteronline.com
-  title: 'Sunday Morning Services: 11:00 AM Service'
-  summary: Join us in person or online!...
-  start: '2027-03-28T11:00:00-04:00'
-  end: '2027-03-28T12:10:00-04:00'
-  sort_start_utc: '2027-03-28T15:00:00Z'
-  sort_end_utc: '2027-03-28T16:10:00Z'
-  display_when: Sunday, March 28, 2027, 11 AM to 12:10 PM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
-    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
-  planning_center_event_instance_id: '184127575'
-  planning_center_event_time_id: '9127132'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 106
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-03-28-sunday-morning-services-11-00-am-service-38a6f5.md
 - id: event-522c842215fc63a5
   uid: ET-31870601-230122736@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -4489,7 +4462,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 107
+  chronological_rank: 106
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-31-wednesday-night-dinner-fc63a5.md
@@ -4517,7 +4490,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 108
+  chronological_rank: 107
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-03-men-s-breakfast-069bd4.md
@@ -4542,7 +4515,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 109
+  chronological_rank: 108
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-04-kid-min-breakfast-68824b.md
@@ -4568,7 +4541,7 @@ events:
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 110
+  chronological_rank: 109
   next_for_ministries:
   - missions
   next_for_audiences: []
@@ -4634,7 +4607,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 111
+  chronological_rank: 110
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-07-wednesday-night-dinner-8df64a.md
@@ -4699,7 +4672,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 112
+  chronological_rank: 111
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-14-wednesday-night-dinner-e2d05a.md
@@ -4764,7 +4737,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 113
+  chronological_rank: 112
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-21-wednesday-night-dinner-0a84c3.md
@@ -4795,7 +4768,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 114
+  chronological_rank: 113
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-24-3v3-basketball-tournament-d9f0d6.md
@@ -4900,7 +4873,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 115
+  chronological_rank: 114
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-28-wednesday-night-dinner-6a7394.md
@@ -4928,7 +4901,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 116
+  chronological_rank: 115
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-01-men-s-breakfast-d1cfba.md
@@ -4993,7 +4966,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 117
+  chronological_rank: 116
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-05-wednesday-night-dinner-30e195.md
@@ -5058,7 +5031,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 118
+  chronological_rank: 117
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-12-wednesday-night-dinner-e125ce.md
@@ -5123,7 +5096,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 119
+  chronological_rank: 118
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-19-wednesday-night-dinner-0df29f.md
@@ -5188,7 +5161,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 120
+  chronological_rank: 119
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-05-26-wednesday-night-dinner-46fce3.md
@@ -5253,7 +5226,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 121
+  chronological_rank: 120
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-02-wednesday-night-dinner-ba0347.md
@@ -5281,7 +5254,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 122
+  chronological_rank: 121
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-05-men-s-breakfast-456a52.md
@@ -5346,7 +5319,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 123
+  chronological_rank: 122
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-09-wednesday-night-dinner-764b7d.md
@@ -5411,7 +5384,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 124
+  chronological_rank: 123
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-16-wednesday-night-dinner-6fef1b.md
@@ -5472,7 +5445,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 125
+  chronological_rank: 124
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-21-kids-camp-2027-67d01b.md
@@ -5571,7 +5544,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 126
+  chronological_rank: 125
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-23-wednesday-night-dinner-8a9a7f.md
@@ -5636,7 +5609,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 127
+  chronological_rank: 126
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-06-30-wednesday-night-dinner-34486c.md
@@ -5664,7 +5637,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 128
+  chronological_rank: 127
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-07-03-men-s-breakfast-7dcbd4.md
@@ -5729,7 +5702,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 129
+  chronological_rank: 128
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-07-07-wednesday-night-dinner-36b6bb.md
@@ -5794,7 +5767,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 130
+  chronological_rank: 129
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-07-14-wednesday-night-dinner-e48c19.md
@@ -5859,7 +5832,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 131
+  chronological_rank: 130
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-07-21-wednesday-night-dinner-f4b889.md
@@ -5924,7 +5897,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 132
+  chronological_rank: 131
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-07-28-wednesday-night-dinner-7b2465.md
@@ -5989,7 +5962,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 133
+  chronological_rank: 132
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-08-04-wednesday-night-dinner-c4767b.md
@@ -6017,7 +5990,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 134
+  chronological_rank: 133
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-08-07-men-s-breakfast-ccb967.md
@@ -6082,7 +6055,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 135
+  chronological_rank: 134
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-08-11-wednesday-night-dinner-19d9cb.md
@@ -6147,7 +6120,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 136
+  chronological_rank: 135
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-08-18-wednesday-night-dinner-8ab9de.md
@@ -6212,7 +6185,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 137
+  chronological_rank: 136
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-08-25-wednesday-night-dinner-11c5e0.md
@@ -6277,7 +6250,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 138
+  chronological_rank: 137
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-09-01-wednesday-night-dinner-a91f0f.md
@@ -6305,7 +6278,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 139
+  chronological_rank: 138
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-09-04-men-s-breakfast-9a794b.md
@@ -6370,7 +6343,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 140
+  chronological_rank: 139
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-09-08-wednesday-night-dinner-77f2fa.md
@@ -6435,7 +6408,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 141
+  chronological_rank: 140
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-09-15-wednesday-night-dinner-61868d.md
@@ -6500,7 +6473,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 142
+  chronological_rank: 141
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-09-22-wednesday-night-dinner-a81839.md
@@ -6565,7 +6538,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 143
+  chronological_rank: 142
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-09-29-wednesday-night-dinner-4040f9.md
@@ -6593,7 +6566,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 144
+  chronological_rank: 143
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-10-02-men-s-breakfast-3640b7.md
@@ -6658,7 +6631,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 145
+  chronological_rank: 144
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-10-06-wednesday-night-dinner-7e1f00.md
@@ -6723,7 +6696,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 146
+  chronological_rank: 145
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-10-13-wednesday-night-dinner-693da5.md
@@ -6788,7 +6761,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 147
+  chronological_rank: 146
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-10-20-wednesday-night-dinner-13faac.md
@@ -6853,7 +6826,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 148
+  chronological_rank: 147
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-10-27-wednesday-night-dinner-ad68f2.md
@@ -6918,7 +6891,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 149
+  chronological_rank: 148
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-11-03-wednesday-night-dinner-da5bd1.md
@@ -6946,10 +6919,38 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 150
+  chronological_rank: 149
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-11-06-men-s-breakfast-b5baba.md
+- id: event-51839b2831cb7b90
+  uid: ET-33373905-239717460@resources.planningcenteronline.com
+  title: Annual Business Meeting
+  summary: The Urbancrest Church Annual Business Meeting is held annually on the first Sunday in November at 6:00 PM....
+  start: '2027-11-07T18:00:00-05:00'
+  end: '2027-11-07T19:00:00-05:00'
+  sort_start_utc: '2027-11-07T23:00:00Z'
+  sort_end_utc: '2027-11-08T00:00:00Z'
+  display_when: Sunday, November 7, 2027, 6 PM to 7 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: The Urbancrest Church Annual Business Meeting is held annually on the first Sunday in November at 6:00 PM.
+    Urbancrest members will vote on the proposed budget for next year, and candidates for three ministry teams; Stewardship
+    Team, Missions Fund Team, and Trustees.
+  planning_center_event_instance_id: '239717460'
+  planning_center_event_time_id: '33373905'
+  ministries:
+  - missions
+  audiences:
+  - everyone
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 150
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2027-11-07-annual-business-meeting-cb7b90.md
 registrations_api:
   status: ok
   api_version: '2025-05-01'
