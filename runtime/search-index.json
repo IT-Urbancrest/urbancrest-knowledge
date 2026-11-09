@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-11-09T06:33:04.400905Z",
+  "generated_at": "2026-11-09T19:27:53.126695Z",
   "timezone": "America/New_York",
-  "record_count": 499,
+  "record_count": 501,
   "config": {
     "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step. For directions requests, include both approved map links.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership Transition\n\nUrbancrest is currently searching for its next Global Missions Pastor.\n\nFor broad or global missions leadership questions:\n\n1. State that Urbancrest is currently searching for its next Global Missions Pastor.\n2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.\n3. Return `jennifer_prows` when one staff card is appropriate.\n4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nState the times found in those authoritative records directly. Do not hardcode service times in runtime application logic or prompt instructions.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
     "style_guide": "# Style Guide\n\n## Writing\n\n- Use short paragraphs.\n- Prefer plain language.\n- Avoid church jargon unless it is explained.\n- Do not use em dashes.\n- Do not use the word meaningful as a filler.\n- Use Small Groups, never Grow Groups.\n- Refer to Urbancrest Church as Urbancrest after the first use.\n- Use believer's baptism by immersion when describing baptism.\n\n## Theology\n\n- Scripture is the final authority.\n- The Baptist Faith and Message 2000 is a helpful doctrinal summary, not equal to Scripture.\n- Salvation is by grace alone through faith alone in Jesus Christ alone.\n- Baptism follows salvation and does not save.\n",
@@ -13831,6 +13831,88 @@
       "summary_source": "sermon_transcript"
     },
     {
+      "id": "sermons.2026_11_08",
+      "record_type": "sermon",
+      "path": "knowledge/sermons/2026/2026-11-08-follow-me-the-pathway-of-discipleship.md",
+      "title": "Follow Me: The Pathway of Discipleship",
+      "summary": "David Bickers taught from Matthew 4:18-22 that Jesus calls ordinary people to follow Him, become more like Him, and help others follow Him. The message describes four ongoing practices of discipleship at Urbancrest: Gather, Grow, Give, and Go.",
+      "content": "# Follow Me: The Pathway of Discipleship\n\n**Speaker** David Bickers  \n**Date** November 8, 2026  \n**Primary Scripture** Matthew 4:18–22 (NKJV)  \n**Series** Standalone message\n\n## Message Summary\n\nWhen Jesus called Simon Peter, Andrew, James, and John, they left their nets and followed Him. Jesus took the lead and promised to make them fishers of men. Pastor Dave used that scene to describe what following Jesus looks like today. As we surrender to Him, His Word shapes our lives, and He teaches us to help others follow Him too.\n\n## Main Idea\n\nFollowing Jesus is a lifelong journey. At Urbancrest, we practice it together as we Gather, Grow, Give, and Go. Each practice continues as we mature in faith.\n\n## Message Outline\n\n### 1. Gather (Hebrews 10:23–25)\n\nWe gather to **worship together** and **build community**. When we worship with other believers, we celebrate what Jesus has done and encourage one another toward love and good works. We need people who will pray with us, challenge us, and help us keep following Jesus through the week.\n\n### 2. Grow (2 Timothy 2:15)\n\nWe grow to **deepen our faith** and **know God’s Word**. Scripture shapes us as we read it, study it, and put it into practice. That growth can look like forgiving someone who hurt us, choosing integrity when it costs us, or joining a group where we can study Scripture with others. Pastor Dave also previewed Rooted, a ten-week discipleship study designed to help people grow as followers of Jesus.\n\n### 3. Give (1 Peter 4:10)\n\nWe give to **use our gifts** and **serve others**. Jesus washing His disciples’ feet in John 13 shows how love takes the form of service. We can follow His example by giving our time, abilities, energy, and resources to care for people in the church and in our community. Welcoming a guest, preparing a meal, or mentoring a student are all ways to serve.\n\n### 4. Go (Matthew 28:19–20)\n\nWe go to **share Jesus** and **make disciples**. The Great Commission sends us to share the gospel in every nation and every street and to help people learn to follow Jesus. That can begin with someone already in our lives. We can share what Jesus has done, open Scripture together, or walk alongside someone as they grow in faith.\n\n## A Call to Respond\n\nPastor Dave invited listeners to take one of three steps. If you’re beginning to explore faith, respond to Jesus, who died for our sins and rose aga...",
+      "priority": 86,
+      "category": [
+        "sermon"
+      ],
+      "intents": [
+        "sermon",
+        "sermon_content",
+        "messages",
+        "preaching",
+        "sermon_notes"
+      ],
+      "tags": [
+        "standalone sermon",
+        "Matthew 4",
+        "follow Jesus",
+        "discipleship pathway",
+        "fishers of men",
+        "gather grow give go",
+        "spiritual growth",
+        "spiritual gifts",
+        "making disciples",
+        "Great Commission",
+        "Rooted",
+        "sermon"
+      ],
+      "search_terms": [
+        "What was the November 8 sermon about?",
+        "Who preached Follow Me The Pathway of Discipleship?",
+        "What did Pastor Dave preach on November 8, 2026?",
+        "What are the four steps of Urbancrest's discipleship pathway?",
+        "What does Gather Grow Give and Go mean?",
+        "What does it mean to be a fisher of men?",
+        "What did Pastor Dave say about making disciples?",
+        "What did Pastor Dave say about Rooted in the November 8 sermon?",
+        "Where are the notes for Follow Me The Pathway of Discipleship?",
+        "Follow Me: The Pathway of Discipleship",
+        "Message Summary",
+        "Main Idea",
+        "Message Outline",
+        "Gather (Hebrews 10:23–25)",
+        "Grow (2 Timothy 2:15)",
+        "Give (1 Peter 4:10)",
+        "Go (Matthew 28:19–20)",
+        "A Call to Respond",
+        "Supporting Scriptures",
+        "Follow Along Notes",
+        "If your faith feels stagnant, bring one area of your life to Jesus and ask Him to help you grow.",
+        "If you’re ready to invest in someone else, ask God to bring one person to mind whom you can encourage and help follow Jesus.",
+        "Hebrews 10:23–25 - 2 Timothy 2:15 - 1 Peter 4:10 - Matthew 28:19–20 - John 13:1–17 - Romans 10:9"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "https://urbancrest.church/follow-along/follow-me-the-pathway-of-discipleship",
+        "action_link.messages"
+      ],
+      "status": "published",
+      "answer_guidance": "Use this standalone sermon record for what David Bickers preached on November 8, 2026, including how he described Gather, Grow, Give, and Go. Treat the Rooted mention as a historical preview. Use current ministry and event records to answer questions about Rooted dates, availability, or registration.",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "sermon_content"
+      ],
+      "sermon_date": "2026-11-08",
+      "date": "2026-11-08",
+      "speaker": "David Bickers",
+      "primary_scripture": "Matthew 4:18-22",
+      "notes_url": "https://urbancrest.church/follow-along/follow-me-the-pathway-of-discipleship",
+      "title_source": "fill_in_notes",
+      "outline_source": "fill_in_notes",
+      "summary_source": "sermon_transcript",
+      "supplemental_search_term_count": 14
+    },
+    {
       "id": "sermons.2026_09_27",
       "record_type": "sermon",
       "path": "knowledge/sermons/2026/2026-09-27-foundations-matter.md",
@@ -14265,6 +14347,70 @@
       "series_title": "Summer on the Mount: Kingdom Living for the Here and Now",
       "primary_scripture": "Matthew 5:21-26",
       "notes_url": "https://urbancrest.church/follow-along/radical-righteousness-and-kingdom-relationships",
+      "title_source": "fill_in_notes",
+      "outline_source": "fill_in_notes",
+      "summary_source": "sermon_transcript"
+    },
+    {
+      "id": "sermons.2026_11_01",
+      "record_type": "sermon",
+      "path": "knowledge/sermons/2026/2026-11-01-ready-for-his-return.md",
+      "title": "Ready for His Return",
+      "summary": "Geoff Prows taught from Matthew 24:42-51 that Jesus will return at an unexpected time. Readiness begins with trusting Jesus as Lord and Savior and shows up in holy living and faithful service while we wait.",
+      "content": "# Ready for His Return\n\n**Speaker** Geoff Prows  \n**Date** November 1, 2026  \n**Primary Scripture** Matthew 24:42–51 (NASB 1995)  \n**Series** Standalone message\n\n## Message Summary\n\nWhat would change about today if you knew Jesus could return at any time? In Matthew 24:42–51, Jesus tells His followers to stay alert and gives two pictures of what that looks like. A homeowner caught off guard shows why readiness matters. A servant entrusted with a household shows what faithfulness looks like while the master is away.\n\n## Main Idea\n\nJesus will return, and that promise should shape how we live each day.\n\n## Message Outline\n\n### 1. We Are to Live in a State of Readiness\n\nJesus says that no one knows the day or hour of His return. Geoff explained that spiritual readiness means keeping eternity in view when daily life fills our attention. It also means pursuing holiness in the choices we make now. Peter makes the same connection in 2 Peter 3:10–11, where the certainty of the Lord’s coming calls believers to holy conduct and godliness.\n\n### 2. We Are to Live Faithfully Until He Returns\n\nJesus describes a faithful servant who keeps caring for the household entrusted to him. Another servant assumes the master will be gone for a long time, mistreats others, and faces judgment when the master comes back. Geoff used that contrast to ask what Jesus will find us doing when He returns.\n\nJesus has given every believer work to do. We can share the gospel, help others follow Jesus, use our spiritual gifts to build up the church, and steward our time, resources, and abilities well. As 1 Corinthians 15:58 reminds us, the work we do for the Lord is never in vain.\n\n## A Call to Respond\n\nReadiness begins with trusting Jesus personally as Lord and Savior. If you already follow Him, consider where the promise of His return could change how you live this week. Who could you share the gospel with? Who are you helping grow in faith? What has God already entrusted to you that you can care for faithfully today?\n\n## Supporting Scriptures\n\n- Matthew 24:36\n- Luke 12:35–37\n- Colossians 3:2\n- 1 Thessalonians 5:6\n- 2 Peter 3:10–11\n- 1 Corinthians 15:58\n\n## Follow Along Notes\n\n[Open the notes for Ready for His Return](https://urbancrest.church/follow-along/ready-for-his-return)",
+      "priority": 86,
+      "category": [
+        "sermon"
+      ],
+      "intents": [
+        "sermon",
+        "sermon_content",
+        "messages",
+        "preaching",
+        "sermon_notes"
+      ],
+      "tags": [
+        "standalone sermon",
+        "Matthew 24",
+        "return of Jesus",
+        "second coming of Christ",
+        "spiritual readiness",
+        "faithful servant",
+        "personal holiness",
+        "faithfulness",
+        "stewardship",
+        "sermon"
+      ],
+      "search_terms": [
+        "What was the November 1 sermon about?",
+        "Who preached Ready for His Return?",
+        "What did Geoff Prows preach on November 1, 2026?",
+        "What did the sermon say about Jesus coming back?",
+        "How can I be ready for Jesus to return?",
+        "What did Geoff say about the faithful servant in Matthew 24?",
+        "How should Christians live while waiting for Jesus to return?",
+        "Where are the notes for Ready for His Return?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "https://urbancrest.church/follow-along/ready-for-his-return",
+        "action_link.messages"
+      ],
+      "status": "published",
+      "answer_guidance": "Use this standalone sermon record for questions about what Geoff Prows preached on November 1, 2026, including the two illustrations in Matthew 24:42-51 and how followers of Jesus can live ready for His return. Use dedicated beliefs articles for general questions about salvation, Christ's return, or final judgment.",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "sermon_content"
+      ],
+      "sermon_date": "2026-11-01",
+      "date": "2026-11-01",
+      "speaker": "Geoff Prows",
+      "primary_scripture": "Matthew 24:42-51",
+      "notes_url": "https://urbancrest.church/follow-along/ready-for-his-return",
       "title_source": "fill_in_notes",
       "outline_source": "fill_in_notes",
       "summary_source": "sermon_transcript"
