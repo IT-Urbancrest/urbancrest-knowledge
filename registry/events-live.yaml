@@ -1,5 +1,5 @@
 version: 1.5.4
-generated_at: '2026-11-08T22:07:10.486168Z'
+generated_at: '2026-11-09T06:33:03.328900Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
@@ -462,8 +462,8 @@ events:
     price_currency_symbol: $
     price_formatted: '0'
     maximum_capacity: 4
-    available_capacity: 2
-    at_maximum_capacity: false
+    available_capacity: 0
+    at_maximum_capacity: true
     waitlist: false
   - id: '9049952'
     name: Thursday, November 19 from 6:00-8:00 PM
@@ -2568,7 +2568,7 @@ events:
     price_currency_symbol: $
     price_formatted: '250'
     maximum_capacity: 22
-    available_capacity: 2
+    available_capacity: 1
     at_maximum_capacity: false
     waitlist: false
   - id: '8623473'
