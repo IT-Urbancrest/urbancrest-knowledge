@@ -1,11 +1,11 @@
 version: 1.5.4
-generated_at: '2026-11-09T06:33:03.328900Z'
+generated_at: '2026-11-09T19:50:08.657527Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
   enabled: true
-  target_instance_count: 282
-  matched_instance_count: 282
+  target_instance_count: 285
+  matched_instance_count: 285
   page_count: 9
   api_version: '2026-06-22'
 source_of_truth_for_calendar_intents: true
@@ -31,29 +31,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -452,7 +436,7 @@ events:
     price_currency_symbol: $
     price_formatted: '0'
     maximum_capacity: 4
-    available_capacity: 4
+    available_capacity: 3
     at_maximum_capacity: false
     waitlist: false
   - id: '9049951'
@@ -692,29 +676,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -960,29 +928,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -1138,6 +1090,96 @@ events:
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-05-men-s-breakfast-549ccc.md
+- id: event-dbe9bebbf2d06b2b
+  uid: ET-33842323-242378722@resources.planningcenteronline.com
+  title: Legacy Christmas
+  summary: Celebrate Christmas with Legacy Builders on December 5. Dinner starts at 5:00 PM in the gym, is catered by Olive
+    Garden, and costs $12 per person. After dinner, we’ll head to the worship center for a concert with Wright on Cue, a barbershop
+    quartet. The concert is free and...
+  start: '2026-12-05T17:00:00-05:00'
+  end: '2026-12-05T19:30:00-05:00'
+  sort_start_utc: '2026-12-05T22:00:00Z'
+  sort_end_utc: '2026-12-06T00:30:00Z'
+  display_when: Saturday, December 5, 2026, 5 PM to 7:30 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: 'Celebrate Christmas with Legacy Builders on December 5. Dinner starts at 5:00 PM in the gym, is catered by
+    Olive Garden, and costs $12 per person.
+
+
+    After dinner, we’ll head to the worship center for a concert with Wright on Cue, a barbershop quartet. The concert is
+    free and open to everyone.
+
+
+    Questions? Reach out to Howard and Sue Pauley.
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/4013065'
+  details: 'Celebrate Christmas with Legacy Builders on December 5. Dinner starts at 5:00 PM in the gym, is catered by Olive
+    Garden, and costs $12 per person.
+
+
+    After dinner, we’ll head to the worship center for a concert with Wright on Cue, a barbershop quartet. The concert is
+    free and open to everyone.
+
+
+    Questions? Reach out to Howard and Sue Pauley.
+
+
+    Registration is open.'
+  details_source: planning_center_registrations_api
+  planning_center_event_instance_id: '242378722'
+  planning_center_event_time_id: '33842323'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/4013065/reservations/new
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1794286800&key=uploads%2Fevent%2Flogo%2F4013065%2Fimage-1794235675608.jpeg&thumb=720x405%23&version=1794235878&signature=e4a812b6c62b44fbd4c4b4cd39abb0812ffb0668c8996313531439d08ae8b6ad
+  ministries:
+  - worship
+  - senior
+  audiences:
+  - everyone
+  - seniors
+  - all
+  event_category: major_event
+  event_priority: 100
+  collection: main_events
+  status: confirmed
+  chronological_rank: 22
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-12-05-legacy-christmas-d06b2b.md
+  event_sources:
+  - planning_center_ical
+  - planning_center_calendar_api
+  - planning_center_registrations_api
+  event_source: merged
+  planning_center_signup_id: '4013065'
+  planning_center_signup_time_id: '6733156'
+  registration_available: true
+  registration_open: true
+  registration_closed: false
+  registration_at_maximum_capacity: null
+  registration_open_at: '2026-11-09T14:47:44Z'
+  registration_close_at: '2026-11-30T05:00:00Z'
+  registration_maximum_capacity: null
+  registration_categories:
+  - Legacy Builders (50+)
+  registration_options:
+  - id: '9191884'
+    name: Standard
+    price_cents: 1200
+    price_currency: USD
+    price_currency_symbol: $
+    price_formatted: '12'
+    at_maximum_capacity: false
+    waitlist: false
+  location_structured:
+    name: Urbancrest Church
+    address: '2634 Drake Road
+
+      Gymnasium, Worship Center
+
+      Lebanon, OH 45036'
+    latitude: '39.4747445'
+    longitude: '-84.1792958'
 - id: event-86008d8c46ca6790
   uid: ET-9127131-173665461@resources.planningcenteronline.com
   title: 'Sunday Morning Services: 9:30 AM Service'
@@ -1161,7 +1203,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 22
+  chronological_rank: 23
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-06-sunday-morning-services-9-30-am-service-ca6790.md
@@ -1188,7 +1230,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 23
+  chronological_rank: 24
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-06-sunday-morning-services-11-00-am-service-672784.md
@@ -1216,7 +1258,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 24
+  chronological_rank: 25
   next_for_ministries:
   - women
   next_for_audiences:
@@ -1225,9 +1267,9 @@ events:
 - id: event-7688c9dd948bfb9b
   uid: ET-33644743-241225873@resources.planningcenteronline.com
   title: 'Baking Spirits Bright: Christmas Cookie Exchange'
-  summary: Ladies, it's time to pull out your Christmas cookie recipes! Join us for our first ever Christmas Cookie Exchange
-    where we will sample and enjoy each others' favorite Christmas cookies. Please bring 6 dozen cookies to share (including
-    platters to display them on), but don't...
+  summary: Ladies, pull out your favorite Christmas cookie recipe and join us for our first Christmas Cookie Exchange! We’ll
+    sample each other’s cookies, enjoy light refreshments, and take home a variety of Christmas cookies. Bring six dozen cookies
+    to share, a platter to display them,...
   start: '2026-12-06T17:30:00-05:00'
   end: '2026-12-06T19:30:00-05:00'
   sort_start_utc: '2026-12-06T22:30:00Z'
@@ -1235,22 +1277,26 @@ events:
   display_when: Sunday, December 6, 2026, 5:30 PM to 7:30 PM
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: 'Ladies, it''s time to pull out your Christmas cookie recipes! Join us for our first ever Christmas Cookie
-    Exchange where we will sample and enjoy each others'' favorite Christmas cookies. Please bring 6 dozen cookies to share
-    (including platters to display them on), but don''t forget your Tupperware containers, because you will be taking 4 dozen
-    back home with you as we exchange with one another.
+  description: 'Ladies, pull out your favorite Christmas cookie recipe and join us for our first Christmas Cookie Exchange!
+    We’ll sample each other’s cookies, enjoy light refreshments, and take home a variety of Christmas cookies.
 
 
-    Light refreshments will also be served. This is a free event, but please register so we can get a head count.
+    Bring six dozen cookies to share, a platter to display them, and containers to take home four dozen cookies. If you follow
+    a gluten-free diet, please bring gluten-free cookies for the exchange.
+
+
+    The event is free. Please register so we know how many to expect.
 
     Register: https://urbancrest.churchcenter.com/registrations/events/3988306'
-  details: 'Ladies, it''s time to pull out your Christmas cookie recipes!  Join us for our first ever Christmas Cookie Exchange
-    where we will sample and enjoy each others'' favorite Christmas cookies. Please bring 6 dozen cookies to share (including
-    platters to display them on), but don''t forget your Tupperware containers, because you will be taking 4 dozen back home
-    with you as we exchange with one another. 
+  details: 'Ladies, pull out your favorite Christmas cookie recipe and join us for our first Christmas Cookie Exchange! We’ll
+    sample each other’s cookies, enjoy light refreshments, and take home a variety of Christmas cookies.
 
 
-    Light refreshments will also be served. This is a free event, but please register so we can get a head count.
+    Bring six dozen cookies to share, a platter to display them, and containers to take home four dozen cookies. If you follow
+    a gluten-free diet, please bring gluten-free cookies for the exchange.
+
+
+    The event is free. Please register so we know how many to expect.
 
 
     Registration is open.'
@@ -1258,18 +1304,18 @@ events:
   planning_center_event_instance_id: '241225873'
   planning_center_event_time_id: '33644743'
   registration_url: https://urbancrest.churchcenter.com/registrations/events/3988306/reservations/new
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1793289600&key=uploads%2Fevent%2Flogo%2F3988306%2Fimage-1793208738222.jpeg&thumb=720x405%23&version=1793208907&signature=d964193ff22214e2831434032f0cc23edfbfafa01d5036fd9341f7a6bde50588
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1794330000&key=uploads%2Fevent%2Flogo%2F3988306%2Fimage-1793208738222.jpeg&thumb=720x405%23&version=1794250830&signature=6b568c7b3998fda62b9e79ce5343eb458982420d76dbf70b2db9571edb2acebe
   ministries:
   - churchwide
   - women
   audiences:
-  - volunteers
+  - everyone
   - women
   event_category: general_event
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 25
+  chronological_rank: 26
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-06-baking-spirits-bright-christmas-cookie-exchange-8bfb9b.md
@@ -1320,29 +1366,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -1369,7 +1399,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 26
+  chronological_rank: 27
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-09-wednesday-night-dinner-6f6ed6.md
@@ -1440,7 +1470,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 27
+  chronological_rank: 28
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-09-awana-2026-2027-983471.md
@@ -1466,10 +1496,85 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 28
+  chronological_rank: 29
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-10-christmas-choir-rehearsal-49f3f0.md
+- id: event-23fd847cf7990321
+  uid: ET-33848538-242401036@resources.planningcenteronline.com
+  title: Youth Christmas Party
+  summary: Christmas is just around the corner and so is the Grinch! I hope you join us Saturday December 12th at 5PM for
+    our Grinch themed Christmas party! We will have competitions for best Grinch costumes and of course an ugly sweater context!
+    Also... make sure to bring a $5 gift...
+  start: '2026-12-12T17:00:00-05:00'
+  end: '2026-12-12T20:00:00-05:00'
+  sort_start_utc: '2026-12-12T22:00:00Z'
+  sort_end_utc: '2026-12-13T01:00:00Z'
+  display_when: Saturday, December 12, 2026, 5 PM to 8 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: Christmas is just around the corner and so is the Grinch! I hope you join us Saturday December 12th at 5PM
+    for our Grinch themed Christmas party! We will have competitions for best Grinch costumes and of course an ugly sweater
+    context! Also... make sure to bring a $5 gift neatly wrapped for our gift exchange! And please come hungry for dinner!
+    OH I almost forgot! Get your voices ready to carol to our old folks! I am excited to see you there! Please click the link
+    below to sign up, so we can plan for enough food!
+  planning_center_event_instance_id: '242401036'
+  planning_center_event_time_id: '33848538'
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1794330000&key=uploads%2Fevent%2Flogo%2F4013817%2Fimage-1794245867179.jpeg&thumb=720x405%23&version=1794246006&signature=7c6ead4a42394c5354c707a6f3d496ca35f2649f5537ec409d44f5e1f3d16be4
+  ministries:
+  - students
+  audiences:
+  - students
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 30
+  next_for_ministries: []
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-12-12-youth-christmas-party-990321.md
+  event_sources:
+  - planning_center_ical
+  - planning_center_registrations_api
+  event_source: merged
+  planning_center_signup_id: '4013817'
+  planning_center_signup_time_id: '6734371'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/4013817/reservations/new
+  registration_available: true
+  registration_open: true
+  registration_closed: false
+  registration_at_maximum_capacity: null
+  registration_open_at: '2026-11-09T17:37:40Z'
+  registration_close_at: null
+  registration_maximum_capacity: null
+  registration_categories: []
+  registration_options:
+  - id: '9193552'
+    name: Standard
+    price_cents: 0
+    price_currency: USD
+    price_currency_symbol: $
+    price_formatted: '0'
+    at_maximum_capacity: false
+    waitlist: false
+  details: 'Christmas is just around the corner and so is the Grinch! I hope you join us Saturday December 12th at 5PM for
+    our Grinch themed Christmas party! We will have competitions for best Grinch costumes and of course an ugly sweater context!
+    Also... make sure to bring a $5 gift neatly wrapped for our gift exchange! And please come hungry for dinner! OH I almost
+    forgot! Get your voices ready to carol to our old folks! I am excited to see you there! Please click the link below to
+    sign up, so we can plan for enough food!
+
+
+    Registration is open.'
+  details_source: planning_center_registrations_api
+  location_structured:
+    name: Urbancrest Church
+    address: '2634 Drake Road
+
+      Gym
+
+      Lebanon, OH 45036'
+    latitude: '39.4747445'
+    longitude: '-84.1792958'
 - id: event-ab180000d4df44e2
   uid: ET-9127131-174228982@resources.planningcenteronline.com
   title: 'Sunday Morning Services: 9:30 AM Service'
@@ -1493,7 +1598,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 29
+  chronological_rank: 31
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-13-sunday-morning-services-9-30-am-service-df44e2.md
@@ -1520,7 +1625,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 30
+  chronological_rank: 32
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-13-sunday-morning-services-11-00-am-service-6c8860.md
@@ -1547,7 +1652,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 31
+  chronological_rank: 33
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-16-monthly-baskets-of-hope-volunteers-f08ec6.md
@@ -1622,7 +1727,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 32
+  chronological_rank: 34
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-16-christmas-baskets-of-hope-signup-2026-2077d0.md
@@ -1679,29 +1784,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -1728,7 +1817,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 33
+  chronological_rank: 35
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-16-wednesday-night-dinner-d35842.md
@@ -1799,7 +1888,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 34
+  chronological_rank: 36
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-16-awana-2026-2027-a96a01.md
@@ -1825,15 +1914,16 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 35
+  chronological_rank: 37
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-17-christmas-choir-rehearsal-2514c7.md
 - id: event-80e5a36175c3d70a
   uid: ET-33065181-237849087@resources.planningcenteronline.com
   title: Family Christmas Movie Night
-  summary: Family Christmas Movie Night is scheduled for Friday, December 18, 2026, 6 PM to 8 PM at Urbancrest Church - 2634
-    Drake Road, Lebanon, OH 45036.
+  summary: Bring the whole family to the worship center on December 18 at 6:30 PM for Family Christmas Movie Night. We’ll
+    watch The Star , an animated retelling of the first Christmas through the eyes of a little donkey and his friends. Grab
+    some popcorn and seasonal treats, find a...
   start: '2026-12-18T18:00:00-05:00'
   end: '2026-12-18T20:00:00-05:00'
   sort_start_utc: '2026-12-18T23:00:00Z'
@@ -1845,16 +1935,113 @@ events:
   planning_center_event_time_id: '33065181'
   ministries:
   - churchwide
+  - worship
+  - family
   audiences:
   - families
+  - all
   event_category: general_event
-  event_priority: 50
+  event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 36
+  chronological_rank: 38
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-18-family-christmas-movie-night-c3d70a.md
+  event_sources:
+  - planning_center_ical
+  - planning_center_registrations_api
+  event_source: merged
+  planning_center_signup_id: '4013288'
+  planning_center_signup_time_id: '6733495'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/4013288/reservations/new
+  registration_available: true
+  registration_open: true
+  registration_closed: false
+  registration_at_maximum_capacity: null
+  registration_open_at: '2026-11-09T15:46:11Z'
+  registration_close_at: null
+  registration_maximum_capacity: null
+  registration_categories:
+  - Family
+  - Special Events
+  registration_options:
+  - id: '9192356'
+    name: Standard
+    price_cents: 0
+    price_currency: USD
+    price_currency_symbol: $
+    price_formatted: '0'
+    at_maximum_capacity: false
+    waitlist: false
+  description: 'Bring the whole family to the worship center on December 18 at 6:30 PM for Family Christmas Movie Night. We’ll
+    watch The Star , an animated retelling of the first Christmas through the eyes of a little donkey and his friends.
+
+
+    Grab some popcorn and seasonal treats, find a seat, and enjoy the movie together. Admission and treats are free, and everyone’s
+    welcome.'
+  details: 'Bring the whole family to the worship center on December 18 at 6:30 PM for Family Christmas Movie Night. We’ll
+    watch The Star , an animated retelling of the first Christmas through the eyes of a little donkey and his friends.
+
+
+    Grab some popcorn and seasonal treats, find a seat, and enjoy the movie together. Admission and treats are free, and everyone’s
+    welcome.
+
+
+    Registration is open.'
+  details_source: planning_center_registrations_api
+  image_url: https://registrations.planningcenteronline.com/signups/4013288/logo
+  location_structured:
+    name: Urbancrest Church
+    address: '2634 Drake Road
+
+      Worship Center
+
+      Lebanon, OH 45036'
+    latitude: '39.4747445'
+    longitude: '-84.1792958'
+- id: event-e936232251295487
+  uid: ET-33844156-242385522@resources.planningcenteronline.com
+  title: Family Christmas Movie Night
+  summary: Bring the whole family to the worship center on December 18 at 6:30 PM for Family Christmas Movie Night....
+  start: '2026-12-18T18:30:00-05:00'
+  end: '2026-12-18T20:00:00-05:00'
+  sort_start_utc: '2026-12-18T23:30:00Z'
+  sort_end_utc: '2026-12-19T01:00:00Z'
+  display_when: Friday, December 18, 2026, 6:30 PM to 8 PM
+  all_day: false
+  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+  description: 'Bring the whole family to the worship center on December 18 at 6:30 PM for Family Christmas Movie Night. We’ll
+    watch The Star, an animated retelling of the first Christmas through the eyes of a little donkey and his friends.
+
+
+    Grab some popcorn and seasonal treats, find a seat, and enjoy the movie together. Admission and treats are free, and everyone’s
+    welcome.
+
+    Register: https://urbancrest.churchcenter.com/registrations/events/4013288'
+  details: "Bring the whole family to the worship center on December 18 at 6:30 PM for Family Christmas Movie Night. We’ll\
+    \ watch \nThe Star\n, an animated retelling of the first Christmas through the eyes of a little donkey and his friends.\n\
+    Grab some popcorn and seasonal treats, find a seat, and enjoy the movie together. Admission and treats are free, and everyone’s\
+    \ welcome."
+  details_source: planning_center_calendar_api
+  planning_center_event_instance_id: '242385522'
+  planning_center_event_time_id: '33844156'
+  registration_url: https://urbancrest.churchcenter.com/registrations/events/4013288
+  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1794286800&key=uploads%2Fevent%2Flogo%2F4013288%2Fimage-1794239194185.jpeg&thumb=720x405%23&version=1794239237&signature=3867145ad1aefbfa6d4aa09aa69844b360b9c91010216d101de1e36a1ee893df
+  ministries:
+  - missions
+  - worship
+  audiences:
+  - families
+  event_category: ministry_event
+  event_priority: 80
+  collection: main_events
+  status: confirmed
+  chronological_rank: 39
+  next_for_ministries:
+  - missions
+  next_for_audiences: []
+  knowledge_file: knowledge/events/generated/2026-12-18-family-christmas-movie-night-295487.md
 - id: event-cb4c6c17cdddc31f
   uid: ET-33357938-239644840@resources.planningcenteronline.com
   title: Christmas Worship Rehearsal
@@ -1877,7 +2064,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 37
+  chronological_rank: 40
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-19-christmas-worship-rehearsal-ddc31f.md
@@ -1909,7 +2096,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 38
+  chronological_rank: 41
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-20-christmas-choir-7f0fe3.md
@@ -1974,7 +2161,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 39
+  chronological_rank: 42
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-20-sunday-morning-services-9-30-am-service-1bfe59.md
@@ -2001,7 +2188,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 40
+  chronological_rank: 43
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-20-sunday-morning-services-11-00-am-service-8ed068.md
@@ -2017,29 +2204,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -2066,7 +2237,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 41
+  chronological_rank: 44
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-23-wednesday-night-dinner-8995f6.md
@@ -2093,7 +2264,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 42
+  chronological_rank: 45
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-27-sunday-morning-services-9-30-am-service-5a6936.md
@@ -2120,7 +2291,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 43
+  chronological_rank: 46
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-27-sunday-morning-services-11-00-am-service-003b62.md
@@ -2136,29 +2307,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -2185,7 +2340,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 44
+  chronological_rank: 47
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2026-12-30-wednesday-night-dinner-85ac1d.md
@@ -2213,7 +2368,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 45
+  chronological_rank: 48
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-02-men-s-breakfast-3d2c83.md
@@ -2240,7 +2395,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 46
+  chronological_rank: 49
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-03-sunday-morning-services-9-30-am-service-2e7a40.md
@@ -2267,7 +2422,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 47
+  chronological_rank: 50
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-03-sunday-morning-services-11-00-am-service-9b4cbb.md
@@ -2283,29 +2438,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -2332,7 +2471,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 48
+  chronological_rank: 51
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-06-wednesday-night-dinner-cd86db.md
@@ -2357,7 +2496,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 49
+  chronological_rank: 52
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-07-pickleball-a6bc8a.md
@@ -2384,7 +2523,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 50
+  chronological_rank: 53
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-10-sunday-morning-services-9-30-am-service-0c0f91.md
@@ -2411,7 +2550,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 51
+  chronological_rank: 54
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-10-sunday-morning-services-11-00-am-service-73fa11.md
@@ -2427,29 +2566,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -2476,7 +2599,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 52
+  chronological_rank: 55
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-13-wednesday-night-dinner-ed64ec.md
@@ -2501,7 +2624,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 53
+  chronological_rank: 56
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-14-pickleball-63a83d.md
@@ -2540,7 +2663,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 54
+  chronological_rank: 57
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-16-strength-to-stand-ba076b.md
@@ -2621,7 +2744,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 55
+  chronological_rank: 58
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-17-sunday-morning-services-9-30-am-service-2f9d83.md
@@ -2648,7 +2771,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 56
+  chronological_rank: 59
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-17-sunday-morning-services-11-00-am-service-f8161b.md
@@ -2675,7 +2798,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 57
+  chronological_rank: 60
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-20-monthly-baskets-of-hope-volunteers-561fe2.md
@@ -2691,29 +2814,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -2740,7 +2847,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 58
+  chronological_rank: 61
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-20-wednesday-night-dinner-c3c878.md
@@ -2765,7 +2872,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 59
+  chronological_rank: 62
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-21-pickleball-6008f4.md
@@ -2828,7 +2935,7 @@ events:
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 60
+  chronological_rank: 63
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-22-men-s-summit-d35740.md
@@ -2886,7 +2993,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 61
+  chronological_rank: 64
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-24-kid-min-breakfast-c3ccc7.md
@@ -2913,7 +3020,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 62
+  chronological_rank: 65
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-24-sunday-morning-services-9-30-am-service-aa02da.md
@@ -2940,7 +3047,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 63
+  chronological_rank: 66
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-24-sunday-morning-services-11-00-am-service-8af7a9.md
@@ -2956,29 +3063,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -3005,7 +3096,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 64
+  chronological_rank: 67
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-27-wednesday-night-dinner-e92330.md
@@ -3029,7 +3120,7 @@ events:
   event_priority: 100
   collection: main_events
   status: confirmed
-  chronological_rank: 65
+  chronological_rank: 68
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-28-summit-gym-set-up-50aaa2.md
@@ -3056,7 +3147,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 66
+  chronological_rank: 69
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-31-sunday-morning-services-9-30-am-service-60da2d.md
@@ -3083,7 +3174,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 67
+  chronological_rank: 70
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-01-31-sunday-morning-services-11-00-am-service-113011.md
@@ -3099,29 +3190,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -3148,7 +3223,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 68
+  chronological_rank: 71
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-03-wednesday-night-dinner-56372f.md
@@ -3173,7 +3248,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 69
+  chronological_rank: 72
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-04-pickleball-64c442.md
@@ -3201,7 +3276,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 70
+  chronological_rank: 73
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-06-men-s-breakfast-fa0b3e.md
@@ -3228,7 +3303,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 71
+  chronological_rank: 74
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-07-sunday-morning-services-9-30-am-service-27d598.md
@@ -3255,7 +3330,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 72
+  chronological_rank: 75
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-07-sunday-morning-services-11-00-am-service-281dc7.md
@@ -3271,29 +3346,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -3320,7 +3379,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 73
+  chronological_rank: 76
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-10-wednesday-night-dinner-818c3d.md
@@ -3345,7 +3404,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 74
+  chronological_rank: 77
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-11-pickleball-2a4a7c.md
@@ -3370,7 +3429,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 75
+  chronological_rank: 78
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-14-kid-min-breakfast-76640c.md
@@ -3397,7 +3456,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 76
+  chronological_rank: 79
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-14-sunday-morning-services-9-30-am-service-f8a787.md
@@ -3424,7 +3483,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 77
+  chronological_rank: 80
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-14-sunday-morning-services-11-00-am-service-77215c.md
@@ -3451,7 +3510,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 78
+  chronological_rank: 81
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-17-monthly-baskets-of-hope-volunteers-dc8320.md
@@ -3467,29 +3526,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -3516,7 +3559,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 79
+  chronological_rank: 82
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-17-wednesday-night-dinner-e2ee59.md
@@ -3541,7 +3584,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 80
+  chronological_rank: 83
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-18-pickleball-5d13c4.md
@@ -3568,7 +3611,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 81
+  chronological_rank: 84
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-21-sunday-morning-services-9-30-am-service-8771ed.md
@@ -3595,7 +3638,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 82
+  chronological_rank: 85
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-21-sunday-morning-services-11-00-am-service-d9642b.md
@@ -3611,29 +3654,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -3660,7 +3687,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 83
+  chronological_rank: 86
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-24-wednesday-night-dinner-8f0b45.md
@@ -3685,7 +3712,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 84
+  chronological_rank: 87
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-25-pickleball-3d291e.md
@@ -3712,7 +3739,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 85
+  chronological_rank: 88
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-28-sunday-morning-services-9-30-am-service-baf9ef.md
@@ -3739,7 +3766,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 86
+  chronological_rank: 89
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-02-28-sunday-morning-services-11-00-am-service-a03c95.md
@@ -3755,29 +3782,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -3804,7 +3815,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 87
+  chronological_rank: 90
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-03-wednesday-night-dinner-8fb3dd.md
@@ -3829,7 +3840,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 88
+  chronological_rank: 91
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-04-pickleball-dbc953.md
@@ -3857,7 +3868,7 @@ events:
   event_priority: 80
   collection: main_events
   status: confirmed
-  chronological_rank: 89
+  chronological_rank: 92
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-06-men-s-breakfast-b236b5.md
@@ -3884,7 +3895,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 90
+  chronological_rank: 93
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-07-sunday-morning-services-9-30-am-service-8998da.md
@@ -3911,7 +3922,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 91
+  chronological_rank: 94
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-07-sunday-morning-services-11-00-am-service-5c5096.md
@@ -3927,29 +3938,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -3976,7 +3971,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 92
+  chronological_rank: 95
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-10-wednesday-night-dinner-48508a.md
@@ -4001,7 +3996,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 93
+  chronological_rank: 96
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-11-pickleball-fee25a.md
@@ -4028,7 +4023,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 94
+  chronological_rank: 97
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-14-sunday-morning-services-9-30-am-service-50c32f.md
@@ -4055,7 +4050,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 95
+  chronological_rank: 98
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-14-sunday-morning-services-11-00-am-service-dc5658.md
@@ -4082,7 +4077,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 96
+  chronological_rank: 99
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-17-monthly-baskets-of-hope-volunteers-8a5217.md
@@ -4098,29 +4093,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -4147,7 +4126,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 97
+  chronological_rank: 100
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-17-wednesday-night-dinner-ab6c0d.md
@@ -4172,7 +4151,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 98
+  chronological_rank: 101
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-18-pickleball-3a28c7.md
@@ -4199,7 +4178,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 99
+  chronological_rank: 102
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-21-sunday-morning-services-9-30-am-service-eeeced.md
@@ -4226,7 +4205,7 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 100
+  chronological_rank: 103
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-21-sunday-morning-services-11-00-am-service-cda776.md
@@ -4242,29 +4221,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -4291,7 +4254,7 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 101
+  chronological_rank: 104
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-24-wednesday-night-dinner-46db45.md
@@ -4316,64 +4279,10 @@ events:
   event_priority: 50
   collection: main_events
   status: confirmed
-  chronological_rank: 102
+  chronological_rank: 105
   next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-03-25-pickleball-add5e5.md
-- id: event-acfbcb89b5633acb
-  uid: ET-9127131-184127575@resources.planningcenteronline.com
-  title: 'Sunday Morning Services: 9:30 AM Service'
-  summary: Join us in person or online!...
-  start: '2027-03-28T09:30:00-04:00'
-  end: '2027-03-28T10:40:00-04:00'
-  sort_start_utc: '2027-03-28T13:30:00Z'
-  sort_end_utc: '2027-03-28T14:40:00Z'
-  display_when: Sunday, March 28, 2027, 9:30 AM to 10:40 AM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
-    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
-  planning_center_event_instance_id: '184127575'
-  planning_center_event_time_id: '9127131'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 103
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-03-28-sunday-morning-services-9-30-am-service-633acb.md
-- id: event-1a678a2a2838a6f5
-  uid: ET-9127132-184127575@resources.planningcenteronline.com
-  title: 'Sunday Morning Services: 11:00 AM Service'
-  summary: Join us in person or online!...
-  start: '2027-03-28T11:00:00-04:00'
-  end: '2027-03-28T12:10:00-04:00'
-  sort_start_utc: '2027-03-28T15:00:00Z'
-  sort_end_utc: '2027-03-28T16:10:00Z'
-  display_when: Sunday, March 28, 2027, 11 AM to 12:10 PM
-  all_day: false
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  description: Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your
-    smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!
-  planning_center_event_instance_id: '184127575'
-  planning_center_event_time_id: '9127132'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
-  chronological_rank: 104
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-03-28-sunday-morning-services-11-00-am-service-38a6f5.md
 - id: event-522c842215fc63a5
   uid: ET-31870601-230122736@resources.planningcenteronline.com
   title: Wednesday Night Dinner
@@ -4386,29 +4295,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -4435,35 +4328,10 @@ events:
   event_priority: 60
   collection: main_events
   status: confirmed
-  chronological_rank: 105
-  next_for_ministries: []
-  next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-03-31-wednesday-night-dinner-fc63a5.md
-- id: event-8751f55040a6b78e
-  uid: ET-33269493-239078212@resources.planningcenteronline.com
-  title: Pickleball
-  summary: Darrel Schick
-  start: '2027-04-01T18:00:00-04:00'
-  end: '2027-04-01T20:00:00-04:00'
-  sort_start_utc: '2027-04-01T22:00:00Z'
-  sort_end_utc: '2027-04-02T00:00:00Z'
-  display_when: Thursday, April 1, 2027, 6 PM to 8 PM
-  all_day: false
-  description: Darrel Schick
-  planning_center_event_instance_id: '239078212'
-  planning_center_event_time_id: '33269493'
-  ministries:
-  - churchwide
-  audiences:
-  - everyone
-  event_category: general_event
-  event_priority: 50
-  collection: main_events
-  status: confirmed
   chronological_rank: 106
   next_for_ministries: []
   next_for_audiences: []
-  knowledge_file: knowledge/events/generated/2027-04-01-pickleball-a6b78e.md
+  knowledge_file: knowledge/events/generated/2027-03-31-wednesday-night-dinner-fc63a5.md
 - id: event-221b224bdc069bd4
   uid: ET-30270334-184574784@resources.planningcenteronline.com
   title: Men's Breakfast
@@ -4540,8 +4408,7 @@ events:
   collection: main_events
   status: confirmed
   chronological_rank: 109
-  next_for_ministries:
-  - missions
+  next_for_ministries: []
   next_for_audiences: []
   knowledge_file: knowledge/events/generated/2027-04-07-missions-conference-f6a6f7.md
 - id: event-35844b133e8df64a
@@ -4556,29 +4423,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -4621,29 +4472,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -4686,29 +4521,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -4822,29 +4641,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -4915,29 +4718,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -4980,29 +4767,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -5045,29 +4816,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -5110,29 +4865,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -5175,29 +4914,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -5268,29 +4991,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -5333,29 +5040,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -5493,29 +5184,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -5558,29 +5233,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -5651,29 +5310,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -5716,29 +5359,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -5781,29 +5408,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -5846,29 +5457,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -5911,29 +5506,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -6004,29 +5583,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -6069,29 +5632,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -6134,29 +5681,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -6199,29 +5730,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -6292,29 +5807,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -6357,29 +5856,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -6422,29 +5905,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -6487,29 +5954,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -6580,29 +6031,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -6645,29 +6080,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -6710,29 +6129,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -6775,29 +6178,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -6840,29 +6227,13 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'October 28, 2026
+  details: 'November 11, 2026
 
     Pizza
 
     Salad Bar
 
-    Ice Cream Bars
-
-    November 4, 2026
-
-    Chili & Coneys
-
-    Salad Bar
-
-    Pumpkin Pie
-
-    November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Ice Cream Cups & Cookies
+    Brownies
 
     November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
@@ -6953,24 +6324,24 @@ registrations_api:
   status: ok
   api_version: '2025-05-01'
   signup_time_strategy: next_signup_time_then_signup_times_preserve_relationship_linkage
-  future_signup_count: 11
+  future_signup_count: 14
   added_registration_only_events: 1
-  enriched_existing_events: 10
+  enriched_existing_events: 13
   category_allowlist: []
   category_denylist: []
-  signup_count_received: 14
+  signup_count_received: 16
   relationship_linkage_counts:
-    next_signup_time_relationship_present: 14
-    next_signup_time_with_linkage: 11
-    signup_times_relationship_present: 14
-    signup_times_with_linkage: 13
-    signup_location_relationship_present: 14
-    signup_location_with_linkage: 14
-    categories_relationship_present: 14
-    categories_with_linkage: 11
-    selection_types_relationship_present: 14
-    selection_types_with_linkage: 14
-  skipped_signup_count: 3
+    next_signup_time_relationship_present: 16
+    next_signup_time_with_linkage: 14
+    signup_times_relationship_present: 16
+    signup_times_with_linkage: 15
+    signup_location_relationship_present: 16
+    signup_location_with_linkage: 16
+    categories_relationship_present: 16
+    categories_with_linkage: 12
+    selection_types_relationship_present: 16
+    selection_types_with_linkage: 16
+  skipped_signup_count: 2
   skipped_reasons:
-    no_current_or_future_signup_time_within_lookahead: 3
+    no_current_or_future_signup_time_within_lookahead: 2
   page_count: 1

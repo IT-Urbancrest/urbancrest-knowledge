@@ -16,7 +16,7 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-11-09T06:33:03.328900Z
+last_generated: 2026-11-09T19:50:08.657527Z
 ---
 
 # Upcoming Events
@@ -245,6 +245,18 @@ Detailed event file: `knowledge/events/generated/2026-12-03-christmas-choir-rehe
 
 Detailed event file: `knowledge/events/generated/2026-12-05-men-s-breakfast-549ccc.md`
 
+## Legacy Christmas
+
+**Category:** Major Event
+
+**When:** Saturday, December 5, 2026, 5 PM to 7:30 PM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/4013065/reservations/new
+
+Detailed event file: `knowledge/events/generated/2026-12-05-legacy-christmas-d06b2b.md`
+
 ## Sunday Morning Services: 9:30 AM Service
 
 **Category:** General Event
@@ -318,6 +330,18 @@ Detailed event file: `knowledge/events/generated/2026-12-09-awana-2026-2027-9834
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2026-12-10-christmas-choir-rehearsal-49f3f0.md`
+
+## Youth Christmas Party
+
+**Category:** Ministry Event
+
+**When:** Saturday, December 12, 2026, 5 PM to 8 PM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/4013817/reservations/new
+
+Detailed event file: `knowledge/events/generated/2026-12-12-youth-christmas-party-990321.md`
 
 ## Sunday Morning Services: 9:30 AM Service
 
@@ -401,7 +425,21 @@ Detailed event file: `knowledge/events/generated/2026-12-17-christmas-choir-rehe
 
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/4013288/reservations/new
+
 Detailed event file: `knowledge/events/generated/2026-12-18-family-christmas-movie-night-c3d70a.md`
+
+## Family Christmas Movie Night
+
+**Category:** Ministry Event
+
+**When:** Friday, December 18, 2026, 6:30 PM to 8 PM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/4013288
+
+Detailed event file: `knowledge/events/generated/2026-12-18-family-christmas-movie-night-295487.md`
 
 ## Christmas Worship Rehearsal
 
@@ -1042,26 +1080,6 @@ Detailed event file: `knowledge/events/generated/2027-03-24-wednesday-night-dinn
 
 Detailed event file: `knowledge/events/generated/2027-03-25-pickleball-add5e5.md`
 
-## Sunday Morning Services: 9:30 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, March 28, 2027, 9:30 AM to 10:40 AM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2027-03-28-sunday-morning-services-9-30-am-service-633acb.md`
-
-## Sunday Morning Services: 11:00 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, March 28, 2027, 11 AM to 12:10 PM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2027-03-28-sunday-morning-services-11-00-am-service-38a6f5.md`
-
 ## Wednesday Night Dinner
 
 **Category:** Churchwide Program
@@ -1071,14 +1089,6 @@ Detailed event file: `knowledge/events/generated/2027-03-28-sunday-morning-servi
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2027-03-31-wednesday-night-dinner-fc63a5.md`
-
-## Pickleball
-
-**Category:** General Event
-
-**When:** Thursday, April 1, 2027, 6 PM to 8 PM
-
-Detailed event file: `knowledge/events/generated/2027-04-01-pickleball-a6b78e.md`
 
 ## Men's Breakfast
 

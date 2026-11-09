@@ -44,7 +44,7 @@ location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "230122751"
 planning_center_event_time_id: "31870601"
-last_generated: 2026-11-09T06:33:02.382279Z
+last_generated: 2026-11-09T19:50:07.545250Z
 ---
 
 # Wednesday Night Dinner
@@ -59,18 +59,10 @@ Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM 
 
 ## Details
 
-October 28, 2026
-Pizza
-Salad Bar
-Ice Cream Bars
-November 4, 2026
-Chili & Coneys
-Salad Bar
-Pumpkin Pie
 November 11, 2026
 Pizza
 Salad Bar
-Ice Cream Cups & Cookies
+Brownies
 November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 Baked Ham
 Mashed Potatoes & Gravy

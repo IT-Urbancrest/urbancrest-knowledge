@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-11-09T19:27:53.126695Z",
+  "generated_at": "2026-11-09T19:50:09.730185Z",
   "timezone": "America/New_York",
   "record_count": 501,
   "config": {
@@ -90,7 +90,7 @@
   },
   "freshness": {
     "calendar": {
-      "generated_at": "2026-11-09T06:33:03.328900Z",
+      "generated_at": "2026-11-09T19:50:08.657527Z",
       "max_age_hours": 48,
       "source_path": "registry/events-live.yaml",
       "heartbeat_field": "generated_at",
@@ -98,7 +98,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-11-09T06:33:02.382279Z",
+      "generated_at": "2026-11-09T19:50:07.545250Z",
       "max_age_hours": 48,
       "source_path": "registry/small-groups-live.yaml",
       "heartbeat_field": "generated_at",
@@ -5389,6 +5389,112 @@
       "include_with_bundle": true
     },
     {
+      "id": "events.live.event-dbe9bebbf2d06b2b",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-12-05-legacy-christmas-d06b2b.md",
+      "title": "Legacy Christmas",
+      "summary": "Celebrate Christmas with Legacy Builders on December 5. Dinner starts at 5:00 PM in the gym, is catered by Olive Garden, and costs $12 per person. After dinner, we’ll head to the worship center for a concert with Wright on Cue, a barbershop quartet. The concert is free and...",
+      "content": "Celebrate Christmas with Legacy Builders on December 5. Dinner starts at 5:00 PM in the gym, is catered by Olive Garden, and costs $12 per person.\n\nAfter dinner, we’ll head to the worship center for a concert with Wright on Cue, a barbershop quartet. The concert is free and open to everyone.\n\nQuestions? Reach out to Howard and Sue Pauley.\nRegister: https://urbancrest.churchcenter.com/registrations/events/4013065\n\nDetails:\nCelebrate Christmas with Legacy Builders on December 5. Dinner starts at 5:00 PM in the gym, is catered by Olive Garden, and costs $12 per person.\n\nAfter dinner, we’ll head to the worship center for a concert with Wright on Cue, a barbershop quartet. The concert is free and open to everyone.\n\nQuestions? Reach out to Howard and Sue Pauley.\n\nRegistration is open.",
+      "priority": 100,
+      "category": [
+        "events",
+        "major_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "major_event",
+        "Legacy Christmas"
+      ],
+      "search_terms": [
+        "Legacy Christmas",
+        "When is Legacy Christmas?",
+        "Tell me about Legacy Christmas",
+        "What are the details for Legacy Christmas?",
+        "What is the menu for Legacy Christmas?",
+        "How do I register for Legacy Christmas?",
+        "Does Urbancrest have Legacy Christmas?",
+        "Does Urbancrest offer Legacy Christmas?",
+        "Do you have Legacy Christmas?",
+        "Do you offer Legacy Christmas?",
+        "Is there Legacy Christmas at Urbancrest?",
+        "Can I participate in Legacy Christmas?",
+        "Can I play Legacy Christmas at Urbancrest?"
+      ],
+      "ministries": [
+        "worship",
+        "senior"
+      ],
+      "audiences": [
+        "everyone",
+        "seniors",
+        "all"
+      ],
+      "resources": [],
+      "event_id": "event-dbe9bebbf2d06b2b",
+      "activity_aliases": [
+        "Legacy Christmas"
+      ],
+      "event_category": "major_event",
+      "event_start": "2026-12-05T17:00:00-05:00",
+      "event_end": "2026-12-05T19:30:00-05:00",
+      "sort_start_utc": "2026-12-05T22:00:00Z",
+      "sort_end_utc": "2026-12-06T00:30:00Z",
+      "display_when": "Saturday, December 5, 2026, 5 PM to 7:30 PM",
+      "all_day": false,
+      "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
+      "location_structured": {
+        "name": "Urbancrest Church",
+        "address": "2634 Drake Road\nGymnasium, Worship Center\nLebanon, OH 45036",
+        "latitude": "39.4747445",
+        "longitude": "-84.1792958"
+      },
+      "details": "Celebrate Christmas with Legacy Builders on December 5. Dinner starts at 5:00 PM in the gym, is catered by Olive Garden, and costs $12 per person.\n\nAfter dinner, we’ll head to the worship center for a concert with Wright on Cue, a barbershop quartet. The concert is free and open to everyone.\n\nQuestions? Reach out to Howard and Sue Pauley.\n\nRegistration is open.",
+      "details_source": "planning_center_registrations_api",
+      "planning_center_event_instance_id": "242378722",
+      "planning_center_event_time_id": "33842323",
+      "registration_url": "https://urbancrest.churchcenter.com/registrations/events/4013065/reservations/new",
+      "registration_available": true,
+      "registration_open": true,
+      "registration_closed": false,
+      "registration_open_at": "2026-11-09T14:47:44Z",
+      "registration_close_at": "2026-11-30T05:00:00Z",
+      "registration_categories": [
+        "Legacy Builders (50+)"
+      ],
+      "registration_options": [
+        {
+          "id": "9191884",
+          "name": "Standard",
+          "price_cents": 1200,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "12",
+          "at_maximum_capacity": false,
+          "waitlist": false
+        }
+      ],
+      "event_source": "merged",
+      "event_sources": [
+        "planning_center_ical",
+        "planning_center_calendar_api",
+        "planning_center_registrations_api"
+      ],
+      "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1794286800&key=uploads%2Fevent%2Flogo%2F4013065%2Fimage-1794235675608.jpeg&thumb=720x405%23&version=1794235878&signature=e4a812b6c62b44fbd4c4b4cd39abb0812ffb0668c8996313531439d08ae8b6ad",
+      "knowledge_file": "knowledge/events/generated/2026-12-05-legacy-christmas-d06b2b.md",
+      "chronological_rank": 22,
+      "routine_schedule_occurrence": false
+    },
+    {
       "id": "events.live.event-62fe0d7a16d35740",
       "record_type": "event",
       "path": "knowledge/events/generated/2027-01-22-men-s-summit-d35740.md",
@@ -5494,7 +5600,7 @@
       ],
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1789617600&key=uploads%2Fevent%2Flogo%2F3894841%2Fimage-1789567912819.jpeg&thumb=720x405%23&version=1789574259&signature=d7621b4c7bacd08be0f88f9d9bf59d91edcae06ec555dff400e0f62dd59ae3b1",
       "knowledge_file": "knowledge/events/generated/2027-01-22-men-s-summit-d35740.md",
-      "chronological_rank": 60,
+      "chronological_rank": 63,
       "routine_schedule_occurrence": false
     },
     {
@@ -5629,7 +5735,7 @@
       "planning_center_event_time_id": "14177442",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-28-summit-gym-set-up-50aaa2.md",
-      "chronological_rank": 65,
+      "chronological_rank": 68,
       "routine_schedule_occurrence": false
     },
     {
@@ -16746,8 +16852,8 @@
       "record_type": "event",
       "path": "knowledge/events/generated/2026-12-06-baking-spirits-bright-christmas-cookie-exchange-8bfb9b.md",
       "title": "Baking Spirits Bright: Christmas Cookie Exchange",
-      "summary": "Ladies, it's time to pull out your Christmas cookie recipes! Join us for our first ever Christmas Cookie Exchange where we will sample and enjoy each others' favorite Christmas cookies. Please bring 6 dozen cookies to share (including platters to display them on), but don't...",
-      "content": "Ladies, it's time to pull out your Christmas cookie recipes! Join us for our first ever Christmas Cookie Exchange where we will sample and enjoy each others' favorite Christmas cookies. Please bring 6 dozen cookies to share (including platters to display them on), but don't forget your Tupperware containers, because you will be taking 4 dozen back home with you as we exchange with one another.\n\nLight refreshments will also be served. This is a free event, but please register so we can get a head count.\nRegister: https://urbancrest.churchcenter.com/registrations/events/3988306\n\nDetails:\nLadies, it's time to pull out your Christmas cookie recipes!  Join us for our first ever Christmas Cookie Exchange where we will sample and enjoy each others' favorite Christmas cookies. Please bring 6 dozen cookies to share (including platters to display them on), but don't forget your Tupperware containers, because you will be taking 4 dozen back home with you as we exchange with one another. \n\nLight refreshments will also be served. This is a free event, but please register so we can get a head count.\n\nRegistration is open.",
+      "summary": "Ladies, pull out your favorite Christmas cookie recipe and join us for our first Christmas Cookie Exchange! We’ll sample each other’s cookies, enjoy light refreshments, and take home a variety of Christmas cookies. Bring six dozen cookies to share, a platter to display them,...",
+      "content": "Ladies, pull out your favorite Christmas cookie recipe and join us for our first Christmas Cookie Exchange! We’ll sample each other’s cookies, enjoy light refreshments, and take home a variety of Christmas cookies.\n\nBring six dozen cookies to share, a platter to display them, and containers to take home four dozen cookies. If you follow a gluten-free diet, please bring gluten-free cookies for the exchange.\n\nThe event is free. Please register so we know how many to expect.\nRegister: https://urbancrest.churchcenter.com/registrations/events/3988306\n\nDetails:\nLadies, pull out your favorite Christmas cookie recipe and join us for our first Christmas Cookie Exchange! We’ll sample each other’s cookies, enjoy light refreshments, and take home a variety of Christmas cookies.\n\nBring six dozen cookies to share, a platter to display them, and containers to take home four dozen cookies. If you follow a gluten-free diet, please bring gluten-free cookies for the exchange.\n\nThe event is free. Please register so we know how many to expect.\n\nRegistration is open.",
       "priority": 80,
       "category": [
         "events",
@@ -16788,7 +16894,7 @@
         "women"
       ],
       "audiences": [
-        "volunteers",
+        "everyone",
         "women"
       ],
       "resources": [],
@@ -16810,7 +16916,7 @@
         "latitude": "39.4747445",
         "longitude": "-84.1792958"
       },
-      "details": "Ladies, it's time to pull out your Christmas cookie recipes!  Join us for our first ever Christmas Cookie Exchange where we will sample and enjoy each others' favorite Christmas cookies. Please bring 6 dozen cookies to share (including platters to display them on), but don't forget your Tupperware containers, because you will be taking 4 dozen back home with you as we exchange with one another. \n\nLight refreshments will also be served. This is a free event, but please register so we can get a head count.\n\nRegistration is open.",
+      "details": "Ladies, pull out your favorite Christmas cookie recipe and join us for our first Christmas Cookie Exchange! We’ll sample each other’s cookies, enjoy light refreshments, and take home a variety of Christmas cookies.\n\nBring six dozen cookies to share, a platter to display them, and containers to take home four dozen cookies. If you follow a gluten-free diet, please bring gluten-free cookies for the exchange.\n\nThe event is free. Please register so we know how many to expect.\n\nRegistration is open.",
       "details_source": "planning_center_registrations_api",
       "planning_center_event_instance_id": "241225873",
       "planning_center_event_time_id": "33644743",
@@ -16841,9 +16947,9 @@
         "planning_center_calendar_api",
         "planning_center_registrations_api"
       ],
-      "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1793289600&key=uploads%2Fevent%2Flogo%2F3988306%2Fimage-1793208738222.jpeg&thumb=720x405%23&version=1793208907&signature=d964193ff22214e2831434032f0cc23edfbfafa01d5036fd9341f7a6bde50588",
+      "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1794330000&key=uploads%2Fevent%2Flogo%2F3988306%2Fimage-1793208738222.jpeg&thumb=720x405%23&version=1794250830&signature=6b568c7b3998fda62b9e79ce5343eb458982420d76dbf70b2db9571edb2acebe",
       "knowledge_file": "knowledge/events/generated/2026-12-06-baking-spirits-bright-christmas-cookie-exchange-8bfb9b.md",
-      "chronological_rank": 25,
+      "chronological_rank": 26,
       "routine_schedule_occurrence": false
     },
     {
@@ -16963,7 +17069,7 @@
       "info_url": "https://registrations.planningcenteronline.com/+15134946734",
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1793073600&key=uploads%2Fevent%2Flogo%2F3976382%2Fimage-1793024379926.jpeg&thumb=720x405%23&version=1793024380&signature=b7cae581102f0b1f84f643ad2ede143b496117015e47b5f502b2d79dceb2df45",
       "knowledge_file": "knowledge/events/generated/2026-12-16-christmas-baskets-of-hope-signup-2026-2077d0.md",
-      "chronological_rank": 32,
+      "chronological_rank": 34,
       "routine_schedule_occurrence": false,
       "supplemental_search_term_count": 2
     },
@@ -17063,7 +17169,7 @@
       ],
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1791993600&key=uploads%2Fevent%2Flogo%2F3953731%2Fimage-1791828904219.jpeg&thumb=720x405%23&version=1791910082&signature=00b115c8163c7551d89ca0fb6e959b9567ce9efe565f4c9fbe5db16e2fb81618",
       "knowledge_file": "knowledge/events/generated/2026-12-20-christmas-choir-7f0fe3.md",
-      "chronological_rank": 38,
+      "chronological_rank": 41,
       "routine_schedule_occurrence": false
     },
     {
@@ -17334,7 +17440,7 @@
       "planning_center_event_time_id": "33357897",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-10-christmas-choir-rehearsal-49f3f0.md",
-      "chronological_rank": 28,
+      "chronological_rank": 29,
       "routine_schedule_occurrence": false
     },
     {
@@ -17402,7 +17508,7 @@
       "planning_center_event_time_id": "33357897",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-17-christmas-choir-rehearsal-2514c7.md",
-      "chronological_rank": 35,
+      "chronological_rank": 37,
       "routine_schedule_occurrence": false
     },
     {
@@ -17470,7 +17576,185 @@
       "planning_center_event_time_id": "33357938",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-19-christmas-worship-rehearsal-ddc31f.md",
-      "chronological_rank": 37,
+      "chronological_rank": 40,
+      "routine_schedule_occurrence": false
+    },
+    {
+      "id": "events.live.event-80e5a36175c3d70a",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-12-18-family-christmas-movie-night-c3d70a.md",
+      "title": "Family Christmas Movie Night",
+      "summary": "Bring the whole family to the worship center on December 18 at 6:30 PM for Family Christmas Movie Night. We’ll watch The Star , an animated retelling of the first Christmas through the eyes of a little donkey and his friends. Grab some popcorn and seasonal treats, find a...",
+      "content": "Bring the whole family to the worship center on December 18 at 6:30 PM for Family Christmas Movie Night. We’ll watch The Star , an animated retelling of the first Christmas through the eyes of a little donkey and his friends.\n\nGrab some popcorn and seasonal treats, find a seat, and enjoy the movie together. Admission and treats are free, and everyone’s welcome.\n\nDetails:\nBring the whole family to the worship center on December 18 at 6:30 PM for Family Christmas Movie Night. We’ll watch The Star , an animated retelling of the first Christmas through the eyes of a little donkey and his friends.\n\nGrab some popcorn and seasonal treats, find a seat, and enjoy the movie together. Admission and treats are free, and everyone’s welcome.\n\nRegistration is open.",
+      "priority": 80,
+      "category": [
+        "events",
+        "general_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "general_event",
+        "Family Christmas Movie Night"
+      ],
+      "search_terms": [
+        "Family Christmas Movie Night",
+        "When is Family Christmas Movie Night?",
+        "Tell me about Family Christmas Movie Night",
+        "What are the details for Family Christmas Movie Night?",
+        "What is the menu for Family Christmas Movie Night?",
+        "How do I register for Family Christmas Movie Night?",
+        "Does Urbancrest have Family Christmas Movie Night?",
+        "Does Urbancrest offer Family Christmas Movie Night?",
+        "Do you have Family Christmas Movie Night?",
+        "Do you offer Family Christmas Movie Night?",
+        "Is there Family Christmas Movie Night at Urbancrest?",
+        "Can I participate in Family Christmas Movie Night?",
+        "Can I play Family Christmas Movie Night at Urbancrest?"
+      ],
+      "ministries": [
+        "churchwide",
+        "worship",
+        "family"
+      ],
+      "audiences": [
+        "families",
+        "all"
+      ],
+      "resources": [],
+      "event_id": "event-80e5a36175c3d70a",
+      "activity_aliases": [
+        "Family Christmas Movie Night"
+      ],
+      "event_category": "general_event",
+      "event_start": "2026-12-18T18:00:00-05:00",
+      "event_end": "2026-12-18T20:00:00-05:00",
+      "sort_start_utc": "2026-12-18T23:00:00Z",
+      "sort_end_utc": "2026-12-19T01:00:00Z",
+      "display_when": "Friday, December 18, 2026, 6 PM to 8 PM",
+      "all_day": false,
+      "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
+      "location_structured": {
+        "name": "Urbancrest Church",
+        "address": "2634 Drake Road\nWorship Center\nLebanon, OH 45036",
+        "latitude": "39.4747445",
+        "longitude": "-84.1792958"
+      },
+      "details": "Bring the whole family to the worship center on December 18 at 6:30 PM for Family Christmas Movie Night. We’ll watch The Star , an animated retelling of the first Christmas through the eyes of a little donkey and his friends.\n\nGrab some popcorn and seasonal treats, find a seat, and enjoy the movie together. Admission and treats are free, and everyone’s welcome.\n\nRegistration is open.",
+      "details_source": "planning_center_registrations_api",
+      "planning_center_event_instance_id": "237849087",
+      "planning_center_event_time_id": "33065181",
+      "registration_url": "https://urbancrest.churchcenter.com/registrations/events/4013288/reservations/new",
+      "registration_available": true,
+      "registration_open": true,
+      "registration_closed": false,
+      "registration_open_at": "2026-11-09T15:46:11Z",
+      "registration_categories": [
+        "Family",
+        "Special Events"
+      ],
+      "registration_options": [
+        {
+          "id": "9192356",
+          "name": "Standard",
+          "price_cents": 0,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "0",
+          "at_maximum_capacity": false,
+          "waitlist": false
+        }
+      ],
+      "event_source": "merged",
+      "event_sources": [
+        "planning_center_ical",
+        "planning_center_registrations_api"
+      ],
+      "image_url": "https://registrations.planningcenteronline.com/signups/4013288/logo",
+      "knowledge_file": "knowledge/events/generated/2026-12-18-family-christmas-movie-night-c3d70a.md",
+      "chronological_rank": 38,
+      "routine_schedule_occurrence": false
+    },
+    {
+      "id": "events.live.event-e936232251295487",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-12-18-family-christmas-movie-night-295487.md",
+      "title": "Family Christmas Movie Night",
+      "summary": "Bring the whole family to the worship center on December 18 at 6:30 PM for Family Christmas Movie Night....",
+      "content": "Bring the whole family to the worship center on December 18 at 6:30 PM for Family Christmas Movie Night. We’ll watch The Star, an animated retelling of the first Christmas through the eyes of a little donkey and his friends.\n\nGrab some popcorn and seasonal treats, find a seat, and enjoy the movie together. Admission and treats are free, and everyone’s welcome.\nRegister: https://urbancrest.churchcenter.com/registrations/events/4013288\n\nDetails:\nBring the whole family to the worship center on December 18 at 6:30 PM for Family Christmas Movie Night. We’ll watch \nThe Star\n, an animated retelling of the first Christmas through the eyes of a little donkey and his friends.\nGrab some popcorn and seasonal treats, find a seat, and enjoy the movie together. Admission and treats are free, and everyone’s welcome.",
+      "priority": 80,
+      "category": [
+        "events",
+        "ministry_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "ministry_event",
+        "Family Christmas Movie Night"
+      ],
+      "search_terms": [
+        "Family Christmas Movie Night",
+        "When is Family Christmas Movie Night?",
+        "Tell me about Family Christmas Movie Night",
+        "What are the details for Family Christmas Movie Night?",
+        "What is the menu for Family Christmas Movie Night?",
+        "How do I register for Family Christmas Movie Night?",
+        "Does Urbancrest have Family Christmas Movie Night?",
+        "Does Urbancrest offer Family Christmas Movie Night?",
+        "Do you have Family Christmas Movie Night?",
+        "Do you offer Family Christmas Movie Night?",
+        "Is there Family Christmas Movie Night at Urbancrest?",
+        "Can I participate in Family Christmas Movie Night?",
+        "Can I play Family Christmas Movie Night at Urbancrest?"
+      ],
+      "ministries": [
+        "missions",
+        "worship"
+      ],
+      "audiences": [
+        "families"
+      ],
+      "resources": [],
+      "event_id": "event-e936232251295487",
+      "activity_aliases": [
+        "Family Christmas Movie Night"
+      ],
+      "event_category": "ministry_event",
+      "event_start": "2026-12-18T18:30:00-05:00",
+      "event_end": "2026-12-18T20:00:00-05:00",
+      "sort_start_utc": "2026-12-18T23:30:00Z",
+      "sort_end_utc": "2026-12-19T01:00:00Z",
+      "display_when": "Friday, December 18, 2026, 6:30 PM to 8 PM",
+      "all_day": false,
+      "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
+      "details": "Bring the whole family to the worship center on December 18 at 6:30 PM for Family Christmas Movie Night. We’ll watch \nThe Star\n, an animated retelling of the first Christmas through the eyes of a little donkey and his friends.\nGrab some popcorn and seasonal treats, find a seat, and enjoy the movie together. Admission and treats are free, and everyone’s welcome.",
+      "details_source": "planning_center_calendar_api",
+      "planning_center_event_instance_id": "242385522",
+      "planning_center_event_time_id": "33844156",
+      "registration_url": "https://urbancrest.churchcenter.com/registrations/events/4013288",
+      "registration_available": true,
+      "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1794286800&key=uploads%2Fevent%2Flogo%2F4013288%2Fimage-1794239194185.jpeg&thumb=720x405%23&version=1794239237&signature=3867145ad1aefbfa6d4aa09aa69844b360b9c91010216d101de1e36a1ee893df",
+      "knowledge_file": "knowledge/events/generated/2026-12-18-family-christmas-movie-night-295487.md",
+      "chronological_rank": 39,
       "routine_schedule_occurrence": false
     },
     {
@@ -17537,7 +17821,7 @@
       "planning_center_event_time_id": "33518569",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-24-kid-min-breakfast-c3ccc7.md",
-      "chronological_rank": 61,
+      "chronological_rank": 64,
       "routine_schedule_occurrence": false
     },
     {
@@ -17604,7 +17888,7 @@
       "planning_center_event_time_id": "33518585",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-14-kid-min-breakfast-76640c.md",
-      "chronological_rank": 75,
+      "chronological_rank": 78,
       "routine_schedule_occurrence": false
     },
     {
@@ -17916,7 +18200,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1796104799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=0f6e211ca2df711e0dd5e733e9d2172fa795ca36c0e4411d2c0d1a01aff7a8ba",
       "knowledge_file": "knowledge/events/generated/2027-01-02-men-s-breakfast-3d2c83.md",
-      "chronological_rank": 45,
+      "chronological_rank": 48,
       "routine_schedule_occurrence": false
     },
     {
@@ -17985,7 +18269,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1796104799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=0f6e211ca2df711e0dd5e733e9d2172fa795ca36c0e4411d2c0d1a01aff7a8ba",
       "knowledge_file": "knowledge/events/generated/2027-02-06-men-s-breakfast-fa0b3e.md",
-      "chronological_rank": 70,
+      "chronological_rank": 73,
       "routine_schedule_occurrence": false
     },
     {
@@ -18054,7 +18338,7 @@
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1796104799&key=uploads%2F128485%2Fbw9aubitca94mwcshivzuaqd29pf&thumb=960x540%23&signature=0f6e211ca2df711e0dd5e733e9d2172fa795ca36c0e4411d2c0d1a01aff7a8ba",
       "knowledge_file": "knowledge/events/generated/2027-03-06-men-s-breakfast-b236b5.md",
-      "chronological_rank": 89,
+      "chronological_rank": 92,
       "routine_schedule_occurrence": false
     },
     {
@@ -18712,7 +18996,7 @@
           "price_currency_symbol": "$",
           "price_formatted": "0",
           "maximum_capacity": 4,
-          "available_capacity": 4,
+          "available_capacity": 3,
           "at_maximum_capacity": false,
           "waitlist": false
         },
@@ -18926,7 +19210,7 @@
       ],
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1793116800&key=uploads%2Fevent%2Flogo%2F3775272%2Fimage-1793031265335.jpeg&thumb=720x405%23&version=1793031265&signature=1119660debddf88c72b9f03a74ca79e990cfa890736b11967088811428048110",
       "knowledge_file": "knowledge/events/generated/2027-01-16-strength-to-stand-ba076b.md",
-      "chronological_rank": 54,
+      "chronological_rank": 57,
       "routine_schedule_occurrence": false
     },
     {
@@ -19117,7 +19401,105 @@
       "planning_center_event_time_id": "27323098",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-06-women-s-christmas-event-d6795d.md",
-      "chronological_rank": 24,
+      "chronological_rank": 25,
+      "routine_schedule_occurrence": false
+    },
+    {
+      "id": "events.live.event-23fd847cf7990321",
+      "record_type": "event",
+      "path": "knowledge/events/generated/2026-12-12-youth-christmas-party-990321.md",
+      "title": "Youth Christmas Party",
+      "summary": "Christmas is just around the corner and so is the Grinch! I hope you join us Saturday December 12th at 5PM for our Grinch themed Christmas party! We will have competitions for best Grinch costumes and of course an ugly sweater context! Also... make sure to bring a $5 gift...",
+      "content": "Christmas is just around the corner and so is the Grinch! I hope you join us Saturday December 12th at 5PM for our Grinch themed Christmas party! We will have competitions for best Grinch costumes and of course an ugly sweater context! Also... make sure to bring a $5 gift neatly wrapped for our gift exchange! And please come hungry for dinner! OH I almost forgot! Get your voices ready to carol to our old folks! I am excited to see you there! Please click the link below to sign up, so we can plan for enough food!\n\nDetails:\nChristmas is just around the corner and so is the Grinch! I hope you join us Saturday December 12th at 5PM for our Grinch themed Christmas party! We will have competitions for best Grinch costumes and of course an ugly sweater context! Also... make sure to bring a $5 gift neatly wrapped for our gift exchange! And please come hungry for dinner! OH I almost forgot! Get your voices ready to carol to our old folks! I am excited to see you there! Please click the link below to sign up, so we can plan for enough food!\n\nRegistration is open.",
+      "priority": 80,
+      "category": [
+        "events",
+        "ministry_event"
+      ],
+      "intents": [
+        "event_details",
+        "upcoming_events",
+        "calendar",
+        "next_ministry_event",
+        "activity_availability"
+      ],
+      "tags": [
+        "event",
+        "calendar",
+        "upcoming",
+        "activity",
+        "ministry_event",
+        "Youth Christmas Party"
+      ],
+      "search_terms": [
+        "Youth Christmas Party",
+        "When is Youth Christmas Party?",
+        "Tell me about Youth Christmas Party",
+        "What are the details for Youth Christmas Party?",
+        "What is the menu for Youth Christmas Party?",
+        "How do I register for Youth Christmas Party?",
+        "Does Urbancrest have Youth Christmas Party?",
+        "Does Urbancrest offer Youth Christmas Party?",
+        "Do you have Youth Christmas Party?",
+        "Do you offer Youth Christmas Party?",
+        "Is there Youth Christmas Party at Urbancrest?",
+        "Can I participate in Youth Christmas Party?",
+        "Can I play Youth Christmas Party at Urbancrest?"
+      ],
+      "ministries": [
+        "students"
+      ],
+      "audiences": [
+        "students"
+      ],
+      "resources": [],
+      "event_id": "event-23fd847cf7990321",
+      "activity_aliases": [
+        "Youth Christmas Party"
+      ],
+      "event_category": "ministry_event",
+      "event_start": "2026-12-12T17:00:00-05:00",
+      "event_end": "2026-12-12T20:00:00-05:00",
+      "sort_start_utc": "2026-12-12T22:00:00Z",
+      "sort_end_utc": "2026-12-13T01:00:00Z",
+      "display_when": "Saturday, December 12, 2026, 5 PM to 8 PM",
+      "all_day": false,
+      "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
+      "location_structured": {
+        "name": "Urbancrest Church",
+        "address": "2634 Drake Road\nGym\nLebanon, OH 45036",
+        "latitude": "39.4747445",
+        "longitude": "-84.1792958"
+      },
+      "details": "Christmas is just around the corner and so is the Grinch! I hope you join us Saturday December 12th at 5PM for our Grinch themed Christmas party! We will have competitions for best Grinch costumes and of course an ugly sweater context! Also... make sure to bring a $5 gift neatly wrapped for our gift exchange! And please come hungry for dinner! OH I almost forgot! Get your voices ready to carol to our old folks! I am excited to see you there! Please click the link below to sign up, so we can plan for enough food!\n\nRegistration is open.",
+      "details_source": "planning_center_registrations_api",
+      "planning_center_event_instance_id": "242401036",
+      "planning_center_event_time_id": "33848538",
+      "registration_url": "https://urbancrest.churchcenter.com/registrations/events/4013817/reservations/new",
+      "registration_available": true,
+      "registration_open": true,
+      "registration_closed": false,
+      "registration_open_at": "2026-11-09T17:37:40Z",
+      "registration_options": [
+        {
+          "id": "9193552",
+          "name": "Standard",
+          "price_cents": 0,
+          "price_currency": "USD",
+          "price_currency_symbol": "$",
+          "price_formatted": "0",
+          "at_maximum_capacity": false,
+          "waitlist": false
+        }
+      ],
+      "event_source": "merged",
+      "event_sources": [
+        "planning_center_ical",
+        "planning_center_registrations_api"
+      ],
+      "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1794330000&key=uploads%2Fevent%2Flogo%2F4013817%2Fimage-1794245867179.jpeg&thumb=720x405%23&version=1794246006&signature=7c6ead4a42394c5354c707a6f3d496ca35f2649f5537ec409d44f5e1f3d16be4",
+      "knowledge_file": "knowledge/events/generated/2026-12-12-youth-christmas-party-990321.md",
+      "chronological_rank": 30,
       "routine_schedule_occurrence": false
     },
     {
@@ -19973,7 +20355,7 @@
       "registration_available": true,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1790827200&key=uploads%2Fevent%2Flogo%2F3737699%2Fimage-1600369375660.jpeg&thumb=720x405%23&version=1787148556&signature=6d15aefae58f3a6d6341dae202341d6a81ad49d1d6984a7ebf618c3143377f40",
       "knowledge_file": "knowledge/events/generated/2026-12-09-awana-2026-2027-983471.md",
-      "chronological_rank": 27,
+      "chronological_rank": 28,
       "routine_schedule_occurrence": false
     },
     {
@@ -20048,7 +20430,7 @@
       "registration_available": true,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1790827200&key=uploads%2Fevent%2Flogo%2F3737699%2Fimage-1600369375660.jpeg&thumb=720x405%23&version=1787148556&signature=6d15aefae58f3a6d6341dae202341d6a81ad49d1d6984a7ebf618c3143377f40",
       "knowledge_file": "knowledge/events/generated/2026-12-16-awana-2026-2027-a96a01.md",
-      "chronological_rank": 34,
+      "chronological_rank": 36,
       "routine_schedule_occurrence": false
     },
     {
@@ -20057,7 +20439,7 @@
       "path": "knowledge/events/generated/2026-11-11-wednesday-night-dinner-af1c1c.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -20112,7 +20494,7 @@
       "display_when": "Wednesday, November 11, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122716",
       "planning_center_event_time_id": "31870601",
@@ -20128,7 +20510,7 @@
       "path": "knowledge/events/generated/2026-11-18-wednesday-night-dinner-cf53fb.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -20183,7 +20565,7 @@
       "display_when": "Wednesday, November 18, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122717",
       "planning_center_event_time_id": "31870601",
@@ -20199,7 +20581,7 @@
       "path": "knowledge/events/generated/2026-12-02-wednesday-night-dinner-809fdf.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -20254,7 +20636,7 @@
       "display_when": "Wednesday, December 2, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122719",
       "planning_center_event_time_id": "31870601",
@@ -20270,7 +20652,7 @@
       "path": "knowledge/events/generated/2026-12-09-wednesday-night-dinner-6f6ed6.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -20325,14 +20707,14 @@
       "display_when": "Wednesday, December 9, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122720",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1796104799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=cb4cc7db504de95a45ef95ef2bacbbc5aabcea101d283fd768ccadebcf18e930",
       "knowledge_file": "knowledge/events/generated/2026-12-09-wednesday-night-dinner-6f6ed6.md",
-      "chronological_rank": 26,
+      "chronological_rank": 27,
       "routine_schedule_occurrence": false
     },
     {
@@ -20341,7 +20723,7 @@
       "path": "knowledge/events/generated/2026-12-16-wednesday-night-dinner-d35842.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -20396,14 +20778,14 @@
       "display_when": "Wednesday, December 16, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122721",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1796104799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=cb4cc7db504de95a45ef95ef2bacbbc5aabcea101d283fd768ccadebcf18e930",
       "knowledge_file": "knowledge/events/generated/2026-12-16-wednesday-night-dinner-d35842.md",
-      "chronological_rank": 33,
+      "chronological_rank": 35,
       "routine_schedule_occurrence": false
     },
     {
@@ -20412,7 +20794,7 @@
       "path": "knowledge/events/generated/2026-12-23-wednesday-night-dinner-8995f6.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -20467,14 +20849,14 @@
       "display_when": "Wednesday, December 23, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122722",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1796104799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=cb4cc7db504de95a45ef95ef2bacbbc5aabcea101d283fd768ccadebcf18e930",
       "knowledge_file": "knowledge/events/generated/2026-12-23-wednesday-night-dinner-8995f6.md",
-      "chronological_rank": 41,
+      "chronological_rank": 44,
       "routine_schedule_occurrence": false
     },
     {
@@ -20483,7 +20865,7 @@
       "path": "knowledge/events/generated/2026-12-30-wednesday-night-dinner-85ac1d.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -20538,14 +20920,14 @@
       "display_when": "Wednesday, December 30, 2026, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122723",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1796104799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=cb4cc7db504de95a45ef95ef2bacbbc5aabcea101d283fd768ccadebcf18e930",
       "knowledge_file": "knowledge/events/generated/2026-12-30-wednesday-night-dinner-85ac1d.md",
-      "chronological_rank": 44,
+      "chronological_rank": 47,
       "routine_schedule_occurrence": false
     },
     {
@@ -20554,7 +20936,7 @@
       "path": "knowledge/events/generated/2027-01-06-wednesday-night-dinner-cd86db.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -20609,14 +20991,14 @@
       "display_when": "Wednesday, January 6, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122724",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1796104799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=cb4cc7db504de95a45ef95ef2bacbbc5aabcea101d283fd768ccadebcf18e930",
       "knowledge_file": "knowledge/events/generated/2027-01-06-wednesday-night-dinner-cd86db.md",
-      "chronological_rank": 48,
+      "chronological_rank": 51,
       "routine_schedule_occurrence": false
     },
     {
@@ -20625,7 +21007,7 @@
       "path": "knowledge/events/generated/2027-01-13-wednesday-night-dinner-ed64ec.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -20680,14 +21062,14 @@
       "display_when": "Wednesday, January 13, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122725",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1796104799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=cb4cc7db504de95a45ef95ef2bacbbc5aabcea101d283fd768ccadebcf18e930",
       "knowledge_file": "knowledge/events/generated/2027-01-13-wednesday-night-dinner-ed64ec.md",
-      "chronological_rank": 52,
+      "chronological_rank": 55,
       "routine_schedule_occurrence": false
     },
     {
@@ -20696,7 +21078,7 @@
       "path": "knowledge/events/generated/2027-01-20-wednesday-night-dinner-c3c878.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -20751,14 +21133,14 @@
       "display_when": "Wednesday, January 20, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122726",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1796104799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=cb4cc7db504de95a45ef95ef2bacbbc5aabcea101d283fd768ccadebcf18e930",
       "knowledge_file": "knowledge/events/generated/2027-01-20-wednesday-night-dinner-c3c878.md",
-      "chronological_rank": 58,
+      "chronological_rank": 61,
       "routine_schedule_occurrence": false
     },
     {
@@ -20767,7 +21149,7 @@
       "path": "knowledge/events/generated/2027-01-27-wednesday-night-dinner-e92330.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -20822,14 +21204,14 @@
       "display_when": "Wednesday, January 27, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122727",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1796104799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=cb4cc7db504de95a45ef95ef2bacbbc5aabcea101d283fd768ccadebcf18e930",
       "knowledge_file": "knowledge/events/generated/2027-01-27-wednesday-night-dinner-e92330.md",
-      "chronological_rank": 64,
+      "chronological_rank": 67,
       "routine_schedule_occurrence": false
     },
     {
@@ -20838,7 +21220,7 @@
       "path": "knowledge/events/generated/2027-02-03-wednesday-night-dinner-56372f.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -20893,14 +21275,14 @@
       "display_when": "Wednesday, February 3, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122728",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1796104799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=cb4cc7db504de95a45ef95ef2bacbbc5aabcea101d283fd768ccadebcf18e930",
       "knowledge_file": "knowledge/events/generated/2027-02-03-wednesday-night-dinner-56372f.md",
-      "chronological_rank": 68,
+      "chronological_rank": 71,
       "routine_schedule_occurrence": false
     },
     {
@@ -20909,7 +21291,7 @@
       "path": "knowledge/events/generated/2027-02-10-wednesday-night-dinner-818c3d.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -20964,14 +21346,14 @@
       "display_when": "Wednesday, February 10, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122729",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1796104799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=cb4cc7db504de95a45ef95ef2bacbbc5aabcea101d283fd768ccadebcf18e930",
       "knowledge_file": "knowledge/events/generated/2027-02-10-wednesday-night-dinner-818c3d.md",
-      "chronological_rank": 73,
+      "chronological_rank": 76,
       "routine_schedule_occurrence": false
     },
     {
@@ -20980,7 +21362,7 @@
       "path": "knowledge/events/generated/2027-02-17-wednesday-night-dinner-e2ee59.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -21035,14 +21417,14 @@
       "display_when": "Wednesday, February 17, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122730",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1796104799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=cb4cc7db504de95a45ef95ef2bacbbc5aabcea101d283fd768ccadebcf18e930",
       "knowledge_file": "knowledge/events/generated/2027-02-17-wednesday-night-dinner-e2ee59.md",
-      "chronological_rank": 79,
+      "chronological_rank": 82,
       "routine_schedule_occurrence": false
     },
     {
@@ -21051,7 +21433,7 @@
       "path": "knowledge/events/generated/2027-02-24-wednesday-night-dinner-8f0b45.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -21106,14 +21488,14 @@
       "display_when": "Wednesday, February 24, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122731",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1796104799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=cb4cc7db504de95a45ef95ef2bacbbc5aabcea101d283fd768ccadebcf18e930",
       "knowledge_file": "knowledge/events/generated/2027-02-24-wednesday-night-dinner-8f0b45.md",
-      "chronological_rank": 83,
+      "chronological_rank": 86,
       "routine_schedule_occurrence": false
     },
     {
@@ -21122,7 +21504,7 @@
       "path": "knowledge/events/generated/2027-03-03-wednesday-night-dinner-8fb3dd.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -21177,14 +21559,14 @@
       "display_when": "Wednesday, March 3, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122732",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1796104799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=cb4cc7db504de95a45ef95ef2bacbbc5aabcea101d283fd768ccadebcf18e930",
       "knowledge_file": "knowledge/events/generated/2027-03-03-wednesday-night-dinner-8fb3dd.md",
-      "chronological_rank": 87,
+      "chronological_rank": 90,
       "routine_schedule_occurrence": false
     },
     {
@@ -21193,7 +21575,7 @@
       "path": "knowledge/events/generated/2027-03-10-wednesday-night-dinner-48508a.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -21248,14 +21630,14 @@
       "display_when": "Wednesday, March 10, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122733",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1796104799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=cb4cc7db504de95a45ef95ef2bacbbc5aabcea101d283fd768ccadebcf18e930",
       "knowledge_file": "knowledge/events/generated/2027-03-10-wednesday-night-dinner-48508a.md",
-      "chronological_rank": 92,
+      "chronological_rank": 95,
       "routine_schedule_occurrence": false
     },
     {
@@ -21264,7 +21646,7 @@
       "path": "knowledge/events/generated/2027-03-17-wednesday-night-dinner-ab6c0d.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -21319,14 +21701,14 @@
       "display_when": "Wednesday, March 17, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122734",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1796104799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=cb4cc7db504de95a45ef95ef2bacbbc5aabcea101d283fd768ccadebcf18e930",
       "knowledge_file": "knowledge/events/generated/2027-03-17-wednesday-night-dinner-ab6c0d.md",
-      "chronological_rank": 97,
+      "chronological_rank": 100,
       "routine_schedule_occurrence": false
     },
     {
@@ -21335,7 +21717,7 @@
       "path": "knowledge/events/generated/2027-03-24-wednesday-night-dinner-46db45.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -21390,14 +21772,14 @@
       "display_when": "Wednesday, March 24, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122735",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1796104799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=cb4cc7db504de95a45ef95ef2bacbbc5aabcea101d283fd768ccadebcf18e930",
       "knowledge_file": "knowledge/events/generated/2027-03-24-wednesday-night-dinner-46db45.md",
-      "chronological_rank": 101,
+      "chronological_rank": 104,
       "routine_schedule_occurrence": false
     },
     {
@@ -21406,7 +21788,7 @@
       "path": "knowledge/events/generated/2027-03-31-wednesday-night-dinner-fc63a5.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -21461,14 +21843,14 @@
       "display_when": "Wednesday, March 31, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122736",
       "planning_center_event_time_id": "31870601",
       "registration_available": false,
       "image_url": "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1796104799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=cb4cc7db504de95a45ef95ef2bacbbc5aabcea101d283fd768ccadebcf18e930",
       "knowledge_file": "knowledge/events/generated/2027-03-31-wednesday-night-dinner-fc63a5.md",
-      "chronological_rank": 105,
+      "chronological_rank": 106,
       "routine_schedule_occurrence": false
     },
     {
@@ -21477,7 +21859,7 @@
       "path": "knowledge/events/generated/2027-04-07-wednesday-night-dinner-8df64a.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -21532,7 +21914,7 @@
       "display_when": "Wednesday, April 7, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122737",
       "planning_center_event_time_id": "31870601",
@@ -21548,7 +21930,7 @@
       "path": "knowledge/events/generated/2027-04-14-wednesday-night-dinner-e2d05a.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -21603,7 +21985,7 @@
       "display_when": "Wednesday, April 14, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122738",
       "planning_center_event_time_id": "31870601",
@@ -21619,7 +22001,7 @@
       "path": "knowledge/events/generated/2027-04-21-wednesday-night-dinner-0a84c3.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -21674,7 +22056,7 @@
       "display_when": "Wednesday, April 21, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122739",
       "planning_center_event_time_id": "31870601",
@@ -21690,7 +22072,7 @@
       "path": "knowledge/events/generated/2027-04-28-wednesday-night-dinner-6a7394.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -21745,7 +22127,7 @@
       "display_when": "Wednesday, April 28, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122740",
       "planning_center_event_time_id": "31870601",
@@ -21761,7 +22143,7 @@
       "path": "knowledge/events/generated/2027-05-05-wednesday-night-dinner-30e195.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -21816,7 +22198,7 @@
       "display_when": "Wednesday, May 5, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122741",
       "planning_center_event_time_id": "31870601",
@@ -21832,7 +22214,7 @@
       "path": "knowledge/events/generated/2027-05-12-wednesday-night-dinner-e125ce.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -21887,7 +22269,7 @@
       "display_when": "Wednesday, May 12, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122742",
       "planning_center_event_time_id": "31870601",
@@ -21903,7 +22285,7 @@
       "path": "knowledge/events/generated/2027-05-19-wednesday-night-dinner-0df29f.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -21958,7 +22340,7 @@
       "display_when": "Wednesday, May 19, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122743",
       "planning_center_event_time_id": "31870601",
@@ -21974,7 +22356,7 @@
       "path": "knowledge/events/generated/2027-05-26-wednesday-night-dinner-46fce3.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -22029,7 +22411,7 @@
       "display_when": "Wednesday, May 26, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122744",
       "planning_center_event_time_id": "31870601",
@@ -22045,7 +22427,7 @@
       "path": "knowledge/events/generated/2027-06-02-wednesday-night-dinner-ba0347.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -22100,7 +22482,7 @@
       "display_when": "Wednesday, June 2, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122745",
       "planning_center_event_time_id": "31870601",
@@ -22116,7 +22498,7 @@
       "path": "knowledge/events/generated/2027-06-09-wednesday-night-dinner-764b7d.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -22171,7 +22553,7 @@
       "display_when": "Wednesday, June 9, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122746",
       "planning_center_event_time_id": "31870601",
@@ -22187,7 +22569,7 @@
       "path": "knowledge/events/generated/2027-06-16-wednesday-night-dinner-6fef1b.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -22242,7 +22624,7 @@
       "display_when": "Wednesday, June 16, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122747",
       "planning_center_event_time_id": "31870601",
@@ -22258,7 +22640,7 @@
       "path": "knowledge/events/generated/2027-06-23-wednesday-night-dinner-8a9a7f.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -22313,7 +22695,7 @@
       "display_when": "Wednesday, June 23, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122748",
       "planning_center_event_time_id": "31870601",
@@ -22329,7 +22711,7 @@
       "path": "knowledge/events/generated/2027-06-30-wednesday-night-dinner-34486c.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -22384,7 +22766,7 @@
       "display_when": "Wednesday, June 30, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122749",
       "planning_center_event_time_id": "31870601",
@@ -22400,7 +22782,7 @@
       "path": "knowledge/events/generated/2027-07-07-wednesday-night-dinner-36b6bb.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -22455,7 +22837,7 @@
       "display_when": "Wednesday, July 7, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122750",
       "planning_center_event_time_id": "31870601",
@@ -22471,7 +22853,7 @@
       "path": "knowledge/events/generated/2027-07-14-wednesday-night-dinner-e48c19.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -22526,7 +22908,7 @@
       "display_when": "Wednesday, July 14, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122751",
       "planning_center_event_time_id": "31870601",
@@ -22542,7 +22924,7 @@
       "path": "knowledge/events/generated/2027-07-21-wednesday-night-dinner-f4b889.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -22597,7 +22979,7 @@
       "display_when": "Wednesday, July 21, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122752",
       "planning_center_event_time_id": "31870601",
@@ -22613,7 +22995,7 @@
       "path": "knowledge/events/generated/2027-07-28-wednesday-night-dinner-7b2465.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -22668,7 +23050,7 @@
       "display_when": "Wednesday, July 28, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122753",
       "planning_center_event_time_id": "31870601",
@@ -22684,7 +23066,7 @@
       "path": "knowledge/events/generated/2027-08-04-wednesday-night-dinner-c4767b.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -22739,7 +23121,7 @@
       "display_when": "Wednesday, August 4, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122754",
       "planning_center_event_time_id": "31870601",
@@ -22755,7 +23137,7 @@
       "path": "knowledge/events/generated/2027-08-11-wednesday-night-dinner-19d9cb.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -22810,7 +23192,7 @@
       "display_when": "Wednesday, August 11, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122755",
       "planning_center_event_time_id": "31870601",
@@ -22826,7 +23208,7 @@
       "path": "knowledge/events/generated/2027-08-18-wednesday-night-dinner-8ab9de.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -22881,7 +23263,7 @@
       "display_when": "Wednesday, August 18, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122756",
       "planning_center_event_time_id": "31870601",
@@ -22897,7 +23279,7 @@
       "path": "knowledge/events/generated/2027-08-25-wednesday-night-dinner-11c5e0.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -22952,7 +23334,7 @@
       "display_when": "Wednesday, August 25, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122757",
       "planning_center_event_time_id": "31870601",
@@ -22968,7 +23350,7 @@
       "path": "knowledge/events/generated/2027-09-01-wednesday-night-dinner-a91f0f.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -23023,7 +23405,7 @@
       "display_when": "Wednesday, September 1, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122758",
       "planning_center_event_time_id": "31870601",
@@ -23039,7 +23421,7 @@
       "path": "knowledge/events/generated/2027-09-08-wednesday-night-dinner-77f2fa.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -23094,7 +23476,7 @@
       "display_when": "Wednesday, September 8, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122759",
       "planning_center_event_time_id": "31870601",
@@ -23110,7 +23492,7 @@
       "path": "knowledge/events/generated/2027-09-15-wednesday-night-dinner-61868d.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -23165,7 +23547,7 @@
       "display_when": "Wednesday, September 15, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122760",
       "planning_center_event_time_id": "31870601",
@@ -23181,7 +23563,7 @@
       "path": "knowledge/events/generated/2027-09-22-wednesday-night-dinner-a81839.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -23236,7 +23618,7 @@
       "display_when": "Wednesday, September 22, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122761",
       "planning_center_event_time_id": "31870601",
@@ -23252,7 +23634,7 @@
       "path": "knowledge/events/generated/2027-09-29-wednesday-night-dinner-4040f9.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -23307,7 +23689,7 @@
       "display_when": "Wednesday, September 29, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122762",
       "planning_center_event_time_id": "31870601",
@@ -23323,7 +23705,7 @@
       "path": "knowledge/events/generated/2027-10-06-wednesday-night-dinner-7e1f00.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -23378,7 +23760,7 @@
       "display_when": "Wednesday, October 6, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122763",
       "planning_center_event_time_id": "31870601",
@@ -23394,7 +23776,7 @@
       "path": "knowledge/events/generated/2027-10-13-wednesday-night-dinner-693da5.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -23449,7 +23831,7 @@
       "display_when": "Wednesday, October 13, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122764",
       "planning_center_event_time_id": "31870601",
@@ -23465,7 +23847,7 @@
       "path": "knowledge/events/generated/2027-10-20-wednesday-night-dinner-13faac.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -23520,7 +23902,7 @@
       "display_when": "Wednesday, October 20, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122765",
       "planning_center_event_time_id": "31870601",
@@ -23536,7 +23918,7 @@
       "path": "knowledge/events/generated/2027-10-27-wednesday-night-dinner-ad68f2.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -23591,7 +23973,7 @@
       "display_when": "Wednesday, October 27, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122766",
       "planning_center_event_time_id": "31870601",
@@ -23607,7 +23989,7 @@
       "path": "knowledge/events/generated/2027-11-03-wednesday-night-dinner-da5bd1.md",
       "title": "Wednesday Night Dinner",
       "summary": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.",
-      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nOctober 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "content": "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.\n\nDetails:\nNovember 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "priority": 60,
       "category": [
         "events",
@@ -23662,7 +24044,7 @@
       "display_when": "Wednesday, November 3, 2027, 5:30 PM to 6:15 PM",
       "all_day": false,
       "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "details": "October 28, 2026\nPizza\nSalad Bar\nIce Cream Bars\nNovember 4, 2026\nChili & Coneys\nSalad Bar\nPumpkin Pie\nNovember 11, 2026\nPizza\nSalad Bar\nIce Cream Cups & Cookies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
+      "details": "November 11, 2026\nPizza\nSalad Bar\nBrownies\nNovember 18, 2026 (Hope at Thanksgiving: In the Worship Center)\nBaked Ham\nMashed Potatoes & Gravy\nGreen Beans\nSheet Cake\nNovember 25, 2026\nNo Dinner: Happy Thanksgiving!",
       "details_source": "planning_center_calendar_api",
       "planning_center_event_instance_id": "230122767",
       "planning_center_event_time_id": "31870601",
@@ -23903,74 +24285,6 @@
       "resources": []
     },
     {
-      "id": "events.live.event-80e5a36175c3d70a",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2026-12-18-family-christmas-movie-night-c3d70a.md",
-      "title": "Family Christmas Movie Night",
-      "summary": "Family Christmas Movie Night is scheduled for Friday, December 18, 2026, 6 PM to 8 PM at Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036.",
-      "content": "",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "general_event",
-        "Family Christmas Movie Night"
-      ],
-      "search_terms": [
-        "Family Christmas Movie Night",
-        "When is Family Christmas Movie Night?",
-        "Tell me about Family Christmas Movie Night",
-        "What are the details for Family Christmas Movie Night?",
-        "What is the menu for Family Christmas Movie Night?",
-        "How do I register for Family Christmas Movie Night?",
-        "Does Urbancrest have Family Christmas Movie Night?",
-        "Does Urbancrest offer Family Christmas Movie Night?",
-        "Do you have Family Christmas Movie Night?",
-        "Do you offer Family Christmas Movie Night?",
-        "Is there Family Christmas Movie Night at Urbancrest?",
-        "Can I participate in Family Christmas Movie Night?",
-        "Can I play Family Christmas Movie Night at Urbancrest?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "families"
-      ],
-      "resources": [],
-      "event_id": "event-80e5a36175c3d70a",
-      "activity_aliases": [
-        "Family Christmas Movie Night"
-      ],
-      "event_category": "general_event",
-      "event_start": "2026-12-18T18:00:00-05:00",
-      "event_end": "2026-12-18T20:00:00-05:00",
-      "sort_start_utc": "2026-12-18T23:00:00Z",
-      "sort_end_utc": "2026-12-19T01:00:00Z",
-      "display_when": "Friday, December 18, 2026, 6 PM to 8 PM",
-      "all_day": false,
-      "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "planning_center_event_instance_id": "237849087",
-      "planning_center_event_time_id": "33065181",
-      "registration_available": false,
-      "knowledge_file": "knowledge/events/generated/2026-12-18-family-christmas-movie-night-c3d70a.md",
-      "chronological_rank": 36,
-      "routine_schedule_occurrence": false
-    },
-    {
       "id": "events.live.event-c98c09871d7ab8b6",
       "record_type": "event",
       "path": "knowledge/events/generated/2026-11-18-monthly-baskets-of-hope-volunteers-7ab8b6.md",
@@ -24105,7 +24419,7 @@
       "planning_center_event_time_id": "16193422",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-16-monthly-baskets-of-hope-volunteers-f08ec6.md",
-      "chronological_rank": 31,
+      "chronological_rank": 33,
       "routine_schedule_occurrence": false
     },
     {
@@ -24174,7 +24488,7 @@
       "planning_center_event_time_id": "16193422",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-20-monthly-baskets-of-hope-volunteers-561fe2.md",
-      "chronological_rank": 57,
+      "chronological_rank": 60,
       "routine_schedule_occurrence": false
     },
     {
@@ -24243,7 +24557,7 @@
       "planning_center_event_time_id": "16193422",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-17-monthly-baskets-of-hope-volunteers-dc8320.md",
-      "chronological_rank": 78,
+      "chronological_rank": 81,
       "routine_schedule_occurrence": false
     },
     {
@@ -24312,7 +24626,7 @@
       "planning_center_event_time_id": "16193422",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-03-17-monthly-baskets-of-hope-volunteers-8a5217.md",
-      "chronological_rank": 96,
+      "chronological_rank": 99,
       "routine_schedule_occurrence": false
     },
     {
@@ -24457,7 +24771,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-07-pickleball-a6bc8a.md",
-      "chronological_rank": 49,
+      "chronological_rank": 52,
       "routine_schedule_occurrence": false
     },
     {
@@ -24534,7 +24848,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-14-pickleball-63a83d.md",
-      "chronological_rank": 53,
+      "chronological_rank": 56,
       "routine_schedule_occurrence": false
     },
     {
@@ -24611,7 +24925,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-21-pickleball-6008f4.md",
-      "chronological_rank": 59,
+      "chronological_rank": 62,
       "routine_schedule_occurrence": false
     },
     {
@@ -24688,7 +25002,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-04-pickleball-64c442.md",
-      "chronological_rank": 69,
+      "chronological_rank": 72,
       "routine_schedule_occurrence": false
     },
     {
@@ -24765,7 +25079,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-11-pickleball-2a4a7c.md",
-      "chronological_rank": 74,
+      "chronological_rank": 77,
       "routine_schedule_occurrence": false
     },
     {
@@ -24842,7 +25156,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-18-pickleball-5d13c4.md",
-      "chronological_rank": 80,
+      "chronological_rank": 83,
       "routine_schedule_occurrence": false
     },
     {
@@ -24919,7 +25233,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-25-pickleball-3d291e.md",
-      "chronological_rank": 84,
+      "chronological_rank": 87,
       "routine_schedule_occurrence": false
     },
     {
@@ -24996,7 +25310,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-03-04-pickleball-dbc953.md",
-      "chronological_rank": 88,
+      "chronological_rank": 91,
       "routine_schedule_occurrence": false
     },
     {
@@ -25073,7 +25387,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-03-11-pickleball-fee25a.md",
-      "chronological_rank": 93,
+      "chronological_rank": 96,
       "routine_schedule_occurrence": false
     },
     {
@@ -25150,7 +25464,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-03-18-pickleball-3a28c7.md",
-      "chronological_rank": 98,
+      "chronological_rank": 101,
       "routine_schedule_occurrence": false
     },
     {
@@ -25227,84 +25541,7 @@
       "planning_center_event_time_id": "33269493",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-03-25-pickleball-add5e5.md",
-      "chronological_rank": 102,
-      "routine_schedule_occurrence": false
-    },
-    {
-      "id": "events.live.event-8751f55040a6b78e",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2027-04-01-pickleball-a6b78e.md",
-      "title": "Pickleball",
-      "summary": "Darrel Schick",
-      "content": "Darrel Schick",
-      "priority": 50,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "general_event",
-        "Pickleball",
-        "Pickle ball"
-      ],
-      "search_terms": [
-        "Pickleball",
-        "When is Pickleball?",
-        "Tell me about Pickleball",
-        "What are the details for Pickleball?",
-        "What is the menu for Pickleball?",
-        "How do I register for Pickleball?",
-        "Does Urbancrest have Pickleball?",
-        "Does Urbancrest offer Pickleball?",
-        "Do you have Pickleball?",
-        "Do you offer Pickleball?",
-        "Is there Pickleball at Urbancrest?",
-        "Can I participate in Pickleball?",
-        "Can I play Pickleball at Urbancrest?",
-        "Pickle ball",
-        "Does Urbancrest have Pickle ball?",
-        "Does Urbancrest offer Pickle ball?",
-        "Do you have Pickle ball?",
-        "Do you offer Pickle ball?",
-        "Is there Pickle ball at Urbancrest?",
-        "Can I participate in Pickle ball?",
-        "Can I play Pickle ball at Urbancrest?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-8751f55040a6b78e",
-      "activity_aliases": [
-        "Pickleball",
-        "Pickle ball"
-      ],
-      "event_category": "general_event",
-      "event_start": "2027-04-01T18:00:00-04:00",
-      "event_end": "2027-04-01T20:00:00-04:00",
-      "sort_start_utc": "2027-04-01T22:00:00Z",
-      "sort_end_utc": "2027-04-02T00:00:00Z",
-      "display_when": "Thursday, April 1, 2027, 6 PM to 8 PM",
-      "all_day": false,
-      "planning_center_event_instance_id": "239078212",
-      "planning_center_event_time_id": "33269493",
-      "registration_available": false,
-      "knowledge_file": "knowledge/events/generated/2027-04-01-pickleball-a6b78e.md",
-      "chronological_rank": 106,
+      "chronological_rank": 105,
       "routine_schedule_occurrence": false
     },
     {
@@ -25608,7 +25845,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-06-sunday-morning-services-11-00-am-service-672784.md",
-      "chronological_rank": 23,
+      "chronological_rank": 24,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -25681,7 +25918,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-13-sunday-morning-services-11-00-am-service-6c8860.md",
-      "chronological_rank": 30,
+      "chronological_rank": 32,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -25754,7 +25991,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-20-sunday-morning-services-11-00-am-service-8ed068.md",
-      "chronological_rank": 40,
+      "chronological_rank": 43,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -25827,7 +26064,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-27-sunday-morning-services-11-00-am-service-003b62.md",
-      "chronological_rank": 43,
+      "chronological_rank": 46,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -25900,7 +26137,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-03-sunday-morning-services-11-00-am-service-9b4cbb.md",
-      "chronological_rank": 47,
+      "chronological_rank": 50,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -25973,7 +26210,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-10-sunday-morning-services-11-00-am-service-73fa11.md",
-      "chronological_rank": 51,
+      "chronological_rank": 54,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26046,7 +26283,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-17-sunday-morning-services-11-00-am-service-f8161b.md",
-      "chronological_rank": 56,
+      "chronological_rank": 59,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26119,7 +26356,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-24-sunday-morning-services-11-00-am-service-8af7a9.md",
-      "chronological_rank": 63,
+      "chronological_rank": 66,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26192,7 +26429,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-31-sunday-morning-services-11-00-am-service-113011.md",
-      "chronological_rank": 67,
+      "chronological_rank": 70,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26265,7 +26502,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-07-sunday-morning-services-11-00-am-service-281dc7.md",
-      "chronological_rank": 72,
+      "chronological_rank": 75,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26338,7 +26575,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-14-sunday-morning-services-11-00-am-service-77215c.md",
-      "chronological_rank": 77,
+      "chronological_rank": 80,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26411,7 +26648,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-21-sunday-morning-services-11-00-am-service-d9642b.md",
-      "chronological_rank": 82,
+      "chronological_rank": 85,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26484,7 +26721,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-28-sunday-morning-services-11-00-am-service-a03c95.md",
-      "chronological_rank": 86,
+      "chronological_rank": 89,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26557,7 +26794,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-03-07-sunday-morning-services-11-00-am-service-5c5096.md",
-      "chronological_rank": 91,
+      "chronological_rank": 94,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26630,7 +26867,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-03-14-sunday-morning-services-11-00-am-service-dc5658.md",
-      "chronological_rank": 95,
+      "chronological_rank": 98,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -26703,80 +26940,7 @@
       "planning_center_event_time_id": "9127132",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-03-21-sunday-morning-services-11-00-am-service-cda776.md",
-      "chronological_rank": 100,
-      "routine_schedule_occurrence": true,
-      "retrieval_exclude_for_intents": [
-        "service_times",
-        "sunday_service_times",
-        "weekly_schedule"
-      ]
-    },
-    {
-      "id": "events.live.event-1a678a2a2838a6f5",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2027-03-28-sunday-morning-services-11-00-am-service-38a6f5.md",
-      "title": "Sunday Morning Services: 11:00 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 20,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "general_event",
-        "Sunday Morning Services: 11:00 AM Service"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 11:00 AM Service",
-        "When is Sunday Morning Services: 11:00 AM Service?",
-        "Tell me about Sunday Morning Services: 11:00 AM Service",
-        "What are the details for Sunday Morning Services: 11:00 AM Service?",
-        "What is the menu for Sunday Morning Services: 11:00 AM Service?",
-        "How do I register for Sunday Morning Services: 11:00 AM Service?",
-        "Does Urbancrest have Sunday Morning Services: 11:00 AM Service?",
-        "Does Urbancrest offer Sunday Morning Services: 11:00 AM Service?",
-        "Do you have Sunday Morning Services: 11:00 AM Service?",
-        "Do you offer Sunday Morning Services: 11:00 AM Service?",
-        "Is there Sunday Morning Services: 11:00 AM Service at Urbancrest?",
-        "Can I participate in Sunday Morning Services: 11:00 AM Service?",
-        "Can I play Sunday Morning Services: 11:00 AM Service at Urbancrest?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-1a678a2a2838a6f5",
-      "activity_aliases": [
-        "Sunday Morning Services: 11:00 AM Service"
-      ],
-      "event_category": "general_event",
-      "event_start": "2027-03-28T11:00:00-04:00",
-      "event_end": "2027-03-28T12:10:00-04:00",
-      "sort_start_utc": "2027-03-28T15:00:00Z",
-      "sort_end_utc": "2027-03-28T16:10:00Z",
-      "display_when": "Sunday, March 28, 2027, 11 AM to 12:10 PM",
-      "all_day": false,
-      "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "planning_center_event_instance_id": "184127575",
-      "planning_center_event_time_id": "9127132",
-      "registration_available": false,
-      "knowledge_file": "knowledge/events/generated/2027-03-28-sunday-morning-services-11-00-am-service-38a6f5.md",
-      "chronological_rank": 104,
+      "chronological_rank": 103,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27068,7 +27232,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-06-sunday-morning-services-9-30-am-service-ca6790.md",
-      "chronological_rank": 22,
+      "chronological_rank": 23,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27141,7 +27305,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-13-sunday-morning-services-9-30-am-service-df44e2.md",
-      "chronological_rank": 29,
+      "chronological_rank": 31,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27214,7 +27378,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-20-sunday-morning-services-9-30-am-service-1bfe59.md",
-      "chronological_rank": 39,
+      "chronological_rank": 42,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27287,7 +27451,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2026-12-27-sunday-morning-services-9-30-am-service-5a6936.md",
-      "chronological_rank": 42,
+      "chronological_rank": 45,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27360,7 +27524,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-03-sunday-morning-services-9-30-am-service-2e7a40.md",
-      "chronological_rank": 46,
+      "chronological_rank": 49,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27433,7 +27597,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-10-sunday-morning-services-9-30-am-service-0c0f91.md",
-      "chronological_rank": 50,
+      "chronological_rank": 53,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27506,7 +27670,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-17-sunday-morning-services-9-30-am-service-2f9d83.md",
-      "chronological_rank": 55,
+      "chronological_rank": 58,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27579,7 +27743,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-24-sunday-morning-services-9-30-am-service-aa02da.md",
-      "chronological_rank": 62,
+      "chronological_rank": 65,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27652,7 +27816,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-01-31-sunday-morning-services-9-30-am-service-60da2d.md",
-      "chronological_rank": 66,
+      "chronological_rank": 69,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27725,7 +27889,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-07-sunday-morning-services-9-30-am-service-27d598.md",
-      "chronological_rank": 71,
+      "chronological_rank": 74,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27798,7 +27962,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-14-sunday-morning-services-9-30-am-service-f8a787.md",
-      "chronological_rank": 76,
+      "chronological_rank": 79,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27871,7 +28035,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-21-sunday-morning-services-9-30-am-service-8771ed.md",
-      "chronological_rank": 81,
+      "chronological_rank": 84,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -27944,7 +28108,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-02-28-sunday-morning-services-9-30-am-service-baf9ef.md",
-      "chronological_rank": 85,
+      "chronological_rank": 88,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -28017,7 +28181,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-03-07-sunday-morning-services-9-30-am-service-8998da.md",
-      "chronological_rank": 90,
+      "chronological_rank": 93,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -28090,7 +28254,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-03-14-sunday-morning-services-9-30-am-service-50c32f.md",
-      "chronological_rank": 94,
+      "chronological_rank": 97,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
@@ -28163,80 +28327,7 @@
       "planning_center_event_time_id": "9127131",
       "registration_available": false,
       "knowledge_file": "knowledge/events/generated/2027-03-21-sunday-morning-services-9-30-am-service-eeeced.md",
-      "chronological_rank": 99,
-      "routine_schedule_occurrence": true,
-      "retrieval_exclude_for_intents": [
-        "service_times",
-        "sunday_service_times",
-        "weekly_schedule"
-      ]
-    },
-    {
-      "id": "events.live.event-acfbcb89b5633acb",
-      "record_type": "event",
-      "path": "knowledge/events/generated/2027-03-28-sunday-morning-services-9-30-am-service-633acb.md",
-      "title": "Sunday Morning Services: 9:30 AM Service",
-      "summary": "Join us in person or online!...",
-      "content": "Join us in person or online! For the best online experience, we recommend watching on the YouTube app on your smart TV or smart device, and following along with the message in the Urbancrest app on your mobile phone or tablet!",
-      "priority": 20,
-      "category": [
-        "events",
-        "general_event"
-      ],
-      "intents": [
-        "event_details",
-        "upcoming_events",
-        "calendar",
-        "next_ministry_event",
-        "activity_availability"
-      ],
-      "tags": [
-        "event",
-        "calendar",
-        "upcoming",
-        "activity",
-        "general_event",
-        "Sunday Morning Services: 9:30 AM Service"
-      ],
-      "search_terms": [
-        "Sunday Morning Services: 9:30 AM Service",
-        "When is Sunday Morning Services: 9:30 AM Service?",
-        "Tell me about Sunday Morning Services: 9:30 AM Service",
-        "What are the details for Sunday Morning Services: 9:30 AM Service?",
-        "What is the menu for Sunday Morning Services: 9:30 AM Service?",
-        "How do I register for Sunday Morning Services: 9:30 AM Service?",
-        "Does Urbancrest have Sunday Morning Services: 9:30 AM Service?",
-        "Does Urbancrest offer Sunday Morning Services: 9:30 AM Service?",
-        "Do you have Sunday Morning Services: 9:30 AM Service?",
-        "Do you offer Sunday Morning Services: 9:30 AM Service?",
-        "Is there Sunday Morning Services: 9:30 AM Service at Urbancrest?",
-        "Can I participate in Sunday Morning Services: 9:30 AM Service?",
-        "Can I play Sunday Morning Services: 9:30 AM Service at Urbancrest?"
-      ],
-      "ministries": [
-        "churchwide"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "event_id": "event-acfbcb89b5633acb",
-      "activity_aliases": [
-        "Sunday Morning Services: 9:30 AM Service"
-      ],
-      "event_category": "general_event",
-      "event_start": "2027-03-28T09:30:00-04:00",
-      "event_end": "2027-03-28T10:40:00-04:00",
-      "sort_start_utc": "2027-03-28T13:30:00Z",
-      "sort_end_utc": "2027-03-28T14:40:00Z",
-      "display_when": "Sunday, March 28, 2027, 9:30 AM to 10:40 AM",
-      "all_day": false,
-      "location": "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036",
-      "planning_center_event_instance_id": "184127575",
-      "planning_center_event_time_id": "9127131",
-      "registration_available": false,
-      "knowledge_file": "knowledge/events/generated/2027-03-28-sunday-morning-services-9-30-am-service-633acb.md",
-      "chronological_rank": 103,
+      "chronological_rank": 102,
       "routine_schedule_occurrence": true,
       "retrieval_exclude_for_intents": [
         "service_times",
