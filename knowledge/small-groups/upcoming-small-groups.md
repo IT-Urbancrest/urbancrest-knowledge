@@ -16,18 +16,12 @@ tags: [small_groups, groups, calendar, recurring]
 resources:
   - small_groups.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-11-10T14:54:50.967794Z
+last_generated: 2026-11-10T21:18:19.929421Z
 ---
 
 # Upcoming Small Groups
 
 Each recurring Small Group appears once with its next meeting and future schedule.
-
-## Pursuit - Small Group
-
-**Next meeting:** Tuesday, November 10, 2026, 10:30 AM to 12 PM
-
-Detailed group file: `knowledge/small-groups/generated/pursuit-small-group-1a4d4c.md`
 
 ## Urbancrest Student Ministry
 
@@ -42,3 +36,9 @@ Detailed group file: `knowledge/small-groups/generated/urbancrest-student-minist
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed group file: `knowledge/small-groups/generated/national-collection-week-occ-volunteer-signup-ce52d7.md`
+
+## Pursuit - Small Group
+
+**Next meeting:** Tuesday, November 17, 2026, 10:30 AM to 12 PM
+
+Detailed group file: `knowledge/small-groups/generated/pursuit-small-group-1a4d4c.md`
