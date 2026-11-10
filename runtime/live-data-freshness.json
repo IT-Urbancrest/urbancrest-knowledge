@@ -3,7 +3,7 @@
   "timezone": "America/New_York",
   "sources": {
     "calendar": {
-      "generated_at": "2026-11-10T03:34:55.223929Z",
+      "generated_at": "2026-11-10T14:54:52.121950Z",
       "normal_max_age_hours": 24,
       "max_age_hours": 48,
       "fallback_action_key": "events",
@@ -11,7 +11,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-11-10T03:34:54.038249Z",
+      "generated_at": "2026-11-10T14:54:50.967794Z",
       "normal_max_age_hours": 24,
       "max_age_hours": 48,
       "fallback_action_key": "small_groups",

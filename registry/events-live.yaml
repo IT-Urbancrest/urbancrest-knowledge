@@ -1,5 +1,5 @@
 version: 1.5.4
-generated_at: '2026-11-10T03:34:55.223929Z'
+generated_at: '2026-11-10T14:54:52.121950Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
@@ -602,7 +602,7 @@ events:
     If you have any questions, please get in touch with our Hope Line at 49HOPE4 (513-494-6734) and leave a message.
 
 
-    Registration is open.'
+    Registration is not currently open.'
   details_source: planning_center_registrations_api
   planning_center_event_instance_id: '240710463'
   planning_center_event_time_id: '33549672'
@@ -631,8 +631,8 @@ events:
   planning_center_signup_id: '3976359'
   planning_center_signup_time_id: '6677553'
   registration_available: true
-  registration_open: true
-  registration_closed: false
+  registration_open: false
+  registration_closed: true
   registration_at_maximum_capacity: null
   registration_open_at: '2026-10-22T04:00:00Z'
   registration_close_at: '2026-11-10T05:00:00Z'

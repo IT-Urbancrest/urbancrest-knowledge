@@ -28,7 +28,7 @@ meeting_count_in_window: 49
 image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1796104799&key=uploads%2F128485%2F6pbrc92y0shnmekrwvuppv5d9k1y&thumb=960x540%23&signature=3a86582e2a2310034155cb2311c7aeb56a714be0219dd9d34c232481ba0bfca1"
 planning_center_event_instance_id: "171691161"
 planning_center_event_time_id: "25282532"
-last_generated: 2026-11-10T03:34:54.038249Z
+last_generated: 2026-11-10T14:54:50.967794Z
 ---
 
 # Urbancrest Student Ministry

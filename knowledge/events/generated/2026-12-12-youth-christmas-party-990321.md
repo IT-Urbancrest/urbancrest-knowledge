@@ -43,7 +43,7 @@ image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=reg
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "242401036"
 planning_center_event_time_id: "33848538"
-last_generated: 2026-11-10T03:34:54.038249Z
+last_generated: 2026-11-10T14:54:50.967794Z
 ---
 
 # Youth Christmas Party
