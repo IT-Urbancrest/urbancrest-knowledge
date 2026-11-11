@@ -1,0 +1,76 @@
+---
+id: events.live.event-af17e9b765f7f281
+version: 1.4.3
+status: published
+priority: 60
+title: "Wednesday Night Dinner"
+summary: "Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday."
+category: [events]
+event_category: "churchwide_program"
+intent:
+  primary: event_details
+  secondary: [upcoming_events, calendar, schedule, registration, next_ministry_event]
+audience: ["everyone"]
+ministries: ["worship"]
+answer_style: helpful
+confidence: high
+owner:
+  ministry: church_office
+review:
+  doctrinal: not_required
+  factual: automated
+tags: ["event", "calendar", "upcoming", "churchwide_program", "worship", "everyone"]
+search_terms:
+  - "Wednesday Night Dinner"
+  - "When is Wednesday Night Dinner?"
+  - "Where is Wednesday Night Dinner?"
+  - "Tell me about Wednesday Night Dinner"
+  - "What are the details for Wednesday Night Dinner?"
+  - "What is the menu for Wednesday Night Dinner?"
+  - "How do I register for Wednesday Night Dinner?"
+resources:
+  - events.live
+event_id: event-af17e9b765f7f281
+event_start: "2027-11-10T17:30:00-05:00"
+event_end: "2027-11-10T18:15:00-05:00"
+sort_start_utc: "2027-11-10T22:30:00Z"
+sort_end_utc: "2027-11-10T23:15:00Z"
+chronological_rank: 150
+next_for_ministries: []
+next_for_audiences: []
+all_day: false
+image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1796104799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=cb4cc7db504de95a45ef95ef2bacbbc5aabcea101d283fd768ccadebcf18e930"
+location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
+details_source: "planning_center_calendar_api"
+planning_center_event_instance_id: "230122768"
+planning_center_event_time_id: "31870601"
+last_generated: 2026-11-11T06:24:31.677248Z
+---
+
+# Wednesday Night Dinner
+
+Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
+
+**When:** Wednesday, November 10, 2027, 5:30 PM to 6:15 PM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
+
+## Details
+
+November 11, 2026
+Pizza
+Salad Bar
+Brownies
+November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+Baked Ham
+Mashed Potatoes & Gravy
+Green Beans
+Sheet Cake
+November 25, 2026
+No Dinner: Happy Thanksgiving!
+
+**Event image:** https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1796104799&key=uploads%2F128485%2Ffyfh8t0w44quf5tqx61wu2puvdkd&thumb=960x540%23&signature=cb4cc7db504de95a45ef95ef2bacbbc5aabcea101d283fd768ccadebcf18e930
+
+This information is synchronized automatically from Urbancrest's live calendar.
