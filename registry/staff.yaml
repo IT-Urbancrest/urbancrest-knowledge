@@ -1,5 +1,5 @@
-version: '2.0'
-last_updated: '2026-07-27'
+version: '2.1'
+last_updated: '2026-11-11'
 profile_source: base44.Staff
 notes:
 - Base44 Staff is the source of truth for biography, fun fact, photo, phone, email, active status, and display order.
@@ -31,6 +31,13 @@ staff:
     name: Tucker Howard
     display_name: Pastor Tucker
     role: Student Pastor
+    pastoral_staff: true
+    profile_source: base44.Staff
+    show_card: true
+  bob_woods:
+    name: Bob Woods
+    display_name: Pastor Bob
+    role: Interim Global Missions Pastor
     pastoral_staff: true
     profile_source: base44.Staff
     show_card: true

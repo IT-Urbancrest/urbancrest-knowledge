@@ -1,5 +1,5 @@
-version: '2.1'
-last_updated: '2026-10-12'
+version: '2.2'
+last_updated: '2026-11-11'
 relationships:
 - ministry: pastoral
   label: Senior Leadership
@@ -121,22 +121,33 @@ relationships:
   - missions ministry
   - mission ministry
   - missions contact
+  routing_aliases:
+  - missions
+  - missions ministry
+  - mission ministry
+  - missions contact
   topics:
   - general missions
   - missions administration
   - missions conference
-  leadership_status: transitional
-  open_role: Global Missions Pastor
-  primary_staff_key: null
-  recommended_contact_staff_key: jennifer_prows
+  leadership_status: staffed
+  primary_staff_key: bob_woods
+  recommended_contact_staff_key: bob_woods
   related_staff_keys:
+  - jennifer_prows
   - darrel_schick
-  answer_guidance: Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions
-    Administrator and is the recommended current contact for general and global missions questions. Darrel Schick serves as
-    Local Missions Strategist for local missions and community outreach.
+  answer_guidance: Bob Woods serves as Interim Global Missions Pastor and is the primary contact for general and global
+    missions questions and mission trips. Jennifer Prows serves as Missions Administrator and supports missions administration.
+    Darrel Schick serves as Local Missions Strategist for local missions and community outreach.
 - ministry: global_missions
   label: Global Missions
   aliases:
+  - global missions
+  - international missions
+  - global missions pastor
+  - mission trips
+  - international mission trips
+  routing_aliases:
   - global missions
   - international missions
   - global missions pastor
@@ -147,13 +158,32 @@ relationships:
   - mission trips
   - missions coordination
   - international missions
-  leadership_status: vacant
-  open_role: Global Missions Pastor
-  primary_staff_key: null
+  leadership_status: staffed
+  primary_staff_key: bob_woods
+  recommended_contact_staff_key: bob_woods
+  related_staff_keys:
+  - jennifer_prows
+  answer_guidance: Bob Woods serves as Interim Global Missions Pastor and is the primary contact for Global Missions
+    questions, mission trips, international missions, and missions coordination. Jennifer Prows serves as Missions Administrator
+    and supports missions administration.
+- ministry: missions_administration
+  label: Missions Administration
+  routing_aliases:
+  - missions administration
+  - missions administrator
+  - missions admin
+  - mission trip administration
+  topics:
+  - missions administration
+  - administrative support
+  leadership_status: staffed
+  primary_staff_key: jennifer_prows
   recommended_contact_staff_key: jennifer_prows
-  related_staff_keys: []
-  answer_guidance: Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions
-    Administrator and is the current point person for Global Missions questions, mission trips, and missions coordination.
+  related_staff_keys:
+  - bob_woods
+  answer_guidance: Jennifer Prows serves as Missions Administrator and is the contact for missions administrative support.
+    Bob Woods serves as Interim Global Missions Pastor and is the primary contact for general and global missions questions
+    and mission trips.
 - ministry: local_missions
   label: Local Missions
   aliases:
@@ -396,7 +426,8 @@ selection_rules:
 - Use primary_staff_key when a staffed area has one directly responsible staff member.
 - When leadership_status is vacant or transitional, explain the status before recommending a contact.
 - Use recommended_contact_staff_key for the staff card when no primary leader currently fills the role.
-- Do not describe Jennifer Prows as the Global Missions Pastor.
+- Identify Bob Woods as Interim Global Missions Pastor and the primary contact for general and global missions.
+- Identify Jennifer Prows as Missions Administrator for administrative support.
 - Do not describe Sarah Coleman as the Kids Ministry Director.
 - For local missions and benevolence questions, use Darrel Schick as the primary staff contact.
 - For IT, Production, Creative, Website, video, livestream, audio, lighting, and technology questions, use Matthew Kirby.

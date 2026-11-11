@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-11 Missions leadership update
+
+- Added Bob Woods as Interim Global Missions Pastor and the primary contact for general and global missions, mission trips, and missions coordination.
+- Updated missions articles, ministry ownership, staff routing, and assistant guidance to reflect the appointment.
+- Kept Jennifer Prows as Missions Administrator and Darrel Schick as the Local Missions contact.
+- Updated missions leadership retrieval expectations.
+
 ## Post-1.0 Base44 query runtime improvements
 
 The knowledge architecture remains `1.0.0`. The following changes were made in the independently versioned Base44 `queryKnowledgeBase` runtime and its permanent regression coverage.
@@ -150,7 +157,7 @@ The knowledge architecture remains `1.0.0`. The following changes were made in t
 - Combined IT, Production, Creative, Website, video, livestream, audio, lighting, and technology under `technical_creative`, owned by Matthew Kirby.
 - Combined finance, giving, stewardship, and donations under `finance`, owned by Tanya Byrd.
 - Consolidated first-visit and accessibility routing under Guest Services, student parent communication under Students, worship serving under Worship, and Kids safety under Kids.
-- Marked the Kids Ministry Director position as vacant and made Sarah Coleman, Preschool Director, the recommended current point person, mirroring Global Missions vacancy handling.
+- Marked the Kids Ministry Director position as vacant and made Sarah Coleman, Preschool Director, the recommended current point person.
 - Added a focused Kids Ministry leadership article and a review trigger for when the Kids Ministry Director position is filled.
 - Enhanced compiled staff-ownership records with aliases and topics for deterministic routing.
 - Added staff-ownership routing regression tests.
@@ -193,8 +200,8 @@ The knowledge architecture remains `1.0.0`. The following changes were made in t
 
 ## 0.6.1
 
-- Added current Global Missions Pastor vacancy and transition guidance.
-- Updated Jennifer Prows routing to identify her as Missions Administrator and recommended current global missions contact.
+- Added Global Missions leadership and contact guidance (superseded by the November 11, 2026 appointment above).
+- Updated Jennifer Prows routing to identify her as Missions Administrator; current primary-contact routing is documented in the November 11, 2026 update above.
 - Separated global missions, local missions, and missions administration relationships.
 - Added a focused answer for "Who oversees missions?"
 - Updated retrieval indexing to retain leadership status, open-role, recommended-contact, and answer-guidance metadata.

@@ -1,6 +1,6 @@
-version: '1.3'
+version: '1.4'
 suite: staff_and_serving_routing
-last_updated: '2026-10-12'
+last_updated: '2026-11-11'
 purpose: Verify conservative staff-card routing, finance ownership, serving next-step action links, staff-free Kids logistics answers, and explicit Kids contact routing.
 
 tests:
@@ -120,3 +120,117 @@ tests:
     answer_must_include:
     - Larry Nichols
     - Worship Pastor
+
+- name: general missions contact resolves Bob
+  query: Who oversees missions?
+  expected:
+    first_record_id: relationship.ministry_staff.missions
+    staff_key: bob_woods
+    answer_must_include:
+    - Bob Woods
+    - Interim Global Missions Pastor
+    answer_must_not_include:
+    - currently searching
+    - vacant
+
+- name: global missions contact resolves Bob
+  query: Who leads global missions?
+  expected:
+    first_record_id: relationship.ministry_staff.global_missions
+    staff_key: bob_woods
+    answer_must_include:
+    - Bob Woods
+    - Interim Global Missions Pastor
+    answer_must_not_include:
+    - currently searching
+    - vacant
+
+- name: global missions pastor role resolves Bob
+  query: Who is the Global Missions Pastor?
+  expected:
+    first_record_id: relationship.ministry_staff.global_missions
+    staff_key: bob_woods
+    answer_must_include:
+    - Bob Woods
+    - Interim Global Missions Pastor
+    answer_must_not_include:
+    - currently searching
+    - vacant
+
+- name: interim global missions pastor role resolves Bob
+  query: Who is the Interim Global Missions Pastor?
+  expected:
+    first_record_id: relationship.ministry_staff.global_missions
+    staff_key: bob_woods
+    answer_must_include:
+    - Bob Woods
+    - Interim Global Missions Pastor
+    answer_must_not_include:
+    - currently searching
+    - vacant
+
+- name: mission trips contact resolves Bob
+  query: Who do I contact about mission trips?
+  expected:
+    first_record_id: relationship.ministry_staff.global_missions
+    staff_key: bob_woods
+    answer_must_include:
+    - Bob Woods
+    - Interim Global Missions Pastor
+    answer_must_not_include:
+    - currently searching
+    - vacant
+
+- name: international missions contact resolves Bob
+  query: Who do I contact about international missions?
+  expected:
+    first_record_id: relationship.ministry_staff.global_missions
+    staff_key: bob_woods
+    answer_must_include:
+    - Bob Woods
+    - Interim Global Missions Pastor
+    answer_must_not_include:
+    - currently searching
+    - vacant
+
+- name: missions administration stays with Jennifer
+  query: Who is the Missions Administrator?
+  expected:
+    first_record_id: relationship.ministry_staff.missions_administration
+    staff_key: jennifer_prows
+
+- name: local missions stays with Darrel
+  query: Who leads local missions?
+  expected:
+    first_record_id: relationship.ministry_staff.local_missions
+    staff_key: darrel_schick
+
+- name: local missions contact stays with Darrel
+  query: Who do I contact about local missions?
+  expected:
+    first_record_id: relationship.ministry_staff.local_missions
+    staff_key: darrel_schick
+
+- name: named staff lookup resolves Bob Woods
+  query: Who is Bob Woods?
+  expected:
+    staff_key: bob_woods
+    answer_must_include:
+    - Bob Woods
+    - Interim Global Missions Pastor
+
+- name: named staff lookup resolves Pastor Bob
+  query: Who is Pastor Bob?
+  expected:
+    staff_key: bob_woods
+    answer_must_include:
+    - Bob Woods
+    - Interim Global Missions Pastor
+
+- name: named staff lookup resolves Bob
+  query: Who is Bob?
+  expected:
+    staff_key: bob_woods
+    answer_must_include:
+    - Bob Woods
+    - Interim Global Missions Pastor

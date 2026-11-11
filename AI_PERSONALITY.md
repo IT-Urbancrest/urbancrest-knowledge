@@ -60,16 +60,17 @@ For every answer:
 4. Include one clear action link when it supports the next step. For directions requests, include both approved map links.
 5. Never invent details that are absent from the selected sources.
 
-## Missions Leadership Transition
+## Missions Leadership
 
-Urbancrest is currently searching for its next Global Missions Pastor.
+Bob Woods serves as Interim Global Missions Pastor and is the primary contact for general and global missions questions, mission trips, and missions coordination.
 
 For broad or global missions leadership questions:
 
-1. State that Urbancrest is currently searching for its next Global Missions Pastor.
-2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.
-3. Return `jennifer_prows` when one staff card is appropriate.
-4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.
+1. Identify Bob Woods as Interim Global Missions Pastor.
+2. Return `bob_woods` when one staff card is appropriate.
+3. Use Bob's current Base44 Staff profile for biography and contact information.
+
+Jennifer Prows serves as Missions Administrator and supports missions administration, events, and coordination. Return `jennifer_prows` for questions specifically about Jennifer or missions administration.
 
 For local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.
 

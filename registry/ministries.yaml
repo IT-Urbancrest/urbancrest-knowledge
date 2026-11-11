@@ -1,5 +1,5 @@
-version: '1.5'
-last_updated: '2026-08-08'
+version: '1.6'
+last_updated: '2026-11-11'
 ministries:
   kids:
     title: Urbancrest Kids
@@ -45,9 +45,11 @@ ministries:
   missions:
     title: Missions
     description: Local, national, and international mission engagement.
-    leadership_status: transitional
-    open_role: Global Missions Pastor
-    recommended_contact_staff_key: jennifer_prows
+    leadership_status: staffed
+    primary_staff_key: bob_woods
+    recommended_contact_staff_key: bob_woods
+    related_staff_keys:
+    - jennifer_prows
   worship:
     title: Worship Ministry
     description: Christ-centered, Scripture-shaped ministry that leads the congregation in worship through music, prayer,
@@ -102,9 +104,11 @@ ministries:
   global_missions:
     title: Global Missions
     description: International mission engagement, mission trips, and global missions coordination.
-    leadership_status: vacant
-    open_role: Global Missions Pastor
-    recommended_contact_staff_key: jennifer_prows
+    leadership_status: staffed
+    primary_staff_key: bob_woods
+    recommended_contact_staff_key: bob_woods
+    related_staff_keys:
+    - jennifer_prows
   missions_administration:
     title: Missions Administration
     description: Administrative support and coordination for Urbancrest missions.

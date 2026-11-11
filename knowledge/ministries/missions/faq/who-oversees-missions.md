@@ -1,10 +1,10 @@
 ---
 id: ministries.missions.leadership
-version: 1.0
+version: 1.1
 status: published
 priority: 98
 title: Who oversees missions?
-summary: Urbancrest is searching for its next Global Missions Pastor; Jennifer Prows is the recommended current contact as Missions Administrator.
+summary: Bob Woods serves as Interim Global Missions Pastor and is the primary contact for general and global missions questions and mission trips.
 category:
   - ministries
   - current_update
@@ -31,6 +31,8 @@ tags:
   - leadership
   - staffing
   - Global Missions Pastor
+  - Interim Global Missions Pastor
+  - Bob Woods
   - Missions Administrator
   - Jennifer Prows
   - Darrel Schick
@@ -42,30 +44,32 @@ search_terms:
   - Who do I contact about global missions?
   - Who do I contact about mission trips?
   - Who oversees local missions?
+  - Who is Bob Woods?
+  - Who is Pastor Bob?
+  - Who is the Interim Global Missions Pastor?
 ministries:
   - missions
   - global_missions
   - local_missions
   - missions_administration
-leadership_status: transitional
-open_role: Global Missions Pastor
-recommended_contact_staff_key: jennifer_prows
+leadership_status: staffed
+staff_key: bob_woods
+recommended_contact_staff_key: bob_woods
 related_staff_keys:
+  - jennifer_prows
   - darrel_schick
-review_trigger: global_missions_pastor_hired
+review_trigger: global_missions_leadership_changed
 resources: []
 next_steps: []
 related:
   - ministries.missions
-last_updated: '2026-07-27'
+last_updated: '2026-11-11'
 ---
 
 # Who oversees missions?
 
-Urbancrest is currently searching for its next **Global Missions Pastor**.
+**Bob Woods serves as Interim Global Missions Pastor** and is the primary contact for general and global missions questions, mission trips, and missions coordination.
 
-In the meantime, **Jennifer Prows serves as Missions Administrator** and is the recommended current contact for global missions questions, mission trips, and missions coordination.
+**Jennifer Prows serves as Missions Administrator**, supporting missions administration, events, and coordination.
 
-For **local missions and community outreach**, **Darrel Schick serves as Local Missions Strategist**.
-
-Jennifer should not be described as the Global Missions Pastor. Her staff card may be shown for general or global missions questions because she is the recommended current contact.
+For **local missions and community outreach**, **Darrel Schick serves as Local Missions Strategist** and is the primary contact.

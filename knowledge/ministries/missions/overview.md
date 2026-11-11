@@ -1,6 +1,6 @@
 ---
 id: ministries.missions
-version: 1.2
+version: 1.3
 status: published
 priority: 90
 title: What is Missions?
@@ -42,15 +42,18 @@ ministries:
 - global_missions
 - local_missions
 - missions_administration
-recommended_contact_staff_key: jennifer_prows
-leadership_status: transitional
-open_role: Global Missions Pastor
+staff_key: bob_woods
+recommended_contact_staff_key: bob_woods
+related_staff_keys:
+- jennifer_prows
+- darrel_schick
+leadership_status: staffed
 resources:
 - church_center.serving
 next_steps: []
 related:
 - ministries.missions.leadership
-last_updated: '2026-08-19'
+last_updated: '2026-11-11'
 ---
 # What is Missions?
 
