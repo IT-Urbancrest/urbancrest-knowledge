@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-11-11T06:24:33.826374Z",
+  "generated_at": "2026-11-11T17:09:23.316228Z",
   "timezone": "America/New_York",
   "record_count": 501,
   "config": {
@@ -90,7 +90,7 @@
   },
   "freshness": {
     "calendar": {
-      "generated_at": "2026-11-11T06:24:32.715206Z",
+      "generated_at": "2026-11-11T17:09:21.873886Z",
       "max_age_hours": 48,
       "source_path": "registry/events-live.yaml",
       "heartbeat_field": "generated_at",
@@ -98,7 +98,7 @@
       "stale_behavior": "refuse_current_details_and_link_to_authoritative_destination"
     },
     "small_groups": {
-      "generated_at": "2026-11-11T06:24:31.677248Z",
+      "generated_at": "2026-11-11T17:09:20.852443Z",
       "max_age_hours": 48,
       "source_path": "registry/small-groups-live.yaml",
       "heartbeat_field": "generated_at",
@@ -19032,8 +19032,8 @@
           "price_currency_symbol": "$",
           "price_formatted": "0",
           "maximum_capacity": 4,
-          "available_capacity": 1,
-          "at_maximum_capacity": false,
+          "available_capacity": 0,
+          "at_maximum_capacity": true,
           "waitlist": false
         },
         {

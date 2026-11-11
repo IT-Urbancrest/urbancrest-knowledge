@@ -45,7 +45,7 @@ location: "LaConte Center - 2986 Teaster Ln\nPigeon Forge, TN 37863"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "229691378"
 planning_center_event_time_id: "31797247"
-last_generated: 2026-11-11T06:24:31.677248Z
+last_generated: 2026-11-11T17:09:20.852443Z
 ---
 
 # Strength to Stand
