@@ -2,11 +2,11 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-11-11T17:09:23.316228Z",
+  "generated_at": "2026-11-11T19:26:55.787624Z",
   "timezone": "America/New_York",
-  "record_count": 501,
+  "record_count": 503,
   "config": {
-    "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step. For directions requests, include both approved map links.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership Transition\n\nUrbancrest is currently searching for its next Global Missions Pastor.\n\nFor broad or global missions leadership questions:\n\n1. State that Urbancrest is currently searching for its next Global Missions Pastor.\n2. Explain that Jennifer Prows serves as Missions Administrator and is the recommended current contact.\n3. Return `jennifer_prows` when one staff card is appropriate.\n4. Do not describe Jennifer as the Global Missions Pastor or as the permanent leader of all missions.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nState the times found in those authoritative records directly. Do not hardcode service times in runtime application logic or prompt instructions.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
+    "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step. For directions requests, include both approved map links.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership\n\nBob Woods serves as Interim Global Missions Pastor and is the primary contact for general and global missions questions, mission trips, and missions coordination.\n\nFor broad or global missions leadership questions:\n\n1. Identify Bob Woods as Interim Global Missions Pastor.\n2. Return `bob_woods` when one staff card is appropriate.\n3. Use Bob's current Base44 Staff profile for biography and contact information.\n\nJennifer Prows serves as Missions Administrator and supports missions administration, events, and coordination. Return `jennifer_prows` for questions specifically about Jennifer or missions administration.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nState the times found in those authoritative records directly. Do not hardcode service times in runtime application logic or prompt instructions.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
     "style_guide": "# Style Guide\n\n## Writing\n\n- Use short paragraphs.\n- Prefer plain language.\n- Avoid church jargon unless it is explained.\n- Do not use em dashes.\n- Do not use the word meaningful as a filler.\n- Use Small Groups, never Grow Groups.\n- Refer to Urbancrest Church as Urbancrest after the first use.\n- Use believer's baptism by immersion when describing baptism.\n\n## Theology\n\n- Scripture is the final authority.\n- The Baptist Faith and Message 2000 is a helpful doctrinal summary, not equal to Scripture.\n- Salvation is by grace alone through faith alone in Jesus Christ alone.\n- Baptism follows salvation and does not save.\n",
     "max_retrieval_records": 8,
     "staff_profile_source": "base44.Staff",
@@ -8914,8 +8914,8 @@
       "record_type": "knowledge",
       "path": "knowledge/ministries/missions/faq/who-oversees-missions.md",
       "title": "Who oversees missions?",
-      "summary": "Urbancrest is searching for its next Global Missions Pastor; Jennifer Prows is the recommended current contact as Missions Administrator.",
-      "content": "# Who oversees missions?\n\nUrbancrest is currently searching for its next **Global Missions Pastor**.\n\nIn the meantime, **Jennifer Prows serves as Missions Administrator** and is the recommended current contact for global missions questions, mission trips, and missions coordination.\n\nFor **local missions and community outreach**, **Darrel Schick serves as Local Missions Strategist**.\n\nJennifer should not be described as the Global Missions Pastor. Her staff card may be shown for general or global missions questions because she is the recommended current contact.",
+      "summary": "Bob Woods serves as Interim Global Missions Pastor and is the primary contact for general and global missions questions and mission trips.",
+      "content": "# Who oversees missions?\n\n**Bob Woods serves as Interim Global Missions Pastor** and is the primary contact for general and global missions questions, mission trips, and missions coordination.\n\n**Jennifer Prows serves as Missions Administrator**, supporting missions administration, events, and coordination.\n\nFor **local missions and community outreach**, **Darrel Schick serves as Local Missions Strategist** and is the primary contact.",
       "priority": 98,
       "category": [
         "ministries",
@@ -8935,6 +8935,8 @@
         "leadership",
         "staffing",
         "Global Missions Pastor",
+        "Interim Global Missions Pastor",
+        "Bob Woods",
         "Missions Administrator",
         "Jennifer Prows",
         "Darrel Schick"
@@ -8946,7 +8948,10 @@
         "Who leads global missions?",
         "Who do I contact about global missions?",
         "Who do I contact about mission trips?",
-        "Who oversees local missions?"
+        "Who oversees local missions?",
+        "Who is Bob Woods?",
+        "Who is Pastor Bob?",
+        "Who is the Interim Global Missions Pastor?"
       ],
       "ministries": [
         "missions",
@@ -8959,13 +8964,14 @@
       ],
       "resources": [],
       "status": "published",
-      "recommended_contact_staff_key": "jennifer_prows",
+      "staff_key": "bob_woods",
+      "recommended_contact_staff_key": "bob_woods",
       "related_staff_keys": [
+        "jennifer_prows",
         "darrel_schick"
       ],
-      "leadership_status": "transitional",
-      "open_role": "Global Missions Pastor",
-      "review_trigger": "global_missions_pastor_hired",
+      "leadership_status": "staffed",
+      "review_trigger": "global_missions_leadership_changed",
       "confidence": "high"
     },
     {
@@ -10376,49 +10382,6 @@
       "authoritative": true
     },
     {
-      "id": "relationship.ministry_staff.global_missions",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "Global Missions staff relationship",
-      "summary": "Staff relationship for global missions. Open role: Global Missions Pastor. Recommended staff key: jennifer_prows.",
-      "content": "Ministry: global_missions\nLeadership status: vacant\nPrimary staff key: none\nRecommended contact staff key: jennifer_prows\nRelated staff keys: \nOpen role: Global Missions Pastor\nAnswer guidance: Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the current point person for Global Missions questions, mission trips, and missions coordination.",
-      "priority": 95,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "global_missions",
-        "staff",
-        "ministry",
-        "vacant"
-      ],
-      "search_terms": [
-        "global missions",
-        "who oversees global missions",
-        "who leads global missions",
-        "who do I contact about global missions",
-        "Global Missions Pastor"
-      ],
-      "ministries": [
-        "global_missions"
-      ],
-      "audiences": [],
-      "resources": [],
-      "ministry": "global_missions",
-      "relationship_label": "Global Missions",
-      "staff_key": "jennifer_prows",
-      "recommended_contact_staff_key": "jennifer_prows",
-      "leadership_status": "vacant",
-      "open_role": "Global Missions Pastor",
-      "answer_guidance": "Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the current point person for Global Missions questions, mission trips, and missions coordination."
-    },
-    {
       "id": "relationship.ministry_staff.kids",
       "record_type": "relationship",
       "path": "relationships/ministry-staff.yaml",
@@ -10463,52 +10426,6 @@
       "leadership_status": "vacant",
       "open_role": "Kids Ministry Director",
       "answer_guidance": "Urbancrest is currently searching for its next Kids Ministry Director. Sarah Coleman serves as Preschool Director and is the current point person for Kids Ministry questions."
-    },
-    {
-      "id": "relationship.ministry_staff.missions",
-      "record_type": "relationship",
-      "path": "relationships/ministry-staff.yaml",
-      "title": "Missions staff relationship",
-      "summary": "Staff relationship for missions. Open role: Global Missions Pastor. Recommended staff key: jennifer_prows.",
-      "content": "Ministry: missions\nLeadership status: transitional\nPrimary staff key: none\nRecommended contact staff key: jennifer_prows\nRelated staff keys: darrel_schick\nOpen role: Global Missions Pastor\nAnswer guidance: Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the recommended current contact for general and global missions questions. Darrel Schick serves as Local Missions Strategist for local missions and community outreach.",
-      "priority": 95,
-      "category": [
-        "relationship",
-        "staff"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership"
-      ],
-      "tags": [
-        "missions",
-        "staff",
-        "ministry",
-        "transitional"
-      ],
-      "search_terms": [
-        "missions",
-        "who oversees missions",
-        "who leads missions",
-        "who do I contact about missions",
-        "Global Missions Pastor"
-      ],
-      "ministries": [
-        "missions"
-      ],
-      "audiences": [],
-      "resources": [],
-      "ministry": "missions",
-      "relationship_label": "Missions",
-      "staff_key": "jennifer_prows",
-      "recommended_contact_staff_key": "jennifer_prows",
-      "related_staff_keys": [
-        "darrel_schick"
-      ],
-      "leadership_status": "transitional",
-      "open_role": "Global Missions Pastor",
-      "answer_guidance": "Urbancrest is currently searching for its next Global Missions Pastor. Jennifer Prows serves as Missions Administrator and is the recommended current contact for general and global missions questions. Darrel Schick serves as Local Missions Strategist for local missions and community outreach."
     },
     {
       "id": "ministries.guest_services.donuts",
@@ -11937,9 +11854,13 @@
         "church_center.serving"
       ],
       "status": "published",
-      "recommended_contact_staff_key": "jennifer_prows",
-      "leadership_status": "transitional",
-      "open_role": "Global Missions Pastor",
+      "staff_key": "bob_woods",
+      "recommended_contact_staff_key": "bob_woods",
+      "related_staff_keys": [
+        "jennifer_prows",
+        "darrel_schick"
+      ],
+      "leadership_status": "staffed",
       "confidence": "high"
     },
     {
@@ -12241,6 +12162,57 @@
       "confidence": "high"
     },
     {
+      "id": "staff.bob_woods",
+      "record_type": "staff_route",
+      "path": "registry/staff-routing.yaml",
+      "title": "Bob Woods",
+      "summary": "Bob Woods serves as Interim Global Missions Pastor. Full biography and fun facts are loaded from Base44 Staff when relevant.",
+      "content": "Display name: Pastor Bob\nRole: Interim Global Missions Pastor\nMinistries: missions, global_missions\nTopics: general missions, global missions, international missions, mission trips, missions coordination\nAnswer guidance: Bob Woods serves as Interim Global Missions Pastor and is the primary contact for general and global missions questions, mission trips, and missions coordination. Use his current Base44 Staff profile for contact details.",
+      "priority": 90,
+      "category": [
+        "staff"
+      ],
+      "intents": [
+        "staff",
+        "staff_details",
+        "staff_routing",
+        "ministry_contact"
+      ],
+      "tags": [
+        "staff",
+        "Interim Global Missions Pastor",
+        "missions",
+        "global_missions"
+      ],
+      "search_terms": [
+        "Bob Woods",
+        "Pastor Bob",
+        "Interim Global Missions Pastor",
+        "Bob",
+        "Pastor Bob Woods",
+        "Global Missions Pastor",
+        "missions contact",
+        "general missions",
+        "global missions",
+        "international missions",
+        "mission trips",
+        "missions coordination"
+      ],
+      "ministries": [
+        "missions",
+        "global_missions"
+      ],
+      "audiences": [],
+      "resources": [],
+      "staff_key": "bob_woods",
+      "display_name": "Pastor Bob",
+      "role": "Interim Global Missions Pastor",
+      "pastoral_staff": true,
+      "show_card": true,
+      "profile_source": "base44.Staff",
+      "answer_guidance": "Bob Woods serves as Interim Global Missions Pastor and is the primary contact for general and global missions questions, mission trips, and missions coordination. Use his current Base44 Staff profile for contact details."
+    },
+    {
       "id": "staff.darrel_schick",
       "record_type": "staff_route",
       "path": "registry/staff-routing.yaml",
@@ -12394,7 +12366,7 @@
       "path": "registry/staff-routing.yaml",
       "title": "Jennifer Prows",
       "summary": "Jennifer Prows serves as Missions Administrator. Full biography and fun facts are loaded from Base44 Staff when relevant.",
-      "content": "Display name: Jennifer\nRole: Missions Administrator\nMinistries: missions, missions_administration, global_missions_support\nTopics: missions administration, global missions support, mission trips, missions conference, Red Barn, current missions contact\nAnswer guidance: Jennifer Prows serves as Missions Administrator and is the recommended current contact for global missions questions and coordination while Urbancrest searches for its next Global Missions Pastor. Do not identify Jennifer as the Global Missions Pastor.",
+      "content": "Display name: Jennifer\nRole: Missions Administrator\nMinistries: missions, missions_administration, global_missions_support\nTopics: missions administration, global missions support, mission trip administration, missions conference, Red Barn\nAnswer guidance: Jennifer Prows serves as Missions Administrator, supporting missions administration, events, and coordination. Bob Woods serves as Interim Global Missions Pastor and is the primary contact for general and global missions questions and mission trips.",
       "priority": 90,
       "category": [
         "staff"
@@ -12418,13 +12390,11 @@
         "Missions Administrator",
         "Jen",
         "Jen Prows",
-        "missions contact",
         "missions administration",
         "global missions support",
-        "mission trips",
+        "mission trip administration",
         "missions conference",
-        "Red Barn",
-        "current missions contact"
+        "Red Barn"
       ],
       "ministries": [
         "missions",
@@ -12439,7 +12409,7 @@
       "pastoral_staff": false,
       "show_card": true,
       "profile_source": "base44.Staff",
-      "answer_guidance": "Jennifer Prows serves as Missions Administrator and is the recommended current contact for global missions questions and coordination while Urbancrest searches for its next Global Missions Pastor. Do not identify Jennifer as the Global Missions Pastor."
+      "answer_guidance": "Jennifer Prows serves as Missions Administrator, supporting missions administration, events, and coordination. Bob Woods serves as Interim Global Missions Pastor and is the primary contact for general and global missions questions and mission trips."
     },
     {
       "id": "staff.jim_short",
@@ -15873,6 +15843,62 @@
       "answer_guidance": "Tanya Byrd serves as Financial Officer and is the primary contact for finance, finances, church finances, giving, stewardship, donations, and other financial questions."
     },
     {
+      "id": "relationship.ministry_staff.global_missions",
+      "record_type": "relationship",
+      "path": "relationships/ministry-staff.yaml",
+      "title": "Global Missions staff relationship",
+      "summary": "Staff relationship for global missions. Recommended staff key: bob_woods.",
+      "content": "Ministry: global_missions\nLeadership status: staffed\nPrimary staff key: bob_woods\nRecommended contact staff key: bob_woods\nRelated staff keys: jennifer_prows\nRouting aliases: global missions, international missions, global missions pastor, mission trips, international mission trips\nAnswer guidance: Bob Woods serves as Interim Global Missions Pastor and is the primary contact for Global Missions questions, mission trips, international missions, and missions coordination. Jennifer Prows serves as Missions Administrator and supports missions administration.",
+      "priority": 85,
+      "category": [
+        "relationship",
+        "staff"
+      ],
+      "intents": [
+        "ministry_contact",
+        "staff_routing",
+        "missions_leadership"
+      ],
+      "tags": [
+        "global_missions",
+        "staff",
+        "ministry",
+        "staffed"
+      ],
+      "search_terms": [
+        "global missions",
+        "who oversees global missions",
+        "who leads global missions",
+        "who do I contact about global missions",
+        "international missions",
+        "global missions pastor",
+        "mission trips",
+        "international mission trips"
+      ],
+      "ministries": [
+        "global_missions"
+      ],
+      "audiences": [],
+      "resources": [],
+      "ministry": "global_missions",
+      "routing_aliases": [
+        "global missions",
+        "international missions",
+        "global missions pastor",
+        "mission trips",
+        "international mission trips"
+      ],
+      "relationship_label": "Global Missions",
+      "staff_key": "bob_woods",
+      "primary_staff_key": "bob_woods",
+      "recommended_contact_staff_key": "bob_woods",
+      "related_staff_keys": [
+        "jennifer_prows"
+      ],
+      "leadership_status": "staffed",
+      "answer_guidance": "Bob Woods serves as Interim Global Missions Pastor and is the primary contact for Global Missions questions, mission trips, international missions, and missions coordination. Jennifer Prows serves as Missions Administrator and supports missions administration."
+    },
+    {
       "id": "relationship.ministry_staff.guest_services",
       "record_type": "relationship",
       "path": "relationships/ministry-staff.yaml",
@@ -16003,6 +16029,115 @@
       "recommended_contact_staff_key": "mark_daubenmire",
       "leadership_status": "staffed",
       "answer_guidance": "Mark Daubenmire is the primary contact for Member Services, membership, and church records."
+    },
+    {
+      "id": "relationship.ministry_staff.missions_administration",
+      "record_type": "relationship",
+      "path": "relationships/ministry-staff.yaml",
+      "title": "Missions Administration staff relationship",
+      "summary": "Staff relationship for missions administration. Recommended staff key: jennifer_prows.",
+      "content": "Ministry: missions_administration\nLeadership status: staffed\nPrimary staff key: jennifer_prows\nRecommended contact staff key: jennifer_prows\nRelated staff keys: bob_woods\nRouting aliases: missions administration, missions administrator, missions admin, mission trip administration\nAnswer guidance: Jennifer Prows serves as Missions Administrator and is the contact for missions administrative support. Bob Woods serves as Interim Global Missions Pastor and is the primary contact for general and global missions questions and mission trips.",
+      "priority": 85,
+      "category": [
+        "relationship",
+        "staff"
+      ],
+      "intents": [
+        "ministry_contact",
+        "staff_routing",
+        "missions_leadership"
+      ],
+      "tags": [
+        "missions_administration",
+        "staff",
+        "ministry",
+        "staffed"
+      ],
+      "search_terms": [
+        "missions administration",
+        "who oversees missions administration",
+        "who leads missions administration",
+        "who do I contact about missions administration",
+        "missions administrator",
+        "missions admin",
+        "mission trip administration"
+      ],
+      "ministries": [
+        "missions_administration"
+      ],
+      "audiences": [],
+      "resources": [],
+      "ministry": "missions_administration",
+      "routing_aliases": [
+        "missions administration",
+        "missions administrator",
+        "missions admin",
+        "mission trip administration"
+      ],
+      "relationship_label": "Missions Administration",
+      "staff_key": "jennifer_prows",
+      "primary_staff_key": "jennifer_prows",
+      "recommended_contact_staff_key": "jennifer_prows",
+      "related_staff_keys": [
+        "bob_woods"
+      ],
+      "leadership_status": "staffed",
+      "answer_guidance": "Jennifer Prows serves as Missions Administrator and is the contact for missions administrative support. Bob Woods serves as Interim Global Missions Pastor and is the primary contact for general and global missions questions and mission trips."
+    },
+    {
+      "id": "relationship.ministry_staff.missions",
+      "record_type": "relationship",
+      "path": "relationships/ministry-staff.yaml",
+      "title": "Missions staff relationship",
+      "summary": "Staff relationship for missions. Recommended staff key: bob_woods.",
+      "content": "Ministry: missions\nLeadership status: staffed\nPrimary staff key: bob_woods\nRecommended contact staff key: bob_woods\nRelated staff keys: jennifer_prows, darrel_schick\nRouting aliases: missions, missions ministry, mission ministry, missions contact\nAnswer guidance: Bob Woods serves as Interim Global Missions Pastor and is the primary contact for general and global missions questions and mission trips. Jennifer Prows serves as Missions Administrator and supports missions administration. Darrel Schick serves as Local Missions Strategist for local missions and community outreach.",
+      "priority": 85,
+      "category": [
+        "relationship",
+        "staff"
+      ],
+      "intents": [
+        "ministry_contact",
+        "staff_routing",
+        "missions_leadership"
+      ],
+      "tags": [
+        "missions",
+        "staff",
+        "ministry",
+        "staffed"
+      ],
+      "search_terms": [
+        "missions",
+        "who oversees missions",
+        "who leads missions",
+        "who do I contact about missions",
+        "missions ministry",
+        "mission ministry",
+        "missions contact"
+      ],
+      "ministries": [
+        "missions"
+      ],
+      "audiences": [],
+      "resources": [],
+      "ministry": "missions",
+      "routing_aliases": [
+        "missions",
+        "missions ministry",
+        "mission ministry",
+        "missions contact"
+      ],
+      "relationship_label": "Missions",
+      "staff_key": "bob_woods",
+      "primary_staff_key": "bob_woods",
+      "recommended_contact_staff_key": "bob_woods",
+      "related_staff_keys": [
+        "jennifer_prows",
+        "darrel_schick"
+      ],
+      "leadership_status": "staffed",
+      "answer_guidance": "Bob Woods serves as Interim Global Missions Pastor and is the primary contact for general and global missions questions and mission trips. Jennifer Prows serves as Missions Administrator and supports missions administration. Darrel Schick serves as Local Missions Strategist for local missions and community outreach."
     },
     {
       "id": "relationship.ministry_staff.nursery",
@@ -24292,7 +24427,7 @@
       "path": "registry/ministries.yaml",
       "title": "Ministries",
       "summary": "Structured registry data from registry/ministries.yaml.",
-      "content": "version: 1.5\nlast_updated: 2026-08-08\nministries: kids: title: Urbancrest Kids\ndescription: Family-partnered discipleship ministry for children that emphasizes relationships, biblical truth, worship, service, safety, and faith lived out.\naliases: Kids Ministry\nChildren's Ministry\nchildren\nrelated_staff_keys: mikhael_mastalerz\nleadership_status: vacant\nopen_role: Kids Ministry Director\nrecommended_contact_staff_key: sarah_coleman\nstudents: title: Student Ministry\ndescription: Ministry for students in grades 7 through 12 that partners with parents to make mature disciples of Jesus.\naliases: Youth Ministry\nmiddle school\nhigh school\nteenagers\nprimary_staff_key: tucker_howard\nsmall_groups: title: Small Groups\ndescription: Groups that help people grow in faith and community.\nresource: church_center.small_groups\nmen: title: Men's Ministry\ndescription: Ministry for men.\nwomen: title: Women's Ministry\ndescription: Helps women build meaningful connections with one another and deepen their relationship with Jesus through engaging events and gatherings.\naliases: Women's Ministry\nUrbancrest Women\nwomen\nladies\nresources: church_center.serving\nchurch_center.small_groups\nmissions: title: Missions\ndescription: Local, national, and international mission engagement.\nleadership_status: transitional\nopen_role: Global Missions Pastor\nrecommended_contact_staff_key: jennifer_prows\nworship: title: Worship Ministry\ndescription: Christ-centered, Scripture-shaped ministry that leads the congregation in worship through music, prayer, Scripture, and participation.\naliases: worship team\nmusic ministry\nworship band\nvocal team\nprimary_staff_key: larry_nichols\nproduction: title: Production Ministry\ndescription: Audio, video, lighting, livestream, and service technology that supports worship services and ministry events.\naliases: Production\nProduction Ministry\naudio\nvideo\nlighting\nlivestream\nservice technology\nownership_area: technical_creative\nprimary_staff_key: matthew_kirby\nlegacy_builders: title: Legacy Builders\ndescription: Active ministry for adults age 50 and older, led by Howard and Sue Pauley, with service projects, fellowship, missions, Sunday School, and special events.\naliases: Legacy Builders\nLegacy Ministry\nLegacy\nsenior adults\nsenior adult ministry\nadults age 50 and older\nadults 50 plus\n50 plus ministry\nleaders: Howard Pauley\nSue Pauley\ntags: adults 50 and older\nsenior adult...",
+      "content": "version: 1.6\nlast_updated: 2026-11-11\nministries: kids: title: Urbancrest Kids\ndescription: Family-partnered discipleship ministry for children that emphasizes relationships, biblical truth, worship, service, safety, and faith lived out.\naliases: Kids Ministry\nChildren's Ministry\nchildren\nrelated_staff_keys: mikhael_mastalerz\nleadership_status: vacant\nopen_role: Kids Ministry Director\nrecommended_contact_staff_key: sarah_coleman\nstudents: title: Student Ministry\ndescription: Ministry for students in grades 7 through 12 that partners with parents to make mature disciples of Jesus.\naliases: Youth Ministry\nmiddle school\nhigh school\nteenagers\nprimary_staff_key: tucker_howard\nsmall_groups: title: Small Groups\ndescription: Groups that help people grow in faith and community.\nresource: church_center.small_groups\nmen: title: Men's Ministry\ndescription: Ministry for men.\nwomen: title: Women's Ministry\ndescription: Helps women build meaningful connections with one another and deepen their relationship with Jesus through engaging events and gatherings.\naliases: Women's Ministry\nUrbancrest Women\nwomen\nladies\nresources: church_center.serving\nchurch_center.small_groups\nmissions: title: Missions\ndescription: Local, national, and international mission engagement.\nleadership_status: staffed\nprimary_staff_key: bob_woods\nrecommended_contact_staff_key: bob_woods\nrelated_staff_keys: jennifer_prows\nworship: title: Worship Ministry\ndescription: Christ-centered, Scripture-shaped ministry that leads the congregation in worship through music, prayer, Scripture, and participation.\naliases: worship team\nmusic ministry\nworship band\nvocal team\nprimary_staff_key: larry_nichols\nproduction: title: Production Ministry\ndescription: Audio, video, lighting, livestream, and service technology that supports worship services and ministry events.\naliases: Production\nProduction Ministry\naudio\nvideo\nlighting\nlivestream\nservice technology\nownership_area: technical_creative\nprimary_staff_key: matthew_kirby\nlegacy_builders: title: Legacy Builders\ndescription: Active ministry for adults age 50 and older, led by Howard and Sue Pauley, with service projects, fellowship, missions, Sunday School, and special events.\naliases: Legacy Builders\nLegacy Ministry\nLegacy\nsenior adults\nsenior adult ministry\nadults age 50 and older\nadults 50 plus\n50 plus ministry\nleaders: Howard Pauley\nSue Pauley\ntags: adults 50 an...",
       "priority": 60,
       "category": [
         "registry"
