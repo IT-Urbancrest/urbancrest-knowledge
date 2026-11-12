@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-11-12T11:14:15.309182Z",
+  "generated_at": "2026-11-12T18:19:45.232488Z",
   "timezone": "America/New_York",
-  "record_count": 503,
+  "record_count": 511,
   "config": {
     "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step. For directions requests, include both approved map links.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership\n\nBob Woods serves as Interim Global Missions Pastor and is the primary contact for general and global missions questions, mission trips, and missions coordination.\n\nFor broad or global missions leadership questions:\n\n1. Identify Bob Woods as Interim Global Missions Pastor.\n2. Return `bob_woods` when one staff card is appropriate.\n3. Use Bob's current Base44 Staff profile for biography and contact information.\n\nJennifer Prows serves as Missions Administrator and supports missions administration, events, and coordination. Return `jennifer_prows` for questions specifically about Jennifer or missions administration.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nState the times found in those authoritative records directly. Do not hardcode service times in runtime application logic or prompt instructions.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
     "style_guide": "# Style Guide\n\n## Writing\n\n- Use short paragraphs.\n- Prefer plain language.\n- Avoid church jargon unless it is explained.\n- Do not use em dashes.\n- Do not use the word meaningful as a filler.\n- Use Small Groups, never Grow Groups.\n- Refer to Urbancrest Church as Urbancrest after the first use.\n- Use believer's baptism by immersion when describing baptism.\n\n## Theology\n\n- Scripture is the final authority.\n- The Baptist Faith and Message 2000 is a helpful doctrinal summary, not equal to Scripture.\n- Salvation is by grace alone through faith alone in Jesus Christ alone.\n- Baptism follows salvation and does not save.\n",
@@ -1810,6 +1810,51 @@
       "schedule_scope": "churchwide"
     },
     {
+      "id": "ministries.missions.internship",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/missions/faq/is-the-mission-ministry-internship-still-offered.md",
+      "title": "Is the Mission Ministry Internship still offered?",
+      "summary": "The Mission Ministry Internship is no longer offered at Urbancrest; Pastor Bob Woods can help people explore current missions opportunities.",
+      "content": "# Is the Mission Ministry Internship still offered?\n\nThe **Mission Ministry Internship (MMI) is no longer offered at Urbancrest**.\n\nIf you would like to explore current ways to get involved in missions, contact **Pastor Bob Woods, Interim Global Missions Pastor**.",
+      "priority": 118,
+      "category": [
+        "ministries",
+        "faq",
+        "current_update"
+      ],
+      "intents": [
+        "ministry_info",
+        "current_update",
+        "missions_contact"
+      ],
+      "tags": [
+        "Mission Ministry Internship",
+        "MMI",
+        "missions internship",
+        "internship"
+      ],
+      "search_terms": [
+        "Is the Mission Ministry Internship still offered?",
+        "Does Urbancrest have a missions internship?",
+        "What is MMI?",
+        "Can I apply for the Mission Ministry Internship?",
+        "Is there a mission internship at Urbancrest?"
+      ],
+      "ministries": [
+        "missions",
+        "global_missions"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "action_link.connect_card"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "bob_woods",
+      "confidence": "high"
+    },
+    {
       "id": "ministries.local_missions.baskets_of_hope",
       "record_type": "knowledge",
       "path": "knowledge/ministries/local-missions/faq/what-is-baskets-of-hope.md",
@@ -2032,6 +2077,75 @@
       "confidence": "high"
     },
     {
+      "id": "ministries.missions.leadership",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/missions/faq/who-oversees-missions.md",
+      "title": "Who do I contact about missions?",
+      "summary": "Bob Woods serves as Interim Global Missions Pastor and is the primary contact for general and global missions questions, mission trips, and missions coordination.",
+      "content": "# Who do I contact about missions?\n\n**Bob Woods serves as Interim Global Missions Pastor** and is the primary contact for general and global missions questions, mission trips, and missions coordination.\n\n**Jennifer Prows serves as Missions Administrator**, supporting missions administration, events, and coordination.\n\nFor **Local Missions and community outreach**, **Darrel Schick serves as Local Missions Strategist** and is the primary contact.\n\nYou can [view our staff directory](https://urbancrest.church/staff) or [complete the Connect Card](https://urbancrest.churchcenter.com/people/forms/1494) to get connected.",
+      "priority": 118,
+      "category": [
+        "ministries",
+        "current_update",
+        "staff_leadership"
+      ],
+      "intents": [
+        "ministry_contact",
+        "staff_routing",
+        "missions_leadership",
+        "current_update"
+      ],
+      "tags": [
+        "missions",
+        "global missions",
+        "local missions",
+        "leadership",
+        "staffing",
+        "Global Missions Pastor",
+        "Interim Global Missions Pastor",
+        "Bob Woods",
+        "Missions Administrator",
+        "Jennifer Prows",
+        "Darrel Schick"
+      ],
+      "search_terms": [
+        "Who oversees missions?",
+        "Who leads missions?",
+        "Who do I contact about missions?",
+        "Who is the Global Missions Pastor?",
+        "Who leads global missions?",
+        "Who do I contact about global missions?",
+        "Who do I contact about mission trips?",
+        "Who oversees local missions?",
+        "Who is Bob Woods?",
+        "Who is Pastor Bob?",
+        "Who is the Interim Global Missions Pastor?"
+      ],
+      "ministries": [
+        "missions",
+        "global_missions",
+        "local_missions",
+        "missions_administration"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "action_link.staff",
+        "action_link.connect_card"
+      ],
+      "status": "published",
+      "staff_key": "bob_woods",
+      "recommended_contact_staff_key": "bob_woods",
+      "related_staff_keys": [
+        "jennifer_prows",
+        "darrel_schick"
+      ],
+      "leadership_status": "staffed",
+      "review_trigger": "global_missions_leadership_changed",
+      "confidence": "high"
+    },
+    {
       "id": "schedule.legacy_builders.bears",
       "record_type": "schedule",
       "path": "registry/schedule.yaml",
@@ -2189,6 +2303,56 @@
       ],
       "show_staff_card_on_schedule_queries": false,
       "timezone": "America/New_York"
+    },
+    {
+      "id": "ministries.missions.trips",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/missions/faq/does-urbancrest-offer-mission-trips.md",
+      "title": "Does Urbancrest offer mission trips?",
+      "summary": "Urbancrest offers mission trips in the United States and internationally, with current opportunities coordinated through Pastor Bob Woods and Jennifer Prows.",
+      "content": "# Does Urbancrest offer mission trips?\n\nYes. Urbancrest offers opportunities to serve on mission trips in the United States and internationally, working alongside missionaries and ministry partners.\n\nTrips have included community outreach, sharing the gospel, children's and youth ministry, sports and summer camps, home repairs, food assistance, ministry with international students, care for widows and children, and leadership training.\n\nDestinations, dates, costs, and team needs vary by trip. **Pastor Bob Woods** is the primary contact for current mission-trip information and next steps. **Jennifer Prows, Missions Administrator**, can help with administrative questions and coordination.\n\n[Complete the Connect Card](https://urbancrest.churchcenter.com/people/forms/1494) to get connected with the missions team and learn about upcoming mission trips.",
+      "priority": 116,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "missions_contact",
+        "volunteering"
+      ],
+      "tags": [
+        "mission trips",
+        "international mission trips",
+        "domestic mission trips",
+        "short term missions"
+      ],
+      "search_terms": [
+        "Does Urbancrest offer mission trips?",
+        "What mission trips does Urbancrest have?",
+        "How do I go on a mission trip?",
+        "Are there international mission trips?",
+        "Are there mission trips in the United States?",
+        "Who do I contact about mission trips?"
+      ],
+      "ministries": [
+        "missions",
+        "global_missions"
+      ],
+      "audiences": [
+        "attendee",
+        "member",
+        "volunteer"
+      ],
+      "resources": [
+        "action_link.connect_card"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "bob_woods",
+      "related_staff_keys": [
+        "jennifer_prows"
+      ],
+      "confidence": "high"
     },
     {
       "id": "ministries.local_missions.emergency_food_boxes",
@@ -2673,6 +2837,112 @@
       "timezone": "America/New_York"
     },
     {
+      "id": "ministries.missions.get_involved",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/missions/faq/how-can-i-get-involved-in-missions.md",
+      "title": "How can I get involved in missions?",
+      "summary": "People can get involved in missions at Urbancrest by praying, going, giving, helping send others, and serving through Local Missions.",
+      "content": "# How can I get involved in missions?\n\nThere are several ways to take your next step in missions at Urbancrest:\n\n- **Pray:** Pray regularly for missionaries, their families, ministry partners, and the people they serve.\n- **Go:** Explore a mission trip or serve with a local outreach ministry.\n- **Give:** Support ongoing ministry and specific needs through the Missions Fund.\n- **Send:** Encourage those who serve, support their work, and build relationships with our ministry partners through opportunities such as the Missions Conference.\n\nYou can also serve close to home through Local Missions. Opportunities include food assistance, furniture and laundry ministries, community outreach, seasonal events, and other practical ways to care for our neighbors.\n\n**Pastor Bob Woods** can help you explore general and global missions opportunities. For Local Missions and community outreach, connect with **Darrel Schick**.\n\n[Explore ways to get involved](https://urbancrest.church/get-involved) or [complete the Volunteer Interest Form](https://urbancrest.churchcenter.com/people/forms/4085).",
+      "priority": 114,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "volunteering",
+        "ministry_info",
+        "missions_contact"
+      ],
+      "tags": [
+        "missions",
+        "volunteer",
+        "serve",
+        "pray",
+        "go",
+        "give",
+        "send",
+        "Local Missions"
+      ],
+      "search_terms": [
+        "How can I get involved in missions?",
+        "How can I volunteer with missions?",
+        "How can I serve with missions?",
+        "How can I support missionaries?",
+        "I want to go on a mission trip",
+        "What are my next steps in missions?"
+      ],
+      "ministries": [
+        "missions",
+        "global_missions",
+        "local_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member",
+        "volunteer"
+      ],
+      "resources": [
+        "action_link.get_involved",
+        "action_link.serving_interest"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "bob_woods",
+      "related_staff_keys": [
+        "darrel_schick"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.missions.fund",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/missions/faq/what-is-the-missions-fund.md",
+      "title": "What is the Missions Fund, and how can I give?",
+      "summary": "The Urbancrest Missions Fund supports missionaries, ministry partners, and specific ministry needs locally, nationally, and internationally.",
+      "content": "# What is the Missions Fund, and how can I give?\n\nThe **Urbancrest Missions Fund** helps provide ongoing financial support for missionaries and ministry partners and helps meet specific ministry needs locally, nationally, and internationally.\n\nMissions Fund gifts are given **in addition to regular giving**. **100% of Missions Fund gifts support missions**, including ongoing ministry partnerships and projects such as church planting, Bibles, food, clothing, leadership training, and medical needs.\n\nYou can [give online through Urbancrest's giving page](https://urbancrest.churchcenter.com/giving). If you need help directing a gift to the Missions Fund, contact the church office.\n\nA Missions Fund commitment is a prayerful, personal commitment to give toward missions. These commitments help the missions team plan ongoing support for ministry partners. This is a faith commitment between you and the Lord.\n\nFor questions about the ministry supported through the fund, contact **Pastor Bob Woods**. For help with giving transactions or records, contact the church office or **Tanya Byrd, Financial Officer**.",
+      "priority": 114,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "giving",
+        "ministry_info",
+        "missions_support"
+      ],
+      "tags": [
+        "Missions Fund",
+        "missions giving",
+        "faith commitment",
+        "support missionaries",
+        "donate to missions"
+      ],
+      "search_terms": [
+        "What is the Missions Fund?",
+        "How do I give to missions?",
+        "How do I support Urbancrest missionaries?",
+        "What is a Missions Fund commitment?",
+        "Does 100 percent of Missions Fund giving go to missions?",
+        "Can I donate to mission projects?"
+      ],
+      "ministries": [
+        "missions",
+        "global_missions",
+        "local_missions"
+      ],
+      "audiences": [
+        "attendee",
+        "member",
+        "donor"
+      ],
+      "resources": [
+        "action_link.giving"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "bob_woods",
+      "confidence": "high"
+    },
+    {
       "id": "ministries.local_missions.baskets_of_hope_schedule",
       "record_type": "knowledge",
       "path": "knowledge/ministries/local-missions/faq/when-is-baskets-of-hope.md",
@@ -2813,6 +3083,94 @@
       ],
       "show_staff_card_on_schedule_queries": false,
       "timezone": "America/New_York"
+    },
+    {
+      "id": "ministries.missions.support_totals",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/missions/faq/how-many-missionaries-and-ministries-does-urbancrest-support.md",
+      "title": "How many missionaries and ministries does Urbancrest support?",
+      "summary": "Urbancrest's 2025 missions guide lists 41 missionaries serving in more than 15 countries and highlights 10 Urbancrest outreach ministries and supported local ministries.",
+      "content": "# How many missionaries and ministries does Urbancrest support?\n\nOur **2025 missions guide lists 41 missionaries serving in more than 15 countries**. It also highlights **10 Urbancrest outreach ministries and supported local ministries**.\n\nThose local ministries include both ministries of Urbancrest and outside ministry partners.\n\nTogether, these relationships connect our church with gospel ministry here in our community, across the United States, and around the world. Support includes ongoing ministry needs and specific projects such as church planting, Bibles, food, clothing, leadership training, and medical needs.\n\nFor the latest information about our missions partnerships, contact **Pastor Bob Woods, Interim Global Missions Pastor**.",
+      "priority": 112,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "missions_partnerships"
+      ],
+      "tags": [
+        "missionaries",
+        "mission organizations",
+        "missions partners",
+        "supported ministries",
+        "countries"
+      ],
+      "search_terms": [
+        "How many missionaries does Urbancrest support?",
+        "How many mission organizations does Urbancrest support?",
+        "Where do Urbancrest missionaries serve?",
+        "What missionaries does Urbancrest support?",
+        "What ministries does Urbancrest support?"
+      ],
+      "ministries": [
+        "missions",
+        "global_missions",
+        "local_missions"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "bob_woods",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.missions.conference",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/missions/faq/what-is-the-urbancrest-missions-conference.md",
+      "title": "What is the Urbancrest Missions Conference?",
+      "summary": "The annual Urbancrest Missions Conference celebrates what God is doing through missionaries and ministry partners and helps people discover their next step in missions.",
+      "content": "# What is the Urbancrest Missions Conference?\n\nThe **Urbancrest Missions Conference** is our annual opportunity to celebrate what God is doing through missionaries and ministry partners and discover how we can take part.\n\nDuring the conference, we welcome ministry partners, hear stories from their work, worship together, and build relationships. It is a chance to learn about the people and ministries we support and consider your own next step through prayer, giving, serving, or going on a mission trip.\n\nConference activities and schedules vary from year to year. [Visit the Events page](https://urbancrest.church/events) for current information, or contact the missions team with questions.",
+      "priority": 112,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "events",
+        "missions_support"
+      ],
+      "tags": [
+        "Missions Conference",
+        "missionaries",
+        "ministry partners",
+        "missions event"
+      ],
+      "search_terms": [
+        "What is the Urbancrest Missions Conference?",
+        "What happens at the Missions Conference?",
+        "Does Urbancrest have a missions conference?",
+        "How can I meet Urbancrest missionaries?"
+      ],
+      "ministries": [
+        "missions",
+        "global_missions"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.events"
+      ],
+      "status": "published",
+      "recommended_contact_staff_key": "bob_woods",
+      "confidence": "high"
     },
     {
       "id": "ministries.local_missions.leadership",
@@ -3202,6 +3560,48 @@
       "confidence": "high"
     },
     {
+      "id": "ministries.missions.prayer",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/missions/faq/how-can-i-pray-for-missions.md",
+      "title": "How can I pray for missions?",
+      "summary": "Pray for missionaries and their families, people hearing the gospel, ministry leaders, practical needs, and the teams supporting missions work.",
+      "content": "# How can I pray for missions?\n\nPrayer is an important part of how we care for missionaries and participate in their work. Our ministry partners share updates that help us pray for specific people, needs, and opportunities.\n\nYou can pray for:\n\n- Missionaries and their families, including their health, encouragement, safety, and spiritual growth.\n- People to hear the gospel, trust Jesus, and grow as His disciples.\n- Local churches, church plants, ministry leaders, and those being trained to serve.\n- Practical needs such as food, housing, transportation, Bibles, and medical care.\n- Mission teams, Urbancrest's missions staff, and the people planning and supporting missions work.\n\nA simple place to begin is to pray for one missionary or ministry each day. Our 2025 missions guide includes a monthly prayer schedule to help build that habit. Contact the missions team for current prayer updates and resources.",
+      "priority": 110,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "prayer",
+        "missions_support"
+      ],
+      "tags": [
+        "missions prayer",
+        "pray for missionaries",
+        "missionary prayer",
+        "prayer guide"
+      ],
+      "search_terms": [
+        "How can I pray for missions?",
+        "How should I pray for missionaries?",
+        "What can I pray for missionaries?",
+        "Does Urbancrest have a missions prayer guide?",
+        "How can I support missionaries through prayer?"
+      ],
+      "ministries": [
+        "missions",
+        "global_missions"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "bob_woods",
+      "confidence": "high"
+    },
+    {
       "id": "beliefs.salvation.get-saved",
       "record_type": "knowledge",
       "path": "knowledge/beliefs/how-do-i-get-saved.md",
@@ -3583,6 +3983,52 @@
       "answer_guidance": "State that Bears meets on the second Tuesday of each month and that Legacy Builders has made more than 2,000 handmade teddy bears. Use only the recipient groups listed in this article.",
       "confidence": "high",
       "authoritative": true
+    },
+    {
+      "id": "ministries.missions.supported_work",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/missions/faq/what-kinds-of-mission-work-does-urbancrest-support.md",
+      "title": "What kinds of mission work does Urbancrest support?",
+      "summary": "Urbancrest supports gospel-centered work including church planting, leadership training, outreach, care for children and families, and practical ministry needs.",
+      "content": "# What kinds of mission work does Urbancrest support?\n\nUrbancrest partners with ministries that share the gospel, give people an opportunity to respond to Jesus, and help them grow as His disciples.\n\nThat work takes many forms, including:\n\n- Starting and strengthening churches.\n- Training pastors and ministry leaders.\n- Reaching students, children, families, and people in the community.\n- Serving people in prisons and other outreach settings.\n- Caring for children, widows, and families facing practical needs.\n- Providing food, clothing, Bibles, medical support, and other ministry resources.\n\nWe support both ongoing ministry and specific projects. Practical care and sharing the hope of Jesus work together as we serve people and build relationships.\n\nFor questions about missions partnerships, contact **Pastor Bob Woods, Interim Global Missions Pastor**.",
+      "priority": 110,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "missions_partnerships",
+        "missions_support"
+      ],
+      "tags": [
+        "mission work",
+        "ministry partners",
+        "church planting",
+        "leadership training",
+        "gospel outreach",
+        "practical care"
+      ],
+      "search_terms": [
+        "What kinds of mission work does Urbancrest support?",
+        "What do Urbancrest missionaries do?",
+        "What mission projects does Urbancrest support?",
+        "Does Urbancrest support church planting?",
+        "Does Urbancrest support practical needs?",
+        "What do missions donations support?"
+      ],
+      "ministries": [
+        "missions",
+        "global_missions",
+        "local_missions"
+      ],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [],
+      "status": "published",
+      "recommended_contact_staff_key": "bob_woods",
+      "confidence": "high"
     },
     {
       "id": "ministries.legacy_builders.injoy_sunday_school",
@@ -7783,6 +8229,64 @@
       "confidence": "high"
     },
     {
+      "id": "ministries.missions",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/missions/overview.md",
+      "title": "What is Missions at Urbancrest?",
+      "summary": "Urbancrest helps people know Jesus and live on mission across the street and around the world through prayer, service, giving, and ministry partnerships.",
+      "content": "# What is Missions at Urbancrest?\n\nAt Urbancrest, we want to help people know Jesus and live on mission, across the street and around the world. Our mission, **Every Nation • Every Street • One Mission**, shapes how we pray, serve, give, and partner with others to share the gospel.\n\nWe support missionaries and ministry partners locally, nationally, and internationally. Their work includes church planting, discipleship, leadership training, outreach to students and families, prison ministry, care for children, food distribution, medical needs, and other practical ways to serve people in Jesus' name.\n\nSharing the gospel and helping people grow as followers of Jesus are central to these partnerships. We come alongside ministry partners through prayer, ongoing financial support, specific projects, and opportunities to serve together.\n\nEveryone has a next step. You can **pray, go, give, and help send others** as we join in what God is doing.",
+      "priority": 100,
+      "category": [
+        "ministries"
+      ],
+      "intents": [
+        "ministry_info",
+        "ministry_contact",
+        "missions_leadership"
+      ],
+      "tags": [
+        "ministry",
+        "missions",
+        "global missions",
+        "local missions",
+        "missionaries",
+        "ministry partners",
+        "mission trips",
+        "pray go give send"
+      ],
+      "search_terms": [
+        "What is Missions at Urbancrest?",
+        "What does Urbancrest believe about missions?",
+        "How does Urbancrest support missions?",
+        "How can I live on mission?",
+        "How do I get involved in missions?"
+      ],
+      "ministries": [
+        "missions",
+        "global_missions",
+        "local_missions",
+        "missions_administration"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.get_involved",
+        "action_link.serving_interest"
+      ],
+      "status": "published",
+      "staff_key": "bob_woods",
+      "recommended_contact_staff_key": "bob_woods",
+      "related_staff_keys": [
+        "jennifer_prows",
+        "darrel_schick"
+      ],
+      "leadership_status": "staffed",
+      "confidence": "high"
+    },
+    {
       "id": "beliefs.repentance",
       "record_type": "knowledge",
       "path": "knowledge/beliefs/what-is-repentance.md",
@@ -8907,71 +9411,6 @@
       ],
       "status": "published",
       "recommended_contact_staff_key": "sydni_neptune",
-      "confidence": "high"
-    },
-    {
-      "id": "ministries.missions.leadership",
-      "record_type": "knowledge",
-      "path": "knowledge/ministries/missions/faq/who-oversees-missions.md",
-      "title": "Who oversees missions?",
-      "summary": "Bob Woods serves as Interim Global Missions Pastor and is the primary contact for general and global missions questions and mission trips.",
-      "content": "# Who oversees missions?\n\n**Bob Woods serves as Interim Global Missions Pastor** and is the primary contact for general and global missions questions, mission trips, and missions coordination.\n\n**Jennifer Prows serves as Missions Administrator**, supporting missions administration, events, and coordination.\n\nFor **local missions and community outreach**, **Darrel Schick serves as Local Missions Strategist** and is the primary contact.",
-      "priority": 98,
-      "category": [
-        "ministries",
-        "current_update",
-        "staff_leadership"
-      ],
-      "intents": [
-        "ministry_contact",
-        "staff_routing",
-        "missions_leadership",
-        "current_update"
-      ],
-      "tags": [
-        "missions",
-        "global missions",
-        "local missions",
-        "leadership",
-        "staffing",
-        "Global Missions Pastor",
-        "Interim Global Missions Pastor",
-        "Bob Woods",
-        "Missions Administrator",
-        "Jennifer Prows",
-        "Darrel Schick"
-      ],
-      "search_terms": [
-        "Who oversees missions?",
-        "Who leads missions?",
-        "Who is the Global Missions Pastor?",
-        "Who leads global missions?",
-        "Who do I contact about global missions?",
-        "Who do I contact about mission trips?",
-        "Who oversees local missions?",
-        "Who is Bob Woods?",
-        "Who is Pastor Bob?",
-        "Who is the Interim Global Missions Pastor?"
-      ],
-      "ministries": [
-        "missions",
-        "global_missions",
-        "local_missions",
-        "missions_administration"
-      ],
-      "audiences": [
-        "everyone"
-      ],
-      "resources": [],
-      "status": "published",
-      "staff_key": "bob_woods",
-      "recommended_contact_staff_key": "bob_woods",
-      "related_staff_keys": [
-        "jennifer_prows",
-        "darrel_schick"
-      ],
-      "leadership_status": "staffed",
-      "review_trigger": "global_missions_leadership_changed",
       "confidence": "high"
     },
     {
@@ -11806,62 +12245,6 @@
       "status": "published",
       "confidence": "high",
       "supplemental_search_term_count": 12
-    },
-    {
-      "id": "ministries.missions",
-      "record_type": "knowledge",
-      "path": "knowledge/ministries/missions/overview.md",
-      "title": "What is Missions?",
-      "summary": "Urbancrest helps people live on mission through local and global mission engagement.",
-      "content": "# What is Missions?\n\nUrbancrest helps people live on mission through both local and global mission engagement.\n\nGlobal missions creates opportunities for people to participate in mission trips, support mission work, and serve beyond the local community. Local Missions focuses on practical outreach and serving people in and around Lebanon.\n\nWhether the opportunity is across the street or around the world, the goal is to help people faithfully take the gospel to others and serve in Jesus' name.",
-      "priority": 90,
-      "category": [
-        "ministries"
-      ],
-      "intents": [
-        "ministry_info",
-        "ministry_contact",
-        "missions_leadership"
-      ],
-      "tags": [
-        "ministry",
-        "missions",
-        "global missions",
-        "local missions",
-        "mission trips",
-        "missions administration"
-      ],
-      "search_terms": [
-        "What is Missions?",
-        "How do I get involved in missions?",
-        "Who do I contact about missions?",
-        "Who do I contact about mission trips?",
-        "Global Missions Pastor",
-        "Missions Administrator"
-      ],
-      "ministries": [
-        "missions",
-        "global_missions",
-        "local_missions",
-        "missions_administration"
-      ],
-      "audiences": [
-        "visitor",
-        "attendee",
-        "member"
-      ],
-      "resources": [
-        "church_center.serving"
-      ],
-      "status": "published",
-      "staff_key": "bob_woods",
-      "recommended_contact_staff_key": "bob_woods",
-      "related_staff_keys": [
-        "jennifer_prows",
-        "darrel_schick"
-      ],
-      "leadership_status": "staffed",
-      "confidence": "high"
     },
     {
       "id": "ministries.students.goal",
