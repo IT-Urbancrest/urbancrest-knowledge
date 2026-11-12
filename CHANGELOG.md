@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-12 Expanded missions knowledge
+
+- Expanded the missions overview using the approved Pray, Go, Give, and Send framework.
+- Added focused answers about supported missionaries and ministries, getting involved, prayer, mission trips, the Missions Fund, the Missions Conference, supported mission work, and the former Mission Ministry Internship.
+- Updated the missions contact article to direct general and global missions questions to Bob Woods, missions administration questions to Jennifer Prows, and Local Missions questions to Darrel Schick.
+- Added missions content retrieval tests and approved next-step links.
+
 ## 2026-11-11 Missions leadership update
 
 - Added Bob Woods as Interim Global Missions Pastor and the primary contact for general and global missions, mission trips, and missions coordination.

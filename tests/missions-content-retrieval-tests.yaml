@@ -1,0 +1,79 @@
+version: '1.0'
+suite: missions_content_retrieval
+last_updated: '2026-11-12'
+purpose: Verify retrieval of approved missions overview, support, participation, trip, giving, conference, internship, and contact information.
+
+tests:
+- name: missions overview
+  query: What is Missions at Urbancrest?
+  expected:
+    first_record_id: ministries.missions
+    answer_must_include:
+    - Every Nation
+    - Every Street
+    - One Mission
+
+- name: missionary support totals
+  query: How many missionaries does Urbancrest support?
+  expected:
+    first_record_id: ministries.missions.support_totals
+    answer_must_include:
+    - 41 missionaries
+    - more than 15 countries
+
+- name: missions participation
+  query: How can I get involved in missions?
+  expected:
+    first_record_id: ministries.missions.get_involved
+    answer_must_include:
+    - Pray
+    - Go
+    - Give
+    - Send
+
+- name: missions prayer
+  query: How can I pray for missionaries?
+  expected:
+    first_record_id: ministries.missions.prayer
+
+- name: mission trips
+  query: Does Urbancrest offer mission trips?
+  expected:
+    first_record_id: ministries.missions.trips
+    answer_must_include:
+    - Pastor Bob Woods
+    - Jennifer Prows
+
+- name: missions fund
+  query: What is the Missions Fund?
+  expected:
+    first_record_id: ministries.missions.fund
+    answer_must_include:
+    - 100%
+    - missions
+
+- name: missions conference overview
+  query: What is the Urbancrest Missions Conference?
+  expected:
+    first_record_id: ministries.missions.conference
+
+- name: supported mission work
+  query: What kinds of mission work does Urbancrest support?
+  expected:
+    first_record_id: ministries.missions.supported_work
+
+- name: former missions internship
+  query: Is the Mission Ministry Internship still offered?
+  expected:
+    first_record_id: ministries.missions.internship
+    answer_must_include:
+    - no longer offered
+
+- name: missions contact article
+  query: Who do I contact about missions?
+  expected:
+    first_record_id: relationship.ministry_staff.missions
+    staff_key: bob_woods
+    answer_must_include:
+    - Bob Woods
+    - Interim Global Missions Pastor
