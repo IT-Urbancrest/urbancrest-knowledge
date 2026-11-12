@@ -35,13 +35,13 @@ event_start: "2026-11-21T09:30:00-05:00"
 event_end: "2026-11-21T11:30:00-05:00"
 sort_start_utc: "2026-11-21T14:30:00Z"
 sort_end_utc: "2026-11-21T16:30:00Z"
-chronological_rank: 12
+chronological_rank: 10
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
 planning_center_event_instance_id: "239645060"
 planning_center_event_time_id: "33357996"
-last_generated: 2026-11-11T17:09:20.852443Z
+last_generated: 2026-11-12T00:45:14.480026Z
 ---
 
 # Christmas Choir Rehearsal
