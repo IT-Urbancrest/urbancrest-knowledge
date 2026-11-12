@@ -21,6 +21,13 @@ tests:
     - 41 missionaries
     - more than 15 countries
 
+- name: mission organization count phrasing stays with approved totals
+  query: How many mission organizations does Urbancrest support?
+  expected:
+    first_record_id: ministries.missions.support_totals
+    answer_must_include:
+    - 10 Urbancrest outreach ministries and supported local ministries
+
 - name: missions participation
   query: How can I get involved in missions?
   expected:
