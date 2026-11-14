@@ -1,11 +1,11 @@
 version: 1.5.4
-generated_at: '2026-11-14T01:27:14.208549Z'
+generated_at: '2026-11-14T10:28:18.158572Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
   enabled: true
   target_instance_count: 293
-  matched_instance_count: 293
+  matched_instance_count: 292
   page_count: 9
   api_version: '2026-06-22'
 source_of_truth_for_calendar_intents: true
@@ -37,7 +37,6 @@ events:
     of our lives!
   planning_center_event_instance_id: '230487173'
   planning_center_event_time_id: '31924846'
-  image_url: https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1789012800&key=uploads%2Fevent%2Flogo%2F3790005%2Fimage-1785514673084.jpeg&thumb=720x405%23&version=1788966560&signature=9f081450a610ae3835f39bd2f44cc9d3a935c95752ac1771b37415322cc3ab31
   ministries:
   - students
   audiences:
@@ -90,6 +89,7 @@ events:
 
     Registration is not currently open.'
   details_source: planning_center_registrations_api
+  image_url: https://registrations.planningcenteronline.com/signups/3790005/logo
   location_structured:
     name: Butler Springs Christian Camp
     address: '3701 State Rte 41

@@ -43,7 +43,7 @@ image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=res
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "189635733"
 planning_center_event_time_id: "30270334"
-last_generated: 2026-11-14T01:27:13.341049Z
+last_generated: 2026-11-14T10:28:17.322593Z
 ---
 
 # Men's Breakfast
