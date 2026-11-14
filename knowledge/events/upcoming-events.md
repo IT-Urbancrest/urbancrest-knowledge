@@ -16,7 +16,7 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-11-14T18:03:32.349804Z
+last_generated: 2026-11-14T22:26:00.584458Z
 ---
 
 # Upcoming Events
@@ -36,16 +36,6 @@ Hillsboro, OH 45133
 **Registration:** https://urbancrest.churchcenter.com/registrations/events/3790005/reservations/new
 
 Detailed event file: `knowledge/events/generated/2026-11-13-youth-fall-retreat-99f87a.md`
-
-## OCC packing party
-
-**Category:** General Event
-
-**When:** Saturday, November 14, 2026, 1 PM to 2 PM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-11-14-occ-packing-party-47a8c2.md`
 
 ## Sunday Morning Services: 9:30 AM Service
 
@@ -1077,6 +1067,14 @@ Detailed event file: `knowledge/events/generated/2027-03-28-sunday-morning-servi
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2027-03-31-wednesday-night-dinner-fc63a5.md`
+
+## Pickleball
+
+**Category:** General Event
+
+**When:** Thursday, April 1, 2027, 6 PM to 8 PM
+
+Detailed event file: `knowledge/events/generated/2027-04-01-pickleball-a6b78e.md`
 
 ## Men's Breakfast
 
