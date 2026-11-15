@@ -16,7 +16,7 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-11-15T16:22:28.982243Z
+last_generated: 2026-11-15T22:49:43.884002Z
 ---
 
 # Upcoming Events
@@ -36,16 +36,6 @@ Hillsboro, OH 45133
 **Registration:** https://urbancrest.churchcenter.com/registrations/events/3790005/reservations/new
 
 Detailed event file: `knowledge/events/generated/2026-11-13-youth-fall-retreat-99f87a.md`
-
-## Sunday Morning Services: 11:00 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, November 15, 2026, 11 AM to 12:10 PM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-11-15-sunday-morning-services-11-00-am-service-a656ef.md`
 
 ## National Collection Week (OCC) Volunteer Signup
 
@@ -1093,6 +1083,16 @@ Detailed event file: `knowledge/events/generated/2027-04-04-kid-min-breakfast-68
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2027-04-04-sunday-morning-services-9-30-am-service-35b152.md`
+
+## Sunday Morning Services: 11:00 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, April 4, 2027, 11 AM to 12:10 PM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2027-04-04-sunday-morning-services-11-00-am-service-c48865.md`
 
 ## Missions Conference
 
