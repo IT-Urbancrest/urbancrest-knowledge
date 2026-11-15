@@ -16,7 +16,7 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-11-15T06:35:11.926896Z
+last_generated: 2026-11-15T16:22:28.982243Z
 ---
 
 # Upcoming Events
@@ -36,16 +36,6 @@ Hillsboro, OH 45133
 **Registration:** https://urbancrest.churchcenter.com/registrations/events/3790005/reservations/new
 
 Detailed event file: `knowledge/events/generated/2026-11-13-youth-fall-retreat-99f87a.md`
-
-## Sunday Morning Services: 9:30 AM Service
-
-**Category:** General Event
-
-**When:** Sunday, November 15, 2026, 9:30 AM to 10:40 AM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2026-11-15-sunday-morning-services-9-30-am-service-add3db.md`
 
 ## Sunday Morning Services: 11:00 AM Service
 
@@ -1093,6 +1083,16 @@ Detailed event file: `knowledge/events/generated/2027-04-03-men-s-breakfast-069b
 **When:** Sunday, April 4, 2027, 8 AM to 12 PM
 
 Detailed event file: `knowledge/events/generated/2027-04-04-kid-min-breakfast-68824b.md`
+
+## Sunday Morning Services: 9:30 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, April 4, 2027, 9:30 AM to 10:40 AM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2027-04-04-sunday-morning-services-9-30-am-service-35b152.md`
 
 ## Missions Conference
 
