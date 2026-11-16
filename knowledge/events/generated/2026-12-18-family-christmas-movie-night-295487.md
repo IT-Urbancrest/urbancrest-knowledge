@@ -45,7 +45,7 @@ location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "242385522"
 planning_center_event_time_id: "33844156"
-last_generated: 2026-11-16T06:31:54.761834Z
+last_generated: 2026-11-16T19:37:24.909736Z
 ---
 
 # Family Christmas Movie Night
