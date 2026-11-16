@@ -16,26 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-11-15T22:49:43.884002Z
+last_generated: 2026-11-16T06:31:55.784683Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## Youth Fall Retreat
-
-**Category:** Major Event
-
-**When:** Friday, November 13, 2026 through Sunday, November 15, 2026
-
-**Where:** Butler Springs Christian Camp - 3701 State Rte 41
-Hillsboro, OH 45133
-
-**Registration:** https://urbancrest.churchcenter.com/registrations/events/3790005/reservations/new
-
-Detailed event file: `knowledge/events/generated/2026-11-13-youth-fall-retreat-99f87a.md`
 
 ## National Collection Week (OCC) Volunteer Signup
 
@@ -1113,6 +1100,14 @@ Detailed event file: `knowledge/events/generated/2027-04-07-missions-conference-
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2027-04-07-wednesday-night-dinner-8df64a.md`
+
+## Pickleball
+
+**Category:** General Event
+
+**When:** Thursday, April 8, 2027, 6 PM to 8 PM
+
+Detailed event file: `knowledge/events/generated/2027-04-08-pickleball-1a0228.md`
 
 ## Wednesday Night Dinner
 

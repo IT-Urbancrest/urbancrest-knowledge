@@ -35,15 +35,15 @@ event_start: "2026-12-12T17:00:00-05:00"
 event_end: "2026-12-12T20:00:00-05:00"
 sort_start_utc: "2026-12-12T22:00:00Z"
 sort_end_utc: "2026-12-13T01:00:00Z"
-chronological_rank: 23
-next_for_ministries: []
-next_for_audiences: []
+chronological_rank: 22
+next_for_ministries: ["students"]
+next_for_audiences: ["students"]
 all_day: false
 image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1794330000&key=uploads%2Fevent%2Flogo%2F4013817%2Fimage-1794245867179.jpeg&thumb=720x405%23&version=1794246006&signature=7c6ead4a42394c5354c707a6f3d496ca35f2649f5537ec409d44f5e1f3d16be4"
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "242401036"
 planning_center_event_time_id: "33848538"
-last_generated: 2026-11-15T22:49:42.601139Z
+last_generated: 2026-11-16T06:31:54.761834Z
 ---
 
 # Youth Christmas Party
