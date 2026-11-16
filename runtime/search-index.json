@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-11-16T06:31:57.010417Z",
+  "generated_at": "2026-11-16T14:09:48.038753Z",
   "timezone": "America/New_York",
   "record_count": 511,
   "config": {
@@ -9088,46 +9088,6 @@
       "confidence": "high"
     },
     {
-      "id": "ministries.worship.sensory_friendly",
-      "record_type": "knowledge",
-      "path": "knowledge/ministries/worship/faq/does-urbancrest-have-sensory-friendly-worship.md",
-      "title": "Does Urbancrest offer a sensory-friendly worship space?",
-      "summary": "Yes. A quieter, lower-stimulation worship space is available in The Upper Room.",
-      "content": "# Does Urbancrest offer a sensory-friendly worship space?\n\nYes. A **Sensory-Friendly Worship Space** is available in **The Upper Room** for individuals and families who benefit from a quieter, lower-stimulation environment. A Guest Services team member can help you locate it when you arrive.",
-      "priority": 98,
-      "category": [
-        "ministries",
-        "faq"
-      ],
-      "intents": [
-        "ministry_info",
-        "sensory_friendly_worship",
-        "accessibility"
-      ],
-      "tags": [
-        "Worship Ministry",
-        "worship"
-      ],
-      "search_terms": [
-        "Does Urbancrest have sensory-friendly worship?",
-        "Is there a quiet worship room?",
-        "Where is the sensory-friendly worship space?"
-      ],
-      "ministries": [
-        "worship"
-      ],
-      "audiences": [
-        "visitor",
-        "attendee",
-        "member"
-      ],
-      "resources": [
-        "action_link.plan_visit"
-      ],
-      "status": "published",
-      "confidence": "high"
-    },
-    {
       "id": "ministries.kids.discipline",
       "record_type": "knowledge",
       "path": "knowledge/ministries/kids/faq/how-does-kids-ministry-handle-discipline.md",
@@ -9217,6 +9177,57 @@
         "mikhael_mastalerz"
       ],
       "answer_guidance": "Provide only public-facing safety information. Do not disclose room-specific lockdown locations, barricade instructions, radio procedures, or other tactical security details.",
+      "confidence": "high"
+    },
+    {
+      "id": "ministries.worship.sensory_friendly",
+      "record_type": "knowledge",
+      "path": "knowledge/ministries/worship/faq/does-urbancrest-have-sensory-friendly-worship.md",
+      "title": "What is Urbancrest's neurodivergent-friendly worship service?",
+      "summary": "Urbancrest offers a neurodivergent-friendly (sensory-friendly) worship space in The Upper Room during the Sunday 11:00 AM service, providing a quieter, lower-stimulation environment for individuals and families.",
+      "content": "# What is Urbancrest's neurodivergent-friendly worship service?\n\nA neurodivergent-friendly church service offers a setting that helps people with different sensory needs participate in worship. At Urbancrest, our **neurodivergent-friendly (sensory-friendly) worship space** is available in **The Upper Room during the Sunday 11:00 AM service**. It provides a quieter, lower-stimulation environment for individuals and families who benefit from that setting.\n\nIf this would help you or someone in your family feel more comfortable joining us, we'd love to welcome you. A **Guest Services team member** can help you find The Upper Room when you arrive.",
+      "priority": 98,
+      "category": [
+        "ministries",
+        "faq"
+      ],
+      "intents": [
+        "ministry_info",
+        "sensory_friendly_worship",
+        "accessibility"
+      ],
+      "tags": [
+        "Worship Ministry",
+        "worship",
+        "neurodivergent-friendly",
+        "sensory-friendly",
+        "accessibility"
+      ],
+      "search_terms": [
+        "What's a neurodivergent church service?",
+        "What is a neurodivergent-friendly service?",
+        "neurodivergent church service",
+        "neurodivergent friendly worship",
+        "neurodivergent-friendly service",
+        "sensory-friendly service",
+        "When is the sensory-friendly service?",
+        "What time is the neurodivergent-friendly service?",
+        "Does Urbancrest have sensory-friendly worship?",
+        "Is there a quiet worship room?",
+        "Where is the sensory-friendly worship space?"
+      ],
+      "ministries": [
+        "worship"
+      ],
+      "audiences": [
+        "visitor",
+        "attendee",
+        "member"
+      ],
+      "resources": [
+        "action_link.plan_visit"
+      ],
+      "status": "published",
       "confidence": "high"
     },
     {
