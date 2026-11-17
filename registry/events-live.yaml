@@ -1,5 +1,5 @@
 version: 1.5.4
-generated_at: '2026-11-16T19:37:25.906583Z'
+generated_at: '2026-11-17T03:55:14.387100Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
@@ -340,15 +340,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -360,7 +352,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122717'
   planning_center_event_time_id: '31870601'
@@ -624,15 +646,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -644,7 +658,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122719'
   planning_center_event_time_id: '31870601'
@@ -1062,15 +1106,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -1082,7 +1118,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122720'
   planning_center_event_time_id: '31870601'
@@ -1482,15 +1548,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -1502,7 +1560,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122721'
   planning_center_event_time_id: '31870601'
@@ -1902,15 +1990,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -1922,7 +2002,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122722'
   planning_center_event_time_id: '31870601'
@@ -2005,15 +2115,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -2025,7 +2127,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122723'
   planning_center_event_time_id: '31870601'
@@ -2136,15 +2268,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -2156,7 +2280,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122724'
   planning_center_event_time_id: '31870601'
@@ -2264,15 +2418,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -2284,7 +2430,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122725'
   planning_center_event_time_id: '31870601'
@@ -2512,15 +2688,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -2532,7 +2700,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122726'
   planning_center_event_time_id: '31870601'
@@ -2761,15 +2959,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -2781,7 +2971,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122727'
   planning_center_event_time_id: '31870601'
@@ -2888,15 +3108,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -2908,7 +3120,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122728'
   planning_center_event_time_id: '31870601'
@@ -3044,15 +3286,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -3064,7 +3298,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122729'
   planning_center_event_time_id: '31870601'
@@ -3224,15 +3488,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -3244,7 +3500,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122730'
   planning_center_event_time_id: '31870601'
@@ -3352,15 +3638,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -3372,7 +3650,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122731'
   planning_center_event_time_id: '31870601'
@@ -3480,15 +3788,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -3500,7 +3800,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122732'
   planning_center_event_time_id: '31870601'
@@ -3636,15 +3966,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -3656,7 +3978,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122733'
   planning_center_event_time_id: '31870601'
@@ -3791,15 +4143,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -3811,7 +4155,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122734'
   planning_center_event_time_id: '31870601'
@@ -3919,15 +4293,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -3939,7 +4305,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122735'
   planning_center_event_time_id: '31870601'
@@ -4047,15 +4443,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -4067,7 +4455,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122736'
   planning_center_event_time_id: '31870601'
@@ -4254,15 +4672,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -4274,7 +4684,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122737'
   planning_center_event_time_id: '31870601'
@@ -4328,15 +4768,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -4348,7 +4780,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122738'
   planning_center_event_time_id: '31870601'
@@ -4377,15 +4839,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -4397,7 +4851,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122739'
   planning_center_event_time_id: '31870601'
@@ -4497,15 +4981,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -4517,7 +4993,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122740'
   planning_center_event_time_id: '31870601'
@@ -4574,15 +5080,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -4594,7 +5092,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122741'
   planning_center_event_time_id: '31870601'
@@ -4623,15 +5151,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -4643,7 +5163,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122742'
   planning_center_event_time_id: '31870601'
@@ -4672,15 +5222,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -4692,7 +5234,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122743'
   planning_center_event_time_id: '31870601'
@@ -4721,15 +5293,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -4741,7 +5305,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122744'
   planning_center_event_time_id: '31870601'
@@ -4770,15 +5364,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -4790,7 +5376,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122745'
   planning_center_event_time_id: '31870601'
@@ -4847,15 +5463,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -4867,7 +5475,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122746'
   planning_center_event_time_id: '31870601'
@@ -4896,15 +5534,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -4916,7 +5546,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122747'
   planning_center_event_time_id: '31870601'
@@ -5040,15 +5700,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -5060,7 +5712,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122748'
   planning_center_event_time_id: '31870601'
@@ -5089,15 +5771,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -5109,7 +5783,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122749'
   planning_center_event_time_id: '31870601'
@@ -5166,15 +5870,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -5186,7 +5882,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122750'
   planning_center_event_time_id: '31870601'
@@ -5215,15 +5941,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -5235,7 +5953,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122751'
   planning_center_event_time_id: '31870601'
@@ -5264,15 +6012,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -5284,7 +6024,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122752'
   planning_center_event_time_id: '31870601'
@@ -5313,15 +6083,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -5333,7 +6095,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122753'
   planning_center_event_time_id: '31870601'
@@ -5362,15 +6154,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -5382,7 +6166,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122754'
   planning_center_event_time_id: '31870601'
@@ -5439,15 +6253,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -5459,7 +6265,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122755'
   planning_center_event_time_id: '31870601'
@@ -5488,15 +6324,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -5508,7 +6336,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122756'
   planning_center_event_time_id: '31870601'
@@ -5537,15 +6395,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -5557,7 +6407,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122757'
   planning_center_event_time_id: '31870601'
@@ -5586,15 +6466,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -5606,7 +6478,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122758'
   planning_center_event_time_id: '31870601'
@@ -5663,15 +6565,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -5683,7 +6577,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122759'
   planning_center_event_time_id: '31870601'
@@ -5712,15 +6636,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -5732,7 +6648,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122760'
   planning_center_event_time_id: '31870601'
@@ -5761,15 +6707,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -5781,7 +6719,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122761'
   planning_center_event_time_id: '31870601'
@@ -5810,15 +6778,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -5830,7 +6790,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122762'
   planning_center_event_time_id: '31870601'
@@ -5887,15 +6877,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -5907,7 +6889,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122763'
   planning_center_event_time_id: '31870601'
@@ -5936,15 +6948,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -5956,7 +6960,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122764'
   planning_center_event_time_id: '31870601'
@@ -5985,15 +7019,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -6005,7 +7031,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122765'
   planning_center_event_time_id: '31870601'
@@ -6034,15 +7090,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -6054,7 +7102,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122766'
   planning_center_event_time_id: '31870601'
@@ -6083,15 +7161,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -6103,7 +7173,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122767'
   planning_center_event_time_id: '31870601'
@@ -6188,15 +7288,7 @@ events:
   all_day: false
   location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
   description: Free dinner for everyone in the gymnasium at Urbancrest from 5:30 PM to 6:15 PM each Wednesday.
-  details: 'November 11, 2026
-
-    Pizza
-
-    Salad Bar
-
-    Brownies
-
-    November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
+  details: 'November 18, 2026 (Hope at Thanksgiving: In the Worship Center)
 
     Baked Ham
 
@@ -6208,7 +7300,37 @@ events:
 
     November 25, 2026
 
-    No Dinner: Happy Thanksgiving!'
+    No Dinner: Happy Thanksgiving!
+
+    December 2, 2026
+
+    Sloppy Joes
+
+    Tater Tots
+
+    Salad Bar
+
+    Ice Cream Cups & Cookies
+
+    December 9, 2026
+
+    Pizza
+
+    Salad Bar
+
+    Brownies
+
+    December 16, 2026
+
+    Fried Chicken
+
+    Potato Salad
+
+    Tater Tots
+
+    Baked Beans
+
+    Cake'
   details_source: planning_center_calendar_api
   planning_center_event_instance_id: '230122768'
   planning_center_event_time_id: '31870601'
