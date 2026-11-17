@@ -1,10 +1,10 @@
 version: 1.5.4
-generated_at: '2026-11-17T03:55:14.387100Z'
+generated_at: '2026-11-17T16:01:46.154266Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
   enabled: true
-  target_instance_count: 293
+  target_instance_count: 292
   matched_instance_count: 292
   page_count: 9
   api_version: '2026-06-22'
@@ -156,8 +156,8 @@ events:
     price_currency_symbol: $
     price_formatted: '0'
     maximum_capacity: 6
-    available_capacity: 1
-    at_maximum_capacity: false
+    available_capacity: 0
+    at_maximum_capacity: true
     waitlist: false
   info_url: https://urbancrest.churchcenter.com/registrations/events/3959067/reservations/new
   image_url: https://registrations.planningcenteronline.com/signups/3959067/logo
