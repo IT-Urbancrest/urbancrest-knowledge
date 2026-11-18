@@ -16,7 +16,7 @@ tags: [small_groups, groups, calendar, recurring]
 resources:
   - small_groups.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-11-17T16:01:45.025046Z
+last_generated: 2026-11-18T00:58:06.341814Z
 ---
 
 # Upcoming Small Groups
@@ -33,7 +33,7 @@ Detailed group file: `knowledge/small-groups/generated/national-collection-week-
 
 ## Pursuit - Small Group
 
-**Next meeting:** Tuesday, November 17, 2026, 10:30 AM to 12 PM
+**Next meeting:** Tuesday, November 24, 2026, 10:30 AM to 12 PM
 
 Detailed group file: `knowledge/small-groups/generated/pursuit-small-group-1a4d4c.md`
 

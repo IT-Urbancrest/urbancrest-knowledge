@@ -35,14 +35,14 @@ event_start: "2027-11-07T18:00:00-05:00"
 event_end: "2027-11-07T19:00:00-05:00"
 sort_start_utc: "2027-11-07T23:00:00Z"
 sort_end_utc: "2027-11-08T00:00:00Z"
-chronological_rank: 149
+chronological_rank: 148
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "239717460"
 planning_center_event_time_id: "33373905"
-last_generated: 2026-11-17T16:01:45.025046Z
+last_generated: 2026-11-18T00:58:06.341814Z
 ---
 
 # Annual Business Meeting

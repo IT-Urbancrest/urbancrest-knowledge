@@ -26,12 +26,10 @@ sort_start_utc: "2026-11-16T23:00:00Z"
 sort_end_utc: "2026-11-23T16:00:00Z"
 meeting_count_in_window: 1
 registration_url: "https://urbancrest.churchcenter.com/registrations/events/3959067"
-image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=registrations-production&expires_at=1793246400&key=uploads%2Fevent%2Flogo%2F3959067%2Fimage-1793200619375.jpeg&thumb=720x405%23&version=1793200619&signature=069d7f4570ddd8c443bc65920c6e833386849ed1d0617ea09d70ea48c8a57906"
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
-details_source: "planning_center_calendar_api"
 planning_center_event_instance_id: "239861554"
 planning_center_event_time_id: "33406085"
-last_generated: 2026-11-17T16:01:45.025046Z
+last_generated: 2026-11-18T00:58:06.341814Z
 ---
 
 # National Collection Week (OCC) Volunteer Signup
@@ -58,21 +56,6 @@ Urbancrest National Collection Week Schedule:
 – Sunday, November 23 from 2:30-5:30 PM
 – Monday, November 24 from 8:00-11:00 AM
 Register: https://urbancrest.churchcenter.com/registrations/events/3959067
-
-## Details
-
-Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 16-23. 
-Our church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule. 
-We hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at jprows@urbancrest.church
-Urbancrest National Collection Week Schedule:
-– Monday, November 17 from 6:00-8:00 PM
-– Tuesday, November 18 from 10:00 AM-12:00 PM
-– Wednesday, November 19 from 10:00 AM-12:00 PM
-– Thursday, November 20 from 6:00-8:00 PM
-– Friday, November 21 from 5:00-7:00 PM
-– Saturday, November 22 from 10:00 AM-12:00 PM
-– Sunday, November 23 from 2:30-5:30 PM
-– Monday, November 24 from 8:00-11:00 AM
 
 **Registration:** https://urbancrest.churchcenter.com/registrations/events/3959067
 
