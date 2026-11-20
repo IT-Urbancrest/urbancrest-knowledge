@@ -42,7 +42,7 @@ all_day: false
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "203958301"
 planning_center_event_time_id: "27323098"
-last_generated: 2026-11-20T11:41:54.111611Z
+last_generated: 2026-11-20T20:23:04.577045Z
 ---
 
 # Women's Christmas Event

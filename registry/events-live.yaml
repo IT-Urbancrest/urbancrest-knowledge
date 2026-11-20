@@ -1,5 +1,5 @@
 version: 1.5.4
-generated_at: '2026-11-20T11:41:55.081736Z'
+generated_at: '2026-11-20T20:23:05.566231Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api+registrations_api
 api_enrichment:
@@ -146,8 +146,8 @@ events:
     price_currency_symbol: $
     price_formatted: '0'
     maximum_capacity: 6
-    available_capacity: 1
-    at_maximum_capacity: false
+    available_capacity: 0
+    at_maximum_capacity: true
     waitlist: false
   - id: '9049956'
     name: Monday, November 23 from 8:00-11:00 AM
