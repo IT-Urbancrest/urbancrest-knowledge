@@ -16,7 +16,7 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-11-21T11:03:52.718416Z
+last_generated: 2026-11-21T19:17:15.582399Z
 ---
 
 # Upcoming Events
@@ -35,14 +35,6 @@ Gymnasium
 Lebanon, OH 45036
 
 **Registration:** https://urbancrest.churchcenter.com/registrations/events/3959067/reservations/new
-
-## Christmas Choir Rehearsal
-
-**Category:** Ministry Event
-
-**When:** Saturday, November 21, 2026, 9:30 AM to 11:30 AM
-
-Detailed event file: `knowledge/events/generated/2026-11-21-christmas-choir-rehearsal-ffc2bd.md`
 
 ## Sunday Morning Services: 9:30 AM Service
 
@@ -1102,6 +1094,16 @@ Detailed event file: `knowledge/events/generated/2027-04-14-wednesday-night-dinn
 **When:** Thursday, April 15, 2027, 6 PM to 8 PM
 
 Detailed event file: `knowledge/events/generated/2027-04-15-pickleball-ce4a55.md`
+
+## Sunday Morning Services: 9:30 AM Service
+
+**Category:** General Event
+
+**When:** Sunday, April 18, 2027, 9:30 AM to 10:40 AM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2027-04-18-sunday-morning-services-9-30-am-service-85ebf7.md`
 
 ## Wednesday Night Dinner
 

@@ -35,13 +35,13 @@ event_start: "2027-02-14T08:00:00-05:00"
 event_end: "2027-02-14T12:00:00-05:00"
 sort_start_utc: "2027-02-14T13:00:00Z"
 sort_end_utc: "2027-02-14T17:00:00Z"
-chronological_rank: 66
+chronological_rank: 65
 next_for_ministries: []
 next_for_audiences: []
 all_day: false
 planning_center_event_instance_id: "240522940"
 planning_center_event_time_id: "33518585"
-last_generated: 2026-11-21T11:03:51.746185Z
+last_generated: 2026-11-21T19:17:14.561497Z
 ---
 
 # Kid-Min Breakfast
