@@ -29,7 +29,7 @@ registration_url: "https://urbancrest.churchcenter.com/registrations/events/3959
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "239861554"
 planning_center_event_time_id: "33406085"
-last_generated: 2026-11-22T11:27:13.610145Z
+last_generated: 2026-11-22T19:42:21.211106Z
 ---
 
 # National Collection Week (OCC) Volunteer Signup
