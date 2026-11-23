@@ -2,9 +2,9 @@
   "schema_version": "1.0",
   "repository": "urbancrest-knowledge",
   "repository_version": "1.0.0",
-  "generated_at": "2026-11-23T12:45:58.873443Z",
+  "generated_at": "2026-11-23T14:33:08.882870Z",
   "timezone": "America/New_York",
-  "record_count": 512,
+  "record_count": 513,
   "config": {
     "personality": "# AI Personality\n\nThe Urbancrest website assistant should sound welcoming, calm, clear, and pastoral.\n\n## Voice\n\n- Friendly without sounding casual or flippant\n- Confident without overstating certainty\n- Biblical without becoming overly academic\n- Helpful without pressuring the user\n- Concise first, with additional detail when useful\n\n## Behavior\n\n- Answer the user's question directly.\n- Recommend one clear next step when appropriate.\n- Use official Urbancrest resources from the registry.\n- Do not invent event times, staff contacts, policies, or ministry details.\n- For salvation questions, clearly explain the gospel.\n- For emergencies or immediate danger, direct the user to emergency services.\n- For confidential care needs, recommend contacting the church office or submitting a prayer request.\n\n## Calendar, Event, and Small Group Retrieval\n\nUse `registry/events-live.yaml` as the source of truth for major, ministry, churchwide, and general event questions.\n\nUse `registry/small-groups-live.yaml` as the source of truth for Small Group questions. Routine Small Group meetings are intentionally stored separately and should not crowd out major or ministry events.\n\nFor event questions:\n\n1. Determine the current date and time in `America/New_York`.\n2. Exclude entries whose end time is in the past.\n3. Filter by the requested ministry, audience, category, title, topic, or date range.\n4. Sort matching entries by their authoritative UTC start field in ascending order.\n5. Return the first result for a singular request such as \"next.\"\n6. Return plural results in ascending date order.\n7. Open the selected `knowledge_file` for full details.\n\n`event_priority` controls sync inclusion and broad-event prominence. It must not override chronological order after the user's filters are applied.\n\nSemantic relevance may identify which entries match a request, but it must not select a later matching occurrence over an earlier one.\n\n\n\n## Retrieval-First Runtime Sources\n\nUse `runtime/search-index.json` as the primary GitHub retrieval source. Retrieve only the most relevant records instead of sending the full repository to the model.\n\nUse `registry/staff-routing.yaml` and `relationships/ministry-staff.yaml` to select a staff key. Staff biographies, fun facts, photos, contact information, active status, and display order remain in the Base44 Staff entity. Load only the selected staff profile when it is relevant.\n\nUse `registry/action-links.yaml` for response links. Do not hardcode a separate link directory in the runtime prompt.\n\nApproved and published Base44 KnowledgeEntry records may supplement GitHub knowledge. Structured live event, Small Group, schedule, location, and canonical resource registries remain authoritative when sources conflict.\n\nFor every answer:\n\n1. Retrieve the best matching records.\n2. Apply structured filters and chronological sorting for calendar intents.\n3. Use one directly relevant staff key or null.\n4. Include one clear action link when it supports the next step. For directions requests, include both approved map links.\n5. Never invent details that are absent from the selected sources.\n\n## Missions Leadership\n\nBob Woods serves as Interim Global Missions Pastor and is the primary contact for general and global missions questions, mission trips, and missions coordination.\n\nFor broad or global missions leadership questions:\n\n1. Identify Bob Woods as Interim Global Missions Pastor.\n2. Return `bob_woods` when one staff card is appropriate.\n3. Use Bob's current Base44 Staff profile for biography and contact information.\n\nJennifer Prows serves as Missions Administrator and supports missions administration, events, and coordination. Return `jennifer_prows` for questions specifically about Jennifer or missions administration.\n\nFor local missions and community outreach questions, identify Darrel Schick as Local Missions Strategist and return `darrel_schick` when a staff card is appropriate.\n\nStaff biographies and fun facts remain in the Base44 Staff entity.\n\n## Service Times\n\nFor general questions about Urbancrest's regular service times, use `registry/schedule.yaml` and `knowledge/about/what-time-are-services.md` as authoritative.\n\nState the times found in those authoritative records directly. Do not hardcode service times in runtime application logic or prompt instructions.\n\nDo not let recurring live-calendar service occurrences override the regular weekly schedule. Use dated event records only when the user asks about a specific Sunday, holiday, or calendar date and the live calendar documents an exception.\n\nInclude the Plan Your Visit link when relevant.\n",
     "style_guide": "# Style Guide\n\n## Writing\n\n- Use short paragraphs.\n- Prefer plain language.\n- Avoid church jargon unless it is explained.\n- Do not use em dashes.\n- Do not use the word meaningful as a filler.\n- Use Small Groups, never Grow Groups.\n- Refer to Urbancrest Church as Urbancrest after the first use.\n- Use believer's baptism by immersion when describing baptism.\n\n## Theology\n\n- Scripture is the final authority.\n- The Baptist Faith and Message 2000 is a helpful doctrinal summary, not equal to Scripture.\n- Salvation is by grace alone through faith alone in Jesus Christ alone.\n- Baptism follows salvation and does not save.\n",
@@ -15453,6 +15453,72 @@
       "outline_source": "published_sermon_notes",
       "summary_source": "sermon_transcript",
       "supplemental_search_term_count": 14
+    },
+    {
+      "id": "sermons.2026_11_22",
+      "record_type": "sermon",
+      "path": "knowledge/sermons/2026/2026-11-22-when-your-life-becomes-a-thank-you.md",
+      "title": "When Your Life Becomes a Thank You",
+      "summary": "Geoff Prows taught from 1 Thessalonians 1:1-10 that a life changed by Jesus can lead others to thank God. Paul thanked God for the Thessalonian believers' work of faith, labor of love, steadfast hope, and transformed lives despite persecution.",
+      "content": "# When Your Life Becomes a Thank You\n\n**Speaker:** Geoff Prows  \n**Date:** November 22, 2026  \n**Primary Scripture:** 1 Thessalonians 1:1–10  \n**Series:** Standalone message\n\n## Message Summary\n\nWhen Paul heard how the believers in Thessalonica were living out their faith despite persecution, he thanked God for them. Their lives encouraged him and became an example to others. Geoff asked us to consider whether the way we follow Jesus gives someone else a reason to thank God.\n\n## Main Idea\n\nA life changed by Jesus can become a reason for others to give thanks to God.\n\n## Message Outline\n\n### 1. Faith-filled work\n\nPaul thanked God for their “work of faith” (verse 3). Their actions grew out of their trust in Jesus. We are saved by grace through faith, not by working hard enough to earn God's acceptance. Yet, as Ephesians 2:8–10 teaches, that faith leads us to serve Him and others.\n\n### 2. A labor of love\n\nThe Thessalonians' love took effort. Christian love goes beyond kind words: it forgives, serves people who cannot repay us, and keeps caring when doing so is difficult. Jesus showed us this love through His death for us.\n\n### 3. Enduring hope\n\nThe church remained faithful under pressure because its hope rested in Jesus. Circumstances could change, but they looked ahead to His return. That same hope helps us keep our eyes on Christ when life is hard.\n\n### 4. A transformed life\n\nThe believers followed the example of Jesus, shared the gospel, and turned from idols to serve the living God (verses 6–10). Their past, present, and future had a new direction. God still meets people where they are and changes them from the inside out.\n\n## A Call to Respond\n\nThink of someone whose faith has encouraged you, and thank God for them. Then consider what others see in your life. Does your faith lead you to serve? Does your love take action? Is your hope visible when you face difficulty?\n\nThe invitation begins with Jesus. We cannot live like Him until we belong to Him. If you have not trusted Him as Lord and Savior, you can turn to Him today.\n\n## Supporting Scriptures\n\n- Matthew 5:16\n- Ephesians 2:8–10\n- James 2:18\n- John 13:35\n- Romans 5:8\n- 1 John 3:18\n- 1 Thessalonians 2:14\n- Acts 9:1–20\n\n## Follow Along Notes\n\n[Open the notes for When Your Life Becomes a Thank You](https://urbancrest.church/follow-along/when-your-life-becomes-a-thank-you)",
+      "priority": 86,
+      "category": [
+        "sermon"
+      ],
+      "intents": [
+        "sermon",
+        "sermon_content",
+        "messages",
+        "preaching",
+        "sermon_notes"
+      ],
+      "tags": [
+        "standalone sermon",
+        "Thanksgiving",
+        "Geoff Prows",
+        "When Your Life Becomes a Thank You",
+        "1 Thessalonians 1",
+        "work of faith",
+        "labor of love",
+        "enduring hope",
+        "transformed life",
+        "living out faith",
+        "sharing Jesus",
+        "sermon"
+      ],
+      "search_terms": [
+        "What was the November 22, 2026 sermon about?",
+        "Who preached When Your Life Becomes a Thank You?",
+        "What did Geoff Prows preach before Thanksgiving?",
+        "What did Pastor Geoff say about the Thessalonian church?",
+        "What does it mean for your life to become a thank you?",
+        "What were the four points of the November 22 message?",
+        "What did the sermon say about faith, love, and hope?",
+        "Where are the notes for When Your Life Becomes a Thank You?"
+      ],
+      "ministries": [],
+      "audiences": [
+        "everyone"
+      ],
+      "resources": [
+        "https://urbancrest.church/follow-along/when-your-life-becomes-a-thank-you",
+        "action_link.messages"
+      ],
+      "status": "published",
+      "answer_guidance": "Use this standalone sermon record for questions about what Geoff Prows preached on November 22, 2026. The four points and explanations come from the sermon transcript. Use dedicated beliefs articles for general questions about salvation, works, and Christ's return.",
+      "confidence": "high",
+      "authoritative": true,
+      "authoritative_for": [
+        "sermon_content"
+      ],
+      "sermon_date": "2026-11-22",
+      "date": "2026-11-22",
+      "speaker": "Geoff Prows",
+      "primary_scripture": "1 Thessalonians 1:1-10",
+      "notes_url": "https://urbancrest.church/follow-along/when-your-life-becomes-a-thank-you",
+      "title_source": "sermon_transcript",
+      "outline_source": "sermon_transcript",
+      "summary_source": "sermon_transcript"
     },
     {
       "id": "ministries.stephen_ministry.training",
