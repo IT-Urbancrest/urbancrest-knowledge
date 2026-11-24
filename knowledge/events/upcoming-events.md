@@ -16,7 +16,7 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-11-24T13:45:13.198816Z
+last_generated: 2026-11-24T23:54:04.492447Z
 ---
 
 # Upcoming Events
@@ -1083,16 +1083,6 @@ Detailed event file: `knowledge/events/generated/2027-04-18-sunday-morning-servi
 
 Detailed event file: `knowledge/events/generated/2027-04-18-sunday-morning-services-11-00-am-service-7c364a.md`
 
-## Monthly Baskets of Hope - Volunteers
-
-**Category:** General Event
-
-**When:** Wednesday, April 21, 2027, 4:30 PM to 6:30 PM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed event file: `knowledge/events/generated/2027-04-21-monthly-baskets-of-hope-volunteers-ccfe7a.md`
-
 ## Wednesday Night Dinner
 
 **Category:** Churchwide Program
@@ -1508,3 +1498,13 @@ Detailed event file: `knowledge/events/generated/2027-11-10-wednesday-night-dinn
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
 Detailed event file: `knowledge/events/generated/2027-11-17-wednesday-night-dinner-18fc0d.md`
+
+## Wednesday Night Dinner
+
+**Category:** Churchwide Program
+
+**When:** Wednesday, November 24, 2027, 5:30 PM to 6:15 PM
+
+**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+
+Detailed event file: `knowledge/events/generated/2027-11-24-wednesday-night-dinner-85245b.md`

@@ -20,27 +20,26 @@ search_terms:
   - "Tell me about Pursuit - Small Group"
   - "What are the details for Pursuit - Small Group?"
 series_id: group-95131c638f1a4d4c
-next_meeting_start: "2026-11-24T10:30:00-05:00"
-next_meeting_end: "2026-11-24T12:00:00-05:00"
-sort_start_utc: "2026-11-24T15:30:00Z"
-sort_end_utc: "2026-11-24T17:00:00Z"
-meeting_count_in_window: 53
-planning_center_event_instance_id: "239691736"
+next_meeting_start: "2026-12-01T10:30:00-05:00"
+next_meeting_end: "2026-12-01T12:00:00-05:00"
+sort_start_utc: "2026-12-01T15:30:00Z"
+sort_end_utc: "2026-12-01T17:00:00Z"
+meeting_count_in_window: 52
+planning_center_event_instance_id: "239691737"
 planning_center_event_time_id: "33366261"
-last_generated: 2026-11-24T13:45:12.355699Z
+last_generated: 2026-11-24T23:54:03.568813Z
 ---
 
 # Pursuit - Small Group
 
 Bob Woods
 
-**Next meeting:** Tuesday, November 24, 2026, 10:30 AM to 12 PM
+**Next meeting:** Tuesday, December 1, 2026, 10:30 AM to 12 PM
 
 Bob Woods
 
 ## Upcoming meetings
 
-- Tuesday, November 24, 2026, 10:30 AM to 12 PM
 - Tuesday, December 1, 2026, 10:30 AM to 12 PM
 - Tuesday, December 8, 2026, 10:30 AM to 12 PM
 - Tuesday, December 15, 2026, 10:30 AM to 12 PM
@@ -52,5 +51,6 @@ Bob Woods
 - Tuesday, January 26, 2027, 10:30 AM to 12 PM
 - Tuesday, February 2, 2027, 10:30 AM to 12 PM
 - Tuesday, February 9, 2027, 10:30 AM to 12 PM
+- Tuesday, February 16, 2027, 10:30 AM to 12 PM
 
 This small group schedule is synchronized automatically from Urbancrest's live calendar.

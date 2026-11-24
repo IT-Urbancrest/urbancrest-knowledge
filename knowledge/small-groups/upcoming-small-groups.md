@@ -16,7 +16,7 @@ tags: [small_groups, groups, calendar, recurring]
 resources:
   - small_groups.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-11-24T13:45:12.355699Z
+last_generated: 2026-11-24T23:54:03.568813Z
 ---
 
 # Upcoming Small Groups
@@ -25,7 +25,7 @@ Each recurring Small Group appears once with its next meeting and future schedul
 
 ## Pursuit - Small Group
 
-**Next meeting:** Tuesday, November 24, 2026, 10:30 AM to 12 PM
+**Next meeting:** Tuesday, December 1, 2026, 10:30 AM to 12 PM
 
 Detailed group file: `knowledge/small-groups/generated/pursuit-small-group-1a4d4c.md`
 
