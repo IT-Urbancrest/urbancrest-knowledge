@@ -1,11 +1,11 @@
 version: 1.4.3
-generated_at: '2026-11-23T12:45:56.126073Z'
+generated_at: '2026-11-24T02:13:59.133983Z'
 timezone: America/New_York
 source: planning_center_ical+calendar_api
 api_enrichment:
   enabled: true
-  target_instance_count: 290
-  matched_instance_count: 289
+  target_instance_count: 289
+  matched_instance_count: 288
   page_count: 9
   api_version: '2026-06-22'
 source_of_truth_for_small_group_intents: true
@@ -14,66 +14,9 @@ sort_order: next_meeting.sort_start_utc_ascending
 lookahead_days: 365
 max_series: 100
 max_occurrences_per_series: 12
-group_count: 3
-source_occurrence_count: 103
+group_count: 2
+source_occurrence_count: 101
 groups:
-- id: group-62598251f7ce52d7
-  source_uids:
-  - ET-33406085-239861554@resources.planningcenteronline.com
-  title: National Collection Week (OCC) Volunteer Signup
-  summary: Urbancrest is an official collection center for Operation Christmas Child!...
-  description: 'Urbancrest is an official collection center for Operation Christmas Child! We will be receiving shoeboxes from churches in our area during National Collection Week: November 16-23.
-
-
-    Our church will be open to collect boxes for a couple hours each day of collection week, and we are looking for a few folks each day who can help with registration/paperwork, receiving and organizing boxes during this time. Please see our collection schedule below, and sign up to help in the time slot that fits your schedule.
-
-
-    We hope you and your family/Small Group/friends will consider serving for a couple hours during National Collection Week, as many hands will make light work! Reach out to Jen with any questions at jprows@urbancrest.church
-
-
-    Urbancrest National Collection Week Schedule:
-
-    – Monday, November 17 from 6:00-8:00 PM
-
-    – Tuesday, November 18 from 10:00 AM-12:00 PM
-
-    – Wednesday, November 19 from 10:00 AM-12:00 PM
-
-    – Thursday, November 20 from 6:00-8:00 PM
-
-    – Friday, November 21 from 5:00-7:00 PM
-
-    – Saturday, November 22 from 10:00 AM-12:00 PM
-
-    – Sunday, November 23 from 2:30-5:30 PM
-
-    – Monday, November 24 from 8:00-11:00 AM
-
-    Register: https://urbancrest.churchcenter.com/registrations/events/3959067'
-  planning_center_event_instance_id: '239861554'
-  planning_center_event_time_id: '33406085'
-  location: Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-  registration_url: https://urbancrest.churchcenter.com/registrations/events/3959067
-  ministries:
-  - kids
-  - small_groups
-  audiences:
-  - children
-  - families
-  - volunteers
-  event_category: small_group_meeting
-  event_priority: 20
-  next_meeting: &id001
-    start: '2026-11-16T18:00:00-05:00'
-    end: '2026-11-23T11:00:00-05:00'
-    sort_start_utc: '2026-11-16T23:00:00Z'
-    sort_end_utc: '2026-11-23T16:00:00Z'
-    display_when: Monday, November 16, 2026 at 6 PM through Monday, November 23, 2026 at 11 AM
-    all_day: false
-  future_meetings:
-  - *id001
-  meeting_count_in_window: 1
-  knowledge_file: knowledge/small-groups/generated/national-collection-week-occ-volunteer-signup-ce52d7.md
 - id: group-95131c638f1a4d4c
   source_uids:
   - ET-33366261-239691736@resources.planningcenteronline.com
@@ -128,6 +71,7 @@ groups:
   - ET-33366261-239691785@resources.planningcenteronline.com
   - ET-33366261-239691786@resources.planningcenteronline.com
   - ET-33366261-239691787@resources.planningcenteronline.com
+  - ET-33366261-239691788@resources.planningcenteronline.com
   title: Pursuit - Small Group
   summary: Bob Woods
   description: Bob Woods
@@ -139,7 +83,7 @@ groups:
   - everyone
   event_category: small_group_meeting
   event_priority: 20
-  next_meeting: &id002
+  next_meeting: &id001
     start: '2026-11-24T10:30:00-05:00'
     end: '2026-11-24T12:00:00-05:00'
     sort_start_utc: '2026-11-24T15:30:00Z'
@@ -147,7 +91,7 @@ groups:
     display_when: Tuesday, November 24, 2026, 10:30 AM to 12 PM
     all_day: false
   future_meetings:
-  - *id002
+  - *id001
   - start: '2026-12-01T10:30:00-05:00'
     end: '2026-12-01T12:00:00-05:00'
     sort_start_utc: '2026-12-01T15:30:00Z'
@@ -214,14 +158,12 @@ groups:
     sort_end_utc: '2027-02-09T17:00:00Z'
     display_when: Tuesday, February 9, 2027, 10:30 AM to 12 PM
     all_day: false
-  meeting_count_in_window: 52
+  meeting_count_in_window: 53
   knowledge_file: knowledge/small-groups/generated/pursuit-small-group-1a4d4c.md
 - id: group-d8ef73afd66b61fc
   source_uids:
   - ET-25282532-173254599@resources.planningcenteronline.com
   - ET-25282532-173816325@resources.planningcenteronline.com
-  - ET-25282532-174992500@resources.planningcenteronline.com
-  - ET-25282532-175309972@resources.planningcenteronline.com
   - ET-25282532-175918480@resources.planningcenteronline.com
   - ET-25282532-176872236@resources.planningcenteronline.com
   - ET-25282532-177703616@resources.planningcenteronline.com
@@ -282,7 +224,7 @@ groups:
   - students
   event_category: small_group_meeting
   event_priority: 20
-  next_meeting: &id003
+  next_meeting: &id002
     start: '2026-12-02T18:30:00-05:00'
     end: '2026-12-02T20:30:00-05:00'
     sort_start_utc: '2026-12-02T23:30:00Z'
@@ -290,24 +232,12 @@ groups:
     display_when: Wednesday, December 2, 2026, 6:30 PM to 8:30 PM
     all_day: false
   future_meetings:
-  - *id003
+  - *id002
   - start: '2026-12-09T18:30:00-05:00'
     end: '2026-12-09T20:30:00-05:00'
     sort_start_utc: '2026-12-09T23:30:00Z'
     sort_end_utc: '2026-12-10T01:30:00Z'
     display_when: Wednesday, December 9, 2026, 6:30 PM to 8:30 PM
-    all_day: false
-  - start: '2026-12-23T18:30:00-05:00'
-    end: '2026-12-23T20:30:00-05:00'
-    sort_start_utc: '2026-12-23T23:30:00Z'
-    sort_end_utc: '2026-12-24T01:30:00Z'
-    display_when: Wednesday, December 23, 2026, 6:30 PM to 8:30 PM
-    all_day: false
-  - start: '2026-12-30T18:30:00-05:00'
-    end: '2026-12-30T20:30:00-05:00'
-    sort_start_utc: '2026-12-30T23:30:00Z'
-    sort_end_utc: '2026-12-31T01:30:00Z'
-    display_when: Wednesday, December 30, 2026, 6:30 PM to 8:30 PM
     all_day: false
   - start: '2027-01-06T18:30:00-05:00'
     end: '2027-01-06T20:30:00-05:00'
@@ -357,5 +287,17 @@ groups:
     sort_end_utc: '2027-02-25T01:30:00Z'
     display_when: Wednesday, February 24, 2027, 6:30 PM to 8:30 PM
     all_day: false
-  meeting_count_in_window: 50
+  - start: '2027-03-03T18:30:00-05:00'
+    end: '2027-03-03T20:30:00-05:00'
+    sort_start_utc: '2027-03-03T23:30:00Z'
+    sort_end_utc: '2027-03-04T01:30:00Z'
+    display_when: Wednesday, March 3, 2027, 6:30 PM to 8:30 PM
+    all_day: false
+  - start: '2027-03-10T18:30:00-05:00'
+    end: '2027-03-10T20:30:00-05:00'
+    sort_start_utc: '2027-03-10T23:30:00Z'
+    sort_end_utc: '2027-03-11T01:30:00Z'
+    display_when: Wednesday, March 10, 2027, 6:30 PM to 8:30 PM
+    all_day: false
+  meeting_count_in_window: 48
   knowledge_file: knowledge/small-groups/generated/urbancrest-student-ministry-6b61fc.md

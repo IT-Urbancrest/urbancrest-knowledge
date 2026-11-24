@@ -16,25 +16,13 @@ tags: [events, calendar, registrations, upcoming, schedule]
 resources:
   - events.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-11-23T12:45:57.309473Z
+last_generated: 2026-11-24T02:13:59.959035Z
 ---
 
 # Upcoming Events
 
 This index combines Urbancrest's live calendar with public Planning Center Registrations events.
 Events are listed in ascending chronological order.
-
-## National Collection Week (OCC) Volunteer Signup
-
-**Category:** Kids Event
-
-**When:** Monday, November 16, 2026 at 6:00 PM
-
-**Where:** Urbancrest Church - 2634 Drake Road
-Gymnasium
-Lebanon, OH 45036
-
-**Registration:** https://urbancrest.churchcenter.com/registrations/events/3959067/reservations/new
 
 ## Sunday Morning Services: 9:30 AM Service
 
@@ -272,27 +260,15 @@ Detailed event file: `knowledge/events/generated/2026-12-17-christmas-choir-rehe
 
 ## Family Christmas Movie Night
 
-**Category:** General Event
-
-**When:** Friday, December 18, 2026, 6 PM to 8 PM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-**Registration:** https://urbancrest.churchcenter.com/registrations/events/4013288/reservations/new
-
-Detailed event file: `knowledge/events/generated/2026-12-18-family-christmas-movie-night-c3d70a.md`
-
-## Family Christmas Movie Night
-
 **Category:** Ministry Event
 
 **When:** Friday, December 18, 2026, 6:30 PM to 8 PM
 
 **Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
 
-**Registration:** https://urbancrest.churchcenter.com/registrations/events/4013288
+**Registration:** https://urbancrest.churchcenter.com/registrations/events/4013288/reservations/new
 
-Detailed event file: `knowledge/events/generated/2026-12-18-family-christmas-movie-night-295487.md`
+Detailed event file: `knowledge/events/generated/2026-12-18-family-christmas-movie-night-d92171.md`
 
 ## Christmas Worship Rehearsal
 
@@ -336,15 +312,21 @@ Detailed event file: `knowledge/events/generated/2026-12-20-sunday-morning-servi
 
 Detailed event file: `knowledge/events/generated/2026-12-20-sunday-morning-services-11-00-am-service-8ed068.md`
 
-## Wednesday Night Dinner
+## Office Closed
 
-**Category:** Churchwide Program
+**Category:** General Event
 
-**When:** Wednesday, December 23, 2026, 5:30 PM to 6:15 PM
+**When:** Thursday, December 24, 2026
 
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+Detailed event file: `knowledge/events/generated/2026-12-24-office-closed-1deea7.md`
 
-Detailed event file: `knowledge/events/generated/2026-12-23-wednesday-night-dinner-8995f6.md`
+## Christmas
+
+**Category:** General Event
+
+**When:** Friday, December 25, 2026
+
+Detailed event file: `knowledge/events/generated/2026-12-25-christmas-e8c340.md`
 
 ## Sunday Morning Services: 9:30 AM Service
 
@@ -366,15 +348,21 @@ Detailed event file: `knowledge/events/generated/2026-12-27-sunday-morning-servi
 
 Detailed event file: `knowledge/events/generated/2026-12-27-sunday-morning-services-11-00-am-service-003b62.md`
 
-## Wednesday Night Dinner
+## Office Closed
 
-**Category:** Churchwide Program
+**Category:** General Event
 
-**When:** Wednesday, December 30, 2026, 5:30 PM to 6:15 PM
+**When:** Thursday, December 31, 2026
 
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
+Detailed event file: `knowledge/events/generated/2026-12-31-office-closed-2c23d4.md`
 
-Detailed event file: `knowledge/events/generated/2026-12-30-wednesday-night-dinner-85ac1d.md`
+## New Year's Day
+
+**Category:** General Event
+
+**When:** Friday, January 1, 2027
+
+Detailed event file: `knowledge/events/generated/2027-01-01-new-year-s-day-47cf88.md`
 
 ## Men's Breakfast
 

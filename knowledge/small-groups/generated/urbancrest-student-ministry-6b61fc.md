@@ -24,11 +24,11 @@ next_meeting_start: "2026-12-02T18:30:00-05:00"
 next_meeting_end: "2026-12-02T20:30:00-05:00"
 sort_start_utc: "2026-12-02T23:30:00Z"
 sort_end_utc: "2026-12-03T01:30:00Z"
-meeting_count_in_window: 50
+meeting_count_in_window: 48
 image_url: "https://images.planningcenterusercontent.com/v1/transform?bucket=resources-production&disposition=inline&expires_at=1796104799&key=uploads%2F128485%2F6pbrc92y0shnmekrwvuppv5d9k1y&thumb=960x540%23&signature=3a86582e2a2310034155cb2311c7aeb56a714be0219dd9d34c232481ba0bfca1"
 planning_center_event_instance_id: "173254599"
 planning_center_event_time_id: "25282532"
-last_generated: 2026-11-23T12:45:56.126073Z
+last_generated: 2026-11-24T02:13:59.133983Z
 ---
 
 # Urbancrest Student Ministry
@@ -43,8 +43,6 @@ Wednesday gathering for students in grades 7-12 consisting of teaching, worship,
 
 - Wednesday, December 2, 2026, 6:30 PM to 8:30 PM
 - Wednesday, December 9, 2026, 6:30 PM to 8:30 PM
-- Wednesday, December 23, 2026, 6:30 PM to 8:30 PM
-- Wednesday, December 30, 2026, 6:30 PM to 8:30 PM
 - Wednesday, January 6, 2027, 6:30 PM to 8:30 PM
 - Wednesday, January 13, 2027, 6:30 PM to 8:30 PM
 - Wednesday, January 20, 2027, 6:30 PM to 8:30 PM
@@ -53,5 +51,7 @@ Wednesday gathering for students in grades 7-12 consisting of teaching, worship,
 - Wednesday, February 10, 2027, 6:30 PM to 8:30 PM
 - Wednesday, February 17, 2027, 6:30 PM to 8:30 PM
 - Wednesday, February 24, 2027, 6:30 PM to 8:30 PM
+- Wednesday, March 3, 2027, 6:30 PM to 8:30 PM
+- Wednesday, March 10, 2027, 6:30 PM to 8:30 PM
 
 This small group schedule is synchronized automatically from Urbancrest's live calendar.

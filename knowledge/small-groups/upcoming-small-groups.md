@@ -16,20 +16,12 @@ tags: [small_groups, groups, calendar, recurring]
 resources:
   - small_groups.live
 calendar_sort_order: sort_start_utc_ascending
-last_generated: 2026-11-23T12:45:56.126073Z
+last_generated: 2026-11-24T02:13:59.133983Z
 ---
 
 # Upcoming Small Groups
 
 Each recurring Small Group appears once with its next meeting and future schedule.
-
-## National Collection Week (OCC) Volunteer Signup
-
-**Next meeting:** Monday, November 16, 2026 at 6 PM through Monday, November 23, 2026 at 11 AM
-
-**Where:** Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036
-
-Detailed group file: `knowledge/small-groups/generated/national-collection-week-occ-volunteer-signup-ce52d7.md`
 
 ## Pursuit - Small Group
 
