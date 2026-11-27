@@ -42,7 +42,7 @@ all_day: false
 location: "Urbancrest Church - 2634 Drake Road, Lebanon, OH 45036"
 planning_center_event_instance_id: "239717460"
 planning_center_event_time_id: "33373905"
-last_generated: 2026-11-27T12:23:59.666796Z
+last_generated: 2026-11-27T23:28:16.584415Z
 ---
 
 # Annual Business Meeting
