@@ -41,7 +41,7 @@ next_for_audiences: []
 all_day: true
 planning_center_event_instance_id: "243728226"
 planning_center_event_time_id: "34104048"
-last_generated: 2026-11-27T01:44:39.939538Z
+last_generated: 2026-11-27T12:23:59.666796Z
 ---
 
 # New Year's Day
